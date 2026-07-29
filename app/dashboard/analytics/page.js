@@ -57,6 +57,17 @@ export default function AnalyticsPage() {
     setIsLoading(false);
   };
 
+  // Format a feedback timestamp (ISO string) into an absolute date + time.
+  const formatFeedbackDate = (iso) => {
+    if (!iso) return '';
+    const d = new Date(iso);
+    if (isNaN(d.getTime())) return '';
+    return d.toLocaleString('en-US', {
+      year: 'numeric', month: 'short', day: 'numeric',
+      hour: 'numeric', minute: '2-digit'
+    });
+  };
+
   const getEngagementRate = () => {
     if (!progressStats || !userStats) return 0;
     if (userStats.totalUsers === 0) return 0;
@@ -404,6 +415,12 @@ export default function AnalyticsPage() {
                         <div className="feedback-material-name">{feedback.materialName}</div>
                         {feedback.comment && (
                           <div className="feedback-comment">&ldquo;{feedback.comment}&rdquo;</div>
+                        )}
+                        {(feedback.updatedAt || feedback.createdAt) && (
+                          <div className="feedback-date">
+                            <i className="material-icons">schedule</i>
+                            {formatFeedbackDate(feedback.updatedAt || feedback.createdAt)}
+                          </div>
                         )}
                       </div>
                     ))}

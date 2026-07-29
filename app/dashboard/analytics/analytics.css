@@ -593,6 +593,20 @@
   font-style: italic;
 }
 
+.feedback-date {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 8px;
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.feedback-date i {
+  font-size: 14px;
+}
+
 /* Responsive */
 @media (max-width: 1200px) {
   .metrics-grid {
