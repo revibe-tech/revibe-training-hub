@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useRef } from 'react';
-import { updateMaterialFile } from '@/lib/materials';
+import { updateMaterialFile, logMaterialUpdate } from '@/lib/materials';
 import { useAuth } from '@/contexts/AuthContext';
 
 // Helper to generate custom Revibe presentation thumbnail for PPTX
@@ -206,6 +206,17 @@ export default function ReuploadModal({ material, onClose, onSuccess }) {
         material.storagePath,
         (p) => setProgress(Math.round(p))
       );
+
+      // Log the update so all users get a notification on next login
+      try {
+        await logMaterialUpdate(
+          material.id,
+          material.name,
+          user?.displayName || user?.email || 'Trainer'
+        );
+      } catch (logErr) {
+        console.warn('Could not log material update notification:', logErr);
+      }
 
       if (onSuccess) {
         onSuccess();

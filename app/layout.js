@@ -2,6 +2,7 @@ import { Poppins, Inter, JetBrains_Mono } from 'next/font/google';
 import './globals.css';
 import { AuthProvider } from '@/contexts/AuthContext';
 import { BadgeCelebrationProvider } from '@/components/BadgeCelebration';
+import UpdateNotificationBanner from '@/components/UpdateNotificationBanner';
 
 const poppins = Poppins({
   weight: ['400', '500', '600', '700', '800', '900'],
@@ -39,6 +40,7 @@ export default function RootLayout({ children }) {
       <body suppressHydrationWarning>
         <AuthProvider>
           <BadgeCelebrationProvider>
+            <UpdateNotificationBanner />
             {children}
           </BadgeCelebrationProvider>
         </AuthProvider>

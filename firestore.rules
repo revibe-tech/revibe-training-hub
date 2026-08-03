@@ -131,6 +131,26 @@ service cloud.firestore {
     }
 
     // ============================================
+    // Material Updates (update notifications)
+    // ============================================
+    match /materialUpdates/{updateId} {
+      // All authenticated users can read update notifications
+      allow read: if isSignedIn();
+      // Only trainers can create update notification records
+      allow create: if isTrainer();
+      // No update or delete needed
+      allow update, delete: if false;
+    }
+
+    // ============================================
+    // Notification Dismissals (per-user seen list)
+    // ============================================
+    match /notificationDismissals/{userId} {
+      // Users can only read and write their own dismissal record
+      allow read, write: if isSignedIn() && request.auth.uid == userId;
+    }
+
+    // ============================================
     // Deny all other collections by default
     // ============================================
     match /{document=**} {
