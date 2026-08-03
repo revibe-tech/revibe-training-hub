@@ -9,6 +9,7 @@ import { generateThumbnailFromUrl } from '@/lib/pdfThumbnail';
 import Navbar from '@/components/Navbar';
 import UploadZone from '@/components/UploadZone';
 import ProgressBar from '@/components/ProgressBar';
+import ReuploadModal from '@/components/ReuploadModal';
 import './dashboard.css';
 
 export default function Dashboard() {
@@ -22,6 +23,7 @@ export default function Dashboard() {
   const [isLoadingMaterials, setIsLoadingMaterials] = useState(true);
   const [userProgressMap, setUserProgressMap] = useState({});
   const [regenState, setRegenState] = useState({ running: false, done: 0, total: 0 });
+  const [reuploadMaterial, setReuploadMaterial] = useState(null);
 
   const filteredMaterials = useMemo(() => {
     let filtered = materials;
@@ -276,6 +278,13 @@ export default function Dashboard() {
                       <>
                         <button 
                           className="btn btn-outline btn-sm"
+                          onClick={() => setReuploadMaterial(material)}
+                          title="Replace / Re-upload File (Preserves Trainee Progress)"
+                        >
+                          <i className="material-icons" style={{fontSize: '16px'}}>cloud_sync</i>
+                        </button>
+                        <button 
+                          className="btn btn-outline btn-sm"
                           onClick={() => router.push(`/editor?id=${material.id}`)}
                           title="Experimental Editor"
                         >
@@ -297,6 +306,16 @@ export default function Dashboard() {
           </div>
         )}
       </main>
+
+      {reuploadMaterial && (
+        <ReuploadModal
+          material={reuploadMaterial}
+          onClose={() => setReuploadMaterial(null)}
+          onSuccess={() => {
+            loadMaterials();
+          }}
+        />
+      )}
     </div>
   );
 }
