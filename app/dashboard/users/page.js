@@ -88,7 +88,10 @@ export default function UsersPage() {
       alert(`User role updated to ${newRole} successfully!`);
     } catch (error) {
       console.error('Error updating user role:', error);
-      alert('Failed to update user role. Please try again.');
+      const reason = error?.code === 'permission-denied' || /insufficient permissions/i.test(error?.message || '')
+        ? 'Permission denied by Firestore rules. Make sure the latest firestore.rules are deployed in the Firebase Console.'
+        : (error?.message || 'Unknown error');
+      alert(`Failed to update user role: ${reason}`);
     }
     setUpdatingUserId(null);
   };

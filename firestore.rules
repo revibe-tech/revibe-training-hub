@@ -34,11 +34,12 @@ service cloud.firestore {
       allow create: if isOwner(userId) && 
                        request.resource.data.uid == userId;
       
-      // Users can update their own profile (except role)
-      // Trainers can update any user's profile (including role changes)
-      allow update: if isOwner(userId) && 
-                       (!request.resource.data.diff(resource.data).affectedKeys().hasAny(['role'])) ||
-                       isTrainer();
+      // Trainers can update any user's profile (including role/promotions).
+      // Owners can update their own profile but NOT their own role.
+      // Explicit parentheses so precedence is unambiguous.
+      allow update: if isTrainer() ||
+                       (isOwner(userId) &&
+                        !request.resource.data.diff(resource.data).affectedKeys().hasAny(['role']));
       
       // Only trainers can delete users
       allow delete: if isTrainer();
