@@ -7,15 +7,19 @@ import { getAllUsers, updateUserRole, searchUsers } from '@/lib/users';
 import Navbar from '@/components/Navbar';
 import './users.css';
 
-// Active = logged in within the last 7 days. Computed at load time (not during
-// render) so we don't call Date.now() in the render path.
+// Computed at load time (not during render) so we don't call Date.now() in the
+// render path. "Online" = heartbeat (lastActive) within the last 2 minutes
+// (the tab writes lastActive every 45s). "Active" = logged in within 7 days.
+const ONLINE_WINDOW_MS = 2 * 60 * 1000;
 const ACTIVE_WINDOW_MS = 7 * 24 * 60 * 60 * 1000;
-function computeActive(lastLogin) {
-  if (!lastLogin) return false;
-  const t = new Date(lastLogin).getTime();
+function within(ts, windowMs) {
+  if (!ts) return false;
+  const t = new Date(ts).getTime();
   if (isNaN(t)) return false;
-  return (Date.now() - t) <= ACTIVE_WINDOW_MS;
+  return (Date.now() - t) <= windowMs;
 }
+function computeOnline(lastActive) { return within(lastActive, ONLINE_WINDOW_MS); }
+function computeActive(lastLogin) { return within(lastLogin, ACTIVE_WINDOW_MS); }
 
 export default function UsersPage() {
   const { user, isTrainer, loading } = useAuth();
@@ -35,17 +39,23 @@ export default function UsersPage() {
     }
   }, [user, isTrainer, loading, router]);
 
-  // Load all users
+  // Load all users, then refresh every 30s so "Online now" stays live.
   useEffect(() => {
     if (isTrainer) {
       loadUsers();
+      const interval = setInterval(loadUsers, 30000);
+      return () => clearInterval(interval);
     }
   }, [isTrainer]);
 
   const loadUsers = async () => {
     setIsLoadingUsers(true);
     try {
-      const allUsers = (await getAllUsers()).map(u => ({ ...u, _active: computeActive(u.lastLogin) }));
+      const allUsers = (await getAllUsers()).map(u => ({
+        ...u,
+        _online: computeOnline(u.lastActive),
+        _active: computeActive(u.lastLogin)
+      }));
       setUsers(allUsers);
       setFilteredUsers(allUsers);
     } catch (error) {
@@ -132,6 +142,7 @@ export default function UsersPage() {
 
   const trainerCount = users.filter(u => u.role === 'trainer').length;
   const traineeCount = users.filter(u => u.role === 'trainee').length;
+  const onlineCount = users.filter(u => u._online).length;
   const activeCount = users.filter(u => u._active).length;
 
   return (
@@ -150,6 +161,10 @@ export default function UsersPage() {
             <div className="users-stat-badge">
               <i className="material-icons">people</i>
               <span>{users.length} Total Users</span>
+            </div>
+            <div className="users-stat-badge online">
+              <span className="online-dot-stat" />
+              <span>{onlineCount} Online now</span>
             </div>
             <div className="users-stat-badge active">
               <i className="material-icons">bolt</i>
@@ -252,9 +267,9 @@ export default function UsersPage() {
                       </span>
                     </td>
                     <td>
-                      <span className={`status-badge ${u._active ? 'is-active' : 'is-inactive'}`}>
+                      <span className={`status-badge ${u._online ? 'is-online' : (u._active ? 'is-active' : 'is-inactive')}`}>
                         <span className="status-dot" />
-                        {u._active ? 'Active' : 'Inactive'}
+                        {u._online ? 'Online' : (u._active ? 'Active' : 'Offline')}
                       </span>
                     </td>
                     <td className="user-date">{formatDate(u.lastLogin)}</td>
