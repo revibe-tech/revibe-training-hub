@@ -7,6 +7,16 @@ import { getAllUsers, updateUserRole, searchUsers } from '@/lib/users';
 import Navbar from '@/components/Navbar';
 import './users.css';
 
+// Active = logged in within the last 7 days. Computed at load time (not during
+// render) so we don't call Date.now() in the render path.
+const ACTIVE_WINDOW_MS = 7 * 24 * 60 * 60 * 1000;
+function computeActive(lastLogin) {
+  if (!lastLogin) return false;
+  const t = new Date(lastLogin).getTime();
+  if (isNaN(t)) return false;
+  return (Date.now() - t) <= ACTIVE_WINDOW_MS;
+}
+
 export default function UsersPage() {
   const { user, isTrainer, loading } = useAuth();
   const router = useRouter();
@@ -35,7 +45,7 @@ export default function UsersPage() {
   const loadUsers = async () => {
     setIsLoadingUsers(true);
     try {
-      const allUsers = await getAllUsers();
+      const allUsers = (await getAllUsers()).map(u => ({ ...u, _active: computeActive(u.lastLogin) }));
       setUsers(allUsers);
       setFilteredUsers(allUsers);
     } catch (error) {
@@ -122,6 +132,7 @@ export default function UsersPage() {
 
   const trainerCount = users.filter(u => u.role === 'trainer').length;
   const traineeCount = users.filter(u => u.role === 'trainee').length;
+  const activeCount = users.filter(u => u._active).length;
 
   return (
     <div className="min-h-screen bg-bg-white">
@@ -139,6 +150,10 @@ export default function UsersPage() {
             <div className="users-stat-badge">
               <i className="material-icons">people</i>
               <span>{users.length} Total Users</span>
+            </div>
+            <div className="users-stat-badge active">
+              <i className="material-icons">bolt</i>
+              <span>{activeCount} Active (7d)</span>
             </div>
             <div className="users-stat-badge trainer">
               <i className="material-icons">school</i>
@@ -205,6 +220,7 @@ export default function UsersPage() {
                   <th>User</th>
                   <th>Email</th>
                   <th>Role</th>
+                  <th>Status</th>
                   <th>Last Login</th>
                   <th>Joined</th>
                   <th>Actions</th>
@@ -233,6 +249,12 @@ export default function UsersPage() {
                           {u.role === 'trainer' ? 'school' : 'person'}
                         </i>
                         {u.role}
+                      </span>
+                    </td>
+                    <td>
+                      <span className={`status-badge ${u._active ? 'is-active' : 'is-inactive'}`}>
+                        <span className="status-dot" />
+                        {u._active ? 'Active' : 'Inactive'}
                       </span>
                     </td>
                     <td className="user-date">{formatDate(u.lastLogin)}</td>

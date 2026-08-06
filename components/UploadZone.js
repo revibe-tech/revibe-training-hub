@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useRef } from 'react';
-import { uploadMaterial } from '@/lib/materials';
+import { uploadMaterial, logMaterialUpdate } from '@/lib/materials';
 import { useAuth } from '@/contexts/AuthContext';
 
 // Helper to generate a stunning custom Revibe branded gradient thumbnail for presentations
@@ -215,6 +215,13 @@ export default function UploadZone({ onUploadComplete }) {
       const result = await uploadMaterial(file, metadata, (p) => {
         setProgress(Math.round(p));
       });
+
+      // Notify all users that a new material was added (one-off banner next login).
+      try {
+        await logMaterialUpdate(result.id, result.name, user?.displayName || user?.email || 'A trainer', 'added');
+      } catch (notifyErr) {
+        console.warn('Could not log material-added notification:', notifyErr);
+      }
 
       if (onUploadComplete) {
         onUploadComplete(result);

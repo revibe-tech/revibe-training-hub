@@ -65,6 +65,50 @@
   color: #3B82F6;
 }
 
+.users-stat-badge.active {
+  background: rgba(16, 185, 129, 0.12);
+}
+
+.users-stat-badge.active i {
+  color: #10B981;
+}
+
+/* Active / inactive status pill */
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.status-badge .status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.status-badge.is-active {
+  background: rgba(16, 185, 129, 0.12);
+  color: #059669;
+}
+
+.status-badge.is-active .status-dot {
+  background: #10B981;
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.2);
+}
+
+.status-badge.is-inactive {
+  background: rgba(107, 114, 128, 0.12);
+  color: #6B7280;
+}
+
+.status-badge.is-inactive .status-dot {
+  background: #9CA3AF;
+}
+
 /* Filters */
 .users-filters {
   display: flex;

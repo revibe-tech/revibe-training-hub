@@ -60,6 +60,9 @@ export default function UpdateNotificationBanner() {
 
   const latest = updates[0];
   const others = updates.slice(1);
+  const headline = latest.action === 'added'
+    ? 'New training material is available!'
+    : 'Training material has been updated!';
 
   const formatTime = (ts) => {
     if (!ts) return '';
@@ -81,7 +84,7 @@ export default function UpdateNotificationBanner() {
         <h2 className="update-notif-greeting">Hello! 👋</h2>
 
         <p className="update-notif-headline">
-          Training material has been updated!
+          {headline}
         </p>
 
         <div className="update-notif-material">
