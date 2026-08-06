@@ -75,6 +75,31 @@ export function AuthProvider({ children }) {
     return () => unsubscribe();
   }, []);
 
+  // Presence heartbeat: while a tab is open and visible, stamp lastActive on
+  // the user's doc every 45s. The Users page treats anyone whose lastActive is
+  // within the last ~2 minutes as "Online now". Only writes a non-role field,
+  // so it's allowed by the owner update rule.
+  useEffect(() => {
+    if (!user) return;
+    const ref = doc(db, 'users', user.uid);
+    const beat = () => {
+      if (typeof document !== 'undefined' && document.visibilityState !== 'visible') return;
+      setDoc(ref, { lastActive: new Date().toISOString() }, { merge: true }).catch(() => {});
+    };
+    beat();
+    const interval = setInterval(beat, 45000);
+    const onVisible = () => beat();
+    if (typeof document !== 'undefined') {
+      document.addEventListener('visibilitychange', onVisible);
+    }
+    return () => {
+      clearInterval(interval);
+      if (typeof document !== 'undefined') {
+        document.removeEventListener('visibilitychange', onVisible);
+      }
+    };
+  }, [user]);
+
   const signInWithGoogle = async () => {
     const provider = new GoogleAuthProvider();
     try {
