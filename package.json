@@ -1,6 +1,6 @@
 {
-  "name": "revibe-training-hub",
-  "version": "0.9.0",
+  "name": "revibe-portal-temp",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -10,23 +10,14 @@
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.110.2",
-    "fabric": "^7.4.0",
     "firebase": "^12.16.0",
     "next": "16.2.10",
-    "pdf-lib": "^1.17.1",
     "pdfjs-dist": "^4.4.168",
-    "pptx-browser": "^4.1.5",
     "react": "19.2.4",
-    "react-dom": "19.2.4",
-    "react-hot-toast": "^2.6.0"
+    "react-dom": "19.2.4"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
     "eslint": "^9",
-    "eslint-config-next": "16.2.10",
-    "tailwindcss": "^4"
-  },
-  "optionalDependencies": {
-    "@next/swc-win32-x64-msvc": "^16.2.10"
+    "eslint-config-next": "16.2.10"
   }
 }

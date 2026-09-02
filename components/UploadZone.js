@@ -1,98 +1,16 @@
 'use client';
 
 import { useState, useRef } from 'react';
-import { uploadMaterial, logMaterialUpdate } from '@/lib/materials';
-import { useAuth } from '@/contexts/AuthContext';
-
-// Helper to generate a stunning custom Revibe branded gradient thumbnail for presentations
-const generateRevibePresentationThumbnail = (fileName) => {
-  const canvas = document.createElement('canvas');
-  canvas.width = 400;
-  canvas.height = 250;
-  const ctx = canvas.getContext('2d');
-
-  // 1. Vibrant Revibe Branding Gradient
-  const gradient = ctx.createLinearGradient(0, 0, 400, 250);
-  gradient.addColorStop(0, '#FF3B3F');   // Bright Crimson Pink
-  gradient.addColorStop(0.5, '#7E30E1'); // Rich Royal Purple
-  gradient.addColorStop(1, '#4A00E0');   // Deep Blue
-  ctx.fillStyle = gradient;
-  ctx.fillRect(0, 0, 400, 250);
-
-  // 2. Translucent Modern Geometric Circles
-  ctx.fillStyle = 'rgba(255, 255, 255, 0.08)';
-  ctx.beginPath();
-  ctx.arc(350, 50, 110, 0, Math.PI * 2);
-  ctx.fill();
-
-  ctx.fillStyle = 'rgba(255, 255, 255, 0.05)';
-  ctx.beginPath();
-  ctx.arc(50, 200, 160, 0, Math.PI * 2);
-  ctx.fill();
-
-  // 3. Draw Stylized "R" Revibe Logo Circle
-  ctx.fillStyle = 'rgba(255, 255, 255, 0.18)';
-  ctx.beginPath();
-  ctx.arc(200, 80, 38, 0, Math.PI * 2);
-  ctx.fill();
-
-  ctx.fillStyle = '#FFFFFF';
-  ctx.font = 'bold 44px "Poppins", "Segoe UI", sans-serif';
-  ctx.textAlign = 'center';
-  ctx.textBaseline = 'middle';
-  ctx.fillText('R', 200, 80);
-
-  // 4. File Title Presentation Header
-  ctx.fillStyle = '#FFFFFF';
-  ctx.font = 'bold 20px "Segoe UI", sans-serif';
-  ctx.shadowColor = 'rgba(0, 0, 0, 0.35)';
-  ctx.shadowBlur = 6;
-  ctx.shadowOffsetY = 2;
-
-  let displayName = fileName.replace(/\.pptx$/i, '').replace(/\.pdf$/i, '');
-  if (displayName.length > 25) {
-    displayName = displayName.substring(0, 22) + '...';
-  }
-  ctx.fillText(displayName, 200, 155);
-
-  // 5. "REVIBE PRESENTATION" Pill Badge
-  ctx.shadowBlur = 0;
-  ctx.shadowOffsetY = 0;
-  ctx.fillStyle = 'rgba(255, 255, 255, 0.2)';
-
-  // Custom round-rect drawn on canvas
-  const x = 110;
-  const y = 190;
-  const width = 180;
-  const height = 28;
-  const radius = 14;
-  ctx.beginPath();
-  ctx.moveTo(x + radius, y);
-  ctx.lineTo(x + width - radius, y);
-  ctx.quadraticCurveTo(x + width, y, x + width, y + radius);
-  ctx.lineTo(x + width, y + height - radius);
-  ctx.quadraticCurveTo(x + width, y + height, x + width - radius, y + height);
-  ctx.lineTo(x + radius, y + height);
-  ctx.quadraticCurveTo(x, y + height, x, y + height - radius);
-  ctx.lineTo(x, y + radius);
-  ctx.quadraticCurveTo(x, y, x + radius, y);
-  ctx.closePath();
-  ctx.fill();
-
-  ctx.fillStyle = '#FFFFFF';
-  ctx.font = 'bold 11px "Segoe UI", sans-serif';
-  ctx.fillText('REVIBE PRESENTATION', 200, 206);
-
-  return canvas.toDataURL('image/jpeg', 0.85);
-};
+import { uploadMaterial } from '@/lib/materials';
 
 export default function UploadZone({ onUploadComplete }) {
   const [isDragging, setIsDragging] = useState(false);
   const [isUploading, setIsUploading] = useState(false);
   const [progress, setProgress] = useState(0);
   const [error, setError] = useState('');
+  const [category, setCategory] = useState('General');
+  
   const fileInputRef = useRef(null);
-  const { user } = useAuth();
 
   const handleDragOver = (e) => {
     e.preventDefault();
@@ -120,11 +38,8 @@ export default function UploadZone({ onUploadComplete }) {
   };
 
   const handleFileUpload = async (file) => {
-    const isPDF = file.type === 'application/pdf';
-    const isPPTX = file.type === 'application/vnd.openxmlformats-officedocument.presentationml.presentation' || file.name.toLowerCase().endsWith('.pptx');
-
-    if (!isPDF && !isPPTX) {
-      setError('Please upload a PDF or PPTX file.');
+    if (file.type !== 'application/pdf') {
+      setError('Please upload a PDF file.');
       return;
     }
 
@@ -140,88 +55,34 @@ export default function UploadZone({ onUploadComplete }) {
     try {
       let pageCount = 0;
       let textContent = [];
-      let thumbnailURL = null;
 
       try {
-        if (isPDF) {
-          const pdfjsLib = await import('pdfjs-dist');
-          pdfjsLib.GlobalWorkerOptions.workerSrc = `https://unpkg.com/pdfjs-dist@${pdfjsLib.version}/build/pdf.worker.min.mjs`;
-          const arrayBuffer = await file.arrayBuffer();
-          const pdf = await pdfjsLib.getDocument({ data: arrayBuffer }).promise;
-          pageCount = pdf.numPages;
+        const pdfjsLib = await import('pdfjs-dist');
+        pdfjsLib.GlobalWorkerOptions.workerSrc = `https://unpkg.com/pdfjs-dist@${pdfjsLib.version}/build/pdf.worker.min.mjs`;
+        const arrayBuffer = await file.arrayBuffer();
+        const pdf = await pdfjsLib.getDocument({ data: arrayBuffer }).promise;
+        pageCount = pdf.numPages;
 
-          // Extract text content for search indexing
-          for (let i = 1; i <= Math.min(pageCount, 50); i++) {
-            const page = await pdf.getPage(i);
-            const textObj = await page.getTextContent();
-            const pageText = textObj.items.map(item => item.str).join(' ');
-            textContent.push({ page: i, text: pageText });
-          }
-
-          // Generate a high-resolution thumbnail from page 1.
-          // The card displays it at ~100% width (up to ~380px) and Retina
-          // screens double that, so we render at 720px wide — PDFs are
-          // vector, so a larger render stays crisp — and use high JPEG
-          // quality to avoid the previous blurry/upscaled look.
-          try {
-            const THUMB_WIDTH = 720;
-            const page = await pdf.getPage(1);
-            const thumbScale = THUMB_WIDTH / page.getViewport({ scale: 1 }).width;
-            const viewport = page.getViewport({ scale: thumbScale });
-            const thumbCanvas = document.createElement('canvas');
-            thumbCanvas.width = Math.round(viewport.width);
-            thumbCanvas.height = Math.round(viewport.height);
-            const ctx = thumbCanvas.getContext('2d');
-            ctx.imageSmoothingEnabled = true;
-            ctx.imageSmoothingQuality = 'high';
-            await page.render({ canvasContext: ctx, viewport }).promise;
-            thumbnailURL = thumbCanvas.toDataURL('image/jpeg', 0.9);
-          } catch (thumbErr) {
-            console.warn('Failed to generate PDF thumbnail:', thumbErr);
-          }
-        } else if (isPPTX) {
-          const { PptxRenderer } = await import('pptx-browser');
-          const renderer = new PptxRenderer();
-          const arrayBuffer = await file.arrayBuffer();
-          await renderer.load(arrayBuffer);
-          pageCount = renderer.slideCount;
-
-          const allExtracts = await renderer.extractAll();
-          allExtracts.forEach(slide => {
-            textContent.push({ page: slide.index + 1, text: slide.text || '' });
-          });
-
-          // Generate customized branded Revibe presentation thumbnail
-          try {
-            thumbnailURL = generateRevibePresentationThumbnail(file.name);
-          } catch (thumbErr) {
-            console.warn('Failed to generate customized presentation thumbnail:', thumbErr);
-          }
-
-          renderer.destroy();
+        // Extract text for search indexing
+        for (let i = 1; i <= Math.min(pageCount, 50); i++) {
+          const page = await pdf.getPage(i);
+          const textObj = await page.getTextContent();
+          const pageText = textObj.items.map(item => item.str).join(' ');
+          textContent.push({ page: i, text: pageText });
         }
-      } catch (extractErr) {
-        console.warn("Failed to extract text content:", extractErr);
+      } catch (pdfErr) {
+        console.warn("Failed to extract PDF text context:", pdfErr);
       }
 
       const metadata = {
-        category: 'General',
-        pageCount: pageCount,
-        thumbnailURL: thumbnailURL,
-        uploadedBy: user?.email || 'unknown',
-        textContent: textContent
+        category,
+        pageCount,
+        textContent
       };
 
       const result = await uploadMaterial(file, metadata, (p) => {
         setProgress(Math.round(p));
       });
-
-      // Notify all users that a new material was added (one-off banner next login).
-      try {
-        await logMaterialUpdate(result.id, result.name, user?.displayName || user?.email || 'A trainer', 'added');
-      } catch (notifyErr) {
-        console.warn('Could not log material-added notification:', notifyErr);
-      }
 
       if (onUploadComplete) {
         onUploadComplete(result);
@@ -233,16 +94,7 @@ export default function UploadZone({ onUploadComplete }) {
 
     } catch (err) {
       console.error("Upload failed:", err);
-
-      if (err.code === 'permission_denied' || err.message?.includes('permission')) {
-        setError('Upload denied. Please check Supabase Storage permissions.');
-      } else if (err.message?.includes('does not exist')) {
-        setError('Storage bucket is not configured. Please check Supabase setup.');
-      } else if (err.message?.includes('row-level security')) {
-        setError('Upload denied by Supabase RLS policy.');
-      } else {
-        setError('Upload failed: ' + (err.message || 'Unknown error. Check your Supabase/Firebase configuration.'));
-      }
+      setError('Upload failed: ' + (err.message || 'Unknown error.'));
     } finally {
       setIsUploading(false);
       setProgress(0);
@@ -250,54 +102,61 @@ export default function UploadZone({ onUploadComplete }) {
   };
 
   return (
-    <div
-      className={`upload-zone ${isDragging ? 'drag-over' : ''}`}
-      onDragOver={handleDragOver}
-      onDragLeave={handleDragLeave}
-      onDrop={handleDrop}
-      onClick={() => !isUploading && fileInputRef.current?.click()}
-    >
-      <input
-        type="file"
-        ref={fileInputRef}
-        onChange={handleFileSelect}
-        accept="application/pdf,application/vnd.openxmlformats-officedocument.presentationml.presentation,.pptx"
-        style={{ display: 'none' }}
-      />
+    <div className="upload-container">
+      <div className="flex items-center gap-4 mb-4">
+        <label className="font-medium text-primary">Category:</label>
+        <select 
+          className="input" 
+          style={{ width: '200px', padding: '8px 12px' }}
+          value={category}
+          onChange={e => setCategory(e.target.value)}
+          disabled={isUploading}
+        >
+          <option value="General">General</option>
+          <option value="Onboarding">Onboarding</option>
+          <option value="Technical">Technical</option>
+          <option value="Sales">Sales</option>
+          <option value="Policies">Policies</option>
+        </select>
+      </div>
 
-      {isUploading ? (
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-          <i className="material-icons" style={{ fontSize: '48px', marginBottom: '16px', color: 'var(--accent-pink)' }}>cloud_upload</i>
-          <h3 className="upload-zone-title" style={{ marginBottom: '16px' }}>Uploading... {progress}%</h3>
-          <div className="progress-bar" style={{ maxWidth: '300px', width: '100%', margin: '0 auto' }}>
-            <div className="progress-bar-fill" style={{ width: `${progress}%` }}></div>
+      <div
+        className={`upload-zone ${isDragging ? 'drag-over' : ''}`}
+        onDragOver={handleDragOver}
+        onDragLeave={handleDragLeave}
+        onDrop={handleDrop}
+        onClick={() => !isUploading && fileInputRef.current?.click()}
+      >
+        <input
+          type="file"
+          ref={fileInputRef}
+          onChange={handleFileSelect}
+          accept="application/pdf"
+          style={{ display: 'none' }}
+        />
+
+        {isUploading ? (
+          <div className="flex flex-col items-center">
+            <i className="material-icons animate-bounce text-accent-pink text-display mb-4">cloud_upload</i>
+            <h3 className="text-h3 mb-4">Uploading... {progress}%</h3>
+            <div className="progress-bar w-full max-w-xs">
+              <div className="progress-bar-fill" style={{ width: `${progress}%` }}></div>
+            </div>
           </div>
-        </div>
-      ) : (
-        <>
-          <i className="material-icons upload-zone-icon">cloud_upload</i>
-          <h3 className="upload-zone-title">Upload new material</h3>
-          <p className="upload-zone-text">Drag and drop a PDF or PPTX, or <strong>Browse files</strong></p>
-          <p className="upload-zone-hint">
-            <i className="material-icons">lightbulb</i>
-            <span>Using Google Slides? Export via <strong>File → Download → PDF Document (.pdf)</strong> for the best quality and progress tracking.</span>
-          </p>
-        </>
-      )}
+        ) : (
+          <>
+            <i className="material-icons text-display text-accent-purple mb-4">picture_as_pdf</i>
+            <h3 className="text-h3 mb-2">Upload new material</h3>
+            <p className="text-muted">Drag and drop a PDF or <strong className="text-accent-pink">Browse files</strong></p>
+          </>
+        )}
 
-      {error && (
-        <div style={{
-          marginTop: '16px',
-          padding: '12px 16px',
-          background: 'var(--color-danger-light)',
-          color: 'var(--color-danger)',
-          borderRadius: 'var(--radius-md)',
-          fontSize: '14px',
-          fontWeight: '500'
-        }}>
-          ⚠️ {error}
-        </div>
-      )}
+        {error && (
+          <div className="mt-4 p-3 bg-color-danger-light text-color-danger rounded-md font-medium text-sm">
+            ⚠️ {error}
+          </div>
+        )}
+      </div>
     </div>
   );
 }

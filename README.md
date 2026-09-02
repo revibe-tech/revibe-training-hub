@@ -1,184 +1,36 @@
-# REVIBE Training Hub
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-An internal employee training platform for **REVIBE** — upload training decks, view them as a polished slideshow, and track every trainee's progress, completion, and feedback.
+## Getting Started
 
-Built with Next.js (App Router), Firebase, and Supabase.
-
----
-
-## ✨ Features
-
-### 📚 Training materials
-- **Upload PDF & PPTX** decks via drag-and-drop (stored in Supabase Storage).
-- **Google Slides friendly** — export as PDF for the best rendering + full progress tracking.
-- **Auto text extraction** at upload time (up to 50 pages) powers full-text search.
-- **Auto thumbnails** generated from page 1 of each PDF.
-- **Category filters** generated dynamically from the uploaded library.
-- **Dashboard search** across material names and embedded slide text.
-
-### 🖥️ High-quality slide viewer
-- **Crisp HiDPI / Retina rendering** via PDF.js (DPR-aware canvas).
-- **Zoom, page navigation, and a page jump input.**
-- **Slideshow autoplay** with configurable slide duration (3s / 5s / 10s).
-- **Presentation mode** for full-screen, distraction-free viewing.
-- **In-document search** (Ctrl+F) with match navigation and "X of Y" counter.
-- **End-of-deck completion banner** with a clear finish cue.
-- Legacy **PowerPoint Live** viewer retained as a fallback for older `.pptx` uploads.
-
-### 📈 Progress tracking
-- **Per-page view tracking** written to Firestore as the trainee moves through a deck.
-- **Completion percentage** and completed/in-progress state per material.
-- Powers the trainee's personal dashboard and the trainer's analytics.
-
-### ⭐ Feedback & ratings
-- **5-star rating + optional comment** collected per material.
-- **Auto-prompted** when a trainee reaches the final slide.
-- **Always-available Feedback button** in the viewer toolbar (trainees rate anytime; trainers can preview the form).
-- Server-side validation of rating range and comment length via Firestore rules.
-
-### 🏆 Gamification
-- **Achievement badges** — multiple badges awarded for milestones (first step, completions, feedback, perfect scores, and more) with progress indicators.
-- **Completion certificates** — printable / downloadable certificates for finished materials.
-- **My Learning page** — personalized progress, in-progress vs. completed tabs, badges, and certificates.
-
-### 👥 Roles & administration
-- **Google Sign-In** (Firebase Auth) with automatic popup → redirect fallback.
-- **Role-based access** — Trainer vs. Trainee, resolved from email + Firestore.
-- **User management** (trainer only) — promote/demote users between roles.
-- **Analytics dashboard** (trainer only) — platform metrics, popular materials, and a trainee leaderboard.
-- **Annotation editor** (trainer only) — draw/text/shape overlays on PDF pages (Fabric.js), saved per page to Firestore.
-
-### 🔒 Security
-- **Firestore security rules** enforcing per-user ownership on progress and feedback, trainer-only writes on materials, and input validation.
-
----
-
-## 🧱 Tech stack
-
-| Layer | Technology |
-|---|---|
-| Framework | Next.js (App Router, Turbopack) + React |
-| Styling | Tailwind CSS v4 + a custom REVIBE design system (`app/globals.css`) |
-| Auth | Firebase Authentication (Google) |
-| Database | Firebase Firestore |
-| File storage | Supabase Storage |
-| PDF rendering | `pdfjs-dist` (pinned to `4.4.168`) |
-| Annotation canvas | `fabric` |
-| Fonts | Poppins, Inter, JetBrains Mono (via `next/font`) |
-
-> ⚠️ **`pdfjs-dist` must stay at `4.4.168`.** Newer 6.x builds change the worker artifact and break CDN worker loading. Do not upgrade without testing.
-
----
-
-## 🚀 Getting started
-
-### Prerequisites
-- Node.js 18+
-- A Firebase project (Auth + Firestore enabled)
-- A Supabase project with a public `materials` storage bucket
-
-### Install & run
+First, run the development server:
 
 ```bash
-npm install
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### Build for production
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-```bash
-npm run build
-npm start
-```
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
----
+## Learn More
 
-## 🔑 Environment variables
+To learn more about Next.js, take a look at the following resources:
 
-Create a `.env.local` file in the project root (never commit this file):
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-```env
-# Firebase (client SDK — safe to expose as NEXT_PUBLIC_*)
-NEXT_PUBLIC_FIREBASE_API_KEY=your_firebase_api_key
-NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
-NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
-NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_project.firebasestorage.app
-NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
-NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
-NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=your_measurement_id
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-# Supabase
-NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-```
+## Deploy on Vercel
 
----
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## 📁 Project structure
-
-```
-app/
-  page.js               # Login page (Google Sign-In)
-  dashboard/            # Material grid, search, category filters
-    analytics/          # Trainer analytics dashboard
-    my-learning/        # Trainee progress, badges, certificates
-    users/              # Trainer user management
-  editor/               # Trainer annotation editor
-  viewer/               # Slide viewer
-  globals.css           # Master design system
-components/
-  Navbar.js             # Top navigation + version pill
-  PDFViewer.js          # Slide viewer (search, slideshow, feedback, completion)
-  PDFEditor.js          # Fabric.js annotation editor
-  UploadZone.js         # Drag-and-drop upload
-  FeedbackModal.js      # 5-star rating + comment modal
-  BadgesDisplay.js      # Achievement badges
-  Certificate.js        # Completion certificate
-  ProgressBar.js
-contexts/
-  AuthContext.js        # Auth state + role detection
-lib/
-  firebase.js           # Firebase init
-  supabase.js           # Supabase init
-  materials.js          # Material CRUD
-  progress.js           # Per-page progress tracking
-  feedback.js           # Ratings & feedback
-  achievements.js       # Badge logic + certificate data
-  users.js              # User management + leaderboard
-  version.js            # App version (shown in navbar)
-firestore.rules         # Firestore security rules
-```
-
----
-
-## 🔐 Firestore collections
-
-| Collection | Purpose |
-|---|---|
-| `users` | Profiles + role (`trainee` / `trainer`) |
-| `materials` | Deck metadata, page count, extracted text, storage URL |
-| `annotations` | Per-page Fabric.js annotation JSON |
-| `progress` | Per-user, per-material viewed pages + completion |
-| `feedback` | Per-user, per-material rating + comment |
-
-Deploy the rules with:
-
-```bash
-firebase deploy --only firestore:rules
-```
-
----
-
-## 🚢 Deployment
-
-- The web app deploys to **Vercel** (push to `main`).
-- **Firestore security rules deploy separately** — run `firebase deploy --only firestore:rules` or paste `firestore.rules` into the Firebase Console → Firestore → Rules.
-- Add your production domain to Firebase → Authentication → Authorized domains.
-
----
-
-## 📌 Versioning
-
-The current app version is shown as a pill next to the REVIBE logo in the navbar and is sourced from `package.json`. Bump it on each meaningful release so deployed builds are easy to identify.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
