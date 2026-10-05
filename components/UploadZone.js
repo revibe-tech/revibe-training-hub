@@ -7,7 +7,7 @@ import { useCallback, useEffect, useId, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 import toast from 'react-hot-toast';
 import { uploadMaterial, updateMaterialDetails, logMaterialUpdate } from '@/lib/materials';
-import { audienceSummary } from '@/lib/categories';
+import { audienceSummary, PARTNER_TYPES } from '@/lib/categories';
 import {
   ACCEPT_ATTR,
   describeUploadError,
@@ -288,15 +288,33 @@ export function CategoryField({ id, value, onChange, categories = [], disabled }
   );
 }
 
-/** Who will see a material in this category (partners only see tagged ones). */
-export function AudienceHint({ audiences = [] }) {
+/**
+ * Who can see a material. Revibe agents always can; Sellers / Repair partners
+ * are toggled per material (partners only see materials tagged for them).
+ */
+export function AudiencePicker({ value = [], onChange, disabled }) {
+  const toggle = (id) => onChange(value.includes(id) ? value.filter((x) => x !== id) : [...value, id]);
   return (
-    <p className="field-hint">
-      <i className="material-icons" aria-hidden="true" style={{ fontSize: 14, verticalAlign: '-2px' }}>
-        {audiences.length ? 'groups' : 'lock'}
-      </i>{' '}
-      Visible to {audienceSummary(audiences)}. Manage this in Categories.
-    </p>
+    <>
+      <div className="audience-picker" role="group" aria-label="Who can see this">
+        <span className="chip cat-chip active is-locked" title="Revibe agents always see every material">
+          <i className="material-icons" aria-hidden="true">support_agent</i>Revibe agents
+        </span>
+        {PARTNER_TYPES.map((p) => (
+          <button
+            key={p.id}
+            type="button"
+            className={`chip cat-chip ${value.includes(p.id) ? 'active' : ''}`}
+            aria-pressed={value.includes(p.id)}
+            disabled={disabled}
+            onClick={() => toggle(p.id)}
+          >
+            <i className="material-icons" aria-hidden="true">{p.icon}</i>{p.label}
+          </button>
+        ))}
+      </div>
+      <p className="field-hint">Visible to {audienceSummary(value)}.</p>
+    </>
   );
 }
 
@@ -309,6 +327,12 @@ export default function UploadZone({ initialFile = null, categories = [], catego
   const [file, setFile] = useState(initialFile && !initialError ? initialFile : null);
   const [name, setName] = useState(initialFile && !initialError ? displayNameFromFile(initialFile.name) : '');
   const [category, setCategory] = useState(defaultCategory || 'General');
+  const [audiences, setAudiences] = useState(categoryAudiences[defaultCategory || 'General'] || []);
+  // Picking a category pre-fills its default visibility; it can still be changed below.
+  const changeCategory = (next) => {
+    setCategory(next);
+    if (categoryAudiences[next.trim()]) setAudiences(categoryAudiences[next.trim()]);
+  };
   const [error, setError] = useState(initialError || '');
   const [phase, setPhase] = useState('idle'); // idle | extract | upload
   const [progress, setProgress] = useState(0);
@@ -337,7 +361,6 @@ export default function UploadZone({ initialFile = null, categories = [], catego
     if (!file || busy) return;
     const finalName = name.trim() || displayNameFromFile(file.name);
     const finalCategory = category.trim() || 'General';
-    const audiences = categoryAudiences[finalCategory] || [];
 
     setError('');
     setPhase('extract');
@@ -424,8 +447,11 @@ export default function UploadZone({ initialFile = null, categories = [], catego
               </div>
               <div className="up-field">
                 <label className="field-label" htmlFor={categoryId}>Category</label>
-                <CategoryField id={categoryId} value={category} onChange={setCategory} categories={categories} disabled={busy} />
-                <AudienceHint audiences={categoryAudiences[category.trim()] || []} />
+                <CategoryField id={categoryId} value={category} onChange={changeCategory} categories={categories} disabled={busy} />
+              </div>
+              <div className="up-field">
+                <span className="field-label">Who can see this</span>
+                <AudiencePicker value={audiences} onChange={setAudiences} disabled={busy} />
               </div>
             </fieldset>
 

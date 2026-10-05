@@ -865,3 +865,6 @@ ul, ol { list-style: none; }
 @media (max-width: 480px) {
   .partner-options { grid-template-columns: 1fr; }
 }
+
+.audience-picker { display: flex; flex-wrap: wrap; gap: var(--space-2); }
+.audience-picker .is-locked { cursor: default; opacity: 0.85; }

@@ -76,7 +76,7 @@ export default function CategoryManager({ categories, onClose, onChanged }) {
   return (
     <ModalShell
       title="Categories"
-      subtitle="Revibe members see everything. Tag which partners can also see each category."
+      subtitle="Revibe agents see everything. Toggling a partner here applies to every material in the category; fine-tune single materials in Edit details."
       icon="label"
       onClose={onClose}
       dismissible={!busy}

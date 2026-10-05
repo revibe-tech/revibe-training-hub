@@ -9,7 +9,7 @@ import { getAllMaterials, deleteMaterial, updateMaterialDetails, updateMaterialT
 import { getUserProgress } from '@/lib/progress';
 import { generatePresentationThumbnail } from '@/lib/thumbnails';
 import Navbar from '@/components/Navbar';
-import UploadZone, { AudienceHint, CategoryField, FormAlert, ModalShell } from '@/components/UploadZone';
+import UploadZone, { AudiencePicker, CategoryField, FormAlert, ModalShell } from '@/components/UploadZone';
 import CategoryManager from '@/components/CategoryManager';
 import { getCategories, PARTNER_TYPES } from '@/lib/categories';
 import ProgressBar from '@/components/ProgressBar';
@@ -879,7 +879,7 @@ function MaterialCard({ material, progress, status, isNew, matchPage, isTrainer,
             <ActionMenu
               label={`Actions for ${material.name}`}
               items={[
-                { label: 'Edit details', icon: 'edit_note', onSelect: onEdit },
+                { label: 'Edit details & visibility', icon: 'edit_note', onSelect: onEdit },
                 { label: 'Replace file', icon: 'cloud_sync', onSelect: onReplace },
                 { label: 'Open in editor', icon: 'draw', onSelect: onOpenEditor },
                 { separator: true },
@@ -899,7 +899,7 @@ function AudienceTags({ audiences = [] }) {
     <span className="audience-tags" title="Who can see this besides Revibe">
       {partners.length === 0 ? (
         <span className="badge badge-neutral">
-          <i className="material-icons" aria-hidden="true">lock</i>Revibe only
+          <i className="material-icons" aria-hidden="true">support_agent</i>Revibe agents only
         </span>
       ) : partners.map((p) => (
         <span key={p.id} className="badge badge-purple">
@@ -982,6 +982,7 @@ function SkeletonGrid() {
 function EditDetailsModal({ material, categories, categoryAudiences = {}, onClose, onSaved }) {
   const [name, setName] = useState(material.name || '');
   const [category, setCategory] = useState(material.category || 'General');
+  const [audiences, setAudiences] = useState(material.audiences || []);
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState('');
   const nameId = useId();
@@ -997,7 +998,8 @@ function EditDetailsModal({ material, categories, categoryAudiences = {}, onClos
     const nextCategory = category.trim();
     if (!nextName) return setError('Give the material a name.');
     if (!nextCategory) return setError('Pick a category or type a new one.');
-    if (nextName === material.name && nextCategory === material.category) {
+    const sameAudiences = [...audiences].sort().join() === [...(material.audiences || [])].sort().join();
+    if (nextName === material.name && nextCategory === material.category && sameAudiences) {
       onClose();
       return undefined;
     }
@@ -1005,9 +1007,6 @@ function EditDetailsModal({ material, categories, categoryAudiences = {}, onClos
     setSaving(true);
     setError('');
     try {
-      // Visibility follows the category; keep the current audiences for categories
-      // that only exist on materials (no category doc yet).
-      const audiences = categoryAudiences[nextCategory] ?? (nextCategory === material.category ? material.audiences : []) ?? [];
       await updateMaterialDetails(material.id, { name: nextName, category: nextCategory, audiences });
       const patch = { name: nextName, category: nextCategory, audiences };
 
@@ -1034,7 +1033,7 @@ function EditDetailsModal({ material, categories, categoryAudiences = {}, onClos
   };
 
   return (
-    <ModalShell title="Edit details" subtitle="Rename or move this material to another category." icon="edit_note" onClose={handleClose} dismissible={!saving}>
+    <ModalShell title="Edit details" subtitle="Rename, recategorise or change who can see this material." icon="edit_note" onClose={handleClose} dismissible={!saving}>
       <form onSubmit={handleSubmit} className="up-form" noValidate>
         <fieldset className="up-fields" disabled={saving}>
           <div className="up-field">
@@ -1050,8 +1049,21 @@ function EditDetailsModal({ material, categories, categoryAudiences = {}, onClos
           </div>
           <div className="up-field">
             <label className="field-label" htmlFor={categoryId}>Category</label>
-            <CategoryField id={categoryId} value={category} onChange={setCategory} categories={categories} disabled={saving} />
-            <AudienceHint audiences={categoryAudiences[category.trim()] ?? (category.trim() === material.category ? material.audiences : []) ?? []} />
+            <CategoryField
+              id={categoryId}
+              value={category}
+              onChange={(next) => {
+                setCategory(next);
+                // Moving to another category pre-fills its default visibility.
+                if (next.trim() !== material.category && categoryAudiences[next.trim()]) setAudiences(categoryAudiences[next.trim()]);
+              }}
+              categories={categories}
+              disabled={saving}
+            />
+          </div>
+          <div className="up-field">
+            <span className="field-label">Who can see this</span>
+            <AudiencePicker value={audiences} onChange={setAudiences} disabled={saving} />
           </div>
         </fieldset>
         <FormAlert>{error}</FormAlert>
