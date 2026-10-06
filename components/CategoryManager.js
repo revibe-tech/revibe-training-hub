@@ -1,20 +1,21 @@
 'use client';
 
 import { useState } from 'react';
-import { saveCategory, deleteCategory, PARTNER_TYPES } from '@/lib/categories';
+import { saveCategory, deleteCategory, AUDIENCES, DEFAULT_AUDIENCES } from '@/lib/categories';
 import { FormAlert, ModalShell } from '@/components/UploadZone';
 import { Spinner, useConfirm } from '@/components/ui';
 
 const toggle = (list, id) => (list.includes(id) ? list.filter((x) => x !== id) : [...list, id]);
 
 function AudienceChips({ value, onToggle, disabled }) {
-  return PARTNER_TYPES.map((p) => (
+  return AUDIENCES.map((p) => (
     <button
       key={p.id}
       type="button"
       className={`chip cat-chip ${value.includes(p.id) ? 'active' : ''}`}
       aria-pressed={value.includes(p.id)}
-      disabled={disabled}
+      // Keep at least one group: an empty list would read as legacy Revibe-only.
+      disabled={disabled || (value.length === 1 && value.includes(p.id))}
       onClick={() => onToggle(p.id)}
       title={`Visible to ${p.label}`}
     >
@@ -31,7 +32,7 @@ function AudienceChips({ value, onToggle, disabled }) {
 export default function CategoryManager({ categories, onClose, onChanged }) {
   const confirm = useConfirm();
   const [newName, setNewName] = useState('');
-  const [newAudiences, setNewAudiences] = useState([]);
+  const [newAudiences, setNewAudiences] = useState(DEFAULT_AUDIENCES);
   const [busy, setBusy] = useState(null);
   const [error, setError] = useState('');
 
@@ -59,7 +60,7 @@ export default function CategoryManager({ categories, onClose, onChanged }) {
     run('new', async () => {
       await saveCategory(name, newAudiences);
       setNewName('');
-      setNewAudiences([]);
+      setNewAudiences(DEFAULT_AUDIENCES);
     });
   };
 
@@ -76,7 +77,7 @@ export default function CategoryManager({ categories, onClose, onChanged }) {
   return (
     <ModalShell
       title="Categories"
-      subtitle="Revibe agents see everything. Toggling a partner here applies to every material in the category; fine-tune single materials in Edit details."
+      subtitle="Choose who sees each category. Toggling here applies to every material in it; fine-tune single materials in Edit details. Trainers see everything."
       icon="label"
       onClose={onClose}
       dismissible={!busy}

@@ -11,7 +11,7 @@ import {
 } from 'firebase/auth';
 import { doc, getDoc, setDoc } from 'firebase/firestore';
 import { auth, db } from '@/lib/firebase';
-import { isRevibeEmail } from '@/lib/categories';
+import { isRevibeEmail, SEES_ALL_TEAM } from '@/lib/categories';
 
 const AuthContext = createContext({});
 
@@ -21,6 +21,7 @@ export function AuthProvider({ children }) {
   const [user, setUser] = useState(null);
   const [role, setRole] = useState(null);
   const [partnerType, setPartnerType] = useState(null); // 'seller' | 'repair' for non-Revibe users
+  const [team, setTeam] = useState(null); // Revibe team (tickets / inbound / claims / operations / management)
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -34,6 +35,7 @@ export function AuthProvider({ children }) {
         // Determine role from email first (always works, no network needed)
         let currentRole = 'trainee';
         let currentPartnerType = null;
+        let currentTeam = null;
         const userType = isRevibeEmail(firebaseUser.email) ? 'revibe' : 'partner';
         if (firebaseUser.email && firebaseUser.email.toLowerCase() === ADMIN_EMAIL) {
           currentRole = 'trainer';
@@ -50,6 +52,7 @@ export function AuthProvider({ children }) {
             } else {
               currentRole = userDoc.data().role || currentRole;
               currentPartnerType = userDoc.data().partnerType || null;
+              currentTeam = userDoc.data().team || null;
               await setDoc(userRef, { userType, lastLogin: new Date().toISOString() }, { merge: true });
             }
           } else {
@@ -72,6 +75,7 @@ export function AuthProvider({ children }) {
         setUser(firebaseUser);
         setRole(currentRole);
         setPartnerType(currentPartnerType);
+        setTeam(currentTeam);
       } else {
         setUser(null);
         setRole(null);
@@ -149,11 +153,17 @@ export function AuthProvider({ children }) {
 
   return (
     <AuthContext.Provider value={{
-      user, role, loading, partnerType,
+      user, role, loading, partnerType, team,
       isTrainer: role === 'trainer',
       // Partners = anyone outside @revibe.me who isn't a trainer. They only see
       // materials tagged for their partnerType.
       isPartner: !!user && role !== 'trainer' && !isRevibeEmail(user.email),
+      // Which `audiences` tag this viewer reads by: null = sees all (trainers and
+      // the management team), undefined = partner who hasn't picked seller /
+      // repair yet (load nothing).
+      audience: !user || role === 'trainer' ? null
+        : isRevibeEmail(user.email) ? (team === SEES_ALL_TEAM ? null : 'revibe')
+        : (partnerType || undefined),
       choosePartnerType, signInWithGoogle, signOut
     }}>
       {children}

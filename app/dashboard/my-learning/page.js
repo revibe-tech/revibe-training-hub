@@ -146,7 +146,7 @@ function ListSkeleton() {
 }
 
 function MyLearning() {
-  const { user, isPartner, partnerType } = useAuth();
+  const { user, audience } = useAuth();
   const { checkForBadges } = useBadgeCelebration();
 
   const [status, setStatus] = useState('loading'); // loading | ready | error
@@ -163,8 +163,8 @@ function MyLearning() {
   const firstName = (user?.displayName || user?.email?.split('@')[0] || 'there').split(' ')[0];
 
   useEffect(() => {
-    // Partners wait until they've picked seller / repair partner
-    if (!uid || (isPartner && !partnerType)) return undefined;
+    // Partners wait until they've picked seller / repair partner (audience undefined)
+    if (!uid || audience === undefined) return undefined;
     let cancelled = false;
     (async () => {
       try {
@@ -173,7 +173,7 @@ function MyLearning() {
           getUserStats(uid),
           getUserFeedback(uid),
           getBadgeProgress(uid),
-          getAllMaterials(isPartner ? partnerType : null).catch((error) => {
+          getAllMaterials(audience).catch((error) => {
             console.error('Error loading library:', error);
             toast.error("Couldn't load suggestions from the library.");
             return [];
@@ -209,7 +209,7 @@ function MyLearning() {
     return () => {
       cancelled = true;
     };
-  }, [uid, reloadKey, isPartner, partnerType]);
+  }, [uid, reloadKey, audience]);
 
   // Catch-up: celebrate any badges earned since the user last checked.
   useEffect(() => {

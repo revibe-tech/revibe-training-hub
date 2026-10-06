@@ -9,9 +9,9 @@ import {
   RequireAuth, Skeleton, EmptyState, Avatar, StatTile, Spinner, useConfirm, timeAgo, formatDate,
 } from '@/components/ui';
 import {
-  getAllUsers, updateUserRole, updateUserPartnerType, getUserActivity, isAdminEmail, getPresence, describeRoleUpdateError,
+  getAllUsers, updateUserRole, updateUserPartnerType, updateUserTeam, getUserActivity, isAdminEmail, getPresence, describeRoleUpdateError,
 } from '@/lib/users';
-import { isRevibeEmail, partnerTypeLabel, PARTNER_TYPES } from '@/lib/categories';
+import { isRevibeEmail, partnerTypeLabel, PARTNER_TYPES, TEAMS, teamLabel } from '@/lib/categories';
 import { getUserProgress } from '@/lib/progress';
 import { getUserFeedback } from '@/lib/feedback';
 import './users.css';
@@ -211,6 +211,20 @@ function PeopleView() {
     } catch (err) {
       console.error('Error updating partner type:', err);
       toast.error(`Couldn’t update the partner type. ${err?.message || ''}`, { duration: 7000 });
+    } finally {
+      setUpdatingUid(null);
+    }
+  }, []);
+
+  const changeTeam = useCallback(async (person, team) => {
+    setUpdatingUid(person.uid);
+    try {
+      await updateUserTeam(person.uid, team);
+      setPeople((p) => ({ ...p, users: p.users.map((u) => (u.uid === person.uid ? { ...u, team } : u)) }));
+      toast.success(team ? `${person.name} is now in ${teamLabel(team)}` : `${person.name} removed from their team`);
+    } catch (err) {
+      console.error('Error updating team:', err);
+      toast.error(`Couldn’t update the team. ${err?.message || ''}`, { duration: 7000 });
     } finally {
       setUpdatingUid(null);
     }
@@ -465,6 +479,19 @@ function PeopleView() {
                     onSelect: () => { setMenu(null); changePartnerType(person, p.id); },
                   }))
                   : []),
+                // Revibe staff (non-trainers): move between teams
+                ...(person.role !== 'trainer' && isRevibeEmail(person.email)
+                  ? [
+                    ...TEAMS.filter((t) => t.id !== person.team).map((t) => ({
+                      icon: t.icon,
+                      label: `Move to ${t.label}`,
+                      onSelect: () => { setMenu(null); changeTeam(person, t.id); },
+                    })),
+                    ...(person.team
+                      ? [{ icon: 'group_off', label: 'Remove from team', onSelect: () => { setMenu(null); changeTeam(person, null); } }]
+                      : []),
+                  ]
+                  : []),
               ]}
             />
           );
@@ -489,13 +516,15 @@ function PeopleView() {
 
 /** Revibe staff vs. partner (seller / repair partner) for non-trainers. */
 function departmentLabel(person) {
-  if (person.role === 'trainer' || isRevibeEmail(person.email)) return 'Revibe';
+  if (person.role === 'trainer') return 'Revibe';
+  if (isRevibeEmail(person.email)) return teamLabel(person.team) ? `Revibe · ${teamLabel(person.team)}` : 'Revibe (no team)';
   return partnerTypeLabel(person.partnerType) || 'Partner (not chosen)';
 }
 
 function RoleBadges({ person }) {
   const partner = person.role !== 'trainer' && !isRevibeEmail(person.email);
   const partnerType = PARTNER_TYPES.find((p) => p.id === person.partnerType);
+  const team = !partner && person.role !== 'trainer' ? TEAMS.find((t) => t.id === person.team) : null;
   return (
     <span className="pp-badges">
       {person.role === 'trainer' ? (
@@ -508,6 +537,10 @@ function RoleBadges({ person }) {
             <i className="material-icons" aria-hidden="true">help_outline</i>Partner
           </span>
         )
+      ) : team ? (
+        <span className={`badge ${team.id === 'management' ? 'badge-dark' : 'badge-purple'}`}>
+          <i className="material-icons" aria-hidden="true">{team.icon}</i>{team.label}
+        </span>
       ) : (
         <span className="badge badge-purple"><i className="material-icons" aria-hidden="true">person</i>Trainee</span>
       )}

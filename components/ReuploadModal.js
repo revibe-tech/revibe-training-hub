@@ -8,6 +8,7 @@ import { updateMaterialFile, logMaterialUpdate } from '@/lib/materials';
 import { describeUploadError, extractDeck, validateDeckFile } from '@/lib/thumbnails';
 import { useAuth } from '@/contexts/AuthContext';
 import { Spinner } from '@/components/ui';
+import { normalizeAudiences } from '@/lib/categories';
 import { DropArea, FileRow, FormAlert, ModalShell, UploadProgress } from '@/components/UploadZone';
 import '@/app/dashboard/dashboard.css';
 
@@ -62,7 +63,7 @@ export default function ReuploadModal({ material, onClose, onSuccess }) {
 
       // Log the update so all users get a notification on next login.
       try {
-        await logMaterialUpdate(material.id, material.name, user?.displayName || user?.email || 'Trainer', 'updated', material.audiences || []);
+        await logMaterialUpdate(material.id, material.name, user?.displayName || user?.email || 'Trainer', 'updated', normalizeAudiences(material.audiences));
       } catch (logErr) {
         console.warn('Could not log material update notification:', logErr);
       }
