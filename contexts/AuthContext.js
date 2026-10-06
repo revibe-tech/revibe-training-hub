@@ -142,6 +142,16 @@ export function AuthProvider({ children }) {
     setPartnerType(type);
   };
 
+  // One-time pick for Revibe staff (not Management); afterwards only a trainer
+  // can change it (enforced by rules).
+  const chooseTeam = async (nextTeam) => {
+    await setDoc(doc(db, 'users', user.uid), {
+      team: nextTeam,
+      teamSetAt: new Date().toISOString()
+    }, { merge: true });
+    setTeam(nextTeam);
+  };
+
   const signOut = async () => {
     try {
       await firebaseSignOut(auth);
@@ -164,7 +174,9 @@ export function AuthProvider({ children }) {
       audience: !user || role === 'trainer' ? null
         : isRevibeEmail(user.email) ? (team === SEES_ALL_TEAM ? null : 'revibe')
         : (partnerType || undefined),
-      choosePartnerType, signInWithGoogle, signOut
+      // Revibe staff who aren't trainers; they pick a team once.
+      isRevibeMember: !!user && role !== 'trainer' && isRevibeEmail(user.email),
+      choosePartnerType, chooseTeam, signInWithGoogle, signOut
     }}>
       {children}
     </AuthContext.Provider>
