@@ -70,12 +70,17 @@ service cloud.firestore {
       
       // Trainers can update any user's profile (including role/promotions).
       // Owners can update their own profile but NOT their own role.
-      // Partners may set partnerType once (when unset); after that only a
-      // trainer can change it.
+      // Partners may set partnerType once (when unset), and Revibe staff may
+      // set their team once (any team but management); after that only a
+      // trainer can change either.
       // Explicit parentheses so precedence is unambiguous.
       allow update: if isTrainer() ||
                        (isOwner(userId) &&
-                        !request.resource.data.diff(resource.data).affectedKeys().hasAny(['role', 'team']) &&
+                        !request.resource.data.diff(resource.data).affectedKeys().hasAny(['role']) &&
+                        (!request.resource.data.diff(resource.data).affectedKeys().hasAny(['team']) ||
+                         (isRevibe() &&
+                          resource.data.get('team', null) == null &&
+                          request.resource.data.team in ['tickets', 'inbound', 'claims', 'operations'])) &&
                         (!request.resource.data.diff(resource.data).affectedKeys().hasAny(['partnerType']) ||
                          (resource.data.get('partnerType', null) == null &&
                           request.resource.data.partnerType in ['seller', 'repair'])));
