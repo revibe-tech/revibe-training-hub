@@ -7,7 +7,7 @@ import { useCallback, useEffect, useId, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 import toast from 'react-hot-toast';
 import { uploadMaterial, updateMaterialDetails, logMaterialUpdate } from '@/lib/materials';
-import { audienceSummary, PARTNER_TYPES } from '@/lib/categories';
+import { audienceSummary, AUDIENCES, DEFAULT_AUDIENCES } from '@/lib/categories';
 import {
   ACCEPT_ATTR,
   describeUploadError,
@@ -289,18 +289,15 @@ export function CategoryField({ id, value, onChange, categories = [], disabled }
 }
 
 /**
- * Who can see a material. Revibe agents always can; Sellers / Repair partners
- * are toggled per material (partners only see materials tagged for them).
+ * Who can see a material: any mix of Revibe agents, Sellers and Repair
+ * partners. Trainers always see everything.
  */
 export function AudiencePicker({ value = [], onChange, disabled }) {
   const toggle = (id) => onChange(value.includes(id) ? value.filter((x) => x !== id) : [...value, id]);
   return (
     <>
       <div className="audience-picker" role="group" aria-label="Who can see this">
-        <span className="chip cat-chip active is-locked" title="Revibe agents always see every material">
-          <i className="material-icons" aria-hidden="true">support_agent</i>Revibe agents
-        </span>
-        {PARTNER_TYPES.map((p) => (
+        {AUDIENCES.map((p) => (
           <button
             key={p.id}
             type="button"
@@ -313,7 +310,9 @@ export function AudiencePicker({ value = [], onChange, disabled }) {
           </button>
         ))}
       </div>
-      <p className="field-hint">Visible to {audienceSummary(value)}.</p>
+      <p className={`field-hint ${value.length ? '' : 'is-warning'}`}>
+        {value.length ? `Visible to ${audienceSummary(value)} (and trainers).` : 'Pick at least one group.'}
+      </p>
     </>
   );
 }
@@ -327,7 +326,7 @@ export default function UploadZone({ initialFile = null, categories = [], catego
   const [file, setFile] = useState(initialFile && !initialError ? initialFile : null);
   const [name, setName] = useState(initialFile && !initialError ? displayNameFromFile(initialFile.name) : '');
   const [category, setCategory] = useState(defaultCategory || 'General');
-  const [audiences, setAudiences] = useState(categoryAudiences[defaultCategory || 'General'] || []);
+  const [audiences, setAudiences] = useState(categoryAudiences[defaultCategory || 'General'] || DEFAULT_AUDIENCES);
   // Picking a category pre-fills its default visibility; it can still be changed below.
   const changeCategory = (next) => {
     setCategory(next);
@@ -359,6 +358,10 @@ export default function UploadZone({ initialFile = null, categories = [], catego
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!file || busy) return;
+    if (audiences.length === 0) {
+      setError('Pick at least one group who can see this.');
+      return;
+    }
     const finalName = name.trim() || displayNameFromFile(file.name);
     const finalCategory = category.trim() || 'General';
 

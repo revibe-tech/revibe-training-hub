@@ -35,11 +35,13 @@ service cloud.firestore {
       return get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('partnerType', '');
     }
 
-    // Trainers and Revibe staff see everything; partners only see docs
-    // whose `audiences` include their partner type.
+    // Trainers see everything. Revibe agents see docs tagged 'revibe' (or
+    // legacy docs with no tags, which meant Revibe-only); partners only see
+    // docs whose `audiences` include their partner type.
     function canSeeAudiences(data) {
-      return isTrainer() || isRevibe() ||
-             (isSignedIn() && myPartnerType() in data.get('audiences', []));
+      return isTrainer() ||
+             (isRevibe() && ('revibe' in data.get('audiences', []) || data.get('audiences', []).size() == 0)) ||
+             (isSignedIn() && !isRevibe() && myPartnerType() in data.get('audiences', []));
     }
 
     // ============================================

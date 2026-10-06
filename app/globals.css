@@ -867,4 +867,4 @@ ul, ol { list-style: none; }
 }
 
 .audience-picker { display: flex; flex-wrap: wrap; gap: var(--space-2); }
-.audience-picker .is-locked { cursor: default; opacity: 0.85; }
+.field-hint.is-warning { color: var(--color-warning); }

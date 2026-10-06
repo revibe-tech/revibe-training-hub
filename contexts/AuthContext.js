@@ -154,6 +154,9 @@ export function AuthProvider({ children }) {
       // Partners = anyone outside @revibe.me who isn't a trainer. They only see
       // materials tagged for their partnerType.
       isPartner: !!user && role !== 'trainer' && !isRevibeEmail(user.email),
+      // Which `audiences` tag this viewer reads by: null = trainer (sees all),
+      // undefined = partner who hasn't picked seller / repair yet (load nothing).
+      audience: !user || role === 'trainer' ? null : (isRevibeEmail(user.email) ? 'revibe' : (partnerType || undefined)),
       choosePartnerType, signInWithGoogle, signOut
     }}>
       {children}

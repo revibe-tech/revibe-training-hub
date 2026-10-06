@@ -5,13 +5,13 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import toast from 'react-hot-toast';
 import { useAuth } from '@/contexts/AuthContext';
-import { getAllMaterials, deleteMaterial, updateMaterialDetails, updateMaterialThumbnail } from '@/lib/materials';
+import { getAllMaterials, backfillDefaultAudiences, deleteMaterial, updateMaterialDetails, updateMaterialThumbnail } from '@/lib/materials';
 import { getUserProgress } from '@/lib/progress';
 import { generatePresentationThumbnail } from '@/lib/thumbnails';
 import Navbar from '@/components/Navbar';
 import UploadZone, { AudiencePicker, CategoryField, FormAlert, ModalShell } from '@/components/UploadZone';
 import CategoryManager from '@/components/CategoryManager';
-import { getCategories, PARTNER_TYPES } from '@/lib/categories';
+import { getCategories, AUDIENCES, DEFAULT_AUDIENCES, normalizeAudiences } from '@/lib/categories';
 import ProgressBar from '@/components/ProgressBar';
 import ReuploadModal from '@/components/ReuploadModal';
 import { EmptyState, RequireAuth, Spinner, StatTile, formatDate, greeting, timeAgo, useConfirm } from '@/components/ui';
@@ -54,7 +54,7 @@ export default function DashboardPage() {
    Library
    ========================================================================== */
 function Library() {
-  const { user, isTrainer, isPartner, partnerType } = useAuth();
+  const { user, isTrainer, audience } = useAuth();
   const router = useRouter();
   const confirm = useConfirm();
   const searchRef = useRef(null);
@@ -83,14 +83,22 @@ function Library() {
 
   /* ---- Data ---- */
   // Partners wait until they've picked seller / repair partner (PartnerTypePicker).
-  const waitingForPartnerType = isPartner && !partnerType;
+  const waitingForPartnerType = audience === undefined;
 
   const loadMaterials = useCallback(async ({ silent = false } = {}) => {
     if (waitingForPartnerType) return;
     if (!silent) setLoadState('loading');
     try {
-      const data = await getAllMaterials(isPartner ? partnerType : null);
+      const data = await getAllMaterials(audience);
       setMaterials(data);
+      if (isTrainer) {
+        // One-off: tag pre-existing materials so Revibe agents keep seeing them.
+        backfillDefaultAudiences(data)
+          .then((ids) => {
+            if (ids.length) setMaterials((prev) => prev.map((m) => (ids.includes(m.id) ? { ...m, audiences: DEFAULT_AUDIENCES } : m)));
+          })
+          .catch((err) => console.warn('Could not backfill material audiences:', err));
+      }
       setNow(Date.now());
       setLoadState('ready');
     } catch (error) {
@@ -98,7 +106,7 @@ function Library() {
       setLoadState('error');
       toast.error("Couldn't load the library. Check your connection and try again.");
     }
-  }, [waitingForPartnerType, isPartner, partnerType]);
+  }, [waitingForPartnerType, audience, isTrainer]);
 
   const loadCategories = useCallback(async () => {
     try {
@@ -694,7 +702,7 @@ function Library() {
 
       {managingCategories && (
         <CategoryManager
-          categories={allCategories.map((name) => categoryList.find((c) => c.name === name) || { id: name, name, audiences: [] })}
+          categories={allCategories.map((name) => categoryList.find((c) => c.name === name) || { id: name, name, audiences: DEFAULT_AUDIENCES })}
           onClose={() => setManagingCategories(false)}
           onChanged={async () => {
             await loadCategories();
@@ -893,15 +901,11 @@ function MaterialCard({ material, progress, status, isNew, matchPage, isTrainer,
   );
 }
 
-function AudienceTags({ audiences = [] }) {
-  const partners = PARTNER_TYPES.filter((p) => audiences.includes(p.id));
+function AudienceTags({ audiences }) {
+  const groups = AUDIENCES.filter((a) => normalizeAudiences(audiences).includes(a.id));
   return (
-    <span className="audience-tags" title="Who can see this besides Revibe">
-      {partners.length === 0 ? (
-        <span className="badge badge-neutral">
-          <i className="material-icons" aria-hidden="true">support_agent</i>Revibe agents only
-        </span>
-      ) : partners.map((p) => (
+    <span className="audience-tags" title="Who can see this (trainers see everything)">
+      {groups.map((p) => (
         <span key={p.id} className="badge badge-purple">
           <i className="material-icons" aria-hidden="true">{p.icon}</i>{p.label}
         </span>
@@ -982,7 +986,7 @@ function SkeletonGrid() {
 function EditDetailsModal({ material, categories, categoryAudiences = {}, onClose, onSaved }) {
   const [name, setName] = useState(material.name || '');
   const [category, setCategory] = useState(material.category || 'General');
-  const [audiences, setAudiences] = useState(material.audiences || []);
+  const [audiences, setAudiences] = useState(normalizeAudiences(material.audiences));
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState('');
   const nameId = useId();
@@ -998,7 +1002,8 @@ function EditDetailsModal({ material, categories, categoryAudiences = {}, onClos
     const nextCategory = category.trim();
     if (!nextName) return setError('Give the material a name.');
     if (!nextCategory) return setError('Pick a category or type a new one.');
-    const sameAudiences = [...audiences].sort().join() === [...(material.audiences || [])].sort().join();
+    if (audiences.length === 0) return setError('Pick at least one group who can see this.');
+    const sameAudiences = [...audiences].sort().join() === [...normalizeAudiences(material.audiences)].sort().join();
     if (nextName === material.name && nextCategory === material.category && sameAudiences) {
       onClose();
       return undefined;
