@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { useRouter, usePathname } from 'next/navigation';
 import { useAuth } from '@/contexts/AuthContext';
 import { APP_VERSION } from '@/lib/version';
-import { partnerTypeLabel } from '@/lib/categories';
+import { partnerTypeLabel, teamLabel } from '@/lib/categories';
 import { Avatar } from '@/components/ui';
 import './Navbar.css';
 
@@ -17,7 +17,7 @@ const LINKS = [
 ];
 
 export default function Navbar({ title }) {
-  const { user, isTrainer, isPartner, partnerType, signOut } = useAuth();
+  const { user, isTrainer, isPartner, partnerType, team, signOut } = useAuth();
   const router = useRouter();
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
@@ -90,7 +90,7 @@ export default function Navbar({ title }) {
               <Avatar src={user?.photoURL} name={displayName} size={34} />
               <span className="nav-user-meta">
                 <span className="nav-user-name">{firstName}</span>
-                <span className={`nav-user-role ${role}`}>{isTrainer ? 'Trainer' : (isPartner ? (partnerTypeLabel(partnerType) || 'Partner') : 'Trainee')}</span>
+                <span className={`nav-user-role ${role}`}>{isTrainer ? 'Trainer' : (isPartner ? (partnerTypeLabel(partnerType) || 'Partner') : (teamLabel(team) || 'Trainee'))}</span>
               </span>
               <i className="material-icons nav-user-caret">expand_more</i>
             </button>

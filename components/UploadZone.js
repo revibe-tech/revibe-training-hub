@@ -311,7 +311,7 @@ export function AudiencePicker({ value = [], onChange, disabled }) {
         ))}
       </div>
       <p className={`field-hint ${value.length ? '' : 'is-warning'}`}>
-        {value.length ? `Visible to ${audienceSummary(value)} (and trainers).` : 'Pick at least one group.'}
+        {value.length ? `Visible to ${audienceSummary(value)}. Management and trainers see everything.` : 'Pick at least one group.'}
       </p>
     </>
   );
