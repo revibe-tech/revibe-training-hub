@@ -88,6 +88,9 @@ limit 50;
 
 ## Limits and next steps
 
+- Each person can ask 30 questions per 10 minutes (counted from `rag_queries`;
+  `LIMIT_QUESTIONS` in `app/api/ask/route.js`), so a loop can't run up the AI
+  bill. Trainers aren't limited.
 - Text comes from the upload-time extraction: the first 50 pages per file
   (`TEXT_PAGE_LIMIT` in `lib/thumbnails.js`). Text inside screenshots isn't read.
 - A video is searchable through its description (e.g. the steps it walks

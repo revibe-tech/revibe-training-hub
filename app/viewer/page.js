@@ -56,7 +56,9 @@ function ViewerContent() {
       })
       .catch((err) => {
         console.error('Error fetching material', err);
-        if (!cancelled) setResult({ id: materialId, attempt, status: 'error', material: null });
+        // Firestore rules refuse a material that isn't shared with this person; retrying won't help.
+        const status = err?.code === 'permission-denied' ? 'denied' : 'error';
+        if (!cancelled) setResult({ id: materialId, attempt, status, material: null });
       });
     return () => { cancelled = true; };
   }, [materialId, attempt]);
@@ -94,6 +96,17 @@ function ViewerContent() {
         icon="search_off"
         heading="We couldn't find that material"
         text="It may have been removed, or the link is incomplete."
+      />
+    );
+  }
+
+  if (current.status === 'denied') {
+    return (
+      <ViewerState
+        title="No access"
+        icon="lock"
+        heading="This material isn’t shared with you"
+        text="Ask your trainer if you think you should be able to see it."
       />
     );
   }

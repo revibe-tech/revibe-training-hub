@@ -1,7 +1,7 @@
 import { after } from 'next/server';
 import { getViewer, listAllowedMaterials } from '@/lib/server/viewer';
 import { aiConfigured, embedTexts, generateJson } from '@/lib/server/ai';
-import { logQuery, searchChunks, storeConfigured } from '@/lib/server/ragStore';
+import { countQueriesSince, logQuery, searchChunks, storeConfigured } from '@/lib/server/ragStore';
 import { ANSWER_SCHEMA, SYSTEM_PROMPT, buildContents } from '@/lib/rag/prompt';
 
 export const maxDuration = 60;
@@ -9,6 +9,9 @@ export const maxDuration = 60;
 const MAX_QUESTION_CHARS = 1000;
 const MAX_HISTORY_TURNS = 6;
 const MAX_TURN_CHARS = 2000;
+// Per person, so a loop or a stuck script can't run up the AI bill. Trainers aren't limited.
+const LIMIT_WINDOW_MS = 10 * 60_000;
+const LIMIT_QUESTIONS = 30;
 const NOT_COVERED = "I couldn't find that in your training material. Try rephrasing it, or ask your trainer or team lead.";
 // Search always returns the closest passages, so no hits means nothing to search.
 const NOTHING_INDEXED = "I can't read any training material yet, so I can't answer. A trainer needs to open the Library once so I can read it.";
@@ -49,6 +52,12 @@ export async function POST(request) {
   const viewer = await getViewer(request);
   if (!viewer) return fail(401, 'Your session has expired. Sign in again to ask a question.');
   if (viewer.audience === undefined) return fail(403, 'Choose whether you’re a seller or a repair partner first.');
+  if (viewer.role !== 'trainer') {
+    const recent = await countQueriesSince(viewer.uid, new Date(Date.now() - LIMIT_WINDOW_MS));
+    if (recent !== null && recent >= LIMIT_QUESTIONS) {
+      return fail(429, 'You’ve asked a lot of questions in the last few minutes. Take a short break, then try again.');
+    }
+  }
 
   const history = cleanHistory(body.history);
   const scopeId = typeof body.materialId === 'string' ? body.materialId : null;
