@@ -11,11 +11,9 @@ import {
 } from 'firebase/auth';
 import { doc, getDoc, setDoc } from 'firebase/firestore';
 import { auth, db } from '@/lib/firebase';
-import { isRevibeEmail, SEES_ALL_TEAM } from '@/lib/categories';
+import { ADMIN_EMAIL, isRevibeEmail, resolveAudience } from '@/lib/audience';
 
 const AuthContext = createContext({});
-
-const ADMIN_EMAIL = 'youssf.rehem@revibe.me';
 
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(null);
@@ -171,9 +169,7 @@ export function AuthProvider({ children }) {
       // Which `audiences` tag this viewer reads by: null = sees all (trainers and
       // the management team), undefined = partner who hasn't picked seller /
       // repair yet (load nothing).
-      audience: !user || role === 'trainer' ? null
-        : isRevibeEmail(user.email) ? (team === SEES_ALL_TEAM ? null : 'revibe')
-        : (partnerType || undefined),
+      audience: user ? resolveAudience({ role, email: user.email, team, partnerType }) : null,
       // Revibe staff who aren't trainers; they pick a team once.
       isRevibeMember: !!user && role !== 'trainer' && isRevibeEmail(user.email),
       choosePartnerType, chooseTeam, signInWithGoogle, signOut
