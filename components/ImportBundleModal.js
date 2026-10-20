@@ -7,6 +7,9 @@ import { importBundle, parseBundle } from '@/lib/imports';
 import { FormAlert, ModalShell, UploadProgress } from '@/components/UploadZone';
 import './ImportBundleModal.css';
 
+const ITEM_ICONS = { deck: 'description', video: 'smart_display', quiz: 'quiz' };
+const ITEM_LABELS = { deck: 'Deck', video: 'Video', quiz: 'Quiz' };
+
 /** Trainer tool: paste a training bundle (see lib/imports.js), review it, import it. */
 export default function ImportBundleModal({ existingIds, initialJson = '', onClose, onImported }) {
   const { user } = useAuth();
@@ -94,9 +97,9 @@ export default function ImportBundleModal({ existingIds, initialJson = '', onClo
             const existing = existingIds.has(item.id);
             return (
               <li key={item.id} className={existing ? 'is-existing' : ''}>
-                <i className="material-icons" aria-hidden="true">{item.type === 'video' ? 'smart_display' : 'description'}</i>
+                <i className="material-icons" aria-hidden="true">{ITEM_ICONS[item.type]}</i>
                 <span className="ib-item-name">{item.name}</span>
-                <span className="ib-item-state">{existing ? 'In library' : item.type === 'video' ? 'Video' : 'Deck'}</span>
+                <span className="ib-item-state">{existing ? 'In library' : ITEM_LABELS[item.type]}</span>
               </li>
             );
           })}
@@ -145,7 +148,7 @@ export default function ImportBundleModal({ existingIds, initialJson = '', onClo
   return (
     <ModalShell
       title="Import training bundle"
-      subtitle="Add a set of decks and videos from Google Drive in one go."
+      subtitle="Add a set of decks, videos and quizzes in one go."
       icon="library_add"
       onClose={onClose}
       dismissible={!running}

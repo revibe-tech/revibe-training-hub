@@ -45,6 +45,11 @@ Built with Next.js (App Router), Firebase, and Supabase.
 - **Unanswered questions are logged** so trainers can see what the material is missing.
 - Setup and design: [docs/AI_ASSISTANT.md](docs/AI_ASSISTANT.md).
 
+### 📝 Quizzes
+- **Topic-by-topic quizzes** with multiple choice and sliders, graded on the server; the latest try per topic counts and the pass mark decides.
+- **Review after each topic**: correct answers, why, and links to the deck or video to revisit.
+- **Trainer results**: who passed, who's in progress and who hasn't started, per-topic scores, CSV, and imports of past results. See [docs/QUIZ.md](docs/QUIZ.md).
+
 ### 📊 Activity (trainer)
 - **Per-person activity** on the People page: active time per day, per section, per material and per slide, plus recent actions (opened, searched, asked, completed, rated).
 - **Time this week** column, sort and CSV export for everyone.
@@ -149,7 +154,7 @@ GEMINI_API_KEY=your_gemini_api_key
 SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
 ```
 
-The assistant and activity tracking each need a one-time SQL migration; see [docs/AI_ASSISTANT.md](docs/AI_ASSISTANT.md) and [docs/ACTIVITY.md](docs/ACTIVITY.md).
+The assistant, activity tracking and quizzes each need a one-time SQL migration; see [docs/AI_ASSISTANT.md](docs/AI_ASSISTANT.md), [docs/ACTIVITY.md](docs/ACTIVITY.md) and [docs/QUIZ.md](docs/QUIZ.md).
 
 ---
 

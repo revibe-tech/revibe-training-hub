@@ -7,6 +7,7 @@ import { useAuth } from '@/contexts/AuthContext';
 import { getMaterial } from '@/lib/materials';
 import { EmptyState, RequireAuth } from '@/components/ui';
 import PDFViewer, { ViewerShellSkeleton } from '@/components/PDFViewer';
+import QuizViewer from '@/components/QuizViewer';
 import { useAssistantScope } from '@/components/AskAssistant';
 import { useActivityMaterial } from '@/components/ActivityTracker';
 import './viewer.css';
@@ -62,7 +63,8 @@ function ViewerContent() {
 
   const current = result.id === materialId && result.attempt === attempt ? result : null;
   // The chat's "This deck" answers about whatever is open here.
-  useAssistantScope(current?.material ? materialId : null, current?.material?.name);
+  // No chat on a quiz, so the assistant can't answer the questions for you.
+  useAssistantScope(current?.material ? materialId : null, current?.material?.name, { hideChat: current?.material?.kind === 'quiz' });
   useActivityMaterial(current?.material ? materialId : null, { video: current?.material?.kind === 'video' });
 
   if (!materialId) {
@@ -109,6 +111,21 @@ function ViewerContent() {
   }
 
   const { material } = current;
+  if (material.kind === 'quiz') {
+    return (
+      <>
+        <title>{`${material.name || 'Quiz'} · Revibe Training`}</title>
+        <QuizViewer
+          key={materialId}
+          materialId={materialId}
+          title={material.name}
+          category={material.category}
+          audiences={material.audiences}
+          isTrainer={isTrainer}
+        />
+      </>
+    );
+  }
   return (
     <>
       <title>{`${material.name || 'Material'} · Revibe Training`}</title>

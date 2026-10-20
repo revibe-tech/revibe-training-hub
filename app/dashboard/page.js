@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import toast from 'react-hot-toast';
 import { useAuth } from '@/contexts/AuthContext';
-import { getAllMaterials, backfillDefaultAudiences, deleteMaterial, isVideoMaterial, updateMaterialDetails, updateMaterialThumbnail } from '@/lib/materials';
+import { getAllMaterials, backfillDefaultAudiences, deleteMaterial, isQuizMaterial, isVideoMaterial, updateMaterialDetails, updateMaterialThumbnail } from '@/lib/materials';
 import { getUserProgress } from '@/lib/progress';
 import { generatePresentationThumbnail } from '@/lib/thumbnails';
 import Navbar from '@/components/Navbar';
@@ -39,7 +39,9 @@ const STATUSES = [
 
 const isPptx = (m) => !!m?.fileName?.toLowerCase().endsWith('.pptx');
 // PowerPoints and videos get a drawn cover (title + category) instead of a page-1 render.
-const coverKind = (m) => (isVideoMaterial(m) ? 'video' : isPptx(m) ? 'pptx' : null);
+const coverKind = (m) => (isVideoMaterial(m) ? 'video' : isQuizMaterial(m) ? 'quiz' : isPptx(m) ? 'pptx' : null);
+// Videos and quizzes have no file to replace, annotate or search by page.
+const hasFile = (m) => !isVideoMaterial(m) && !isQuizMaterial(m);
 const unitFor = (m, n = 2) => (isPptx(m) ? (n === 1 ? 'slide' : 'slides') : n === 1 ? 'page' : 'pages');
 const toMillis = (v) => {
   if (!v) return 0;
@@ -947,7 +949,7 @@ function Thumb({ material }) {
   }
   return (
     <span className="lib-thumb-placeholder" aria-hidden="true">
-      <i className="material-icons">{isVideoMaterial(material) ? 'smart_display' : isPptx(material) ? 'co_present' : 'picture_as_pdf'}</i>
+      <i className="material-icons">{isVideoMaterial(material) ? 'smart_display' : isQuizMaterial(material) ? 'quiz' : isPptx(material) ? 'co_present' : 'picture_as_pdf'}</i>
     </span>
   );
 }
@@ -967,6 +969,11 @@ function MaterialCard({ material, progress, status, isNew, matchPage, isTrainer,
           <span className="lib-card-count">
             <i className="material-icons" aria-hidden="true">play_circle</i>
             Video
+          </span>
+        ) : isQuizMaterial(material) ? (
+          <span className="lib-card-count">
+            <i className="material-icons" aria-hidden="true">quiz</i>
+            Quiz
           </span>
         ) : count > 0 && (
           <span className="lib-card-count">
@@ -993,7 +1000,7 @@ function MaterialCard({ material, progress, status, isNew, matchPage, isTrainer,
             {updated ? 'Updated' : 'Added'} {timeAgo(dateValue)}
           </span>
           {isTrainer && <AudienceTags audiences={material.audiences} />}
-          {matchPage && !isVideoMaterial(material) && (
+          {matchPage && hasFile(material) && (
             <span className="lib-card-match">
               <i className="material-icons" aria-hidden="true">manage_search</i>
               Found on {unitFor(material, 1)} {matchPage}
@@ -1008,11 +1015,10 @@ function MaterialCard({ material, progress, status, isNew, matchPage, isTrainer,
               label={`Actions for ${material.name}`}
               items={[
                 { label: 'Edit details & visibility', icon: 'edit_note', onSelect: onEdit },
-                // Videos are links, so there's no file to replace or annotate.
-                ...(isVideoMaterial(material) ? [] : [
+                ...(hasFile(material) ? [
                   { label: 'Replace file', icon: 'cloud_sync', onSelect: onReplace },
                   { label: 'Open in editor', icon: 'draw', onSelect: onOpenEditor },
-                ]),
+                ] : []),
                 { separator: true },
                 { label: 'Delete', icon: 'delete_outline', onSelect: onDelete, danger: true },
               ]}

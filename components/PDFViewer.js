@@ -14,6 +14,7 @@ import { getAllMaterials } from '@/lib/materials';
 import { EmptyState, Skeleton, Spinner } from '@/components/ui';
 import { useBadgeCelebration } from './BadgeCelebration';
 import FeedbackModal from './FeedbackModal';
+import ViewerTopBar from './ViewerTopBar';
 
 // The worker must match the pdfjs-dist version.
 pdfjsLib.GlobalWorkerOptions.workerSrc = `https://unpkg.com/pdfjs-dist@${pdfjsLib.version}/build/pdf.worker.min.mjs`;
@@ -156,26 +157,6 @@ function createThumbScheduler(pdfDoc) {
 /* ──────────────────────────────────────────────────────────────────────────
    Shared shell pieces
    ────────────────────────────────────────────────────────────────────────── */
-function ViewerTopBar({ title, category, kind, children }) {
-  return (
-    <header className="vw-top">
-      <Link href="/dashboard" className="vw-back" aria-label="Back to library" title="Back to library">
-        <i className="material-icons" aria-hidden="true">arrow_back</i>
-        <span className="vw-back-label">Library</span>
-      </Link>
-      <div className="vw-titleblock">
-        <span className="vw-eyebrow">
-          {category || 'Training'}
-          {kind && <span className="vw-eyebrow-kind"> · {kind}</span>}
-        </span>
-        <h1 className="vw-title" title={title}>{title || 'Untitled material'}</h1>
-      </div>
-      <div className="vw-top-actions">
-        {children}
-      </div>
-    </header>
-  );
-}
 
 function CtlButton({ icon, label, kbd, pressed, disabled, onClick, className = '', ...rest }) {
   return (

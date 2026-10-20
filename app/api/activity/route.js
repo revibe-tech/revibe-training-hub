@@ -1,7 +1,7 @@
 import { getViewer, listAllowedMaterials, verifyRequestToken } from '@/lib/server/viewer';
 import { activityConfigured, activityOverview, activitySummary, insertEvents, isMissingSetup } from '@/lib/server/activityStore';
 
-const TYPES = new Set(['time', 'open', 'search', 'ask', 'complete', 'feedback']);
+const TYPES = new Set(['time', 'open', 'search', 'ask', 'complete', 'feedback', 'quiz']);
 const MAX_EVENTS = 200;
 const MAX_SECONDS = 3600; // one event never claims more than an hour
 const MAX_DETAIL_CHARS = 500;

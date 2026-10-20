@@ -13,23 +13,23 @@ guides and pass a quiz at 80%.
 |---|---|---|
 | Guides (PDF) | 4 (39 slides) | Training bundle import: downloaded from Drive, then the normal upload pipeline |
 | Videos | 7 | Training bundle import: video materials that play from Drive, with each video's steps from the Quick Steps guide |
-| Quiz | 4 topics, 21 questions | Not yet: the question bank lives in the old app's repo |
-| Completion records | n/a | Not yet: in the old app's data store |
+| Quiz | 4 topics, 21 questions | Training bundle import: a quiz material, questions and answers stored server-side ([QUIZ.md](QUIZ.md)) |
+| Quiz results | everyone who took it | The old hub's results CSV → quiz → Results → Import past results |
 
 Everything lands in the **Warranty** category, visible to **Revibe agents**.
 
 ## Importing
 
-1. Get the bundle file (`warranty-training-bundle.json`), or its one-click import link, from Youssf. Neither is in git.
-2. Signed in as a trainer, open the link, or go to Library → ⋯ → **Import training bundle** and paste the bundle or open the file. Then **Review** → **Import 11 items**.
-3. Running it again is safe: items already in the library are skipped.
+1. Run `supabase/migrations/20261022_quizzes.sql` in Supabase once.
+2. Get the bundle file from Youssf (guides, videos and the quiz, with its answers, so it isn't in git).
+3. Signed in as a trainer: Library → ⋯ → **Import training bundle** → open the file → **Review** → **Import 12 items**.
+4. Running it again is safe: items already in the library are skipped.
+5. Past results: in the old hub's `/admin`, **Download CSV**. Open the quiz → **Results** → **Import past results**.
 
 The import runs in the trainer's browser. Each deck is fetched from Drive by
 `/api/import/drive` (trainer only, Drive PDFs/PowerPoints up to 4 MB), then
 goes through the same steps as an upload: slide text, cover, and the training
 assistant's index. See `lib/imports.js` for the bundle format.
 
-## Still to do
-
-- Quiz and completion records: need read access to the old app's repository
-  (fork it into `revibe-tech`), then build the quiz engine from its real schema.
+The old hub's Learn ticks (which guides and videos someone marked done) don't
+come over: the library tracks that itself as people open each material.
