@@ -13,7 +13,7 @@ import UploadZone, { AudiencePicker, CategoryField, FormAlert, ModalShell } from
 import CategoryManager from '@/components/CategoryManager';
 import GroupsManager from '@/components/GroupsManager';
 import { getGroups } from '@/lib/groups';
-import { isUserAudience } from '@/lib/audience';
+import { SEES_ALL_TEAM, isUserAudience } from '@/lib/audience';
 import ImportBundleModal from '@/components/ImportBundleModal';
 import { useAssistant } from '@/components/AskAssistant';
 import { getAssistantIndex, hasAssistantText, indexMaterialsForAssistant } from '@/lib/assistant';
@@ -68,7 +68,9 @@ export default function DashboardPage() {
    Library
    ========================================================================== */
 function Library() {
-  const { user, isTrainer, audience, audiences } = useAuth();
+  const { user, isTrainer, isRevibeMember, team, audience, audiences } = useAuth();
+  // Trainers and Management see everything, so they can preview what each audience sees.
+  const canPreview = isTrainer || (isRevibeMember && team === SEES_ALL_TEAM);
   const router = useRouter();
   const confirm = useConfirm();
   const searchRef = useRef(null);
@@ -97,6 +99,9 @@ function Library() {
   const [managingGroups, setManagingGroups] = useState(false);
   const [importingBundle, setImportingBundle] = useState(false);
   const [bundleFromLink, setBundleFromLink] = useState('');
+  const [viewAs, setViewAs] = useState(null); // audience being previewed ('seller', 'group:…'), or null
+  const [showHidden, setShowHidden] = useState(false); // preview: also show what they can't see, dimmed
+  const [togglingId, setTogglingId] = useState(null);
 
   const displayName = user?.displayName || user?.email?.split('@')[0] || 'there';
   const firstName = displayName.split(' ')[0];
@@ -147,6 +152,14 @@ function Library() {
     const id = requestAnimationFrame(() => loadCategories());
     return () => cancelAnimationFrame(id);
   }, [isTrainer, loadCategories]);
+
+  // Management can preview by group too (trainers get groups with the categories).
+  useEffect(() => {
+    if (isTrainer || !canPreview) return undefined;
+    let active = true;
+    getGroups().then((g) => { if (active) setGroupList(g); }).catch(() => {});
+    return () => { active = false; };
+  }, [isTrainer, canPreview]);
 
   useEffect(() => {
     const id = requestAnimationFrame(() => loadMaterials());
@@ -217,12 +230,28 @@ function Library() {
     [progressMap],
   );
 
+  /* ---- "View as" preview (trainers and Management) ---- */
+  const previewOptions = useMemo(() => {
+    if (!canPreview) return [];
+    const options = [
+      ...AUDIENCES.map((a) => ({ id: a.id, label: a.label, icon: a.icon })),
+      ...groupList.map((g) => ({ id: g.audience, label: g.name, icon: 'groups', group: true })),
+    ];
+    return options.map((o) => ({ ...o, count: materials.filter((m) => normalizeAudiences(m.audiences).includes(o.id)).length }));
+  }, [canPreview, groupList, materials]);
+  const previewing = useMemo(() => previewOptions.find((o) => o.id === viewAs) || null, [previewOptions, viewAs]);
+  const previewId = previewing?.id || null;
+  const libraryMaterials = useMemo(
+    () => (previewId && !showHidden ? materials.filter((m) => normalizeAudiences(m.audiences).includes(previewId)) : materials),
+    [materials, previewId, showHidden],
+  );
+
   /* ---- Search / filter / sort ---- */
   const searched = useMemo(() => {
     const q = query.trim().toLowerCase();
-    if (!q) return materials.map((m) => ({ m, matchPage: null }));
+    if (!q) return libraryMaterials.map((m) => ({ m, matchPage: null }));
     const out = [];
-    for (const m of materials) {
+    for (const m of libraryMaterials) {
       if ((m.name || '').toLowerCase().includes(q) || (m.category || '').toLowerCase().includes(q)) {
         out.push({ m, matchPage: null });
         continue;
@@ -231,7 +260,7 @@ function Library() {
       if (page) out.push({ m, matchPage: page.page });
     }
     return out;
-  }, [materials, query]);
+  }, [libraryMaterials, query]);
 
   // What people look for, and whether the library has it.
   useEffect(() => {
@@ -488,6 +517,29 @@ function Library() {
     setMaterials((prev) => prev.map((x) => (x.id === id ? { ...x, ...patch } : x)));
   };
 
+  // Preview: show a material to the audience being previewed, or hide it from them.
+  const togglePreviewAudience = async (m) => {
+    const current = normalizeAudiences(m.audiences);
+    const shown = current.includes(previewing.id);
+    const next = shown ? current.filter((a) => a !== previewing.id) : [...current, previewing.id];
+    // An empty list would read as Revibe-only (legacy), not hidden.
+    if (!next.length) {
+      toast.error(`Only ${previewing.label} can see “${m.name}”. Choose who else should see it in Edit details first.`);
+      return;
+    }
+    setTogglingId(m.id);
+    try {
+      await updateMaterialDetails(m.id, { audiences: next });
+      handleDetailsSaved(m.id, { audiences: next });
+      toast.success(shown ? `Hidden from ${previewing.label}` : `${previewing.label} can see it now`);
+    } catch (err) {
+      console.error('Failed to change who sees it', err);
+      toast.error(`Couldn’t change who sees it: ${err?.message || 'unknown error'}.`);
+    } finally {
+      setTogglingId(null);
+    }
+  };
+
   /* ---- Render ---- */
   const loading = loadState === 'loading';
   const subtitle = isTrainer
@@ -614,11 +666,23 @@ function Library() {
             </h2>
             {!loading && materials.length > 0 && (
               <span className="lib-count" aria-live="polite">
-                {filtersActive ? `${visible.length} of ${materials.length}` : `${materials.length}`}{' '}
+                {filtersActive || (previewId && !showHidden) ? `${visible.length} of ${materials.length}` : `${materials.length}`}{' '}
                 {materials.length === 1 ? 'material' : 'materials'}
               </span>
             )}
           </div>
+
+          {canPreview && !loading && materials.length > 0 && (
+            <ViewAsBar
+              options={previewOptions}
+              total={materials.length}
+              value={previewId}
+              onChange={(id) => { setViewAs(id); setShowHidden(false); }}
+              showHidden={showHidden}
+              onShowHidden={setShowHidden}
+              canEdit={isTrainer}
+            />
+          )}
 
           <div className="lib-toolbar">
             <div className="search-field lib-search">
@@ -725,6 +789,17 @@ function Library() {
                 text="Your trainers haven’t added anything yet. Check back soon."
               />
             )
+          ) : previewId && !showHidden && libraryMaterials.length === 0 ? (
+            <EmptyState
+              icon="visibility_off"
+              title={`${previewing.label} don’t see any materials yet`}
+              text={isTrainer ? 'Show everything, then use Show on the materials they should see.' : 'Ask a trainer to share materials with them.'}
+              action={isTrainer && (
+                <button type="button" className="btn btn-dark" onClick={() => setShowHidden(true)}>
+                  <i className="material-icons" aria-hidden="true">visibility</i> Show everything
+                </button>
+              )}
+            />
           ) : visible.length === 0 ? (
             <EmptyState
               icon="search_off"
@@ -752,6 +827,13 @@ function Library() {
                   matchPage={matchPage}
                   isTrainer={isTrainer}
                   groups={groupList}
+                  preview={previewing && {
+                    label: previewing.label,
+                    sees: normalizeAudiences(m.audiences).includes(previewing.id),
+                    canEdit: isTrainer,
+                    busy: togglingId === m.id,
+                    onToggle: () => togglePreviewAudience(m),
+                  }}
                   onEdit={() => setEditing(m)}
                   onReplace={() => setReplacing(m)}
                   onOpenEditor={() => router.push(`/editor?id=${encodeURIComponent(m.id)}`)}
@@ -981,14 +1063,14 @@ function Thumb({ material }) {
   );
 }
 
-function MaterialCard({ material, progress, status, isNew, matchPage, isTrainer, groups, onEdit, onReplace, onOpenEditor, onDelete }) {
+function MaterialCard({ material, progress, status, isNew, matchPage, isTrainer, groups, preview, onEdit, onReplace, onOpenEditor, onDelete }) {
   const count = Number(material.pageCount) || 0;
   const pct = progress?.pct || 0;
   const updated = material.updatedAt && toMillis(material.updatedAt) > toMillis(material.uploadedAt);
   const dateValue = updated ? material.updatedAt : material.uploadedAt;
 
   return (
-    <article className={`lib-card ${status === 'completed' ? 'is-complete' : ''}`}>
+    <article className={`lib-card ${status === 'completed' ? 'is-complete' : ''} ${preview && !preview.sees ? 'is-preview-hidden' : ''}`}>
       <div className="lib-card-thumb">
         <Thumb material={material} />
         <span className="lib-card-cat">{material.category || 'General'}</span>
@@ -1052,8 +1134,82 @@ function MaterialCard({ material, progress, status, isNew, matchPage, isTrainer,
             />
           )}
         </div>
+
+        {preview && (
+          <div className={`lib-card-preview ${preview.sees ? 'is-seen' : 'is-hidden'}`}>
+            <span className="lib-card-preview-state">
+              <i className="material-icons" aria-hidden="true">{preview.sees ? 'visibility' : 'visibility_off'}</i>
+              {preview.sees ? `${preview.label} see this` : `Hidden from ${preview.label}`}
+            </span>
+            {preview.canEdit && (
+              <button
+                type="button"
+                className={`btn btn-sm ${preview.sees ? 'btn-outline' : 'btn-dark'}`}
+                onClick={preview.onToggle}
+                disabled={preview.busy}
+                aria-label={preview.sees ? `Hide “${material.name}” from ${preview.label}` : `Show “${material.name}” to ${preview.label}`}
+              >
+                {preview.busy
+                  ? <Spinner size="sm" white={!preview.sees} />
+                  : <i className="material-icons" aria-hidden="true">{preview.sees ? 'visibility_off' : 'visibility'}</i>}
+                {preview.sees ? 'Hide' : 'Show'}
+              </button>
+            )}
+          </div>
+        )}
       </div>
     </article>
+  );
+}
+
+/**
+ * Trainers and Management: see the library the way one audience (or group)
+ * does. "What they see" is their exact library; "Everything" dims the rest so
+ * trainers can Show / Hide each card for them.
+ */
+function ViewAsBar({ options, total, value, onChange, showHidden, onShowHidden, canEdit }) {
+  const current = options.find((o) => o.id === value);
+  return (
+    <div className="lib-viewas">
+      <div className="chip-row lib-viewas-chips" role="group" aria-label="Preview the library as">
+        <span className="lib-viewas-label">
+          <i className="material-icons" aria-hidden="true">visibility</i>View as
+        </span>
+        <button type="button" className={`chip ${current ? '' : 'active'}`} aria-pressed={!current} onClick={() => onChange(null)}>
+          {canEdit ? 'Trainers' : 'Management'}
+          <span className="chip-count">{total}</span>
+        </button>
+        {options.map((o) => (
+          <button key={o.id} type="button" className={`chip ${value === o.id ? 'active' : ''}`} aria-pressed={value === o.id} onClick={() => onChange(o.id)}>
+            <i className="material-icons" aria-hidden="true">{o.icon}</i>
+            {o.label}
+            <span className="chip-count">{o.count}</span>
+          </button>
+        ))}
+      </div>
+      {current && (
+        <div className="lib-viewas-banner" role="status">
+          <i className="material-icons" aria-hidden="true">visibility</i>
+          <p>
+            <b>{current.label}</b> see <b>{current.count}</b> of {total} materials
+            {current.group ? ', on top of what their own audience sees' : ''}.
+            {canEdit ? ' Use Show or Hide on a card to change that.' : ''}
+          </p>
+          <div className="segmented" role="group" aria-label="Which materials to show">
+            <button type="button" className={showHidden ? '' : 'active'} aria-pressed={!showHidden} onClick={() => onShowHidden(false)}>
+              What they see<span className="count">{current.count}</span>
+            </button>
+            <button type="button" className={showHidden ? 'active' : ''} aria-pressed={showHidden} onClick={() => onShowHidden(true)}>
+              Everything<span className="count">{total}</span>
+            </button>
+          </div>
+          <button type="button" className="btn btn-ghost btn-sm" onClick={() => onChange(null)}>
+            <i className="material-icons" aria-hidden="true">close</i>
+            Exit preview
+          </button>
+        </div>
+      )}
+    </div>
   );
 }
 
