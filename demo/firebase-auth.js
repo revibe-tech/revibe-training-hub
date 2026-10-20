@@ -1,11 +1,12 @@
 // Stand-in for `firebase/auth` in local preview mode. Signs you in as a sample
-// trainer or trainee (switchable from the floating "Preview" pill) without
-// touching Google. Never bundled in production builds.
+// trainer, trainee or seller (switchable from the floating "Preview" pill)
+// without touching Google. Never bundled in production builds.
 import { PREVIEW_USERS } from './seed';
 import { resetPreviewData } from './firebase-firestore';
 
 const AUTH_KEY = 'revibe-preview-signed-in';
 const PERSONA_KEY = 'revibe-preview-persona';
+const PERSONAS = ['trainer', 'trainee', 'seller'];
 const listeners = new Set();
 
 const read = (key, fallback) => {
@@ -17,9 +18,13 @@ const save = (key, value) => {
 
 function currentUser() {
   if (typeof window === 'undefined' || read(AUTH_KEY, 'yes') !== 'yes') return null;
-  const persona = read(PERSONA_KEY, 'trainer') === 'trainee' ? 'trainee' : 'trainer';
-  const u = PREVIEW_USERS[persona];
+  const u = PREVIEW_USERS[persona()];
   return { ...u, photoURL: null, emailVerified: true, getIdToken: async () => 'preview-token' };
+}
+
+function persona() {
+  const p = read(PERSONA_KEY, 'trainer');
+  return PERSONAS.includes(p) ? p : 'trainer';
 }
 
 function notify() {
@@ -64,7 +69,7 @@ function mountPreviewPill() {
   if (typeof document === 'undefined' || document.getElementById('revibe-preview-pill')) return;
   const mount = () => {
     if (document.getElementById('revibe-preview-pill')) return;
-    const persona = read(PERSONA_KEY, 'trainer');
+    const current = persona();
     const el = document.createElement('div');
     el.id = 'revibe-preview-pill';
     el.setAttribute('style', [
@@ -86,8 +91,9 @@ function mountPreviewPill() {
     const switchTo = (p) => () => { save(PERSONA_KEY, p); save(AUTH_KEY, 'yes'); window.location.reload(); };
     el.append(
       tag,
-      btn('Trainer', persona !== 'trainee', switchTo('trainer'), 'View the site as a trainer (admin)'),
-      btn('Trainee', persona === 'trainee', switchTo('trainee'), 'View the site as a trainee'),
+      btn('Trainer', current === 'trainer', switchTo('trainer'), 'View the site as a trainer (admin)'),
+      btn('Trainee', current === 'trainee', switchTo('trainee'), 'View the site as a Revibe trainee'),
+      btn('Seller', current === 'seller', switchTo('seller'), 'View the site as a seller partner'),
       btn('↺', false, () => { resetPreviewData(); window.location.reload(); }, 'Reset sample data'),
     );
     document.body.appendChild(el);

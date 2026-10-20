@@ -146,7 +146,7 @@ function ListSkeleton() {
 }
 
 function MyLearning() {
-  const { user, audience } = useAuth();
+  const { user, audience, audiences } = useAuth();
   const { checkForBadges } = useBadgeCelebration();
 
   const [status, setStatus] = useState('loading'); // loading | ready | error
@@ -173,7 +173,7 @@ function MyLearning() {
           getUserStats(uid),
           getUserFeedback(uid),
           getBadgeProgress(uid),
-          getAllMaterials(audience).catch((error) => {
+          getAllMaterials(audiences).catch((error) => {
             console.error('Error loading library:', error);
             toast.error("Couldn't load suggestions from the library.");
             return [];
@@ -209,7 +209,7 @@ function MyLearning() {
     return () => {
       cancelled = true;
     };
-  }, [uid, reloadKey, audience]);
+  }, [uid, reloadKey, audience, audiences]);
 
   // Catch-up: celebrate any badges earned since the user last checked.
   useEffect(() => {

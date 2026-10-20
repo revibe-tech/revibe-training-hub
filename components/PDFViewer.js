@@ -530,7 +530,7 @@ const SHORTCUTS = [
 ];
 
 function PdfDeck({ url, title, category, materialId, isTrainer, textContent, pageCount, initialPage }) {
-  const { user, audience } = useAuth();
+  const { user, audiences } = useAuth();
   const uid = user?.uid;
   const { checkForBadges } = useBadgeCelebration();
   const name = title || 'Untitled';
@@ -887,7 +887,7 @@ function PdfDeck({ url, title, category, materialId, isTrainer, textContent, pag
   useEffect(() => {
     if (!isLastPage || nextMaterial !== undefined) return;
     let cancelled = false;
-    getAllMaterials(audience)
+    getAllMaterials(audiences)
       .then((list) => {
         if (cancelled) return;
         const idx = list.findIndex((m) => m.id === materialId);
@@ -897,7 +897,7 @@ function PdfDeck({ url, title, category, materialId, isTrainer, textContent, pag
       })
       .catch(() => { if (!cancelled) setNextMaterial(null); });
     return () => { cancelled = true; };
-  }, [isLastPage, nextMaterial, materialId, isTrainer, audience]);
+  }, [isLastPage, nextMaterial, materialId, isTrainer, audiences]);
 
   /* ── Autoplay (stops on the last slide) ─────────────────────────────── */
   useEffect(() => {

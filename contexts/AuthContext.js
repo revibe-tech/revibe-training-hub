@@ -1,6 +1,6 @@
 'use client';
 
-import { createContext, useContext, useEffect, useState } from 'react';
+import { createContext, useContext, useEffect, useMemo, useState } from 'react';
 import {
   onAuthStateChanged,
   signInWithPopup,
@@ -11,7 +11,7 @@ import {
 } from 'firebase/auth';
 import { doc, getDoc, setDoc } from 'firebase/firestore';
 import { auth, db } from '@/lib/firebase';
-import { ADMIN_EMAIL, isRevibeEmail, resolveAudience } from '@/lib/audience';
+import { ADMIN_EMAIL, isRevibeEmail, resolveAudience, resolveAudiences } from '@/lib/audience';
 
 const AuthContext = createContext({});
 
@@ -20,6 +20,7 @@ export function AuthProvider({ children }) {
   const [role, setRole] = useState(null);
   const [partnerType, setPartnerType] = useState(null); // 'seller' | 'repair' for non-Revibe users
   const [team, setTeam] = useState(null); // Revibe team (tickets / inbound / claims / operations / management)
+  const [groups, setGroups] = useState([]); // 'group:<id>' a trainer put this person in
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -34,6 +35,7 @@ export function AuthProvider({ children }) {
         let currentRole = 'trainee';
         let currentPartnerType = null;
         let currentTeam = null;
+        let currentGroups = [];
         const userType = isRevibeEmail(firebaseUser.email) ? 'revibe' : 'partner';
         if (firebaseUser.email && firebaseUser.email.toLowerCase() === ADMIN_EMAIL) {
           currentRole = 'trainer';
@@ -51,6 +53,7 @@ export function AuthProvider({ children }) {
               currentRole = userDoc.data().role || currentRole;
               currentPartnerType = userDoc.data().partnerType || null;
               currentTeam = userDoc.data().team || null;
+              currentGroups = Array.isArray(userDoc.data().groups) ? userDoc.data().groups : [];
               await setDoc(userRef, { userType, lastLogin: new Date().toISOString() }, { merge: true });
             }
           } else {
@@ -74,10 +77,12 @@ export function AuthProvider({ children }) {
         setRole(currentRole);
         setPartnerType(currentPartnerType);
         setTeam(currentTeam);
+        setGroups(currentGroups);
       } else {
         setUser(null);
         setRole(null);
         setPartnerType(null);
+        setGroups([]);
       }
       setLoading(false);
     });
@@ -159,6 +164,12 @@ export function AuthProvider({ children }) {
     }
   };
 
+  // Memoised so pages can depend on it without reloading every render.
+  const audiences = useMemo(
+    () => (user ? resolveAudiences({ uid: user.uid, role, email: user.email, team, partnerType, groups }) : null),
+    [user, role, team, partnerType, groups],
+  );
+
   return (
     <AuthContext.Provider value={{
       user, role, loading, partnerType, team,
@@ -170,6 +181,9 @@ export function AuthProvider({ children }) {
       // the management team), undefined = partner who hasn't picked seller /
       // repair yet (load nothing).
       audience: user ? resolveAudience({ role, email: user.email, team, partnerType }) : null,
+      // Every `audiences` value this viewer reads by (base audience, groups,
+      // 'user:<uid>'), or null for those who see everything. Library queries use this.
+      audiences,
       // Revibe staff who aren't trainers; they pick a team once.
       isRevibeMember: !!user && role !== 'trainer' && isRevibeEmail(user.email),
       choosePartnerType, chooseTeam, signInWithGoogle, signOut

@@ -868,3 +868,5 @@ ul, ol { list-style: none; }
 
 .audience-picker { display: flex; flex-wrap: wrap; gap: var(--space-2); }
 .field-hint.is-warning { color: var(--color-warning); }
+.audience-picker-groups { margin-top: var(--space-2); align-items: center; }
+.audience-picker-label { font-size: 12px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--text-subtle); margin-right: 2px; }

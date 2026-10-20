@@ -4,7 +4,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import toast from 'react-hot-toast';
 import { getQuizResults, importQuizResults, parseResultsCsv, STATUS_LABEL } from '@/lib/quiz';
 import { getAllUsers } from '@/lib/users';
-import { resolveAudience, resolveRole } from '@/lib/audience';
+import { resolveAudiences, resolveRole } from '@/lib/audience';
 import { downloadCsv } from '@/lib/csv';
 import { EmptyState, Skeleton, Spinner, StatTile, timeAgo, useConfirm } from '@/components/ui';
 
@@ -16,12 +16,12 @@ const TILES = [
   { status: 'not-started', icon: 'hourglass_empty', tone: 'dark' },
 ];
 
-/** Who should take a quiz: everyone but trainers whose library shows materials for `audiences`. */
+/** Who should take a quiz: everyone but trainers whose library shows it (its `audiences`). */
 function eligible(user, audiences) {
   const role = resolveRole(user.email, user.role);
   if (role === 'trainer' || !user.email) return false;
-  const audience = resolveAudience({ role, email: user.email, team: user.team, partnerType: user.partnerType });
-  return audience === null || (audience !== undefined && (audiences || []).includes(audience));
+  const theirs = resolveAudiences({ uid: user.uid, role, email: user.email, team: user.team, partnerType: user.partnerType, groups: user.groups });
+  return theirs === null || theirs.some((a) => (audiences || []).includes(a));
 }
 
 /** Trainer view of a quiz: everyone's latest scores, who hasn't started, CSV out, past results in. */

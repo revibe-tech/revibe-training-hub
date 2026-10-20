@@ -9,6 +9,7 @@ const DAY = 24 * HOUR;
 export const PREVIEW_USERS = {
   trainer: { uid: 'demo-trainer', email: 'sara.khan@revibe.me', displayName: 'Sara Khan' },
   trainee: { uid: 'demo-trainee', email: 'omar.ali@revibe.me', displayName: 'Omar Ali' },
+  seller: { uid: 'demo-seller', email: 'ahmed@phonehub.ae', displayName: 'Ahmed Saleh' },
 };
 
 const PEOPLE = [
@@ -22,7 +23,38 @@ const PEOPLE = [
   ['u-adam', 'Adam Rahman', 'adam.rahman@revibe.me', 'trainee', 3000, 9 * DAY / MIN, 45],
   ['u-hana', 'Hana Ibrahim', 'hana.ibrahim@revibe.me', 'trainee', 0.8, 5, 9],
   ['u-zaid', 'Zaid Khalil', 'zaid.khalil@revibe.me', 'trainee', 20000, 20 * DAY / MIN, 80],
+  ['demo-seller', 'Ahmed Saleh', 'ahmed@phonehub.ae', 'trainee', 0.4, 1, 18],
+  ['u-rania', 'Rania Aziz', 'rania@mobilezone.sa', 'trainee', 90, 2 * DAY / MIN, 26],
+  ['u-tariq', 'Tariq Hamdan', 'tariq@fixitlab.ae', 'trainee', 600, 4 * DAY / MIN, 33],
 ];
+
+// Partners (not @revibe.me): their kind, and the groups a trainer put them in.
+const PARTNERS = {
+  'demo-seller': { partnerType: 'seller', groups: ['group:ksa-sellers'] },
+  'u-rania': { partnerType: 'seller', groups: ['group:gold-sellers'] },
+  'u-tariq': { partnerType: 'repair' },
+};
+
+const GROUPS = {
+  'ksa-sellers': 'KSA sellers',
+  'gold-sellers': 'Gold sellers',
+};
+
+// Who sees each material (docs/AUDIENCES.md). Anything not listed: Revibe agents.
+const AUDIENCES = {
+  'demo-grading': ['revibe', 'seller'],
+  'demo-customer-care': ['revibe', 'group:ksa-sellers'],
+  'demo-warranty': ['revibe', 'seller', 'repair'],
+  'demo-battery': ['revibe', 'repair', 'group:gold-sellers'],
+  'demo-express': ['revibe', 'user:demo-seller'],
+};
+
+// Categories trainers have set up; the rest fall back to Revibe agents.
+const CATEGORIES = {
+  quality: { name: 'Quality', audiences: ['revibe', 'seller'] },
+  'customer-care': { name: 'Customer Care', audiences: ['revibe', 'group:ksa-sellers'] },
+  policies: { name: 'Policies', audiences: ['revibe'] },
+};
 
 // [uid, materialIndex, pagesViewed (or 'all'), daysAgoStarted]
 const PROGRESS = [
@@ -91,6 +123,7 @@ export function createSeed(Timestamp) {
       lastLogin: iso(loginMinsAgo * MIN),
       createdAt: iso(joinedDaysAgo * DAY),
       earnedBadges: uid === 'demo-trainee' ? ['first_step', 'first_completion'] : undefined,
+      ...PARTNERS[uid],
     };
     if (users[uid].earnedBadges === undefined) delete users[uid].earnedBadges;
   }
@@ -101,6 +134,7 @@ export function createSeed(Timestamp) {
       name: m.name,
       fileName: `${m.id}.pdf`,
       category: m.category,
+      audiences: AUDIENCES[m.id] || ['revibe'],
       fileSize: 180000 + m.slides.length * 42000,
       pageCount: m.slides.length,
       storagePath: `${m.id}.pdf`,
@@ -142,11 +176,16 @@ export function createSeed(Timestamp) {
     };
   });
 
+  const groups = Object.fromEntries(Object.entries(GROUPS).map(([id, name]) => [id, { name, description: '', createdAt: iso(10 * DAY) }]));
+  const categories = Object.fromEntries(Object.entries(CATEGORIES).map(([id, c]) => [id, { ...c, updatedAt: iso(10 * DAY) }]));
+
   return {
     users,
     materials,
     progress,
     feedback,
+    groups,
+    categories,
     annotations: {},
     materialUpdates: {
       'upd-1': {
@@ -154,6 +193,7 @@ export function createSeed(Timestamp) {
         materialName: DEMO_MATERIALS[0].name,
         updatedBy: 'Sara Khan',
         action: 'added',
+        audiences: ['revibe'],
         updatedAt: new Timestamp(now - 3 * HOUR),
       },
     },

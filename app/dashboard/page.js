@@ -11,6 +11,9 @@ import { generatePresentationThumbnail } from '@/lib/thumbnails';
 import Navbar from '@/components/Navbar';
 import UploadZone, { AudiencePicker, CategoryField, FormAlert, ModalShell } from '@/components/UploadZone';
 import CategoryManager from '@/components/CategoryManager';
+import GroupsManager from '@/components/GroupsManager';
+import { getGroups } from '@/lib/groups';
+import { isUserAudience } from '@/lib/audience';
 import ImportBundleModal from '@/components/ImportBundleModal';
 import { useAssistant } from '@/components/AskAssistant';
 import { getAssistantIndex, hasAssistantText, indexMaterialsForAssistant } from '@/lib/assistant';
@@ -65,7 +68,7 @@ export default function DashboardPage() {
    Library
    ========================================================================== */
 function Library() {
-  const { user, isTrainer, audience } = useAuth();
+  const { user, isTrainer, audience, audiences } = useAuth();
   const router = useRouter();
   const confirm = useConfirm();
   const searchRef = useRef(null);
@@ -90,6 +93,8 @@ function Library() {
   const { ready: assistantReady } = useAssistant();
   const [categoryList, setCategoryList] = useState([]); // trainer: category docs with audiences
   const [managingCategories, setManagingCategories] = useState(false);
+  const [groupList, setGroupList] = useState([]); // trainer: groups for "who can see this"
+  const [managingGroups, setManagingGroups] = useState(false);
   const [importingBundle, setImportingBundle] = useState(false);
   const [bundleFromLink, setBundleFromLink] = useState('');
 
@@ -104,7 +109,7 @@ function Library() {
     if (waitingForPartnerType) return;
     if (!silent) setLoadState('loading');
     try {
-      const data = await getAllMaterials(audience);
+      const data = await getAllMaterials(audiences);
       setMaterials(data);
       if (isTrainer) {
         // One-off: tag pre-existing materials so Revibe agents keep seeing them.
@@ -121,11 +126,17 @@ function Library() {
       setLoadState('error');
       toast.error("Couldn't load the library. Check your connection and try again.");
     }
-  }, [waitingForPartnerType, audience, isTrainer]);
+  }, [waitingForPartnerType, audiences, isTrainer]);
 
   const loadCategories = useCallback(async () => {
     try {
-      setCategoryList(await getCategories());
+      const [categories, groups] = await Promise.all([
+        getCategories(),
+        // Readable once the groups rules are published; until then there are none.
+        getGroups().catch(() => []),
+      ]);
+      setCategoryList(categories);
+      setGroupList(groups);
     } catch (error) {
       console.error('Failed to load categories', error);
     }
@@ -525,6 +536,7 @@ function Library() {
                     }] : []),
                     { label: 'Import training bundle', icon: 'library_add', onSelect: () => setImportingBundle(true) },
                     { label: 'Manage categories', icon: 'label', onSelect: () => setManagingCategories(true) },
+                    { label: 'Manage groups', icon: 'groups', onSelect: () => setManagingGroups(true) },
                     { label: 'Reload library', icon: 'refresh', onSelect: () => loadMaterials() },
                   ]}
                 />
@@ -739,6 +751,7 @@ function Library() {
                   isNew={!!now && now - toMillis(m.uploadedAt) < WEEK_MS}
                   matchPage={matchPage}
                   isTrainer={isTrainer}
+                  groups={groupList}
                   onEdit={() => setEditing(m)}
                   onReplace={() => setReplacing(m)}
                   onOpenEditor={() => router.push(`/editor?id=${encodeURIComponent(m.id)}`)}
@@ -783,6 +796,7 @@ function Library() {
           initialFile={upload.file}
           categories={allCategories}
           categoryAudiences={categoryAudiences}
+          groups={groupList}
           defaultCategory={category !== 'All' ? category : 'General'}
           onClose={() => setUpload(null)}
           onUploadComplete={(m) => {
@@ -797,6 +811,7 @@ function Library() {
           material={editing}
           categories={allCategories}
           categoryAudiences={categoryAudiences}
+          groups={groupList}
           onClose={() => setEditing(null)}
           onSaved={(patch) => handleDetailsSaved(editing.id, patch)}
         />
@@ -805,7 +820,19 @@ function Library() {
       {managingCategories && (
         <CategoryManager
           categories={allCategories.map((name) => categoryList.find((c) => c.name === name) || { id: name, name, audiences: DEFAULT_AUDIENCES })}
+          groups={groupList}
           onClose={() => setManagingCategories(false)}
+          onChanged={async () => {
+            await loadCategories();
+            await loadMaterials({ silent: true });
+          }}
+        />
+      )}
+
+      {managingGroups && (
+        <GroupsManager
+          materials={materials}
+          onClose={() => setManagingGroups(false)}
           onChanged={async () => {
             await loadCategories();
             await loadMaterials({ silent: true });
@@ -954,7 +981,7 @@ function Thumb({ material }) {
   );
 }
 
-function MaterialCard({ material, progress, status, isNew, matchPage, isTrainer, onEdit, onReplace, onOpenEditor, onDelete }) {
+function MaterialCard({ material, progress, status, isNew, matchPage, isTrainer, groups, onEdit, onReplace, onOpenEditor, onDelete }) {
   const count = Number(material.pageCount) || 0;
   const pct = progress?.pct || 0;
   const updated = material.updatedAt && toMillis(material.updatedAt) > toMillis(material.uploadedAt);
@@ -999,7 +1026,7 @@ function MaterialCard({ material, progress, status, isNew, matchPage, isTrainer,
           <span title={formatDate(dateValue)}>
             {updated ? 'Updated' : 'Added'} {timeAgo(dateValue)}
           </span>
-          {isTrainer && <AudienceTags audiences={material.audiences} />}
+          {isTrainer && <AudienceTags audiences={material.audiences} groups={groups} />}
           {matchPage && hasFile(material) && (
             <span className="lib-card-match">
               <i className="material-icons" aria-hidden="true">manage_search</i>
@@ -1030,15 +1057,28 @@ function MaterialCard({ material, progress, status, isNew, matchPage, isTrainer,
   );
 }
 
-function AudienceTags({ audiences }) {
-  const groups = AUDIENCES.filter((a) => normalizeAudiences(audiences).includes(a.id));
+function AudienceTags({ audiences, groups = [] }) {
+  const list = normalizeAudiences(audiences);
+  const builtIn = AUDIENCES.filter((a) => list.includes(a.id));
+  const named = groups.filter((g) => list.includes(g.audience));
+  const people = list.filter(isUserAudience).length;
   return (
     <span className="audience-tags" title="Who can see this (trainers see everything)">
-      {groups.map((p) => (
+      {builtIn.map((p) => (
         <span key={p.id} className="badge badge-purple">
           <i className="material-icons" aria-hidden="true">{p.icon}</i>{p.label}
         </span>
       ))}
+      {named.map((g) => (
+        <span key={g.id} className="badge badge-pink">
+          <i className="material-icons" aria-hidden="true">groups</i>{g.name}
+        </span>
+      ))}
+      {people > 0 && (
+        <span className="badge badge-neutral">
+          <i className="material-icons" aria-hidden="true">person</i>{people} {people === 1 ? 'person' : 'people'}
+        </span>
+      )}
     </span>
   );
 }
@@ -1112,7 +1152,7 @@ function SkeletonGrid() {
   );
 }
 
-function EditDetailsModal({ material, categories, categoryAudiences = {}, onClose, onSaved }) {
+function EditDetailsModal({ material, categories, categoryAudiences = {}, groups = [], onClose, onSaved }) {
   const [name, setName] = useState(material.name || '');
   const [category, setCategory] = useState(material.category || 'General');
   const [audiences, setAudiences] = useState(normalizeAudiences(material.audiences));
@@ -1131,7 +1171,7 @@ function EditDetailsModal({ material, categories, categoryAudiences = {}, onClos
     const nextCategory = category.trim();
     if (!nextName) return setError('Give the material a name.');
     if (!nextCategory) return setError('Pick a category or type a new one.');
-    if (audiences.length === 0) return setError('Pick at least one group who can see this.');
+    if (audiences.length === 0) return setError('Pick who can see this.');
     const sameAudiences = [...audiences].sort().join() === [...normalizeAudiences(material.audiences)].sort().join();
     if (nextName === material.name && nextCategory === material.category && sameAudiences) {
       onClose();
@@ -1188,8 +1228,10 @@ function EditDetailsModal({ material, categories, categoryAudiences = {}, onClos
               value={category}
               onChange={(next) => {
                 setCategory(next);
-                // Moving to another category pre-fills its default visibility.
-                if (next.trim() !== material.category && categoryAudiences[next.trim()]) setAudiences(categoryAudiences[next.trim()]);
+                // Moving to another category pre-fills its default visibility; people it's shared with stay.
+                if (next.trim() !== material.category && categoryAudiences[next.trim()]) {
+                  setAudiences([...categoryAudiences[next.trim()], ...audiences.filter(isUserAudience)]);
+                }
               }}
               categories={categories}
               disabled={saving}
@@ -1197,7 +1239,7 @@ function EditDetailsModal({ material, categories, categoryAudiences = {}, onClos
           </div>
           <div className="up-field">
             <span className="field-label">Who can see this</span>
-            <AudiencePicker value={audiences} onChange={setAudiences} disabled={saving} />
+            <AudiencePicker value={audiences} onChange={setAudiences} disabled={saving} groups={groups} />
           </div>
         </fieldset>
         <FormAlert>{error}</FormAlert>

@@ -8,6 +8,7 @@ import { createPortal } from 'react-dom';
 import toast from 'react-hot-toast';
 import { uploadMaterial, updateMaterialDetails, logMaterialUpdate } from '@/lib/materials';
 import { audienceSummary, AUDIENCES, DEFAULT_AUDIENCES } from '@/lib/categories';
+import { isUserAudience } from '@/lib/audience';
 import {
   ACCEPT_ATTR,
   describeUploadError,
@@ -292,26 +293,36 @@ export function CategoryField({ id, value, onChange, categories = [], disabled }
  * Who can see a material: any mix of Revibe agents, Sellers and Repair
  * partners. Trainers always see everything.
  */
-export function AudiencePicker({ value = [], onChange, disabled }) {
+export function AudiencePicker({ value = [], onChange, disabled, groups = [] }) {
   const toggle = (id) => onChange(value.includes(id) ? value.filter((x) => x !== id) : [...value, id]);
+  const chip = (p) => (
+    <button
+      key={p.id}
+      type="button"
+      className={`chip cat-chip ${value.includes(p.id) ? 'active' : ''}`}
+      aria-pressed={value.includes(p.id)}
+      disabled={disabled}
+      onClick={() => toggle(p.id)}
+    >
+      <i className="material-icons" aria-hidden="true">{p.icon}</i>{p.label}
+    </button>
+  );
+  const people = value.filter(isUserAudience).length;
   return (
     <>
       <div className="audience-picker" role="group" aria-label="Who can see this">
-        {AUDIENCES.map((p) => (
-          <button
-            key={p.id}
-            type="button"
-            className={`chip cat-chip ${value.includes(p.id) ? 'active' : ''}`}
-            aria-pressed={value.includes(p.id)}
-            disabled={disabled}
-            onClick={() => toggle(p.id)}
-          >
-            <i className="material-icons" aria-hidden="true">{p.icon}</i>{p.label}
-          </button>
-        ))}
+        {AUDIENCES.map(chip)}
       </div>
+      {groups.length > 0 && (
+        <div className="audience-picker audience-picker-groups" role="group" aria-label="Groups who can see this">
+          <span className="audience-picker-label">Groups</span>
+          {groups.map((g) => chip({ id: g.audience, label: g.name, icon: 'groups' }))}
+        </div>
+      )}
       <p className={`field-hint ${value.length ? '' : 'is-warning'}`}>
-        {value.length ? `Visible to ${audienceSummary(value)}. Management and trainers see everything.` : 'Pick at least one group.'}
+        {value.length
+          ? `Visible to ${audienceSummary(value, groups)}.${people ? ' People it’s shared with are managed on the People page.' : ''} Management and trainers see everything.`
+          : 'Pick who can see this.'}
       </p>
     </>
   );
@@ -320,7 +331,7 @@ export function AudiencePicker({ value = [], onChange, disabled }) {
 /* --------------------------------------------------------------------------
    Upload material modal (default export)
    -------------------------------------------------------------------------- */
-export default function UploadZone({ initialFile = null, categories = [], categoryAudiences = {}, defaultCategory = 'General', onClose, onUploadComplete }) {
+export default function UploadZone({ initialFile = null, categories = [], categoryAudiences = {}, groups = [], defaultCategory = 'General', onClose, onUploadComplete }) {
   const { user } = useAuth();
   const initialError = initialFile ? validateDeckFile(initialFile) : null;
   const [file, setFile] = useState(initialFile && !initialError ? initialFile : null);
@@ -454,7 +465,7 @@ export default function UploadZone({ initialFile = null, categories = [], catego
               </div>
               <div className="up-field">
                 <span className="field-label">Who can see this</span>
-                <AudiencePicker value={audiences} onChange={setAudiences} disabled={busy} />
+                <AudiencePicker value={audiences} onChange={setAudiences} disabled={busy} groups={groups} />
               </div>
             </fieldset>
 

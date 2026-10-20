@@ -63,7 +63,8 @@ Built with Next.js (App Router), Firebase, and Supabase.
 ### 👥 Roles & administration
 - **Google Sign-In** (Firebase Auth) with automatic popup → redirect fallback.
 - **Role-based access** — Trainer vs. Trainee, resolved from email + Firestore.
-- **User management** (trainer only) — promote/demote users between roles.
+- **User management** (trainer only) — promote/demote users between roles, or delete them with their data.
+- **Who sees what** (trainer only) — tag materials and categories for Revibe agents, Sellers, Repair partners, your own groups (e.g. "KSA sellers") or single people; each person's Access panel shows what they see and why. See [docs/AUDIENCES.md](docs/AUDIENCES.md).
 - **Analytics dashboard** (trainer only) — platform metrics, popular materials, and a trainee leaderboard.
 - **Annotation editor** (trainer only) — draw/text/shape overlays on PDF pages (Fabric.js), saved per page to Firestore.
 
@@ -115,7 +116,7 @@ Runs the whole site with sample decks, people, progress and feedback, without
 Firebase/Supabase keys or Google sign-in. Firebase and Supabase are swapped for
 in-memory stand-ins (`demo/`) on the dev server only; `npm run build` and
 production are unaffected. A floating **Preview** pill switches between the
-Trainer and Trainee views and resets the sample data.
+Trainer, Trainee and Seller views and resets the sample data.
 
 ### Design system
 
@@ -199,8 +200,10 @@ firestore.rules         # Firestore security rules
 
 | Collection | Purpose |
 |---|---|
-| `users` | Profiles + role (`trainee` / `trainer`) |
-| `materials` | Deck metadata, page count, extracted text, storage URL |
+| `users` | Profiles + role (`trainee` / `trainer`), team or partner type, `groups` |
+| `materials` | Deck metadata, page count, extracted text, storage URL, `audiences` |
+| `categories` | Category names + default `audiences` |
+| `groups` | Trainer-made groups for who-sees-what ([docs/AUDIENCES.md](docs/AUDIENCES.md)) |
 | `annotations` | Per-page Fabric.js annotation JSON |
 | `progress` | Per-user, per-material viewed pages + completion |
 | `feedback` | Per-user, per-material rating + comment |
