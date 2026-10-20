@@ -41,15 +41,23 @@ service cloud.firestore {
       return get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('team', '');
     }
 
+    // Groups ('group:<id>') a trainer put this person in. Only trainers can set them.
+    function myGroups() {
+      return get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('groups', []);
+    }
+
     // Trainers and the management team see everything. Other Revibe agents
     // see docs tagged 'revibe' (or legacy docs with no tags, which meant
-    // Revibe-only); partners only see docs whose `audiences` include their
-    // partner type.
+    // Revibe-only); partners see docs whose `audiences` include their
+    // partner type. Anyone also sees docs shared with one of their groups
+    // ('group:<id>') or with them directly ('user:<uid>').
     function canSeeAudiences(data) {
       return isTrainer() ||
              (isRevibe() && myTeam() == 'management') ||
              (isRevibe() && ('revibe' in data.get('audiences', []) || data.get('audiences', []).size() == 0)) ||
-             (isSignedIn() && !isRevibe() && myPartnerType() in data.get('audiences', []));
+             (isSignedIn() && !isRevibe() && myPartnerType() in data.get('audiences', [])) ||
+             (isSignedIn() && ('user:' + request.auth.uid) in data.get('audiences', [])) ||
+             (isSignedIn() && data.get('audiences', []).hasAny(myGroups()));
     }
 
     // ============================================
@@ -64,6 +72,7 @@ service cloud.firestore {
       allow create: if isOwner(userId) &&
                        request.resource.data.uid == userId &&
                        !('team' in request.resource.data) &&
+                       !('groups' in request.resource.data) &&
                        (request.resource.data.get('role', 'trainee') == 'trainee' ||
                         request.auth.token.email == 'youssf.rehem@revibe.me') &&
                        request.resource.data.get('partnerType', 'seller') in ['seller', 'repair'];
@@ -76,7 +85,7 @@ service cloud.firestore {
       // Explicit parentheses so precedence is unambiguous.
       allow update: if isTrainer() ||
                        (isOwner(userId) &&
-                        !request.resource.data.diff(resource.data).affectedKeys().hasAny(['role']) &&
+                        !request.resource.data.diff(resource.data).affectedKeys().hasAny(['role', 'groups']) &&
                         (!request.resource.data.diff(resource.data).affectedKeys().hasAny(['team']) ||
                          (isRevibe() &&
                           resource.data.get('team', null) == null &&
@@ -104,6 +113,14 @@ service cloud.firestore {
     // Categories (name + partner audiences)
     // ============================================
     match /categories/{categoryId} {
+      allow read: if isSignedIn();
+      allow create, update, delete: if isTrainer();
+    }
+
+    // ============================================
+    // Groups (custom audiences, e.g. "KSA sellers")
+    // ============================================
+    match /groups/{groupId} {
       allow read: if isSignedIn();
       allow create, update, delete: if isTrainer();
     }

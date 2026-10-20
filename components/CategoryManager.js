@@ -7,8 +7,9 @@ import { Spinner, useConfirm } from '@/components/ui';
 
 const toggle = (list, id) => (list.includes(id) ? list.filter((x) => x !== id) : [...list, id]);
 
-function AudienceChips({ value, onToggle, disabled }) {
-  return AUDIENCES.map((p) => (
+function AudienceChips({ value, onToggle, disabled, groups = [] }) {
+  const options = [...AUDIENCES, ...groups.map((g) => ({ id: g.audience, label: g.name, icon: 'groups' }))];
+  return options.map((p) => (
     <button
       key={p.id}
       type="button"
@@ -29,7 +30,7 @@ function AudienceChips({ value, onToggle, disabled }) {
  * Trainer modal: create categories and tag which partner groups can see them.
  * Revibe members always see every category.
  */
-export default function CategoryManager({ categories, onClose, onChanged }) {
+export default function CategoryManager({ categories, groups = [], onClose, onChanged }) {
   const confirm = useConfirm();
   const [newName, setNewName] = useState('');
   const [newAudiences, setNewAudiences] = useState(DEFAULT_AUDIENCES);
@@ -90,6 +91,7 @@ export default function CategoryManager({ categories, onClose, onChanged }) {
             <div className="cat-row-tags">
               <AudienceChips
                 value={cat.audiences}
+                groups={groups}
                 disabled={!!busy}
                 onToggle={(id) => run(cat.id, () => saveCategory(cat.name, toggle(cat.audiences, id)))}
               />
@@ -119,7 +121,7 @@ export default function CategoryManager({ categories, onClose, onChanged }) {
           data-autofocus
         />
         <div className="cat-row-tags">
-          <AudienceChips value={newAudiences} onToggle={(id) => setNewAudiences(toggle(newAudiences, id))} />
+          <AudienceChips value={newAudiences} groups={groups} onToggle={(id) => setNewAudiences(toggle(newAudiences, id))} />
           <button type="submit" className="btn btn-dark btn-sm cat-add-btn" disabled={!newName.trim() || !!busy}>
             {busy === 'new' ? <Spinner size="sm" white /> : <i className="material-icons" aria-hidden="true">add</i>}
             Add

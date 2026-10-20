@@ -4,7 +4,7 @@
 // sample data. State persists in sessionStorage for the browser tab.
 import { createSeed } from './seed';
 
-const STORAGE_KEY = 'revibe-preview-db-v1';
+const STORAGE_KEY = 'revibe-preview-db-v2';
 
 export class Timestamp {
   constructor(millis) { this._ms = millis; }
@@ -18,6 +18,7 @@ export class Timestamp {
 const SERVER_TIMESTAMP = { __sentinel: 'serverTimestamp' };
 export const serverTimestamp = () => SERVER_TIMESTAMP;
 export const arrayUnion = (...values) => ({ __sentinel: 'arrayUnion', values });
+export const arrayRemove = (...values) => ({ __sentinel: 'arrayRemove', values });
 
 // ── persistence ───────────────────────────────────────────────────────────────
 let store = null; // { [collection]: { [id]: data } }
@@ -141,6 +142,9 @@ function resolve(value, previous) {
     const base = Array.isArray(previous) ? [...previous] : [];
     for (const v of value.values) if (!base.includes(v)) base.push(v);
     return base;
+  }
+  if (value?.__sentinel === 'arrayRemove') {
+    return (Array.isArray(previous) ? previous : []).filter((v) => !value.values.includes(v));
   }
   return value;
 }

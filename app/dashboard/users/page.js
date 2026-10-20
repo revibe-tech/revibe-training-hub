@@ -9,8 +9,11 @@ import {
   RequireAuth, Skeleton, EmptyState, Avatar, StatTile, Spinner, useConfirm, timeAgo, formatDate,
 } from '@/components/ui';
 import {
-  getAllUsers, updateUserRole, updateUserPartnerType, updateUserTeam, getUserActivity, isAdminEmail, getPresence, describeRoleUpdateError,
+  getAllUsers, updateUserRole, updateUserPartnerType, updateUserTeam, getUserActivity, isAdminEmail, getPresence, describeRoleUpdateError, deleteUser,
 } from '@/lib/users';
+import { getGroups } from '@/lib/groups';
+import GroupsManager from '@/components/GroupsManager';
+import PersonAccess from '@/components/PersonAccess';
 import { isRevibeEmail, partnerTypeLabel, PARTNER_TYPES, TEAMS, teamLabel } from '@/lib/categories';
 import { getUserProgress } from '@/lib/progress';
 import { getUserFeedback } from '@/lib/feedback';
@@ -69,6 +72,16 @@ function PeopleView() {
   const [updatingUid, setUpdatingUid] = useState(null);
   const [menu, setMenu] = useState(null); // { uid, anchor: DOMRect, trigger: HTMLElement }
   const [weekTime, setWeekTime] = useState(null); // uid → { seconds, actions, lastAt }, last 7 days; null until loaded or if not set up
+  const [groups, setGroups] = useState([]);
+  const [groupFilter, setGroupFilter] = useState('all');
+  const [managingGroups, setManagingGroups] = useState(false);
+
+  // Readable once the groups rules are published; until then there are none.
+  const loadGroups = useCallback(() => getGroups().then(setGroups).catch(() => setGroups([])), []);
+  useEffect(() => {
+    const id = requestAnimationFrame(loadGroups);
+    return () => cancelAnimationFrame(id);
+  }, [loadGroups]);
 
   const loadWeekTime = useCallback(() => {
     getActivityOverview(7)
@@ -152,6 +165,7 @@ function PeopleView() {
       if (status === 'active' && u.presence === 'inactive') return false;
       if (status === 'inactive' && u.presence !== 'inactive') return false;
       if (q && !u.name.toLowerCase().includes(q) && !(u.email || '').toLowerCase().includes(q)) return false;
+      if (groupFilter !== 'all' && !(u.groups || []).includes(groupFilter)) return false;
       return true;
     });
     const sorters = {
@@ -161,12 +175,40 @@ function PeopleView() {
       time: (a, b) => b.weekSeconds - a.weekSeconds,
     };
     return list.sort((a, b) => sorters[sort](a, b) || a.name.localeCompare(b.name));
-  }, [enriched, query, role, status, sort]);
+  }, [enriched, query, role, status, sort, groupFilter]);
 
   const selected = enriched.find((u) => u.uid === selectedUid) || null;
-  const filtersActive = query || role !== 'all' || status !== 'all';
+  const filtersActive = query || role !== 'all' || status !== 'all' || groupFilter !== 'all';
 
-  const clearFilters = () => { setQuery(''); setRole('all'); setStatus('all'); };
+  const clearFilters = () => { setQuery(''); setRole('all'); setStatus('all'); setGroupFilter('all'); };
+
+  const removePerson = useCallback(async (person) => {
+    setMenu(null);
+    const ok = await confirm({
+      title: `Delete ${person.name}?`,
+      body: 'This removes their profile, progress, ratings, activity and quiz tries for good. Their Google account still works, so if they sign in again they start fresh as a new user.',
+      confirmLabel: 'Delete user',
+      tone: 'danger',
+      icon: 'person_remove',
+    });
+    if (!ok) return;
+    setUpdatingUid(person.uid);
+    try {
+      await deleteUser(person);
+      setPeople((p) => ({ ...p, users: p.users.filter((u) => u.uid !== person.uid) }));
+      setSelectedUid((id) => (id === person.uid ? null : id));
+      toast.success(`${person.name} was deleted`);
+    } catch (err) {
+      console.error('Error deleting user:', err);
+      toast.error(`Couldn’t delete ${person.name}. ${err.message || ''}`, { duration: 7000 });
+    } finally {
+      setUpdatingUid(null);
+    }
+  }, [confirm]);
+
+  const patchPerson = useCallback((uid, patch) => {
+    setPeople((p) => ({ ...p, users: p.users.map((u) => (u.uid === uid ? { ...u, ...patch } : u)) }));
+  }, []);
 
   const changeRole = useCallback(async (person, newRole) => {
     setMenu(null);
@@ -230,9 +272,11 @@ function PeopleView() {
 
   const exportCsv = () => {
     const rows = [
-      ['Name', 'Email', 'Role', 'Department', 'Status', 'Last active', 'Last login', 'Joined', ...(weekTime ? ['Minutes on hub (7 days)'] : [])],
+      ['Name', 'Email', 'Role', 'Department', 'Groups', 'Status', 'Last active', 'Last login', 'Joined', ...(weekTime ? ['Minutes on hub (7 days)'] : [])],
       ...visible.map((u) => [
-        u.name, u.email || '', u.isAdmin ? 'admin (trainer)' : (u.role || 'trainee'), departmentLabel(u), STATUS_LABEL[u.presence],
+        u.name, u.email || '', u.isAdmin ? 'admin (trainer)' : (u.role || 'trainee'), departmentLabel(u),
+        (u.groups || []).map((a) => groups.find((g) => g.audience === a)?.name).filter(Boolean).join('; '),
+        STATUS_LABEL[u.presence],
         u.lastActive || '', u.lastLogin || '', u.createdAt || '', ...(weekTime ? [Math.round(u.weekSeconds / 60)] : []),
       ]),
     ];
@@ -253,6 +297,10 @@ function PeopleView() {
             <p className="page-subtitle">Everyone using Revibe Training, who’s around right now and how they’re getting on.</p>
           </div>
           <div className="page-header-actions">
+            <button className="btn btn-outline" onClick={() => setManagingGroups(true)}>
+              <i className="material-icons" aria-hidden="true">groups</i>
+              Groups
+            </button>
             <button className="btn btn-outline" onClick={handleRefresh} disabled={loading || refreshing}>
               {refreshing ? <Spinner size="sm" /> : <i className="material-icons" aria-hidden="true">refresh</i>}
               Refresh
@@ -343,6 +391,15 @@ function PeopleView() {
                   {weekTime && <option value="time">Most time this week</option>}
                 </select>
               </label>
+              {groups.length > 0 && (
+                <label className="pp-select-wrap">
+                  <span className="sr-only">Filter by group</span>
+                  <select className="select pp-select" value={groupFilter} onChange={(e) => setGroupFilter(e.target.value)}>
+                    <option value="all">Any group</option>
+                    {groups.map((g) => <option key={g.id} value={g.audience}>{g.name}</option>)}
+                  </select>
+                </label>
+              )}
             </div>
           </div>
 
@@ -417,7 +474,7 @@ function PeopleView() {
                           </button>
                         </td>
                         <td data-label="Role">
-                          <RoleBadges person={u} />
+                          <RoleBadges person={u} groups={groups} />
                         </td>
                         <td data-label="Status">
                           <StatusPill presence={u.presence} />
@@ -472,7 +529,7 @@ function PeopleView() {
               trigger={menu.trigger}
               onClose={() => setMenu(null)}
               items={[
-                { icon: 'insights', label: 'View activity', onSelect: () => { setMenu(null); setSelectedUid(person.uid); } },
+                { icon: 'insights', label: 'View activity & access', onSelect: () => { setMenu(null); setSelectedUid(person.uid); } },
                 person.role === 'trainer'
                   ? { icon: 'arrow_downward', label: 'Change to trainee', danger: true, onSelect: () => changeRole(person, 'trainee') }
                   : { icon: 'arrow_upward', label: 'Promote to trainer', onSelect: () => changeRole(person, 'trainer') },
@@ -497,6 +554,7 @@ function PeopleView() {
                       : []),
                   ]
                   : []),
+                { icon: 'person_remove', label: 'Delete user…', danger: true, onSelect: () => removePerson(person) },
               ]}
             />
           );
@@ -506,10 +564,23 @@ function PeopleView() {
           <PersonDrawer
             key={selected.uid}
             person={selected}
+            groups={groups}
             canChange={canChange(selected)}
             updating={updatingUid === selected.uid}
             onRoleChange={changeRole}
+            onPersonChange={(patch) => patchPerson(selected.uid, patch)}
+            onDelete={() => removePerson(selected)}
             onClose={() => setSelectedUid(null)}
+          />
+        )}
+
+        {managingGroups && (
+          <GroupsManager
+            onClose={() => setManagingGroups(false)}
+            onChanged={async () => {
+              await loadGroups();
+              setPeople(await fetchPeople());
+            }}
           />
         )}
       </main>
@@ -526,7 +597,8 @@ function departmentLabel(person) {
   return partnerTypeLabel(person.partnerType) || 'Partner (not chosen)';
 }
 
-function RoleBadges({ person }) {
+function RoleBadges({ person, groups = [] }) {
+  const inGroups = groups.filter((g) => (person.groups || []).includes(g.audience));
   const partner = person.role !== 'trainer' && !isRevibeEmail(person.email);
   const partnerType = PARTNER_TYPES.find((p) => p.id === person.partnerType);
   const team = !partner && person.role !== 'trainer' ? TEAMS.find((t) => t.id === person.team) : null;
@@ -552,6 +624,11 @@ function RoleBadges({ person }) {
       {person.isAdmin && (
         <span className="badge badge-dark"><i className="material-icons" aria-hidden="true">admin_panel_settings</i>Admin</span>
       )}
+      {inGroups.map((g) => (
+        <span key={g.id} className="badge badge-pink pp-group-badge" title={`In the ${g.name} group`}>
+          <i className="material-icons" aria-hidden="true">groups</i>{g.name}
+        </span>
+      ))}
     </span>
   );
 }
@@ -658,7 +735,7 @@ async function fetchPersonDetail(uid) {
   return { activity, progress, feedback };
 }
 
-function PersonDrawer({ person, canChange, updating, onRoleChange, onClose }) {
+function PersonDrawer({ person, groups, canChange, updating, onRoleChange, onPersonChange, onDelete, onClose }) {
   const [detail, setDetail] = useState(null);
   const [error, setError] = useState(false);
   const [closing, setClosing] = useState(false);
@@ -740,7 +817,7 @@ function PersonDrawer({ person, canChange, updating, onRoleChange, onClose }) {
             <h2 id="drawer-name" className="pp-drawer-name">{person.name}</h2>
             <p className="pp-drawer-email">{person.email}</p>
             <div className="pp-drawer-badges">
-              <RoleBadges person={person} />
+              <RoleBadges person={person} groups={groups} />
               <StatusPill presence={person.presence} />
             </div>
           </div>
@@ -775,6 +852,8 @@ function PersonDrawer({ person, canChange, updating, onRoleChange, onClose }) {
                 <MiniStat label="Avg progress" value={`${a?.averageCompletionRate ?? 0}%`} />
                 <MiniStat label="Ratings given" value={a?.feedbackSubmitted ?? detail.feedback.length} />
               </div>
+
+              <PersonAccess person={person} groups={groups} onPersonChange={onPersonChange} />
 
               <PersonActivity uid={person.uid} firstName={person.name.split(' ')[0]} />
 
@@ -825,6 +904,12 @@ function PersonDrawer({ person, canChange, updating, onRoleChange, onClose }) {
         </div>
 
         <div className="pp-drawer-foot">
+          {canChange && (
+            <button type="button" className="btn btn-ghost pp-delete" disabled={updating} onClick={onDelete}>
+              <i className="material-icons" aria-hidden="true">person_remove</i>
+              Delete user
+            </button>
+          )}
           {person.isAdmin ? (
             <p className="pp-foot-note"><i className="material-icons" aria-hidden="true">lock</i>The admin’s role can’t be changed.</p>
           ) : person.isMe ? (
