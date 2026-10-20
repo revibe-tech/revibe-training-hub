@@ -319,6 +319,7 @@ const ACTIONS = {
   },
   complete: { icon: 'check_circle', text: (e) => <>Completed <b>{e.name || 'a removed material'}</b></> },
   feedback: { icon: 'star', text: (e) => <>Rated <b>{e.name || 'a removed material'}</b> {e.detail?.rating}/5</> },
+  quiz: { icon: 'quiz', text: (e) => <>Took a topic of <b>{e.name || 'a removed quiz'}</b>{typeof e.detail?.percent === 'number' && <> · {e.detail.percent}%</>}</> },
 };
 
 function Timeline({ recent }) {

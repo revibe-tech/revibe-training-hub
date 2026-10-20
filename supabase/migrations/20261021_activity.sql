@@ -9,7 +9,7 @@
 create table if not exists public.activity_events (
   id bigint generated always as identity primary key,
   uid text not null,                  -- Firebase uid
-  type text not null,                 -- time | open | search | ask | complete | feedback
+  type text not null,                 -- time | open | search | ask | complete | feedback | quiz
   path text,                          -- route, e.g. /viewer
   material_id text,
   page integer,                       -- slide, for time spent on it

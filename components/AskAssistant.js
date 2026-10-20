@@ -24,7 +24,7 @@ export const useAssistant = () => useContext(AssistantContext);
 
 /* The material on screen, so the chat can offer "This deck". A tiny store
    rather than context, so the viewer can set it without re-rendering the app. */
-let pageScope = null; // { materialId, materialName }
+let pageScope = null; // { materialId, materialName, hideChat }
 const scopeListeners = new Set();
 const subscribeScope = (listener) => {
   scopeListeners.add(listener);
@@ -37,16 +37,16 @@ function setPageScope(next) {
   scopeListeners.forEach((listener) => listener());
 }
 
-/** Lets the chat answer about the material on this page. Call from the viewer. */
-export function useAssistantScope(materialId, materialName) {
+/** Lets the chat answer about the material on this page (or hides it there). Call from the viewer. */
+export function useAssistantScope(materialId, materialName, { hideChat = false } = {}) {
   useEffect(() => {
     if (!materialId) return undefined;
-    const scope = { materialId, materialName: materialName || 'This material' };
+    const scope = { materialId, materialName: materialName || 'This material', hideChat };
     setPageScope(scope);
     return () => {
       if (pageScope === scope) setPageScope(null);
     };
-  }, [materialId, materialName]);
+  }, [materialId, materialName, hideChat]);
 }
 
 /**
@@ -119,7 +119,7 @@ export function AssistantProvider({ children }) {
   };
 
   const value = useMemo(() => ({ ready: ready && !!user }), [ready, user]);
-  const visible = ready && !!user && !HIDDEN_ON.some((path) => pathname?.startsWith(path));
+  const visible = ready && !!user && !scope?.hideChat && !HIDDEN_ON.some((path) => pathname?.startsWith(path));
 
   return (
     <AssistantContext.Provider value={value}>
