@@ -1,9 +1,11 @@
 'use client';
 
-import { createContext, createElement, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react';
+import { createContext, createElement, useCallback, useContext, useEffect, useMemo, useRef, useState, useSyncExternalStore } from 'react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { useAuth } from '@/contexts/AuthContext';
 import { askAssistant, getAssistantStatus } from '@/lib/assistant';
+import { logActivity } from '@/lib/activity';
 import './AskAssistant.css';
 
 // Preview mode has no AI keys; show the assistant anyway so its UI can be checked.
@@ -14,25 +16,63 @@ const DECK_SUGGESTIONS = [
   'What are the rules to remember?',
   'Walk me through the steps, in order',
 ];
+// Full-screen tools where a floating button would cover the controls.
+const HIDDEN_ON = ['/editor'];
 
-const AssistantContext = createContext({ ready: false, openAssistant: () => {} });
+const AssistantContext = createContext({ ready: false });
 export const useAssistant = () => useContext(AssistantContext);
 
+/* The material on screen, so the chat can offer "This deck". A tiny store
+   rather than context, so the viewer can set it without re-rendering the app. */
+let pageScope = null; // { materialId, materialName }
+const scopeListeners = new Set();
+const subscribeScope = (listener) => {
+  scopeListeners.add(listener);
+  return () => scopeListeners.delete(listener);
+};
+const getScope = () => pageScope;
+const getServerScope = () => null;
+function setPageScope(next) {
+  pageScope = next;
+  scopeListeners.forEach((listener) => listener());
+}
+
+/** Lets the chat answer about the material on this page. Call from the viewer. */
+export function useAssistantScope(materialId, materialName) {
+  useEffect(() => {
+    if (!materialId) return undefined;
+    const scope = { materialId, materialName: materialName || 'This material' };
+    setPageScope(scope);
+    return () => {
+      if (pageScope === scope) setPageScope(null);
+    };
+  }, [materialId, materialName]);
+}
+
 /**
- * One assistant panel for the whole app, so the conversation survives
- * navigation (e.g. opening a source slide). Mount once, inside AuthProvider.
+ * The chat button (bottom right) and its window, once for the whole app, so
+ * the conversation survives navigation (e.g. opening a source slide). Mount
+ * inside AuthProvider.
  */
 export function AssistantProvider({ children }) {
   const { user } = useAuth();
+  const pathname = usePathname();
   const [ready, setReady] = useState(PREVIEW);
   const [open, setOpen] = useState(false);
-  const [scope, setScope] = useState(null); // { materialId, materialName } when opened from a deck
+  const scope = useSyncExternalStore(subscribeScope, getScope, getServerScope);
   const [deckOnly, setDeckOnly] = useState(true);
   const [messages, setMessages] = useState([]); // { id, role: 'user'|'assistant', content, found?, sources? }
   const [draft, setDraft] = useState('');
   const [pending, setPending] = useState(false);
   const [error, setError] = useState('');
-  const returnFocusRef = useRef(null);
+  const launcherRef = useRef(null);
+
+  // A newly opened deck defaults to "This deck", unless a conversation is under way.
+  const [scopeId, setScopeId] = useState(null);
+  if ((scope?.materialId || null) !== scopeId) {
+    setScopeId(scope?.materialId || null);
+    setDeckOnly(messages.length === 0);
+  }
 
   useEffect(() => {
     if (!user || PREVIEW) return undefined;
@@ -43,30 +83,25 @@ export function AssistantProvider({ children }) {
     return () => { cancelled = true; };
   }, [user]);
 
-  const openAssistant = useCallback((nextScope = null) => {
-    returnFocusRef.current = document.activeElement;
-    setScope(nextScope);
-    setDeckOnly(!!nextScope);
-    setOpen(true);
-  }, []);
-
   const close = useCallback(() => {
     setOpen(false);
-    returnFocusRef.current?.focus?.();
+    launcherRef.current?.focus();
   }, []);
 
   const ask = useCallback(async (text) => {
     const question = text.trim().slice(0, MAX_CHARS);
     if (!question || pending) return;
     const history = messages.map(({ role, content }) => ({ role, content }));
+    const materialId = scope && deckOnly ? scope.materialId : null;
     const id = Date.now();
     setMessages((list) => [...list, { id, role: 'user', content: question }]);
     setDraft('');
     setError('');
     setPending(true);
     try {
-      const reply = await askAssistant({ question, history, materialId: scope && deckOnly ? scope.materialId : null });
+      const reply = await askAssistant({ question, history, materialId });
       setMessages((list) => [...list, { id: id + 1, role: 'assistant', content: reply.answer, found: reply.found, sources: reply.sources || [] }]);
+      logActivity('ask', { materialId, detail: { found: !!reply.found } });
     } catch (err) {
       // Put the question back so it can be sent again in one tap.
       setMessages((list) => list.filter((m) => m.id !== id));
@@ -83,13 +118,14 @@ export function AssistantProvider({ children }) {
     setError('');
   };
 
-  const value = useMemo(() => ({ ready: ready && !!user, openAssistant }), [ready, user, openAssistant]);
+  const value = useMemo(() => ({ ready: ready && !!user }), [ready, user]);
+  const visible = ready && !!user && !HIDDEN_ON.some((path) => pathname?.startsWith(path));
 
   return (
     <AssistantContext.Provider value={value}>
       {children}
-      {open && user && (
-        <AskPanel
+      {visible && open && (
+        <AskWindow
           scope={scope}
           deckOnly={deckOnly}
           onDeckOnly={setDeckOnly}
@@ -103,126 +139,131 @@ export function AssistantProvider({ children }) {
           onClose={close}
         />
       )}
+      {visible && (
+        <button
+          ref={launcherRef}
+          type="button"
+          className={`ask-fab${open ? ' is-open' : ''}`}
+          onClick={() => (open ? close() : setOpen(true))}
+          aria-expanded={open}
+          aria-label={open ? 'Close the training assistant' : 'Ask the training assistant'}
+          title={open ? 'Close' : 'Ask the training assistant'}
+        >
+          <i className="material-icons" aria-hidden="true">{open ? 'close' : 'auto_awesome'}</i>
+        </button>
+      )}
     </AssistantContext.Provider>
   );
 }
 
-/** Opens the assistant; pass a material to ask about that deck. Renders nothing until the assistant is set up. */
-export function AskButton({ materialId = null, materialName = '', className = 'btn btn-soft btn-sm', iconOnly = false }) {
-  const { ready, openAssistant } = useAssistant();
-  if (!ready) return null;
-  const label = materialId ? 'Ask about this deck' : 'Ask the training assistant';
-  return (
-    <button
-      type="button"
-      className={className}
-      onClick={() => openAssistant(materialId ? { materialId, materialName: materialName || 'This deck' } : null)}
-      aria-label={iconOnly ? label : undefined}
-      title={label}
-    >
-      <i className="material-icons" aria-hidden="true">auto_awesome</i>
-      {!iconOnly && <span className="ask-btn-label">Ask</span>}
-    </button>
-  );
-}
-
-function AskPanel({ scope, deckOnly, onDeckOnly, messages, draft, onDraft, pending, error, onAsk, onReset, onClose }) {
+function AskWindow({ scope, deckOnly, onDeckOnly, messages, draft, onDraft, pending, error, onAsk, onReset, onClose }) {
   const inputRef = useRef(null);
   const endRef = useRef(null);
   const deckScoped = !!scope && deckOnly;
 
   useEffect(() => { inputRef.current?.focus(); }, []);
   useEffect(() => { endRef.current?.scrollIntoView({ block: 'end' }); }, [messages, pending, error]);
-  useEffect(() => {
-    const onKey = (e) => { if (e.key === 'Escape') onClose(); };
-    window.addEventListener('keydown', onKey);
-    return () => window.removeEventListener('keydown', onKey);
-  }, [onClose]);
 
   const send = (e) => {
     e?.preventDefault();
     onAsk(draft);
   };
-  // On phones the panel covers the slide, so get out of the way when a source opens.
+  // On phones the chat covers the page, so get out of the way when a source opens.
   const onOpenSource = () => {
     if (window.matchMedia('(max-width: 640px)').matches) onClose();
   };
 
   return (
-    <>
-      <div className="ask-backdrop" onClick={onClose} aria-hidden="true" />
-      <aside className="ask-panel" role="dialog" aria-labelledby="ask-title">
-        <header className="ask-head">
-          <span className="ask-head-icon" aria-hidden="true">
-            <i className="material-icons">auto_awesome</i>
-          </span>
-          <div className="ask-head-text">
-            <span className="eyebrow">Training assistant</span>
-            <h2 id="ask-title" className="ask-title">{deckScoped ? scope.materialName : 'Ask about your training'}</h2>
-          </div>
-          {messages.length > 0 && (
-            <button type="button" className="btn btn-ghost btn-icon btn-sm" onClick={onReset} aria-label="Start a new chat" title="New chat">
-              <i className="material-icons" aria-hidden="true">edit_square</i>
-            </button>
-          )}
-          <button type="button" className="btn btn-ghost btn-icon btn-sm" onClick={onClose} aria-label="Close the assistant" title="Close">
-            <i className="material-icons" aria-hidden="true">close</i>
+    <section
+      className="ask-window"
+      role="dialog"
+      aria-labelledby="ask-title"
+      onKeyDown={(e) => {
+        if (e.key === 'Escape') {
+          e.stopPropagation();
+          onClose();
+        }
+      }}
+    >
+      <header className="ask-head">
+        <span className="ask-head-icon" aria-hidden="true">
+          <i className="material-icons">auto_awesome</i>
+        </span>
+        <div className="ask-head-text">
+          <span className="eyebrow">Training assistant</span>
+          <h2 id="ask-title" className="ask-title">{deckScoped ? scope.materialName : 'Ask about your training'}</h2>
+        </div>
+        {messages.length > 0 && (
+          <button
+            type="button"
+            className="btn btn-ghost btn-icon btn-sm"
+            onClick={() => {
+              onReset();
+              inputRef.current?.focus(); // this button disappears with the messages
+            }}
+            aria-label="Start a new chat"
+            title="New chat"
+          >
+            <i className="material-icons" aria-hidden="true">add_comment</i>
           </button>
-        </header>
+        )}
+        <button type="button" className="btn btn-ghost btn-icon btn-sm ask-close" onClick={onClose} aria-label="Close the assistant" title="Close">
+          <i className="material-icons" aria-hidden="true">close</i>
+        </button>
+      </header>
 
-        {scope && (
-          <div className="segmented ask-scope" role="group" aria-label="Search in">
-            <button type="button" className={deckOnly ? 'active' : ''} aria-pressed={deckOnly} onClick={() => onDeckOnly(true)}>
-              This deck
-            </button>
-            <button type="button" className={deckOnly ? '' : 'active'} aria-pressed={!deckOnly} onClick={() => onDeckOnly(false)}>
-              All training
-            </button>
+      {scope && (
+        <div className="segmented ask-scope" role="group" aria-label="Search in">
+          <button type="button" className={deckOnly ? 'active' : ''} aria-pressed={deckOnly} onClick={() => onDeckOnly(true)}>
+            This deck
+          </button>
+          <button type="button" className={deckOnly ? '' : 'active'} aria-pressed={!deckOnly} onClick={() => onDeckOnly(false)}>
+            All training
+          </button>
+        </div>
+      )}
+
+      <div className="ask-thread">
+        {messages.length === 0 && <EmptyIntro deckScoped={deckScoped} onPick={onAsk} />}
+        {messages.map((m) => (m.role === 'user'
+          ? <div key={m.id} className="ask-msg ask-msg-user">{m.content}</div>
+          : <Answer key={m.id} message={m} onOpenSource={onOpenSource} />))}
+        {pending && (
+          <div className="ask-msg ask-msg-bot ask-typing" role="status">
+            <span aria-hidden="true" /><span aria-hidden="true" /><span aria-hidden="true" />
+            <span className="sr-only">Searching your training…</span>
           </div>
         )}
+        {error && (
+          <p className="ask-error" role="alert">
+            <i className="material-icons" aria-hidden="true">error_outline</i>
+            {error}
+          </p>
+        )}
+        <div ref={endRef} />
+      </div>
 
-        <div className="ask-thread">
-          {messages.length === 0 && <EmptyIntro deckScoped={deckScoped} onPick={onAsk} />}
-          {messages.map((m) => (m.role === 'user'
-            ? <div key={m.id} className="ask-msg ask-msg-user">{m.content}</div>
-            : <Answer key={m.id} message={m} onOpenSource={onOpenSource} />))}
-          {pending && (
-            <div className="ask-msg ask-msg-bot ask-typing" role="status">
-              <span aria-hidden="true" /><span aria-hidden="true" /><span aria-hidden="true" />
-              <span className="sr-only">Searching your training…</span>
-            </div>
-          )}
-          {error && (
-            <p className="ask-error" role="alert">
-              <i className="material-icons" aria-hidden="true">error_outline</i>
-              {error}
-            </p>
-          )}
-          <div ref={endRef} />
-        </div>
-
-        <form className="ask-composer" onSubmit={send}>
-          <textarea
-            ref={inputRef}
-            id="ask-input"
-            className="ask-input"
-            rows={1}
-            value={draft}
-            maxLength={MAX_CHARS}
-            onChange={(e) => onDraft(e.target.value)}
-            onKeyDown={(e) => {
-              if (e.key === 'Enter' && !e.shiftKey && !e.nativeEvent.isComposing) send(e);
-            }}
-            placeholder={deckScoped ? 'Ask about this deck…' : 'Ask about a process, policy or button…'}
-            aria-label="Your question"
-          />
-          <button type="submit" className="btn btn-gradient btn-icon" disabled={pending || !draft.trim()} aria-label="Send question">
-            <i className="material-icons" aria-hidden="true">arrow_upward</i>
-          </button>
-        </form>
-        <p className="ask-note">Answers come from your training material. Check the linked slide before you act on one.</p>
-      </aside>
-    </>
+      <form className="ask-composer" onSubmit={send}>
+        <textarea
+          ref={inputRef}
+          id="ask-input"
+          className="ask-input"
+          rows={1}
+          value={draft}
+          maxLength={MAX_CHARS}
+          onChange={(e) => onDraft(e.target.value)}
+          onKeyDown={(e) => {
+            if (e.key === 'Enter' && !e.shiftKey && !e.nativeEvent.isComposing) send(e);
+          }}
+          placeholder={deckScoped ? 'Ask about this deck…' : 'Ask about a process, policy or button…'}
+          aria-label="Your question"
+        />
+        <button type="submit" className="btn btn-gradient btn-icon" disabled={pending || !draft.trim()} aria-label="Send question">
+          <i className="material-icons" aria-hidden="true">arrow_upward</i>
+        </button>
+      </form>
+      <p className="ask-note">Answers come from your training material. Check the linked slide before you act on one.</p>
+    </section>
   );
 }
 

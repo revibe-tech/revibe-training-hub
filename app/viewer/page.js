@@ -7,6 +7,8 @@ import { useAuth } from '@/contexts/AuthContext';
 import { getMaterial } from '@/lib/materials';
 import { EmptyState, RequireAuth } from '@/components/ui';
 import PDFViewer, { ViewerShellSkeleton } from '@/components/PDFViewer';
+import { useAssistantScope } from '@/components/AskAssistant';
+import { useActivityMaterial } from '@/components/ActivityTracker';
 import './viewer.css';
 
 function ViewerState({ title, icon, heading, text, onRetry }) {
@@ -58,6 +60,11 @@ function ViewerContent() {
     return () => { cancelled = true; };
   }, [materialId, attempt]);
 
+  const current = result.id === materialId && result.attempt === attempt ? result : null;
+  // The chat's "This deck" answers about whatever is open here.
+  useAssistantScope(current?.material ? materialId : null, current?.material?.name);
+  useActivityMaterial(current?.material ? materialId : null, { video: current?.material?.kind === 'video' });
+
   if (!materialId) {
     return (
       <ViewerState
@@ -68,8 +75,6 @@ function ViewerContent() {
       />
     );
   }
-
-  const current = result.id === materialId && result.attempt === attempt ? result : null;
 
   if (!current) {
     return (

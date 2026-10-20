@@ -8,13 +8,22 @@ import { FormAlert, ModalShell, UploadProgress } from '@/components/UploadZone';
 import './ImportBundleModal.css';
 
 /** Trainer tool: paste a training bundle (see lib/imports.js), review it, import it. */
-export default function ImportBundleModal({ existingIds, onClose, onImported }) {
+export default function ImportBundleModal({ existingIds, initialJson = '', onClose, onImported }) {
   const { user } = useAuth();
   const inputId = useId();
   const fileRef = useRef(null);
-  const [json, setJson] = useState('');
-  const [bundle, setBundle] = useState(null);
-  const [error, setError] = useState('');
+  // From a one-click import link: go straight to the review step.
+  const [fromLink] = useState(() => {
+    if (!initialJson) return { bundle: null, error: '' };
+    try {
+      return { bundle: parseBundle(initialJson), error: '' };
+    } catch (err) {
+      return { bundle: null, error: err.message };
+    }
+  });
+  const [json, setJson] = useState(initialJson);
+  const [bundle, setBundle] = useState(fromLink.bundle);
+  const [error, setError] = useState(fromLink.error);
   const [progress, setProgress] = useState(null); // { done, total, item } while importing
   const [result, setResult] = useState(null);
   const running = !!progress && !result;

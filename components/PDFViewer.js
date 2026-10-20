@@ -8,12 +8,12 @@ import toast from 'react-hot-toast';
 import * as pdfjsLib from 'pdfjs-dist';
 import { useAuth } from '@/contexts/AuthContext';
 import { recordPageView, markMaterialCompleted, getUserProgress, isMaterialCompleted } from '@/lib/progress';
+import { useActivityPage } from './ActivityTracker';
 import { getUserMaterialFeedback } from '@/lib/feedback';
 import { getAllMaterials } from '@/lib/materials';
 import { EmptyState, Skeleton, Spinner } from '@/components/ui';
 import { useBadgeCelebration } from './BadgeCelebration';
 import FeedbackModal from './FeedbackModal';
-import { AskButton } from './AskAssistant';
 
 // The worker must match the pdfjs-dist version.
 pdfjsLib.GlobalWorkerOptions.workerSrc = `https://unpkg.com/pdfjs-dist@${pdfjsLib.version}/build/pdf.worker.min.mjs`;
@@ -156,7 +156,7 @@ function createThumbScheduler(pdfDoc) {
 /* ──────────────────────────────────────────────────────────────────────────
    Shared shell pieces
    ────────────────────────────────────────────────────────────────────────── */
-function ViewerTopBar({ title, category, kind, materialId, children }) {
+function ViewerTopBar({ title, category, kind, children }) {
   return (
     <header className="vw-top">
       <Link href="/dashboard" className="vw-back" aria-label="Back to library" title="Back to library">
@@ -171,7 +171,6 @@ function ViewerTopBar({ title, category, kind, materialId, children }) {
         <h1 className="vw-title" title={title}>{title || 'Untitled material'}</h1>
       </div>
       <div className="vw-top-actions">
-        <AskButton materialId={materialId} materialName={title} className="btn btn-ghost btn-icon btn-sm" iconOnly />
         {children}
       </div>
     </header>
@@ -358,7 +357,7 @@ function VideoViewer({ videoURL, sourceURL, description, title, category, materi
   return (
     <>
       <div className="vw vw-video">
-        <ViewerTopBar title={title} category={category} kind="Video" materialId={materialId}>
+        <ViewerTopBar title={title} category={category} kind="Video">
           {sourceURL && (
             <a
               href={sourceURL}
@@ -459,7 +458,7 @@ function PPTXViewer({ url, title, category, pageCount, materialId, isTrainer }) 
   return (
     <>
       <div className="vw vw-pptx">
-        <ViewerTopBar title={title} category={category} kind="PowerPoint" materialId={materialId}>
+        <ViewerTopBar title={title} category={category} kind="PowerPoint">
           {pageCount > 0 && !isPhone && <span className="vw-counter">{pageCount} slides</span>}
           <a href={url} download className="btn btn-ghost btn-icon btn-sm" aria-label="Download file" title="Download file">
             <i className="material-icons" aria-hidden="true">download</i>
@@ -843,6 +842,7 @@ function PdfDeck({ url, title, category, materialId, isTrainer, textContent, pag
   }, []);
 
   /* ── Progress tracking (once per unique page per session) ───────────── */
+  useActivityPage(pdfDoc ? page : null);
   useEffect(() => {
     if (!user || !materialId || !numPages || !pdfDoc) return;
     const cacheKey = `${user.uid}:${materialId}:${page}`;
@@ -1198,7 +1198,7 @@ function PdfDeck({ url, title, category, materialId, isTrainer, textContent, pag
     <>
       <div className={shellClass}>
         {!isFs && (
-          <ViewerTopBar title={title} category={category} materialId={materialId}>
+          <ViewerTopBar title={title} category={category}>
             {numPages > 0 && !isPhone && (
               <span className="vw-counter" title={`${viewedPct}% of slides viewed`}>
                 Slide <b>{page}</b> of {numPages}

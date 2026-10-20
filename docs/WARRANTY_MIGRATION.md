@@ -20,8 +20,8 @@ Everything lands in the **Warranty** category, visible to **Revibe agents**.
 
 ## Importing
 
-1. Get the bundle file (`warranty-training-bundle.json`) from Youssf. It isn't in git.
-2. Library → ⋯ → **Import training bundle** → paste it or open the file → **Review** → **Import 11 items**.
+1. Get the bundle file (`warranty-training-bundle.json`), or its one-click import link, from Youssf. Neither is in git.
+2. Signed in as a trainer, open the link, or go to Library → ⋯ → **Import training bundle** and paste the bundle or open the file. Then **Review** → **Import 11 items**.
 3. Running it again is safe: items already in the library are skipped.
 
 The import runs in the trainer's browser. Each deck is fetched from Drive by

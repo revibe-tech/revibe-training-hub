@@ -7,6 +7,7 @@ import RolePicker from '@/components/RolePicker';
 import AppToaster from '@/components/ui/AppToaster';
 import { ConfirmProvider } from '@/components/ui/ConfirmDialog';
 import { AssistantProvider } from '@/components/AskAssistant';
+import ActivityTracker from '@/components/ActivityTracker';
 
 const montserrat = Montserrat({
   weight: ['400', '500', '600', '700', '800', '900'],
@@ -52,6 +53,7 @@ export default function RootLayout({ children }) {
       </head>
       <body suppressHydrationWarning>
         <AuthProvider>
+          <ActivityTracker />
           <ConfirmProvider>
             <BadgeCelebrationProvider>
               <AssistantProvider>

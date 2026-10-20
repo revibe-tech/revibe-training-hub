@@ -14,6 +14,8 @@ import {
 import { isRevibeEmail, partnerTypeLabel, PARTNER_TYPES, TEAMS, teamLabel } from '@/lib/categories';
 import { getUserProgress } from '@/lib/progress';
 import { getUserFeedback } from '@/lib/feedback';
+import { formatDuration, getActivityOverview } from '@/lib/activity';
+import PersonActivity from '@/components/PersonActivity';
 import './users.css';
 
 const REFRESH_MS = 30000;
@@ -84,6 +86,17 @@ function PeopleView() {
   const [selectedUid, setSelectedUid] = useState(null);
   const [updatingUid, setUpdatingUid] = useState(null);
   const [menu, setMenu] = useState(null); // { uid, anchor: DOMRect, trigger: HTMLElement }
+  const [weekTime, setWeekTime] = useState(null); // uid → { seconds, actions, lastAt }, last 7 days; null until loaded or if not set up
+
+  const loadWeekTime = useCallback(() => {
+    getActivityOverview(7)
+      .then(setWeekTime)
+      .catch((err) => { if (err.status !== 503) console.warn('Could not load activity totals:', err.message); });
+  }, []);
+  useEffect(() => {
+    const id = requestAnimationFrame(loadWeekTime);
+    return () => cancelAnimationFrame(id);
+  }, [loadWeekTime]);
 
   // First load, then a SILENT refresh every 30s (no skeleton, no flash) so
   // "Online now" stays live. Skips while the tab is hidden; catches up on return.
@@ -113,6 +126,7 @@ function PeopleView() {
 
   const handleRefresh = async () => {
     setRefreshing(true);
+    loadWeekTime();
     try {
       setPeople(await fetchPeople());
       toast.success('People list is up to date');
@@ -132,8 +146,9 @@ function PeopleView() {
       lastSeen: lastSeenOf(u),
       isAdmin: !!isAdminEmail(u.email),
       isMe: u.uid === me?.uid,
+      weekSeconds: weekTime?.get(u.uid)?.seconds || 0,
     })),
-    [people, me?.uid],
+    [people, me?.uid, weekTime],
   );
 
   const counts = useMemo(() => {
@@ -161,6 +176,7 @@ function PeopleView() {
       recent: (a, b) => b.lastSeen - a.lastSeen,
       name: (a, b) => a.name.localeCompare(b.name),
       joined: (a, b) => toMs(b.createdAt) - toMs(a.createdAt),
+      time: (a, b) => b.weekSeconds - a.weekSeconds,
     };
     return list.sort((a, b) => sorters[sort](a, b) || a.name.localeCompare(b.name));
   }, [enriched, query, role, status, sort]);
@@ -232,10 +248,10 @@ function PeopleView() {
 
   const exportCsv = () => {
     const rows = [
-      ['Name', 'Email', 'Role', 'Department', 'Status', 'Last active', 'Last login', 'Joined'],
+      ['Name', 'Email', 'Role', 'Department', 'Status', 'Last active', 'Last login', 'Joined', ...(weekTime ? ['Minutes on hub (7 days)'] : [])],
       ...visible.map((u) => [
         u.name, u.email || '', u.isAdmin ? 'admin (trainer)' : (u.role || 'trainee'), departmentLabel(u), STATUS_LABEL[u.presence],
-        u.lastActive || '', u.lastLogin || '', u.createdAt || '',
+        u.lastActive || '', u.lastLogin || '', u.createdAt || '', ...(weekTime ? [Math.round(u.weekSeconds / 60)] : []),
       ]),
     ];
     downloadCsv(`revibe-people-${new Date().toISOString().slice(0, 10)}.csv`, rows);
@@ -342,6 +358,7 @@ function PeopleView() {
                   <option value="recent">Last active</option>
                   <option value="name">Name A–Z</option>
                   <option value="joined">Newest first</option>
+                  {weekTime && <option value="time">Most time this week</option>}
                 </select>
               </label>
             </div>
@@ -387,6 +404,7 @@ function PeopleView() {
                       <th scope="col">Role</th>
                       <th scope="col">Status</th>
                       <th scope="col">Last active</th>
+                      {weekTime && <th scope="col">Time this week</th>}
                       <th scope="col">Joined</th>
                       <th scope="col"><span className="sr-only">Actions</span></th>
                     </tr>
@@ -427,6 +445,11 @@ function PeopleView() {
                             {u.lastSeen ? timeAgo(u.lastSeen) : 'Never'}
                           </span>
                         </td>
+                        {weekTime && (
+                          <td data-label="Time this week">
+                            <span className={u.weekSeconds ? 'pp-time' : 'pp-muted'}>{u.weekSeconds ? formatDuration(u.weekSeconds) : '–'}</span>
+                          </td>
+                        )}
                         <td data-label="Joined">
                           <span className="pp-muted">{formatDate(u.createdAt) || '–'}</span>
                         </td>
@@ -770,6 +793,8 @@ function PersonDrawer({ person, canChange, updating, onRoleChange, onClose }) {
                 <MiniStat label="Avg progress" value={`${a?.averageCompletionRate ?? 0}%`} />
                 <MiniStat label="Ratings given" value={a?.feedbackSubmitted ?? detail.feedback.length} />
               </div>
+
+              <PersonActivity uid={person.uid} firstName={person.name.split(' ')[0]} />
 
               <h3 className="pp-drawer-h">Materials</h3>
               {progress.length === 0 ? (
