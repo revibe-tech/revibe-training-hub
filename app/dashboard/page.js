@@ -5,12 +5,15 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import toast from 'react-hot-toast';
 import { useAuth } from '@/contexts/AuthContext';
-import { getAllMaterials, backfillDefaultAudiences, deleteMaterial, updateMaterialDetails, updateMaterialThumbnail } from '@/lib/materials';
+import { getAllMaterials, backfillDefaultAudiences, deleteMaterial, isVideoMaterial, updateMaterialDetails, updateMaterialThumbnail } from '@/lib/materials';
 import { getUserProgress } from '@/lib/progress';
 import { generatePresentationThumbnail } from '@/lib/thumbnails';
 import Navbar from '@/components/Navbar';
 import UploadZone, { AudiencePicker, CategoryField, FormAlert, ModalShell } from '@/components/UploadZone';
 import CategoryManager from '@/components/CategoryManager';
+import ImportBundleModal from '@/components/ImportBundleModal';
+import { useAssistant } from '@/components/AskAssistant';
+import { indexMaterialForAssistant } from '@/lib/assistant';
 import { getCategories, AUDIENCES, DEFAULT_AUDIENCES, normalizeAudiences } from '@/lib/categories';
 import ProgressBar from '@/components/ProgressBar';
 import ReuploadModal from '@/components/ReuploadModal';
@@ -33,6 +36,8 @@ const STATUSES = [
 ];
 
 const isPptx = (m) => !!m?.fileName?.toLowerCase().endsWith('.pptx');
+// PowerPoints and videos get a drawn cover (title + category) instead of a page-1 render.
+const coverKind = (m) => (isVideoMaterial(m) ? 'video' : isPptx(m) ? 'pptx' : null);
 const unitFor = (m, n = 2) => (isPptx(m) ? (n === 1 ? 'slide' : 'slides') : n === 1 ? 'page' : 'pages');
 const toMillis = (v) => {
   if (!v) return 0;
@@ -75,8 +80,11 @@ function Library() {
   const [replacing, setReplacing] = useState(null);
   const [pageDrag, setPageDrag] = useState(false);
   const [refreshing, setRefreshing] = useState(false);
+  const [indexing, setIndexing] = useState(false);
+  const { ready: assistantReady } = useAssistant();
   const [categoryList, setCategoryList] = useState([]); // trainer: category docs with audiences
   const [managingCategories, setManagingCategories] = useState(false);
+  const [importingBundle, setImportingBundle] = useState(false);
 
   const displayName = user?.displayName || user?.email?.split('@')[0] || 'there';
   const firstName = displayName.split(' ')[0];
@@ -338,7 +346,7 @@ function Library() {
 
   // Re-render every cover: HQ page-1 render for PDFs, branded cover for PPTX.
   const handleRefreshThumbnails = async () => {
-    const targets = materials.filter((m) => m.downloadURL || isPptx(m));
+    const targets = materials.filter((m) => m.downloadURL || coverKind(m));
     if (targets.length === 0) {
       toast('No materials to refresh yet.');
       return;
@@ -357,8 +365,8 @@ function Library() {
     let failed = 0;
     for (const m of targets) {
       try {
-        const dataUrl = isPptx(m)
-          ? await generatePresentationThumbnail({ title: m.name, category: m.category })
+        const dataUrl = coverKind(m)
+          ? await generatePresentationThumbnail({ title: m.name, category: m.category, kind: coverKind(m) })
           : await generateThumbnailFromUrl(m.downloadURL);
         if (dataUrl) {
           await updateMaterialThumbnail(m.id, dataUrl);
@@ -376,6 +384,46 @@ function Library() {
     setRefreshing(false);
     if (failed) toast.error(`Refreshed ${done - failed} of ${done}. ${failed} couldn’t be rendered.`, { id: t });
     else toast.success(`All ${done} thumbnails refreshed`, { id: t });
+  };
+
+  // Re-read every material's slide text into the assistant's search index
+  // (once for materials uploaded before it existed; uploads index themselves).
+  const handleRebuildAssistant = async () => {
+    if (materials.length === 0) {
+      toast('No materials to index yet.');
+      return;
+    }
+    const ok = await confirm({
+      title: 'Rebuild the assistant index?',
+      body: `Re-reads the slide text of all ${materials.length} material${materials.length === 1 ? '' : 's'} so the training assistant can answer from them. This can take a minute.`,
+      confirmLabel: 'Rebuild index',
+    });
+    if (!ok) return;
+
+    setIndexing(true);
+    const t = toast.loading(`Indexing 0/${materials.length}…`);
+    let done = 0;
+    let failed = 0;
+    let passages = 0;
+    for (const m of materials) {
+      try {
+        passages += (await indexMaterialForAssistant(m.id)).chunks || 0;
+      } catch (err) {
+        console.warn(`Assistant index failed for ${m.id}:`, err);
+        // Setup or sign-in problems fail every material the same way: stop and say why.
+        if ([401, 403, 503].includes(err.status)) {
+          setIndexing(false);
+          toast.error(err.message, { id: t });
+          return;
+        }
+        failed += 1;
+      }
+      done += 1;
+      toast.loading(`Indexing ${done}/${materials.length}…`, { id: t });
+    }
+    setIndexing(false);
+    if (failed) toast.error(`Indexed ${done - failed} of ${done}. ${failed} failed, so try again.`, { id: t });
+    else toast.success(`Assistant index rebuilt: ${passages} passages from ${done} materials`, { id: t });
   };
 
   const handleDetailsSaved = (id, patch) => {
@@ -422,6 +470,13 @@ function Library() {
                       onSelect: handleRefreshThumbnails,
                       disabled: refreshing || loading || materials.length === 0,
                     },
+                    ...(assistantReady ? [{
+                      label: indexing ? 'Rebuilding assistant index…' : 'Rebuild assistant index',
+                      icon: 'manage_search',
+                      onSelect: handleRebuildAssistant,
+                      disabled: indexing || loading || materials.length === 0,
+                    }] : []),
+                    { label: 'Import training bundle', icon: 'library_add', onSelect: () => setImportingBundle(true) },
                     { label: 'Manage categories', icon: 'label', onSelect: () => setManagingCategories(true) },
                     { label: 'Reload library', icon: 'refresh', onSelect: () => loadMaterials() },
                   ]}
@@ -711,6 +766,17 @@ function Library() {
         />
       )}
 
+      {importingBundle && (
+        <ImportBundleModal
+          existingIds={new Set(materialById.keys())}
+          onClose={() => setImportingBundle(false)}
+          onImported={async () => {
+            await loadCategories();
+            await loadMaterials({ silent: true });
+          }}
+        />
+      )}
+
       {replacing && (
         <ReuploadModal
           material={replacing}
@@ -832,7 +898,7 @@ function Thumb({ material }) {
   }
   return (
     <span className="lib-thumb-placeholder" aria-hidden="true">
-      <i className="material-icons">{isPptx(material) ? 'co_present' : 'picture_as_pdf'}</i>
+      <i className="material-icons">{isVideoMaterial(material) ? 'smart_display' : isPptx(material) ? 'co_present' : 'picture_as_pdf'}</i>
     </span>
   );
 }
@@ -848,7 +914,12 @@ function MaterialCard({ material, progress, status, isNew, matchPage, isTrainer,
       <div className="lib-card-thumb">
         <Thumb material={material} />
         <span className="lib-card-cat">{material.category || 'General'}</span>
-        {count > 0 && (
+        {isVideoMaterial(material) ? (
+          <span className="lib-card-count">
+            <i className="material-icons" aria-hidden="true">play_circle</i>
+            Video
+          </span>
+        ) : count > 0 && (
           <span className="lib-card-count">
             <i className="material-icons" aria-hidden="true">{isPptx(material) ? 'slideshow' : 'description'}</i>
             {count} {unitFor(material, count)}
@@ -873,7 +944,7 @@ function MaterialCard({ material, progress, status, isNew, matchPage, isTrainer,
             {updated ? 'Updated' : 'Added'} {timeAgo(dateValue)}
           </span>
           {isTrainer && <AudienceTags audiences={material.audiences} />}
-          {matchPage && (
+          {matchPage && !isVideoMaterial(material) && (
             <span className="lib-card-match">
               <i className="material-icons" aria-hidden="true">manage_search</i>
               Found on {unitFor(material, 1)} {matchPage}
@@ -888,8 +959,11 @@ function MaterialCard({ material, progress, status, isNew, matchPage, isTrainer,
               label={`Actions for ${material.name}`}
               items={[
                 { label: 'Edit details & visibility', icon: 'edit_note', onSelect: onEdit },
-                { label: 'Replace file', icon: 'cloud_sync', onSelect: onReplace },
-                { label: 'Open in editor', icon: 'draw', onSelect: onOpenEditor },
+                // Videos are links, so there's no file to replace or annotate.
+                ...(isVideoMaterial(material) ? [] : [
+                  { label: 'Replace file', icon: 'cloud_sync', onSelect: onReplace },
+                  { label: 'Open in editor', icon: 'draw', onSelect: onOpenEditor },
+                ]),
                 { separator: true },
                 { label: 'Delete', icon: 'delete_outline', onSelect: onDelete, danger: true },
               ]}
@@ -1015,10 +1089,10 @@ function EditDetailsModal({ material, categories, categoryAudiences = {}, onClos
       await updateMaterialDetails(material.id, { name: nextName, category: nextCategory, audiences });
       const patch = { name: nextName, category: nextCategory, audiences };
 
-      // PowerPoint covers show the title and category, so redraw them.
-      if (isPptx(material)) {
+      // Drawn covers (PowerPoint, video) show the title and category, so redraw them.
+      if (coverKind(material)) {
         try {
-          const thumbnailURL = await generatePresentationThumbnail({ title: nextName, category: nextCategory });
+          const thumbnailURL = await generatePresentationThumbnail({ title: nextName, category: nextCategory, kind: coverKind(material) });
           await updateMaterialThumbnail(material.id, thumbnailURL);
           patch.thumbnailURL = thumbnailURL;
         } catch (thumbErr) {

@@ -834,6 +834,31 @@
 .vw-pptx-note a { font-weight: 600; color: var(--brand-purple); }
 .vw-pptx-note a:hover { text-decoration: underline; }
 
+/* ---- Video (shares the PPTX frame) ------------------------------------- */
+.vw-video-stage { overflow-y: auto; justify-content: flex-start; }
+.vw-video-frame {
+  flex-shrink: 0;
+  width: min(100%, 980px, calc((100dvh - var(--vw-top-h) - 150px) * 16 / 9));
+  background: #121212;
+}
+.vw-video-notes {
+  width: min(100%, 980px);
+  padding: 18px 22px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  background: var(--bg-white);
+  box-shadow: var(--shadow-xs);
+}
+.vw-video-notes h2 {
+  margin: 0 0 8px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--brand-purple);
+}
+.vw-video-notes p { margin: 0; font-size: 14.5px; line-height: 1.6; color: var(--text-body); white-space: pre-line; }
+
 /* ---- Fullscreen / presenting ----------------------------------------- */
 .vw.is-fullscreen {
   --vw-stage-bg: #0E0B13;

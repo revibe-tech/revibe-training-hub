@@ -7,12 +7,13 @@ import Link from 'next/link';
 import toast from 'react-hot-toast';
 import * as pdfjsLib from 'pdfjs-dist';
 import { useAuth } from '@/contexts/AuthContext';
-import { recordPageView, markMaterialCompleted, getUserProgress } from '@/lib/progress';
+import { recordPageView, markMaterialCompleted, getUserProgress, isMaterialCompleted } from '@/lib/progress';
 import { getUserMaterialFeedback } from '@/lib/feedback';
 import { getAllMaterials } from '@/lib/materials';
 import { EmptyState, Skeleton, Spinner } from '@/components/ui';
 import { useBadgeCelebration } from './BadgeCelebration';
 import FeedbackModal from './FeedbackModal';
+import { AskButton } from './AskAssistant';
 
 // The worker must match the pdfjs-dist version.
 pdfjsLib.GlobalWorkerOptions.workerSrc = `https://unpkg.com/pdfjs-dist@${pdfjsLib.version}/build/pdf.worker.min.mjs`;
@@ -155,7 +156,7 @@ function createThumbScheduler(pdfDoc) {
 /* ──────────────────────────────────────────────────────────────────────────
    Shared shell pieces
    ────────────────────────────────────────────────────────────────────────── */
-function ViewerTopBar({ title, category, kind, children }) {
+function ViewerTopBar({ title, category, kind, materialId, children }) {
   return (
     <header className="vw-top">
       <Link href="/dashboard" className="vw-back" aria-label="Back to library" title="Back to library">
@@ -169,7 +170,10 @@ function ViewerTopBar({ title, category, kind, children }) {
         </span>
         <h1 className="vw-title" title={title}>{title || 'Untitled material'}</h1>
       </div>
-      <div className="vw-top-actions">{children}</div>
+      <div className="vw-top-actions">
+        <AskButton materialId={materialId} materialName={title} className="btn btn-ghost btn-icon btn-sm" iconOnly />
+        {children}
+      </div>
     </header>
   );
 }
@@ -316,6 +320,114 @@ function ThumbRail({ pdfDoc, numPages, page, viewed, matches, aspect, open, hori
 }
 
 /* ──────────────────────────────────────────────────────────────────────────
+   Video (hosted player embed, e.g. Google Drive) in the same shell
+   ────────────────────────────────────────────────────────────────────────── */
+function VideoViewer({ videoURL, sourceURL, description, title, category, materialId, isTrainer }) {
+  const { user } = useAuth();
+  const uid = user?.uid;
+  const { checkForBadges } = useBadgeCelebration();
+  const [loaded, setLoaded] = useState(false);
+  const [markState, setMarkState] = useState('idle');
+  const [showFeedback, setShowFeedback] = useState(false);
+
+  useEffect(() => {
+    if (!uid || !materialId || isTrainer) return undefined;
+    let cancelled = false;
+    isMaterialCompleted(uid, materialId).then((done) => {
+      if (done && !cancelled) setMarkState('done');
+    });
+    return () => { cancelled = true; };
+  }, [uid, materialId, isTrainer]);
+
+  // Players in an iframe don't report progress, so watching is confirmed by hand.
+  const handleMarkComplete = async () => {
+    if (!user || !materialId || markState !== 'idle') return;
+    setMarkState('saving');
+    try {
+      await markMaterialCompleted(user.uid, materialId, 1, title || 'Untitled');
+      setMarkState('done');
+      toast.success('Marked as complete');
+      checkForBadges(user.uid);
+    } catch (err) {
+      console.warn('Failed to mark complete:', err);
+      setMarkState('idle');
+      toast.error("Couldn't mark this as complete. Please try again.");
+    }
+  };
+
+  return (
+    <>
+      <div className="vw vw-video">
+        <ViewerTopBar title={title} category={category} kind="Video" materialId={materialId}>
+          {sourceURL && (
+            <a
+              href={sourceURL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-ghost btn-icon btn-sm"
+              aria-label="Open the video in a new tab"
+              title="Open the video in a new tab"
+            >
+              <i className="material-icons" aria-hidden="true">open_in_new</i>
+            </a>
+          )}
+          <button
+            type="button"
+            className="btn btn-ghost btn-icon btn-sm"
+            onClick={() => setShowFeedback(true)}
+            aria-label={isTrainer ? 'Preview feedback form' : 'Rate this material'}
+            title={isTrainer ? 'Preview feedback form' : 'Rate this material'}
+          >
+            <i className="material-icons" aria-hidden="true">star_outline</i>
+          </button>
+          {!isTrainer && <MarkCompleteButton state={markState} onClick={handleMarkComplete} />}
+        </ViewerTopBar>
+
+        <div className="vw-body">
+          <div className="vw-stage-wrap vw-pptx-stage vw-video-stage">
+            <div className="vw-pptx-frame vw-video-frame">
+              {!loaded && (
+                <div className="vw-pptx-loading" aria-live="polite">
+                  <div className="vw-slide-placeholder skeleton" />
+                  <p className="vw-loading-label">Loading the video…</p>
+                </div>
+              )}
+              <iframe
+                src={videoURL}
+                title={title || 'Training video'}
+                onLoad={() => setLoaded(true)}
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowFullScreen
+                className={loaded ? 'is-loaded' : ''}
+              />
+            </div>
+            {description && (
+              <section className="vw-video-notes" aria-labelledby="vw-video-notes-title">
+                <h2 id="vw-video-notes-title">In this video</h2>
+                <p>{description}</p>
+              </section>
+            )}
+            {sourceURL && (
+              <p className="vw-pptx-note">
+                Trouble playing it? <a href={sourceURL} target="_blank" rel="noopener noreferrer">Open the video in a new tab</a>.
+              </p>
+            )}
+          </div>
+        </div>
+      </div>
+
+      <FeedbackModal
+        materialId={materialId}
+        materialName={title || 'Untitled'}
+        isOpen={showFeedback}
+        onClose={() => setShowFeedback(false)}
+        onSubmitSuccess={() => { if (user) checkForBadges(user.uid); }}
+      />
+    </>
+  );
+}
+
+/* ──────────────────────────────────────────────────────────────────────────
    PPTX (Office Online embed) in the same shell
    ────────────────────────────────────────────────────────────────────────── */
 function PPTXViewer({ url, title, category, pageCount, materialId, isTrainer }) {
@@ -347,7 +459,7 @@ function PPTXViewer({ url, title, category, pageCount, materialId, isTrainer }) 
   return (
     <>
       <div className="vw vw-pptx">
-        <ViewerTopBar title={title} category={category} kind="PowerPoint">
+        <ViewerTopBar title={title} category={category} kind="PowerPoint" materialId={materialId}>
           {pageCount > 0 && !isPhone && <span className="vw-counter">{pageCount} slides</span>}
           <a href={url} download className="btn btn-ghost btn-icon btn-sm" aria-label="Download file" title="Download file">
             <i className="material-icons" aria-hidden="true">download</i>
@@ -437,7 +549,7 @@ const SHORTCUTS = [
   [['Esc'], 'Close / exit full screen'],
 ];
 
-function PdfDeck({ url, title, category, materialId, isTrainer, textContent, pageCount }) {
+function PdfDeck({ url, title, category, materialId, isTrainer, textContent, pageCount, initialPage }) {
   const { user, audience } = useAuth();
   const uid = user?.uid;
   const { checkForBadges } = useBadgeCelebration();
@@ -499,6 +611,8 @@ function PdfDeck({ url, title, category, materialId, isTrainer, textContent, pag
   const recordedPagesRef = useRef(new Set());
   const completedIdsRef = useRef(new Set());
   const touchRef = useRef(null);
+  // Read once on load; later ?page= changes (e.g. an assistant source link) jump in place below.
+  const initialPageRef = useRef(initialPage);
 
   const railOpen = isPhone ? phoneRail : (railPref ?? isWide);
   const chromeHidden = isFs && idleHidden && !menuOpen && !searchOpen && !shortcutsOpen;
@@ -543,8 +657,13 @@ function PdfDeck({ url, title, category, materialId, isTrainer, textContent, pag
         completedIdsRef.current = new Set(list.filter((p) => p.completed).map((p) => p.materialId));
 
         let start = 1;
-        if (record && !isTrainer && !record.completed && record.lastPage > 1 && record.lastPage <= pdf.numPages) {
+        let resumed = false;
+        const linkedPage = initialPageRef.current;
+        if (linkedPage >= 1 && linkedPage <= pdf.numPages) {
+          start = linkedPage;
+        } else if (record && !isTrainer && !record.completed && record.lastPage > 1 && record.lastPage <= pdf.numPages) {
           start = record.lastPage;
+          resumed = true;
         }
 
         setAspect(vp.width / vp.height);
@@ -554,7 +673,7 @@ function PdfDeck({ url, title, category, materialId, isTrainer, textContent, pag
         setNav({ page: start, visited: new Set([start]) });
         setPdfDoc(pdf);
 
-        if (start > 1) {
+        if (resumed) {
           toast(
             (t) => (
               <span className="vw-toast">
@@ -591,6 +710,13 @@ function PdfDeck({ url, title, category, materialId, isTrainer, textContent, pag
     setLoadError(null);
     setLoadAttempt((a) => a + 1);
   };
+
+  // Jump when ?page= changes while this deck is open (e.g. an assistant source link).
+  const [linkedPage, setLinkedPage] = useState(initialPage);
+  if (linkedPage !== initialPage) {
+    setLinkedPage(initialPage);
+    if (pdfDoc && initialPage >= 1 && initialPage <= numPages) goTo(initialPage);
+  }
 
   /* ── Measure the stage (available area inside its padding) ──────────── */
   useEffect(() => {
@@ -1072,7 +1198,7 @@ function PdfDeck({ url, title, category, materialId, isTrainer, textContent, pag
     <>
       <div className={shellClass}>
         {!isFs && (
-          <ViewerTopBar title={title} category={category}>
+          <ViewerTopBar title={title} category={category} materialId={materialId}>
             {numPages > 0 && !isPhone && (
               <span className="vw-counter" title={`${viewedPct}% of slides viewed`}>
                 Slide <b>{page}</b> of {numPages}
@@ -1560,7 +1686,23 @@ function PdfDeck({ url, title, category, materialId, isTrainer, textContent, pag
 /* ──────────────────────────────────────────────────────────────────────────
    Entry
    ────────────────────────────────────────────────────────────────────────── */
-export default function PDFViewer({ url, title, category, materialId, isTrainer, textContent = [], pageCount = 0 }) {
+export default function PDFViewer({
+  url, title, category, materialId, isTrainer, textContent = [], pageCount = 0, initialPage = null,
+  kind = null, videoURL = '', sourceURL = '', description = '',
+}) {
+  if (kind === 'video') {
+    return (
+      <VideoViewer
+        videoURL={videoURL}
+        sourceURL={sourceURL}
+        description={description}
+        title={title}
+        category={category}
+        materialId={materialId}
+        isTrainer={isTrainer}
+      />
+    );
+  }
   if ((url || '').toLowerCase().includes('.pptx')) {
     return (
       <PPTXViewer
@@ -1582,6 +1724,7 @@ export default function PDFViewer({ url, title, category, materialId, isTrainer,
       isTrainer={isTrainer}
       textContent={textContent}
       pageCount={pageCount}
+      initialPage={initialPage}
     />
   );
 }

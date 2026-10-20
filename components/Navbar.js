@@ -7,6 +7,7 @@ import { useAuth } from '@/contexts/AuthContext';
 import { APP_VERSION } from '@/lib/version';
 import { partnerTypeLabel, teamLabel } from '@/lib/categories';
 import { Avatar } from '@/components/ui';
+import { AskButton } from '@/components/AskAssistant';
 import './Navbar.css';
 
 const LINKS = [
@@ -79,6 +80,8 @@ export default function Navbar({ title }) {
               </Link>
             ))}
           </nav>
+
+          <AskButton className="btn btn-soft btn-sm nav-ask" />
 
           <div className="nav-user" ref={menuRef}>
             <button

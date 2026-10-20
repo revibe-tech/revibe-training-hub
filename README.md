@@ -15,6 +15,8 @@ Built with Next.js (App Router), Firebase, and Supabase.
 - **Auto thumbnails** generated from page 1 of each PDF.
 - **Category filters** generated dynamically from the uploaded library.
 - **Dashboard search** across material names and embedded slide text.
+- **Videos** that play from Google Drive, with the steps they cover shown under the player.
+- **Import training bundle** (trainer): add a set of Drive decks and videos in one go, e.g. when moving training over from another tool ([docs/WARRANTY_MIGRATION.md](docs/WARRANTY_MIGRATION.md)).
 
 ### 🖥️ High-quality slide viewer
 - **Crisp HiDPI / Retina rendering** via PDF.js (DPR-aware canvas).
@@ -35,6 +37,13 @@ Built with Next.js (App Router), Firebase, and Supabase.
 - **Auto-prompted** when a trainee reaches the final slide.
 - **Always-available Feedback button** in the viewer toolbar (trainees rate anytime; trainers can preview the form).
 - Server-side validation of rating range and comment length via Firestore rules.
+
+### 🤖 Training assistant (AI)
+- **Ask questions in plain language** from the navbar, or about one deck from the viewer.
+- **Answers only from material the person can open**, with links to the exact slide (`/viewer?id=…&page=N`).
+- **Hybrid search** (pgvector + keywords) over slide text, kept in sync on upload, re-upload and delete.
+- **Unanswered questions are logged** so trainers can see what the material is missing.
+- Setup and design: [docs/AI_ASSISTANT.md](docs/AI_ASSISTANT.md).
 
 ### 🏆 Gamification
 - **Achievement badges** — multiple badges awarded for milestones (first step, completions, feedback, perfect scores, and more) with progress indicators.
@@ -129,7 +138,13 @@ NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=your_measurement_id
 # Supabase
 NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+
+# Training assistant (server-only: never prefix with NEXT_PUBLIC_)
+GEMINI_API_KEY=your_gemini_api_key
+SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
 ```
+
+The assistant also needs a one-time SQL migration; see [docs/AI_ASSISTANT.md](docs/AI_ASSISTANT.md).
 
 ---
 

@@ -1,0 +1,66 @@
+/* Import training bundle dialog (inside the upload modal shell). */
+
+.ib-json {
+  min-height: 180px;
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  line-height: 1.5;
+}
+.ib-link {
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  font-weight: 600;
+  color: var(--brand-purple);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.ib-summary { margin: 0; font-size: 14px; color: var(--text-body); }
+.ib-summary strong { color: var(--text-primary); }
+
+.ib-items {
+  display: grid;
+  max-height: 300px;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  list-style: none;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+}
+.ib-items li {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border);
+  font-size: 13.5px;
+}
+.ib-items li:last-child { border-bottom: 0; }
+.ib-items .material-icons { font-size: 19px; color: var(--brand-purple); }
+.ib-item-name { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--text-primary); font-weight: 600; }
+.ib-item-state {
+  padding: 2px 9px;
+  border-radius: var(--radius-full);
+  background: var(--brand-lavender);
+  color: var(--brand-purple);
+  font-size: 11.5px;
+  font-weight: 700;
+}
+.ib-items li.is-existing .ib-item-name,
+.ib-items li.is-existing .material-icons { color: var(--text-subtle); }
+.ib-items li.is-existing .ib-item-state { background: var(--bg-muted); color: var(--text-muted); }
+
+.ib-result { display: flex; flex-wrap: wrap; gap: 8px; }
+.ib-stat {
+  padding: 8px 14px;
+  border-radius: var(--radius-full);
+  background: var(--color-success-light);
+  color: var(--color-success);
+  font-size: 14px;
+}
+.ib-stat.is-bad { background: var(--color-danger-light); color: var(--color-danger); }
+.ib-failures { display: grid; gap: 6px; margin: 0; padding-left: 18px; font-size: 13px; color: var(--text-body); }

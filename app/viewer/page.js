@@ -35,7 +35,9 @@ function ViewerState({ title, icon, heading, text, onRetry }) {
 }
 
 function ViewerContent() {
-  const materialId = useSearchParams().get('id');
+  const searchParams = useSearchParams();
+  const materialId = searchParams.get('id');
+  const initialPage = Number.parseInt(searchParams.get('page'), 10) || null;
   const { isTrainer } = useAuth();
   const [attempt, setAttempt] = useState(0);
   // Tagged with the id/attempt it belongs to, so switching materials (e.g. "Up next")
@@ -114,6 +116,11 @@ function ViewerContent() {
         pageCount={material.pageCount}
         isTrainer={isTrainer}
         textContent={material.textContent}
+        initialPage={initialPage}
+        kind={material.kind}
+        videoURL={material.videoURL}
+        sourceURL={material.sourceURL}
+        description={material.description}
       />
     </>
   );

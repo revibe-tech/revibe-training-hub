@@ -1,0 +1,67 @@
+import { getViewer } from '@/lib/server/viewer';
+import { getDocument } from '@/lib/server/firestore';
+import { aiConfigured, embedTexts } from '@/lib/server/ai';
+import { deleteChunks, replaceChunks, storeConfigured } from '@/lib/server/ragStore';
+import { chunkPages } from '@/lib/rag/chunk';
+
+export const maxDuration = 60;
+
+const fail = (status, error) => Response.json({ error }, { status });
+
+/** { viewer } for a signed-in trainer, otherwise { error } with the response to send. */
+async function trainerOrError(request) {
+  if (!aiConfigured() || !storeConfigured()) {
+    return { error: fail(503, "The training assistant isn't set up yet (see docs/AI_ASSISTANT.md).") };
+  }
+  const viewer = await getViewer(request);
+  if (!viewer) return { error: fail(401, 'Sign in again to update the assistant.') };
+  if (viewer.role !== 'trainer') return { error: fail(403, 'Only trainers can update the assistant.') };
+  return { viewer };
+}
+
+/** Re-read a material's extracted page text and replace its chunks. Body: { materialId } */
+export async function POST(request) {
+  const { viewer, error } = await trainerOrError(request);
+  if (error) return error;
+
+  const body = await request.json().catch(() => null);
+  const materialId = typeof body?.materialId === 'string' ? body.materialId : '';
+  if (!materialId) return fail(400, 'Missing materialId.');
+
+  try {
+    const material = await getDocument(viewer.token, `materials/${encodeURIComponent(materialId)}`, ['name', 'textContent']);
+    const chunks = material ? chunkPages(material.textContent || []) : [];
+    if (!chunks.length) {
+      await deleteChunks(materialId);
+      return Response.json({ chunks: 0 });
+    }
+
+    const name = material.name || 'Training material';
+    const vectors = await embedTexts(
+      chunks.map((c) => `${name} · page ${c.page}\n${c.content}`),
+      'RETRIEVAL_DOCUMENT',
+    );
+    await replaceChunks(materialId, chunks.map((c, i) => ({ ...c, embedding: vectors[i] })));
+    return Response.json({ chunks: chunks.length });
+  } catch (err) {
+    console.error(`Assistant index failed for ${materialId}:`, err);
+    return fail(502, "Couldn't update the assistant for this material. Try again.");
+  }
+}
+
+/** Drop a deleted material's chunks. Query: ?id=<materialId> */
+export async function DELETE(request) {
+  const { error } = await trainerOrError(request);
+  if (error) return error;
+
+  const materialId = request.nextUrl.searchParams.get('id');
+  if (!materialId) return fail(400, 'Missing id.');
+
+  try {
+    await deleteChunks(materialId);
+    return Response.json({ ok: true });
+  } catch (err) {
+    console.error(`Assistant index removal failed for ${materialId}:`, err);
+    return fail(502, "Couldn't remove this material from the assistant. Try again.");
+  }
+}
