@@ -18,7 +18,7 @@ function AudienceChips({ value, onToggle, disabled, groups = [] }) {
       // Keep at least one group: an empty list would read as legacy Revibe-only.
       disabled={disabled || (value.length === 1 && value.includes(p.id))}
       onClick={() => onToggle(p.id)}
-      title={`Visible to ${p.label}`}
+      title={value.length === 1 && value.includes(p.id) ? 'Tick another audience first: something has to see this category' : `Visible to ${p.label}`}
     >
       <i className="material-icons" aria-hidden="true">{p.icon}</i>
       {p.label}

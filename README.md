@@ -64,7 +64,7 @@ Built with Next.js (App Router), Firebase, and Supabase.
 - **Google Sign-In** (Firebase Auth) with automatic popup → redirect fallback.
 - **Role-based access** — Trainer vs. Trainee, resolved from email + Firestore.
 - **User management** (trainer only) — promote/demote users between roles, or delete them with their data.
-- **Who sees what** (trainer only) — tag materials and categories for Revibe agents, Sellers, Repair partners, your own groups (e.g. "KSA sellers") or single people; each person's Access panel shows what they see and why. See [docs/AUDIENCES.md](docs/AUDIENCES.md).
+- **Who sees what** (trainer only) — tag materials and categories for Revibe agents, Sellers, Repair partners, your own groups (e.g. "KSA sellers") or single people; each person's Access panel shows what they see and why, and **View as** (trainers and Management) previews the library as any audience, with one-click Show / Hide. See [docs/AUDIENCES.md](docs/AUDIENCES.md).
 - **Analytics dashboard** (trainer only) — platform metrics, popular materials, and a trainee leaderboard.
 - **Annotation editor** (trainer only) — draw/text/shape overlays on PDF pages (Fabric.js), saved per page to Firestore.
 

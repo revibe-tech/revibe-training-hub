@@ -15,6 +15,11 @@ An empty list (materials saved before audiences existed) means Revibe agents onl
 
 ## For trainers
 
+- **View as** (Library, top of All materials): pick Revibe agents, Sellers,
+  Repair partners or a group to see the library exactly as they do. Switch to
+  **Everything** to see what they can't open, dimmed, and use **Show** / **Hide**
+  on a card to change it for them. Only trainers and the Management team get
+  View as. Management can preview but can't change anything.
 - **Groups**: Library ⋯ → Manage groups, or People → Groups. Make a group,
   tick its people, then tick the group under "Who can see this" on a material
   or a category.

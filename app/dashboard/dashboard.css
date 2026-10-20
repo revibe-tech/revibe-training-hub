@@ -244,6 +244,41 @@
 }
 .lib-card-cta .material-icons { font-size: 16px; }
 .lib-card:hover .lib-card-cta { gap: 8px; }
+/* "View as" preview (trainers and Management) */
+.lib-viewas { display: flex; flex-direction: column; gap: 10px; margin-bottom: var(--space-4); }
+.lib-viewas-chips { align-items: center; }
+.lib-viewas-chips .chip .material-icons { font-size: 16px; }
+.lib-viewas-label {
+  display: inline-flex; align-items: center; gap: 6px; flex-shrink: 0; padding-right: 2px;
+  font-family: var(--font-heading); font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--text-muted);
+}
+.lib-viewas-label .material-icons { font-size: 18px; color: var(--brand-purple); }
+.lib-viewas-banner {
+  display: flex; align-items: center; flex-wrap: wrap; gap: 10px 14px;
+  padding: 12px 16px;
+  background: var(--gradient-soft);
+  border: 1px solid rgba(127, 25, 160, 0.14);
+  border-radius: var(--radius-lg);
+}
+.lib-viewas-banner > .material-icons { color: var(--brand-purple); }
+.lib-viewas-banner p { flex: 1 1 260px; margin: 0; font-size: 14px; color: var(--text-body); }
+.lib-viewas-banner .segmented { background: var(--bg-white); }
+
+.lib-card-preview {
+  position: relative; z-index: 2; /* above the card's link overlay */
+  display: flex; align-items: center; justify-content: space-between; gap: 8px;
+  margin-top: 4px; padding-top: 10px;
+  border-top: 1px dashed var(--border);
+}
+.lib-card-preview-state { display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; font-weight: 600; }
+.lib-card-preview-state .material-icons { font-size: 16px; }
+.lib-card-preview.is-seen .lib-card-preview-state { color: #0B7A3B; }
+.lib-card-preview.is-hidden .lib-card-preview-state { color: var(--text-muted); }
+.lib-card.is-preview-hidden .lib-card-thumb,
+.lib-card.is-preview-hidden .lib-card-title,
+.lib-card.is-preview-hidden .lib-card-meta { opacity: 0.45; filter: grayscale(1); }
+
 .lib-badge-new { background: #FFF0E5; color: #B84800; }
 .lib-badge-progress { font-variant-numeric: tabular-nums; }
 
@@ -256,6 +291,7 @@
 
 /* ---- Action menu (card + header overflow) ---- */
 .lib-menu { position: relative; z-index: 2; flex-shrink: 0; }
+.lib-menu.is-open { z-index: 3; } /* over the View as strip below it */
 .lib-menu-btn {
   width: 34px; height: 34px; border-radius: 999px;
   display: inline-flex; align-items: center; justify-content: center;
