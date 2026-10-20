@@ -12,6 +12,7 @@ import Navbar from '@/components/Navbar';
 import UploadZone, { AudiencePicker, CategoryField, FormAlert, ModalShell } from '@/components/UploadZone';
 import CategoryManager from '@/components/CategoryManager';
 import GroupsManager from '@/components/GroupsManager';
+import AssistantCheck from '@/components/AssistantCheck';
 import { getGroups } from '@/lib/groups';
 import { SEES_ALL_TEAM, isUserAudience } from '@/lib/audience';
 import ImportBundleModal from '@/components/ImportBundleModal';
@@ -55,6 +56,10 @@ const toMillis = (v) => {
 const viewerHref = (id) => `/viewer?id=${encodeURIComponent(id)}`;
 // Set when this visit has checked the assistant's index (see Library).
 let assistantSyncStarted = false;
+// Bump when how material is read changes (lib/rag/chunk.js): each trainer's next
+// library visit then re-reads every material once, so old passages get the fix.
+const ASSISTANT_INDEX_VERSION = 2;
+const INDEX_VERSION_KEY = 'revibe-assistant-index-version';
 
 export default function DashboardPage() {
   return (
@@ -102,6 +107,7 @@ function Library() {
   const [viewAs, setViewAs] = useState(null); // audience being previewed ('seller', 'group:…'), or null
   const [showHidden, setShowHidden] = useState(false); // preview: also show what they can't see, dimmed
   const [togglingId, setTogglingId] = useState(null);
+  const [checkingAssistant, setCheckingAssistant] = useState(false);
 
   const displayName = user?.displayName || user?.email?.split('@')[0] || 'there';
   const firstName = displayName.split(' ')[0];
@@ -501,16 +507,39 @@ function Library() {
     if (!isTrainer || !assistantReady || loadState !== 'ready' || assistantSyncStarted) return;
     assistantSyncStarted = true;
     (async () => {
-      const known = new Set((await getAssistantIndex()).indexed);
-      const missing = materials.filter((m) => m.id && !known.has(m.id) && hasAssistantText(m));
-      if (!missing.length) return;
-      const t = toast.loading(`Teaching the assistant ${missing.length} material${missing.length === 1 ? '' : 's'}…`);
-      const { failed } = await indexMaterialsForAssistant(missing, (done, total) => {
-        toast.loading(`Teaching the assistant ${done}/${total}…`, { id: t });
-      });
-      if (failed) toast.error(`The assistant couldn’t read ${failed} material${failed === 1 ? '' : 's'}. Try ⋯ → Rebuild assistant index.`, { id: t });
-      else toast.success(`The assistant can now answer from ${missing.length} more material${missing.length === 1 ? '' : 's'}`, { id: t });
-    })().catch((err) => console.warn('Assistant auto-index failed:', err.message));
+      let t;
+      try {
+        let version = 0;
+        try { version = Number(window.localStorage.getItem(INDEX_VERSION_KEY)) || 0; } catch { /* no storage */ }
+        const saveVersion = () => { try { window.localStorage.setItem(INDEX_VERSION_KEY, String(ASSISTANT_INDEX_VERSION)); } catch { /* no storage */ } };
+        const refresh = version < ASSISTANT_INDEX_VERSION;
+        const known = new Set((await getAssistantIndex()).indexed);
+        const readable = materials.filter((m) => m.id && hasAssistantText(m));
+        const targets = refresh ? readable : readable.filter((m) => !known.has(m.id));
+        if (!targets.length) {
+          if (refresh) saveVersion();
+          return;
+        }
+        const label = refresh ? 'Updating the assistant' : 'Teaching the assistant';
+        t = toast.loading(`${label} 0/${targets.length}…`);
+        const { failed } = await indexMaterialsForAssistant(targets, (done, total) => {
+          toast.loading(`${label} ${done}/${total}…`, { id: t });
+        });
+        // Saved even if a few failed, so one bad file can't re-run this on every visit.
+        if (refresh) saveVersion();
+        if (failed) {
+          toast.error(`The assistant couldn’t read ${failed} material${failed === 1 ? '' : 's'}. Use ⋯ → Check the assistant to see why.`, { id: t });
+        } else {
+          toast.success(refresh
+            ? `The assistant re-read all ${targets.length} material${targets.length === 1 ? '' : 's'}`
+            : `The assistant can now answer from ${targets.length} more material${targets.length === 1 ? '' : 's'}`, { id: t });
+        }
+      } catch (err) {
+        // A setup, sign-in or quota problem stops the run: say so, or the assistant silently can't answer.
+        console.warn('Assistant auto-index failed:', err.message);
+        toast.error(`The assistant can’t read your materials right now. ${err.message}`, { id: t, duration: 12000 });
+      }
+    })();
   }, [isTrainer, assistantReady, loadState, materials]);
 
   const handleDetailsSaved = (id, patch) => {
@@ -589,6 +618,7 @@ function Library() {
                     { label: 'Import training bundle', icon: 'library_add', onSelect: () => setImportingBundle(true) },
                     { label: 'Manage categories', icon: 'label', onSelect: () => setManagingCategories(true) },
                     { label: 'Manage groups', icon: 'groups', onSelect: () => setManagingGroups(true) },
+                    { label: 'Check the assistant', icon: 'health_and_safety', onSelect: () => setCheckingAssistant(true) },
                     { label: 'Reload library', icon: 'refresh', onSelect: () => loadMaterials() },
                   ]}
                 />
@@ -920,6 +950,10 @@ function Library() {
             await loadMaterials({ silent: true });
           }}
         />
+      )}
+
+      {checkingAssistant && (
+        <AssistantCheck materials={materials} onClose={() => setCheckingAssistant(false)} />
       )}
 
       {importingBundle && (

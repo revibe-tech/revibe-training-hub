@@ -3,6 +3,7 @@ import { getDocument } from '@/lib/server/firestore';
 import { aiConfigured, embedTexts } from '@/lib/server/ai';
 import { deleteChunks, indexedMaterialIds, replaceChunks, storeConfigured } from '@/lib/server/ragStore';
 import { chunkPages } from '@/lib/rag/chunk';
+import { assistantProblem, explain } from '@/lib/server/assistantErrors';
 
 export const maxDuration = 60;
 
@@ -28,7 +29,8 @@ export async function GET(request) {
     return Response.json({ indexed: await indexedMaterialIds() });
   } catch (err) {
     console.error('Reading the assistant index failed:', err);
-    return fail(502, "Couldn't read the assistant index. Try again.");
+    const problem = assistantProblem(err, 'database');
+    return fail(problem.status, explain(problem, "Couldn't read the assistant index.", true));
   }
 }
 
@@ -41,8 +43,10 @@ export async function POST(request) {
   const materialId = typeof body?.materialId === 'string' ? body.materialId : '';
   if (!materialId) return fail(400, 'Missing materialId.');
 
+  let where = 'firestore';
   try {
     const material = await getDocument(viewer.token, `materials/${encodeURIComponent(materialId)}`, ['name', 'textContent']);
+    where = 'database';
     const chunks = material ? chunkPages(material.textContent || []) : [];
     if (!chunks.length) {
       await deleteChunks(materialId);
@@ -58,7 +62,8 @@ export async function POST(request) {
     return Response.json({ chunks: chunks.length });
   } catch (err) {
     console.error(`Assistant index failed for ${materialId}:`, err);
-    return fail(502, "Couldn't update the assistant for this material. Try again.");
+    const problem = assistantProblem(err, where);
+    return fail(problem.status, explain(problem, "Couldn't update the assistant for this material.", true));
   }
 }
 
@@ -75,6 +80,7 @@ export async function DELETE(request) {
     return Response.json({ ok: true });
   } catch (err) {
     console.error(`Assistant index removal failed for ${materialId}:`, err);
-    return fail(502, "Couldn't remove this material from the assistant. Try again.");
+    const problem = assistantProblem(err, 'database');
+    return fail(problem.status, explain(problem, "Couldn't remove this material from the assistant.", true));
   }
 }

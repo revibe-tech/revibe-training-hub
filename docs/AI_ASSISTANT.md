@@ -72,6 +72,35 @@ that embeddings alone match poorly.
 Until steps 1–2 are done the chat button stays hidden (`GET /api/ask` returns `{ ready: false }`).
 If every answer says it can't read any training material yet, the index is empty: open the Library as a trainer.
 
+## When it isn't working
+
+**Library → ⋯ → Check the assistant** (trainers) tries each part for real
+(`GET /api/rag/check`) and shows what's broken and how to fix it:
+
+| Row | What it tests | Usual fix |
+|---|---|---|
+| Settings | `GEMINI_API_KEY` and the Supabase service key are set | Add them in Vercel, redeploy |
+| Database | `rag_chunks` / `rag_queries` and the search function exist | Run the migration above |
+| Reading the material | An embedding call (`gemini-embedding-001`) | Key, quota, or `GEMINI_EMBED_MODEL` |
+| Answering | Each chat model on its own: main and backup | Key, quota, or `GEMINI_CHAT_MODEL` |
+| Search | A real search over the indexed passages | Rebuild the index |
+| Your materials | Which library materials aren't searchable yet | **Index N now** |
+
+In the chat, trainers see the reason and the fix with any error; everyone else
+gets a plain "try again" message.
+
+Built in so short outages don't break it:
+
+- Gemini calls time out after 20s and retry rate limits and 5xx errors twice
+  (waiting what Gemini asks, up to 8s); a longer quota wait fails fast with a clear message.
+- If the main chat model is out of quota, gone or garbled, `gemini-flash-lite-latest` answers instead.
+- Library indexing stops on a key, quota or setup error and says so, instead of failing every material.
+
+Slide text: PDF.js returns letter-spaced titles as single letters ("Q U E U E").
+Extraction (`pageText` in `lib/rag/chunk.js`) joins them back, and indexing cleans
+text stored before that. When that cleaning changes, bump `ASSISTANT_INDEX_VERSION`
+in `app/dashboard/page.js`: each trainer's next Library visit re-reads every material once.
+
 ## Finding gaps in the training material
 
 Every question is logged to `rag_queries`. Questions it couldn't answer are

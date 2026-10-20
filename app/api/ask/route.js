@@ -3,6 +3,7 @@ import { getViewer, listAllowedMaterials } from '@/lib/server/viewer';
 import { aiConfigured, embedTexts, generateJson } from '@/lib/server/ai';
 import { countQueriesSince, logQuery, searchChunks, storeConfigured } from '@/lib/server/ragStore';
 import { ANSWER_SCHEMA, SYSTEM_PROMPT, buildContents } from '@/lib/rag/prompt';
+import { assistantProblem, explain } from '@/lib/server/assistantErrors';
 
 export const maxDuration = 60;
 
@@ -16,6 +17,8 @@ const NOT_COVERED = "I couldn't find that in your training material. Try rephras
 // Search always returns the closest passages, so no hits means nothing to search.
 const NOTHING_INDEXED = "I can't read any training material yet, so I can't answer. A trainer needs to open the Library once so I can read it.";
 const DECK_NOT_INDEXED = "I can't read this material's text, so I can't answer about it. Switch to “All training” to search everything else.";
+const NOTHING_SHARED = "There's no training material shared with you yet, so I can't answer. Ask your trainer.";
+const BLOCKED = "I can't help with that one. Try asking about your training material.";
 
 const fail = (status, error) => Response.json({ error }, { status });
 
@@ -65,17 +68,20 @@ export async function POST(request) {
   const previous = history.findLast((m) => m.role === 'user');
   const searchText = previous ? `${previous.content}\n${question}` : question;
 
+  // Where it failed, so trainers are told what to fix.
+  let where = 'firestore';
   try {
     const [materials, [queryVector]] = await Promise.all([
       listAllowedMaterials(viewer),
       embedTexts([searchText], 'RETRIEVAL_QUERY'),
     ]);
+    if (!materials.length) return Response.json({ answer: NOTHING_SHARED, found: false, sources: [] });
     const byId = new Map(materials.map((m) => [m.id, m]));
     const materialIds = scopeId && byId.has(scopeId) ? [scopeId] : [...byId.keys()];
 
-    const hits = materialIds.length
-      ? await searchChunks({ embedding: queryVector, text: searchText, materialIds })
-      : [];
+    where = 'database';
+    const hits = await searchChunks({ embedding: queryVector, text: searchText, materialIds });
+    where = 'other';
     const excerpts = hits.map((hit) => ({
       ...hit,
       materialName: byId.get(hit.material_id)?.name || 'Untitled material',
@@ -113,7 +119,12 @@ export async function POST(request) {
 
     return Response.json({ answer: String(result.answer || NOT_COVERED), found, sources });
   } catch (err) {
-    console.error('Assistant answer failed:', err);
-    return fail(502, "The assistant couldn't answer right now. Try again in a moment.");
+    const problem = assistantProblem(err, where);
+    console.error(`Assistant answer failed (${problem.kind}):`, err);
+    if (problem.kind === 'blocked') return Response.json({ answer: BLOCKED, found: false, sources: [] });
+    const message = problem.kind === 'quota'
+      ? 'The assistant is busy right now. Try again in a minute.'
+      : "The assistant couldn't answer right now. Try again in a moment.";
+    return fail(problem.status, explain(problem, message, viewer.role === 'trainer'));
   }
 }

@@ -144,7 +144,7 @@
 }
 .lib-card:not(.lib-card-skeleton):hover { box-shadow: var(--shadow-lg); transform: translateY(-2px); border-color: transparent; }
 .lib-card:has(.lib-card-link:focus-visible) { box-shadow: var(--ring), var(--shadow-md); border-color: var(--brand-purple); }
-.lib-card:has(.lib-menu.is-open) { z-index: 5; }
+.lib-card:has(.lib-menu.is-open) { z-index: calc(var(--z-sticky) + 60); } /* its menu sits above the "What's new" card */
 
 .lib-card-thumb {
   position: relative;
