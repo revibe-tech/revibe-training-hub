@@ -1,7 +1,7 @@
 import { getViewer } from '@/lib/server/viewer';
 import { getDocument } from '@/lib/server/firestore';
 import { aiConfigured, embedTexts } from '@/lib/server/ai';
-import { deleteChunks, replaceChunks, storeConfigured } from '@/lib/server/ragStore';
+import { deleteChunks, indexedMaterialIds, replaceChunks, storeConfigured } from '@/lib/server/ragStore';
 import { chunkPages } from '@/lib/rag/chunk';
 
 export const maxDuration = 60;
@@ -17,6 +17,19 @@ async function trainerOrError(request) {
   if (!viewer) return { error: fail(401, 'Sign in again to update the assistant.') };
   if (viewer.role !== 'trainer') return { error: fail(403, 'Only trainers can update the assistant.') };
   return { viewer };
+}
+
+/** Which materials the assistant can search: { indexed: [materialId] } */
+export async function GET(request) {
+  const { error } = await trainerOrError(request);
+  if (error) return error;
+
+  try {
+    return Response.json({ indexed: await indexedMaterialIds() });
+  } catch (err) {
+    console.error('Reading the assistant index failed:', err);
+    return fail(502, "Couldn't read the assistant index. Try again.");
+  }
 }
 
 /** Re-read a material's extracted page text and replace its chunks. Body: { materialId } */

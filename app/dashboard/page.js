@@ -13,7 +13,9 @@ import UploadZone, { AudiencePicker, CategoryField, FormAlert, ModalShell } from
 import CategoryManager from '@/components/CategoryManager';
 import ImportBundleModal from '@/components/ImportBundleModal';
 import { useAssistant } from '@/components/AskAssistant';
-import { indexMaterialForAssistant } from '@/lib/assistant';
+import { getAssistantIndex, hasAssistantText, indexMaterialsForAssistant } from '@/lib/assistant';
+import { logActivity } from '@/lib/activity';
+import { readBundleLink } from '@/lib/imports';
 import { getCategories, AUDIENCES, DEFAULT_AUDIENCES, normalizeAudiences } from '@/lib/categories';
 import ProgressBar from '@/components/ProgressBar';
 import ReuploadModal from '@/components/ReuploadModal';
@@ -46,6 +48,8 @@ const toMillis = (v) => {
   return Number.isNaN(t) ? 0 : t;
 };
 const viewerHref = (id) => `/viewer?id=${encodeURIComponent(id)}`;
+// Set when this visit has checked the assistant's index (see Library).
+let assistantSyncStarted = false;
 
 export default function DashboardPage() {
   return (
@@ -85,6 +89,7 @@ function Library() {
   const [categoryList, setCategoryList] = useState([]); // trainer: category docs with audiences
   const [managingCategories, setManagingCategories] = useState(false);
   const [importingBundle, setImportingBundle] = useState(false);
+  const [bundleFromLink, setBundleFromLink] = useState('');
 
   const displayName = user?.displayName || user?.email?.split('@')[0] || 'there';
   const firstName = displayName.split(' ')[0];
@@ -134,6 +139,29 @@ function Library() {
     const id = requestAnimationFrame(() => loadMaterials());
     return () => cancelAnimationFrame(id);
   }, [loadMaterials]);
+
+  // A one-click import link (/dashboard#import=…) opens the import with that bundle ready to review.
+  useEffect(() => {
+    if (!isTrainer) return undefined;
+    let frame = 0;
+    const openFromLink = () => {
+      const token = window.location.hash.match(/^#import=([\w-]+)$/)?.[1];
+      if (!token) return;
+      frame = requestAnimationFrame(() => {
+        window.history.replaceState(null, '', window.location.pathname + window.location.search);
+        const json = readBundleLink(token);
+        if (!json) toast.error('That import link is incomplete. Paste the bundle instead.');
+        setBundleFromLink(json || '');
+        setImportingBundle(true);
+      });
+    };
+    openFromLink();
+    window.addEventListener('hashchange', openFromLink); // pasted into the address bar while here
+    return () => {
+      cancelAnimationFrame(frame);
+      window.removeEventListener('hashchange', openFromLink);
+    };
+  }, [isTrainer]);
 
   useEffect(() => {
     if (!user) return undefined;
@@ -191,6 +219,14 @@ function Library() {
     }
     return out;
   }, [materials, query]);
+
+  // What people look for, and whether the library has it.
+  useEffect(() => {
+    const q = query.trim();
+    if (q.length < 2) return undefined;
+    const id = setTimeout(() => logActivity('search', { materialId: null, detail: { q: q.slice(0, 100), results: searched.length } }), 1500);
+    return () => clearTimeout(id);
+  }, [query, searched.length]);
 
   const activeStatus = isTrainer ? 'all' : status;
 
@@ -386,8 +422,7 @@ function Library() {
     else toast.success(`All ${done} thumbnails refreshed`, { id: t });
   };
 
-  // Re-read every material's slide text into the assistant's search index
-  // (once for materials uploaded before it existed; uploads index themselves).
+  // Re-read every material's slide text into the assistant's search index.
   const handleRebuildAssistant = async () => {
     if (materials.length === 0) {
       toast('No materials to index yet.');
@@ -402,29 +437,39 @@ function Library() {
 
     setIndexing(true);
     const t = toast.loading(`Indexing 0/${materials.length}…`);
-    let done = 0;
-    let failed = 0;
-    let passages = 0;
-    for (const m of materials) {
-      try {
-        passages += (await indexMaterialForAssistant(m.id)).chunks || 0;
-      } catch (err) {
-        console.warn(`Assistant index failed for ${m.id}:`, err);
-        // Setup or sign-in problems fail every material the same way: stop and say why.
-        if ([401, 403, 503].includes(err.status)) {
-          setIndexing(false);
-          toast.error(err.message, { id: t });
-          return;
-        }
-        failed += 1;
-      }
-      done += 1;
-      toast.loading(`Indexing ${done}/${materials.length}…`, { id: t });
+    try {
+      const { passages, failed } = await indexMaterialsForAssistant(materials, (done, total) => {
+        toast.loading(`Indexing ${done}/${total}…`, { id: t });
+      });
+      const unreadable = materials.filter((m) => !hasAssistantText(m)).length;
+      const note = unreadable ? ` ${unreadable} ha${unreadable === 1 ? 's' : 've'} no readable text (scanned or image-only), so re-upload ${unreadable === 1 ? 'it' : 'them'} as a text PDF.` : '';
+      if (failed) toast.error(`Indexed ${materials.length - failed} of ${materials.length}. ${failed} failed, so try again.${note}`, { id: t });
+      else toast.success(`Assistant index rebuilt: ${passages} passages from ${materials.length - unreadable} materials.${note}`, { id: t, duration: note ? 8000 : 4000 });
+    } catch (err) {
+      toast.error(err.message, { id: t });
+    } finally {
+      setIndexing(false);
     }
-    setIndexing(false);
-    if (failed) toast.error(`Indexed ${done - failed} of ${done}. ${failed} failed, so try again.`, { id: t });
-    else toast.success(`Assistant index rebuilt: ${passages} passages from ${done} materials`, { id: t });
   };
+
+  // Materials the assistant can't search yet (uploaded before it was set up, or
+  // whose background sync failed) get indexed when a trainer opens the library,
+  // so it never answers from an empty index. Once per visit.
+  useEffect(() => {
+    if (!isTrainer || !assistantReady || loadState !== 'ready' || assistantSyncStarted) return;
+    assistantSyncStarted = true;
+    (async () => {
+      const known = new Set((await getAssistantIndex()).indexed);
+      const missing = materials.filter((m) => m.id && !known.has(m.id) && hasAssistantText(m));
+      if (!missing.length) return;
+      const t = toast.loading(`Teaching the assistant ${missing.length} material${missing.length === 1 ? '' : 's'}…`);
+      const { failed } = await indexMaterialsForAssistant(missing, (done, total) => {
+        toast.loading(`Teaching the assistant ${done}/${total}…`, { id: t });
+      });
+      if (failed) toast.error(`The assistant couldn’t read ${failed} material${failed === 1 ? '' : 's'}. Try ⋯ → Rebuild assistant index.`, { id: t });
+      else toast.success(`The assistant can now answer from ${missing.length} more material${missing.length === 1 ? '' : 's'}`, { id: t });
+    })().catch((err) => console.warn('Assistant auto-index failed:', err.message));
+  }, [isTrainer, assistantReady, loadState, materials]);
 
   const handleDetailsSaved = (id, patch) => {
     setMaterials((prev) => prev.map((x) => (x.id === id ? { ...x, ...patch } : x)));
@@ -769,7 +814,11 @@ function Library() {
       {importingBundle && (
         <ImportBundleModal
           existingIds={new Set(materialById.keys())}
-          onClose={() => setImportingBundle(false)}
+          initialJson={bundleFromLink}
+          onClose={() => {
+            setImportingBundle(false);
+            setBundleFromLink('');
+          }}
           onImported={async () => {
             await loadCategories();
             await loadMaterials({ silent: true });

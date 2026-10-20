@@ -2,8 +2,8 @@
 
 Anyone signed in can ask a question and get an answer drawn only from the
 training material **they're allowed to open**, with links to the exact slides.
-Open it from **Ask** in the navbar, or the ✨ button in the viewer to ask about
-that deck.
+Open it from the ✨ chat button in the bottom-right corner. Inside a deck or
+video it answers about that material, or switch to **All training**.
 
 ## How it works
 
@@ -27,12 +27,12 @@ flowchart LR
 | Piece | File |
 |---|---|
 | Schema, hybrid search, lockdown | `supabase/migrations/20261020_ai_assistant.sql` |
-| Ask / index API | `app/api/ask/route.js`, `app/api/rag/index/route.js` |
+| Ask / index API (index status: `GET /api/rag/index`) | `app/api/ask/route.js`, `app/api/rag/index/route.js` |
 | Who-sees-what (shared with the browser) | `lib/audience.js` |
 | Token check + allowed materials | `lib/server/viewer.js`, `lib/server/firestore.js` |
 | Gemini calls | `lib/server/ai.js` |
 | Chunking, prompt | `lib/rag/chunk.js`, `lib/rag/prompt.js` |
-| UI | `components/AskAssistant.js` |
+| UI (chat button + window) | `components/AskAssistant.js` |
 
 Keyword search runs next to vector search because this material is full of
 exact labels (`Customer wants AWB?`, `Cancel override`, `W - Invalid claim`)
@@ -64,11 +64,13 @@ that embeddings alone match poorly.
    | `SUPABASE_SERVICE_ROLE_KEY` | Supabase → Project Settings → API keys (secret key) |
    | `GEMINI_CHAT_MODEL` *(optional)* | Defaults to the rolling `gemini-flash-latest` alias. Set a fixed model ID to freeze behaviour. |
 
-3. Redeploy, then **Library → ⋯ → Rebuild assistant index** once, to index
-   materials uploaded before the assistant existed. New uploads, re-uploads
-   and deletes keep the index in sync on their own.
+3. Redeploy, then open the **Library** as a trainer. It indexes every material
+   the assistant can't search yet (uploaded before it existed, or whose sync
+   failed) in the background. New uploads, re-uploads and deletes keep the index in
+   sync on their own. **Library → ⋯ → Rebuild assistant index** re-reads everything.
 
-Until steps 1–2 are done the Ask buttons stay hidden (`GET /api/ask` returns `{ ready: false }`).
+Until steps 1–2 are done the chat button stays hidden (`GET /api/ask` returns `{ ready: false }`).
+If every answer says it can't read any training material yet, the index is empty: open the Library as a trainer.
 
 ## Finding gaps in the training material
 

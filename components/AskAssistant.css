@@ -1,27 +1,59 @@
-/* Training assistant: a side panel on desktop, a bottom sheet on phones. */
+/* Training assistant: a chat button in the bottom-right corner that opens a
+   chat window above it. Full screen on phones. */
 
-.ask-backdrop { display: none; }
+:root {
+  --ask-fab-size: 56px;
+  --ask-fab-right: var(--space-6);
+  --ask-fab-bottom: var(--space-6);
+}
 
-.ask-panel {
+.ask-fab {
   position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  z-index: var(--z-modal);
-  width: min(440px, 100vw);
+  right: var(--ask-fab-right);
+  bottom: var(--ask-fab-bottom);
+  z-index: calc(var(--z-sticky) + 60); /* above the tab bar and update card, below modals */
+  width: var(--ask-fab-size);
+  height: var(--ask-fab-size);
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius-full);
+  background: var(--gradient-hero);
+  color: var(--text-white);
+  box-shadow: 0 10px 28px rgba(127, 25, 160, 0.35), var(--shadow-md);
+  cursor: pointer;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+  animation: askFabIn 320ms var(--ease-out) both;
+}
+.ask-fab:hover { transform: translateY(-2px); box-shadow: 0 14px 32px rgba(127, 25, 160, 0.42), var(--shadow-md); }
+.ask-fab:active { transform: scale(0.95); }
+.ask-fab:focus-visible { outline: 3px solid var(--brand-lilac); outline-offset: 3px; }
+.ask-fab .material-icons { font-size: 26px; }
+
+.ask-window {
+  position: fixed;
+  right: var(--ask-fab-right);
+  bottom: calc(var(--ask-fab-bottom) + var(--ask-fab-size) + var(--space-3));
+  z-index: calc(var(--z-sticky) + 60);
+  width: min(400px, calc(100vw - 2 * var(--ask-fab-right)));
+  height: min(640px, calc(100dvh - var(--ask-fab-bottom) - var(--ask-fab-size) - var(--space-3) - var(--space-6)));
   display: flex;
   flex-direction: column;
   background: var(--bg-white);
-  border-left: 1px solid var(--border);
-  box-shadow: var(--shadow-lg);
-  animation: askSlideIn 260ms var(--ease-out);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-2xl);
+  box-shadow: var(--shadow-xl);
+  overflow: hidden;
+  transform-origin: bottom right;
+  animation: askPop 200ms var(--ease-out);
 }
 
 .ask-head {
   display: flex;
   align-items: center;
   gap: var(--space-3);
-  padding: calc(var(--space-4) + env(safe-area-inset-top, 0px)) var(--space-4) var(--space-3) var(--space-5);
+  padding: var(--space-4) var(--space-3) var(--space-3) var(--space-5);
   border-bottom: 1px solid var(--border);
 }
 .ask-head-icon {
@@ -48,6 +80,7 @@
 }
 
 .ask-scope { align-self: flex-start; margin: var(--space-3) var(--space-5) 0; }
+.ask-close { display: none; } /* the chat button closes it, except full screen on phones */
 
 .ask-thread {
   flex: 1;
@@ -87,6 +120,8 @@
 .ask-msg-bot p:last-child { margin-bottom: 0; }
 .ask-msg-bot ol,
 .ask-msg-bot ul { display: grid; gap: 4px; margin: 0 0 8px; padding-left: 20px; }
+.ask-msg-bot ol { list-style: decimal; } /* globals.css resets list styles */
+.ask-msg-bot ul { list-style: disc; }
 .ask-msg-bot ol:last-child,
 .ask-msg-bot ul:last-child { margin-bottom: 0; }
 .ask-msg-bot strong { font-weight: 700; color: var(--text-primary); }
@@ -195,38 +230,51 @@
   color: var(--text-subtle);
 }
 
-@keyframes askSlideIn { from { transform: translateX(24px); opacity: 0; } }
+@keyframes askFabIn { from { transform: scale(0.6); opacity: 0; } }
+@keyframes askPop { from { transform: translateY(12px) scale(0.96); opacity: 0; } }
 @keyframes askSlideUp { from { transform: translateY(32px); opacity: 0; } }
-@keyframes askFade { from { opacity: 0; } }
 @keyframes askDot {
   0%, 80%, 100% { opacity: 0.3; transform: translateY(0); }
   40% { opacity: 1; transform: translateY(-3px); }
 }
 
+/* Keep clear of the phone tab bar, the viewer's controls and the update card. */
+@media (min-width: 769px) {
+  body:has(.ask-fab) .upd-card { bottom: calc(var(--ask-fab-bottom) + var(--ask-fab-size) + var(--space-4)); }
+}
+@media (max-width: 768px) {
+  :root { --ask-fab-right: var(--space-4); --ask-fab-bottom: calc(var(--space-4) + env(safe-area-inset-bottom)); }
+  :root:has(.tabbar) { --ask-fab-bottom: calc(var(--mobile-nav-height) + env(safe-area-inset-bottom) + var(--space-3)); }
+  :root:has(.vw-controls) { --ask-fab-bottom: calc(76px + env(safe-area-inset-bottom)); }
+  body:has(.upd-card) .ask-fab:not(.is-open),
+  body:has(.vw-endcard) .ask-fab:not(.is-open) { display: none; }
+}
+
 @media (max-width: 640px) {
-  .ask-backdrop {
-    display: block;
-    position: fixed;
+  .ask-window {
     inset: 0;
-    z-index: var(--z-modal-backdrop);
-    background: var(--bg-overlay);
-    animation: askFade 200ms var(--ease-out);
-  }
-  .ask-panel {
-    top: auto;
-    left: 0;
-    width: 100%;
-    height: min(86dvh, 720px);
-    border-left: 0;
-    border-radius: var(--radius-2xl) var(--radius-2xl) 0 0;
+    width: auto;
+    height: auto;
+    z-index: var(--z-modal);
+    border: 0;
+    border-radius: 0;
     animation-name: askSlideUp;
   }
-  .ask-head { padding-top: var(--space-4); }
-  .ask-btn-label { display: none; }
+  .ask-head { padding-top: calc(var(--space-4) + env(safe-area-inset-top, 0px)); }
+  .ask-close { display: inline-flex; }
+  .ask-fab.is-open { display: none; }
+}
+
+/* Presenting, or printing a certificate: no chat. */
+body:has(.vw.is-fullscreen) .ask-fab,
+body:has(.vw.is-fullscreen) .ask-window { display: none; }
+@media print {
+  .ask-fab,
+  .ask-window { display: none; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .ask-panel,
-  .ask-backdrop,
+  .ask-fab,
+  .ask-window,
   .ask-typing span[aria-hidden] { animation: none; }
 }

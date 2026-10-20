@@ -320,3 +320,4 @@
   background: var(--bg-white); font: inherit; font-size: 12px; font-weight: 600; cursor: pointer;
 }
 .dept-select.is-unset { color: var(--text-muted); border-style: dashed; }
+.pp-time { font-size: 13px; font-weight: 600; color: var(--text-primary); white-space: nowrap; font-variant-numeric: tabular-nums; }

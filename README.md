@@ -39,11 +39,16 @@ Built with Next.js (App Router), Firebase, and Supabase.
 - Server-side validation of rating range and comment length via Firestore rules.
 
 ### 🤖 Training assistant (AI)
-- **Ask questions in plain language** from the navbar, or about one deck from the viewer.
+- **Ask questions in plain language** from the chat button in the bottom-right corner; inside a deck it answers about that deck.
 - **Answers only from material the person can open**, with links to the exact slide (`/viewer?id=…&page=N`).
-- **Hybrid search** (pgvector + keywords) over slide text, kept in sync on upload, re-upload and delete.
+- **Hybrid search** (pgvector + keywords) over slide text, kept in sync on upload, re-upload and delete; anything missing is indexed when a trainer opens the library.
 - **Unanswered questions are logged** so trainers can see what the material is missing.
 - Setup and design: [docs/AI_ASSISTANT.md](docs/AI_ASSISTANT.md).
+
+### 📊 Activity (trainer)
+- **Per-person activity** on the People page: active time per day, per section, per material and per slide, plus recent actions (opened, searched, asked, completed, rated).
+- **Time this week** column, sort and CSV export for everyone.
+- Setup and privacy notes: [docs/ACTIVITY.md](docs/ACTIVITY.md).
 
 ### 🏆 Gamification
 - **Achievement badges** — multiple badges awarded for milestones (first step, completions, feedback, perfect scores, and more) with progress indicators.
@@ -144,7 +149,7 @@ GEMINI_API_KEY=your_gemini_api_key
 SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
 ```
 
-The assistant also needs a one-time SQL migration; see [docs/AI_ASSISTANT.md](docs/AI_ASSISTANT.md).
+The assistant and activity tracking each need a one-time SQL migration; see [docs/AI_ASSISTANT.md](docs/AI_ASSISTANT.md) and [docs/ACTIVITY.md](docs/ACTIVITY.md).
 
 ---
 

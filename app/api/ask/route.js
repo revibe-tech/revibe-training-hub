@@ -10,6 +10,9 @@ const MAX_QUESTION_CHARS = 1000;
 const MAX_HISTORY_TURNS = 6;
 const MAX_TURN_CHARS = 2000;
 const NOT_COVERED = "I couldn't find that in your training material. Try rephrasing it, or ask your trainer or team lead.";
+// Search always returns the closest passages, so no hits means nothing to search.
+const NOTHING_INDEXED = "I can't read any training material yet, so I can't answer. A trainer needs to open the Library once so I can read it.";
+const DECK_NOT_INDEXED = "I can't read this material's text, so I can't answer about it. Switch to “All training” to search everything else.";
 
 const fail = (status, error) => Response.json({ error }, { status });
 
@@ -70,13 +73,14 @@ export async function POST(request) {
       kind: byId.get(hit.material_id)?.kind || null,
     }));
 
+    const scoped = materialIds.length === 1 && materialIds[0] === scopeId;
     const result = excerpts.length
       ? await generateJson({
           system: SYSTEM_PROMPT,
           contents: buildContents({ question, history, excerpts }),
           schema: ANSWER_SCHEMA,
         })
-      : { answer: NOT_COVERED, found: false, citations: [] };
+      : { answer: scoped ? DECK_NOT_INDEXED : NOTHING_INDEXED, found: false, citations: [] };
 
     const found = result.found === true;
     const sources = [];
