@@ -33,7 +33,7 @@ Transcribes speech, picks frames where the screen changes, and writes evidence p
 python3 tools/training-analysis/prepare.py --src training-work/src --work training-work > training-work/prepare.log 2>&1
 ```
 
-It's resumable: re-running skips finished items. `--only 8.1 13.0` redoes specific items.
+It's resumable: re-running skips finished items. `--only 8.1 13.0` redoes those items from scratch.
 
 When it's done, spot-check before spending agents on it:
 - `training-work/index.json`: every item is there, videos have frames and packs.

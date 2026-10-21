@@ -133,6 +133,8 @@ const EVIDENCE_RULES = `Evidence rules (these matter more than coverage):
 - Copy numbers, dates, currencies, IDs and names exactly. Never round, convert or complete them.
 - Put anything that looks out of date (past deadlines, "this will change", TBU) in outdated, and real customer or seller personal data visible on screen (names, phone numbers, emails, addresses) in privacy: this material may later be shown to sellers. Describe personal data ("the customer's phone number"); never copy it into any field.`
 
+const SUMMARY_RULE = 'Never make a claim stronger than the page it comes from: don\'t add "only", "always", "every" or "all", don\'t generalise one path of a process to the others, and keep who does what exactly as the page says (if the page doesn\'t say who, neither do you).'
+
 function analyzePrompt(it, pack, i) {
   const what = it.kind === 'pdf' ? 'PDF' : 'video'
   return `You are building a training reference from part ${i + 1} of ${it.packs.length} of the Revibe training ${what} "${it.id} ${it.title}" (audience: ${it.audience || 'not labelled'}${it.flags.length ? `; flagged ${it.flags.join(', ')}` : ''}). ${CONTEXT}
@@ -229,7 +231,7 @@ function topicPrompt(major, title, group) {
   return `Write ${outDir}/topics/${major}-${slug(title)}.md for topic ${major}, "${title}", from these reference pages:
 - ${pages}
 
-Use only what the pages say. Keep citations, prefixed with the item id, e.g. (${group[0].id} [03:12]).
+Use only what the pages say. Keep citations, prefixed with the item id, e.g. (${group[0].id} [03:12]). ${SUMMARY_RULE}
 
 # ${major}. ${title}
 ## What this topic covers
@@ -297,14 +299,14 @@ await parallel([
   () => agent(`Write ${outDir}/README.md, the front page of this training reference. Read ${workDir}/index.json for item details, and the topic pages: ${topicFiles.join(', ')}.
 Sections: what this reference is and who it's for; how it was made (speech recognition with low-confidence words marked, frames taken whenever the screen changes, one agent per part following the trainer, an adversarial checker per part, an independent critic per page, two final auditors) and its limits (speech recognition errors on a French accent, frames sampled on screen changes, nothing beyond the material); a catalog table (Id | Title | Audience | Length or pages | Frames | Low-confidence words | Page | Topic) linking ${outDir}/items/<id>.md and the topic files with relative links; how to use it to write quizzes and to update the material; and the run stats below. ${failed.length ? `These items failed and have no page: ${failed.join(', ')}.` : ''}
 Run stats: ${json(stats)}`, { label: 'write README', phase: 'Reference' }),
-  () => agent(`Write ${outDir}/glossary.md: every term defined or relied on in the reference pages ${itemPages.join(', ')}. A table: Term | Meaning as used in the material | Sources (item id and time). Only terms the pages contain; merge duplicates; note where pages define a term differently.`, { label: 'write glossary', phase: 'Reference' }),
+  () => agent(`Write ${outDir}/glossary.md: every term defined or relied on in the reference pages ${itemPages.join(', ')}. A table: Term | Meaning as used in the material | Sources (item id and time). Only terms the pages contain; merge duplicates; note where pages define a term differently. ${SUMMARY_RULE}`, { label: 'write glossary', phase: 'Reference' }),
   () => agent(`Write ${outDir}/gaps-and-conflicts.md from the topic pages (${topicFiles.join(', ')}) and their item pages${notes.length ? `, plus the new KAMs' onboarding notes (${notes.join(', ')})` : ''}. Sections:
 1. Contradictions between videos or documents, with sources on both sides.
 2. Material that looks out of date (with the signal and source).
 3. Personal data visible on screen, by item and time, so it can be blurred before sellers see it.
 ${notes.length ? "4. The new KAMs' questions and gaps from their notes, each mapped to the item that answers it (with citation) or marked \"Not covered\".\n5." : '4.'} Suggested fixes to the material (re-record, add, update, blur), each tied to a finding above.
-Use only what the pages and notes say.`, { label: 'write gaps and conflicts', phase: 'Reference' }),
-  () => agent(`Write ${outDir}/quiz-plan.md from the quiz blueprints in the topic pages (${topicFiles.join(', ')}) and the "Quiz material" sections of the item pages. Sections: a table per item (Id | Title | Audience | Suggested questions | Good for multiple-answer | Main areas); the total; a suggested order for new joiners (follow the folder numbering unless the material says otherwise); and the 20 strongest scenario seeds across all items with citations. In his 21 Oct 2026 meeting with Youssf (not in the material itself), Pierre asked for at most 20 questions per video, a mix of single and multiple answer, written by people rather than generated. Say so where you mention it. This plan supports that; it doesn't replace it.`, { label: 'write quiz plan', phase: 'Reference' }),
+Use only what the pages and notes say. ${SUMMARY_RULE}`, { label: 'write gaps and conflicts', phase: 'Reference' }),
+  () => agent(`Write ${outDir}/quiz-plan.md from the quiz blueprints in the topic pages (${topicFiles.join(', ')}) and the "Quiz material" sections of the item pages. Sections: a table per item (Id | Title | Audience | Suggested questions | Good for multiple-answer | Main areas); the total; a suggested order for new joiners (follow the folder numbering unless the material says otherwise); and the 20 strongest scenario seeds across all items with citations. In his 21 Oct 2026 meeting with Youssf (not in the material itself), Pierre asked for at most 20 questions per video, a mix of single and multiple answer, written by people rather than generated. Say so where you mention it. This plan supports that; it doesn't replace it. ${SUMMARY_RULE}`, { label: 'write quiz plan', phase: 'Reference' }),
 ])
 
 phase('Audit')

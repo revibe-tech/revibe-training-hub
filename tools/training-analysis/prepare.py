@@ -337,7 +337,7 @@ def main():
     ap.add_argument('--model', default='large-v3-turbo', help='Whisper model: small, medium, large-v3-turbo, large-v3')
     ap.add_argument('--language', default='en', help='forced, so an accent is never taken for another language')
     ap.add_argument('--vocab', default='', help='extra terms to prime the speech recognition with')
-    ap.add_argument('--only', nargs='*', help='item ids to (re)do, e.g. 8.1 13.0')
+    ap.add_argument('--only', nargs='*', help='item ids to redo from scratch, e.g. 8.1 13.0')
     a = ap.parse_args()
 
     if not shutil.which('ffmpeg'):
@@ -356,6 +356,8 @@ def main():
                 index.append(json.loads(prev.read_text(encoding='utf-8')))
             continue
         item_dir = (a.work / 'items' / item_id).resolve()
+        if a.only and item_dir.exists():
+            shutil.rmtree(item_dir)  # redo from scratch: transcript, frames, packs
         item_dir.mkdir(parents=True, exist_ok=True)
         done = item_dir / 'meta.json'
         if done.exists() and not a.only:
