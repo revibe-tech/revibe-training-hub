@@ -1,12 +1,12 @@
 // Stand-in for `firebase/auth` in local preview mode. Signs you in as a sample
-// trainer, trainee or seller (switchable from the floating "Preview" pill)
+// trainer, trainee, seller, the admin or Management (switchable from the floating "Preview" pill)
 // without touching Google. Never bundled in production builds.
 import { PREVIEW_USERS } from './seed';
 import { resetPreviewData } from './firebase-firestore';
 
 const AUTH_KEY = 'revibe-preview-signed-in';
 const PERSONA_KEY = 'revibe-preview-persona';
-const PERSONAS = ['trainer', 'trainee', 'seller'];
+const PERSONAS = ['trainer', 'trainee', 'seller', 'admin', 'management'];
 const listeners = new Set();
 
 const read = (key, fallback) => {
@@ -75,6 +75,7 @@ function mountPreviewPill() {
     el.setAttribute('style', [
       'position:fixed', 'left:68px', 'bottom:20px', 'z-index:2147483000', 'display:flex', 'align-items:center',
       'gap:4px', 'padding:4px', 'border-radius:999px', 'background:#121212', 'color:#fff',
+      'max-width:calc(100vw - 84px)', 'overflow-x:auto', 'scrollbar-width:none',
       'font:600 12px/1 Montserrat,system-ui,sans-serif', 'box-shadow:0 8px 24px rgba(0,0,0,.25)',
     ].join(';'));
     const btn = (label, active, onClick, title) => {
@@ -94,6 +95,8 @@ function mountPreviewPill() {
       btn('Trainer', current === 'trainer', switchTo('trainer'), 'View the site as a trainer (admin)'),
       btn('Trainee', current === 'trainee', switchTo('trainee'), 'View the site as a Revibe trainee'),
       btn('Seller', current === 'seller', switchTo('seller'), 'View the site as a seller partner'),
+      btn('Admin', current === 'admin', switchTo('admin'), 'View the site as the hub admin (also sees Conversations)'),
+      btn('Mgmt', current === 'management', switchTo('management'), 'View the site as Management (sees everything, read-only)'),
       btn('↺', false, () => { resetPreviewData(); window.location.reload(); }, 'Reset sample data'),
     );
     document.body.appendChild(el);

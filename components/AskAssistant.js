@@ -19,6 +19,8 @@ const DECK_SUGGESTIONS = [
 // Full-screen tools where a floating button would cover the controls.
 const HIDDEN_ON = ['/editor'];
 
+const newSessionId = () => globalThis.crypto?.randomUUID?.() || `s-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 10)}`;
+
 const AssistantContext = createContext({ ready: false });
 export const useAssistant = () => useContext(AssistantContext);
 
@@ -65,6 +67,7 @@ export function AssistantProvider({ children }) {
   const [draft, setDraft] = useState('');
   const [pending, setPending] = useState(false);
   const [error, setError] = useState('');
+  const [sessionId, setSessionId] = useState(newSessionId); // one per conversation, for the admin's Conversations page
   const launcherRef = useRef(null);
 
   // A newly opened deck defaults to "This deck", unless a conversation is under way.
@@ -99,7 +102,7 @@ export function AssistantProvider({ children }) {
     setError('');
     setPending(true);
     try {
-      const reply = await askAssistant({ question, history, materialId });
+      const reply = await askAssistant({ question, history, materialId, sessionId });
       setMessages((list) => [...list, { id: id + 1, role: 'assistant', content: reply.answer, found: reply.found, sources: reply.sources || [] }]);
       logActivity('ask', { materialId, detail: { found: !!reply.found } });
     } catch (err) {
@@ -110,12 +113,13 @@ export function AssistantProvider({ children }) {
     } finally {
       setPending(false);
     }
-  }, [messages, pending, scope, deckOnly]);
+  }, [messages, pending, scope, deckOnly, sessionId]);
 
   const reset = () => {
     setMessages([]);
     setDraft('');
     setError('');
+    setSessionId(newSessionId());
   };
 
   const value = useMemo(() => ({ ready: ready && !!user }), [ready, user]);
@@ -332,7 +336,7 @@ function inline(text) {
 }
 
 /** The small markdown subset answers use (paragraphs, lists, bold), rendered as text nodes. */
-function AnswerText({ text }) {
+export function AnswerText({ text }) {
   const blocks = [];
   let list = null;
   // Excerpt numbers like [2] mean nothing to readers; the sources list covers them.

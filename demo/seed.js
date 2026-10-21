@@ -10,11 +10,15 @@ export const PREVIEW_USERS = {
   trainer: { uid: 'demo-trainer', email: 'sara.khan@revibe.me', displayName: 'Sara Khan' },
   trainee: { uid: 'demo-trainee', email: 'omar.ali@revibe.me', displayName: 'Omar Ali' },
   seller: { uid: 'demo-seller', email: 'ahmed@phonehub.ae', displayName: 'Ahmed Saleh' },
+  admin: { uid: 'demo-admin', email: 'youssf.rehem@revibe.me', displayName: 'Hub Admin' },
+  management: { uid: 'demo-management', email: 'rami.aziz@revibe.me', displayName: 'Rami Aziz' },
 };
 
 const PEOPLE = [
   ['demo-trainer', 'Sara Khan', 'sara.khan@revibe.me', 'trainer', 0.2, 1, 120],
   ['demo-trainee', 'Omar Ali', 'omar.ali@revibe.me', 'trainee', 0.3, 1, 30],
+  ['demo-admin', 'Hub Admin', 'youssf.rehem@revibe.me', 'trainer', 0.1, 1, 400],
+  ['demo-management', 'Rami Aziz', 'rami.aziz@revibe.me', 'trainee', 2, 10, 90],
   ['u-layla', 'Layla Haddad', 'layla.haddad@revibe.me', 'trainee', 0.5, 2, 64],
   ['u-karim', 'Karim Mansour', 'karim.mansour@revibe.me', 'trainee', 5, 30, 52],
   ['u-noor', 'Noor Saeed', 'noor.saeed@revibe.me', 'trainer', 1.2, 60, 200],
@@ -34,6 +38,9 @@ const PARTNERS = {
   'u-rania': { partnerType: 'seller', groups: ['group:gold-sellers'] },
   'u-tariq': { partnerType: 'repair' },
 };
+
+// Revibe staff on the management team see every material (read-only).
+const TEAMS = { 'demo-management': { team: 'management' } };
 
 const GROUPS = {
   'ksa-sellers': 'KSA sellers',
@@ -124,6 +131,7 @@ export function createSeed(Timestamp) {
       createdAt: iso(joinedDaysAgo * DAY),
       earnedBadges: uid === 'demo-trainee' ? ['first_step', 'first_completion'] : undefined,
       ...PARTNERS[uid],
+      ...TEAMS[uid],
     };
     if (users[uid].earnedBadges === undefined) delete users[uid].earnedBadges;
   }

@@ -673,6 +673,7 @@ ul, ol { list-style: none; }
 .badge-success { background: var(--color-success-light); color: #0B7A3B; }
 .badge-warning { background: var(--color-warning-light); color: #A35F00; }
 .badge-neutral { background: var(--bg-muted); color: var(--text-muted); }
+.badge-danger { background: var(--color-danger-light); color: var(--color-danger); }
 .badge-dark { background: var(--brand-ink); color: #fff; }
 .badge-gradient { background: var(--gradient-brand-h); color: #fff; }
 
