@@ -1,8 +1,9 @@
 import { after } from 'next/server';
 import { getViewer, listAllowedMaterials } from '@/lib/server/viewer';
 import { aiConfigured, embedTexts, generateJson } from '@/lib/server/ai';
-import { countQueriesSince, logQuery, searchChunks, storeConfigured } from '@/lib/server/ragStore';
-import { ANSWER_SCHEMA, SYSTEM_PROMPT, buildContents } from '@/lib/rag/prompt';
+import { countQueriesSince, indexedMaterialIds, logQuery, searchChunks, storeConfigured } from '@/lib/server/ragStore';
+import { ANSWER_SCHEMA, SYSTEM_PROMPT, buildContents, replyType } from '@/lib/rag/prompt';
+import { smallTalkKind, smallTalkReply } from '@/lib/rag/smalltalk';
 import { assistantProblem, explain } from '@/lib/server/assistantErrors';
 
 export const maxDuration = 60;
@@ -71,6 +72,17 @@ export async function POST(request) {
   // Where it failed, so trainers are told what to fix.
   let where = 'firestore';
   try {
+    // "hi", "thanks", "bye": answer straight away, nothing to search for.
+    const smallTalk = smallTalkKind(question);
+    if (smallTalk) {
+      const [materials, indexed] = await Promise.all([listAllowedMaterials(viewer), indexedMaterialIds().catch(() => [])]);
+      // Offer what it can actually answer from: indexed materials, not quizzes.
+      const searchable = materials.filter((m) => indexed.includes(m.id) && m.kind !== 'quiz');
+      const names = (searchable.length ? searchable : materials).map((m) => m.name).filter(Boolean).sort((a, b) => a.localeCompare(b));
+      const scopedName = scopeId ? materials.find((m) => m.id === scopeId)?.name || null : null;
+      return Response.json({ answer: smallTalkReply(smallTalk, { text: question, names, scopedName }), found: true, sources: [] });
+    }
+
     const [materials, [queryVector]] = await Promise.all([
       listAllowedMaterials(viewer),
       embedTexts([searchText], 'RETRIEVAL_QUERY'),
@@ -92,14 +104,21 @@ export async function POST(request) {
     const result = excerpts.length
       ? await generateJson({
           system: SYSTEM_PROMPT,
-          contents: buildContents({ question, history, excerpts }),
+          contents: buildContents({
+            question,
+            history,
+            excerpts,
+            materialNames: (scoped ? [byId.get(scopeId)] : materials).map((m) => m.name).filter(Boolean),
+          }),
           schema: ANSWER_SCHEMA,
         })
-      : { answer: scoped ? DECK_NOT_INDEXED : NOTHING_INDEXED, found: false, citations: [] };
+      : { answer: scoped ? DECK_NOT_INDEXED : NOTHING_INDEXED, type: 'not_covered', citations: [] };
 
-    const found = result.found === true;
+    // Small talk counts as answered; only real answers carry sources.
+    const type = replyType(result);
+    const found = type !== 'not_covered';
     const sources = [];
-    if (found) {
+    if (type === 'answer') {
       for (const n of result.citations || []) {
         const excerpt = excerpts[n - 1];
         if (excerpt && !sources.some((s) => s.materialId === excerpt.material_id && s.page === excerpt.page)) {
