@@ -54,3 +54,4 @@ next-env.d.ts
 
 # training analysis: downloaded videos, frames, transcripts (tools/training-analysis)
 /training-work/
+__pycache__/
