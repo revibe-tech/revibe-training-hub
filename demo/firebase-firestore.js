@@ -2,7 +2,8 @@
 // (wired up through turbopack.resolveAlias in next.config.mjs). Implements just
 // the API surface this app calls, so the real lib/ code runs unchanged against
 // sample data. State persists in sessionStorage for the browser tab.
-import { createSeed } from './seed';
+import { PREVIEW_USERS, createSeed } from './seed';
+import { resolveAudiences, resolveRole } from '../lib/audience';
 
 const STORAGE_KEY = 'revibe-preview-db-v2';
 
@@ -100,9 +101,29 @@ function snapshotOf(path, id, data) {
 }
 
 // ── reads ─────────────────────────────────────────────────────────────────────
+// Like canSeeAudiences() in firestore.rules, for opening one material by id, so
+// preview shows what a seller gets when a link isn't shared with them.
+function previewCanRead(material) {
+  if (!material) return true;
+  let persona = 'trainer';
+  try { persona = window.localStorage.getItem('revibe-preview-persona') || 'trainer'; } catch { /* no storage */ }
+  const me = PREVIEW_USERS[persona] || PREVIEW_USERS.trainer;
+  const profile = db().users?.[me.uid] || {};
+  const theirs = resolveAudiences({
+    uid: me.uid, role: resolveRole(me.email, profile.role), email: me.email,
+    team: profile.team, partnerType: profile.partnerType, groups: profile.groups,
+  });
+  const tags = material.audiences?.length ? material.audiences : ['revibe'];
+  return theirs === null || tags.some((a) => theirs.includes(a));
+}
+
 export async function getDoc(ref) {
   await tick();
-  return snapshotOf(ref.path, ref.id, db()[ref.path]?.[ref.id]);
+  const data = db()[ref.path]?.[ref.id];
+  if (ref.path === 'materials' && !previewCanRead(data)) {
+    throw Object.assign(new Error('Missing or insufficient permissions.'), { code: 'permission-denied' });
+  }
+  return snapshotOf(ref.path, ref.id, data);
 }
 
 export async function getDocs(q) {
