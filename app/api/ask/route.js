@@ -1,7 +1,8 @@
 import { after } from 'next/server';
 import { getViewer, listAllowedMaterials } from '@/lib/server/viewer';
 import { aiConfigured, embedTexts, generateJson } from '@/lib/server/ai';
-import { countQueriesSince, indexedMaterialIds, logQuery, searchChunks, storeConfigured } from '@/lib/server/ragStore';
+import { countQueriesSince, feedbackReady, indexedMaterialIds, logQuery, searchChunks, storeConfigured } from '@/lib/server/ragStore';
+import { baseMaterialId, isFixId, withFixIds } from '@/lib/rag/fix';
 import { ANSWER_SCHEMA, buildContents, replyType, systemPrompt } from '@/lib/rag/prompt';
 import { getRagSettings } from '@/lib/server/ragSettings';
 import { smallTalkKind, smallTalkReply } from '@/lib/rag/smalltalk';
@@ -43,7 +44,8 @@ export function GET() {
 /**
  * Answer a question from the training material the caller can open.
  * Body: { question, history?: [{ role, content }], materialId?: limit to one deck }
- * Returns: { answer, found, sources: [{ materialId, materialName, page, kind }] }
+ * Returns: { answer, found, sources: [{ materialId, materialName, page, kind, verified? }] },
+ * plus { turnId, feedback: true } when the asker must rate the answer (POST /api/ask/feedback).
  */
 export async function POST(request) {
   if (!aiConfigured() || !storeConfigured()) {
@@ -68,7 +70,7 @@ export async function POST(request) {
   const scopeId = typeof body.materialId === 'string' ? body.materialId : null;
   const sessionId = typeof body.sessionId === 'string' && /^[\w-]{6,64}$/.test(body.sessionId) ? body.sessionId : null;
   // Every turn is kept (question, reply, kind of reply) for the Conversations page.
-  const log = (row) => after(() => logQuery({
+  const save = (row) => logQuery({
     uid: viewer.uid,
     audience: viewer.audience,
     scope_material_id: scopeId,
@@ -76,7 +78,8 @@ export async function POST(request) {
     session_id: sessionId,
     source_material_ids: [],
     ...row,
-  }));
+  });
+  const log = (row) => after(() => save(row));
   // Search with the previous question too, so follow-ups ("and if they don't pay?") find the right pages.
   const previous = history.findLast((m) => m.role === 'user');
   const searchText = previous ? `${previous.content}\n${question}` : question;
@@ -110,13 +113,19 @@ export async function POST(request) {
     const materialIds = scopeId && byId.has(scopeId) ? [scopeId] : [...byId.keys()];
 
     where = 'database';
-    const hits = await searchChunks({ embedding: queryVector, text: searchText, materialIds, count: settings.matchCount });
+    // Trainers' fixes for earlier wrong answers are searched with their material.
+    const hits = await searchChunks({ embedding: queryVector, text: searchText, materialIds: withFixIds(materialIds), count: settings.matchCount });
     where = 'other';
-    const excerpts = hits.map((hit) => ({
-      ...hit,
-      materialName: byId.get(hit.material_id)?.name || 'Untitled material',
-      kind: byId.get(hit.material_id)?.kind || null,
-    }));
+    const excerpts = hits.map((hit) => {
+      const material = byId.get(baseMaterialId(hit.material_id));
+      return {
+        ...hit,
+        material_id: baseMaterialId(hit.material_id),
+        verified: isFixId(hit.material_id),
+        materialName: material?.name || 'Untitled material',
+        kind: material?.kind || null,
+      };
+    });
 
     const scoped = materialIds.length === 1 && materialIds[0] === scopeId;
     const result = excerpts.length
@@ -139,14 +148,22 @@ export async function POST(request) {
     if (type === 'answer') {
       for (const n of result.citations || []) {
         const excerpt = excerpts[n - 1];
-        if (excerpt && !sources.some((s) => s.materialId === excerpt.material_id && s.page === excerpt.page)) {
-          sources.push({ materialId: excerpt.material_id, materialName: excerpt.materialName, page: excerpt.page, kind: excerpt.kind });
+        const page = excerpt?.verified ? null : excerpt?.page; // a fix has no slide
+        if (excerpt && !sources.some((s) => s.materialId === excerpt.material_id && s.page === page)) {
+          sources.push({ materialId: excerpt.material_id, materialName: excerpt.materialName, page, kind: excerpt.kind, ...(excerpt.verified && { verified: true }) });
         }
       }
     }
 
     const answer = String(result.answer || NOT_COVERED);
-    log({ answered: found, answer, reply_type: type, source_material_ids: [...new Set(sources.map((s) => s.materialId))] });
+    const row = { answered: found, answer, reply_type: type, source_material_ids: [...new Set(sources.map((s) => s.materialId))] };
+    // Answers from the material (and "not covered" after searching it) are rated
+    // Accurate or Wrong, so the turn is saved first and its id goes back.
+    if (excerpts.length && type !== 'chat' && await feedbackReady()) {
+      const turnId = await save(row);
+      return Response.json({ answer, found, sources, ...(turnId && { turnId, feedback: true }) });
+    }
+    log(row);
     return Response.json({ answer, found, sources });
   } catch (err) {
     const problem = assistantProblem(err, where);

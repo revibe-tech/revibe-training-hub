@@ -67,7 +67,7 @@ export async function POST(request) {
   }
 }
 
-/** Drop a deleted material's chunks. Query: ?id=<materialId> */
+/** Drop a deleted material's chunks and trainers' fixes for it. Query: ?id=<materialId> */
 export async function DELETE(request) {
   const { error } = await trainerOrError(request);
   if (error) return error;
@@ -76,7 +76,7 @@ export async function DELETE(request) {
   if (!materialId) return fail(400, 'Missing id.');
 
   try {
-    await deleteChunks(materialId);
+    await deleteChunks(materialId, { withFixes: true });
     return Response.json({ ok: true });
   } catch (err) {
     console.error(`Assistant index removal failed for ${materialId}:`, err);

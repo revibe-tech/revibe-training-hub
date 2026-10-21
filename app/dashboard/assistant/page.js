@@ -8,18 +8,22 @@ import Navbar from '@/components/Navbar';
 import AssistantCheck from '@/components/AssistantCheck';
 import { AnswerText } from '@/components/AskAssistant';
 import {
-  getAssistantSettings, getKnowledgeSummary, getMaterialPassages, hasAssistantText,
-  indexMaterialForAssistant, saveAssistantSettings, searchKnowledge, tryAssistant,
+  getAnswerFeedback, getAssistantSettings, getKnowledgeSummary, getMaterialPassages, hasAssistantText,
+  indexMaterialForAssistant, reopenAnswer, reviewAnswer, saveAssistantSettings, searchKnowledge, tryAssistant,
 } from '@/lib/assistant';
+import { getAllUsers } from '@/lib/users';
+import { baseMaterialId, isFixId } from '@/lib/rag/fix';
 import { getAllMaterials, isQuizMaterial, isVideoMaterial, updateMaterialText } from '@/lib/materials';
 import { AUDIENCES, normalizeAudiences } from '@/lib/categories';
 import { getGroups } from '@/lib/groups';
 import { cleanPageText } from '@/lib/rag/chunk';
-import { EmptyState, RequireAuth, Skeleton, Spinner, timeAgo } from '@/components/ui';
+import { Avatar, EmptyState, RequireAuth, Skeleton, Spinner, timeAgo } from '@/components/ui';
 import './assistant.css';
 
 const SQL_FILE = 'supabase/migrations/20261023_assistant_admin.sql';
+const FEEDBACK_SQL_FILE = 'supabase/migrations/20261024_assistant_feedback.sql';
 const MAX_INSTRUCTIONS = 4000;
+const MAX_FIX_CHARS = 3000;
 
 // The pipeline, left to right. Each step opens the panel where you see or change it.
 const STEPS = [
@@ -29,8 +33,22 @@ const STEPS = [
   { id: 'search', icon: 'manage_search', label: 'Search', panel: 'settings' },
   { id: 'instructions', icon: 'tune', label: 'Instructions', panel: 'settings' },
   { id: 'answer', icon: 'smart_toy', label: 'Answer', panel: 'try' },
+  { id: 'feedback', icon: 'thumbs_up_down', label: 'Feedback', panel: 'feedback' },
 ];
-const FLOW = [['Building its knowledge', STEPS.slice(0, 3)], ['Answering a question', STEPS.slice(3)]];
+const FLOW = [['Building its knowledge', STEPS.slice(0, 3)], ['Answering a question', STEPS.slice(3, 6)], ['Improving it', STEPS.slice(6)]];
+const FEEDBACK_RANGES = [7, 30, 90];
+const FEEDBACK_FILTERS = [
+  { id: 'review', label: 'To review' },
+  { id: 'fixed', label: 'Fixed' },
+  { id: 'accurate', label: 'Accurate' },
+  { id: 'all', label: 'All' },
+];
+const inFilter = (row, filter) => (filter === 'review' ? row.feedback === 'wrong' && !row.review
+  : filter === 'fixed' ? row.review === 'fixed'
+    : filter === 'accurate' ? row.feedback === 'accurate' : true);
+// The chat's “I don't know” button, or someone typing it.
+const isDontKnow = (text) => /^\s*i\s*(do\s*n[o’']?t|dont)\s+know[.!]?\s*$/i.test(text || '');
+const personName = (u, uid) => u?.displayName || u?.email?.split('@')[0] || `Unknown (${String(uid).slice(0, 6)})`;
 const REPLY_KINDS = {
   answer: { label: 'Answered from the material', tone: 'badge-success' },
   chat: { label: 'Chat', tone: 'badge-neutral' },
@@ -44,7 +62,7 @@ const STATUS = {
   none: { label: 'No text', tone: 'badge-neutral' },
 };
 
-const plural = (n, word) => `${n.toLocaleString()} ${word}${n === 1 ? '' : 's'}`;
+const plural = (n, word, many = `${word}s`) => `${n.toLocaleString()} ${n === 1 ? word : many}`;
 const kindIcon = (m) => (isVideoMaterial(m) ? 'smart_display' : isQuizMaterial(m) ? 'quiz' : 'description');
 const byName = (a, b) => (a.name || '').localeCompare(b.name || '');
 const ago = (value) => timeAgo(value).replace(/^Just now$/, 'just now'); // mid-sentence
@@ -99,12 +117,26 @@ function AssistantView({ canEdit }) {
   const [tab, setTab] = useState('text');
   const [selectedId, setSelectedId] = useState(null);
   const [checking, setChecking] = useState(false);
+  const [feedback, setFeedback] = useState(null); // { days, rows, ready, error }
+  const [feedbackDays, setFeedbackDays] = useState(30);
+  const [feedbackFilter, setFeedbackFilter] = useState('review');
 
   const loadSummary = useCallback(() => {
     getKnowledgeSummary()
       .then((r) => setSummary({ rows: r.summary, error: '' }))
       .catch((err) => setSummary({ rows: [], error: err.message }));
   }, []);
+
+  const loadFeedback = useCallback((days) => {
+    getAnswerFeedback({ days })
+      .then((r) => setFeedback({ days, rows: r.rows, ready: r.ready, error: '' }))
+      .catch((err) => setFeedback({ days, rows: [], ready: true, error: err.message }));
+  }, []);
+
+  useEffect(() => {
+    const id = requestAnimationFrame(() => loadFeedback(feedbackDays));
+    return () => cancelAnimationFrame(id);
+  }, [feedbackDays, loadFeedback]);
 
   useEffect(() => {
     let active = true;
@@ -131,10 +163,24 @@ function AssistantView({ canEdit }) {
       materials: rows.length,
       readable,
       pages: rows.reduce((n, r) => n + (r.material.textContent || []).filter((p) => (p.text || '').trim()).length, 0),
-      passages: (summary?.rows || []).reduce((n, s) => n + s.passages, 0),
+      passages: (summary?.rows || []).filter((s) => !isFixId(s.materialId)).reduce((n, s) => n + s.passages, 0),
+      fixes: (summary?.rows || []).filter((s) => isFixId(s.materialId)).reduce((n, s) => n + s.passages, 0),
       searchable: rows.filter((r) => r.status === 'ok' || r.status === 'stale').length,
     };
   }, [rows, summary]);
+
+  const ratings = useMemo(() => {
+    const list = feedback?.rows || [];
+    const accurate = list.filter((r) => r.feedback === 'accurate').length;
+    return {
+      rated: list.length,
+      accurate,
+      wrong: list.length - accurate,
+      review: list.filter((r) => inFilter(r, 'review')).length,
+      fixed: list.filter((r) => r.review === 'fixed').length,
+      pct: list.length ? Math.round((accurate / list.length) * 100) : null,
+    };
+  }, [feedback]);
 
   const saved = settings?.value;
   const dirty = !!saved && !!draft && (draft.instructions.trim() !== saved.instructions.trim() || draft.matchCount !== saved.matchCount);
@@ -146,7 +192,11 @@ function AssistantView({ canEdit }) {
     search: { value: saved ? `Top ${saved.matchCount}` : '—', hint: 'by meaning + exact words' },
     instructions: { value: saved ? (saved.custom ? 'Custom' : 'Default') : '—', hint: saved?.updatedAt ? `changed ${ago(saved.updatedAt)}` : 'built in' },
     answer: { value: modelName(saved?.models?.chat?.[0]) || 'Gemini', hint: 'try a question' },
+    feedback: feedback?.ready === false
+      ? { value: 'Not set up', hint: 'run the feedback SQL' }
+      : { value: `${ratings.review} to review`, hint: ratings.pct === null ? 'no ratings yet' : `${ratings.pct}% rated accurate` },
   };
+  const feedbackLoading = !feedback || feedback.days !== feedbackDays;
 
   const openStep = (step) => {
     setPanel(step.panel);
@@ -155,6 +205,11 @@ function AssistantView({ canEdit }) {
   };
   const isActive = (step) => step.panel === panel && (step.panel !== 'knowledge' || !step.tab || step.tab === tab);
   const onMaterialChanged = (next) => setMaterials((list) => list.map((m) => (m.id === next.id ? next : m)));
+  const onFeedbackRow = (next) => {
+    setFeedback((f) => ({ ...f, rows: f.rows.map((r) => (r.id === next.id ? { ...r, ...next } : r)) }));
+    loadSummary(); // fixes are passages too
+  };
+  const openFixes = () => { setPanel('feedback'); setFeedbackFilter('fixed'); };
 
   return (
     <div className="app-shell">
@@ -164,7 +219,7 @@ function AssistantView({ canEdit }) {
           <div className="page-header-text">
             <span className="eyebrow">{canEdit ? 'Trainers and Management' : 'Management · read-only'}</span>
             <h1 className="page-title">Assistant</h1>
-            <p className="page-subtitle">How the training assistant answers: what it reads, how it searches and what it’s told. Click a step to see{canEdit ? ' or change' : ''} it.</p>
+            <p className="page-subtitle">How the training assistant answers: what it reads, how it searches, what it’s told and what people say about its answers. Click a step to see{canEdit ? ' or change' : ''} it.</p>
           </div>
           <div className="page-header-actions">
             {canEdit && (
@@ -197,7 +252,7 @@ function AssistantView({ canEdit }) {
                         <i className="material-icons" aria-hidden="true">{step.icon}</i>
                         <span className="as-step-label">{step.label}</span>
                       </span>
-                      {loading && ['materials', 'text', 'passages'].includes(step.id)
+                      {(loading && ['materials', 'text', 'passages'].includes(step.id)) || (feedbackLoading && step.id === 'feedback')
                         ? <Skeleton width={56} height={22} radius={6} />
                         : <span className="as-step-value">{typeof info[step.id].value === 'number' ? info[step.id].value.toLocaleString() : info[step.id].value}</span>}
                       <span className="as-step-hint">{info[step.id].hint}</span>
@@ -213,7 +268,7 @@ function AssistantView({ canEdit }) {
           <KnowledgePanel
             rows={rows} loading={loading} stats={stats} canEdit={canEdit}
             tab={tab} setTab={setTab} selectedId={selectedId} setSelectedId={setSelectedId}
-            onMaterialChanged={onMaterialChanged} onIndexed={loadSummary}
+            onMaterialChanged={onMaterialChanged} onIndexed={loadSummary} onOpenFixes={openFixes}
           />
         </div>
         <div hidden={panel !== 'settings'}>
@@ -225,6 +280,13 @@ function AssistantView({ canEdit }) {
         </div>
         <div hidden={panel !== 'try'}>
           <TryPanel materials={materials || []} groups={groups} draft={draft} dirty={dirty} />
+        </div>
+        <div hidden={panel !== 'feedback'}>
+          <FeedbackPanel
+            data={feedback} loading={feedbackLoading} ratings={ratings} days={feedbackDays} onDays={setFeedbackDays}
+            filter={feedbackFilter} onFilter={setFeedbackFilter} canEdit={canEdit} materials={materials || []}
+            onRow={onFeedbackRow} onRetry={() => loadFeedback(feedbackDays)}
+          />
         </div>
       </main>
       {checking && <AssistantCheck materials={materials || []} onClose={() => { setChecking(false); loadSummary(); }} />}
@@ -259,7 +321,7 @@ function SaveBar({ label, onDiscard, onSave, saveLabel = 'Save', saving, disable
 
 /* ---- 1–3: materials, their page text and the passages in the database ---- */
 
-function KnowledgePanel({ rows, loading, stats, canEdit, tab, setTab, selectedId, setSelectedId, onMaterialChanged, onIndexed }) {
+function KnowledgePanel({ rows, loading, stats, canEdit, tab, setTab, selectedId, setSelectedId, onMaterialChanged, onIndexed, onOpenFixes }) {
   const [filter, setFilter] = useState('');
   const [onlyAttention, setOnlyAttention] = useState(false);
   const [edits, setEdits] = useState({}); // { [materialId]: { [page]: text } }, unsaved
@@ -273,7 +335,10 @@ function KnowledgePanel({ rows, loading, stats, canEdit, tab, setTab, selectedId
   const names = useMemo(() => new Map(rows.map((r) => [r.material.id, r.material.name])), [rows]);
 
   const select = (id) => { setSelectedId(id); setFocusId(null); };
-  const openPassage = (materialId, passageId) => { setSelectedId(materialId); setTab('passages'); setFocusId(passageId); };
+  const openPassage = (materialId, passageId) => {
+    if (isFixId(materialId)) return onOpenFixes(); // trainers' fixes live on the Feedback step
+    setSelectedId(materialId); setTab('passages'); setFocusId(passageId);
+  };
 
   const setPageText = (material, page, text, original) => setEdits((all) => {
     const mine = { ...all[material.id] };
@@ -521,7 +586,7 @@ function DatabaseSearch({ names, stats, loading, onOpen }) {
     <div className="panel as-db">
       <h2 className="as-db-title"><i className="material-icons" aria-hidden="true">storage</i> The database</h2>
       <p className="as-explain">
-        Everything the assistant can quote{loading ? '' : `: ${plural(stats.passages, 'passage')} from ${plural(stats.searchable, 'material')}`}.
+        Everything the assistant can quote{loading ? '' : `: ${plural(stats.passages, 'passage')} from ${plural(stats.searchable, 'material')}${stats.fixes ? `, plus ${plural(stats.fixes, 'trainer fix', 'trainer fixes')}` : ''}`}.
         Search it for a word, a field name or a policy to see what it has to work with.
       </p>
       <form className="as-db-form" onSubmit={run}>
@@ -544,7 +609,10 @@ function DatabaseSearch({ names, stats, loading, onOpen }) {
               {result.passages.map((p) => (
                 <li key={p.id}>
                   <button type="button" className="as-hit" onClick={() => onOpen(p.material_id, p.id)}>
-                    <span className="as-hit-head"><b>{names.get(p.material_id) || 'Removed material'}</b> · Page {p.page}</span>
+                    <span className="as-hit-head">
+                      <b>{names.get(baseMaterialId(p.material_id)) || 'Removed material'}</b>
+                      {isFixId(p.material_id) ? <> · <span className="badge badge-purple">Trainer fix</span></> : ` · Page ${p.page}`}
+                    </span>
                     <span className="as-hit-text"><Highlight text={snippet(p.content, result.q)} term={result.q} /></span>
                   </button>
                 </li>
@@ -761,7 +829,7 @@ function TryPanel({ materials, groups, draft, dirty }) {
                         <summary>
                           <span className="as-excerpt-n">[{e.n}]</span>
                           <span className="as-excerpt-name">{e.materialName}</span>
-                          <span className="as-muted">p. {e.page}</span>
+                          {e.verified ? <span className="badge badge-purple">Trainer fix</span> : <span className="as-muted">p. {e.page}</span>}
                           <span className="as-meter" title={`${pct}% close in meaning`}><span style={{ width: `${pct}%` }} /></span>
                           <span className="as-muted tabular">{pct}%</span>
                           {e.cited && <span className="badge badge-success">Used</span>}
@@ -809,6 +877,213 @@ function TraceStep({ n, title, meta, children }) {
         <h3>{title}{meta && <span className="as-muted"> · {meta}</span>}</h3>
         {children}
       </div>
+    </li>
+  );
+}
+
+/* ---- 7: what people said about the answers, and trainers' fixes ---- */
+
+function FeedbackPanel({ data, loading, ratings, days, onDays, filter, onFilter, canEdit, materials, onRow, onRetry }) {
+  const [people, setPeople] = useState(null); // uid → user; only trainers see who rated
+  useEffect(() => {
+    if (!canEdit) return undefined;
+    let active = true;
+    getAllUsers().then((users) => { if (active) setPeople(new Map(users.map((u) => [u.uid, u]))); });
+    return () => { active = false; };
+  }, [canEdit]);
+
+  const byId = useMemo(() => new Map(materials.map((m) => [m.id, m])), [materials]);
+  const choices = useMemo(() => materials.filter((m) => !isQuizMaterial(m)).sort(byName), [materials]);
+  const rows = data?.rows || [];
+  const visible = rows.filter((r) => inFilter(r, filter));
+
+  return (
+    <div className="as-fb">
+      <section className="panel as-card" aria-labelledby="as-fb-title">
+        <header className="as-card-head">
+          <h2 id="as-fb-title"><i className="material-icons" aria-hidden="true">thumbs_up_down</i> Feedback</h2>
+          <div className="segmented as-fb-range" role="group" aria-label="Time range">
+            {FEEDBACK_RANGES.map((d) => (
+              <button key={d} type="button" className={days === d ? 'active' : ''} aria-pressed={days === d} onClick={() => onDays(d)}>{d} days</button>
+            ))}
+          </div>
+        </header>
+        <p className="as-explain">
+          After each answer from the material, people choose Accurate or Wrong before they can ask again. A wrong one comes with what they think is right, or “I don’t know”.
+          {canEdit ? ' Write the right answer and the assistant uses it from then on, as a trainer-verified answer.' : ' Trainers write the right answer, and the assistant uses it from then on.'}
+        </p>
+        {data?.ready === false ? (
+          <Banner icon="info">Ratings aren’t saved yet, so no one is asked for them. Run <code>{FEEDBACK_SQL_FILE}</code> in Supabase → SQL Editor to turn them on.</Banner>
+        ) : loading ? <Skeleton height={72} radius={12} /> : (
+          <>
+            <dl className="as-fb-stats">
+              <div><dt>Rated</dt><dd>{ratings.rated}</dd></div>
+              <div className="is-good"><dt>Accurate</dt><dd>{ratings.accurate}{ratings.pct !== null && <small>{ratings.pct}%</small>}</dd></div>
+              <div className="is-bad"><dt>Wrong</dt><dd>{ratings.wrong}</dd></div>
+              <div><dt>To review</dt><dd>{ratings.review}</dd></div>
+              <div><dt>Fixed</dt><dd>{ratings.fixed}</dd></div>
+            </dl>
+            {ratings.rated > 0 && (
+              <div className="as-fb-bar" role="img" aria-label={`${ratings.pct}% rated accurate, ${100 - ratings.pct}% wrong`}>
+                <span className="is-good" style={{ width: `${ratings.pct}%` }} />
+                <span className="is-bad" style={{ width: `${100 - ratings.pct}%` }} />
+              </div>
+            )}
+          </>
+        )}
+      </section>
+
+      {data?.ready !== false && (
+        <>
+          <div className="segmented as-fb-filter" role="group" aria-label="Show">
+            {FEEDBACK_FILTERS.map((f) => (
+              <button key={f.id} type="button" className={filter === f.id ? 'active' : ''} aria-pressed={filter === f.id} onClick={() => onFilter(f.id)}>
+                {f.label} {!loading && <span className="count">{rows.filter((r) => inFilter(r, f.id)).length}</span>}
+              </button>
+            ))}
+          </div>
+          {data?.error ? (
+            <EmptyState icon="cloud_off" title="Couldn’t load the feedback" text={data.error} action={<button type="button" className="btn btn-dark" onClick={onRetry}>Try again</button>} />
+          ) : loading ? (
+            <Skeleton height={180} radius={16} />
+          ) : !visible.length ? (
+            <EmptyState
+              icon={rows.length && filter === 'review' ? 'task_alt' : 'thumbs_up_down'}
+              title={!rows.length ? 'No ratings yet' : filter === 'review' ? 'Nothing to review' : 'Nothing here'}
+              text={!rows.length ? `Ratings from the last ${days} days show up here.` : filter === 'review' ? 'Every wrong answer is fixed or dismissed.' : 'No ratings match this filter.'}
+            />
+          ) : (
+            <ol className="as-fb-list">
+              {visible.map((row) => (
+                <FeedbackItem
+                  key={row.id} row={row} canEdit={canEdit} showWho={canEdit && !!row.uid} who={people?.get(row.uid)}
+                  byId={byId} choices={choices} onRow={onRow}
+                />
+              ))}
+            </ol>
+          )}
+        </>
+      )}
+    </div>
+  );
+}
+
+function FeedbackItem({ row, canEdit, showWho, who, byId, choices, onRow }) {
+  const [editing, setEditing] = useState(false);
+  const [answer, setAnswer] = useState('');
+  const [materialId, setMaterialId] = useState('');
+  const [busy, setBusy] = useState(false);
+  const wrong = row.feedback === 'wrong';
+  const dontKnow = isDontKnow(row.correction);
+  const sources = row.source_material_ids || [];
+  const nameOf = (id) => byId.get(id)?.name || 'Removed material';
+  const name = personName(who, row.uid);
+  const status = row.review === 'fixed' ? { label: 'Fixed', tone: 'badge-success' }
+    : row.review === 'dismissed' ? { label: 'Dismissed', tone: 'badge-neutral' }
+      : { label: 'To review', tone: 'badge-warning' };
+
+  const edit = () => {
+    setAnswer(row.review === 'fixed' ? row.review_answer || '' : dontKnow ? '' : row.correction || '');
+    // Where the answer came from is usually where the fix belongs.
+    setMaterialId([row.review_material_id, ...sources, row.scope_material_id].find((id) => id && byId.has(id)) || '');
+    setEditing(true);
+  };
+  const run = async (request, done) => {
+    setBusy(true);
+    try {
+      onRow((await request()).row);
+      setEditing(false);
+      toast.success(done);
+    } catch (err) {
+      toast.error(err.message, { duration: 10000 });
+    }
+    setBusy(false);
+  };
+  const saveFix = (e) => {
+    e.preventDefault();
+    run(() => reviewAnswer({ turnId: row.id, action: 'fix', answer, materialId }), 'Saved. The assistant uses this answer from the next question.');
+  };
+
+  return (
+    <li className={`panel as-fb-item ${wrong && !row.review ? 'is-open' : ''}`}>
+      <div className="as-fb-head">
+        <span className={`badge ${wrong ? 'badge-danger' : 'badge-success'}`}>
+          <i className="material-icons" aria-hidden="true">{wrong ? 'thumb_down' : 'thumb_up'}</i> {wrong ? 'Wrong' : 'Accurate'}
+        </span>
+        {wrong && <span className={`badge ${status.tone}`}>{status.label}</span>}
+        {showWho && <span className="as-fb-who"><Avatar src={who?.photoURL} name={name} size={22} />{name}</span>}
+        <span className="as-muted" title={new Date(row.feedback_at).toLocaleString('en-GB')}>{timeAgo(row.feedback_at)}</span>
+        {row.scope_material_id && <span className="badge badge-purple">About: {nameOf(row.scope_material_id)}</span>}
+      </div>
+
+      <div className="as-fb-block">
+        <span className="as-fb-label">Question</span>
+        <p className="as-fb-question">{row.question}</p>
+      </div>
+      <div className="as-fb-block">
+        <span className="as-fb-label">The assistant answered</span>
+        <div className="as-reply">{row.answer ? <AnswerText text={row.answer} /> : <p className="as-muted">No reply was saved.</p>}</div>
+        {sources.length > 0 && <p className="as-muted">From {sources.map(nameOf).join(', ')}</p>}
+      </div>
+      {wrong && (
+        <div className="as-fb-block is-correction">
+          <span className="as-fb-label">{showWho ? `${name.split(' ')[0]} says` : 'They say'} the right answer is</span>
+          {dontKnow ? <p className="as-muted">They don’t know (“I don’t know”).</p> : <p>{row.correction}</p>}
+        </div>
+      )}
+      {row.review === 'fixed' && !editing && (
+        <div className="as-fb-block is-fix">
+          <span className="as-fb-label"><i className="material-icons" aria-hidden="true">verified</i> Trainer-verified answer · {nameOf(row.review_material_id)}</span>
+          <p>{row.review_answer}</p>
+          <span className="as-muted">{row.reviewed_by ? `By ${row.reviewed_by}, ` : ''}{ago(row.reviewed_at)}</span>
+        </div>
+      )}
+      {row.review === 'dismissed' && <p className="as-muted">Dismissed{row.reviewed_by ? ` by ${row.reviewed_by}` : ''} {ago(row.reviewed_at)}: nothing to fix.</p>}
+
+      {editing ? (
+        <form className="as-fb-editor" onSubmit={saveFix}>
+          <label className="field-label" htmlFor={`as-fix-${row.id}`}>The right answer</label>
+          <textarea
+            id={`as-fix-${row.id}`} className="textarea" rows={4} maxLength={MAX_FIX_CHARS} value={answer} autoFocus
+            placeholder="What the assistant should have said" onChange={(e) => setAnswer(e.target.value)}
+          />
+          <label className="field-label" htmlFor={`as-fix-material-${row.id}`}>Belongs to</label>
+          <select id={`as-fix-material-${row.id}`} className="select" value={materialId} onChange={(e) => setMaterialId(e.target.value)}>
+            <option value="">Choose a material…</option>
+            {choices.map((m) => <option key={m.id} value={m.id}>{m.name || 'Untitled material'}</option>)}
+          </select>
+          <p className="as-explain">From the next question, the assistant answers questions like this one with it, for everyone who can open that material.</p>
+          <div className="as-fb-actions">
+            <button type="button" className="btn btn-ghost btn-sm" onClick={() => setEditing(false)} disabled={busy}>Cancel</button>
+            <button type="submit" className="btn btn-dark btn-sm" disabled={busy || answer.trim().length < 2 || !materialId}>
+              {busy ? <Spinner size="sm" white /> : <i className="material-icons" aria-hidden="true">verified</i>} Save fix
+            </button>
+          </div>
+        </form>
+      ) : canEdit && wrong && (
+        <div className="as-fb-actions">
+          {!row.review && (
+            <>
+              <button type="button" className="btn btn-ghost btn-sm" title="The answer was right, or there’s nothing to fix" onClick={() => run(() => reviewAnswer({ turnId: row.id, action: 'dismiss' }), 'Dismissed.')} disabled={busy}>
+                <i className="material-icons" aria-hidden="true">block</i> Dismiss
+              </button>
+              <button type="button" className="btn btn-dark btn-sm" onClick={edit} disabled={busy}>
+                <i className="material-icons" aria-hidden="true">edit</i> Write the right answer
+              </button>
+            </>
+          )}
+          {row.review === 'fixed' && (
+            <button type="button" className="btn btn-outline btn-sm" onClick={edit} disabled={busy}>
+              <i className="material-icons" aria-hidden="true">edit</i> Edit fix
+            </button>
+          )}
+          {row.review && (
+            <button type="button" className="btn btn-ghost btn-sm" onClick={() => run(() => reopenAnswer(row.id), row.review === 'fixed' ? 'Fix removed. It’s back in To review.' : 'Back in To review.')} disabled={busy}>
+              <i className="material-icons" aria-hidden="true">undo</i> {row.review === 'fixed' ? 'Remove fix' : 'Undo'}
+            </button>
+          )}
+        </div>
+      )}
     </li>
   );
 }

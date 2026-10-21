@@ -3,6 +3,7 @@ import { aiConfigured, embedTexts, generateJson } from '@/lib/server/ai';
 import { searchChunks, storeConfigured } from '@/lib/server/ragStore';
 import { MATCH_COUNT_RANGE, MAX_INSTRUCTIONS, getRagSettings } from '@/lib/server/ragSettings';
 import { ANSWER_SCHEMA, buildContents, replyType, systemPrompt } from '@/lib/rag/prompt';
+import { baseMaterialId, isFixId, withFixIds } from '@/lib/rag/fix';
 import { smallTalkKind, smallTalkReply } from '@/lib/rag/smalltalk';
 import { assistantProblem, explain } from '@/lib/server/assistantErrors';
 
@@ -57,10 +58,15 @@ export async function POST(request) {
     const started = Date.now();
     const [vector] = await embedTexts([question], 'RETRIEVAL_QUERY');
     where = 'database';
-    const hits = await searchChunks({ embedding: vector, text: question, materialIds, count: matchCount });
+    const hits = await searchChunks({ embedding: vector, text: question, materialIds: withFixIds(materialIds), count: matchCount });
     const searched = Date.now();
     where = 'other';
-    const excerpts = hits.map((hit) => ({ ...hit, materialName: byId.get(hit.material_id)?.name || 'Untitled material' }));
+    const excerpts = hits.map((hit) => ({
+      ...hit,
+      material_id: baseMaterialId(hit.material_id),
+      verified: isFixId(hit.material_id),
+      materialName: byId.get(baseMaterialId(hit.material_id))?.name || 'Untitled material',
+    }));
     if (!excerpts.length) {
       return Response.json({ ...base, excerpts: [], prompt: null, timings: { searchMs: searched - started }, reply: { type: 'not_covered', answer: 'Nothing is indexed for these materials yet, so there was nothing to search.', citations: [] } });
     }
@@ -73,7 +79,7 @@ export async function POST(request) {
     return Response.json({
       ...base,
       excerpts: excerpts.map((e, i) => ({
-        n: i + 1, materialId: e.material_id, materialName: e.materialName, page: e.page,
+        n: i + 1, materialId: e.material_id, materialName: e.materialName, page: e.page, verified: e.verified,
         similarity: e.similarity, content: e.content, cited: cited.has(i + 1),
       })),
       prompt: { system, message: contents.at(-1).parts[0].text },

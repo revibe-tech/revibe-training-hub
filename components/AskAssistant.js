@@ -4,13 +4,15 @@ import { createContext, createElement, useCallback, useContext, useEffect, useMe
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useAuth } from '@/contexts/AuthContext';
-import { askAssistant, getAssistantStatus } from '@/lib/assistant';
+import { askAssistant, getAssistantStatus, rateAnswer } from '@/lib/assistant';
 import { logActivity } from '@/lib/activity';
 import './AskAssistant.css';
 
 // Preview mode has no AI keys; show the assistant anyway so its UI can be checked.
 const PREVIEW = process.env.NEXT_PUBLIC_PREVIEW_MODE === '1';
 const MAX_CHARS = 1000;
+const MAX_CORRECTION_CHARS = 2000;
+const DONT_KNOW = 'I don’t know';
 const DECK_SUGGESTIONS = [
   'Summarise this deck in a few bullet points',
   'What are the rules to remember?',
@@ -63,7 +65,7 @@ export function AssistantProvider({ children }) {
   const [open, setOpen] = useState(false);
   const scope = useSyncExternalStore(subscribeScope, getScope, getServerScope);
   const [deckOnly, setDeckOnly] = useState(true);
-  const [messages, setMessages] = useState([]); // { id, role: 'user'|'assistant', content, found?, sources? }
+  const [messages, setMessages] = useState([]); // { id, role: 'user'|'assistant', content, found?, sources?, turnId?, feedback?, rating? }
   const [draft, setDraft] = useState('');
   const [pending, setPending] = useState(false);
   const [error, setError] = useState('');
@@ -91,9 +93,12 @@ export function AssistantProvider({ children }) {
     launcherRef.current?.focus();
   }, []);
 
+  // An answer waiting for Accurate / Wrong: nothing else can be asked until it's rated.
+  const unrated = messages.some((m) => m.feedback && !m.rating);
+
   const ask = useCallback(async (text) => {
     const question = text.trim().slice(0, MAX_CHARS);
-    if (!question || pending) return;
+    if (!question || pending || unrated) return;
     const history = messages.map(({ role, content }) => ({ role, content }));
     const materialId = scope && deckOnly ? scope.materialId : null;
     const id = Date.now();
@@ -103,7 +108,10 @@ export function AssistantProvider({ children }) {
     setPending(true);
     try {
       const reply = await askAssistant({ question, history, materialId, sessionId });
-      setMessages((list) => [...list, { id: id + 1, role: 'assistant', content: reply.answer, found: reply.found, sources: reply.sources || [] }]);
+      setMessages((list) => [...list, {
+        id: id + 1, role: 'assistant', content: reply.answer, found: reply.found, sources: reply.sources || [],
+        ...(reply.feedback && reply.turnId && { turnId: reply.turnId, feedback: true, rating: null }),
+      }]);
       logActivity('ask', { materialId, detail: { found: !!reply.found } });
     } catch (err) {
       // Put the question back so it can be sent again in one tap.
@@ -113,9 +121,25 @@ export function AssistantProvider({ children }) {
     } finally {
       setPending(false);
     }
-  }, [messages, pending, scope, deckOnly, sessionId]);
+  }, [messages, pending, unrated, scope, deckOnly, sessionId]);
+
+  /** Rate an answer. Throws if it couldn't be saved, so it can be tried again. */
+  const rate = useCallback(async (messageId, rating, correction = '') => {
+    const message = messages.find((m) => m.id === messageId);
+    if (!message?.turnId) return;
+    let saved = rating;
+    try {
+      await rateAnswer({ turnId: message.turnId, rating, correction });
+    } catch (err) {
+      // Ratings can't be saved (not set up, or that answer is gone): don't hold anyone up.
+      if (![404, 503].includes(err.status)) throw err;
+      saved = 'skipped';
+    }
+    setMessages((list) => list.map((m) => (m.id === messageId ? { ...m, rating: saved } : m)));
+  }, [messages]);
 
   const reset = () => {
+    if (unrated) return;
     setMessages([]);
     setDraft('');
     setError('');
@@ -138,7 +162,9 @@ export function AssistantProvider({ children }) {
           onDraft={setDraft}
           pending={pending}
           error={error}
+          unrated={unrated}
           onAsk={ask}
+          onRate={rate}
           onReset={reset}
           onClose={close}
         />
@@ -160,12 +186,13 @@ export function AssistantProvider({ children }) {
   );
 }
 
-function AskWindow({ scope, deckOnly, onDeckOnly, messages, draft, onDraft, pending, error, onAsk, onReset, onClose }) {
+function AskWindow({ scope, deckOnly, onDeckOnly, messages, draft, onDraft, pending, error, unrated, onAsk, onRate, onReset, onClose }) {
   const inputRef = useRef(null);
   const endRef = useRef(null);
   const deckScoped = !!scope && deckOnly;
 
-  useEffect(() => { inputRef.current?.focus(); }, []);
+  // Back to the question box once the answer is rated (and when the chat opens).
+  useEffect(() => { if (!unrated) inputRef.current?.focus(); }, [unrated]);
   useEffect(() => { endRef.current?.scrollIntoView({ block: 'end' }); }, [messages, pending, error]);
 
   const send = (e) => {
@@ -205,8 +232,9 @@ function AskWindow({ scope, deckOnly, onDeckOnly, messages, draft, onDraft, pend
               onReset();
               inputRef.current?.focus(); // this button disappears with the messages
             }}
+            disabled={unrated}
             aria-label="Start a new chat"
-            title="New chat"
+            title={unrated ? 'Rate the answer first' : 'New chat'}
           >
             <i className="material-icons" aria-hidden="true">add_comment</i>
           </button>
@@ -231,7 +259,7 @@ function AskWindow({ scope, deckOnly, onDeckOnly, messages, draft, onDraft, pend
         {messages.length === 0 && <EmptyIntro deckScoped={deckScoped} onPick={onAsk} />}
         {messages.map((m) => (m.role === 'user'
           ? <div key={m.id} className="ask-msg ask-msg-user">{m.content}</div>
-          : <Answer key={m.id} message={m} onOpenSource={onOpenSource} />))}
+          : <Answer key={m.id} message={m} onOpenSource={onOpenSource} onRate={onRate} />))}
         {pending && (
           <div className="ask-msg ask-msg-bot ask-typing" role="status">
             <span aria-hidden="true" /><span aria-hidden="true" /><span aria-hidden="true" />
@@ -255,18 +283,21 @@ function AskWindow({ scope, deckOnly, onDeckOnly, messages, draft, onDraft, pend
           rows={1}
           value={draft}
           maxLength={MAX_CHARS}
+          disabled={unrated}
           onChange={(e) => onDraft(e.target.value)}
           onKeyDown={(e) => {
             if (e.key === 'Enter' && !e.shiftKey && !e.nativeEvent.isComposing) send(e);
           }}
-          placeholder={deckScoped ? 'Ask about this deck…' : 'Ask about a process, policy or button…'}
+          placeholder={unrated ? 'Waiting for your rating…' : deckScoped ? 'Ask about this deck…' : 'Ask about a process, policy or button…'}
           aria-label="Your question"
         />
-        <button type="submit" className="btn btn-gradient btn-icon" disabled={pending || !draft.trim()} aria-label="Send question">
+        <button type="submit" className="btn btn-gradient btn-icon" disabled={pending || unrated || !draft.trim()} aria-label="Send question">
           <i className="material-icons" aria-hidden="true">arrow_upward</i>
         </button>
       </form>
-      <p className="ask-note">Answers come from your training material. Check the linked slide before you act on one.</p>
+      {unrated
+        ? <p className="ask-note is-blocked" role="status">Rate the answer above to keep going: it helps your trainers fix what’s wrong.</p>
+        : <p className="ask-note">Answers come from your training material. Check the linked slide before you act on one.</p>}
     </section>
   );
 }
@@ -296,7 +327,7 @@ function EmptyIntro({ deckScoped, onPick }) {
   );
 }
 
-function Answer({ message, onOpenSource }) {
+function Answer({ message, onOpenSource, onRate }) {
   return (
     <div className={`ask-msg ask-msg-bot${message.found ? '' : ' is-miss'}`}>
       <AnswerText text={message.content} />
@@ -306,17 +337,18 @@ function Answer({ message, onOpenSource }) {
           <ul>
             {message.sources.map((s) => {
               const video = s.kind === 'video';
+              const slide = !video && !s.verified;
               return (
                 <li key={`${s.materialId}:${s.page}`}>
                   <Link
-                    href={`/viewer?id=${encodeURIComponent(s.materialId)}${video ? '' : `&page=${s.page}`}`}
+                    href={`/viewer?id=${encodeURIComponent(s.materialId)}${slide ? `&page=${s.page}` : ''}`}
                     className="ask-source"
                     onClick={onOpenSource}
-                    title={video ? `${s.materialName} (video)` : `${s.materialName}, slide ${s.page}`}
+                    title={s.verified ? `${s.materialName}: an answer checked by a trainer` : video ? `${s.materialName} (video)` : `${s.materialName}, slide ${s.page}`}
                   >
-                    <i className="material-icons" aria-hidden="true">{video ? 'play_circle' : 'slideshow'}</i>
+                    <i className="material-icons" aria-hidden="true">{s.verified ? 'verified' : video ? 'play_circle' : 'slideshow'}</i>
                     <span className="ask-source-name">{s.materialName}</span>
-                    <span className="ask-source-page">{video ? 'Video' : `Slide ${s.page}`}</span>
+                    <span className="ask-source-page">{s.verified ? 'Trainer-verified' : video ? 'Video' : `Slide ${s.page}`}</span>
                   </Link>
                 </li>
               );
@@ -324,7 +356,97 @@ function Answer({ message, onOpenSource }) {
           </ul>
         </div>
       )}
+      {message.feedback && <Rating message={message} onRate={onRate} />}
     </div>
+  );
+}
+
+/** Accurate / Wrong under an answer; Wrong asks for the right answer (or “I don't know”). */
+function Rating({ message, onRate }) {
+  const [step, setStep] = useState('ask'); // 'ask' | 'correct'
+  const [correction, setCorrection] = useState('');
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState('');
+  const firstRef = useRef(null);
+  const formRef = useRef(null);
+
+  // The question box is locked until this is rated, so start here.
+  useEffect(() => { if (!message.rating) firstRef.current?.focus({ preventScroll: true }); }, [message.rating]);
+  // Show the whole correction form, hint and buttons included.
+  useEffect(() => { if (step === 'correct') formRef.current?.scrollIntoView({ block: 'nearest' }); }, [step]);
+
+  if (message.rating) {
+    if (message.rating === 'skipped') return null;
+    return (
+      <p className="ask-rated" role="status">
+        <i className="material-icons" aria-hidden="true">check_circle</i>
+        {message.rating === 'accurate' ? 'Thanks! Marked as accurate.' : 'Thanks! A trainer will check it and fix the answer.'}
+      </p>
+    );
+  }
+
+  const send = async (rating, text = '') => {
+    setBusy(true);
+    setError('');
+    try {
+      await onRate(message.id, rating, text);
+    } catch (err) {
+      setError(err.message || 'Couldn’t save your rating. Try again.');
+      setBusy(false);
+    }
+  };
+
+  if (step === 'ask') {
+    return (
+      <div className="ask-rate" role="group" aria-labelledby={`ask-rate-${message.id}`}>
+        <span id={`ask-rate-${message.id}`} className="ask-rate-label">Was this answer accurate?</span>
+        <div className="ask-rate-buttons">
+          <button ref={firstRef} type="button" className="ask-rate-btn is-good" onClick={() => send('accurate')} disabled={busy}>
+            <i className="material-icons" aria-hidden="true">thumb_up</i> Accurate
+          </button>
+          <button type="button" className="ask-rate-btn is-bad" onClick={() => setStep('correct')} disabled={busy}>
+            <i className="material-icons" aria-hidden="true">thumb_down</i> Wrong
+          </button>
+        </div>
+        {error && <p className="ask-rate-error" role="alert">{error}</p>}
+      </div>
+    );
+  }
+
+  return (
+    <form
+      ref={formRef}
+      className="ask-rate ask-correct"
+      onSubmit={(e) => {
+        e.preventDefault();
+        if (correction.trim()) send('wrong', correction.trim());
+      }}
+    >
+      <label className="ask-rate-label" htmlFor={`ask-correct-${message.id}`}>What’s the right answer?</label>
+      <textarea
+        id={`ask-correct-${message.id}`}
+        className="ask-correct-input"
+        rows={3}
+        value={correction}
+        maxLength={MAX_CORRECTION_CHARS}
+        onChange={(e) => setCorrection(e.target.value)}
+        placeholder="Write what the answer should say"
+        autoFocus
+        aria-describedby={`ask-correct-hint-${message.id}`}
+      />
+      <p id={`ask-correct-hint-${message.id}`} className="ask-correct-hint">
+        <i className="material-icons" aria-hidden="true">lightbulb</i>
+        It’s okay if you don’t know: just write “I don’t know”.
+      </p>
+      {error && <p className="ask-rate-error" role="alert">{error}</p>}
+      <div className="ask-rate-buttons">
+        <button type="button" className="btn btn-ghost btn-sm" onClick={() => { setStep('ask'); setError(''); }} disabled={busy}>Back</button>
+        <button type="button" className="btn btn-outline btn-sm" onClick={() => send('wrong', DONT_KNOW)} disabled={busy}>I don’t know</button>
+        <button type="submit" className="btn btn-dark btn-sm" disabled={busy || !correction.trim()}>
+          {busy ? 'Sending…' : 'Send'}
+        </button>
+      </div>
+    </form>
   );
 }
 

@@ -1,5 +1,6 @@
 import { getViewer, isStaff, listAllowedMaterials } from '@/lib/server/viewer';
 import { findPassages, indexSummary, materialPassages, storeConfigured } from '@/lib/server/ragStore';
+import { withFixIds } from '@/lib/rag/fix';
 import { assistantProblem, explain } from '@/lib/server/assistantErrors';
 
 const fail = (status, error) => Response.json({ error }, { status });
@@ -8,7 +9,8 @@ const fail = (status, error) => Response.json({ error }, { status });
  * Trainers and management: the assistant's knowledge base (rag_chunks), read-only.
  *   GET                 → { summary: [{ materialId, passages, pages, indexedAt }] }
  *   GET ?material=<id>  → { passages: [{ id, page, chunk_index, content, created_at }] }
- *   GET ?q=<text>       → { passages: [... + material_id] } containing the text
+ *   GET ?q=<text>       → { passages: [... + material_id] } containing the text (trainers' fixes
+ *                         too, as material 'fix:<id>')
  */
 export async function GET(request) {
   const viewer = await getViewer(request);
@@ -26,7 +28,7 @@ export async function GET(request) {
       where = 'firestore';
       const ids = (await listAllowedMaterials(viewer)).map((m) => m.id);
       where = 'database';
-      return Response.json({ passages: await findPassages(q, ids) });
+      return Response.json({ passages: await findPassages(q, withFixIds(ids)) });
     }
     return Response.json({ summary: await indexSummary() });
   } catch (err) {
