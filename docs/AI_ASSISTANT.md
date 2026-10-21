@@ -55,6 +55,13 @@ Replies come in three kinds:
 Answers and "not covered" replies from the material must be rated before the
 next question (see [Answer feedback](#answer-feedback)).
 
+**First use:** the first time someone opens the chat, it says the assistant is
+still in training and its answers can be wrong (check the linked slide, rate
+each answer, ask a trainer when unsure). The question box stays locked until
+they tick **I understand…** and press **Start asking**. That's saved as
+`assistantAckAt` on their `users/{uid}` profile, so each person sees it once, on
+any device. If saving fails they can still go on, and they see it again next time.
+
 ## Access control
 
 - **Retrieval is filtered, not the model.** On every question the server lists

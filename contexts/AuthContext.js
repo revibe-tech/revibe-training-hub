@@ -21,6 +21,7 @@ export function AuthProvider({ children }) {
   const [partnerType, setPartnerType] = useState(null); // 'seller' | 'repair' for non-Revibe users
   const [team, setTeam] = useState(null); // Revibe team (tickets / inbound / claims / operations / management)
   const [groups, setGroups] = useState([]); // 'group:<id>' a trainer put this person in
+  const [assistantAckAt, setAssistantAckAt] = useState(null); // when they accepted the assistant's "still in training" notice
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -36,6 +37,7 @@ export function AuthProvider({ children }) {
         let currentPartnerType = null;
         let currentTeam = null;
         let currentGroups = [];
+        let currentAck = null;
         const userType = isRevibeEmail(firebaseUser.email) ? 'revibe' : 'partner';
         if (firebaseUser.email && firebaseUser.email.toLowerCase() === ADMIN_EMAIL) {
           currentRole = 'trainer';
@@ -47,6 +49,7 @@ export function AuthProvider({ children }) {
           const userDoc = await getDoc(userRef);
 
           if (userDoc.exists()) {
+            currentAck = userDoc.data().assistantAckAt || null;
             if (firebaseUser.email?.toLowerCase() === ADMIN_EMAIL && userDoc.data().role !== 'trainer') {
               await setDoc(userRef, { role: 'trainer', lastLogin: new Date().toISOString() }, { merge: true });
             } else {
@@ -78,11 +81,13 @@ export function AuthProvider({ children }) {
         setPartnerType(currentPartnerType);
         setTeam(currentTeam);
         setGroups(currentGroups);
+        setAssistantAckAt(currentAck);
       } else {
         setUser(null);
         setRole(null);
         setPartnerType(null);
         setGroups([]);
+        setAssistantAckAt(null);
       }
       setLoading(false);
     });
@@ -155,6 +160,19 @@ export function AuthProvider({ children }) {
     setTeam(nextTeam);
   };
 
+  // Once per person: they accept that the assistant is still in training before
+  // their first question. Saved on their profile, so it isn't asked again on
+  // another device; if saving fails they can still go on.
+  const acknowledgeAssistant = async () => {
+    const at = new Date().toISOString();
+    try {
+      await setDoc(doc(db, 'users', user.uid), { assistantAckAt: at }, { merge: true });
+    } catch (error) {
+      console.warn('Could not save the assistant notice:', error.message);
+    }
+    setAssistantAckAt(at);
+  };
+
   const signOut = async () => {
     try {
       await firebaseSignOut(auth);
@@ -190,7 +208,8 @@ export function AuthProvider({ children }) {
       isAdmin: !!user && user.email?.toLowerCase() === ADMIN_EMAIL,
       // Revibe's management team: sees every material and the assistant's insides, read-only.
       isManagement: !!user && role !== 'trainer' && isRevibeEmail(user.email) && team === SEES_ALL_TEAM,
-      choosePartnerType, chooseTeam, signInWithGoogle, signOut
+      assistantAckAt,
+      choosePartnerType, chooseTeam, acknowledgeAssistant, signInWithGoogle, signOut
     }}>
       {children}
     </AuthContext.Provider>

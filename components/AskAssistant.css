@@ -198,6 +198,49 @@
   color: var(--text-muted);
 }
 
+/* First use: it's still in training, and they confirm they understand. */
+.ask-notice {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 16px;
+  border: 1px solid var(--brand-lilac);
+  border-radius: var(--radius-xl);
+  background: var(--bg-lavender);
+  color: var(--text-body);
+}
+.ask-notice-icon {
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  border-radius: var(--radius-full);
+  background: var(--gradient-hero);
+  color: var(--text-white);
+}
+.ask-notice-icon .material-icons { font-size: 22px; }
+.ask-notice-title { margin: 0; font-size: 16px; font-weight: 700; letter-spacing: -0.01em; color: var(--text-primary); }
+.ask-notice-text { margin: 0; font-size: 14px; line-height: 1.55; }
+.ask-notice-list { display: grid; gap: 4px; margin: 0; padding-left: 20px; list-style: disc; font-size: 13.5px; line-height: 1.5; }
+.ask-notice-check {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+  margin-top: 4px;
+  padding: 10px 12px;
+  border-radius: var(--radius-md);
+  background: var(--bg-white);
+  font-size: 13.5px;
+  font-weight: 600;
+  line-height: 1.45;
+  color: var(--text-primary);
+  cursor: pointer;
+}
+.ask-notice-check input { flex-shrink: 0; width: 18px; height: 18px; margin: 1px 0 0; accent-color: var(--brand-purple); }
+.ask-notice-go { width: 100%; justify-content: center; }
+
 /* Rating an answer: Accurate / Wrong, then the right answer for a wrong one. */
 .ask-rate {
   display: flex;

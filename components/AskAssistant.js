@@ -59,7 +59,7 @@ export function useAssistantScope(materialId, materialName, { hideChat = false }
  * inside AuthProvider.
  */
 export function AssistantProvider({ children }) {
-  const { user } = useAuth();
+  const { user, assistantAckAt, acknowledgeAssistant } = useAuth();
   const pathname = usePathname();
   const [ready, setReady] = useState(PREVIEW);
   const [open, setOpen] = useState(false);
@@ -95,10 +95,12 @@ export function AssistantProvider({ children }) {
 
   // An answer waiting for Accurate / Wrong: nothing else can be asked until it's rated.
   const unrated = messages.some((m) => m.feedback && !m.rating);
+  // First time: they accept that it's still in training before asking anything.
+  const needsAck = !!user && !assistantAckAt;
 
   const ask = useCallback(async (text) => {
     const question = text.trim().slice(0, MAX_CHARS);
-    if (!question || pending || unrated) return;
+    if (!question || pending || unrated || needsAck) return;
     const history = messages.map(({ role, content }) => ({ role, content }));
     const materialId = scope && deckOnly ? scope.materialId : null;
     const id = Date.now();
@@ -121,7 +123,7 @@ export function AssistantProvider({ children }) {
     } finally {
       setPending(false);
     }
-  }, [messages, pending, unrated, scope, deckOnly, sessionId]);
+  }, [messages, pending, unrated, needsAck, scope, deckOnly, sessionId]);
 
   /** Rate an answer. Throws if it couldn't be saved, so it can be tried again. */
   const rate = useCallback(async (messageId, rating, correction = '') => {
@@ -163,6 +165,8 @@ export function AssistantProvider({ children }) {
           pending={pending}
           error={error}
           unrated={unrated}
+          needsAck={needsAck}
+          onAcknowledge={acknowledgeAssistant}
           onAsk={ask}
           onRate={rate}
           onReset={reset}
@@ -186,13 +190,14 @@ export function AssistantProvider({ children }) {
   );
 }
 
-function AskWindow({ scope, deckOnly, onDeckOnly, messages, draft, onDraft, pending, error, unrated, onAsk, onRate, onReset, onClose }) {
+function AskWindow({ scope, deckOnly, onDeckOnly, messages, draft, onDraft, pending, error, unrated, needsAck, onAcknowledge, onAsk, onRate, onReset, onClose }) {
   const inputRef = useRef(null);
   const endRef = useRef(null);
   const deckScoped = !!scope && deckOnly;
+  const locked = unrated || needsAck;
 
-  // Back to the question box once the answer is rated (and when the chat opens).
-  useEffect(() => { if (!unrated) inputRef.current?.focus(); }, [unrated]);
+  // Back to the question box once the answer is rated or the notice accepted (and when the chat opens).
+  useEffect(() => { if (!locked) inputRef.current?.focus(); }, [locked]);
   useEffect(() => { endRef.current?.scrollIntoView({ block: 'end' }); }, [messages, pending, error]);
 
   const send = (e) => {
@@ -256,7 +261,8 @@ function AskWindow({ scope, deckOnly, onDeckOnly, messages, draft, onDraft, pend
       )}
 
       <div className="ask-thread">
-        {messages.length === 0 && <EmptyIntro deckScoped={deckScoped} onPick={onAsk} />}
+        {needsAck && <TrainingNotice onAccept={onAcknowledge} />}
+        {messages.length === 0 && !needsAck && <EmptyIntro deckScoped={deckScoped} onPick={onAsk} />}
         {messages.map((m) => (m.role === 'user'
           ? <div key={m.id} className="ask-msg ask-msg-user">{m.content}</div>
           : <Answer key={m.id} message={m} onOpenSource={onOpenSource} onRate={onRate} />))}
@@ -283,21 +289,50 @@ function AskWindow({ scope, deckOnly, onDeckOnly, messages, draft, onDraft, pend
           rows={1}
           value={draft}
           maxLength={MAX_CHARS}
-          disabled={unrated}
+          disabled={locked}
           onChange={(e) => onDraft(e.target.value)}
           onKeyDown={(e) => {
             if (e.key === 'Enter' && !e.shiftKey && !e.nativeEvent.isComposing) send(e);
           }}
-          placeholder={unrated ? 'Waiting for your rating…' : deckScoped ? 'Ask about this deck…' : 'Ask about a process, policy or button…'}
+          placeholder={needsAck ? 'Read the note above first' : unrated ? 'Waiting for your rating…' : deckScoped ? 'Ask about this deck…' : 'Ask about a process, policy or button…'}
           aria-label="Your question"
         />
-        <button type="submit" className="btn btn-gradient btn-icon" disabled={pending || unrated || !draft.trim()} aria-label="Send question">
+        <button type="submit" className="btn btn-gradient btn-icon" disabled={pending || locked || !draft.trim()} aria-label="Send question">
           <i className="material-icons" aria-hidden="true">arrow_upward</i>
         </button>
       </form>
       {unrated
         ? <p className="ask-note is-blocked" role="status">Rate the answer above to keep going: it helps your trainers fix what’s wrong.</p>
         : <p className="ask-note">Answers come from your training material. Check the linked slide before you act on one.</p>}
+    </section>
+  );
+}
+
+/** Shown once per person, before their first question: it's still in training, and they confirm they understand. */
+function TrainingNotice({ onAccept }) {
+  const [agreed, setAgreed] = useState(false);
+  const [busy, setBusy] = useState(false);
+  const accept = async () => {
+    setBusy(true);
+    await onAccept(); // never throws: if saving fails they can still go on
+  };
+  return (
+    <section className="ask-notice" aria-labelledby="ask-notice-title">
+      <span className="ask-notice-icon" aria-hidden="true"><i className="material-icons">school</i></span>
+      <h3 id="ask-notice-title" className="ask-notice-title">The assistant is still in training</h3>
+      <p className="ask-notice-text">It answers from your training material, but it’s still being trained, so some answers may be wrong or incomplete.</p>
+      <ul className="ask-notice-list">
+        <li>Check the linked slide before you act on an answer.</li>
+        <li>Rate each answer: wrong ones go to your trainers to fix.</li>
+        <li>Not sure? Ask your trainer or team lead.</li>
+      </ul>
+      <label className="ask-notice-check">
+        <input type="checkbox" checked={agreed} onChange={(e) => setAgreed(e.target.checked)} autoFocus />
+        <span>I understand the assistant is still in training and its answers can be wrong.</span>
+      </label>
+      <button type="button" className="btn btn-gradient ask-notice-go" onClick={accept} disabled={!agreed || busy}>
+        {busy ? 'Saving…' : 'Start asking'}
+      </button>
     </section>
   );
 }
