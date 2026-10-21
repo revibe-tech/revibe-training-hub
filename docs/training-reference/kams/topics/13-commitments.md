@@ -78,7 +78,7 @@ Only one version. The topic has a single video with no audience label, which spe
 
 - The dates belong to one round: window 20 Oct 2026 → 10 Nov 2026, deadline Thu 22 Oct, 18:00 UAE time. They go out of date once this round ends, and future rounds will have different dates (13.0 [00:00] [00:57]).
 - The tab is called "new" (13.0 [00:05]).
-- The countdown and the "15 Oct, 15:49" save time reflect when the video was recorded (13.0 [00:07]).
+- The countdown and the "15 Oct, 15:49" save time reflect when the video was recorded, about 15 Oct (13.0 [00:07 t00007] [00:45 t00045]).
 
 Teach and test the process, not these dates.
 

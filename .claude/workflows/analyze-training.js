@@ -131,7 +131,7 @@ const EVIDENCE_RULES = `Evidence rules (these matter more than coverage):
 - Words marked {word?} and lines marked ⚠ are unreliable on their own. Rely on them only when the screen or the surrounding speech confirms them.
 - Don't fill gaps from general knowledge of e-commerce, logistics or Revibe. If something is only implied, leave it out or set confidence "low" and start the statement with "Implied:".
 - Copy numbers, dates, currencies, IDs and names exactly. Never round, convert or complete them.
-- Put anything that looks out of date (past deadlines, "this will change", TBU) in outdated, and real customer or seller personal data visible on screen (names, phone numbers, emails, addresses) in privacy: this material may later be shown to sellers.`
+- Put anything that looks out of date (past deadlines, "this will change", TBU) in outdated, and real customer or seller personal data visible on screen (names, phone numbers, emails, addresses) in privacy: this material may later be shown to sellers. Describe personal data ("the customer's phone number"); never copy it into any field.`
 
 function analyzePrompt(it, pack, i) {
   const what = it.kind === 'pdf' ? 'PDF' : 'video'
@@ -218,7 +218,7 @@ Open images whenever a claim depends on what's on screen. Report only issues you
 
 function fixPrompt(it, issues) {
   return `Apply these review findings to ${page(it)} ("${it.id} ${it.title}"). The reviewer can be wrong too: for each finding, check its evidence yourself in ${it.kind === 'pdf' ? '' : `${workDir}/items/${it.id}/transcript.md, `}the evidence packs (${it.packs.join(', ')}) and the images they list. Apply it only if the evidence holds; otherwise skip it. Keep the page's structure and citations.
-Then add a "### Review" subsection at the end of "Checking log" listing each finding as applied or skipped, with a one-line reason.
+Then add a "### Review" subsection at the end of "Checking log" listing each finding with its severity, as applied or skipped, with a one-line reason.
 
 Findings:
 ${json(issues)}`
@@ -242,7 +242,7 @@ A table: Rule or number | Source.
 ## Contradictions
 Between the pages, or with anything flagged out of date. "None found" if none.
 ## Quiz blueprint
-For each page: suggested number of questions (about one per minute of video, at most 20 per video; for a PDF one per key rule), the areas to cover, which areas suit multiple-answer questions, and the 3 best scenario seeds with citations.`
+For each page: suggested number of questions (about one per distinct ★ fact worth testing, merging facts one question can cover; at most 20 per item, fewer for short or thin items), the areas to cover, which areas suit multiple-answer questions, and the 3 best scenario seeds with citations.`
 }
 
 // ---------- run ----------
@@ -304,7 +304,7 @@ Run stats: ${json(stats)}`, { label: 'write README', phase: 'Reference' }),
 3. Personal data visible on screen, by item and time, so it can be blurred before sellers see it.
 ${notes.length ? "4. The new KAMs' questions and gaps from their notes, each mapped to the item that answers it (with citation) or marked \"Not covered\".\n5." : '4.'} Suggested fixes to the material (re-record, add, update, blur), each tied to a finding above.
 Use only what the pages and notes say.`, { label: 'write gaps and conflicts', phase: 'Reference' }),
-  () => agent(`Write ${outDir}/quiz-plan.md from the quiz blueprints in the topic pages (${topicFiles.join(', ')}) and the "Quiz material" sections of the item pages. Sections: a table per item (Id | Title | Audience | Suggested questions | Good for multiple-answer | Main areas); the total; a suggested order for new joiners (follow the folder numbering unless the material says otherwise); and the 20 strongest scenario seeds across all items with citations. Pierre asked for at most 20 questions per video, a mix of single and multiple answer, written by people rather than generated. This plan supports that; it doesn't replace it.`, { label: 'write quiz plan', phase: 'Reference' }),
+  () => agent(`Write ${outDir}/quiz-plan.md from the quiz blueprints in the topic pages (${topicFiles.join(', ')}) and the "Quiz material" sections of the item pages. Sections: a table per item (Id | Title | Audience | Suggested questions | Good for multiple-answer | Main areas); the total; a suggested order for new joiners (follow the folder numbering unless the material says otherwise); and the 20 strongest scenario seeds across all items with citations. In his 21 Oct 2026 meeting with Youssf (not in the material itself), Pierre asked for at most 20 questions per video, a mix of single and multiple answer, written by people rather than generated. Say so where you mention it. This plan supports that; it doesn't replace it.`, { label: 'write quiz plan', phase: 'Reference' }),
 ])
 
 phase('Audit')

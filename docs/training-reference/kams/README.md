@@ -51,7 +51,7 @@ Each item page has the same sections: Summary, Follow the trainer (one row per s
 
 ## How it was made
 
-1. **Source files.** The videos and PDFs were downloaded from Drive into a local work folder (`training-work/`, which git ignores), keeping the Drive file names. The leading number of each file name becomes the item id.
+1. **Source files.** The videos and PDFs were downloaded from Drive into a local work folder, keeping the Drive file names. The usual folder is `training-work/`, which git ignores; this pilot used a temporary session folder outside the repo instead. The leading number of each file name becomes the item id.
 2. **Speech recognition, with low-confidence words marked.** Each video was transcribed with Whisper (faster-whisper, large-v3-turbo). The language was forced to English, so the trainer's French accent is never taken for French. The model was also primed with Revibe terms (Revibe, Buybox, KAM, AED and others). Words the model was less than 50% sure of are marked `{word?}`. Lines with low overall confidence would be marked ⚠, but there were none in this run. These marks tell every later agent not to rely on those words unless the screen or the surrounding speech confirms them.
 3. **Frames taken whenever the screen changes.** The tool compares one thumbnail per second and keeps a frame when the screen settles after a real change, or after 20 seconds without one. A moving cursor alone doesn't count as a change. Regions that change all the time, like the trainer's webcam image, are ignored. Each frame is named after its second, so t00044 is 0:44. Each PDF page is kept as an image, with its text.
 4. **Evidence packs.** Frames and transcript lines in time order, at most 40 frames or 8 minutes per pack. Each pack is one "part". Every item in this run fit in one part.
@@ -62,7 +62,7 @@ Each item page has the same sections: Summary, Follow the trainer (one row per s
 9. **Topic and reference pages.** One agent per topic combines its items. Then come this page, the glossary, the gaps and conflicts page and the quiz plan.
 10. **Two final auditors.** Each one traces at least 25 claims on the topic and reference pages back to the transcripts, frames and PDF pages. One checks numbers, dates, prices, IDs and names. The other checks procedures, rules and who does what. They fix errors where they appear and log every claim in their audit file.
 
-Steps 1 to 4 are done by `tools/training-analysis/prepare.py`. Steps 5 to 10 are the saved workflow `.claude/workflows/analyze-training.js`. More detail: [tools/training-analysis/README.md](../../../tools/training-analysis/README.md).
+Step 1 is done by hand, by you or by Claude in Chrome (see the `analyze-training` skill). Steps 2 to 4 are done by `tools/training-analysis/prepare.py`. Steps 5 to 10 are the saved workflow `.claude/workflows/analyze-training.js`. More detail: [tools/training-analysis/README.md](../../../tools/training-analysis/README.md).
 
 ## Limits
 
@@ -70,9 +70,9 @@ Steps 1 to 4 are done by `tools/training-analysis/prepare.py`. Steps 5 to 10 are
 
 The trainer in 5.0 is a French speaker, and speech recognition sometimes mishears his accented English. The reference tries to be fair to him: it reads his sentences for what he means, quotes his words exactly, and says so when the meaning is not certain.
 
-- **The `{word?}` marks don't catch everything.** They only show words the model knew it was unsure of. The model can also mishear a word with full confidence: in 5.0, "on your side" came out as "on your site" with no mark (5.0 [00:24]). So the low-confidence count is a minimum, not a count of errors.
-- **The screen wins.** Where the screen shows the right word or number, the pages use the screen and log the correction in the item's "Speech recognition fixes" table. Examples from 5.0: "site" → "side", "Revive" → "Revibe", and the closing "I remanage your disposal" → "I remain at your disposal" (French "je reste à votre disposition").
-- **Nothing is guessed.** Where nothing on screen confirms a line, it stays marked as unclear. The main case is 5.0 [02:22], about which countries need a tracking ID to reject a cancellation. The sentence contradicts itself, so the pages give the possible readings without choosing one. **Confirm this with the trainer.**
+- **The `{word?}` marks don't catch everything.** They only show words the model was less than 50% sure of. A misheard word can still clear that bar: in 5.0, "on your side" came out as "on your site" with no mark, because the model was 67% sure of "site" (5.0 [00:24]). So the low-confidence count is a minimum, not a count of errors.
+- **The screen wins, then the context.** Where the screen shows the right word or number, the pages use the screen. In 5.0, "Revive" → "Revibe" rests on the URL stage-admin.revibe.me on screen. Where the screen doesn't help, the pages rely on the trainer's own words elsewhere or the plain sense of the sentence: "site" → "side" (he says "from your side" at 01:09), and the closing "I remanage your disposal" → "I remain at your disposal" (French "je reste à votre disposition"). Each correction is logged with its basis in the item's "Speech recognition fixes" table.
+- **Nothing is guessed.** Where neither the screen nor the surrounding speech settles what a line means, it stays marked as unclear. The main case is 5.0 [02:22], about which countries need a tracking ID to reject a cancellation. The sentence contradicts itself, so the pages give the possible readings without choosing one. **Confirm this with the trainer.**
 - **13.0 is clear.** Only 2 words were marked, and the screen confirms both.
 - **There are no subtitles.** Neither video has a subtitle track, so speech recognition is the only written record of what is said.
 
@@ -101,7 +101,7 @@ The PDFs don't expand AE, ZA, SA, "Others" or AWB, so the pages don't either.
 Pierre asked for at most 20 questions per video, mixing single-answer and multiple-answer questions, and written by people. This reference supplies the material. It doesn't write the questions.
 
 1. **Start with [quiz-plan.md](quiz-plan.md)** for the numbers and the order. Then read the Quiz blueprint on the topic page, then the Quiz material on the item page (the ★ facts and scenario seeds).
-2. **Check every source.** Build each question from a ★ fact and open its citation: the row on the item page, the transcript line, or the PDF page. For on-screen facts, the frame is in the work folder, e.g. `training-work/items/5.0/frames/t00044.jpg`. Frames are not committed.
+2. **Check every source.** Build each question from a ★ fact and open its citation: the row on the item page, the transcript line, or the PDF page. For on-screen facts, the frame is in the work folder, e.g. `training-work/items/5.0/frames/t00044.jpg`. Frames are not committed, and this pilot's work folder was temporary, so to open a frame from this run, prepare the item again with `prepare.py` first.
 3. **Leave out anything uncertain.** Skip facts marked (unconfirmed), anything listed under Contradictions or Unclear passages, and anything a blueprint says to leave out or "keep out until clarified". In this run that includes:
    - which countries need a tracking ID to reject a cancellation (5.0);
    - the ZA & SA rule that the customer pays the ship-back, with 90 days to pay, after a Lab Invalid (8.1);
@@ -109,7 +109,7 @@ Pierre asked for at most 20 questions per video, mixing single-answer and multip
    - the currency of the Saudi Arabia commitments table (13.0).
 4. **Use the corrected wording.** If a question quotes the trainer, use the "Should be" column of the Speech recognition fixes table, not the raw transcript. Test the rule, not his phrasing.
 5. **Test the process, not one-off dates.** Write 13.0's dates as "in the round shown", or leave them out.
-6. **Name the claim type in warranty questions.** Issues (8.1) and wrong device (8.3) share the first four steps but differ after the seller decides.
+6. **Name the claim type in warranty questions.** Issues (8.1) and wrong device (8.3) go through the same four opening steps, but their pickup rules differ at Step 3 (8.1: automatic in "AE & ZA"; 8.3: automatic in "AE & Others" and always for a repair partner), and their paths split after the seller decides.
 
 The topic blueprints suggest these numbers:
 
@@ -135,7 +135,7 @@ The topic blueprints suggest these numbers:
 Follow the `analyze-training` skill (`/analyze-training` in Claude Code):
 
 1. Put the new or changed files in `training-work/src/`, keeping their Drive names.
-2. Run `python3 tools/training-analysis/prepare.py --src training-work/src --work training-work --only <ids>` to redo just those items. If the model keeps mishearing a name or term, add it with `--vocab "..."`.
+2. Run `python3 tools/training-analysis/prepare.py --src training-work/src --work training-work --only <ids>` to redo just those items. For a changed file, delete its folder `training-work/items/<id>/` first: even with `--only`, `prepare.py` reuses an item's existing transcript and its existing frame and page images. If the model keeps mishearing a name or term, add it with `--vocab "..."`.
 3. Spot-check a frame or two and the transcript, especially the low-confidence words.
 4. Run the `analyze-training` workflow with `training-work/workflow-args.json`, then read the two audit files.
 5. Commit `docs/training-reference/` only. Never commit `training-work/`: it holds the videos and frames.

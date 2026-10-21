@@ -11,7 +11,7 @@ Both sources are workflow diagrams for sellers and KAMs, with no narration. That
 
 ## How it works
 
-Both claim types share the first four steps. They split when the seller makes a decision at Under QC.
+Both claim types go through the same four opening steps, but the pickup rules in Step 3 differ by claim type (see the table there). The paths split when the seller makes a decision at Under QC.
 
 ### 1. Who handles the claim
 
@@ -87,7 +87,7 @@ RC+ covers repairs **up to 1,500 AED**: the repairer fixes the device and Revibe
 
 ### 9. Failed ship-back, and where to check
 
-- If a ship-back delivery fails, the agent offers a new attempt (a new AWB). If the customer refuses, the device is disposed of (8.1 [p2] [p3]; 8.3 [p1]).
+- If a ship-back delivery fails, the agent offers a new attempt (a new AWB). If that is refused, the device is disposed of. Only 8.1's Valid path says who refuses (the customer); 8.1's RC+ footer and 8.3 just say "refused", and 8.3 doesn't say whether its ship-back goes to the seller or the customer (8.1 [p2] [p3]; 8.3 [p1]).
 - All refunds, credits and charges appear in the payment tool (8.1 [p1] [p3]; 8.3 [p1]).
 - The portal shows Tracking (original shipment), Pickup Tracking, Ship-Back and Lab (8.1 [p1]).
 
