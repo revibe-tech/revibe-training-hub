@@ -154,15 +154,15 @@ def lines_from(segs):
 
 
 def write_transcript(item_dir, segs, meta, out):
-    (item_dir / 'transcript.json').write_text(json.dumps(segs, indent=1))
+    (item_dir / 'transcript.json').write_text(json.dumps(segs, indent=1), encoding='utf-8')
     lines = [f"# Transcript: {meta['id']} {meta['title']}", '',
              f"Speech recognition: {meta['asr']}, language forced to {meta['language']}. "
              '{word?} = low-confidence word. ⚠ = low-confidence line. '
              'Names, numbers and on-screen terms may be misheard: check them against the frames.', '']
     lines += [f"[{mmss(l['start'])}] {l['text']}" for l in lines_from(segs)]
-    (item_dir / 'transcript.md').write_text('\n'.join(lines) + '\n')
+    (item_dir / 'transcript.md').write_text('\n'.join(lines) + '\n', encoding='utf-8')
     out.mkdir(parents=True, exist_ok=True)
-    (out / f"{meta['id']}.md").write_text('\n'.join(lines) + '\n')
+    (out / f"{meta['id']}.md").write_text('\n'.join(lines) + '\n', encoding='utf-8')
     words = [w for s in segs for w in s['words']]
     meta['transcript'] = {
         'segments': len(segs),
@@ -255,7 +255,7 @@ def video_packs(item_dir, meta, segs, seconds):
                    for l in lines_from(segs) if a <= l['start'] < b]
         lines += [e[2] for e in sorted(events, key=lambda e: (e[0], e[1]))]
         path = item_dir / f'pack-{n}.md'
-        path.write_text('\n'.join(lines) + '\n')
+        path.write_text('\n'.join(lines) + '\n', encoding='utf-8')
         packs.append({'n': n, 'start': a, 'end': b, 'frames': len(frames), 'path': str(path)})
     return packs
 
@@ -274,7 +274,7 @@ def do_video(src, item_dir, meta, transcriber, out):
     meta['subtitle_tracks'] = len(subs)
 
     if (item_dir / 'transcript.json').exists():
-        segs = json.loads((item_dir / 'transcript.json').read_text())
+        segs = json.loads((item_dir / 'transcript.json').read_text(encoding='utf-8'))
     else:
         segs = transcriber(load_audio(src))
     meta['asr'], meta['language'] = transcriber.name, transcriber.language
@@ -307,7 +307,7 @@ def do_pdf(src, item_dir, meta):
         for i, img, text in part:
             lines += [f'### PAGE {i} → {img}', '', text or '(no extractable text: read the image)', '']
         path = item_dir / f'pack-{n}.md'
-        path.write_text('\n'.join(lines) + '\n')
+        path.write_text('\n'.join(lines) + '\n', encoding='utf-8')
         meta['packs'].append({'n': n, 'start': part[0][0], 'end': part[-1][0], 'frames': len(part), 'path': str(path)})
 
 
@@ -322,9 +322,9 @@ def docx_text(src):
 
 def do_text(src, item_dir, meta):
     path = item_dir / 'pack-1.md'
-    body = docx_text(src) if src.suffix.lower() == '.docx' else src.read_text()
+    body = docx_text(src) if src.suffix.lower() == '.docx' else src.read_text(encoding='utf-8')
     path.write_text(f"# Evidence pack: {meta['id']} {meta['title']} (document)\n\n"
-                    'Cite sections by their heading.\n\n' + body)
+                    'Cite sections by their heading.\n\n' + body, encoding='utf-8')
     meta['packs'] = [{'n': 1, 'start': 0, 'end': 0, 'frames': 0, 'path': str(path)}]
 
 
@@ -353,13 +353,13 @@ def main():
         if a.only and item_id not in a.only:
             prev = a.work / 'items' / item_id / 'meta.json'
             if prev.exists():
-                index.append(json.loads(prev.read_text()))
+                index.append(json.loads(prev.read_text(encoding='utf-8')))
             continue
         item_dir = (a.work / 'items' / item_id).resolve()
         item_dir.mkdir(parents=True, exist_ok=True)
         done = item_dir / 'meta.json'
         if done.exists() and not a.only:
-            index.append(json.loads(done.read_text()))
+            index.append(json.loads(done.read_text(encoding='utf-8')))
             print(f'{item_id}: already prepared')
             continue
         ext = src.suffix.lower()
@@ -379,17 +379,17 @@ def main():
             do_pdf(src, item_dir, meta)
         else:
             do_text(src, item_dir, meta)
-        done.write_text(json.dumps(meta, indent=1))
+        done.write_text(json.dumps(meta, indent=1), encoding='utf-8')
         index.append(meta)
 
     index.sort(key=lambda m: [int(x) if x.isdigit() else 0 for x in m['id'].split('.')] + [m['id']])
-    (a.work / 'index.json').write_text(json.dumps(index, indent=1))
+    (a.work / 'index.json').write_text(json.dumps(index, indent=1), encoding='utf-8')
     args = {'workDir': str(a.work.resolve()), 'outDir': a.out,
             'items': [{'id': m['id'], 'title': m['title'], 'kind': m['kind'], 'role': m.get('role', 'training'),
                        'audience': m['audience'],
                        'flags': m['flags'], 'duration': m.get('duration'), 'pages': m.get('pages'),
                        'packs': [p['path'] for p in m['packs']]} for m in index]}
-    (a.work / 'workflow-args.json').write_text(json.dumps(args, indent=1))
+    (a.work / 'workflow-args.json').write_text(json.dumps(args, indent=1), encoding='utf-8')
     print(f"\n{len(index)} items ready. Workflow args: {a.work / 'workflow-args.json'}")
 
 

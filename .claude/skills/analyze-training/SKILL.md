@@ -10,8 +10,8 @@ Turns a folder of training videos and PDFs into `docs/training-reference/kams/`:
 ## 1. Check the tools
 
 ```bash
-ffmpeg -version | head -1          # macOS: brew install ffmpeg
-python3 -m pip install -r tools/training-analysis/requirements.txt
+ffmpeg -version                    # macOS: brew install ffmpeg · Windows: winget install Gyan.FFmpeg (then open a new terminal)
+python3 -m pip install -r tools/training-analysis/requirements.txt   # Windows: py -m pip ...
 # Apple Silicon only, much faster transcription:
 python3 -m pip install mlx-whisper
 ```
