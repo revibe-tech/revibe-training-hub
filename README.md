@@ -45,6 +45,7 @@ Built with Next.js (App Router), Firebase, and Supabase.
 - **Unanswered questions are logged** so trainers can see what the material is missing.
 - **Assistant page** (trainers and Management): the whole pipeline at a glance, the passages it quotes from, editable page text and instructions, and **Try a question** to see every step.
 - **Conversations** (admin only): every question and reply, per person and chat, with gaps and errors flagged.
+- **Answer feedback**: everyone rates each answer Accurate or Wrong (with the right answer, or “I don’t know”) before asking again; trainers review wrong ones on **Assistant → Feedback** and write fixes the assistant uses from then on.
 - Setup and design: [docs/AI_ASSISTANT.md](docs/AI_ASSISTANT.md).
 
 ### 📝 Quizzes

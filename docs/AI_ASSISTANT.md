@@ -36,6 +36,7 @@ flowchart LR
 | UI (chat button + window) | `components/AskAssistant.js` |
 | Assistant page: pipeline, knowledge base, instructions, Try it | `app/dashboard/assistant/page.js`, `app/api/rag/{settings,kb,try}/route.js`, `lib/server/ragSettings.js` |
 | Conversations (admin only) | `app/dashboard/conversations/page.js`, `app/api/rag/conversations/route.js` |
+| Rating answers, trainers' fixes | `app/api/ask/feedback/route.js`, `app/api/rag/feedback/route.js`, `lib/rag/fix.js` |
 
 Keyword search runs next to vector search because this material is full of
 exact labels (`Customer wants AWB?`, `Cancel override`, `W - Invalid claim`)
@@ -50,6 +51,9 @@ Replies come in three kinds:
   answers carry slide links.
 - **Not covered**: a real question the excerpts don't answer. The reply points
   to the closest topics they do have, and the question is logged as a gap.
+
+Answers and "not covered" replies from the material must be rated before the
+next question (see [Answer feedback](#answer-feedback)).
 
 ## Access control
 
@@ -70,7 +74,9 @@ Replies come in three kinds:
 
 1. **Supabase → SQL Editor:** run `supabase/migrations/20261020_ai_assistant.sql`, then
    `supabase/migrations/20261023_assistant_admin.sql` (saves replies for Conversations and
-   lets trainers change the instructions; until then both pages say so).
+   lets trainers change the instructions; until then both pages say so), then
+   `supabase/migrations/20261024_assistant_feedback.sql` (answer ratings and trainers'
+   fixes; until then nobody is asked to rate).
 2. **Environment variables** (Vercel → Settings → Environment Variables, and `.env.local`). Never prefix them with `NEXT_PUBLIC_`.
 
    | Variable | Where to get it |
@@ -119,8 +125,8 @@ in `app/dashboard/page.js`: each trainer's next Library visit re-reads every mat
 ## Assistant page (trainers and Management)
 
 **Assistant** in the top bar shows the whole pipeline with live numbers:
-Materials → Page text → Passages, then Search → Instructions → Answer. Click a
-step to open it. Management sees everything read-only and can use Try it.
+Materials → Page text → Passages, then Search → Instructions → Answer, then
+Feedback. Click a step to open it. Management sees everything read-only and can use Try it.
 
 - **Knowledge base:** every material with its status (Searchable, Out of date,
   Not searchable, No text), its page text and its passages exactly as stored in
@@ -136,13 +142,47 @@ step to open it. Management sees everything read-only and can use Try it.
   repair partners or a group, optionally with unsaved instructions, and shows
   each step: what they can open, the passages found (how close, which were
   quoted), the full prompt and the reply. Nothing is logged.
+- **Feedback:** every rated answer, with the review queue. See below.
+
+## Answer feedback
+
+After an answer from the material (or "not covered" after searching it), the
+chat asks **Was this answer accurate?** and locks the question box and New chat
+until it's rated. Small talk, chat replies and errors aren't rated.
+
+- **Accurate:** saved, and they carry on.
+- **Wrong:** asks for the right answer, with "It's okay if you don't know: just
+  write “I don't know”" and an **I don't know** button. Then they carry on.
+- If ratings can't be saved (the SQL isn't run, or the answer is gone), nobody is
+  held up. A network error shows a message and lets them try again.
+
+`/api/ask` saves the turn before replying and returns its `turnId`;
+`POST /api/ask/feedback` only updates the asker's own turn, and not after a trainer reviewed it.
+
+**Assistant → Feedback** (trainers and Management, `GET /api/rag/feedback`) shows
+how many were rated, the % accurate, and each rating with the question, the
+answer, its sources and the correction. Filters: **To review** (wrong, not yet
+reviewed), **Fixed**, **Accurate**, **All**; 7, 30 or 90 days. Only trainers see
+who rated each one, and only trainers review (`PUT`/`DELETE /api/rag/feedback`):
+
+- **Write the right answer** (starts from their correction) and choose the
+  material it **belongs to**. It's saved as a passage of material `fix:<id>`
+  (`Question: … / Correct answer: …`), searched with that material from the next
+  question, so only people who can open the material ever get it. The prompt
+  labels it **Trainer-verified answer** and the reply rules say to prefer it;
+  the chat links it as a **Trainer-verified** source.
+- **Dismiss**: the answer was right, or there's nothing to fix.
+- **Edit fix**, **Remove fix** or **Undo** send it back or change it.
+
+Fixes survive re-indexing and are deleted with their material. Conversations
+shows each turn's rating, correction and whether it was fixed.
 
 ## Conversations (admin only)
 
 Only the hub admin (`ADMIN_EMAIL` in `lib/audience.js`) sees **Conversations**:
 every question, the reply, its kind (answered, chat, small talk, not covered,
-error) and sources, grouped per chat, plus each person's activity. Filter to
-**Not covered** or **Errors**, search, and export CSV. `GET /api/rag/conversations`
+error), sources and rating, grouped per chat, plus each person's activity. Filter to
+**Not covered**, **Rated wrong** or **Errors**, search, and export CSV. `GET /api/rag/conversations`
 refuses everyone else. Replies from before `20261023_assistant_admin.sql` weren't
 saved, so those show the question only.
 
