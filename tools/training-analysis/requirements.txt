@@ -1,0 +1,4 @@
+faster-whisper>=1.1
+numpy
+pymupdf
+# Apple Silicon: also `pip install mlx-whisper` for much faster transcription.

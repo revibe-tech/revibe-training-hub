@@ -51,3 +51,6 @@ next-env.d.ts
 
 # gstack browse state
 /.gstack/
+
+# training analysis: downloaded videos, frames, transcripts (tools/training-analysis)
+/training-work/
