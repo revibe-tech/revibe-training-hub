@@ -2,7 +2,8 @@ import { after } from 'next/server';
 import { getViewer, listAllowedMaterials } from '@/lib/server/viewer';
 import { aiConfigured, embedTexts, generateJson } from '@/lib/server/ai';
 import { countQueriesSince, indexedMaterialIds, logQuery, searchChunks, storeConfigured } from '@/lib/server/ragStore';
-import { ANSWER_SCHEMA, SYSTEM_PROMPT, buildContents, replyType } from '@/lib/rag/prompt';
+import { ANSWER_SCHEMA, buildContents, replyType, systemPrompt } from '@/lib/rag/prompt';
+import { getRagSettings } from '@/lib/server/ragSettings';
 import { smallTalkKind, smallTalkReply } from '@/lib/rag/smalltalk';
 import { assistantProblem, explain } from '@/lib/server/assistantErrors';
 
@@ -65,6 +66,17 @@ export async function POST(request) {
 
   const history = cleanHistory(body.history);
   const scopeId = typeof body.materialId === 'string' ? body.materialId : null;
+  const sessionId = typeof body.sessionId === 'string' && /^[\w-]{6,64}$/.test(body.sessionId) ? body.sessionId : null;
+  // Every turn is kept (question, reply, kind of reply) for the Conversations page.
+  const log = (row) => after(() => logQuery({
+    uid: viewer.uid,
+    audience: viewer.audience,
+    scope_material_id: scopeId,
+    question,
+    session_id: sessionId,
+    source_material_ids: [],
+    ...row,
+  }));
   // Search with the previous question too, so follow-ups ("and if they don't pay?") find the right pages.
   const previous = history.findLast((m) => m.role === 'user');
   const searchText = previous ? `${previous.content}\n${question}` : question;
@@ -80,19 +92,25 @@ export async function POST(request) {
       const searchable = materials.filter((m) => indexed.includes(m.id) && m.kind !== 'quiz');
       const names = (searchable.length ? searchable : materials).map((m) => m.name).filter(Boolean).sort((a, b) => a.localeCompare(b));
       const scopedName = scopeId ? materials.find((m) => m.id === scopeId)?.name || null : null;
-      return Response.json({ answer: smallTalkReply(smallTalk, { text: question, names, scopedName }), found: true, sources: [] });
+      const answer = smallTalkReply(smallTalk, { text: question, names, scopedName });
+      log({ answered: true, answer, reply_type: 'smalltalk' });
+      return Response.json({ answer, found: true, sources: [] });
     }
 
-    const [materials, [queryVector]] = await Promise.all([
+    const [materials, [queryVector], settings] = await Promise.all([
       listAllowedMaterials(viewer),
       embedTexts([searchText], 'RETRIEVAL_QUERY'),
+      getRagSettings(),
     ]);
-    if (!materials.length) return Response.json({ answer: NOTHING_SHARED, found: false, sources: [] });
+    if (!materials.length) {
+      log({ answered: false, answer: NOTHING_SHARED, reply_type: 'not_covered' });
+      return Response.json({ answer: NOTHING_SHARED, found: false, sources: [] });
+    }
     const byId = new Map(materials.map((m) => [m.id, m]));
     const materialIds = scopeId && byId.has(scopeId) ? [scopeId] : [...byId.keys()];
 
     where = 'database';
-    const hits = await searchChunks({ embedding: queryVector, text: searchText, materialIds });
+    const hits = await searchChunks({ embedding: queryVector, text: searchText, materialIds, count: settings.matchCount });
     where = 'other';
     const excerpts = hits.map((hit) => ({
       ...hit,
@@ -103,7 +121,7 @@ export async function POST(request) {
     const scoped = materialIds.length === 1 && materialIds[0] === scopeId;
     const result = excerpts.length
       ? await generateJson({
-          system: SYSTEM_PROMPT,
+          system: systemPrompt(settings.instructions),
           contents: buildContents({
             question,
             history,
@@ -127,23 +145,21 @@ export async function POST(request) {
       }
     }
 
-    after(() => logQuery({
-      uid: viewer.uid,
-      audience: viewer.audience,
-      scope_material_id: scopeId,
-      question,
-      answered: found,
-      source_material_ids: [...new Set(sources.map((s) => s.materialId))],
-    }));
-
-    return Response.json({ answer: String(result.answer || NOT_COVERED), found, sources });
+    const answer = String(result.answer || NOT_COVERED);
+    log({ answered: found, answer, reply_type: type, source_material_ids: [...new Set(sources.map((s) => s.materialId))] });
+    return Response.json({ answer, found, sources });
   } catch (err) {
     const problem = assistantProblem(err, where);
     console.error(`Assistant answer failed (${problem.kind}):`, err);
-    if (problem.kind === 'blocked') return Response.json({ answer: BLOCKED, found: false, sources: [] });
+    if (problem.kind === 'blocked') {
+      log({ answered: false, answer: BLOCKED, reply_type: 'blocked' });
+      return Response.json({ answer: BLOCKED, found: false, sources: [] });
+    }
     const message = problem.kind === 'quota'
       ? 'The assistant is busy right now. Try again in a minute.'
       : "The assistant couldn't answer right now. Try again in a moment.";
+    // The admin sees what went wrong next to what the person saw.
+    log({ answered: false, answer: `${message} [${problem.kind}: ${problem.detail}]`, reply_type: 'error' });
     return fail(problem.status, explain(problem, message, viewer.role === 'trainer'));
   }
 }

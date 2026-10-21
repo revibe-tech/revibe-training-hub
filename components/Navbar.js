@@ -10,14 +10,17 @@ import { Avatar } from '@/components/ui';
 import './Navbar.css';
 
 const LINKS = [
-  { name: 'Library', path: '/dashboard', icon: 'auto_stories', roles: ['trainer', 'trainee'] },
-  { name: 'My learning', path: '/dashboard/my-learning', icon: 'school', roles: ['trainee'] },
-  { name: 'Analytics', path: '/dashboard/analytics', icon: 'insights', roles: ['trainer'] },
-  { name: 'People', path: '/dashboard/users', icon: 'group', roles: ['trainer'] },
+  { name: 'Library', path: '/dashboard', icon: 'auto_stories', show: () => true },
+  { name: 'My learning', path: '/dashboard/my-learning', icon: 'school', show: (a) => !a.isTrainer },
+  { name: 'Analytics', path: '/dashboard/analytics', icon: 'insights', show: (a) => a.isTrainer },
+  { name: 'People', path: '/dashboard/users', icon: 'group', show: (a) => a.isTrainer },
+  { name: 'Assistant', path: '/dashboard/assistant', icon: 'smart_toy', show: (a) => a.isTrainer || a.isManagement },
+  { name: 'Conversations', path: '/dashboard/conversations', icon: 'forum', show: (a) => a.isAdmin },
 ];
 
 export default function Navbar({ title }) {
-  const { user, isTrainer, isPartner, partnerType, team, signOut } = useAuth();
+  const auth = useAuth();
+  const { user, isTrainer, isPartner, partnerType, team, signOut } = auth;
   const router = useRouter();
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
@@ -25,7 +28,7 @@ export default function Navbar({ title }) {
   const menuRef = useRef(null);
 
   const role = isTrainer ? 'trainer' : 'trainee';
-  const links = LINKS.filter((l) => l.roles.includes(role));
+  const links = LINKS.filter((l) => l.show(auth));
   const displayName = user?.displayName || user?.email?.split('@')[0] || 'User';
   const firstName = displayName.split(' ')[0];
 

@@ -11,7 +11,7 @@ import {
 } from 'firebase/auth';
 import { doc, getDoc, setDoc } from 'firebase/firestore';
 import { auth, db } from '@/lib/firebase';
-import { ADMIN_EMAIL, isRevibeEmail, resolveAudience, resolveAudiences } from '@/lib/audience';
+import { ADMIN_EMAIL, SEES_ALL_TEAM, isRevibeEmail, resolveAudience, resolveAudiences } from '@/lib/audience';
 
 const AuthContext = createContext({});
 
@@ -186,6 +186,10 @@ export function AuthProvider({ children }) {
       audiences,
       // Revibe staff who aren't trainers; they pick a team once.
       isRevibeMember: !!user && role !== 'trainer' && isRevibeEmail(user.email),
+      // The hub's admin (ADMIN_EMAIL): the only one who reads everyone's conversations.
+      isAdmin: !!user && user.email?.toLowerCase() === ADMIN_EMAIL,
+      // Revibe's management team: sees every material and the assistant's insides, read-only.
+      isManagement: !!user && role !== 'trainer' && isRevibeEmail(user.email) && team === SEES_ALL_TEAM,
       choosePartnerType, chooseTeam, signInWithGoogle, signOut
     }}>
       {children}

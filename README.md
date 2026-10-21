@@ -43,6 +43,8 @@ Built with Next.js (App Router), Firebase, and Supabase.
 - **Answers only from material the person can open**, with links to the exact slide (`/viewer?id=…&page=N`).
 - **Hybrid search** (pgvector + keywords) over slide text, kept in sync on upload, re-upload and delete; anything missing is indexed when a trainer opens the library.
 - **Unanswered questions are logged** so trainers can see what the material is missing.
+- **Assistant page** (trainers and Management): the whole pipeline at a glance, the passages it quotes from, editable page text and instructions, and **Try a question** to see every step.
+- **Conversations** (admin only): every question and reply, per person and chat, with gaps and errors flagged.
 - Setup and design: [docs/AI_ASSISTANT.md](docs/AI_ASSISTANT.md).
 
 ### 📝 Quizzes

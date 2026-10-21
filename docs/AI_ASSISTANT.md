@@ -34,6 +34,8 @@ flowchart LR
 | Chunking, prompt | `lib/rag/chunk.js`, `lib/rag/prompt.js` |
 | Greetings, thanks, bye | `lib/rag/smalltalk.js` |
 | UI (chat button + window) | `components/AskAssistant.js` |
+| Assistant page: pipeline, knowledge base, instructions, Try it | `app/dashboard/assistant/page.js`, `app/api/rag/{settings,kb,try}/route.js`, `lib/server/ragSettings.js` |
+| Conversations (admin only) | `app/dashboard/conversations/page.js`, `app/api/rag/conversations/route.js` |
 
 Keyword search runs next to vector search because this material is full of
 exact labels (`Customer wants AWB?`, `Cancel override`, `W - Invalid claim`)
@@ -66,7 +68,9 @@ Replies come in three kinds:
 
 ## Setup (one time)
 
-1. **Supabase → SQL Editor:** run `supabase/migrations/20261020_ai_assistant.sql`.
+1. **Supabase → SQL Editor:** run `supabase/migrations/20261020_ai_assistant.sql`, then
+   `supabase/migrations/20261023_assistant_admin.sql` (saves replies for Conversations and
+   lets trainers change the instructions; until then both pages say so).
 2. **Environment variables** (Vercel → Settings → Environment Variables, and `.env.local`). Never prefix them with `NEXT_PUBLIC_`.
 
    | Variable | Where to get it |
@@ -112,10 +116,40 @@ Extraction (`pageText` in `lib/rag/chunk.js`) joins them back, and indexing clea
 text stored before that. When that cleaning changes, bump `ASSISTANT_INDEX_VERSION`
 in `app/dashboard/page.js`: each trainer's next Library visit re-reads every material once.
 
+## Assistant page (trainers and Management)
+
+**Assistant** in the top bar shows the whole pipeline with live numbers:
+Materials → Page text → Passages, then Search → Instructions → Answer. Click a
+step to open it. Management sees everything read-only and can use Try it.
+
+- **Knowledge base:** every material with its status (Searchable, Out of date,
+  Not searchable, No text), its page text and its passages exactly as stored in
+  `rag_chunks`. **Search the database** finds passages containing a word.
+- **Page text** (trainers): fix wrong or missing text, e.g. image-only slides,
+  then **Save and re-index**. It saves to the material's `textContent` in
+  Firestore and rebuilds its passages.
+- **Instructions and search** (trainers): the persona and tone (20–4,000
+  characters) and passages per question (3–15), stored in `rag_settings` and
+  live within 30 seconds. The reply rules after them keep sources, small talk
+  and "not covered" working, so they're shown but not editable.
+- **Try a question:** runs one question as everyone, Revibe agents, sellers,
+  repair partners or a group, optionally with unsaved instructions, and shows
+  each step: what they can open, the passages found (how close, which were
+  quoted), the full prompt and the reply. Nothing is logged.
+
+## Conversations (admin only)
+
+Only the hub admin (`ADMIN_EMAIL` in `lib/audience.js`) sees **Conversations**:
+every question, the reply, its kind (answered, chat, small talk, not covered,
+error) and sources, grouped per chat, plus each person's activity. Filter to
+**Not covered** or **Errors**, search, and export CSV. `GET /api/rag/conversations`
+refuses everyone else. Replies from before `20261023_assistant_admin.sql` weren't
+saved, so those show the question only.
+
 ## Finding gaps in the training material
 
 Every question is logged to `rag_queries`. Questions it couldn't answer are
-the material's gaps:
+the material's gaps (**Conversations → Not covered** shows them too):
 
 ```sql
 select question, count(*) as times, max(created_at) as last_asked
