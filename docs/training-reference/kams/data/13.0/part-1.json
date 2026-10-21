@@ -1,0 +1,524 @@
+{
+  "summary": "A one-minute walkthrough of the Commitments tab in the Seller Performance dashboard. The narration speaks to the seller as \"you\". A commitment means the seller agrees to supply a quantity of a device at a fixed price for the whole window. The screen shows this round's window as 20 Oct 2026 → 10 Nov 2026, with submissions closing Thu 22 Oct, 18:00 (UAE time). The page has two tables: UAE & South Africa, and Saudi Arabia. Only the UAE & South Africa table appears on screen. For each device, Revibe suggests a price and a quantity. The seller types the price and quantity they can commit to, or clicks \"Use suggested\", and leaves the devices they don't want empty. Splitting the quantity by colour (one SKU per colour) is optional. If the seller does split, the colours must add up to the quantity; otherwise the line is flagged \"1 line to fix\" and drops out of the offer totals. The seller then clicks \"Save my offer\". Offers can be changed until the deadline, and every saved version is kept; the \"Saved versions\" list shows the date and time, totals and who saved it. After the close, Revibe reviews the offers and confirms the accepted ones. Accepted commitments are locked in the buybox at the seller's price for the whole window until the quantity is sold, so the seller can buy stock in advance with confidence. Prices are in AED. The narration is clear: the only low-confidence words (\"{seller?}\" and \"6 {p?}.m.\") are confirmed by the screen. The account shown is a demo (\"Demo Seller\", you@your-company.com).",
+  "steps": [
+    {
+      "at": "00:00",
+      "screen": "Intro (blank black frame)",
+      "action": "Trainer introduces Commitments and gives the window during which price and volume are locked.",
+      "says": "Lock in your price and your volume from the 20th of October to the 10th of November.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "00:00", "quote": "Commitments."},
+        {"kind": "say", "at": "00:00", "quote": "Lock in your price and your volume from the 20th of October to the 10th of November."},
+        {"kind": "see", "at": "00:00", "frame": "t00000.jpg", "quote": "Plain black frame, no text"}
+      ]
+    },
+    {
+      "at": "00:05",
+      "screen": "Seller Performance → Commitments tab",
+      "action": "Open the Seller Performance dashboard and go to the Commitments tab in the tab row (Performance, Score, Score analysis, Claims management, Price recommendations, Commitments, Payment).",
+      "says": "go to the new commitments tab",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "00:05", "quote": "Open your {seller?} performance dashboard and go to the new commitments tab."},
+        {"kind": "see", "at": "00:07", "frame": "t00007.jpg", "quote": "Page title \"Seller Performance\", \"Demo Seller\" with badge \"Buybox open\"; tab \"Commitments\" selected; caption \"Open Seller Performance → the new Commitments tab\""}
+      ]
+    },
+    {
+      "at": "00:10",
+      "screen": "Seller Performance → Commitments tab (countdown box)",
+      "action": "Point at the countdown box at the top right of the Commitments section, which shows the time left and when submissions close.",
+      "says": "The countdown shows how long you have.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "00:10", "quote": "The countdown shows how long you have."},
+        {"kind": "say", "at": "00:12", "quote": "Submissions close on Thursday, the 22nd of October at 6 {p?}.m."},
+        {"kind": "say", "at": "00:17", "quote": "UAE time."},
+        {"kind": "see", "at": "00:12", "frame": "t00012.jpg", "quote": "Highlighted box \"SUBMISSIONS CLOSE IN 7d 02:10:52\" with \"hu 22 Oct, 18:00 (UAE time)\" (the cursor covers the \"T\"); caption \"Submissions close Thu 22 Oct, 6 PM (UAE time)\""}
+      ]
+    },
+    {
+      "at": "00:18",
+      "screen": "Commitments tab → UAE & South Africa table",
+      "action": "Scroll down to the \"UAE & South Africa · 19 devices open\" table. The Saudi Arabia table is mentioned but never shown. (The table heading is highlighted with the cursor on it later, at 00:28.)",
+      "says": "There are two tables, one for the UAE and South Africa and one for Saudi Arabia.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "00:18", "quote": "There are two tables, one for the UAE and South Africa and one for Saudi Arabia."},
+        {"kind": "see", "at": "00:20", "frame": "t00020.jpg", "quote": "Page scrolled to table heading \"UAE & South Africa 19 devices open\"; caption \"Two tables: UAE & South Africa, and Saudi Arabia, with a suggested price and quantity per device\""},
+        {"kind": "see", "at": "00:28", "frame": "t00028.jpg", "quote": "Heading row \"UAE & South Africa 19 devices open\" highlighted with the cursor on it"}
+      ]
+    },
+    {
+      "at": "00:24",
+      "screen": "Commitments tab → UAE & South Africa table",
+      "action": "Highlight the SUGGESTED PRICE and SUGGESTED QUANTITY columns (e.g. iphone-12 · 64 GB · Good: 495 / 245).",
+      "says": "For each device, we suggest a price and a quantity.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "00:24", "quote": "For each device, we suggest a price and a quantity."},
+        {"kind": "see", "at": "00:23", "frame": "t00023.jpg", "quote": "Blue box around columns \"SUGGESTED PRICE\" and \"SUGGESTED QUANTITY\" with rows 495/245, 865/225, 880/195, 445/180"}
+      ]
+    },
+    {
+      "at": "00:28",
+      "screen": "Commitments tab → UAE & South Africa table",
+      "action": "Type an own price of 480 and a quantity of 200 for iphone-12 · 64 GB · Good (suggested 495 / 245). The bottom bar updates to \"Your offer: 1 device, 200 units, AED 96,000\" with an \"Unsaved changes\" badge.",
+      "says": "Type the price and the quantity you can commit to for the whole window or click use suggested.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "00:28", "quote": "Type the price and the quantity you can commit to for the whole window or click use suggested."},
+        {"kind": "see", "at": "00:32", "frame": "t00032.jpg", "quote": "iphone-12 · 64 GB · Good row: YOUR PRICE (AED) 480, YOUR QUANTITY 200; heading \"19 devices open · your offer: 1 device, 200 units\"; bottom bar \"Your offer: 1 device, 200 units, AED 96,000\", \"Unsaved changes\", \"Save my offer\""}
+      ]
+    },
+    {
+      "at": "00:33",
+      "screen": "Commitments tab → UAE & South Africa table",
+      "action": "Fill iphone-14 · 128 GB · Good with its suggested values 865 / 225 and leave the other devices empty. The video does not show whether these were typed or filled with \"Use suggested\". The offer becomes 2 devices, 425 units, AED 290,625.",
+      "says": "Leave the devices you don't want empty.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "00:33", "quote": "Leave the devices you don't want empty."},
+        {"kind": "see", "at": "00:34", "frame": "t00034.jpg", "quote": "iphone-14 · 128 GB · Good row highlighted with 865 and 225 entered; other rows empty with \"Use suggested\"; bottom bar \"Your offer: 2 devices, 425 units, AED 290,625\"; caption \"Enter your price and quantity, or click \\\"Use suggested\\\". Leave the others empty.\""}
+      ]
+    },
+    {
+      "at": "00:36",
+      "screen": "Commitments tab → Split by colour panel",
+      "action": "Open \"Split by colour\" on iphone-12 · 64 GB · Good, which lists Black, White, Purple, Blue, Lime Green and Red with their SKUs. Type 120 for Black. The quantity field turns red, the error \"Colours add up to 120, not 200.\" appears beside it, the counter shows 120 / 200 and the bottom bar shows \"1 line to fix\".",
+      "says": "Splitting by color is optional.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "00:36", "quote": "Splitting by color is optional."},
+        {"kind": "say", "at": "00:38", "quote": "If you do it, the colors must add up to your quantity."},
+        {"kind": "see", "at": "00:39", "frame": "t00039.jpg", "quote": "\"Hide colours\"; red text \"Colours add up to 120, not 200.\"; Black 120; footer \"Not required. If you split, the colours must add up to your quantity.\" and red \"120 / 200\"; bottom bar \"Your offer: 1 device, 225 units, AED 194,625 · 1 line to fix\"; caption \"Splitting by colour is optional, but it must add up to your quantity\""}
+      ]
+    },
+    {
+      "at": "00:41",
+      "screen": "Commitments tab → Split by colour panel / offer bar",
+      "action": "Complete the colour split (Black 120, White 50, Purple 30 = 200 / 200, shown in green), then click \"Save my offer\".",
+      "says": "Click Save My Offer.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "00:41", "quote": "Click Save My Offer."},
+        {"kind": "see", "at": "00:43", "frame": "t00043.jpg", "quote": "Black 120, White 50, Purple 30; green \"200 / 200\"; bottom bar \"Your offer: 2 devices, 425 units, AED 290,625\", \"Unsaved changes\", cursor on \"Save my offer\"; caption \"Save your offer. Change it as often as you like until the deadline.\""}
+      ]
+    },
+    {
+      "at": "00:43",
+      "screen": "Commitments tab → offer bar with Saved versions",
+      "action": "Show the saved state: a \"Saved ✓ 15 Oct, 15:49\" badge, \"Last saved … · 1 version\" and an expanded \"Saved versions\" list with the current version.",
+      "says": "Every version is kept.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "00:43", "quote": "You can come back and change it until the deadline."},
+        {"kind": "say", "at": "00:46", "quote": "Every version is kept."},
+        {"kind": "see", "at": "00:45", "frame": "t00045.jpg", "quote": "\"Saved ✓ 15 Oct, 15:49\"; \"Last saved 15 Oct, 15:49 by you@your-company.com · 1 version\"; \"▾ Saved versions\"; \"Current 15 Oct, 15:49 2 devices 425 units AED 290,625 by you@your-company.com\""}
+      ]
+    },
+    {
+      "at": "00:48",
+      "screen": "\"Why commit\" closing slide",
+      "action": "Closing slide explains the benefit of committing and repeats the deadline.",
+      "says": "So you can buy stock in advance with confidence.",
+      "why": "Accepted commitments are locked in the buybox at the seller's price for the whole window until the quantity is sold, so the seller can buy stock in advance with confidence.",
+      "evidence": [
+        {"kind": "say", "at": "00:48", "quote": "Accepted commitments are locked in the buy box at your price for the whole window until your quantity"},
+        {"kind": "say", "at": "00:54", "quote": "So you can buy stock in advance with confidence."},
+        {"kind": "say", "at": "00:57", "quote": "Submit your offer before the 22nd of October."},
+        {"kind": "see", "at": "00:49", "frame": "t00049.jpg", "quote": "\"WHY COMMIT\" \"Predictable volume\" \"Accepted commitments are locked in the buybox at your price for the whole window, until your quantity is sold — so you can buy stock in advance with confidence.\" \"Submit before Thu 22 Oct, 6 PM (UAE time)\" footer \"Seller Performance → Commitments\""},
+        {"kind": "see", "at": "01:00", "frame": "t00060.jpg", "quote": "Same \"WHY COMMIT\" / \"Predictable volume\" slide still on screen at the end"}
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "type": "definition",
+      "statement": "A commitment means the seller commits to supply a quantity of a device at a fixed price for the whole commitment window.",
+      "evidence": [
+        {"kind": "see", "at": "00:07", "frame": "t00007.jpg", "quote": "Commit to supply a quantity of a device at a fixed price for the whole window."},
+        {"kind": "say", "at": "00:28", "quote": "Type the price and the quantity you can commit to for the whole window or click use suggested."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "The commitment window shown in this round runs from 20 Oct 2026 to 10 Nov 2026.",
+      "evidence": [
+        {"kind": "say", "at": "00:00", "quote": "Lock in your price and your volume from the 20th of October to the 10th of November."},
+        {"kind": "see", "at": "00:07", "frame": "t00007.jpg", "quote": "Commitments · 20 Oct 2026 → 10 Nov 2026"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Commitment submissions close on Thursday 22 Oct at 18:00 (6 PM) UAE time.",
+      "evidence": [
+        {"kind": "say", "at": "00:12", "quote": "Submissions close on Thursday, the 22nd of October at 6 {p?}.m."},
+        {"kind": "say", "at": "00:17", "quote": "UAE time."},
+        {"kind": "say", "at": "00:57", "quote": "Submit your offer before the 22nd of October."},
+        {"kind": "see", "at": "00:07", "frame": "t00007.jpg", "quote": "SUBMISSIONS CLOSE IN 7d 02:10:57 Thu 22 Oct, 18:00 (UAE time)"},
+        {"kind": "see", "at": "00:12", "frame": "t00012.jpg", "quote": "Submissions close Thu 22 Oct, 6 PM (UAE time)"},
+        {"kind": "see", "at": "00:49", "frame": "t00049.jpg", "quote": "Submit before Thu 22 Oct, 6 PM (UAE time)"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Sellers make commitment offers in the Seller Performance dashboard, on the Commitments tab (between Price recommendations and Payment).",
+      "evidence": [
+        {"kind": "say", "at": "00:05", "quote": "Open your {seller?} performance dashboard and go to the new commitments tab."},
+        {"kind": "see", "at": "00:07", "frame": "t00007.jpg", "quote": "Tabs: Performance, Score, Score analysis, Claims management, Price recommendations, Commitments, Payment; caption \"Open Seller Performance → the new Commitments tab\""},
+        {"kind": "see", "at": "00:49", "frame": "t00049.jpg", "quote": "Seller Performance → Commitments"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "A \"SUBMISSIONS CLOSE IN\" countdown box at the top right of the Commitments section shows the time left and the close date and time. It counts down live (7d 02:10:57 at 00:07, 7d 02:10:52 at 00:12, 7d 02:10:47 at 00:17).",
+      "evidence": [
+        {"kind": "say", "at": "00:10", "quote": "The countdown shows how long you have."},
+        {"kind": "see", "at": "00:07", "frame": "t00007.jpg", "quote": "SUBMISSIONS CLOSE IN 7d 02:10:57 Thu 22 Oct, 18:00 (UAE time)"},
+        {"kind": "see", "at": "00:12", "frame": "t00012.jpg", "quote": "SUBMISSIONS CLOSE IN 7d 02:10:52"},
+        {"kind": "see", "at": "00:17", "frame": "t00017.jpg", "quote": "SUBMISSIONS CLOSE IN 7d 02:10:47"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "policy",
+      "statement": "Revibe suggests a price and a quantity for each device, but the seller can offer whatever they can commit to.",
+      "evidence": [
+        {"kind": "say", "at": "00:24", "quote": "For each device, we suggest a price and a quantity."},
+        {"kind": "see", "at": "00:07", "frame": "t00007.jpg", "quote": "Revibe suggests a price and a quantity for each device below; you can offer whatever you can commit to."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Commitments are split into two tables: one for UAE & South Africa and one for Saudi Arabia.",
+      "evidence": [
+        {"kind": "say", "at": "00:18", "quote": "There are two tables, one for the UAE and South Africa and one for Saudi Arabia."},
+        {"kind": "see", "at": "00:20", "frame": "t00020.jpg", "quote": "Two tables: UAE & South Africa, and Saudi Arabia, with a suggested price and quantity per device"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Commitments table columns: DEVICE, SUGGESTED PRICE, SUGGESTED QUANTITY, YOUR PRICE (AED), YOUR QUANTITY. Empty rows show the links \"Use suggested\" and \"▸ Split by colour (optional)\"; once a row is filled in, only \"▸ Split by colour (optional)\" shows.",
+      "evidence": [
+        {"kind": "see", "at": "00:20", "frame": "t00020.jpg", "quote": "DEVICE | SUGGESTED PRICE | SUGGESTED QUANTITY | YOUR PRICE (AED) | YOUR QUANTITY | Use suggested ▸ Split by colour (optional)"},
+        {"kind": "see", "at": "00:34", "frame": "t00034.jpg", "quote": "Filled rows iphone-12 · 64 GB · Good (480 / 200) and iphone-14 · 128 GB · Good (865 / 225) show only \"▸ Split by colour (optional)\"; empty rows show \"Use suggested ▸ Split by colour (optional)\""}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "For each device the seller wants to commit to, they either type the price and quantity they can commit to, or click \"Use suggested\".",
+      "evidence": [
+        {"kind": "say", "at": "00:28", "quote": "Type the price and the quantity you can commit to for the whole window or click use suggested."},
+        {"kind": "see", "at": "00:34", "frame": "t00034.jpg", "quote": "Enter your price and quantity, or click \"Use suggested\". Leave the others empty."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Devices the seller does not want to commit to are left empty. Only devices with a price and quantity filled in count in the offer.",
+      "evidence": [
+        {"kind": "say", "at": "00:33", "quote": "Leave the devices you don't want empty."},
+        {"kind": "see", "at": "00:07", "frame": "t00007.jpg", "quote": "Fill in your price and your quantity on any device you want to commit to — leave the others empty."},
+        {"kind": "see", "at": "00:32", "frame": "t00032.jpg", "quote": "One row filled; \"Your offer: 1 device, 200 units, AED 96,000\""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Splitting a quantity by colour is optional. If the seller splits, the colour quantities must add up to their total quantity for that device.",
+      "evidence": [
+        {"kind": "say", "at": "00:36", "quote": "Splitting by color is optional."},
+        {"kind": "say", "at": "00:38", "quote": "If you do it, the colors must add up to your quantity."},
+        {"kind": "see", "at": "00:07", "frame": "t00007.jpg", "quote": "Splitting a quantity by colour is optional. If you do, the colours must add up to your quantity."},
+        {"kind": "see", "at": "00:39", "frame": "t00039.jpg", "quote": "Not required. If you split, the colours must add up to your quantity."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "If the colour split does not add up to the quantity, the quantity field turns red, an error such as \"Colours add up to 120, not 200.\" appears beside it, the counter shows \"120 / 200\" in red and the bottom bar shows \"1 line to fix\". That device also drops out of the offer totals (the offer went from 2 devices / 425 units to 1 device / 225 units). Once the colours add up (\"200 / 200\" in green), the device counts again.",
+      "evidence": [
+        {"kind": "see", "at": "00:34", "frame": "t00034.jpg", "quote": "\"Your offer: 2 devices, 425 units, AED 290,625\""},
+        {"kind": "see", "at": "00:39", "frame": "t00039.jpg", "quote": "\"Colours add up to 120, not 200.\"; \"120 / 200\" in red; \"Your offer: 1 device, 225 units, AED 194,625 · 1 line to fix\"; heading \"your offer: 1 device, 225 units\""},
+        {"kind": "see", "at": "00:43", "frame": "t00043.jpg", "quote": "Black 120, White 50, Purple 30; \"200 / 200\" in green; \"Your offer: 2 devices, 425 units, AED 290,625\""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "In \"Split by colour\", each colour has its own SKU. For iphone-12 · 64 GB · Good the screen shows Black SKU 010113-060101, White SKU 010113-060201, Purple SKU 010113-060801, Blue SKU 010113-061101, Lime Green SKU 010113-060701 and Red SKU 010113-060901.",
+      "evidence": [
+        {"kind": "see", "at": "00:39", "frame": "t00039.jpg", "quote": "Black SKU 010113-060101; White SKU 010113-060201; Purple SKU 010113-060801; Blue SKU 010113-061101; Lime Green SKU 010113-060701; Red SKU 010113-060901"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "The seller saves the offer with the \"Save my offer\" button. While there are changes that have not been saved, the bottom bar shows an \"Unsaved changes\" badge; before the first save it also says \"Nothing saved yet.\"",
+      "evidence": [
+        {"kind": "say", "at": "00:41", "quote": "Click Save My Offer."},
+        {"kind": "see", "at": "00:43", "frame": "t00043.jpg", "quote": "\"Nothing saved yet.\" \"Unsaved changes\" cursor on \"Save my offer\""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The seller can save as often as they like and come back to change the offer until submissions close.",
+      "evidence": [
+        {"kind": "say", "at": "00:43", "quote": "You can come back and change it until the deadline."},
+        {"kind": "see", "at": "00:07", "frame": "t00007.jpg", "quote": "Save as often as you like: you can come back and change your offer until submissions close. Every saved version is kept."},
+        {"kind": "see", "at": "00:43", "frame": "t00043.jpg", "quote": "Save your offer. Change it as often as you like until the deadline."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Every saved version of the offer is kept. In the video, the \"Saved versions\" list has one row: \"Current\" with the date and time, number of devices, units, AED total and the email of the person who saved it.",
+      "evidence": [
+        {"kind": "say", "at": "00:46", "quote": "Every version is kept."},
+        {"kind": "see", "at": "00:45", "frame": "t00045.jpg", "quote": "▾ Saved versions — Current 15 Oct, 15:49 2 devices 425 units AED 290,625 by you@your-company.com"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "After saving, the bottom bar shows a green \"Saved ✓ <date, time>\" badge and the line \"Last saved <date, time> by <email> · <n> version\", and \"Save my offer\" goes pale again.",
+      "evidence": [
+        {"kind": "see", "at": "00:45", "frame": "t00045.jpg", "quote": "\"Saved ✓ 15 Oct, 15:49\"; \"Last saved 15 Oct, 15:49 by you@your-company.com · 1 version\"; \"Save my offer\" in pale blue"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "policy",
+      "statement": "After submissions close, Revibe reviews the offers and confirms the accepted commitments with the seller.",
+      "evidence": [
+        {"kind": "see", "at": "00:07", "frame": "t00007.jpg", "quote": "After the close, Revibe reviews the offers and confirms the accepted commitments with you."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Commitment prices are in AED, like the seller's buybox quotes. The price column is labelled \"YOUR PRICE (AED)\".",
+      "evidence": [
+        {"kind": "see", "at": "00:07", "frame": "t00007.jpg", "quote": "Prices are in AED, like your buybox quotes."},
+        {"kind": "see", "at": "00:20", "frame": "t00020.jpg", "quote": "YOUR PRICE (AED)"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "policy",
+      "statement": "Accepted commitments are locked in the buybox at the seller's committed price for the whole window, until the committed quantity is sold.",
+      "evidence": [
+        {"kind": "say", "at": "00:48", "quote": "Accepted commitments are locked in the buy box at your price for the whole window until your quantity"},
+        {"kind": "say", "at": "00:53", "quote": "is sold."},
+        {"kind": "see", "at": "00:49", "frame": "t00049.jpg", "quote": "Accepted commitments are locked in the buybox at your price for the whole window, until your quantity is sold"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "tip",
+      "statement": "Why commit (\"Predictable volume\"): because accepted commitments are locked in the buybox at the seller's price, the seller can buy stock in advance with confidence.",
+      "evidence": [
+        {"kind": "say", "at": "00:54", "quote": "So you can buy stock in advance with confidence."},
+        {"kind": "see", "at": "00:49", "frame": "t00049.jpg", "quote": "WHY COMMIT Predictable volume … so you can buy stock in advance with confidence."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "A bar at the bottom of the page shows the running total \"Your offer: <n> devices, <n> units, AED <total>\", and each table heading shows that table's own \"your offer: <n> devices, <n> units\".",
+      "evidence": [
+        {"kind": "see", "at": "00:34", "frame": "t00034.jpg", "quote": "\"UAE & South Africa 19 devices open · your offer: 2 devices, 425 units\"; \"Your offer: 2 devices, 425 units, AED 290,625\""}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Before any device is filled in, the bottom bar reads \"Your offer: 0 devices, 0 units, AED 0\" and \"Nothing saved yet.\"",
+      "evidence": [
+        {"kind": "see", "at": "00:07", "frame": "t00007.jpg", "quote": "Your offer: 0 devices, 0 units, AED 0 / Nothing saved yet."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "example",
+      "statement": "The offer value on screen is price × quantity summed over devices: 480 AED × 200 units showed as AED 96,000, 865 × 225 alone showed as AED 194,625, and both together showed as AED 290,625.",
+      "evidence": [
+        {"kind": "see", "at": "00:32", "frame": "t00032.jpg", "quote": "480 | 200; \"Your offer: 1 device, 200 units, AED 96,000\""},
+        {"kind": "see", "at": "00:39", "frame": "t00039.jpg", "quote": "\"Your offer: 1 device, 225 units, AED 194,625 · 1 line to fix\""},
+        {"kind": "see", "at": "00:34", "frame": "t00034.jpg", "quote": "480 | 200 and 865 | 225; \"Your offer: 2 devices, 425 units, AED 290,625\""}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "example",
+      "statement": "Demo suggestions in the UAE & South Africa table (\"19 devices open\"): iphone-12 · 64 GB · Good 495 / 245; iphone-14 · 128 GB · Good 865 / 225; iphone-14 · 128 GB · Excellent 880 / 195; iphone-11 · 64 GB · Good 445 / 180; iphone-13 · 128 GB · Good 795 / 170 (suggested price / suggested quantity).",
+      "evidence": [
+        {"kind": "see", "at": "00:20", "frame": "t00020.jpg", "quote": "iphone-12 · 64 GB · Good 495 245; iphone-14 · 128 GB · Good 865 225; iphone-14 · 128 GB · Excellent 880 195; iphone-11 · 64 GB · Good 445 180; iphone-13 · 128 GB · Good 795 170"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "iPhone rows are listed as model · storage · grade, with the category underneath (e.g. \"iphone-12 · 64 GB · Good\" / \"iPhone\"). The list is not only iPhones: it also has the row \"dell-latitude-7420 · core i7 11th gen · 16 GB / 512 GB · 14\" · Very Good\".",
+      "evidence": [
+        {"kind": "see", "at": "00:20", "frame": "t00020.jpg", "quote": "iphone-12 · 64 GB · Good / iPhone; dell-latitude-7420 · core i7 11th gen · 16 GB / 512 GB · 14\" · Very Good"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "\"Save my offer\" is shown pale (not solid blue) when the offer is empty, when there is a line to fix, and right after saving. It is solid blue when valid unsaved changes exist.",
+      "evidence": [
+        {"kind": "see", "at": "00:07", "frame": "t00007.jpg", "quote": "\"Your offer: 0 devices, 0 units, AED 0\" \"Nothing saved yet.\" pale \"Save my offer\""},
+        {"kind": "see", "at": "00:39", "frame": "t00039.jpg", "quote": "\"1 line to fix\" with pale \"Save my offer\""},
+        {"kind": "see", "at": "00:45", "frame": "t00045.jpg", "quote": "\"Saved ✓ 15 Oct, 15:49\" with pale \"Save my offer\""},
+        {"kind": "see", "at": "00:32", "frame": "t00032.jpg", "quote": "\"Unsaved changes\" with solid blue \"Save my offer\""}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The Seller Performance header shows the seller name with a status badge (\"Demo Seller\" with a green \"Buybox open\" badge). The tabs are Performance, Score, Score analysis, Claims management, Price recommendations, Commitments and Payment.",
+      "evidence": [
+        {"kind": "see", "at": "00:07", "frame": "t00007.jpg", "quote": "Seller Performance; Demo Seller; Buybox open; Performance | Score | Score analysis | Claims management | Price recommendations | Commitments | Payment"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    }
+  ],
+  "screens": [
+    {
+      "name": "Seller Performance – Commitments tab (header)",
+      "where": "Seller Performance dashboard → Commitments tab",
+      "shows": "Title \"Commitments · 20 Oct 2026 → 10 Nov 2026\", an explanation of what a commitment is, five rule bullets (fill in price and quantity or leave empty; colour split optional and must add up; save as often as you like and every version is kept; Revibe reviews and confirms after close; prices in AED), and a \"SUBMISSIONS CLOSE IN\" countdown box with \"Thu 22 Oct, 18:00 (UAE time)\".",
+      "at": "00:07",
+      "frame": "t00007.jpg"
+    },
+    {
+      "name": "UAE & South Africa commitments table",
+      "where": "Seller Performance → Commitments tab, below the header",
+      "shows": "Heading \"UAE & South Africa 19 devices open\" (later \"· your offer: N devices, N units\"). Columns DEVICE, SUGGESTED PRICE, SUGGESTED QUANTITY, YOUR PRICE (AED), YOUR QUANTITY. Empty rows show the links \"Use suggested\" and \"▸ Split by colour (optional)\"; filled rows show only \"▸ Split by colour (optional)\".",
+      "at": "00:20",
+      "frame": "t00020.jpg"
+    },
+    {
+      "name": "Split by colour panel",
+      "where": "Commitments table → \"Split by colour (optional)\" link on a device row (while open, the link reads \"▾ Hide colours\")",
+      "shows": "One row per colour with its SKU and a quantity box, the footer \"Not required. If you split, the colours must add up to your quantity.\" and a counter (red \"120 / 200\" when wrong, green \"200 / 200\" when it adds up). When the split is wrong, an inline error appears, e.g. \"Colours add up to 120, not 200.\"",
+      "at": "00:39",
+      "frame": "t00039.jpg"
+    },
+    {
+      "name": "Offer bar and Saved versions",
+      "where": "Bottom of the Commitments tab",
+      "shows": "\"Your offer: N devices, N units, AED total\", the status (\"Nothing saved yet.\", \"Unsaved changes\", \"1 line to fix\", \"Saved ✓ 15 Oct, 15:49\"), \"Last saved … by <email> · 1 version\", the \"Save my offer\" button and an expandable \"Saved versions\" list.",
+      "at": "00:45",
+      "frame": "t00045.jpg"
+    },
+    {
+      "name": "Why commit slide",
+      "where": "Closing slide of the video (footer \"Seller Performance → Commitments\")",
+      "shows": "\"WHY COMMIT\" / \"Predictable volume\" / the buybox-lock explanation / \"Submit before Thu 22 Oct, 6 PM (UAE time)\".",
+      "at": "00:49",
+      "frame": "t00049.jpg"
+    }
+  ],
+  "terms": [
+    {"term": "Commitment", "meaning": "A seller's commitment to supply a quantity of a device at a fixed price for the whole window (on-screen definition).", "at": "00:07"},
+    {"term": "Commitment window", "meaning": "The period the committed price and quantity apply to; for this round, 20 Oct 2026 → 10 Nov 2026.", "at": "00:00"},
+    {"term": "Submissions close", "meaning": "The deadline for saving or changing commitment offers; for this round, Thu 22 Oct, 18:00 (UAE time).", "at": "00:12"},
+    {"term": "Suggested price / Suggested quantity", "meaning": "The price and quantity Revibe suggests per device in the commitments tables.", "at": "00:24"},
+    {"term": "Use suggested", "meaning": "Row link given as the alternative to typing your own price and quantity (\"Type the price and the quantity ... or click use suggested\"). The video never shows it being clicked.", "at": "00:28"},
+    {"term": "Split by colour (optional)", "meaning": "Optional per-colour (per-SKU) breakdown of a device's committed quantity; the colours must add up to the total quantity.", "at": "00:36"},
+    {"term": "Save my offer", "meaning": "Button that saves the current commitment offer; each save is kept as a version.", "at": "00:41"},
+    {"term": "Saved versions", "meaning": "List of saved versions of the offer, each with date and time, devices, units, AED total and who saved it.", "at": "00:45"},
+    {"term": "Accepted commitments", "meaning": "Offers that Revibe confirms with the seller after reviewing them once submissions close. They are locked in the buybox at the seller's price for the whole window until the quantity is sold.", "at": "00:48"},
+    {"term": "Buybox", "meaning": "Relied on but not defined in this video. Accepted commitments are \"locked in the buybox\" at the seller's price, and prices are in AED \"like your buybox quotes\".", "at": "00:48"},
+    {"term": "Buybox open", "meaning": "Green status badge next to the seller name in the Seller Performance header. Not explained in this video.", "at": "00:07"},
+    {"term": "devices open", "meaning": "Count shown next to a table name (\"19 devices open\"). Not explained in this video.", "at": "00:20"}
+  ],
+  "asr_fixes": [
+    {"at": "00:05", "heard": "{seller?} performance dashboard", "correct": "Seller Performance dashboard", "basis": "Page title \"Seller Performance\" and caption \"Open Seller Performance → the new Commitments tab\" on t00007.jpg"},
+    {"at": "00:12", "heard": "6 {p?}.m.", "correct": "18:00 (6 PM) UAE time", "basis": "Countdown box \"Thu 22 Oct, 18:00 (UAE time)\" on t00007.jpg and caption \"Submissions close Thu 22 Oct, 6 PM (UAE time)\" on t00012.jpg"},
+    {"at": "00:41", "heard": "Save My Offer", "correct": "Save my offer", "basis": "Button label \"Save my offer\" on t00043.jpg"},
+    {"at": "00:48", "heard": "buy box", "correct": "buybox", "basis": "Slide text \"locked in the buybox\" on t00049.jpg and the \"Buybox open\" badge on t00007.jpg"}
+  ],
+  "unclear": [
+    {"at": "00:18", "issue": "The Saudi Arabia table is mentioned in the narration and a caption but never shown on screen, so its devices, columns and currency are not visible. The page says \"Prices are in AED, like your buybox quotes\", but the video does not show whether that also applies to the Saudi Arabia table."},
+    {"at": "00:00", "issue": "The window starts on 20 Oct 2026, but submissions close later, on 22 Oct at 18:00 UAE time, and Revibe confirms accepted commitments only after the close. The video does not say when accepted commitments actually start applying in the buybox, or when or how sellers are told they were accepted."},
+    {"at": "00:28", "issue": "\"Use suggested\" is never clicked on screen, so the video does not show exactly what it fills in (price, quantity or both)."},
+    {"at": "00:39", "issue": "While a colour split doesn't add up (\"1 line to fix\"), the \"Save my offer\" button looks pale, but the video does not try to save or say whether saving is blocked or whether only that line is left out."},
+    {"at": "00:48", "issue": "The video does not say what happens if a seller can't supply the committed quantity, or what happens in the buybox after the committed quantity is sold."}
+  ],
+  "outdated": [
+    {"at": "00:00", "signal": "Dates for one commitment round: window 20 Oct 2026 → 10 Nov 2026 and deadline Thu 22 Oct, 18:00 (UAE time). These go out of date once this round ends, and future rounds will have different dates."},
+    {"at": "00:05", "signal": "The Commitments tab is called \"new\"."},
+    {"at": "00:07", "signal": "The countdown \"7d 02:10:57\" and the saved timestamp \"15 Oct, 15:49\" reflect when the video was recorded (about 15 Oct)."},
+    {"at": "00:57", "signal": "Dated call to action: \"Submit your offer before the 22nd of October\" / \"Submit before Thu 22 Oct, 6 PM (UAE time)\"."}
+  ],
+  "privacy": [],
+  "frames_opened": 15,
+  "audit": {
+    "checked": 68,
+    "removed": [],
+    "corrected": [
+      {"before": "Summary: \"A one-minute, seller-facing walkthrough ... All data on screen is demo data (\\\"Demo Seller\\\", you@your-company.com).\"", "after": "\"The narration speaks to the seller as \\\"you\\\" ... The account shown is a demo (\\\"Demo Seller\\\", you@your-company.com).\"", "reason": "The pack labels no audience; only the seller name and email are clearly placeholders, so \"all data is demo\" overstates. Also added that a broken colour split drops the line out of the totals (t00039)."},
+      {"before": "Step 00:10 / fact on close time: t00012 quoted as \"Thu 22 Oct, 18:00 (UAE time)\"", "after": "t00012 quoted as \"hu 22 Oct, 18:00 (UAE time)\" (cursor covers the \"T\"); the full text is cited from t00007", "reason": "On t00012 (and t00017) the cursor hides the \"T\" of \"Thu\"; only t00007 shows the full line."},
+      {"before": "Step 00:18: \"Scroll down to the device tables and point at the \\\"UAE & South Africa · 19 devices open\\\" table heading.\"", "after": "\"Scroll down to the \\\"UAE & South Africa · 19 devices open\\\" table ... (The table heading is highlighted with the cursor on it later, at 00:28.)\"", "reason": "At 00:20 (t00020) the cursor is at the right of the page; the heading highlight only appears at 00:28 (t00028), after the suggested-columns highlight at 00:23."},
+      {"before": "Step 00:33: \"Fill iphone-14 · 128 GB · Good with the suggested values 865 / 225 (the \\\"Use suggested\\\" link no longer shows on that row)\"", "after": "\"Fill iphone-14 · 128 GB · Good with its suggested values 865 / 225 ... The video does not show whether these were typed or filled with \\\"Use suggested\\\".\"", "reason": "The link also disappears on the typed iphone-12 row (t00032), so its absence does not show that \"Use suggested\" was clicked."},
+      {"before": "Step 00:36 / warning: \"The quantity field turns red with the error ...\"", "after": "\"The quantity field turns red, the error \\\"Colours add up to 120, not 200.\\\" appears beside it\"", "reason": "On t00039 the error text is to the right of the field, under \"Hide colours\", not inside the field."},
+      {"before": "Fact: \"Each row also has the links \\\"Use suggested\\\" and \\\"Split by colour (optional)\\\".\" (also in the UAE & South Africa table screen)", "after": "\"Empty rows show the links \\\"Use suggested\\\" and \\\"▸ Split by colour (optional)\\\"; once a row is filled in, only \\\"▸ Split by colour (optional)\\\" shows.\"", "reason": "On t00032 and t00034 the filled rows show only the Split by colour link."},
+      {"before": "Fact: \"... or click \\\"Use suggested\\\" to fill in Revibe's suggested price and quantity.\"", "after": "\"... they either type the price and quantity they can commit to, or click \\\"Use suggested\\\".\"", "reason": "The click is never shown, so what it fills in is not evidenced; moved to unclear. The t00034 row values were cited as if they came from the button."},
+      {"before": "Fact: \"the colour quantities must add up exactly to their total quantity\"", "after": "\"the colour quantities must add up to their total quantity\"", "reason": "Screen and narration say \"must add up to your quantity\"; only an under-total case is shown."},
+      {"before": "Fact: \"To submit, the seller clicks \\\"Save my offer\\\". Until they save, the bottom bar shows an \\\"Unsaved changes\\\" badge, plus \\\"Nothing saved yet\\\" if nothing has ever been saved.\"", "after": "\"The seller saves the offer with the \\\"Save my offer\\\" button. While there are changes that have not been saved, the bottom bar shows an \\\"Unsaved changes\\\" badge; before the first save it also says \\\"Nothing saved yet.\\\"\"", "reason": "On t00007 the empty offer shows \"Nothing saved yet.\" with no \"Unsaved changes\" badge, so the badge only appears once changes are made."},
+      {"before": "Fact: \"The \\\"Saved versions\\\" list shows each version with its date and time ...\"", "after": "\"In the video, the \\\"Saved versions\\\" list has one row: \\\"Current\\\" with the date and time ...\"", "reason": "Only one saved version (\"Current\") is shown on t00045."},
+      {"before": "Fact: \"The list is not only phones: it also has a laptop row, \\\"dell-latitude-7420 ...\\\"\"", "after": "\"The list is not only iPhones: it also has the row \\\"dell-latitude-7420 ...\\\"\"", "reason": "The Dell row's category line is hidden behind the offer bar; calling it a laptop comes from general knowledge, not the screen."},
+      {"before": "Fact: \"Save my offer\" pale when empty and when there is a line to fix", "after": "Pale when empty, when there is a line to fix, and right after saving", "reason": "t00045 also shows the button pale after saving."},
+      {"before": "Screen: Split by colour panel \"(collapses with \\\"Hide colours\\\")\"", "after": "\"(while open, the link reads \\\"▾ Hide colours\\\")\"", "reason": "Collapsing the panel is never shown; only the link label is visible."},
+      {"before": "Term \"Use suggested\": \"Row link that fills in the suggested price and quantity for that device.\"", "after": "\"Row link given as the alternative to typing your own price and quantity ... The video never shows it being clicked.\"", "reason": "What the link fills in is not shown on screen."},
+      {"before": "asr_fix \"6 {p?}.m.\" basis: countdown box \"Thu 22 Oct, 18:00 (UAE time)\" on t00012.jpg", "after": "Countdown box on t00007.jpg and caption on t00012.jpg", "reason": "The \"T\" of \"Thu\" is hidden by the cursor on t00012."}
+    ],
+    "added": [
+      "Fact (screen): before any device is filled in, the bottom bar reads \"Your offer: 0 devices, 0 units, AED 0\" and \"Nothing saved yet.\" (t00007)",
+      "Countdown fact now notes the live countdown and cites t00012 and t00017 (7d 02:10:57 → 7d 02:10:52 → 7d 02:10:47)",
+      "Unclear: \"Use suggested\" is never clicked on screen, so what it fills in is not shown",
+      "Evidence added: t00060 (closing slide still on screen at 01:00) on the closing step; \"Commitments.\" (00:00) on the intro step; 00:12 and 00:17 narration on the countdown step; 00:57 narration on the close-time fact; t00034 on the colour-split warning; t00039 (AED 194,625) on the offer-value example"
+    ]
+  }
+}

@@ -1,0 +1,1016 @@
+{
+  "summary": "This is a one-page workflow diagram called \"Revibe Warranty – Wrong Device\", covering the whole process from start to finish. It applies when a customer received a different device from the one they ordered, under warranty. There is no warranty-period check, and the claim goes straight to the original seller (or repair partner). There are four numbered steps. (1) The customer raises the claim in \"My Account\" (status Pending); labelled NO ACTION REQUIRED. (2) A Revibe agent checks the customer's proof: missing docs are requested, and if they are not provided the claim is Cancelled. Once validated, the status is Pending Collection; labelled NO ACTION REQUIRED. (3) Pickup, labelled ACTION REQUIRED IF SA: for AE & Others the AWB is created automatically (AE = Quiqup, Others = DHL) and the claim moves to Under Collection immediately. For SA the seller must create the AWB manually. For a repair partner it is always automatic (SA = Naqel). (4) Seller action, labelled ACTION REQUIRED: once the Courier Company delivers, the seller can see the claim, its status becomes Under QC, and the seller marks it Valid or Invalid. If Valid, the seller confirms stock of the right device: if available, the correct device is shipped to the customer; if not, an automated refund is charged to the seller (actual cost) and the case is closed. If Invalid, the seller must submit a written reason and supporting proof. Revibe checks it: good proof sends the device to the Lab, and rejected proof means the claim is re-marked Valid (replacement or refund). For a repair partner there is no Lab and Revibe decides. The Lab makes the final decision: Valid means a full refund and ship back to the seller. Invalid means the device ships to the customer if they pay, and is disposed of if they don't. Footer: if delivery fails on ship-back, the agent offers a new AWB; if refused, the device is sent to disposal. All refunds, credits and charges appear in the payment tool. The source is a PDF with no narration, so there were no speech-recognition fixes to make.",
+  "steps": [
+    {
+      "at": "1",
+      "screen": "Workflow diagram – Scope banner",
+      "action": "Scope: the workflow covers a customer who received a different device than ordered, under warranty. There is no warranty-period check, and the claim goes straight to the original seller (or repair partner).",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "Scope: customer received a different device than ordered, under warranty · no warranty-period check — the claim goes straight to the original seller (or repair partner)."
+        }
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "1",
+      "screen": "Workflow diagram – Step 1 Customer raise claim (NO ACTION REQUIRED)",
+      "action": "The customer raises a wrong-device claim through the \"My Account\" section on Revibe. The status is Pending (Revibe team to review). The step is labelled NO ACTION REQUIRED.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "NO ACTION REQUIRED 1 Customer raise claim The customer raises a wrong-device claim through the “My Account” section on Revibe Status: Pending (Revibe team to review)"
+        }
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "1",
+      "screen": "Workflow diagram – Step 2 Revibe Agent Check (NO ACTION REQUIRED)",
+      "action": "A Revibe agent reviews the customer's proof. Missing docs are requested; if they are not provided, the claim is Cancelled. Once validated, the request moves on with status Pending Collection. The step is labelled NO ACTION REQUIRED.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "NO ACTION REQUIRED 2 Revibe Agent Check The agent reviews the customer's proof (missing docs → requested; not provided → Cancelled). Once validated the request moves on. Status: Pending Collection"
+        }
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "1",
+      "screen": "Workflow diagram – Step 3 Pickup (ACTION REQUIRED IF SA)",
+      "action": "Pickup. For AE & Others the AWB is created automatically (AE = Quiqup, Others = DHL) and the claim moves to Under Collection immediately. For SA the seller must create the AWB manually. For a repair partner the AWB is always automatic (SA = Naqel). The step is labelled ACTION REQUIRED IF SA.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "ACTION REQUIRED IF SA 3 Pickup AE & Others: AWB auto-created (AE = Quiqup · Others = DHL) — moves to Under Collection immediately SA: Seller to create the AWB manually Repair partner: always auto (SA = Naqel)"
+        }
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "1",
+      "screen": "Workflow diagram – Step 4 Seller action (ACTION REQUIRED)",
+      "action": "Once the Courier Company delivers, the seller can see the claim and its status becomes Under QC. The seller has two options: Mark VALID or Mark INVALID.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "ACTION REQUIRED 4 Seller action Once the Courier Company delivers the seller can see the claim which status becomes Under QC Two options: Mark VALID Mark INVALID"
+        }
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "1",
+      "screen": "Workflow diagram – Dispute Resolution: VALID (Replacement or Refund)",
+      "action": "If marked Valid, the seller confirms whether the right device is in stock. If available, the correct device is shipped to the customer. If not available, an automated refund is issued and charged to the seller (actual cost), and the case is closed.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "VALID Replacement or Refund Seller confirms stock of the right device. Available → correct device shipped to the customer. Not available → automated refund, charged to the seller (actual cost). Case closed."
+        }
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "1",
+      "screen": "Workflow diagram – Dispute Resolution: INVALID – Seller submits proof",
+      "action": "If marked Invalid, the path is Proof Required → Revibe Review → Lab Verification. First, the seller submits a written reason plus supporting proof to challenge the customer claim.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "INVALID Proof Required → Revibe Review → Lab Verification Seller submits proof Required: written reason + supporting proof to challenge the customer claim."
+        }
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "1",
+      "screen": "Workflow diagram – Dispute Resolution: INVALID – Revibe checks proof",
+      "action": "Revibe checks the seller's proof. Good proof means the device is sent to the Lab. Rejected proof means the claim is re-marked Valid and goes to replacement or refund. For a repair partner there is no Lab and Revibe decides.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "Revibe checks proof Good proof → device sent to Lab Proof rejected → re-marked Valid → replacement or refund Repair partner: no Lab, Revibe decides"
+        }
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "1",
+      "screen": "Workflow diagram – Dispute Resolution: INVALID – Revibe Lab final decision",
+      "action": "The Revibe Lab makes the final decision. Valid means a full refund and ship back to the seller. Invalid means the device ships to the customer if the customer pays, and is disposed of if they don't.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "Revibe Lab final decision Valid → full refund + ship back to seller Invalid → customer pays = ship to customer; doesn't pay = device disposed"
+        }
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "1",
+      "screen": "Workflow diagram – Footer banner",
+      "action": "If delivery fails on ship-back, the agent offers a new AWB; if refused, the device is sent to disposal. All refunds, credits and charges appear in the payment tool.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "Delivery failed on ship-back: agent offers a new AWB · refused → device sent to disposal. Payment: all refunds, credits and charges appear in the payment tool."
+        }
+      ],
+      "says": "",
+      "why": ""
+    }
+  ],
+  "facts": [
+    {
+      "type": "definition",
+      "statement": "The Wrong Device warranty workflow applies when a customer received a different device than the one ordered, under warranty.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "Scope: customer received a different device than ordered, under warranty"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Wrong-device claims have no warranty-period check.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "no warranty-period check"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "A wrong-device claim goes straight to the original seller (or repair partner).",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "the claim goes straight to the original seller (or repair partner)."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "The customer raises a wrong-device claim through the \"My Account\" section on Revibe.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "The customer raises a wrong-device claim through the “My Account” section on Revibe"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Once the customer has raised a wrong-device claim, its status is Pending, which means the Revibe team is to review it.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "Status: Pending (Revibe team to review)"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Step 1 (Customer raise claim) and Step 2 (Revibe Agent Check) are both labelled NO ACTION REQUIRED.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "NO ACTION REQUIRED 1 Customer raise claim"
+        },
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "NO ACTION REQUIRED 2 Revibe Agent Check"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Implied: the action labels on the step cards are addressed to the seller. Step 3's ACTION REQUIRED IF SA matches \"SA: Seller to create the AWB manually\", and Step 4's ACTION REQUIRED card is titled \"Seller action\". So Steps 1 and 2 (NO ACTION REQUIRED) need no action from the seller.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "ACTION REQUIRED IF SA 3 Pickup"
+        },
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "SA: Seller to create the AWB manually"
+        },
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "ACTION REQUIRED 4 Seller action"
+        }
+      ],
+      "confidence": "low",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "In Step 2, a Revibe agent reviews the customer's proof for the wrong-device claim.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "The agent reviews the customer's proof"
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "If documents are missing from the customer's proof, the Revibe agent requests them. If they are not provided, the claim is Cancelled.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "(missing docs → requested; not provided → Cancelled)"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Once the Revibe agent validates the customer's proof, the request moves on and its status becomes Pending Collection.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "Once validated the request moves on. Status: Pending Collection"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Step 3 (Pickup) is labelled ACTION REQUIRED IF SA. For SA, the seller creates the AWB manually.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "ACTION REQUIRED IF SA 3 Pickup"
+        },
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "SA: Seller to create the AWB manually"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "For AE & Others, the pickup AWB is created automatically.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "AE & Others: AWB auto-created"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "For AE, the automatically created pickup AWB is with Quiqup.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "(AE = Quiqup"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "For Others, the automatically created pickup AWB is with DHL.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "· Others = DHL)"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "For AE & Others, the claim moves to Under Collection immediately once the AWB is created automatically.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "AE & Others: AWB auto-created (AE = Quiqup · Others = DHL) — moves to Under Collection immediately"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "For SA, the seller must create the pickup AWB manually.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "SA: Seller to create the AWB manually"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "When the claim goes to a repair partner, the pickup AWB is always created automatically, including in SA.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "Repair partner: always auto (SA = Naqel)"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "For a repair partner in SA, the automatically created pickup AWB is with Naqel.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "Repair partner: always auto (SA = Naqel)"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Step 4 (Seller action) is labelled ACTION REQUIRED: the seller must act at this stage.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "ACTION REQUIRED 4 Seller action"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Once the Courier Company delivers, the seller can see the wrong-device claim and its status becomes Under QC.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "Once the Courier Company delivers the seller can see the claim which status becomes Under QC"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "At Under QC, the seller has two options: Mark VALID or Mark INVALID.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "Two options: Mark VALID Mark INVALID"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "If the seller marks the claim VALID, the outcome is Replacement or Refund, and the seller confirms whether the right device is in stock.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "VALID Replacement or Refund Seller confirms stock of the right device."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "On a VALID wrong-device claim, if the right device is available, the correct device is shipped to the customer.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "Available → correct device shipped to the customer."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "On a VALID wrong-device claim, if the right device is not available, an automated refund is issued and charged to the seller (actual cost).",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "Not available → automated refund, charged to the seller (actual cost)."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "On a VALID claim with the right device not available, the case is closed after the automated refund charged to the seller.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "automated refund, charged to the seller (actual cost). Case closed."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "If the seller marks the claim INVALID, the path is Proof Required → Revibe Review → Lab Verification.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "INVALID Proof Required → Revibe Review → Lab Verification"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "To mark a wrong-device claim INVALID, the seller must submit a written reason plus supporting proof to challenge the customer claim.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "Seller submits proof Required: written reason + supporting proof to challenge the customer claim."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "When Revibe checks the seller's proof on an INVALID claim, good proof means the device is sent to the Lab.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "Revibe checks proof Good proof → device sent to Lab"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "If Revibe rejects the seller's proof, the claim is re-marked Valid and goes to replacement or refund.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "Proof rejected → re-marked Valid → replacement or refund"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "When the claim is with a repair partner and is marked INVALID, there is no Lab step and Revibe decides.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "Repair partner: no Lab, Revibe decides"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "When Revibe accepts the seller's proof on an INVALID claim (good proof → device sent to Lab), the Revibe Lab makes the final decision.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "Good proof → device sent to Lab"
+        },
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "Revibe Lab final decision"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "If the Revibe Lab decides Valid, there is a full refund and the device is shipped back to the seller.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "Valid → full refund + ship back to seller"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "If the Revibe Lab decides Invalid and the customer pays, the device is shipped to the customer.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "Invalid → customer pays = ship to customer;"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "If the Revibe Lab decides Invalid and the customer doesn't pay, the device is disposed of.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "doesn't pay = device disposed"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "If delivery fails on ship-back, the agent offers a new AWB.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "Delivery failed on ship-back: agent offers a new AWB"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "After a failed ship-back delivery the agent offers a new AWB; if refused, the device is sent to disposal.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "agent offers a new AWB · refused → device sent to disposal."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "tip",
+      "statement": "All refunds, credits and charges appear in the payment tool.",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "Payment: all refunds, credits and charges appear in the payment tool."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Statuses shown on the wrong-device workflow: Pending (after the customer raises the claim), Cancelled (missing docs not provided), Pending Collection (after agent validation), Under Collection (AE & Others, once the AWB is created automatically) and Under QC (once the Courier Company delivers).",
+      "evidence": [
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "Status: Pending"
+        },
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "not provided → Cancelled"
+        },
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "Status: Pending Collection"
+        },
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "moves to Under Collection immediately"
+        },
+        {
+          "kind": "page",
+          "at": "1",
+          "frame": "p001.png",
+          "quote": "which status becomes Under QC"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    }
+  ],
+  "screens": [
+    {
+      "name": "Revibe Warranty – Wrong Device workflow diagram",
+      "shows": "End-to-end workflow: a Scope banner; four step cards with action labels (1 Customer raise claim – NO ACTION REQUIRED; 2 Revibe Agent Check – NO ACTION REQUIRED; 3 Pickup – ACTION REQUIRED IF SA; 4 Seller action – ACTION REQUIRED, with green Mark VALID and red Mark INVALID); a DISPUTE RESOLUTION section with a VALID box (Replacement or Refund) and an INVALID box (Seller submits proof / Revibe checks proof / Revibe Lab final decision); and a footer on failed ship-back delivery and Payment.",
+      "at": "1",
+      "frame": "p001.png",
+      "where": "Training PDF page 1"
+    },
+    {
+      "name": "My Account (customer side, Revibe)",
+      "shows": "Referenced only, not shown: the section on Revibe where the customer raises a wrong-device claim.",
+      "at": "1",
+      "frame": "p001.png",
+      "where": "Revibe customer account"
+    },
+    {
+      "name": "Payment tool",
+      "shows": "Referenced only, not shown: where all refunds, credits and charges appear.",
+      "at": "1",
+      "frame": "p001.png",
+      "where": "Not specified on the page"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Wrong Device (warranty claim)",
+      "meaning": "A warranty claim where the customer received a different device than the one ordered. It has no warranty-period check and goes straight to the original seller (or repair partner).",
+      "at": "1"
+    },
+    {
+      "term": "AWB",
+      "meaning": "Not defined on the page. It is used for the pickup (auto-created for AE & Others with Quiqup / DHL and for repair partners; created manually by the seller for SA) and for ship-back (the agent offers a new AWB if ship-back delivery fails).",
+      "at": "1"
+    },
+    {
+      "term": "AE / SA / Others",
+      "meaning": "Labels the page uses to split pickup handling: AE (auto AWB, Quiqup), SA (seller creates the AWB manually; repair partner uses Naqel), Others (auto AWB, DHL). The page does not spell out the codes.",
+      "at": "1"
+    },
+    {
+      "term": "Repair partner",
+      "meaning": "An alternative to the original seller that can receive the claim. Its pickup AWB is always automatic (SA = Naqel), and for a disputed claim there is no Lab: Revibe decides.",
+      "at": "1"
+    },
+    {
+      "term": "Pending",
+      "meaning": "Status once the customer has raised the claim, awaiting review by the Revibe team.",
+      "at": "1"
+    },
+    {
+      "term": "Pending Collection",
+      "meaning": "Status once the Revibe agent has validated the customer's proof.",
+      "at": "1"
+    },
+    {
+      "term": "Under Collection",
+      "meaning": "Status the claim moves to immediately once the AWB is created automatically (AE & Others).",
+      "at": "1"
+    },
+    {
+      "term": "Under QC",
+      "meaning": "Status once the Courier Company delivers. From this point the seller can see the claim and mark it Valid or Invalid.",
+      "at": "1"
+    },
+    {
+      "term": "Cancelled",
+      "meaning": "Outcome when documents missing from the customer's proof are requested but not provided.",
+      "at": "1"
+    },
+    {
+      "term": "Mark VALID / Mark INVALID",
+      "meaning": "The seller's two options at Under QC. VALID leads to replacement or refund. INVALID requires proof and goes to Revibe review and Lab verification.",
+      "at": "1"
+    },
+    {
+      "term": "Dispute Resolution",
+      "meaning": "The part of the workflow after the seller marks the claim VALID (Replacement or Refund) or INVALID (Proof Required → Revibe Review → Lab Verification).",
+      "at": "1"
+    },
+    {
+      "term": "Revibe Lab",
+      "meaning": "Makes the final decision on a disputed claim once Revibe accepts the seller's proof. Valid means a full refund and ship back to the seller. Invalid means the device ships to the customer if they pay, and is disposed of if they don't.",
+      "at": "1"
+    },
+    {
+      "term": "Ship-back",
+      "meaning": "Used in the Lab outcome \"ship back to seller\" and in the footer \"Delivery failed on ship-back\": if that delivery fails, the agent offers a new AWB; if refused, the device is sent to disposal.",
+      "at": "1"
+    },
+    {
+      "term": "Quiqup / DHL / Naqel",
+      "meaning": "Names given for the automatically created pickup AWBs: Quiqup for AE, DHL for Others, Naqel for a repair partner in SA. The page does not describe them further.",
+      "at": "1"
+    },
+    {
+      "term": "Payment tool",
+      "meaning": "Where all refunds, credits and charges appear.",
+      "at": "1"
+    }
+  ],
+  "asr_fixes": [],
+  "unclear": [
+    {
+      "at": "1",
+      "issue": "The page does not spell out AE and SA (they look like market or country codes), and it does not say which markets count as \"Others\". Expand them only after confirming with the trainer."
+    },
+    {
+      "at": "1",
+      "issue": "SA pickup: the page says the seller creates the AWB manually but not where or how, by when, or whether the status then moves to Under Collection as it does for AE & Others."
+    },
+    {
+      "at": "1",
+      "issue": "Repair partner pickup: only the SA courier is given (Naqel). The courier for repair partners in AE or other markets is not stated."
+    },
+    {
+      "at": "1",
+      "issue": "\"charged to the seller (actual cost)\": the page does not define what \"actual cost\" covers (device price, order value, shipping, etc.)."
+    },
+    {
+      "at": "1",
+      "issue": "Lab decision Invalid, \"customer pays = ship to customer\": the page does not say what the customer pays for (e.g. shipping or a fee) or how much."
+    },
+    {
+      "at": "1",
+      "issue": "Lab decision Valid, \"full refund + ship back to seller\": the page does not say who bears the cost of that full refund (e.g. whether it is charged to the seller)."
+    },
+    {
+      "at": "1",
+      "issue": "\"Delivery failed on ship-back\": the page does not say whether this covers ship-back to the seller, to the customer, or both, or who does the refusing (the new AWB offer or the delivery)."
+    },
+    {
+      "at": "1",
+      "issue": "No deadline is given for the seller to mark Valid/Invalid at Under QC or to submit proof, and no deadline is given for the customer to provide missing docs."
+    },
+    {
+      "at": "1",
+      "issue": "\"Repair partner: no Lab, Revibe decides\": the page does not say what follows each Revibe decision for a repair partner (refund, ship-back, disposal)."
+    },
+    {
+      "at": "1",
+      "issue": "The action labels (NO ACTION REQUIRED / ACTION REQUIRED IF SA / ACTION REQUIRED) do not name who they apply to. They read as seller actions (Step 3: \"SA: Seller to create the AWB manually\"; Step 4: \"Seller action\"), but the page does not say so outright."
+    },
+    {
+      "at": "1",
+      "issue": "VALID path, \"Available → correct device shipped to the customer\": the page does not say who ships the correct device, who pays for that shipment, or what happens to the wrong device that was collected."
+    }
+  ],
+  "outdated": [],
+  "privacy": [],
+  "frames_opened": 1,
+  "audit": {
+    "checked": 74,
+    "removed": [],
+    "corrected": [
+      {
+        "before": "Summary: \"If Valid, the seller sends the correct device if it is in stock.\"",
+        "after": "Summary: \"If Valid, the seller confirms stock of the right device: if available, the correct device is shipped to the customer\"",
+        "reason": "The page says \"Seller confirms stock of the right device. Available → correct device shipped to the customer.\" It uses the passive and does not say the seller is the one who ships."
+      },
+      {
+        "before": "Step 1 action: \"... The seller does not need to act.\"",
+        "after": "Step 1 action: \"... The step is labelled NO ACTION REQUIRED.\"",
+        "reason": "The label does not name who it applies to. The seller reading is now kept only as a low-confidence \"Implied:\" fact, with an unclear entry."
+      },
+      {
+        "before": "Step 2 action: \"... The seller does not need to act.\"",
+        "after": "Step 2 action: \"... The step is labelled NO ACTION REQUIRED.\"",
+        "reason": "Same as Step 1: the label does not name the actor."
+      },
+      {
+        "before": "Step 3 action (did not mention the step's label)",
+        "after": "Step 3 action adds: \"The step is labelled ACTION REQUIRED IF SA.\"",
+        "reason": "Kept consistent with the other step cards; the label is visible on the card."
+      },
+      {
+        "before": "Lab step and summary: \"Valid means a full refund and the device ships back to the seller.\"",
+        "after": "\"Valid means a full refund and ship back to the seller.\"",
+        "reason": "Kept closer to the page wording \"Valid → full refund + ship back to seller\"."
+      },
+      {
+        "before": "Footer step: \"if that is refused, the device is sent to disposal\"",
+        "after": "\"if refused, the device is sent to disposal\"",
+        "reason": "The page only says \"refused\". It does not say whether the new AWB offer or the delivery is refused (see unclear)."
+      },
+      {
+        "before": "Fact: \"Step 1 (Customer raise claim) and Step 2 (Revibe Agent Check) are both labelled NO ACTION REQUIRED, so the seller does not act at these stages.\"",
+        "after": "Fact: \"Step 1 (Customer raise claim) and Step 2 (Revibe Agent Check) are both labelled NO ACTION REQUIRED.\" The seller reading moved to a separate \"Implied:\" fact (confidence low, quiz false).",
+        "reason": "The \"so the seller does not act\" part is an inference from the other cards, not stated on the page."
+      },
+      {
+        "before": "Fact: \"Step 3 (Pickup) is labelled ACTION REQUIRED IF SA: the seller only has to act at pickup for SA.\"",
+        "after": "Fact: \"Step 3 (Pickup) is labelled ACTION REQUIRED IF SA. For SA, the seller creates the AWB manually.\"",
+        "reason": "\"only\" was inferred. The page links the label to \"SA: Seller to create the AWB manually\", so that quote was added as evidence."
+      },
+      {
+        "before": "Fact: \"For Others (markets other than AE and SA), the automatically created pickup AWB is with DHL.\"",
+        "after": "Fact: \"For Others, the automatically created pickup AWB is with DHL.\"",
+        "reason": "The page does not define Others or say AE/SA are markets. The parenthetical also contradicted the unclear entry."
+      },
+      {
+        "before": "Fact: \"The seller can see the wrong-device claim only once the Courier Company delivers. At that point the claim's status becomes Under QC.\"",
+        "after": "Fact: \"Once the Courier Company delivers, the seller can see the wrong-device claim and its status becomes Under QC.\"",
+        "reason": "\"only\" overstates the page, which says \"Once the Courier Company delivers the seller can see the claim\"."
+      },
+      {
+        "before": "Fact: \"The Revibe Lab makes the final decision on a disputed (INVALID) wrong-device claim.\"",
+        "after": "Fact: \"When Revibe accepts the seller's proof on an INVALID claim (good proof → device sent to Lab), the Revibe Lab makes the final decision.\"",
+        "reason": "Over-general. The Lab only gets the device when the proof is good; rejected proof goes back to Valid, and a repair partner has no Lab."
+      },
+      {
+        "before": "Fact: \"If the Revibe Lab decides Valid, the customer gets a full refund and the device is shipped back to the seller.\"",
+        "after": "Fact: \"If the Revibe Lab decides Valid, there is a full refund and the device is shipped back to the seller.\"",
+        "reason": "The page says \"full refund\" without naming who receives it."
+      },
+      {
+        "before": "Fact: \"If delivery fails on ship-back, the Revibe agent offers a new AWB.\"",
+        "after": "Fact: \"If delivery fails on ship-back, the agent offers a new AWB.\"",
+        "reason": "The page says \"agent\", so the page wording is kept."
+      },
+      {
+        "before": "Fact: \"If the new AWB offered after a failed ship-back delivery is refused, the device is sent to disposal.\"",
+        "after": "Fact: \"After a failed ship-back delivery the agent offers a new AWB; if refused, the device is sent to disposal.\"",
+        "reason": "The page does not say that the new AWB is what gets refused."
+      },
+      {
+        "before": "Fact: \"All refunds, credits and charges from wrong-device claims appear in the payment tool. This is where to check what was charged or refunded.\"",
+        "after": "Fact: \"All refunds, credits and charges appear in the payment tool.\"",
+        "reason": "The second sentence was advice added beyond the page."
+      },
+      {
+        "before": "Statuses fact: \"Cancelled (proof not provided)\" and \"Under QC (once the courier delivers to the seller)\"",
+        "after": "\"Cancelled (missing docs not provided)\" and \"Under QC (once the Courier Company delivers)\"",
+        "reason": "The page says \"missing docs → requested; not provided → Cancelled\" and \"Once the Courier Company delivers\", and does not say who the courier delivers to."
+      },
+      {
+        "before": "Term AWB: \"The shipping document created for the device pickup or ship-back ...\"",
+        "after": "Term AWB: \"Not defined on the page. It is used for the pickup ... and for ship-back ...\"",
+        "reason": "\"Shipping document\" came from general knowledge; the page does not define AWB."
+      },
+      {
+        "before": "Term AE / SA / Others: \"Location groups the page uses ...\"",
+        "after": "\"Labels the page uses ...\"",
+        "reason": "The page does not say these are locations."
+      },
+      {
+        "before": "Term Under QC: \"Status once the Courier Company delivers to the seller.\"",
+        "after": "\"Status once the Courier Company delivers.\"",
+        "reason": "The page does not say who the courier delivers to."
+      },
+      {
+        "before": "Term Revibe Lab: \"Valid means a full refund and the device ships back to the seller.\"",
+        "after": "\"Valid means a full refund and ship back to the seller.\"",
+        "reason": "Kept closer to the page wording."
+      },
+      {
+        "before": "Term Ship-back: \"Shipping the device back after the decision ...\"",
+        "after": "\"Used in the Lab outcome 'ship back to seller' and in the footer 'Delivery failed on ship-back' ...\"",
+        "reason": "The page does not define ship-back. \"After the decision\" was an inference."
+      },
+      {
+        "before": "Term Quiqup / DHL / Naqel: \"Courier companies named for automatic pickup AWBs ...\"",
+        "after": "\"Names given for the automatically created pickup AWBs ... The page does not describe them further.\"",
+        "reason": "The page does not call them courier companies; that came from general knowledge."
+      }
+    ],
+    "added": [
+      "Fact (low, Implied): the step-card action labels read as seller actions (Step 3 SA: seller creates AWB; Step 4 titled Seller action), so Steps 1 and 2 need no seller action.",
+      "Unclear: outcomes after \"Repair partner: no Lab, Revibe decides\" are not stated.",
+      "Unclear: the action labels do not name who they apply to.",
+      "Unclear: on the VALID path, the page does not say who ships the correct device, who pays for it, or what happens to the wrong device that was collected.",
+      "Unclear (extended): the ship-back entry now also notes that the page does not say whether the new AWB offer or the delivery is refused."
+    ]
+  }
+}

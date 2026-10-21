@@ -1,0 +1,1043 @@
+{
+ "summary": "Short seller training (03:23) on the cancellation policy that, at the time of recording, Revibe had 'just launched'. A customer cancels either because they changed their mind or because the shipment is delayed on the seller's side. The cancelled order then has a small purple bar on the left of its row in the orders list. Inside the order, a banner says the order is on hold, and the trainer says it cannot be edited. A Cancellation claim (Stage 'To be cancelled') is created. The seller opens the claim from the order's Claims section and has two choices. Mark valid accepts: the order is cancelled and the customer refunded. Mark Invalid rejects. With no response within 24 hours, the cancellation is treated as valid. For UAE and South Africa, a cancellation at the Created stage must always be accepted. At the quality check stage it can be rejected, but the seller must then ship within the next 24 hours. Saudi Arabia orders can always be rejected, with the same 24-hour shipping duty. The trainer says marking a cancellation invalid requires a tracking ID, but his line about which countries this applies to is ambiguous. In the demo, Mark Invalid on a United Arab Emirates order with no tracking ID showed the error 'Tracking ID is required to mark the claim as invalid' and an 'Add tracking ID' pop-up. If the tracking ID is already there, the seller can just press invalid. After a rejection the order shows again as a normal, editable order, but this was only said, not shown. The demo was recorded on an admin dashboard at stage-admin.revibe.me.",
+ "steps": [
+  {
+   "at": "00:00",
+   "screen": "Orders list (browser tab 'Dashboard: Order List', stage-admin.revibe.me/dashboard/order/5)",
+   "action": "The Orders page is open, with Search Key set to 'Order number' and '65068-1' in the search box. Two rows come back: SA-65068-1 (iphone-13-mini) and 65068-1 (iphone-8). Row 65068-1 already has a purple bar on its left edge.",
+   "evidence": [
+    {
+     "kind": "see",
+     "at": "00:00",
+     "frame": "t00000.jpg",
+     "quote": "Orders; Search Key: Order number; search box: 65068-1; rows: SA-65068-1 iphone-13-mini, 65068-1 iphone-8; 1–2 of 2; purple bar at left edge of row 65068-1"
+    },
+    {
+     "kind": "see",
+     "at": "00:20",
+     "frame": "t00020.jpg",
+     "quote": "Same Orders list, unchanged; purple bar at left edge of row 65068-1"
+    }
+   ],
+   "says": "",
+   "why": ""
+  },
+  {
+   "at": "00:36",
+   "screen": "Orders list",
+   "action": "Points at the small purple bar on the left edge of order row 65068-1, which he calls a 'small purple banner'. This bar marks an order the customer has cancelled.",
+   "evidence": [
+    {
+     "kind": "say",
+     "at": "00:31",
+     "quote": "the customer will cancel his order you will be able to see in your orders app that the"
+    },
+    {
+     "kind": "say",
+     "at": "00:36",
+     "quote": "order has a small purple banner here on the left you can click on it and see that"
+    },
+    {
+     "kind": "see",
+     "at": "00:36",
+     "frame": "t00036.jpg",
+     "quote": "Purple vertical bar on the left edge of row 65068-1; mouse cursor just left of it"
+    }
+   ],
+   "says": "order has a small purple banner here on the left",
+   "why": ""
+  },
+  {
+   "at": "00:44",
+   "screen": "Order side panel, Order Details tab",
+   "action": "Opens order 65068-1. The side panel shows the banner 'This order is currently on hold (about 1 hour ago).' and a Claims section with one claim: Stage 'To be cancelled', Type 'Cancellation', Subtype 'Change of mind'.",
+   "evidence": [
+    {
+     "kind": "say",
+     "at": "00:44",
+     "quote": "this order is currently on hold since one hour in this case you cannot edit it you cannot"
+    },
+    {
+     "kind": "say",
+     "at": "00:51",
+     "quote": "do anything you You need to respond to this claim that has just been created."
+    },
+    {
+     "kind": "see",
+     "at": "00:44",
+     "frame": "t00044.jpg",
+     "quote": "This order is currently on hold (about 1 hour ago). / Claims: xtCJK8 | 2025-05-19T10:57:26.204Z | 65068-1 | To be cancelled | Cancellation | Change of mind | Hamza Bashir Trading | 0 Day(s), 0 Hour(s)"
+    }
+   ],
+   "says": "in this case you cannot edit it",
+   "why": ""
+  },
+  {
+   "at": "00:52",
+   "screen": "Order side panel, Order Details tab (scrolled)",
+   "action": "Scrolls down the order details past Supplier Comments and IMEI Number to Customer Information, Financial Summary and Payment & Delivery. The on-hold banner stays pinned at the top. Meanwhile he says 'You need to respond to this claim that has just been created.' By 00:56 the panel is scrolled back up to the Claims section.",
+   "evidence": [
+    {
+     "kind": "see",
+     "at": "00:52",
+     "frame": "t00052.jpg",
+     "quote": "Sections: Supplier Comments, IMEI Number, Customer Information, Financial Summary (Actual Cost), Payment & Delivery; banner 'This order is currently on hold (about 1 hour ago).' still at top"
+    },
+    {
+     "kind": "say",
+     "at": "00:51",
+     "quote": "do anything you You need to respond to this claim that has just been created."
+    },
+    {
+     "kind": "see",
+     "at": "00:56",
+     "frame": "t00056.jpg",
+     "quote": "Panel back at top showing Claims table"
+    }
+   ],
+   "says": "",
+   "why": ""
+  },
+  {
+   "at": "00:56",
+   "screen": "Order side panel, Order Details tab, Claims section",
+   "action": "Clicks the Claim ID link (xtCJK8) in the Claims table.",
+   "evidence": [
+    {
+     "kind": "say",
+     "at": "00:56",
+     "quote": "You can click on it."
+    },
+    {
+     "kind": "see",
+     "at": "00:56",
+     "frame": "t00056.jpg",
+     "quote": "Cursor (hand) on the purple Claim ID link in the Claims row"
+    },
+    {
+     "kind": "see",
+     "at": "01:16",
+     "frame": "t00076.jpg",
+     "quote": "Claim ID: xtCJK8"
+    }
+   ],
+   "says": "You can click on it.",
+   "why": ""
+  },
+  {
+   "at": "00:57",
+   "screen": "Order side panel, Claim Details tab",
+   "action": "He explains the two options: Mark valid to accept the cancellation, Mark Invalid to reject it. By the next frame (01:16) a 'Claim Details' tab is open next to Order Details, with the buttons Mark valid, Mark Invalid, Mark Refunded and Cancel override.",
+   "evidence": [
+    {
+     "kind": "say",
+     "at": "00:57",
+     "quote": "Here {basically?} you have two options."
+    },
+    {
+     "kind": "say",
+     "at": "01:00",
+     "quote": "Either you need to accept, so to mark the cancellation as being valid."
+    },
+    {
+     "kind": "say",
+     "at": "01:04",
+     "quote": "Either you reject, you mark the cancellation as being invalid."
+    },
+    {
+     "kind": "see",
+     "at": "01:16",
+     "frame": "t00076.jpg",
+     "quote": "Tabs: Order Details | Claim Details; buttons: Mark valid, Mark Invalid, Mark Refunded, Cancel override; Stage: To be cancelled; Status: Open; Type: Cancellation"
+    }
+   ],
+   "says": "Here {basically?} you have two options.",
+   "why": ""
+  },
+  {
+   "at": "01:09",
+   "screen": "Order side panel, Claim Details tab",
+   "action": "With the Claim Details tab on screen (frames at 01:16 and 01:36), he explains the 24-hour rule and the country/stage rules for when a cancellation must be accepted and when it can be rejected.",
+   "evidence": [
+    {
+     "kind": "say",
+     "at": "01:09",
+     "quote": "Please note that without a response from your side within 24 hours after the order has been cancelled,"
+    },
+    {
+     "kind": "say",
+     "at": "01:31",
+     "quote": "be cancelled please note also that for uae and south africa when the order is at created stage"
+    },
+    {
+     "kind": "say",
+     "at": "01:38",
+     "quote": "you always have to mark the cancellation as being valid now let's see the situations you can mark"
+    },
+    {
+     "kind": "see",
+     "at": "01:36",
+     "frame": "t00096.jpg",
+     "quote": "Claim Details tab with Mark valid and Mark Invalid buttons; cursor below the buttons"
+    }
+   ],
+   "says": "",
+   "why": ""
+  },
+  {
+   "at": "01:56",
+   "screen": "Order side panel, Claim Details tab",
+   "action": "Hovers over Mark Invalid (the tooltip reads 'Mark Invalid') and then clicks it. By 02:16 the button is grey with a loading ring.",
+   "evidence": [
+    {
+     "kind": "see",
+     "at": "01:56",
+     "frame": "t00116.jpg",
+     "quote": "Cursor on second button, tooltip 'Mark Invalid'"
+    },
+    {
+     "kind": "see",
+     "at": "02:16",
+     "frame": "t00136.jpg",
+     "quote": "Mark Invalid icon grey with a circular loading ring under the cursor, tooltip 'Mark Invalid'"
+    }
+   ],
+   "says": "",
+   "why": ""
+  },
+  {
+   "at": "02:19",
+   "screen": "Add tracking ID pop-up",
+   "action": "An error toast with a red alert icon reads 'Tracking ID is required to mark the claim as invalid', and an 'Add tracking ID' pop-up opens with a Tracking ID field and Cancel / Add buttons. He moves the text cursor onto the Tracking ID field, which gets a highlighted outline.",
+   "evidence": [
+    {
+     "kind": "say",
+     "at": "02:15",
+     "quote": "hours when you mark the {cancellation?} as being invalid you will have to {input?} a tracking ID."
+    },
+    {
+     "kind": "see",
+     "at": "02:19",
+     "frame": "t00139.jpg",
+     "quote": "Toast (red ! icon): 'Tracking ID is required to mark the claim as invalid'; pop-up 'Add tracking ID' with field 'Tracking ID' and buttons 'Cancel', 'Add'"
+    },
+    {
+     "kind": "see",
+     "at": "02:39",
+     "frame": "t00159.jpg",
+     "quote": "Text (I-beam) cursor in the 'Tracking ID' field of the 'Add tracking ID' pop-up; field outline highlighted"
+    }
+   ],
+   "says": "you will have to {input?} a tracking ID.",
+   "why": ""
+  },
+  {
+   "at": "02:40",
+   "screen": "Order side panel, Claim Details tab",
+   "action": "The pop-up is still open at 02:40 with the Tracking ID field empty, and by 02:47 it is gone without a tracking ID having been added. The claim still shows Stage 'To be cancelled' and Status 'Open'. He says that once the claim is marked invalid, the order shows again as a normal, editable order in the orders dashboard.",
+   "evidence": [
+    {
+     "kind": "see",
+     "at": "02:40",
+     "frame": "t00160.jpg",
+     "quote": "Pop-up 'Add tracking ID' still open; Tracking ID field shows only the placeholder 'Tracking ID'; error toast no longer shown"
+    },
+    {
+     "kind": "say",
+     "at": "02:40",
+     "quote": "Once this will be done the order will appear again as a normal order in your orders dashboard"
+    },
+    {
+     "kind": "say",
+     "at": "02:48",
+     "quote": "and you {will?} be able to edit it and to treat it as a normal order."
+    },
+    {
+     "kind": "see",
+     "at": "02:47",
+     "frame": "t00167.jpg",
+     "quote": "Pop-up gone; Claim Details still shows Stage: To be cancelled, Status: Open"
+    }
+   ],
+   "says": "the order will appear again as a normal order in your orders dashboard",
+   "why": ""
+  },
+  {
+   "at": "02:53",
+   "screen": "Order side panel, Claim Details tab",
+   "action": "Closing remarks: he invites questions and suggests rewatching the orders app training video. The screen does not change. The claim stays Open / 'To be cancelled', and at 03:22 row 65068-1 still has its purple bar, so the rejection was not completed on screen.",
+   "evidence": [
+    {
+     "kind": "say",
+     "at": "02:56",
+     "quote": "Please do not hesitate to reach out to me if you have any questions related to this."
+    },
+    {
+     "kind": "see",
+     "at": "03:07",
+     "frame": "t00187.jpg",
+     "quote": "Claim Details: Stage To be cancelled, Status Open"
+    },
+    {
+     "kind": "see",
+     "at": "03:22",
+     "frame": "t00202.jpg",
+     "quote": "Row 65068-1 still has purple bar on the left; Claim Details: Stage To be cancelled, Status Open"
+    }
+   ],
+   "says": "",
+   "why": ""
+  }
+ ],
+ "facts": [
+  {
+   "type": "definition",
+   "statement": "A customer cancels an order in one of two situations: they changed their mind and no longer want the device, or the shipment is delayed on the seller's side and they don't want to wait any longer.",
+   "evidence": [
+    {
+     "kind": "say",
+     "at": "00:14",
+     "quote": "Basically, you will face two scenarios where a customer will cancel his order."
+    },
+    {
+     "kind": "say",
+     "at": "00:20",
+     "quote": "Either because he changed his mind, he doesn't want the device anymore."
+    },
+    {
+     "kind": "say",
+     "at": "00:24",
+     "quote": "either because on your site the shipment is delayed and the customer doesn't want to wait anymore {when?}"
+    }
+   ],
+   "confidence": "high",
+   "quiz": true
+  },
+  {
+   "type": "screen",
+   "statement": "In the orders list, an order the customer has cancelled is marked by a small purple bar on the left edge of its row. The trainer calls it a 'small purple banner'.",
+   "evidence": [
+    {
+     "kind": "say",
+     "at": "00:36",
+     "quote": "order has a small purple banner here on the left you can click on it and see that"
+    },
+    {
+     "kind": "see",
+     "at": "00:36",
+     "frame": "t00036.jpg",
+     "quote": "Purple vertical bar on the left edge of row 65068-1; cursor just left of it"
+    }
+   ],
+   "confidence": "high",
+   "quiz": true
+  },
+  {
+   "type": "screen",
+   "statement": "When you open a cancelled order, a purple banner at the top of the order panel says the order is on hold and how long ago. In the demo it read 'This order is currently on hold (about 1 hour ago).'",
+   "evidence": [
+    {
+     "kind": "say",
+     "at": "00:44",
+     "quote": "this order is currently on hold since one hour in this case you cannot edit it you cannot"
+    },
+    {
+     "kind": "see",
+     "at": "00:44",
+     "frame": "t00044.jpg",
+     "quote": "This order is currently on hold (about 1 hour ago)."
+    }
+   ],
+   "confidence": "high",
+   "quiz": true
+  },
+  {
+   "type": "rule",
+   "statement": "While a cancelled order is on hold, the seller cannot edit it or do anything else with it. The seller must first respond to the cancellation claim that was created.",
+   "evidence": [
+    {
+     "kind": "say",
+     "at": "00:44",
+     "quote": "this order is currently on hold since one hour in this case you cannot edit it you cannot"
+    },
+    {
+     "kind": "say",
+     "at": "00:51",
+     "quote": "do anything you You need to respond to this claim that has just been created."
+    }
+   ],
+   "confidence": "high",
+   "quiz": true
+  },
+  {
+   "type": "screen",
+   "statement": "A customer cancellation shows up as a claim in the Claims section of the order's Order Details tab, with Type 'Cancellation' and Stage 'To be cancelled'. In the demo the Subtype was 'Change of mind'.",
+   "evidence": [
+    {
+     "kind": "see",
+     "at": "00:44",
+     "frame": "t00044.jpg",
+     "quote": "Claims: Stage 'To be cancelled' | Type 'Cancellation' | Subtype 'Change of mind'"
+    },
+    {
+     "kind": "say",
+     "at": "00:51",
+     "quote": "do anything you You need to respond to this claim that has just been created."
+    }
+   ],
+   "confidence": "high",
+   "quiz": true
+  },
+  {
+   "type": "screen",
+   "statement": "The Claims table on an order has the columns Claim ID, Claim Date, Order Help, Stage, Type, Subtype, Original Supplier and Since creation. In the demo, Since creation showed '0 Day(s), 0 Hour(s)'.",
+   "evidence": [
+    {
+     "kind": "see",
+     "at": "00:44",
+     "frame": "t00044.jpg",
+     "quote": "Claim ID | Claim Date | Order Help | Stage | Type | Subtype | Original Supplier | Since creation ... 0 Day(s), 0 Hour(s)"
+    }
+   ],
+   "confidence": "high",
+   "quiz": false
+  },
+  {
+   "type": "procedure",
+   "statement": "To respond to a cancellation, click the Claim ID link in the order's Claims section. This opens a 'Claim Details' tab with the buttons Mark valid, Mark Invalid, Mark Refunded and Cancel override.",
+   "evidence": [
+    {
+     "kind": "say",
+     "at": "00:56",
+     "quote": "You can click on it."
+    },
+    {
+     "kind": "see",
+     "at": "00:56",
+     "frame": "t00056.jpg",
+     "quote": "Cursor on the Claim ID link in the Claims row"
+    },
+    {
+     "kind": "see",
+     "at": "01:16",
+     "frame": "t00076.jpg",
+     "quote": "Tab 'Claim Details' with buttons Mark valid, Mark Invalid, Mark Refunded, Cancel override"
+    }
+   ],
+   "confidence": "high",
+   "quiz": true
+  },
+  {
+   "type": "rule",
+   "statement": "A seller has two ways to respond to a cancellation claim: accept it with 'Mark valid', or reject it with 'Mark Invalid'.",
+   "evidence": [
+    {
+     "kind": "say",
+     "at": "01:00",
+     "quote": "Either you need to accept, so to mark the cancellation as being valid."
+    },
+    {
+     "kind": "say",
+     "at": "01:04",
+     "quote": "Either you reject, you mark the cancellation as being invalid."
+    },
+    {
+     "kind": "see",
+     "at": "01:16",
+     "frame": "t00076.jpg",
+     "quote": "Mark valid | Mark Invalid"
+    }
+   ],
+   "confidence": "high",
+   "quiz": true
+  },
+  {
+   "type": "rule",
+   "statement": "If the seller does not respond within 24 hours after the order was cancelled, Revibe treats the cancellation as valid: the order is cancelled and the customer is refunded.",
+   "evidence": [
+    {
+     "kind": "say",
+     "at": "01:09",
+     "quote": "Please note that without a response from your side within 24 hours after the order has been cancelled,"
+    },
+    {
+     "kind": "say",
+     "at": "01:16",
+     "quote": "we will consider that you mark it valid and that the order will then be cancelled and the"
+    },
+    {
+     "kind": "say",
+     "at": "01:22",
+     "quote": "customer will be refunded {so?} basically if you accept the customer will be refunded and the order will"
+    }
+   ],
+   "confidence": "high",
+   "quiz": true
+  },
+  {
+   "type": "rule",
+   "statement": "Accepting a cancellation (Mark valid) cancels the order and refunds the customer.",
+   "evidence": [
+    {
+     "kind": "say",
+     "at": "01:22",
+     "quote": "customer will be refunded {so?} basically if you accept the customer will be refunded and the order will"
+    },
+    {
+     "kind": "say",
+     "at": "01:31",
+     "quote": "be cancelled please note also that for uae and south africa when the order is at created stage"
+    }
+   ],
+   "confidence": "high",
+   "quiz": true
+  },
+  {
+   "type": "rule",
+   "statement": "For UAE and South Africa orders at the Created stage, the seller must always accept the cancellation (mark it valid).",
+   "evidence": [
+    {
+     "kind": "say",
+     "at": "01:31",
+     "quote": "be cancelled please note also that for uae and south africa when the order is at created stage"
+    },
+    {
+     "kind": "say",
+     "at": "01:38",
+     "quote": "you always have to mark the cancellation as being valid now let's see the situations you can mark"
+    }
+   ],
+   "confidence": "high",
+   "quiz": true
+  },
+  {
+   "type": "rule",
+   "statement": "For UAE and South Africa orders at the quality check stage, the seller may reject the cancellation (mark it invalid), but must then ship the order within the next 24 hours.",
+   "evidence": [
+    {
+     "kind": "say",
+     "at": "01:45",
+     "quote": "a cancellation as being invalid so for uae and south africa you can mark the order as being"
+    },
+    {
+     "kind": "say",
+     "at": "01:53",
+     "quote": "invalid when it's at quality check stage {in?} this situation you can reject the cancellation but you will"
+    },
+    {
+     "kind": "say",
+     "at": "02:01",
+     "quote": "have to ship the order within the next 24 hours for saudi arabia orders you will always have"
+    }
+   ],
+   "confidence": "high",
+   "quiz": true
+  },
+  {
+   "type": "rule",
+   "statement": "For Saudi Arabia orders, the seller can always reject the cancellation, but must then ship the order within the next 24 hours.",
+   "evidence": [
+    {
+     "kind": "say",
+     "at": "02:01",
+     "quote": "have to ship the order within the next 24 hours for saudi arabia orders you will always have"
+    },
+    {
+     "kind": "say",
+     "at": "02:07",
+     "quote": "the option to reject the cancellation but you will also have to ship it within the next 24"
+    },
+    {
+     "kind": "say",
+     "at": "02:15",
+     "quote": "hours when you mark the {cancellation?} as being invalid you will have to {input?} a tracking ID."
+    }
+   ],
+   "confidence": "high",
+   "quiz": true
+  },
+  {
+   "type": "rule",
+   "statement": "The trainer says that marking a cancellation invalid requires a tracking ID. In the demo, he clicked Mark Invalid on a United Arab Emirates order whose Tracking ID column showed '-'. The app showed the error 'Tracking ID is required to mark the claim as invalid' and opened an 'Add tracking ID' pop-up with a Tracking ID field and Cancel / Add buttons. His narration is ambiguous about which countries this applies to (see unclear).",
+   "evidence": [
+    {
+     "kind": "say",
+     "at": "02:15",
+     "quote": "hours when you mark the {cancellation?} as being invalid you will have to {input?} a tracking ID."
+    },
+    {
+     "kind": "see",
+     "at": "02:19",
+     "frame": "t00139.jpg",
+     "quote": "Tracking ID is required to mark the claim as invalid / Add tracking ID / Tracking ID / Cancel / Add"
+    },
+    {
+     "kind": "see",
+     "at": "00:44",
+     "frame": "t00044.jpg",
+     "quote": "Country: United Arab Emirates"
+    },
+    {
+     "kind": "see",
+     "at": "00:00",
+     "frame": "t00000.jpg",
+     "quote": "Tracking ID column shows '-' for order 65068-1"
+    }
+   ],
+   "confidence": "high",
+   "quiz": true
+  },
+  {
+   "type": "tip",
+   "statement": "If the tracking ID is already on the order, the seller can just press Mark Invalid and won't need to enter one. Because of how the sentence before it is phrased, this may refer only to UAE and South Africa orders (see unclear).",
+   "evidence": [
+    {
+     "kind": "say",
+     "at": "02:22",
+     "quote": "This you will have to do it for Saudi Arabia orders only, for UAE and South Africa orders."
+    },
+    {
+     "kind": "say",
+     "at": "02:31",
+     "quote": "If the tracking ID is already here {you?} can just press invalid and you won't need to put"
+    },
+    {
+     "kind": "say",
+     "at": "02:38",
+     "quote": "tracking ID link."
+    }
+   ],
+   "confidence": "medium",
+   "quiz": true
+  },
+  {
+   "type": "rule",
+   "statement": "Once a cancellation is marked invalid, the order shows again as a normal order in the seller's orders dashboard and can be edited and handled as usual. This was said but not shown: the demo never finished the rejection, and at the end the claim was still Open and the row still had its purple bar.",
+   "evidence": [
+    {
+     "kind": "say",
+     "at": "02:40",
+     "quote": "Once this will be done the order will appear again as a normal order in your orders dashboard"
+    },
+    {
+     "kind": "say",
+     "at": "02:48",
+     "quote": "and you {will?} be able to edit it and to treat it as a normal order."
+    },
+    {
+     "kind": "see",
+     "at": "03:22",
+     "frame": "t00202.jpg",
+     "quote": "Row 65068-1 still has purple bar; Claim Details Stage To be cancelled, Status Open"
+    }
+   ],
+   "confidence": "medium",
+   "quiz": true
+  },
+  {
+   "type": "warning",
+   "statement": "Rejecting a cancellation (UAE/South Africa at quality check stage, or Saudi Arabia) commits the seller to shipping the order within the next 24 hours.",
+   "evidence": [
+    {
+     "kind": "say",
+     "at": "01:53",
+     "quote": "invalid when it's at quality check stage {in?} this situation you can reject the cancellation but you will"
+    },
+    {
+     "kind": "say",
+     "at": "02:01",
+     "quote": "have to ship the order within the next 24 hours for saudi arabia orders you will always have"
+    },
+    {
+     "kind": "say",
+     "at": "02:07",
+     "quote": "the option to reject the cancellation but you will also have to ship it within the next 24"
+    }
+   ],
+   "confidence": "high",
+   "quiz": true
+  },
+  {
+   "type": "screen",
+   "statement": "The Claim Details tab shows these fields: Claim ID, Order help, Customer name, Phone number, Customer email, Address, Country, City, Order details, Gross sale, Discount, Order amount, Original supplier, Stage, Status, Type. The demo's open cancellation claim showed Stage 'To be cancelled', Status 'Open', Type 'Cancellation'.",
+   "evidence": [
+    {
+     "kind": "see",
+     "at": "01:16",
+     "frame": "t00076.jpg",
+     "quote": "Claim ID, Order help, Customer name, Phone number, Customer email, Address, Country, City, Order details, Gross sale 399, Discount, Order amount 399, Original supplier, Stage To be cancelled, Status Open, Type Cancellation"
+    }
+   ],
+   "confidence": "high",
+   "quiz": false
+  },
+  {
+   "type": "screen",
+   "statement": "In the demo's Claim Details tab, the Mark Refunded button looked greyed out while Mark valid, Mark Invalid and Cancel override looked active. The trainer did not explain Mark Refunded or Cancel override.",
+   "evidence": [
+    {
+     "kind": "see",
+     "at": "01:16",
+     "frame": "t00076.jpg",
+     "quote": "Mark Refunded icon and label grey; Mark valid, Mark Invalid, Cancel override icons purple"
+    }
+   ],
+   "confidence": "medium",
+   "quiz": false
+  },
+  {
+   "type": "screen",
+   "statement": "The orders list can be searched by Search Key (here 'Order number') and has these columns: Order Help, WH, Request Revibe, Model, Variation: Color, Sto..., Delivery Method, COD To Collect, Confirmed Date, Category, Supplier Comm..., Revibe Comment, Tracking Comp..., Tracking ID. It also has Export and More Filters buttons and a Dense toggle.",
+   "evidence": [
+    {
+     "kind": "see",
+     "at": "00:00",
+     "frame": "t00000.jpg",
+     "quote": "Search Key: Order number; Order Help | WH | Request Revibe | Model | Variation: Color, Sto... | Delivery Method | COD To Collect | Confirmed Date | Category | Supplier Comm... | Revibe Comment | Tracking Comp... | Tracking ID; Export; More Filters; Dense"
+    }
+   ],
+   "confidence": "high",
+   "quiz": false
+  },
+  {
+   "type": "screen",
+   "statement": "The Order Details tab of the order panel has these action icons: Go to label, ID checked, Request address..., Ready for pickup, Not ready for pickup, Mark picked up, Mark delivered, Mark paid, New date, Reassigning supplier, Download.",
+   "evidence": [
+    {
+     "kind": "see",
+     "at": "00:44",
+     "frame": "t00044.jpg",
+     "quote": "Go to label | ID checked | Request address... | Ready for pickup | Not ready for pickup | Mark picked up | Mark delivered | Mark paid | New date | Reassigning supplier | Download"
+    }
+   ],
+   "confidence": "high",
+   "quiz": false
+  },
+  {
+   "type": "tip",
+   "statement": "The trainer advises sellers to rewatch the orders app training video to get comfortable with the app and manage their orders better.",
+   "evidence": [
+    {
+     "kind": "say",
+     "at": "03:00",
+     "quote": "And more globally speaking, please do not hesitate to watch again and again the orders app training video"
+    },
+    {
+     "kind": "say",
+     "at": "03:07",
+     "quote": "to get more and more comfortable with this app, to better manage your orders, and to feel confident"
+    }
+   ],
+   "confidence": "high",
+   "quiz": false
+  },
+  {
+   "type": "tip",
+   "statement": "Sellers with questions about the cancellation process are invited to contact the trainer.",
+   "evidence": [
+    {
+     "kind": "say",
+     "at": "02:56",
+     "quote": "Please do not hesitate to reach out to me if you have any questions related to this."
+    }
+   ],
+   "confidence": "high",
+   "quiz": false
+  }
+ ],
+ "screens": [
+  {
+   "name": "Orders list",
+   "where": "Admin dashboard at stage-admin.revibe.me (browser tab 'Dashboard: Order List', URL stage-admin.revibe.me/dashboard/order/5). The 'Order Mana...' item in the left menu is highlighted.",
+   "shows": "Search Key dropdown (Order number) and search box; columns Order Help, WH, Request Revibe, Model, Variation: Color, Sto..., Delivery Method, COD To Collect, Confirmed Date, Category, Supplier Comm..., Revibe Comment, Tracking Comp..., Tracking ID; Export, More Filters, Dense toggle, Rows per page 100. A cancelled order is marked by a purple bar on the left of its row.",
+   "at": "00:00",
+   "frame": "t00000.jpg"
+  },
+  {
+   "name": "Order side panel, Order Details tab",
+   "where": "Opens on the right when you click an order in the Orders list",
+   "shows": "Order number and customer name in the header with an Edit button; action icons (Go to label to Download); the purple banner 'This order is currently on hold (about 1 hour ago).'; Claims table (Claim ID, Claim Date, Order Help, Stage, Type, Subtype, Original Supplier, Since creation); Order Details fields (Model; 'Variation: Color, Storage, Condition'; Storage; Condition; Variation/Color; Country; 'SKU (old: Order Status)'; Category; Supplier; Supplier Provided ID; Request Revibe; Revibe Comments; Supplier Comments; IMEI Number); Customer Information; Financial Summary; Payment & Delivery; View Details button.",
+   "at": "00:44",
+   "frame": "t00044.jpg"
+  },
+  {
+   "name": "Claim Details tab",
+   "where": "Opens next to Order Details when you click the Claim ID link in the Claims table",
+   "shows": "Buttons Mark valid, Mark Invalid, Mark Refunded (greyed), Cancel override; Claim Details fields: Claim ID, Order help, Customer name, Phone number, Customer email, Address, Country, City, Order details, Gross sale, Discount, Order amount, Original supplier, Stage, Status, Type; Edit button; View Details button.",
+   "at": "01:16",
+   "frame": "t00076.jpg"
+  },
+  {
+   "name": "Add tracking ID pop-up",
+   "where": "Appeared after clicking Mark Invalid on the demo claim, whose order had no tracking ID ('-' in the Tracking ID column)",
+   "shows": "Error toast with a red alert icon: 'Tracking ID is required to mark the claim as invalid'; pop-up titled 'Add tracking ID' with a Tracking ID field, Cancel / Add buttons and a close (X) icon.",
+   "at": "02:19",
+   "frame": "t00139.jpg"
+  }
+ ],
+ "terms": [
+  {
+   "term": "Cancellation claim",
+   "meaning": "The claim created when a customer cancels an order. It shows in the order's Claims section with Type 'Cancellation' (Stage 'To be cancelled', Status 'Open' while pending), and the seller must respond to it.",
+   "at": "00:51"
+  },
+  {
+   "term": "On hold",
+   "meaning": "The state of an order after the customer cancels it. A banner says 'This order is currently on hold', and the trainer says the seller cannot edit the order and needs to respond to the claim.",
+   "at": "00:44"
+  },
+  {
+   "term": "Purple banner",
+   "meaning": "The trainer's name for the small purple bar on the left edge of an order row in the orders list, marking an order the customer has cancelled.",
+   "at": "00:36"
+  },
+  {
+   "term": "Mark valid",
+   "meaning": "Accept the cancellation. The order is cancelled and the customer is refunded. If the seller does not respond within 24 hours, the cancellation is treated as if marked valid.",
+   "at": "01:00"
+  },
+  {
+   "term": "Mark Invalid",
+   "meaning": "Reject the cancellation. The seller must then ship within the next 24 hours. The trainer says a tracking ID is required unless it is already on the order. Which countries this covers is ambiguous.",
+   "at": "01:04"
+  },
+  {
+   "term": "Created stage",
+   "meaning": "An order stage named by the trainer. For UAE and South Africa, a cancellation at this stage must always be accepted.",
+   "at": "01:31"
+  },
+  {
+   "term": "Quality check stage",
+   "meaning": "An order stage named by the trainer. For UAE and South Africa, a cancellation at this stage may be rejected, provided the order is shipped within the next 24 hours.",
+   "at": "01:53"
+  },
+  {
+   "term": "To be cancelled",
+   "meaning": "The claim Stage shown on a pending customer cancellation.",
+   "at": "00:44"
+  },
+  {
+   "term": "Change of mind",
+   "meaning": "Claim Subtype shown on the demo cancellation, matching the 'customer changed his mind' scenario.",
+   "at": "00:44"
+  },
+  {
+   "term": "Tracking ID",
+   "meaning": "The shipment tracking reference. In the demo it had to be entered in the 'Add tracking ID' pop-up before the cancellation could be marked invalid. The trainer says this is not needed if the order already has one.",
+   "at": "02:15"
+  }
+ ],
+ "asr_fixes": [
+  {
+   "at": "00:24",
+   "heard": "on your site the shipment is delayed",
+   "correct": "on your side the shipment is delayed",
+   "basis": "The trainer is describing a delay caused by the seller. Elsewhere the same speaker's phrase is transcribed correctly as 'from your side' (01:09: 'without a response from your side'). His French-accented 'side' was heard as 'site'."
+  },
+  {
+   "at": "02:15",
+   "heard": "mark the {cancellation?} as being invalid",
+   "correct": "mark the cancellation as being invalid",
+   "basis": "The same phrase is transcribed with full confidence at 01:04 and 01:45. Frame t00076 shows the claim Type 'Cancellation' and the button 'Mark Invalid'."
+  },
+  {
+   "at": "02:15",
+   "heard": "you will have to {input?} a tracking ID",
+   "correct": "you will have to input a tracking ID",
+   "basis": "Frame t00139 shows the pop-up 'Add tracking ID' and the error 'Tracking ID is required to mark the claim as invalid'."
+  },
+  {
+   "at": "03:14",
+   "heard": "the tools that Revive is providing to you",
+   "correct": "the tools that Revibe is providing to you",
+   "basis": "The URL stage-admin.revibe.me and the column 'Request Revibe' are visible in t00000."
+  },
+  {
+   "at": "03:18",
+   "heard": "I remanage your disposal",
+   "correct": "I remain at your disposal",
+   "basis": "A closing courtesy phrase (French 'je reste à votre disposition'). Speech recognition garbled the accented 'remain at'. No screen evidence; inferred from context."
+  }
+ ],
+ "unclear": [
+  {
+   "at": "02:22",
+   "issue": "The line 'This you will have to do it for Saudi Arabia orders only, for UAE and South Africa orders.' contradicts itself. One possible reading, given the trainer's French phrasing and the pauses: 'You have to input a tracking ID for Saudi Arabia orders only. For UAE and South Africa orders, if the tracking ID is already here you can just press invalid.' That would tie the 02:31 tip to UAE/South Africa. Other readings are that the tracking ID is required for all three countries, or 'not for UAE and South Africa'. On screen, the demo order (Country 'United Arab Emirates', t00044; Tracking ID '-', t00000) did get the error 'Tracking ID is required to mark the claim as invalid' (t00139). Confirm with the trainer which countries require a tracking ID to reject."
+  },
+  {
+   "at": "02:38",
+   "issue": "'you won't need to put tracking ID link' is garbled. 'link' may be a mishearing, perhaps of 'again' or 'in'. The meaning that no tracking ID needs entering if one is already on the order is clear. Whether a link (URL) rather than an ID is ever expected is not."
+  },
+  {
+   "at": "00:00",
+   "issue": "The demo was recorded on stage-admin.revibe.me, an admin dashboard whose left menu shows admin items ('User Manag...', 'Roles Mana...', 'Claim Mana...', 'Payment Tool', 'Invoices', 'Order Views ...', 'Claim Views ...', 'Logs'). The trainer, however, talks to sellers about 'your orders app'. The seller's own view may look different and may not show buttons such as Mark Refunded or Cancel override."
+  },
+  {
+   "at": "00:44",
+   "issue": "The trainer says an on-hold order cannot be edited, yet the order panel header shows an 'Edit' button while the on-hold banner is displayed (t00044, t00052, t00056). This may be because the demo is in the admin view. It is not shown what happens if a seller tries to edit."
+  },
+  {
+   "at": "02:01",
+   "issue": "Not covered: what happens if a seller rejects a cancellation but does not ship within the 24 hours."
+  },
+  {
+   "at": "01:31",
+   "issue": "Not covered: for UAE and South Africa, only the Created stage (must accept) and the quality check stage (may reject) are mentioned. Cancellations at other stages are not addressed."
+  },
+  {
+   "at": "01:16",
+   "issue": "The Mark Refunded and Cancel override buttons appear on the Claim Details tab but are never explained."
+  }
+ ],
+ "outdated": [
+  {
+   "at": "00:00",
+   "signal": "The trainer calls it 'the new cancellation policy that we just launched'. The demo claim is dated 2025-05-19 (t00044), so the policy is from around May 2025. Check that the 24-hour rules and the country/stage rules still apply."
+  }
+ ],
+ "privacy": [
+  {
+   "at": "00:44",
+   "frame": "t00044.jpg",
+   "what": "The customer's full name is in the order panel header and appears on every later frame (t00052–t00202). The test order seems to be in the trainer's own name."
+  },
+  {
+   "at": "00:52",
+   "frame": "t00052.jpg",
+   "what": "The Customer Information section shows the customer's name, personal email address, mobile phone number and full street address in Dubai."
+  },
+  {
+   "at": "01:16",
+   "frame": "t00076.jpg",
+   "what": "The Claim Details tab shows the customer name, phone number, customer email and full address. This stays visible on t00096, t00116, t00136, t00167, t00187 and t00202, and faintly behind the pop-up on t00139–t00160."
+  },
+  {
+   "at": "00:44",
+   "frame": "t00044.jpg",
+   "what": "The real seller trading name 'Hamza Bashir Trading' appears as Original Supplier (Claims table) and Supplier (Order Details), and again in Claim Details from t00076 on. Other sellers watching would see it."
+  },
+  {
+   "at": "00:00",
+   "frame": "t00000.jpg",
+   "what": "The browser bookmarks bar shows internal bookmarks (e.g. 'Series B', 'Cash appart', 'Interactive Brokers') on all frames. This is not personal data, but crop it before sharing with sellers."
+  },
+  {
+   "at": "00:00",
+   "frame": "t00000.jpg",
+   "what": "The trainer's webcam image (his face) is in the bottom-left corner of every frame. He is the presenter, not a customer, but note it if the frames are reused."
+  }
+ ],
+ "frames_opened": 16,
+ "audit": {
+  "checked": 66,
+  "removed": [
+   {
+    "statement": "Step 00:52: 'He says nothing during this.'",
+    "reason": "transcript.json segment 52.72–56.08 ('You need to respond to this claim that has just been created.') is spoken over the scrolled frame t00052."
+   },
+   {
+    "statement": "Step 02:40: 'The pop-up closes with no tracking ID entered (this is only a demo)'",
+    "reason": "The trainer never says it is only a demo. Frame t00160 (02:40) still shows the pop-up open, and how it was closed (Cancel or X) is not visible. Replaced with what the frames show."
+   },
+   {
+    "statement": "Step 00:44 why: 'The order is on hold and cannot be edited, so the seller has to respond to the claim that was just created.'",
+    "reason": "Not a reason the trainer gives for the action (opening the order). It paraphrases the narration, which is already in facts."
+   },
+   {
+    "statement": "Outdated 02:22: 'The countries where a tracking ID is required to reject a cancellation are stated contradictorily.'",
+    "reason": "This is an ambiguity, not an out-of-date signal, and it is already covered in unclear at 02:22."
+   }
+  ],
+  "corrected": [
+   {
+    "before": "Step 00:31 'Points at the small purple bar'",
+    "after": "Step at 00:36",
+    "reason": "The pointing is only visible on t00036 (00:36). At 00:31 the narration is still introducing it."
+   },
+   {
+    "before": "Step 00:57: 'A Claim Details tab opens with the buttons ...'",
+    "after": "'By the next frame (01:16) a Claim Details tab is open ...'",
+    "reason": "No frame between 00:56 and 01:16 shows when the tab opened."
+   },
+   {
+    "before": "Step 01:09: 'With Claim Details still open'",
+    "after": "'With the Claim Details tab on screen (frames at 01:16 and 01:36)'",
+    "reason": "There is no frame at 01:09. The tab is first seen at 01:16. Added the say quotes for the country/stage rules."
+   },
+   {
+    "before": "Step 01:56 evidence: 'Mark Invalid button pressed (greyed)'",
+    "after": "'Mark Invalid icon grey with a circular loading ring under the cursor'",
+    "reason": "Describe exactly what t00136 shows (zoomed)."
+   },
+   {
+    "before": "Step 02:19: 'A red error ... He clicks into the Tracking ID field.'",
+    "after": "'An error toast with a red alert icon ... He moves the text cursor onto the Tracking ID field, which gets a highlighted outline.'",
+    "reason": "Only the toast icon is red. t00159 shows an I-beam cursor and a highlighted field, but no click or typing."
+   },
+   {
+    "before": "Fact: banner '... showing the order is on hold and how long ago that happened.'",
+    "after": "'... In the demo it read 'This order is currently on hold (about 1 hour ago).''",
+    "reason": "'about 1 hour ago' is the demo's value, not fixed banner text."
+   },
+   {
+    "before": "Fact: 'Marking a cancellation claim invalid requires a tracking ID. In the demo (a United Arab Emirates order with no tracking ID)...'",
+    "after": "'The trainer says that marking a cancellation invalid requires a tracking ID. In the demo, ... a United Arab Emirates order whose Tracking ID column showed '-' ...'",
+    "reason": "Attributed the rule to the trainer because its country scope is ambiguous. Added t00000 as evidence for 'no tracking ID'."
+   },
+   {
+    "before": "Fact: '... does not need to enter a tracking ID again.'",
+    "after": "'... won't need to enter one. Because of how the sentence before it is phrased, this may refer only to UAE and South Africa orders.'",
+    "reason": "'again' is not in the transcript ('tracking ID link'). The 02:22 sentence may tie this tip to UAE/South Africa. Replaced the off-point t00000 evidence with the 02:22 line."
+   },
+   {
+    "before": "Fact: after invalid the order shows as normal: '... because the demo did not finish the rejection.'",
+    "after": "Same statement plus 'at the end the claim was still Open and the row still had its purple bar', with t00202 as evidence",
+    "reason": "Backs the 'not shown' remark with the final frame."
+   },
+   {
+    "before": "Screen 'Orders list' where: 'Order Management menu in the Revibe admin dashboard'",
+    "after": "'... The 'Order Mana...' item in the left menu is highlighted.'",
+    "reason": "The menu label is truncated on screen. Do not complete it."
+   },
+   {
+    "before": "Screen 'Add tracking ID pop-up': 'Red error toast'",
+    "after": "'Error toast with a red alert icon', plus close (X) icon",
+    "reason": "Matches t00139 exactly."
+   },
+   {
+    "before": "Unclear 00:00: 'admin menus such as User Management, Roles Management, Payment Tool, Invoices and Logs'",
+    "after": "Quoted the truncated labels as shown ('User Manag...', 'Roles Mana...', etc.)",
+    "reason": "Do not complete truncated on-screen names."
+   },
+   {
+    "before": "Unclear 02:22: three readings",
+    "after": "Added the reading 'For UAE and South Africa orders, if the tracking ID is already here you can just press invalid'",
+    "reason": "Given the trainer's French phrasing and the segment pause before 'UAE and South Africa orders. If the tracking ID...', this is a plausible reading the original missed."
+   },
+   {
+    "before": "asr_fix 00:24 basis: context only",
+    "after": "Basis also cites the correctly transcribed 'from your side' at 01:09",
+    "reason": "Stronger, evidence-based basis."
+   },
+   {
+    "before": "Summary: 'Marking a claim invalid needs a tracking ID ... The demo was recorded on a staging admin dashboard'",
+    "after": "'The trainer says marking a cancellation invalid requires a tracking ID, but his line about which countries this applies to is ambiguous ... recorded on an admin dashboard at stage-admin.revibe.me'",
+    "reason": "Summary aligned with the corrected facts. 'staging' is only implied by the 'stage-' URL."
+   },
+   {
+    "before": "Step 00:44 says: 'you cannot edit it you cannot do anything' (spans two transcript lines)",
+    "after": "'in this case you cannot edit it'",
+    "reason": "The says field must be an exact quote from one transcript line."
+   }
+  ],
+  "added": [
+   "Step 02:53: closing remarks over an unchanged screen. The claim is still Open / 'To be cancelled' and row 65068-1 still has its purple bar at t00202, so the rejection was never completed on screen.",
+   "Step 00:00: noted that the purple bar is already visible on row 65068-1 at t00000/t00020 (t00020 cited).",
+   "Step 02:40: t00160 evidence (pop-up still open, Tracking ID field empty, toast gone).",
+   "Step 00:52: say evidence for the line spoken over the scroll, and t00056 showing the panel scrolled back up.",
+   "Unclear 00:44: an 'Edit' button is visible in the order panel header while the order is on hold, which conflicts with 'you cannot edit it'. This may be because of the admin view.",
+   "Privacy 00:00: the trainer's webcam face is visible on every frame.",
+   "Fact (rule, after invalid): t00202 evidence that the claim stayed Open and the row kept its purple bar."
+  ]
+ }
+}
