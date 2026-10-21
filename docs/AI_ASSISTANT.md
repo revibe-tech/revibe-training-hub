@@ -32,11 +32,22 @@ flowchart LR
 | Token check + allowed materials | `lib/server/viewer.js`, `lib/server/firestore.js` |
 | Gemini calls | `lib/server/ai.js` |
 | Chunking, prompt | `lib/rag/chunk.js`, `lib/rag/prompt.js` |
+| Greetings, thanks, bye | `lib/rag/smalltalk.js` |
 | UI (chat button + window) | `components/AskAssistant.js` |
 
 Keyword search runs next to vector search because this material is full of
 exact labels (`Customer wants AWB?`, `Cancel override`, `W - Invalid claim`)
 that embeddings alone match poorly.
+
+Replies come in three kinds:
+
+- **Small talk** ("hi", "thanks", "bye", in English or Arabic) is answered at
+  once, without Gemini, naming a few materials the person can ask about.
+- **Chat** (e.g. "what can you do?") and **answers** come from Gemini, which
+  sees the names of the person's materials and the matching excerpts. Only
+  answers carry slide links.
+- **Not covered**: a real question the excerpts don't answer. The reply points
+  to the closest topics they do have, and the question is logged as a gap.
 
 ## Access control
 
