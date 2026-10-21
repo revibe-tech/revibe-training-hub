@@ -1,6 +1,7 @@
 import { getViewer, isStaff, listAllowedMaterials } from '@/lib/server/viewer';
 import { aiConfigured, embedTexts, generateJson } from '@/lib/server/ai';
 import { searchChunks, storeConfigured } from '@/lib/server/ragStore';
+import { keepStrong } from '@/lib/server/ragSearch';
 import { MATCH_COUNT_RANGE, MAX_INSTRUCTIONS, getRagSettings } from '@/lib/server/ragSettings';
 import { ANSWER_SCHEMA, buildContents, replyType, systemPrompt } from '@/lib/rag/prompt';
 import { baseMaterialId, isFixId, withFixIds } from '@/lib/rag/fix';
@@ -61,10 +62,10 @@ export async function POST(request) {
     const hits = await searchChunks({ embedding: vector, text: question, materialIds: withFixIds(materialIds), count: matchCount });
     const searched = Date.now();
     where = 'other';
-    const excerpts = hits.map((hit) => ({
+    const { kept, dropped } = keepStrong(hits.map((hit) => ({ ...hit, verified: isFixId(hit.material_id) })));
+    const excerpts = kept.map((hit) => ({
       ...hit,
       material_id: baseMaterialId(hit.material_id),
-      verified: isFixId(hit.material_id),
       materialName: byId.get(baseMaterialId(hit.material_id))?.name || 'Untitled material',
     }));
     if (!excerpts.length) {
@@ -78,12 +79,13 @@ export async function POST(request) {
     const cited = new Set(type === 'answer' ? result.citations || [] : []);
     return Response.json({
       ...base,
+      dropped,
       excerpts: excerpts.map((e, i) => ({
         n: i + 1, materialId: e.material_id, materialName: e.materialName, page: e.page, verified: e.verified,
         similarity: e.similarity, content: e.content, cited: cited.has(i + 1),
       })),
       prompt: { system, message: contents.at(-1).parts[0].text },
-      reply: { type, answer: String(result.answer || ''), citations: [...cited] },
+      reply: { type, answer: String(result.answer || ''), citations: [...cited], conflict: type === 'answer' ? String(result.conflict || '').trim() : '' },
       timings: { searchMs: searched - started, answerMs: Date.now() - searched },
     });
   } catch (err) {

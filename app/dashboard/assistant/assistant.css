@@ -293,3 +293,40 @@ p.as-page-text.is-empty { color: var(--text-muted); font-style: italic; }
   .as-fb-range { margin-left: 0; }
   .as-meter { display: none; }
 }
+
+/* Edit a page straight from one of its passages */
+.as-passage-edit { margin-left: auto; }
+.as-page.is-focus { border-color: var(--brand-purple); background: var(--bg-lavender); }
+
+/* Try a question: passages that contradict each other */
+.as-conflict {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  margin-top: 12px;
+  padding: 10px 12px;
+  border-radius: var(--radius-lg);
+  background: #FFF4E5;
+  color: #6B3D00;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.as-conflict .as-muted { margin: 4px 0 0; }
+
+/* Update a policy */
+.as-guide-steps { list-style: none; margin: var(--space-5) 0 0; padding: 0; display: flex; flex-direction: column; gap: var(--space-4); }
+.as-guide-step { display: grid; grid-template-columns: 28px minmax(0, 1fr); gap: 12px; }
+.as-guide-num {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--bg-lavender);
+  color: var(--brand-purple);
+  font-weight: 700;
+  font-size: 13px;
+}
+.as-guide-step h3 { display: flex; align-items: center; gap: 6px; margin: 3px 0 4px; font-size: 15px; }
+.as-guide-step h3 .material-icons { font-size: 18px; color: var(--text-muted); }
+.as-guide-step p { margin: 0 0 8px; color: var(--text-body); line-height: 1.55; }

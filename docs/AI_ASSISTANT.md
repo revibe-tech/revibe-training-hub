@@ -83,7 +83,10 @@ any device. If saving fails they can still go on, and they see it again next tim
    `supabase/migrations/20261023_assistant_admin.sql` (saves replies for Conversations and
    lets trainers change the instructions; until then both pages say so), then
    `supabase/migrations/20261024_assistant_feedback.sql` (answer ratings and trainers'
-   fixes; until then nobody is asked to rate).
+   fixes; until then nobody is asked to rate), then
+   `supabase/migrations/20261025_assistant_conflicts.sql` ("the material disagrees" flags on
+   Conversations; until then answers still warn, but nothing is saved).
+   Publish `firestore.rules` too: it lets the management team fix a material's page text.
 2. **Environment variables** (Vercel → Settings → Environment Variables, and `.env.local`). Never prefix them with `NEXT_PUBLIC_`.
 
    | Variable | Where to get it |

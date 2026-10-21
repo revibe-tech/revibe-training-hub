@@ -104,7 +104,7 @@ function AssistantGate() {
       </div>
     );
   }
-  return <AssistantView canEdit={isTrainer} />;
+  return <AssistantView canEdit />;
 }
 
 function AssistantView({ canEdit }) {
@@ -113,10 +113,14 @@ function AssistantView({ canEdit }) {
   const [summary, setSummary] = useState(null); // { rows, error }
   const [settings, setSettings] = useState(null); // { value, error }
   const [draft, setDraft] = useState(null); // { instructions, matchCount } being edited
-  const [panel, setPanel] = useState('knowledge');
+  // Conversations links here with ?guide=policy when the material disagrees with itself.
+  // (Mounted only after sign-in, so reading the URL here can't mismatch the server render.)
+  const [panel, setPanel] = useState(() => (new URLSearchParams(window.location.search).get('guide') === 'policy' ? 'guide' : 'knowledge'));
   const [tab, setTab] = useState('text');
   const [selectedId, setSelectedId] = useState(null);
   const [checking, setChecking] = useState(false);
+  const [seed, setSeed] = useState(null); // { q, n }: a search started from the policy guide
+  const searchFor = (q) => { setSelectedId(null); setPanel('knowledge'); setSeed((s) => ({ q, n: (s?.n || 0) + 1 })); };
   const [feedback, setFeedback] = useState(null); // { days, rows, ready, error }
   const [feedbackDays, setFeedbackDays] = useState(30);
   const [feedbackFilter, setFeedbackFilter] = useState('review');
@@ -217,17 +221,20 @@ function AssistantView({ canEdit }) {
       <main className="page as-page">
         <header className="page-header">
           <div className="page-header-text">
-            <span className="eyebrow">{canEdit ? 'Trainers and Management' : 'Management · read-only'}</span>
+            <span className="eyebrow">Trainers and Management</span>
             <h1 className="page-title">Assistant</h1>
-            <p className="page-subtitle">How the training assistant answers: what it reads, how it searches, what it’s told and what people say about its answers. Click a step to see{canEdit ? ' or change' : ''} it.</p>
+            <p className="page-subtitle">How the training assistant answers: what it reads, how it searches, what it’s told and what people say about its answers. Click a step to see or change it.</p>
           </div>
           <div className="page-header-actions">
+            <button type="button" className={`btn ${panel === 'guide' ? 'btn-dark' : 'btn-outline'}`} aria-pressed={panel === 'guide'} onClick={() => setPanel('guide')}>
+              <i className="material-icons" aria-hidden="true">menu_book</i> Update a policy
+            </button>
             {canEdit && (
               <button type="button" className="btn btn-outline" onClick={() => setChecking(true)} disabled={!materials}>
                 <i className="material-icons" aria-hidden="true">health_and_safety</i> Check the assistant
               </button>
             )}
-            <button type="button" className="btn btn-dark" onClick={() => setPanel('try')}>
+            <button type="button" className={`btn ${panel === 'try' ? 'btn-dark' : 'btn-outline'}`} aria-pressed={panel === 'try'} onClick={() => setPanel('try')}>
               <i className="material-icons" aria-hidden="true">science</i> Try a question
             </button>
           </div>
@@ -264,11 +271,14 @@ function AssistantView({ canEdit }) {
           ))}
         </nav>
 
+        <div hidden={panel !== 'guide'}>
+          <PolicyGuide onSearch={searchFor} onTry={() => setPanel('try')} onInstructions={() => setPanel('settings')} onFeedback={() => setPanel('feedback')} />
+        </div>
         <div hidden={panel !== 'knowledge'}>
           <KnowledgePanel
             rows={rows} loading={loading} stats={stats} canEdit={canEdit}
             tab={tab} setTab={setTab} selectedId={selectedId} setSelectedId={setSelectedId}
-            onMaterialChanged={onMaterialChanged} onIndexed={loadSummary} onOpenFixes={openFixes}
+            onMaterialChanged={onMaterialChanged} onIndexed={loadSummary} onOpenFixes={openFixes} seed={seed}
           />
         </div>
         <div hidden={panel !== 'settings'}>
@@ -321,7 +331,7 @@ function SaveBar({ label, onDiscard, onSave, saveLabel = 'Save', saving, disable
 
 /* ---- 1–3: materials, their page text and the passages in the database ---- */
 
-function KnowledgePanel({ rows, loading, stats, canEdit, tab, setTab, selectedId, setSelectedId, onMaterialChanged, onIndexed, onOpenFixes }) {
+function KnowledgePanel({ rows, loading, stats, canEdit, tab, setTab, selectedId, setSelectedId, onMaterialChanged, onIndexed, onOpenFixes, seed }) {
   const [filter, setFilter] = useState('');
   const [onlyAttention, setOnlyAttention] = useState(false);
   const [edits, setEdits] = useState({}); // { [materialId]: { [page]: text } }, unsaved
@@ -430,7 +440,7 @@ function KnowledgePanel({ rows, loading, stats, canEdit, tab, setTab, selectedId
             onReindex={() => runReindex(selected.material)}
           />
         ) : (
-          <DatabaseSearch names={names} stats={stats} loading={loading} onOpen={openPassage} />
+          <DatabaseSearch key={seed?.n || 0} names={names} stats={stats} loading={loading} onOpen={openPassage} seed={seed} />
         )}
       </section>
     </div>
@@ -440,6 +450,8 @@ function KnowledgePanel({ rows, loading, stats, canEdit, tab, setTab, selectedId
 function MaterialDetail({ row, canEdit, tab, setTab, edits, busy, focusId, onPageText, onDiscard, onSave, onReindex }) {
   const { material: m, indexed, status } = row;
   const pages = useMemo(() => pagesOf(m), [m]);
+  const [focusPage, setFocusPage] = useState(null); // page picked from a passage: "Edit page"
+  const editPage = (page) => { setFocusPage(page); setTab('text'); };
   const changed = Object.keys(edits || {}).length;
   return (
     <div className="panel as-material">
@@ -491,7 +503,7 @@ function MaterialDetail({ row, canEdit, tab, setTab, edits, busy, focusId, onPag
               const value = edits?.[page] ?? text;
               const clean = cleanPageText(value);
               return (
-                <li key={page} className={`as-page ${edits?.[page] !== undefined ? 'is-changed' : ''}`}>
+                <li key={page} ref={page === focusPage ? scrollIntoView : undefined} className={`as-page ${edits?.[page] !== undefined ? 'is-changed' : ''} ${page === focusPage ? 'is-focus' : ''}`}>
                   <div className="as-page-head">
                     <span className="as-page-num">Page {page}</span>
                     <span className="as-page-note">{!clean ? 'No text' : clean.length < 20 ? 'Too short to search' : `${clean.length.toLocaleString()} characters`}</span>
@@ -512,7 +524,7 @@ function MaterialDetail({ row, canEdit, tab, setTab, edits, busy, focusId, onPag
           </ol>
         </>
       ) : (
-        <Passages materialId={m.id} version={indexed?.indexedAt || 'none'} focusId={focusId} />
+        <Passages materialId={m.id} version={indexed?.indexedAt || 'none'} focusId={focusId} onEditPage={canEdit ? editPage : null} />
       )}
     </div>
   );
@@ -520,7 +532,7 @@ function MaterialDetail({ row, canEdit, tab, setTab, edits, busy, focusId, onPag
 
 const scrollIntoView = (el) => el?.scrollIntoView({ block: 'center', behavior: 'smooth' });
 
-function Passages({ materialId, version, focusId }) {
+function Passages({ materialId, version, focusId, onEditPage }) {
   const key = `${materialId}@${version}`;
   const [state, setState] = useState({ key: null, passages: [], error: '' });
   useEffect(() => {
@@ -544,6 +556,11 @@ function Passages({ materialId, version, focusId }) {
             <span className="badge badge-purple">Page {p.page}</span>
             <span>Passage {p.chunk_index + 1}</span>
             <span className="as-passage-size">{p.content.length.toLocaleString()} characters</span>
+            {onEditPage && (
+              <button type="button" className="btn btn-ghost btn-sm as-passage-edit" onClick={() => onEditPage(p.page)}>
+                <i className="material-icons" aria-hidden="true">edit</i> Edit page {p.page}
+              </button>
+            )}
           </div>
           <p>{p.content}</p>
         </li>
@@ -566,22 +583,27 @@ function Highlight({ text, term }) {
   return parts.map((part, i) => (i % 2 ? <mark key={i}>{part}</mark> : part));
 }
 
-function DatabaseSearch({ names, stats, loading, onOpen }) {
-  const [q, setQ] = useState('');
+function DatabaseSearch({ names, stats, loading, onOpen, seed }) {
+  const [q, setQ] = useState(seed?.q || '');
   const [result, setResult] = useState(null); // { q, passages, error }
-  const [busy, setBusy] = useState(false);
+  const [busy, setBusy] = useState(!!seed);
 
+  const fetchResult = useCallback((text) => searchKnowledge(text)
+    .then((r) => setResult({ q: text, passages: r.passages, error: '' }))
+    .catch((err) => setResult({ q: text, passages: [], error: err.message }))
+    .finally(() => setBusy(false)), []);
   const run = (e) => {
     e.preventDefault();
     const text = q.trim();
     if (text.length < 2) return;
     setBusy(true);
-    searchKnowledge(text)
-      .then((r) => setResult({ q: text, passages: r.passages, error: '' }))
-      .catch((err) => setResult({ q: text, passages: [], error: err.message }))
-      .finally(() => setBusy(false));
+    fetchResult(text);
   };
 
+  // Started from the policy guide: a new seed remounts this (key), busy from the start, and searches once.
+  useEffect(() => {
+    if (seed) fetchResult(seed.q);
+  }, [seed, fetchResult]);
   return (
     <div className="panel as-db">
       <h2 className="as-db-title"><i className="material-icons" aria-hidden="true">storage</i> The database</h2>
@@ -682,7 +704,6 @@ function SettingsPanel({ settings: s, error, draft, setDraft, dirty, canEdit, on
               </button>
             )}
           </div>
-          {!canEdit && <p className="as-muted">Only trainers can change this. You can still try questions with it.</p>}
           <details className="as-rules">
             <summary>Fixed reply rules, always added after the instructions</summary>
             <p className="as-muted">They keep sources, small talk and “not covered” working, so they can’t be changed here.</p>
@@ -818,7 +839,7 @@ function TryPanel({ materials, groups, draft, dirty }) {
             <p>{label(result.audience)}: can open {plural(result.materials, 'material')}.</p>
             <p className="as-muted">“{result.question}”{result.draft && <> · <span className="badge badge-purple">Unsaved instructions</span></>}</p>
           </TraceStep>
-          <TraceStep n={2} title="Search" meta={result.excerpts.length ? `${result.excerpts.length} of the top ${result.matchCount}${result.timings?.searchMs != null ? ` · ${result.timings.searchMs} ms` : ''}` : 'skipped'}>
+          <TraceStep n={2} title="Search" meta={result.excerpts.length ? `${result.excerpts.length} of the top ${result.matchCount}${result.dropped ? ` (${result.dropped} weak ${result.dropped === 1 ? 'match' : 'matches'} left out)` : ''}${result.timings?.searchMs != null ? ` · ${result.timings.searchMs} ms` : ''}` : 'skipped'}>
             {result.excerpts.length ? (
               <ol className="as-excerpts">
                 {result.excerpts.map((e) => {
@@ -862,9 +883,110 @@ function TryPanel({ materials, groups, draft, dirty }) {
             <span className={`badge ${kind.tone}`}>{kind.label}</span>
             <div className="as-reply"><AnswerText text={result.reply.answer} /></div>
             {result.reply.citations.length > 0 && <p className="as-muted">Quotes passages {result.reply.citations.map((n) => `[${n}]`).join(' ')}</p>}
+            {result.reply.conflict && (
+              <div className="as-conflict" role="note">
+                <i className="material-icons" aria-hidden="true">warning_amber</i>
+                <div>
+                  <b>The material disagrees with itself.</b> {result.reply.conflict}
+                  <p className="as-muted">Open the passages above, decide which one is right, then fix the other one: see “Update a policy”.</p>
+                </div>
+              </div>
+            )}
           </TraceStep>
         </ol>
       )}
+    </div>
+  );
+}
+
+/* ---- Guide: change what the assistant says about a policy ---- */
+
+const GUIDE = [
+  {
+    icon: 'search', title: 'Find every place it’s written',
+    text: 'Search for a word that’s in the policy: an amount, a deadline or its name (e.g. “14 days” or “refund”). A policy is often repeated in more than one material, and the assistant reads all of them.',
+  },
+  {
+    icon: 'edit_note', title: 'Open the page and change the text',
+    text: 'Click a result to see it in place, then “Edit page”. Change only what’s wrong, written the way you’d want an agent to read it. Use exact amounts and deadlines: the assistant keeps those word for word.',
+  },
+  {
+    icon: 'refresh', title: 'Save and re-index',
+    text: '“Save and re-index” stores the new text and makes the assistant re-read that material straight away. The material shows “Searchable” again when it’s done.',
+  },
+  {
+    icon: 'content_copy', title: 'Fix every copy',
+    text: 'Repeat for every result from step 1, so no two materials say different things. When they do, the assistant tells the agent to check with their trainer, and the reply shows on Conversations under “Conflicts”.',
+  },
+  {
+    icon: 'science', title: 'Test it',
+    text: 'Ask the question an agent would ask in “Try a question”, as the audience that will see it, and check the answer and which passages it used.',
+  },
+];
+
+function PolicyGuide({ onSearch, onTry, onInstructions, onFeedback }) {
+  const [q, setQ] = useState('');
+  const submit = (e) => {
+    e.preventDefault();
+    if (q.trim().length >= 2) onSearch(q.trim());
+  };
+  return (
+    <div className="as-settings">
+      <section className="panel as-card">
+        <h2><i className="material-icons" aria-hidden="true">menu_book</i> Update a policy</h2>
+        <p className="as-explain">
+          The assistant answers only from the text of your training material. To change what it says about a policy, change that text: there’s nothing to retrain.
+        </p>
+        <form className="as-db-form" onSubmit={submit}>
+          <label className="search-field as-db-search">
+            <i className="material-icons" aria-hidden="true">search</i>
+            <span className="sr-only">Find the policy</span>
+            <input type="search" placeholder="Find the policy, e.g. “refund” or “14 days”" value={q} onChange={(e) => setQ(e.target.value)} />
+          </label>
+          <button type="submit" className="btn btn-dark" disabled={q.trim().length < 2}>Find it</button>
+        </form>
+        <ol className="as-guide-steps">
+          {GUIDE.map((step, i) => (
+            <li key={step.title} className="as-guide-step">
+              <span className="as-guide-num" aria-hidden="true">{i + 1}</span>
+              <div>
+                <h3><i className="material-icons" aria-hidden="true">{step.icon}</i> {step.title}</h3>
+                <p>{step.text}</p>
+                {i === GUIDE.length - 1 && (
+                  <button type="button" className="btn btn-outline btn-sm" onClick={onTry}>
+                    <i className="material-icons" aria-hidden="true">science</i> Try a question
+                  </button>
+                )}
+              </div>
+            </li>
+          ))}
+        </ol>
+      </section>
+
+      <div className="as-side">
+        <section className="panel as-card">
+          <h2><i className="material-icons" aria-hidden="true">add_circle_outline</i> A new policy</h2>
+          <ul className="as-facts">
+            <li>If it belongs in an existing material, add it to the right page’s text (step 2). Update the slide too and replace the file in the Library, so people reading the material see it as well.</li>
+            <li>If it stands on its own, upload it to the Library as a new material, shared with the people it applies to. The assistant reads it automatically.</li>
+            <li>The assistant only uses material the person asking can open, so check who it’s shared with.</li>
+          </ul>
+        </section>
+        <section className="panel as-card">
+          <h2><i className="material-icons" aria-hidden="true">thumb_down</i> One answer was wrong</h2>
+          <p className="as-explain">When someone rates an answer Wrong, fix it in Feedback: the assistant uses your answer from then on. If the material itself is wrong, fix the page text too (steps 1–3), so the slide and the assistant agree.</p>
+          <button type="button" className="btn btn-outline btn-sm" onClick={onFeedback}>
+            <i className="material-icons" aria-hidden="true">thumbs_up_down</i> Open Feedback
+          </button>
+        </section>
+        <section className="panel as-card">
+          <h2><i className="material-icons" aria-hidden="true">tune</i> Rules for every answer</h2>
+          <p className="as-explain">Tone, language and things it must never say (e.g. “never promise a refund date”) belong in the Instructions, not in a material.</p>
+          <button type="button" className="btn btn-outline btn-sm" onClick={onInstructions}>
+            <i className="material-icons" aria-hidden="true">tune</i> Open Instructions
+          </button>
+        </section>
+      </div>
     </div>
   );
 }

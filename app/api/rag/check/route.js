@@ -1,4 +1,4 @@
-import { getViewer, listAllowedMaterials } from '@/lib/server/viewer';
+import { getViewer, isStaff, listAllowedMaterials } from '@/lib/server/viewer';
 import { AiError, aiConfigured, aiModels, embedTexts, generateJsonWith } from '@/lib/server/ai';
 import { indexedMaterialIds, searchChunks, storeConfigured } from '@/lib/server/ragStore';
 import { assistantProblem } from '@/lib/server/assistantErrors';
@@ -9,14 +9,14 @@ const fail = (status, error) => Response.json({ error }, { status });
 const PING_SCHEMA = { type: 'OBJECT', properties: { ok: { type: 'BOOLEAN' } }, required: ['ok'] };
 
 /**
- * Trainer only: try each part of the assistant for real and say which one is
+ * Trainers and Management: try each part of the assistant for real and say which one is
  * broken, and how to fix it.
  * Returns { checks: [{ id, label, ok, detail, fix? }], indexed: materialId[] }
  */
 export async function GET(request) {
   const viewer = await getViewer(request);
   if (!viewer) return fail(401, 'Sign in again to check the assistant.');
-  if (viewer.role !== 'trainer') return fail(403, 'Only trainers can check the assistant.');
+  if (!isStaff(viewer)) return fail(403, 'Only trainers and Management can check the assistant.');
 
   const checks = [];
   const pass = (id, label, detail) => checks.push({ id, label, ok: true, detail });

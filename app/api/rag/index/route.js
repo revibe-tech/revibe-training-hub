@@ -1,4 +1,4 @@
-import { getViewer } from '@/lib/server/viewer';
+import { getViewer, isStaff } from '@/lib/server/viewer';
 import { getDocument } from '@/lib/server/firestore';
 import { aiConfigured, embedTexts } from '@/lib/server/ai';
 import { deleteChunks, indexedMaterialIds, replaceChunks, storeConfigured } from '@/lib/server/ragStore';
@@ -9,20 +9,25 @@ export const maxDuration = 60;
 
 const fail = (status, error) => Response.json({ error }, { status });
 
-/** { viewer } for a signed-in trainer, otherwise { error } with the response to send. */
-async function trainerOrError(request) {
+/**
+ * { viewer } for a signed-in trainer (or, with `staff`, the management team too,
+ * who can fix a material's text and re-index it), otherwise { error } with the response to send.
+ */
+async function trainerOrError(request, { staff = false } = {}) {
   if (!aiConfigured() || !storeConfigured()) {
     return { error: fail(503, "The training assistant isn't set up yet (see docs/AI_ASSISTANT.md).") };
   }
   const viewer = await getViewer(request);
   if (!viewer) return { error: fail(401, 'Sign in again to update the assistant.') };
-  if (viewer.role !== 'trainer') return { error: fail(403, 'Only trainers can update the assistant.') };
+  if (viewer.role !== 'trainer' && !(staff && isStaff(viewer))) {
+    return { error: fail(403, staff ? 'Only trainers and Management can update the assistant.' : 'Only trainers can update the assistant.') };
+  }
   return { viewer };
 }
 
 /** Which materials the assistant can search: { indexed: [materialId] } */
 export async function GET(request) {
-  const { error } = await trainerOrError(request);
+  const { error } = await trainerOrError(request, { staff: true });
   if (error) return error;
 
   try {
@@ -36,7 +41,7 @@ export async function GET(request) {
 
 /** Re-read a material's extracted page text and replace its chunks. Body: { materialId } */
 export async function POST(request) {
-  const { viewer, error } = await trainerOrError(request);
+  const { viewer, error } = await trainerOrError(request, { staff: true });
   if (error) return error;
 
   const body = await request.json().catch(() => null);

@@ -105,8 +105,11 @@ service cloud.firestore {
       // Revibe staff + trainers read all; partners only materials tagged for them
       allow read: if canSeeAudiences(resource.data);
       
-      // Only trainers can create, update, or delete materials
+      // Only trainers can create, update, or delete materials. The management
+      // team may also correct the text the assistant reads (Assistant page).
       allow create, update, delete: if isTrainer();
+      allow update: if isRevibe() && myTeam() == 'management' &&
+                       request.resource.data.diff(resource.data).affectedKeys().hasOnly(['textContent', 'textEditedAt']);
     }
 
     // ============================================

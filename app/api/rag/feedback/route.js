@@ -18,12 +18,12 @@ const turnIdOf = (value) => {
   return Number.isSafeInteger(id) && id > 0 ? id : null;
 };
 
-/** { viewer } for a signed-in trainer, otherwise { error } with the response to send. */
+/** { viewer } for a signed-in trainer or Management, otherwise { error } with the response to send. */
 async function trainerOrError(request) {
   if (!storeConfigured()) return { error: fail(503, "The training assistant isn't set up yet (see docs/AI_ASSISTANT.md).") };
   const viewer = await getViewer(request);
   if (!viewer) return { error: fail(401, 'Sign in again.') };
-  if (viewer.role !== 'trainer') return { error: fail(403, 'Only trainers can review answers.') };
+  if (!isStaff(viewer)) return { error: fail(403, 'Only trainers and Management can review answers.') };
   return { viewer };
 }
 

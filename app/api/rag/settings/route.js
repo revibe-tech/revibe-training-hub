@@ -23,11 +23,11 @@ export async function GET(request) {
   return Response.json(payload(await getRagSettings({ fresh: true })));
 }
 
-/** Trainers: change them. Body: { instructions, matchCount } */
+/** Trainers and Management: change them. Body: { instructions, matchCount } */
 export async function PUT(request) {
   const viewer = await getViewer(request);
   if (!viewer) return fail(401, 'Sign in again.');
-  if (viewer.role !== 'trainer') return fail(403, 'Only trainers can change the assistant.');
+  if (!isStaff(viewer)) return fail(403, 'Only trainers and Management can change the assistant.');
   if (!storeConfigured()) return fail(503, "The training assistant isn't set up yet (see docs/AI_ASSISTANT.md).");
 
   const body = await request.json().catch(() => null);

@@ -26,8 +26,16 @@ const FILTERS = [
   { id: 'all', label: 'All' },
   { id: 'gaps', label: 'Not covered' },
   { id: 'wrong', label: 'Rated wrong' },
+  { id: 'conflicts', label: 'Conflicts' },
   { id: 'errors', label: 'Errors' },
 ];
+const MATCHES = {
+  all: () => true,
+  gaps: (r) => kindOf(r) === 'not_covered',
+  wrong: (r) => r.feedback === 'wrong',
+  conflicts: (r) => !!r.conflict,
+  errors: (r) => ['error', 'blocked'].includes(kindOf(r)),
+};
 const RATINGS = {
   accurate: { label: 'Rated accurate', tone: 'badge-success', icon: 'thumb_up' },
   wrong: { label: 'Rated wrong', tone: 'badge-danger', icon: 'thumb_down' },
@@ -112,7 +120,7 @@ function ConversationsView() {
   const visible = useMemo(() => {
     const q = query.trim().toLowerCase();
     return rows.filter((r) => (!selected || r.uid === selected)
-      && (filter === 'all' || (filter === 'gaps' ? kindOf(r) === 'not_covered' : filter === 'wrong' ? r.feedback === 'wrong' : ['error', 'blocked'].includes(kindOf(r))))
+      && MATCHES[filter](r)
       && (!q || r.question.toLowerCase().includes(q) || (r.answer || '').toLowerCase().includes(q)));
   }, [rows, selected, filter, query]);
 
@@ -140,11 +148,11 @@ function ConversationsView() {
 
   const person = selected ? people?.get(selected) : null;
   const exportCsv = () => downloadCsv(`assistant-conversations-${days}d.csv`, [
-    ['When', 'Name', 'Email', 'Question', 'Reply', 'Kind', 'Sources', 'Chat', 'Rating', 'Their correction', 'Trainer fix'],
+    ['When', 'Name', 'Email', 'Question', 'Reply', 'Kind', 'Sources', 'Chat', 'Rating', 'Their correction', 'Trainer fix', 'Conflict'],
     ...visible.map((r) => [
       r.created_at, nameOf(people?.get(r.uid), r.uid), people?.get(r.uid)?.email || '', r.question, r.answer || '', KINDS[kindOf(r)]?.label || kindOf(r),
       (r.source_material_ids || []).map((id) => materials.get(id)?.name || id).join('; '), r.session_id || '',
-      r.feedback || '', r.correction || '', r.review === 'fixed' ? r.review_answer || '' : '',
+      r.feedback || '', r.correction || '', r.review === 'fixed' ? r.review_answer || '' : '', r.conflict || '',
     ]),
   ]);
 
@@ -293,6 +301,12 @@ function Thread({ thread, who, materials, full, onPick }) {
                   : <p className="cv-a-missing">{full ? 'No reply was saved.' : 'Reply not saved (asked before replies were stored).'}</p>}
                 {r.feedback === 'wrong' && r.correction && (
                   <p className="cv-correction"><b>Their correction:</b> {r.correction}</p>
+                )}
+                {r.conflict && (
+                  <p className="cv-conflict">
+                    <i className="material-icons" aria-hidden="true">warning_amber</i>
+                    <span><b>The material disagrees:</b> {r.conflict} <Link href="/dashboard/assistant?guide=policy">Fix it on the Assistant page</Link></span>
+                  </p>
                 )}
                 {(r.source_material_ids || []).length > 0 && (
                   <div className="cv-sources">

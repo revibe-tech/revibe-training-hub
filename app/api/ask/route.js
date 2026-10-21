@@ -5,6 +5,7 @@ import { countQueriesSince, feedbackReady, indexedMaterialIds, logQuery, searchC
 import { baseMaterialId, isFixId, withFixIds } from '@/lib/rag/fix';
 import { ANSWER_SCHEMA, buildContents, replyType, systemPrompt } from '@/lib/rag/prompt';
 import { getRagSettings } from '@/lib/server/ragSettings';
+import { keepStrong, searchQuery } from '@/lib/server/ragSearch';
 import { smallTalkKind, smallTalkReply } from '@/lib/rag/smalltalk';
 import { assistantProblem, explain } from '@/lib/server/assistantErrors';
 
@@ -80,9 +81,6 @@ export async function POST(request) {
     ...row,
   });
   const log = (row) => after(() => save(row));
-  // Search with the previous question too, so follow-ups ("and if they don't pay?") find the right pages.
-  const previous = history.findLast((m) => m.role === 'user');
-  const searchText = previous ? `${previous.content}\n${question}` : question;
 
   // Where it failed, so trainers are told what to fix.
   let where = 'firestore';
@@ -100,11 +98,13 @@ export async function POST(request) {
       return Response.json({ answer, found: true, sources: [] });
     }
 
-    const [materials, [queryVector], settings] = await Promise.all([
+    // Follow-ups ("and if they don't pay?") are rewritten into a full question first.
+    const [materials, { text: searchText }, settings] = await Promise.all([
       listAllowedMaterials(viewer),
-      embedTexts([searchText], 'RETRIEVAL_QUERY'),
+      searchQuery(question, history),
       getRagSettings(),
     ]);
+    const [queryVector] = await embedTexts([searchText], 'RETRIEVAL_QUERY');
     if (!materials.length) {
       log({ answered: false, answer: NOTHING_SHARED, reply_type: 'not_covered' });
       return Response.json({ answer: NOTHING_SHARED, found: false, sources: [] });
@@ -116,12 +116,12 @@ export async function POST(request) {
     // Trainers' fixes for earlier wrong answers are searched with their material.
     const hits = await searchChunks({ embedding: queryVector, text: searchText, materialIds: withFixIds(materialIds), count: settings.matchCount });
     where = 'other';
-    const excerpts = hits.map((hit) => {
+    const { kept } = keepStrong(hits.map((hit) => ({ ...hit, verified: isFixId(hit.material_id) })));
+    const excerpts = kept.map((hit) => {
       const material = byId.get(baseMaterialId(hit.material_id));
       return {
         ...hit,
         material_id: baseMaterialId(hit.material_id),
-        verified: isFixId(hit.material_id),
         materialName: material?.name || 'Untitled material',
         kind: material?.kind || null,
       };
@@ -156,7 +156,9 @@ export async function POST(request) {
     }
 
     const answer = String(result.answer || NOT_COVERED);
-    const row = { answered: found, answer, reply_type: type, source_material_ids: [...new Set(sources.map((s) => s.materialId))] };
+    // The excerpts disagreed: shown on Conversations so a trainer fixes the material.
+    const conflict = type === 'answer' && String(result.conflict || '').trim() ? String(result.conflict).trim().slice(0, 500) : null;
+    const row = { answered: found, answer, reply_type: type, conflict, source_material_ids: [...new Set(sources.map((s) => s.materialId))] };
     // Answers from the material (and "not covered" after searching it) are rated
     // Accurate or Wrong, so the turn is saved first and its id goes back.
     if (excerpts.length && type !== 'chat' && await feedbackReady()) {
