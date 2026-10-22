@@ -14,7 +14,7 @@ service cloud.firestore {
     
     function isTrainer() {
       return isSignedIn() &&
-             (request.auth.token.email == 'youssf.rehem@revibe.me' ||
+             (request.auth.token.email in ['youssf.rehem@revibe.me', 'mohamed.abdallah@revibe.me'] ||
               (exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
                get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'trainer'));
     }
@@ -35,7 +35,7 @@ service cloud.firestore {
       return get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('partnerType', '');
     }
 
-    // Revibe team ('tickets' / 'inbound' / 'claims' / 'operations' /
+    // Revibe team ('tickets' / 'inbound' / 'claims' / 'operations' / 'kam' /
     // 'management'), set by trainers only.
     function myTeam() {
       return get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('team', '');
@@ -46,7 +46,8 @@ service cloud.firestore {
       return get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('groups', []);
     }
 
-    // Trainers and the management team see everything. Other Revibe agents
+    // Trainers and the management team see everything. The KAM team sees
+    // only docs tagged 'kam'. Other Revibe agents
     // see docs tagged 'revibe' (or legacy docs with no tags, which meant
     // Revibe-only); partners see docs whose `audiences` include their
     // partner type. Anyone also sees docs shared with one of their groups
@@ -54,7 +55,8 @@ service cloud.firestore {
     function canSeeAudiences(data) {
       return isTrainer() ||
              (isRevibe() && myTeam() == 'management') ||
-             (isRevibe() && ('revibe' in data.get('audiences', []) || data.get('audiences', []).size() == 0)) ||
+             (isRevibe() && myTeam() == 'kam' && 'kam' in data.get('audiences', [])) ||
+             (isRevibe() && myTeam() != 'kam' && ('revibe' in data.get('audiences', []) || data.get('audiences', []).size() == 0)) ||
              (isSignedIn() && !isRevibe() && myPartnerType() in data.get('audiences', [])) ||
              (isSignedIn() && ('user:' + request.auth.uid) in data.get('audiences', [])) ||
              (isSignedIn() && data.get('audiences', []).hasAny(myGroups()));
@@ -74,7 +76,7 @@ service cloud.firestore {
                        !('team' in request.resource.data) &&
                        !('groups' in request.resource.data) &&
                        (request.resource.data.get('role', 'trainee') == 'trainee' ||
-                        request.auth.token.email == 'youssf.rehem@revibe.me') &&
+                        request.auth.token.email in ['youssf.rehem@revibe.me', 'mohamed.abdallah@revibe.me']) &&
                        request.resource.data.get('partnerType', 'seller') in ['seller', 'repair'];
       
       // Trainers can update any user's profile (including role/promotions).
