@@ -1,0 +1,819 @@
+{
+  "summary": "Part 1 of 2 of the Revibe training video '8.0 Warranties - Issues (Seller & KAMs)' (00:00-03:29 of 06:37). It covers the four-step warranty claim process: who repairs (within 1 year with no misuse declared, the original seller; after 1 year or a misuse declaration, the Revibe Repair Partner); finding claims in the Admin app under Claim Management views (R, W, WR); the claim page (seller policy timer, Tracker, Claim Details, attachments); steps 1-2 handled by Revibe; step 3 pickup (AWB creation differs by country; collection failed routing); step 4 seller action (mark Valid or Invalid under QC, Repair finished, ship-back costs, delivery failed). All 40 frames were opened. Frame t00000 is black; frame t00001 is the title card 'The warranty process'. Speech-recognition errors were corrected from the screens (WABLE to AWB, Revive to Revibe, Weibo to AWB, 'way bill' to AWB, Edit, Delivery failed). Part 2 is not covered here.",
+  "frames_opened": 40,
+  "steps": [
+    {
+      "at": "00:00-00:30",
+      "screen": "Revibe warranty process overview slide (frames t00008.jpg, t00013.jpg)",
+      "action": "Trainer presents the four-step warranty claim process and who repairs. The overview slide shows steps 1 Customer raise claim, 2 Revibe Agent Check, 3 Pickup (ACTION REQUIRED IF SA), 4 Seller action.",
+      "evidence": [
+        {"kind": "say", "at": "00:07", "quote": "Every warranty claim follows these four steps."},
+        {"kind": "see", "at": "00:14", "frame": "t00013.jpg", "quote": "Who repairs? Within 1 year & no misuse -> original seller; after 1 year or misuse declared by the customer -> Revibe Repair Partner (Revibe Care+, page 3)"}
+      ],
+      "says": "Within one year, with no misuse, the original seller covers the warranty.",
+      "why": ""
+    },
+    {
+      "at": "00:30-00:34",
+      "screen": "Admin app Orders page, left menu (frames t00030.jpg, t00034.jpg)",
+      "action": "Trainer points at Claim Management in the Admin app left menu, and the sub-menu of views opens.",
+      "evidence": [
+        {"kind": "say", "at": "00:32", "quote": "In the left menu, scroll down to Claim Management."},
+        {"kind": "see", "at": "00:30", "frame": "t00030.jpg", "quote": "Orders page; left menu item 'Claim Mana...' with caption 'Claim Management, in the left menu'"}
+      ],
+      "says": "In the left menu, scroll down to Claim Management.",
+      "why": ""
+    },
+    {
+      "at": "00:36-00:44",
+      "screen": "Claim Management sub-menu of views (frames t00036.jpg, t00042.jpg)",
+      "action": "Trainer hovers over view names in the Claim Management sub-menu; tooltips show 'WR - Pending to create' (t00036) and 'R - Collection failed' (t00042).",
+      "evidence": [
+        {"kind": "say", "at": "00:36", "quote": "Each view is one task."},
+        {"kind": "say", "at": "00:38", "quote": "The first letters tell you what's inside, are for returns, W for warranties {and?} {WR?} for both."},
+        {"kind": "see", "at": "00:36", "frame": "t00036.jpg", "quote": "Caption 'R · W · WR: one view per task'; tooltip 'WR - Pending to create' on the WR - Pending To C... entry"},
+        {"kind": "see", "at": "00:42", "frame": "t00042.jpg", "quote": "Caption 'R · W · WR: one view per task'; tooltip 'R - Collection failed'"}
+      ],
+      "says": "Each view is one task.",
+      "why": ""
+    },
+    {
+      "at": "00:44-00:50",
+      "screen": "Claim Management view list and claims table (frames t00044.jpg, t00050.jpg)",
+      "action": "Trainer says views can change but claims stay in them, then opens a view to see its claims.",
+      "evidence": [
+        {"kind": "say", "at": "00:44", "quote": "Views may change over time, but your claims are always there."},
+        {"kind": "say", "at": "00:48", "quote": "Open a view to see its claims, claim ID, date, order and subtype."}
+      ],
+      "says": "Open a view to see its claims, claim ID, date, order and subtype.",
+      "why": ""
+    },
+    {
+      "at": "00:51-00:58",
+      "screen": "Claims table (frames t00051.jpg, t00055.jpg)",
+      "action": "Trainer shows the claims table with its Subtype and Issue columns, says what a warranty is, then tells the viewer to click a claim.",
+      "evidence": [
+        {"kind": "say", "at": "00:53", "quote": "A warranty is either an issue with the device or a wrong device."},
+        {"kind": "say", "at": "00:58", "quote": "Click a claim to open it."},
+        {"kind": "see", "at": "00:51", "frame": "t00051.jpg", "quote": "Rows with Type 'Warranty' and Subtype 'Wrong device' (Issue 'I received the wrong device') or 'Issue' (Issue 'The device is not working as expected')"}
+      ],
+      "says": "A warranty is either an issue with the device or a wrong device.",
+      "why": ""
+    },
+    {
+      "at": "01:00-01:13",
+      "screen": "Claim panel for NUVE086 and Claim Tracker modal (frames t00062.jpg, t00068.jpg)",
+      "action": "Trainer shows the policy timer banner at the top of the claim (Seller policy timer: 8 days left (paused)), then opens the Tracker modal, which lists the ten stages with Claim Created marked done.",
+      "evidence": [
+        {"kind": "say", "at": "01:00", "quote": "At the top, the policy timer shows how many days you have left and the tracker shows where the claim is in its journey."},
+        {"kind": "say", "at": "01:07", "quote": "Here's the tracker, every stage, from claim created to delivered."},
+        {"kind": "see", "at": "01:02", "frame": "t00062.jpg", "quote": "Claim # NUVE086 Open; banner 'Seller policy timer: 8 days left (paused)'; buttons 'Edit' and 'Tracker'"},
+        {"kind": "see", "at": "01:08", "frame": "t00068.jpg", "quote": "Claim Tracker modal: ten stages Claim Created 14 Oct 2026 11:17 AM, Pending Collection, Under Collection, In Transit, Under QC, Under Repair, To Ship Back, Ship Back Under Collection, Shipped Back, Delivered; only Claim Created has a green tick"}
+      ],
+      "says": "At the top, the policy timer shows how many days you have left and the tracker shows where the claim is in its journey.",
+      "why": ""
+    },
+    {
+      "at": "01:13-01:19",
+      "screen": "Claim Details panel (frames t00071.jpg, t00076.jpg, t00080.jpg)",
+      "action": "Trainer says the customer's issue and description are in the view details (here, a flickering screen), then points to the attachments panel.",
+      "evidence": [
+        {"kind": "say", "at": "01:13", "quote": "Open view details to read the customer's issue and description, here, a flickering screen."},
+        {"kind": "say", "at": "01:19", "quote": "The customer's photos or videos are in the attachments."},
+        {"kind": "see", "at": "01:20", "frame": "t00080.jpg", "quote": "Claim Details: Description 'Screen is flickering all the time'; Attachments panel 'Drop or Select file' on the right"}
+      ],
+      "says": "The customer's photos or videos are in the attachments.",
+      "why": ""
+    },
+    {
+      "at": "01:24-01:35",
+      "screen": "Revibe warranty process slides, steps 1-2 (frames t00084.jpg, t00085.jpg)",
+      "action": "Trainer explains that steps 1 and 2 need no action from the seller.",
+      "evidence": [
+        {"kind": "say", "at": "01:24", "quote": "Steps 1 and 2 need nothing from you."},
+        {"kind": "say", "at": "01:26", "quote": "The customer raises the claim from my account and a {revive?} agent checks it, asks for missing documents,"},
+        {"kind": "see", "at": "01:24", "frame": "t00084.jpg", "quote": "Caption 'Steps 1-2: no action for you'; Step 1 'NO ACTION REQUIRED' card"},
+        {"kind": "see", "at": "01:25", "frame": "t00085.jpg", "quote": "Step 1 'The customer raises a warranty claim through the My Account section on Revibe. Status: Pending (Revibe team to review)'; Step 2 'Revibe Agent Check'"}
+      ],
+      "says": "Steps 1 and 2 need nothing from you.",
+      "why": ""
+    },
+    {
+      "at": "01:35-01:41",
+      "screen": "Claim NUVE086 after info complete, and its Claim Tracker (frames t00095.jpg, t00097.jpg, t00099.jpg)",
+      "action": "Trainer shows the claim now at Stage Under collection, then opens the tracker, where Claim Created, Pending Collection and Under Collection are ticked with dates.",
+      "evidence": [
+        {"kind": "say", "at": "01:35", "quote": "Once the information is complete, the claim moves to under collection and the tracker updates."},
+        {"kind": "see", "at": "01:37", "frame": "t00097.jpg", "quote": "Caption 'Info complete -> Under collection'; Statuses Stage: Under collection, Type: Warranty, Subtype: Issue"},
+        {"kind": "see", "at": "01:39", "frame": "t00099.jpg", "quote": "Claim Tracker: Claim Created 14 Oct 2026 11:17 AM, Pending Collection 14 Oct 2026 11:47 AM, Under Collection 14 Oct 2026 11:47 AM ticked; In Transit, Under QC and later stages not ticked"}
+      ],
+      "says": "Once the information is complete, the claim moves to under collection and the tracker updates.",
+      "why": ""
+    },
+    {
+      "at": "01:41-02:03",
+      "screen": "Claim NUVE086, Pickup Tracking Information section (frames t00104.jpg, t00111.jpg)",
+      "action": "Trainer scrolls to Pickup Tracking Information, which shows the automatically created pickup tracking data, and the slide explains AWB creation by country.",
+      "evidence": [
+        {"kind": "say", "at": "01:41", "quote": "Scroll down to pick up tracking information."},
+        {"kind": "see", "at": "01:44", "frame": "t00104.jpg", "quote": "Pickup Tracking Information: Pickup Tracking Company 'Quiqup', Pickup Tracking ID 27242282, caption 'Pickup tracking, created automatically'"},
+        {"kind": "say", "at": "01:52", "quote": "In the UAE and South Africa, Revive creates the WABLE automatically."},
+        {"kind": "see", "at": "01:51", "frame": "t00111.jpg", "quote": "Slide step 3 Pickup: 'AE & ZA: AWB auto-created - moves to Under Collection immediately'; 'SA: Seller to create the AWB manually'"}
+      ],
+      "says": "Scroll down to pick up tracking information.",
+      "why": ""
+    },
+    {
+      "at": "01:58-02:09",
+      "screen": "Slide: pickup step and collection failed routing (frames t00111.jpg, t00124.jpg)",
+      "action": "Trainer explains In Transit after pickup and what happens if the customer does not hand over the device.",
+      "evidence": [
+        {"kind": "say", "at": "01:58", "quote": "Once the courier collects the device, the claim is in transit."},
+        {"kind": "say", "at": "02:03", "quote": "If the customer doesn't hand over the device, {its?} collection failed, the agent offers a new WABLE, or"},
+        {"kind": "see", "at": "02:04", "frame": "t00124.jpg", "quote": "Collection failed (the customer doesn't hand over the device): Agent asks the customer if they want a new AWB; Yes -> new AWB (auto for AE & ZA, manual by the seller for SA) -> Under collection again; No -> Cancelled"}
+      ],
+      "says": "Once the courier collects the device, the claim is in transit.",
+      "why": ""
+    },
+    {
+      "at": "02:11-02:23",
+      "screen": "Collection failed claim NUVE086 and its tracker (frames t00132.jpg, t00138.jpg, t00143.jpg)",
+      "action": "Trainer opens a collection failed claim (Stage Collection failed), shows the tracker with Collection Failed 14 Oct 2026 11:57 AM, then shows the new Pickup Tracking ID and label link.",
+      "evidence": [
+        {"kind": "say", "at": "02:11", "quote": "Here's a collection failed claim."},
+        {"kind": "say", "at": "02:13", "quote": "Revive contacts the customer to check the address or timing and books a new {pick?}-up if they"},
+        {"kind": "say", "at": "02:20", "quote": "The claim then goes back to under collection with a new pick-up ID and Weibo."},
+        {"kind": "see", "at": "02:18", "frame": "t00138.jpg", "quote": "Claim Tracker: Claim Created, Pending Collection, Under Collection, In Transit ticked; Collection Failed 14 Oct 2026 11:57 AM"},
+        {"kind": "see", "at": "02:23", "frame": "t00143.jpg", "quote": "Caption 'New pickup ID & waybill'; Pickup Tracking ID 27242445; label link ends 1791965123019-awb_document.pdf"}
+      ],
+      "says": "The claim then goes back to under collection with a new pick-up ID and Weibo.",
+      "why": ""
+    },
+    {
+      "at": "02:26-02:37",
+      "screen": "Slide step 4 and claim SJRS808 Open (frames t00147.jpg, t00155.jpg)",
+      "action": "Trainer explains that step 4 is the seller's, then points to the Mark valid and Mark invalid buttons at the top of the claim in the portal.",
+      "evidence": [
+        {"kind": "say", "at": "02:27", "quote": "When the device reaches you, the claim shows under QC."},
+        {"kind": "say", "at": "02:31", "quote": "Inspect it, then mark it valid or invalid."},
+        {"kind": "see", "at": "02:31", "frame": "t00147.jpg", "quote": "Step 4 'Seller action': 'Once the Courier Company delivers the seller can see the claim which status becomes Under QC. Two options: Mark VALID / Mark INVALID'"},
+        {"kind": "say", "at": "02:37", "quote": "Mark valid and mark invalid are right at the top."},
+        {"kind": "see", "at": "02:35", "frame": "t00155.jpg", "quote": "Claim # SJRS808, status Open; buttons 'Mark valid' and 'Mark invalid' at top left of the button row; Edit and Tracker at top right; Seller policy timer: 8 days left"}
+      ],
+      "says": "When the device reaches you, the claim shows under QC.",
+      "why": ""
+    },
+    {
+      "at": "02:41-02:43",
+      "screen": "Seller Decision Under QC slides (frames t00161.jpg, t00162.jpg)",
+      "action": "Trainer describes the valid path: repair the device; the claim stays under Repair until Repair Finished, then it is shipped back.",
+      "evidence": [
+        {"kind": "say", "at": "02:41", "quote": "If the claim is valid, repair the device."},
+        {"kind": "say", "at": "02:43", "quote": "It stays under Repair until you click Repair Finished, then it's shipped back to the customer."},
+        {"kind": "see", "at": "02:42", "frame": "t00162.jpg", "quote": "VALID - Repair & Ship Back: 'Under repair -> seller clicks Repair finished'; 'Ship back under collection -> Shipped back -> Delivered'"}
+      ],
+      "says": "It stays under Repair until you click Repair Finished, then it's shipped back to the customer.",
+      "why": ""
+    },
+    {
+      "at": "02:49-02:55",
+      "screen": "Claim SJRS808, Repair finished button (frames t00169.jpg, t00173.jpg)",
+      "action": "Trainer points at the Repair finished button on the claim button row; one click moves the claim to Ship Back under Collection.",
+      "evidence": [
+        {"kind": "say", "at": "02:49", "quote": "Here's the Repair Finished button."},
+        {"kind": "say", "at": "02:51", "quote": "One click, and the claim moves to Ship Back under Collection."},
+        {"kind": "see", "at": "02:49", "frame": "t00169.jpg", "quote": "Caption 'Click Repair finished'; cursor on the 'Repair finished' button in the claim button row"},
+        {"kind": "see", "at": "02:53", "frame": "t00173.jpg", "quote": "Tooltip 'Repair finished' shown over the same button"}
+      ],
+      "says": "One click, and the claim moves to Ship Back under Collection.",
+      "why": ""
+    },
+    {
+      "at": "02:55-03:12",
+      "screen": "Slide Ship-Back cost and Claim SJRS808 Shipback Tracking Information (frames t00176.jpg, t00187.jpg)",
+      "action": "Trainer explains who creates and pays the ship-back AWB by country. For Saudi orders, the seller clicks Edit and types the ship-back tracking number and label link.",
+      "evidence": [
+        {"kind": "say", "at": "02:57", "quote": "In Saudi Arabia, you create and pay the {way?} bill."},
+        {"kind": "say", "at": "02:59", "quote": "In the UAE in South Africa, Revive creates it and deducts 30 dirhams."},
+        {"kind": "say", "at": "03:06", "quote": "For Saudi orders, click {Edit?} and enter the tracking number and label link yourself."},
+        {"kind": "see", "at": "02:56", "frame": "t00176.jpg", "quote": "SHIP-BACK COST: 'SA: seller creates and pays the AWB'; 'AE & ZA: AWB by Revibe · 30 AED deducted from the seller'"},
+        {"kind": "see", "at": "03:07", "frame": "t00187.jpg", "quote": "Caption 'Saudi: enter the ship-back AWB'; buttons Save and Cancel; Shipback Tracking ID 27261924; Shipback Tracking Company Quiqup; Shipback Tracking Label Link and Shipback Tracking Link fields"}
+      ],
+      "says": "For Saudi orders, click {Edit?} and enter the tracking number and label link yourself.",
+      "why": ""
+    },
+    {
+      "at": "03:12-03:24",
+      "screen": "Slide Delivery failed and claim NUVE086 in Delivery failed (frames t00192.jpg, t00200.jpg)",
+      "action": "Trainer explains the failed delivery routing and shows the claim status in the app.",
+      "evidence": [
+        {"kind": "say", "at": "03:12", "quote": "If the customer refuses the delivery, the agent offers a new attempt, paid by you."},
+        {"kind": "say", "at": "03:17", "quote": "If they decline, the device is disposed."},
+        {"kind": "say", "at": "03:20", "quote": "In the app, a failed delivery waits at {delivery?} failed."},
+        {"kind": "say", "at": "03:24", "quote": "If the customer wants a new attempt, they have about 48 hours to accept it."},
+        {"kind": "see", "at": "03:12", "frame": "t00192.jpg", "quote": "'Delivery failed' box: 'The customer refuses the delivery -> Delivery failed'; 'Yes -> seller pays a new AWB -> Ship back under collection'; 'No -> Device disposed'"},
+        {"kind": "see", "at": "03:20", "frame": "t00200.jpg", "quote": "Claim # NUVE086 Active; Statuses Stage 'Delivery failed'; Valid Claim? 'Invalid claim'; Credit From Customer Status 'Credited'"}
+      ],
+      "says": "If the customer refuses the delivery, the agent offers a new attempt, paid by you.",
+      "why": ""
+    }
+  ],
+  "facts": [
+    {
+      "type": "rule",
+      "statement": "Within 1 year with no misuse declared, the original seller covers the warranty and repairs the device.",
+      "evidence": [
+        {"kind": "say", "at": "00:14", "quote": "Within one year, with no misuse, the original seller covers the warranty."},
+        {"kind": "see", "at": "00:14", "frame": "t00013.jpg", "quote": "ORIGINAL SELLER: 'Within 1 year, no misuse declared. The seller inspects the device and identifies the issue (page 2).'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "After 1 year, or if the customer declares misuse, the Revibe Repair Partner takes the device and the original seller does not see the claim.",
+      "evidence": [
+        {"kind": "say", "at": "00:18", "quote": "After one year, or if the customer declares misuse, the Revibe repair partner takes it, and the original"},
+        {"kind": "say", "at": "00:24", "quote": "seller doesn't see the claim."},
+        {"kind": "see", "at": "00:14", "frame": "t00013.jpg", "quote": "REVIBE REPAIR PARTNER · RC+: 'After 1 year, or the customer declares misuse. The original seller doesn't see the claim (page 3).'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Warranty claims are handled in the Admin app, in the same place as return claims.",
+      "evidence": [
+        {"kind": "say", "at": "00:27", "quote": "Warranty claims are handled in the Admin app, in the same place as your return claims."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "To find claims, go to the Admin app left menu and scroll down to Claim Management.",
+      "evidence": [
+        {"kind": "say", "at": "00:32", "quote": "In the left menu, scroll down to Claim Management."},
+        {"kind": "see", "at": "00:30", "frame": "t00030.jpg", "quote": "Left menu item 'Claim Mana...' with caption 'Claim Management, in the left menu'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Claim Management views use letter prefixes: R for returns, W for warranties, WR for both. Each view holds one task.",
+      "evidence": [
+        {"kind": "say", "at": "00:36", "quote": "Each view is one task."},
+        {"kind": "say", "at": "00:38", "quote": "The first letters tell you what's inside, are for returns, W for warranties {and?} {WR?} for both."},
+        {"kind": "see", "at": "00:42", "frame": "t00042.jpg", "quote": "Caption 'R · W · WR: one view per task'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "Views may change over time, but a seller's claims are always in them.",
+      "evidence": [
+        {"kind": "say", "at": "00:44", "quote": "Views may change over time, but your claims are always there."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "A view's claims table shows Seller Elapsed Hours, Claim ID, Claim Date, Order Help, Type, Subtype, Issue and Since creation columns, with a 'Blank (33)' group row at the top.",
+      "evidence": [
+        {"kind": "see", "at": "00:51", "frame": "t00051.jpg", "quote": "Column headers: Seller Elapsed Ho..., Claim ID, Claim Date, Order Help, Type, Subtype, Issue, Since creation; group 'Blank (33)'"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "A warranty claim is either an issue with the device (Subtype 'Issue') or a wrong device (Subtype 'Wrong device').",
+      "evidence": [
+        {"kind": "say", "at": "00:53", "quote": "A warranty is either an issue with the device or a wrong device."},
+        {"kind": "see", "at": "00:51", "frame": "t00051.jpg", "quote": "Subtype 'Wrong device' with Issue 'I received the wrong device'; Subtype 'Issue' with Issue 'The device is not working as expected'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The top of a claim shows a 'Seller policy timer: N days left' banner (for example 8 days left, shown as paused on NUVE086) and a Tracker button.",
+      "evidence": [
+        {"kind": "say", "at": "01:00", "quote": "At the top, the policy timer shows how many days you have left and the tracker shows where"},
+        {"kind": "see", "at": "01:02", "frame": "t00062.jpg", "quote": "Banner 'Seller policy timer: 8 days left (paused)'; button 'Tracker'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "The Tracker shows the claim's journey through these stages in order: Claim Created, Pending Collection, Under Collection, In Transit, Under QC, Under Repair, To Ship Back, Ship Back Under Collection, Shipped Back, Delivered.",
+      "evidence": [
+        {"kind": "say", "at": "01:07", "quote": "Here's the tracker, every stage, from claim created to delivered."},
+        {"kind": "see", "at": "01:08", "frame": "t00068.jpg", "quote": "Claim Tracker stage list: Claim Created, Pending Collection, Under Collection, In Transit, Under QC, Under Repair, To Ship Back, Ship Back Under Collection, Shipped Back, Delivered"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "To read the customer's issue and description, open the claim's view details; the description and issue fields appear in the Claim Details panel, and the customer's photos or videos are in the Attachments panel.",
+      "evidence": [
+        {"kind": "say", "at": "01:13", "quote": "Open view details to read the customer's issue and description, here, a flickering screen."},
+        {"kind": "say", "at": "01:19", "quote": "The customer's photos or videos are in the attachments."},
+        {"kind": "see", "at": "01:20", "frame": "t00080.jpg", "quote": "Description: 'Screen is flickering all the time'; Attachments panel 'Drop or Select file' on the right"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Before the information is complete, a new claim shows Stage 'Form received' and the customer-facing explanation 'We've received your warranty claim. Next we'll arrange to collect the device for repair.'",
+      "evidence": [
+        {"kind": "see", "at": "01:16", "frame": "t00076.jpg", "quote": "Statuses: Stage 'Form received', Internal Stage 'Form received'; Explanation To Show: 'We've received your warranty claim. Next we'll arrange to collect the device for repair.'"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Steps 1 and 2 of the warranty process (customer raises the claim, Revibe agent check) need no action from the seller.",
+      "evidence": [
+        {"kind": "say", "at": "01:24", "quote": "Steps 1 and 2 need nothing from you."},
+        {"kind": "see", "at": "01:24", "frame": "t00084.jpg", "quote": "Caption 'Steps 1-2: no action for you'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Step 1: the customer raises a warranty claim through the My Account section on Revibe; the status is Pending (Revibe team to review).",
+      "evidence": [
+        {"kind": "see", "at": "01:25", "frame": "t00085.jpg", "quote": "'The customer raises a warranty claim through the My Account section on Revibe. Status: Pending (Revibe team to review)'"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Step 2: the Revibe agent checks the claim info. Missing documents are requested from the customer; if not provided, the claim is Cancelled. Once complete, the repair supplier is assigned and the status is Pending Collection.",
+      "evidence": [
+        {"kind": "see", "at": "01:25", "frame": "t00085.jpg", "quote": "'The agent checks the claim info. Missing documents -> requested from the customer; not provided -> Cancelled. Once complete, the repair supplier is assigned. Status: Pending Collection'"},
+        {"kind": "say", "at": "01:26", "quote": "The customer raises the claim from my account and a {revive?} agent checks it, asks for missing documents,"},
+        {"kind": "say", "at": "01:32", "quote": "then assigns the repairer."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Once the information is complete, the claim moves to Under Collection and the tracker updates.",
+      "evidence": [
+        {"kind": "say", "at": "01:35", "quote": "Once the information is complete, the claim moves to under collection and the tracker updates."},
+        {"kind": "see", "at": "01:37", "frame": "t00097.jpg", "quote": "Caption 'Info complete -> Under collection'; Stage: Under collection"},
+        {"kind": "see", "at": "01:39", "frame": "t00099.jpg", "quote": "Tracker: Pending Collection and Under Collection ticked with 14 Oct 2026 11:47 AM"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "AWB creation depends on the country: for AE (UAE) and ZA (South Africa) orders the AWB is created automatically by Revibe and the claim moves to Under Collection immediately; for SA (Saudi Arabia) the seller creates the AWB manually.",
+      "evidence": [
+        {"kind": "say", "at": "01:52", "quote": "In the UAE and South Africa, Revive creates the WABLE automatically."},
+        {"kind": "say", "at": "01:56", "quote": "In Saudi Arabia, you create it."},
+        {"kind": "see", "at": "01:51", "frame": "t00111.jpg", "quote": "'AE & ZA: AWB auto-created - moves to Under Collection immediately'; 'SA: Seller to create the AWB manually'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Once the courier collects the device from the customer, the claim is In Transit.",
+      "evidence": [
+        {"kind": "say", "at": "01:58", "quote": "Once the courier collects the device, the claim is in transit."},
+        {"kind": "see", "at": "01:51", "frame": "t00111.jpg", "quote": "'Once picked up from the customer -> In Transit'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Pickup tracking information (label link, company, tracking link, tracking ID) is created automatically on the claim, shown in the Pickup Tracking Information section.",
+      "evidence": [
+        {"kind": "say", "at": "01:41", "quote": "Scroll down to pick up tracking information."},
+        {"kind": "see", "at": "01:44", "frame": "t00104.jpg", "quote": "Caption 'Pickup tracking, created automatically'; fields Pickup Tracking Label Link, Pickup Tracking Company (Quiqup), Pickup Tracking Link, Pickup Tracking ID"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Collection failed (the customer does not hand over the device): the agent asks the customer whether they want a new AWB. If yes, a new AWB is created (automatically for AE and ZA, manually by the seller for SA) and the claim returns to Under Collection. If no, the claim is Cancelled.",
+      "evidence": [
+        {"kind": "say", "at": "02:03", "quote": "If the customer doesn't hand over the device, {its?} collection failed, the agent offers a new WABLE, or"},
+        {"kind": "see", "at": "02:04", "frame": "t00124.jpg", "quote": "'Collection failed - the customer doesn't hand over the device'; 'Yes -> new AWB (auto for AE & ZA, manual by the seller for SA) -> Under collection again'; 'No -> Cancelled'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "After a collection failed, Revibe contacts the customer to check the address or timing and books a new pickup if the customer wants one.",
+      "evidence": [
+        {"kind": "say", "at": "02:13", "quote": "Revive contacts the customer to check the address or timing and books a new {pick?}-up if they"},
+        {"kind": "say", "at": "02:18", "quote": "want one."}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "After a new pickup is booked on a collection failed claim, the claim returns to Under Collection with a new Pickup Tracking ID and a new AWB.",
+      "evidence": [
+        {"kind": "say", "at": "02:20", "quote": "The claim then goes back to under collection with a new pick-up ID and Weibo."},
+        {"kind": "see", "at": "02:23", "frame": "t00143.jpg", "quote": "Caption 'New pickup ID & waybill'; Pickup Tracking ID 27242445"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Step 4 (seller action): when the device reaches the seller, the claim shows status Under QC. The seller inspects the device and then marks the claim Valid or Invalid.",
+      "evidence": [
+        {"kind": "say", "at": "02:27", "quote": "When the device reaches you, the claim shows under QC."},
+        {"kind": "say", "at": "02:31", "quote": "Inspect it, then mark it valid or invalid."},
+        {"kind": "see", "at": "02:31", "frame": "t00147.jpg", "quote": "Step 4 'Seller action': 'Once the Courier Company delivers the seller can see the claim which status becomes Under QC. Two options: Mark VALID / Mark INVALID'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "The Mark valid and Mark invalid buttons are at the top of the claim, in the button row above Claim Details.",
+      "evidence": [
+        {"kind": "say", "at": "02:37", "quote": "Mark valid and mark invalid are right at the top."},
+        {"kind": "see", "at": "02:35", "frame": "t00155.jpg", "quote": "Buttons 'Mark valid' and 'Mark invalid' in the top row of claim SJRS808"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "If the claim is Valid, the seller repairs the device. The claim stays under Repair until the seller clicks Repair finished, then the device is shipped back to the customer.",
+      "evidence": [
+        {"kind": "say", "at": "02:41", "quote": "If the claim is valid, repair the device."},
+        {"kind": "say", "at": "02:43", "quote": "It stays under Repair until you click Repair Finished, then it's shipped back to the customer."},
+        {"kind": "see", "at": "02:42", "frame": "t00162.jpg", "quote": "'VALID - Repair & Ship Back: Under repair -> seller clicks Repair finished'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Clicking Repair finished (one click) moves the claim to Ship Back under Collection.",
+      "evidence": [
+        {"kind": "say", "at": "02:51", "quote": "One click, and the claim moves to Ship Back under Collection."},
+        {"kind": "see", "at": "02:49", "frame": "t00169.jpg", "quote": "Button 'Repair finished' with tooltip 'Repair finished'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Ship-back cost: for SA orders the seller creates and pays the ship-back AWB. For AE and ZA orders, Revibe creates the AWB and 30 AED is deducted from the seller.",
+      "evidence": [
+        {"kind": "say", "at": "02:59", "quote": "In the UAE in South Africa, Revive creates it and deducts 30 dirhams."},
+        {"kind": "see", "at": "02:56", "frame": "t00176.jpg", "quote": "'SHIP-BACK COST: SA: seller creates and pays the AWB; AE & ZA: AWB by Revibe · 30 AED deducted from the seller'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "For Saudi (SA) orders, the seller clicks Edit on the claim and enters the ship-back tracking number and tracking label link manually.",
+      "evidence": [
+        {"kind": "say", "at": "03:06", "quote": "For Saudi orders, click {Edit?} and enter the tracking number and label link yourself."},
+        {"kind": "see", "at": "02:35", "frame": "t00155.jpg", "quote": "'Edit' button at top right of the claim"},
+        {"kind": "see", "at": "03:07", "frame": "t00187.jpg", "quote": "Caption 'Saudi: enter the ship-back AWB'; fields Shipback Tracking ID, Shipback Tracking Label Link, Shipback Tracking Company, Shipback Tracking Link; buttons Save and Cancel"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Delivery failed (customer refuses the delivery): the agent asks whether the customer wants a new attempt. If yes, the seller pays a new AWB and the claim goes to Ship back under collection. If no, the device is disposed.",
+      "evidence": [
+        {"kind": "say", "at": "03:12", "quote": "If the customer refuses the delivery, the agent offers a new attempt, paid by you."},
+        {"kind": "say", "at": "03:17", "quote": "If they decline, the device is disposed."},
+        {"kind": "see", "at": "03:12", "frame": "t00192.jpg", "quote": "'Delivery failed -> Agent asks if the customer wants a new attempt: Yes -> seller pays a new AWB -> Ship back under collection; No -> Device disposed'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "A failed delivery waits in the app at the status Delivery failed. If the customer wants a new attempt, they have about 48 hours to accept it.",
+      "evidence": [
+        {"kind": "say", "at": "03:20", "quote": "In the app, a failed delivery waits at {delivery?} failed."},
+        {"kind": "say", "at": "03:24", "quote": "If the customer wants a new attempt, they have about 48 hours to accept it."},
+        {"kind": "see", "at": "03:20", "frame": "t00200.jpg", "quote": "Statuses: Stage 'Delivery failed'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The payment tool shows all refunds, credits and charges (a portal note on the overview slide; not narrated).",
+      "evidence": [
+        {"kind": "see", "at": "00:08", "frame": "t00008.jpg", "quote": "Footer: 'Portal info displayed: Tracking (original shipment) · Pickup Tracking · Ship-Back · Lab. Payment: all refunds, credits and charges appear in the payment tool.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Within 1 year, the seller inspects the device and marks the claim; Revibe reviews every Invalid claim.",
+      "evidence": [
+        {"kind": "see", "at": "02:41", "frame": "t00161.jpg", "quote": "Top right banner: 'Within 1 year: the seller inspects the device and marks the claim. Revibe reviews every Invalid claim.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Invalid path (screen only, not narrated in this part): the seller submits a reason and proof of invalidity; the Revibe agent reviews; if the agent agrees, the device is sent to the Lab for verification.",
+      "evidence": [
+        {"kind": "see", "at": "02:41", "frame": "t00161.jpg", "quote": "'INVALID - Proof Required -> Revibe Review -> Lab Verification. 1 Seller submits proof: Reason + proof of invalidity required -> Invalid claim. 2 Revibe agent review: Agrees -> device sent to the Lab'"}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Screen only (not narrated in this part): if the Revibe agent challenges an Invalid claim, the claim is marked Valid with a rationale; the seller must cover it (status Under revision) and then marks Valid or Invalid again, and the agent reviews again.",
+      "evidence": [
+        {"kind": "see", "at": "02:41", "frame": "t00161.jpg", "quote": "'Challenges -> marks Valid with a rationale: Seller must cover -> Under revision -> seller marks Valid / Invalid again -> agent reviews again (Invalid -> Lab)'"}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Screen only (not narrated in this part): if the customer has misuse but holds RC+, the seller gets a quotation (page 3 of the referenced document).",
+      "evidence": [
+        {"kind": "see", "at": "02:41", "frame": "t00161.jpg", "quote": "'Misuse but customer has RC+ -> seller quotation (page 3)'"}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Screen only (cut off at the right edge, not narrated): the Lab final decision for a Lab Valid result shows 'Customer refunded' and the device route 'Pending lab to seller collection -> In transit lab to seller -> Delivered to seller'.",
+      "evidence": [
+        {"kind": "see", "at": "02:41", "frame": "t00161.jpg", "quote": "'LAB VALID: Customer refunded; Pending lab to seller collection -> In transit lab to seller -> Delivered to seller'"}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    }
+  ],
+  "screens": [
+    {
+      "name": "Revibe Admin app: Orders page",
+      "shows": "Left menu with Dashboard, User Management, Agent Management, Roles, Shipment, Bulk Shipping, Stock, Order Management, Resolution, Claim Management, Complaint Management; search key Order number; Export and More Filters buttons",
+      "at": "00:30",
+      "frame": "t00030.jpg",
+      "where": "Left menu, Claim Management item"
+    },
+    {
+      "name": "Claim Management view list",
+      "shows": "Top portion (t00042): Revibe All Claims, CA - All Cancellations, CA - Ready For Re..., CO - All Compensa..., CO - In Progress, WR - Revibe Warra..., WR - Pending To C..., R - Collection Failed, W - Collection Failed, R - Invalid Claim, W - Invalid Claim, R - LAB, W - LAB, R - LAB To Seller, W - LAB To Seller, R - Invalid CC FUP, W - Invalid CC FUP, R - Invalid CC Close, W - Invalid CC Close, R - Revibe Repair SA. Lower portion (t00034): W - Collection Failed through R - Revibe Repair ZA, W - Revibe Repair..., WR - Ready For R..., W - Quotation & Pa..., WR - Delivery Failed, R - Revibe Request, W - Revibe Request, CO - Seller Compe...",
+      "at": "00:34",
+      "frame": "t00034.jpg",
+      "where": "Claim Management sub-menu (names are truncated in the menu)"
+    },
+    {
+      "name": "Claims table",
+      "shows": "Columns: Seller Elapsed Hours, Claim ID, Claim Date, Order Help, Type, Subtype, Issue, Since creation; search key Order number; buttons Export, Groups, More Filters and Raise a claim; rows of Warranty claims with Subtype Wrong device or Issue; group 'Blank (33)'",
+      "at": "00:51",
+      "frame": "t00051.jpg",
+      "where": "Opened view"
+    },
+    {
+      "name": "Claim page (NUVE086), button row and statuses",
+      "shows": "Claim header NUVE086 with status Active; policy timer banner 'Seller policy timer: 8 days left (paused)'; button row (Mark valid, Mark invalid, Refund to customer, To be refunded to supplier, Reject refund to supplier, Waive refund to supplier, Cancel override, Validate address, Revoke claim, Repair finished, Reset policy timer, Refund via original payment, To be credited from supplier, Reject credit from supplier); Claim Details; Statuses panel (Stage, Internal Stage, Policy Status, Type, Subtype, Shopify Credit Status); Tracker and Edit buttons",
+      "at": "01:35",
+      "frame": "t00095.jpg",
+      "where": "Opened from the claims table; the same button row appears in t00200"
+    },
+    {
+      "name": "Claim page (SJRS808), Open",
+      "shows": "Claim # SJRS808 with status Open; Order help 108084-2; 'Seller policy timer: 8 days left' banner (no pause shown in t00155 and t00169); buttons Mark valid and Mark invalid at top left; Edit and Tracker at top right; Repair finished in the button row (t00169)",
+      "at": "02:35",
+      "frame": "t00155.jpg",
+      "where": "Claim page, top of the claim"
+    },
+    {
+      "name": "Claim Tracker modal",
+      "shows": "Ten stages: Claim Created, Pending Collection, Under Collection, In Transit, Under QC, Under Repair, To Ship Back, Ship Back Under Collection, Shipped Back, Delivered. Completed stages show a green tick with date and time (t00099: Claim Created, Pending Collection, Under Collection; t00135 and t00138: Collection Failed 14 Oct 2026 11:57 AM). In t00068 only Claim Created has a green tick",
+      "at": "01:08",
+      "frame": "t00068.jpg",
+      "where": "Tracker button at top right of a claim"
+    },
+    {
+      "name": "Claim Details panel",
+      "shows": "Fields: Seller Elapsed Hours, Issue, Issue Details, Type Of Request, Original Supplier, Repair Supplier, Revibe Comment, Supplier Comments, Explanation To Show, Name To Show, Cancellation Reason, SKU, Original Order, Order Details, Reason For Claim Cancellation, Claim Type (Independent), Information Complete, Customer Paid, Proof Of Invalid Claim, Proof Of Invalid Claim File, Revibe Invalid Confirmation Comment, Missing Document, Revibe Confirmation, LAB Decision, LAB Comments, LAB Document, Description, Translated description; attachments drop zone",
+      "at": "01:16",
+      "frame": "t00076.jpg",
+      "where": "Claim page, Claim Details section (Description is visible in t00080 at 01:20)"
+    },
+    {
+      "name": "Pickup Tracking Information section",
+      "shows": "Pickup Tracking Label Link, Pickup Tracking Company, Pickup Tracking Link, Pickup Tracking ID, Pickup Shipment Error; also LAB Tracking Information and Shipback Tracking Information sections",
+      "at": "01:44",
+      "frame": "t00104.jpg",
+      "where": "Scroll down on claim page"
+    },
+    {
+      "name": "Shipback Tracking Information in edit mode",
+      "shows": "Save and Cancel buttons; Shipback Tracking ID, Shipback Tracking Label Link, Shipback Tracking Company, Shipback Tracking Link, Shipback Shipment Error, LAB to Seller Tracking Information; claim SJRS808 with 'Seller policy timer: 8 days left (paused)'",
+      "at": "03:07",
+      "frame": "t00187.jpg",
+      "where": "Claim page, Edit button"
+    },
+    {
+      "name": "Revibe Warranty Process overview slides (Workflow 1/3, Seller Decision Under QC)",
+      "shows": "Four-step process with statuses and action labels; routing for collection failed and which repair supplier; Seller Decision Under QC with VALID and INVALID branches, ship-back cost and delivery failed routing; footer lists portal info displayed and payment note",
+      "at": "00:08",
+      "frame": "t00008.jpg",
+      "where": "Presenter slides (not a live app screen)"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Warranty claim",
+      "meaning": "A customer request for repair under warranty, raised by the customer through My Account and handled in the Admin app under Claim Management. Warranty claims are either an issue with the device or a wrong device.",
+      "at": "00:53"
+    },
+    {
+      "term": "Return claim",
+      "meaning": "Referred to only as the other claim type handled in the same place as warranty claims; not defined in this part.",
+      "at": "00:27"
+    },
+    {
+      "term": "View (Claim Management)",
+      "meaning": "One task-specific list of claims. Each view is one task. Letter prefixes: R = returns, W = warranties, WR = both.",
+      "at": "00:36"
+    },
+    {
+      "term": "Seller policy timer",
+      "meaning": "Banner at the top of a claim showing how many days the seller has left (for example 8 days left). Shows (paused) on some claims.",
+      "at": "01:00"
+    },
+    {
+      "term": "Tracker",
+      "meaning": "Modal showing every stage of a claim's journey from Claim Created to Delivered, with dates for completed stages.",
+      "at": "01:07"
+    },
+    {
+      "term": "Under QC",
+      "meaning": "Claim status when the device reaches the seller; the seller marks the claim Valid or Invalid.",
+      "at": "02:27"
+    },
+    {
+      "term": "AWB (waybill)",
+      "meaning": "Shipping waybill created for a pickup or ship-back. Created automatically by Revibe for AE and ZA; created manually by the seller for SA (Saudi Arabia). The screen caption calls it a waybill; the material does not define it further.",
+      "at": "01:52"
+    },
+    {
+      "term": "Collection failed",
+      "meaning": "The customer does not hand over the device at pickup. Routes to a new AWB or to Cancelled.",
+      "at": "02:03"
+    },
+    {
+      "term": "Delivery failed",
+      "meaning": "The customer refuses the delivery of the device; the claim waits at this status until the customer chooses a new attempt or declines.",
+      "at": "03:12"
+    },
+    {
+      "term": "Revibe Repair Partner (RC+)",
+      "meaning": "The repair supplier that handles claims after 1 year or where the customer declares misuse. The original seller does not see those claims. Slides also name it 'Revibe Care+' (page 3).",
+      "at": "00:18"
+    },
+    {
+      "term": "Misuse",
+      "meaning": "A declaration by the customer that makes the Revibe Repair Partner take the claim, even within 1 year.",
+      "at": "00:18"
+    },
+    {
+      "term": "Repair finished",
+      "meaning": "Button the seller clicks once a valid claim is repaired; moves the claim to Ship Back under Collection.",
+      "at": "02:43"
+    },
+    {
+      "term": "Ship Back under Collection",
+      "meaning": "Claim status after the seller clicks Repair finished, before the device is shipped back to the customer.",
+      "at": "02:51"
+    },
+    {
+      "term": "Shipped back / Delivered",
+      "meaning": "Final stages of the claim tracker after the device is shipped back to the customer.",
+      "at": "01:07"
+    },
+    {
+      "term": "Pickup",
+      "meaning": "Step 3 of the warranty process: the courier collects the device from the customer.",
+      "at": "01:50"
+    },
+    {
+      "term": "Valid / Invalid",
+      "meaning": "The seller's decision on an Under QC claim: Valid means repair the device; Invalid starts the proof and Revibe review path.",
+      "at": "02:37"
+    }
+  ],
+  "asr_fixes": [
+    {"at": "01:26", "heard": "revive", "correct": "Revibe", "basis": "Frame t00085.jpg slide reads 'Revibe Agent Check'; the brand is spelled Revibe on all frames."},
+    {"at": "01:43", "heard": "{WABLE?}", "correct": "AWB", "basis": "Frame t00111.jpg reads 'AE & ZA: AWB auto-created'."},
+    {"at": "01:50", "heard": "Step {3?} is the pick-up.", "correct": "Step 3 is the pick-up", "basis": "Frame t00111.jpg slide labels step 3 'Pickup'."},
+    {"at": "01:52", "heard": "Revive creates the WABLE automatically", "correct": "Revibe creates the AWB automatically", "basis": "Frame t00111.jpg 'AE & ZA: AWB auto-created'; brand spelled Revibe on all frames."},
+    {"at": "02:03", "heard": "WABLE", "correct": "AWB", "basis": "Frame t00124.jpg 'Yes -> new AWB (auto for AE & ZA, manual by the seller for SA)'."},
+    {"at": "02:09", "heard": "the claim is {cancelled.?}", "correct": "the claim is Cancelled", "basis": "Frame t00124.jpg 'No -> Cancelled'."},
+    {"at": "02:13", "heard": "Revive contacts the customer", "correct": "Revibe contacts the customer", "basis": "Brand spelled Revibe on all frames."},
+    {"at": "02:20", "heard": "Weibo", "correct": "AWB (waybill)", "basis": "Frame t00143.jpg caption 'New pickup ID & waybill' on the new pickup tracking data."},
+    {"at": "02:26", "heard": "Step {4?}", "correct": "Step 4", "basis": "Frame t00147.jpg shows the step 4 card labelled 'Seller action'."},
+    {"at": "02:57", "heard": "you create and pay the {way?} bill", "correct": "you create and pay the AWB", "basis": "Frame t00176.jpg 'SA: seller creates and pays the AWB'."},
+    {"at": "02:59", "heard": "Revive creates it", "correct": "Revibe creates it", "basis": "Frame t00176.jpg 'AE & ZA: AWB by Revibe'."},
+    {"at": "03:06", "heard": "{Edit?}", "correct": "Edit", "basis": "Frame t00155.jpg shows an Edit button at top right; frame t00187.jpg shows Save and Cancel after editing."},
+    {"at": "03:20", "heard": "{delivery?} failed", "correct": "Delivery failed", "basis": "Frame t00200.jpg Statuses: Stage 'Delivery failed'; frame t00192.jpg 'Delivery failed' box."},
+    {"at": "00:38", "heard": "{WR?} for both", "correct": "WR for both", "basis": "Frame t00042.jpg caption 'R · W · WR: one view per task'."}
+  ],
+  "unclear": [
+    {"at": "00:18", "issue": "The material does not say from when the one-year period is counted (purchase date, delivery date, or claim date)."},
+    {"at": "00:18", "issue": "Slides name the partner 'Revibe Repair Partner (Revibe Care+, page 3)' (frames t00008, t00013) and 'REVIBE REPAIR PARTNER · RC+' (frame t00013). The screen does not say that RC+ means Revibe Care+. The slides also cite 'page 2' and 'page 3' of a document that is not in this pack."},
+    {"at": "01:00", "issue": "The '(paused)' suffix appears on NUVE086 from frame t00062 through t00200. On SJRS808 the banner reads 'Seller policy timer: 8 days left' without '(paused)' in t00155 and t00169, but reads '(paused)' in t00187, which is in edit mode. The trainer does not say why the timer pauses."},
+    {"at": "02:41", "issue": "The Invalid branch on frame t00161 is cut off at the right edge (the Lab Invalid and fee text, for example 'Stripe code once paid', is not fully readable). This may belong to part 2."},
+    {"at": "03:24", "issue": "Frame t00200 (03:20) shows NUVE086 in Delivery failed with 'Valid Claim?: Invalid claim' and 'Credit From Customer Status: Credited' (14/10/2026 12:56 PM). The trainer does not explain these fields."},
+    {"at": "03:24", "issue": "The 48-hour window for accepting a new delivery attempt is spoken only; no frame shows it."}
+  ],
+  "outdated": [
+    {"at": "00:44", "signal": "Trainer says 'Views may change over time', so the list of Claim Management views shown (R, W, WR names) may change."}
+  ],
+  "privacy": [
+    {"at": "00:51", "frame": "t00051.jpg", "what": "Claim IDs (for example PFXW308, ODMH090, CXJO685, EUIK466) and order numbers (107638-2, 100919-2) are visible in the claims list."},
+    {"at": "01:02", "frame": "t00062.jpg", "what": "Claim ID NUVE086 and Order Help 108298-1 are visible in the claim side panel."},
+    {"at": "01:20", "frame": "t00080.jpg", "what": "Original Order 108298 and Order Details (iphone-17 Black / 256 GB / Excellent) are visible on the claim; Name To Show shows '-' and no customer name is visible."},
+    {"at": "01:44", "frame": "t00104.jpg", "what": "Pickup Tracking Label Link contains the claim ID (NUVE086) and a tracking URL; Pickup Tracking ID 27242282 is visible."},
+    {"at": "02:23", "frame": "t00143.jpg", "what": "Pickup Tracking ID 27242445 and a label link containing claim ID NUVE086 are visible."},
+    {"at": "02:35", "frame": "t00155.jpg", "what": "Claim SJRS808 with Order help 108084-2 is visible."},
+    {"at": "03:07", "frame": "t00187.jpg", "what": "Shipback Tracking ID 27261924 and tracking link are visible; claim SJRS808 is in the header."},
+    {"at": "03:20", "frame": "t00200.jpg", "what": "Claim NUVE086 with Order Help 108298-1 and Original Order 108298 is visible."},
+    {"at": "01:16", "frame": "t00076.jpg", "what": "Original Supplier and Repair Supplier values are blurred in the screen capture."}
+  ],
+  "audit": {
+    "checked": 97,
+    "removed": [
+      {"statement": "Implied (low confidence) fact that the seller must cover a cost and the claim is marked Valid with a rationale when the agent challenges an Invalid claim", "reason": "Replaced with a screen-backed statement: the frame shows 'Challenges -> marks Valid with a rationale' and 'Seller must cover -> Under revision'. The low-confidence 'Implied:' label is no longer needed."}
+    ],
+    "corrected": [
+      {"before": "Step 00:30: 'Trainer scrolls the left menu ... and points at Claim Management'", "after": "Trainer points at Claim Management in the left menu", "reason": "No scrolling is visible; the caption and cursor show the pointing."},
+      {"before": "Step 00:36: tooltips for 'R - Collection failed, WR - Pending to create' cited to t00042 only", "after": "WR tooltip cited to t00036 (00:36); R tooltip cited to t00042 (00:42)", "reason": "Each tooltip appears on a different frame."},
+      {"before": "Step 00:51: 'Trainer points at the Subtype and Issue columns'", "after": "Trainer shows the claims table with Subtype and Issue columns", "reason": "No pointing is visible on the columns."},
+      {"before": "Step 01:00: 'opens the Tracker button, reads every stage, then closes the modal'", "after": "opens the Tracker modal, which lists the ten stages", "reason": "Reading is not visible in the frames."},
+      {"before": "Step 01:13: description cited to t00080 at 01:16", "after": "t00080 at 01:20; t00076 at 01:16 shows the Attachments panel", "reason": "Pack timestamp for t00080 is 01:20."},
+      {"before": "Step 01:35: tracker cited to t00095 (claim page)", "after": "Claim page at 01:37 (t00097); tracker at 01:39 (t00099)", "reason": "t00095 shows the claim page, not the tracker."},
+      {"before": "Step 02:11 and fact: 'checks the tracker (Collection Failed 14 Oct 2026 11:57 AM)' cited to t00143", "after": "tracker cited to t00138 (02:18); t00143 cited for the new pickup ID and label", "reason": "The tracker appears in t00138 and t00135, not in t00143."},
+      {"before": "Step 02:26 and fact: mark buttons cited to t00155 at 02:37", "after": "t00155 at 02:35", "reason": "Pack timestamp for t00155 is 02:35."},
+      {"before": "Step 02:55 ship-back: 'For Saudi orders, the seller clicks Edit' cited to t00187 at 03:06", "after": "t00187 at 03:07; t00155 at 02:35 shows the Edit button", "reason": "Pack timestamp for t00187 is 03:07; Edit button is in t00155."},
+      {"before": "Fact: the procedure to find claims 'and open it'", "after": "scroll down to Claim Management (no 'open it')", "reason": "Transcript and frames only show scrolling to the item; opening it is not said."},
+      {"before": "Fact: 'Seller policy timer' cited at 01:00 to t00062", "after": "Cited at 01:02 (t00062)", "reason": "Pack timestamp for t00062 is 01:02."},
+      {"before": "Fact: 'Seller decision for a Valid claim within 1 year: the seller inspects the device and marks the claim'", "after": "Within 1 year, the seller inspects the device and marks the claim; Revibe reviews every Invalid claim", "reason": "The slide banner does not say 'for a Valid claim'."},
+      {"before": "Fact: ship-back cost quote with a hyphen 'AE & ZA: AWB by Revibe - 30 AED'", "after": "quote uses the slide's middle dot 'AWB by Revibe · 30 AED deducted from the seller'; frame time 02:56", "reason": "Exact on-screen wording."},
+      {"before": "Fact: Invalid path 'Implied:' challenge statement at confidence low", "after": "screen-backed statement at confidence medium", "reason": "Text is visible on t00161."},
+      {"before": "Screen 'Claim page (NUVE086)' at 00:60 with frame t00062", "after": "at 01:35, frame t00095 (button row and Stage Under collection); t00200 shows the same button row", "reason": "00:60 is not a valid timestamp; the button row is not visible in t00062."},
+      {"before": "Screen 'Claim Management view list': 'R/W - Invalid CC FUP' and 'R/W - Invalid CC Close'", "after": "separate R and W entries: R - Invalid CC FUP, W - Invalid CC FUP, R - Invalid CC Close, W - Invalid CC Close", "reason": "The menu lists them as separate views."},
+      {"before": "Screen 'Claim Tracker modal': 'completed stages show a green tick and date/time' with frame t00068", "after": "green ticks with dates are shown in t00099 and t00135; t00068 shows only Claim Created as complete", "reason": "t00068 has grey checks for the stages not yet reached."},
+      {"before": "Unclear 01:00: '(paused)' on NUVE086 from Under collection onward, not on SJRS808", "after": "'(paused)' on NUVE086 from t00062 onward; SJRS808 shows no pause in t00155 and t00169 and '(paused)' in t00187", "reason": "t00187 shows SJRS808 paused in edit mode."},
+      {"before": "Unclear 03:24: 'Frame t00200 shows NUVE086 in Delivery failed' at 03:24", "after": "Cited at 03:20", "reason": "Pack timestamp for t00200 is 03:20."},
+      {"before": "ASR fix 02:57: correct 'AWB bill (AWB)'", "after": "correct 'AWB'", "reason": "Frame t00176 reads 'seller creates and pays the AWB'."},
+      {"before": "ASR fix 01:43: heard 'WABLE'", "after": "heard '{WABLE?}' (low-confidence mark kept)", "reason": "Transcript marks the word as low confidence."},
+      {"before": "Privacy 01:00: Original Order and Order Details cited to t00062", "after": "cited to t00080 (01:20) and t00200 (03:20)", "reason": "Those fields are not visible in t00062."},
+      {"before": "Privacy 01:44 wording: claim ID NUVE086 in label link", "after": "kept, with the label link and tracking URL described", "reason": "Exact on-screen content."},
+      {"before": "Summary: list of ASR corrections", "after": "adds 'way bill' to AWB and Revive to Revibe on several lines", "reason": "Speech errors also appear on lines 02:13, 02:57 and 02:59."}
+    ],
+    "added": [
+      "Frame t00001 (00:01): title card 'The warranty process - From claim to repair, step by step' (screen, not a claim)",
+      "Fact: new claims show Stage 'Form received' and the explanation 'We've received your warranty claim. Next we'll arrange to collect the device for repair.' (t00076, t00080)",
+      "Tooltip 'WR - Pending to create' on the Claim Management view list (t00036)",
+      "Frame t00155 and t00169: SJRS808 policy timer reads 8 days left without pause",
+      "Frame t00161 screen-only facts: Misuse but customer has RC+ -> seller quotation (page 3); Lab Valid path 'Customer refunded' and 'Pending lab to seller collection -> In transit lab to seller -> Delivered to seller' (cut off)",
+      "Screen 'Claim page (SJRS808), Open' at 02:35 (t00155, t00169, t00187)",
+      "ASR fixes: 01:50 'Step {3?}' to 'Step 3'; 02:09 'cancelled.?' to 'Cancelled'; 02:13 and 02:59 'Revive' to 'Revibe'",
+      "Unclear: the 48-hour window is spoken only and no frame shows it",
+      "Privacy: order help 108084-2 (t00155) and order help 108298-1 with Original Order 108298 (t00200)",
+      "Coverage: all 40 frames opened; t00076 and t00080 show the Claim Details fields including Description; t00097 shows Stage Under collection with 'Info complete -> Under collection'"
+    ]
+  }
+}

@@ -1,0 +1,575 @@
+{
+  "summary": "Part 1 (00:00-03:41) of the seller training \"7.0 Refund policy (Seller)\". Pierre walks through the Returns Refund Policy overview slide (Contract clause 9.1): four stages with working-day (WD) deadlines (Solve 5 WD; Warning 6 WD AE/ZA/others and 7 WD SA; Closing 8 WD AE/ZA/others and 9 WD SA; Collecting, SA only), the working-day clock rules (weekends excluded, resolution request stops the clock, worked Monday/Wednesday/Friday example), then the \"Which stages count against you\" timeline slide, which lists the stages that run the seller clock in SA (9 stages) and in AE/ZA/others (3 stages), and the SA pickup steps. Part 1 ends mid-sentence at 03:40 (\"create a new ROE bill and to\"), so the SA collection-failed explanation is incomplete here.",
+  "frames_opened": 40,
+  "steps": [
+    {
+      "at": "00:00",
+      "screen": "Title slide 'Returns / Refund Policy' with the trainer's webcam bubble at bottom-left",
+      "action": "Trainer opens the video on the title slide and introduces himself and the topic",
+      "evidence": [
+        {"kind": "say", "at": "00:00", "quote": "Hi, it's Pepe from {Revibe?} and welcome to this returns refund policy video.", "frame": ""},
+        {"kind": "see", "at": "00:00", "frame": "t00000.jpg", "quote": "Title slide 'Returns' / 'Refund Policy' only; webcam bubble of the trainer bottom-left"}
+      ],
+      "says": "Hi, it's Pepe from {Revibe?} and welcome to this returns refund policy video.",
+      "why": ""
+    },
+    {
+      "at": "00:06",
+      "screen": "Title slide 'Returns / Refund Policy'",
+      "action": "Trainer says the video will cover the new returns refund policy, how it helps the seller solve claims, and how current claims are tracked",
+      "evidence": [
+        {"kind": "say", "at": "00:06", "quote": "In this video {we?} will detail to you what is the new returns refund policy that is now", "frame": ""},
+        {"kind": "say", "at": "00:12", "quote": "applied, how it will help you to solve your claims and how we will help you to track", "frame": ""},
+        {"kind": "say", "at": "00:19", "quote": "the current claims you have to solve in order to avoid any penalty.", "frame": ""},
+        {"kind": "see", "at": "00:12", "frame": "t00012.jpg", "quote": "Title slide 'Returns' / 'Refund Policy' still shown"}
+      ],
+      "says": "In this video {we?} will detail to you what is the new returns refund policy that is now applied, how it will help you to solve your claims and how we will help you to track the current claims you have to solve in order to avoid any penalty.",
+      "why": ""
+    },
+    {
+      "at": "00:24",
+      "screen": "Title slide 'Returns / Refund Policy'",
+      "action": "Still on the title slide, trainer says the new policy currently applies only to returns",
+      "evidence": [
+        {"kind": "say", "at": "00:24", "quote": "In this new returns refund policy, which is at the moment only applied for returns, but that will", "frame": ""},
+        {"kind": "see", "at": "00:24", "frame": "t00024.jpg", "quote": "Title slide 'Returns / Refund Policy' still shown"}
+      ],
+      "says": "In this new returns refund policy, which is at the moment only applied for returns, but that will",
+      "why": ""
+    },
+    {
+      "at": "00:31",
+      "screen": "Title slide 'Returns / Refund Policy'",
+      "action": "Trainer says warranties will be added later, once they are integrated into the Revibe App",
+      "evidence": [
+        {"kind": "say", "at": "00:31", "quote": "soon be applied also for the warranties once they will be integrated into the Revive app, we give", "frame": ""},
+        {"kind": "see", "at": "00:27", "frame": "t00027.jpg", "quote": "Title slide 'Returns / Refund Policy' still shown"}
+      ],
+      "says": "soon be applied also for the warranties once they will be integrated into the Revibe app, we give",
+      "why": ""
+    },
+    {
+      "at": "00:42",
+      "screen": "'REFUND POLICY · CONTRACT CLAUSE 9.1 / Returns Refund Policy' overview with four stage cards and the 'How the clock works' box",
+      "action": "Switches to the policy overview slide; the pointer rests on the Solve card text about counting from the claim landing",
+      "evidence": [
+        {"kind": "see", "at": "00:42", "frame": "t00042.jpg", "quote": "Pill 'LIVE NOW Applies to returns · warranties follow once they are in the Revibe App'; card 1 'ALL MARKETS' 'Solve' '5 WD every market' 'Counted from the moment the claim lands on you in AE / ZA, from the claim date in SA.' 'You have 5 working days to solve a return.'"},
+        {"kind": "say", "at": "00:38", "quote": "you 5 working days in all the markets to solve your claims.", "frame": ""}
+      ],
+      "says": "you 5 working days in all the markets to solve your claims.",
+      "why": ""
+    },
+    {
+      "at": "00:43",
+      "screen": "Policy overview",
+      "action": "Points at the Warning card's 6 WD and 7 WD figures while explaining the warning days",
+      "evidence": [
+        {"kind": "say", "at": "00:43", "quote": "On the 6th working day {you?} will receive a warning in UAE and South Africa, and on the", "frame": ""},
+        {"kind": "say", "at": "00:49", "quote": "7th working day you will receive a warning in Saudi Arabia.", "frame": ""},
+        {"kind": "see", "at": "00:45", "frame": "t00045.jpg", "quote": "Warning card: '6 WD' with flags 'AE · ZA · others'; '7 WD' with SA flag; pointer on the 6 WD figure"}
+      ],
+      "says": "On the 6th working day {you?} will receive a warning in UAE and South Africa, and on the 7th working day you will receive a warning in Saudi Arabia.",
+      "why": ""
+    },
+    {
+      "at": "00:53",
+      "screen": "Policy overview, Warning card text",
+      "action": "Trainer explains that an unsolved return gets a warning and turns yellow; the Warning card text is on screen (pointer sits just below the card in frame t00058)",
+      "evidence": [
+        {"kind": "say", "at": "00:53", "quote": "This will happen {of?} course if the return is still not solved, you will then get a warning", "frame": ""},
+        {"kind": "say", "at": "00:59", "quote": "and the return will turn yellow marked in your app.", "frame": ""},
+        {"kind": "see", "at": "00:58", "frame": "t00058.jpg", "quote": "Warning card text 'Still not solved: you get a warning and the return turns yellow marked in your app.'"}
+      ],
+      "says": "This will happen {of?} course if the return is still not solved, you will then get a warning and the return will turn yellow marked in your app.",
+      "why": ""
+    },
+    {
+      "at": "01:04",
+      "screen": "Policy overview, Closing card",
+      "action": "Points at the Closing card's 8 WD and 9 WD figures",
+      "evidence": [
+        {"kind": "say", "at": "01:04", "quote": "Two days after, on the 8th working day in UAE, South Africa and other countries, the claim will", "frame": ""},
+        {"kind": "say", "at": "01:13", "quote": "And on the 9th working day in Saudi Arabia, the claim will be closed.", "frame": ""},
+        {"kind": "see", "at": "01:04", "frame": "t00064.jpg", "quote": "Card 'POLICY APPLIED' 'Closing': '8 WD' with flags 'AE · ZA · others'; '9 WD' with SA flag; pointer on 8 WD"}
+      ],
+      "says": "Two days after, on the 8th working day in UAE, South Africa and other countries, the claim will be closed.",
+      "why": ""
+    },
+    {
+      "at": "01:18",
+      "screen": "Policy overview, Closing card text",
+      "action": "Trainer explains the closing consequence; the Closing card text is on screen (no pointer on it in frame t00080)",
+      "evidence": [
+        {"kind": "say", "at": "01:18", "quote": "At this moment, it means that the claim has not been resolved by you, a full refund will", "frame": ""},
+        {"kind": "say", "at": "01:25", "quote": "be issued to the customer and the claim is closed against you.", "frame": ""},
+        {"kind": "see", "at": "01:18", "frame": "t00080.jpg", "quote": "Closing card text 'A full refund is issued to the customer and the claim closes against you.'"}
+      ],
+      "says": "At this moment, it means that the claim has not been resolved by you, a full refund will be issued to the customer and the claim is closed against you.",
+      "why": ""
+    },
+    {
+      "at": "01:29",
+      "screen": "Policy overview, 'SA ONLY' Collecting card",
+      "action": "Trainer introduces the Saudi-only collection step",
+      "evidence": [
+        {"kind": "say", "at": "01:29", "quote": "For Saudi Arabia only,", "frame": ""},
+        {"kind": "say", "at": "01:33", "quote": "before closing the claim, we will collect the device.", "frame": ""},
+        {"kind": "say", "at": "01:37", "quote": "Once we receive the device, we will refund the customer and credit you.", "frame": ""},
+        {"kind": "see", "at": "01:29", "frame": "t00089.jpg", "quote": "Card 'SA ONLY' 'Collecting': '9 WD +' with SA flag; 'Only in Saudi Arabia.' 'Revibe collects the device. Once received we refund the customer and credit you.'"}
+      ],
+      "says": "For Saudi Arabia only, before closing the claim, we will collect the device. Once we receive the device, we will refund the customer and credit you.",
+      "why": ""
+    },
+    {
+      "at": "01:41",
+      "screen": "Policy overview, 'How the clock works' box",
+      "action": "Trainer asks what a working day is and starts the definition, pointing into the box",
+      "evidence": [
+        {"kind": "say", "at": "01:41", "quote": "Now {the?} question is {what?} do we call a working day?", "frame": ""},
+        {"kind": "say", "at": "01:46", "quote": "A working day is the sum of all the hours during working days when only the claim is", "frame": ""},
+        {"kind": "see", "at": "02:00", "frame": "t00133.jpg", "quote": "'How the clock works' bullets: 'A working day = the sum of hours during working days the claim spends on your side only.'"}
+      ],
+      "says": "A working day is the sum of all the hours during working days when only the claim is pending on your side, meaning that it's only on your responsibility to take an action to move the claim to the next stage.",
+      "why": "The trainer gives the reason in his words: it is only on the seller's responsibility to take an action to move the claim to the next stage."
+    },
+    {
+      "at": "02:04",
+      "screen": "'How the clock works' box, second bullet",
+      "action": "Points at the weekend bullet",
+      "evidence": [
+        {"kind": "say", "at": "02:04", "quote": "Thus, weekends are not counted, Saturday and Sunday do not count in any market.", "frame": ""},
+        {"kind": "see", "at": "02:04", "frame": "t00103.jpg", "quote": "Bullet 'Weekends never count: Saturday and Sunday do not count, in any market.'"}
+      ],
+      "says": "Thus, weekends are not counted, Saturday and Sunday do not count in any market.",
+      "why": ""
+    },
+    {
+      "at": "02:10",
+      "screen": "'How the clock works' box, third bullet",
+      "action": "Points at the device-issue bullet and explains resolution requests",
+      "evidence": [
+        {"kind": "say", "at": "02:10", "quote": "If you have any issue with the device, you can create a resolution request.", "frame": ""},
+        {"kind": "see", "at": "02:10", "frame": "t00133.jpg", "quote": "Bullet 'Any issue with the device? Create a resolution request — the clock stops straight away.'"}
+      ],
+      "says": "If you have any issue with the device, you can create a resolution request.",
+      "why": ""
+    },
+    {
+      "at": "02:14",
+      "screen": "'How the clock works' box, fourth bullet",
+      "action": "Explains that the clock restarts only when the resolution is solved",
+      "evidence": [
+        {"kind": "say", "at": "02:14", "quote": "{The?} clock will stop straight away and the clock will only restart when the resolution is solved {Not?}", "frame": ""},
+        {"kind": "say", "at": "02:22", "quote": "when a revive agent replies to you {Just?} to give you a quick example.", "frame": ""},
+        {"kind": "see", "at": "02:14", "frame": "t00133.jpg", "quote": "Bullet 'It restarts only when the resolution is solved, not when an agent replies to you.'"}
+      ],
+      "says": "{The?} clock will stop straight away and the clock will only restart when the resolution is solved {Not?} when a revive agent replies to you {Just?} to give you a quick example.",
+      "why": ""
+    },
+    {
+      "at": "02:26",
+      "screen": "'Example - stopping the clock' box on the right of the policy overview",
+      "action": "Moves to the example box and starts the Monday example",
+      "evidence": [
+        {"kind": "say", "at": "02:26", "quote": "Let's say you receive a return claim on a Monday so The return is created {the?} clock is", "frame": ""},
+        {"kind": "see", "at": "02:26", "frame": "t00148.jpg", "quote": "'Example - stopping the clock': 'Mon the return lands on you - the clock starts'; 'Wed you raise a resolution - the clock freezes'; 'Fri the resolution is solved - it restarts'; 'You still have 3 working days left to solve it.'"}
+      ],
+      "says": "Let's say you receive a return claim on a Monday so The return is created {the?} clock is",
+      "why": ""
+    },
+    {
+      "at": "02:35",
+      "screen": "Example box, Wednesday line",
+      "action": "Pointer moves to the Wednesday line (clock freezes)",
+      "evidence": [
+        {"kind": "say", "at": "02:35", "quote": "starting on the Wednesday {You?} create a resolution the clock is thus freezing and only on the Friday", "frame": ""},
+        {"kind": "see", "at": "02:40", "frame": "t00160.jpg", "quote": "Pointer on 'Wed you raise a resolution - the clock freezes'"}
+      ],
+      "says": "starting on the Wednesday {You?} create a resolution the clock is thus freezing and only on the Friday",
+      "why": ""
+    },
+    {
+      "at": "02:42",
+      "screen": "Example box, Friday line",
+      "action": "Pointer moves to the Friday line; trainer says the clock restarts and 3 working days remain",
+      "evidence": [
+        {"kind": "say", "at": "02:42", "quote": "the resolution is solved {Then?} the clock is restarting, meaning you still have {3?} working days to solve", "frame": ""},
+        {"kind": "say", "at": "02:48", "quote": "it before receiving a warning.", "frame": ""},
+        {"kind": "see", "at": "02:45", "frame": "t00165.jpg", "quote": "Pointer on 'Fri the resolution is solved - it restarts'; 'You still have 3 working days left to solve it.'"}
+      ],
+      "says": "the resolution is solved {Then?} the clock is restarting, meaning you still have {3?} working days to solve it before receiving a warning.",
+      "why": "The trainer explains the consequence: the seller still has the remaining working days to solve it before a warning."
+    },
+    {
+      "at": "02:52",
+      "screen": "Switches to 'THE CLOCK / Which stages count against you' timeline slide",
+      "action": "Moves to the stage timeline, saying many stages happen but only some count",
+      "evidence": [
+        {"kind": "say", "at": "02:52", "quote": "So, as you know, a lot of stages happen during the process of treatment of a return.", "frame": ""},
+        {"kind": "say", "at": "03:03", "quote": "And only some stages are counting for you.", "frame": ""},
+        {"kind": "see", "at": "02:55", "frame": "t00175.jpg", "quote": "Title 'Which stages count against you'; subtitle 'The timer only runs while the claim sits on the seller side. Dark blue = your clock is running.'"}
+      ],
+      "says": "So, as you know, a lot of stages happen during the process of treatment of a return. And only some stages are counting for you.",
+      "why": ""
+    },
+    {
+      "at": "03:07",
+      "screen": "Timeline slide, SA row, Pending collection stage",
+      "action": "Points at the Pending collection dot on the SA row",
+      "evidence": [
+        {"kind": "say", "at": "03:07", "quote": "In Saudi Arabia, pending collection.", "frame": ""},
+        {"kind": "say", "at": "03:11", "quote": "At this stage, you need to create the {hour?} bill and to schedule the {pick?}-up time so", "frame": ""},
+        {"kind": "see", "at": "03:12", "frame": "t00192.jpg", "quote": "Pointer on the SA row's Pending collection dot (dark blue = seller clock running)"}
+      ],
+      "says": "In Saudi Arabia, pending collection. At this stage, you need to create the {hour?} bill and to schedule the {pick?}-up time so",
+      "why": ""
+    },
+    {
+      "at": "03:18",
+      "screen": "Timeline slide, 'SA · 9 stages run your clock' and 'Why the clock starts on day 1 in SA' cards",
+      "action": "Explains why the customer must be able to hand the device to the courier",
+      "evidence": [
+        {"kind": "say", "at": "03:18", "quote": "that the customer can give the device to the delivery company.", "frame": ""},
+        {"kind": "see", "at": "03:17", "frame": "t00197.jpg", "quote": "Card 'Why the clock starts on day 1 in SA': 'The AWB is yours to create - nothing moves until you issue it.'"}
+      ],
+      "says": "that the customer can give the device to the delivery company.",
+      "why": "So that the customer can give the device to the delivery company."
+    },
+    {
+      "at": "03:21",
+      "screen": "Timeline slide, 'Under collection is never counted' card and the Under collection dot on the SA row",
+      "action": "Explains that under collection does not count against the seller",
+      "evidence": [
+        {"kind": "say", "at": "03:21", "quote": "Under collection is the period during which the customer has to give the device to the delivery company.", "frame": ""},
+        {"kind": "say", "at": "03:27", "quote": "This period is not counted against you.", "frame": ""},
+        {"kind": "see", "at": "03:21", "frame": "t00201.jpg", "quote": "Card 'Under collection is never counted': 'In every market, the time the customer takes to hand the device to the courier sits on Revibe's side - your clock is stopped.'"}
+      ],
+      "says": "Under collection is the period during which the customer has to give the device to the delivery company. This period is not counted against you.",
+      "why": ""
+    },
+    {
+      "at": "03:28",
+      "screen": "Timeline slide, SA row 'Collection failed' bar",
+      "action": "Moves to the collection-failed stage on the SA row; explanation is cut off at the end of part 1",
+      "evidence": [
+        {"kind": "say", "at": "03:30", "quote": "Then at collection failed, if the customer does not succeed to give the device to the {company,?} {collection?}", "frame": ""},
+        {"kind": "say", "at": "03:39", "quote": "is thus failing.", "frame": ""},
+        {"kind": "say", "at": "03:40", "quote": "Thus it's still on your side because you will have to create a new ROE bill and to", "frame": ""},
+        {"kind": "see", "at": "03:35", "frame": "t00211.jpg", "quote": "Pointer just above the SA row near the 'In transit' label; dark blue bar spanning 'Collection failed' and 'In transit'"}
+      ],
+      "says": "Then at collection failed, if the customer does not succeed to give the device to the {company,?} {collection?} is thus failing. Thus it's still on your side because you will have to create a new ROE bill and to",
+      "why": "The trainer says the failure stays on the seller side, because the seller will have to create a new bill (the sentence is cut off)."
+    }
+  ],
+  "facts": [
+    {
+      "type": "rule",
+      "statement": "At the moment the new returns refund policy applies to returns only. Warranties follow once they are in the Revibe App.",
+      "evidence": [
+        {"kind": "say", "at": "00:24", "quote": "In this new returns refund policy, which is at the moment only applied for returns, but that will", "frame": ""},
+        {"kind": "see", "at": "00:42", "frame": "t00042.jpg", "quote": "Pill 'LIVE NOW Applies to returns · warranties follow once they are in the Revibe App'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Solve stage: the seller has 5 working days (5 WD) to solve a return, in every market.",
+      "evidence": [
+        {"kind": "say", "at": "00:38", "quote": "you 5 working days in all the markets to solve your claims.", "frame": ""},
+        {"kind": "see", "at": "00:42", "frame": "t00042.jpg", "quote": "Card 'ALL MARKETS' 'Solve' '5 WD every market' 'You have 5 working days to solve a return.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The Solve clock starts from the moment the claim lands on the seller in AE / ZA, and from the claim date in SA.",
+      "evidence": [
+        {"kind": "see", "at": "00:42", "frame": "t00042.jpg", "quote": "'Counted from the moment the claim lands on you in AE / ZA, from the claim date in SA.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Warning stage: if the return is still not solved, the seller gets a warning on the 6th working day in AE, ZA and others, and on the 7th working day in SA.",
+      "evidence": [
+        {"kind": "say", "at": "00:43", "quote": "On the 6th working day {you?} will receive a warning in UAE and South Africa, and on the", "frame": ""},
+        {"kind": "say", "at": "00:49", "quote": "7th working day you will receive a warning in Saudi Arabia.", "frame": ""},
+        {"kind": "see", "at": "00:45", "frame": "t00045.jpg", "quote": "Warning card: '6 WD' with flags 'AE · ZA · others'; '7 WD' with SA flag"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "At the warning stage the return turns yellow marked in the seller's app. The screen says: you get a warning and the return turns yellow marked in your app.",
+      "evidence": [
+        {"kind": "say", "at": "00:59", "quote": "and the return will turn yellow marked in your app.", "frame": ""},
+        {"kind": "see", "at": "00:58", "frame": "t00058.jpg", "quote": "'Still not solved: you get a warning and the return turns yellow marked in your app.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Closing stage (label POLICY APPLIED): the claim closes on the 8th working day in AE, ZA and others, and on the 9th working day in SA.",
+      "evidence": [
+        {"kind": "say", "at": "01:04", "quote": "Two days after, on the 8th working day in UAE, South Africa and other countries, the claim will", "frame": ""},
+        {"kind": "say", "at": "01:13", "quote": "And on the 9th working day in Saudi Arabia, the claim will be closed.", "frame": ""},
+        {"kind": "see", "at": "01:04", "frame": "t00064.jpg", "quote": "Card 'POLICY APPLIED' 'Closing': '8 WD' with flags 'AE · ZA · others'; '9 WD' with SA flag"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "If the return is still not solved at closing, a full refund is issued to the customer and the claim closes against the seller.",
+      "evidence": [
+        {"kind": "say", "at": "01:18", "quote": "At this moment, it means that the claim has not been resolved by you, a full refund will", "frame": ""},
+        {"kind": "say", "at": "01:25", "quote": "be issued to the customer and the claim is closed against you.", "frame": ""},
+        {"kind": "see", "at": "01:18", "frame": "t00080.jpg", "quote": "'A full refund is issued to the customer and the claim closes against you.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Collecting stage (Saudi Arabia only): Revibe collects the device before the claim closes. Once Revibe receives it, Revibe refunds the customer and credits the seller.",
+      "evidence": [
+        {"kind": "say", "at": "01:33", "quote": "before closing the claim, we will collect the device.", "frame": ""},
+        {"kind": "say", "at": "01:37", "quote": "Once we receive the device, we will refund the customer and credit you.", "frame": ""},
+        {"kind": "see", "at": "01:29", "frame": "t00089.jpg", "quote": "Card 'SA ONLY' 'Collecting': 'Only in Saudi Arabia.' 'Revibe collects the device. Once received we refund the customer and credit you.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "A working day (WD) is the sum of the hours of working days during which the claim is pending on the seller's side only, meaning the seller has to take an action to move the claim to the next stage.",
+      "evidence": [
+        {"kind": "say", "at": "01:46", "quote": "A working day is the sum of all the hours during working days when only the claim is", "frame": ""},
+        {"kind": "say", "at": "01:55", "quote": "pending on your side, meaning that it's only on your responsibility to take an action to move the", "frame": ""},
+        {"kind": "see", "at": "02:00", "frame": "t00133.jpg", "quote": "'A working day = the sum of hours during working days the claim spends on your side only.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Weekends never count: Saturday and Sunday do not count, in any market.",
+      "evidence": [
+        {"kind": "say", "at": "02:04", "quote": "Thus, weekends are not counted, Saturday and Sunday do not count in any market.", "frame": ""},
+        {"kind": "see", "at": "02:04", "frame": "t00133.jpg", "quote": "'Weekends never count: Saturday and Sunday do not count, in any market.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "If there is any issue with the device, the seller creates a resolution request. The clock stops straight away.",
+      "evidence": [
+        {"kind": "say", "at": "02:10", "quote": "If you have any issue with the device, you can create a resolution request.", "frame": ""},
+        {"kind": "see", "at": "02:10", "frame": "t00133.jpg", "quote": "'Any issue with the device? Create a resolution request — the clock stops straight away.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "After a resolution request, the clock restarts only when the resolution is solved, not when an agent replies to the seller.",
+      "evidence": [
+        {"kind": "say", "at": "02:14", "quote": "{The?} clock will stop straight away and the clock will only restart when the resolution is solved {Not?}", "frame": ""},
+        {"kind": "see", "at": "02:14", "frame": "t00133.jpg", "quote": "'It restarts only when the resolution is solved, not when an agent replies to you.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "example",
+      "statement": "Worked example: the return lands on the seller on Monday (the clock starts); the seller raises a resolution request on Wednesday (the clock freezes); the resolution is solved on Friday (the clock restarts) and the seller still has 3 working days left to solve it before a warning.",
+      "evidence": [
+        {"kind": "see", "at": "02:26", "frame": "t00148.jpg", "quote": "'Example - stopping the clock': 'Mon the return lands on you - the clock starts'; 'Wed you raise a resolution - the clock freezes'; 'Fri the resolution is solved - it restarts'; 'You still have 3 working days left to solve it.'"},
+        {"kind": "say", "at": "02:42", "quote": "the resolution is solved {Then?} the clock is restarting, meaning you still have {3?} working days to solve", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The seller's clock runs only while the claim sits on the seller side. On the timeline, dark blue means the seller's clock is running, and light blue means Revibe's clock is stopped.",
+      "evidence": [
+        {"kind": "see", "at": "03:03", "frame": "t00172.jpg", "quote": "Subtitle 'The timer only runs while the claim sits on the seller side. Dark blue = your clock is running.' Legend 'Revibe - the clock is stopped' and 'Seller - the clock is running'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "In SA, the slide card lists 9 stages that run the seller's clock: Pending collection, Collection failed, In transit, Under QC, Under revision, Pending LAB collection, To ship back, Ship back under collection, Shipped back.",
+      "evidence": [
+        {"kind": "see", "at": "03:03", "frame": "t00172.jpg", "quote": "Card 'SA · 9 stages run your clock': 'Pending collection · Collection failed · In transit · Under QC · Under revision · Pending LAB collection · To ship back · Ship back under collection · Shipped back'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "In AE, ZA and others, the slide card lists 3 stages that run the seller's clock: Under QC, Under revision and Pending LAB collection.",
+      "evidence": [
+        {"kind": "see", "at": "03:03", "frame": "t00172.jpg", "quote": "Card 'AE · ZA · others · 3 stages': 'Under QC · Under revision · Pending LAB collection.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "In AE, ZA and others, collection and ship-back are run by Revibe, so they never cost the seller time.",
+      "evidence": [
+        {"kind": "see", "at": "03:03", "frame": "t00172.jpg", "quote": "'Collection and ship-back are run by Revibe, so they never cost you time.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Under collection is never counted in any market: the time the customer takes to hand the device to the courier sits on Revibe's side and the seller's clock is stopped.",
+      "evidence": [
+        {"kind": "say", "at": "03:21", "quote": "Under collection is the period during which the customer has to give the device to the delivery company.", "frame": ""},
+        {"kind": "say", "at": "03:27", "quote": "This period is not counted against you.", "frame": ""},
+        {"kind": "see", "at": "03:21", "frame": "t00201.jpg", "quote": "'Under collection is never counted': 'In every market, the time the customer takes to hand the device to the courier sits on Revibe's side - your clock is stopped.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "In SA, at pending collection the seller must create the AWB bill and schedule the pick-up time so that the customer can give the device to the delivery company.",
+      "evidence": [
+        {"kind": "say", "at": "03:11", "quote": "At this stage, you need to create the {hour?} bill and to schedule the {pick?}-up time so", "frame": ""},
+        {"kind": "say", "at": "03:18", "quote": "that the customer can give the device to the delivery company.", "frame": ""},
+        {"kind": "see", "at": "03:17", "frame": "t00197.jpg", "quote": "Card 'Why the clock starts on day 1 in SA': 'The AWB is yours to create - nothing moves until you issue it.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "In SA, the seller's clock starts on day 1: the card says the AWB is the seller's to create and nothing moves until the seller issues it.",
+      "evidence": [
+        {"kind": "see", "at": "03:03", "frame": "t00172.jpg", "quote": "Card 'Why the clock starts on day 1 in SA': 'The AWB is yours to create - nothing moves until you issue it.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "In SA, if the customer does not succeed in handing the device to the courier (collection failed), the trainer says the failure stays on the seller's side. The dark blue bar on the timeline spans Collection failed and In transit. The trainer says the seller will have to create a new bill (audio reads 'ROE', see unclear); the sentence is cut off at the end of part 1.",
+      "evidence": [
+        {"kind": "say", "at": "03:30", "quote": "Then at collection failed, if the customer does not succeed to give the device to the {company,?} {collection?}", "frame": ""},
+        {"kind": "say", "at": "03:39", "quote": "is thus failing.", "frame": ""},
+        {"kind": "say", "at": "03:40", "quote": "Thus it's still on your side because you will have to create a new ROE bill and to", "frame": ""},
+        {"kind": "see", "at": "03:35", "frame": "t00211.jpg", "quote": "Dark blue bar on the SA row spanning 'Collection failed' and 'In transit'"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "tip",
+      "statement": "The courier is the seller's choice ('The courier is your choice' on the card). The rest of that bullet is partly hidden by the webcam bubble.",
+      "evidence": [
+        {"kind": "see", "at": "03:03", "frame": "t00172.jpg", "quote": "'The courier is your choice: a' ... 'able, efficient one keeps the' ... 'ction and the transit short.' (partly hidden by the webcam bubble)"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    }
+  ],
+  "screens": [
+    {
+      "name": "Title slide 'Returns Refund Policy'",
+      "shows": "Large two-line title 'Returns' / 'Refund Policy' on a white background with a purple gradient bar; the trainer's webcam bubble at bottom-left; slide controls at bottom-left in some frames.",
+      "at": "00:00-00:27",
+      "where": "frames t00000, t00002, t00008, t00010, t00012, t00024, t00027"
+    },
+    {
+      "name": "Returns Refund Policy overview (Contract clause 9.1)",
+      "shows": "Header 'REFUND POLICY · CONTRACT CLAUSE 9.1' and 'Returns Refund Policy'. Pill 'LIVE NOW: Applies to returns · warranties follow once they are in the Revibe App'. Four stage cards: 1 Solve (ALL MARKETS) 5 WD every market; 2 Warning (WARNING) 6 WD AE · ZA · others, 7 WD SA; 3 Closing (POLICY APPLIED) 8 WD AE · ZA · others, 9 WD SA; 4 Collecting (SA ONLY) 9 WD + SA. Box 'How the clock works' with four bullets. Box 'Example - stopping the clock' with Mon / Wed / Fri lines. Footer 'Revibe · Seller communication' bottom-left (partly hidden in some frames) and 'Applies to returns raised in the Revibe App' bottom-right.",
+      "at": "00:42-02:48",
+      "where": "frames t00042 to t00165 (e.g. t00042, t00133, t00148)"
+    },
+    {
+      "name": "THE CLOCK - Which stages count against you",
+      "shows": "Subtitle 'The timer only runs while the claim sits on the seller side. Dark blue = your clock is running.' Two timelines of 17 stage labels (Form received, Pending collection, Under collection, Collection failed, In transit, Under QC, Invalid claim, Under revision, Send to LAB, Pending LAB collection, In transit to LAB, LAB Under QC, Invalid claim confirmed, To ship back, Ship back under collection, Shipped back, Ready for refund) for SA and for AE · ZA · others, with legend 'Revibe - the clock is stopped' (light blue) and 'Seller - the clock is running' (dark blue). Four cards: 'Why the clock starts on day 1 in SA', 'SA · 9 stages run your clock', 'AE · ZA · others · 3 stages', 'Under collection is never counted'.",
+      "at": "02:52-03:40 (slide stays to the end of part 1)",
+      "where": "frames t00172 to t00215 (e.g. t00172)"
+    },
+    {
+      "name": "Slide viewer controls",
+      "shows": "Icons at the bottom-left of the presentation (previous, pen, zoom, captions, camera, more, next), shown in some frames only.",
+      "at": "00:00-03:40",
+      "where": "e.g. t00000, t00042, t00172"
+    }
+  ],
+  "terms": [
+    {"term": "WD", "meaning": "Working day. Defined in the 'How the clock works' box as the sum of the hours during working days the claim spends on the seller side only.", "at": "00:43"},
+    {"term": "Clock (seller clock)", "meaning": "The timer that counts the working days. It runs only while the claim sits on the seller side; it is stopped while Revibe holds the claim.", "at": "02:52"},
+    {"term": "Solve", "meaning": "Stage 1, all markets: the seller has 5 WD to solve the return.", "at": "00:38"},
+    {"term": "Warning", "meaning": "Stage 2: the return is still not solved, so the seller gets a warning and the return turns yellow marked in the app (6 WD in AE/ZA/others, 7 WD in SA).", "at": "00:53"},
+    {"term": "Closing (label POLICY APPLIED)", "meaning": "Stage 3: the return is still not solved, so a full refund is issued to the customer and the claim closes against the seller (8 WD in AE/ZA/others, 9 WD in SA).", "at": "01:04"},
+    {"term": "Collecting (SA only)", "meaning": "Stage 4, Saudi Arabia only: Revibe collects the device; once received Revibe refunds the customer and credits the seller. The card shows '9 WD +' (the + is not explained in part 1).", "at": "01:29"},
+    {"term": "Resolution request", "meaning": "What the seller creates when there is any issue with the device. The clock stops straight away and restarts only when the resolution is solved.", "at": "02:10"},
+    {"term": "Yellow marked return", "meaning": "How a return at the warning stage shows in the app.", "at": "00:59"},
+    {"term": "AWB", "meaning": "The bill the seller creates in SA. The card says 'The AWB is yours to create - nothing moves until you issue it.' The expansion is not shown or spoken in part 1.", "at": "03:11"},
+    {"term": "Under collection", "meaning": "The period in which the customer must hand the device to the delivery company. Not counted against the seller in any market.", "at": "03:21"},
+    {"term": "Pending collection", "meaning": "In SA, the stage where the seller creates the bill and schedules the pick-up time. Counted against the seller (dark blue dot on the SA row).", "at": "03:07"},
+    {"term": "Collection failed", "meaning": "In SA, the stage where the customer does not succeed in handing the device to the delivery company. Counted against the seller (dark blue bar on the SA row).", "at": "03:30"},
+    {"term": "AE, ZA, SA", "meaning": "Market codes on screen. The trainer says UAE and South Africa for the first two, and the flags on screen match. SA is Saudi Arabia (the trainer says 'Saudi Arabia' for SA).", "at": "00:43"},
+    {"term": "Revibe / Revibe App", "meaning": "The company, and the app in which returns are raised and claims are tracked.", "at": "00:00"},
+    {"term": "Contract clause 9.1", "meaning": "The contract clause the returns refund policy slide is labelled with.", "at": "00:42"}
+  ],
+  "asr_fixes": [
+    {"at": "00:00", "heard": "{Revibe?}", "correct": "Revibe", "basis": "Footer on screen reads 'Revibe · Seller communication' (frame t00133.jpg); the company name is written as Revibe throughout the slides."},
+    {"at": "00:31", "heard": "the Revive app", "correct": "the Revibe App", "basis": "Pill and footer on screen read 'Revibe App' ('Applies to returns raised in the Revibe App', frame t00042.jpg)."},
+    {"at": "02:14", "heard": "{Not?}", "correct": "not", "basis": "Bullet on screen reads 'It restarts only when the resolution is solved, not when an agent replies to you.' (frame t00133.jpg)."},
+    {"at": "02:22", "heard": "when a revive agent replies to you", "correct": "when an agent replies to you", "basis": "Bullet on screen reads 'It restarts only when the resolution is solved, not when an agent replies to you.' (frame t00133.jpg)."},
+    {"at": "03:11", "heard": "create the {hour?} bill", "correct": "create the AWB bill", "basis": "Card on screen reads 'The AWB is yours to create - nothing moves until you issue it.' (frame t00172.jpg)."}
+  ],
+  "unclear": [
+    {"at": "00:00", "issue": "The greeting is transcribed as 'Pepe'. The brief names the narrator as Pierre. No name is shown on screen, so the trainer's name is not stated as fact."},
+    {"at": "03:40", "issue": "Audio says 'create a new ROE bill'. The slide says the AWB is the bill the seller creates (frames t00172, t00197). Unclear whether the re-created bill is the AWB or a different document. The sentence is also cut off at the end of part 1, so this is not stated as a fact."},
+    {"at": "02:26", "issue": "The audio at 02:26 reads 'The return is created ... clock is', while the example box on screen says 'Mon the return lands on you - the clock starts' (frame t00148.jpg). The slide wording is used in the facts; the audio is garbled at this point."},
+    {"at": "01:29", "issue": "On the SA-only Collecting card the slide shows '9 WD +' followed by the SA flag. Neither the narration nor the slide explains what the '+' adds, or whether collection time is added to the 9 WD. Not stated as a fact."},
+    {"at": "03:03", "issue": "The courier bullet on the SA card is partly hidden by the webcam bubble ('The courier is your choice: a ... able, efficient one keeps the ... ction and the transit short.'). The middle words are not visible and the narration does not cover this bullet, so only the visible words are used."},
+    {"at": "03:03", "issue": "The SA card lists Under QC among the 9 stages, but on the SA timeline row no dark-blue dot is clearly aligned with Under QC (the dot near Under QC looks light blue). The card text is used for the stage list; the dot mapping is not stated."},
+    {"at": "03:30", "issue": "The narration of the collection-failed step is cut off at the part boundary ('create a new ROE bill and to'). Part 2 is needed to confirm the full procedure."}
+  ],
+  "outdated": [
+    {"at": "00:24", "signal": "Trainer says the policy 'at the moment' applies only to returns, and that it 'will soon be applied also for the warranties' once they are integrated into the Revibe app. The pill on the overview slide says 'warranties follow once they are in the Revibe App', so this scope is expected to change."}
+  ],
+  "privacy": [],
+  "audit": {
+    "checked": 72,
+    "removed": [
+      {"statement": "Term 'AWB' expanded as 'Air waybill'", "reason": "The expansion is not shown on screen or spoken in part 1; it came from general knowledge. The term now uses only the on-screen wording."}
+    ],
+    "corrected": [
+      {"before": "Step 00:53 action: pointer moves to the Warning card text", "after": "Warning card text is on screen; the pointer sits just below the card in frame t00058", "reason": "Frame t00058 shows the pointer below the card, not on its text."},
+      {"before": "Step 01:18 action: pointer on the closing consequence text", "after": "Closing card text is on screen; no pointer on that text in frame t00080", "reason": "Frame t00080 shows no pointer on the closing text."},
+      {"before": "Fact (warning type): 'In SA, the seller's clock starts on day 1 and nothing moves until the seller issues the AWB.' typed as warning", "after": "Same statement typed as rule, citing the card text", "reason": "The card states a rule, not a warning."},
+      {"before": "Fact (collection failed): 'the seller's clock keeps running' and 'the seller then has to create a new bill'", "after": "Trainer says the failure stays on the seller side; the dark blue bar spans Collection failed and In transit; the bill is audio 'ROE' per the unclear list; confidence medium", "reason": "The clock-running wording is not said in audio, and the bill name conflicts with the slide (AWB)."},
+      {"before": "Fact (courier tip): 'an efficient courier keeps collection and transit short' typed as implied, low confidence", "after": "'The courier is the seller's choice' (visible on card), with the partly hidden rest flagged", "reason": "The 'efficient courier' wording is only partly visible; the visible part is 'The courier is your choice'."},
+      {"before": "Step 01:41 and 02:42 'why' fields attribute the reasons to 'Pierre'", "after": "'The trainer'", "reason": "The transcript does not name the speaker; the name is not confirmed by the audio or the screen."},
+      {"before": "Unclear 02:26: 'the transcript reads the clock is starting on the Wednesday'", "after": "Audio at 02:26 reads 'The return is created ... clock is' against the slide's 'Mon the return lands on you'", "reason": "The quoted line belongs to 02:35, not 02:26; the conflict is at 02:26."},
+      {"before": "Unclear 03:03: courier bullet words 'reliable' and 'collection' described as not visible", "after": "Only the visible fragments are described; the 'collection' fragment ('ction') is partly visible", "reason": "'reliable' was a guess; the fragment '...ction and the transit short' is visible."},
+      {"before": "Term AE, ZA, SA: 'Pierre says UAE and South Africa'", "after": "'The trainer says UAE and South Africa'", "reason": "Speaker name not confirmed in the transcript."},
+      {"before": "Outdated: 'the slide pill carries the same time-bound status'", "after": "The pill says 'warranties follow once they are in the Revibe App'; it is not date-bound", "reason": "The pill does not carry a deadline or time-bound wording."}
+    ],
+    "added": [
+      "Step 00:06 (intro: new refund policy, how it helps solve claims, tracking current claims to avoid penalty), evidence say 00:06, 00:12, 00:19 and frame t00012.jpg",
+      "Step 00:31 (warranties to be added once integrated into the Revibe App), evidence say 00:31 and frame t00027.jpg",
+      "Unclear entry at 00:00 (greeting says 'Pepe'; brief names the narrator Pierre; no name on screen)",
+      "Unclear entry at 03:03 (SA card lists Under QC, but no clearly dark-blue dot aligns with Under QC on the SA row)"
+    ]
+  }
+}

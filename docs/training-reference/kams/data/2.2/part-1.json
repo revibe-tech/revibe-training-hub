@@ -1,0 +1,834 @@
+{
+  "summary": "Part 1 of 2 (00:00-03:55) of the KAM training on the Fulfillment App backend. The trainer says the Fulfillment App is a frontend with some features over a backend Google Sheet (Fulfillment App - O&D) where the data is stored. He walks the Requests, Request_products, Inventory, Inventory_movements, box_movements and Users tabs, and traces one Smart Reach shipment (Request ID f1f9de7f; he says 23 devices have been requested; three SKU lines) from the sheet to the app. He says usually you are not supposed to input any data in these tabs or in the Fulfillment app, that the app is there to help monitor suppliers, and near the end he edits his own Users row (row 2) to the SteppingStone seller values and says he has taken that account. All 40 frames listed in the pack were opened. Several spoken words were corrected from the screen (REBIL to AWB, Revive to Revibe, smart search to Smart Reach). Unclear items: the RTO and cancelled types, the restart step, the Score, Inventory days, Open/Closed and Payment method columns, which quantity the 23 refers to, and the trainer editing a Users row while describing the seller view.",
+  "steps": [
+    {
+      "at": "00:00-00:21",
+      "screen": "Google Sheet 'Fulfillment App - O&D' (browser tab 2), Requests tab",
+      "action": "Says the Fulfillment App is a frontend and that the data sits in the backend sheet; points at the backend tabs.",
+      "evidence": [
+        {"kind": "say", "at": "00:09", "quote": "Everything that I show to you on the fulfillment app is just a frontend with some features, but"},
+        {"kind": "say", "at": "00:16", "quote": "all the data is stored here in this backend."},
+        {"kind": "see", "at": "00:00", "frame": "t00000.jpg", "quote": "Browser tab 'Fulfillment App - O&D' is a Google Sheet with the Requests tab selected. Visible tabs: Requests (selected), Request_products, Inventory, Inventory_movements, and box_movements cut off at the edge. Users is not visible in this frame. Columns include ID, Request Status, Supplier, Tracking ID, Tracking company, Tracking link, Created by, Created at, Updated by, Updated at, Payment method."}
+      ],
+      "says": "In this backend, like some tabs are important for you to know.",
+      "why": "The trainer says all the data is stored in this backend."
+    },
+    {
+      "at": "00:23-00:28",
+      "screen": "Google Sheet, Requests tab",
+      "action": "Introduces the Requests tab as the place where all the requests and shipments made by sellers can be seen.",
+      "evidence": [
+        {"kind": "say", "at": "00:28", "quote": "Request {where?} you can see all the requests, all the shipments made by the sellers."},
+        {"kind": "see", "at": "00:23", "frame": "t00023.jpg", "quote": "Requests tab with rows 1136-1168 visible; row 1168 is f1f9de7f, Supplier Smart Reach, Request Status AWB created, Tracking company Quiqup; row 1165 is ReNova Tech, Under QC."}
+      ],
+      "says": "Request {where?} you can see all the requests, all the shipments made by the sellers.",
+      "why": ""
+    },
+    {
+      "at": "00:33-00:47",
+      "screen": "App Shipments page (browser tab 1); a blank Google Sheet tab appears at 00:46 (t00046)",
+      "action": "Points at the Smart Reach shipment (ID f1f9de7f) on the app's Shipments page and reads its status as AWB created.",
+      "evidence": [
+        {"kind": "say", "at": "00:35", "quote": "So you can see, for instance, this smart search, smart reach, sorry, shipment that is at {REBIL?} created"},
+        {"kind": "say", "at": "00:47", "quote": "And you can see that the status is REBIL created stage."},
+        {"kind": "see", "at": "00:33", "frame": "t00033.jpg", "quote": "App Shipments page: group 'AWB created' (3) lists Smart Reach f1f9de7f, Z And B Mobile 41fa1c7c and Smart Device World e28ece28."},
+        {"kind": "see", "at": "00:38", "frame": "t00038.jpg", "quote": "Same Shipments page with the Smart Reach row highlighted by the cursor; its Request Status reads AWB created."}
+      ],
+      "says": "And you can see that the status is REBIL created stage.",
+      "why": ""
+    },
+    {
+      "at": "00:51-01:00",
+      "screen": "Google Sheet, Request_products tab (t00056, t00059); app Request products page starts loading (t00066)",
+      "action": "Introduces the second tab, Request_products, which lists the SKUs of the shipments, and says they are the same SKUs as the app's Request products page.",
+      "evidence": [
+        {"kind": "say", "at": "00:51", "quote": "second tab {request?} product where you can see from all the shipments that have been created"},
+        {"kind": "say", "at": "01:00", "quote": "all the SKUs that are inside this tab is the same as request products here okay so if"},
+        {"kind": "see", "at": "00:56", "frame": "t00056.jpg", "quote": "Request_products tab: columns ID, Request ID, SKU, Product, Quantity recommended, Supplier, Score, Buybox sup (cut off), Quantity Sent, Price, Total price, Quantity received, Quantity accepted, Updated at, Updated by; further columns are cut off at the edge."}
+      ],
+      "says": "all the SKUs that are inside this tab is the same as request products here",
+      "why": ""
+    },
+    {
+      "at": "01:05-01:20",
+      "screen": "App Request products page (browser tab 1)",
+      "action": "Opens Request products in the app and selects the supplier Smart Reach (23) under Open.",
+      "evidence": [
+        {"kind": "say", "at": "01:09", "quote": "I go to the shipment of smart reach {here?} I can see that 23 devices have been {have?}"},
+        {"kind": "say", "at": "01:18", "quote": "been requested"},
+        {"kind": "see", "at": "01:08", "frame": "t00068.jpg", "quote": "Request products page before any supplier is selected: filter tree shows All, Open 315 and Closed 25,419 with no supplier list shown; the table starts with a Cancelled 3,178 group heading."},
+        {"kind": "see", "at": "01:17", "frame": "t00077.jpg", "quote": "Open is expanded in the filter tree and 'Smart Reach 23' is highlighted; the table shows a 'Requested 23' group with three rows."}
+      ],
+      "says": "I can see that 23 devices have been requested",
+      "why": ""
+    },
+    {
+      "at": "01:20",
+      "screen": "App Request products page, Smart Reach group",
+      "action": "Reads the recommended quantities and the SKUs of the shipment.",
+      "evidence": [
+        {"kind": "say", "at": "01:20", "quote": "with this was the quantities recommended these are the quantity {send?} these are the skus and if i"},
+        {"kind": "see", "at": "01:17", "frame": "t00077.jpg", "quote": "Smart Reach group 'Requested 23' with 3 rows; columns Request Status, SKU, Product, Supplier, Quantity recommended, Quantity Sent, Warning message, Quantity received, Quantity accepted, Buybox supplier."}
+      ],
+      "says": "these are the skus",
+      "why": ""
+    },
+    {
+      "at": "01:26-01:40",
+      "screen": "Google Sheet, Request_products tab, Request ID column filter",
+      "action": "Filters the Request_products tab by Request ID: searches for f1f9de7f and ticks that value.",
+      "evidence": [
+        {"kind": "say", "at": "01:26", "quote": "go here in the back end i check i look by request id and i put the id"},
+        {"kind": "see", "at": "01:33", "frame": "t00093.jpg", "quote": "Request_products tab with filter icons on the header row; the filter search box shows 'f1f9de7f 0 of 0' and the footer shows Count 43,217."},
+        {"kind": "see", "at": "01:40", "frame": "t00100.jpg", "quote": "Filter dropdown on the Request ID column with 'f1f9de7f' in the search box, value f1f9de7f ticked, and 'Displaying 1'."}
+      ],
+      "says": "go here in the back end i check i look by request id and i put the id",
+      "why": ""
+    },
+    {
+      "at": "01:39-01:56",
+      "screen": "Google Sheet, Request_products tab filtered to f1f9de7f",
+      "action": "Reads the three SKU lines of the Smart Reach shipment with their quantities recommended, buy box and quantities sent.",
+      "evidence": [
+        {"kind": "say", "at": "01:39", "quote": "smart reach i can see exactly these three skus with all the quantities that are recommended {all?} their"},
+        {"kind": "say", "at": "01:46", "quote": "buy box price, all the quantity sent, their price, etc."},
+        {"kind": "see", "at": "01:52", "frame": "t00112.jpg", "quote": "Filtered view '3 of 7,369 rows displayed': rows 7368-7370 (SKU shown cut off as ...038651 and ...048851) with Quantity recommended 14, 11, 11; Quantity Sent 8, 10, 5; Buybox 603, 970, 970."}
+      ],
+      "says": "smart reach i can see exactly these three skus with all the quantities that are recommended {all?} their",
+      "why": ""
+    },
+    {
+      "at": "01:50-01:56",
+      "screen": "Google Sheet, Request_products tab, columns N-S",
+      "action": "Points at the audit and status columns: when and by whom each line was updated and created, its stage and its request status.",
+      "evidence": [
+        {"kind": "say", "at": "01:50", "quote": "And here I can {see?} additional details about when was it updated, by who, when was it created,"},
+        {"kind": "say", "at": "01:56", "quote": "by who, what is the stage, which is the request status, etc."},
+        {"kind": "see", "at": "01:52", "frame": "t00112.jpg", "quote": "Columns N-S show Updated at, Updated by, Created at, Created by, Stage (Open) and Request Status (Requested, yellow)."}
+      ],
+      "says": "by who, what is the stage, which is the request status, etc.",
+      "why": ""
+    },
+    {
+      "at": "02:00-02:17",
+      "screen": "Google Sheet, Inventory tab (t00125, t00142); app Fulfilment live inventory (t00131) and Supplier inventory (t00137)",
+      "action": "Goes to the Inventory tab and says it corresponds to all inventory, to fulfilment live inventory and to supplier inventory, which he calls different views.",
+      "evidence": [
+        {"kind": "say", "at": "02:04", "quote": "that corresponds to all inventory"},
+        {"kind": "say", "at": "02:08", "quote": "and also to fulfillment live inventory."},
+        {"kind": "say", "at": "02:11", "quote": "These are just like different views."},
+        {"kind": "say", "at": "02:14", "quote": "it also corresponds to supplier inventory where we can see everything that is live or out of stock"},
+        {"kind": "see", "at": "02:11", "frame": "t00131.jpg", "quote": "App page Fulfilment live inventory: filter 'Fulfillment 201'; columns SKU, Name, Inventory days, Status (Live), Current quantity, Initial quantity, Initial price, Price override, Current price, Supplier, Total value."},
+        {"kind": "see", "at": "02:17", "frame": "t00137.jpg", "quote": "App page Supplier inventory: filter groups 'Live 174', 'Out of stock 0', 'Under QC 27'; 100 Miles and 971 Fixing supplier groups; Download button."}
+      ],
+      "says": "These are just like different views.",
+      "why": ""
+    },
+    {
+      "at": "02:21-02:38",
+      "screen": "Google Sheet, Inventory_movements tab (t00146, t00155)",
+      "action": "Shows the Inventory_movements tab as the list of device movements; the Type values on screen are Sale and Return to supplier. He lists sold, return to supplier, RTO and cancelled as things devices may have been, and says he will find the tab that holds them.",
+      "evidence": [
+        {"kind": "say", "at": "02:21", "quote": "for instance this is exactly the same sheet inventory movement where we can see all the devices that"},
+        {"kind": "say", "at": "02:28", "quote": "have been sold return to supplier rto cancelled whatever this {correspond?} to the tab {let?} me find it"},
+        {"kind": "see", "at": "02:26", "frame": "t00146.jpg", "quote": "Inventory_movements tab: columns ID, Inventory ID, Request ID, Request product ID, Request tracking ID, SKU, Supplier, Name, Order help, IMEI, Type, Reason for return, Comment. Type values shown: Sale and Return to supplier."}
+      ],
+      "says": "have been sold return to supplier rto cancelled whatever this {correspond?} to the tab {let?} me find it",
+      "why": ""
+    },
+    {
+      "at": "02:38-02:56",
+      "screen": "Google Sheet, box_movements tab (t00171); app Packaging request page (t00176)",
+      "action": "Points at the box_movements tab as the packaging tab, which he says corresponds to the Packaging request page in the app.",
+      "evidence": [
+        {"kind": "say", "at": "02:38", "quote": "inventory exit and finally you can also see the tab box movement which correspond to the tab packaging"},
+        {"kind": "see", "at": "02:51", "frame": "t00171.jpg", "quote": "box_movements tab: columns ID, Type, Stage, Reason, AWB, Tracking link, Quantity, Stickers, Seller, Required at, Required by, Sent at, Sent by. Types include Phone (box + inners), Laptop (box + inners), Stickers, iPad (box + inners) and Phone (inners only); Stage shows Sent or Out of stock."},
+        {"kind": "see", "at": "02:56", "frame": "t00176.jpg", "quote": "App Packaging request page: Type 'Phone (box + inners) - English', Stage Sent, Reason 'Send to seller', Seller, Quantity, Required at."}
+      ],
+      "says": "inventory exit and finally you can also see the tab box movement which correspond to the tab packaging",
+      "why": ""
+    },
+    {
+      "at": "02:49-02:57",
+      "screen": "App Packaging request page (t00176); sidebar visible, no input form open",
+      "action": "Says these tabs are good to have, and that usually you are not supposed to input any data in these tabs or in the Fulfillment app.",
+      "evidence": [
+        {"kind": "say", "at": "02:49", "quote": "request so all these tabs it's it's good for you to have them in to have them in"},
+        {"kind": "say", "at": "02:57", "quote": "mind usually you're not supposed to input any data in these tabs or even in the fulfillment app"},
+        {"kind": "see", "at": "02:56", "frame": "t00176.jpg", "quote": "Packaging request page of the app, sidebar with 18 menu items, no input form open."}
+      ],
+      "says": "mind usually you're not supposed to input any data in these tabs or even in the fulfillment app",
+      "why": ""
+    },
+    {
+      "at": "03:05-03:24",
+      "screen": "Google Sheet, box_movements tab rows 413-461 (t00187 at 03:07)",
+      "action": "Says the Fulfillment app is there to help monitor the suppliers being recruited, including whether their quality was good, and the suppliers in the portfolio. Says you want to check whether suppliers sent to Fulfillment with good quality, in order to properly restart them.",
+      "evidence": [
+        {"kind": "say", "at": "03:05", "quote": "The Fulfillment app is just here to help you monitor the suppliers you are recruiting in Revive to"},
+        {"kind": "say", "at": "03:13", "quote": "check if their quality was good and also monitor the suppliers that you have in your portfolio, which"},
+        {"kind": "say", "at": "03:19", "quote": "quality was not good."},
+        {"kind": "say", "at": "03:20", "quote": "And you want to check if they sent to Fulfillment and if they sent good quality in order"},
+        {"kind": "say", "at": "03:24", "quote": "to properly restart them."},
+        {"kind": "see", "at": "03:07", "frame": "t00187.jpg", "quote": "box_movements tab, rows 413-461, showing Stage, Seller and Required by columns."}
+      ],
+      "says": "The Fulfillment app is just here to help you monitor the suppliers you are recruiting in Revive to",
+      "why": "The trainer says the purpose is to monitor supplier quality and the suppliers in the portfolio."
+    },
+    {
+      "at": "03:27-03:42",
+      "screen": "Google Sheet, Users tab (gid 2133317643) from 03:35 (t00215); box_movements is still on screen at 03:27 (t00207)",
+      "action": "Says the Users tab is important and that a super admin can take the admin view of another seller.",
+      "evidence": [
+        {"kind": "say", "at": "03:27", "quote": "Last thing that is very important is this tab at the end called users."},
+        {"kind": "say", "at": "03:34", "quote": "Here in user, you can see me at the top, I can take the admin view of another"},
+        {"kind": "say", "at": "03:42", "quote": "So now you see I have an admin view in {this?} app."},
+        {"kind": "see", "at": "03:27", "frame": "t00207.jpg", "quote": "box_movements tab still on screen (rows 413-461); the Users tab is not open yet."},
+        {"kind": "see", "at": "03:35", "frame": "t00215.jpg", "quote": "Users tab: columns ID, Name, Email, Role, Type, Initials, Status; row 2 Pierre, Role Superadmin, Type Superadmin."}
+      ],
+      "says": "I can take the admin view of another",
+      "why": ""
+    },
+    {
+      "at": "03:46-03:54",
+      "screen": "Google Sheet, Users tab row 2 (t00225, t00230, t00232); browser tab 1 shows the app's Packaging request page at 03:47 (t00227)",
+      "action": "Changes his own Users row 2 to Role SteppingStone, Type Supplier, Initials SS, Status Closed, and says he has taken the SteppingStone account. He says he will see what happens when the app is reloaded; no reload is shown on screen.",
+      "evidence": [
+        {"kind": "say", "at": "03:46", "quote": "If I take the view of another seller and I'm not anymore super admin, you will see what's"},
+        {"kind": "say", "at": "03:53", "quote": "happening when I reload the app."},
+        {"kind": "say", "at": "03:54", "quote": "{As?} you can see here, I took the account of stepping stone."},
+        {"kind": "see", "at": "03:45", "frame": "t00225.jpg", "quote": "Users tab with cells D5:G5 selected (SteppingStone, Supplier, SS, Closed on row 5, ID 4), a 'Convert to smart chips' prompt, and row 2 still showing Pierre, Superadmin."},
+        {"kind": "see", "at": "03:52", "frame": "t00232.jpg", "quote": "Users row 2 shows Role 'SteppingStone', Type 'Supplier', Initials 'SS', Status 'Closed'; cell D2 is selected and the sheet shows 'Saving...'."}
+      ],
+      "says": "{As?} you can see here, I took the account of stepping stone.",
+      "why": ""
+    },
+    {
+      "at": "00:31",
+      "screen": "App Packaging request page (browser tab 1)",
+      "action": "Shows the app's Packaging request page briefly, with no narration over it.",
+      "evidence": [
+        {"kind": "see", "at": "00:31", "frame": "t00031.jpg", "quote": "Packaging request page: group 'Phone (box + inners) - English', Stage Sent, Reason 'Send to seller', AWB, Quantity, Seller, Required at (first rows 5/19/2026 4:13:08 AM to 6/3/2026), Tracking link."}
+      ],
+      "says": "",
+      "why": ""
+    }
+  ],
+  "facts": [
+    {
+      "type": "rule",
+      "statement": "The Fulfillment App is a frontend with some features; the data it shows is stored in the backend, which is the Google Sheet 'Fulfillment App - O&D' with its tabs.",
+      "evidence": [
+        {"kind": "say", "at": "00:09", "quote": "Everything that I show to you on the fulfillment app is just a frontend with some features, but"},
+        {"kind": "see", "at": "00:00", "frame": "t00000.jpg", "quote": "Browser tab 'Fulfillment App - O&D' open in Google Sheets with the Requests tab selected."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The trainer says that usually you are not supposed to input any data in the backend tabs or in the Fulfillment app.",
+      "evidence": [
+        {"kind": "say", "at": "02:57", "quote": "mind usually you're not supposed to input any data in these tabs or even in the fulfillment app"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The trainer says the Fulfillment app helps monitor the suppliers being recruited, including whether their quality was good, and the suppliers in the portfolio.",
+      "evidence": [
+        {"kind": "say", "at": "03:05", "quote": "The Fulfillment app is just here to help you monitor the suppliers you are recruiting in Revive to"},
+        {"kind": "say", "at": "03:13", "quote": "check if their quality was good and also monitor the suppliers that you have in your portfolio, which"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Implied: the portfolio suppliers that are monitored include suppliers whose quality was not good.",
+      "evidence": [
+        {"kind": "say", "at": "03:19", "quote": "quality was not good."}
+      ],
+      "confidence": "low",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "The Requests tab shows all the requests and shipments made by sellers, one row per shipment with its ID, Request Status and Supplier.",
+      "evidence": [
+        {"kind": "say", "at": "00:28", "quote": "Request {where?} you can see all the requests, all the shipments made by the sellers."},
+        {"kind": "see", "at": "00:23", "frame": "t00023.jpg", "quote": "Requests tab rows show ID, Request Status, Supplier, Tracking ID; row 1168 has the shipment ID f1f9de7f."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The Requests tab has these columns: ID, Request Status, Supplier, Tracking ID, Tracking company, Tracking link, Tracking Label link, Created by, Created at, Updated by, Updated at, Payment method, Warehouse received, Cables balance, Qnt sent, Qnt received, Qnt accepted.",
+      "evidence": [
+        {"kind": "see", "at": "00:00", "frame": "t00000.jpg", "quote": "Header row of the Requests tab lists the columns above, from A (ID) to Q (Qnt accepted)."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Request Status values seen on the Requests tab are Completed, Cancelled, Under QC and AWB created. Shipment f1f9de7f (Supplier Smart Reach, tracking company Quiqup) is at AWB created.",
+      "evidence": [
+        {"kind": "see", "at": "00:23", "frame": "t00023.jpg", "quote": "Row 1168: ID f1f9de7f, Request Status 'AWB created', Supplier Smart Reach, Tracking company Quiqup; row 1165 ReNova Tech 'Under QC'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "To see the SKUs of one shipment, filter the Request_products tab by its Request ID (for example f1f9de7f) in the Request ID column.",
+      "evidence": [
+        {"kind": "say", "at": "01:26", "quote": "go here in the back end i check i look by request id and i put the id"},
+        {"kind": "see", "at": "01:40", "frame": "t00100.jpg", "quote": "Filter dropdown on the Request ID column with value f1f9de7f ticked and 'Displaying 1'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The Request_products tab has one row per SKU line of a shipment, with Quantity recommended, Quantity Sent, Buybox, Price, Total price, Quantity received, Quantity accepted, Updated at and by, Created at and by, Stage and Request Status. The app's Request products page shows Request Status, SKU, Product, Supplier, Quantity recommended, Quantity Sent, Warning message, Quantity received, Quantity accepted and Buybox supplier.",
+      "evidence": [
+        {"kind": "say", "at": "01:39", "quote": "smart reach i can see exactly these three skus with all the quantities that are recommended {all?} their"},
+        {"kind": "say", "at": "01:50", "quote": "And here I can {see?} additional details about when was it updated, by who, when was it created,"},
+        {"kind": "see", "at": "01:52", "frame": "t00112.jpg", "quote": "Columns E (Quantity recommended), I (Quantity Sent), H (Buybox), J (Price), K (Total price) and N-S (Updated, Created, Stage, Request Status) are visible."},
+        {"kind": "see", "at": "01:17", "frame": "t00077.jpg", "quote": "App table columns: Request Status, SKU, Product, Supplier, Quantity recommended, Quantity Sent, Warning message, Quantity received, Quantity accepted, Buybox supplier. No Price, Stage or audit columns visible."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "example",
+      "statement": "The trainer says shipment f1f9de7f (Smart Reach) has 23 devices requested. The app's Request products page shows a 'Requested 23' group for Smart Reach with three SKU rows.",
+      "evidence": [
+        {"kind": "say", "at": "01:09", "quote": "I go to the shipment of smart reach {here?} I can see that 23 devices have been {have?}"},
+        {"kind": "see", "at": "01:17", "frame": "t00077.jpg", "quote": "Group heading 'Requested 23' above three rows; 'Smart Reach 23' highlighted in the supplier filter list under Open."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "example",
+      "statement": "The three SKU lines of Smart Reach shipment f1f9de7f are: SKU 0204112-038651 (Quantity recommended 14, Quantity Sent 8, Buybox 603); SKU 020456-048851 (Quantity recommended 11, Quantity Sent 10, Buybox 970); SKU 020456-048851 (Quantity recommended 11, Quantity Sent 5, Buybox 970).",
+      "evidence": [
+        {"kind": "see", "at": "01:17", "frame": "t00077.jpg", "quote": "Same three rows in the app: SKU 0204112-038651 quantities 14 / 8 / 603; SKU 020456-048851 quantities 11 / 10 / 970 and 11 / 5 / 970."},
+        {"kind": "see", "at": "01:52", "frame": "t00112.jpg", "quote": "Rows 7368-7370 in the sheet with Quantity recommended 14, 11, 11; Quantity Sent 8, 10, 5; Buybox 603, 970, 970."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The app's Request products filter tree shows Open (315) and Closed (25,419); the table shows a Cancelled group heading (3,178). When Open is expanded it lists supplier groups, including Smart Reach (23), at the time shown.",
+      "evidence": [
+        {"kind": "see", "at": "01:08", "frame": "t00068.jpg", "quote": "Filter tree: All, Open 315, Closed 25,419 (no supplier list shown); table header 'Cancelled 3,178'."},
+        {"kind": "see", "at": "01:17", "frame": "t00077.jpg", "quote": "Open expanded with supplier groups such as ABS Cell 5, Al Nakhlah 10 and Smart Reach 23 (highlighted); Closed 25,419 collapsed."}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The app's Shipments page groups shipments by status: AWB created (3), Under QC (1) and Completed (1056) at the time shown. Columns are Supplier, ID, Created by, Created at, Updated at, Request Status, Payment method, Tracking company, Tracking ID, Tracking link and Tracking Label link.",
+      "evidence": [
+        {"kind": "see", "at": "00:33", "frame": "t00033.jpg", "quote": "Group 'AWB created' 3, group 'Under QC' 1, group 'Completed' 1056; column headers as listed."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The trainer says the Inventory tab corresponds to all inventory, and also to the app's Fulfilment live inventory and Supplier inventory pages; he calls these different views.",
+      "evidence": [
+        {"kind": "say", "at": "02:04", "quote": "that corresponds to all inventory"},
+        {"kind": "say", "at": "02:08", "quote": "and also to fulfillment live inventory."},
+        {"kind": "say", "at": "02:11", "quote": "These are just like different views."},
+        {"kind": "see", "at": "02:05", "frame": "t00125.jpg", "quote": "Inventory tab open with columns ID, SKU, Name, Initial quantity, Current quantity, Initial price, Price override, Current price, Supplier, Total value, Type, Status."}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The app's Supplier inventory page filters by status: Live (174), Out of stock (0) and Under QC (27) at the time shown. Its supplier groups include 100 Miles and 971 Fixing.",
+      "evidence": [
+        {"kind": "say", "at": "02:14", "quote": "it also corresponds to supplier inventory where we can see everything that is live or out of stock"},
+        {"kind": "see", "at": "02:17", "frame": "t00137.jpg", "quote": "Filter list: Live 174, Out of stock 0, Under QC 27."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The Inventory tab has columns ID, SKU, Name, Initial quantity, Current quantity, Initial price, Price override, Current price, Supplier, Supplier initials, Total value, Market unit price, Type, Status, Available to, Fix price, Original Order, Notes, Product ID and Variant ID. Type values seen include Fulfillment, Auction, Invalid claim, Naif return and Naif COD rejected (text cut off).",
+      "evidence": [
+        {"kind": "see", "at": "02:05", "frame": "t00125.jpg", "quote": "Inventory tab, gid 1366126616: header columns as listed; Type values Fulfillment, Auction, Invalid claim, Naif return, Naif COD rej (cut off); Status values Out of stock and Sold."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The Inventory_movements tab lists device movements with Type values Sale and Return to supplier; Return to supplier rows carry a Reason for return such as Camera dot, Battery level not matching, Physical condition not matching or Face ID failure.",
+      "evidence": [
+        {"kind": "see", "at": "02:26", "frame": "t00146.jpg", "quote": "Type column shows 'Sale' and 'Return to supplier'; Reason for return column shows 'Screen shade', 'Battery level not matching', 'Camera dot'."},
+        {"kind": "see", "at": "02:35", "frame": "t00155.jpg", "quote": "Rows 56-104: Reason for return 'Physical condition not matching', 'Face ID failure', 'Not selling', 'Camera dot'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The box_movements tab is the packaging tab: it lists packaging shipments with Type (for example Phone (box + inners)), Stage (Sent or Out of stock), Reason (Send to seller), AWB, Quantity, Seller and Required at. The trainer says it corresponds to the tab packaging, and the app's Packaging request page shows the same kind of rows.",
+      "evidence": [
+        {"kind": "say", "at": "02:38", "quote": "inventory exit and finally you can also see the tab box movement which correspond to the tab packaging"},
+        {"kind": "see", "at": "02:51", "frame": "t00171.jpg", "quote": "box_movements columns ID, Type, Stage, Reason, AWB, Tracking link, Quantity, Stickers, Seller, Required at, Required by, Sent at, Sent by."},
+        {"kind": "see", "at": "02:56", "frame": "t00176.jpg", "quote": "App Packaging request page: Type 'Phone (box + inners) - English', Stage Sent, Reason 'Send to seller'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The Users tab has these columns: ID, Name, Email, Role, Type, Initials, Status. Role values include Superadmin, Admin and supplier names such as Dealt and SteppingStone; Type values include Superadmin, Internal and Supplier; Status values include Open and Closed.",
+      "evidence": [
+        {"kind": "see", "at": "03:35", "frame": "t00215.jpg", "quote": "Column headers ID, Name, Email, Role, Type, Initials, Status; row 8 Firas Role Admin, Type Internal; row 12 Dealt Role Dealt, Type Supplier; Status values Open and Closed."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "A super admin can take the admin view of another seller from the Users tab.",
+      "evidence": [
+        {"kind": "say", "at": "03:34", "quote": "Here in user, you can see me at the top, I can take the admin view of another"},
+        {"kind": "say", "at": "03:46", "quote": "If I take the view of another seller and I'm not anymore super admin, you will see what's"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "example",
+      "statement": "The trainer edits his own Users row (row 2, Pierre) to Role SteppingStone, Type Supplier, Initials SS, Status Closed, and says he has taken the SteppingStone account; the result of a reload is not shown.",
+      "evidence": [
+        {"kind": "say", "at": "03:54", "quote": "{As?} you can see here, I took the account of stepping stone."},
+        {"kind": "see", "at": "03:52", "frame": "t00232.jpg", "quote": "Users row 2 shows Role 'SteppingStone', Type 'Supplier', Initials 'SS', Status 'Closed'."}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The app's sidebar menu lists, in order: SKUs available, Shipments, Request products, Pending QC, All inventory, Fulfilment live inventory, Inventory to return, Naif to drop price, Supplier inventory, Inventory exits, Stock control, Invalids to fix, Charge inventory, Box inventory, Packaging request, Fulfilment expenses, About and App Gallery (18 items).",
+      "evidence": [
+        {"kind": "see", "at": "00:31", "frame": "t00031.jpg", "quote": "Left sidebar with the menu items listed above; the same 18 items appear in t00176 and t00131."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The tracking company for the sellers' shipments shown is Quiqup, with tracking links on track-parcel.quiqup.com.",
+      "evidence": [
+        {"kind": "see", "at": "00:00", "frame": "t00000.jpg", "quote": "Tracking company 'Quiqup' on the rows; tracking links begin https://track-parcel.quiqup.com/."},
+        {"kind": "see", "at": "00:33", "frame": "t00033.jpg", "quote": "Tracking company 'Quiqup' on the Shipments page rows."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    }
+  ],
+  "screens": [
+    {
+      "name": "Fulfillment App - O&D (Google Sheet, browser tab 2)",
+      "shows": "Backend workbook. Tab names seen across the frames include Backlog Sent to Naif, shipment_status_logs_targets, Suppliers shipments, TDRA request, AE by SKU, TDRA stock, TDRA Shipments, NSYS Data, Requests, Request_products, Inventory, Inventory_movements, Sheet150, box_movements, BB to Shopify, Invalid_Dash, Users, Parameters, Payments, Inventory - Cat & Models, Out of stock date, Website on stock, Website out of stock, BB, Expenses, Enums, Sellers info database, Batch Other UAE banks, Batch RAK transfers and claims. No single frame shows all of them.",
+      "at": "00:00-03:55",
+      "where": "Browser tab 2"
+    },
+    {
+      "name": "Revibe - Fulfillment App (AppSheet web app, browser tab 1)",
+      "shows": "Front-end app with sidebar pages: SKUs available, Shipments, Request products, Pending QC, All inventory, Fulfilment live inventory, Inventory to return, Naif to drop price, Supplier inventory, Inventory exits, Stock control, Invalids to fix, Charge inventory, Box inventory, Packaging request, Fulfilment expenses, About, App Gallery. A search bar on each page; an Add button on Shipments and Packaging request, an Export button on Request products, and a Download button on Supplier inventory.",
+      "at": "00:20-03:55",
+      "where": "Browser tab 1"
+    },
+    {
+      "name": "Requests tab (sheet)",
+      "shows": "One row per shipment: ID, Request Status, Supplier, Tracking ID, Tracking company Quiqup, Tracking link, Created by, Updated by, Payment method '100% - After sales', Warehouse received, Cables balance, Qnt sent, Qnt received, Qnt accepted.",
+      "at": "00:00-00:28",
+      "where": "Fulfillment App - O&D, Requests tab"
+    },
+    {
+      "name": "Shipments page (app)",
+      "shows": "Shipments grouped by Request Status: AWB created (3), Under QC (1), Completed (1056).",
+      "at": "00:33-00:42",
+      "where": "Revibe - Fulfillment App, Shipments"
+    },
+    {
+      "name": "Request_products tab (sheet) and Request products page (app)",
+      "shows": "Sheet: one row per SKU line of each shipment, with Quantity recommended, Quantity Sent, Buybox, Price, Total price, Stage, Request Status and audit columns. App: Request Status, SKU, Product, Supplier, quantity columns and Buybox supplier, with a supplier filter tree and an Export button.",
+      "at": "00:56-01:56",
+      "where": "Both the sheet and the app"
+    },
+    {
+      "name": "Fulfilment live inventory and Supplier inventory pages (app)",
+      "shows": "Live inventory by supplier with SKU, Name, Inventory days, Status, Current and Initial quantity, Initial and Current price, Total value. Supplier inventory has Live / Out of stock / Under QC filters and a Download button.",
+      "at": "02:11-02:17",
+      "where": "Revibe - Fulfillment App"
+    },
+    {
+      "name": "Inventory_movements tab (sheet)",
+      "shows": "Movement rows: ID, Inventory ID, Request ID, Request product ID, Request tracking ID, SKU, Supplier, Name, Order help, IMEI, Type (Sale / Return to supplier), Reason for return, Comment.",
+      "at": "02:26-02:41",
+      "where": "Fulfillment App - O&D, Inventory_movements"
+    },
+    {
+      "name": "box_movements tab (sheet) and Packaging request page (app)",
+      "shows": "Packaging shipments: Type (Phone (box + inners), Laptop (box + inners), Stickers, iPad (box + inners)), Stage (Sent / Out of stock), Reason (Send to seller), AWB, Tracking link, Quantity, Seller, Required by, Required at.",
+      "at": "02:51-03:27",
+      "where": "Both the sheet and the app"
+    },
+    {
+      "name": "Users tab (sheet)",
+      "shows": "Users and roles: ID, Name, Email, Role, Type, Initials, Status. Role values include Superadmin, Admin and supplier names; Type values include Superadmin, Internal and Supplier. The app has no Users page in its sidebar.",
+      "at": "03:35-03:54",
+      "where": "Fulfillment App - O&D, Users"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Fulfillment app (front end)",
+      "meaning": "The AppSheet front end (appsheet.com URL) that shows the backend data; the trainer says it has some features and that all the data is stored in the backend.",
+      "at": "00:09"
+    },
+    {
+      "term": "Backend",
+      "meaning": "The Google Sheet 'Fulfillment App - O&D', where the trainer says all the data is stored.",
+      "at": "00:16"
+    },
+    {
+      "term": "Requests",
+      "meaning": "Tab with all requests and shipments made by sellers, one row per shipment (trainer: 'all the requests, all the shipments made by the sellers').",
+      "at": "00:28"
+    },
+    {
+      "term": "Request products (Request_products)",
+      "meaning": "Tab and app page with the SKU lines of the shipments; the trainer says the tab's SKUs are the same as the app page.",
+      "at": "00:51"
+    },
+    {
+      "term": "Shipment / Request ID",
+      "meaning": "A shipment is identified by its Request ID (for example f1f9de7f); the Requests tab ID column and the Request_products Request ID column both show it, and the trainer filters by Request ID to find a shipment's SKUs.",
+      "at": "01:26"
+    },
+    {
+      "term": "AWB created",
+      "meaning": "Request Status value on the Requests tab and the Shipments page. The spoken form is mis-heard as 'REBIL created' (see asr_fixes).",
+      "at": "00:35"
+    },
+    {
+      "term": "Request Status",
+      "meaning": "Status of a request or request line; values seen include Completed, Cancelled, Under QC, AWB created, Requested and a truncated 'Missing it...'. The trainer says it is the request status.",
+      "at": "01:56"
+    },
+    {
+      "term": "Stage",
+      "meaning": "Stage column on Request_products (Open on the Smart Reach rows); the trainer names it as one of the audit fields.",
+      "at": "01:56"
+    },
+    {
+      "term": "Quantity recommended",
+      "meaning": "Quantity recommended for each SKU in a shipment (trainer: 'the quantities that are recommended').",
+      "at": "01:39"
+    },
+    {
+      "term": "Quantity Sent",
+      "meaning": "Quantity sent for each SKU line, shown next to Quantity recommended.",
+      "at": "01:46"
+    },
+    {
+      "term": "Buy box price / Buybox supplier",
+      "meaning": "Buy box column on each SKU line, named 'Buybox supplier' in the app and 'Buybox' in the sheet; the video does not define it further.",
+      "at": "01:46"
+    },
+    {
+      "term": "Price / Total price",
+      "meaning": "Per-SKU price and total price columns on the Request_products tab.",
+      "at": "01:46"
+    },
+    {
+      "term": "Tracking company (Quiqup)",
+      "meaning": "Carrier shown on the shipment rows, with tracking links on track-parcel.quiqup.com.",
+      "at": "00:23"
+    },
+    {
+      "term": "Inventory (all inventory)",
+      "meaning": "The Inventory tab; the trainer says it corresponds to all inventory.",
+      "at": "02:04"
+    },
+    {
+      "term": "Fulfilment live inventory",
+      "meaning": "App page showing live inventory by supplier, which the trainer calls one of the different views.",
+      "at": "02:08"
+    },
+    {
+      "term": "Supplier inventory",
+      "meaning": "App page with Live / Out of stock / Under QC filters; the trainer says it shows what is live or out of stock.",
+      "at": "02:14"
+    },
+    {
+      "term": "Inventory movements",
+      "meaning": "Sheet tab listing devices that moved, with Type Sale or Return to supplier and a Reason for return.",
+      "at": "02:21"
+    },
+    {
+      "term": "Return to supplier",
+      "meaning": "Movement Type on Inventory_movements, with a reason such as Camera dot or Physical condition not matching.",
+      "at": "02:28"
+    },
+    {
+      "term": "Box movements / Packaging",
+      "meaning": "Packaging tab (box_movements) that the trainer says corresponds to the app's Packaging request page.",
+      "at": "02:38"
+    },
+    {
+      "term": "Admin view",
+      "meaning": "A super admin can take the admin view of another seller from the Users tab (trainer: 'I can take the admin view of another seller').",
+      "at": "03:34"
+    },
+    {
+      "term": "Super admin",
+      "meaning": "The role the trainer refers to when he says he is 'not anymore super admin'; shown as Role 'Superadmin' on the Users tab.",
+      "at": "03:46"
+    },
+    {
+      "term": "Naif",
+      "meaning": "A supplier name on the Inventory tab, the name of the 'Backlog Sent to Naif' sheet tab, and the app menu item 'Naif to drop price'. The part 1 video does not explain it.",
+      "at": "00:00"
+    },
+    {
+      "term": "AWB",
+      "meaning": "Shown as a status value ('AWB created') on the Requests tab and the Shipments page, and as a column on box_movements and the app's Packaging request page. The video does not explain it.",
+      "at": "00:35"
+    },
+    {
+      "term": "Payment method '100% - After sales'",
+      "meaning": "Value shown on the Requests tab and the Shipments page; the video does not explain it.",
+      "at": "00:00"
+    }
+  ],
+  "asr_fixes": [
+    {
+      "at": "00:28",
+      "heard": "Request {where?}",
+      "correct": "Requests (tab)",
+      "basis": "see t00023.jpg: the sheet tab is named 'Requests'."
+    },
+    {
+      "at": "00:35",
+      "heard": "this smart search, smart reach, sorry, shipment",
+      "correct": "Smart Reach",
+      "basis": "see t00023.jpg and t00033.jpg: supplier 'Smart Reach' on the Requests tab and the Shipments page."
+    },
+    {
+      "at": "00:35",
+      "heard": "{REBIL?} created",
+      "correct": "AWB created",
+      "basis": "see t00023.jpg (row 1168 Request Status 'AWB created') and t00033.jpg (group heading 'AWB created')."
+    },
+    {
+      "at": "00:47",
+      "heard": "the status is REBIL created stage",
+      "correct": "AWB created stage",
+      "basis": "see t00033.jpg and t00038.jpg: the Smart Reach row's Request Status reads 'AWB created'. Same mishearing as at 00:35."
+    },
+    {
+      "at": "00:51",
+      "heard": "second tab {request?} product",
+      "correct": "Request_products (tab), i.e. 'Request products'",
+      "basis": "see t00056.jpg: the tab is named 'Request_products'."
+    },
+    {
+      "at": "03:05",
+      "heard": "Revive",
+      "correct": "Revibe",
+      "basis": "see t00033.jpg: app title 'Revibe - Fulfillment App'; see t00215.jpg: e-mail domain revibe.me in Users."
+    },
+    {
+      "at": "03:54",
+      "heard": "{As?} you can see here, I took the account of stepping stone.",
+      "correct": "SteppingStone",
+      "basis": "see t00232.jpg: Users row 2 Role 'SteppingStone' (supplier name spelled as one word on screen)."
+    }
+  ],
+  "unclear": [
+    {
+      "at": "01:20",
+      "issue": "'these are the quantity {send?}' could be 'quantity sent' or 'quantity recommended'. Both columns exist on screen (t00077.jpg), so the word the trainer meant is not confirmed."
+    },
+    {
+      "at": "01:09",
+      "issue": "The trainer says 23 devices have been requested. On screen the Smart Reach rows show Quantity recommended 14, 11, 11 (total 36) and Quantity Sent 8, 10, 5 (total 23), and the group is labelled 'Requested 23'. The video does not say which quantity the 23 counts."
+    },
+    {
+      "at": "02:28",
+      "issue": "The trainer lists sold, return to supplier, RTO and cancelled, but only 'Sale' and 'Return to supplier' appear in the Type column in the frames (t00146.jpg, t00155.jpg, t00161.jpg). Whether RTO and cancelled exist as types is not confirmed."
+    },
+    {
+      "at": "02:28",
+      "issue": "'{correspond?}' and '{let?}' are unreliable; the sentence about which tab holds these movements is not fully clear."
+    },
+    {
+      "at": "02:38",
+      "issue": "The trainer says 'inventory exit' before the box_movements tab. The app has an Inventory exits page in its sidebar, but the video does not say whether 'inventory exit' refers to it or to a tab."
+    },
+    {
+      "at": "03:24",
+      "issue": "'to properly restart them' is unclear. No restart action is shown on screen, and the meaning of restart is not stated."
+    },
+    {
+      "at": "03:20",
+      "issue": "The trainer says the app helps check whether suppliers 'sent to Fulfillment'. What counts as sent to Fulfillment is not defined in part 1."
+    },
+    {
+      "at": "03:46",
+      "issue": "The trainer says what he expects to see when he is no longer super admin and reloads the app. No reload is shown on screen, so the result is not confirmed (t00232.jpg is the last frame of this part)."
+    },
+    {
+      "at": "03:34",
+      "issue": "The trainer edits his own Users row (row 2, Pierre) from Superadmin to SteppingStone / Supplier / SS / Closed (t00232.jpg), while the rule at 02:57 says not to input data in these tabs. A smart-chip conversion prompt appears on the Users tab (t00225.jpg). The video does not say whether this edit is the way to take a seller view, or whether a KAM should do it."
+    },
+    {
+      "at": "00:56",
+      "issue": "The meaning of the Score column on Request_products (percent values such as -6%, 3%, 6.70%, -10.10%) is not explained."
+    },
+    {
+      "at": "02:11",
+      "issue": "The meaning of 'Inventory days' on the Fulfilment live inventory page (values such as 13, 36, 44, 82, with coloured dots) is not explained."
+    },
+    {
+      "at": "01:08",
+      "issue": "The meaning of the Open and Closed groups in the Request products filter (Open 315, Closed 25,419), and of Open and Closed in the Users Status column, is not explained."
+    },
+    {
+      "at": "00:00",
+      "issue": "The meaning of 'Payment method: 100% - After sales' on the Requests and Shipments pages is not explained."
+    }
+  ],
+  "outdated": [
+    {
+      "at": "00:31",
+      "signal": "The Packaging request page shows 'Required at' dates such as 5/19/2026 4:13:08 AM and 6/3/2026 (t00031.jpg), which are earlier than the current date (2026-10-22). The video does not say these rows are examples."
+    },
+    {
+      "at": "02:56",
+      "signal": "The same 'Required at' column runs up to 7/1/2026 4:23:04 AM (t00176.jpg), also earlier than the current date (2026-10-22)."
+    }
+  ],
+  "privacy": [
+    {
+      "at": "00:00-00:21",
+      "frame": "t00000.jpg",
+      "what": "Requests tab shows Created by and Updated by values that are individual seller and staff e-mail addresses (Gmail and seller-domain addresses) next to supplier names. Do not show these to sellers without redaction."
+    },
+    {
+      "at": "00:33",
+      "frame": "t00033.jpg",
+      "what": "Shipments page shows Created by e-mail addresses of individual sellers (for example the Smart Reach account), next to tracking IDs."
+    },
+    {
+      "at": "00:56-01:52",
+      "frame": "t00056.jpg",
+      "what": "Request_products tab shows Created by and Updated by e-mail addresses of sellers and staff on each SKU line (truncated on screen)."
+    },
+    {
+      "at": "02:26",
+      "frame": "t00146.jpg",
+      "what": "Inventory_movements tab shows IMEI numbers, Order help numbers and Request tracking IDs for individual devices, linked to seller supplier names."
+    },
+    {
+      "at": "02:51-03:07",
+      "frame": "t00171.jpg",
+      "what": "box_movements tab shows Seller names and Required by e-mail addresses of individual sellers and staff (t00187.jpg). The Sent at and Sent by columns are empty in the visible rows."
+    },
+    {
+      "at": "03:35-03:54",
+      "frame": "t00215.jpg",
+      "what": "Users tab lists names and e-mail addresses of Revibe staff and individual supplier contacts (Name and Email columns, rows 1 to 50), plus Initials and Status. Do not show this sheet to sellers."
+    }
+  ],
+  "frames_opened": 40,
+  "audit": {
+    "checked": 94,
+    "removed": [
+      {
+        "statement": "Outdated entry at 00:35: the narration says the shipment is at 'REBIL created stage', so the spoken label is out of date.",
+        "reason": "The spoken 'REBIL created' is an ASR mishearing of 'AWB created', not an out-of-date label. It is kept as an asr_fix (00:35 and 00:47), not as outdated."
+      },
+      {
+        "statement": "Term 'Naif' says it appears in the Inventory and Request products tabs.",
+        "reason": "Naif is not seen on the Request_products tab (t00056.jpg, t00059.jpg). It appears on the Inventory tab (t00125.jpg), the 'Backlog Sent to Naif' tab and the app menu item 'Naif to drop price'."
+      }
+    ],
+    "corrected": [
+      {"before": "Summary: 'KAMs are usually not supposed to input any data in these tabs or in the app, that the app is for monitoring supplier quality, and ends by showing the super-admin view of another seller in the Users tab.'", "after": "The trainer says usually you are not supposed to input any data in these tabs or in the app; the app is there to help monitor suppliers; he ends by editing his own Users row to the SteppingStone seller values and saying he has taken that account.", "reason": "'KAMs' is not said in the speech (the audience is inferred). The video does not show a super-admin view itself; it shows the row edit that the trainer says gives the seller view."},
+      {"before": "Step 00:00-00:21: tabs at the bottom include ... Users.", "after": "Visible tabs in t00000 are Requests (selected), Request_products, Inventory, Inventory_movements, with box_movements cut off; Users is not visible in that frame.", "reason": "Users is not in the t00000 frame; the full tab list comes from other frames."},
+      {"before": "Step 00:33-00:47: finds the Smart Reach shipment in the Requests tab and reads its status; screen 'Google Sheet, Requests tab, row 1168; then app Shipments page'.", "after": "Points at the Smart Reach shipment on the app's Shipments page (t00033, t00038) and reads its status as AWB created. The Requests tab row was shown earlier at 00:23.", "reason": "The frames at 00:33-00:38 show the app Shipments page, and the blank sheet at 00:46 is still loading."},
+      {"before": "Step 00:35 quote is cited at 00:35; step 00:47 quote 'REBIL created stage' was given with no ASR entry.", "after": "Kept both quotes; the 00:47 mishearing is now listed in asr_fixes.", "reason": "Same mishearing at 00:47 as at 00:35."},
+      {"before": "Step 01:05-01:20 cites t00068 as 'Smart Reach 23 is highlighted' in the filter tree with Open expanded.", "after": "t00068 shows only All, Open 315, Closed 25,419 and a Cancelled 3,178 group heading. The supplier list with Smart Reach 23 highlighted is in t00077 (01:17).", "reason": "Wrong frame cited for the supplier list."},
+      {"before": "Step 01:26-01:33 cites t00096 for the filter dropdown with 'Displaying 1'.", "after": "The dropdown with f1f9de7f ticked and 'Displaying 1' is t00100 (01:40). t00093 (01:33) shows the filter icons and the footer count; t00096 shows the Request ID filter icon only.", "reason": "Frame mismatch; the dropdown is at 01:40."},
+      {"before": "Step 01:36 quote 'smart reach i can see exactly these three skus...' timestamped 01:36.", "after": "Timestamped 01:39; the sheet filtered view is t00112 at 01:52, not 01:46.", "reason": "Transcript line is at 01:39; frame times per pack."},
+      {"before": "Step 02:21-02:38: lists 'sold, returned to supplier, RTO, cancelled, exits' and says he will look for the RTO tab.", "after": "Lists sold, return to supplier, RTO and cancelled as things devices may have been; says 'let me find it' (no 'exits', no 'RTO tab').", "reason": "'exits' is not in the 02:21-02:28 speech; the trainer does not name an RTO tab."},
+      {"before": "Step 02:38-02:47: box_movements at t00171 (02:41) and Packaging request at t00176 (02:47).", "after": "t00171 is at 02:51 and t00176 at 02:56.", "reason": "Frame times per pack. t00161 (02:41) is Inventory_movements, not box_movements."},
+      {"before": "Step 03:05-03:24 screen: 'No screen change (narration over the app and tabs)' with frame t00187.", "after": "Screen is the box_movements tab (rows 413-461) at 03:07.", "reason": "The frame shows the sheet; there is no app view here."},
+      {"before": "Step 03:27-03:42 cites t00207 for the Users tab with row 2 Pierre, Superadmin.", "after": "t00207 (03:27) still shows box_movements; the Users tab with row 2 Pierre, Superadmin is t00215 (03:35).", "reason": "Wrong frame cited."},
+      {"before": "Step 03:46-03:54: 'Changes the Users row ..., reloads the app, and says he has taken the SteppingStone account.'", "after": "The reload is not shown on screen; he says he will see what happens when he reloads the app.", "reason": "No reload is visible in t00225, t00230 or t00232."},
+      {"before": "Step 03:46-03:54 cites t00230 as 'app after reload'.", "after": "t00230 is the Users sheet (row 2 changing, 'Saving...'), not the app. The app tab appears at 03:47 (t00227) as the Packaging request page.", "reason": "Wrong frame described."},
+      {"before": "Fact: 'The Fulfillment App is a front end only ...'", "after": "The Fulfillment App is a frontend with some features; the data it shows is stored in the backend sheet.", "reason": "'Only' is not said; the trainer says 'with some features'."},
+      {"before": "Fact: 'KAMs are usually not supposed to input any data ... The app and tabs are for monitoring.'", "after": "The trainer says usually you are not supposed to input any data in these tabs or in the Fulfillment app.", "reason": "'KAMs' is inferred; 'for monitoring' is not said at 02:57."},
+      {"before": "Fact: 'The Fulfillment app is there to help KAMs monitor the suppliers they are recruiting for Revibe, including whether their quality was good, and to monitor the suppliers in their portfolio, including the ones whose quality was not good.'", "after": "The trainer says the app helps monitor the suppliers being recruited (whether their quality was good) and the suppliers in the portfolio. The 'quality was not good' part is split out as an Implied, low-confidence fact.", "reason": "'for Revibe' is not in the speech ('recruiting in Revive to' is cut off); the portfolio part is only implied."},
+      {"before": "Fact 'To see the SKUs ...' cites t00096 for the filter dropdown.", "after": "Cites t00100 (01:40).", "reason": "Frame mismatch."},
+      {"before": "Fact 'The Request_products tab and the app's Request products page list one row per SKU ... including who created or updated each line.'", "after": "The sheet has the price, stage and audit columns; the app page (t00077) shows Request Status, SKU, Product, Supplier, quantity columns and Buybox supplier, with no price, stage or audit columns visible.", "reason": "The app frames do not show price, stage or audit columns."},
+      {"before": "Example fact: 'matching the Smart Reach 23 count in the app's Request products filter' cites t00068 for the supplier filter.", "after": "The supplier list with 'Smart Reach 23' is t00077 (01:17). The count 23 is shown; the video does not say which quantity it counts (see unclear 01:09).", "reason": "Wrong frame; the 23-device statement is the trainer's words."},
+      {"before": "Fact (screen): 'The app's Request products page groups requests by Request Status: Open (315) with supplier sub-groups, ...' citing t00068 as 'Open 315 (expanded to supplier list)'.", "after": "t00068 shows Open 315 and Closed 25,419 with no supplier list; the supplier sub-groups appear only in t00077.", "reason": "t00068 has no expanded supplier list."},
+      {"before": "Fact (definition): 'Inventory tab (all inventory) and the app's Fulfilment live inventory page are different views of the same inventory, according to the trainer.'", "after": "The trainer says the Inventory tab corresponds to all inventory, also to the Fulfilment live inventory and Supplier inventory pages, and calls these different views.", "reason": "'of the same inventory' is not said; the trainer also names supplier inventory."},
+      {"before": "Procedure: 'A super admin can take the admin view of another seller from the Users tab, which is the last tab of the backend.'", "after": "A super admin can take the admin view of another seller from the Users tab (trainer: 'tab at the end called users').", "reason": "Screen shows Users is followed by BB, Expenses, Enums and others; 'last tab' is not true, so the trainer's words are kept."},
+      {"before": "Example: 'The trainer shows the seller view of the supplier SteppingStone by setting ... then reloading the app.'", "after": "The reload is not shown; the trainer says he will see what happens when he reloads.", "reason": "No reload is in the frames."},
+      {"before": "Fact (screen) sidebar menu cited at 00:00 with frame t00131.", "after": "Cited to t00031 (00:31), which shows the sidebar; t00131 (02:11) and t00176 show the same items.", "reason": "The 00:00 timestamp is not supported by a frame; t00000 is the Google Sheet."},
+      {"before": "Users fact: 'Role and Type values seen include Superadmin, Admin, Internal and Supplier'; screens: 'Role values include Superadmin, Admin, Internal, Supplier'.", "after": "Role values include Superadmin, Admin and supplier names (for example Dealt, SteppingStone); Type values include Superadmin, Internal and Supplier.", "reason": "Internal and Supplier are Type values in the frame (row 8 Admin / Internal, row 12 Dealt / Supplier)."},
+      {"before": "Screen 'Revibe - Fulfillment App': 'Search bar and an Add or Export button per page.'", "after": "A search bar on each page; Add on Shipments and Packaging request, Export on Request products, Download on Supplier inventory.", "reason": "Not every page has an Add or Export button."},
+      {"before": "Screen 'Fulfillment App - O&D': 'Tabs visible at the bottom include ...'", "after": "Tab names seen across the frames (no single frame shows all), including claims.", "reason": "The list comes from several frames."},
+      {"before": "Term 'Naif' listed Request products tab as a place where Naif appears.", "after": "Naif appears on the Inventory tab, the 'Backlog Sent to Naif' tab and the app menu item 'Naif to drop price'.", "reason": "Not seen on Request_products."},
+      {"before": "Term 'AWB': 'Status and column name on the Requests and box_movements tabs.'", "after": "Status value 'AWB created' on the Requests tab and the Shipments page; column on box_movements and the app's Packaging request page.", "reason": "The Requests tab has no AWB column (t00000.jpg)."},
+      {"before": "Term 'Fulfillment app (front end)': 'stores no data itself'.", "after": "The trainer says all the data is stored in the backend.", "reason": "The 'stores no data itself' wording is an inference from the 00:16 line."},
+      {"before": "Term 'Buy box price / Buybox supplier': 'Price column on each SKU line'.", "after": "A buy box column on each SKU line (trainer: 'buy box price').", "reason": "The column is Buybox, not a price column."},
+      {"before": "Term 'Super admin': 'Role that has the admin view of other sellers'.", "after": "The trainer refers to being 'not anymore super admin' (03:46); the role is shown as Superadmin on Users.", "reason": "The definition goes beyond the speech."},
+      {"before": "Unclear at 03:34 cites t00227.jpg for the smart-chip conversion prompt.", "after": "The prompt is in t00225.jpg.", "reason": "Wrong frame."},
+      {"before": "Unclear at 00:00 (Score column).", "after": "Timestamp 00:56 (t00056, t00059).", "reason": "Score is first visible at 00:56."},
+      {"before": "Unclear at 00:00 (Inventory days).", "after": "Timestamp 02:11 (t00131).", "reason": "Inventory days is on the Fulfilment live inventory page."},
+      {"before": "Unclear at 00:00 (Open and Closed).", "after": "Timestamp 01:08 (t00068) and the Users Status column (t00215).", "reason": "Open and Closed appear at those times."},
+      {"before": "Unclear at 03:24 ('sent to Fulfillment').", "after": "Timestamp 03:20 where the phrase is said.", "reason": "Phrase is at 03:20."},
+      {"before": "Outdated at 01:20: 'Required at' dates before 2026-10-22 cited to t00031 and t00176.", "after": "Timestamps 00:31 (t00031) and 02:56 (t00176).", "reason": "Timestamps per pack."},
+      {"before": "Privacy at 02:08-02:21 (t00146) 'IMEI ...'.", "after": "02:26.", "reason": "Frame t00146 is at 02:26."},
+      {"before": "Privacy at 03:07-03:20 (t00187): 'Seller names and the Required by and Sent by e-mail addresses'.", "after": "Required by e-mails and Seller names are shown; the Sent by column is empty in the visible rows.", "reason": "Sent by is blank in t00187 and t00171."},
+      {"before": "Privacy at 01:20 (t00033): Shipments page e-mails.", "after": "00:33.", "reason": "Frame t00033 is at 00:33."},
+      {"before": "Privacy at 03:33-03:54 (t00225): 'full names'.", "after": "Names (not full names) and e-mails for rows 1 to 50 (t00215 at 03:35).", "reason": "Only first names and short names are shown; frame is t00215."},
+      {"before": "Step 00:51-01:00 'Request_products ... lists every SKU of every shipment'.", "after": "'the SKUs are the same as the app's Request products page' (trainer's words).", "reason": "'every SKU of every shipment' is not said."}
+    ],
+    "added": [
+      "Step 00:31: app Packaging request page shown with no narration (t00031.jpg).",
+      "Step 00:38 frame (t00038.jpg) added as evidence for the Smart Reach shipment step.",
+      "Fact: Inventory tab columns and Type values (t00125.jpg).",
+      "ASR fix at 00:47: 'REBIL created stage' to 'AWB created stage'.",
+      "Unclear at 01:09: the trainer's 23 devices against Quantity recommended (14, 11, 11) and Quantity Sent (8, 10, 5).",
+      "Unclear at 02:38: 'inventory exit' is not tied to a screen.",
+      "Privacy at 00:56-01:52: Request_products tab shows Created by and Updated by e-mails (t00056.jpg, t00112.jpg).",
+      "Implied low-confidence fact at 03:19 about portfolio suppliers whose quality was not good.",
+      "Screen entry for the Inventory tab columns and Type values; screen entry for Users Role and Type values corrected."
+    ]
+  }
+}

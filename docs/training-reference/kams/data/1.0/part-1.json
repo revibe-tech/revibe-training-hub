@@ -1,0 +1,1828 @@
+{
+  "summary": "Part 1 (00:00-03:57 in the pack) of the \"1.0 Onboarding App (KAM)\" training. Pierre introduces the four parts of seller onboarding (Inbound, Outbound, Seller view, Admin view) and then walks through the seller side of Inbound: a seller finds the Revibe For Businesses page, clicks Become a seller, fills the public Become Official Revibe Seller form, uploads a trade licence, is redirected to the AppSheet \"Revibe - Seller Onboarding App\", watches the intro video, and starts the Users Form. The narration ends at 03:54 with the form still open; the Save step and the Admin view are not in this part. All 40 pack frames were opened and checked against the screen. Several pack frame citations were wrong and have been corrected (see audit.corrected). Frame-to-timestamp matching for the AppSheet form is inferred from narration order (see unclear).",
+  "frames_opened": 40,
+  "steps": [
+    {
+      "at": "00:00-00:19",
+      "screen": "Preview PDF: Sellers' journey.pdf, page 5 of 12",
+      "action": "Presents the Sellers' journey slide showing Onboarding (left) and Journey (right) as a diagram.",
+      "says": "",
+      "why": "",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "00:09",
+          "quote": "In the previous video, I already shared to you that sellers have to complete some legal clearance, will",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "00:00",
+          "quote": "Frame t00000 shows the Sellers' journey slide (page 5 of 12): Onboarding App (Legal clearance, Revibe terms and conditions, Quality guidelines) > Quality check ('Send 20/30 pieces to our lab', 'Quality check') > Onboarded ('If quality is good') or Rejected ('If quality is not good'); Journey: Buybox, Fulfillment App, Revibe App, Seller portal.",
+          "frame": "t00000.jpg"
+        }
+      ]
+    },
+    {
+      "at": "00:19-00:52",
+      "screen": "Preview PDF: Sellers' journey.pdf, page 6 of 12",
+      "action": "Lists the four parts of the onboarding process (1 Inbound, 2 Outbound, 3 Seller view, 4 Admin view). Highlights Outbound while speaking about it.",
+      "says": "But to be more specific, I would like to present you four things that are part of the onboarding process.",
+      "why": "",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "00:19",
+          "quote": "But to be more specific, I would like to present you four things that are part of the",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "00:19",
+          "quote": "Page 6 list: 1. Inbound, 2. Outbound, 3. Seller view, 4. Admin view, under the heading Onboarding.",
+          "frame": "t00019.jpg"
+        },
+        {
+          "kind": "see",
+          "at": "00:39",
+          "quote": "The word Outbound is highlighted on the slide (text selection) at the time the trainer speaks about it.",
+          "frame": "t00039.jpg"
+        }
+      ]
+    },
+    {
+      "at": "00:58-01:05",
+      "screen": "Preview PDF (00:58), then Google Chrome: revibe.me/pages/b2b-offers (01:05)",
+      "action": "Says the inbound part starts with sellers who reach Revibe through the website. The slide is still on screen at 00:58; the browser shows the Revibe site, and the cursor points at For Businesses in the top navigation.",
+      "says": "Most of the sellers go to Revive website and they will have this section, Revive for business.",
+      "why": "",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "00:58",
+          "quote": "So let's first start with the inbound.",
+          "frame": ""
+        },
+        {
+          "kind": "say",
+          "at": "01:01",
+          "quote": "Most of the sellers go to Revive website and they will have this section, Revive for business.",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "01:05",
+          "quote": "Top navigation includes 'For Businesses' (cursor on it); page heading 'RENEWED ELECTRONICS'; promo banner 'GET 75 AED OFF YOUR FIRST APP ORDER ENTER CODE APP75 AT CHECKOUT'.",
+          "frame": "t00065.jpg"
+        }
+      ]
+    },
+    {
+      "at": "01:07-01:14",
+      "screen": "Google Chrome: revibe.me/pages/b2b-offers",
+      "action": "Explains the For Businesses section and points to the Become a seller button in the right-hand panel.",
+      "says": "This section is here mainly for corporates who wants to buy on Revive in bulk, but here you also have a button called {become?} a seller.",
+      "why": "",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "01:07",
+          "quote": "This section is here mainly for corporates who wants to buy on Revive in bulk, but here you",
+          "frame": ""
+        },
+        {
+          "kind": "say",
+          "at": "01:14",
+          "quote": "also have a button called {become?} a seller.",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "01:07",
+          "quote": "Panel 'Get Exclusive Discounts on Bulk Device Purchase' and, on the right, the text 'If you want to become a Revibe official seller, please click here' with a 'Become a seller' button.",
+          "frame": "t00067.jpg"
+        }
+      ]
+    },
+    {
+      "at": "01:17",
+      "screen": "Google Chrome: revibe.me/pages/b2b-offers (footer)",
+      "action": "Scrolls to the website footer to show the same Become a seller link under About Us.",
+      "says": "You can find the same button here at the bottom of the website.",
+      "why": "",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "01:17",
+          "quote": "You can find the same button here at the bottom of the website.",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "01:17",
+          "quote": "Footer 'About Us' column lists 'Become A Seller'; 'Contact Us' lists contact@revibe.me (Reply within 1 business day) and +971 4 459 7000 (Monday to Friday 9.30 am to 5.30 pm), 'Chat with Us'; strip 'Free Delivery', '10 Days To Return', '12 Months Warranty'.",
+          "frame": "t00079.jpg"
+        }
+      ]
+    },
+    {
+      "at": "01:19-01:23",
+      "screen": "Google Chrome: revibe.me/pages/become-a-seller (loading)",
+      "action": "Clicks Become a seller; the page at revibe.me/pages/become-a-seller is still blank while loading.",
+      "says": "{when?} clicking on it sellers will get access to some info and will have to complete a first",
+      "why": "",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "01:21",
+          "quote": "{when?} clicking on it sellers will get access to some info and will have to complete a first",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "01:19",
+          "quote": "Blank page loading at URL revibe.me/pages/become-a-seller.",
+          "frame": "t00083.jpg"
+        }
+      ]
+    },
+    {
+      "at": "01:23-01:36",
+      "screen": "Google Chrome: revibe.me/pages/become-a-seller (Become Official Revibe Seller form)",
+      "action": "Shows the empty public form, then fills it with a demo seller: First name, Last name, Email, Phone, Business Name, Units sold per month (selects 1 000 - 2 500). Country is already United Arab Emirates.",
+      "says": "form mentioning for instance let's put my personal credentials and {this?} and they have to upload their trade",
+      "why": "",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "01:29",
+          "quote": "form mentioning for instance let's put my personal credentials and {this?} and they have to upload their trade",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "01:28",
+          "quote": "Empty form under heading 'Become Official Revibe Seller' with text 'Complete the form below to access our Onboarding App and start your journey as an official Revibe seller'; fields First name *, Last name *, Email *, Phone * (+971), Business Name *, Country * (United Arab Emirates), Units sold per month *, Trade license *; Submit.",
+          "frame": "t00088.jpg"
+        },
+        {
+          "kind": "see",
+          "at": "01:36",
+          "quote": "Form filled: Pierre, Villaceque, pierre.villaceque@gmail.com, phone +971 0544637, Business Name 'PEPE TRading', Units sold per month '1 000 - 2 500'.",
+          "frame": "t00096.jpg"
+        }
+      ]
+    },
+    {
+      "at": "01:41-01:46",
+      "screen": "macOS file dialog (Downloads), then Google Chrome: revibe.me/pages/become-a-seller",
+      "action": "Opens the Trade license Upload dialog in Downloads, attaches a file named Atlassian_Inv..., then clicks Submit (the button shows a loading spinner).",
+      "says": "license so let's upload something they can submit it and automatically as you can see they will get",
+      "why": "",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "01:38",
+          "quote": "license so let's upload something they can submit it and automatically as you can see they will get",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "01:41",
+          "quote": "macOS file dialog open on the Téléchargements folder (Upload button clicked).",
+          "frame": "t00101.jpg"
+        },
+        {
+          "kind": "see",
+          "at": "01:43",
+          "quote": "Trade license area shows an attached file 'Atlassian_Inv...' with an X; the Submit button shows a loading spinner.",
+          "frame": "t00103.jpg"
+        }
+      ]
+    },
+    {
+      "at": "01:46-02:06",
+      "screen": "AppSheet: Revibe - Seller Onboarding App welcome modal",
+      "action": "After submit, the browser is redirected to the AppSheet onboarding app. The welcome dialog is read aloud. The Done button is visible; a click on it is not shown in the frames.",
+      "says": "redirected to this app which is the onboarding app this app is for sellers who wants to join",
+      "why": "",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "01:47",
+          "quote": "redirected to this app which is the onboarding app this app is for sellers who wants to join",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "01:46",
+          "quote": "Modal 'This app is for sellers who want to join Revibe as official partners' with a Done button; URL appsheet.com/start/...; app title 'Revibe - Seller Onboarding App'.",
+          "frame": "t00106.jpg"
+        }
+      ]
+    },
+    {
+      "at": "02:06-02:17",
+      "screen": "AppSheet: Revibe - Seller Onboarding App welcome modal (continued)",
+      "action": "Reads the modal text about the waiting time and the one-time sale link.",
+      "says": "if you're only looking to sell few items as a {some?} sales please go to this website done",
+      "why": "",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "02:11",
+          "quote": "if you're only looking to sell few items as a {some?} sales please go to this website done",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "02:06",
+          "quote": "Modal text: 'Please patient as we are receiving a lot of applications, onboarding process may take few weeks' and 'If you're only looking to sell a few items as a one-time sale, please use: https://sell.revibe.me/'.",
+          "frame": "t00126.jpg"
+        }
+      ]
+    },
+    {
+      "at": "02:17-02:24",
+      "screen": "AppSheet: 'Introduction video' page",
+      "action": "Opens the Introduction video page. The embedded video player shows 0:00 and is still loading. The trainer says sellers will get this video.",
+      "says": "then here sellers will get access to a first video that i will include in your training material",
+      "why": "",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "02:17",
+          "quote": "then here sellers will get access to a first video that i will include in your training material",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "02:18",
+          "quote": "'Introduction video' page with an embedded video player showing 0:00 (still loading) and an Ok button at top right.",
+          "frame": "t00138.jpg"
+        }
+      ]
+    },
+    {
+      "at": "02:24-02:28",
+      "screen": "AppSheet: 'Introduction video' page",
+      "action": "Trainer says the next step is clicking Ok to start the form. The Ok button is visible on the video page.",
+      "says": "folder they can then click on ok and start completing the information so first name last name email",
+      "why": "",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "02:25",
+          "quote": "folder they can then click on ok and start completing the information so first name last name email",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "02:24",
+          "quote": "Video player still loading with the Ok button visible at top right.",
+          "frame": "t00144.jpg"
+        }
+      ]
+    },
+    {
+      "at": "02:28-02:34",
+      "screen": "AppSheet: Users Form (side panel)",
+      "action": "The Users Form side panel is open. The trainer clicks First name; an address autocomplete list of earlier entries opens. Last name is typed.",
+      "says": "address so here the email address {is?} automatically the one recorded by Google",
+      "why": "",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "02:28",
+          "quote": "Users Form side panel with Introduction text 'Welcome to Revibe ! Please fill the form below to start the onboarding process', fields First name, Last name, Email (greyed 'pierre@revibe.me'), Company name, Country, Phone, exact address, Google map location; top right 'Cancel' and 'Save' buttons; video player behind shows '0:00 / 14:39'.",
+          "frame": "t00148.jpg"
+        },
+        {
+          "kind": "see",
+          "at": "02:31",
+          "quote": "First name field focused and shows 'Pierre'; autocomplete popup lists earlier addresses (District One - Residence 27; Ontario Tower Office 103; 123 AVENUE JOSEPH DURAND...).",
+          "frame": "t00151.jpg"
+        },
+        {
+          "kind": "see",
+          "at": "02:34",
+          "quote": "Last name field being typed, 'V'.",
+          "frame": "t00154.jpg"
+        }
+      ]
+    },
+    {
+      "at": "02:37-02:46",
+      "screen": "AppSheet: Users Form",
+      "action": "Clicks Company name and types it. Autocomplete suggestions of earlier entries appear.",
+      "says": "company name a bit trading",
+      "why": "",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "02:37",
+          "quote": "Company name field focused and empty; label 'Company name (as mentioned in your trading licence)'; autocomplete popup lists 'Revibe Technology FZ-LLC / Ontario Tower Office 103' and 'chez Delphine Raspadori / 123 Avenue Joseph Durandy'.",
+          "frame": "t00159.jpg"
+        },
+        {
+          "kind": "see",
+          "at": "02:46",
+          "quote": "Company name shows 'P' being typed; Country field empty.",
+          "frame": "t00166.jpg"
+        }
+      ]
+    },
+    {
+      "at": "02:48-02:55",
+      "screen": "AppSheet: Users Form",
+      "action": "Company name 'PEPE trading LLC' is entered and Country is set to United Arab Emirates, which reveals an Emirate field.",
+      "says": "LLC country United Arab Emirates {Dubai?} please share the exact address so here sellers are requested to share",
+      "why": "",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "02:48",
+          "quote": "LLC country United Arab Emirates {Dubai?} please share the exact address so here sellers are requested to share",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "02:52",
+          "quote": "Company name 'PEPE trading LLC'; Country 'United Arab Emirates' selected; Phone shows '+971'; Emirate field appears (empty).",
+          "frame": "t00172.jpg"
+        }
+      ]
+    },
+    {
+      "at": "02:55-03:06",
+      "screen": "AppSheet: Users Form",
+      "action": "Phone is filled with +97112345678 and Emirate is set to Dubai. The shipping address is typed and a Google Maps link is pasted into the Google map location field.",
+      "says": "please share the exact address so here sellers are requested to share an exact address instance",
+      "why": "",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "02:59",
+          "quote": "an exact address instance",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "02:55",
+          "quote": "Country 'United Arab Emirates', Phone '+97112345678', Emirate dropdown set to 'Dubai'.",
+          "frame": "t00175.jpg"
+        },
+        {
+          "kind": "see",
+          "at": "03:02",
+          "quote": "Google map location field pre-filled 'https://www.google.com/maps/' with a pasted link appended after it: 'https://www.google.com/maps/https://maps.app.goo.gl/vKLVWFGbAziU6f...'. Labels: 'Please share the exact adress from where you will ship orders' and 'Please share the exact google map location of this adress'.",
+          "frame": "t00182.jpg"
+        }
+      ]
+    },
+    {
+      "at": "03:06-03:10",
+      "screen": "AppSheet: Users Form",
+      "action": "Types the shipping address; the autocomplete suggests 'Ontario Tower Office 103'.",
+      "says": "",
+      "why": "",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "03:07",
+          "quote": "Shipping address field typed 'Ontario Towe' with autocomplete 'Ontario Tower Office 103'.",
+          "frame": "t00187.jpg"
+        },
+        {
+          "kind": "see",
+          "at": "03:10",
+          "quote": "Shipping address field shows 'Ontario Tower - Business Bay'.",
+          "frame": "t00190.jpg"
+        }
+      ]
+    },
+    {
+      "at": "03:10-03:15",
+      "screen": "AppSheet: Users Form",
+      "action": "Shipping address shows 'Ontario Tower - Business Bay - Dubai - United Arab Emirates'. In What kind of products do you sell?, adds iPhones using the + control. Selects No for Are you a wholeseller (B2B) ?.",
+      "says": "what kind of products do you sell let's say that I sell only iPhones are you a wholesaler",
+      "why": "",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "03:10",
+          "quote": "what kind of products do you sell let's say that I sell only iPhones are you a wholesaler",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "03:15",
+          "quote": "Shipping address 'Ontario Tower - Business Bay - Dubai - United Arab Emirates'; products chip 'iPhones' with an X and a + button; 'Are you a wholeseller (B2B) ?' with No selected.",
+          "frame": "t00195.jpg"
+        }
+      ]
+    },
+    {
+      "at": "03:15-03:21",
+      "screen": "AppSheet: Users Form",
+      "action": "Sets Do you sell online? to No (selected at 03:18). The narration says nothing else appears for No.",
+      "says": "yes or no do you sell online if you put no nothing happens but if they put yes",
+      "why": "",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "03:15",
+          "quote": "yes or no do you sell online if you put no nothing happens but if they put yes",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "03:16",
+          "quote": "Do you sell online? No and Yes buttons, neither selected; cursor on No.",
+          "frame": "t00196.jpg"
+        },
+        {
+          "kind": "see",
+          "at": "03:18",
+          "quote": "Do you sell online? No button highlighted (selected).",
+          "frame": "t00198.jpg"
+        }
+      ]
+    },
+    {
+      "at": "03:21-03:30",
+      "screen": "AppSheet: Users Form",
+      "action": "Sets Do you sell online? to Yes. On which platforms? shows Amazon and Noon chips, and the Noon or Amazon seller page field appears (placeholder 'http://'). The trainer types a test URL.",
+      "says": "we ask them on which platform so let's instance then i have they have to put their amazon",
+      "why": "",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "03:21",
+          "quote": "we ask them on which platform so let's instance then i have they have to put their amazon",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "03:23",
+          "quote": "On which platforms ? chips 'Amazon' and 'Noon'; required field 'Noon or Amazon seller page*' showing 'http://'.",
+          "frame": "t00203.jpg"
+        },
+        {
+          "kind": "see",
+          "at": "03:30",
+          "quote": "Seller page field contains 'https://123456789xxxxtest'.",
+          "frame": "t00210.jpg"
+        }
+      ]
+    },
+    {
+      "at": "03:27-03:33",
+      "screen": "AppSheet: Users Form",
+      "action": "Opens On average, how many units do you sell per month? and selects 1,000 - 2,500. Which grades do you sell? is then filled with A+ and A.",
+      "says": "okay on average how many units do you sell per month which grades do you",
+      "why": "",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "03:27",
+          "quote": "{or?} new page okay on average how many units do you sell per month which grades do you",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "03:30",
+          "quote": "Units dropdown open with options: 0 - 100, 100 - 500, 500 - 1,000, 1,000 - 2,500, 2,500 - 5000, 5,000 - 10,000, > 10,000.",
+          "frame": "t00210.jpg"
+        },
+        {
+          "kind": "see",
+          "at": "03:33",
+          "quote": "Units shows '1,000 - 2,500'; Which grades do you sell? is still empty.",
+          "frame": "t00213.jpg"
+        }
+      ]
+    },
+    {
+      "at": "03:34-03:42",
+      "screen": "AppSheet: Users Form",
+      "action": "Which grades do you sell? shows chips A+ and A. Do you sell as is or refurbish the devices? is then set to Both.",
+      "says": "sell do you sell as is or you refurbish the devices so they can mention both also if",
+      "why": "",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "03:34",
+          "quote": "sell do you sell as is or you refurbish the devices so they can mention both also if",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "03:35",
+          "quote": "Which grades do you sell ? chips 'A+' and 'A'; 'As is', 'Refurbished', 'Both' buttons, none selected.",
+          "frame": "t00215.jpg"
+        },
+        {
+          "kind": "see",
+          "at": "03:42",
+          "quote": "'Both' button selected under 'Do you sell as is or you refurbish the devices ?'.",
+          "frame": "t00222.jpg"
+        }
+      ]
+    },
+    {
+      "at": "03:41-03:43",
+      "screen": "AppSheet: Users Form",
+      "action": "Opens How many technicians do you have? and selects 3 - 5.",
+      "says": "they want how many technicians do you have these are the kind of questions that i was talking",
+      "why": "",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "03:41",
+          "quote": "they want how many technicians do you have these are the kind of questions that i was talking",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "03:42",
+          "quote": "Technician dropdown options: 0, 1 - 2, 3 - 5, 5 - 10, +10.",
+          "frame": "t00222.jpg"
+        },
+        {
+          "kind": "see",
+          "at": "03:43",
+          "quote": "Technician field shows '3 - 5'; the orders field (How many orders are you able to ship on a daily basis (after having done quality check)?) is empty.",
+          "frame": "t00223.jpg"
+        }
+      ]
+    },
+    {
+      "at": "03:46-03:51",
+      "screen": "AppSheet: Users Form",
+      "action": "Selects 20 - 30 for the daily order capacity question.",
+      "says": "to you in the first video how many orders are you able to ship on a daily basis",
+      "why": "",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "03:46",
+          "quote": "to you in the first video how many orders are you able to ship on a daily basis",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "03:53",
+          "quote": "Field 'How many orders are you able to ship on a daily basis (after having done quality check) ?' shows '20 - 30'.",
+          "frame": "t00233.jpg"
+        }
+      ]
+    },
+    {
+      "at": "03:51-03:57",
+      "screen": "AppSheet: Users Form",
+      "action": "Sets How did you hear about Revibe? to Referral. Hovers over Do you know anyone who sells at Revibe? (No/Yes) without choosing. The narration ends with Application status and Approval fields visible.",
+      "says": "how did you hear about revive do you know anyone {at?} {revive?} if they say no it's okay",
+      "why": "",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "03:51",
+          "quote": "how did you hear about revive do you know anyone {at?} {revive?} if they say no it's okay",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "03:53",
+          "quote": "'How did you hear about Revibe ?' shows 'Referral'; 'Do you know anyone who sells at Revibe ?' No/Yes buttons with neither selected.",
+          "frame": "t00233.jpg"
+        },
+        {
+          "kind": "see",
+          "at": "03:54",
+          "quote": "Bottom of form: 'Would you like to add something ?' text box, 'Seller agreement' button 'To do', 'Application status' chip 'Application incomplete', 'Approval' dropdown (empty); cursor on No of 'Do you know anyone' without a selection.",
+          "frame": "t00234.jpg"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "type": "definition",
+      "statement": "The seller onboarding process has four parts: 1. Inbound (sellers who come to Revibe on their own), 2. Outbound (sellers the KAM reaches out to in order to recruit them), 3. Seller view (what sellers see and must do in the onboarding app), 4. Admin view (how to process seller applications).",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "00:19",
+          "quote": "But to be more specific, I would like to present you four things that are part of the",
+          "frame": ""
+        },
+        {
+          "kind": "say",
+          "at": "00:41",
+          "quote": "to you the seller view the seller pass what the sellers see and what they have to do",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "00:19",
+          "quote": "Page 6 list: 1. Inbound, 2. Outbound, 3. Seller view, 4. Admin view.",
+          "frame": "t00019.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "The onboarding sequence on the Sellers' journey slide is: Onboarding App (legal clearance, Revibe terms and conditions, quality guidelines), then Quality check (send 20/30 pieces to our lab, quality check), then either Onboarded (if quality is good) or Rejected (if quality is not good).",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "00:00",
+          "quote": "Onboarding column: Onboarding App (Legal clearance; Revibe terms and conditions; Quality guidelines) > Quality check ('Send 20/30 pieces to our lab'; 'Quality check') > Onboarded ('If quality is good') or Rejected ('If quality is not good').",
+          "frame": "t00000.jpg"
+        },
+        {
+          "kind": "say",
+          "at": "00:09",
+          "quote": "In the previous video, I already shared to you that sellers have to complete some legal clearance, will",
+          "frame": ""
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Sellers must complete legal clearance and get access to the Revibe terms and conditions and quality guidelines as part of onboarding.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "00:09",
+          "quote": "In the previous video, I already shared to you that sellers have to complete some legal clearance, will",
+          "frame": ""
+        },
+        {
+          "kind": "say",
+          "at": "00:15",
+          "quote": "get access to terms and conditions or quality guidelines.",
+          "frame": ""
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "After onboarding, the seller journey (from the Sellers' journey slide) runs through Buybox (set prices for direct shipping), Fulfillment App (set prices and quantities for fulfilment shipping), Revibe App, and Seller portal.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "00:00",
+          "quote": "Journey column: Seller > Buybox ('Set prices for direct shipping') and Fulfillment App ('Set prices and quantities for fulfilment shipping') > Revibe App > Seller portal.",
+          "frame": "t00000.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The Revibe App (journey stage) box lists: manage orders received, interact with the Revibe team, invoices and payments, manage warranties / returns.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "00:00",
+          "quote": "Revibe App box lists: Manage orders received; Interact with Revibe team; Invoices and payments; Manage warranties / returns.",
+          "frame": "t00000.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "The Seller portal (journey stage) box lists: Dashboard; Get access to all apps; Get access to all trainings.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "00:00",
+          "quote": "Seller portal box lists: Dashboard; Get access to all apps; Get access to all trainings.",
+          "frame": "t00000.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "Most sellers find onboarding from the Revibe website: the For Businesses section in the top navigation, which the trainer says is mainly for corporates buying in bulk, contains a Become a seller button.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "01:01",
+          "quote": "Most of the sellers go to Revive website and they will have this section, Revive for business.",
+          "frame": ""
+        },
+        {
+          "kind": "say",
+          "at": "01:07",
+          "quote": "This section is here mainly for corporates who wants to buy on Revive in bulk, but here you",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "01:07",
+          "quote": "For Businesses page shows 'If you want to become a Revibe official seller, please click here' and a 'Become a seller' button.",
+          "frame": "t00067.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "The Become a seller button is on the For Businesses page and also in the website footer under About Us ('Become A Seller').",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "01:14",
+          "quote": "also have a button called {become?} a seller.",
+          "frame": ""
+        },
+        {
+          "kind": "say",
+          "at": "01:17",
+          "quote": "You can find the same button here at the bottom of the website.",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "01:17",
+          "quote": "Footer 'About Us' column lists 'Become A Seller'.",
+          "frame": "t00079.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The For Businesses page is aimed at business buyers: it offers exclusive prices for bulk device purchase for business partners starting from 10+ devices, a quote within 24 hours, and a Sales Manager who contacts the enquirer within 24 hours.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "01:07",
+          "quote": "'Get Exclusive Discounts on Bulk Device Purchase' with 'For business partners, starting from 10+ devices, for all categories, unbeatable prices.'",
+          "frame": "t00067.jpg"
+        },
+        {
+          "kind": "see",
+          "at": "01:09",
+          "quote": "'Send us your enquiry and get quotation in less than 24 hours!'; 'Our Sales Manager will contact you within 24 hours with tailored solutions.'",
+          "frame": "t00069.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "The Become a seller page is at revibe.me/pages/become-a-seller, titled 'Become Official Revibe Seller', and says: complete the form below to access the Onboarding App and start the journey as an official Revibe seller.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "01:19",
+          "quote": "URL revibe.me/pages/become-a-seller in the address bar (page still loading).",
+          "frame": "t00083.jpg"
+        },
+        {
+          "kind": "see",
+          "at": "01:28",
+          "quote": "Heading 'Become Official Revibe Seller'; 'Complete the form below to access our Onboarding App and start your journey as an official Revibe seller'.",
+          "frame": "t00088.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The public Become Official Revibe Seller form has required fields (marked *): First name, Last name, Email, Phone, Business Name, Country, Units sold per month, and Trade license (upload). A Submit button sends the form.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "01:28",
+          "quote": "Labels with asterisk: First name *, Last name *, Email *, Phone *, Business Name *, Country *, Units sold per month *, Trade license *; Submit button.",
+          "frame": "t00088.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The trade licence upload on the public seller form states 'Supported format: PDF'.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "01:28",
+          "quote": "'Please upload your trade license' 'Supported format: PDF' with an Upload button.",
+          "frame": "t00088.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "On the public seller form the Country field is preset to United Arab Emirates and the phone prefix is +971.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "01:28",
+          "quote": "Country: United Arab Emirates (preselected); Phone: +971 prefix.",
+          "frame": "t00088.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "After the public form is submitted, the seller is redirected to the AppSheet app 'Revibe - Seller Onboarding App', which is the onboarding app for sellers who want to join Revibe.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "01:47",
+          "quote": "redirected to this app which is the onboarding app this app is for sellers who wants to join",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "01:46",
+          "quote": "Browser URL appsheet.com/start/... with title 'Revibe - Seller Onboarding App'.",
+          "frame": "t00106.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "The app welcome message says onboarding may take a few weeks because many applications are being received.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "02:03",
+          "quote": "with us please patient {as?} we are receiving a lot of applications onboarding process may take few weeks",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "02:06",
+          "quote": "Modal text: 'Please patient as we are receiving a lot of applications, onboarding process may take few weeks'.",
+          "frame": "t00126.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Sellers who only want to sell a few items as a one-time sale are directed by the app message to use https://sell.revibe.me/ instead of the onboarding app.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "02:11",
+          "quote": "if you're only looking to sell few items as a {some?} sales please go to this website done",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "02:06",
+          "quote": "Modal text: 'If you're only looking to sell a few items as a one-time sale, please use: https://sell.revibe.me/'.",
+          "frame": "t00126.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The onboarding app welcome text says it is for shops, wholesalers and online sellers who want an ongoing relationship with Revibe as official partners.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "01:54",
+          "quote": "{your?} revive as official partners we welcome shops wholesalers and online sellers looking to build an outgoing relationship",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "01:54",
+          "quote": "Modal: 'We welcome shops, wholesalers, and online sellers looking to build an ongoing relationship with us'.",
+          "frame": "t00106.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The intro video page shows an embedded video; the player reads '0:00 / 14:39' once loaded, and the Ok button continues to the form.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "02:17",
+          "quote": "then here sellers will get access to a first video that i will include in your training material",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "02:18",
+          "quote": "'Introduction video' page with the player still loading at 0:00 and an Ok button.",
+          "frame": "t00138.jpg"
+        },
+        {
+          "kind": "see",
+          "at": "02:28",
+          "quote": "Player behind the Users Form panel shows '0:00 / 14:39'.",
+          "frame": "t00148.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "Implied: the Users Form opens after the seller clicks Ok on the introduction video page; the trainer says the seller then starts completing the information with first name, last name and email.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "02:25",
+          "quote": "folder they can then click on ok and start completing the information so first name last name email",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "02:28",
+          "quote": "Users Form side panel open with Introduction 'Welcome to Revibe ! Please fill the form below to start the onboarding process'. The Ok click itself is not shown.",
+          "frame": "t00148.jpg"
+        }
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "In the Users Form the Email field is greyed and filled automatically with the email address the narrator says Google recorded for the signed-in account (shown as pierre@revibe.me).",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "02:37",
+          "quote": "address so here the email address {is?} automatically the one recorded by Google",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "02:28",
+          "quote": "Email field greyed showing 'pierre@revibe.me'.",
+          "frame": "t00148.jpg"
+        }
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The Company name field is labelled 'Company name (as mentioned in your trading licence)'.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "02:37",
+          "quote": "Field label 'Company name (as mentioned in your trading licence)'.",
+          "frame": "t00159.jpg"
+        },
+        {
+          "kind": "see",
+          "at": "02:52",
+          "quote": "Value entered 'PEPE trading LLC'.",
+          "frame": "t00172.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The Country field in the Users Form is a dropdown. Choosing United Arab Emirates reveals an Emirate field, and the trainer sets it to Dubai.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "02:52",
+          "quote": "Country 'United Arab Emirates'; Emirate field appears below Phone.",
+          "frame": "t00172.jpg"
+        },
+        {
+          "kind": "see",
+          "at": "02:55",
+          "quote": "Emirate dropdown appears with 'Dubai' selected.",
+          "frame": "t00175.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Sellers must share the exact address they will ship orders from, and the exact Google Maps location of that address.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "02:48",
+          "quote": "please share the exact address so here sellers are requested to share",
+          "frame": ""
+        },
+        {
+          "kind": "say",
+          "at": "02:59",
+          "quote": "an exact address instance",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "03:02",
+          "quote": "Labels: 'Please share the exact adress from where you will ship orders' and 'Please share the exact google map location of this adress'.",
+          "frame": "t00182.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "The Google map location field is pre-filled with https://www.google.com/maps/. In the demo a pasted short link was appended after this prefix, giving 'https://www.google.com/maps/https://maps.app.goo.gl/...'. Implied: this doubled value is probably not a valid map link.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "03:02",
+          "quote": "Field shows 'https://www.google.com/maps/https://maps.app.goo.gl/vKLVWFGbAziU6f...'.",
+          "frame": "t00182.jpg"
+        }
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "The 'What kind of products do you sell?' field takes several items: the trainer adds products with the + control (demo: iPhones shown as a chip).",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "03:10",
+          "quote": "what kind of products do you sell let's say that I sell only iPhones",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "03:15",
+          "quote": "Products field shows chip 'iPhones' with an X and a + button.",
+          "frame": "t00195.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The B2B question 'Are you a wholeseller (B2B) ?' (label as printed on screen) has Yes/No answers; the trainer answers No for a seller who sells only iPhones.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "03:10",
+          "quote": "are you a wholesaler",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "03:15",
+          "quote": "Label 'Are you a wholeseller (B2B) ?' with No and Yes buttons; No selected.",
+          "frame": "t00195.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The question 'Do you sell online?' controls the next section: the narrator says that for No nothing else happens, and for Yes the platform questions appear.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "03:15",
+          "quote": "yes or no do you sell online if you put no nothing happens but if they put yes",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "03:23",
+          "quote": "After Yes: 'On which platforms ?' chips Amazon and Noon, and 'Noon or Amazon seller page*' (required).",
+          "frame": "t00203.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "When a seller sells online, the form asks on which platform (Amazon or Noon are the options shown) and requires the Noon or Amazon seller page URL.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "03:21",
+          "quote": "we ask them on which platform so let's instance then i have they have to put their amazon",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "03:23",
+          "quote": "Platforms chips 'Amazon' and 'Noon'; required field 'Noon or Amazon seller page*'.",
+          "frame": "t00203.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "The average units sold per month dropdown has these bands: 0 - 100; 100 - 500; 500 - 1,000; 1,000 - 2,500; 2,500 - 5000; 5,000 - 10,000; > 10,000.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "03:27",
+          "quote": "on average how many units do you sell per month",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "03:30",
+          "quote": "Dropdown options: 0 - 100, 100 - 500, 500 - 1,000, 1,000 - 2,500, 2,500 - 5000, 5,000 - 10,000, > 10,000.",
+          "frame": "t00210.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The 'Which grades do you sell?' field takes several items; the trainer adds A+ and A. The meaning of the grades is not explained in this part.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "03:27",
+          "quote": "which grades do you",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "03:35",
+          "quote": "Which grades do you sell ? chips 'A+' and 'A' with a + button.",
+          "frame": "t00215.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The question 'Do you sell as is or refurbish the devices?' offers As is, Refurbished, or Both. The narrator says sellers can mention both; the trainer selects Both.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "03:34",
+          "quote": "sell do you sell as is or you refurbish the devices so they can mention both also if",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "03:35",
+          "quote": "Buttons: 'As is', 'Refurbished', 'Both'; none selected.",
+          "frame": "t00215.jpg"
+        },
+        {
+          "kind": "see",
+          "at": "03:42",
+          "quote": "'Both' selected.",
+          "frame": "t00222.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "The 'How many technicians do you have?' dropdown options are: 0, 1 - 2, 3 - 5, 5 - 10, +10. The trainer selects 3 - 5.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "03:41",
+          "quote": "they want how many technicians do you have these are the kind of questions that i was talking",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "03:42",
+          "quote": "Dropdown options: 0, 1 - 2, 3 - 5, 5 - 10, +10.",
+          "frame": "t00222.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "The question 'How many orders are you able to ship on a daily basis (after having done quality check)?' is on the form; the trainer selects 20 - 30.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "03:46",
+          "quote": "to you in the first video how many orders are you able to ship on a daily basis",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "03:53",
+          "quote": "Field label includes '(after having done quality check)'; value '20 - 30'.",
+          "frame": "t00233.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The 'How did you hear about Revibe?' dropdown records the source; the trainer selects Referral.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "03:51",
+          "quote": "how did you hear about revive do you know anyone",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "03:53",
+          "quote": "'How did you hear about Revibe ?' shows 'Referral'.",
+          "frame": "t00233.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "The 'Do you know anyone who sells at Revibe?' question (Yes/No) is answered with No or Yes; the narrator says a No answer is okay.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "03:51",
+          "quote": "do you know anyone {at?} {revive?} if they say no it's okay",
+          "frame": ""
+        },
+        {
+          "kind": "see",
+          "at": "03:53",
+          "quote": "'Do you know anyone who sells at Revibe ?' No/Yes buttons, neither selected.",
+          "frame": "t00233.jpg"
+        }
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The form ends with a free-text field 'Would you like to add something ?', a Seller agreement button showing 'To do', and an Application status chip showing 'Application incomplete'.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "03:54",
+          "quote": "'Would you like to add something ?' text box; 'Seller agreement' button 'To do'; 'Application status' chip 'Application incomplete'.",
+          "frame": "t00234.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The Users Form is a side panel with Cancel and Save buttons at the top right.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "02:28",
+          "quote": "Top right: 'Cancel' and 'Save' buttons on the 'Users Form' panel.",
+          "frame": "t00148.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The 'Approval' dropdown on the Users Form is empty in this part; its options are not shown.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "03:54",
+          "quote": "'Approval' dropdown with no value.",
+          "frame": "t00234.jpg"
+        }
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Revibe support contact details in the website footer: contact@revibe.me (Reply within 1 business day); +971 4 459 7000 (Monday to Friday 9.30 am to 5.30 pm); Chat with Us.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "01:17",
+          "quote": "Contact Us: 'contact@revibe.me (Reply within 1 business day)'; '+971 4 459 7000 Monday to Friday 9.30 am to 5.30 pm'; 'Chat with Us'.",
+          "frame": "t00079.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The website footer strip shows Free Delivery, 10 Days To Return and 12 Months Warranty.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "01:17",
+          "quote": "Footer strip: 'Free Delivery', '10 Days To Return', '12 Months Warranty'.",
+          "frame": "t00079.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "The address autocomplete in the Users Form suggests earlier entries (for example 'Ontario Tower Office 103' and 'District One - Residence 27') as the seller types in First name, Company name and the shipping address.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "02:31",
+          "quote": "First name field focused; autocomplete popup lists earlier addresses: 'Pierre / District One - Residence 27', 'Pierre / Ontario Tower Office 103'.",
+          "frame": "t00151.jpg"
+        },
+        {
+          "kind": "see",
+          "at": "02:37",
+          "quote": "Company name field focused; popup lists 'Revibe Technology FZ-LLC / Ontario Tower Office 103' and 'chez Delphine Raspadori / 123 Avenue Joseph Durandy'.",
+          "frame": "t00159.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    }
+  ],
+  "screens": [
+    {
+      "name": "Preview: Sellers' journey.pdf (pages 5 and 6 of 12)",
+      "shows": "Sellers' journey slides: onboarding flow (Onboarding App, Quality check, Onboarded/Rejected), the journey stages (Buybox, Fulfillment App, Revibe App, Seller portal), and the four onboarding parts (Inbound, Outbound, Seller view, Admin view).",
+      "at": "00:00-00:58",
+      "where": "macOS Preview window",
+      "frame": "t00000.jpg, t00019.jpg, t00039.jpg, t00058.jpg"
+    },
+    {
+      "name": "revibe.me/pages/b2b-offers (For Businesses)",
+      "shows": "Top nav with For Businesses; Renewed electronics hero; bulk purchase panel with 'Become a seller' button; enquiry form with 'Send us your enquiry ... 24 hours' text.",
+      "at": "01:01-01:14",
+      "where": "Google Chrome",
+      "frame": "t00065.jpg, t00067.jpg, t00069.jpg"
+    },
+    {
+      "name": "revibe.me/pages/b2b-offers (footer)",
+      "shows": "Footer: About Us (includes Become A Seller), Information, My Account, Contact Us (contact@revibe.me, +971 4 459 7000, Chat with Us), strip Free Delivery / 10 Days To Return / 12 Months Warranty.",
+      "at": "01:17",
+      "where": "Google Chrome",
+      "frame": "t00079.jpg"
+    },
+    {
+      "name": "revibe.me/pages/become-a-seller (Become Official Revibe Seller form)",
+      "shows": "Public seller form with First name, Last name, Email, Phone (+971), Business Name, Country, Units sold per month, Trade license upload (PDF), Submit. Loading (blank) at 01:19; filled at 01:36; attached file and spinner at 01:43.",
+      "at": "01:19-01:46",
+      "where": "Google Chrome",
+      "frame": "t00083.jpg, t00088.jpg, t00090.jpg, t00096.jpg, t00103.jpg"
+    },
+    {
+      "name": "macOS file picker (Downloads)",
+      "shows": "Open dialog on the Téléchargements folder listing files; the trainer picks the trade licence file.",
+      "at": "01:41",
+      "where": "macOS file dialog over Chrome",
+      "frame": "t00101.jpg"
+    },
+    {
+      "name": "AppSheet: Revibe - Seller Onboarding App (welcome modal)",
+      "shows": "Welcome dialog: app for sellers who want to join Revibe as official partners; wait may be a few weeks; one-time sale link https://sell.revibe.me/.",
+      "at": "01:46-02:17",
+      "where": "Chrome tab appsheet.com/start/...",
+      "frame": "t00106.jpg, t00126.jpg"
+    },
+    {
+      "name": "AppSheet: Introduction video page",
+      "shows": "Introduction video player (0:00, loading) with Ok button and previous/next arrows.",
+      "at": "02:17-02:24",
+      "where": "Chrome tab appsheet.com/start/...",
+      "frame": "t00138.jpg, t00144.jpg"
+    },
+    {
+      "name": "AppSheet: Users Form (side panel)",
+      "shows": "Seller onboarding form: Introduction text, First name, Last name, Email (greyed), Company name (as mentioned in your trading licence), Country, Phone, Emirate, exact shipping address, Google map location, products, B2B, online sales and platforms, units per month, grades, as is/refurbished/both, technicians, daily order capacity, how did you hear, know anyone, comments, Seller agreement, Application status, Approval; Cancel and Save buttons.",
+      "at": "02:28-03:54",
+      "where": "Chrome tab appsheet.com/start/...",
+      "frame": "t00148.jpg to t00234.jpg"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Onboarding App",
+      "meaning": "The AppSheet app 'Revibe - Seller Onboarding App' where sellers who want to join as official partners complete the onboarding form. Shown on the Sellers' journey slide as the first onboarding step (legal clearance, Revibe T&Cs, quality guidelines).",
+      "at": "00:00"
+    },
+    {
+      "term": "Inbound",
+      "meaning": "Onboarding part 1: sellers who come to Revibe on their own (narration: 'sellers coming to us').",
+      "at": "00:27"
+    },
+    {
+      "term": "Outbound",
+      "meaning": "Onboarding part 2: sellers the KAM reaches out to in order to recruit them on Revibe.",
+      "at": "00:34"
+    },
+    {
+      "term": "Seller view",
+      "meaning": "Onboarding part 3: what sellers see and must do in the onboarding app.",
+      "at": "00:41"
+    },
+    {
+      "term": "Admin view",
+      "meaning": "Onboarding part 4: how to process seller applications (named only, not covered in part 1).",
+      "at": "00:52"
+    },
+    {
+      "term": "Quality check",
+      "meaning": "Onboarding step after the app; the slide says 'Send 20/30 pieces to our lab'.",
+      "at": "00:00"
+    },
+    {
+      "term": "Onboarded / Rejected",
+      "meaning": "Outcomes of quality check on the slide: Onboarded if quality is good; Rejected if quality is not good.",
+      "at": "00:00"
+    },
+    {
+      "term": "Buybox",
+      "meaning": "Journey stage on the slide: set prices for direct shipping.",
+      "at": "00:00"
+    },
+    {
+      "term": "Fulfillment App",
+      "meaning": "Journey stage on the slide: set prices and quantities for fulfilment shipping.",
+      "at": "00:00"
+    },
+    {
+      "term": "Seller portal",
+      "meaning": "Journey stage on the slide with Dashboard, Get access to all apps, and Get access to all trainings.",
+      "at": "00:00"
+    },
+    {
+      "term": "Renewed (Revibe)",
+      "meaning": "Heading 'RENEWED ELECTRONICS' on the For Businesses page (the website banner also says 'Like new, but waaaay cheaper'). Implied: Revibe's term for its refurbished electronics. The 'What is Renewed from Revibe?' link was not opened in this part.",
+      "at": "01:05"
+    },
+    {
+      "term": "For Businesses",
+      "meaning": "Website navigation item; the trainer says it is mainly for corporates buying in bulk. It also holds the Become a seller button.",
+      "at": "01:07"
+    },
+    {
+      "term": "Trade license",
+      "meaning": "Upload field on the public seller form; marked required, 'Supported format: PDF'.",
+      "at": "01:28"
+    },
+    {
+      "term": "Units sold per month",
+      "meaning": "Required field on the public seller form and a dropdown in the Users Form, in bands from 0 - 100 to > 10,000.",
+      "at": "01:28"
+    },
+    {
+      "term": "As is / Refurbished / Both",
+      "meaning": "Choice of whether the seller sells devices as is, refurbishes them, or both.",
+      "at": "03:34"
+    },
+    {
+      "term": "Application incomplete",
+      "meaning": "Application status chip shown on the form. Implied: it shows the application is not yet finished.",
+      "at": "03:54"
+    },
+    {
+      "term": "Seller agreement",
+      "meaning": "Form item with a status button; it shows 'To do' before the seller completes it. The meaning of 'To do' is implied by the label.",
+      "at": "03:54"
+    },
+    {
+      "term": "Approval",
+      "meaning": "Dropdown at the bottom of the Users Form; it is empty in this part and its options are not shown.",
+      "at": "03:54"
+    }
+  ],
+  "asr_fixes": [
+    {
+      "at": "01:01",
+      "heard": "Revive website and they will have this section, Revive for business",
+      "correct": "Revibe website ... For Businesses (navigation label)",
+      "basis": "The site logo and URL read Revibe (revibe.me) and the navigation item reads 'For Businesses'."
+    },
+    {
+      "at": "01:14",
+      "heard": "{become?} a seller",
+      "correct": "Become a seller",
+      "basis": "The button on screen is labelled 'Become a seller'."
+    },
+    {
+      "at": "01:54",
+      "heard": "{your?} revive as official partners",
+      "correct": "Revibe as official partners",
+      "basis": "The app welcome modal reads 'join Revibe as official partners'."
+    },
+    {
+      "at": "01:54",
+      "heard": "build an outgoing relationship",
+      "correct": "build an ongoing relationship with us",
+      "basis": "The app welcome modal reads 'looking to build an ongoing relationship with us'."
+    },
+    {
+      "at": "02:11",
+      "heard": "if you're only looking to sell few items as a {some?} sales",
+      "correct": "if you're only looking to sell a few items as a one-time sale",
+      "basis": "The app modal text reads 'as a one-time sale'."
+    },
+    {
+      "at": "02:37",
+      "heard": "{company?} name {a?} bit trading",
+      "correct": "Company name (as mentioned in your trading licence)",
+      "basis": "The field label on screen reads 'Company name (as mentioned in your trading licence)'. Confidence is medium because the audio is unclear."
+    },
+    {
+      "at": "03:10",
+      "heard": "are you a wholesaler",
+      "correct": "Are you a wholeseller (B2B) ? (label spelled 'wholeseller' on screen)",
+      "basis": "The question label on screen reads 'Are you a wholeseller (B2B) ?'. The spelling on screen is kept as printed."
+    },
+    {
+      "at": "02:48",
+      "heard": "LLC country United Arab Emirates {Dubai?}",
+      "correct": "Emirate: Dubai",
+      "basis": "The Emirate dropdown on screen shows 'Dubai' after Country is set to United Arab Emirates."
+    }
+  ],
+  "unclear": [
+    {
+      "at": "00:00-03:54",
+      "issue": "Frame-to-timestamp matching for the AppSheet form (t00148 to t00234) is inferred from narration order and from the frame images. Several pack citations gave the wrong frame for a claim (corrected in audit.corrected). Verify timestamps before relying on exact seconds."
+    },
+    {
+      "at": "00:00",
+      "issue": "The Quality check box on the slide reads 'Send 20/30 pieces to our lab'. The narration does not explain it, so it is unclear whether the number is 20 or 30 pieces or a range."
+    },
+    {
+      "at": "02:59-03:02",
+      "issue": "The Google map location field is pre-filled with https://www.google.com/maps/ and the trainer pasted a maps.app.goo.gl link after it, giving a doubled prefix. The narration does not say which format the seller should enter."
+    },
+    {
+      "at": "01:38",
+      "issue": "The trainer uploads a file named 'Atlassian_Inv...' (invoice-like) as the trade licence and says 'let's upload something'. The form asks for a trade licence and states 'Supported format: PDF'. It is unclear whether an invoice is acceptable."
+    },
+    {
+      "at": "02:37",
+      "issue": "The narration says the email is 'automatically the one recorded by Google', but the field is greyed and it is not clear whether the seller can edit it."
+    },
+    {
+      "at": "03:51",
+      "issue": "The narration says 'if they say no it's okay' about knowing anyone who sells at Revibe. It is unclear whether a No answer has any effect on the application."
+    },
+    {
+      "at": "03:54",
+      "issue": "The part ends before Save is clicked, so it is not shown what Save does, what the Seller agreement 'To do' button opens, or what happens to Application status after Save."
+    },
+    {
+      "at": "01:21",
+      "issue": "The narration says the seller 'will get access to some info and will have to complete a first form' before the public form. It is not clear whether this is one form or the public form plus the Users Form."
+    }
+  ],
+  "outdated": [
+    {
+      "at": "02:03-02:06",
+      "signal": "The app says onboarding may take a few weeks because of a high number of applications. This is time-bound and may no longer be true."
+    },
+    {
+      "at": "00:00",
+      "signal": "Slide footer reads '© 2024' (the word 'Copyright' is partly hidden by the webcam overlay), so the Sellers' journey material may predate the current site and app."
+    }
+  ],
+  "privacy": [
+    {
+      "at": "01:28-01:43",
+      "what": "The public seller form shows a named individual (Pierre Villaceque) with an email address (pierre.villaceque@gmail.com), a partial phone number (+971 0544637) and a business name (PEPE TRading). Frames t00096, t00103. This is the presenter's demo data, but it is still personal data and should not be shown to sellers."
+    },
+    {
+      "at": "02:28-02:37",
+      "what": "The Users Form shows a named individual's work email (pierre@revibe.me) and the name Pierre Villaceque. Frames t00148, t00151, t00154."
+    },
+    {
+      "at": "02:31-02:37",
+      "what": "Address autocomplete popups list named people and street addresses from earlier entries, including 'Pierre - District One - Residence 27', 'Pierre - Ontario Tower Office 103', 'Pierre - 123 AVENUE JOSEPH DURAND...', and 'chez Delphine Raspadori 123 Avenue Joseph Durandy'. The last one identifies a named individual with a street address. Frames t00151, t00154, t00159."
+    },
+    {
+      "at": "02:48-03:10",
+      "what": "The business address 'Ontario Tower - Business Bay - Dubai - United Arab Emirates' and a Google Maps short link (maps.app.goo.gl/vKLVWFGbAziU6f...) are shown in the form. This is a business location, but it is tied to a real seller record. Frames t00182, t00195."
+    }
+  ],
+  "audit": {
+    "checked": 110,
+    "removed": [
+      {
+        "statement": "Outdated: promo banner 'GET 75 AED OFF YOUR FIRST APP ORDER ENTER CODE APP75 AT CHECKOUT' flagged as possibly expired.",
+        "reason": "The banner is customer-facing, not part of onboarding, and no expiry is needed to explain the onboarding steps. Nothing in the pack shows it is past its date, so it is not an outdated onboarding item."
+      },
+      {
+        "statement": "Term 'Approval': 'it is probably used by the admin side'.",
+        "reason": "Speculation not supported by any frame or narration."
+      },
+      {
+        "statement": "Fact: Users Form opened by clicking Ok (stated as fact).",
+        "reason": "The Ok click is not shown; the form is only seen open at t00148. Kept as an implied, medium-confidence procedure instead."
+      },
+      {
+        "statement": "Fact: 'Both' is the answer for a seller who does both.",
+        "reason": "Overstated. The narration only says sellers can mention both. The rule is restated as narration plus the Both selection."
+      },
+      {
+        "statement": "Step 01:46-02:06: trainer clicks Done (not yet shown clicked).",
+        "reason": "No frame shows the Done click; only the Done button is visible. Restated as visible but not clicked in the frames."
+      }
+    ],
+    "corrected": [
+      {
+        "before": "Step 01:17: footer shown in frame t00069.",
+        "after": "Footer shown in frame t00079 (b2b-offers footer). t00069 shows the enquiry form.",
+        "reason": "Wrong frame citation. t00069 has no footer."
+      },
+      {
+        "before": "Step 01:19-01:23: blank page at t00079; step 01:23 heading at t00083.",
+        "after": "Blank loading page at t00083 (01:19). Heading text at t00088/t00090 (01:28).",
+        "reason": "t00079 is the b2b-offers footer, and t00083 is the blank page. The heading appears only on the form frames."
+      },
+      {
+        "before": "Step 01:23-01:38: t00090 shows the form filled; t00096 shows the file dialog.",
+        "after": "t00088 and t00090 show the empty form; t00096 shows the filled form (01:36). The file dialog is at t00101 (01:41).",
+        "reason": "Frame content does not match the cited frame labels."
+      },
+      {
+        "before": "Step 01:41-01:46: attached file and spinner at t00101.",
+        "after": "Attached file 'Atlassian_Inv...' and Submit spinner at t00103 (01:43). t00101 is the file dialog.",
+        "reason": "Wrong frame citation."
+      },
+      {
+        "before": "Fact 'Introduction video (14:39 long)' cited t00138 and 'Introduction video page 0:00 / 14:39'.",
+        "after": "t00138 shows 0:00 only. The 0:00 / 14:39 reading is on t00148 (player behind the Users Form panel).",
+        "reason": "Duration not visible in t00138."
+      },
+      {
+        "before": "Step 02:28-02:37: 'clicks First name and selects a suggested entry from the address autocomplete'.",
+        "after": "The autocomplete list opens after First name is clicked (t00151). The narration does not say an entry was chosen.",
+        "reason": "Selection of a suggestion is not shown."
+      },
+      {
+        "before": "Step 02:37-02:48: 'Types Company name (PEPE trading LLC), selects Country United Arab Emirates, then Emirate Dubai' cited t00159 for 'P...' and 'PEPE trading LLC', and cited t00175 for 'Emirate'.",
+        "after": "t00159 shows Company name empty. 'P' is typed at t00166; 'PEPE trading LLC' with Country set at t00172; Emirate 'Dubai' at t00175.",
+        "reason": "t00159 does not show the company name or country value."
+      },
+      {
+        "before": "Step 03:06-03:10 address 'Ontario Tower - Business Bay - Dubai - United Arab Emirates' cited t00190.",
+        "after": "t00190 shows 'Ontario Tower - Business Bay'; the full address is on t00195 (03:15).",
+        "reason": "Full text not visible in t00190."
+      },
+      {
+        "before": "Step 03:21-03:27: 'Seller page field contains https://123456789xxxxtest' cited t00203 at 03:23.",
+        "after": "t00203 shows 'http://' only. The filled value is on t00210 (03:30).",
+        "reason": "Wrong frame for the value."
+      },
+      {
+        "before": "Step 03:15-03:21: 'Do you sell online? set to No' cited t00196 only.",
+        "after": "t00196 shows cursor on No with no selection. The No selection is on t00198 (03:18).",
+        "reason": "Selection not visible in t00196."
+      },
+      {
+        "before": "Step 03:27-03:34: Grades chips 'A+' and 'A' cited t00213.",
+        "after": "Grades chips are on t00215 (03:35). t00213 shows units only.",
+        "reason": "Wrong frame citation."
+      },
+      {
+        "before": "Step 03:34-03:41: 'Both' selected at t00215.",
+        "after": "t00215 has none selected. 'Both' selected at t00222 (03:42).",
+        "reason": "Wrong frame citation."
+      },
+      {
+        "before": "Step 03:46-03:51 'Selects 20 - 30' cited t00223.",
+        "after": "t00223 shows technicians 3 - 5 and an empty orders field. '20 - 30' is on t00233.",
+        "reason": "Wrong frame citation."
+      },
+      {
+        "before": "Step 03:41-03:46 'selects 3 - 5' is a separate step at 03:41-03:46.",
+        "after": "Kept, with t00223 at 03:43 showing 3 - 5 selected.",
+        "reason": "Timing of the technician selection confirmed on t00223."
+      },
+      {
+        "before": "Fact 'Company name ... PEPE trading LLC' cited t00159 at 02:37.",
+        "after": "Company name value cited t00172 (02:52).",
+        "reason": "t00159 shows the field empty."
+      },
+      {
+        "before": "Fact 'The Country field ... Choosing UAE reveals Emirate dropdown' cited t00175 at 02:48.",
+        "after": "Emirate field appears at t00172 (02:52) and Dubai is set at t00175 (02:55).",
+        "reason": "Timestamps and frames corrected."
+      },
+      {
+        "before": "Fact 'The For Businesses page ... quote within 24 hours' cited t00067.",
+        "after": "The 24-hour lines are on t00069; the 10+ devices line is on t00067.",
+        "reason": "Text located on different frames."
+      },
+      {
+        "before": "Fact 'Revibe support contact details in the website footer' cited t00069.",
+        "after": "Cited t00079 (footer).",
+        "reason": "t00069 has no footer."
+      },
+      {
+        "before": "Fact 'The Become a seller page ... heading' cited t00083.",
+        "after": "URL on t00083 (loading). Heading and text on t00088.",
+        "reason": "Heading is not visible on t00083."
+      },
+      {
+        "before": "Step 00:58-01:05 'Starts with Inbound. Points at the For Businesses item.'",
+        "after": "At 00:58 the slide is still on screen (t00058). The browser and For Businesses cursor are at 01:05 (t00065).",
+        "reason": "Step timing."
+      },
+      {
+        "before": "Term 'Quality check': 'send 20/30 pieces to the Revibe lab'.",
+        "after": "'Send 20/30 pieces to our lab' as printed on the slide.",
+        "reason": "Wording on slide is 'our lab'."
+      },
+      {
+        "before": "Term 'Renewed (Revibe)': Revibe's term for its refurbished electronics, presented as a definition.",
+        "after": "Implied: refurbished electronics. Only the heading 'RENEWED ELECTRONICS' is visible.",
+        "reason": "Definition is not shown in the frames."
+      },
+      {
+        "before": "Fact 'the trainer says Both is the answer for a seller who does both'.",
+        "after": "Narration: 'so they can mention both'.",
+        "reason": "Overstated."
+      },
+      {
+        "before": "Screen 'Users Form' ... frames t00148 to t00234 (all frames of the Users Form).",
+        "after": "Unchanged. Frame list is broadly correct.",
+        "reason": "Checked."
+      },
+      {
+        "before": "Privacy: Pierre Villaceque shown in t00088, t00090, t00101.",
+        "after": "Visible in t00096 and t00103 (filled form and attached file).",
+        "reason": "Wrong frame list."
+      },
+      {
+        "before": "Summary: 'Checker spot-checked' and 'the trainer clicks Done' style wording.",
+        "after": "All 40 pack frames opened and checked. Done click not shown in frames.",
+        "reason": "Summary accuracy."
+      },
+      {
+        "before": "Fact 'Email field greyed ... filled automatically' stated as definition.",
+        "after": "Kept with medium confidence; the narration says the email is the one Google recorded.",
+        "reason": "Narration only."
+      }
+    ],
+    "added": [
+      "Fact: Users Form address autocomplete suggests earlier entries (t00151, t00159) - added as a definition with privacy cross-reference.",
+      "Step 03:06-03:10: shipping address typing with autocomplete (t00187, t00190), missing from the earlier step list.",
+      "Step 03:15-03:21: Do you sell online? set to No is confirmed on t00198 (added evidence).",
+      "Step 02:55-03:06: Phone +97112345678 and Emirate Dubai (t00175) added as a separate step.",
+      "Fact: Users Form side panel shows video player '0:00 / 14:39' behind it (t00148).",
+      "ASR fix: 'build an outgoing relationship' corrected to 'ongoing relationship' (t00106).",
+      "Screen: revibe.me/pages/b2b-offers footer (t00079) added to the screens list."
+    ]
+  }
+}

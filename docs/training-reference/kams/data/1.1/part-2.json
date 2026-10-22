@@ -1,0 +1,1229 @@
+{
+  "summary": "Part 2 of 4 of training video 1.1 (Onboarding App, Seller), 06:24 to 09:50. The trainer fills in the seller onboarding form in an AppSheet app (New Slice Form), explains the seller agreement (a Google Doc titled 'Revibe Seller Agreement - March 2025' to read, complete, sign, download as PDF and upload back to the form) and the quality guidelines (a Drive PDF with grade tables). All 40 frames listed in the pack were opened. Frame-to-content mapping was corrected where the pack cited the wrong frame. The agreement placeholders and signature block stay unfilled on screen. Some screens and narration disagree (grade names, camera limits, two different quality-guideline links), and those points are listed as unclear rather than stated as facts.",
+  "frames_opened": 40,
+  "steps": [
+    {
+      "at": "06:24",
+      "screen": "AppSheet 'Seller Onboarding App' > 'New Slice Form' side panel (Chrome), scrolled to the bottom of the form",
+      "action": "Opens the 'On average, how many units do you sell per month ?' dropdown and selects the range 1,000 - 2,500. The open list is not shown; the empty field is in t00384 and the selected value is in t00391.",
+      "evidence": [
+        {"kind": "say", "at": "06:24", "quote": "How many orders, how many units do you sell per month on average {here?} select the range there"},
+        {"kind": "see", "at": "06:31", "frame": "t00391.jpg", "quote": "Units field shows 1,000 - 2,500 selected"}
+      ],
+      "says": "How many orders, how many units do you sell per month on average {here?} select the range there",
+      "why": ""
+    },
+    {
+      "at": "06:31",
+      "screen": "New Slice Form, 'Which grades do you sell ?' multi-select",
+      "action": "Opens the grades list and ticks A+, A, B and C (Other left unticked). The list also has a 'Select all' option.",
+      "evidence": [
+        {"kind": "say", "at": "06:31", "quote": "is no good or wrong answer please just be accurate which grades do you sell let's say that"},
+        {"kind": "see", "at": "06:36", "frame": "t00396.jpg", "quote": "Grade list open with options: Select all, A+, A, B, C, Other"},
+        {"kind": "see", "at": "06:38", "frame": "t00398.jpg", "quote": "Header reads '4 Selected'; chips A+, A, B, C; Other unchecked"}
+      ],
+      "says": "is no good or wrong answer please just be accurate which grades do you sell let's say that",
+      "why": ""
+    },
+    {
+      "at": "06:38",
+      "screen": "New Slice Form, 'Do you sell as is or you refurbish the devices ?' buttons",
+      "action": "Clicks 'Both' (the other choices are 'As is' and 'Refurbished').",
+      "evidence": [
+        {"kind": "say", "at": "06:38", "quote": "you're selling a lot of grades do you sell as {is?} or do you also refurbish the devices"},
+        {"kind": "see", "at": "06:45", "frame": "t00405.jpg", "quote": "'Both' button highlighted in blue"}
+      ],
+      "says": "you're selling a lot of grades do you sell as {is?} or do you also refurbish the devices",
+      "why": ""
+    },
+    {
+      "at": "06:43",
+      "screen": "New Slice Form, 'How many technicians do you have ?' dropdown",
+      "action": "Opens the dropdown and selects 3 - 5. The option list is not shown in the frames.",
+      "evidence": [
+        {"kind": "say", "at": "06:43", "quote": "is it both how many technicians do you have {you?} can go from zero to plus {ten?} how"},
+        {"kind": "see", "at": "06:49", "frame": "t00409.jpg", "quote": "Field shows 3 - 5"}
+      ],
+      "says": "is it both how many technicians do you have {you?} can go from zero to plus {ten?} how",
+      "why": ""
+    },
+    {
+      "at": "06:50",
+      "screen": "New Slice Form, 'How many orders are you able to ship on a daily basis (after having done quality check) ?' dropdown",
+      "action": "Opens the dropdown (options 0 - 5 to +70) and selects 10 - 20. The trainer explains what quality check means while doing this.",
+      "evidence": [
+        {"kind": "say", "at": "06:50", "quote": "many orders are you able to ship on a daily basis having done quality check it means that"},
+        {"kind": "say", "at": "06:55", "quote": "once when you receive an order for instance you will have to check the device to check that"},
+        {"kind": "see", "at": "06:57", "frame": "t00417.jpg", "quote": "Options listed: 0 - 5, 5 - 10, 10 - 20, 20 - 30, 30 - 50, 50 - 70, +70"},
+        {"kind": "see", "at": "07:07", "frame": "t00427.jpg", "quote": "Field shows 10 - 20 after selection"}
+      ],
+      "says": "many orders are you able to ship on a daily basis having done quality check it means that",
+      "why": "Implied by the trainer's explanation: the quality check means checking each device when an order is received, so that everything is working okay."
+    },
+    {
+      "at": "07:07",
+      "screen": "New Slice Form, 'How did you hear about Revibe ?' dropdown",
+      "action": "Opens the dropdown (Referral, Social media, Online search, Other) and selects Social media.",
+      "evidence": [
+        {"kind": "say", "at": "07:07", "quote": "did you hear about revive let's say it's a referral or social media do you know everyone who"},
+        {"kind": "see", "at": "07:07", "frame": "t00427.jpg", "quote": "Options: Referral, Social media, Online search, Other"},
+        {"kind": "see", "at": "07:11", "frame": "t00431.jpg", "quote": "Field shows 'Social media'"}
+      ],
+      "says": "did you hear about revive let's say it's a referral or social media do you know everyone who",
+      "why": ""
+    },
+    {
+      "at": "07:13",
+      "screen": "New Slice Form, 'Do you know anyone who sells at Revibe ?' No / Yes buttons, then 'Who ? Please mention the business name' text field",
+      "action": "Clicks Yes. A 'Who ? Please mention the business name' field appears. The trainer later types the example 'Device + LLC' into it (visible in t00449).",
+      "evidence": [
+        {"kind": "say", "at": "07:13", "quote": "sells that revive {say?} no nothing happened and if you say yes please mention the business name for"},
+        {"kind": "see", "at": "07:17", "frame": "t00437.jpg", "quote": "Yes selected; empty field labelled 'Who ? Please mention the business name'"},
+        {"kind": "say", "at": "07:20", "quote": "instance the business name can be I don't know {like?} {device?} plus LLC."},
+        {"kind": "see", "at": "07:29", "frame": "t00449.jpg", "quote": "Business name field reads 'Device + LLC'"}
+      ],
+      "says": "sells that revive {say?} no nothing happened and if you say yes please mention the business name for",
+      "why": ""
+    },
+    {
+      "at": "07:29",
+      "screen": "New Slice Form, 'Would you like to add something ?' free-text field",
+      "action": "Points at the optional free-text field and says it is optional.",
+      "evidence": [
+        {"kind": "say", "at": "07:29", "quote": "Would you like to add something?"},
+        {"kind": "say", "at": "07:30", "quote": "This is an option."}
+      ],
+      "says": "Would you like to add something? This is an option.",
+      "why": ""
+    },
+    {
+      "at": "07:37",
+      "screen": "New Slice Form, read-only 'Seller agreement' block (text + docs.google.com link)",
+      "action": "Explains the seller agreement, then points to the link inside the form field.",
+      "evidence": [
+        {"kind": "say", "at": "07:37", "quote": "Here is the seller agreement."},
+        {"kind": "say", "at": "07:39", "quote": "It will detail you all the terms and conditions we offer you as a seller."},
+        {"kind": "say", "at": "07:44", "quote": "Download it, sign it, and upload it in the section below."},
+        {"kind": "see", "at": "07:29", "frame": "t00449.jpg", "quote": "Block reads 'Here is the seller agreement / It details all the terms and conditions we offer to our sellers / Download it, sign it and upload it in the section below' followed by a docs.google.com/document link"}
+      ],
+      "says": "Download it, sign it, and upload it in the section below.",
+      "why": ""
+    },
+    {
+      "at": "07:52",
+      "screen": "Chrome, new tab opened at the agreement's docs.google.com URL",
+      "action": "The docs.google.com link in the form is selected (in t00534, t00536 and t00538 the selection is visible). A new Chrome tab opens at that URL. The trainer says to paste the link into the browser.",
+      "evidence": [
+        {"kind": "say", "at": "07:48", "quote": "So here basically you can just click on the link"},
+        {"kind": "say", "at": "07:52", "quote": "Go here, paste the link, and here you can basically change here the date, put the name of"},
+        {"kind": "see", "at": "07:52", "frame": "t00472.jpg", "quote": "New 'Nouvel onglet' tab; address bar docs.google.com/document/d/1xybH9thDhdKshGVl63y5Ugj9LnK3wHBe/edit?usp=drive_link&ouid=114323393952652694571&rtpof=true&sd=true"}
+      ],
+      "says": "Go here, paste the link, and here you can basically change here the date, put the name of",
+      "why": ""
+    },
+    {
+      "at": "07:55",
+      "screen": "Google Docs 'Revibe Seller Agreement - March 2025' (.DOCX), page 1",
+      "action": "Shows the agreement and explains that the seller's details go into the red placeholders. The placeholders are still unfilled in the frames.",
+      "evidence": [
+        {"kind": "say", "at": "07:59", "quote": "your business as mentioned in the form, put your registration number and your address."},
+        {"kind": "say", "at": "08:08", "quote": "It should be normally the same as you put in the form."},
+        {"kind": "see", "at": "07:55", "frame": "t00475.jpg", "quote": "Red placeholders: [Effective Date], [Seller Name], [Seller Registration Number], [Seller Address]"}
+      ],
+      "says": "your business as mentioned in the form, put your registration number and your address.",
+      "why": ""
+    },
+    {
+      "at": "08:12",
+      "screen": "Google Docs agreement, sections 7 to 9 scrolled (warranty, returns, RTO, damaged shipments)",
+      "action": "Tells the seller to read all the terms and conditions.",
+      "evidence": [
+        {"kind": "say", "at": "08:12", "quote": "Read all the terms and conditions."},
+        {"kind": "say", "at": "08:14", "quote": "These are all the rules we offer to our sellers."},
+        {"kind": "see", "at": "08:14", "frame": "t00494.jpg", "quote": "Sections 7 'Seller Compliance with Revibe's Warranty and Return Policy' and 8 'Return Policy and RTO' visible"}
+      ],
+      "says": "Read all the terms and conditions.",
+      "why": ""
+    },
+    {
+      "at": "08:27",
+      "screen": "Google Docs agreement, final section 18 'Signatures' block",
+      "action": "Explains what goes in the signature block (name, business name, personal name, position in the company, date) and says to sign it. The signature block is still unfilled in the frames.",
+      "evidence": [
+        {"kind": "say", "at": "08:27", "quote": "your name the name of your business your personal name your position in the company the date and"},
+        {"kind": "say", "at": "08:34", "quote": "sign it then once done so"},
+        {"kind": "see", "at": "08:35", "frame": "t00515.jpg", "quote": "Signature block with [Seller Name], Name: [Seller Representative Name], Position: [Seller Position], Date: [Effective Date] placeholders"}
+      ],
+      "says": "your name the name of your business your personal name your position in the company the date and",
+      "why": ""
+    },
+    {
+      "at": "08:39",
+      "screen": "Google Docs, File (Fichier) menu label, then the file picker",
+      "action": "Says the agreement can be downloaded as a PDF. The File menu label is hovered in the frames; the menu items and the finished download are not shown.",
+      "evidence": [
+        {"kind": "say", "at": "08:39", "quote": "you can download it as a PDF for instance okay and you will be able to upload it"},
+        {"kind": "see", "at": "08:39", "frame": "t00519.jpg", "quote": "'Fichier' menu label under the cursor in Google Docs; signature block still shows placeholders"}
+      ],
+      "says": "you can download it as a PDF for instance okay and you will be able to upload it",
+      "why": ""
+    },
+    {
+      "at": "08:48",
+      "screen": "New Slice Form upload picker (macOS), Music folder, then Téléchargements (Downloads)",
+      "action": "Opens the upload picker, which first shows the Music folder, then the Téléchargements (Downloads) folder, and selects 'Revibe Seller Agreement - March 2025.docx.pdf'.",
+      "evidence": [
+        {"kind": "see", "at": "08:48", "frame": "t00528.jpg", "quote": "File picker shows the Music folder (7577.webp, Capture d'écran, Covers, Tracks)"},
+        {"kind": "say", "at": "08:50", "quote": "app {revive?} seller agreement and you can upload it like this and you will see that it's here"},
+        {"kind": "see", "at": "08:51", "frame": "t00531.jpg", "quote": "Téléchargements folder shows 'Revibe Seller Agreement - March 2025.docx.pdf' selected, Document PDF - 215 ko"},
+        {"kind": "see", "at": "08:56", "frame": "t00536.jpg", "quote": "Upload field shows the chip 'Revibe Seller Agreement - March 2025.docx.pdf' with a remove icon"}
+      ],
+      "says": "app {revive?} seller agreement and you can upload it like this and you will see that it's here",
+      "why": ""
+    },
+    {
+      "at": "08:57",
+      "screen": "New Slice Form, 'Quality guidelines description' block, then the 'Have you read the quality guidelines ?' toggle",
+      "action": "Points at the quality guidelines description and link. The 'Not yet' option is still selected on screen.",
+      "evidence": [
+        {"kind": "say", "at": "08:57", "quote": "now you can see the quality guidelines here are the quality guidelines it will outline the standards we"},
+        {"kind": "say", "at": "09:04", "quote": "expect for your first shipment to our warehouse the one i talked to you just before and as"},
+        {"kind": "see", "at": "08:58", "frame": "t00538.jpg", "quote": "'Not yet' highlighted in blue on 'Have you read the quality guidelines ?'; 'Yes' unselected; the agreement docs link is the selected text"}
+      ],
+      "says": "now you can see the quality guidelines here are the quality guidelines it will outline the standards we",
+      "why": ""
+    },
+    {
+      "at": "09:16",
+      "screen": "New Slice Form quality guidelines block, then a new Chrome tab 'Quality guidelines' (Google Drive PDF)",
+      "action": "Selects the drive.google.com link in the quality guidelines block and opens it in a new Chrome tab, to read the guidelines.",
+      "evidence": [
+        {"kind": "say", "at": "09:11", "quote": "well for future shipments sent directly to the customers you can just copy this open it here"},
+        {"kind": "see", "at": "09:16", "frame": "t00556.jpg", "quote": "drive.google.com/file/d/1ELqeY-KOlnhFMylMpLEWPSSrrvfQuOGL/view?usp=sharing link selected in the quality guidelines block; no Drive tab open yet"},
+        {"kind": "see", "at": "09:20", "frame": "t00560.jpg", "quote": "New tab 'Quality guidelines - Google D' at drive.google.com/file/d/1ELqeY-KOlnhFMylMpLEWPSSrrvfQuOGL/view?usp=sharing; page still loading"},
+        {"kind": "say", "at": "09:21", "quote": "and here basically you will be able to understand what are the guidelines we expect from you okay"}
+      ],
+      "says": "well for future shipments sent directly to the customers you can just copy this open it here",
+      "why": ""
+    },
+    {
+      "at": "09:27",
+      "screen": "Drive PDF 'Quality guidelines': page 1 'Phones, tablets & watches - Quality guidelines' table (columns Excellent, Very good, Good), then page 2 grid",
+      "action": "Walks through the grade table on page 1 (general, parts and functions rows), then the page 2 Original & DD and GW grid.",
+      "evidence": [
+        {"kind": "say", "at": "09:27", "quote": "so these are for the phones tablets and watches for instance we're selling three grades excellent very good"},
+        {"kind": "say", "at": "09:34", "quote": "and good we are also selling some product as being new so new basically is new {and?} you"},
+        {"kind": "say", "at": "09:40", "quote": "can see all the guidelines we expect you to respect {here?} is we are digging a bit more"},
+        {"kind": "see", "at": "09:22", "frame": "t00562.jpg", "quote": "Page 1 header: Excellent | Very good | Good"},
+        {"kind": "see", "at": "09:45", "frame": "t00585.jpg", "quote": "Page 2 of 6: columns Original & DD | GW Good quality | GW & others Bad quality"}
+      ],
+      "says": "so these are for the phones tablets and watches for instance we're selling three grades excellent very good",
+      "why": ""
+    }
+  ],
+  "facts": [
+    {
+      "type": "screen",
+      "statement": "The seller form asks 'On average, how many units do you sell per month ?' as a dropdown. The demo selects '1,000 - 2,500'.",
+      "evidence": [
+        {"kind": "see", "at": "06:24", "frame": "t00384.jpg", "quote": "Question label 'On average, how many units do you sell per month ?' with an empty dropdown"},
+        {"kind": "see", "at": "06:31", "frame": "t00391.jpg", "quote": "Dropdown shows 1,000 - 2,500"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "tip",
+      "statement": "The trainer says there is no right or wrong answer on the form, and that sellers should just be accurate.",
+      "evidence": [
+        {"kind": "say", "at": "06:31", "quote": "is no good or wrong answer please just be accurate which grades do you sell let's say that"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The seller form asks 'Which grades do you sell ?' as a multi-select with the options A+, A, B, C and Other, plus a 'Select all' option. The demo selects A+, A, B and C.",
+      "evidence": [
+        {"kind": "see", "at": "06:36", "frame": "t00396.jpg", "quote": "Options: Select all, A+, A, B, C, Other"},
+        {"kind": "see", "at": "06:38", "frame": "t00398.jpg", "quote": "'4 Selected' with A+, A, B, C checked; Other unchecked"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The seller form asks 'Do you sell as is or you refurbish the devices ?' with three choices: As is, Refurbished, Both. The demo selects Both.",
+      "evidence": [
+        {"kind": "see", "at": "06:24", "frame": "t00384.jpg", "quote": "Buttons: As is | Refurbished | Both"},
+        {"kind": "see", "at": "06:45", "frame": "t00405.jpg", "quote": "'Both' highlighted in blue"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The seller form asks 'How many technicians do you have ?' as a dropdown. The demo selects 3 - 5.",
+      "evidence": [
+        {"kind": "see", "at": "06:49", "frame": "t00409.jpg", "quote": "Field shows 3 - 5"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "The seller form asks 'How many orders are you able to ship on a daily basis (after having done quality check) ?' as a dropdown. Options are 0 - 5, 5 - 10, 10 - 20, 20 - 30, 30 - 50, 50 - 70 and +70. The question wording says the answer is given after the quality check.",
+      "evidence": [
+        {"kind": "see", "at": "06:57", "frame": "t00417.jpg", "quote": "Options: 0 - 5, 5 - 10, 10 - 20, 20 - 30, 30 - 50, 50 - 70, +70"},
+        {"kind": "say", "at": "06:50", "quote": "many orders are you able to ship on a daily basis having done quality check it means that"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The trainer describes the quality check as checking the device when an order is received, to confirm that everything is working okay. The daily-shipping answer is based on that check.",
+      "evidence": [
+        {"kind": "say", "at": "06:55", "quote": "once when you receive an order for instance you will have to check the device to check that"},
+        {"kind": "say", "at": "07:00", "quote": "everything is working okay based on this how many orders do you think you're able to ship how"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The seller form asks 'How did you hear about Revibe ?' as a dropdown with the options Referral, Social media, Online search and Other. The demo selects Social media.",
+      "evidence": [
+        {"kind": "see", "at": "07:07", "frame": "t00427.jpg", "quote": "Options: Referral, Social media, Online search, Other"},
+        {"kind": "see", "at": "07:11", "frame": "t00431.jpg", "quote": "Field shows Social media"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "The form asks 'Do you know anyone who sells at Revibe ?' (No / Yes). If the seller answers Yes, a 'Who ? Please mention the business name' text field appears.",
+      "evidence": [
+        {"kind": "see", "at": "07:17", "frame": "t00437.jpg", "quote": "Yes selected; field 'Who ? Please mention the business name' appears"},
+        {"kind": "say", "at": "07:13", "quote": "if you say yes please mention the business name for"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Per the trainer, if the seller answers No to 'Do you know anyone who sells at Revibe ?', nothing else happens. The screens shown do not confirm this directly.",
+      "evidence": [
+        {"kind": "say", "at": "07:13", "quote": "sells that revive {say?} no nothing happened"}
+      ],
+      "confidence": "low",
+      "quiz": false
+    },
+    {
+      "type": "example",
+      "statement": "The trainer types 'Device + LLC' as an example business name in the 'Who ?' field. He says a business name like this can be used.",
+      "evidence": [
+        {"kind": "see", "at": "07:29", "frame": "t00449.jpg", "quote": "Business name field reads 'Device + LLC'"},
+        {"kind": "say", "at": "07:20", "quote": "instance the business name can be I don't know {like?} {device?} plus LLC."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "'Would you like to add something ?' is an optional free-text field on the form.",
+      "evidence": [
+        {"kind": "say", "at": "07:30", "quote": "This is an option."},
+        {"kind": "see", "at": "07:29", "frame": "t00449.jpg", "quote": "Field 'Would you like to add something ?' has no required asterisk, unlike the labels of the other fields"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "Sellers must download the Revibe Seller Agreement, sign it and upload it in the form's 'Please upload here the seller agreement once signed' field.",
+      "evidence": [
+        {"kind": "say", "at": "07:44", "quote": "Download it, sign it, and upload it in the section below."},
+        {"kind": "see", "at": "08:56", "frame": "t00536.jpg", "quote": "Upload field shows the chip 'Revibe Seller Agreement - March 2025.docx.pdf'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The form's 'Seller agreement' block reads: 'Here is the seller agreement / It details all the terms and conditions we offer to our sellers / Download it, sign it and upload it in the section below'. It is followed by a docs.google.com link to the agreement.",
+      "evidence": [
+        {"kind": "see", "at": "07:29", "frame": "t00449.jpg", "quote": "Seller agreement block with docs.google.com/document/d/1xybH9thDhdKshGVl63y5Ugj9LnK3wHBe/edit link"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The agreement (Google Docs, file 'Revibe Seller Agreement - March 2025') has red placeholders: [Seller Name], [Seller Registration Number], [Seller Address], [Effective Date], [Seller Representative Name] and [Seller Position].",
+      "evidence": [
+        {"kind": "see", "at": "07:55", "frame": "t00475.jpg", "quote": "Red placeholders [Seller Name], [Seller Registration Number], [Seller Address] and [Effective Date]"},
+        {"kind": "see", "at": "08:35", "frame": "t00515.jpg", "quote": "Signature block placeholders [Seller Name], Name: [Seller Representative Name], Position: [Seller Position], Date: [Effective Date]"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Per the trainer, the business name in the agreement should normally be the same as in the form. He also says to put the registration number and address in the agreement; the form fields for those two are not seen in the frames.",
+      "evidence": [
+        {"kind": "say", "at": "07:59", "quote": "your business as mentioned in the form, put your registration number and your address."},
+        {"kind": "say", "at": "08:08", "quote": "It should be normally the same as you put in the form."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "tip",
+      "statement": "Sellers should read all the terms and conditions in the agreement before signing it.",
+      "evidence": [
+        {"kind": "say", "at": "08:12", "quote": "Read all the terms and conditions."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "The signature block shows four red placeholders: [Seller Name], 'Name: [Seller Representative Name]', 'Position: [Seller Position]' and 'Date: [Effective Date]'. The trainer's narration lists the name, the business name, a personal name, the position in the company and the date, and says to sign.",
+      "evidence": [
+        {"kind": "see", "at": "08:35", "frame": "t00515.jpg", "quote": "Signature block with [Seller Name], Name: [Seller Representative Name], Position: [Seller Position], Date: [Effective Date]"},
+        {"kind": "say", "at": "08:27", "quote": "your name the name of your business your personal name your position in the company the date and"},
+        {"kind": "say", "at": "08:34", "quote": "sign it then once done so"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "The trainer says the agreement can be downloaded as a PDF from Google Docs and then uploaded to the form. The file picked for upload is named 'Revibe Seller Agreement - March 2025.docx.pdf'.",
+      "evidence": [
+        {"kind": "say", "at": "08:39", "quote": "you can download it as a PDF for instance okay and you will be able to upload it"},
+        {"kind": "see", "at": "08:51", "frame": "t00531.jpg", "quote": "Téléchargements folder shows 'Revibe Seller Agreement - March 2025.docx.pdf', Document PDF, 215 ko"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The form's 'Quality guidelines description' block reads: 'Here are our quality guidelines / It outlines the standards we expect for your first shipment to our warehouse, as well as for future shipments sent directly to customers', followed by a drive.google.com link.",
+      "evidence": [
+        {"kind": "see", "at": "08:58", "frame": "t00538.jpg", "quote": "Quality guidelines description block with https://drive.google.com/file/d/1ELqeY-KOlnhFMylMpLEWPSSrrvfQuOGL/view?usp=sharing"},
+        {"kind": "say", "at": "09:04", "quote": "expect for your first shipment to our warehouse the one i talked to you just before and as"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The quality guidelines set the standards the seller must meet for a first shipment to Revibe's warehouse and for future shipments sent directly to customers.",
+      "evidence": [
+        {"kind": "say", "at": "09:04", "quote": "expect for your first shipment to our warehouse the one i talked to you just before and as"},
+        {"kind": "say", "at": "09:11", "quote": "well for future shipments sent directly to the customers you can just copy this open it here"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The form asks 'Have you read the quality guidelines ?' with the choices Not yet and Yes. 'Not yet' is selected in the frames shown; the trainer does not click Yes.",
+      "evidence": [
+        {"kind": "see", "at": "08:58", "frame": "t00538.jpg", "quote": "'Not yet' highlighted in blue; 'Yes' unselected"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The form bottom shows 'Application status' with the value 'Application incomplete' in the frames shown (06:24 and 08:56).",
+      "evidence": [
+        {"kind": "see", "at": "06:24", "frame": "t00384.jpg", "quote": "Application status: Application incomplete"},
+        {"kind": "see", "at": "08:56", "frame": "t00536.jpg", "quote": "Application status: Application incomplete"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The quality guidelines PDF covers phones, tablets and watches. Its grade columns are Excellent, Very good and Good.",
+      "evidence": [
+        {"kind": "say", "at": "09:27", "quote": "so these are for the phones tablets and watches for instance we're selling three grades excellent very good"},
+        {"kind": "see", "at": "09:22", "frame": "t00562.jpg", "quote": "Title: Phones, tablets & watches - Quality guidelines; columns Excellent | Very good | Good"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Hardware must be 100% fully functional for all grades (Excellent, Very good and Good).",
+      "evidence": [
+        {"kind": "see", "at": "09:27", "frame": "t00567.jpg", "quote": "Hardware: 100% fully functional (one cell spanning all three columns)"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Battery health minimum (also must match 3utool): Excellent 95%, Very good 90%, Good 85%.",
+      "evidence": [
+        {"kind": "see", "at": "09:27", "frame": "t00567.jpg", "quote": "95% battery health minimum + match 3utool | 90% battery health minimum + match 3utool | 85% battery health minimum + match 3utool"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Camera dot row: Excellent None, Very good 1 small maximum, Good 2 small maximum. This conflicts with the separate Cameras row; see the unclear entry at 09:22.",
+      "evidence": [
+        {"kind": "see", "at": "09:27", "frame": "t00567.jpg", "quote": "Camera dot: None | 1 small maximum | 2 small maximum"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Screen: Excellent and Very good have no sign of use. Good may have slight scratches, provided they do not interfere when the appliance is switched on.",
+      "evidence": [
+        {"kind": "see", "at": "09:22", "frame": "t00562.jpg", "quote": "Screen: No sign of use (Excellent and Very good); Slight scratches may be visible, but they do not interfere when the appliance is switched on (Good)"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Body: Excellent has no sign of use. Very good and Good may have a few light scratches that are not visible at first glance unless you look closely.",
+      "evidence": [
+        {"kind": "see", "at": "09:22", "frame": "t00562.jpg", "quote": "Body: No sign of use (Excellent) | May have a few light scratches that are not visible at first glance unless you look closely (Very good and Good), with a word 'Small' beneath"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Display: Excellent must be Original or DD; Very good and Good may use a high quality copy.",
+      "evidence": [
+        {"kind": "see", "at": "09:27", "frame": "t00567.jpg", "quote": "Display: Original or DD (Excellent) | High quality copy accepted (Very good and Good)"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Glass, cover, buttons and others may be a high quality copy in all grades, but no message mentioning replacement of non-original parts should appear.",
+      "evidence": [
+        {"kind": "see", "at": "09:27", "frame": "t00567.jpg", "quote": "High quality copy accepted - no message mentioning the replacement of non-original parts should appear"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "For Samsung devices, the S Pen must be original.",
+      "evidence": [
+        {"kind": "see", "at": "09:27", "frame": "t00567.jpg", "quote": "S Pen (Samsung only): Must be original"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Functions checks on the page 1 table include: SIM and memory cards are read and the tray or slot works; data must have been reset; chargers and cables must be original and charge effectively; device must be unlocked from previous protection systems; GPS must be accurate and working.",
+      "evidence": [
+        {"kind": "see", "at": "09:33", "frame": "t00573.jpg", "quote": "Sim; Data deletion: Data must have been reset; Chargers / cables: Original copy required; Unlocking; GPS"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Cameras (checked with portrait mode): Excellent must have all modes working with max 1 small camera dot accepted. Very good and Good must have all modes working with max 2 small camera dots accepted.",
+      "evidence": [
+        {"kind": "see", "at": "09:27", "frame": "t00567.jpg", "quote": "Cameras (checked with portrait mode): All modes must work and max 1 small camera dot accepted | All modes must work and max 2 small camera dots accepted"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Sensors (distance, call, proximity, camera aperture, brightness, laser measurement, vibrations and heartbeat), biometric sensors (Touch ID, Face ID, ID sensor, voice recognition), and Wi-Fi/Bluetooth must all work correctly.",
+      "evidence": [
+        {"kind": "see", "at": "09:33", "frame": "t00573.jpg", "quote": "External sensors ... working correctly; Biometric sensors ... working correctly and accurately; Wi-Fi / Bluetooth ... working correctly and accurately"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "IMEI: the serial number is checked to see whether it has been blacklisted, and the device configuration (such as color and capacity) must match manufacturer settings.",
+      "evidence": [
+        {"kind": "see", "at": "09:33", "frame": "t00573.jpg", "quote": "IMEI serial number ... checked to see if it has been blacklisted and the device configuration (like color and capacity) match manufacturer settings"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Phone carrier: the device must be unlocked to a phone carrier.",
+      "evidence": [
+        {"kind": "see", "at": "09:39", "frame": "t00579.jpg", "quote": "Phone carrier: Must be unlocked to a phone carrier"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Flash and indicator lights must work properly, mics and speakers must be calibrated so that they capture and play sound correctly, and the oxidation indicator inside the device is inspected.",
+      "evidence": [
+        {"kind": "see", "at": "09:33", "frame": "t00573.jpg", "quote": "Oxidation: Inspecting the oxidation indicator within the device; Flash and indicator lights: Flash and other indicator lights work properly"},
+        {"kind": "see", "at": "09:39", "frame": "t00579.jpg", "quote": "Mics and speakers: Must be calibrated so that they capture and play sound correctly"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Page 2 of the guidelines is a grid with three columns: Original & DD (green check), GW Good quality (red cross for the Excellent / Very good row, green check for the Good row), and GW & others Bad quality (red cross).",
+      "evidence": [
+        {"kind": "see", "at": "09:45", "frame": "t00585.jpg", "quote": "Original & DD: green check; GW Good quality: red cross then green check; GW & others Bad quality: red cross"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Page 2 criteria for GW Good quality versus GW & others Bad quality: size normal vs small with big borders; thickness thin vs thick; touch smooth vs lagging or jumping; backlighting whitish vs yellowish or pinkish; proximity sensors normal vs sometimes not working (screen goes blank when calling someone); keyboard light grey vs very light grey or brownish; physical issues slight heat vs over heat, freezing when charging, or fast battery drain.",
+      "evidence": [
+        {"kind": "see", "at": "09:45", "frame": "t00585.jpg", "quote": "Size: Normal | Small hence having big borders; Thickness: Thin | Thick; Touch: Smooth | Lagging, jumping; Backlighting: Whitish | Yellowish / Pinkish; Proximity sensors: Normal | Sometimes not working, screen goes blank when calling someone; Keyboard: Light grey | Very light grey or brownish; Physical issues: Slight heat | Over heat / Freezing when charging / Fast battery drain"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Revibe Technology FZ LLC is the contracting party in the Revibe Seller Agreement, registered under No. 100866 in Dubai Internet City, UAE.",
+      "evidence": [
+        {"kind": "see", "at": "07:55", "frame": "t00475.jpg", "quote": "Revibe Technology FZ LLC, a company incorporated in Dubai Internet City, United Arab Emirates, registered under No. 100866"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Clause 1 (Seller Alias): Revibe creates an Alias for the seller, which is used across Revibe's internal systems and may be displayed on the website when referencing the seller as the provider of specific products (1.1). The Alias is the seller's public identifier on Revibe's platform (1.2), and Revibe uses it when displaying who the seller of a product is on the website and in other customer-facing communications (1.3).",
+      "evidence": [
+        {"kind": "see", "at": "07:55", "frame": "t00475.jpg", "quote": "1.1 Revibe will create an Alias for the Seller, which will be used across Revibe's internal systems and may be displayed on the website when referencing the Seller as the provider of specific products. 1.2 The Alias will serve as the Seller's public identifier on Revibe's platform... 1.3 Revibe will use this Alias when displaying who the Seller of the product is on the website and other customer-facing communications."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Agreement definitions (clause 2): Effective Date is the date this Agreement is signed by both Parties (2.1). Order is a purchase order placed by Revibe on behalf of a customer (2.3). Commission is the fee charged by Revibe for each sale made through its platform (2.4). RTO is Return to Origin, the process of returning goods back to the Seller (2.5). COD is Cash on Delivery (2.6). FTA is the Federal Tax Authority of the United Arab Emirates (2.7). TRN is the Tax Registration Number (2.8).",
+      "evidence": [
+        {"kind": "see", "at": "07:55", "frame": "t00475.jpg", "quote": "2.1 'Effective Date': The date this Agreement is signed by both Parties. 2.3 'Order': A purchase order placed by Revibe on behalf of a customer. 2.4 'Commission': The fee charged by Revibe for each sale made through its platform. 2.5 'RTO': Return to Origin... 2.6 'COD': Cash on Delivery. 2.7 'FTA': Federal Tax Authority of the United Arab Emirates. 2.8 'TRN': Tax Registration Number."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Scope (3.1): The seller provides Revibe with product availability, a price list and inventory updates.",
+      "evidence": [
+        {"kind": "see", "at": "07:55", "frame": "t00475.jpg", "quote": "3.1 The Seller agrees to provide Revibe with product availability, a price list, and inventory updates."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "Penalty (3.2): if an order is refused because the item was marked 'not available', the seller incurs a financial penalty equal to 5% of the SKU price the seller initially indicated. The penalty is deducted from the seller's balance or invoiced.",
+      "evidence": [
+        {"kind": "see", "at": "07:55", "frame": "t00475.jpg", "quote": "In the event that an order is refused due to the item being marked as 'not available,' the Seller shall incur a financial penalty equal to 5% of the SKU price they initially indicated. This penalty will be deducted from the Seller's balance or invoiced accordingly."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Shipping (clause 3.2, second clause with the same number): the seller ships Products within 48 hours from receipt of an Order.",
+      "evidence": [
+        {"kind": "see", "at": "07:55", "frame": "t00475.jpg", "quote": "3.2 The Seller shall ship Products within 48 hours from the receipt of an Order."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Revibe reserves the right to cancel an Order before shipment (3.3).",
+      "evidence": [
+        {"kind": "see", "at": "07:55", "frame": "t00475.jpg", "quote": "3.3 Revibe reserves the right to cancel an Order before shipment."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Sales model (4.1): Revibe advertises and sells the seller's products on a commission-based model.",
+      "evidence": [
+        {"kind": "see", "at": "07:55", "frame": "t00475.jpg", "quote": "4.1 Revibe shall advertise and sell the Seller's Products on a commission-based model."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Customer complaints (4.2): Revibe handles customer complaints, including after-sales service, on behalf of the seller. Revibe is not responsible for replacing damaged or non-functioning devices.",
+      "evidence": [
+        {"kind": "see", "at": "07:55", "frame": "t00475.jpg", "quote": "4.2 Revibe will handle all customer complaints, including after-sales service on behalf of the seller ... not be responsible for replacing any damaged or not functioning devices."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Clause 4.3: Revibe provides the seller with order updates through a shared system.",
+      "evidence": [
+        {"kind": "see", "at": "07:55", "frame": "t00475.jpg", "quote": "4.3 Revibe will provide the Seller with order updates through a shared system. (partly visible at the bottom edge of the page)"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Returns (7.1): the seller accepts returns within 10 days from the delivery date, for any valid reason including change of mind or product issues.",
+      "evidence": [
+        {"kind": "see", "at": "08:14", "frame": "t00494.jpg", "quote": "Returns: The acceptance of returns within 10 days from the delivery date for any valid reason, including change of mind or product issues."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "If a second claim is raised by the customer for the same order and a second valid issue, the seller must accept the return on the customer's request, even if the 10-day period has expired.",
+      "evidence": [
+        {"kind": "see", "at": "08:14", "frame": "t00494.jpg", "quote": "the seller shall be required to accept the return upon the customer's request, even if the 10-day period has expired"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Warranty (clause 7.1): a 6-month warranty period from the delivery date covers repair, replacement or refund of products that fail to meet Revibe's quality standards.",
+      "evidence": [
+        {"kind": "see", "at": "08:14", "frame": "t00494.jpg", "quote": "Warranty: A warranty period of 6 months from the delivery date, covering repair, replacement, or refund of Products that fail to meet Revibe's quality standards."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Change-of-mind returns for KSA orders (8.1): Revibe bears the full cost of return shipping, including customs, with a fee equivalent to 20% of the order value + 150 AED.",
+      "evidence": [
+        {"kind": "see", "at": "08:14", "frame": "t00494.jpg", "quote": "For KSA Orders, Revibe will bear the full cost of return shipping, including customs, with a fee equivalent to 20% of the order value + 150 AED."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Change-of-mind returns for UAE orders (8.1): Revibe handles the shipping costs internally and no deductions are made from the seller for change-of-mind returns.",
+      "evidence": [
+        {"kind": "see", "at": "08:14", "frame": "t00494.jpg", "quote": "For UAE Orders, Revibe handles the shipping costs internally, and no deductions will be made from the Seller for returns due to a change of mind."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Product-issue returns (8.2): the seller bears the cost of the return. For UAE orders a 15 AED fee is deducted from the seller. For KSA orders the seller handles the return shipping cost internally.",
+      "evidence": [
+        {"kind": "see", "at": "08:14", "frame": "t00494.jpg", "quote": "For UAE Orders, as Revibe handles the return shipping, a fee of 15 AED will be deducted from the Seller to cover the shipping cost. For KSA Orders, the Seller will handle the return shipping cost internally."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Damaged shipments (8.3): if a shipment sent by the seller is received damaged, the seller resolves it directly with the logistics company. If a shipment sent by the customer is received damaged, the seller notifies Revibe immediately.",
+      "evidence": [
+        {"kind": "see", "at": "08:14", "frame": "t00494.jpg", "quote": "If a shipment sent by the Seller is received damaged, the Seller shall resolve the matter directly with the logistics company. If a shipment sent by the customer is received damaged, the Seller shall notify Revibe immediately"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Warranty and RTN (9.1 to 9.3): the seller warrants that the products given to Revibe are in good working condition (9.1). The seller provides a 6-month warranty on all products sold through Revibe, effective from the date of delivery to the end customer (9.2). The warranty covers repair, replacement or refund within 5 working days of receiving the product, if it fails the specifications (9.3).",
+      "evidence": [
+        {"kind": "see", "at": "08:14", "frame": "t00494.jpg", "quote": "9.1 The Seller warrants that the Products provided to Revibe are in good working condition. 9.2 The Seller provides a '6-Month Warranty' on all Products sold through Revibe, effective from the date of delivery to the end customer. 9.3 The warranty shall cover repair, replacement, or refund of the Product within 5 working days from the date of receiving the Product, if it fails to meet the specifications."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "Non-compliance penalty (11.6): if a customer complaint about receiving an order without Revibe's standard packing is confirmed, and either the seller did not notify Revibe of a packing material shortage or the seller still had Revibe packing stock, the seller is penalised 200 AED per complaint.",
+      "evidence": [
+        {"kind": "see", "at": "08:18", "frame": "t00498.jpg", "quote": "11.6 Non-Compliance Penalty: If a customer files a complaint about receiving an order without Revibe's standard packing... A penalty of 200 AED will be applied to the Seller for each such complaint."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "If the seller runs out of Revibe's packing materials, the seller must notify Revibe immediately. Until Revibe restocks, the seller may ship with alternative packing materials.",
+      "evidence": [
+        {"kind": "see", "at": "08:18", "frame": "t00498.jpg", "quote": "If the Seller runs out of Revibe's packing materials, they must notify Revibe immediately. Until Revibe restocks, the Seller is permitted to ship using alternative packing materials."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Quality guidelines (11.7): the seller agrees to comply with the quality guidelines and to implement quality check processes that align with them.",
+      "evidence": [
+        {"kind": "see", "at": "08:18", "frame": "t00498.jpg", "quote": "11.7 Quality guidelines: The Seller agrees to comply with the quality guidelines outlined below and to implement quality check processes in alignment with these standards."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Score principle (12.1): the score given to a seller must reflect the seller's operational performance and allow the seller to assume a price positioning against its competitors, in line with the quality and operational excellence offered to customers.",
+      "evidence": [
+        {"kind": "see", "at": "08:19", "frame": "t00499.jpg", "quote": "The score given to a seller must: Reflect his operational performance; Allow him to assume a price positioning vs. its competitors in line with the quality and operational excellence offered to customers"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "number",
+      "statement": "The seller's score may vary between -5% and +5%. Sellers get access to a Performance and Score sheet that shows their live performance and how the score is calculated.",
+      "evidence": [
+        {"kind": "see", "at": "08:19", "frame": "t00499.jpg", "quote": "Seller's score may vary between -5% and +5% and sellers get access to a Performance and Score sheet detailing their live performance and how their score is calculated."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "Account suspension (12.2): if the seller's score reflects bad operational performance, Revibe reserves the right to suspend the seller's account. The seller can then no longer ship orders independently, and the only option is to send products to Revibe's warehouse.",
+      "evidence": [
+        {"kind": "see", "at": "08:19", "frame": "t00499.jpg", "quote": "Revibe reserves the right to suspend the Seller's account. In such a case, the Seller shall no longer be permitted to ship orders independently, and the only available option will be to send products to Revibe's warehouse"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Per clause 12.2, the suspension measure is meant to let the seller reduce order volume, refocus on quality, lower the claim rate and ensure timely shipments while making the operational improvements needed to resume independent shipping.",
+      "evidence": [
+        {"kind": "see", "at": "08:19", "frame": "t00499.jpg", "quote": "This measure allows the Seller to reduce order volume, refocus on quality, lower the claim rate, and ensure timely shipments while implementing the necessary operational improvements to resume independent shipping."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "Communication (clause 13 in the agreement, with its clause numbered 12.1): the seller keeps an active line of communication with Revibe and notifies Revibe immediately of any stock issues or delays in fulfilling orders.",
+      "evidence": [
+        {"kind": "see", "at": "08:24", "frame": "t00504.jpg", "quote": "The Seller shall maintain an active line of communication with Revibe and notify Revibe immediately if there are any stock issues or delays in fulfilling Orders."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Termination (clause 14, with its clauses numbered 13.1 and 13.2): either party may terminate with 30 days written notice. If the other party breaches the agreement, the non-breaching party may terminate immediately on written notice.",
+      "evidence": [
+        {"kind": "see", "at": "08:35", "frame": "t00515.jpg", "quote": "This Agreement may be terminated by either Party by providing a 30-day written notice to the other Party. ... may terminate this Agreement immediately upon written notice."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Amendments (clause 15, with its clauses numbered 14.1 and 14.2): amendments must be made in writing and signed by both parties, and become a binding part of the agreement once signed.",
+      "evidence": [
+        {"kind": "see", "at": "08:35", "frame": "t00515.jpg", "quote": "Any amendments to this Agreement must be made in writing and signed by both Parties. Once signed, any amendments become a binding part of this Agreement."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Governing law (clause 16, with its clauses numbered 15.1 and 15.2): the agreement is governed by the laws of Dubai, UAE. Disputes go to arbitration in the Dubai International Financial Centre before a single arbitrator.",
+      "evidence": [
+        {"kind": "see", "at": "08:35", "frame": "t00515.jpg", "quote": "governed by and construed in accordance with the laws of Dubai, United Arab Emirates ... arbitration in the Dubai International Financial Center, with a single arbitrator."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Entire agreement (clause 17, with its clauses numbered 16.1 and 16.2): the agreement replaces all prior agreements, oral or written. Any modification must be in writing and signed by both parties.",
+      "evidence": [
+        {"kind": "see", "at": "08:35", "frame": "t00515.jpg", "quote": "This Agreement constitutes the entire understanding between the Parties and supersedes all prior agreements, oral or written. Any modifications to this Agreement must be in writing and signed by both Parties."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The agreement's signatures section (18) names Revibe Technology FZ LLC, with Name: Abdessamad Benzakour, as the Revibe signer. The seller's name, representative name, position and effective date are left as red placeholders.",
+      "evidence": [
+        {"kind": "see", "at": "08:35", "frame": "t00515.jpg", "quote": "Revibe Technology FZ LLC / Name: Abdessamad Benzakour / [Seller Name] / Name: [Seller Representative Name] / Position: [Seller Position] / Date: [Effective Date]"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    }
+  ],
+  "screens": [
+    {
+      "name": "AppSheet 'Seller Onboarding App' - Video Detail page",
+      "shows": "Page with an 'Introduction video' (0:00 / 3:22) behind the form panel.",
+      "at": "06:24",
+      "where": "Chrome tab 'Seller Onboarding App' (appsheet.com)"
+    },
+    {
+      "name": "AppSheet 'New Slice Form' side panel",
+      "shows": "Seller onboarding form with Cancel and Save buttons. Fields in order: a multi-select chip field (Amazon shown, label not visible), units per month, grades, as is / refurbished / both, technicians, daily orders after quality check, how did you hear about Revibe, do you know anyone who sells at Revibe (Yes/No) with conditional business name, would you like to add something, seller agreement block, upload of the signed agreement, quality guidelines block, have you read the quality guidelines (Not yet / Yes), application status.",
+      "at": "06:24 to 08:58",
+      "where": "Right-hand panel on the Seller Onboarding App"
+    },
+    {
+      "name": "Google Docs 'Revibe Seller Agreement - March 2025' (.DOCX)",
+      "shows": "Full agreement with red placeholders for seller details and a signature block, outline sections 1 to 18. The placeholders stay unfilled in the frames.",
+      "at": "07:52 to 08:39",
+      "where": "Chrome tab opened from the form link"
+    },
+    {
+      "name": "Google Drive PDF viewer 'Quality guidelines'",
+      "shows": "6-page PDF. Page 1 is the Phones, tablets & watches table (Excellent / Very good / Good). Page 2 is the Original & DD / GW grid with visual examples.",
+      "at": "09:20 to 09:45",
+      "where": "Chrome tab opened from the form's quality guidelines link"
+    },
+    {
+      "name": "macOS file picker for upload",
+      "shows": "Music folder (t00528), then the Téléchargements (Downloads) folder (t00531) showing 'Revibe Seller Agreement - March 2025.docx.pdf' (Document PDF, 215 ko).",
+      "at": "08:48 to 08:51",
+      "where": "Upload dialog from the form's 'Please upload here the seller agreement once signed' field"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Seller Onboarding App",
+      "meaning": "The AppSheet application where the seller completes the onboarding form.",
+      "at": "06:24"
+    },
+    {
+      "term": "New Slice Form",
+      "meaning": "Title of the AppSheet form panel in which the seller answers the questions. The word 'Slice' is not explained on screen.",
+      "at": "06:24"
+    },
+    {
+      "term": "As is / Refurbished / Both",
+      "meaning": "The three answers to the form question 'Do you sell as is or you refurbish the devices ?'. The form does not define them further.",
+      "at": "06:38"
+    },
+    {
+      "term": "Quality check",
+      "meaning": "Per the trainer, checking the device when an order is received to make sure everything is working.",
+      "at": "06:55"
+    },
+    {
+      "term": "Seller agreement",
+      "meaning": "The Revibe Seller Agreement (Google Doc) with terms and conditions that the seller must read, sign and upload.",
+      "at": "07:39"
+    },
+    {
+      "term": "Quality guidelines",
+      "meaning": "The Revibe guideline PDF setting the standards for grading and checking devices for the first shipment to the warehouse and for direct customer shipments.",
+      "at": "08:57"
+    },
+    {
+      "term": "Alias",
+      "meaning": "The public identifier Revibe creates for each seller (clause 1), used across internal systems and shown on the website when referencing the seller as provider of specific products.",
+      "at": "07:55"
+    },
+    {
+      "term": "Commission",
+      "meaning": "The fee charged by Revibe for each sale made through its platform (clause 2.4).",
+      "at": "07:55"
+    },
+    {
+      "term": "RTO",
+      "meaning": "Return to Origin: the process of returning goods back to the Seller (clause 2.5).",
+      "at": "07:55"
+    },
+    {
+      "term": "COD",
+      "meaning": "Cash on Delivery (clause 2.6).",
+      "at": "07:55"
+    },
+    {
+      "term": "FTA",
+      "meaning": "Federal Tax Authority of the United Arab Emirates (clause 2.7).",
+      "at": "07:55"
+    },
+    {
+      "term": "TRN",
+      "meaning": "Tax Registration Number (clause 2.8).",
+      "at": "07:55"
+    },
+    {
+      "term": "SKU",
+      "meaning": "Used in clause 3.2: the penalty is calculated on the SKU price the seller initially indicated. SKU is not expanded in the document.",
+      "at": "07:55"
+    },
+    {
+      "term": "KSA / UAE orders",
+      "meaning": "Order destinations used in the return rules (clauses 8.1 and 8.2). KSA is not expanded in the document.",
+      "at": "08:14"
+    },
+    {
+      "term": "Original & DD",
+      "meaning": "Column heading on page 2 of the quality guidelines and a Display row value on page 1 ('Original or DD'). DD is not expanded on screen.",
+      "at": "09:45"
+    },
+    {
+      "term": "GW",
+      "meaning": "Abbreviation used in the page 2 column headers (GW Good quality, GW & others Bad quality). Not expanded on screen.",
+      "at": "09:45"
+    },
+    {
+      "term": "3utool",
+      "meaning": "Named as a check that the battery must match (page 1). Not explained on screen.",
+      "at": "09:27"
+    },
+    {
+      "term": "Performance and Score sheet",
+      "meaning": "Sheet given to sellers showing their live performance and how their score is calculated (clause 12.1).",
+      "at": "08:19"
+    }
+  ],
+  "asr_fixes": [
+    {
+      "at": "06:24",
+      "heard": "How many orders, how many units do you sell per month",
+      "correct": "How many units do you sell per month",
+      "basis": "Screen label reads 'On average, how many units do you sell per month ?' (t00384). The trainer says 'orders' before 'units', but the question is about units."
+    },
+    {
+      "at": "06:38",
+      "heard": "as {is?}",
+      "correct": "as is",
+      "basis": "Screen label reads 'Do you sell \"as is\" or you refurbish the devices ?' with an option 'As is' (t00384)."
+    },
+    {
+      "at": "07:07",
+      "heard": "did you hear about revive",
+      "correct": "did you hear about Revibe",
+      "basis": "Screen label reads 'How did you hear about Revibe ?' (t00431)."
+    },
+    {
+      "at": "07:13",
+      "heard": "sells that revive {say?}",
+      "correct": "sells at Revibe",
+      "basis": "Screen label reads 'Do you know anyone who sells at Revibe ?' (t00437)."
+    },
+    {
+      "at": "07:20",
+      "heard": "{device?} plus LLC",
+      "correct": "Device + LLC",
+      "basis": "Typed business name reads 'Device + LLC' in the 'Who ? Please mention the business name' field (t00449, 07:29)."
+    },
+    {
+      "at": "08:50",
+      "heard": "app {revive?} seller agreement",
+      "correct": "app Revibe seller agreement",
+      "basis": "Document title reads 'Revibe Seller Agreement - March 2025' (t00475, t00531)."
+    }
+  ],
+  "unclear": [
+    {
+      "at": "06:43",
+      "issue": "Narration says the technicians choice runs 'from zero to plus {ten?}', but the screen only shows the selected value 3 - 5. The full option list is not visible, so the range is not confirmed."
+    },
+    {
+      "at": "06:50",
+      "issue": "The daily-orders options overlap at their ends (0 - 5 and 5 - 10 share 5; 10 - 20 and 20 - 30 share 20). The screen does not say which band an exact value such as 5, 10 or 20 falls into."
+    },
+    {
+      "at": "07:13",
+      "issue": "The 'Who ? Please mention the business name' label has no required asterisk, while other required fields show one. Whether the field is mandatory is not shown on screen."
+    },
+    {
+      "at": "08:27",
+      "issue": "The signature block shows four lines ([Seller Name], Name: [Seller Representative Name], Position: [Seller Position], Date: [Effective Date]). The narration lists five items (name, name of the business, personal name, position, date). How these map to the lines is not shown."
+    },
+    {
+      "at": "08:35",
+      "issue": "The signature block is still unfilled in every frame, so it is not shown whether the agreement was signed on screen. The narration says to sign it, but the signing step is not shown."
+    },
+    {
+      "at": "08:39",
+      "issue": "The frames show the File (Fichier) menu label being hovered but not the menu items or the PDF download. The download step itself is not shown completing."
+    },
+    {
+      "at": "07:52",
+      "issue": "Narration says to 'change here the date'. Clause 2.1 defines the Effective Date as the date the agreement is signed by both parties. What the seller should enter as the date is not stated."
+    },
+    {
+      "at": "09:27",
+      "issue": "The grade names differ across sources. The form offers A+, A, B, C and Other. The guidelines table uses Excellent, Very good and Good. The narration says 'three grades excellent very good and good'. No mapping between these sets is shown."
+    },
+    {
+      "at": "09:34",
+      "issue": "The narration says some product is sold as 'new', but no 'New' grade appears in the form's grade list or in the guidelines table. Whether 'new' is a grade is not confirmed."
+    },
+    {
+      "at": "09:22",
+      "issue": "Camera limits conflict on page 1. The 'Camera dot' row (t00562, t00567) says Excellent None and Very good 1 small maximum, Good 2 small maximum. The 'Cameras (checked with portrait mode)' row (t00567, t00573) says Excellent max 1 small camera dot accepted and Very good and Good max 2 small camera dots accepted. Which limit applies is not clear."
+    },
+    {
+      "at": "09:22",
+      "issue": "The Body row shows the word 'Small' under the text for Very good and Good. Its meaning is not explained (frame t00562)."
+    },
+    {
+      "at": "09:39",
+      "issue": "The Ports row on page 1 is partly hidden by the page counter overlay. Only the words '...battery, USB, ethernet, must be functional' are readable (frame t00579)."
+    },
+    {
+      "at": "09:49",
+      "issue": "The narration says 'the kind of LCD we want us to offer', but the screens use the term Display (page 1 Display row) and Original & DD (page 2). Which row the trainer means is not stated, and the sentence is cut off at the end of the pack."
+    },
+    {
+      "at": "09:45",
+      "issue": "Page 2 grid: 'GW' and 'DD' are not defined. The mapping of the red cross and green check to the Excellent / Very good and Good sub-rows, and of the arrows to the two tables below, is not labelled on screen. The interpretation in the facts is medium confidence only."
+    },
+    {
+      "at": "08:19",
+      "issue": "Two different quality-guidelines links appear. The form (t00536, t00538, t00556) points to drive.google.com/file/d/1ELqeY-KOlnhFMylMpLEWPSSrrvfQuOGL/view?usp=sharing. Agreement clause 11.7 (t00498) points to drive.google.com/file/d/1mpW2oLLHNOoMQOCKBZK6yYjasIDqPcxE/view?usp=sharing. Which one is current is not stated. The characters in both IDs were read from small text, so they may be misread."
+    },
+    {
+      "at": "08:14",
+      "issue": "Clause 8.1 for KSA orders says Revibe bears the return shipping 'with a fee equivalent to 20% of the order value + 150 AED'. The screen does not say who pays this fee or which way it is charged."
+    },
+    {
+      "at": "08:18",
+      "issue": "Numbering in the agreement is inconsistent. Clause 3.2 appears twice (pricing and 48-hour shipping). From section 13 onward, clause numbers lag their headings (13 Communication has clause 12.1; 14 Termination has 13.1 and 13.2; 15 Amendments has 14.1 and 14.2; 16 Governing Law has 15.1 and 15.2; 17 Entire Agreement has 16.1 and 16.2)."
+    },
+    {
+      "at": "08:58",
+      "issue": "Agreement sections 5 (Invoicing and Payment), 6 (VAT Responsibilities), 10 (Disputes) and clauses 11.1 to 11.5 are listed in the outline or cut off, and are not visible in these frames. They are not extracted here."
+    },
+    {
+      "at": "08:56",
+      "issue": "The screen does not show which file formats or sizes the upload accepts. The trainer says to download as PDF, and the file that was uploaded is named '...docx.pdf'."
+    },
+    {
+      "at": "08:58",
+      "issue": "The 'Have you read the quality guidelines ?' toggle is left on 'Not yet' in the frames. The trainer does not say whether the seller must change it to Yes, or what happens next."
+    },
+    {
+      "at": "08:56",
+      "issue": "Application status stays 'Application incomplete' in the frames shown. What makes it complete, and who reviews it, is not shown."
+    },
+    {
+      "at": "06:24",
+      "issue": "The first form field above the units question (chip 'Amazon') has no visible label in the frames, because the top of the panel is cut off."
+    }
+  ],
+  "outdated": [
+    {
+      "at": "07:55",
+      "signal": "The agreement is titled 'Revibe Seller Agreement - March 2025'. The version date is March 2025. The screen shows 'Jeu. 7 août' without a year; 2025 is implied by the weekday, not shown. The version may no longer be the current one and should be checked before use."
+    },
+    {
+      "at": "08:19",
+      "signal": "Quality guidelines clause 11.7 (in the agreement) and the form's quality guidelines block link to two different Drive files, so one of them may be an old version."
+    }
+  ],
+  "privacy": [
+    {
+      "at": "07:29",
+      "frame": "t00449.jpg",
+      "what": "The business name 'Device + LLC' is typed into the form as an example. It is a business name, not a real seller's personal data, but it should be checked before the material is shown to sellers."
+    },
+    {
+      "at": "08:35",
+      "frame": "t00515.jpg",
+      "what": "The agreement's signature block names a Revibe representative (Abdessamad Benzakour) for Revibe Technology FZ LLC. This is a Revibe staff name, not seller data. It is recorded here only so the material can be reviewed before wider use."
+    },
+    {
+      "at": "07:55",
+      "frame": "t00475.jpg",
+      "what": "No seller personal data (names, phone numbers, emails or home addresses) appears on screen. The seller fields are blank red placeholders."
+    },
+    {
+      "at": "08:48",
+      "frame": "t00528.jpg",
+      "what": "The macOS file picker shows personal file names in the Music and Téléchargements folders (for example 'Capture d'écran à 9.05.36 AM', 'Covers', 'Tracks', and a Downloads file named '209926_DHL...'). These are not seller data and are not extracted."
+    }
+  ],
+  "audit": {
+    "checked": 141,
+    "removed": [
+      {"statement": "Step 08:27: 'Fills in the signature block: name, business name, personal name, position and date, then signs.'", "reason": "The frames show the signature block still unfilled; the trainer only narrates what goes there and says to sign it."},
+      {"statement": "Step 07:55: 'Reads the agreement and fills in the placeholders for the seller's details.'", "reason": "The frames show the placeholders still unfilled; the trainer only explains that the details go there."},
+      {"statement": "Step 08:39: 'Downloads the signed agreement as a PDF using the File menu'", "reason": "No frame shows the signed agreement or the download completing; the File menu is only hovered (t00519). The word 'signed' and the menu path are not supported."},
+      {"statement": "Fact: 'The seller form asks ... Who ? ... must be filled in'", "reason": "The label has no required asterisk on screen, and the narration does not say it is mandatory."},
+      {"statement": "Fact: 'The form bottom shows Application status ... while required fields are empty or unfinished'", "reason": "The frames show the status text only; what makes it complete is not shown. Moved to unclear."}
+    ],
+    "corrected": [
+      {"before": "Step 07:22 / fact evidence: t00442 shows 'Device + LLC'", "after": "t00442 shows the empty 'Who ?' field; 'Device + LLC' is visible in t00449", "reason": "Frame content checked; t00442 is empty."},
+      {"before": "Step 09:16 / fact 'Address bar: drive.google.com ... tab title Quality guidelines' cited t00556", "after": "Address bar and new tab cited to t00560; t00556 shows the form with the drive link selected", "reason": "Frame content checked."},
+      {"before": "Step 09:27 / page 1 header cited t00560 (09:22)", "after": "Page 1 header cited to t00562 (09:22); t00560 is a loading Drive tab", "reason": "Frame content checked."},
+      {"before": "Fact 'Phone carrier' cited t00573", "after": "Cited to t00579", "reason": "'Phone carrier' row is visible in t00579 only."},
+      {"before": "Fact 'Ports row' / unclear at 09:27 cited t00573", "after": "Cited to t00579", "reason": "Ports row with the page overlay is in t00579."},
+      {"before": "Step 08:51 / fact upload: 'Downloads folder shows ... 215 ko' cited t00534 (08:43)", "after": "Cited to t00531 (08:51); t00534 is the form with the quality guidelines block and no upload chip", "reason": "Frame content checked."},
+      {"before": "Step 08:57 / unclear: 'drive.google.com link highlighted' on t00538", "after": "The docs.google.com agreement link is the selected text in t00538; the drive link is not highlighted", "reason": "Frame content checked."},
+      {"before": "Step 07:52 'Copies the link from the form and pastes it'", "after": "The docs link is selected in the form and a new Chrome tab opens at the agreement URL (t00472); the copy action itself is not shown", "reason": "Only the result is visible."},
+      {"before": "Fact 'Seller alias ... shown on the website and in customer communications as the seller's public identifier' cited t00475", "after": "Clause 1.1 says the Alias is used across internal systems and may be displayed on the website when referencing the seller as provider of specific products; 1.2 says it is the public identifier on Revibe's platform; 1.3 covers customer-facing communications", "reason": "Wording overstated the clause text."},
+      {"before": "Fact 'Shipping ... within 48 hours from receipt of an Order' (3.2 second)", "after": "Kept; quote matches 3.2 second clause", "reason": "Checked; no change needed."},
+      {"before": "Fact 'Clause 4.3 ... (t00498)'", "after": "Cited to t00475 (bottom edge)", "reason": "Clause 4.3 is visible only at the bottom of t00475; t00498 starts at 11.x."},
+      {"before": "Fact 'Damaged shipments: ... If a shipment sent to the customer is received damaged'", "after": "'If a shipment sent by the customer is received damaged'", "reason": "Agreement text reads 'sent by the customer'."},
+      {"before": "Fact 'Warranty and RTN: Revibe provides a 6-month warranty'", "after": "The Seller provides the 6-month warranty (clause 9.2)", "reason": "Agreement text names the Seller as the warranty provider."},
+      {"before": "Fact 'Score principle: ... allow the seller to set price positioning'", "after": "'allow the seller to assume a price positioning'", "reason": "Agreement wording is 'assume'."},
+      {"before": "Fact 'Account suspension: Revibe may suspend'", "after": "'Revibe reserves the right to suspend'", "reason": "Agreement wording."},
+      {"before": "Fact 'Application status ... required fields empty or unfinished'", "after": "Shows 'Application incomplete' at 06:24 and 08:56 only", "reason": "Cause not shown on screen."},
+      {"before": "Fact 'signature block asks for ... business name, personal name, position and date. The seller then signs.'", "after": "Screen shows four placeholder lines; narration lists five items and says to sign; mapping and signing not shown (unclear)", "reason": "Screen and narration differ."},
+      {"before": "Fact 'Seller's business name, registration number and address should normally be the same as in the form' (high)", "after": "Narration says the business name, registration number and address should normally match the form; the form fields for registration number and address are not seen (medium)", "reason": "Form fields for those two are not visible; confidence reduced."},
+      {"before": "Fact 'Clause 8.3 / 8.2 times'", "after": "Times as shown in frames", "reason": "Frame times corrected."},
+      {"before": "Fact 'Quality guidelines ... Hardware must be 100%' cited t00560", "after": "Cited to t00567, where the row is visible", "reason": "Frame content checked."},
+      {"before": "Fact 'Revibe may cancel ...' and 'Revibe reserves the right'", "after": "Kept", "reason": "Checked against 3.3."},
+      {"before": "Fact 'Camera dot' cited t00560", "after": "Cited to t00567", "reason": "Row visible in t00567."},
+      {"before": "Fact 'Definitions' 'Order' etc. (cited t00475 frame; time 07:55)", "after": "Kept; definitions quoted from 2.1 to 2.8", "reason": "Checked."},
+      {"before": "Term 'SKU: Stock keeping unit.'", "after": "SKU is used in clause 3.2 and is not expanded in the document", "reason": "Expansion came from general knowledge, not the evidence."},
+      {"before": "Term 'Original & DD: Original parts or DD'", "after": "Column heading on page 2; DD not expanded on screen", "reason": "Expansion came from general knowledge."},
+      {"before": "Term 'Alias' meaning", "after": "Clause 1 wording used", "reason": "Closer to the agreement."},
+      {"before": "Term 'As is / Refurbished / Both' meaning: 'sells devices as they are, refurbishes them, or does both'", "after": "Meaning limited to the form question wording", "reason": "The form does not define the choices further."},
+      {"before": "ASR 07:20 basis cited t00442 showing 'Device + LLC'", "after": "Basis cited t00449", "reason": "t00442 is empty."},
+      {"before": "Screen 'macOS file picker' time 08:51 to 08:54 and Downloads frame t00534", "after": "08:48 to 08:51; Downloads frame is t00531", "reason": "Frame content checked."},
+      {"before": "Screen 'Google Docs' time 07:52 to 08:50 and 'Sections 1 to 18'", "after": "07:52 to 08:39; outline visible with sections 1 to 18", "reason": "Checked."},
+      {"before": "Screen 'Google Drive PDF viewer' at 09:16 to 09:49", "after": "09:20 to 09:45", "reason": "Frame times corrected."},
+      {"before": "Outdated: 'the video was recorded in 2025 (screen clock shows 7 August)'", "after": "Year 2025 is implied by the weekday 'Jeu. 7 août', not shown", "reason": "Year not on screen."},
+      {"before": "Privacy at 07:20 frame t00442", "after": "Frame t00449 at 07:29", "reason": "Business name appears in t00449."},
+      {"before": "Fact 'Page 2 grid' time 09:49", "after": "09:45 (frame t00585)", "reason": "Frame time."},
+      {"before": "Fact 'Quality guidelines description block' (t00538 at 08:58)", "after": "Kept; drive link visible in t00538", "reason": "Checked."},
+      {"before": "Step 08:39 'Downloads... File menu'", "after": "Shows File (Fichier) menu hovered (t00519); download steps not shown", "reason": "Frame content checked."},
+      {"before": "Unclear 08:19 numbering cited t00498 only", "after": "Also cites t00504 and t00515 for clause numbers 13 to 17", "reason": "Checked."}
+    ],
+    "added": [
+      "Fact: clause 12.2 second paragraph (measure to reduce order volume, refocus on quality, lower claim rate, ensure timely shipments, resume independent shipping), t00499 at 08:19.",
+      "Fact: page 1 rows Oxidation, Flash and indicator lights, and Mics and speakers (t00573 at 09:33; t00579 at 09:39).",
+      "Unclear: signature block lines versus narrated items (08:27).",
+      "Unclear: signature block unfilled in every frame, so signing is not shown (08:35).",
+      "Unclear: File menu items and the PDF download are not shown (08:39).",
+      "Unclear: 'Who ?' field has no required asterisk (07:13).",
+      "Unclear: 'Small' word under the Body row (09:22).",
+      "Screen: upload picker folder labelled 'Téléchargements' (French UI) for the Downloads folder (t00531).",
+      "Terms: clause numbering of the agreement is shown in the statements of facts rather than as separate terms."
+    ]
+  }
+}

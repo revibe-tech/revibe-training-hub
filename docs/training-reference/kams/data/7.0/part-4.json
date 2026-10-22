@@ -1,0 +1,1128 @@
+{
+  "summary": "Part 4 (09:42-11:11) of the 7.0 Refund policy (Seller) video. On the Seller Performance page (Claims management tab, Refund policy section) the trainer explains the seller-side clock: the stage timeline with seller-running and Revibe-stopped colours, the per-market column charts (SA and AE · ZA), and the side drawer that lists the claims in a column with claim ID, market, days on clock, timer and stage. His example takes a claim from the AE · ZA 6d column and says to copy its claim ID into the orders app to solve it quickly. The video closes on a 'Returns Refund Policy' slide inviting KAM questions. All 13 listed frames were opened and checked. Several numbers and terms are snapshot or unclear and are flagged below.",
+  "frames_opened": 13,
+  "steps": [
+    {
+      "at": "09:42",
+      "screen": "Seller Performance page, Claims management tab, Refund policy section (URL 127.0.0.1:8099/plans/seller-abc.html?tab=claims)",
+      "action": "Opens the Refund policy section, which shows the methodology text and the SA and 'all but SA' stage timelines. The cursor rests on the methodology text near '6 / 8'.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "09:42",
+          "frame": "t00582.jpg",
+          "quote": "Seller Performance page with tab Claims management active, heading 'Refund policy 37 on the clock', methodology text, SA and 'all but SA' stage timelines, legend 'Revibe — the clock is stopped' / 'Seller — the clock is running'"
+        },
+        {
+          "kind": "say",
+          "at": "09:44",
+          "quote": "You can see different stages and when you look at {it?} on the stage you can see what"
+        }
+      ],
+      "says": "You can see different stages and when you look at {it?} on the stage you can see what",
+      "why": ""
+    },
+    {
+      "at": "09:47",
+      "screen": "Refund policy stage timeline, SA row",
+      "action": "Hovers a stage bar on the SA timeline near the 'In transit' label. A tooltip appears with what has to happen to leave that stage. The tooltip hides part of the labels, so the stage name is inferred from label position.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "09:47",
+          "frame": "t00587.jpg",
+          "quote": "Tooltip: 'Seller · Follow the parcel until it reaches the quality check.'"
+        },
+        {
+          "kind": "say",
+          "at": "09:49",
+          "quote": "is the {stage.?}"
+        }
+      ],
+      "says": "is the {stage.?}",
+      "why": ""
+    },
+    {
+      "at": "09:56",
+      "screen": "Refund policy stage timeline, SA row, stage near Under QC",
+      "action": "Hovers the next stage bar on the SA timeline near the 'Under QC' label. Tooltip appears.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "09:56",
+          "frame": "t00596.jpg",
+          "quote": "Tooltip: 'Seller · Inspect the device and record a verdict — accept the claim or reject it.'"
+        },
+        {
+          "kind": "say",
+          "at": "09:59",
+          "quote": "Below, you can see the number of orders that you have, you can see the ones that are"
+        }
+      ],
+      "says": "Below, you can see the number of orders that you have, you can see the ones that are",
+      "why": ""
+    },
+    {
+      "at": "10:00",
+      "screen": "Stat cards (On the clock / Moving / Stopped) and the SA and AE · ZA column charts, scrolled below the timeline",
+      "action": "Scrolls down to the totals and the per-market column charts. Hovers the SA 4d column and reads its tooltip.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "10:00",
+          "frame": "t00600.jpg",
+          "quote": "Tooltip on 4d column: 'Moving 6 · Stopped 0 · On the clock 6'; SA chart counts 8, 1, 2, 6, 4, 4 for 1d to 6d; header 'SA 25 moving · 0 stopped'"
+        }
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "10:03",
+      "screen": "AE · ZA column chart",
+      "action": "Hovers the AE · ZA 2d column (tooltip: Moving 3, Stopped 1, On the clock 4).",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "10:03",
+          "frame": "t00603.jpg",
+          "quote": "Tooltip on AE · ZA 2d column: 'Moving 3 · Stopped 1 · On the clock 4'"
+        },
+        {
+          "kind": "say",
+          "at": "10:04",
+          "quote": "stopped, the ones that are moving, and when you click on it, so let's say you see this"
+        }
+      ],
+      "says": "stopped, the ones that are moving, and when you click on it, so let's say you see this",
+      "why": ""
+    },
+    {
+      "at": "10:08",
+      "screen": "AE · ZA column chart, 6d column (warning day) and Open claims table below",
+      "action": "Hovers the AE · ZA 6d column (tooltip: Moving 1, Stopped 0, On the clock 1). Says the example claim is late.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "10:08",
+          "frame": "t00608.jpg",
+          "quote": "Tooltip on AE · ZA 6d column: 'Moving 1 · Stopped 0 · On the clock 1'; Open claims 147 still open visible below"
+        },
+        {
+          "kind": "say",
+          "at": "10:09",
+          "quote": "one for instance, a new ANZA is quite late."
+        }
+      ],
+      "says": "one for instance, a new ANZA is quite late.",
+      "why": ""
+    },
+    {
+      "at": "10:12",
+      "screen": "Side drawer '6d on the clock' opened from the AE · ZA 6d column",
+      "action": "Clicks the 6d column. A side drawer opens listing the claims in that column: claim ID, market, days on clock, timer, stage.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "10:13",
+          "frame": "t00613.jpg",
+          "quote": "Drawer header '6d on the clock', subheader 'AE · ZA · warning · 1 claim', columns CLAIM / MARKET / DAYS ON CLOCK / TIMER, row PKJP333 · AE · 5.3d · Moving"
+        },
+        {
+          "kind": "say",
+          "at": "10:12",
+          "quote": "When you click on it, this panel is appearing here showing to you the claim ID, the market,"
+        },
+        {
+          "kind": "say",
+          "at": "10:18",
+          "quote": "number of days on the clock,"
+        }
+      ],
+      "says": "When you click on it, this panel is appearing here showing to you the claim ID, the market,",
+      "why": ""
+    },
+    {
+      "at": "10:21",
+      "screen": "Side drawer, Timer column and Stage column",
+      "action": "Points at the Timer pill (Moving) and then at the Stage column (Under QC) for claim PKJP333.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "10:21",
+          "frame": "t00621.jpg",
+          "quote": "Cursor on the Timer pill 'Moving' for claim PKJP333; Stage column visible with 'Under QC' in the row"
+        },
+        {
+          "kind": "see",
+          "at": "10:24",
+          "frame": "t00624.jpg",
+          "quote": "Row PKJP333 · AE · 5.3d · Moving; Stage column cut off at the right edge, only 'Un' visible"
+        },
+        {
+          "kind": "say",
+          "at": "10:21",
+          "quote": "timer, if it's moving {or?} not and the current stage {so?} that you can just pick up your"
+        }
+      ],
+      "says": "timer, if it's moving {or?} not and the current stage {so?} that you can just pick up your",
+      "why": "The trainer says the timer and stage let you 'just pick up your claim'. The 10:21 line is cut off; the 10:26 line begins 'claim and copy paste it', so the reading is across both lines."
+    },
+    {
+      "at": "10:26",
+      "screen": "Side drawer, claim ID PKJP333 highlighted, cursor on the close (x) button",
+      "action": "Selects (highlights) the claim ID PKJP333 and moves the cursor to the close (x) button. The drawer is still open in this frame.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "10:26",
+          "frame": "t00626.jpg",
+          "quote": "Claim ID 'PKJP333' highlighted in the drawer; cursor on the close button"
+        },
+        {
+          "kind": "say",
+          "at": "10:26",
+          "quote": "claim and copy paste it in the orders app in order to solve it quickly."
+        }
+      ],
+      "says": "claim and copy paste it in the orders app in order to solve it quickly.",
+      "why": "To solve it quickly (the trainer's words)"
+    },
+    {
+      "at": "10:34",
+      "screen": "Title slide 'Returns Refund Policy' (footer 'Revibe · Seller communication')",
+      "action": "Ends on the title slide and invites questions to the key account manager.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "10:34",
+          "frame": "t00634.jpg",
+          "quote": "Title slide 'Returns Refund Policy', footer 'Revibe · Seller communication', trainer webcam bubble"
+        },
+        {
+          "kind": "say",
+          "at": "10:37",
+          "quote": "If you have any question you can directly reach out to your key account manager that is here"
+        }
+      ],
+      "says": "If you have any question you can directly reach out to your key account manager that is here",
+      "why": ""
+    },
+    {
+      "at": "10:54",
+      "screen": "Title slide 'Returns Refund Policy' (still on screen)",
+      "action": "The title slide stays on screen while the trainer talks about the policy's effect on priorities and customer satisfaction.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "10:54",
+          "frame": "t00654.jpg",
+          "quote": "Title slide 'Returns Refund Policy', footer 'Revibe · Seller communication', trainer webcam bubble"
+        },
+        {
+          "kind": "say",
+          "at": "10:54",
+          "quote": "better prioritize also the claims that you have to treat and in the long run give higher satisfaction"
+        }
+      ],
+      "says": "better prioritize also the claims that you have to treat and in the long run give higher satisfaction",
+      "why": ""
+    },
+    {
+      "at": "11:10",
+      "screen": "Title slide 'Returns Refund Policy' (closing frame)",
+      "action": "The video closes on the same title slide with a closing thank-you line.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "11:10",
+          "frame": "t00670.jpg",
+          "quote": "Title slide 'Returns Refund Policy', footer 'Revibe · Seller communication', trainer webcam bubble"
+        },
+        {
+          "kind": "say",
+          "at": "11:10",
+          "quote": "Thank you so much for watching this video."
+        }
+      ],
+      "says": "Thank you so much for watching this video.",
+      "why": ""
+    }
+  ],
+  "facts": [
+    {
+      "type": "rule",
+      "statement": "The methodology text says a policy day is 24 working hours, and only the seller's hours count.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "09:42",
+          "frame": "t00582.jpg",
+          "quote": "A policy day is 24 working hours, and only the seller's hours count."
+        }
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "The clock is the accumulated sum of the working hours a claim spends in the stages the seller owns.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "09:42",
+          "frame": "t00582.jpg",
+          "quote": "The clock is the accumulated sum of the working hours a claim spends in the stages the seller owns"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The clock runs while a claim sits with the seller, stops when it moves to a stage Revibe owns, and picks up again where it left off if the claim comes back.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "09:42",
+          "frame": "t00582.jpg",
+          "quote": "it runs while the claim sits with them, stops the moment it moves to a stage Revibe owns, and picks up again where it left off if it comes back."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Time on Revibe's side of the process is never charged to the seller, and Saturdays and Sundays never accrue for either side.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "09:42",
+          "frame": "t00582.jpg",
+          "quote": "Time on our side of the process is never charged to the seller, and Saturdays and Sundays never accrue for either of us."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Which stages count as seller-owned differs by market.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "09:42",
+          "frame": "t00582.jpg",
+          "quote": "Which stages those are differs by market"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "In SA the seller also owns the collection and ship-back legs, which the screen says is most of why an SA claim reaches its threshold sooner.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "09:42",
+          "frame": "t00582.jpg",
+          "quote": "in SA the seller also owns the collection and ship-back legs, which is most of why an SA claim reaches its threshold sooner"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "The methodology says SA runs 7 / 9 days, while everyone else runs 6 / 8 days. The screen does not label which number is the warning day and which is the policy-applied day.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "09:42",
+          "frame": "t00582.jpg",
+          "quote": "why SA runs 7 / 9 days against everyone else's 6 / 8"
+        }
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "On the stage timeline, light blue means the clock is stopped (Revibe owns that stage) and dark blue means the seller's clock is running.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "09:42",
+          "frame": "t00582.jpg",
+          "quote": "Legend: 'Revibe — the clock is stopped' (light blue), 'Seller — the clock is running' (dark blue)"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "tip",
+      "statement": "Hover any stage on the timeline to see what has to happen for a claim to leave that stage.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "09:42",
+          "frame": "t00582.jpg",
+          "quote": "Hover any stage for what has to happen to leave it."
+        },
+        {
+          "kind": "say",
+          "at": "09:44",
+          "quote": "when you look at {it?} on the stage you can see what"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "example",
+      "statement": "Hovering a stage bar near the In transit label shows the tooltip: 'Seller · Follow the parcel until it reaches the quality check.'",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "09:47",
+          "frame": "t00587.jpg",
+          "quote": "Tooltip: 'Seller · Follow the parcel until it reaches the quality check.'"
+        }
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "example",
+      "statement": "Hovering a stage bar near the Under QC label shows the tooltip: 'Seller · Inspect the device and record a verdict — accept the claim or reject it.'",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "09:56",
+          "frame": "t00596.jpg",
+          "quote": "Tooltip: 'Seller · Inspect the device and record a verdict — accept the claim or reject it.'"
+        }
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The Refund policy section shows three totals: On the clock (open returns with a seller timer), Moving (97% of the clock, accruing weekday hours) and Stopped (3% of the clock, banked and frozen until it restarts). At capture: On the clock 37, Moving 36, Stopped 1.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "09:42",
+          "frame": "t00582.jpg",
+          "quote": "ON THE CLOCK 37 'open returns with a seller timer'; MOVING 36 '97% of the clock · accruing weekday hours'; STOPPED 1 '3% of the clock · banked, frozen until it restarts'"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "A claim is Stopped when its timer is not running: the hours are banked and the claim is frozen in that column until the timer restarts.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "10:24",
+          "frame": "t00624.jpg",
+          "quote": "Days are policy days — 24 weekday hours each, Saturdays and Sundays never accrue. Stopped means the timer is not running: the hours are banked and the claim is frozen in this column until it restarts."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Each claim lands in one column only: 1d is over 0 and up to 24 weekday hours, 2d is 24 to 48, and so on. The columns add up to the total on the clock, and the last one collects everything past the action day.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "10:00",
+          "frame": "t00600.jpg",
+          "quote": "Each claim lands in one column only — 1d is over 0 and up to 24 weekday hours, 2d is 24 to 48 and so on — so the columns add up to the total on the clock, and the last one collects everything past the action day."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "In the column charts, the solid blue block is an accruing (moving) claim and the light blue block is a stopped claim: banked hours only, frozen in that column until the timer restarts.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "10:00",
+          "frame": "t00600.jpg",
+          "quote": "The solid blue block is accruing and the light blue one is stopped: banked hours only, frozen in that column until the timer restarts."
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "number",
+      "statement": "SA column counts by day: 1d 8, 2d 1, 3d 2, 4d 6, 5d 4, 6d 4 (header 'SA 25 moving · 0 stopped').",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "10:00",
+          "frame": "t00600.jpg",
+          "quote": "SA column labels 8, 1, 2, 6, 4, 4; header 'SA 25 moving · 0 stopped'"
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "number",
+      "statement": "AE · ZA column counts by day: 1d 2, 2d 4 (3 moving and 1 stopped), 3d 2, 4d 2, 5d 1, 6d 1 (header 'AE · ZA 11 moving · 1 stopped').",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "10:03",
+          "frame": "t00603.jpg",
+          "quote": "AE · ZA columns 2, 4, 2, 2, 1, 1; header 'AE · ZA 11 moving · 1 stopped'; 2d tooltip 'Moving 3 · Stopped 1 · On the clock 4'"
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "tip",
+      "statement": "Clicking any column lists its claims with the timer state on each. The header above each chart gives the moving and stopped counts (for example 'SA 25 moving · 0 stopped'), because stopped segments are only a few pixels tall.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "10:00",
+          "frame": "t00600.jpg",
+          "quote": "A handful of stopped claims in a tall column is only a few pixels, so the count is written above each chart and clicking any column lists its claims with the timer state on each."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "example",
+      "statement": "Hovering a column shows its Moving, Stopped and On the clock counts: SA 4d shows Moving 6, Stopped 0, On the clock 6; AE · ZA 6d shows Moving 1, Stopped 0, On the clock 1.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "10:00",
+          "frame": "t00600.jpg",
+          "quote": "Tooltip '4d' — Moving 6, Stopped 0, On the clock 6"
+        },
+        {
+          "kind": "see",
+          "at": "10:08",
+          "frame": "t00608.jpg",
+          "quote": "Tooltip '6d' — Moving 1, Stopped 0, On the clock 1"
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "The chart note says a policy day is 24 weekday hours on the Dubai calendar day, and Saturday and Sunday never accrue in any market.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "10:00",
+          "frame": "t00600.jpg",
+          "quote": "A policy day is 24 weekday hours, on the Dubai calendar day — Saturday and Sunday never accrue, in any market — so a full policy week is about 9 calendar days."
+        }
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The chart axis marks each market's warning days with a warning icon, and the days past its action day as policy applied (red icon).",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "10:00",
+          "frame": "t00600.jpg",
+          "quote": "The axis marks that market's warning days, and the days past its action day as policy applied"
+        }
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "A claim standing on a policy-applied day is one Revibe can act on.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "10:00",
+          "frame": "t00600.jpg",
+          "quote": "a claim standing in one of those is one Revibe can act on."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "SA axis: warning days are 7d and 8d, and policy applied starts at 9d. AE · ZA axis: warning days are 6d and 7d, and policy applied starts at 8d.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "10:00",
+          "frame": "t00600.jpg",
+          "quote": "SA axis: 7d warning, 8d warning, 9d policy applied, >9d policy applied"
+        },
+        {
+          "kind": "see",
+          "at": "10:03",
+          "frame": "t00603.jpg",
+          "quote": "AE · ZA axis: 6d warning, 7d warning, 8d policy applied, >8d policy applied"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Warning days and policy-applied days are read from the config table, so they move if operations move a threshold.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "10:00",
+          "frame": "t00600.jpg",
+          "quote": "Both are read from the config table, so they move if ops move a threshold."
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The policy's timers began on 03 Sep 2026 and nothing was backfilled, so columns past the clock's current age are not reachable yet rather than genuinely empty.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "10:00",
+          "frame": "t00600.jpg",
+          "quote": "The policy's timers began on 03 Sep 2026 and nothing was backfilled, so the clock is only 5.7 policy days old: the columns past that are not reachable yet rather than genuinely empty."
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The Open claims list shows every claim still not solved, longest open first ('the queue rather than a window'). Header count at capture: 147 still open.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "10:08",
+          "frame": "t00608.jpg",
+          "quote": "Open claims 147 still open. 'Every claim of yours that is still not solved, longest open first — the queue rather than a window.'"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Cancelled claims and invalid claims are not counted in Open claims.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "10:08",
+          "frame": "t00608.jpg",
+          "quote": "Cancelled claims are not here, and neither are invalid ones: both left the count entirely."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "Open claims that show a finished stage with no resolution date recorded still count as open, and they are usually what holds a coverage figure below 100%. At capture, 7 open claims were in this state.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "10:08",
+          "frame": "t00608.jpg",
+          "quote": "7 of these show a finished stage with no resolution date recorded, marked below — they still count as open, and they are usually what holds a coverage figure below 100%."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The Open claims table columns are CLAIM, ORDER, TYPE (Warranty or Return badge), REPORTED ISSUE, CLAIMED, DAYS OPEN and STAGE.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "10:08",
+          "frame": "t00608.jpg",
+          "quote": "Table headers: CLAIM, ORDER, TYPE, REPORTED ISSUE, CLAIMED, DAYS OPEN, STAGE"
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "example",
+      "statement": "Example open-claim rows at capture: EzBS80 / 73015-1 / Warranty / Screen issue / claimed 9 Dec / 276 days open / stage Delivered; 4lFzRp / ZA-38975-1 / Return / Software issue / 17 Mar / 178 / 7. Refunded; Hef94L / ZA-40520-1 / Return / Battery draining / 21 Mar / 174 / 7. Refunded. The letters in the first two IDs are hard to read on screen, so do not copy them from this fact.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "10:08",
+          "frame": "t00608.jpg",
+          "quote": "EzBS80 | 73015-1 | Warranty | Screen issue | 9 Dec | 276 | Delivered; 4lFzRp | ZA-38975-1 | Return | Software issue | 17 Mar | 178 | 7. Refunded; Hef94L | ZA-40520-1 | Return | Battery draining | 21 Mar | 174 | 7. Refunded"
+        }
+      ],
+      "confidence": "low",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The side drawer opened from a column is titled with the column (for example '6d on the clock'), shows the market group and claim count (for example 'AE · ZA · warning · 1 claim'), and has columns CLAIM, MARKET, DAYS ON CLOCK, TIMER and STAGE. The example row is PKJP333 / AE / 5.3d / Moving / Under QC.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "10:21",
+          "frame": "t00621.jpg",
+          "quote": "Drawer '6d on the clock', 'AE · ZA · warning · 1 claim'; row PKJP333 · AE · 5.3d · Moving · Under QC"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The side drawer footnote reads: 'Days are policy days — 24 weekday hours each, Saturdays and Sundays never accrue.' A stopped timer means the hours are banked and the claim is frozen in this column until it restarts.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "10:24",
+          "frame": "t00624.jpg",
+          "quote": "Days are policy days — 24 weekday hours each, Saturdays and Sundays never accrue. Stopped means the timer is not running: the hours are banked and the claim is frozen in this column until it restarts."
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "To find a claim that needs attention: click a day column in a market chart. The side drawer lists that column's claims with claim ID, market, days on clock, timer (moving or stopped) and current stage.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "10:12",
+          "quote": "When you click on it, this panel is appearing here showing to you the claim ID, the market,"
+        },
+        {
+          "kind": "say",
+          "at": "10:18",
+          "quote": "number of days on the clock,"
+        },
+        {
+          "kind": "say",
+          "at": "10:21",
+          "quote": "timer, if it's moving {or?} not and the current stage {so?} that you can just pick up your"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Copy the claim ID from the side drawer and paste it into the orders app to solve the claim quickly.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "10:26",
+          "quote": "claim and copy paste it in the orders app in order to solve it quickly."
+        },
+        {
+          "kind": "see",
+          "at": "10:26",
+          "frame": "t00626.jpg",
+          "quote": "Claim ID PKJP333 highlighted in the drawer"
+        }
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Questions about the new policy go to the seller's key account manager, who can give additional details and support.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "10:37",
+          "quote": "If you have any question you can directly reach out to your key account manager that is here"
+        },
+        {
+          "kind": "say",
+          "at": "10:43",
+          "quote": "to help you, support you and give you additional details if you need about this new policy that"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "tip",
+      "statement": "The trainer says the policy is meant to help sellers manage claims better and prioritise the claims they have to treat, which he expects to give higher satisfaction to customers.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "10:50",
+          "quote": "we believe will {you?} better manage your claims,"
+        },
+        {
+          "kind": "say",
+          "at": "10:54",
+          "quote": "better prioritize also the claims that you have to treat and in the long run give higher satisfaction"
+        }
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Refund policy and Open claims are two sections (index links) on the Seller Performance page, under the Claims management tab.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "09:42",
+          "frame": "t00582.jpg",
+          "quote": "INDEX: Refund policy, Open claims; top tabs Performance, Score, Score analysis, Claims management, Price recommendations"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The timeline for all markets other than SA is shown in a second row labelled 'all but SA', and the SA row is shown above it.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "09:42",
+          "frame": "t00582.jpg",
+          "quote": "Rows labelled 'SA' and 'all but SA' with flag icons"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Stage labels on the timeline, 17 in total, in order: Form received, Pending collection, Under collection, Collection failed, In transit, Under QC, Invalid claim, Under revision, Send to LAB, Pending LAB collection, In transit to LAB, LAB Under QC, Invalid claim confirmed, To ship back, Ship back under collection, Shipped back, Ready for refund. The label 'Ship back under collection' is cut off in the frame.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "09:42",
+          "frame": "t00582.jpg",
+          "quote": "Stage labels across the timeline, 17 in total, from 'Form received' to 'Ready for refund'; 'Ship back under collectio' truncated"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    }
+  ],
+  "screens": [
+    {
+      "name": "Seller Performance page, Claims management tab",
+      "shows": "Header 'Seller Performance', seller 'ABC Seller', tags Buybox open / Pepe / WhatsApp / Meeting; last meeting 09/06 (94 days ago) → Pricing and logistics review; top tabs Performance, Score, Score analysis, Claims management, Price recommendations; index links Refund policy and Open claims; URL 127.0.0.1:8099/plans/seller-abc.html?tab=claims",
+      "at": "09:42",
+      "where": "Browser tab 'Revibe · Seller Performance'"
+    },
+    {
+      "name": "Refund policy methodology and stage timeline",
+      "shows": "Methodology text; SA row and 'all but SA' row of stage markers; legend Revibe (clock stopped, light blue) and Seller (clock running, dark blue); hover tooltips per stage",
+      "at": "09:42",
+      "where": "Claims management tab, Refund policy section, top of section"
+    },
+    {
+      "name": "Refund policy totals",
+      "shows": "Three cards: On the clock 37 (open returns with a seller timer), Moving 36 (97% of the clock), Stopped 1 (3% of the clock)",
+      "at": "09:42",
+      "where": "Below the timeline"
+    },
+    {
+      "name": "Market column charts (SA and AE · ZA)",
+      "shows": "Columns 1d to >9d for SA (warning at 7d and 8d, policy applied from 9d) and 1d to >8d for AE · ZA (warning at 6d and 7d, policy applied from 8d); count written above each chart; hover tooltip with Moving, Stopped, On the clock",
+      "at": "10:00",
+      "where": "Refund policy section, below the totals"
+    },
+    {
+      "name": "Side drawer '6d on the clock'",
+      "shows": "Opens from a clicked column; header with market group and claim count; table CLAIM, MARKET, DAYS ON CLOCK, TIMER, STAGE; footnote on policy days and stopped timers; close x at top right",
+      "at": "10:12",
+      "where": "Right-hand drawer over the Seller Performance page"
+    },
+    {
+      "name": "Open claims table",
+      "shows": "Header 'Open claims 147 still open'; explanatory text; table CLAIM, ORDER, TYPE, REPORTED ISSUE, CLAIMED, DAYS OPEN, STAGE",
+      "at": "10:08",
+      "where": "Below the Refund policy section"
+    },
+    {
+      "name": "Title slide 'Returns Refund Policy'",
+      "shows": "Title 'Returns Refund Policy', footer 'Revibe · Seller communication', trainer webcam bubble",
+      "at": "10:34",
+      "where": "Presentation slide that ends the video (shown again at 10:54 and 11:10)"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Policy day",
+      "meaning": "Methodology text says 24 working hours, counting only the seller's hours. The chart note and drawer footnote say 24 weekday hours on the Dubai calendar day. Saturdays and Sundays never accrue.",
+      "at": "09:42"
+    },
+    {
+      "term": "The clock / on the clock",
+      "meaning": "The accumulated sum of working hours a claim spends in seller-owned stages. 'On the clock' counts open returns that have a seller timer.",
+      "at": "09:42"
+    },
+    {
+      "term": "Moving (timer)",
+      "meaning": "The timer is running: hours accrue on the clock (solid blue block).",
+      "at": "10:00"
+    },
+    {
+      "term": "Stopped (timer)",
+      "meaning": "The timer is not running: hours are banked and the claim is frozen in its column until the timer restarts (light blue block).",
+      "at": "10:00"
+    },
+    {
+      "term": "Seller-owned stage / Revibe-owned stage",
+      "meaning": "Seller-owned stages run the clock (dark blue). Revibe-owned stages stop it (light blue). Which stages are seller-owned differs by market.",
+      "at": "09:42"
+    },
+    {
+      "term": "Warning day",
+      "meaning": "A day on a market's axis marked with a warning icon. The screen does not define it further.",
+      "at": "10:00"
+    },
+    {
+      "term": "Policy applied",
+      "meaning": "Days past the market's action day, marked in red. A claim standing in one of these is one Revibe can act on.",
+      "at": "10:00"
+    },
+    {
+      "term": "Action day",
+      "meaning": "Used on screen as the threshold after which days are marked policy applied. The material gives no further definition.",
+      "at": "10:00"
+    },
+    {
+      "term": "Coverage figure",
+      "meaning": "Used on screen without definition. Open claims with a finished stage and no resolution date are usually what holds it below 100%.",
+      "at": "10:08"
+    },
+    {
+      "term": "Claim",
+      "meaning": "Shown on screen as a claim with a claim ID, order, type (Warranty or Return), reported issue, claimed date, days open and stage. Each claim is counted in one column of the market charts.",
+      "at": "10:00"
+    },
+    {
+      "term": "Market (SA, AE, ZA, all but SA)",
+      "meaning": "Markets are grouped on the charts as SA and AE · ZA. The timeline compares SA with all other markets.",
+      "at": "09:42"
+    },
+    {
+      "term": "Orders app",
+      "meaning": "Named by the trainer as the place to paste a claim ID to solve the claim. It is not shown on screen.",
+      "at": "10:26"
+    },
+    {
+      "term": "Key account manager (KAM)",
+      "meaning": "The seller's contact for questions about this policy, who gives additional details and support.",
+      "at": "10:37"
+    }
+  ],
+  "asr_fixes": [
+    {
+      "at": "09:59",
+      "heard": "the number of orders that you have",
+      "correct": "the number of claims that you have",
+      "basis": "Screen shows claims: the charts say 'Each claim lands in one column only', and the totals and lists are about claims on the clock, moving and stopped."
+    },
+    {
+      "at": "10:09",
+      "heard": "a new ANZA is quite late",
+      "correct": "a new AE · ZA claim is quite late",
+      "basis": "Screen shows the market group 'AE · ZA' on the 6d chart tooltip and in the side drawer header 'AE · ZA · warning · 1 claim'."
+    }
+  ],
+  "unclear": [
+    {
+      "at": "09:42",
+      "issue": "Policy-day base conflicts on screen. The methodology says '24 working hours, and only the seller's hours count'. The chart note and drawer footnote say '24 weekday hours'. Keep both as stated, and a KAM should check the exact definition before quoting it."
+    },
+    {
+      "at": "10:00",
+      "issue": "The meaning of '7 / 9' and '6 / 8' is not labelled on screen. The charts suggest warning and policy-applied days (SA warning 7d and 8d, policy from 9d; AE · ZA warning 6d and 7d, policy from 8d), but the text never says which number is which."
+    },
+    {
+      "at": "09:44",
+      "issue": "Which stage each timeline tooltip belongs to is inferred from label position only. The tooltips do not name the stage, and they hide part of the labels."
+    },
+    {
+      "at": "09:42",
+      "issue": "Timeline bar segments do not map cleanly to individual stage labels in the frames. Seller or Revibe ownership is not assigned per stage here. Which stages are seller-owned outside SA is not spelled out."
+    },
+    {
+      "at": "09:42",
+      "issue": "The stage label 'Ship back under collection' is cut off in the frame ('Ship back under collectio'), so the full wording is not confirmed on screen."
+    },
+    {
+      "at": "10:26",
+      "issue": "The 'orders app' is named by the trainer but not shown on screen. Which application this is cannot be confirmed from the video."
+    },
+    {
+      "at": "10:50",
+      "issue": "The phrase 'that we believe will {you?} better manage your claims' has an unverified word. No slide text covers it."
+    },
+    {
+      "at": "10:13",
+      "issue": "Claim ID letters are ambiguous in the screenshot: '4lFzRp' could be 4IFzRp, and 'EzBS80' could use an O or a 0. Do not copy these IDs from the video."
+    },
+    {
+      "at": "10:21",
+      "issue": "Narration words marked {or?} and {so?} in 'if it's moving {or?} not and the current stage {so?}' are low-confidence. The drawer confirms the timer and stage columns exist."
+    },
+    {
+      "at": "10:00",
+      "issue": "The timers are said to have begun on 03 Sep 2026, yet the clock is said to be only 5.7 policy days old. No capture date is shown on screen, so the age cannot be checked."
+    }
+  ],
+  "outdated": [
+    {
+      "at": "09:42",
+      "signal": "Snapshot totals: On the clock 37, Moving 36, Stopped 1, and Open claims 147 still open are for one seller at capture time."
+    },
+    {
+      "at": "09:42",
+      "signal": "'Last meeting 09/06 (94 days ago)' is a snapshot and will change."
+    },
+    {
+      "at": "10:00",
+      "signal": "'the clock is only 5.7 policy days old' is a snapshot of when the timers began (03 Sep 2026). It will change."
+    },
+    {
+      "at": "10:00",
+      "signal": "The chart note says the warning and policy-applied thresholds 'move if ops move a threshold' and are read from the config table. Values such as SA 7 / 9 and others 6 / 8 may change."
+    },
+    {
+      "at": "10:37",
+      "signal": "Narration calls this 'this new policy'. The wording will be out of date once the policy is no longer new."
+    }
+  ],
+  "privacy": [],
+  "audit": {
+    "checked": 83,
+    "removed": [],
+    "corrected": [
+      {
+        "before": "Step 09:42: 'The trainer points at the timeline.'",
+        "after": "The cursor rests on the methodology text near '6 / 8'.",
+        "reason": "No pointing is visible in t00582. The cursor is on the methodology text."
+      },
+      {
+        "before": "Step 09:47: stage is 'the bar around the In transit / Under QC labels'.",
+        "after": "Hovers a stage bar near the 'In transit' label; the stage name is inferred because the tooltip hides part of the labels.",
+        "reason": "t00587 shows the cursor near the In transit label. Under QC is not clearly the target."
+      },
+      {
+        "before": "Step 10:21 evidence t00621: 'Stage column cut off at the right edge'.",
+        "after": "t00621: Stage column visible with 'Under QC' in the row. The cut-off stage column is in t00624 (only 'Un' visible).",
+        "reason": "The frames were mixed up. t00621 shows the full stage value and t00624 shows it cut off."
+      },
+      {
+        "before": "Step 10:21 evidence t00624: 'Row PKJP333 · AE · 5.3d · Moving · Under QC'.",
+        "after": "t00624: 'Row PKJP333 · AE · 5.3d · Moving; Stage column cut off at the right edge, only Un visible'.",
+        "reason": "Under QC is not legible in t00624. It is legible in t00621."
+      },
+      {
+        "before": "Step 10:21 why: 'So that you can just pick up your claim (the trainer's words; the rest of the sentence is cut off in the transcript)'.",
+        "after": "The trainer says the timer and stage let you 'just pick up your claim', read across the 10:21 line and the 10:26 line that begins 'claim and copy paste it'.",
+        "reason": "The 'claim' word is not in the 10:21 line. It comes from the next line, so the reason needs both lines."
+      },
+      {
+        "before": "Step 10:26: 'Selects (highlights) the claim ID PKJP333 and closes the drawer.'",
+        "after": "Selects (highlights) the claim ID PKJP333 and moves the cursor to the close (x) button. The drawer is still open in this frame.",
+        "reason": "t00626 shows the drawer still open with the cursor on the close button. Closing is not shown."
+      },
+      {
+        "before": "Fact: Open claims table columns cited to t00613.",
+        "after": "Cited to t00608, where the table is visible.",
+        "reason": "t00613 shows the side drawer over the table. The column headers are visible in t00608."
+      },
+      {
+        "before": "Fact: Example open-claim rows cited to t00613.",
+        "after": "Cited to t00608. Confidence set to low because the letters in EzBS80 and 4lFzRp are ambiguous, and the fact warns not to copy them.",
+        "reason": "The rows are visible in t00608. The drawer covers them in t00613."
+      },
+      {
+        "before": "Fact: drawer example cited only to t00621 for the Under QC stage, with the statement 'The example row is PKJP333 / AE / 5.3d / Moving / Under QC'.",
+        "after": "Kept, cited to t00621, which shows Under QC.",
+        "reason": "Confirmed on screen in t00621. Under QC is not legible in t00624, so the citation is set to the frame that shows it."
+      },
+      {
+        "before": "Fact: stopped definition cited as 'Stopped means the timer is not running...' to t00624.",
+        "after": "Kept. Evidence now quotes the full footnote 'Days are policy days — 24 weekday hours each, Saturdays and Sundays never accrue. Stopped means ...'.",
+        "reason": "The footnote text is fully visible in t00624 and matches the statement."
+      },
+      {
+        "before": "Fact: 'Policy day' rule as '24 working hours' with quiz true.",
+        "after": "Restated as the methodology text says it, with quiz set to false.",
+        "reason": "The screen conflicts with the chart note (24 weekday hours). A conflicting definition should not be quizzed."
+      },
+      {
+        "before": "Fact: 'A policy day is 24 weekday hours on the Dubai calendar day ...' with a quote that drops the comma and dash.",
+        "after": "Quote corrected to 'A policy day is 24 weekday hours, on the Dubai calendar day — Saturday and Sunday never accrue, in any market — so a full policy week is about 9 calendar days.'",
+        "reason": "Exact wording from t00600."
+      },
+      {
+        "before": "Fact: 'The count of stopped claims is written above each chart because stopped columns are only a few pixels tall.'",
+        "after": "The header above each chart gives the moving and stopped counts (for example 'SA 25 moving · 0 stopped'), because stopped segments are only a few pixels tall.",
+        "reason": "The header is the count the screen shows above each chart. The frame does not say it is the stopped count alone."
+      },
+      {
+        "before": "Fact: 'The Refund policy section shows three totals ... Moving (share of the clock accruing weekday hours)'.",
+        "after": "Moving (97% of the clock, accruing weekday hours) and Stopped (3% of the clock, banked and frozen until it restarts).",
+        "reason": "Uses the screen's wording with its percentages, which were dropped from the statement."
+      },
+      {
+        "before": "Term 'Claim': 'A seller item with a claim ID, ...'.",
+        "after": "'Shown on screen as a claim with a claim ID, order, type ...'.",
+        "reason": "'Seller item' is not on screen, so it was removed as an inference."
+      },
+      {
+        "before": "Fact: the tip on satisfaction said 'giving higher satisfaction to customers'.",
+        "after": "'which he expects to give higher satisfaction to customers'.",
+        "reason": "Keeps the trainer's expectation wording. The claim is his belief, not a fact."
+      },
+      {
+        "before": "Fact: stage order list ended at 'Ready for refund' with no note.",
+        "after": "Adds that the 'Ship back under collection' label is cut off in t00582.",
+        "reason": "The label is truncated in the frame."
+      }
+    ],
+    "added": [
+      "Step 10:54 (t00654): title slide still on screen while the trainer talks about priorities and customer satisfaction. Say evidence 10:54.",
+      "Step 11:10 (t00670): closing thank-you line on the title slide. Say evidence 11:10 'Thank you so much for watching this video.'",
+      "Fact (screen, t00624): the drawer footnote 'Days are policy days — 24 weekday hours each, Saturdays and Sundays never accrue.' This is the on-screen text behind the policy-day conflict.",
+      "Unclear (10:00): the timers began 03 Sep 2026 but the clock is 5.7 policy days old. No capture date is on screen.",
+      "Outdated (09:42): 'Last meeting 09/06 (94 days ago)' is a snapshot.",
+      "Screen text (09:42 and 10:00): stage tooltips and chart text were checked against t00582, t00587, t00596, t00600, t00603 and t00608. Frame list is complete at 13 of 13."
+    ]
+  }
+}

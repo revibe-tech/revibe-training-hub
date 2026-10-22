@@ -1,0 +1,680 @@
+{
+  "summary": "Part 1 of the 1.1 Seller Onboarding video (00:00 to 06:24). Pierre introduces Revibe on three slide screens (the 'Welcome to Revibe' title slide, the 'Revibe presentation' slide and the 'Onboarding process' slides), then opens the Seller Onboarding App (AppSheet, in Google Chrome) and fills in the New Slice Form for the seller profile, using the Revibe Dubai office address as the example. The last frame (06:20, t00380) shows the platforms question still empty; the form is not saved on screen in this part.",
+  "steps": [
+    {
+      "at": "00:00-00:13",
+      "screen": "Slide deck: Welcome to Revibe (title slide)",
+      "action": "Trainer introduces himself on the title slide.",
+      "evidence": [
+        {"kind": "say", "at": "00:00", "quote": "Hi, my name is Pierre, and welcome to Revibe.", "frame": ""},
+        {"kind": "see", "at": "00:00", "frame": "t00000.jpg", "quote": "Title slide 'Welcome to REVIBE', page number 1, narrator webcam overlay bottom left"}
+      ],
+      "says": "Hi, my name is Pierre, and welcome to Revibe.",
+      "why": ""
+    },
+    {
+      "at": "00:01-00:13",
+      "screen": "Slide deck: Welcome to Revibe (title slide, still on screen)",
+      "action": "Says the video explains how to get onboarded as a seller, and that he will first say more about Revibe.",
+      "evidence": [
+        {"kind": "say", "at": "00:03", "quote": "In this video, I will explain you how to get onboarded as a seller in Revibe.", "frame": ""},
+        {"kind": "see", "at": "00:01", "frame": "t00001.jpg", "quote": "Title slide 'Welcome to REVIBE' with narrator webcam overlay; no other content"}
+      ],
+      "says": "In this video, I will explain you how to get onboarded as a seller in Revibe.",
+      "why": ""
+    },
+    {
+      "at": "00:13-01:42",
+      "screen": "Slide deck: Revibe presentation (slide 2, six rows)",
+      "action": "Narrates the six rows of slide 2 while the slide stays on screen (the same slide is shown from 00:22 to 01:42).",
+      "evidence": [
+        {"kind": "say", "at": "00:13", "quote": "Revibe is a marketplace where our goal is to connect sellers, you, and customers {and?} try to offer", "frame": ""},
+        {"kind": "see", "at": "00:22", "frame": "t00022.jpg", "quote": "Slide 2 'Revibe presentation' with six rows: Marketplace; 3 countries; 12k monthly orders; Transparent & short payment cycle; 6 months warranty; Complete tech ecosystem"}
+      ],
+      "says": "Revibe is a marketplace where our goal is to connect sellers, you, and customers",
+      "why": ""
+    },
+    {
+      "at": "01:42-04:20",
+      "screen": "Slide deck: Onboarding process (slides 3 to 6)",
+      "action": "Narrates the four onboarding stages and moves through the slides with the forward control in the slideshow toolbar.",
+      "evidence": [
+        {"kind": "say", "at": "01:51", "quote": "The onboarding process is a four-step process.", "frame": ""},
+        {"kind": "see", "at": "02:11", "frame": "t00131.jpg", "quote": "Slide 3 'Onboarding process' with step 1 Profile screening highlighted and its bullets"},
+        {"kind": "see", "at": "04:20", "frame": "t00260.jpg", "quote": "Slide 6 Full onboarding; cursor on the slideshow forward arrow in the bottom toolbar"}
+      ],
+      "says": "The onboarding process is a four-step process.",
+      "why": ""
+    },
+    {
+      "at": "04:20-04:27",
+      "screen": "Slide deck: Onboarding process (slide 7)",
+      "action": "Says he will now present the profile step in the app. Slide 7 is on screen with step 1 highlighted, then the view changes to the Seller Onboarding App.",
+      "evidence": [
+        {"kind": "say", "at": "04:21", "quote": "the profile {which?} is the topic of the app i will right now present to you welcome to", "frame": ""},
+        {"kind": "see", "at": "04:26", "frame": "t00266.jpg", "quote": "Slide 7 'Onboarding process' with step 1 Profile screening highlighted"}
+      ],
+      "says": "the profile {which?} is the topic of the app i will right now present to you welcome to",
+      "why": ""
+    },
+    {
+      "at": "04:27-04:45",
+      "screen": "Chrome: Seller Onboarding App (AppSheet) welcome dialog",
+      "action": "Explains the welcome dialog: the app is for sellers who want to join Revibe as official partners, and one-time sellers should use the sell.revibe.me link.",
+      "evidence": [
+        {"kind": "say", "at": "04:27", "quote": "the onboarding app of {revive?} here we immediately precise to you that this app {this?} app is for", "frame": ""},
+        {"kind": "say", "at": "04:34", "quote": "sellers who want to join revive as official partner we welcome you if you are a shop a", "frame": ""},
+        {"kind": "see", "at": "04:34", "frame": "t00270.jpg", "quote": "Dialog 'This app is for sellers who want to join Revibe as official partners' ... 'If you're only looking to sell a few items as a one-time sale, please use: https://sell.revibe.me/' with Done button"}
+      ],
+      "says": "sellers who want to join revive as official partner",
+      "why": ""
+    },
+    {
+      "at": "04:45-04:52",
+      "screen": "Chrome: Seller Onboarding App welcome dialog",
+      "action": "Points at the sell.revibe.me link in the dialog. The trainer says to click Done; the click itself is not captured, and the dialog is gone by 04:51.",
+      "evidence": [
+        {"kind": "say", "at": "04:45", "quote": "only looking to sell few items please use this link you can click on done and here you", "frame": ""},
+        {"kind": "see", "at": "04:49", "frame": "t00289.jpg", "quote": "Cursor on the link 'https://sell.revibe.me/' inside the dialog; Done button visible at bottom"},
+        {"kind": "see", "at": "04:51", "frame": "t00291.jpg", "quote": "Video Detail page with no dialog open"}
+      ],
+      "says": "please use this link you can click on done",
+      "why": ""
+    },
+    {
+      "at": "04:52-04:59",
+      "screen": "Video Detail page: Introduction video",
+      "action": "Shows the Introduction video player (0:00 / 3:22) and the blue Ok button at top right. The trainer says the video can be watched and then to click Ok; the Ok click itself is not captured, and the form is open by 04:59.",
+      "evidence": [
+        {"kind": "say", "at": "04:52", "quote": "can watch the small video that I'm presenting to you once this is done click on ok immediately", "frame": ""},
+        {"kind": "see", "at": "04:51", "frame": "t00291.jpg", "quote": "Video Detail page with Introduction video player showing 0:00 / 3:22; blue Ok button at top right"}
+      ],
+      "says": "click on ok immediately",
+      "why": ""
+    },
+    {
+      "at": "04:59-05:11",
+      "screen": "Form: New Slice Form (side panel)",
+      "action": "The form opens with an intro text, and the email field is already filled in (greyed). The trainer says he will enter his details as the example.",
+      "evidence": [
+        {"kind": "say", "at": "04:59", "quote": "you will get access to the form where you will be able to input all the details related", "frame": ""},
+        {"kind": "say", "at": "05:11", "quote": "Your email address is automatically inputted.", "frame": ""},
+        {"kind": "see", "at": "05:04", "frame": "t00299.jpg", "quote": "New Slice Form: intro text 'Welcome to Revibe ! Please fill the form below to start the onboarding process'; First name*, Last name*, Email* (pre-filled, greyed), Company name*, Country*, Phone*"}
+      ],
+      "says": "Your email address is automatically inputted.",
+      "why": ""
+    },
+    {
+      "at": "05:14-05:18",
+      "screen": "Form: Company name field",
+      "action": "Types the company name. The field shows 'R' at 05:15 and 'Revibe' at 05:18.",
+      "evidence": [
+        {"kind": "say", "at": "05:14", "quote": "My company is Revive.", "frame": ""},
+        {"kind": "see", "at": "05:15", "frame": "t00315.jpg", "quote": "Company name field shows 'R' being typed"},
+        {"kind": "see", "at": "05:18", "frame": "t00318.jpg", "quote": "Company name field shows 'Revibe'"}
+      ],
+      "says": "My company is Revive.",
+      "why": ""
+    },
+    {
+      "at": "05:17-05:19",
+      "screen": "Form: Country dropdown",
+      "action": "Opens the Country dropdown (options: United Arab Emirates, Saudi Arabia, South Africa, Other) with the cursor on United Arab Emirates, and says he is in the UAE. The selected value is not visible in these frames.",
+      "evidence": [
+        {"kind": "say", "at": "05:17", "quote": "I am in the United Arab Emirates.", "frame": ""},
+        {"kind": "see", "at": "05:18", "frame": "t00318.jpg", "quote": "Country dropdown open with options: United Arab Emirates, Saudi Arabia, South Africa, Other"}
+      ],
+      "says": "I am in the United Arab Emirates.",
+      "why": ""
+    },
+    {
+      "at": "05:19-05:22",
+      "screen": "Form: Phone field",
+      "action": "Says to put the phone number precisely. The field shows only the + prefix; no number is entered on screen.",
+      "evidence": [
+        {"kind": "say", "at": "05:19", "quote": "Here you put your phone number precisely.", "frame": ""},
+        {"kind": "see", "at": "05:18", "frame": "t00318.jpg", "quote": "Phone* field with only '+' entered"}
+      ],
+      "says": "Here you put your phone number precisely.",
+      "why": ""
+    },
+    {
+      "at": "05:25-05:32",
+      "screen": "Form: exact address field",
+      "action": "Says the field is the address the seller ships orders from, then clicks into the address field (focused and empty at 05:31).",
+      "evidence": [
+        {"kind": "say", "at": "05:25", "quote": "And here share your exact address from where you will be able to ship your orders.", "frame": ""},
+        {"kind": "see", "at": "05:26", "frame": "t00326.jpg", "quote": "Address field focused and empty, with a small 'Dubai' tooltip above it"},
+        {"kind": "see", "at": "05:31", "frame": "t00331.jpg", "quote": "Empty focused field 'Please share the exact adress from where you will ship orders*'"}
+      ],
+      "says": "This is very important for a smooth integration.",
+      "why": "Trainer's stated reason: smooth integration."
+    },
+    {
+      "at": "05:35-05:52",
+      "screen": "Form: exact address field",
+      "action": "Types the example address 'Office 103 - Ontario Tower - Business Bay - Dubai', which the trainer says is the Revibe office. Autocomplete offers 'Ontario Tower - Business Bay - Dubai - Émirats arabes unis' at 05:52.",
+      "evidence": [
+        {"kind": "say", "at": "05:35", "quote": "So let me mention for instance the address of Revive.", "frame": ""},
+        {"kind": "say", "at": "05:38", "quote": "we are in the office 103 in ontario tower we are in business bay in dubai and now", "frame": ""},
+        {"kind": "see", "at": "05:43", "frame": "t00343.jpg", "quote": "Address field shows 'Office 103 - Ontario'"},
+        {"kind": "see", "at": "05:52", "frame": "t00352.jpg", "quote": "Address field shows 'Office 103 - Ontario Tower - Business Bay - Dubai' with autocomplete suggestion 'Ontario Tower - Business Bay - Dubai - Émirats arabes unis'"}
+      ],
+      "says": "So let me mention for instance the address of Revive.",
+      "why": ""
+    },
+    {
+      "at": "05:51-06:01",
+      "screen": "Chrome tab: Ontario Tower - Google Maps, Share dialog",
+      "action": "Switches to the Google Maps tab for Ontario Tower and opens Share (Partager). At 05:57 the link is marked as copied; at 06:01 the dialog shows the COPIER LE LIEN button.",
+      "evidence": [
+        {"kind": "say", "at": "05:51", "quote": "also mention precisely the link of this address so here is the ontario tower in dubai you can", "frame": ""},
+        {"kind": "see", "at": "05:57", "frame": "t00357.jpg", "quote": "Google Maps 'Partager' dialog, 'Lien à partager' showing https://maps.app.goo.gl/rx...; text COPIÉ DANS LE PRESSE-PAPIERS visible on the link"},
+        {"kind": "see", "at": "06:01", "frame": "t00361.jpg", "quote": "Partager dialog with link field and COPIER LE LIEN button"}
+      ],
+      "says": "also mention precisely the link of this address so here is the ontario tower in dubai you can",
+      "why": ""
+    },
+    {
+      "at": "06:01-06:07",
+      "screen": "Form: Google Maps location field",
+      "action": "Says to copy the link and put it in the field below the address. The field shows the placeholder at 06:04 and the pasted link at 06:07. The paste itself is not captured.",
+      "evidence": [
+        {"kind": "say", "at": "06:01", "quote": "click here {on?} share, copy the link and put it just below here.", "frame": ""},
+        {"kind": "see", "at": "06:04", "frame": "t00364.jpg", "quote": "Google map location field showing placeholder 'https://www.google.com/maps/'"},
+        {"kind": "see", "at": "06:07", "frame": "t00367.jpg", "quote": "Google map location field now shows 'https://maps.app.goo.gl/rxHUmsEkHbiDbL298'"}
+      ],
+      "says": "click here {on?} share, copy the link and put it just below here.",
+      "why": ""
+    },
+    {
+      "at": "06:07-06:14",
+      "screen": "Form: What kind of products do you sell? (multi-select)",
+      "action": "Opens the products list (Select all, iPhones, Smartphones, MacBooks, Laptops, Tablets, Smart watches) and selects iPhones and Smartphones as the example (chips visible at 06:14).",
+      "evidence": [
+        {"kind": "say", "at": "06:08", "quote": "What kind of products do you sell?", "frame": ""},
+        {"kind": "say", "at": "06:10", "quote": "Let's say you're selling iPhones and smartphones.", "frame": ""},
+        {"kind": "see", "at": "06:09", "frame": "t00369.jpg", "quote": "Products list open: Select all, iPhones, Smartphones, MacBooks, Laptops, Tablets, Smart watches (checkboxes, none selected)"},
+        {"kind": "see", "at": "06:14", "frame": "t00374.jpg", "quote": "Selected chips: iPhones, Smartphones"}
+      ],
+      "says": "Let's say you're selling iPhones and smartphones.",
+      "why": ""
+    },
+    {
+      "at": "06:12-06:17",
+      "screen": "Form: Are you a wholeseller (B2B)? Yes / No",
+      "action": "Asks the B2B question and selects Yes as the example.",
+      "evidence": [
+        {"kind": "say", "at": "06:12", "quote": "Are you a wholesaler B2B?", "frame": ""},
+        {"kind": "say", "at": "06:17", "quote": "Let's say yes.", "frame": ""},
+        {"kind": "see", "at": "06:17", "frame": "t00377.jpg", "quote": "'Are you a wholeseller (B2B)?' with Yes highlighted in blue"}
+      ],
+      "says": "Let's say yes.",
+      "why": ""
+    },
+    {
+      "at": "06:17-06:20",
+      "screen": "Form: Do you sell online? Yes / No",
+      "action": "Selects Yes for Do you sell online?; a new 'On which platforms ?' field appears.",
+      "evidence": [
+        {"kind": "say", "at": "06:17", "quote": "Do you sell online?", "frame": ""},
+        {"kind": "say", "at": "06:19", "quote": "Yes, let's put yes.", "frame": ""},
+        {"kind": "see", "at": "06:20", "frame": "t00380.jpg", "quote": "'Do you sell online ?' Yes highlighted; new field 'On which platforms ?*' shown empty"}
+      ],
+      "says": "Yes, let's put yes.",
+      "why": ""
+    },
+    {
+      "at": "06:20-06:24",
+      "screen": "Form: On which platforms ? (new field)",
+      "action": "Starts the platforms question and says he will use Amazon as the example. The field is still empty in the last frame (t00380, 06:20).",
+      "evidence": [
+        {"kind": "say", "at": "06:20", "quote": "On which platform let's say that you're selling on Amazon?", "frame": ""},
+        {"kind": "see", "at": "06:20", "frame": "t00380.jpg", "quote": "'On which platforms ?*' field empty"}
+      ],
+      "says": "On which platform let's say that you're selling on Amazon?",
+      "why": ""
+    }
+  ],
+  "facts": [
+    {
+      "type": "definition",
+      "statement": "Revibe is a marketplace that connects sellers and customers to offer customers the best price at the best quality with a unified catalog.",
+      "evidence": [
+        {"kind": "say", "at": "00:13", "quote": "Revibe is a marketplace where our goal is to connect sellers, you, and customers {and?} try to offer", "frame": ""},
+        {"kind": "see", "at": "00:22", "frame": "t00022.jpg", "quote": "Row 'Marketplace': We connect sellers and customers and try to offer them the best price at the best quality with a unified catalog"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "policy",
+      "statement": "Revibe currently operates in three countries: UAE and South Africa, where Revibe manages shipment for the seller; and Saudi Arabia (KSA), where the seller manages shipment.",
+      "evidence": [
+        {"kind": "say", "at": "00:25", "quote": "We currently operate in three countries, UAE and South Africa where we manage the shipment for you and", "frame": ""},
+        {"kind": "say", "at": "00:32", "quote": "Saudi Arabia where you have to manage the shipment yourself.", "frame": ""},
+        {"kind": "see", "at": "00:22", "frame": "t00022.jpg", "quote": "Row '3 countries': Operations in UAE and South Africa (shipment supported by Revibe) and KSA (shipment supported by seller)"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "At the time of recording, Revibe received more than 12,000 orders per month, after two years on the market, and grows 25% each month on average.",
+      "evidence": [
+        {"kind": "say", "at": "00:36", "quote": "At the moment, we receive more than 12,000 orders on a monthly basis after only two years", "frame": ""},
+        {"kind": "say", "at": "00:45", "quote": "And we are growing super fast at 25% every month on average.", "frame": ""},
+        {"kind": "see", "at": "00:22", "frame": "t00022.jpg", "quote": "Row '12k monthly orders': Already 12k orders per months after 2 years, +25% growth each month"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "policy",
+      "statement": "Payment: Revibe pays the seller the price the seller asks, with no hidden commission, and pays every week.",
+      "evidence": [
+        {"kind": "say", "at": "00:49", "quote": "We have a very transparent and short payment cycle with no hidden commission.", "frame": ""},
+        {"kind": "say", "at": "00:53", "quote": "{we?} will pay you every week the price you asked for the {for?} selling your devices for instance", "frame": ""},
+        {"kind": "see", "at": "00:42", "frame": "t00042.jpg", "quote": "Row 'Transparent & short payment cycle': We pay you the price you ask, no hidden commission; We pay you every week to support your business in a cash consuming industry"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "Payment example given by the trainer (spoken only, not shown on screen): a device listed at 100 dirhams is paid at 100 dirhams, not more and not less.",
+      "evidence": [
+        {"kind": "say", "at": "01:01", "quote": "if you set a device and you set up a price of 100 dirhams we will pay you", "frame": ""},
+        {"kind": "say", "at": "01:07", "quote": "100 dirhams not more not less and we will pay you every week in order to support your", "frame": ""}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "policy",
+      "statement": "Warranty: sellers are asked to offer customers 6 months of warranty for valid claims (slide 2). In speech the trainer says the seller will be asked to 'support the first six months of warranty'.",
+      "evidence": [
+        {"kind": "say", "at": "01:22", "quote": "will ask you to support the first six months of warranty", "frame": ""},
+        {"kind": "see", "at": "01:22", "frame": "t00082.jpg", "quote": "Row '6 months warranty': We ask you to offer our customers 6 months warranty for valid claims"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Revibe provides a complete tech ecosystem: tools to get orders, set prices, manage orders, treat claims and improve operations.",
+      "evidence": [
+        {"kind": "say", "at": "01:26", "quote": "{finally?} we will provide to you a complete tech ecosystem a complete set of tools that will help", "frame": ""},
+        {"kind": "see", "at": "01:34", "frame": "t00082.jpg", "quote": "Row 'Complete tech ecosystem': We provide you a complete set of tech tools to help you get orders, manage them, treat claims and improve your operations"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "The seller onboarding process has four steps in this order: 1 Profile screening, 2 Quality screening, 3 Trial period, 4 Full onboarding.",
+      "evidence": [
+        {"kind": "say", "at": "01:51", "quote": "The onboarding process is a four-step process.", "frame": ""},
+        {"kind": "see", "at": "02:11", "frame": "t00131.jpg", "quote": "Slide 3 'Onboarding process' with four numbered stages: 1 Profile screening, 2 Quality screening, 3 Trial period, 4 Full onboarding"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Step 1, Profile screening: fill in the form in the app; input information about your company; input documents (TRN, trade license, Emirates ID); then you get access to Revibe's main information (contract, quality guidelines, and more).",
+      "evidence": [
+        {"kind": "say", "at": "02:00", "quote": "You arrived on this app and you will have to fill a form in order to give us", "frame": ""},
+        {"kind": "say", "at": "02:21", "quote": "information the contract with the terms and conditions we offer to our sellers our quality guidelines and additional", "frame": ""},
+        {"kind": "see", "at": "02:11", "frame": "t00131.jpg", "quote": "Step 1 bullets: Fill the form in this app; Input information related to your company; Input documents (TRN, trade license, Emirates ID); Get access to Revibe's main information (contract, quality guidelines, ...)"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "TRN (as labelled on the slide) is the tax registration number, one of the documents the seller inputs at profile screening.",
+      "evidence": [
+        {"kind": "say", "at": "02:14", "quote": "as your tax registration number your trading license or your {emiris?} id get access also to revives main", "frame": ""},
+        {"kind": "see", "at": "02:11", "frame": "t00131.jpg", "quote": "'Input documents (TRN, trade license, Emirates ID)'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Step 2, Quality screening: once the profile is validated, the seller gets access to the Fulfillment App, and sends Revibe a first shipment of devices so Revibe can check quality. The seller creates a shipment, selects the products, and sets quantities and prices.",
+      "evidence": [
+        {"kind": "say", "at": "02:29", "quote": "stuff then we will move to get {quality?} screening of your devices {once?} your profile will get validated", "frame": ""},
+        {"kind": "say", "at": "02:42", "quote": "simple you will send us a first shipment of devices that will enable us to check the quality", "frame": ""},
+        {"kind": "see", "at": "02:56", "frame": "t00172.jpg", "quote": "Slide 4 'Onboarding process', quality screening highlighted. Step 2 bullets: Once your profile is validated, you will get access to the Fulfillment App; You will send us a 1st shipment of devices that will enable us to check your quality; Create a shipment, select products, set quantities and prices"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Example only: the first shipment is described as between 20 and 30 products.",
+      "evidence": [
+        {"kind": "say", "at": "02:56", "quote": "send us let's say between {in?} 20 and 30 products {prepare?} them set up the quantities the prices", "frame": ""}
+      ],
+      "confidence": "low",
+      "quiz": false
+    },
+    {
+      "type": "policy",
+      "statement": "The first shipment goes to the Revibe warehouse for inspection. If quality is good, the result is Sales + Onboarding. If quality is not good, the devices are returned and the result is Return + No-onboarding.",
+      "evidence": [
+        {"kind": "say", "at": "03:03", "quote": "sent to us your shipment will arrive at our warehouse for inspection we will check the quality based", "frame": ""},
+        {"kind": "say", "at": "03:10", "quote": "on the quality {guideline?} if the quality is not good we will basically return the devices to you", "frame": ""},
+        {"kind": "see", "at": "03:12", "frame": "t00144.jpg", "quote": "Diagram 'Shipment to warehouse for inspection' branching to a green check 'Sales + Onboarding' and a red X 'Return + No-onboarding'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "Quality screening decides onboarding: a shipment that fails the quality check is returned and the seller cannot be onboarded, so checking quality before sending is important.",
+      "evidence": [
+        {"kind": "say", "at": "03:16", "quote": "and you won't be able to get on {boarding?} on revive this is why checking your quality before", "frame": ""},
+        {"kind": "say", "at": "03:21", "quote": "is very important {if?} the quality is good we will immediately start the business together we will sell", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Step 3, Trial period: only Fulfillment by Revibe is available during the trial. The seller sends batches of devices, Revibe checks and sells them, and the seller gets access to all Revibe tools and online trainings. Goal: reach a significant volume of orders and get used to the Revibe environment.",
+      "evidence": [
+        {"kind": "say", "at": "03:33", "quote": "is done we'll start a trial period for {for?} you during this period only fulfillment by revive will", "frame": ""},
+        {"kind": "say", "at": "03:47", "quote": "us batches of devices {we?} will check them and we will sell them during this period you will", "frame": ""},
+        {"kind": "say", "at": "03:54", "quote": "also get access to all {revive?} tools and online trainings {it?} this period will be very important for", "frame": ""},
+        {"kind": "see", "at": "03:47", "frame": "t00227.jpg", "quote": "Slide 5 'Onboarding process', trial period highlighted: Only Fulfillment by Revibe during trial period; You will get access to all Revibe tools and online trainings; It enables you to reach significant volume, get used to Revibe environment; ONBOARDING tag above step 3"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Step 4, Full onboarding: once the seller has reached a significant volume of orders, the seller is fully onboarded, direct shipping to customers is allowed, and there are no more limits.",
+      "evidence": [
+        {"kind": "say", "at": "04:06", "quote": "environments once you will have reached a significant volume of orders you will be fully onboarded it means", "frame": ""},
+        {"kind": "say", "at": "04:13", "quote": "that direct shipping to customers will be allowed for you {no?} more limits so now let's dig into", "frame": ""},
+        {"kind": "see", "at": "04:08", "frame": "t00248.jpg", "quote": "Slide 6 'Full onboarding' highlighted: 'Once you have reached significant volume of orders you will be fully onboarded'; 'It means direct shipping to customers will be allowed'; 'No more limits !'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "policy",
+      "statement": "One-time sellers who only want to sell a few items should use https://sell.revibe.me/ instead of this app. This app is for shops, wholesalers and online sellers who want an ongoing relationship with Revibe as official partners.",
+      "evidence": [
+        {"kind": "say", "at": "04:27", "quote": "the onboarding app of {revive?} here we immediately precise to you that this app {this?} app is for", "frame": ""},
+        {"kind": "say", "at": "04:34", "quote": "sellers who want to join revive as official partner we welcome you if you are a shop a", "frame": ""},
+        {"kind": "say", "at": "04:45", "quote": "only looking to sell few items please use this link you can click on done and here you", "frame": ""},
+        {"kind": "see", "at": "04:34", "frame": "t00270.jpg", "quote": "Dialog: 'This app is for sellers who want to join Revibe as official partners'; 'We welcome shops, wholesalers, and online sellers looking to build an ongoing relationship with us'; 'If you're only looking to sell a few items as a one-time sale, please use: https://sell.revibe.me/'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "To start the app: click Done on the welcome dialog, the trainer says the 3:22 Introduction video can be watched, then click Ok at top right to open the seller form.",
+      "evidence": [
+        {"kind": "say", "at": "04:45", "quote": "only looking to sell few items please use this link you can click on done and here you", "frame": ""},
+        {"kind": "say", "at": "04:52", "quote": "can watch the small video that I'm presenting to you once this is done click on ok immediately", "frame": ""},
+        {"kind": "see", "at": "04:51", "frame": "t00291.jpg", "quote": "Video Detail page: Introduction video player '0:00 / 3:22'; blue Ok button at top right"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The seller form (New Slice Form) has these fields, in this order: First name; Last name; Email (pre-filled); Company name (as mentioned in your trading licence); Country (United Arab Emirates, Saudi Arabia, South Africa, Other); Phone; exact address from where you will ship orders; exact Google Maps location of that address; What kind of products do you sell (multi-select); Are you a wholeseller (B2B) Yes/No; Do you sell online Yes/No (Yes opens On which platforms); units sold per month (dropdown); Which grades do you sell (multi-select); Do you sell as is or refurbish (As is / Refurbished / Both); How many technicians (dropdown); How many orders you can ship per day after quality check (dropdown); How did you hear about Revibe (dropdown); Do you know anyone who sells at Revibe (No/Yes); Would you like to add something? Most fields carry a * on screen.",
+      "evidence": [
+        {"kind": "see", "at": "05:04", "frame": "t00299.jpg", "quote": "New Slice Form field list: First name*, Last name*, Email*, Company name (as mentioned in your trading licence)*, Country*, Phone*"},
+        {"kind": "see", "at": "06:14", "frame": "t00374.jpg", "quote": "Lower form fields: How many technicians do you have ?*; How many orders are you able to ship on a daily basis (after having done quality check) ?*; How did you hear about Revibe ?*; Do you know anyone who sells at Revibe ? No/Yes"},
+        {"kind": "see", "at": "06:17", "frame": "t00377.jpg", "quote": "Bottom of form: 'Would you like to add something ?'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "The form label asks for the company name as mentioned in the trading licence (label: Company name (as mentioned in your trading licence)).",
+      "evidence": [
+        {"kind": "see", "at": "05:04", "frame": "t00299.jpg", "quote": "Label 'Company name (as mentioned in your trading licence)*'"},
+        {"kind": "say", "at": "05:14", "quote": "My company is Revive.", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "The seller's email is filled in automatically by the app and is not typed by the seller.",
+      "evidence": [
+        {"kind": "say", "at": "05:11", "quote": "Your email address is automatically inputted.", "frame": ""},
+        {"kind": "see", "at": "05:04", "frame": "t00299.jpg", "quote": "Email* field pre-filled and greyed"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "Phone is entered precisely in the Phone field, which starts with a + prefix.",
+      "evidence": [
+        {"kind": "say", "at": "05:19", "quote": "Here you put your phone number precisely.", "frame": ""},
+        {"kind": "see", "at": "05:18", "frame": "t00318.jpg", "quote": "Phone* field showing only '+'"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "The exact address field asks for the address the seller ships orders from. The trainer says it is very important for a smooth integration. Example used: Office 103 - Ontario Tower - Business Bay - Dubai.",
+      "evidence": [
+        {"kind": "say", "at": "05:25", "quote": "And here share your exact address from where you will be able to ship your orders.", "frame": ""},
+        {"kind": "say", "at": "05:32", "quote": "This is very important for a smooth integration.", "frame": ""},
+        {"kind": "see", "at": "05:52", "frame": "t00352.jpg", "quote": "Address field 'Office 103 - Ontario Tower - Business Bay - Dubai' with Google Maps autocomplete suggestion 'Ontario Tower - Business Bay - Dubai - Émirats arabes unis'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "To fill the exact Google Maps location: open the place in Google Maps, click Share (Partager), copy the link (COPIER LE LIEN), then paste it into the field 'Please share the exact google map location of this adress'. The field starts with the placeholder https://www.google.com/maps/.",
+      "evidence": [
+        {"kind": "say", "at": "06:01", "quote": "click here {on?} share, copy the link and put it just below here.", "frame": ""},
+        {"kind": "see", "at": "06:01", "frame": "t00361.jpg", "quote": "Google Maps Partager dialog with COPIER LE LIEN button"},
+        {"kind": "see", "at": "06:04", "frame": "t00364.jpg", "quote": "Google map location field showing placeholder 'https://www.google.com/maps/' before paste"},
+        {"kind": "see", "at": "06:07", "frame": "t00367.jpg", "quote": "Google map location field showing 'https://maps.app.goo.gl/rxHUmsEkHbiDbL298'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "What kind of products do you sell is a multi-select list: Select all, iPhones, Smartphones, MacBooks, Laptops, Tablets, Smart watches. The trainer selected iPhones and Smartphones as an example.",
+      "evidence": [
+        {"kind": "say", "at": "06:08", "quote": "What kind of products do you sell?", "frame": ""},
+        {"kind": "say", "at": "06:10", "quote": "Let's say you're selling iPhones and smartphones.", "frame": ""},
+        {"kind": "see", "at": "06:09", "frame": "t00369.jpg", "quote": "Products list: Select all, iPhones, Smartphones, MacBooks, Laptops, Tablets, Smart watches"},
+        {"kind": "see", "at": "06:14", "frame": "t00374.jpg", "quote": "Selected chips: iPhones, Smartphones"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Are you a wholesaler (B2B)? and Do you sell online? are Yes/No questions. Choosing Yes for Do you sell online? opens the question On which platforms ?, which is marked required (*).",
+      "evidence": [
+        {"kind": "say", "at": "06:12", "quote": "Are you a wholesaler B2B?", "frame": ""},
+        {"kind": "say", "at": "06:19", "quote": "Yes, let's put yes.", "frame": ""},
+        {"kind": "see", "at": "06:20", "frame": "t00380.jpg", "quote": "'Do you sell online ?' Yes selected; new field 'On which platforms ?*' appears"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "policy",
+      "statement": "Shipping responsibility depends on the country: Revibe manages shipment in UAE and South Africa; the seller manages shipment in Saudi Arabia (KSA).",
+      "evidence": [
+        {"kind": "say", "at": "00:25", "quote": "We currently operate in three countries, UAE and South Africa where we manage the shipment for you and", "frame": ""},
+        {"kind": "see", "at": "00:22", "frame": "t00022.jpg", "quote": "'3 countries' row: shipment supported by Revibe / shipment supported by seller"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    }
+  ],
+  "screens": [
+    {
+      "name": "Slide: Welcome to Revibe",
+      "shows": "Title slide 'Welcome to REVIBE', page 1, narrator webcam overlay",
+      "at": "00:00-00:13",
+      "where": "Slide deck (presentation view)"
+    },
+    {
+      "name": "Slide 2: Revibe presentation",
+      "shows": "Six rows: Marketplace; 3 countries; 12k monthly orders; Transparent & short payment cycle; 6 months warranty; Complete tech ecosystem",
+      "at": "00:13-01:42",
+      "where": "Slide deck (presentation view)"
+    },
+    {
+      "name": "Slides 3 to 6: Onboarding process",
+      "shows": "Four step columns (1 Profile screening, 2 Quality screening, 3 Trial period, 4 Full onboarding) with bullets; bottom diagram 'Shipment to warehouse for inspection' with Sales + Onboarding (green check) and Return + No-onboarding (red X); an ONBOARDING tag above step 3 on slides 5 and 6",
+      "at": "01:42-04:20",
+      "where": "Slide deck (presentation view), page indicator 'Page 6 sur 7' visible on slide 6 (t00248.jpg)"
+    },
+    {
+      "name": "Slide 7: Onboarding process",
+      "shows": "Four step columns with step 1 Profile screening highlighted",
+      "at": "04:26-04:27",
+      "where": "Slide deck (presentation view)"
+    },
+    {
+      "name": "Seller Onboarding App welcome dialog",
+      "shows": "'This app is for sellers who want to join Revibe as official partners'; shops, wholesalers and online sellers; one-time sales link https://sell.revibe.me/; Done button",
+      "at": "04:27-04:52",
+      "where": "Google Chrome, AppSheet app at appsheet.com (tab 'Seller Onboarding App')"
+    },
+    {
+      "name": "Video Detail page",
+      "shows": "'Introduction video' player (0:00 / 3:22) and a blue Ok button at top right",
+      "at": "04:52-04:59",
+      "where": "Google Chrome, Seller Onboarding App"
+    },
+    {
+      "name": "New Slice Form (side panel)",
+      "shows": "Seller profile form with intro text, required fields, and Cancel and Save buttons at top right; no Save click is captured in this part",
+      "at": "04:59-06:20",
+      "where": "Google Chrome, Seller Onboarding App, opened from the right as a side panel"
+    },
+    {
+      "name": "Google Maps place page: Ontario Tower",
+      "shows": "Place 'Ontario Tower', Business Bay, Dubai; Partager (Share) dialog with 'Lien à partager' and COPIER LE LIEN button",
+      "at": "05:51-06:01",
+      "where": "Second Chrome tab 'Ontario Tower - Google Maps'"
+    }
+  ],
+  "terms": [
+    {"term": "Revibe", "meaning": "The marketplace company that connects sellers and customers, with a unified catalog.", "at": "00:13"},
+    {"term": "Seller", "meaning": "A shop, wholesaler or online seller that wants a long-lasting relationship with Revibe as an official partner (per the app dialog).", "at": "04:34"},
+    {"term": "Unified catalog", "meaning": "Revibe's single catalog for the marketplace (wording from the slide and speech).", "at": "00:21"},
+    {"term": "Profile screening", "meaning": "Step 1 of onboarding: fill in the form in the app and input company information and documents; Revibe then validates the profile.", "at": "01:55"},
+    {"term": "Quality screening", "meaning": "Step 2 of onboarding: the seller sends a first shipment of devices which Revibe inspects against quality guidelines.", "at": "02:29"},
+    {"term": "Trial period", "meaning": "Step 3 of onboarding: only Fulfillment by Revibe is available; the seller sends batches and gets access to Revibe tools and trainings.", "at": "03:33"},
+    {"term": "Full onboarding", "meaning": "Step 4: after a significant volume of orders, the seller is fully onboarded and direct shipping to customers is allowed.", "at": "04:06"},
+    {"term": "Fulfillment App / Fulfillment by Revibe", "meaning": "The app the seller gets after the profile is validated, used to create shipments; during the trial period, only Fulfillment by Revibe is available.", "at": "02:36"},
+    {"term": "TRN", "meaning": "Tax registration number (the trainer says 'tax registration number'; the slide shows TRN).", "at": "02:14"},
+    {"term": "Trading licence", "meaning": "Company document input at profile screening; the form asks for the company name as mentioned in it.", "at": "02:14"},
+    {"term": "Emirates ID", "meaning": "Identity document input at profile screening (shown on the slide).", "at": "02:14"},
+    {"term": "Quality guidelines", "meaning": "Revibe's quality rules that sellers receive and that the warehouse inspection checks against.", "at": "02:21"},
+    {"term": "Warranty (6 months)", "meaning": "Sellers are asked to offer customers 6 months of warranty for valid claims (slide 2).", "at": "01:22"},
+    {"term": "Direct shipping", "meaning": "Shipping orders straight to customers; allowed after full onboarding (per the slide).", "at": "04:13"},
+    {"term": "Wholesaler (B2B)", "meaning": "Form question: is the seller a wholesaler selling business to business (Yes/No).", "at": "06:12"},
+    {"term": "KSA", "meaning": "Abbreviation for Saudi Arabia on the slide, where the seller manages shipment.", "at": "00:32"},
+    {"term": "Slice form", "meaning": "The form title shown as 'New Slice Form', in which the seller profile is entered.", "at": "04:59"},
+    {"term": "Sales + Onboarding / Return + No-onboarding", "meaning": "The two outcomes of the warehouse inspection: passing quality leads to sales and onboarding; failing leads to a return and no onboarding.", "at": "03:03"}
+  ],
+  "asr_fixes": [
+    {"at": "01:43", "heard": "Revive", "correct": "Revibe", "basis": "Slide titles and logo read REVIBE; the company is named Revibe throughout the slides and the app."},
+    {"at": "02:14", "heard": "revives main information", "correct": "Revibe's main information", "basis": "Slide 3 reads 'Get access to Revibe's main information'."},
+    {"at": "02:14", "heard": "{emiris?} id", "correct": "Emirates ID", "basis": "Slide 3 bullet reads 'Input documents (TRN, trade license, Emirates ID)'."},
+    {"at": "03:10", "heard": "{guideline?}", "correct": "quality guidelines", "basis": "Slide 3 bullet reads 'Get access to Revibe's main information (contract, quality guidelines, ...)'."},
+    {"at": "03:16", "heard": "{boarding?}", "correct": "onboarding", "basis": "Slide heading reads 'Onboarding process'."},
+    {"at": "04:27", "heard": "the onboarding app of {revive?}", "correct": "the onboarding app of Revibe", "basis": "App dialog reads 'join Revibe as official partners'."},
+    {"at": "05:14", "heard": "My company is Revive.", "correct": "My company is Revibe.", "basis": "The Company name field on screen shows 'Revibe' (t00318.jpg)."},
+    {"at": "05:35", "heard": "So let me mention for instance the address of Revive.", "correct": "So let me mention for instance the address of Revibe.", "basis": "The company name entered on screen is 'Revibe' (t00318.jpg); the same company is named Revibe on the slides."}
+  ],
+  "unclear": [
+    {"at": "01:13", "issue": "Speech says Revibe offers customers one year of warranty and that the seller supports the first six months (01:22). Slide 2 shows only the seller's 6 months warranty for valid claims. The one-year figure is not on screen, so it is not stated as a fact."},
+    {"at": "05:22", "issue": "Trainer says 'Mention your Emirates if you're in the UAE' right after the phone line. The Phone field shows only '+' and the spoken instruction is unclear, so it is not stated what to enter beyond the phone number."},
+    {"at": "03:27", "issue": "Trainer says 'you will get onboarded once the onboarding is done' (03:27), while the slides place an ONBOARDING tag above step 3 (trial period, t00227.jpg; also t00248.jpg). It is unclear whether the onboarded status starts at the trial period or at full onboarding."},
+    {"at": "06:20", "issue": "Trainer names Amazon as the platform example, but the 'On which platforms ?' field is still empty in the last frame (t00380.jpg, 06:20). It is unclear whether Amazon was actually selected."},
+    {"at": "02:56", "issue": "'between {in?} 20 and 30 products' is marked low-confidence and is said as an example ('let's say'); it is not a rule."},
+    {"at": "01:01", "issue": "The 100 dirhams payment example is spoken only; the currency and amount are not on screen. Treated as an example, not as a rule for prices."},
+    {"at": "05:57", "issue": "Frame t00357 (05:57) shows the Google Maps link already marked COPIÉ DANS LE PRESSE-PAPIERS, while frame t00361 (06:01) shows the pre-copy COPIER LE LIEN state with the cursor on the Partager icon. The exact copy sequence cannot be confirmed from these frames."},
+    {"at": "05:17", "issue": "Trainer says 'I am in the United Arab Emirates' while the Country dropdown is open (t00318.jpg). No frame shows the selected country value, so the selection is not confirmed on screen."}
+  ],
+  "outdated": [
+    {"at": "00:25", "signal": "'We currently operate in three countries' and 'At the moment' phrasing: time-bound claim about current operations."},
+    {"at": "00:36", "signal": "'At the moment, we receive more than 12,000 orders on a monthly basis after only two years' (also slide 2 '12k monthly orders'): figure is as of recording."},
+    {"at": "00:45", "signal": "'growing ... 25% every month on average' (slide 2 '+25% growth each month'): growth rate is time-bound."},
+    {"at": "04:59", "signal": "The Mac menu bar clock shows 'Jeu. 7 août' (recording date) on the app screens. The AppSheet form and its fields may have changed since then; check the live app before relying on the field list."}
+  ],
+  "privacy": [
+    {"at": "05:04-05:10", "frame": "t00299.jpg", "what": "Presenter's full name spoken aloud ('my name is Pierre Villasek') and nationality ('I'm French'). Not on screen; spelling of the surname cannot be checked from the frames. Presenter data, not a seller's, but personal and spoken."},
+    {"at": "05:04", "frame": "t00299.jpg", "what": "Email field on screen shows a personal-looking Gmail address 'iam.pepemanagement@gmail.com' (pre-filled from the logged-in account). Do not share this frame without masking the email."},
+    {"at": "04:52", "frame": "t00291.jpg", "what": "Introduction video thumbnail shows an admin 'Orders' table. At this resolution the cells are not readable, so no customer names or contact details are confirmed; check before sharing."}
+  ],
+  "frames_opened": 40,
+  "audit": {
+    "checked": 91,
+    "removed": [],
+    "corrected": [
+      {"before": "Pierre introduces Revibe on two slides (the 'Revibe presentation' slide and the 'Onboarding process' slides)", "after": "Pierre introduces Revibe on three slide screens (the 'Welcome to Revibe' title slide, the 'Revibe presentation' slide and the 'Onboarding process' slides)", "reason": "The title slide (t00000, t00001) is shown and narrated at 00:00-00:13."},
+      {"before": "The part ends at 06:20 with the platform question still open", "after": "The last frame (06:20, t00380) shows the platforms question still empty; the part runs to 06:24", "reason": "No frame after 06:20 was supplied; the claim cannot say what happens 06:20-06:24."},
+      {"before": "Walks through the six rows of slide 2 while narrating them", "after": "Narrates the six rows while slide 2 stays on screen", "reason": "The frames show a static slide; no row-by-row pointer movement is visible."},
+      {"before": "Step 'Slide deck: Onboarding process (slides 3 to 7)' cited t00111 (02:11) as step 1 highlighted", "after": "Cites t00131 (02:11) for step 1 highlighted; t00111 (01:51) still shows slide 2", "reason": "t00111 is the slide 2 'Revibe presentation', not the onboarding slides."},
+      {"before": "Step 04:07 action: advancing with the forward control, cited t00248 with cursor on the forward arrow", "after": "Cursor on the forward arrow is in t00260 (04:20); t00248 (04:08) shows slide 6 with the cursor elsewhere", "reason": "Frame citation did not match what the frame shows."},
+      {"before": "Step 04:20-04:27 'Slide 7 ... step 1 Profile screening highlighted' cited t00260", "after": "Cites t00266 (04:26) for slide 7; t00260 (04:20) is slide 6 with the cursor on the forward arrow", "reason": "Wrong frame for slide 7."},
+      {"before": "says: 'this app is for sellers who want to join revive as official partner'", "after": "says: 'sellers who want to join revive as official partner'", "reason": "The words must be copied exactly from one transcript line (04:34); the 'this app is for' part is from 04:27 and is not one line."},
+      {"before": "Step 04:45: 'then clicks Done'", "after": "Trainer says to click Done; the click is not captured and the dialog is gone by 04:51", "reason": "Click not shown in frames; only the spoken instruction and the closed dialog are."},
+      {"before": "Step 04:52: 'then clicks the Ok button at top right to open the form'", "after": "Trainer says to click Ok; the click is not captured, and the form is open by 04:59", "reason": "Click not shown in frames."},
+      {"before": "Step 05:17-05:19: 'Opens the Country dropdown and chooses United Arab Emirates'", "after": "Opens the dropdown with the cursor on United Arab Emirates; selected value not visible", "reason": "No frame shows the selected country value."},
+      {"before": "Step 05:25-05:32 'Clicks the address field' cited t00331 only", "after": "Cites t00326 (05:26, focused field) and t00331 (05:31, focused empty field)", "reason": "t00326 is the frame showing the focus change."},
+      {"before": "Step 06:07-06:10 'selects iPhones and Smartphones'", "after": "06:07-06:14; the selected chips are visible at 06:14 (t00374)", "reason": "Selection is not visible until 06:14."},
+      {"before": "Step 06:01-06:04 'returns to the form and pastes the copied map link'", "after": "06:01-06:07; the link appears in the field at 06:07 (t00367); the paste itself is not captured", "reason": "Paste action not shown; only the before (t00364) and after (t00367) states."},
+      {"before": "Step 06:20: 'the field is still empty when the part ends'", "after": "Field is still empty in the last frame (t00380, 06:20)", "reason": "No frame after 06:20 was checked."},
+      {"before": "Fact 2: 'Revibe operates in three countries'", "after": "'Revibe currently operates in three countries'", "reason": "Speech says 'We currently operate'."},
+      {"before": "Fact 3: 'grows about 25% each month on average'", "after": "'grows 25% each month on average'", "reason": "'About' is not in the source ('25% every month on average')."},
+      {"before": "Fact 6: '(Revibe supports the first six months, per the trainer's wording)'", "after": "Parenthetical removed; the trainer says the seller will be asked to 'support the first six months of warranty'", "reason": "Speech says the seller supports the warranty, not Revibe."},
+      {"before": "Fact 8 (four steps): evidence frame t00111 at 02:00", "after": "Evidence frame t00131 (02:11); t00111 is slide 2", "reason": "Wrong frame; t00131 shows the four numbered stages."},
+      {"before": "Fact 9 (Step 1): 'upload documents (TRN, trade license, Emirates ID)'", "after": "'input documents'", "reason": "Slide says 'Input documents'; the word 'upload' is not in the evidence."},
+      {"before": "Fact 10 (TRN): 'documents the seller uploads'", "after": "'documents the seller inputs'", "reason": "Same as above."},
+      {"before": "Fact 11 (Step 2): step-2 bullets cited t00144 (02:56)", "after": "Cites t00172 (02:56), which shows slide 4 with quality screening highlighted; t00144 is slide 3", "reason": "Wrong frame."},
+      {"before": "Fact 15 (Step 3): 'Step 3 bullets' cited t00212 (03:54)", "after": "Cites t00227 (03:47), trial period highlighted; t00212 is slide 4", "reason": "Wrong frame; trial-period text is greyed in t00212."},
+      {"before": "Fact 16 (Step 4): 'Step 4 bullets' cited t00247 (04:07)", "after": "Cites t00248 (04:08), slide 6 with step 4 highlighted; t00247 is slide 5", "reason": "Wrong frame."},
+      {"before": "Fact 18: 'watch the Introduction video (3:22)' and 'click Done ... then click Ok'", "after": "Trainer says the video can be watched; click Done and Ok are spoken, not captured", "reason": "Speech says 'can watch' (optional); clicks not shown."},
+      {"before": "Fact 19 (form fields): 'marked required (*) unless noted'; 'Would you like to add something?' cited to t00380 (06:20)", "after": "'Most fields carry a *'; citation moved to t00377 (06:17), which shows the 'Would you like to add something' line; lower fields cited to t00374 (06:14)", "reason": "t00380 does not show the bottom line; the asterisk rule is not verified for every field."},
+      {"before": "Fact 20: 'Company name must be entered as it appears on the trading licence'", "after": "'The form label asks for the company name as mentioned in the trading licence'", "reason": "The instruction comes from the field label, not from a spoken rule."},
+      {"before": "Fact 23 and 24 pass as written but Fact 24 'open the place in Google Maps' is implied", "after": "Kept; the open Ontario Tower tab is visible at t00357", "reason": "Visible on screen; no change of meaning."},
+      {"before": "Term 'Profile screening': 'fill the form and upload company documents'", "after": "'input company information and documents'", "reason": "Slide wording is 'Input'."},
+      {"before": "Term 'Slice form': 'The AppSheet form type shown as New Slice Form'", "after": "'The form title shown as New Slice Form'", "reason": "'AppSheet form type' is not in the evidence; the screen only shows the title."},
+      {"before": "Unclear 03:21: 'you will get onboarded once the onboarding is done' with frame t00212.jpg", "after": "Time 03:27; frame t00227.jpg (ONBOARDING tag on slide 5)", "reason": "The quoted line is at 03:27; t00212 is slide 4 with no tag."},
+      {"before": "Outdated 04:59: 'The screen clock shows Jeu. 7 août'", "after": "Mac menu bar clock on the app screens shows 'Jeu. 7 août'", "reason": "Clarifies where the date appears."},
+      {"before": "Privacy: email 'iam.pepemanagement@gmail.com' only", "after": "Kept, plus a note that the email is also visible in the form on later frames; the presenter surname spelling cannot be checked", "reason": "Completeness of the privacy flag."}
+    ],
+    "added": [
+      "Step 00:01-00:13: trainer says the video explains how to get onboarded as a seller (00:03, t00001.jpg, title slide).",
+      "Step 04:26-04:27 screen entry: slide 7 with step 1 highlighted (t00266.jpg).",
+      "Fact 15 extra say: 'us batches of devices {we?} will check them and we will sell them during this period you will' (03:47) supports 'the seller sends batches of devices, Revibe checks and sells them'.",
+      "Step 05:35-05:52 extra say: 'we are in the office 103 in ontario tower we are in business bay in dubai and now' (05:38) supports the example address.",
+      "ASR fix at 05:35: 'address of Revive' to 'address of Revibe' (company name on screen is 'Revibe', t00318.jpg).",
+      "Unclear 05:57 vs 06:01: copy-state sequence of the Google Maps share dialog is not clear from frames t00357 and t00361.",
+      "Unclear 05:17: selected Country value is not visible in any frame.",
+      "Privacy 04:52: the Introduction video thumbnail (t00291.jpg) shows an admin Orders table; contents are not readable at this resolution.",
+      "Coverage: all 40 frames listed in the pack were opened (t00000 to t00380); t00001 and t00013 (title slide, still before slide 2) and t00314 (form before company name is typed) were checked and have no uncited content beyond the entries above."
+    ]
+  }
+}

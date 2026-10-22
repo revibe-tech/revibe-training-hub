@@ -1,0 +1,680 @@
+{
+  "summary": "Part 1 of 4 (00:00 to 07:12) of 2.1 Fulfillment App (KAM). All 40 frames in pack-1 were opened. The trainer explains the purpose of Fulfillment and its score rules (Drive slide 'Score logic', page 4 of 5 of Revibe documentation.pdf, visible at frame t00168), then tours the SKUs available tab of the Revibe - Fulfillment App: sorting by Quantities recommended, warranty rows, the SKU detail panel, Quantities recommended, SKU Status, download and filter, and price versus buy box. Part 1 ends mid-sentence at 07:10. Facts are stated only where speech, screen or both confirm them. The meanings of the star icon and of the other SKU statuses are not confirmed.",
+  "frames_opened": 40,
+  "steps": [
+    {
+      "at": "00:00",
+      "screen": "Revibe - Fulfillment App, Chrome tab 1 (SKUs available page)",
+      "action": "Trainer opens the video with the app on the SKUs available page. The cursor sits on the SKUs available item in the left menu (t00000). He introduces the video; no clicks yet.",
+      "evidence": [
+        {"kind": "say", "at": "00:07", "quote": "In this Fulfillment training video {I?} will explain to you as a key account manager everything that you"},
+        {"kind": "see", "at": "00:00", "frame": "t00000.jpg", "quote": "Revibe - Fulfillment App open on SKUs available; left menu lists SKUs available, Shipments, Request products, Pending QC, etc.; cursor on SKUs available."}
+      ],
+      "says": "In this Fulfillment training video {I?} will explain to you as a key account manager everything that you can monitor from the Fulfillment app.",
+      "why": ""
+    },
+    {
+      "at": "00:20",
+      "screen": "Revibe - Fulfillment App (SKUs available), unchanged on screen until 02:37",
+      "action": "Trainer explains the purpose of Fulfillment verbally. The app stays on the same SKUs available table in frames t00020 to t00157 (02:37). Frame t00157 shows the cursor moving to the Drive tab.",
+      "evidence": [
+        {"kind": "say", "at": "00:20", "quote": "{The?} purpose of Fulfillment is first to recruit sellers."},
+        {"kind": "see", "at": "00:40", "frame": "t00040.jpg", "quote": "Same SKUs available table; no clicks visible."},
+        {"kind": "see", "at": "02:37", "frame": "t00157.jpg", "quote": "Revibe - Fulfillment App SKUs available table still shown; cursor on the 'Seller starter pack - EN version' Chrome tab."}
+      ],
+      "says": "{The?} purpose of Fulfillment is first to recruit sellers.",
+      "why": "Sellers have to send their first one or two shipments to fulfillment so Revibe can check they are serious and have good quality (trainer's words at 00:26 to 00:40)."
+    },
+    {
+      "at": "02:37",
+      "screen": "Chrome tab 2: Google Drive, Revibe documentation.pdf, page 4 of 5 (Score logic)",
+      "action": "Trainer switches to the Seller starter pack - EN version Drive tab, which shows the Score logic slide (first Drive frame t00168 at 02:48). The Drive tab is still open at 03:08 (t00188). The app tab is shown again by 03:18 (t00198).",
+      "evidence": [
+        {"kind": "say", "at": "02:40", "quote": "being negative his score is upgraded at zero in the fulfillment another good reason for the sellers to"},
+        {"kind": "see", "at": "02:48", "frame": "t00168.jpg", "quote": "Drive PDF Revibe documentation.pdf, page 4 of 5, title Score logic; Direct shipping and Fulfillment columns with flags; 'Score upgraded at 0%, giving you better prices' badges."}
+      ],
+      "says": "being negative his score is upgraded at zero in the fulfillment another good reason for the sellers to",
+      "why": ""
+    },
+    {
+      "at": "04:28",
+      "screen": "Revibe - Fulfillment App, SKUs available",
+      "action": "Trainer says he will walk through every tab of the sheet one by one, then says a separate video covers the seller view. The app is on SKUs available (t00268).",
+      "evidence": [
+        {"kind": "say", "at": "04:28", "quote": "now how does fulfillment works we will go in this video through all the tabs that are here"},
+        {"kind": "say", "at": "04:41", "quote": "video only for the sellers with a seller view here so that sellers will have like way less"}
+      ],
+      "says": "now how does fulfillment works we will go in this video through all the tabs that are here",
+      "why": "As a key account manager, we believe that it's good that you can find all the information (trainer, 04:52)."
+    },
+    {
+      "at": "04:57",
+      "screen": "Revibe - Fulfillment App, tab SKUs available",
+      "action": "Trainer opens the first tab, SKUs available, from the left menu. The table is unsorted at this point (no arrow on the Quantities recommended header, t00295).",
+      "evidence": [
+        {"kind": "say", "at": "04:57", "quote": "So the first tab is SKUs available."},
+        {"kind": "see", "at": "04:55", "frame": "t00295.jpg", "quote": "SKUs available table, catalog rows listed from the top; no sort arrow on Quantities recommended."}
+      ],
+      "says": "So the first tab is SKUs available.",
+      "why": ""
+    },
+    {
+      "at": "05:05",
+      "screen": "SKUs available table, column header Quantities recommended",
+      "action": "Trainer says the SKUs are ranked by Quantities recommended. The cursor reaches the header at about 05:11 (t00311, no arrow yet). By 05:17 the header shows a descending arrow (t00317). Rows then run 144, 71, 64, 62, 60 in descending order (t00313, 05:13).",
+      "evidence": [
+        {"kind": "say", "at": "05:05", "quote": "{they?} are ranked by quantities recommended like this and for each SKU they can see what is the"},
+        {"kind": "see", "at": "05:11", "frame": "t00311.jpg", "quote": "Cursor on the Quantities recommended header; header has no sort arrow yet."},
+        {"kind": "see", "at": "05:13", "frame": "t00313.jpg", "quote": "Column header reads Quantities recommended with a down arrow; rows run 144, 71, 64, 62, 60 ... descending."}
+      ],
+      "says": "{they?} are ranked by quantities recommended like this and for each SKU they can see what is the",
+      "why": ""
+    },
+    {
+      "at": "05:15",
+      "screen": "SKUs available, top rows (Warranty category)",
+      "action": "Trainer tells the KAM to ignore the warranty plan rows at the top of the sorted list (2-years-extended-warranty-plan and the -plan-1, -plan-2, -plan-3 variants). The cursor hovers on the 2-years-extended-warranty-plan-1 row (t00322).",
+      "evidence": [
+        {"kind": "say", "at": "05:15", "quote": "price and what is the quantity recommended here don't pay attention to the warranty plans because obviously a"},
+        {"kind": "say", "at": "05:22", "quote": "seller cannot sell a warranty what you only need to understand is that you can have here the"},
+        {"kind": "see", "at": "05:22", "frame": "t00322.jpg", "quote": "Cursor on Warranty row 2-years-extended-warranty-plan-1; Warranty rows show Price 9,999."}
+      ],
+      "says": "seller cannot sell a warranty what you only need to understand is that you can have here the",
+      "why": "Obviously a seller cannot sell a warranty (trainer, 05:15 to 05:22)."
+    },
+    {
+      "at": "05:34",
+      "screen": "SKUs available, row click opens SKU detail panel",
+      "action": "Trainer clicks the 9999A1-000000 row (2-years-extended-warranty-plan). A right-hand panel opens with the SKU details (t00340 at 05:40).",
+      "evidence": [
+        {"kind": "say", "at": "05:41", "quote": "see the {all?} the details related to this SKU and you can see who is seeing it me"},
+        {"kind": "see", "at": "05:40", "frame": "t00340.jpg", "quote": "Right panel titled 9999A1-000000 appears over the table."}
+      ],
+      "says": "see the {all?} the details related to this SKU",
+      "why": ""
+    },
+    {
+      "at": "05:49",
+      "screen": "SKU detail panel 9999A1-000000 (super admin view)",
+      "action": "Trainer says he is showing the super admin view; the seller view is covered in another video. The Supplier field reads Superadmin (t00344).",
+      "evidence": [
+        {"kind": "say", "at": "05:49", "quote": "at the moment I can see as a super admin you will be able to see in the"},
+        {"kind": "say", "at": "05:52", "quote": "seller video that I can see it as a seller what you need to know is that the"},
+        {"kind": "see", "at": "05:44", "frame": "t00344.jpg", "quote": "Panel fields: SKU 9999A1-000000; Supplier Superadmin; Price 9,999; Category Warranty; Product 2-years-extended-warranty-plan; Model 2-years-extended-warranty-plan; SKU Status Free market; Quantities recommended 144."}
+      ],
+      "says": "at the moment I can see as a super admin you will be able to see in the",
+      "why": ""
+    },
+    {
+      "at": "05:58",
+      "screen": "SKU detail panel 9999A1-000000, Quantities recommended = 144",
+      "action": "Trainer explains how Quantities recommended is calculated while the panel shows 144.",
+      "evidence": [
+        {"kind": "say", "at": "05:58", "quote": "quantity recommended are based on the sales we got over the past two weeks in UAE and South"},
+        {"kind": "say", "at": "06:03", "quote": "Africa minus the current stock we have in the inventory {if?} you take some devices you can see"},
+        {"kind": "see", "at": "05:44", "frame": "t00344.jpg", "quote": "Quantities recommended 144 in the panel."}
+      ],
+      "says": "quantity recommended are based on the sales we got over the past two weeks in UAE and South Africa minus the current stock we have in the inventory",
+      "why": ""
+    },
+    {
+      "at": "06:09",
+      "screen": "SKU detail panels for 010122-071103 (iPhone 14), 010118-091903-TDRA (iPhone 13), 010113-060101 and 010205-073103",
+      "action": "Trainer clicks devices to show their SKU Status. Each panel shown reads Free market: 010122-071103 (t00369), 010118-091903-TDRA (t00374), 010113-060101 (t00378) and 010205-073103 (t00386).",
+      "evidence": [
+        {"kind": "say", "at": "06:11", "quote": "that here the status is free market which means that the device is not in fulfillment at the"},
+        {"kind": "say", "at": "06:15", "quote": "moment which is the case for most devices but sometimes you can see some devices that are not"},
+        {"kind": "see", "at": "06:09", "frame": "t00369.jpg", "quote": "Panel 010122-071103, SKU Status Free market, Quantities recommended 31."}
+      ],
+      "says": "that here the status is free market which means that the device is not in fulfillment at the",
+      "why": ""
+    },
+    {
+      "at": "06:31",
+      "screen": "SKUs available page: Download button (top right) and filter icon; Filter panel",
+      "action": "Trainer says the data can be downloaded from the first page and the list can be filtered. He opens the filter panel, which lists SKU, Category, Product, Model and SKU Status, with a Clear button (t00394 at 06:34).",
+      "evidence": [
+        {"kind": "say", "at": "06:31", "quote": "from the first page {you?} can download the data you can also here filter by category SKU product"},
+        {"kind": "see", "at": "06:34", "frame": "t00394.jpg", "quote": "Filter panel with items SKU, Category, Product, Model, SKU Status and a Clear button."}
+      ],
+      "says": "from the first page {you?} can download the data you can also here filter by category SKU product",
+      "why": ""
+    },
+    {
+      "at": "06:37",
+      "screen": "SKUs available, Price column; warranty rows show 9,999",
+      "action": "Trainer says the price the seller sees is the same price displayed in the seller's buy box. He then explains the 9999 price.",
+      "evidence": [
+        {"kind": "say", "at": "06:37", "quote": "model or SKU status so this price that the sellers see here is exactly the same price that"},
+        {"kind": "say", "at": "06:47", "quote": "is displayed in their buy box here all the prices with 9999 means that currently there is no"},
+        {"kind": "see", "at": "06:50", "frame": "t00410.jpg", "quote": "Price column; warranty rows show 9,999; other rows show prices such as 519, 860, 1,050."}
+      ],
+      "says": "is displayed in their buy box here all the prices with 9999 means that currently there is no",
+      "why": ""
+    },
+    {
+      "at": "07:00",
+      "screen": "SKUs available, Price column",
+      "action": "Trainer warns the KAM that setting a price of 9998 is useless, because a lower price wins over a placeholder. Narration only; no screen action.",
+      "evidence": [
+        {"kind": "say", "at": "06:55", "quote": "price {in?} the market, meaning that if they put a price lower than this, they will win."},
+        {"kind": "say", "at": "07:00", "quote": "{I?} mean, nonetheless, it's completely useless to put the price of 9998."},
+        {"kind": "say", "at": "07:08", "quote": "It will never sell."}
+      ],
+      "says": "{I?} mean, nonetheless, it's completely useless to put the price of 9998.",
+      "why": "It will never sell (trainer, 07:08)."
+    }
+  ],
+  "facts": [
+    {
+      "type": "definition",
+      "statement": "The purpose of Fulfillment is first to recruit sellers. Sellers have to send their first one or two shipments to fulfillment so Revibe can check that they are serious and have good quality.",
+      "evidence": [
+        {"kind": "say", "at": "00:20", "quote": "{The?} purpose of Fulfillment is first to recruit sellers."},
+        {"kind": "say", "at": "00:26", "quote": "Because as part of the onboarding process to start selling with Revive, sellers will have to send a"},
+        {"kind": "say", "at": "00:35", "quote": "first or two first shipments to fulfillment {so?} that we can make sure that these guys are serious"},
+        {"kind": "say", "at": "00:40", "quote": "and have good quality."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "policy",
+      "statement": "Fulfillment gives sellers smooth operations when they start: Revibe does a second QC and manages the packaging and the shipping for them.",
+      "evidence": [
+        {"kind": "say", "at": "00:44", "quote": "fulfillment will enable us to offer to sellers smooth operations when they start because we will do a"},
+        {"kind": "say", "at": "00:50", "quote": "second QC, we will manage the packaging, we will manage the shipping for them."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "While a seller is on fulfillment, Revibe handles that seller's orders, so the seller does not have to process them. The seller can keep learning in the meantime.",
+      "evidence": [
+        {"kind": "say", "at": "00:54", "quote": "In this period, they will be able to see that they can {receive?} orders {in?} the meantime they"},
+        {"kind": "say", "at": "01:00", "quote": "won't have to treat these orders because we will do this for them and they can keep learning"}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "A third purpose of Fulfillment is to keep bad sellers active. Trainer's wording: fulfillment is there to maintain activity for bad sellers.",
+      "evidence": [
+        {"kind": "say", "at": "01:14", "quote": "dashboard we provide to them etc third point fulfillment is there to maintain activity for bad sellers and"}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "When a seller is blocked from Revibe, this is most of the time because the quality is not good. Revibe then blocks that seller from direct shipping orders and enables the seller only for fulfillment.",
+      "evidence": [
+        {"kind": "say", "at": "01:23", "quote": "explaining the quality that we want most of the time when a seller gets blocked from {revive?} it's"},
+        {"kind": "say", "at": "01:31", "quote": "because the quality is not good {what?} we do is that we block the seller from doing direct"},
+        {"kind": "say", "at": "01:36", "quote": "shipping orders and we'll and we enable him only to do fulfillment doing this we can have like"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Fulfillment is a way to monitor a seller's quality closely, and to bring a seller who was doing badly back in line with the Revibe standard.",
+      "evidence": [
+        {"kind": "say", "at": "01:43", "quote": "a very good understanding of his quality so this is a good way to monitor and to make"},
+        {"kind": "say", "at": "01:50", "quote": "sure that a seller that was doing bad is now able to get aligned to the {standard?} that"}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "policy",
+      "statement": "Fulfillment gives fast delivery to customers in the UAE and South Africa.",
+      "evidence": [
+        {"kind": "say", "at": "01:57", "quote": "From fulfillment {we?} can also have fast delivery for customers in UAE and South Africa because as a"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Fulfillment is not available for Saudi Arabia. The trainer says it is available only for the UAE, South Africa and other countries where Revibe starts shipping.",
+      "evidence": [
+        {"kind": "say", "at": "02:04", "quote": "remainder fulfillment is not available for Saudi Arabia but only for UAE, South Africa and also other countries"},
+        {"kind": "see", "at": "02:48", "frame": "t00168.jpg", "quote": "Score logic slide, Fulfillment column: red X on the Saudi flag; green check on UAE and South Africa flags."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Through Fulfillment a seller can lock its prices and quantities. Trainer says Fulfillment has priority on direct shipping, which gives it priority on the buy box.",
+      "evidence": [
+        {"kind": "say", "at": "02:15", "quote": "Fulfillment enables sellers to lock their prices and their quantities since Fulfillment by Revive has priority on direct"},
+        {"kind": "say", "at": "02:24", "quote": "shipping {meaning?} that he has priority on the buy box we will offer {also?} we can also offer"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Fulfillment offers sellers better rates. A seller with a negative score has that score upgraded to 0% when selling through fulfillment, which gives better prices.",
+      "evidence": [
+        {"kind": "say", "at": "02:32", "quote": "to sellers better rates through fulfillment because reminder here as well but when a seller has a score"},
+        {"kind": "say", "at": "02:40", "quote": "being negative his score is upgraded at zero in the fulfillment another good reason for the sellers to"},
+        {"kind": "see", "at": "02:48", "frame": "t00168.jpg", "quote": "Badge 'Score upgraded at 0%, giving you better prices' beside the Fulfillment column for the 0% to -5% and < -5% rows."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Products sold through fulfillment are mostly shipped on time, which the trainer says improves the seller's performance rates and reduces its volume of claims.",
+      "evidence": [
+        {"kind": "say", "at": "02:51", "quote": "the fulfillment is that it enables them to have better performance rates because everything that will go through"},
+        {"kind": "say", "at": "02:57", "quote": "fulfillment will be mostly shipped on time and it's a way for them also to reduce their volume"},
+        {"kind": "say", "at": "03:05", "quote": "of claims and last thing is that devices sold through fulfillment are displayed on the {revive?} express section"}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Fulfillment is managed by what Revibe calls the lab.",
+      "evidence": [
+        {"kind": "say", "at": "03:14", "quote": "in the website also what you need to understand is that {fulfillment?} is managed by what we call"},
+        {"kind": "say", "at": "03:21", "quote": "the lab {and?} the lab has other purposes such as understanding the kind of quality we can find"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The lab also helps Revibe understand the quality found in the market. Most of the quality guidelines were based on discussions with the lab, and the lab treats invalid claims.",
+      "evidence": [
+        {"kind": "say", "at": "03:28", "quote": "in the market most of the quality guidelines that we established within {the?} {revive?} were based on discussions"},
+        {"kind": "say", "at": "03:35", "quote": "that we had with the lab because they were receiving every day quality from the market and from"},
+        {"kind": "say", "at": "03:47", "quote": "is also there to treat invalid claims and just also for a bit of context for you initially"}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "policy",
+      "statement": "Fulfillment is now restricted to two groups of sellers: sellers who cannot win orders with their buy box, and new sellers who have just been onboarded.",
+      "evidence": [
+        {"kind": "say", "at": "04:14", "quote": "{so?} this is why now fulfillment is restricted only to sellers being {code?} broken meaning that they cannot"},
+        {"kind": "say", "at": "04:22", "quote": "win orders with their buy box and sellers that have just been onboarding {sellers?} that are new so"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Score band '> 0%': direct shipping is allowed and fulfillment is allowed. There is no score upgrade badge in this band.",
+      "evidence": [
+        {"kind": "see", "at": "02:48", "frame": "t00168.jpg", "quote": "Row '> 0%': Direct shipping green check; Fulfillment green check; no upgrade badge."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Score band '0% to -5%': direct shipping is allowed, and fulfillment is allowed with the score upgraded at 0% (better prices).",
+      "evidence": [
+        {"kind": "see", "at": "02:48", "frame": "t00168.jpg", "quote": "Row '0% to -5%': Direct shipping green check; Fulfillment green check plus badge 'Score upgraded at 0%, giving you better prices'."},
+        {"kind": "say", "at": "02:40", "quote": "being negative his score is upgraded at zero in the fulfillment another good reason for the sellers to"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Score band '< -5%': direct shipping is NOT allowed (red X), and fulfillment is allowed with the score upgraded at 0% (better prices).",
+      "evidence": [
+        {"kind": "see", "at": "02:48", "frame": "t00168.jpg", "quote": "Row '< -5%': red X under Direct shipping; green check under Fulfillment with badge 'Score upgraded at 0%, giving you better prices'."},
+        {"kind": "say", "at": "01:31", "quote": "because the quality is not good {what?} we do is that we block the seller from doing direct"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Regional groups used in the Buybox catalog: AE = UAE + South Africa; SA = KSA + Kuwait.",
+      "evidence": [
+        {"kind": "see", "at": "02:48", "frame": "t00168.jpg", "quote": "Buybox slide (page 5, partly visible at bottom): badges 'UAE = UAE + South Africa' and 'SA = KSA + Kuwait'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The SKUs available tab lists the catalog products, ranked by Quantities recommended in descending order. The trainer says that for each SKU the seller can see the price and the quantity recommended (he is showing the super admin view).",
+      "evidence": [
+        {"kind": "say", "at": "05:00", "quote": "In this tab, sellers can see all the products we have in the catalog."},
+        {"kind": "say", "at": "05:05", "quote": "{they?} are ranked by quantities recommended like this and for each SKU they can see what is the"},
+        {"kind": "see", "at": "05:13", "frame": "t00313.jpg", "quote": "Sorted column Quantities recommended with down arrow; columns Category, Model, Product, Price, Quantities recommended, SKU."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "tip",
+      "statement": "Ignore the warranty plan rows in the SKUs available list. A seller cannot sell a warranty.",
+      "evidence": [
+        {"kind": "say", "at": "05:15", "quote": "price and what is the quantity recommended here don't pay attention to the warranty plans because obviously a"},
+        {"kind": "say", "at": "05:22", "quote": "seller cannot sell a warranty what you only need to understand is that you can have here the"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Quantities recommended = sales over the past two weeks in UAE and South Africa, minus the current stock in the inventory.",
+      "evidence": [
+        {"kind": "say", "at": "05:58", "quote": "quantity recommended are based on the sales we got over the past two weeks in UAE and South"},
+        {"kind": "say", "at": "06:03", "quote": "Africa minus the current stock we have in the inventory {if?} you take some devices you can see"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "SKU Status 'Free market' means the device is not in fulfillment at the moment, which the trainer says is the case for most devices. He says some devices show another status that displays as in stock or fulfillment; those status names are not confirmed on screen.",
+      "evidence": [
+        {"kind": "say", "at": "06:11", "quote": "that here the status is free market which means that the device is not in fulfillment at the"},
+        {"kind": "say", "at": "06:15", "quote": "moment which is the case for most devices but sometimes you can see some devices that are not"},
+        {"kind": "say", "at": "06:24", "quote": "free market and that will display like in stock or fulfillment so this is what you can see"},
+        {"kind": "see", "at": "06:09", "frame": "t00369.jpg", "quote": "Detail panel SKU Status: Free market."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Clicking a SKU row opens a detail panel with SKU, Supplier, Price, Category, Product, Model, SKU Status and Quantities recommended.",
+      "evidence": [
+        {"kind": "say", "at": "05:41", "quote": "see the {all?} the details related to this SKU and you can see who is seeing it me"},
+        {"kind": "see", "at": "05:44", "frame": "t00344.jpg", "quote": "Panel for 9999A1-000000 listing SKU, Supplier, Price, Category, Product, Model, SKU Status, Quantities recommended."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The SKUs available page has a Download button (top right) for exporting the data, and a filter icon that opens a filter panel with SKU, Category, Product, Model and SKU Status options.",
+      "evidence": [
+        {"kind": "say", "at": "06:31", "quote": "from the first page {you?} can download the data you can also here filter by category SKU product"},
+        {"kind": "see", "at": "06:34", "frame": "t00394.jpg", "quote": "Filter panel: SKU, Category, Product, Model, SKU Status, Clear. Download button at top right of the table."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The Price shown in the app is the price the seller sees, which the trainer says is the same price displayed in the seller's buy box.",
+      "evidence": [
+        {"kind": "say", "at": "06:37", "quote": "model or SKU status so this price that the sellers see here is exactly the same price that"},
+        {"kind": "say", "at": "06:47", "quote": "is displayed in their buy box here all the prices with 9999 means that currently there is no"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "A price of 9999 (shown as 9,999 on screen) means there is currently no price in the market. A seller who sets a lower price than this wins.",
+      "evidence": [
+        {"kind": "say", "at": "06:47", "quote": "is displayed in their buy box here all the prices with 9999 means that currently there is no"},
+        {"kind": "say", "at": "06:55", "quote": "price {in?} the market, meaning that if they put a price lower than this, they will win."},
+        {"kind": "see", "at": "06:50", "frame": "t00410.jpg", "quote": "Price column: warranty rows show 9,999."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "tip",
+      "statement": "Setting a price of 9998 is useless and will never sell, according to the trainer.",
+      "evidence": [
+        {"kind": "say", "at": "07:00", "quote": "{I?} mean, nonetheless, it's completely useless to put the price of 9998."},
+        {"kind": "say", "at": "07:08", "quote": "It will never sell."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    }
+  ],
+  "screens": [
+    {
+      "name": "Revibe - Fulfillment App (AppSheet web app, Chrome tab 1), left menu",
+      "shows": "Left menu, top to bottom: SKUs available, Shipments, Request products, Pending QC, All inventory, Fulfilment live inventory, Inventory to return, Naif to drop price, Supplier inventory, Inventory exits, Stock control, Invalids to fix, Charge inventory, Box inventory, Packaging request, Fulfilment expenses, About, App Gallery. The menu spells it Fulfilment; the window title reads Revibe - Fulfillment App.",
+      "at": "00:00 to 07:12",
+      "where": "Left navigation; the screen is the app's home page"
+    },
+    {
+      "name": "SKUs available table",
+      "shows": "Search bar (Search SKUs available), Download button and filter icon at top right. Columns: Category, Model, Product (star icon on the rows of the top frames), Price, Quantities recommended (sortable, down arrow when sorted), SKU. Rows ordered by Quantities recommended, starting with warranty plans (price 9,999, quantities 144, 71, 62, 46) and then iPhone, laptop and Samsung SKUs (e.g. 519 / 64, 860 / 50, 1,050 / 25).",
+      "at": "00:00 to 07:12",
+      "where": "Main panel of the Revibe - Fulfillment App"
+    },
+    {
+      "name": "SKU detail panel",
+      "shows": "Opened by clicking a row. Fields: SKU, Supplier, Price, Category, Product, Model, SKU Status, Quantities recommended. Examples on screen: 9999A1-000000 (Superadmin, 9,999, Warranty, Free market, 144, t00340/t00344); 010122-071103 (Superadmin, 856, iPhone, Free market, 31, t00369); 010113-060101 (Superadmin, 519, iPhone, Free market, 64, t00378); 010118-091903-TDRA (Superadmin, 1,050, iPhone, Free market, 25, t00374); 010205-073103 (Superadmin, 381, Samsung phone, Free market, 23, t00386).",
+      "at": "05:34 to 06:26",
+      "where": "Right side of the SKUs available page, with previous/next arrows and an expand icon"
+    },
+    {
+      "name": "Filter panel",
+      "shows": "Filter menu with items SKU, Category, Product, Model, SKU Status and a Clear button.",
+      "at": "06:31 to 06:37",
+      "where": "Right side, opened from the filter icon"
+    },
+    {
+      "name": "Google Drive PDF: Revibe documentation.pdf, page 4 of 5 (Score logic)",
+      "shows": "Score logic slide with three bands '> 0%', '0% to -5%', '< -5%'. Columns: Direct shipping (three flags: Saudi Arabia, UAE, South Africa; a check for the first two bands and a red X for '< -5%') and Fulfillment (red X on Saudi, green checks on UAE and South Africa). Badges 'Score upgraded at 0%, giving you better prices' on the two lower bands. Copyright line reads 2024. A small weekly-performance table on the left is not readable at this resolution (row labels partly legible, e.g. Orders, GMV, Fulfillment, Fulfillment share, UAE Price lock, KSA Price lock, On time, Claims, Score).",
+      "at": "02:48 to 03:08",
+      "where": "Chrome tab 2, Seller starter pack - EN version (Google Drive), frames t00168 and t00188"
+    },
+    {
+      "name": "Google Drive PDF: Revibe documentation.pdf, page 5 (Buybox), partly visible",
+      "shows": "Region badges 'UAE = UAE + South Africa' and 'SA = KSA + Kuwait'. Catalog table columns are only partly legible (for example Category, Model, Monthly Sales, Neutral Buybox AE, Neutral Buybox SA, Score, Buybox AE, Buybox SA, Wins AE, Wins SA, Price AE, Price SA, Min AE, Min SA).",
+      "at": "02:48 to 03:08",
+      "where": "Bottom of the Score logic page in the Drive viewer (frame t00168)"
+    },
+    {
+      "name": "Google Drive folder background (low resolution)",
+      "shows": "Partly legible file names: Video trainings, Copy of 1_Fulfillment App, Fulfillment App - User Guide.pdf, Fulfillment Packaging Guidelines, Packaging guidelines.pdf, Quality guidelines.pdf, Returns Refund Policy.pdf, Revibe documentation.pdf, Revibe Seller Agreement, Revibe-Return Process.pdf.",
+      "at": "02:48 to 03:08",
+      "where": "Behind the PDF viewer in the Drive tab (frames t00168, t00188)"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Fulfillment (Fulfillment by Revibe)",
+      "meaning": "Revibe-managed service in which sellers send their first shipments to Revibe and Revibe runs a second QC, packaging and shipping for them. Trainer says 'Fulfillment by Revive'. Used to recruit sellers, support new sellers, and manage sellers blocked for quality.",
+      "at": "00:20"
+    },
+    {
+      "term": "Direct shipping",
+      "meaning": "The seller ships its own orders. The score rules decide whether a seller may do it. A seller blocked for quality is barred from it.",
+      "at": "01:31"
+    },
+    {
+      "term": "Buy box",
+      "meaning": "The seller offer shown to customers. The trainer says Fulfillment has priority on the buy box over direct shipping. The price shown in the app is the price displayed in the seller's buy box.",
+      "at": "02:24"
+    },
+    {
+      "term": "Score",
+      "meaning": "Seller performance score in percent, shown in bands: > 0%, 0% to -5%, < -5%. A negative score is upgraded to 0% when the seller sells through fulfillment.",
+      "at": "02:40"
+    },
+    {
+      "term": "Lab",
+      "meaning": "Revibe's lab. The trainer says it manages fulfillment, helped establish the quality guidelines, and treats invalid claims.",
+      "at": "03:14"
+    },
+    {
+      "term": "Quantities recommended",
+      "meaning": "Recommended stock quantity per SKU: sales over the past two weeks in UAE and South Africa minus current inventory stock.",
+      "at": "05:58"
+    },
+    {
+      "term": "SKU",
+      "meaning": "Stock keeping unit. Each row in the SKUs available list is one SKU, e.g. 9999A1-000000 or 010118-091903-TDRA.",
+      "at": "05:00"
+    },
+    {
+      "term": "Free market (SKU Status)",
+      "meaning": "The device is not in fulfillment at the moment. The trainer says this is the status of most devices.",
+      "at": "06:11"
+    },
+    {
+      "term": "Warranty plan",
+      "meaning": "A warranty SKU (category Warranty, price 9,999). The trainer says a seller cannot sell a warranty, so the rows can be ignored.",
+      "at": "05:22"
+    },
+    {
+      "term": "Express section",
+      "meaning": "Implied: a section of the Revibe website where devices sold through fulfillment are displayed. The word before 'express section' is unreliable in the speech.",
+      "at": "03:05"
+    },
+    {
+      "term": "AE / SA regions",
+      "meaning": "Buybox regional groups. AE = UAE + South Africa. SA = KSA + Kuwait.",
+      "at": "02:48"
+    },
+    {
+      "term": "Superadmin (Supplier value)",
+      "meaning": "The Supplier value shown on the SKU panels in this view. The trainer says he is showing the super admin view and contrasts it with the seller view.",
+      "at": "05:49"
+    },
+    {
+      "term": "Claims",
+      "meaning": "Implied: customer claims against a seller. The trainer says fulfillment reduces the volume of claims. Invalid claims are handled by the lab.",
+      "at": "02:57"
+    }
+  ],
+  "asr_fixes": [
+    {
+      "at": "00:26",
+      "heard": "Revive",
+      "correct": "Revibe",
+      "basis": "Screen: app title 'Revibe - Fulfillment App' (t00000.jpg) and Drive file 'Revibe documentation.pdf' (t00168.jpg). The same mishearing recurs at 02:15 ('Fulfillment by Revive') and 03:28 ('{revive?}')."
+    },
+    {
+      "at": "02:15",
+      "heard": "Fulfillment by Revive",
+      "correct": "Fulfillment by Revibe",
+      "basis": "Screen: 'Revibe - Fulfillment App' (t00000.jpg)."
+    }
+  ],
+  "unclear": [
+    {
+      "at": "03:05",
+      "issue": "'devices sold through fulfillment are displayed on the {revive?} express section in the website': the word before 'express section' is unreliable and no frame shows the website, so the name of the section cannot be confirmed."
+    },
+    {
+      "at": "05:27",
+      "issue": "'the products all the ones with stars mean that we were selling more than' and '{ten?} over the past two weeks': the threshold is unconfirmed. In t00333 the star icon is visible on the rows with quantity 10 and not on the visible rows with quantity 9 or 8; stars are visible on all rows of the top frames. The speech does not state the threshold clearly, so the star meaning is not stated."
+    },
+    {
+      "at": "05:41",
+      "issue": "'you can see who is seeing it me': the sentence is unfinished and the meaning is unclear. It is not known what 'who is seeing it' refers to, so it is not stated."
+    },
+    {
+      "at": "04:14",
+      "issue": "'sellers being {code?} broken': the qualifier word is unreliable and no screen confirms it. The rule only states that sellers who cannot win orders with their buy box are restricted, so the exact label is not recorded."
+    },
+    {
+      "at": "04:01",
+      "issue": "'fulfillment by noon by amazon' and 'noon and {amazon?}': the name of the other marketplace's service is unconfirmed."
+    },
+    {
+      "at": "06:24",
+      "issue": "'like in stock or fulfillment': the speech names two other SKU statuses, but only Free market appears on screen in frames t00369 to t00410. The other status names are not confirmed."
+    },
+    {
+      "at": "02:48",
+      "issue": "Score logic table (Revibe documentation.pdf page 4): the small weekly-performance table on the left cannot be read at this resolution. Row labels were partly readable, but the values and the exact thresholds behind the score are not confirmed."
+    },
+    {
+      "at": "07:10",
+      "issue": "'So for most of the prices, for most of the SKUs where the price is {realistic?} price, sellers': the sentence is cut at the end of part 1. The rule about realistic prices is not stated here; it continues in part 2."
+    },
+    {
+      "at": "01:23",
+      "issue": "'when a seller gets blocked from {revive?}': the word after 'blocked from' is unreliable, so the blocking body is not stated beyond 'blocked from Revibe' as the likely reading."
+    }
+  ],
+  "outdated": [
+    {
+      "at": "02:48",
+      "signal": "Score logic slide is from Revibe documentation.pdf, copyright line '© 2024' (t00168.jpg). The score bands and fulfillment countries may have changed since."
+    },
+    {
+      "at": "02:04",
+      "signal": "'other countries where we start shipping' refers to future expansion. The current list of fulfillment countries is not confirmed."
+    },
+    {
+      "at": "04:07",
+      "signal": "'then it became too big' and 'now fulfillment is restricted only to ...': the trainer describes an earlier open policy and a later restriction. The restriction is the current rule as of this video, but the wording marks a change that may be reversed."
+    },
+    {
+      "at": "04:41",
+      "signal": "'there will be another video only for the sellers with a seller view': refers to a separate video that is not part of this pack."
+    }
+  ],
+  "privacy": [],
+  "audit": {
+    "checked": 75,
+    "removed": [
+      {
+        "statement": "Step 02:04 action: trainer 'points at the Direct shipping and Fulfillment columns while talking'",
+        "reason": "Neither the speech nor the frames show him pointing at those columns."
+      },
+      {
+        "statement": "Step 05:05 evidence 'arrow on header from t00295 onward' and 'frame t00275 shows the cursor on that header just before sorting'",
+        "reason": "t00295 and t00275 show no sort arrow, and in t00275 the cursor is in the table body, not on the header. The arrow first appears at t00317; the cursor is on the header at t00311."
+      },
+      {
+        "statement": "asr_fixes entry at 05:05 changing '{they?} are ranked' to 'Rows are ranked by Quantities recommended (descending)'",
+        "reason": "The word is not a name, number or product term that the screen corrects. The sort is recorded as a screen fact in the step instead."
+      },
+      {
+        "statement": "Term 'Express section' meaning 'Section of the Revibe website'",
+        "reason": "The speech only says 'in the website' with an unreliable word before 'express section'. Kept only as Implied."
+      }
+    ],
+    "corrected": [
+      {"before": "Step 02:04 time, Drive tab shown from 02:04 and frame t00157 cited as the Score logic slide", "after": "Drive tab shown from 02:37 (cursor on the tab in t00157); Score logic slide first visible in t00168 at 02:48", "reason": "t00157 shows the SKUs available app table. The slide is in t00168."},
+      {"before": "Step 02:04 'switches back to the app tab (t00188)'", "after": "Drive tab still shown at 03:08 (t00188); app shown again by 03:18 (t00198)", "reason": "t00188 still shows the Drive slide; t00198 shows the app."},
+      {"before": "Step 00:20 'explains the purpose verbally over the same page for about 4 minutes (frames t00020 to t00120 show no change on screen)'", "after": "The app stays on the SKUs available table through t00157 (02:37); the Drive tab appears from 02:48 to about 03:15", "reason": "The screen changes to Drive between 02:37 and 03:18, so the claim of no change for 4 minutes is not accurate."},
+      {"before": "Score logic evidence cited as frame t00157 (page 4 slide, Direct shipping and Fulfillment columns, badges, Buybox page 5 badges)", "after": "Same facts cited to frame t00168 (02:48)", "reason": "Frame t00168 is the Drive slide; t00157 is the app table."},
+      {"before": "Fact 'Products sold through fulfillment...' stated as fact", "after": "Trainer says ... (speech only)", "reason": "The statement is a trainer claim, not a screen fact."},
+      {"before": "Fact: 'During the onboarding period, Fulfillment includes a second QC...'", "after": "'Fulfillment gives sellers smooth operations when they start...'", "reason": "The speech says 'when they start'; 'during the onboarding period' is an addition."},
+      {"before": "Fact: 'can keep learning and reviewing orders and claims'", "after": "'can keep learning in the meantime'", "reason": "Speech says they can keep learning; 'reviewing orders and claims' is not stated."},
+      {"before": "Fact: 'Fulfillment is a way to ... sellers blocked ... usually because'", "after": "'most of the time because'", "reason": "Wording follows the trainer's 'most of the time' (01:23)."},
+      {"before": "Fact: 'Fulfillment enables... Because Fulfillment by Revibe has priority on direct shipping, it also has priority on the buy box' stated as fact at high confidence", "after": "Trainer says ... ; confidence medium", "reason": "The word '{meaning?}' is unreliable at 02:24 and the priority rule is only spoken."},
+      {"before": "Fact 'Fulfillment is not available for Saudi Arabia... only for UAE, South Africa and other countries'", "after": "Trainer says it is available only for ...", "reason": "Speech is the source of the countries; the screen only confirms Saudi X and UAE and SA checks."},
+      {"before": "Step 05:34 evidence quote '{ten?} over the past two weeks...' and 'see the {all?} ... who is seeing it me'", "after": "Evidence limited to 05:41 quote 'see the {all?} the details related to this SKU'", "reason": "The removed words do not describe the panel; 'who is seeing it' is unclear (see unclear list)."},
+      {"before": "Step 04:28 'why' cited to 04:28 with the trainer quote", "after": "Why cites the trainer's words at 04:52", "reason": "The quoted sentence is at 04:52."},
+      {"before": "Step 06:09 frame t00369 for all four panels", "after": "Panels cited to t00369 (010122-071103), t00374 (010118-091903-TDRA), t00378 (010113-060101) and t00386 (010205-073103)", "reason": "Each panel appears in a different frame."},
+      {"before": "Screen 'SKUs available table': 'Product (with a star icon on each row)'", "after": "'Product (star icon on the rows of the top frames)'", "reason": "In t00333 the star icon is not visible on the rows with quantity 9 or 8."},
+      {"before": "Screen 'Score logic': 'Direct shipping (flags for Saudi Arabia, UAE, South Africa)' and Fulfillment column with the badges", "after": "Same content, cited to t00168 (02:48 to 03:08)", "reason": "Frame correction."},
+      {"before": "Unclear 05:27: 'the star ... on rows with quantities 10, 9 and 8'", "after": "Stars visible on rows with quantity 10 in t00333, not on visible rows with 9 or 8; threshold unconfirmed", "reason": "Checked t00333; rows with 9 and 8 show no star."},
+      {"before": "Unclear 02:37 for the Score logic table", "after": "Unclear 02:48 (t00168)", "reason": "Frame correction."},
+      {"before": "Outdated 02:37 copyright signal", "after": "Outdated 02:48 (t00168)", "reason": "Frame correction."},
+      {"before": "Summary: 'All 40 listed frames were opened' and 'Score rules are shown on... (t00168)'", "after": "All 40 frames opened, with the Drive slide at t00168", "reason": "Verified on each frame; frame list kept."},
+      {"before": "Term 'Fulfillment ... sends devices to Revibe, which runs QC, packaging and shipping'", "after": "Sellers send their first shipments to Revibe; Revibe runs a second QC, packaging and shipping", "reason": "Speech supports the second QC and first shipments; 'devices' is generalised."},
+      {"before": "Screen 'SKUs available' 'For each SKU the seller sees the price and the quantity recommended'", "after": "The trainer says the seller can see ... (he is showing the super admin view)", "reason": "The screen is the super admin view."},
+      {"before": "Step 06:31 'Trainer points out data can be downloaded...'", "after": "Download button visible on all table frames; filter panel at t00394", "reason": "The pointing is not visible; the frames confirm the controls."}
+    ],
+    "added": [
+      "Frame t00374 (06:14): SKU panel 010118-091903-TDRA, Superadmin, Price 1,050, Category iPhone, Product iphone-13512 GBVery GoodGreen TDRA, SKU Status Free market, Quantities recommended 25.",
+      "Frame t00378 (06:18): SKU panel 010113-060101, Superadmin, Price 519, Category iPhone, Product iphone-1264 GBGoodBlack, SKU Status Free market, Quantities recommended 64.",
+      "Frame t00386 (06:26): SKU panel 010205-073103, Superadmin, Price 381, Category Samsung phone, Product galaxy-s20-fe128 GBExcellentCloud Navy, SKU Status Free market, Quantities recommended 23.",
+      "Frame t00311 (05:11): the cursor sits on the Quantities recommended header before sorting; frame t00317 (05:17) shows the arrow.",
+      "Frame t00198 (03:18): the app tab is back on SKUs available after the Drive segment."
+    ]
+  }
+}

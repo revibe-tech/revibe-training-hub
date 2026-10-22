@@ -1,0 +1,827 @@
+{
+  "summary": "Part 5 of the Revibe 11.0 Dashboard (KAMs) video (25:19 to 29:58) covers the Supply dashboard Scores tab and the weekly Thursday score routine (steps 1 to 5, with step 5 for the KAM), the Tools tab (Meeting notes, Seller onboarding, Seller info), a quick look at the Team and Price recs tabs, the KPIs placeholder, and the closing daily routine. All 33 frames in the pack were opened and checked. Subtitles often appear one frame later than the pack's frame ids, so frame ids were corrected where the screen showed a different caption. Step 4 (close buy box below -5%) is narration only; no frame shows its subtitle. Several counts differ between tabs and are logged as unclear. Snapshot footers are dated 2026-10-16, six days before today (2026-10-22).",
+  "frames_opened": 33,
+  "steps": [
+    {
+      "at": "25:19",
+      "screen": "Supply dashboard > Scores tab (table view)",
+      "action": "Points at the Current, New, Manual adjustment and Code broken columns of the score table; subtitle says the seller is flagged automatically when the new score is below minus 5%.",
+      "evidence": [
+        {"kind": "say", "at": "25:22", "frame": "t01519.jpg", "quote": "When the new score is below minus 5%, the seller is flagged automatically."},
+        {"kind": "see", "at": "25:19", "frame": "t01519.jpg", "quote": "Subtitle: Then the Current score, the New score calculated this week, the Manual adjustment, and Code broken. When the new score is below minus five percent, the seller is flagged automatically. Column CODE BROKEN shows checkbox with note auto: new < -5%."}
+      ],
+      "says": "When the new score is below minus 5%, the seller is flagged automatically.",
+      "why": ""
+    },
+    {
+      "at": "25:29",
+      "screen": "Scores tab, top filter bar",
+      "action": "Points at the filter buttons (All, Active, OUT, OFF), the Sellers picker (Sellers: all) and the Copy, CSV and SQL export buttons. Active is shown selected (green) from frame t01533 onward.",
+      "evidence": [
+        {"kind": "say", "at": "25:29", "frame": "t01533.jpg", "quote": "At the top you can filter all active out or off, pick sellers, and export with copy, CSV,"},
+        {"kind": "say", "at": "25:36", "frame": "t01533.jpg", "quote": "or the SQL buttons."},
+        {"kind": "see", "at": "25:33", "frame": "t01533.jpg", "quote": "Filter buttons All, Active (selected, green), OUT, OFF; Sellers: all; Copy, CSV, SQL; SQL updates greyed."}
+      ],
+      "says": "At the top you can filter all active out or off, pick sellers, and export with copy, CSV, or the SQL buttons.",
+      "why": ""
+    },
+    {
+      "at": "25:38",
+      "screen": "Scores tab, Cost index simulation panel",
+      "action": "Points at the collapsed Cost index simulation bar and says it shows how the new scores would change the buy box ranking on live quotes.",
+      "evidence": [
+        {"kind": "say", "at": "25:38", "frame": "t01533.jpg", "quote": "The cost index simulation shows how the new scores would change the buy box ranking on live quotes."},
+        {"kind": "see", "at": "25:38", "frame": "t01533.jpg", "quote": "Collapsed bar 'Cost index simulation' with text: New scores and Code broken ticks, re-ranked on the live Buybox quotes."}
+      ],
+      "says": "The cost index simulation shows how the new scores would change the buy box ranking on live quotes.",
+      "why": ""
+    },
+    {
+      "at": "25:49",
+      "screen": "Scores tab, weekly routine",
+      "action": "Introduces the weekly routine: scores are updated every Thursday and the routine has steps.",
+      "evidence": [
+        {"kind": "say", "at": "25:49", "frame": "t01552.jpg", "quote": "Now the weekly routine."},
+        {"kind": "say", "at": "25:51", "frame": "t01552.jpg", "quote": "Scores are updated every Thursday and here's how it works, step-by-step."}
+      ],
+      "says": "Scores are updated every Thursday and here's how it works, step-by-step.",
+      "why": ""
+    },
+    {
+      "at": "25:56",
+      "screen": "Scores tab, header row highlighted",
+      "action": "Step 1 (Pepe): checks the scores in the Scores tab and makes manual updates where a seller's situation justifies it.",
+      "evidence": [
+        {"kind": "say", "at": "25:58", "frame": "t01560.jpg", "quote": "Pepe checks the scores in this tab and makes the manual updates where a seller's situation justifies it."},
+        {"kind": "see", "at": "25:56", "frame": "t01560.jpg", "quote": "Orange box around the table header row (SELLER, KPI, SCORE IMPACT, MIX ADJ, SCORE). Subtitle: Step one. Pepe checks the scores in this tab and makes the manual updates where a seller's situation justifies it."}
+      ],
+      "says": "Pepe checks the scores in this tab and makes the manual updates where a seller's situation justifies it.",
+      "why": ""
+    },
+    {
+      "at": "26:06",
+      "screen": "Scores tab",
+      "action": "Step 2 (Pepe): sends an email to all account managers with the week's information: which sellers moved, and why.",
+      "evidence": [
+        {"kind": "say", "at": "26:07", "frame": "t01569.jpg", "quote": "Pepe sends an email to all account managers with the information for the week, which sellers moved and"},
+        {"kind": "say", "at": "26:13", "frame": "t01569.jpg", "quote": "why."},
+        {"kind": "see", "at": "26:06", "frame": "t01569.jpg", "quote": "Subtitle: Step two. Pepe sends an email to all account managers with the information for the week: which sellers moved, and why."}
+      ],
+      "says": "Pepe sends an email to all account managers with the information for the week, which sellers moved and why.",
+      "why": ""
+    },
+    {
+      "at": "26:15",
+      "screen": "Scores tab",
+      "action": "Step 3 (Pepe): updates the scores so the new scores become the live ones.",
+      "evidence": [
+        {"kind": "say", "at": "26:16", "frame": "t01579.jpg", "quote": "Pepe updates the scores so the new scores become the live ones."},
+        {"kind": "see", "at": "26:15", "frame": "t01579.jpg", "quote": "Subtitle: Step three. Pepe updates the scores, so the new scores become the live ones."}
+      ],
+      "says": "Pepe updates the scores so the new scores become the live ones.",
+      "why": ""
+    },
+    {
+      "at": "26:22",
+      "screen": "Scores tab (narration only; no sampled frame shows this subtitle)",
+      "action": "Step 4 (Pepe): closes the buy box of every seller whose score is below minus 5%.",
+      "evidence": [
+        {"kind": "say", "at": "26:23", "frame": "", "quote": "Pepe closes the buy box of every seller whose score is below minus 5%."}
+      ],
+      "says": "Pepe closes the buy box of every seller whose score is below minus 5%.",
+      "why": ""
+    },
+    {
+      "at": "26:28",
+      "screen": "Scores tab, cursor on SELLER header",
+      "action": "Step 5 (for the KAM, the viewer): after the email, go through your sellers and make the score adjustments needed in Tools > Seller info, each with a rationale; reopen the buy box for sellers who have fixed their issues; and work with sellers so that they perform.",
+      "evidence": [
+        {"kind": "say", "at": "26:28", "frame": "t01593.jpg", "quote": "And step 5 is all yours."},
+        {"kind": "say", "at": "26:32", "frame": "t01593.jpg", "quote": "After the email, go through your sellers, make the score adjustments that are needed in tools, seller info,"},
+        {"kind": "say", "at": "26:38", "frame": "t01593.jpg", "quote": "with a rationale, reopen the buy box for sellers who have fixed their issues, and above all work"},
+        {"kind": "say", "at": "26:44", "frame": "t01593.jpg", "quote": "with your sellers so that they perform."},
+        {"kind": "see", "at": "26:33", "frame": "t01593.jpg", "quote": "Subtitle: And step five is all yours! After the email, go through your sellers: make the score adjustments that are needed in Tools, Seller info, with a rationale, reopen the buy box for sellers who have fixed their issues, and above all work with your sellers so that they perform."}
+      ],
+      "says": "After the email, go through your sellers, make the score adjustments that are needed in tools, seller info, with a rationale, reopen the buy box for sellers who have fixed their issues, and above all work with your sellers so that they perform.",
+      "why": ""
+    },
+    {
+      "at": "26:46",
+      "screen": "Scores tab",
+      "action": "Says that every point on on-time, defect rate, days to solve and claims coverage counts as score for the sellers next Thursday.",
+      "evidence": [
+        {"kind": "say", "at": "26:46", "frame": "t01593.jpg", "quote": "Every Every point on on-time, defect rate, days to solve and claims coverage is score for them"},
+        {"kind": "say", "at": "26:52", "frame": "t01593.jpg", "quote": "next Thursday."},
+        {"kind": "see", "at": "26:46", "frame": "t01593.jpg", "quote": "Subtitle: ...Every point on on time, defect rate, days to solve and claims coverage is score for them next Thursday."}
+      ],
+      "says": "Every Every point on on-time, defect rate, days to solve and claims coverage is score for them next Thursday.",
+      "why": ""
+    },
+    {
+      "at": "26:55",
+      "screen": "Supply dashboard, Daily / KAM / Sellers tabs (named, not opened in this part)",
+      "action": "Says to use the Daily, KAM and Sellers tabs to see exactly which orders and claims each seller has to fix.",
+      "evidence": [
+        {"kind": "say", "at": "26:55", "frame": "t01618.jpg", "quote": "Use the daily, KAM and sellers tabs to see exactly which orders and claims each seller has to"},
+        {"kind": "say", "at": "27:01", "frame": "t01618.jpg", "quote": "fix."},
+        {"kind": "say", "at": "27:02", "frame": "t01618.jpg", "quote": "That's how a score moves, and that's how your sellers win."},
+        {"kind": "see", "at": "26:58", "frame": "t01618.jpg", "quote": "Subtitle: Use the Daily, KAM and Sellers tabs to see exactly which orders and claims each seller has to fix. That's how a score moves, and that's how your sellers win."}
+      ],
+      "says": "Use the daily, KAM and sellers tabs to see exactly which orders and claims each seller has to fix.",
+      "why": ""
+    },
+    {
+      "at": "27:09",
+      "screen": "Supply dashboard > Tools tab",
+      "action": "Clicks the Tools tab. It holds the forms used with sellers. Each tool opens in a right-side panel with Open, or in a new browser tab with New tab.",
+      "evidence": [
+        {"kind": "say", "at": "27:09", "frame": "t01629.jpg", "quote": "Last but not least, the Tools tab."},
+        {"kind": "say", "at": "27:12", "frame": "t01629.jpg", "quote": "It holds the forms you use with sellers."},
+        {"kind": "say", "at": "27:15", "frame": "t01629.jpg", "quote": "Each one opens in a panel on the right with Open, or in a new browser tab."},
+        {"kind": "see", "at": "27:09", "frame": "t01629.jpg", "quote": "Tools page with three cards: Meeting notes, Seller onboarding, Seller info; each has Open and New tab buttons."}
+      ],
+      "says": "Each one opens in a panel on the right with Open, or in a new browser tab.",
+      "why": ""
+    },
+    {
+      "at": "27:21",
+      "screen": "Tools > Meeting notes card",
+      "action": "Clicks Open on the Meeting notes card to log a seller meeting or call.",
+      "evidence": [
+        {"kind": "say", "at": "27:21", "frame": "", "quote": "Meeting Notes is where you log every meeting or call with a seller."},
+        {"kind": "say", "at": "27:25", "frame": "", "quote": "These notes feed the meeting sections in Daily, KAM, and Sellers, so log every contact."},
+        {"kind": "say", "at": "27:33", "frame": "t01655.jpg", "quote": "Let's open Meeting Notes."},
+        {"kind": "see", "at": "27:33", "frame": "t01659.jpg", "quote": "Right-side panel titled Meeting notes with form: SELLER (Select a seller), CREATED BY (Select your name), DATE (16/10), NOTES (placeholder Enter your notes here...), Submit button, footer Revibe internal tool."}
+      ],
+      "says": "Meeting Notes is where you log every meeting or call with a seller.",
+      "why": ""
+    },
+    {
+      "at": "27:38",
+      "screen": "Tools > Meeting notes panel",
+      "action": "Fills the form: chooses the seller, chooses their own name in Created By, checks the date, writes what was discussed and the next steps in Notes, then presses Submit.",
+      "evidence": [
+        {"kind": "say", "at": "27:38", "frame": "t01659.jpg", "quote": "Choose the seller, choose your name in Created By, check the date, write what was discussed and the"},
+        {"kind": "say", "at": "27:44", "frame": "t01659.jpg", "quote": "next steps in Notes and press Submit."},
+        {"kind": "say", "at": "27:47", "frame": "t01659.jpg", "quote": "It takes just a minute, and it's what makes your meeting count."}
+      ],
+      "says": "Choose the seller, choose your name in Created By, check the date, write what was discussed and the next steps in Notes and press Submit.",
+      "why": ""
+    },
+    {
+      "at": "27:52",
+      "screen": "Tools > Seller onboarding",
+      "action": "Opens Seller onboarding to create a new seller: pick the seller from the available list, validate it, then fill in the company and legal name, the account manager, contacts, address and trade licence number.",
+      "evidence": [
+        {"kind": "say", "at": "27:52", "frame": "t01673.jpg", "quote": "Seller Onboarding is the form to create a new seller."},
+        {"kind": "say", "at": "27:55", "frame": "t01673.jpg", "quote": "Pick the seller from the available list, validate it, then fill in the company and legal name, the"},
+        {"kind": "say", "at": "28:01", "frame": "t01673.jpg", "quote": "account manager, contacts, address and trade license number."},
+        {"kind": "see", "at": "27:55", "frame": "t01673.jpg", "quote": "Subtitle: Seller onboarding is the form to create a new seller: pick the seller from the available list, validate it, then fill in the company and legal name, the account manager, contacts, address and trade licence number. The panel opened blank in frame t01675."}
+      ],
+      "says": "Seller Onboarding is the form to create a new seller.",
+      "why": ""
+    },
+    {
+      "at": "28:07",
+      "screen": "Tools > Seller info",
+      "action": "Opens Seller info to look up and update an existing seller. The form starts with an Available sellers picker showing 223.",
+      "evidence": [
+        {"kind": "say", "at": "28:07", "frame": "t01690.jpg", "quote": "Seller Info is where you look up and update an existing seller."},
+        {"kind": "say", "at": "28:11", "frame": "t01690.jpg", "quote": "It's status, account manager, address and contacts, bank details, courier keys, and legal documents such as the TRN"},
+        {"kind": "say", "at": "28:20", "frame": "t01692.jpg", "quote": "and the trade license expiry."},
+        {"kind": "see", "at": "28:20", "frame": "t01707.jpg", "quote": "Seller Information form: Select a seller to view and edit their information. AVAILABLE SELLERS 223 dropdown set to -- Select --. Footer Workflow n8n Revibe Operations 3.0."}
+      ],
+      "says": "Seller Info is where you look up and update an existing seller.",
+      "why": ""
+    },
+    {
+      "at": "28:22",
+      "screen": "Tools > Seller info",
+      "action": "Says that keeping seller information up to date is what clears the Legal list.",
+      "evidence": [
+        {"kind": "say", "at": "28:22", "frame": "t01692.jpg", "quote": "Keeping it up to date is what clears the legal list."}
+      ],
+      "says": "Keeping it up to date is what clears the legal list.",
+      "why": ""
+    },
+    {
+      "at": "28:26",
+      "screen": "Tools > Seller info (score section named in narration; not visible on screen)",
+      "action": "Says the form has a score section for making a score adjustment for a seller: enter the new score, choose the rationale, pick Restart, Recover or Correction, and save. Details are deferred to the Scores video.",
+      "evidence": [
+        {"kind": "say", "at": "28:26", "frame": "t01707.jpg", "quote": "It also has the score section."},
+        {"kind": "say", "at": "28:29", "frame": "t01707.jpg", "quote": "This is where you make a score adjustment for a seller."},
+        {"kind": "say", "at": "28:32", "frame": "t01711.jpg", "quote": "Enter the new score, choose the rationale, restart, recover or correction, and save."},
+        {"kind": "say", "at": "28:38", "frame": "t01711.jpg", "quote": "We come back to this in the scores video."},
+        {"kind": "see", "at": "28:31", "frame": "t01711.jpg", "quote": "Subtitle: It also has the Score section. This is where you make a score adjustment for a seller: enter the new score, choose the rationale, Restart, Recover or Correction, and save. Score section not visible on screen; the form shows only the Seller Information picker."}
+      ],
+      "says": "Enter the new score, choose the rationale, restart, recover or correction, and save.",
+      "why": ""
+    },
+    {
+      "at": "28:42",
+      "screen": "Tools panel (any tool)",
+      "action": "Says a tool panel closes with the cross in its top right corner, or any tool opens full screen with New tab.",
+      "evidence": [
+        {"kind": "say", "at": "28:42", "frame": "t01726.jpg", "quote": "Close the panel with the cross in its top right corner or use new tab to open any"},
+        {"kind": "say", "at": "28:47", "frame": "t01726.jpg", "quote": "tool full screen."},
+        {"kind": "see", "at": "28:42", "frame": "t01711.jpg", "quote": "Panel header has a New tab button and a close cross (x) at the top right."}
+      ],
+      "says": "Close the panel with the cross in its top right corner or use new tab to open any tool full screen.",
+      "why": ""
+    },
+    {
+      "at": "28:52",
+      "screen": "Supply dashboard > Team tab",
+      "action": "Quick look at the other tabs. Narration says the Team tab has the same sections as the KAM tab, for the whole team at once.",
+      "evidence": [
+        {"kind": "say", "at": "28:52", "frame": "t01734.jpg", "quote": "To wrap up, a quick look at the other tabs."},
+        {"kind": "say", "at": "28:57", "frame": "t01738.jpg", "quote": "Team has exactly the same sections as the KAM tab for the whole team at once."}
+      ],
+      "says": "Team has exactly the same sections as the KAM tab for the whole team at once.",
+      "why": ""
+    },
+    {
+      "at": "29:03",
+      "screen": "Supply dashboard > Team tab",
+      "action": "Says the Team tab is useful for comparing your book with everyone's, but day to day the KAM tab is the one to use.",
+      "evidence": [
+        {"kind": "say", "at": "29:03", "frame": "t01738.jpg", "quote": "It is useful to compare your book with everyone's, but day to day, your KAM tab is the"},
+        {"kind": "say", "at": "29:08", "frame": "t01738.jpg", "quote": "one to use."}
+      ],
+      "says": "It is useful to compare your book with everyone's, but day to day, your KAM tab is the one to use.",
+      "why": "The narration gives the reason: it is useful to compare your book with everyone's."
+    },
+    {
+      "at": "29:11",
+      "screen": "Supply dashboard > Price recs tab",
+      "action": "Clicks Price recs. The tab loads in three stages (Reading the live buybox sheet, Diagnosing cost moves, Ranking emergencies), each shown on its own frame, then lists the cost problems worth acting on.",
+      "evidence": [
+        {"kind": "say", "at": "29:11", "frame": "t01754.jpg", "quote": "PriceRex, short for price recommendations, lists the few buy box cost problems worth acting on, where our live"},
+        {"kind": "say", "at": "29:18", "frame": "t01754.jpg", "quote": "buy box costs jumped compared with last week or last month on products with real demand."},
+        {"kind": "say", "at": "29:24", "frame": "t01759.jpg", "quote": "Each row names the seller to call and the target price, ranked by the GMV at risk."},
+        {"kind": "see", "at": "29:14", "frame": "t01754.jpg", "quote": "Loading: Reading the live buybox sheet... 0.9s. Subtitle: Price recs, short for price recommendations, lists the few buybox cost problems worth acting on."},
+        {"kind": "see", "at": "29:19", "frame": "t01759.jpg", "quote": "Loading: Diagnosing cost moves... 5.5s."},
+        {"kind": "see", "at": "29:19", "frame": "t01765.jpg", "quote": "Loading: Ranking emergencies... 11.1s."}
+      ],
+      "says": "PriceRex, short for price recommendations, lists the few buy box cost problems worth acting on, where our live buy box costs jumped compared with last week or last month on products with real demand.",
+      "why": ""
+    },
+    {
+      "at": "29:25",
+      "screen": "Supply dashboard > Price recs tab (live table)",
+      "action": "Reads the live table: cost emergencies, GMV at risk, the Why cost rose column and the Action column for each row, ranked by GMV at risk per month.",
+      "evidence": [
+        {"kind": "see", "at": "29:28", "frame": "t01775.jpg", "quote": "Header: PRICE RECOMMENDATIONS · BUYBOX COST EMERGENCIES, Live · AE+ZA & SA · updated 21:59. Cards: COST EMERGENCIES 6; GMV AT RISK / MONTH AED 385,911; UNITS / MONTH AT RISK 217 (elasticity 7). Row 1: SA, iphone-16-pro-max 256 GB Very Good, current winner Sabir Karim Phones @ 2,857 (0101210-08C402), cost 2,689 to 2,857 (+6% vs last week, moved this week), units/mo 99, GMV/mo at risk 150,033. Action: Ask SteppingStone (AM Pepe) to drop 2,640 to 2,635 on 0101210-08C402 to win the buybox, cost 2,857 to 2,635 (-222)."},
+        {"kind": "say", "at": "29:32", "frame": "t01775.jpg", "quote": "KPIs and Periscope are empty for now."}
+      ],
+      "says": "KPIs and Periscope are empty for now.",
+      "why": ""
+    },
+    {
+      "at": "29:35",
+      "screen": "Supply dashboard > KPIs tab",
+      "action": "Shows the KPIs tab, which is an empty placeholder for now.",
+      "evidence": [
+        {"kind": "say", "at": "29:35", "frame": "t01775.jpg", "quote": "They will be filled in later."},
+        {"kind": "see", "at": "29:41", "frame": "t01781.jpg", "quote": "Faint placeholder text 'Vue KPI — à définir' (French: KPI view, to be defined) behind the closing Thank you card."}
+      ],
+      "says": "They will be filled in later.",
+      "why": ""
+    },
+    {
+      "at": "29:41",
+      "screen": "Supply dashboard > Daily tab",
+      "action": "Returns to the Daily tab and closes the video with the daily routine.",
+      "evidence": [
+        {"kind": "say", "at": "29:41", "frame": "t01785.jpg", "quote": "And that's the supply dashboard."},
+        {"kind": "say", "at": "29:43", "frame": "t01785.jpg", "quote": "Start every day with the daily tab, follow your book in the KAM tab, prepare every call in"},
+        {"kind": "say", "at": "29:49", "frame": "t01785.jpg", "quote": "the sellers tab, act on Thursday scores, and log every meeting in tools."},
+        {"kind": "say", "at": "29:54", "frame": "t01797.jpg", "quote": "Thanks for watching and go make your sellers shine."},
+        {"kind": "see", "at": "29:41", "frame": "t01785.jpg", "quote": "Subtitle: And that's the Supply dashboard! Start every day with the Daily tab, follow your book in the KAM tab, prepare every call in the Sellers tab, act on Thursday's scores, and log every meeting in Tools. Thanks for watching, and go make your sellers shine!"}
+      ],
+      "says": "Start every day with the daily tab, follow your book in the KAM tab, prepare every call in the sellers tab, act on Thursday scores, and log every meeting in tools.",
+      "why": ""
+    }
+  ],
+  "facts": [
+    {
+      "type": "rule",
+      "statement": "A seller is flagged automatically when the new score is below minus 5%. The Code broken box is ticked automatically (note: auto: new < -5%).",
+      "evidence": [
+        {"kind": "say", "at": "25:22", "frame": "t01519.jpg", "quote": "When the new score is below minus 5%, the seller is flagged automatically."},
+        {"kind": "see", "at": "25:19", "frame": "t01519.jpg", "quote": "CODE BROKEN column: red checkboxes with note auto: new < -5%, on the rows where New is -15.9, -14.7, -12.9 and -15.6."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "On the Scores tab, the score columns under SCORE are Current, New (the score calculated this week), Manual adj. (manual adjustment) and Code broken.",
+      "evidence": [
+        {"kind": "see", "at": "25:19", "frame": "t01519.jpg", "quote": "Subtitle: Then the Current score, the New score calculated this week, the Manual adjustment, and Code broken. Column headers: SCORE > CURRENT, NEW, MANUAL ADJ., CODE BROKEN."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Scores tab, KPI block: each seller shows On time, Defect rate, Days to solve and Claims coverage as a percentage or value with counts underneath (for example Certifydtek: On time 44%, 298 / 674).",
+      "evidence": [
+        {"kind": "see", "at": "25:19", "frame": "t01519.jpg", "quote": "KPI group columns ON TIME, DEFECT RATE, DAYS TO SOLVE, CLAIMS COVERAGE. Certifydtek: 44% (298/674), 7.5% (281/3,758), 12.9d (1,703/132), 99% (400/404)."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Scores tab, SCORE IMPACT block shows the four KPIs side by side (On time, Defect rate, Days to solve, Claims coverage). The column after it is headed MIX ADJ. DR... (truncated on screen) with EXPECTED D... values such as 6.6% +0.9pp vs now. Implied: the column is an expected-drift value, but the full header is not visible.",
+      "evidence": [
+        {"kind": "see", "at": "25:19", "frame": "t01519.jpg", "quote": "SCORE IMPACT columns ON TIME, DEFECT RATE..., DAYS TO SOL..., CLAIMS COV...; MIX ADJ. DR... column shows EXPECTED D... values such as 6.6% +0.9pp vs now."}
+      ],
+      "confidence": "low",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Scores tab top bar: status filters All, Active, OUT and OFF; a Sellers filter (Sellers: all); and Copy, CSV and SQL export buttons. SQL updates is greyed out in the frames.",
+      "evidence": [
+        {"kind": "say", "at": "25:29", "frame": "t01533.jpg", "quote": "At the top you can filter all active out or off, pick sellers, and export with copy, CSV,"},
+        {"kind": "say", "at": "25:36", "frame": "t01533.jpg", "quote": "or the SQL buttons."},
+        {"kind": "see", "at": "25:33", "frame": "t01533.jpg", "quote": "Buttons All, Active, OUT, OFF; Sellers: all; Copy, CSV, SQL; SQL updates greyed."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "On the Scores tab, the checkbox 'Fulfillment orders count as on time and defect-free' is ticked. It sits beside the collapsed METHODOLOGY toggle. The label says fulfillment orders count as on time and defect-free.",
+      "evidence": [
+        {"kind": "see", "at": "25:33", "frame": "t01533.jpg", "quote": "Ticked checkbox 'Fulfillment orders count as on time and defect-free', next to the collapsed METHODOLOGY toggle."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The Cost index simulation panel on the Scores tab shows how the new scores and Code broken ticks would re-rank buybox quotes on the live Buybox quotes (narration: how the new scores would change the buy box ranking on live quotes).",
+      "evidence": [
+        {"kind": "say", "at": "25:38", "frame": "t01533.jpg", "quote": "The cost index simulation shows how the new scores would change the buy box ranking on live quotes."},
+        {"kind": "see", "at": "25:38", "frame": "t01533.jpg", "quote": "Collapsed bar: New scores and Code broken ticks, re-ranked on the live Buybox quotes."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "Scores are updated every Thursday, and the weekly routine has five steps.",
+      "evidence": [
+        {"kind": "say", "at": "25:51", "frame": "t01552.jpg", "quote": "Scores are updated every Thursday and here's how it works, step-by-step."},
+        {"kind": "say", "at": "26:22", "frame": "t01579.jpg", "quote": "Step 4."},
+        {"kind": "say", "at": "26:28", "frame": "t01593.jpg", "quote": "And step 5 is all yours."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Weekly step 1 (Pepe): check the scores on the Scores tab and make the manual updates where a seller's situation justifies it.",
+      "evidence": [
+        {"kind": "say", "at": "25:58", "frame": "t01560.jpg", "quote": "Pepe checks the scores in this tab and makes the manual updates where a seller's situation justifies it."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Weekly step 2 (Pepe): send an email to all account managers with the week's information: which sellers moved, and why.",
+      "evidence": [
+        {"kind": "say", "at": "26:07", "frame": "t01569.jpg", "quote": "Pepe sends an email to all account managers with the information for the week, which sellers moved and"},
+        {"kind": "say", "at": "26:13", "frame": "t01569.jpg", "quote": "why."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Weekly step 3 (Pepe): update the scores so the new scores become the live ones.",
+      "evidence": [
+        {"kind": "say", "at": "26:16", "frame": "t01579.jpg", "quote": "Pepe updates the scores so the new scores become the live ones."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Weekly step 4 (Pepe): close the buy box of every seller whose score is below minus 5%. The narration does not say whether the Code broken flag closes it automatically; no sampled frame shows this step's subtitle.",
+      "evidence": [
+        {"kind": "say", "at": "26:23", "frame": "", "quote": "Pepe closes the buy box of every seller whose score is below minus 5%."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Weekly step 5 is for the KAM: after the email, go through your sellers and make the score adjustments needed in Tools > Seller info, each with a rationale.",
+      "evidence": [
+        {"kind": "say", "at": "26:28", "frame": "t01593.jpg", "quote": "And step 5 is all yours."},
+        {"kind": "say", "at": "26:32", "frame": "t01593.jpg", "quote": "After the email, go through your sellers, make the score adjustments that are needed in tools, seller info,"},
+        {"kind": "say", "at": "26:38", "frame": "t01593.jpg", "quote": "with a rationale, reopen the buy box for sellers who have fixed their issues, and above all work"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "KAM action in weekly step 5: reopen the buy box for sellers who have fixed their issues.",
+      "evidence": [
+        {"kind": "say", "at": "26:38", "frame": "t01593.jpg", "quote": "with a rationale, reopen the buy box for sellers who have fixed their issues, and above all work"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Every point on on-time, defect rate, days to solve and claims coverage counts as score for the sellers next Thursday (narration).",
+      "evidence": [
+        {"kind": "say", "at": "26:46", "frame": "t01593.jpg", "quote": "Every Every point on on-time, defect rate, days to solve and claims coverage is score for them"},
+        {"kind": "say", "at": "26:52", "frame": "t01593.jpg", "quote": "next Thursday."},
+        {"kind": "see", "at": "26:46", "frame": "t01593.jpg", "quote": "Subtitle: Every point on on time, defect rate, days to solve and claims coverage is score for them next Thursday."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "To see exactly which orders and claims each seller has to fix, use the Daily, KAM and Sellers tabs.",
+      "evidence": [
+        {"kind": "say", "at": "26:55", "frame": "t01618.jpg", "quote": "Use the daily, KAM and sellers tabs to see exactly which orders and claims each seller has to"},
+        {"kind": "say", "at": "27:01", "frame": "t01618.jpg", "quote": "fix."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The Tools tab holds the forms used with sellers: Meeting notes, Seller onboarding and Seller info. Each opens in a panel on the right with Open, or in a new browser tab with New tab.",
+      "evidence": [
+        {"kind": "say", "at": "27:12", "frame": "t01629.jpg", "quote": "It holds the forms you use with sellers."},
+        {"kind": "say", "at": "27:15", "frame": "t01629.jpg", "quote": "Each one opens in a panel on the right with Open, or in a new browser tab."},
+        {"kind": "see", "at": "27:09", "frame": "t01629.jpg", "quote": "Tools page cards: Meeting notes, Seller onboarding, Seller info; each with Open and New tab."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Log every meeting or call with a seller in Meeting notes. Per the narration, these notes feed the meeting sections in Daily, KAM and Sellers.",
+      "evidence": [
+        {"kind": "say", "at": "27:21", "frame": "", "quote": "Meeting Notes is where you log every meeting or call with a seller."},
+        {"kind": "say", "at": "27:25", "frame": "", "quote": "These notes feed the meeting sections in Daily, KAM, and Sellers, so log every contact."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "To log a meeting in Meeting notes: choose the seller, choose your own name in Created By, check the date, write what was discussed and the next steps in Notes, then press Submit.",
+      "evidence": [
+        {"kind": "say", "at": "27:38", "frame": "t01659.jpg", "quote": "Choose the seller, choose your name in Created By, check the date, write what was discussed and the"},
+        {"kind": "say", "at": "27:44", "frame": "t01659.jpg", "quote": "next steps in Notes and press Submit."},
+        {"kind": "see", "at": "27:33", "frame": "t01659.jpg", "quote": "Form fields: SELLER (Select a seller), CREATED BY (Select your name), DATE shows 16/10, NOTES (Enter your notes here...), Submit."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "To create a new seller in Seller onboarding: pick the seller from the available list, validate it, then fill in the company and legal name, the account manager, contacts, address and trade licence number.",
+      "evidence": [
+        {"kind": "say", "at": "27:55", "frame": "t01673.jpg", "quote": "Pick the seller from the available list, validate it, then fill in the company and legal name, the"},
+        {"kind": "say", "at": "28:01", "frame": "t01673.jpg", "quote": "account manager, contacts, address and trade license number."},
+        {"kind": "see", "at": "27:55", "frame": "t01673.jpg", "quote": "Subtitle: ...pick the seller from the available list, validate it, then fill in the company and legal name, the account manager, contacts, address and trade licence number."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Seller info is where you look up and update an existing seller: its status, account manager, address and contacts, bank details, courier keys, and legal documents such as the TRN and the trade licence expiry.",
+      "evidence": [
+        {"kind": "say", "at": "28:07", "frame": "t01690.jpg", "quote": "Seller Info is where you look up and update an existing seller."},
+        {"kind": "say", "at": "28:11", "frame": "t01690.jpg", "quote": "It's status, account manager, address and contacts, bank details, courier keys, and legal documents such as the TRN"},
+        {"kind": "say", "at": "28:20", "frame": "t01692.jpg", "quote": "and the trade license expiry."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Keeping seller information up to date (in Seller info) is what clears the Legal list, per the narration.",
+      "evidence": [
+        {"kind": "say", "at": "28:22", "frame": "t01692.jpg", "quote": "Keeping it up to date is what clears the legal list."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "To make a score adjustment in Seller info, per the narration: enter the new score, choose the rationale, choose Restart, Recover or Correction, and save. The score section itself is not visible in the frames, and details are covered in the Scores video.",
+      "evidence": [
+        {"kind": "say", "at": "28:26", "frame": "t01707.jpg", "quote": "It also has the score section."},
+        {"kind": "say", "at": "28:32", "frame": "t01711.jpg", "quote": "Enter the new score, choose the rationale, restart, recover or correction, and save."},
+        {"kind": "say", "at": "28:38", "frame": "t01711.jpg", "quote": "We come back to this in the scores video."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "tip",
+      "statement": "Close a tool panel with the cross in its top right corner, or use New tab to open any tool full screen.",
+      "evidence": [
+        {"kind": "say", "at": "28:42", "frame": "t01726.jpg", "quote": "Close the panel with the cross in its top right corner or use new tab to open any"},
+        {"kind": "say", "at": "28:47", "frame": "t01726.jpg", "quote": "tool full screen."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Narration says the Team tab has exactly the same sections as the KAM tab, for the whole team at once (the KAM tab is not opened in this part). It is useful to compare your book with everyone's; day to day, the KAM tab is the one to use.",
+      "evidence": [
+        {"kind": "say", "at": "28:57", "frame": "t01738.jpg", "quote": "Team has exactly the same sections as the KAM tab for the whole team at once."},
+        {"kind": "say", "at": "29:03", "frame": "t01738.jpg", "quote": "It is useful to compare your book with everyone's, but day to day, your KAM tab is the"},
+        {"kind": "say", "at": "29:08", "frame": "t01738.jpg", "quote": "one to use."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Price recs (Price recommendations) lists the few buybox cost problems worth acting on: where the live buybox cost jumped vs last week or last month on products with real demand. Each row names the seller to call and the target price, ranked by GMV at risk.",
+      "evidence": [
+        {"kind": "say", "at": "29:11", "frame": "t01754.jpg", "quote": "PriceRex, short for price recommendations, lists the few buy box cost problems worth acting on, where our live"},
+        {"kind": "say", "at": "29:24", "frame": "t01759.jpg", "quote": "Each row names the seller to call and the target price, ranked by the GMV at risk."},
+        {"kind": "see", "at": "29:14", "frame": "t01754.jpg", "quote": "Intro text: The few cost problems worth interrupting the supply team for: our live buybox cost jumped vs last week / last month, on real demand, with a fix. Each row names the seller to call and the target price, or a locked SKU to reject."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Price recs covers AE+ZA (shared cost feed) and SA (its own feed). Ranking uses GMV at risk per month with elasticity 7 and an 18% take rate. Verify the live quote before calling.",
+      "evidence": [
+        {"kind": "see", "at": "29:14", "frame": "t01754.jpg", "quote": "Intro text: AE rows cover AE+ZA (shared cost feed); SA is its own feed. Ranked by GMV at risk per month (elasticity 7, 18% take rate). Verify the live quote before calling."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Price recs headline cards (header: Live AE+ZA & SA, updated 21:59): COST EMERGENCIES 6; GMV AT RISK / MONTH AED 385,911; UNITS / MONTH AT RISK 217 (elasticity 7).",
+      "evidence": [
+        {"kind": "see", "at": "29:28", "frame": "t01775.jpg", "quote": "COST EMERGENCIES 6 'on the board now'; GMV AT RISK / MONTH AED 385,911 'if the cost rise passes to price'; UNITS / MONTH AT RISK 217 'elasticity 7'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Price recs table columns: #, MARKET, MODEL / STORAGE / COND, CURRENT WINNER, COST (WAS to NOW), VS 7D / 30D, WHY COST ROSE, UNITS/MO, GMV/MO AT RISK, ACTION. WHY COST ROSE tags include CHEAP QUOTE STALE, STOPPED QUOTING, RAISED PRICE, LOST ON SCORE and DEMAND RISING.",
+      "evidence": [
+        {"kind": "see", "at": "29:28", "frame": "t01775.jpg", "quote": "Column headers as listed; tags CHEAP QUOTE STALE, STOPPED QUOTING, RAISED PRICE, LOST ON SCORE, and DEMAND RISING."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Team tab Active sellers are those with 30 or more orders (legend: Active sellers (>=30 orders)); Total sellers are those with at least 1 order (legend: Total sellers (>=1 order)); Semi-active sellers have 1 to 29 orders this month.",
+      "evidence": [
+        {"kind": "see", "at": "28:54", "frame": "t01734.jpg", "quote": "Chart legend: Total sellers (>=1 order), Active sellers (>=30 orders), New sellers (first order), New active sellers (first month >=30 direct orders). Section Semi-active: 1 to 29 orders this month."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "On time (Team tab KPI card) means confirmed to shipped within 2 business days, counted on decided orders.",
+      "evidence": [
+        {"kind": "see", "at": "28:54", "frame": "t01734.jpg", "quote": "ON TIME 86%: confirmed → shipped within 2 business days, decided orders. Team KPI cards also show ORDERS 8,514, GMV (K AED) 12,064, % CLAIMS 2% (204 claims on 8,514 orders), DAYS TO SOLVE 8.9 (1,044 claims solved)."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Team tab INDEX sidebar sections: Sellers (Active, Semi-active, Buybox closed, Slowing down); Orders; On time (Performance, Backlog, Stuck orders, Delivery companies, Manual update); Fulfillment; Quality (Defect rate, Top offenders); Claims management (Days to solve, Claims coverage, Refund policy, Invalid claims); Cancellation; Sellers connections; Meetings; Legal (17).",
+      "evidence": [
+        {"kind": "see", "at": "28:54", "frame": "t01738.jpg", "quote": "INDEX sidebar as listed; Legal shows (17)."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "Start each day with the Daily tab, follow your book in the KAM tab, prepare every call in the Sellers tab, act on Thursday scores, and log every meeting in Tools.",
+      "evidence": [
+        {"kind": "say", "at": "29:43", "frame": "t01785.jpg", "quote": "Start every day with the daily tab, follow your book in the KAM tab, prepare every call in"},
+        {"kind": "say", "at": "29:49", "frame": "t01785.jpg", "quote": "the sellers tab, act on Thursday scores, and log every meeting in tools."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Daily tab: a Daily checks table lists sellers with LAST SEEN, STATUS, BUYBOX, KAM, monthly counts (MAY 26 to SEP, OCT) and FREQUENCY columns. The left index counts Meetings (100), Legal (27), Buybox closed (8), Late orders (259), Stuck orders (1,423), Unidentified carrier (979), Refund policy (404), Claims coverage (1,235).",
+      "evidence": [
+        {"kind": "see", "at": "29:41", "frame": "t01785.jpg", "quote": "Daily checks index: Meetings (100), Legal (27), Buybox closed (8), Late orders (259), Stuck orders (1,423), Unidentified carrier (979), Refund policy (404), Claims coverage (1,235). Table columns LAST SEEN, STATUS, BUYBOX, KAM, MAY 26 to SEP, OCT, FREQUENCY. Section heading MEETINGS; Total 100 sellers."}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Scores tab sellers shown in red (Certifydtek, Dealt, SteppingStone, FSA Trading) are the four rows where Code broken is ticked and New is below -5%.",
+      "evidence": [
+        {"kind": "see", "at": "25:19", "frame": "t01519.jpg", "quote": "Red seller names: Certifydtek (New -15.9), Dealt (-14.7), SteppingStone (-12.9), FSA Trading (-15.6). The same four rows have Code broken checked."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    }
+  ],
+  "screens": [
+    {
+      "name": "Supply dashboard tab bar and header",
+      "shows": "Tabs in order: Daily, Periskope, Team, KAM, Sellers, Price recs, KPIs, Scores, Tools. Header buttons: Meeting notes, Data freshness, Home. Chart/Table toggle at the right.",
+      "at": "25:19",
+      "where": "Top of every tab"
+    },
+    {
+      "name": "Supply dashboard > Scores tab",
+      "shows": "Every seller score table: filters All / Active / OUT / OFF (Active selected from frame t01533), Sellers filter, Copy, CSV, SQL export buttons (SQL updates greyed), methodology checkbox, collapsed Cost index simulation bar, and columns Seller, Status, BB, KPI, Score impact, Mix adj. (truncated), Score (Current, New, Manual adj., Code broken). BB shows Open in these frames.",
+      "at": "25:19",
+      "where": "Top nav tab Scores"
+    },
+    {
+      "name": "Supply dashboard > Tools tab",
+      "shows": "Three cards: Meeting notes, Seller onboarding, Seller info, each with Open and New tab buttons. Footer: Revibe Operations · read-only snapshot 2026-10-16 · KPI logic per revibe-seller-kpis skill.",
+      "at": "27:09",
+      "where": "Top nav tab Tools"
+    },
+    {
+      "name": "Tools > Meeting notes panel",
+      "shows": "Right-side panel with form: SELLER (Select a seller), CREATED BY (Select your name), DATE (16/10), NOTES, Submit. Footer Revibe internal tool. Panel shows Loading first, then the form.",
+      "at": "27:33",
+      "where": "Tools > Meeting notes > Open"
+    },
+    {
+      "name": "Tools > Seller onboarding panel",
+      "shows": "Panel opens blank (no content visible) in frame t01675. The subtitle describing the form is on frame t01673.",
+      "at": "27:53",
+      "where": "Tools > Seller onboarding > Open"
+    },
+    {
+      "name": "Tools > Seller info panel",
+      "shows": "Seller Information form: Select a seller to view and edit their information; AVAILABLE SELLERS dropdown showing 223; footer Workflow n8n · Revibe Operations 3.0. The score section is not visible in the frames.",
+      "at": "28:07",
+      "where": "Tools > Seller info > Open"
+    },
+    {
+      "name": "Supply dashboard > Team tab",
+      "shows": "Team KPI cards (Orders 8,514; GMV K AED 12,064; On time 86%; % Claims 2%; Days to solve 8.9), subtitle 78 sellers · 46 active, INDEX of sections, Timeframe selector (Monthly, Weekly, Daily), sellers/active/new chart with legend, Account manager chips (Pepe 15, Yahia 61, Sherin 30, Momen 23, Samaa 11, Unassigned 9), Chart/Table toggle.",
+      "at": "28:52",
+      "where": "Top nav tab Team"
+    },
+    {
+      "name": "Supply dashboard > Price recs tab",
+      "shows": "PRICE RECOMMENDATIONS, BUYBOX COST EMERGENCIES: intro text, Refresh button, three headline cards, and a ranked table with WHY COST ROSE and ACTION columns. Loading stages shown one at a time: Reading the live buybox sheet, Diagnosing cost moves, Ranking emergencies.",
+      "at": "29:11",
+      "where": "Top nav tab Price recs"
+    },
+    {
+      "name": "Supply dashboard > KPIs tab",
+      "shows": "Placeholder: Vue KPI, à définir (French for KPI view, to be defined), faint behind the closing Thank you card.",
+      "at": "29:35",
+      "where": "Top nav tab KPIs"
+    },
+    {
+      "name": "Supply dashboard > Daily tab",
+      "shows": "Daily checks: index on the left (Meetings, Legal, Buybox closed, Late orders, Stuck orders, Unidentified carrier, Refund policy, Claims coverage), Country and Seller status filters, Account manager chips, and the Meetings table.",
+      "at": "29:41",
+      "where": "Top nav tab Daily"
+    },
+    {
+      "name": "Closing card",
+      "shows": "Thank you, with the line Daily · KAM · Sellers · Scores · Tools (faded over the KPIs placeholder).",
+      "at": "29:41",
+      "where": "End of video"
+    }
+  ],
+  "terms": [
+    {"term": "Supply dashboard", "meaning": "The Revibe internal dashboard the KAM works in, with tabs Daily, Periskope, Team, KAM, Sellers, Price recs, KPIs, Scores and Tools.", "at": "25:19"},
+    {"term": "Scores", "meaning": "The tab listing every seller's score, with KPI, score impact and score columns.", "at": "25:19"},
+    {"term": "Current score", "meaning": "The score shown in the Current column of the Scores tab. Implied: this is the score live now, since narration says the new scores become the live ones.", "at": "25:19"},
+    {"term": "New score", "meaning": "The score calculated this week, shown in the Scores tab. Narration says it becomes live after the weekly update.", "at": "25:19"},
+    {"term": "Manual adjustment (Manual adj.)", "meaning": "A manual change to the score made where a seller's situation justifies it, entered with a rationale.", "at": "25:19"},
+    {"term": "Code broken", "meaning": "Tick flagged automatically when New is below -5% (note: auto: new < -5%).", "at": "25:22"},
+    {"term": "BB (buybox status)", "meaning": "Buybox status column on the Scores tab; the frames show Open. Closed appears in the BUYBOX column on Daily. Step 4 closes the buy box for sellers below -5% (narration).", "at": "25:19"},
+    {"term": "Cost index simulation", "meaning": "A collapsed panel that re-ranks buybox quotes using the new scores and Code broken ticks, on the live Buybox quotes.", "at": "25:38"},
+    {"term": "Methodology", "meaning": "Collapsible section on the Scores tab, shown next to the checkbox Fulfillment orders count as on time and defect-free.", "at": "25:33"},
+    {"term": "Legal list", "meaning": "Narration says it is cleared by keeping seller information up to date in Seller info. The Legal count appears as (17) on Team and (27) on Daily.", "at": "28:22"},
+    {"term": "TRN", "meaning": "A legal document type that Seller info holds for each seller (narration).", "at": "28:11"},
+    {"term": "Trade licence expiry", "meaning": "Legal document date held in Seller info for each seller (narration).", "at": "28:20"},
+    {"term": "Restart / Recover / Correction", "meaning": "Three options named for the score adjustment rationale in Seller info; narration defers details to the Scores video.", "at": "28:32"},
+    {"term": "GMV at risk (per month)", "meaning": "The monthly GMV that would be at risk if a buybox cost rise passes to price; Price recs ranks rows by it.", "at": "29:24"},
+    {"term": "Elasticity 7", "meaning": "The elasticity value shown on Price recs for the GMV at risk and units at risk figures.", "at": "29:28"},
+    {"term": "18% take rate", "meaning": "The take rate stated on Price recs for the GMV at risk calculation.", "at": "29:14"},
+    {"term": "AE+ZA and SA", "meaning": "Market groupings on Price recs: AE rows cover AE+ZA (shared cost feed); SA is its own feed.", "at": "29:14"},
+    {"term": "Active seller (Team tab)", "meaning": "A seller with 30 or more orders (legend: Active sellers (>=30 orders)).", "at": "28:54"},
+    {"term": "Semi-active seller (Team tab)", "meaning": "A seller with 1 to 29 orders this month.", "at": "28:54"},
+    {"term": "On time (KPI)", "meaning": "Confirmed to shipped within 2 business days, counted on decided orders (Team KPI card).", "at": "28:54"},
+    {"term": "Claims coverage", "meaning": "One of the four KPIs shown on Scores (for example 99%, 400 / 404) and one of the four score point categories named in step 5.", "at": "26:46"},
+    {"term": "Days to solve", "meaning": "One of the four KPIs shown on Scores (for example 12.9d) and one of the four score point categories named in step 5.", "at": "26:46"},
+    {"term": "Defect rate", "meaning": "One of the four KPIs shown on Scores (for example 7.5%) and one of the four score point categories named in step 5.", "at": "26:46"},
+    {"term": "Meeting notes", "meaning": "The Tools form used to log every meeting or call with a seller; per the narration the notes feed the meeting sections in Daily, KAM and Sellers.", "at": "27:21"},
+    {"term": "Account manager (AM)", "meaning": "The name shown per seller in the account manager column and chips on Team and Daily, and as AM name in Price recs action lines (for example Pepe, Yahia, Sherin, Momen, Samaa, Unassigned).", "at": "28:01"}
+  ],
+  "asr_fixes": [
+    {"at": "28:01", "heard": "trade license number", "correct": "trade licence number", "basis": "Subtitle on frame t01673 reads trade licence number (UK spelling; a spelling variant, not a mishearing)."},
+    {"at": "28:20", "heard": "and the trade license expiry", "correct": "and the trade licence expiry", "basis": "Subtitle on frame t01692 reads trade licence expiry (spelling variant)."},
+    {"at": "29:11", "heard": "PriceRex", "correct": "Price recs", "basis": "Tab label on every frame reads Price recs; the Price recs page title reads PRICE RECOMMENDATIONS."},
+    {"at": "29:32", "heard": "KPIs and Periscope are empty for now.", "correct": "KPIs and Periskope are empty for now.", "basis": "Tab bar on the frames reads Periskope."},
+    {"at": "25:29", "heard": "filter all active out or off", "correct": "filter All, Active, OUT or OFF", "basis": "Subtitle on frame t01533 and the filter buttons read All, Active, OUT and OFF."},
+    {"at": "25:38", "heard": "buy box ranking on live quotes", "correct": "re-ranked on the live Buybox quotes (spelling of Buybox as on screen)", "basis": "Cost index simulation panel on frame t01533 reads re-ranked on the live Buybox quotes. The subtitle itself says buy box ranking on live quotes, so this is a spelling match, not a mishearing."},
+    {"at": "26:46", "heard": "Every Every point on on-time", "correct": "Every point on on time", "basis": "Subtitle on frame t01593 reads Every point on on time; the duplicated word is a transcript artifact."}
+  ],
+  "unclear": [
+    {"at": "29:41", "issue": "Two Daily frames near the end disagree. Frame t01785 shows section MEETINGS with Total 100 sellers and no Z And B Mobile row; frame t01797 shows a section heading ORDERS above a card titled Meetings with Total 95 sellers, a Z And B Mobile row, and different last-seen values (SK World 122d vs 123d; Smart Life 95d vs 96d; Renova Devices 88d vs 89d). Which is current is not stated."},
+    {"at": "28:54", "issue": "Seller counts differ across tabs and the material does not explain them: Team KPI subtitle 78 sellers / 46 active; Daily Meetings Total 100 and 95; Daily All 149 (the account manager chips add to 149); Seller info AVAILABLE SELLERS 223; Legal shows (17) on Team and (27) on Daily. Which number is the KAM's book is not stated."},
+    {"at": "28:32", "issue": "What Restart, Recover and Correction each mean, and what the rationale field should contain, is not explained in this part (deferred to the Scores video). The score section of Seller info is not visible in any frame."},
+    {"at": "26:23", "issue": "Step 4 links the -5% threshold (Code broken) to closing the buy box, but the material does not say whether the Code broken flag closes the buy box automatically or whether Pepe does it manually. The step 4 subtitle is not captured in any sampled frame."},
+    {"at": "26:46", "issue": "How a KPI point becomes score ('Every point ... is score for them next Thursday') is stated only in narration; no frame shows the score mechanics or weights."},
+    {"at": "27:38", "issue": "The Meeting notes DATE field shows 16/10. It is not stated whether this is today's date or the snapshot date, or whether the KAM should change it. Whether it is pre-filled is also not stated."},
+    {"at": "29:11", "issue": "The role of Pepe is not stated. Pepe appears as an account manager chip (Pepe 15) on Team and Daily, and as AM Pepe on Price recs actions. The narration assigns Pepe steps 1 to 4, but the material does not say whether Pepe is a KAM or a separate supply role."},
+    {"at": "29:25", "issue": "Price recs row 4 is cut off in the frame (partial text only: Panawa Tech, 911 to 928, M4U Mobile, 26u last week @901). It is not reliable and is not stated as a fact."}
+  ],
+  "outdated": [
+    {"at": "29:35", "signal": "Narration says KPIs and Periskope are empty for now and will be filled in later; the KPIs tab shows a placeholder titled Vue KPI, à définir."},
+    {"at": "29:25", "signal": "Price recs header says Live AE+ZA & SA updated 21:59, but the loading frames of the same tab show the footer read-only snapshot 2026-10-16 (six days before today, 2026-10-22). The live figures may be stale."},
+    {"at": "27:09", "signal": "Tools tab footer reads read-only snapshot 2026-10-16 with KPI logic per revibe-seller-kpis skill; the data is six days old relative to today, 2026-10-22."},
+    {"at": "29:25", "signal": "Price recs actions use relative time words (this week, this month, 06:00, last week) that are relative to the 2026-10-16 snapshot, not to the day of use."}
+  ],
+  "privacy": [
+    {"at": "25:19", "frame": "t01519.jpg, t01533.jpg, t01775.jpg", "what": "Seller trading names that read like personal names: Sabir Karim Phones (rows on t01533 and in the t01775 table) and Almas AI Burteqali (price recs row 2 on t01775). They may be businesses, but they should be checked before any screen is shown to sellers."},
+    {"at": "29:25", "frame": "t01775.jpg", "what": "Price recs action lines show competitor sellers' cost quotes and target prices (for example Gadgethub, MMS Trading, Certifydtek, Dealt, SteppingStone). This is competitive pricing data and should not be shared with other sellers."},
+    {"at": "28:54", "frame": "t01734.jpg, t01738.jpg", "what": "Internal account manager names with their seller counts (Pepe 15, Yahia 61, Sherin 30, Momen 23, Samaa 11, Unassigned 9) are staff data and should not be shared with sellers."},
+    {"at": "25:19", "frame": "t01519.jpg", "what": "Seller trading names with their scores (New, Manual adj., Code broken) are visible. Sellers should only see their own row."},
+    {"at": "29:41", "frame": "t01785.jpg, t01797.jpg", "what": "Daily tab lists named sellers with last-seen, status, buybox and KAM columns (for example Luxora Elite, Captain Way, Bilal Sohail Trading). Sellers should only see their own row."}
+  ],
+  "audit": {
+    "checked": 119,
+    "removed": [
+      {"statement": "ASR fix at 27:33: heard Let's open Meeting notes. correct Meeting notes.", "reason": "Casing only (Meeting Notes vs Meeting notes); not a mishearing, so not an ASR fix."},
+      {"statement": "ASR fix at 28:32: restart, recover or correction becomes Restart, Recover or Correction.", "reason": "Capitalisation only; not a mishearing, so not an ASR fix."}
+    ],
+    "corrected": [
+      {"before": "Step 1 frame t01552 at 25:56 (orange header box, subtitle Step one)", "after": "Frame t01560 shows the orange header box and the subtitle Step one; t01552 shows the subtitle Now the weekly routine.", "reason": "Frame ids were one frame off."},
+      {"before": "Step 2 cited frame t01560", "after": "Subtitle Step two appears on frame t01569.", "reason": "Frame id mismatch."},
+      {"before": "Step 3 cited frame t01569", "after": "Subtitle Step three appears on frame t01579.", "reason": "Frame id mismatch."},
+      {"before": "Step 4 cited frame t01579 as its 'see' evidence", "after": "Step 4 is supported by the transcript line only; t01579 shows the Step three subtitle, and no sampled frame shows the Step four subtitle.", "reason": "The cited frame does not show step 4."},
+      {"before": "Step 25:29: Active filter selected from frame t01548 onward", "after": "Active is shown selected (green) from frame t01533 onward.", "reason": "t01533 already shows Active selected; t01548 is the frame with the cursor on Active."},
+      {"before": "Step 25:49 'see' evidence on t01548 (Now the weekly routine)", "after": "Subtitle Now the weekly routine appears on t01552; t01548 has no subtitle.", "reason": "Frame id mismatch."},
+      {"before": "Step 26:55 and 27:09 caption frame ids t01613/t01626", "after": "Subtitle Use the daily, KAM and Sellers tabs appears on t01618; t01613 shows the step five subtitle; t01626 is the Tools intro panel.", "reason": "Frame id mismatch."},
+      {"before": "Seller onboarding panel described as opened blank (loading) in t01675", "after": "The panel is blank in t01675 with no loading indicator visible.", "reason": "Overstated: no loading state is visible; the Meeting notes panel is the one that shows Loading."},
+      {"before": "Step 28:26 screen Tools > Seller info, Score section", "after": "Screen: Tools > Seller info; the score section is named in the narration and subtitle but is not visible in any frame.", "reason": "The screen does not show a Score section."},
+      {"before": "Step 29:11 evidence: one frame (t01759) shows all three loading steps", "after": "Each loading step is on its own frame: Reading (0.9s) on t01754, Diagnosing (5.5s) on t01759, Ranking (11.1s) on t01765.", "reason": "Each frame shows one stage."},
+      {"before": "Step 29:25 table evidence cited frame t01765", "after": "The live table is on frame t01775; t01765 is the Ranking emergencies loading state.", "reason": "Wrong frame id."},
+      {"before": "Step 29:35 KPI placeholder cited frame t01775", "after": "The Vue KPI placeholder is faint on frame t01781 behind the Thank you card.", "reason": "Wrong frame id."},
+      {"before": "Step 29:41 cited frame t01781 for the caption And that's the supply dashboard", "after": "That caption is on frame t01785 (with t01797 showing the same caption); t01781 is the closing Thank you card.", "reason": "Wrong frame id."},
+      {"before": "Fact: Scores tab, SCORE IMPACT block shows the effect of each KPI; MIX ADJ. DRIFT shows an expected-drift value", "after": "Column header MIX ADJ. DR... is truncated on screen; EXPECTED D... is truncated. The expected-drift reading is Implied and low confidence.", "reason": "The full header is not visible."},
+      {"before": "Fact: Fulfillment orders checkbox sits under the METHODOLOGY toggle", "after": "The checkbox sits next to the collapsed METHODOLOGY toggle.", "reason": "Layout wording."},
+      {"before": "Fact: Team tab has exactly the same sections as the KAM tab (stated as fact)", "after": "Narration says it; the KAM tab is not opened in this part.", "reason": "Only narration supports it."},
+      {"before": "Fact: Price recs headline cards on the snapshot", "after": "Headline cards under the header Live AE+ZA & SA updated 21:59 (the footer on loading frames reads snapshot 2026-10-16).", "reason": "The header says live; the snapshot label is in the footer."},
+      {"before": "Term BB shown as Open or Closed on the Scores tab", "after": "The frames show Open on the Scores tab; Closed appears in the BUYBOX column on Daily.", "reason": "Closed is not shown on the Scores tab in the frames."},
+      {"before": "Term Methodology contains the checkbox", "after": "The checkbox sits beside the Methodology toggle.", "reason": "Layout wording."},
+      {"before": "Unclear at 25:19 (counts differ across tabs)", "after": "Moved to 28:54 (Team and Daily counts) where the counts appear.", "reason": "Timestamp was wrong."},
+      {"before": "Unclear at 29:41 frames t01781 and t01797", "after": "The two Daily frames are t01785 (MEETINGS, Total 100) and t01797 (ORDERS heading, Total 95).", "reason": "Frame ids were wrong."},
+      {"before": "ASR fix 29:35 for KPIs and Periscope", "after": "Timestamp moved to 29:32, where the transcript line is.", "reason": "Timestamp."},
+      {"before": "ASR fix 25:38 correct 'Buybox ranking on live Buybox quotes'", "after": "Correct is re-ranked on the live Buybox quotes, which is what the panel shows.", "reason": "The subtitle does not read the corrected phrase; the panel text is the source of the spelling."},
+      {"before": "Privacy 25:19 cited frame t01765 for Sabir Karim Phones and Almas AI Burteqali", "after": "Cited frame t01775 (the table) and t01533 (row list).", "reason": "Frame t01765 is a loading screen."},
+      {"before": "Privacy 28:54 cited frame t01730 for account manager names", "after": "Cited frames t01734 and t01738, where the chips are visible; t01730 is a transition overlay.", "reason": "Frame id."},
+      {"before": "Summary: Frame timing is approximate and some subtitles appear on different frames than the pack's timestamps suggest", "after": "Summary keeps that caveat and adds that the Scores, Tools, Team and Price recs captions mostly appear one frame after the pack's frame id.", "reason": "Clarified with the frame ids that were checked."},
+      {"before": "Screen Tools > Seller onboarding opened blank (loading)", "after": "Opens blank (no content visible).", "reason": "No loading state is visible."},
+      {"before": "Term Account manager (AM) described as the KAM assigned to a seller", "after": "Shown per seller in the account manager column and chips on Team and Daily, and as AM name in Price recs actions.", "reason": "The KAM link is an inference."}
+    ],
+    "added": [
+      "Screen: top bar header buttons Meeting notes, Data freshness and Home (visible on all tabs, for example t01519, t01533, t01629).",
+      "Screen: Team tab timeframe selector (Monthly last 15M, Weekly last 10W, Daily last 30D; Evol./Static toggle) and the note 471 days of data plotted as 15 months (t01734).",
+      "Screen: Seller info footer reads Workflow n8n Revibe Operations 3.0 (t01707).",
+      "Screen: Meeting notes footer reads Revibe internal tool; the form Submit button is greyed until fields are filled (t01659).",
+      "Screen: closing Thank you card with the line Daily · KAM · Sellers · Scores · Tools (t01781).",
+      "Unclear: Daily section heading reads ORDERS above a card titled Meetings in frame t01797, while frame t01785 shows the same card under MEETINGS (t01785 and t01797).",
+      "Privacy: Daily tab lists named sellers with last-seen, status and KAM columns (t01785, t01797).",
+      "Fact: the Meeting notes DATE field shows 16/10 (t01659); the Seller onboarding panel shows no fields in frames t01673 and t01675."
+    ]
+  }
+}

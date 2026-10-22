@@ -1,0 +1,1011 @@
+﻿{
+  "summary": "Part 2 of the 11.0 Dashboard (KAMs) video (06:52-13:45) is a tour of the Supply dashboard. In the Daily tab the trainer walks the morning checks (late and stuck orders, unidentified carriers, refund policy clock, claims coverage), then the KAM tab (HR performance and bonus scoring, career, sellers charts, semi-active list). All 40 frames in the pack were opened and checked. Numbers are snapshot values from the recording (refund policy snapshot 2026-10-16). Several spoken numbers were corrected or confirmed from on-screen text, and some points are unclear or unverifiable on screen.",
+  "frames_opened": 40,
+  "steps": [
+    {
+      "at": "06:52",
+      "screen": "Supply dashboard > Daily > Late orders (259)",
+      "action": "Late orders is selected in the Index (cursor on it); the Top late orders table is shown, sorted oldest first.",
+      "says": "Call the seller about the oldest ones first",
+      "why": "because every extra day here becomes a late delivery for the customer.",
+      "evidence": [
+        {"kind": "say", "at": "06:57", "quote": "Call the seller about the oldest ones first, because every extra day here becomes a late delivery for", "frame": ""},
+        {"kind": "see", "at": "06:52", "quote": "Late orders selected in Index (259). Top late orders table, columns ORDER, MARKET, SELLER, DAYS SINCE ORDER, STAGE; top row ZA-82014-1, Prime Cell, 20 days; stage 'At quality check'.", "frame": "t00412.jpg"}
+      ]
+    },
+    {
+      "at": "07:07",
+      "screen": "Supply dashboard > Daily > Stuck orders (1,423)",
+      "action": "Clicks Stuck orders in the Index and reads the table below the late orders list.",
+      "says": "Stuck orders are the other side.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "07:07", "quote": "Stuck {orders?} are the other side.", "frame": ""},
+        {"kind": "say", "at": "07:10", "quote": "Orders that shipped at least four days ago and still have no delivered date.", "frame": ""},
+        {"kind": "see", "at": "07:14", "quote": "Stuck orders selected in Index (1,423). Header: 1,423 shipped and not marked delivered, oldest first, with country flags and counts.", "frame": "t00436.jpg"}
+      ]
+    },
+    {
+      "at": "07:14",
+      "screen": "Daily > Stuck orders header",
+      "action": "Reads the header for the total and the split by country.",
+      "says": "The header gives you the total and the split by country.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "07:14", "quote": "The header gives you the total and the split by country.", "frame": ""},
+        {"kind": "see", "at": "07:14", "quote": "Header reads 1,423 shipped and not marked delivered, oldest first, with counts 1,276 / 124 / 17 / 5 / 1 next to flags.", "frame": "t00434.jpg"}
+      ]
+    },
+    {
+      "at": "07:19",
+      "screen": "Daily > Stuck orders table",
+      "action": "Reads each row: order date, shipping date, days since shipping, delivery promise (SLA), tracking company, tracking number.",
+      "says": "Each row shows the order date, the shipping date, the days since shipping, the delivery promise for that market, the tracking company and the tracking number.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "07:19", "quote": "Each row shows the order date, the shipping date, the days since shipping, the delivery promise for that", "frame": ""},
+        {"kind": "see", "at": "07:25", "quote": "Caption: 'Each row shows the order date, the shipping date, the days since shipping, the delivery promise for that market, the tracking company and the tracking number. In the Emirates the promise is three working days, everywhere else five.' Table columns ORDER, SELLER, ORDER DATE, SHIPPING DATE, DAYS SINCE SHIPPING, SLA (<=5d on rows shown), TRACKING COMPANY, TRACKING.", "frame": "t00445.jpg"}
+      ]
+    },
+    {
+      "at": "07:36",
+      "screen": "Daily > Unidentified carrier section, below Stuck orders",
+      "action": "Pierre explains the marking gap while the Unidentified shipping companies table is on screen.",
+      "says": "Here's the important part.",
+      "why": "Narration: 'Most of these orders are not really lost. They are a marking gap.' The referent of 'these orders' is not stated; the frame shows the Unidentified shipping companies table.",
+      "evidence": [
+        {"kind": "say", "at": "07:36", "quote": "Most of these orders are not really lost.", "frame": ""},
+        {"kind": "say", "at": "07:39", "quote": "They are a marking gap.", "frame": ""},
+        {"kind": "see", "at": "07:41", "quote": "Unidentified shipping companies table (979) visible; caption: 'Here's the important part: most of these orders are not really lost! They are a marking gap. In markets with no courier delivery feed, nobody has marked the order as delivered. When a seller has delivered, make sure the order is marked delivered, because until it is, it counts as late in the seller's on time score.'", "frame": "t00461.jpg"}
+      ]
+    },
+    {
+      "at": "07:58",
+      "screen": "Supply dashboard > Daily > Unidentified carrier (979)",
+      "action": "Clicks Unidentified carrier in the Index; the table lists shipped orders with tracking ID and days since order.",
+      "says": "Unidentified carrier lists shipped orders whose tracking record names no shipping company.",
+      "why": "That is a missing record: nobody can tell who holds the parcel, and the customer cannot be given a tracking link.",
+      "evidence": [
+        {"kind": "say", "at": "07:58", "quote": "Unidentified carrier lists shipped orders whose tracking record names no shipping company.", "frame": ""},
+        {"kind": "see", "at": "08:01", "quote": "Unidentified carrier selected in Index (979). Table columns ORDER, SELLER, KAM, TRACKING ID, DAYS SINCE ORDER.", "frame": "t00486.jpg"}
+      ]
+    },
+    {
+      "at": "08:12",
+      "screen": "Daily > Unidentified carrier table, tracking ID column",
+      "action": "Reads the tracking ID column (shown exactly as the seller entered it) and identifies placeholder values to send back to the seller.",
+      "says": "The tracking ID is shown exactly as the seller entered it. Placeholders like manual tracking are common. Ask the seller to enter the real courier and tracking number for these orders.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "08:12", "quote": "The tracking ID is shown exactly as the seller entered it.", "frame": ""},
+        {"kind": "say", "at": "08:19", "quote": "Ask the seller to enter the real courier and tracking number for these orders.", "frame": ""},
+        {"kind": "see", "at": "08:19", "quote": "Footer: Showing the oldest 200 of 979 - the rest are newer and read the same. Tracking IDs such as SD022698189 listed; no placeholder value is visible in the frames.", "frame": "t00488.jpg"}
+      ]
+    },
+    {
+      "at": "08:28",
+      "screen": "Supply dashboard > Daily > Refund policy (404)",
+      "action": "Clicks Refund policy in the Index; the whole-book panel shows three tiles and two market charts.",
+      "says": "Refund policy shows every open return that is on the seller's policy clock right now.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "08:28", "quote": "Refund policy shows every open return that is on the seller's policy clock right now.", "frame": ""},
+        {"kind": "see", "at": "08:33", "quote": "Refund policy selected in Index (404); panel subtitle: Open returns on the policy clock right now - not the selected timeframe - 46 sellers in scope - snapshot 2026-10-16.", "frame": "t00513.jpg"}
+      ]
+    },
+    {
+      "at": "08:46",
+      "screen": "Daily > Refund policy > three tiles",
+      "action": "Reads the three tiles: On the clock, Moving and Stopped.",
+      "says": "The three tiles count the returns on the clock, how many are moving, meaning the clock is running because the claim sits with the seller, and how many are stopped because the claim is on Revibe's side.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "08:46", "quote": "The three tiles count the returns on the clock, how many are moving, meaning the clock is running", "frame": ""},
+        {"kind": "see", "at": "08:46", "quote": "ON THE CLOCK 404 (open returns with a seller timer); MOVING 172 (43% of the clock, accruing weekday hours); STOPPED 232 (57% of the clock, banked, frozen until it restarts).", "frame": "t00518.jpg"}
+      ]
+    },
+    {
+      "at": "09:08",
+      "screen": "Daily > Refund policy > two charts (SA left, other markets right)",
+      "action": "Reads the two charts: Saudi Arabia on the left, AE/PH/TH/ZA on the right; each return is one column by policy days used; dark blue moving, light blue stopped.",
+      "says": "The two charts, Saudi Arabia on the left and the other markets on the right, put each return in a column by how many policy days it has used. Dark blue is moving. Light blue is stopped.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "08:59", "quote": "The two charts, Saudi Arabia on the left and the other markets on the right, put each return", "frame": ""},
+        {"kind": "say", "at": "09:12", "quote": "Dark blue is moving.", "frame": ""},
+        {"kind": "see", "at": "09:08", "quote": "SA: 119 moving, 159 stopped, columns 1d to >9d with warning markers at 7d and 8d and policy-applied markers at 9d and >9d. AE/PH/TH/ZA: 53 moving, 73 stopped, warnings at 6d and 7d, policy applied at 8d and >8d.", "frame": "t00548.jpg"}
+      ]
+    },
+    {
+      "at": "09:16",
+      "screen": "Daily > Refund policy > SA chart",
+      "action": "Explains when the SA warning and policy thresholds apply.",
+      "says": "In Saudi Arabia, the seller also owns collection and shipback, so the warning starts at 7 policy days and the policy is applied at 9.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "09:16", "quote": "In Saudi Arabia, the seller also owns collection and shipback, so the warning starts at 7 policy days", "frame": ""},
+        {"kind": "see", "at": "09:23", "quote": "SA axis: 7d warning, 8d warning, 9d policy applied, >9d policy applied.", "frame": "t00564.jpg"}
+      ]
+    },
+    {
+      "at": "09:25",
+      "screen": "Daily > Refund policy > any column",
+      "action": "Clicks any column to list its claims with their timer state. Uses the chart every day to push sellers on returns in the warning columns before the policy applies.",
+      "says": "{everywhere?} else the warning starts at 6 and the policy is applied at 8 {click?} any column to list its claims use it every day to push sellers on the returns in the warning columns before the policy kicks in",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "09:25", "quote": "{everywhere?} else the warning starts at 6 and the policy is applied at 8 {click?} any column to", "frame": ""},
+        {"kind": "say", "at": "09:32", "quote": "list its claims use it every day to push sellers on the returns in the warning columns before", "frame": ""},
+        {"kind": "see", "at": "09:32", "quote": "Caption: 'Use it every day to push sellers on the returns in the warning columns, before the policy kicks in!' Axis for other markets: 6d warning, 7d warning, 8d policy applied, >8d policy applied.", "frame": "t00564.jpg"}
+      ]
+    },
+    {
+      "at": "09:43",
+      "screen": "Daily > Claims coverage (1,235)",
+      "action": "Clicks Claims coverage in the Index; reads the monthly bars (green closed, red still open) and their percentages.",
+      "says": "Last, Claims coverage. Each bar is the claims raised in that period, split into closed in green and still open in red. The closed share is the coverage, and the higher, the better!",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "09:44", "quote": "last claims coverage each bar is the claims raised in that period split into closed in green and", "frame": ""},
+        {"kind": "see", "at": "09:53", "quote": "Claims coverage panel, Monthly, last 15 months, Aug 25 to Oct; Oct bar 1,915 with 48% still open and 52% closed; legend Closed / Still open.", "frame": "t00583.jpg"}
+      ]
+    },
+    {
+      "at": "09:59",
+      "screen": "Daily > Claims coverage > a bar; Volume / % switch",
+      "action": "Clicks any bar to see the claims behind it (claim, order, type, issue, age, stage, open ones first). Uses the Volume / % switch to show counts or shares.",
+      "says": "to see the claims behind it with the claim the order the type the issue its age and its current stage the open ones first the volume and percent switch shows the same bars as counts or as shares",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "09:59", "quote": "to see the claims behind it with the claim the order the type the issue its age and", "frame": ""},
+        {"kind": "see", "at": "10:05", "quote": "Caption: Click any bar to see the claims behind it, with the claim, the order, the type, the issue, its age and its current stage, the open ones first. The Volume and percent switch shows the same bars as counts or as shares.", "frame": "t00596.jpg"}
+      ]
+    },
+    {
+      "at": "10:16",
+      "screen": "Supply dashboard > Daily checks (routine)",
+      "action": "Summarises the morning routine: check meetings, chase legal documents, reopen closed buyboxes, push late and stuck orders, fix missing carriers, close returns before they breach the policy.",
+      "says": "every morning check your meetings chase legal documents reopen closed buy boxes push late and stuck orders fix",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "10:16", "quote": "every morning check your meetings chase legal documents reopen closed buy boxes push late and stuck orders fix", "frame": ""},
+        {"kind": "see", "at": "10:23", "quote": "Caption: So, every morning: check your meetings, chase legal documents, reopen closed buyboxes, push late and stuck orders, fix missing carriers, and close returns before they breach the policy. Legal table and Meetings table behind it.", "frame": "t00623.jpg"}
+      ]
+    },
+    {
+      "at": "10:31",
+      "screen": "Supply dashboard > top nav KAM tab; account manager tab row",
+      "action": "Opens the KAM tab. The trainer tells the viewer to click their own name in the account manager row; the screen shows the Sherin tab selected (the click itself is not shown).",
+      "says": "Click your own name.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "10:31", "quote": "Next up, the KAM tab.", "frame": ""},
+        {"kind": "say", "at": "10:49", "quote": "Click your own name.", "frame": ""},
+        {"kind": "see", "at": "10:39", "quote": "Account manager tab row: All 149, Pepe 15, Yahia 61, Sherin 30 (selected), Momen 23, Samaa 11, Unassigned 9; Chart/Table toggle top right.", "frame": "t00639.jpg"}
+      ]
+    },
+    {
+      "at": "10:55",
+      "screen": "KAM tab > index sidebar",
+      "action": "Reads the KAM index order from top to bottom.",
+      "says": "The tab is organized from top to bottom. HR with your performance and career. Then sellers, orders on time, fulfillment, quality, claims management, cancellation, sellers connections, meetings, and legal.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "10:55", "quote": "The tab is organized from top to bottom.", "frame": ""},
+        {"kind": "see", "at": "10:58", "quote": "Index outlined: HR (Performance, Career); Sellers (Active, Semi-active, Buybox closed, Slowing down); Orders; On time (Performance, Backlog, Stuck orders, Delivery companies, Manual update); Fulfillment; Quality (Defect rate, Top offenders); Claims management (Days to solve, Claims coverage, Refund policy, Invalid claims); Cancellation; Sellers connections. Meetings and Legal are cut off at the bottom of the frame.", "frame": "t00657.jpg"}
+      ]
+    },
+    {
+      "at": "11:15",
+      "screen": "KAM > HR > Performance (monthly bonus performance)",
+      "action": "Clicks HR > Performance; reads the bonus period rule and the monthly performance table.",
+      "says": "This is the one you'll want to watch closely. Your monthly performance, the one your bonus, is paid on. Each month is a bonus period, from the 20th of the previous month to the 19th. So October is the 20th of September to the 19th of October.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "11:21", "quote": "Each month is a bonus period, from the 20th of the previous month to the 19th.", "frame": ""},
+        {"kind": "see", "at": "11:21", "quote": "Caption: from the twentieth of the previous month to the nineteenth. So October is the twentieth of September to the nineteenth of October. HR > Performance selected.", "frame": "t00678.jpg"}
+      ]
+    },
+    {
+      "at": "11:31",
+      "screen": "KAM > HR > Performance > four tiles",
+      "action": "Reads the four tiles (GMV, % On time, % Defect rate (M-1), Days to solve) and each tile's move versus the previous period.",
+      "says": "The four tiles show where you stand now. The GMV of your book in thousands of durhams, the percentage of orders on time, the defect rate, and the average days to solve a claim. Each tile also shows the move compared with the previous period.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "11:31", "quote": "The four tiles show where you stand now.", "frame": ""},
+        {"kind": "see", "at": "11:34", "quote": "Tiles: GMV 3,314K (13.4% vs Sep 26 first 27d); % ON TIME 81% (1.1pp vs Sep 26); % DEFECT RATE (M-1) 6.0% (0.2pp vs Aug 26); DAYS TO SOLVE 8.1 (1.2d vs Sep 26). GMV header reads (K AED).", "frame": "t00694.jpg"}
+      ]
+    },
+    {
+      "at": "11:49",
+      "screen": "KAM > HR > Performance > defect rate tile",
+      "action": "Notes that the defect rate is read one period back (M-1).",
+      "says": "The defect rate is read one period back, marked M-1, because claims arrive weeks after the order. Reading the current month would always look too good.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "11:49", "quote": "The defect rate is read one period back, marked M-1, because claims arrive weeks after the order.", "frame": ""},
+        {"kind": "see", "at": "11:52", "quote": "Tile label % DEFECT RATE (M-1) with comparison vs Aug 26.", "frame": "t00694.jpg"}
+      ]
+    },
+    {
+      "at": "12:01",
+      "screen": "KAM > HR > Performance > KPI table",
+      "action": "Reads the KPI table: last six periods, Weight, Min, Base, High, PERF, Manual column.",
+      "says": "The table below shows each KPI over the last six periods, then its weight and three bars, min, base, and high.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "12:01", "quote": "The table below shows each KPI over the last six periods, then its weight and three bars, min,", "frame": ""},
+        {"kind": "see", "at": "12:06", "quote": "Columns KPI, MAY 26, JUN, JUL, AUG, SEP, OCT, WEIGHT, MIN, BASE, HIGH, PERF., MANUAL. Rows GMV (K AED), New active sellers, % On time, % Defect rate (M-1), Days to solve, Total, Bonus baseline, Bonus reached.", "frame": "t00726.jpg"}
+      ]
+    },
+    {
+      "at": "12:10",
+      "screen": "KAM > HR > Performance > KPI bars",
+      "action": "Explains scoring: min scores 0, base 100%, high 150%, straight lines between.",
+      "says": "At min, the KPI scores 0, at base it scores 100%, and at high 150%, with straight lines in between.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "12:10", "quote": "At min, the KPI scores 0, at base it scores 100%, and at high 150%, with straight lines", "frame": ""},
+        {"kind": "see", "at": "12:18", "quote": "Caption: The table below shows each KPI over the last six periods, then its Weight, and three bars: Min, Base and High. At Min the KPI scores zero, at Base it scores one hundred percent, and at High one hundred and fifty percent, with straight lines in between.", "frame": "t00726.jpg"}
+      ]
+    },
+    {
+      "at": "12:21",
+      "screen": "KAM > HR > Performance > Total row",
+      "action": "Explains that PERF is the KPI score and Total is the weighted sum, capped at 150%. New active sellers is shown at zero weight.",
+      "says": "PERF is the score of each KPI for the current period, and total is the weighted sum, capped at 150%. New active sellers is shown for information, at zero weight, so it does not move the total.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "12:21", "quote": "PERF is the score of each KPI for the current period, and total is the weighted sum, capped", "frame": ""},
+        {"kind": "see", "at": "12:29", "quote": "Total row outlined; New active sellers row shows weight 0%.", "frame": "t00744.jpg"}
+      ]
+    },
+    {
+      "at": "12:37",
+      "screen": "KAM > HR > Performance > OCT column and lock state",
+      "action": "Explains that months before October show payroll performance and a closed month from the 20th is locked.",
+      "says": "Months before October show the performance percentage recorded on payroll. From the twentieth, a closed month is frozen with a lock icon: its figures are written once and stop moving.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "12:37", "quote": "Months before October show the performance percentage recorded on payroll.", "frame": ""},
+        {"kind": "see", "at": "12:42", "quote": "Caption: Months before October show the performance percentage recorded on payroll. From the twentieth, a closed month is frozen with a lock icon: its figures are written once and stop moving.", "frame": "t00761.jpg"}
+      ]
+    },
+    {
+      "at": "12:50",
+      "screen": "KAM > HR > Performance > Bonus baseline / Bonus reached rows; Manual column; Ship to payroll button",
+      "action": "Reads the bonus rows. The Manual column and Ship to payroll button are greyed out for the KAM; only Pierre can change them.",
+      "says": "Bonus baseline is your monthly variable salary, and Bonus reached is the total multiplied by that baseline. The Manual column and the Ship to payroll button are grayed out for you: Pierre uses them to adjust and send the final figure to payroll. You can see them, but only he can change them.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "12:50", "quote": "Bonus Baseline is your monthly variable salary, and Bonus Reached is the total multiplied by that baseline.", "frame": ""},
+        {"kind": "see", "at": "12:58", "quote": "Caption matches narration; Ship to payroll button appears greyed; MANUAL column cells empty and greyed.", "frame": "t00775.jpg"}
+      ]
+    },
+    {
+      "at": "13:13",
+      "screen": "KAM > HR > Career",
+      "action": "Clicks HR > Career; reads the career timeline and monthly performance with averages.",
+      "says": "Career shows your positions over time, from the payroll movement log, with the performance of each month in your average.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "13:13", "quote": "Career shows your positions over time, from the payroll movement log, with the performance of each month in", "frame": ""},
+        {"kind": "see", "at": "13:20", "quote": "Career timeline: Junior KAM (CURRENT, 1 Jul 2026 to today, 4 months), KAM Trial (1 Apr 2026 to 30 Jun 2026, 3 months), KAM Onboarding (1 Mar 2026 to 31 Mar 2026, 1 month); month percentages and Average column.", "frame": "t00800.jpg"}
+      ]
+    },
+    {
+      "at": "13:24",
+      "screen": "KAM > Sellers > Active (chart)",
+      "action": "Clicks Sellers > Active; reads the 15-month chart of total, active and new sellers.",
+      "says": "Sellers, Active. The chart tracks your sellers over fifteen months: total sellers with at least one order, active sellers with thirty or more orders in the month, and new sellers. Your goal, make that active line grow.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "13:26", "quote": "The chart tracks your sellers over 15 months, total sellers with at least one order, active sellers with", "frame": ""},
+        {"kind": "see", "at": "13:35", "quote": "Legend: Total sellers (>=1 order), Active sellers (>=30 orders), New sellers (first order), New active sellers (first month >=30 direct orders). Axis Aug 25 to Oct.", "frame": "t00809.jpg"}
+      ]
+    },
+    {
+      "at": "13:42",
+      "screen": "KAM > Sellers > Semi-active (table)",
+      "action": "Reads the semi-active table: sellers with 1 to 29 orders this month with monthly history.",
+      "says": "Semi-Active lists every seller with between 1 and 29 orders so far this month, with their history",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "13:42", "quote": "Semi-Active lists every seller with between 1 and 29 orders so far this month, with their history", "frame": ""},
+        {"kind": "see", "at": "13:42", "quote": "Semi-active section subtitle 1 to 29 orders this month; columns SELLER, STATUS, BUYBOX, KAM, FEB 26, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT*.", "frame": "t00812.jpg"}
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "type": "procedure",
+      "statement": "Every morning, check your meetings, chase legal documents, reopen closed buyboxes, push late and stuck orders, fix missing carriers, and close returns before they breach the policy.",
+      "evidence": [
+        {"kind": "say", "at": "10:16", "quote": "every morning check your meetings chase legal documents reopen closed buy boxes push late and stuck orders fix", "frame": ""},
+        {"kind": "see", "at": "10:23", "quote": "Caption: So, every morning: check your meetings, chase legal documents, reopen closed buyboxes, push late and stuck orders, fix missing carriers, and close returns before they breach the policy.", "frame": "t00623.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Call the seller about the oldest late orders first, because every extra day becomes a late delivery for the customer.",
+      "evidence": [
+        {"kind": "say", "at": "06:57", "quote": "Call the seller about the oldest ones first, because every extra day here becomes a late delivery for", "frame": ""},
+        {"kind": "see", "at": "06:52", "quote": "Top late orders list sorted oldest first (top row 20 days since order).", "frame": "t00412.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Stuck orders are orders that shipped at least four days ago and still have no delivered date.",
+      "evidence": [
+        {"kind": "say", "at": "07:10", "quote": "Orders that shipped at least four days ago and still have no delivered date.", "frame": ""},
+        {"kind": "see", "at": "07:14", "quote": "Stuck orders header: 1,423 shipped and not marked delivered, oldest first.", "frame": "t00436.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "The Stuck orders header shows 1,423 shipped and not marked delivered, split by country as 1,276, 124, 17, 5 and 1. The first two flags appear to match Saudi Arabia and South Africa; the other three flags cannot be read reliably at this resolution.",
+      "evidence": [
+        {"kind": "see", "at": "07:14", "quote": "Header: 1,423 shipped and not marked delivered, oldest first; country counts 1,276 / 124 / 17 / 5 / 1.", "frame": "t00436.jpg"}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The Stuck orders table columns are ORDER, SELLER, ORDER DATE, SHIPPING DATE, DAYS SINCE SHIPPING, SLA, TRACKING COMPANY and TRACKING. The footer reads Showing the oldest 200 of 1,423; the rest are older still and read the same.",
+      "evidence": [
+        {"kind": "see", "at": "07:19", "quote": "Column headers ORDER, SELLER, ORDER DATE, SHIPPING DATE, DAYS SINCE SHIPPING, SLA, TRACKING COMPANY, TRACKING; footer Showing the oldest 200 of 1,423 - the rest are older still and read the same.", "frame": "t00436.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "policy",
+      "statement": "The delivery promise (SLA) is three working days in the Emirates and five everywhere else, as stated in the on-screen caption. The SLA column shows <=5d on the Saudi Arabia and South Africa rows visible on screen.",
+      "evidence": [
+        {"kind": "say", "at": "07:28", "quote": "In the Emirates, the promise is three working days, everywhere else {5.?}", "frame": ""},
+        {"kind": "see", "at": "07:25", "quote": "Caption: In the Emirates the promise is three working days, everywhere else five. SLA column shows <=5d on every row visible (SA and ZA).", "frame": "t00445.jpg"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Most of the orders referred to in the marking-gap explanation are not really lost: in markets with no courier delivery feed, nobody has marked the order as delivered. The narration does not name which list 'these orders' refers to; the frame shows the Unidentified shipping companies table.",
+      "evidence": [
+        {"kind": "say", "at": "07:36", "quote": "Most of these orders are not really lost.", "frame": ""},
+        {"kind": "say", "at": "07:40", "quote": "In markets with no courier delivery feed, nobody has marked the order as delivered.", "frame": ""}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "When a seller has delivered, make sure the order is marked delivered. Until it is, the order counts as late in the seller's on time score.",
+      "evidence": [
+        {"kind": "say", "at": "07:46", "quote": "When a seller has delivered, make sure the order is marked delivered, because until it is, it counts", "frame": ""},
+        {"kind": "say", "at": "07:52", "quote": "as late in the seller's on time score.", "frame": ""},
+        {"kind": "see", "at": "07:41", "quote": "Caption: When a seller has delivered, make sure the order is marked delivered, because until it is, it counts as late in the seller's on time score.", "frame": "t00461.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Unidentified carrier lists shipped orders whose tracking record names no shipping company. This is a missing record.",
+      "evidence": [
+        {"kind": "say", "at": "07:58", "quote": "Unidentified carrier lists shipped orders whose tracking record names no shipping company.", "frame": ""},
+        {"kind": "say", "at": "08:04", "quote": "That is a missing record.", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "The Unidentified carrier header shows 979 shipped parcels with no tracking company on the row: 0.5% of everything shipped in the window, of which 15 also have no tracking ID. The list is oldest first.",
+      "evidence": [
+        {"kind": "see", "at": "07:58", "quote": "Header: 979 shipped parcels with no tracking company on the row - 0.5% of everything shipped in the window, 15 of them with no tracking id either. Oldest first.", "frame": "t00461.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "In the Unidentified carrier table the rows shown are for seller Smart Life with KAM Samaa; the oldest row shown is SA-72011-1 with tracking ID SDO22698189 at 491 days since order. The footer reads Showing the oldest 200 of 979.",
+      "evidence": [
+        {"kind": "see", "at": "08:01", "quote": "Table rows SA-72011-1, Smart Life, KAM Samaa, SDO22698189, 491 days; footer Showing the oldest 200 of 979 - the rest are newer and read the same.", "frame": "t00488.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "warning",
+      "statement": "A missing carrier record means nobody can tell who holds the parcel, and the customer cannot be given a tracking link.",
+      "evidence": [
+        {"kind": "say", "at": "08:06", "quote": "Nobody can tell who holds the parcel and the customer cannot be given a tracking link.", "frame": ""}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "For unidentified carrier orders, ask the seller to enter the real courier and tracking number.",
+      "evidence": [
+        {"kind": "say", "at": "08:19", "quote": "Ask the seller to enter the real courier and tracking number for these orders.", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "tip",
+      "statement": "Tracking IDs show exactly what the seller entered, and placeholder values such as manual tracking are common.",
+      "evidence": [
+        {"kind": "say", "at": "08:12", "quote": "The tracking ID is shown exactly as the seller entered it.", "frame": ""},
+        {"kind": "say", "at": "08:16", "quote": "Placeholders like manual tracking are common.", "frame": ""}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Refund policy shows every open return that is on the seller's policy clock right now.",
+      "evidence": [
+        {"kind": "say", "at": "08:28", "quote": "Refund policy shows every open return that is on the seller's policy clock right now.", "frame": ""},
+        {"kind": "see", "at": "08:33", "quote": "Panel subtitle: Open returns on the policy clock right now - not the selected timeframe - 46 sellers in scope - snapshot 2026-10-16.", "frame": "t00513.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The policy clock counts only the working hours a claim spends in stages the seller owns. Time on Revibe's side is never charged to the seller, and weekends never count.",
+      "evidence": [
+        {"kind": "say", "at": "08:34", "quote": "The clock only counts the working hours the claim spends in stages the seller owns.", "frame": ""},
+        {"kind": "say", "at": "08:39", "quote": "Time on Revive's side is never charged to the seller, and weekends never count.", "frame": ""},
+        {"kind": "see", "at": "08:46", "quote": "Caption: Time on Revibe's side is never charged to the seller, and weekends never count.", "frame": "t00518.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "A policy day is 24 weekday hours on the Dubai calendar day. Saturday and Sunday never accrue in any market, so a full policy week is about 9 calendar days.",
+      "evidence": [
+        {"kind": "see", "at": "09:08", "quote": "Methodology text: A policy day is 24 weekday hours, on the Dubai calendar day - Saturday and Sunday never accrue, in any market - so a full policy week is about 9 calendar days.", "frame": "t00534.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Refund policy tiles at the 2026-10-16 snapshot: On the clock 404 open returns; Moving 172 (43% of the clock, accruing weekday hours); Stopped 232 (57% of the clock, banked and frozen until the timer restarts).",
+      "evidence": [
+        {"kind": "see", "at": "08:46", "quote": "ON THE CLOCK 404; MOVING 172 (43% of the clock); STOPPED 232 (57% of the clock).", "frame": "t00518.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Moving (dark blue) means the clock is running because the claim sits with the seller. Stopped (light blue) means the claim is on Revibe's side and the clock is frozen.",
+      "evidence": [
+        {"kind": "say", "at": "08:46", "quote": "The three tiles count the returns on the clock, how many are moving, meaning the clock is running", "frame": ""},
+        {"kind": "say", "at": "09:12", "quote": "Dark blue is moving.", "frame": ""},
+        {"kind": "say", "at": "09:13", "quote": "Light blue is stopped.", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "policy",
+      "statement": "Saudi Arabia: the warning starts at 7 policy days and the policy is applied at 9 policy days, because the seller also owns collection and shipback.",
+      "evidence": [
+        {"kind": "say", "at": "09:16", "quote": "In Saudi Arabia, the seller also owns collection and shipback, so the warning starts at 7 policy days", "frame": ""},
+        {"kind": "say", "at": "09:23", "quote": "and the policy is applied at 9.", "frame": ""},
+        {"kind": "see", "at": "09:23", "quote": "SA axis labels: 7d warning, 8d warning, 9d policy applied, >9d policy applied.", "frame": "t00548.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "policy",
+      "statement": "Other markets (AE, PH, TH, ZA): the warning starts at 6 policy days and the policy is applied at 8 policy days.",
+      "evidence": [
+        {"kind": "say", "at": "09:25", "quote": "else the warning starts at 6 and the policy is applied at 8", "frame": ""},
+        {"kind": "see", "at": "09:25", "quote": "Other-markets axis labels: 6d warning, 7d warning, 8d policy applied, >8d policy applied.", "frame": "t00564.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Use the refund policy chart every day to push sellers on returns in the warning columns before the policy kicks in.",
+      "evidence": [
+        {"kind": "say", "at": "09:32", "quote": "list its claims use it every day to push sellers on the returns in the warning columns before", "frame": ""},
+        {"kind": "see", "at": "09:32", "quote": "Caption: Use it every day to push sellers on the returns in the warning columns, before the policy kicks in!", "frame": "t00564.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Click any column of the refund policy chart to list its claims, with the timer state on each.",
+      "evidence": [
+        {"kind": "say", "at": "09:25", "quote": "{click?} any column to", "frame": ""},
+        {"kind": "see", "at": "09:25", "quote": "Chart text: clicking any column lists its claims with the timer state on each.", "frame": "t00534.jpg"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Each claim sits in one column only: 1d covers over 0 up to 24 weekday hours, 2d covers 24 to 48 hours, and the last column collects everything past the action day.",
+      "evidence": [
+        {"kind": "see", "at": "09:08", "quote": "Each claim lands in one column only - 1d is over 0 and up to 24 weekday hours, 2d is 24 to 48, and so on.", "frame": "t00534.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "number",
+      "statement": "Refund policy by market at the snapshot: Saudi Arabia 119 moving and 159 stopped; AE, PH, TH and ZA together 53 moving and 73 stopped.",
+      "evidence": [
+        {"kind": "see", "at": "09:08", "quote": "SA 119 moving, 159 stopped; AE PH TH ZA 53 moving, 73 stopped.", "frame": "t00548.jpg"}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Claims coverage is a monthly view over the last 15 months. Each bar is the claims raised in that period, split into closed (green) and still open (red). The closed share is the coverage, and higher is better.",
+      "evidence": [
+        {"kind": "say", "at": "09:44", "quote": "last claims coverage each bar is the claims raised in that period split into closed in green and", "frame": ""},
+        {"kind": "say", "at": "09:51", "quote": "still open in {red?} {the?} closed share is the coverage and the higher the better", "frame": ""},
+        {"kind": "see", "at": "09:53", "quote": "Panel text: Monthly, last 15 months. Each bar: claims raised that period split into closed (green) and still open (red); the closed share IS the coverage.", "frame": "t00583.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Click any Claims coverage bar to see the claims behind it, with claim, order, type, issue, age and current stage, open ones first.",
+      "evidence": [
+        {"kind": "say", "at": "09:59", "quote": "to see the claims behind it with the claim the order the type the issue its age and", "frame": ""},
+        {"kind": "see", "at": "10:05", "quote": "Caption: Click any bar to see the claims behind it, with the claim, the order, the type, the issue, its age and its current stage, the open ones first.", "frame": "t00596.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The Volume / % switch on Claims coverage changes the bars: Volume scales them by claims raised; % draws every period at full height so the mix is comparable, and the volume moves to the label above each bar.",
+      "evidence": [
+        {"kind": "see", "at": "09:53", "quote": "Panel text: Volume scales the bars by claims raised, % draws every period full height so the mix is comparable and the volume moves to the label above the bar.", "frame": "t00583.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "number",
+      "statement": "Claims coverage for the latest month, Oct 26, is partial: 1,915 claims raised, 52% closed and 48% still open. Sep 26 shows 3,607 claims at 92%, and Aug 26 shows 3,738 at 99%.",
+      "evidence": [
+        {"kind": "see", "at": "09:53", "quote": "Oct bar 1,915 with 48% (still open, red) and 52% (closed); Sep 3,607 92%; Aug 3,738 99%.", "frame": "t00583.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "On the KAM tab, click your own name in the account-manager tab row; everything below then shows only your sellers.",
+      "evidence": [
+        {"kind": "say", "at": "10:43", "quote": "The row at the top has one tab per account manager with the number of sellers each one", "frame": ""},
+        {"kind": "say", "at": "10:49", "quote": "Click your own name.", "frame": ""},
+        {"kind": "say", "at": "10:51", "quote": "Everything below then shows only your sellers.", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The KAM index runs top to bottom: HR (Performance, Career); Sellers (Active, Semi-active, Buybox closed, Slowing down); Orders; On time (Performance, Backlog, Stuck orders, Delivery companies, Manual update); Fulfillment; Quality (Defect rate, Top offenders); Claims management (Days to solve, Claims coverage, Refund policy, Invalid claims); Cancellation; Sellers connections; Meetings; Legal.",
+      "evidence": [
+        {"kind": "say", "at": "10:55", "quote": "The tab is organized from top to bottom.", "frame": ""},
+        {"kind": "say", "at": "11:01", "quote": "then sellers, orders on time, fulfillment, quality, claims management, cancellation, sellers connections, meetings, and legal.", "frame": ""},
+        {"kind": "see", "at": "10:58", "quote": "Index sidebar listing the sections in that order with sub-items; Meetings and Legal are cut off at the bottom of the frame.", "frame": "t00657.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "A bonus period runs from the 20th of the previous month to the 19th. October is 20 September to 19 October.",
+      "evidence": [
+        {"kind": "say", "at": "11:21", "quote": "Each month is a bonus period, from the 20th of the previous month to the 19th.", "frame": ""},
+        {"kind": "say", "at": "11:26", "quote": "So October is the 20th of September to the 19th of October.", "frame": ""},
+        {"kind": "see", "at": "11:21", "quote": "Caption: from the twentieth of the previous month to the nineteenth. So October is the twentieth of September to the nineteenth of October.", "frame": "t00678.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The HR Performance page shows four tiles: GMV (thousands of AED), % On time, % Defect rate (M-1) and Days to solve. Each tile shows the move compared with the previous period.",
+      "evidence": [
+        {"kind": "say", "at": "11:34", "quote": "The GMV of your book in thousands of durhams, the percentage of orders on time, the defect rate,", "frame": ""},
+        {"kind": "see", "at": "11:34", "quote": "Tiles GMV, % ON TIME, % DEFECT RATE (M-1), DAYS TO SOLVE; GMV header (K AED); each tile has a comparison line.", "frame": "t00694.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The HR Performance page has a Timeframe selector with Monthly (last 15M), Weekly (last 10W) and Daily (last 30D), and shows 442 days of data for the selected seller set.",
+      "evidence": [
+        {"kind": "see", "at": "11:34", "quote": "Timeframe options Monthly · last 15M, Weekly · last 10W, Daily · last 30D; label 442 days of data.", "frame": "t00694.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "The defect rate is read one period back (M-1) because claims arrive weeks after the order. Reading the current month would always look too good.",
+      "evidence": [
+        {"kind": "say", "at": "11:49", "quote": "The defect rate is read one period back, marked M-1, because claims arrive weeks after the order.", "frame": ""},
+        {"kind": "say", "at": "11:57", "quote": "Reading the current month would always look too good.", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The KPI table shows each KPI over the last six periods (MAY 26 to OCT), then WEIGHT, MIN, BASE, HIGH, PERF. and MANUAL.",
+      "evidence": [
+        {"kind": "see", "at": "12:06", "quote": "Column headers KPI, MAY 26, JUN, JUL, AUG, SEP, OCT, WEIGHT, MIN, BASE, HIGH, PERF., MANUAL.", "frame": "t00726.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Each KPI scores 0 at Min, 100% at Base and 150% at High, with straight lines between the points.",
+      "evidence": [
+        {"kind": "say", "at": "12:10", "quote": "At min, the KPI scores 0, at base it scores 100%, and at high 150%, with straight lines", "frame": ""},
+        {"kind": "say", "at": "12:18", "quote": "in between.", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "PERF is each KPI's score for the current period. Total is the weighted sum of those scores, capped at 150%.",
+      "evidence": [
+        {"kind": "say", "at": "12:21", "quote": "PERF is the score of each KPI for the current period, and total is the weighted sum, capped", "frame": ""},
+        {"kind": "say", "at": "12:28", "quote": "at 150%.", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "New active sellers is shown for information only, at zero weight, so it does not move the total.",
+      "evidence": [
+        {"kind": "say", "at": "12:29", "quote": "New active sellers is shown for information, at zero weight, so it does not move the total.", "frame": ""},
+        {"kind": "see", "at": "12:29", "quote": "New active sellers row shows weight 0%.", "frame": "t00744.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Months before October show the performance percentage recorded on payroll.",
+      "evidence": [
+        {"kind": "say", "at": "12:37", "quote": "Months before October show the performance percentage recorded on payroll.", "frame": ""}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "From the 20th, a closed month is frozen with a lock icon: its figures are written once and stop moving.",
+      "evidence": [
+        {"kind": "say", "at": "12:42", "quote": "From the twentieth, a closed month is frozen with a lock icon.", "frame": ""},
+        {"kind": "say", "at": "12:46", "quote": "Its figures are written once and stop moving.", "frame": ""}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Bonus baseline is the monthly variable salary. Bonus reached is the Total multiplied by that baseline.",
+      "evidence": [
+        {"kind": "say", "at": "12:50", "quote": "Bonus Baseline is your monthly variable salary, and Bonus Reached is the total multiplied by that baseline.", "frame": ""},
+        {"kind": "see", "at": "12:50", "quote": "Rows Bonus baseline and Bonus reached in the KPI table.", "frame": "t00761.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "The Manual column and the Ship to payroll button are greyed out for the KAM. Only Pierre adjusts the final figure and sends it to payroll. The KAM can see them but cannot change them.",
+      "evidence": [
+        {"kind": "say", "at": "12:58", "quote": "The Manual Column and the Ship to Payroll button are grayed out for you.", "frame": ""},
+        {"kind": "say", "at": "13:06", "quote": "You can see them, but only he can change them.", "frame": ""},
+        {"kind": "see", "at": "12:58", "quote": "Ship to payroll button appears greyed; MANUAL column cells empty and greyed.", "frame": "t00775.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The Career view shows positions over time from the payroll movement log, with each month's performance and an average.",
+      "evidence": [
+        {"kind": "say", "at": "13:13", "quote": "Career shows your positions over time, from the payroll movement log, with the performance of each month in", "frame": ""},
+        {"kind": "see", "at": "13:20", "quote": "Career timeline with month percentages and an Average column.", "frame": "t00800.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "The Sellers Active chart covers 15 months and plots four series: total sellers with at least one order, active sellers with 30 or more orders in the month, new sellers (first order), and new active sellers (first month with 30 or more direct orders). The narration says the goal is to make the active line grow.",
+      "evidence": [
+        {"kind": "say", "at": "13:26", "quote": "The chart tracks your sellers over 15 months, total sellers with at least one order, active sellers with", "frame": ""},
+        {"kind": "see", "at": "13:35", "quote": "Legend: Total sellers (>=1 order); Active sellers (>=30 orders); New sellers (first order); New active sellers (first month >=30 direct orders).", "frame": "t00809.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Semi-active lists every seller with between 1 and 29 orders so far this month, with their monthly history.",
+      "evidence": [
+        {"kind": "say", "at": "13:42", "quote": "Semi-Active lists every seller with between 1 and 29 orders so far this month, with their history", "frame": ""},
+        {"kind": "see", "at": "13:42", "quote": "Section subtitle: 1 to 29 orders this month.", "frame": "t00812.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "GMV KPI thresholds: weight 50%; Min 2,000K; Base 2,500K; High 3,000K (K AED).",
+      "evidence": [
+        {"kind": "see", "at": "12:06", "quote": "GMV (K AED) row: WEIGHT 50%, MIN 2,000K, BASE 2,500K, HIGH 3,000K.", "frame": "t00726.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "New active sellers KPI thresholds: weight 0%; Min 1; Base 2; High 3.",
+      "evidence": [
+        {"kind": "see", "at": "12:06", "quote": "New active sellers row: WEIGHT 0%, MIN 1, BASE 2, HIGH 3.", "frame": "t00726.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "% On time KPI thresholds: weight 10%; Min 75%; Base 85%; High 95%.",
+      "evidence": [
+        {"kind": "see", "at": "12:06", "quote": "% On time row: WEIGHT 10%, MIN 75%, BASE 85%, HIGH 95%.", "frame": "t00726.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "% Defect rate (M-1) KPI thresholds: weight 30%; Min 7%; Base 5%; High 2%.",
+      "evidence": [
+        {"kind": "see", "at": "12:06", "quote": "% Defect rate (M-1) row: WEIGHT 30%, MIN 7%, BASE 5%, HIGH 2%.", "frame": "t00726.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Days to solve KPI thresholds: weight 10%; Min 18; Base 12; High 8.",
+      "evidence": [
+        {"kind": "see", "at": "12:06", "quote": "Days to solve row: WEIGHT 10%, MIN 18, BASE 12, HIGH 8.", "frame": "t00726.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Implied: for defect rate and days to solve, a lower value scores higher, because the Min threshold is the highest number and the High threshold is the lowest.",
+      "evidence": [
+        {"kind": "see", "at": "12:06", "quote": "Defect rate Min 7% / Base 5% / High 2%; Days to solve Min 18 / Base 12 / High 8.", "frame": "t00726.jpg"}
+      ],
+      "confidence": "low",
+      "quiz": false
+    },
+    {
+      "type": "number",
+      "statement": "Derived by the checker, not stated in the video: 0.5 x 160 + 0 x 0 + 0.1 x 55 + 0.3 x 51 + 0.1 x 148 = 115.6, which the Total row shows as 116%.",
+      "evidence": [
+        {"kind": "see", "at": "12:21", "quote": "Row PERF values 160% (GMV), 0% (new active sellers), 55% (on time), 51% (defect rate), 148% (days to solve); Total 116%.", "frame": "t00712.jpg"}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    }
+  ],
+  "screens": [
+    {
+      "name": "Supply dashboard > Daily > index and filters",
+      "shows": "Index counts: Meetings (95), Legal (27), Buybox closed (8), Late orders (259), Stuck orders (1,423), Unidentified carrier (979), Refund policy (404), Claims coverage (1,235). Filters: Country flags, Seller status (All / Active / OUT / OFF), Account manager (Pepe 15, Yahia 61, Sherin 30, Momen 23, Samaa 11, Unassigned 9; All 149). Top nav: Daily, Periskope, Team, KAM, Sellers, Price recs, KPIs, Scores, Tools. Top right: Meeting notes, Data freshness, Home.",
+      "at": "06:52",
+      "where": "Top nav and left sidebar",
+      "frame": "t00412.jpg"
+    },
+    {
+      "name": "Late orders table",
+      "shows": "Top late orders, sorted oldest first. Columns: ORDER, MARKET, SELLER, DAYS SINCE ORDER, STAGE. Stage shown: At quality check. Methodology collapsed.",
+      "at": "06:52",
+      "frame": "t00412.jpg"
+    },
+    {
+      "name": "Stuck orders table",
+      "shows": "Header: 1,423 shipped and not marked delivered, oldest first, with country split. Columns: ORDER, SELLER, ORDER DATE, SHIPPING DATE, DAYS SINCE SHIPPING, SLA (<=5d), TRACKING COMPANY, TRACKING. Footer: Showing the oldest 200 of 1,423.",
+      "at": "07:14",
+      "frame": "t00436.jpg"
+    },
+    {
+      "name": "Unidentified shipping companies table",
+      "shows": "Header: 979 shipped parcels with no tracking company on the row, 0.5% of shipped in window, 15 with no tracking id either. Columns: ORDER, SELLER, KAM, TRACKING ID, DAYS SINCE ORDER. Footer: Showing the oldest 200 of 979.",
+      "at": "07:58",
+      "frame": "t00488.jpg"
+    },
+    {
+      "name": "Refund policy panel",
+      "shows": "Header: Open returns on the policy clock right now, not the selected timeframe, 46 sellers in scope, snapshot 2026-10-16. Tiles ON THE CLOCK 404, MOVING 172, STOPPED 232. Two bar charts (SA; AE/PH/TH/ZA) with moving (dark blue), stopped (light blue), warning days (warning symbol) and policy applied (red symbol) markers. Methodology text on weekday hours and timers.",
+      "at": "08:28",
+      "frame": "t00518.jpg"
+    },
+    {
+      "name": "Claims coverage panel",
+      "shows": "Monthly bars, last 15 months (Aug 25 to Oct 26), green closed and red still open, percentage labels, Volume / % switch at top right. Oct 26 is marked partial.",
+      "at": "09:43",
+      "frame": "t00583.jpg"
+    },
+    {
+      "name": "Daily checks: Meetings table",
+      "shows": "Total 95 sellers. Columns SELLER, LAST SEEN, STATUS, BUYBOX, KAM, monthly counts (MAY 26 to OCT), FREQUENCY (e.g. every 34d, none, every 169d).",
+      "at": "10:34",
+      "frame": "t00626.jpg"
+    },
+    {
+      "name": "Daily checks: Legal table",
+      "shows": "Columns SELLER, STATUS, BUYBOX, KAM, TRADE LICENCE, TRN, TRN REG, VAT SCHEME, with values such as 11 Jun 27, not reg, missing, Standard, and Standard with a not-equal TRN mark.",
+      "at": "10:23",
+      "frame": "t00623.jpg"
+    },
+    {
+      "name": "KAM tab account-manager row and Chart/Table toggle",
+      "shows": "Tabs: All 149, Pepe 15, Yahia 61, Sherin 30 (selected), Momen 23, Samaa 11, Unassigned 9. Toggle Chart / Table top right.",
+      "at": "10:31",
+      "frame": "t00639.jpg"
+    },
+    {
+      "name": "KAM index sidebar",
+      "shows": "Sections HR, Sellers, Orders, On time, Fulfillment, Quality, Claims management, Cancellation, Sellers connections, with sub-items; Meetings partly visible, Legal below the frame.",
+      "at": "10:55",
+      "frame": "t00657.jpg"
+    },
+    {
+      "name": "HR > Performance",
+      "shows": "Timeframe (Monthly last 15M, Weekly last 10W, Daily last 30D; 442 days of data), Country, Seller status and Sellers filters. Four tiles: GMV (K AED), % On time, % Defect rate (M-1), Days to solve. KPI table with MAY 26 to OCT, WEIGHT, MIN, BASE, HIGH, PERF., MANUAL; rows Total, Bonus baseline, Bonus reached. Button Ship to payroll (greyed).",
+      "at": "11:15",
+      "frame": "t00726.jpg"
+    },
+    {
+      "name": "HR > Career",
+      "shows": "Career timeline: Junior KAM (current, 1 Jul 2026 to today), KAM Trial (1 Apr to 30 Jun 2026), KAM Onboarding (1 Mar to 31 Mar 2026). Month percentages and an Average column.",
+      "at": "13:13",
+      "frame": "t00800.jpg"
+    },
+    {
+      "name": "Sellers > Active chart",
+      "shows": "Chart Sellers total, active and new over 15 months, with legend for Total sellers (>=1 order), Active sellers (>=30 orders), New sellers (first order), New active sellers (first month >=30 direct orders).",
+      "at": "13:24",
+      "frame": "t00809.jpg"
+    },
+    {
+      "name": "Sellers > Semi-active table",
+      "shows": "Section 1 to 29 orders this month. Columns SELLER, STATUS, BUYBOX, KAM, FEB 26 to SEP, OCT*.",
+      "at": "13:42",
+      "frame": "t00812.jpg"
+    }
+  ],
+  "terms": [
+    {"term": "Late orders", "meaning": "Orders shown in the Daily Late orders list, sorted oldest first with days since order and stage. The exact definition of late is not given in the video (Methodology not opened).", "at": "06:52"},
+    {"term": "Stuck orders", "meaning": "Orders that shipped at least four days ago and still have no delivered date.", "at": "07:10"},
+    {"term": "Marking gap", "meaning": "Orders are delivered but not marked delivered, because in markets with no courier delivery feed nobody has marked them.", "at": "07:39"},
+    {"term": "Unidentified carrier", "meaning": "Shipped orders whose tracking record names no shipping company (a missing record).", "at": "07:58"},
+    {"term": "Delivery promise (SLA)", "meaning": "The delivery time promised for a market, shown in the SLA column; the narration and caption state three working days in the Emirates and five elsewhere.", "at": "07:25"},
+    {"term": "Policy clock / policy day", "meaning": "The clock counts working hours the claim spends in stages the seller owns. A policy day is 24 weekday hours on the Dubai calendar day; Saturday and Sunday never accrue.", "at": "08:34"},
+    {"term": "Moving", "meaning": "Returns whose clock is running because the claim sits with the seller (dark blue on the chart).", "at": "08:46"},
+    {"term": "Stopped", "meaning": "Returns whose clock is frozen because the claim is on Revibe's side (light blue on the chart; banked, frozen until it restarts).", "at": "08:52"},
+    {"term": "Warning days", "meaning": "Policy days that carry a warning marker on the market axis: 7 and 8 for Saudi Arabia; 6 and 7 for the other markets.", "at": "09:16"},
+    {"term": "Policy applied", "meaning": "Policy days that carry the red policy-applied marker: 9 and above for Saudi Arabia; 8 and above for the other markets. A claim in those columns is one Revibe can act on.", "at": "09:23"},
+    {"term": "Claims coverage", "meaning": "Per month, claims raised split into closed (green) and still open (red); the closed share is the coverage, and higher is better.", "at": "09:44"},
+    {"term": "Volume / % switch", "meaning": "Switches Claims coverage bars between counts (Volume) and shares (%, every bar full height).", "at": "09:53"},
+    {"term": "M-1", "meaning": "Metric read one period back, used for the defect rate because claims arrive weeks after the order.", "at": "11:49"},
+    {"term": "Bonus period", "meaning": "A month runs from the 20th of the previous month to the 19th of the month, for example October is 20 Sep to 19 Oct.", "at": "11:21"},
+    {"term": "PERF", "meaning": "The score of each KPI for the current period, from 0 at Min to 100% at Base and 150% at High.", "at": "12:21"},
+    {"term": "Total", "meaning": "The weighted sum of KPI scores, capped at 150%.", "at": "12:21"},
+    {"term": "Min / Base / High", "meaning": "The three thresholds for each KPI on the scoring scale.", "at": "12:06"},
+    {"term": "Bonus baseline", "meaning": "Monthly variable salary.", "at": "12:50"},
+    {"term": "Bonus reached", "meaning": "Total multiplied by the bonus baseline.", "at": "12:50"},
+    {"term": "Manual column / Ship to payroll", "meaning": "Adjustment column and send-to-payroll button; greyed out for the KAM and used by Pierre to set the final figure.", "at": "12:58"},
+    {"term": "Semi-active", "meaning": "Sellers with between 1 and 29 orders so far this month.", "at": "13:42"},
+    {"term": "Total seller", "meaning": "A seller with at least one order.", "at": "13:26"},
+    {"term": "Active seller", "meaning": "A seller with 30 or more orders in the month.", "at": "13:26"},
+    {"term": "New seller / New active seller", "meaning": "New seller is a seller on its first order; new active seller is one with 30 or more direct orders in its first month (per the legend).", "at": "13:35"},
+    {"term": "Buybox closed", "meaning": "A seller flagged as closed buybox; the video says to reopen closed buyboxes each morning. The exact meaning is not defined in the video.", "at": "10:16"}
+  ],
+  "asr_fixes": [
+    {"at": "08:39", "heard": "Revive's side", "correct": "Revibe's side", "basis": "On-screen caption reads 'Time on Revibe's side is never charged to the seller' (t00518.jpg); the brand is Revibe."},
+    {"at": "08:52", "heard": "{revived?} side", "correct": "Revibe's side", "basis": "Same brand name as on screen: caption 'because the claim is on Revibe's side' (t00534.jpg)."},
+    {"at": "07:28", "heard": "{5.?}", "correct": "five (caption: 'everywhere else five'; SLA column shows <=5d)", "basis": "Caption at 07:25 in t00445.jpg reads 'everywhere else five'; SLA column on the Stuck orders table shows <=5d on each visible row (t00436.jpg)."},
+    {"at": "11:34", "heard": "durhams", "correct": "dirhams (AED)", "basis": "Tile and KPI headers on screen read 'GMV (K AED)' (t00694.jpg, t00726.jpg)."},
+    {"at": "10:16", "heard": "buy boxes", "correct": "buyboxes", "basis": "Caption reads 'reopen closed buyboxes' (t00623.jpg); sidebar item is 'Buybox closed' (t00436.jpg)."},
+    {"at": "09:25", "heard": "{click?} any column", "correct": "clicking any column", "basis": "Methodology text reads 'clicking any column lists its claims with the timer state on each' (t00534.jpg)."},
+    {"at": "07:07", "heard": "Stuck {orders?}", "correct": "Stuck orders", "basis": "Caption at 07:10 reads 'Stuck orders are the other side' (t00433.jpg); Index item reads 'Stuck orders' (t00436.jpg)."}
+  ],
+  "unclear": [
+    {"at": "09:08", "issue": "Narration says 'A policy day is 24 working hours' and the caption says 'twenty four working hours'; the on-screen methodology says 24 weekday hours on the Dubai calendar day, with Saturday and Sunday never accruing (t00534.jpg). The fact is stated from the screen; the two wordings differ."},
+    {"at": "06:52", "issue": "Narration says the list shows days since the order was confirmed; the column is labelled DAYS SINCE ORDER (t00412.jpg). Which start date is used is not confirmed on screen."},
+    {"at": "07:28", "issue": "The Emirates three-working-day promise appears only in the narration and the caption (t00445.jpg). No UAE row appears in the frames, so the figure cannot be checked against table data."},
+    {"at": "07:36", "issue": "'Most of these orders are not really lost' does not name the list. The frame shows the Unidentified shipping companies table, not the Stuck orders table, so the referent is unclear."},
+    {"at": "12:06", "issue": "Narration caps the total at 150% but says nothing about a cap per KPI; the GMV PERF on screen is 160% (above the 150% High), so whether a KPI score is capped is unclear."},
+    {"at": "10:49", "issue": "Narration says 'Click your own name', but the screen shows the Sherin tab selected; the trainer Pierre is not among the tabs. Pepe is a tab; whether that tab is Pierre is not confirmed, so the mapping is not stated."},
+    {"at": "10:23", "issue": "The meaning of the Meetings table columns (LAST SEEN, FREQUENCY such as every 34d) and of the Legal table statuses (missing, not reg, Standard with a not-equal TRN mark) is not explained in the video."},
+    {"at": "07:10", "issue": "The criteria for Late orders (259) are not defined; the Methodology panel is collapsed in every frame and not opened by the trainer."},
+    {"at": "11:34", "issue": "Narration calls the last tile 'average days to solve a claim', while the screen tile reads DAYS TO SOLVE. The averaging is not shown on screen."},
+    {"at": "13:20", "issue": "The OCT* / Oct 26* asterisk on the Career and Semi-active tables is not explained in the video or on screen."}
+  ],
+  "outdated": [
+    {"at": "08:28", "signal": "Refund policy panel is a snapshot dated 2026-10-16 (46 sellers in scope). Counts 404 / 172 / 232 and the SA and other-market bars will change."},
+    {"at": "08:34", "signal": "Screen says the policy timers began on 03 Sep 2026 and the clock is only 31.2 policy days old. This is a figure at the snapshot date, not a permanent fact."},
+    {"at": "09:53", "signal": "Claims coverage: the right-most month (Oct 26) is still running and partial (52% closed, 48% open at recording). Figures for Oct will change."},
+    {"at": "06:52", "signal": "All Daily and KAM counts shown in the video (259 late, 1,423 stuck, 979 unidentified, 404 refund, 1,235 claims, 95 meetings, 149 sellers, Sherin 30 and the KPI values) are recording-time snapshots and will change."}
+  ],
+  "privacy": [
+    {"at": "07:14", "frame": "t00436.jpg", "what": "Seller business name 'Hamza Bashir Trading' appears in the Stuck orders table and contains a personal name. Seller names are visible across the Daily tables."},
+    {"at": "10:23", "frame": "t00623.jpg", "what": "Seller name 'Noor Al Hadeya' (Legal table) contains a personal name."},
+    {"at": "10:34", "frame": "t00626.jpg", "what": "Seller names 'Bilal Sohail Trading' and 'Sabir Karim Phones' (Meetings table) contain personal names."},
+    {"at": "13:42", "frame": "t00812.jpg", "what": "Seller name 'Mostaqbil Al Koun' (Semi-active table) appears to contain a personal name."},
+    {"at": "10:31", "frame": "t00639.jpg", "what": "Staff first names of account managers (Pepe, Yahia, Sherin, Momen, Samaa) and the KAM Sherin's career timeline and monthly performance percentages (t00795 to t00800, t00675 to t00775) are visible: personal HR data for a named employee."}
+  ],
+  "audit": {
+    "checked": 142,
+    "removed": [],
+    "corrected": [
+      {"before": "Step 10:31 action: 'Opens the KAM tab, then clicks your own name in the account manager row (the screen shows Sherin selected).'", "after": "Opens the KAM tab. The trainer tells the viewer to click their own name in the account manager row; the screen shows the Sherin tab selected (the click itself is not shown).", "reason": "Frames show Sherin selected and no click on the trainer's name; the 'click your own name' line is an instruction to the viewer."},
+      {"before": "Step 10:31 says: composite of 10:43, 10:49 and 10:51 lines.", "after": "says: 'Click your own name.' (exact line at 10:49).", "reason": "The says field must be one exact transcript line."},
+      {"before": "Fact: 'Most stuck orders are a marking gap, not lost parcels: in markets with no courier delivery feed, nobody has marked the order as delivered.'", "after": "Most of the orders referred to in the marking-gap explanation are not really lost; the narration does not name the list, and the frame shows the Unidentified shipping companies table.", "reason": "Narration at 07:36 says 'these orders' with no explicit referent, and the frame at 07:41 is the Unidentified carrier table, not Stuck orders."},
+      {"before": "Fact (policy, SLA): 'five days everywhere else. Only Saudi Arabia and South Africa rows are visible with SLA shown as 5 days.'", "after": "three working days in the Emirates and five everywhere else (caption); SLA column shows <=5d on SA and ZA rows.", "reason": "The table shows '<=5d', not '5 days'; the three-day/five-day statement is in the on-screen caption at 07:25."},
+      {"before": "Unclear at 07:28: 'Emirates three-working-day promise cannot be verified ... the statement rests on narration alone.'", "after": "The Emirates three-working-day promise appears only in the narration and caption; no UAE row is in the frames, so it cannot be checked against table data.", "reason": "The statement is in the on-screen caption, so 'narration alone' overstated the gap."},
+      {"before": "Fact (Sellers Active): 'tracks three groups'.", "after": "plots four series: total sellers (>=1 order), active sellers (>=30 orders), new sellers (first order), and new active sellers (first month >=30 direct orders).", "reason": "The legend shows four series; the fourth was omitted."},
+      {"before": "ASR fix at 08:46 (heard '{revived?} side').", "after": "ASR fix at 08:52 (the trainer's words are at 08:52).", "reason": "The word is in the line that starts at 08:52 in the transcript."},
+      {"before": "Number (arithmetic check): stated as a fact from the video.", "after": "Labelled 'Derived by the checker, not stated in the video' with confidence medium.", "reason": "The 115.6 arithmetic is computed by the checker from on-screen values, not narrated."},
+      {"before": "Stuck orders header flags: 'The first two flags match Saudi Arabia and South Africa; the other three cannot be matched to flags at this resolution.'", "after": "'appear to match ... cannot be read reliably at this resolution.'", "reason": "Hedged to match the low-resolution frame."},
+      {"before": "Step 11:31 says 'thousands of durhams' (kept as the transcript).", "after": "Spoken 'durhams' is corrected to 'dirhams (AED)' in the asr_fixes list only; the says field keeps the transcript wording.", "reason": "Exact-quote rule; the correction is recorded separately."}
+    ],
+    "added": [
+      "Fact: HR Performance Timeframe selector options (Monthly last 15M, Weekly last 10W, Daily last 30D; 442 days of data) at t00694.jpg.",
+      "Screen fact: Unidentified carrier table rows are for seller Smart Life with KAM Samaa; oldest row SA-72011-1, tracking SDO22698189, 491 days since order (t00488.jpg).",
+      "Unclear: OCT* / Oct 26* asterisk on Career and Semi-active tables is not explained (t00800.jpg, t00812.jpg).",
+      "Screen fact: KAM index sidebar partially cut off; Meetings and Legal are below the frame at 10:58 (t00657.jpg), narrated but not visible in that frame.",
+      "Screen fact: Stuck orders footer 'the rest are older still and read the same' (t00436.jpg).",
+      "Screen fact: Monthly KPI history for GMV May 26 to Sep 26: 3,989K, 4,786K, 4,464K, 4,766K, 4,418K (t00726.jpg)."
+    ]
+  }
+}

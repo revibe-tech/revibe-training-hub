@@ -1,0 +1,811 @@
+{
+  "summary": "Part 2 of 4 of the 2.0 Fulfillment App (Sellers) training (04:50-10:20). Pierre walks through creating a shipment request in the Revibe Fulfillment App (AppSheet): setting Quantity Sent and Price on request lines, saving, adding a second and third SKU, checking the Requested shipment and its Related Request_products, reviewing Request products by status, and then the packing, labelling and quality-check rules a seller must follow before the Quiqup pickup. All 40 frames listed in the pack were opened. Quantity rules, price/buybox behaviour and packing rules are seen on screen or stated in speech. Condition battery thresholds for Excellent and Very good, and the lower quantity bound, are unclear and are not stated as facts.",
+  "frames_opened": 40,
+  "steps": [
+    {
+      "at": "04:50",
+      "screen": "Request products Form (opened from a shipment)",
+      "action": "Shows the Quantity Sent field (0) and the Price field (607) on a request line; explains that the quantity has to stay within the allowed range.",
+      "evidence": [
+        {"kind": "say", "at": "04:54", "quote": "here the quantity that you will send will be between one and the quantity allowed which is"},
+        {"kind": "see", "at": "04:50", "frame": "t00290.jpg", "quote": "Request products Form: Buybox supplier 608, Quantity Sent 0, Price 607, Total price 0, Stage Open, Request Status Requested, Payment method 100% - After sales"}
+      ],
+      "says": "here the quantity that you will send will be between one and the quantity allowed which is",
+      "why": ""
+    },
+    {
+      "at": "05:02",
+      "screen": "Request products Form, SKU 010109-060101",
+      "action": "Enters 35 in Quantity Sent, above the allowed 34, to show the limit.",
+      "evidence": [
+        {"kind": "say", "at": "05:02", "quote": "here 34 if you go to 35 you will have an error message {chasing?} that the quantity allowed"},
+        {"kind": "see", "at": "05:02", "frame": "t00304.jpg", "quote": "SKU 010109-060101, product iphone-1164 GBBlackGood, Quantity Allowed 34, Quantity Sent 35 in a highlighted field; no error text visible in this frame"}
+      ],
+      "says": "here 34 if you go to 35 you will have an error message {chasing?} that the quantity allowed",
+      "why": ""
+    },
+    {
+      "at": "05:12",
+      "screen": "Request products Form",
+      "action": "Sets Quantity Sent to 10; Total price updates to 6,070.",
+      "evidence": [
+        {"kind": "say", "at": "05:12", "quote": "10 devices in your shipment for instance and here in terms of price automatically you can see the"},
+        {"kind": "see", "at": "05:15", "frame": "t00315.jpg", "quote": "Quantity Sent 10, Price 607, Buybox supplier 608, Total price 6,070"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "05:17",
+      "screen": "Request products Form",
+      "action": "Points out that the proposed price is one below the buy box and that it can be lowered further.",
+      "evidence": [
+        {"kind": "say", "at": "05:17", "quote": "proposed price is one dirham cheaper than the buy box you can go lower the lower you go"},
+        {"kind": "see", "at": "05:15", "frame": "t00315.jpg", "quote": "Price 607 under Buybox supplier 608"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "05:22",
+      "screen": "Request products Form",
+      "action": "Raises Price to 609 to show the refusal; the error appears under the field and Total price shows 6,090.",
+      "evidence": [
+        {"kind": "say", "at": "05:22", "quote": "the more you sell {but?} you cannot go higher {otherwise?} you will have an error message saying {come?}"},
+        {"kind": "see", "at": "05:26", "frame": "t00326.jpg", "quote": "Price 609 with red text under the field: Come on! Let's beat Buybox!; Total price 6,090"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "05:27",
+      "screen": "Request products Form then Requests Supplier Form",
+      "action": "Puts the price back to the accepted value and presses Save; the shipment form shows the request line under Related entries.",
+      "evidence": [
+        {"kind": "say", "at": "05:27", "quote": "on let's bid {by?} Bob so let's say that you accept this first price and then you can"},
+        {"kind": "say", "at": "05:32", "quote": "just press on save you will see that the request of this product will be in your shipment"},
+        {"kind": "see", "at": "05:34", "frame": "t00334.jpg", "quote": "Requests Supplier Form: Related entries row iphone-1164 GBBlackGood, Quantity Allowed 34, Supplier SK World; New button"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "05:38",
+      "screen": "Requests Supplier Form, Related entries",
+      "action": "Clicks New to add a second product to the same shipment.",
+      "evidence": [
+        {"kind": "say", "at": "05:38", "quote": "which is requested and you can add a new one if you want this new one it will"},
+        {"kind": "see", "at": "05:41", "frame": "t00341.jpg", "quote": "Request products Form opened with blank-to-filled SKU 020134-038651 apple-macbook-pro-2012 Quantity Allowed 15, Buybox supplier 370, Price 369"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "05:43",
+      "screen": "Request products Form, SKU 020134-038651",
+      "action": "Describes the MacBook Pro 2012 line with 15 allowed and says he enters 10.",
+      "evidence": [
+        {"kind": "say", "at": "05:43", "quote": "be like this {MacBook?} Pro 2012 15 quantities allowed let's say here as {where?} you put 10 {you?}"},
+        {"kind": "see", "at": "05:46", "frame": "t00346.jpg", "quote": "Quantity Allowed 15, Supplier SK World, Buybox supplier 370, Price 369, Quantity Sent 0 in this frame"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "05:51",
+      "screen": "Request products Form",
+      "action": "Says the price on this line can be lowered further because the seller wants to sell quickly.",
+      "evidence": [
+        {"kind": "say", "at": "05:51", "quote": "validate this price {you?} can even go lower because you want to sell them very quickly and you"}
+      ],
+      "says": "",
+      "why": "because you want to sell them very quickly (said by the trainer)"
+    },
+    {
+      "at": "05:56",
+      "screen": "Requests Supplier Form, Related entries",
+      "action": "Shows that the shipment now holds two different SKUs.",
+      "evidence": [
+        {"kind": "say", "at": "05:56", "quote": "can save so here for instance in this shipment you can see that {i?} requested two different skus"},
+        {"kind": "see", "at": "05:59", "frame": "t00357.jpg", "quote": "Related entries with SKU 010109-060101 iphone-1164 GBBlackGood (34) and SKU 020134-038651 apple-macbook-pro-2012 (15), both SK World"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "06:01",
+      "screen": "Requests Supplier Form, Related entries scrolled to Buybox, Quantity Sent and Price columns",
+      "action": "Points at the allowed quantities (34 and 15) and at the sent quantities (10 and 10) and totals for both lines.",
+      "evidence": [
+        {"kind": "say", "at": "06:01", "quote": "the quantities allowed were 34 and 15 and every time i decided to send them and here i"},
+        {"kind": "see", "at": "06:01", "frame": "t00361.jpg", "quote": "Rows: Buybox supplier 608 and 370, Quantity Sent 10 and 10, Price 607 and 360, Total price 6,070 and 3,600"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "06:08",
+      "screen": "Shipments list (after saving)",
+      "action": "Saves the shipment and shows it in the Requested group in the Shipments list.",
+      "evidence": [
+        {"kind": "say", "at": "06:08", "quote": "can just save my shipment which is {not?} at requested stage if my shipment is at requested stage"},
+        {"kind": "see", "at": "06:08", "frame": "t00368.jpg", "quote": "Shipments list, Requested group: 1 row, Supplier SK World, Created at 3/5/2025 1:15:03 PM, Request Status Requested, Payment method 100% - After sales, Tracking company Quiqup, Tracking ID empty"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "06:10",
+      "screen": "Request products Form (new line)",
+      "action": "Adds a third product line, SKU 010116-060101 iphone-12-mini64 GBBlackGood, with 3 sent at price 638 (total 1,914) and saves.",
+      "evidence": [
+        {"kind": "say", "at": "06:15", "quote": "i can still add products into it once the shipment is not anymore at requested stage it means"},
+        {"kind": "see", "at": "06:10", "frame": "t00376.jpg", "quote": "SKU 010116-060101 iphone-12-mini64 GBBlackGood, Quantity Allowed 13, Buybox supplier 639, Price 638"},
+        {"kind": "see", "at": "06:17", "frame": "t00377.jpg", "quote": "Quantity Sent 3, Price 638, Total price 1,914; cursor on Save"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "06:21",
+      "screen": "Shipment detail (Requested), right-hand panel",
+      "action": "Opens the Requested shipment; Related Request_products lists all three SKUs (34, 15, 13 allowed).",
+      "evidence": [
+        {"kind": "see", "at": "06:21", "frame": "t00381.jpg", "quote": "Request Status Requested; Related Request_products 3 rows: 010109-060101 (34, 608), 020134-038651 (15, 370), 010116-060101 (13, 639); Expand and Add links; Tracking company Quiqup"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "06:29",
+      "screen": "Shipments list, Requested and Picked up groups",
+      "action": "Says that a requested shipment cannot take more products; points at the Requested and Picked up shipments in the list.",
+      "evidence": [
+        {"kind": "say", "at": "06:29", "quote": "cannot add any single product now that your shipment is requested you can see it here because here"},
+        {"kind": "see", "at": "06:26", "frame": "t00386.jpg", "quote": "Shipment detail panel still open; cursor moved to the Picked up row"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "06:37",
+      "screen": "Request products list, Open tab",
+      "action": "Opens Request products and selects Open to list pending requested products.",
+      "evidence": [
+        {"kind": "say", "at": "06:38", "quote": "in open you will see all the requested {product?} that are pending at this moment when the products"},
+        {"kind": "see", "at": "06:37", "frame": "t00397.jpg", "quote": "Request products with the Open tab selected: rows with Request Status Requested (e.g. 010109-060102, 010115-081203, 010109-060101, 020134-038651, 010116-060101, 020456-048851)"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "06:52",
+      "screen": "Shipments list (reloading), then Shipments list",
+      "action": "Explains that Revibe creates the airway bill once a shipment is requested and gives it to the seller.",
+      "evidence": [
+        {"kind": "say", "at": "06:54", "quote": "So at this moment, when the shipment will be requested, I will personally create an airway bill, provide"},
+        {"kind": "say", "at": "07:01", "quote": "it to you, and then you will just be able to print it and put it on the"},
+        {"kind": "see", "at": "06:55", "frame": "t00415.jpg", "quote": "Shipments list: Requested 1, Picked up 1, Warehouse received 14, Cancelled 1; Tracking Label link column"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "07:08",
+      "screen": "Speech over Request products list (no screen change in the cited frame)",
+      "action": "Gives the seller packing steps: bubble-wrap each device, add a SKU sticker, add a charger, print the airway bill and put it on the box, then Quiqup collects.",
+      "evidence": [
+        {"kind": "say", "at": "07:08", "quote": "At this moment, the only thing that you need to do is to put every single device in"},
+        {"kind": "say", "at": "07:15", "quote": "On the bubble wrap to put a sticker mentioning the SKU, the model, color, storage, and the condition,"},
+        {"kind": "say", "at": "07:22", "quote": "and to put a charger that goes along with the device."},
+        {"kind": "say", "at": "07:26", "quote": "You print the airway bill, you put it on the box."},
+        {"kind": "say", "at": "07:29", "quote": "{Quickup?} will come and pick up the order."},
+        {"kind": "see", "at": "07:15", "frame": "t00435.jpg", "quote": "Request products list, All tab, cursor on a Cancelled row (010114-071201)"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "07:33",
+      "screen": "Request products list, All tab, Cancelled / Missing item / Requested groups",
+      "action": "Walks through the groups: cancelled items, missing items and items still requested or sent to the warehouse.",
+      "evidence": [
+        {"kind": "say", "at": "07:36", "quote": "These ones have been canceled."},
+        {"kind": "say", "at": "07:38", "quote": "These ones were missing."},
+        {"kind": "say", "at": "07:39", "quote": "{These?} ones are still requested and these ones have been sent to the warehouse."},
+        {"kind": "see", "at": "07:33", "frame": "t00453.jpg", "quote": "Group Missing item (1 row: 010115-080501, Quantity Allowed 0, Quantity Sent 2, Buybox 1,613, Price 1,696) above group Requested"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "07:42",
+      "screen": "Request products list, columns scrolled right",
+      "action": "Points at the columns that show allowed, sent and received quantities, buy box, price, total, payment and dates.",
+      "evidence": [
+        {"kind": "say", "at": "07:45", "quote": "And every time you see what was the quantity allowed, the quantity sent, the quantity received, what was"},
+        {"kind": "say", "at": "07:50", "quote": "the buy box, the price that you decided to put, the total value you will be paid for,"},
+        {"kind": "say", "at": "07:56", "quote": "the payment method and some details related to when the shipment was created, etc."},
+        {"kind": "see", "at": "07:48", "frame": "t00468.jpg", "quote": "Columns Created at and Created by visible; Created by values are seller and staff emails"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "08:00",
+      "screen": "Request products list (Warehouse received rows)",
+      "action": "Summarises the shipment steps and the packing and QC requirements over the list.",
+      "evidence": [
+        {"kind": "say", "at": "08:01", "quote": "So just to summarize, when the shipment is requested, what you need to do, print the {label?} {put?}"},
+        {"kind": "say", "at": "08:09", "quote": "it on the box including all the devices that you requested and quicker to come and pick up"},
+        {"kind": "say", "at": "08:15", "quote": "the shipment and you have to follow the following requirements you need to do a complete qc in"},
+        {"kind": "see", "at": "08:00", "frame": "t00458.jpg", "quote": "Warehouse received rows with Quantity Allowed, Quantity Sent and Quantity received values (e.g. 010119-081201: 3 / 3 / 3; 010119-070301: 3 / 1 / 1)"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "08:20",
+      "screen": "Speech over Request products list (no screen change)",
+      "action": "Gives box, count, grouping and labelling rules for the seller.",
+      "evidence": [
+        {"kind": "say", "at": "08:21", "quote": "order to avoid returns warranties from the customers but also rejection from us don't use revive boxes just"},
+        {"kind": "say", "at": "08:30", "quote": "use random box carton box pack everything properly in this carton box and we {handle?} the proper packaging"},
+        {"kind": "say", "at": "08:44", "quote": "them at the warehouse we will count them and we will do a video recording of the unboxing"},
+        {"kind": "say", "at": "08:56", "quote": "not forget to include the chargers and devices relatives and please group together {the?} same SKUs and make"},
+        {"kind": "see", "at": "08:40", "frame": "t00520.jpg", "quote": "Request products list unchanged (Warehouse received rows)"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "09:00",
+      "screen": "Speech over Request products list (no screen change)",
+      "action": "Shows the labelling example (SKU, model, storage, colour, condition) and explains the technicians' quality check.",
+      "evidence": [
+        {"kind": "say", "at": "09:04", "quote": "sure to label each product with the SKU provided by Revive, the model, storage, color, condition, {like?} for"},
+        {"kind": "say", "at": "09:12", "quote": "instance {it?} will be on every sticker, {1?} {to?} 3, iPhone 12 Pro, 128 GB, graphite, good condition."},
+        {"kind": "say", "at": "09:19", "quote": "Once your devices are received by Revive at the warehouse, our technicians will do {quality?} check."},
+        {"kind": "see", "at": "09:00", "frame": "t00540.jpg", "quote": "Request products list unchanged"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "09:20",
+      "screen": "Speech over Request products list (no screen change)",
+      "action": "Explains the basic quality check and the condition criteria the technicians apply.",
+      "evidence": [
+        {"kind": "say", "at": "09:27", "quote": "The quality check they will do will be like the basic quality check any customer will do {so?}"},
+        {"kind": "say", "at": "09:32", "quote": "we just want to make sure that the devices are working properly which means that all the features"},
+        {"kind": "say", "at": "09:44", "quote": "is matching the criteria as we say so for excellent everything must be new and the battery level"},
+        {"kind": "see", "at": "09:40", "frame": "t00580.jpg", "quote": "Request products list unchanged"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "10:00",
+      "screen": "Speech over Request products list (no screen change)",
+      "action": "Points to the quality guidelines file he shared and says the technicians will check devices against it.",
+      "evidence": [
+        {"kind": "say", "at": "10:03", "quote": "be 85% at least {but?} this is part of the quality guidelines which is a file I"},
+        {"kind": "say", "at": "10:10", "quote": "shared with you and you can refer to it once our technicians will receive the devices several options"},
+        {"kind": "see", "at": "10:00", "frame": "t00600.jpg", "quote": "Request products list unchanged"}
+      ],
+      "says": "",
+      "why": ""
+    }
+  ],
+  "facts": [
+    {
+      "type": "rule",
+      "statement": "The trainer says the Quantity Sent on a request line must be between one and the Quantity Allowed for that line.",
+      "evidence": [
+        {"kind": "say", "at": "04:54", "quote": "here the quantity that you will send will be between one and the quantity allowed which is"},
+        {"kind": "say", "at": "05:07", "quote": "is either negative or higher than the quantity allowed so let's say that you want to put like"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "The trainer says that entering 35 as Quantity Sent where 34 is allowed (SKU 010109-060101) gives an error message; the captured frame shows 35 in the field with no error text.",
+      "evidence": [
+        {"kind": "say", "at": "05:02", "quote": "here 34 if you go to 35 you will have an error message {chasing?} that the quantity allowed"},
+        {"kind": "see", "at": "05:02", "frame": "t00304.jpg", "quote": "Quantity Sent 35 in the field, Quantity Allowed 34, no error text in the frame"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Quantity Allowed is the maximum quantity the seller may send for a given SKU line; it appears in a greyed field on the Request products Form (34 for SKU 010109-060101, 15 for SKU 020134-038651, 13 for SKU 010116-060101).",
+      "evidence": [
+        {"kind": "say", "at": "04:54", "quote": "here the quantity that you will send will be between one and the quantity allowed which is"},
+        {"kind": "see", "at": "05:02", "frame": "t00304.jpg", "quote": "Quantity Allowed 34 in a greyed field"},
+        {"kind": "see", "at": "06:10", "frame": "t00376.jpg", "quote": "Quantity Allowed 13 for SKU 010116-060101"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Buybox supplier is the buy box reference price shown on each request line (608 for SKU 010109-060101, 370 for SKU 020134-038651, 639 for SKU 010116-060101); the exact meaning of the buy box is not explained on screen.",
+      "evidence": [
+        {"kind": "say", "at": "05:17", "quote": "proposed price is one dirham cheaper than the buy box you can go lower the lower you go"},
+        {"kind": "see", "at": "04:50", "frame": "t00290.jpg", "quote": "Buybox supplier 608"},
+        {"kind": "see", "at": "06:10", "frame": "t00376.jpg", "quote": "Buybox supplier 639"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The Price field starts at one unit below the Buybox supplier price on the lines shown (607 against 608, 369 against 370, 638 against 639).",
+      "evidence": [
+        {"kind": "say", "at": "05:17", "quote": "proposed price is one dirham cheaper than the buy box you can go lower the lower you go"},
+        {"kind": "see", "at": "05:15", "frame": "t00315.jpg", "quote": "Price 607 against Buybox supplier 608"},
+        {"kind": "see", "at": "05:46", "frame": "t00346.jpg", "quote": "Price 369 against Buybox supplier 370"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "policy",
+      "statement": "A seller may set the Price lower than the pre-filled price; the trainer says that the lower the price, the more the seller sells.",
+      "evidence": [
+        {"kind": "see", "at": "04:50", "frame": "t00290.jpg", "quote": "Price field label: The lower you go, the more you sell!"},
+        {"kind": "say", "at": "05:17", "quote": "proposed price is one dirham cheaper than the buy box you can go lower the lower you go"},
+        {"kind": "say", "at": "05:22", "quote": "the more you sell {but?} you cannot go higher {otherwise?} you will have an error message saying {come?}"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "A Price above the Buybox supplier price is refused: the form shows the red message 'Come on! Let's beat Buybox!' under the Price field (seen with 609 against a Buybox of 608).",
+      "evidence": [
+        {"kind": "say", "at": "05:22", "quote": "the more you sell {but?} you cannot go higher {otherwise?} you will have an error message saying {come?}"},
+        {"kind": "see", "at": "05:26", "frame": "t00326.jpg", "quote": "Price 609 with red text under the field: Come on! Let's beat Buybox!"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Total price equals Price multiplied by Quantity Sent on the lines shown (607 x 10 = 6,070; 360 x 10 = 3,600; 638 x 3 = 1,914).",
+      "evidence": [
+        {"kind": "see", "at": "05:15", "frame": "t00315.jpg", "quote": "Quantity Sent 10, Price 607, Total price 6,070"},
+        {"kind": "see", "at": "06:01", "frame": "t00361.jpg", "quote": "Price 360, Quantity Sent 10, Total price 3,600"},
+        {"kind": "see", "at": "06:17", "frame": "t00377.jpg", "quote": "Quantity Sent 3, Price 638, Total price 1,914"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Press Save on the shipment form after setting a request line; the product then appears under Related entries of that shipment, whose Request Status shows Requested.",
+      "evidence": [
+        {"kind": "say", "at": "05:32", "quote": "just press on save you will see that the request of this product will be in your shipment"},
+        {"kind": "see", "at": "05:34", "frame": "t00334.jpg", "quote": "Requests Supplier Form: Related entries row iphone-1164 GBBlackGood; Request Status Requested"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "To add another product to an existing shipment, use New in the Related entries list of the shipment form, or Add in the Related Request_products section of the Requested shipment.",
+      "evidence": [
+        {"kind": "say", "at": "05:38", "quote": "which is requested and you can add a new one if you want this new one it will"},
+        {"kind": "see", "at": "05:34", "frame": "t00334.jpg", "quote": "New button under the Related entries table"},
+        {"kind": "see", "at": "06:21", "frame": "t00381.jpg", "quote": "Expand and Add links above the Related Request_products table"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "example",
+      "statement": "A single shipment can hold several SKUs, each with its own Quantity Allowed, Quantity Sent and Price; the example used two SKUs with 34 and 15 allowed.",
+      "evidence": [
+        {"kind": "say", "at": "05:56", "quote": "can save so here for instance in this shipment you can see that {i?} requested two different skus"},
+        {"kind": "say", "at": "06:01", "quote": "the quantities allowed were 34 and 15 and every time i decided to send them and here i"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The shipment form (Requests Supplier Form) shows Request Status, Supplier, Payment method (100% - After sales), Tracking company (Quiqup), Tracking link (https://track-parcel.quiqup.com/), and created and updated by/at fields.",
+      "evidence": [
+        {"kind": "see", "at": "05:34", "frame": "t00334.jpg", "quote": "Request Status Requested, Supplier SK World, Payment method 100% - After sales, Tracking company Quiqup, Tracking link https://track-parcel.quiqup.com/"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Shipment Request Status values seen in the Shipments list groups are Requested, Picked up, Warehouse received and Cancelled; the Request products list groups are Cancelled, Missing item, Requested and Warehouse received.",
+      "evidence": [
+        {"kind": "see", "at": "06:55", "frame": "t00415.jpg", "quote": "Groups: Requested 1, Picked up 1, Warehouse received 14, Cancelled 1"},
+        {"kind": "see", "at": "07:33", "frame": "t00453.jpg", "quote": "Group Missing item above Requested"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "In the Shipments list, the Requested shipment has an empty Tracking ID, while the Picked up shipment shows Tracking ID 21882251.",
+      "evidence": [
+        {"kind": "see", "at": "06:55", "frame": "t00415.jpg", "quote": "Requested row Tracking ID blank; Picked up row Tracking ID 21882251"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "A new blank Request products Form opens with the SKU empty, Quantity Sent 0 and Price -1 until a SKU is chosen.",
+      "evidence": [
+        {"kind": "see", "at": "06:10", "frame": "t00370.jpg", "quote": "SKU blank, Quantity Sent 0, Price -1, Total price 0"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "policy",
+      "statement": "Request products with status Requested are either in a shipment at the requested stage, or in a shipment whose airway bill is created or that is picked up; in both cases the quality check has not been done yet.",
+      "evidence": [
+        {"kind": "say", "at": "06:44", "quote": "are requested, it means that {either?} the shipment is at the requested stage or it has been airway"},
+        {"kind": "say", "at": "06:50", "quote": "bill created or picked up, but it means the quality check has not been done."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "To see all requested products still pending, open Request products and select the Open tab.",
+      "evidence": [
+        {"kind": "say", "at": "06:38", "quote": "in open you will see all the requested {product?} that are pending at this moment when the products"},
+        {"kind": "see", "at": "06:37", "frame": "t00397.jpg", "quote": "Open tab selected, list of Requested rows"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Revibe creates the airway bill for a shipment once it is requested and gives it to the seller, who prints it and puts it on the box.",
+      "evidence": [
+        {"kind": "say", "at": "06:54", "quote": "So at this moment, when the shipment will be requested, I will personally create an airway bill, provide"},
+        {"kind": "say", "at": "07:01", "quote": "it to you, and then you will just be able to print it and put it on the"},
+        {"kind": "say", "at": "07:26", "quote": "You print the airway bill, you put it on the box."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "The courier that collects the shipment is Quiqup; a Quiqup driver comes to pick up the boxed order.",
+      "evidence": [
+        {"kind": "say", "at": "07:05", "quote": "box and the {QuickUp?} driver will come."},
+        {"kind": "say", "at": "07:29", "quote": "{Quickup?} will come and pick up the order."},
+        {"kind": "see", "at": "06:21", "frame": "t00381.jpg", "quote": "Tracking company Quiqup"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Put every single device in bubble wrap before packing.",
+      "evidence": [
+        {"kind": "say", "at": "07:08", "quote": "At this moment, the only thing that you need to do is to put every single device in"},
+        {"kind": "say", "at": "07:14", "quote": "a {bubble?} wrap."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Put a sticker on each device's bubble wrap showing the SKU, model, color, storage and condition.",
+      "evidence": [
+        {"kind": "say", "at": "07:15", "quote": "On the bubble wrap to put a sticker mentioning the SKU, the model, color, storage, and the condition,"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Include a charger with each device; the trainer repeats that the chargers must be included.",
+      "evidence": [
+        {"kind": "say", "at": "07:22", "quote": "and to put a charger that goes along with the device."},
+        {"kind": "say", "at": "08:56", "quote": "not forget to include the chargers and devices relatives and please group together {the?} same SKUs and make"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "policy",
+      "statement": "The trainer says the seller should not use Revibe boxes and should pack everything properly in a carton box.",
+      "evidence": [
+        {"kind": "say", "at": "08:21", "quote": "order to avoid returns warranties from the customers but also rejection from us don't use revive boxes just"},
+        {"kind": "say", "at": "08:30", "quote": "use random box carton box pack everything properly in this carton box and we {handle?} the proper packaging"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "policy",
+      "statement": "The trainer says a complete QC must be done for the shipment, to avoid customer returns, customer warranty claims and rejection by Revibe.",
+      "evidence": [
+        {"kind": "say", "at": "08:15", "quote": "the shipment and you have to follow the following requirements you need to do a complete qc in"},
+        {"kind": "say", "at": "08:21", "quote": "order to avoid returns warranties from the customers but also rejection from us don't use revive boxes just"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "Do not forget any device: Revibe counts the devices at the warehouse and records a video of the unboxing, and the count must match the quantity requested in the app.",
+      "evidence": [
+        {"kind": "say", "at": "08:38", "quote": "with the {revive?} boxes when shipping to the customers {do?} not forget any device once we will receive"},
+        {"kind": "say", "at": "08:44", "quote": "them at the warehouse we will count them and we will do a video recording of the unboxing"},
+        {"kind": "say", "at": "08:49", "quote": "so that we will make sure that the count is exactly what you requested in the app do"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Group devices of the same SKU together in the box.",
+      "evidence": [
+        {"kind": "say", "at": "08:56", "quote": "not forget to include the chargers and devices relatives and please group together {the?} same SKUs and make"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Label each product with the SKU provided by Revibe, the model, storage, color and condition (example given: iPhone 12 Pro, 128 GB, graphite, good condition).",
+      "evidence": [
+        {"kind": "say", "at": "09:04", "quote": "sure to label each product with the SKU provided by Revive, the model, storage, color, condition, {like?} for"},
+        {"kind": "say", "at": "09:12", "quote": "instance {it?} will be on every sticker, {1?} {to?} 3, iPhone 12 Pro, 128 GB, graphite, good condition."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Revibe technicians run a basic quality check on the devices received at the warehouse; the devices must work properly (all features) and their battery level and physical condition must match the criteria.",
+      "evidence": [
+        {"kind": "say", "at": "09:19", "quote": "Once your devices are received by Revive at the warehouse, our technicians will do {quality?} check."},
+        {"kind": "say", "at": "09:27", "quote": "The quality check they will do will be like the basic quality check any customer will do {so?}"},
+        {"kind": "say", "at": "09:32", "quote": "we just want to make sure that the devices are working properly which means that all the features"},
+        {"kind": "say", "at": "09:38", "quote": "must work properly and also we want to make sure that the battery level and the physical condition"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Excellent condition: everything must be new.",
+      "evidence": [
+        {"kind": "say", "at": "09:44", "quote": "is matching the criteria as we say so for excellent everything must be new and the battery level"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Very good condition: very few scratches are accepted.",
+      "evidence": [
+        {"kind": "say", "at": "09:50", "quote": "must be 25 percent for very good we accept very few scratches and the battery level must be"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Good condition: slightly more scratches are accepted and the battery level must be at least 85%.",
+      "evidence": [
+        {"kind": "say", "at": "09:56", "quote": "90 percent at least and for good condition we accept slightly more scratches and the battery level must"},
+        {"kind": "say", "at": "10:03", "quote": "be 85% at least {but?} this is part of the quality guidelines which is a file I"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "The exact quality criteria are in the quality guidelines file that Pierre shared with the seller; refer to it for the criteria.",
+      "evidence": [
+        {"kind": "say", "at": "10:03", "quote": "be 85% at least {but?} this is part of the quality guidelines which is a file I"},
+        {"kind": "say", "at": "10:10", "quote": "shared with you and you can refer to it once our technicians will receive the devices several options"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The Request products list shows these columns: Request Status, SKU, Product, Supplier, Quantity Allowed, Quantity Sent, Quantity received, Buybox supplier, Price, Total price, Payment method, Updated at, Updated by, Created at and Created by.",
+      "evidence": [
+        {"kind": "see", "at": "07:33", "frame": "t00435.jpg", "quote": "Column headers: Request Status, SKU, Product, Supplier, Quantity Allowed, Quantity Sent, Quantity received, Buybox supplier, Price, Total price, Payment method, Updated at"},
+        {"kind": "see", "at": "07:48", "frame": "t00468.jpg", "quote": "Columns Created at and Created by"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The Shipments list shows these columns: Supplier, Created by, Created at, Updated at, Request Status, Payment method, Tracking company, Tracking ID and Tracking Label link.",
+      "evidence": [
+        {"kind": "see", "at": "06:55", "frame": "t00415.jpg", "quote": "Column headers: Supplier, Created by, Created at, Updated at, Request Status, Payment method, Tracking company, Tracking ID, Tracking Label link"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Quantity received is filled in on lines that have reached the warehouse; the trainer says it is one of the figures to check for each line.",
+      "evidence": [
+        {"kind": "say", "at": "07:45", "quote": "And every time you see what was the quantity allowed, the quantity sent, the quantity received, what was"},
+        {"kind": "see", "at": "08:00", "frame": "t00458.jpg", "quote": "Warehouse received rows show Quantity received values (010119-081201: 3 / 3 / 3; 010119-070301: 3 / 1 / 1 as Allowed / Sent / Received)"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The Cancelled group in Request products holds products that were cancelled.",
+      "evidence": [
+        {"kind": "say", "at": "07:36", "quote": "These ones have been canceled."},
+        {"kind": "see", "at": "07:33", "frame": "t00435.jpg", "quote": "Cancelled group header with rows such as 010114-071201 iphone-12-pro128"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The Missing item group in Request products holds products reported as missing.",
+      "evidence": [
+        {"kind": "say", "at": "07:38", "quote": "These ones were missing."},
+        {"kind": "see", "at": "07:33", "frame": "t00453.jpg", "quote": "Missing item group with row 010115-080501"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Products still Requested stay in the Requested group; products the trainer says were sent to the warehouse appear under Warehouse received.",
+      "evidence": [
+        {"kind": "say", "at": "07:39", "quote": "{These?} ones are still requested and these ones have been sent to the warehouse."},
+        {"kind": "see", "at": "07:38", "frame": "t00458.jpg", "quote": "Warehouse received group rows"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "A new request line starts with Quantity Sent set to 0, and the Request Status 'Requested' and Stage 'Open' are shown on the form.",
+      "evidence": [
+        {"kind": "see", "at": "04:50", "frame": "t00290.jpg", "quote": "Quantity Sent 0, Stage Open, Request Status Requested"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    }
+  ],
+  "screens": [
+    {
+      "name": "Revibe - Fulfillment App (AppSheet)",
+      "shows": "Left menu: SKUs available, Shipments, Request products, Supplier inventory, Inventory exits, Box request, About, Feedback, App Gallery. Header title 'Revibe - Fulfillment App' at appsheet.com.",
+      "at": "04:50",
+      "where": "Browser tab appsheet.com"
+    },
+    {
+      "name": "Request products Form",
+      "shows": "Right-hand form: SKU, Product, Quantity Allowed, Supplier, Buybox supplier, Quantity Sent, Price ('The lower you go, the more you sell!'), Total price, Updated at/by, Created at/by, Stage (Open), Request Status, Payment method. Save and Cancel at top right.",
+      "at": "04:50 to 06:17",
+      "where": "Opened from the shipment form (New) or the Shipments list (Add)"
+    },
+    {
+      "name": "Requests Supplier Form (shipment form)",
+      "shows": "Related entries table of Request_products (SKU, Product, Quantity Allowed, Supplier, Buybox supplier, Quantity Sent, Price, Total price), New button, Request Status, Supplier, Payment method, Tracking company (Quiqup), Tracking link, Created/Updated by and at.",
+      "at": "05:34 to 06:08",
+      "where": "Opened from a shipment row"
+    },
+    {
+      "name": "Shipments list",
+      "shows": "Groups Requested, Picked up, Warehouse received, Cancelled with counts; columns Supplier, Created by, Created at, Updated at, Request Status, Payment method, Tracking company, Tracking ID, Tracking Label link. Add button at top right.",
+      "at": "06:08 to 06:55",
+      "where": "Shipments nav item"
+    },
+    {
+      "name": "Shipment detail (Requested) side panel",
+      "shows": "Request Status Requested; Related Request_products 3 (SKU, Product, Quantity Allowed, Supplier, Buybox supplier); Expand and Add links; Supplier SK World; Payment method; Tracking company Quiqup; Tracking link; Created by/at; Updated by/at; Edit button.",
+      "at": "06:21 to 06:26",
+      "where": "Opened by clicking a shipment row"
+    },
+    {
+      "name": "Request products list (All / Open / Closed)",
+      "shows": "Left filter: All, Open (with count), Closed (with count). Table grouped by Request Status: Cancelled, Missing item, Requested, Warehouse received. Export button and filter icon at top right.",
+      "at": "06:32 to 10:20",
+      "where": "Request products nav item"
+    }
+  ],
+  "terms": [
+    {"term": "Shipment", "meaning": "A supplier's request to send products to Revibe, shown in the Shipments list with a Request Status and tracking fields.", "at": "05:34"},
+    {"term": "Request products (Request_products)", "meaning": "One line per SKU inside a shipment, with Quantity Allowed, Quantity Sent, Quantity received, Price and Total price.", "at": "05:34"},
+    {"term": "Quantity Allowed", "meaning": "Maximum quantity the seller may send for that SKU line.", "at": "04:54"},
+    {"term": "Quantity Sent", "meaning": "Quantity the seller decides to send for the SKU line; the trainer says it must be between one and Quantity Allowed.", "at": "04:54"},
+    {"term": "Quantity received", "meaning": "Quantity Revibe received at the warehouse for the line; shown in Request products.", "at": "07:45"},
+    {"term": "Buybox supplier / buy box", "meaning": "Reference price shown per SKU as 'the buy box'; the default Price is one below it and a higher Price is refused.", "at": "05:17"},
+    {"term": "Price", "meaning": "The seller's price per unit for the line; the lower it is, the more the seller sells (trainer).", "at": "05:17"},
+    {"term": "Total price", "meaning": "Price multiplied by Quantity Sent on the line; the trainer calls it the total value the seller is paid for.", "at": "07:50"},
+    {"term": "Request Status", "meaning": "Status of a shipment (Requested, Picked up, Warehouse received, Cancelled) or of a request line (Requested, Warehouse received, Missing item, Cancelled).", "at": "06:21"},
+    {"term": "Stage (Open)", "meaning": "Stage field on the Request products Form; shows Open on new lines.", "at": "04:50"},
+    {"term": "Airway bill", "meaning": "Shipping document created by Revibe for a requested shipment, printed by the seller and placed on the box.", "at": "06:54"},
+    {"term": "Quiqup", "meaning": "Courier company set as Tracking company; its driver collects the boxed order.", "at": "07:05"},
+    {"term": "Quality check (QC)", "meaning": "Check of each device's function, battery level and physical condition, done by the seller before shipping and by Revibe technicians at the warehouse.", "at": "08:15"},
+    {"term": "Quality guidelines", "meaning": "File shared by Pierre that sets the criteria technicians use for the QC.", "at": "10:03"},
+    {"term": "Revibe boxes", "meaning": "Revibe's own packaging, which sellers should not use for shipments; Revibe handles it when shipping to customers.", "at": "08:21"},
+    {"term": "Condition grades (Excellent, Very good, Good)", "meaning": "Grades used in the QC; each has a rule on scratches and battery level.", "at": "09:44"}
+  ],
+  "asr_fixes": [
+    {"at": "07:05", "heard": "QuickUp", "correct": "Quiqup", "basis": "Screen: Tracking company column and field read 'Quiqup' (t00381.jpg, t00415.jpg); tracking link track-parcel.quiqup.com"},
+    {"at": "07:29", "heard": "Quickup", "correct": "Quiqup", "basis": "Screen: Tracking company 'Quiqup' (t00381.jpg, t00415.jpg)"},
+    {"at": "08:21", "heard": "revive boxes", "correct": "Revibe boxes", "basis": "Screen: app title 'Revibe - Fulfillment App' (t00290.jpg)"},
+    {"at": "09:04", "heard": "Revive", "correct": "Revibe", "basis": "Screen: app title 'Revibe - Fulfillment App' (t00290.jpg)"},
+    {"at": "05:22", "heard": "{come?}", "correct": "Come on!", "basis": "Screen error text under the Price field: 'Come on! Let's beat Buybox!' (t00326.jpg)"},
+    {"at": "05:27", "heard": "let's bid {by?} Bob", "correct": "let's beat Buybox", "basis": "Screen error text: 'Come on! Let's beat Buybox!' (t00326.jpg)"}
+  ],
+  "unclear": [
+    {"at": "04:54", "issue": "Lower bound unclear: the narration says Quantity Sent is 'between one and the quantity allowed' and later says the error appears when it is 'negative or higher than the quantity allowed'. It is not clear whether 0 is accepted; the form defaults to 0 (t00290.jpg)."},
+    {"at": "06:08", "issue": "Contradictory or garbled speech about adding products: 'can just save my shipment which is {not?} at requested stage' and 'I can still add products into it once the shipment is not anymore at requested stage', then 'now that your shipment is requested ... cannot add any single product'. Cannot tell whether products can be added at the Requested stage. Not stated as a fact."},
+    {"at": "06:23", "issue": "Narration says 'airway bill created or picked up or warehouse receipt'; the screen group is named 'Warehouse received'. Assumed to be the same stage; not confirmed on screen."},
+    {"at": "05:17", "issue": "Narration says 'one dirham cheaper'; no currency is shown on screen (values such as 607 and 608 have no unit). Currency not stated as a fact."},
+    {"at": "05:02", "issue": "Narration says an error message appears at 35; the error text is not visible in frame t00304.jpg. The message is reported as the trainer's statement only."},
+    {"at": "08:30", "issue": "Word 'random box' in 'use random box carton box' is unclear (may be a mishearing); the instruction to use a carton box is stated as a fact at medium confidence."},
+    {"at": "08:56", "issue": "Phrase 'devices relatives' is unclear; probably refers to accessories. Only the charger instruction is stated as a fact."},
+    {"at": "09:12", "issue": "Sticker example '{1?} {to?} 3' is unclear; the SKU example on the sticker cannot be read from the speech."},
+    {"at": "09:50", "issue": "Battery thresholds conflict. At 09:50 the speech says 'must be 25 percent for very good' and at 09:56 says '90 percent at least' after 'the battery level must be'. Neither is confirmed on screen, so the Very good battery threshold is not stated. The Excellent battery threshold is not spoken (the sentence at 09:44 is cut off)."},
+    {"at": "07:33", "issue": "Screen data inconsistency not explained on screen: Missing item row 010115-080501 shows Quantity Allowed 0 and Quantity Sent 2 (t00453.jpg), and some Request products rows show Price above Buybox supplier (for example 1,696 against 1,613 on the same row), which the Price rule says is refused."},
+    {"at": "10:17", "issue": "Transcript ends mid-sentence ('most of the devices you sent {not?} matching'); the consequence for the seller is not stated in the evidence."}
+  ],
+  "outdated": [
+    {"at": "04:50", "signal": "Screens show example data dated 11/2024 to 3/5/2025 (for example Created at 3/5/2025 1:15:03 PM and Updated at 1/17/2025) and sample quantities and prices; treat these as examples from the video, not current values."}
+  ],
+  "privacy": [
+    {"at": "04:50", "frame": "t00290.jpg", "what": "Revibe staff email pierre.villacequeue@revibe.me visible in the Updated by and Created by fields of the Request products Form."},
+    {"at": "06:08", "frame": "t00368.jpg", "what": "Created by value pierre.villacequeue@revibe.me shown in the Shipments list."},
+    {"at": "06:55", "frame": "t00415.jpg", "what": "Seller account email suppskworldfzco@gmail.com visible in the Created by column of the Shipments list (several rows)."},
+    {"at": "07:42", "frame": "t00466.jpg", "what": "Revibe staff emails bautista.galuccio@revibe.me and shijesh.kalendan@revibe.me visible in the Updated by column; seller email suppskworldfzco@gmail.com visible in Created by."},
+    {"at": "07:48", "frame": "t00468.jpg", "what": "Seller email suppskworldfzco@gmail.com and Revibe staff emails shown in Created by and Updated by columns of Request products."}
+  ],
+  "audit": {
+    "checked": 104,
+    "removed": [],
+    "corrected": [
+      {"before": "Step 05:17 why: 'the more you sell (said by the trainer)'", "after": "why: '' (empty)", "reason": "The 'more you sell' line is spoken at 05:22, not 05:17. The 05:17 speech gives no reason. The field label on t00290.jpg is 'The lower you go, the more you sell!'."},
+      {"before": "Step 05:51 action: 'Says the price on this line can be lowered further to sell faster, then saves.'", "after": "Says the price on this line can be lowered further because the seller wants to sell quickly.", "reason": "'Then saves' is not said at 05:51; the 05:56 line 'can save' refers to the shipment."},
+      {"before": "Step 06:21 evidence: say 06:23 'that it is either airway bill created or picked up or warehouse receipt...'", "after": "Removed that say item; the see item on t00381.jpg remains.", "reason": "The 06:23 speech is about airway bill stages, not about opening the shipment."},
+      {"before": "Step 08:00 see frame t00474.jpg: 'e.g. 1 / 1 / 1; 2 / 2 / 2'", "after": "see frame t00458.jpg: 010119-081201 3 / 3 / 3; 010119-070301 3 / 1 / 1 (Allowed / Sent / Received)", "reason": "The 1/1/1 and 2/2/2 values are not visible on the cited frames. The 3 / 3 / 3 and 3 / 1 / 1 rows are on t00458.jpg."},
+      {"before": "Fact (rule): 'A Quantity Sent on a request line must be at least one and no more than the Quantity Allowed'", "after": "'The trainer says the Quantity Sent ... must be between one and the Quantity Allowed.'", "reason": "The 'at least one' bound is only in the trainer's speech and conflicts with the unclear lower bound; attributed to the trainer."},
+      {"before": "Fact (warning): 'Entering a Quantity Sent higher than the Quantity Allowed ... triggers an error message'", "after": "'The trainer says that entering 35 ... gives an error message; the captured frame shows 35 with no error text.'", "reason": "The error is only in speech; t00304.jpg shows no error text."},
+      {"before": "Fact (definition Quantity Allowed): 'appears in a greyed, non-editable field'", "after": "'appears in a greyed field'", "reason": "The frame shows a greyed field; 'non-editable' is not shown."},
+      {"before": "Fact (procedure Save): 'the product then appears under Related entries ... as a Requested line'", "after": "'... whose Request Status shows Requested'", "reason": "The visible Request Status Requested is the shipment's status, not the line's."},
+      {"before": "Fact (procedure bubble wrap) confidence high", "after": "confidence medium", "reason": "The word '{bubble?}' is marked low-confidence in the transcript."},
+      {"before": "Fact (policy boxes): 'use an ordinary carton box'", "after": "'should not use Revibe boxes and should pack everything properly in a carton box'", "reason": "'Ordinary' is not said; 'random box' is an unclear mishearing."},
+      {"before": "Fact (policy QC): 'Complete a full quality check on every device before shipping'", "after": "'a complete QC must be done for the shipment'", "reason": "The speech says 'complete qc in ... the shipment'; 'every device' is not stated there."},
+      {"before": "Fact (number Very good): 'very few scratches are accepted and the battery level must be at least 90 percent'", "after": "'Very good condition: very few scratches are accepted.' Battery figure moved to unclear.", "reason": "The speech gives both 25 and 90 percent for very good; the battery threshold is not confirmed."},
+      {"before": "Fact (rule quantity received): frame t00474.jpg 'for example 1 and 1; 2 and 2'", "after": "frame t00458.jpg 010119-081201 3 / 3 / 3; 010119-070301 3 / 1 / 1", "reason": "Example values and frame corrected to what is visible."},
+      {"before": "Term Request Status: 'Requested, Picked up, Warehouse received, Cancelled, Missing item' as one list", "after": "Split into shipment statuses and request-line statuses as shown in the Shipments list and Request products list.", "reason": "'Missing item' is a Request products group, not a shipment status."},
+      {"before": "Unclear 09:50: 'Excellent battery level is said as 25 percent'", "after": "Unclear 09:50: battery thresholds conflict for Very good (25 vs 90 percent); the Excellent threshold is not spoken.", "reason": "The 25 percent figure is attached to very good in the speech, not Excellent."},
+      {"before": "Privacy 04:50 and 06:08: email 'pierre.villacequ@revibe.me'", "after": "'pierre.villacequeue@revibe.me'", "reason": "The screen reads 'villacequeue' in the Created by field."},
+      {"before": "Privacy 07:08 frame t00415.jpg", "after": "at 06:55", "reason": "Frame t00415.jpg is listed at 06:55 in the pack."},
+      {"before": "Outdated 04:50: 'treat the numbers and dates ... as examples'", "after": "Reworded to name the dates and sample values shown.", "reason": "Clarity; the signal is sample data dated 2024-2025."}
+    ],
+    "added": [
+      "Fact (screen): In the Shipments list, the Requested shipment has an empty Tracking ID while the Picked up row shows 21882251 (t00415.jpg).",
+      "Fact (screen): A new blank Request products Form opens with empty SKU, Quantity Sent 0 and Price -1 (t00370.jpg); not used in the pack.",
+      "Evidence added to fact 'price lower, more you sell': see t00290.jpg field label 'The lower you go, the more you sell!'.",
+      "Frame t00370.jpg and t00458.jpg and t00462.jpg and t00466.jpg and t00468.jpg were opened in the coverage sweep; t00370 added as above, the others confirmed against existing claims."
+    ]
+  }
+}

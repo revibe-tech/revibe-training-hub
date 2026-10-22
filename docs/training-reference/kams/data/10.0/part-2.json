@@ -1,0 +1,684 @@
+{
+  "summary": "Part 2 of the \"10.0 Quality guidelines (Seller & KAMs)\" video (03:57 to 05:25) walks through the banned-elements list (grading, wrong item, parts, locks and IMEI), the phone and laptop grade and functional rules, accepted physical damage, and the most common rejection reasons, then ends on a recap slide. All 17 frames listed in the pack (t00237 to t00324) were opened. The trainer only pages through slides, so there are no software steps, and the rules, thresholds and percentages come from the on-screen slides. Nothing in the frames is out of date or contains personal data. The accepted physical damage frame (t00310) has no legible rule text, and the rejection-reason chart may be cut off, so those are listed as unclear. The slide and narration disagree on who checks banned-element claims (Revibe team vs KM), which is also listed as unclear.",
+  "frames_opened": 17,
+  "steps": [
+    {
+      "at": "03:57",
+      "screen": "Banned elements slide",
+      "action": "Trainer opens the banned list and points the cursor at the first Grading item, '\"Excellent\" sold with visible scratches'.",
+      "evidence": [
+        {"kind": "say", "at": "03:57", "quote": "Here's the list.", "frame": ""},
+        {"kind": "say", "at": "03:58", "quote": "Grading, an excellent device sold with visible scratches, or a battery below the grade minimum.", "frame": ""},
+        {"kind": "see", "at": "03:57", "quote": "Banned elements - not accepted in any grade, any device; Total should never exceed 2 claims; Grading group with '\"Excellent\" sold with visible scratches' and 'Battery health below the grade minimum: Good < 85%, Very good < 90%, Excellent < 95%'", "frame": "t00237.jpg"}
+      ],
+      "says": "Here's the list.",
+      "why": "These rules are easy to follow and easy for sellers to check, so a claim like this means the job wasn't done. (trainer, 04:04-04:09)"
+    },
+    {
+      "at": "04:11",
+      "screen": "Banned elements slide",
+      "action": "Trainer points at the '\"New\" must be non-active and sold in a box that has never been opened' row.",
+      "evidence": [
+        {"kind": "say", "at": "04:11", "quote": "A phone sold as new must be non-active, in a box that has never been opened.", "frame": ""},
+        {"kind": "see", "at": "04:11", "quote": "Footer caption '\"New\" = never activated, sealed box'; row '\"New\" must be non-active and sold in a box that has never been opened'", "frame": "t00251.jpg"}
+      ],
+      "says": "A phone sold as new must be non-active, in a box that has never been opened.",
+      "why": ""
+    },
+    {
+      "at": "04:17",
+      "screen": "Banned elements slide",
+      "action": "Trainer moves to the Wrong item group, which lists three items on screen.",
+      "evidence": [
+        {"kind": "say", "at": "04:17", "quote": "Wrong item.", "frame": ""},
+        {"kind": "say", "at": "04:18", "quote": "The wrong storage, color, or model.", "frame": ""},
+        {"kind": "say", "at": "04:20", "quote": "A region variant mismatch, like the Japanese shutter sound, or a device that can't be used in the", "frame": ""},
+        {"kind": "see", "at": "04:17", "quote": "Wrong item group: 'Wrong device shipped: wrong storage, colour or model'; 'Region variant mismatch such as Japan shutter sound or inability to use the device in the destination countries'; 'Missing in-box accessories (charger for laptops, cable for all devices)'", "frame": "t00257.jpg"}
+      ],
+      "says": "Wrong item.",
+      "why": ""
+    },
+    {
+      "at": "04:31",
+      "screen": "Banned elements slide",
+      "action": "Trainer moves to the Parts group, covering the S Pen item and the spare-part or battery replacement message item.",
+      "evidence": [
+        {"kind": "say", "at": "04:32", "quote": "Parts.", "frame": ""},
+        {"kind": "say", "at": "04:32", "quote": "A non-original or fake S-pin on Samsung devices, or a device showing a spare part or", "frame": ""},
+        {"kind": "see", "at": "04:31", "quote": "Parts group: 'Non-original or fake S Pen on Samsung devices'; 'Device displaying a spare-part replacement message (showing non-original parts) or battery replacement alert'", "frame": "t00271.jpg"}
+      ],
+      "says": "Parts.",
+      "why": ""
+    },
+    {
+      "at": "04:40",
+      "screen": "Banned elements slide",
+      "action": "Trainer moves to the Locks & IMEI group. The cursor is on the iCloud, Google or MDM row, and the group lists four items on screen.",
+      "evidence": [
+        {"kind": "say", "at": "04:40", "quote": "Locks and IMEI.", "frame": ""},
+        {"kind": "say", "at": "04:42", "quote": "The device is locked, blacklisted, or reported lost or stolen.", "frame": ""},
+        {"kind": "say", "at": "04:46", "quote": "It still holds a previous customer's data, or it's SIM locked.", "frame": ""},
+        {"kind": "see", "at": "04:40", "quote": "Locks & IMEI group: 'iCloud, Google account or MDM profile still active'; 'Blacklisted IMEI, or device reported lost or stolen'; 'Device not factory reset - previous user data still present'; 'Network / carrier-locked (SIM lock) device sold as unlocked'", "frame": "t00280.jpg"}
+      ],
+      "says": "Locks and IMEI.",
+      "why": ""
+    },
+    {
+      "at": "04:50",
+      "screen": "Grade pictures slide",
+      "action": "Trainer moves to the grade pictures slide and shows the Excellent block.",
+      "evidence": [
+        {"kind": "say", "at": "04:51", "quote": "These pictures show physical condition by grade.", "frame": ""},
+        {"kind": "say", "at": "04:53", "quote": "Excellent must look like new.", "frame": ""},
+        {"kind": "see", "at": "04:50", "quote": "'Excellent - like new' with phone and camera photos; footer '8 · GRADES IN PICTURES'", "frame": "t00290.jpg"}
+      ],
+      "says": "These pictures show physical condition by grade.",
+      "why": ""
+    },
+    {
+      "at": "04:54",
+      "screen": "Grade pictures slide",
+      "action": "Trainer steps down the grades to Very good, then Good.",
+      "evidence": [
+        {"kind": "say", "at": "04:56", "quote": "Very good may show a few very small scratches, and good a few more.", "frame": ""},
+        {"kind": "see", "at": "04:54", "quote": "'Good - Slight scratches, they do not interfere when the device is on'; caption 'Very good, then Good: more scratches'", "frame": "t00294.jpg"}
+      ],
+      "says": "Very good may show a few very small scratches, and good a few more.",
+      "why": ""
+    },
+    {
+      "at": "04:59",
+      "screen": "Laptop quality guidelines slide",
+      "action": "Trainer moves to the laptop slide. The General guidelines and Functions deep dive table is on screen from 04:59 to 05:03.",
+      "evidence": [
+        {"kind": "say", "at": "05:01", "quote": "Laptops follow the same logic.", "frame": ""},
+        {"kind": "say", "at": "05:03", "quote": "All features are listed in detail by category.", "frame": ""},
+        {"kind": "see", "at": "04:59", "quote": "Footer '9 · LAPTOPS & REJECTION REASONS' and caption 'Laptops: same functional rules'; table with General guidelines and Functions deep dive categories", "frame": "t00299.jpg"},
+        {"kind": "see", "at": "05:01", "quote": "Same laptop table, caption 'Laptops: same functional rules'", "frame": "t00301.jpg"}
+      ],
+      "says": "Laptops follow the same logic.",
+      "why": ""
+    },
+    {
+      "at": "05:05",
+      "screen": "Accepted physical damage slide",
+      "action": "Trainer moves to the physical damage examples, with a laptop photo on screen.",
+      "evidence": [
+        {"kind": "say", "at": "05:07", "quote": "Below that, you'll find examples of the physical damage we accept.", "frame": ""},
+        {"kind": "see", "at": "05:10", "quote": "Caption 'Accepted physical damage' over a laptop photo with a highlighted area; below it the 'REVIBE / Most common rejection reasons' heading; no readable rule text on the frame", "frame": "t00310.jpg"}
+      ],
+      "says": "Below that, you'll find examples of the physical damage we accept.",
+      "why": ""
+    },
+    {
+      "at": "05:10",
+      "screen": "Most common rejection reasons slide",
+      "action": "Trainer moves to the rejection reasons chart and reads the top reasons.",
+      "evidence": [
+        {"kind": "say", "at": "05:12", "quote": "Finally, here are our team's most common rejection reasons, which also drive most claims.", "frame": ""},
+        {"kind": "say", "at": "05:17", "quote": "Battery level, physical condition, camera dots, and display issues.", "frame": ""},
+        {"kind": "see", "at": "05:12", "quote": "Chart 'Most common rejection reasons': Battery level 32%, Physical condition 30%, Camera dot 11%, Display issue 7%, Face ID failure 5%, Speaker issue 2%; caption 'Top rejection reasons'", "frame": "t00312.jpg"}
+      ],
+      "says": "Finally, here are our team's most common rejection reasons, which also drive most claims.",
+      "why": ""
+    },
+    {
+      "at": "05:22",
+      "screen": "Recap slide",
+      "action": "Trainer closes with the recap slide.",
+      "evidence": [
+        {"kind": "say", "at": "05:22", "quote": "That's it.", "frame": ""},
+        {"kind": "see", "at": "05:22", "quote": "'RECAP' 'Quality first, fewer claims' '100% functional · grade rules · banned elements trigger penalties' 'Max 2 claims · then 10% penalty per claim' 'Revibe · Supply team training'", "frame": "t00322.jpg"}
+      ],
+      "says": "That's it.",
+      "why": ""
+    }
+  ],
+  "facts": [
+    {
+      "type": "policy",
+      "statement": "Banned elements are not accepted in any grade and on any device.",
+      "evidence": [{"kind": "see", "at": "03:57", "quote": "Banned elements - not accepted in any grade, any device", "frame": "t00237.jpg"}],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The total of banned-element claims should never exceed 2.",
+      "evidence": [{"kind": "see", "at": "03:57", "quote": "Total should never exceed 2 claims", "frame": "t00237.jpg"}],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "If the total goes above 2 claims (slide: 'If so'), a trigger gets activated and the slide says the Revibe team checks these claims one by one. The narration at 03:35 says the KM checks them; see unclear.",
+      "evidence": [
+        {"kind": "see", "at": "03:57", "quote": "If so, a trigger gets activated: Revibe team to check these claims one by one", "frame": "t00237.jpg"},
+        {"kind": "say", "at": "03:35", "quote": "You, as a KM then check these claims one by one.", "frame": ""}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "If a claim is confirmed, a 10% penalty applies to each claim received, based on the seller's price.",
+      "evidence": [
+        {"kind": "see", "at": "03:57", "quote": "If confirmed, 10% penalty applies on each claim received, based on the seller's price", "frame": "t00237.jpg"},
+        {"kind": "say", "at": "03:38", "quote": "If they're confirmed, a 10% penalty applies to each claim received based on the seller price.", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Grading ban: a device sold as \"Excellent\" with visible scratches is a banned element.",
+      "evidence": [
+        {"kind": "see", "at": "03:57", "quote": "\"Excellent\" sold with visible scratches", "frame": "t00237.jpg"},
+        {"kind": "say", "at": "03:58", "quote": "Grading, an excellent device sold with visible scratches, or a battery below the grade minimum.", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Battery health minimums by grade: Good below 85% is banned, Very good below 90% is banned, Excellent below 95% is banned.",
+      "evidence": [{"kind": "see", "at": "03:57", "quote": "Battery health below the grade minimum: Good < 85%, Very good < 90%, Excellent < 95%", "frame": "t00237.jpg"}],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "A phone sold as \"New\" must be non-active and sold in a box that has never been opened.",
+      "evidence": [
+        {"kind": "say", "at": "04:11", "quote": "A phone sold as new must be non-active, in a box that has never been opened.", "frame": ""},
+        {"kind": "see", "at": "04:11", "quote": "\"New\" must be non-active and sold in a box that has never been opened", "frame": "t00251.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Wrong device shipped (wrong storage, colour or model) is a banned element under Wrong item.",
+      "evidence": [
+        {"kind": "see", "at": "04:17", "quote": "Wrong device shipped: wrong storage, colour or model", "frame": "t00257.jpg"},
+        {"kind": "say", "at": "04:18", "quote": "The wrong storage, color, or model.", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "A region variant mismatch is a banned element, for example the Japan shutter sound, or a device that cannot be used in the destination countries.",
+      "evidence": [
+        {"kind": "see", "at": "04:20", "quote": "Region variant mismatch such as Japan shutter sound or inability to use the device in the destination countries", "frame": "t00257.jpg"},
+        {"kind": "say", "at": "04:20", "quote": "A region variant mismatch, like the Japanese shutter sound, or a device that can't be used in the", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Missing in-box accessories are a banned element: a charger for laptops and a cable for all devices.",
+      "evidence": [
+        {"kind": "see", "at": "04:20", "quote": "Missing in-box accessories (charger for laptops, cable for all devices)", "frame": "t00257.jpg"},
+        {"kind": "say", "at": "04:26", "quote": "destination country, and missing inbox accessories, like a charger or cable.", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "A non-original or fake S Pen on a Samsung device is a banned element.",
+      "evidence": [
+        {"kind": "see", "at": "04:31", "quote": "Non-original or fake S Pen on Samsung devices", "frame": "t00271.jpg"},
+        {"kind": "say", "at": "04:32", "quote": "A non-original or fake S-pin on Samsung devices", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "A device displaying a spare-part replacement message (showing non-original parts) or a battery replacement alert is a banned element.",
+      "evidence": [
+        {"kind": "see", "at": "04:31", "quote": "Device displaying a spare-part replacement message (showing non-original parts) or battery replacement alert", "frame": "t00271.jpg"},
+        {"kind": "say", "at": "04:38", "quote": "battery replacement message.", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "An iCloud, Google account or MDM profile still active on the device is a banned element.",
+      "evidence": [{"kind": "see", "at": "04:40", "quote": "iCloud, Google account or MDM profile still active", "frame": "t00280.jpg"}],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "A blacklisted IMEI, or a device reported lost or stolen, is a banned element.",
+      "evidence": [
+        {"kind": "see", "at": "04:40", "quote": "Blacklisted IMEI, or device reported lost or stolen", "frame": "t00280.jpg"},
+        {"kind": "say", "at": "04:42", "quote": "The device is locked, blacklisted, or reported lost or stolen.", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "A device not factory reset, still holding previous user data, is a banned element.",
+      "evidence": [
+        {"kind": "see", "at": "04:40", "quote": "Device not factory reset - previous user data still present", "frame": "t00280.jpg"},
+        {"kind": "say", "at": "04:46", "quote": "It still holds a previous customer's data, or it's SIM locked.", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "A network or carrier-locked (SIM lock) device sold as unlocked is a banned element.",
+      "evidence": [
+        {"kind": "see", "at": "04:40", "quote": "Network / carrier-locked (SIM lock) device sold as unlocked", "frame": "t00280.jpg"},
+        {"kind": "say", "at": "04:46", "quote": "It still holds a previous customer's data, or it's SIM locked.", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Excellent grade means like new.",
+      "evidence": [
+        {"kind": "see", "at": "04:50", "quote": "Excellent - like new", "frame": "t00290.jpg"},
+        {"kind": "say", "at": "04:53", "quote": "Excellent must look like new.", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Very good grade accepts very small dot scratches.",
+      "evidence": [
+        {"kind": "see", "at": "04:50", "quote": "Very good - Very small dot scratches accepted", "frame": "t00290.jpg"},
+        {"kind": "say", "at": "04:56", "quote": "Very good may show a few very small scratches, and good a few more.", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Good grade allows slight scratches that do not interfere when the device is on.",
+      "evidence": [
+        {"kind": "see", "at": "04:54", "quote": "Good - Slight scratches, they do not interfere when the device is on", "frame": "t00294.jpg"},
+        {"kind": "say", "at": "04:56", "quote": "and good a few more.", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Laptops follow the same logic: the slide caption reads 'Laptops: same functional rules'.",
+      "evidence": [
+        {"kind": "say", "at": "05:01", "quote": "Laptops follow the same logic.", "frame": ""},
+        {"kind": "see", "at": "04:59", "quote": "Laptops: same functional rules", "frame": "t00299.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Laptop hardware must be 100% fully functional.",
+      "evidence": [{"kind": "see", "at": "04:59", "quote": "Hardware: 100% fully functional", "frame": "t00299.jpg"}],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Laptop screen: almost no sign of use, with only 1 or 2 very small scratches accepted.",
+      "evidence": [{"kind": "see", "at": "04:59", "quote": "Screen: Almost no sign of use, only 1 or 2 very small scratch accepted", "frame": "t00299.jpg"}],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Laptop body: slight signs of use are allowed, including a few light scratches not visible at first glance unless you look closely.",
+      "evidence": [{"kind": "see", "at": "04:59", "quote": "Body: Slight signs of use. May have a few light scratches that are not visible at first glance unless you look closely.", "frame": "t00299.jpg"}],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Laptop battery should work normally, with no error or replacement message.",
+      "evidence": [{"kind": "see", "at": "04:59", "quote": "Battery: Should work normally - no error or replacement message", "frame": "t00299.jpg"}],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "SIM cards and memory cards must be read correctly, and any trays or slots must insert and remove the card properly.",
+      "evidence": [{"kind": "see", "at": "04:59", "quote": "SIM cards and memory cards are correctly read by the device, and any trays or slots to insert or remove the card works properly", "frame": "t00299.jpg"}],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Data must have been reset.",
+      "evidence": [{"kind": "see", "at": "04:59", "quote": "Data deletion: Data must have been reset", "frame": "t00299.jpg"}],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The most recent operating system must be installed and activated.",
+      "evidence": [{"kind": "see", "at": "04:59", "quote": "Most recent operating system must be installed and activated", "frame": "t00299.jpg"}],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "An original charger is required: it must be clean, charge effectively and be compatible with the country socket.",
+      "evidence": [{"kind": "see", "at": "04:59", "quote": "Original charger required - must be clean, charge effectively and be compatible with country socket", "frame": "t00299.jpg"}],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The device must be unlocked from any previous protection systems set by the previous owner, or third-party accounts or software.",
+      "evidence": [{"kind": "see", "at": "04:59", "quote": "Unlocked from any previous protection systems set by the previous owner, or third-party accounts or software", "frame": "t00299.jpg"}],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "The IMEI serial number is checked for blacklisting, and the device configuration (like color and capacity) must match manufacturer settings.",
+      "evidence": [{"kind": "see", "at": "04:59", "quote": "IMEI serial number on a device is checked to see if it has been blacklisted and if the device configuration (like color and capacity) match manufacturer settings", "frame": "t00299.jpg"}],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "All cameras must be functional, capture image and quality, and work for video conferencing.",
+      "evidence": [{"kind": "see", "at": "04:59", "quote": "All cameras must be functional, capture image and quality. Also, must work for video conferencing", "frame": "t00299.jpg"}],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Ports (headphone jack, battery, USB, ethernet) must be functional.",
+      "evidence": [{"kind": "see", "at": "04:59", "quote": "Ports, like those used for headphone jacks, battery, USB, ethernet, must be functional", "frame": "t00299.jpg"}],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Mechanical parts must be genuine or high-quality compatible, and any compatible parts found must be tested to function as well as genuine parts.",
+      "evidence": [{"kind": "see", "at": "04:59", "quote": "Mechanical parts like screws, case, frames, and others are check are genuine or high-quality compatible parts. If compatible parts are found, they are tested to ensure that they function as well as genuine parts.", "frame": "t00299.jpg"}],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The on-screen visuals must be free of defects such as stains, dust, and burn-in discoloration.",
+      "evidence": [{"kind": "see", "at": "04:59", "quote": "On-screen visuals are tested to ensure that there are no defects like stains, dusts, and discoloration from burn-in", "frame": "t00299.jpg"}],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The Arabic keyboard can be laser or printed, but not stickers.",
+      "evidence": [{"kind": "see", "at": "04:59", "quote": "Arabic keyboard can be either laser or printed - not stickers", "frame": "t00299.jpg"}],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The oxidation indicator inside the device must be inspected.",
+      "evidence": [{"kind": "see", "at": "04:59", "quote": "Oxidation: Inspecting the oxidation indicator within the device", "frame": "t00299.jpg"}],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Wi-Fi and Bluetooth functions must work correctly and accurately.",
+      "evidence": [{"kind": "see", "at": "04:59", "quote": "Wi-Fi / Bluetooth: Wi-Fi and Bluetooth functions are working correctly and accurately", "frame": "t00299.jpg"}],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Biometric sensors (Touch ID, Face ID, ID sensor and voice recognition) must be working correctly and accurately.",
+      "evidence": [{"kind": "see", "at": "04:59", "quote": "Biometric sensors: Touch ID, Face ID, ID sensor, and voice recognition are working correctly and accurately", "frame": "t00299.jpg"}],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "The GPS and positioning system must be accurate and working.",
+      "evidence": [{"kind": "see", "at": "04:59", "quote": "GPS: GPS and positioning system are accurate and working", "frame": "t00299.jpg"}],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "External sensors (for distance, camera aperture, brightness, laser measurement and heartbeat) and internal sensors (such as temperature) must be working correctly and accurately.",
+      "evidence": [
+        {"kind": "see", "at": "04:59", "quote": "External sensors: Sensors for distance, camera aperture, brightness, laser measurement, and heartbeat are working correctly and accurately", "frame": "t00299.jpg"},
+        {"kind": "see", "at": "04:59", "quote": "Internal sensors: Internal sensors, like temperature, are working correctly and accurately", "frame": "t00299.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Mics and speakers must be calibrated so that they capture and play sound correctly.",
+      "evidence": [{"kind": "see", "at": "04:59", "quote": "Mics and speakers: Must be calibrated so that they capture and play sound correctly", "frame": "t00299.jpg"}],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Cooling components such as fans and vents must be cleaned and effective.",
+      "evidence": [{"kind": "see", "at": "04:59", "quote": "Fans and ventilation: Cooling components like fans and vents are cleaned and effective", "frame": "t00299.jpg"}],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Internal components such as the hard disk, SSD and graphics card must be inspected to ensure all parts are present and fully functional.",
+      "evidence": [{"kind": "see", "at": "04:59", "quote": "Hardware assembly: Internal components like the hard disk, SSD, graphics card are inspected to ensure that all parts are present and fully functional", "frame": "t00299.jpg"}],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Trackpads, touch bars and keyboards must be tested for full functionality, which can include inspecting that backlighting works properly.",
+      "evidence": [{"kind": "see", "at": "04:59", "quote": "Trackpads, keyboards, touch bars, and backlighting: Trackpads, touch bars, keyboards are tested and checked for full functionality. This can also include inspecting that backlighting works properly", "frame": "t00299.jpg"}],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "number",
+      "statement": "Most common rejection reason: Battery level, 32%.",
+      "evidence": [{"kind": "see", "at": "05:12", "quote": "Battery level 32%", "frame": "t00312.jpg"}],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Second most common rejection reason: Physical condition, 30%.",
+      "evidence": [{"kind": "see", "at": "05:12", "quote": "Physical condition 30%", "frame": "t00312.jpg"}],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Third most common rejection reason: Camera dot, 11%.",
+      "evidence": [{"kind": "see", "at": "05:12", "quote": "Camera dot 11%", "frame": "t00312.jpg"}],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Display issue is 7% of rejection reasons on the chart.",
+      "evidence": [{"kind": "see", "at": "05:12", "quote": "Display issue 7%", "frame": "t00312.jpg"}],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Face ID failure is 5% of rejection reasons on the chart.",
+      "evidence": [{"kind": "see", "at": "05:12", "quote": "Face ID failure 5%", "frame": "t00312.jpg"}],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "number",
+      "statement": "Speaker issue is 2% of rejection reasons on the chart.",
+      "evidence": [{"kind": "see", "at": "05:12", "quote": "Speaker issue 2%", "frame": "t00312.jpg"}],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "tip",
+      "statement": "The trainer says the team's most common rejection reasons also drive most claims.",
+      "evidence": [{"kind": "say", "at": "05:12", "quote": "Finally, here are our team's most common rejection reasons, which also drive most claims.", "frame": ""}],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "policy",
+      "statement": "The trainer's reasoning: these rules are easy to follow and easy for sellers to check, so a claim on one of them means the job wasn't done.",
+      "evidence": [
+        {"kind": "say", "at": "04:04", "quote": "These rules are easy to follow and easy for sellers to check, so a claim like this means", "frame": ""},
+        {"kind": "say", "at": "04:09", "quote": "the job wasn't done.", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "tip",
+      "statement": "Grading is described as easy to respect and easy to check.",
+      "evidence": [{"kind": "see", "at": "03:57", "quote": "Grading: easy to respect, easy to check", "frame": "t00237.jpg"}],
+      "confidence": "high",
+      "quiz": false
+    }
+  ],
+  "screens": [
+    {
+      "name": "Revibe quality guidelines slide viewer",
+      "shows": "Slide deck player with a numbered slide-thumbnail strip on the left, slide content in the centre, a section label bottom-left (e.g. '7 · THE BANNED LIST', '8 · GRADES IN PICTURES', '9 · LAPTOPS & REJECTION REASONS') and a 'REVIBE · QUALITY GUIDELINES' footer bottom-right; the thumbnail strip shows which slide is active.",
+      "at": "03:57-05:24",
+      "where": "Revibe training video, Quality guidelines deck"
+    },
+    {
+      "name": "Banned elements slide (thumbnail 3)",
+      "shows": "'Banned elements - not accepted in any grade, any device'; 'Total should never exceed 2 claims'; 10% penalty note; rows grouped as Grading, Wrong item, Parts, Locks & IMEI.",
+      "at": "03:57-04:50",
+      "where": "Quality guidelines deck, slide 3"
+    },
+    {
+      "name": "Grade pictures slide (thumbnail 4)",
+      "shows": "'Phones, tablets & watches - Quality guidelines' with Excellent (like new), Very good (very small dot scratches accepted) and Good (slight scratches) photo rows of an iPhone-style device.",
+      "at": "04:50-04:59",
+      "where": "Quality guidelines deck, slide 4"
+    },
+    {
+      "name": "Laptop functional rules slide (thumbnail 5)",
+      "shows": "Table with 'General guidelines' (Hardware, Screen, Body, Battery) and 'Functions deep dive' (Sim, Data deletion, Software, Chargers/cables, Unlocking, GPS, Cameras, External and Internal sensors, Biometric sensors, Wi-Fi/Bluetooth, Serial number, Oxidation, Mics and speakers, Ports, Mechanical parts, Screen, Fans and ventilation, Hardware assembly, Trackpads/keyboards/touch bars/backlighting).",
+      "at": "04:59-05:03",
+      "where": "Quality guidelines deck, slide 5 (laptops)"
+    },
+    {
+      "name": "Accepted physical damage slide (thumbnail 6)",
+      "shows": "Laptop photo with a highlighted area, caption 'Accepted physical damage'; below it the 'REVIBE / Most common rejection reasons' heading.",
+      "at": "05:05-05:10",
+      "where": "Quality guidelines deck, slide 6"
+    },
+    {
+      "name": "Most common rejection reasons chart (thumbnail 7)",
+      "shows": "Bar chart with icons: Battery level 32%, Physical condition 30%, Camera dot 11%, Display issue 7%, Face ID failure 5%, Speaker issue 2%; caption 'Top rejection reasons'. The chart is cut off at the bottom edge.",
+      "at": "05:10-05:17",
+      "where": "Quality guidelines deck, slide 7"
+    },
+    {
+      "name": "Recap slide",
+      "shows": "'RECAP' 'Quality first, fewer claims' '100% functional · grade rules · banned elements trigger penalties' 'Max 2 claims · then 10% penalty per claim' 'Revibe · Supply team training'.",
+      "at": "05:22-05:24",
+      "where": "Quality guidelines deck, closing slide"
+    }
+  ],
+  "terms": [
+    {"term": "Banned elements", "meaning": "Items not accepted in any grade or on any device (slide: 'Banned elements - not accepted in any grade, any device').", "at": "03:57"},
+    {"term": "Claim", "meaning": "A claim on the banned list; the slide says the total should never exceed 2 claims. The slide says the Revibe team checks them; the narration says the KM checks them (see unclear).", "at": "03:57"},
+    {"term": "Trigger", "meaning": "Activated when the claim total goes above 2 ('If so, a trigger gets activated' on the slide).", "at": "03:57"},
+    {"term": "Penalty", "meaning": "10% penalty applied on each confirmed claim received, based on the seller's price.", "at": "03:57"},
+    {"term": "Grade minimum (battery health)", "meaning": "Good < 85%, Very good < 90%, Excellent < 95% battery health thresholds on the banned list.", "at": "03:57"},
+    {"term": "Non-active (\"New\")", "meaning": "A phone sold as new must be non-active and in a box that has never been opened.", "at": "04:11"},
+    {"term": "Region variant mismatch", "meaning": "A device variant for another region, such as the Japan shutter sound, or a device that cannot be used in the destination country.", "at": "04:20"},
+    {"term": "Spare-part replacement message", "meaning": "A message showing non-original parts, or a battery replacement alert, on the device.", "at": "04:31"},
+    {"term": "MDM profile", "meaning": "A profile on the device that is banned if still active (slide: 'iCloud, Google account or MDM profile still active').", "at": "04:40"},
+    {"term": "IMEI", "meaning": "Device IMEI serial number, checked to see if it has been blacklisted (slide: 'IMEI serial number on a device is checked to see if it has been blacklisted').", "at": "04:40"},
+    {"term": "SIM lock (carrier lock)", "meaning": "A network or carrier-locked device; banned if sold as unlocked.", "at": "04:46"},
+    {"term": "Grade: Excellent", "meaning": "Like new.", "at": "04:50"},
+    {"term": "Grade: Very good", "meaning": "Very small dot scratches accepted.", "at": "04:50"},
+    {"term": "Grade: Good", "meaning": "Slight scratches that do not interfere when the device is on.", "at": "04:54"},
+    {"term": "General guidelines", "meaning": "Laptop table section covering Hardware, Screen, Body and Battery.", "at": "04:59"},
+    {"term": "Functions deep dive", "meaning": "Laptop table section listing each functional check by category.", "at": "04:59"},
+    {"term": "Oxidation indicator", "meaning": "Indicator inside the device that is inspected.", "at": "04:59"},
+    {"term": "Accepted physical damage", "meaning": "Slide caption for the physical damage examples Revibe accepts; the examples are not legible on the frame.", "at": "05:05"},
+    {"term": "Most common rejection reasons", "meaning": "Team's most common rejection reasons, which the trainer says also drive most claims.", "at": "05:12"}
+  ],
+  "asr_fixes": [
+    {"at": "04:20", "heard": "Japanese shutter sound", "correct": "Japan shutter sound", "basis": "see t00257.jpg: 'Region variant mismatch such as Japan shutter sound or inability to use the device in the destination countries'"},
+    {"at": "04:32", "heard": "fake S-pin on Samsung devices", "correct": "fake S Pen on Samsung devices", "basis": "see t00271.jpg: 'Non-original or fake S Pen on Samsung devices'"}
+  ],
+  "unclear": [
+    {"at": "03:35", "issue": "The slide says 'Revibe team to check these claims one by one' (t00237.jpg), but the narration says 'You, as a KM then check these claims one by one.' Who checks the claims cannot be settled from the evidence, so the fact uses the slide wording and is marked medium confidence."},
+    {"at": "04:38", "issue": "Narration reads 'a device showing a spare part or battery replacement message'; the slide reads 'spare-part replacement message (showing non-original parts) or battery replacement alert'. The slide wording is used in the facts. The rule is the same either way."},
+    {"at": "04:46", "issue": "Narration says 'It still holds a previous customer's data'; the slide (t00280.jpg) says 'Device not factory reset - previous user data still present'. The slide wording is used in the facts."},
+    {"at": "05:07", "issue": "The trainer says 'Below that, you'll find examples of the physical damage we accept' but the accepted-damage frame (t00310.jpg) shows only a laptop photo with the caption 'Accepted physical damage' and no legible rule text. The specific damage examples cannot be stated from the evidence."},
+    {"at": "05:12", "issue": "The rejection-reason percentages (Battery level 32%, Physical condition 30%, Camera dot 11%, Display issue 7%, Face ID failure 5%, Speaker issue 2%) have no visible date, period or base. It is unclear what they are a percentage of, and the trainer's claim that these reasons 'drive most claims' is not quantified on screen."},
+    {"at": "05:17", "issue": "The chart on t00312.jpg is cut off at the bottom edge after 'Speaker issue 2%'. Whether more rejection reasons follow below it cannot be confirmed from the frame."}
+  ],
+  "outdated": [],
+  "privacy": [],
+  "audit": {
+    "checked": 90,
+    "removed": [
+      {"statement": "Laptops follow the same logic as phones", "reason": "The slide says 'Laptops: same functional rules' and the narration says 'Laptops follow the same logic'; the comparison to phones is not stated anywhere."},
+      {"statement": "Data must have been reset (data deletion check)", "reason": "The parenthetical gloss is not on screen; the row is labelled 'Data deletion'. Kept the slide wording only."},
+      {"statement": "Grading ... 'Wi-Fi and Bluetooth, GPS, internal and external sensors, and biometric sensors ... must work correctly and accurately' as one combined fact", "reason": "GPS is worded 'accurate and working' on the slide, and the cited quotes covered only Wi-Fi and biometric sensors. Replaced by separate facts with evidence for each row."},
+      {"statement": "asr_fixes: 'battery replacement message' -> 'battery replacement alert' (04:38)", "reason": "Not a speech recognition error; the narrator says 'message' and the slide says 'alert'. Moved to unclear."},
+      {"statement": "asr_fixes: 'a previous customer's data' -> 'previous user data' (04:46)", "reason": "Not a speech recognition error; a wording difference between narration and slide. Moved to unclear."},
+      {"statement": "Term 'MDM profile': 'Mobile device management profile'", "reason": "The expansion is general knowledge and is not on screen or in the narration. Replaced with the slide wording."}
+    ],
+    "corrected": [
+      {"before": "Tip: 'Grading is described as easy to respect and easy to check' cites t00251.jpg", "after": "Same statement, cites t00237.jpg", "reason": "The caption 'Grading: easy to respect, easy to check' is visible on t00237.jpg at 03:57; t00251.jpg shows the caption '\"New\" = never activated, sealed box'."},
+      {"before": "Step 05:05 cites t00305.jpg as the accepted physical damage frame", "after": "Cites t00310.jpg for the accepted physical damage slide; t00305.jpg is the laptop table", "reason": "t00305.jpg shows the laptop General guidelines and Functions deep dive table with caption 'Laptops: same functional rules'. The 'Accepted physical damage' caption and laptop photo are on t00310.jpg."},
+      {"before": "Step 04:50: 'highlights the Excellent block'", "after": "Trainer shows the Excellent block", "reason": "The highlight is not confirmed on the cited frame; the slide shows the Excellent block without a clear highlight."},
+      {"before": "Step 04:17: 'reads its three items'", "after": "The Wrong item group lists three items on screen", "reason": "The narration reads only parts of the three items."},
+      {"before": "Step 04:40: 'reads the four locks and IMEI items'", "after": "The group lists four items on screen; the cursor is on the iCloud row", "reason": "The narration does not read all four items; the four items are on screen."},
+      {"before": "Step 04:59: laptop slide with table only at 04:59", "after": "Table on screen from 04:59 to 05:03, also cites t00301.jpg at 05:01", "reason": "t00301.jpg shows the same table with the same caption at 05:01."},
+      {"before": "Fact: 'Laptops follow the same logic as phones: the same functional rules apply.'", "after": "Laptops follow the same logic: the slide caption reads 'Laptops: same functional rules'.", "reason": "'As phones' is not stated on the slide or in the narration."},
+      {"before": "Fact: 'If a seller goes over 2 claims, a trigger is activated and the Revibe team checks these claims one by one.'", "after": "If the total goes above 2 claims (slide: 'If so'), a trigger gets activated and the slide says the Revibe team checks these claims one by one; medium confidence", "reason": "The slide says 'Total should never exceed 2 claims' and 'If so'; the slide names the Revibe team but the narration at 03:35 names the KM."},
+      {"before": "Fact: 'A seller's total of banned-element claims should never exceed 2.'", "after": "The total of banned-element claims should never exceed 2.", "reason": "The slide does not say 'seller's'; it says 'Total should never exceed 2 claims'."},
+      {"before": "Fact: 'If a claim is confirmed... based on the seller's price.'", "after": "Unchanged wording; the narration says 'based on the seller price' (03:38) and the slide says 'based on the seller's price' (03:57)", "reason": "Both sources agree; cited both for traceability."},
+      {"before": "Fact: 'such as colour and capacity'", "after": "'like color and capacity'", "reason": "The slide reads 'color' in the IMEI serial number row."},
+      {"before": "Fact: 'Wi-Fi and Bluetooth, GPS, internal and external sensors, and biometric sensors (Touch ID, Face ID, ID sensor, voice recognition) must work correctly and accurately.'", "after": "Split into separate facts for Wi-Fi/Bluetooth, biometric sensors, GPS, and external/internal sensors, each with its own quote", "reason": "The combined statement overstated the GPS row ('accurate and working') and the evidence did not cover GPS or internal and external sensors."},
+      {"before": "Fact: 'Mechanical parts must be genuine...'", "after": "Unchanged", "reason": "Quote matches the slide, including the 'others are check are genuine' wording as printed."},
+      {"before": "Term 'Claim': 'A seller-side claim that the Revibe team checks'", "after": "Claim on the banned list; slide says Revibe team checks, narration says KM checks", "reason": "The narration says the KM checks the claims; the slide says the Revibe team."},
+      {"before": "Screen 'Laptop functional rules slide': listed 'sensors' only", "after": "Lists External and Internal sensors and Biometric sensors separately", "reason": "Matches the table rows on screen."},
+      {"before": "Screen 'Most common rejection reasons chart': no truncation noted", "after": "Adds 'The chart is cut off at the bottom edge'", "reason": "Matches the unclear entry; the frame shows the chart ending at the bottom edge after 'Speaker issue 2%'."}
+    ],
+    "added": [
+      "Fact: GPS row ('GPS and positioning system are accurate and working'), t00299.jpg at 04:59.",
+      "Fact: External sensors row (distance, camera aperture, brightness, laser measurement, heartbeat), t00299.jpg at 04:59.",
+      "Fact: Internal sensors row (such as temperature), t00299.jpg at 04:59.",
+      "Fact: Mics and speakers row (calibrated to capture and play sound correctly), t00299.jpg at 04:59.",
+      "Fact: Fans and ventilation row (cooling components cleaned and effective), t00299.jpg at 04:59.",
+      "Fact: Hardware assembly row (hard disk, SSD, graphics card inspected; all parts present and fully functional), t00299.jpg at 04:59.",
+      "Fact: Trackpads, keyboards, touch bars and backlighting row, t00299.jpg at 04:59.",
+      "Unclear: 03:35 slide vs narration on who checks the claims (Revibe team vs KM).",
+      "Unclear: 04:46 narration 'previous customer's data' vs slide 'previous user data'.",
+      "Frame coverage: t00275.jpg (04:35, Parts group still on screen, same rows as t00271.jpg) and t00278.jpg (04:38, Parts caption with the cursor on the iCloud row) were reviewed; no new claim beyond the existing Parts and Locks & IMEI facts."
+    ]
+  }
+}

@@ -1,0 +1,933 @@
+{
+  "summary": "Part 3 of the Seller onboarding training (08:29 to 10:49, last spoken line; video length 10:50) covers preparing the first shipment (what goes in the box, bubble wrap, stickers, USB-C cables, box and airway bill, Quickup pickup and following the shipment in the Fulfillment App), how condition grades appear in the Fulfillment App SKU list, the Quality guidelines PDF (accepted standards per Excellent, Very good and Good grade, and the functions checked), and the four onboarding stages with the warehouse inspection outcome. Only the 18 listed frames were used; the transcript and frames are the sole sources.",
+  "frames_opened": 18,
+  "steps": [
+    {
+      "at": "08:29",
+      "screen": "Presentation slide 'Next steps' (frames t00509, t00529)",
+      "action": "Explains the shipment rules while the Next steps slide is shown: put in the box the devices that were required, and models must be requested on the app.",
+      "evidence": [
+        {"kind": "say", "at": "08:29", "frame": "", "quote": "In this box, please put all the devices that you required."},
+        {"kind": "say", "at": "08:35", "frame": "", "quote": "Not more, not less."},
+        {"kind": "say", "at": "08:37", "frame": "", "quote": "Do not put other models."},
+        {"kind": "say", "at": "08:39", "frame": "", "quote": "If you want to put a model, you have to request it on the app."},
+        {"kind": "say", "at": "08:42", "frame": "", "quote": "If the model is not requested on the app, we will immediately ship it back directly to you."}
+      ],
+      "says": "If the model is not requested on the app, we will immediately ship it back directly to you.",
+      "why": ""
+    },
+    {
+      "at": "08:49",
+      "screen": "Presentation slide 'Next steps' (frame t00529)",
+      "action": "Describes the labelling and cable requirements for the packed devices while the slide's 'Prepare the shipment' list and example package are shown.",
+      "evidence": [
+        {"kind": "say", "at": "08:49", "frame": "", "quote": "So please put all the devices, put a sticker on every device mentioning the SKU, {model?} {storage?} color"},
+        {"kind": "say", "at": "08:56", "frame": "", "quote": "and condition {for?} every single device that you put in the shipment please include a {USB?}-C cable"},
+        {"kind": "see", "at": "08:49", "frame": "t00529.jpg", "quote": "Prepare the shipment: Put all the devices in bubble wrap / On the bubble wrap put a sticker with Model, Storage, Color, Condition, SKU / Include USB C cables (similar to the one below) / Put everything in a box / Quickup will come and collect. Example sticker reads 010119-071701, iphone-13-pro, 128 GB, Alpine Green, Good."}
+      ],
+      "says": "put a sticker on every device mentioning the SKU",
+      "why": ""
+    },
+    {
+      "at": "09:03",
+      "screen": "Presentation slide 'Next steps' (frame t00529)",
+      "action": "Explains packing the devices into a box. The airway bill is named, but the placement sentence is cut off after 'on the', so where it goes is not stated.",
+      "evidence": [
+        {"kind": "say", "at": "09:03", "frame": "", "quote": "like this or an original cable put everything in a random box put the airway bill on the"}
+      ],
+      "says": "put everything in a random box put the airway bill on the",
+      "why": ""
+    },
+    {
+      "at": "09:09",
+      "screen": "Presentation slide 'Next steps' with cursor on the 'Quickup will come and collect' bullet (frame t00549)",
+      "action": "Points the cursor at the Quickup bullet while explaining pickup.",
+      "evidence": [
+        {"kind": "say", "at": "09:10", "frame": "", "quote": "box QuickUp will come to your place to the address you put you mentioned in the onboarding app"},
+        {"kind": "see", "at": "09:09", "frame": "t00549.jpg", "quote": "Cursor on the 'Quickup will come and collect' bullet; sticker example still shown."}
+      ],
+      "says": "QuickUp will come to your place to the address you put you mentioned in the onboarding app",
+      "why": ""
+    },
+    {
+      "at": "09:16",
+      "screen": "Presentation slide 'Next steps' (frame t00549)",
+      "action": "Explains that Quickup delivers the box to Revibe and that the shipment can be followed in the Fulfillment App. The sentence about collection timing is garbled and is not used (see unclear).",
+      "evidence": [
+        {"kind": "say", "at": "09:16", "frame": "", "quote": "and will collect one day after QuickUp will deliver it to us and you will be able to"},
+        {"kind": "say", "at": "09:21", "frame": "", "quote": "follow it on the fulfillment app last detail as you can see here on the fulfillment app the"}
+      ],
+      "says": "follow it on the fulfillment app",
+      "why": ""
+    },
+    {
+      "at": "09:24",
+      "screen": "Google Chrome, Revibe - Fulfillment App, SKUs available list, with Quality guidelines.pdf open in a Preview window on the right (frame t00564)",
+      "action": "Switches to the Fulfillment App's SKUs available list, with the Quality guidelines PDF open beside it.",
+      "evidence": [
+        {"kind": "see", "at": "09:24", "frame": "t00564.jpg", "quote": "Left: Revibe - Fulfillment App SKUs available table (Category, Model, Product, Price, Quantities recomm..., SKU). Right: Quality guidelines.pdf, 'Page 1 sur 6', REVIBE Phones, tablets & watches - Quality guidelines."}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "09:30",
+      "screen": "Fulfillment App SKUs available list (frame t00571)",
+      "action": "Points at the Product column of the iphone-11 row, 'iphone-1164 GBGoodBlack', to show where the condition is.",
+      "evidence": [
+        {"kind": "say", "at": "09:30", "frame": "", "quote": "condition is mentioned here it's good good good and if you go a bit below for instance you"},
+        {"kind": "see", "at": "09:31", "frame": "t00571.jpg", "quote": "Cursor on the Product value 'iphone-1164 GBGoodBlack' in the iphone-11 row, price 598, quantities recomm. 155."}
+      ],
+      "says": "condition is mentioned here it's good good good",
+      "why": ""
+    },
+    {
+      "at": "09:35",
+      "screen": "Fulfillment App SKUs available list, scrolled, before any detail panel opens (frame t00575)",
+      "action": "Shows the iphone-14-pro row, with price 1,841 and Quantities recommended 12, under the cursor before the SKU detail panel is opened. No speech is recorded at this point.",
+      "evidence": [
+        {"kind": "see", "at": "09:35", "frame": "t00575.jpg", "quote": "Cursor on the iphone-14-pro row: Product 'iphone-14-pro256 GBExcellentSpace...' (truncated), Price 1,841, Quantities recomm. 12, SKU 010123-0... (truncated). No detail panel open yet."}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "09:36",
+      "screen": "Fulfillment App SKUs available list, SKU detail panel (frame t00576)",
+      "action": "Clicks an iphone-14-pro row to open its SKU detail panel and shows an Excellent example.",
+      "evidence": [
+        {"kind": "say", "at": "09:36", "frame": "", "quote": "can find excellent condition okay excellent or you can find also sometimes here it's good good and you"},
+        {"kind": "see", "at": "09:36", "frame": "t00576.jpg", "quote": "SKU detail panel titled 010123-085003: Supplier Smart Life, Price 1,841, Category iPhone, Product iphone-14-pro256 GBExcellentSpace Black, Model iphone-14-pro, SKU Status Free market, Quantities recommended 12."}
+      ],
+      "says": "can find excellent condition",
+      "why": ""
+    },
+    {
+      "at": "09:43",
+      "screen": "Fulfillment App SKU detail panel (frame t00583)",
+      "action": "Opens another SKU, which is a Good example. The trainer's words at this point name 'very good' (see unclear entry at 09:46).",
+      "evidence": [
+        {"kind": "say", "at": "09:46", "frame": "", "quote": "can find also sometimes very good {like?} this {these?} conditions are explained in the quality guidelines that you"},
+        {"kind": "see", "at": "09:43", "frame": "t00583.jpg", "quote": "SKU detail panel titled 010114-070501: Supplier Smart Life, Price 951, Product iphone-12-pro128 GBGoodSilver, Model iphone-12-pro, SKU Status Free market, Quantities recommended 8."}
+      ],
+      "says": "these conditions are explained in the quality guidelines",
+      "why": ""
+    },
+    {
+      "at": "09:48",
+      "screen": "Fulfillment App SKU detail panel (frame t00588)",
+      "action": "Opens an iphone-11 SKU that is Very good.",
+      "evidence": [
+        {"kind": "see", "at": "09:48", "frame": "t00588.jpg", "quote": "SKU detail panel titled 010109-060102: Supplier Smart Life, Price 569, Product iphone-1164 GBVery GoodBlack, Model iphone-11, SKU Status Free market, Quantities recommended 7."}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "09:50",
+      "screen": "Fulfillment App SKUs available list, scrolled, with Quality guidelines.pdf still open beside it (frame t00590)",
+      "action": "Shows the SKUs list scrolled to rows with Quantities recommended 9, 8 and 7, with the Quality guidelines PDF still open beside it. No speech is recorded at this point.",
+      "evidence": [
+        {"kind": "see", "at": "09:50", "frame": "t00590.jpg", "quote": "SKUs list scrolled to rows with Quantities recomm. 9, 8 and 7, e.g. iphone-12-pro128 GBGoodSilver 951 qty 8 and iphone-1164 GBVery GoodBlack 569 qty 7. Quality guidelines.pdf window open on the right, 'Page 1 sur 6'."}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "09:52",
+      "screen": "Quality guidelines PDF, page 1 of 6 (frames t00590, t00592)",
+      "action": "Brings the Quality guidelines PDF forward and explains that the requirement for every condition is set out there.",
+      "evidence": [
+        {"kind": "say", "at": "09:53", "frame": "", "quote": "read on the onboarding app so for every condition we explain you what we require basically all the"},
+        {"kind": "see", "at": "09:52", "frame": "t00592.jpg", "quote": "Quality guidelines.pdf window title, 'Page 1 sur 6', REVIBE Phones, tablets & watches - Quality guidelines, columns Excellent / Very good / Good."}
+      ],
+      "says": "so for every condition we explain you what we require",
+      "why": ""
+    },
+    {
+      "at": "09:56",
+      "screen": "Quality guidelines PDF, General guidelines section (frame t00596)",
+      "action": "Explains the general acceptance rule for what may differ between devices, with the cursor on the Excellent header.",
+      "evidence": [
+        {"kind": "say", "at": "10:03", "frame": "", "quote": "features of the device must work perfectly what we only accept is some differences in terms of physical"},
+        {"kind": "say", "at": "10:11", "frame": "", "quote": "condition or in terms of battery health {we?} accept also some very slight differences in terms of replacement"},
+        {"kind": "see", "at": "09:56", "frame": "t00596.jpg", "quote": "General guidelines table: Hardware 100% fully functional; Battery 95% / 90% / 85% battery health minimum + match 3utool; Camera dot None / 1 small maximum / 2 small maximum."}
+      ],
+      "says": "features of the device must work perfectly",
+      "why": ""
+    },
+    {
+      "at": "10:16",
+      "screen": "Quality guidelines PDF, Parts section, Display row (frame t00616)",
+      "action": "Points at the Display row and mentions the LCD replacement parts.",
+      "evidence": [
+        {"kind": "say", "at": "10:20", "frame": "", "quote": "parts for the lcd the rest you can see that everything is should work exactly the same so"},
+        {"kind": "see", "at": "10:16", "frame": "t00616.jpg", "quote": "Parts section: Display, Original or DD (Excellent) / High quality copy accepted (Very good, Good)."}
+      ],
+      "says": "parts for the lcd the rest you can see that everything is should work exactly the same",
+      "why": ""
+    },
+    {
+      "at": "10:17",
+      "screen": "Quality guidelines PDF, Parts section (frame t00617)",
+      "action": "Points at the Glass, Cover, Buttons, Others and S Pen rows.",
+      "evidence": [
+        {"kind": "see", "at": "10:17", "frame": "t00617.jpg", "quote": "Glass, Cover, Buttons, Others: High quality copy accepted - no message mentioning the replacement of non-original parts should appear. S Pen (Samsung only): Must be original."}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "10:23",
+      "screen": "Quality guidelines PDF, Functions deep dive section (frames t00623, t00628)",
+      "action": "Scrolls through the functions checked (SIM to Temperature) and the trainer refers the seller to the guidelines.",
+      "evidence": [
+        {"kind": "see", "at": "10:23", "frame": "t00623.jpg", "quote": "Functions deep dive: Sim through Temperature rows listed."},
+        {"kind": "say", "at": "10:28", "frame": "", "quote": "please refer to {this?} quality guidelines to have a clear understanding of the quality we only accept at"},
+        {"kind": "say", "at": "10:34", "frame": "", "quote": "our warehouse what are our quality standards so that your shipment does not get rejected."}
+      ],
+      "says": "our warehouse what are our quality standards so that your shipment does not get rejected.",
+      "why": ""
+    },
+    {
+      "at": "10:40",
+      "screen": "Presentation slide 'Onboarding process' (slide 9) (frames t00640, t00649)",
+      "action": "Closes the training while the onboarding process slide is shown.",
+      "evidence": [
+        {"kind": "see", "at": "10:40", "frame": "t00640.jpg", "quote": "Onboarding process slide 9: four stages, Profile screening, Quality screening, Trial period, Full onboarding, with Shipment to warehouse for inspection leading to Sales + Onboarding or Return + No-onboarding."},
+        {"kind": "say", "at": "10:40", "frame": "", "quote": "I hope this training video was clear for you."},
+        {"kind": "say", "at": "10:42", "frame": "", "quote": "If you have any questions do not hesitate to {check?} us and we are looking forward to working"},
+        {"kind": "say", "at": "10:48", "frame": "", "quote": "with you."},
+        {"kind": "say", "at": "10:49", "frame": "", "quote": "Best of luck!"}
+      ],
+      "says": "If you have any questions do not hesitate to {check?} us",
+      "why": ""
+    }
+  ],
+  "facts": [
+    {
+      "type": "rule",
+      "statement": "Put in the box all the devices that were required, not more and not less, as the trainer puts it.",
+      "evidence": [
+        {"kind": "say", "at": "08:29", "quote": "In this box, please put all the devices that you required."},
+        {"kind": "say", "at": "08:35", "quote": "Not more, not less."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Do not put other models in the box.",
+      "evidence": [
+        {"kind": "say", "at": "08:37", "quote": "Do not put other models."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "A model can be put in the shipment only if it has been requested on the app.",
+      "evidence": [
+        {"kind": "say", "at": "08:39", "quote": "If you want to put a model, you have to request it on the app."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "A model that was not requested on the app is shipped back to the seller immediately.",
+      "evidence": [
+        {"kind": "say", "at": "08:42", "quote": "If the model is not requested on the app, we will immediately ship it back directly to you."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Put all devices in bubble wrap.",
+      "evidence": [
+        {"kind": "see", "at": "08:29", "frame": "t00509.jpg", "quote": "Prepare the shipment: 'Put all the devices in bubble wrap' is the first bullet."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "On the bubble wrap, put a sticker with Model, Storage, Color, Condition and SKU (slide wording). The speech says to put a sticker on every device, so placement is not fully settled (see unclear, 08:49).",
+      "evidence": [
+        {"kind": "see", "at": "08:29", "frame": "t00509.jpg", "quote": "'On the bubble wrap put a sticker with Model, Storage, Color, Condition, SKU'."},
+        {"kind": "say", "at": "08:49", "quote": "put a sticker on every device mentioning the SKU, {model?} {storage?} color"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Include a USB-C cable with every device in the shipment, similar to the example cable shown or an original cable.",
+      "evidence": [
+        {"kind": "say", "at": "08:56", "quote": "every single device that you put in the shipment please include a {USB?}-C cable"},
+        {"kind": "say", "at": "09:03", "quote": "like this or an original cable"},
+        {"kind": "see", "at": "08:49", "frame": "t00529.jpg", "quote": "'Include USB C cables (similar to the one below)' with a cable image."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Put everything in a box (slide wording). Where the airway bill goes is not stated (see unclear, 09:03).",
+      "evidence": [
+        {"kind": "see", "at": "08:49", "frame": "t00529.jpg", "quote": "'Put everything in a box'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "example",
+      "statement": "Example sticker on a bubble-wrapped device reads: SKU 010119-071701, iphone-13-pro, 128 GB, Alpine Green, Good.",
+      "evidence": [
+        {"kind": "see", "at": "08:29", "frame": "t00509.jpg", "quote": "Callout: 010119-071701 / iphone-13-pro / 128 GB / Alpine Green / Good."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "Quickup collects the box at the address the seller mentioned in the onboarding app.",
+      "evidence": [
+        {"kind": "say", "at": "09:10", "quote": "box QuickUp will come to your place to the address you put you mentioned in the onboarding app"},
+        {"kind": "see", "at": "09:09", "frame": "t00549.jpg", "quote": "'Quickup will come and collect' bullet."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Quickup delivers the shipment to Revibe, and the seller can follow the shipment in the Fulfillment App.",
+      "evidence": [
+        {"kind": "say", "at": "09:16", "quote": "QuickUp will deliver it to us and you will be able to"},
+        {"kind": "say", "at": "09:21", "quote": "follow it on the fulfillment app last detail as you can see here on the fulfillment app the"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The Fulfillment App left menu lists a Shipments entry next to SKUs available.",
+      "evidence": [
+        {"kind": "see", "at": "09:24", "frame": "t00564.jpg", "quote": "Left menu: SKUs available, Shipments, Request products, Supplier inventory, Inventory exits, Packaging request, About, Feedback, App Gallery."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "In the Fulfillment App SKUs available list, the condition is shown inside the Product name of the SKUs on screen (for example 'iphone-1164 GBGoodBlack').",
+      "evidence": [
+        {"kind": "say", "at": "09:30", "quote": "condition is mentioned here it's good good good"},
+        {"kind": "see", "at": "09:31", "frame": "t00571.jpg", "quote": "Product value 'iphone-1164 GBGoodBlack' in the iphone-11 row."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Revibe device conditions are Excellent, Very good and Good.",
+      "evidence": [
+        {"kind": "say", "at": "09:36", "quote": "can find excellent condition okay excellent or you can find also sometimes here it's good good"},
+        {"kind": "say", "at": "09:46", "quote": "can find also sometimes very good"},
+        {"kind": "see", "at": "09:52", "frame": "t00592.jpg", "quote": "Column headers Excellent, Very good, Good."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The Quality guidelines explain what Revibe requires for each condition grade.",
+      "evidence": [
+        {"kind": "say", "at": "09:46", "quote": "these conditions are explained in the quality guidelines that you"},
+        {"kind": "say", "at": "09:53", "quote": "so for every condition we explain you what we require"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "All features of the device must work perfectly.",
+      "evidence": [
+        {"kind": "say", "at": "10:03", "quote": "features of the device must work perfectly"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Revibe accepts some differences in physical condition and in battery health, and very slight differences in replacement parts for the LCD. The trainer says everything else should work exactly the same.",
+      "evidence": [
+        {"kind": "say", "at": "10:03", "quote": "what we only accept is some differences in terms of physical"},
+        {"kind": "say", "at": "10:11", "quote": "condition or in terms of battery health {we?} accept also some very slight differences in terms of replacement"},
+        {"kind": "say", "at": "10:20", "quote": "parts for the lcd the rest you can see that everything is should work exactly the same so"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "Revibe only accepts quality that meets its standards at the warehouse; a shipment that does not meet them can be rejected.",
+      "evidence": [
+        {"kind": "say", "at": "10:28", "quote": "please refer to {this?} quality guidelines to have a clear understanding of the quality we only accept at"},
+        {"kind": "say", "at": "10:34", "quote": "our warehouse what are our quality standards so that your shipment does not get rejected."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Read the Quality guidelines before preparing a shipment.",
+      "evidence": [
+        {"kind": "say", "at": "10:28", "quote": "please refer to {this?} quality guidelines"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Battery health required: Excellent 95% minimum + match 3utool; Very good 90% minimum + match 3utool; Good 85% minimum + match 3utool.",
+      "evidence": [
+        {"kind": "see", "at": "09:56", "frame": "t00596.jpg", "quote": "Battery row: '95% battery health minimum + match 3utool' (Excellent), '90% battery health minimum + match 3utool' (Very good), '85% battery health minimum + match 3utool' (Good)."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Camera dot allowance (General guidelines): Excellent None; Very good 1 small maximum; Good 2 small maximum.",
+      "evidence": [
+        {"kind": "see", "at": "09:56", "frame": "t00596.jpg", "quote": "Camera dot row: 'None' / '1 small maximum' / '2 small maximum'."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Hardware must be 100% fully functional for all grades.",
+      "evidence": [
+        {"kind": "see", "at": "09:56", "frame": "t00596.jpg", "quote": "Hardware: '100% fully functional' across the table."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Screen: Excellent and Very good allow no sign of use; Good allows slight scratches that may be visible but do not interfere when the appliance is switched on.",
+      "evidence": [
+        {"kind": "see", "at": "09:56", "frame": "t00596.jpg", "quote": "Screen: 'No sign of use' spanning the Excellent and Very good columns; 'Slight scratches may be visible, but they do not interfere when the appliance is switched on' in the Good column."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Body: Excellent allows no sign of use; Very good and Good allow a few light scratches not visible at first glance unless you look closely (small).",
+      "evidence": [
+        {"kind": "see", "at": "09:56", "frame": "t00596.jpg", "quote": "Body: 'No sign of use' (Excellent); 'May have a few light scratches that are not visible at first glance unless you look closely. Small' (Very good and Good columns)."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Display: Excellent requires Original or DD; Very good and Good accept High quality copy.",
+      "evidence": [
+        {"kind": "see", "at": "10:16", "frame": "t00616.jpg", "quote": "Display: 'Original or DD' (Excellent), 'High quality copy accepted' (Very good, Good)."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Glass, Cover, Buttons and Others: High quality copy accepted in all grades, but no message mentioning the replacement of non-original parts should appear.",
+      "evidence": [
+        {"kind": "see", "at": "10:17", "frame": "t00617.jpg", "quote": "'High quality copy accepted - no message mentioning the replacement of non-original parts should appear'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "S Pen (Samsung only) must be original.",
+      "evidence": [
+        {"kind": "see", "at": "10:17", "frame": "t00617.jpg", "quote": "'S Pen (Samsung only)' - 'Must be original'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "SIM cards and memory cards must be read correctly by the device, and any trays or slots must work properly for inserting and removing the card.",
+      "evidence": [
+        {"kind": "see", "at": "10:23", "frame": "t00623.jpg", "quote": "Sim: 'SIM cards and memory cards are correctly read by the device, and any trays or slots to insert or remove the card works properly.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Data must have been reset (data deletion check).",
+      "evidence": [
+        {"kind": "see", "at": "10:23", "frame": "t00623.jpg", "quote": "Data deletion: 'Data must have been reset'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Chargers and cables must be original copy; they must charge effectively and be compatible.",
+      "evidence": [
+        {"kind": "see", "at": "10:23", "frame": "t00623.jpg", "quote": "Chargers / cables: 'Original copy required - must charge effectively and be compatible'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The device must be unlocked from any previous protection systems.",
+      "evidence": [
+        {"kind": "see", "at": "10:23", "frame": "t00623.jpg", "quote": "Unlocking: 'Unlocked from any previous protection systems'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "GPS and positioning system must be accurate and working.",
+      "evidence": [
+        {"kind": "see", "at": "10:23", "frame": "t00623.jpg", "quote": "GPS: 'GPS and positioning system are accurate and working'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Cameras (checked with portrait mode): Excellent requires all modes to work with max 1 small camera dot accepted; Very good and Good require all modes to work with max 2 small camera dots accepted.",
+      "evidence": [
+        {"kind": "see", "at": "10:23", "frame": "t00623.jpg", "quote": "Cameras (checked with portrait mode): 'All modes must work and max 1 small camera dot accepted' (Excellent); 'All modes must work and max 2 small camera dots accepted' (right column)."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "External sensors must work correctly: distance, call, proximity, camera aperture, brightness, laser measurement, vibrations and heartbeat.",
+      "evidence": [
+        {"kind": "see", "at": "10:23", "frame": "t00623.jpg", "quote": "External sensors: 'Sensors for distance, call sensor, proximity sensor, camera aperture, brightness, laser measurement, vibrations and heartbeat are working correctly'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Biometric sensors must work correctly and accurately: Touch ID, Face ID, ID sensor and voice recognition.",
+      "evidence": [
+        {"kind": "see", "at": "10:23", "frame": "t00623.jpg", "quote": "Biometric sensors: 'Touch ID, Face ID, ID sensor, and voice recognition are working correctly and accurately'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Wi-Fi and Bluetooth must work correctly and accurately.",
+      "evidence": [
+        {"kind": "see", "at": "10:23", "frame": "t00623.jpg", "quote": "Wi-Fi / Bluetooth: 'Wi-Fi and Bluetooth functions are working correctly and accurately'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "IMEI is checked to see whether the device is blacklisted and whether the device configuration (like color and capacity) matches manufacturer settings.",
+      "evidence": [
+        {"kind": "see", "at": "10:28", "frame": "t00628.jpg", "quote": "IMEI: 'IMEI serial number on a device is checked to see if it has been blacklisted and if the device configuration (like color and capacity) match manufacturer settings'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The oxidation indicator inside the device is inspected.",
+      "evidence": [
+        {"kind": "see", "at": "10:28", "frame": "t00628.jpg", "quote": "Oxidation: 'Inspecting the oxidation indicator within the device'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Flash and other indicator lights must work properly.",
+      "evidence": [
+        {"kind": "see", "at": "10:28", "frame": "t00628.jpg", "quote": "Flash and indicator lights: 'Flash and other indicator lights work properly'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Microphones and speakers must be calibrated so they capture and play sound correctly.",
+      "evidence": [
+        {"kind": "see", "at": "10:28", "frame": "t00628.jpg", "quote": "Mics and speakers: 'Must be calibrated so that they capture and play sound correctly'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Ports, such as headphone jack, battery, USB and ethernet, must be functional.",
+      "evidence": [
+        {"kind": "see", "at": "10:28", "frame": "t00628.jpg", "quote": "Ports: 'Ports, like those used for headphone jacks, battery, USB, ethernet, must be functional'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "The phone must be unlocked to a phone carrier.",
+      "evidence": [
+        {"kind": "see", "at": "10:28", "frame": "t00628.jpg", "quote": "Phone carrier: 'Must be unlocked to a phone carrier'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "On-screen visuals are tested: there must be no defects such as stains, dust, or discoloration from burn-in.",
+      "evidence": [
+        {"kind": "see", "at": "10:28", "frame": "t00628.jpg", "quote": "Screen: 'On-screen visuals are tested to ensure that there are no defects like stains, dusts, and discoloration from burn-in'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Buttons must be pressed efficiently, feel the same as the original buttons, and open the right functions (volume, lock screen, etc.).",
+      "evidence": [
+        {"kind": "see", "at": "10:28", "frame": "t00628.jpg", "quote": "Buttons: 'Buttons must be pressed efficiently, feeling must be same as original buttons and open the right functions (volume, lock screen, etc.)'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "The device must not overheat when used in normal conditions.",
+      "evidence": [
+        {"kind": "see", "at": "10:28", "frame": "t00628.jpg", "quote": "Temperature: 'Device should not overheat when used in normal conditions'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Onboarding has four stages: 1 Profile screening, 2 Quality screening, 3 Trial period, 4 Full onboarding.",
+      "evidence": [
+        {"kind": "see", "at": "10:40", "frame": "t00640.jpg", "quote": "Onboarding process slide 9 with four numbered stages."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Profile screening: fill in the form in the app, input company information and documents (TRN, trade license, Emirates ID), and get access to Revibe's main information (contract, quality guidelines, ...).",
+      "evidence": [
+        {"kind": "see", "at": "10:40", "frame": "t00640.jpg", "quote": "Profile screening bullets: 'Fill the form in this app', 'Input information related to your company', 'Input documents (TRN, trade license, Emirates ID)', 'Get access to Revibe's main information (contract, quality guidelines, ...)'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Quality screening: once the profile is validated you get access to the Fulfillment App; you send a first shipment of devices so Revibe can check your quality; you create a shipment, select products, and set quantities and prices.",
+      "evidence": [
+        {"kind": "see", "at": "10:40", "frame": "t00640.jpg", "quote": "Quality screening bullets: 'Once your profile is validated, you will get access to the Fulfillment App', 'You will send us a 1st shipment of devices that will enable us to check your quality', 'Create a shipment, select products products, set quantities and prices'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "policy",
+      "statement": "The first shipment goes to the warehouse for inspection. The slide shows a check mark leading to Sales + Onboarding and a cross leading to Return + No-onboarding.",
+      "evidence": [
+        {"kind": "see", "at": "10:40", "frame": "t00640.jpg", "quote": "'Shipment to warehouse for inspection' with a check mark leading to 'Sales + Onboarding' and an X leading to 'Return + No-onboarding'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "policy",
+      "statement": "Trial period: only Fulfillment by Revibe is available; you get access to all Revibe tools and online trainings; it lets you reach significant volume and get used to the Revibe environment.",
+      "evidence": [
+        {"kind": "see", "at": "10:40", "frame": "t00640.jpg", "quote": "Trial period bullets: 'Only Fulfillment by Revibe during trial period', 'You will get access to all Revibe tools and online trainings', 'It enables you to reach significant volume, get used to Revibe environment'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "policy",
+      "statement": "Full onboarding comes once significant volume of orders is reached; direct shipping to customers is then allowed, with no more limits.",
+      "evidence": [
+        {"kind": "see", "at": "10:40", "frame": "t00640.jpg", "quote": "Full onboarding bullets: 'Once you have reached significant volume of orders you will be fully onboarded', 'It means direct shipping to customers will be allowed', 'No more limits !'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The SKU detail panel shows SKU, Supplier, Price, Category, Product, Model, SKU Status and Quantities recommended.",
+      "evidence": [
+        {"kind": "see", "at": "09:36", "frame": "t00576.jpg", "quote": "Panel fields: SKU, Supplier, Price, Category, Product, Model, SKU Status, Quantities recommended."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    }
+  ],
+  "screens": [
+    {
+      "name": "Presentation slide: Next steps",
+      "shows": "Prepare the shipment checklist (bubble wrap, sticker with Model, Storage, Color, Condition, SKU, USB C cables, box, Quickup collection) with a bubble-wrapped example device, sticker callout and cable image.",
+      "where": "Video overlay, presentation window",
+      "at": "08:29-09:21"
+    },
+    {
+      "name": "Revibe - Fulfillment App: SKUs available",
+      "shows": "Left nav: SKUs available, Shipments, Request products, Supplier inventory, Inventory exits, Packaging request, About, Feedback, App Gallery. Table columns: Category, Model, Product, Price, Quantities recomm..., SKU. Search bar 'Search SKUs available', Download button, filter icon. Product names carry storage, color and condition (e.g. 'iphone-1164 GBGoodBlack'). Some product rows show a filled star and others an outlined star.",
+      "where": "Google Chrome, appsheet.com web app (address bar truncated)",
+      "at": "09:24-09:50"
+    },
+    {
+      "name": "SKU detail panel",
+      "shows": "Opens on the right of the SKUs list when a row is clicked. Fields: SKU, Supplier, Price, Category, Product, Model, SKU Status (value 'Free market'), Quantities recommended. Navigation arrows and expand and close icons at top right.",
+      "where": "Fulfillment App, SKUs available screen",
+      "at": "09:36-09:48"
+    },
+    {
+      "name": "Quality guidelines.pdf",
+      "shows": "'Phones, tablets & watches - Quality guidelines' (page 1 of 6). Sections: General guidelines (Hardware, Screen, Body, Battery, Camera dot), Parts (Display, Glass, Cover, Buttons, Others, S Pen), Functions deep dive (Sim through Temperature). Grade columns: Excellent, Very good, Good.",
+      "where": "Preview (Aperçu) window beside Chrome",
+      "at": "09:24-10:28"
+    },
+    {
+      "name": "Presentation slide 9: Onboarding process",
+      "shows": "Four stages (Profile screening, Quality screening, Trial period, Full onboarding) and the warehouse inspection outcome (Sales + Onboarding or Return + No-onboarding).",
+      "where": "Video overlay, presentation window",
+      "at": "10:40-10:49"
+    }
+  ],
+  "terms": [
+    {
+      "term": "SKU",
+      "meaning": "Identifier shown on the device sticker (example 010119-071701) and in the SKUs available list and SKU detail panel (examples 010123-085003, 010114-070501, 010109-060102). The material does not define the term further.",
+      "at": "08:49"
+    },
+    {
+      "term": "Model",
+      "meaning": "Device model shown on the sticker and in the Model column (e.g. iphone-13-pro).",
+      "at": "08:49"
+    },
+    {
+      "term": "Storage",
+      "meaning": "Device storage capacity shown on the sticker (e.g. 128 GB).",
+      "at": "08:49"
+    },
+    {
+      "term": "Color",
+      "meaning": "Device color shown on the sticker (e.g. Alpine Green).",
+      "at": "08:49"
+    },
+    {
+      "term": "Condition",
+      "meaning": "Grade of the device: Excellent, Very good or Good. Written on the sticker and inside the product name. The Quality guidelines state the requirements for each grade.",
+      "at": "09:36"
+    },
+    {
+      "term": "Quickup",
+      "meaning": "Collection service that picks up the packed box at the seller's address (the one mentioned in the onboarding app) and delivers it to Revibe.",
+      "at": "09:10"
+    },
+    {
+      "term": "Fulfillment App",
+      "meaning": "Revibe - Fulfillment App, where the seller sees SKUs available, shipments and other sections.",
+      "at": "09:21"
+    },
+    {
+      "term": "Quality guidelines",
+      "meaning": "Revibe document (PDF, 6 pages) stating the accepted quality for each condition and each function of phones, tablets and watches.",
+      "at": "09:46"
+    },
+    {
+      "term": "Airway bill",
+      "meaning": "Named in the speech at 09:03, where the placement sentence is cut off. The material does not define it or say where it goes.",
+      "at": "09:03"
+    },
+    {
+      "term": "Free market",
+      "meaning": "Value of the SKU Status field on the SKU detail panels shown. The material does not define it.",
+      "at": "09:36"
+    },
+    {
+      "term": "Quantities recommended",
+      "meaning": "Column and panel field with a number per SKU (e.g. 12, 8, 7). The material does not explain it.",
+      "at": "09:36"
+    },
+    {
+      "term": "Original or DD",
+      "meaning": "Accepted Display part for the Excellent grade. DD is not expanded or defined in the material.",
+      "at": "10:16"
+    },
+    {
+      "term": "High quality copy accepted",
+      "meaning": "Accepted replacement-part standard for Display (Very good and Good) and for Glass, Cover, Buttons and Others (all grades), with no message about non-original parts.",
+      "at": "10:16"
+    },
+    {
+      "term": "3utool",
+      "meaning": "Named in the Battery row as the match requirement. Not defined in the material.",
+      "at": "09:56"
+    },
+    {
+      "term": "Sales + Onboarding / Return + No-onboarding",
+      "meaning": "Two outcomes shown for the warehouse inspection of the shipment: a check mark leads to Sales + Onboarding and a cross leads to Return + No-onboarding.",
+      "at": "10:40"
+    },
+    {
+      "term": "Trial period",
+      "meaning": "Stage 3: only Fulfillment by Revibe is available, with access to all Revibe tools and online trainings.",
+      "at": "10:40"
+    },
+    {
+      "term": "Full onboarding",
+      "meaning": "Stage 4: reached after significant volume of orders; direct shipping to customers is allowed.",
+      "at": "10:40"
+    }
+  ],
+  "asr_fixes": [
+    {
+      "at": "09:10",
+      "heard": "QuickUp",
+      "correct": "Quickup",
+      "basis": "Screen: the slide bullet reads 'Quickup will come and collect' (frames t00509, t00549)."
+    },
+    {
+      "at": "09:03",
+      "heard": "put everything in a random box",
+      "correct": "Put everything in a box",
+      "basis": "Screen: slide bullet reads 'Put everything in a box' (frame t00529). The word 'random' is not on screen; see unclear entry at 09:03."
+    }
+  ],
+  "unclear": [
+    {
+      "at": "08:49",
+      "issue": "Sticker placement conflicts. Speech says to put a sticker on every device; the slide says 'On the bubble wrap put a sticker'. Which one applies is not settled, so placement is not stated as a fact beyond the slide wording."
+    },
+    {
+      "at": "09:03",
+      "issue": "Speech says 'put everything in a random box'; the slide says 'Put everything in a box'. Whether 'random' means any box or is a mishearing is unclear."
+    },
+    {
+      "at": "09:03",
+      "issue": "Speech ends 'put the airway bill on the' with no object, and the slide does not mention the airway bill. Where the airway bill goes is not stated."
+    },
+    {
+      "at": "09:16",
+      "issue": "The sentence 'and will collect one day after QuickUp will deliver it to us' is garbled. The timing of collection (one day after what) cannot be determined."
+    },
+    {
+      "at": "09:46",
+      "issue": "Speech at 09:46 says 'very good', while the panel shown over that part (t00583, 09:43) is iphone-12-pro128 GBGoodSilver, which is Good. The Very good example (t00588) appears at 09:48. Which grade the trainer named at 09:46 is not settled."
+    },
+    {
+      "at": "09:53",
+      "issue": "Speech says the conditions are read 'on the onboarding app', but the screen shows the guidelines as Quality guidelines.pdf in a separate Preview window. The slide at 10:40 says profile screening gives access to the guidelines. Where sellers get the guidelines is not clear."
+    },
+    {
+      "at": "09:56",
+      "issue": "Camera dot allowance conflicts. General guidelines: Camera dot None (Excellent), 1 small maximum (Very good), 2 small maximum (Good). Functions deep dive Cameras row: max 1 small camera dot (Excellent), max 2 (Very good and Good). Which rule governs is unclear."
+    },
+    {
+      "at": "09:56",
+      "issue": "Cell boundaries in the Screen and Body rows of the PDF are hard to read in the frame. They are read as Excellent and Very good sharing 'No sign of use' (Screen), and Very good and Good sharing the Body allowance; confirm against the PDF."
+    },
+    {
+      "at": "10:16",
+      "issue": "The narration calls the Display area 'the lcd'; the PDF says 'Display'. Treated as the same row, but not confirmed by speech."
+    },
+    {
+      "at": "10:03",
+      "issue": "The clause 'we accept also some very slight differences in terms of replacement' has a low-confidence word ({we?}); the sense is inferred from the surrounding speech and the Display row only."
+    },
+    {
+      "at": "10:42",
+      "issue": "The contact channel for questions is not stated (the speech has a low-confidence word, {check?}, and no method is shown). Only that questions are welcome is clear."
+    },
+    {
+      "at": "09:36",
+      "issue": "Quantities recommended, Price, SKU Status ('Free market') and the star icons on product rows are shown on screen but never explained by the trainer. Their meaning is unknown."
+    },
+    {
+      "at": "10:23",
+      "issue": "Only page 1 of the 6-page Quality guidelines PDF is shown in the window title and page counter. The rest of the guidelines are not shown in this part."
+    }
+  ],
+  "outdated": [
+    {
+      "at": "09:24",
+      "signal": "Frames carry a macOS menu-bar clock reading 'Ven. 8 août' at 11:54 and 11:55 (weekday and day only; the year is not shown). The SKU list, prices, quantities recommended and the Quality guidelines PDF are a snapshot from that recording and may no longer match the live app or current guidelines. Low confidence; the date is not stated in the training."
+    }
+  ],
+  "privacy": [
+    {
+      "at": "09:36",
+      "what": "Supplier name 'Smart Life' appears on the SKU detail panels shown at 09:36, 09:43 and 09:48. It is a business supplier name, not a personal name, and no seller personal data is shown.",
+      "frame": "t00576.jpg"
+    },
+    {
+      "at": "08:29",
+      "what": "The trainer's face appears in a webcam overlay in most frames. This is the trainer, not seller data, but it is a person's image in the video.",
+      "frame": "t00509.jpg"
+    }
+  ],
+  "audit": {
+    "checked": 104,
+    "removed": [
+      {
+        "statement": "The airway bill is put on the box before collection (fact 'Put everything in a box and put the airway bill on the box', and the Airway bill term's 'placed on the box' wording).",
+        "reason": "The speech is cut off after 'put the airway bill on the', so no object is spoken, and the slide does not mention the airway bill. The placement is not supported by the evidence."
+      }
+    ],
+    "corrected": [
+      {"before": "Summary: 'Part 3 ... (08:29 to 10:50)'", "after": "08:29 to 10:49 (last spoken line 10:49; video length 10:50)", "reason": "The last transcript line is at 10:49."},
+      {"before": "Step 09:03 action: 'Explains packing the box and placing the airway bill on it.'", "after": "Explains packing the devices into a box; the airway bill is named but the placement sentence is cut off after 'on the'.", "reason": "The evidence does not say where the airway bill goes."},
+      {"before": "Step 10:16 evidence say quote time 10:16", "after": "10:20", "reason": "The quoted line 'parts for the lcd ...' is transcript line [10:20]."},
+      {"before": "Step 09:43 action: 'Opens another SKU, which is a Good example.' (no note)", "after": "Adds that the speech at 09:46 says 'very good' over this frame (see unclear 09:46).", "reason": "Speech and screen disagree; the screen shows Good."},
+      {"before": "Fact: 'Put a sticker with Model, Storage, Color, Condition and SKU on each device's bubble wrap.'", "after": "On the bubble wrap, put a sticker with Model, Storage, Color, Condition and SKU (slide wording).", "reason": "The slide says 'On the bubble wrap put a sticker'; 'each device's' is not on screen."},
+      {"before": "Fact: 'Put everything in a box and put the airway bill on the box.'", "after": "Put everything in a box.", "reason": "The slide shows 'Put everything in a box'; the airway bill placement is not supported (see removed)."},
+      {"before": "Fact: 'The box must contain only the devices the seller is shipping for this shipment: not more, not less.'", "after": "Put in the box all the devices that were required, not more and not less, as the trainer puts it.", "reason": "The speech says 'all the devices that you required'; 'for this shipment' is not said."},
+      {"before": "Fact: 'Quickup collects the box at the address the seller entered in the onboarding app.'", "after": "Quickup collects the box at the address the seller mentioned in the onboarding app.", "reason": "The speech says 'the address you mentioned in the onboarding app'."},
+      {"before": "Fact: 'the condition of each SKU is shown inside the Product name'", "after": "the condition is shown inside the Product name of the SKUs on screen", "reason": "Only the SKUs on screen are evidenced, not every SKU."},
+      {"before": "Fact: 'Revibe accepts ... Everything else must work exactly the same.'", "after": "The trainer says everything else should work exactly the same.", "reason": "The speech says 'everything is should work exactly the same'; 'should' is the trainer's wording, not a rule."},
+      {"before": "Fact: 'Cameras (checked in portrait mode)'", "after": "Cameras (checked with portrait mode)", "reason": "Screen wording is 'checked with portrait mode'."},
+      {"before": "Fact: Screen, Good 'allows slight scratches that do not interfere...'", "after": "Good allows slight scratches that may be visible but do not interfere when the appliance is switched on.", "reason": "The screen says 'may be visible'."},
+      {"before": "Fact: 'If the first shipment passes ... if not ...' (policy)", "after": "The slide shows a check mark leading to Sales + Onboarding and a cross leading to Return + No-onboarding.", "reason": "The slide does not say 'pass' or 'fail'; the outcomes are shown as a check and a cross."},
+      {"before": "Term SKU: 'e.g. 010119-071701' in the SKUs available list", "after": "Example 010119-071701 is on the sticker; SKU values 010123-085003, 010114-070501 and 010109-060102 are on the SKU detail panels.", "reason": "The 010119-071701 value is only on the sticker example."},
+      {"before": "Term Condition: 'defined in the Quality guidelines'", "after": "The Quality guidelines state the requirements for each grade.", "reason": "The PDF gives requirements per grade, not a definition of the word."},
+      {"before": "Term Airway bill: 'Document placed on the box before collection.'", "after": "Named in the speech at 09:03 (placement cut off).", "reason": "Placement is not supported."},
+      {"before": "Term Sales + Onboarding / Return + No-onboarding: 'pass gives ... fail gives ...'", "after": "Two outcomes shown: a check mark leads to Sales + Onboarding, a cross leads to Return + No-onboarding.", "reason": "The slide shows check and cross marks, not 'pass' and 'fail'."},
+      {"before": "Screen: Quality guidelines.pdf at '09:24-10:34'", "after": "09:24-10:28", "reason": "The PDF is last shown in frame t00628 (10:28); frame t00640 is the onboarding slide."},
+      {"before": "Privacy: 'Smart Life ... appears on each SKU detail panel'", "after": "Appears on the three SKU detail panels shown (09:36, 09:43, 09:48).", "reason": "Only three panels are shown in the frames."},
+      {"before": "Outdated: 'Frames carry a macOS menu-bar clock reading Ven. 8 août à 11:54'", "after": "Clock reads 'Ven. 8 août' at 11:54 and 11:55; year not shown.", "reason": "Exact clock text; the year is not visible."}
+    ],
+    "added": [
+      "Step 09:35 (frame t00575): SKUs list shows the iphone-14-pro row, price 1,841, Quantities recommended 12, before the detail panel opens; no speech.",
+      "Step 09:50 (frame t00590): SKUs list scrolled to rows with Quantities recommended 9, 8 and 7, with the Quality guidelines PDF open beside it; no speech.",
+      "Fact (frame t00564): the Fulfillment App left menu lists a Shipments entry next to SKUs available.",
+      "Unclear 09:03: the airway bill placement sentence is cut off.",
+      "Unclear 09:46: speech says 'very good' while the panel shown is Good (t00583)."
+    ]
+  }
+}

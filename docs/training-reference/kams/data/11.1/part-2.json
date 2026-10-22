@@ -1,0 +1,811 @@
+{
+  "summary": "Part 2 of the 11.1 Dashboard (Seller) video (05:01 to 09:10). The trainer finishes the Claims coverage KPI on the Performance tab, then walks through the Scoring tab (the Next score calculation table built from four KPIs), then the Analysis tab (the orders, defects, days-to-solve and open claims behind each KPI), and ends by telling sellers to contact their account manager. All screens are a demo seller (URL contains demo=Seller+ABC and supplier=7), so every number is a sample snapshot. The charts run from Jun 15 to Aug 31* (June to August data), so the figures must not be read as a current score. All 27 frames listed in the pack were opened and checked against the narration.",
+  "frames_opened": 27,
+  "steps": [
+    {
+      "at": "05:01-05:02",
+      "screen": "Seller Performance > Performance tab, Claims coverage KPI, Monthly view",
+      "action": "Points at Claims coverage, the last KPI in the Performance index.",
+      "evidence": [
+        {"kind": "say", "at": "05:02", "quote": "Last KPI, the claims coverage."},
+        {"kind": "see", "at": "05:01", "frame": "t00301.jpg", "quote": "Claims coverage chart on the Performance tab; Timeframe Monthly - last 12M selected; footnote '339 days of data - plotted as 12 months'; Solved (green) and Still open (red) bars; Average dashed line; Volume / % toggle."}
+      ],
+      "says": "Last KPI, the claims coverage.",
+      "why": ""
+    },
+    {
+      "at": "05:03-05:04",
+      "screen": "Claims coverage, Monthly view",
+      "action": "Opens the Methodology panel under the Claims coverage chart.",
+      "evidence": [
+        {"kind": "say", "at": "05:04", "quote": "Here again, methodology."},
+        {"kind": "see", "at": "05:03", "frame": "t00303.jpg", "quote": "Methodology panel expanded, showing six definition bullets (see facts on claims coverage)."}
+      ],
+      "says": "Here again, methodology.",
+      "why": ""
+    },
+    {
+      "at": "05:05-05:12",
+      "screen": "Claims coverage chart, Monthly and Weekly views",
+      "action": "Points at the chart, first monthly then weekly, to show the claims still open.",
+      "evidence": [
+        {"kind": "say", "at": "05:07", "quote": "And here you can see on a monthly basis, but also on a weekly basis, the number of"},
+        {"kind": "say", "at": "05:12", "quote": "claims that are still open."},
+        {"kind": "see", "at": "05:05", "frame": "t00305.jpg", "quote": "Monthly chart with the Methodology panel still expanded (six bullets visible); Oct 25 to Sep bars with Solved and Still open segments."},
+        {"kind": "see", "at": "05:12", "frame": "t00312.jpg", "quote": "Timeframe switched to Weekly - last 12W (URL grain=week); tooltip for Aug 10 shows Solved 9 - 64%, Still open 5 - 36%, To solve 14, Coverage 64%."}
+      ],
+      "says": "And here you can see on a monthly basis, but also on a weekly basis, the number of claims that are still open.",
+      "why": "The trainer does not say why. The switch to the weekly view is not narrated; the Weekly timeframe is simply shown in the frame."
+    },
+    {
+      "at": "05:14-05:16",
+      "screen": "Claims coverage, Weekly view",
+      "action": "Methodology is still open; the trainer clicks the Scoring tab.",
+      "evidence": [
+        {"kind": "say", "at": "05:15", "quote": "Now let's go to the scoring table."},
+        {"kind": "see", "at": "05:14", "frame": "t00314.jpg", "quote": "Weekly view (URL grain=week) with Methodology expanded; bullet reads 'Counted against the week the claim was received'."},
+        {"kind": "see", "at": "05:16", "frame": "t00316.jpg", "quote": "Cursor on the Scoring tab button in the Seller Performance page tab bar."}
+      ],
+      "says": "Now let's go to the scoring table.",
+      "why": ""
+    },
+    {
+      "at": "05:18-05:33",
+      "screen": "Scoring tab, Next score calculation table and Scoring table",
+      "action": "Explains that the Scoring tab gives the output of the next score calculation, and that the method does not change, with the same four KPIs and the period provided.",
+      "evidence": [
+        {"kind": "say", "at": "05:18", "quote": "So here, we give you the output of your next score calculation based on this scoring table."},
+        {"kind": "say", "at": "05:27", "quote": "{But?} the methodology does not change."},
+        {"kind": "say", "at": "05:29", "quote": "The same four KPIs are taken into account."},
+        {"kind": "say", "at": "05:33", "quote": "The period is provided to you."},
+        {"kind": "see", "at": "05:26", "frame": "t00326.jpg", "quote": "Scoring tab, URL tab=scoring&grain=week. Next score calculation table with columns Metric, Period, KPI, Score impact, Weight, Contribution; rows On time, Defect rate, Days to solve, Claims coverage, and Next score."}
+      ],
+      "says": "The same four KPIs are taken into account.",
+      "why": "The trainer does not say why the method stays the same."
+    },
+    {
+      "at": "05:36-05:39",
+      "screen": "Scoring tab, Next score calculation table",
+      "action": "Points at a KPI row and explains the columns.",
+      "evidence": [
+        {"kind": "say", "at": "05:36", "quote": "And here we give you the KPI."},
+        {"kind": "say", "at": "05:39", "quote": "We give you the score impact, the weight, and the contribution to your score."},
+        {"kind": "see", "at": "05:34", "frame": "t00334.jpg", "quote": "Table text selected across the Metric, Period, KPI, Score impact, Weight and Contribution columns."}
+      ],
+      "says": "We give you the score impact, the weight, and the contribution to your score.",
+      "why": ""
+    },
+    {
+      "at": "05:43-05:52",
+      "screen": "Scoring tab, On time row",
+      "action": "Uses On time as the worked example: KPI 67%, cursor on the -10% score impact.",
+      "evidence": [
+        {"kind": "say", "at": "05:43", "quote": "Let's take on time {for?} instance."},
+        {"kind": "say", "at": "05:45", "quote": "Here it's 67%."},
+        {"kind": "say", "at": "05:47", "quote": "Meaning it's higher than 65."},
+        {"kind": "say", "at": "05:49", "quote": "So we will take this one."},
+        {"kind": "say", "at": "05:52", "quote": "Then the {impact?} is {minus?} 10 percent, weight is 10, contribution is 1."},
+        {"kind": "see", "at": "05:54", "frame": "t00354.jpg", "quote": "Cursor on the -10% score impact of the On time row; On time row shows 67%, 111 / 166, -10%, 10%, -1%."}
+      ],
+      "says": "Let's take on time for instance. Here it's 67%. Meaning it's higher than 65. So we will take this one.",
+      "why": "The trainer's stated reason: 67% is higher than 65, so this row is taken. The rule for matching a KPI to a row is not explained (see unclear)."
+    },
+    {
+      "at": "05:57-06:02",
+      "screen": "Scoring tab, metric names (On time link)",
+      "action": "Points at the On time metric name, which he says opens more detail on the period taken into account.",
+      "evidence": [
+        {"kind": "say", "at": "05:57", "quote": "If you want to have more detail on the {period?} taken into account, click here."},
+        {"kind": "say", "at": "06:02", "quote": "Then we will provide to you additional details."},
+        {"kind": "see", "at": "06:10", "frame": "t00370.jpg", "quote": "Scoring tab; the On time metric name is underlined as a link, cursor on it."}
+      ],
+      "says": "If you want to have more detail on the {period?} taken into account, click here.",
+      "why": "Stated by the trainer: to get more detail on the period taken into account."
+    },
+    {
+      "at": "06:03-06:04",
+      "screen": "Performance tab, GMV index selected, On time chart",
+      "action": "Not narrated: the screen shows the Performance tab with the On time chart and an Aug 17 hover tooltip.",
+      "evidence": [
+        {"kind": "see", "at": "06:03", "frame": "t00363.jpg", "quote": "On time chart legend: All markets, AE (<=2), ZA (<=2), SA (<=5), Average; toggles On time / On time shipment / On time delivery; Aug 17 tooltip: All markets 67%, AE (<=2) 54%, ZA (<=2) 78%, SA (<=5) 66%."},
+        {"kind": "see", "at": "06:04", "frame": "t00364.jpg", "quote": "Same On time chart with the Aug 17 column outlined; no tooltip."}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "06:04-06:05",
+      "screen": "Performance tab with the On time chart (t00364.jpg); the narration refers to the On time link on the Scoring tab",
+      "action": "Says that the reason orders were late is one click away.",
+      "evidence": [
+        {"kind": "say", "at": "06:05", "quote": "And if you want to know why 55 orders were late, just click here."}
+      ],
+      "says": "And if you want to know why 55 orders were late, just click here.",
+      "why": ""
+    },
+    {
+      "at": "06:10-06:15",
+      "screen": "Scoring tab, then Analysis tab",
+      "action": "Clicks through to the Analysis tab, which gives the detail behind each KPI.",
+      "evidence": [
+        {"kind": "say", "at": "06:11", "quote": "It will lead you to the analysis tab."},
+        {"kind": "say", "at": "06:15", "quote": "On the analysis tab, we will detail {everyone,?} each of these four KPIs to help you understand how"},
+        {"kind": "see", "at": "06:19", "frame": "t00379.jpg", "quote": "Analysis tab (tab=analysis&grain=week) open at the top; On time analysis header visible; cursor on Defect rate in the left index."}
+      ],
+      "says": "It will lead you to the analysis tab.",
+      "why": "Stated: to help you understand how your KPIs were built."
+    },
+    {
+      "at": "06:23-06:39",
+      "screen": "Analysis tab, On time analysis",
+      "action": "Explains the on-time figure (55 missed of 166 judged) and the list of missed orders; the list gives the reason each order was counted late.",
+      "evidence": [
+        {"kind": "say", "at": "06:23", "quote": "your KPIs were built."},
+        {"kind": "say", "at": "06:25", "quote": "For on-time analysis, we spotted 55 orders out of the 166, which led to 67% on"},
+        {"kind": "say", "at": "06:34", "quote": "-time and minus 1% score."},
+        {"kind": "say", "at": "06:36", "quote": "Here {are?} listed the 55 orders."},
+        {"kind": "say", "at": "06:39", "quote": "We every time give you the reason why it was considered as late."},
+        {"kind": "see", "at": "06:21", "frame": "t00381.jpg", "quote": "On time analysis: 55 missed of 166 judged, 67% on time, rung -10% x weight 10% = -1% of score. Table columns: ORDER, MISS, MARKET, ORDERED, CONFIRMED, QC, SHIPPED, DELIVERED, DAYS TO SHIP - WD, DAYS TO DELIVER - WD, SLA, COURIER."}
+      ],
+      "says": "For on-time analysis, we spotted 55 orders out of the 166, which led to 67% on -time and minus 1% score.",
+      "why": ""
+    },
+    {
+      "at": "06:41-06:57",
+      "screen": "Analysis tab, On time table, row SA-142893-1",
+      "action": "Walks through one late delivery: ordered and confirmed 23 Aug, delivered 1 Sep, 7 working days against 5 expected.",
+      "evidence": [
+        {"kind": "say", "at": "06:43", "quote": "This one, it was a late delivery."},
+        {"kind": "say", "at": "06:45", "quote": "You can see it was delivered on the 1st of September, {whereas?} the order was confirmed and placed"},
+        {"kind": "say", "at": "06:50", "quote": "on the 23rd {which?} means that it was delivered in seven working days whereas we expect five working"},
+        {"kind": "say", "at": "06:57", "quote": "days."},
+        {"kind": "see", "at": "07:16", "frame": "t00401.jpg", "quote": "Row SA-142893-1, Delivery, SA, ordered 23 Aug, confirmed 23 Aug, shipped 26 Aug, delivered 1 Sep, days to ship 2, days to deliver 7, SLA <=5, courier Naqel."}
+      ],
+      "says": "This one, it was a late delivery.",
+      "why": ""
+    },
+    {
+      "at": "06:58-07:10",
+      "screen": "Analysis tab, On time table, row SA-142921-1",
+      "action": "Walks through an order marked Delivery - not marked, still undelivered after 10 days.",
+      "evidence": [
+        {"kind": "say", "at": "06:58", "quote": "Here the delivery is not even marked which means that it was ordered and confirmed on the 23rd"},
+        {"kind": "say", "at": "07:04", "quote": "but still not delivered which means 10 days so far which is way above the five working days"},
+        {"kind": "say", "at": "07:10", "quote": "that we expect."},
+        {"kind": "see", "at": "07:01", "frame": "t00421.jpg", "quote": "Row SA-142921-1 with miss tag Delivery - not marked, ordered 23 Aug, confirmed 23 Aug, shipped 3 Sep, delivered blank, days to deliver 10 so far (red), SLA <=5."}
+      ],
+      "says": "Here the delivery is not even marked which means that it was ordered and confirmed on the 23rd but still not delivered which means 10 days so far which is way above the five working days that we expect.",
+      "why": ""
+    },
+    {
+      "at": "07:11-07:24",
+      "screen": "Analysis tab, On time table, rows ZA-74346-1 and 102740-3 (market AE), scrolled to the shipment rows",
+      "action": "Walks through a late shipment on order 102740-3 (market AE), narrated as a UAE order: placed 22 Aug, shipped 27 Aug, against 3 days expected.",
+      "evidence": [
+        {"kind": "say", "at": "07:11", "quote": "Here this is a UAE order, {Here?} the issue is the shipment."},
+        {"kind": "say", "at": "07:16", "quote": "It was placed on the 22nd but shipped only on the 27th, meaning 5 days which is above"},
+        {"kind": "say", "at": "07:24", "quote": "the 3 days that we expect."},
+        {"kind": "see", "at": "07:47", "frame": "t00431.jpg", "quote": "Rows ZA-74346-1 (Shipment, ZA, ordered 23 Aug, shipped 27 Aug, days to ship 3 red, SLA < 3, DHL) and 102740-3 (Shipment, AE, ordered 22 Aug, confirmed 22 Aug, shipped 27 Aug, days to ship 3 red, days to deliver 5, SLA < 3, Quiqup)."}
+      ],
+      "says": "Here this is a UAE order, {Here?} the issue is the shipment.",
+      "why": "The screen shows the market as AE; the trainer's 5-days figure does not match the WD column (see unclear)."
+    },
+    {
+      "at": "07:28-07:37",
+      "screen": "Analysis tab, Defect rate analysis header and summary",
+      "action": "Summarises the defect rate: 69 claims counted, split between returns and warranties.",
+      "evidence": [
+        {"kind": "say", "at": "07:28", "quote": "And you can have the same for the defect rate analysis {where?} 69 claims were counted,"},
+        {"kind": "say", "at": "07:37", "quote": "74% of them being returns and 26% of them being warranties."},
+        {"kind": "see", "at": "08:05", "frame": "t00449.jpg", "quote": "Defect rate analysis: 69 claims counted of 1,221 orders, 5.7% defect rate, rung -2% x weight 60% = -1.2% of score. Warranty vs return: Return 74% - 51, Warranty 26% - 18."}
+      ],
+      "says": "And you can have the same for the defect rate analysis where 69 claims were counted, 74% of them being returns and 26% of them being warranties.",
+      "why": ""
+    },
+    {
+      "at": "07:41-07:50",
+      "screen": "Analysis tab, Defect rate: By reported issue and Worst models panels",
+      "action": "Explains the split by issue and by model, which shows the defect rate for a specific model.",
+      "evidence": [
+        {"kind": "say", "at": "07:41", "quote": "We give you {split?} by issue, but we also give you the split by model, highlighting the internal"},
+        {"kind": "say", "at": "07:49", "quote": "defect rate"},
+        {"kind": "say", "at": "07:50", "quote": "to a specific model."},
+        {"kind": "see", "at": "08:25", "frame": "t00469.jpg", "quote": "Worst models - defect rate panel; the 16% figure of iphone-16-pro-max (8/50) is highlighted."}
+      ],
+      "says": "We give you {split?} by issue, but we also give you the split by model, highlighting the internal defect rate to a specific model.",
+      "why": ""
+    },
+    {
+      "at": "07:53-08:05",
+      "screen": "Analysis tab, Defect rate claims table",
+      "action": "Explains the claim-level detail in the table.",
+      "evidence": [
+        {"kind": "say", "at": "07:53", "quote": "Here we give you extra details regarding these claims,"},
+        {"kind": "say", "at": "07:57", "quote": "order number, claim ID {is?} the return or warranty, the model, the issue, when it was ordered, when"},
+        {"kind": "say", "at": "08:05", "quote": "it was claimed, and the current stage of the claim."},
+        {"kind": "see", "at": "07:56", "frame": "t00476.jpg", "quote": "Claims table with columns ORDER, CLAIM, TYPE, MODEL, REPORTED ISSUE, ORDERED, CLAIMED, STAGE; rows show stages such as 2. In transit, 3. Under QC, 16. Under collection, 20. Invalid claim confirmed."}
+      ],
+      "says": "Here we give you extra details regarding these claims, order number, claim ID {is?} the return or warranty, the model, the issue, when it was ordered, when it was claimed, and the current stage of the claim.",
+      "why": ""
+    },
+    {
+      "at": "08:08-08:21",
+      "screen": "Analysis tab, Days to solve analysis",
+      "action": "Explains that the days-to-solve clock ends differently for returns and warranties.",
+      "evidence": [
+        {"kind": "say", "at": "08:08", "quote": "{Days?} to solve, same, is the return or a warranty."},
+        {"kind": "say", "at": "08:13", "quote": "If it's a return, we will check the refund date."},
+        {"kind": "say", "at": "08:17", "quote": "And if it's a warranty, we will check the shipped back date."},
+        {"kind": "say", "at": "08:21", "quote": "And here, highlighting the number of days to solve that have been taken into account."},
+        {"kind": "see", "at": "08:44", "frame": "t00488.jpg", "quote": "Days to solve analysis: 21 claims resolved, 15 days on average, rung -1% x weight 20% = -0.2% of score. Columns CLAIM, ORDER, TYPE, CLAIMED, SHIPPED BACK, DELIVERED, REFUNDED, REFUND PAID, RESOLVED, DAYS, STAGE."}
+      ],
+      "says": "If it's a return, we will check the refund date. And if it's a warranty, we will check the shipped back date.",
+      "why": "The trainer does not say why. The screen text explains the rule (see facts)."
+    },
+    {
+      "at": "08:26-08:39",
+      "screen": "Analysis tab, Claims coverage analysis",
+      "action": "Explains the open-claims table: the claims from 22 Jun - 23 Aug still not solved, with issue, claim date, days open and current stage.",
+      "evidence": [
+        {"kind": "say", "at": "08:26", "quote": "Finally, the claims coverage analysis, where we will tell you for every claim of every order,"},
+        {"kind": "say", "at": "08:33", "quote": "what is the issue, when it was claimed, for how many days it {been?} {opened?} and what is"},
+        {"kind": "say", "at": "08:39", "quote": "the current {stages.?}"},
+        {"kind": "see", "at": "09:02", "frame": "t00506.jpg", "quote": "Claims coverage analysis: 17 still open of 137 to solve, 88% coverage, rung -1% x weight 10% = -0.1% of score. Columns CLAIM, ORDER, TYPE, REPORTED ISSUE, CLAIMED, DAYS OPEN, STAGE."}
+      ],
+      "says": "Finally, the claims coverage analysis, where we will tell you for every claim of every order, what is the issue, when it was claimed, for how many days it {been?} {opened?} and what is the current {stages.?}",
+      "why": ""
+    },
+    {
+      "at": "08:41-08:56",
+      "screen": "Performance tab, KPI tiles (weekly and monthly)",
+      "action": "Closing message: the data should help sellers monitor the score and get more orders at a better margin.",
+      "evidence": [
+        {"kind": "say", "at": "08:41", "quote": "We hope that by providing you all this data, you will be able to better monitor your score,"},
+        {"kind": "say", "at": "08:49", "quote": "get {hence?} a better scoring that will help you to get more orders and at a way better"},
+        {"kind": "say", "at": "08:56", "quote": "margin for you."},
+        {"kind": "see", "at": "08:44", "frame": "t00524.jpg", "quote": "Orders tab, weekly view, KPI tiles for Aug 24."}
+      ],
+      "says": "We hope that by providing you all this data, you will be able to better monitor your score, get {hence?} a better scoring that will help you to get more orders and at a way better margin for you.",
+      "why": "Stated by the trainer: monitor the score, get more orders, and a better margin."
+    },
+    {
+      "at": "08:57-09:08",
+      "screen": "Seller Performance header (WhatsApp and Meeting buttons) and page footer",
+      "action": "Tells sellers to contact their account manager directly, by WhatsApp or by booking a meeting in his agenda.",
+      "evidence": [
+        {"kind": "say", "at": "08:57", "quote": "Thank you so much {and?} if you have any question, please reach out to your account manager directly"},
+        {"kind": "say", "at": "09:04", "quote": "by sending a WhatsApp message or by booking a meeting in his agenda."},
+        {"kind": "see", "at": "09:44", "frame": "t00548.jpg", "quote": "Header chips: Buybox open, Pepe, WhatsApp, Meeting (Meeting outlined); Scoring tab, month grain. Footer: Questions about any number here - or a figure that does not match what you see in the seller portal - go to your Revibe account manager."}
+      ],
+      "says": "please reach out to your account manager directly by sending a WhatsApp message or by booking a meeting in his agenda.",
+      "why": ""
+    }
+  ],
+  "screens": [
+    {
+      "name": "Seller Performance - Performance tab",
+      "shows": "Left index (Orders, GMV, On time, Defect rate, Days to solve, Claims coverage); Timeframe (Monthly - last 12M, Weekly - last 12W, Daily - last 30D) with a '339 days of data' footnote; country flags with All / Exclude SA / Core 3; categories iPhone, Samsung, Macbook, Laptop, Tablet, Watch with All / Top 3; Chart / Tables switch; KPI tiles (Orders, GMV, On time, On time ship. (excl. SA), On time del. (SA), Defect rate, Days to solve) with change vs previous period; Orders, GMV, On time, Defect rate and Claims coverage charts with Volume / % and Methodology panels.",
+      "at": "05:01-09:10",
+      "where": "URL localhost:8099/seller/?supplier=7&demo=Seller+ABC&tab=performance&grain=month (or grain=week)"
+    },
+    {
+      "name": "Seller Performance - Scoring tab",
+      "shows": "Next score calculation table (Metric, Period, KPI, Score impact, Weight, Contribution; Next score row) and the Scoring table (score impact rows -50% to +5% against On time, Defect rate, Days to solve, Claims coverage). Metric names are underlined; the On time link leads to the Analysis tab, as the narration says.",
+      "at": "05:16-09:45",
+      "where": "Performance / Scoring / Analysis tab bar; URL tab=scoring"
+    },
+    {
+      "name": "Seller Performance - Analysis tab",
+      "shows": "Left index (On time, Defect rate, Days to solve, Claims coverage) with country and category filters; On time analysis (55 missed of 166 judged); Defect rate analysis (69 claims counted of 1,221 orders); Days to solve analysis (21 claims resolved); Claims coverage analysis (17 still open of 137 to solve).",
+      "at": "06:19-09:10",
+      "where": "URL tab=analysis"
+    },
+    {
+      "name": "Seller header",
+      "shows": "Seller ABC name, status chips Buybox open, Pepe, WhatsApp, Meeting; Sign out button.",
+      "at": "05:01-09:45",
+      "where": "Top of every Seller Performance tab"
+    }
+  ],
+  "facts": [
+    {
+      "type": "rule",
+      "statement": "The next score is built from four KPIs: On time (weight 10%), Defect rate (weight 60%), Days to solve (weight 20%) and Claims coverage (weight 10%).",
+      "evidence": [
+        {"kind": "see", "at": "05:26", "frame": "t00326.jpg", "quote": "Scoring table headers and Weight column: On time 10%, Defect rate 60%, Days to solve 20%, Claims coverage 10%."},
+        {"kind": "say", "at": "05:29", "quote": "The same four KPIs are taken into account."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "The next score is calculated on the Scoring tab, in a table with the columns Metric, Period, KPI, Score impact, Weight and Contribution, ending in a Next score total.",
+      "evidence": [
+        {"kind": "see", "at": "05:26", "frame": "t00326.jpg", "quote": "Next score calculation table with columns Metric, Period, KPI, Score impact, Weight, Contribution; bottom row Next score."},
+        {"kind": "say", "at": "05:18", "quote": "So here, we give you the output of your next score calculation based on this scoring table."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Each KPI on the Scoring tab shows its own period: On time Week -2 (17-23 Aug); Defect rate Week -7 to -2 (13 Jul - 23 Aug); Days to solve Week -2 to -1 (17-30 Aug); Claims coverage Week -10 to -2 (22 Jun - 23 Aug).",
+      "evidence": [
+        {"kind": "say", "at": "05:33", "quote": "The period is provided to you."},
+        {"kind": "see", "at": "05:26", "frame": "t00326.jpg", "quote": "Period column: Week -2 17-23 Aug; Week -7 to -2 13 Jul - 23 Aug; Week -2 to -1 17-30 Aug; Week -10 to -2 22 Jun - 23 Aug."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Snapshot on the Scoring tab (weekly view): On time KPI 67% (111 of 166), score impact -10%, contribution -1%; Defect rate 5.7% (69 of 1,221), impact -2%, contribution -1.2%; Days to solve 15 (325 / 21), impact -1%, contribution -0.2%; Claims coverage 88% (120 of 137), impact -1%, contribution -0.1%.",
+      "evidence": [
+        {"kind": "see", "at": "05:26", "frame": "t00326.jpg", "quote": "KPI, Score impact, Weight and Contribution columns for the four rows, with the values listed in this fact."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "number",
+      "statement": "In the snapshot, the Next score total is -2.5% (the four contributions added together).",
+      "evidence": [
+        {"kind": "see", "at": "05:26", "frame": "t00326.jpg", "quote": "Next score row: weight 100%, contribution -2.5%."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Implied: contribution equals score impact multiplied by weight, for example Defect rate -2% x 60% = -1.2%. All four snapshot rows follow this.",
+      "evidence": [
+        {"kind": "see", "at": "05:26", "frame": "t00326.jpg", "quote": "Rows: -10% x 10% = -1%; -2% x 60% = -1.2%; -1% x 20% = -0.2%; -1% x 10% = -0.1%."},
+        {"kind": "say", "at": "05:52", "quote": "Then the {impact?} is {minus?} 10 percent, weight is 10, contribution is 1."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "The Scoring table (right side of the Scoring tab) lists, for each score impact row from -50% to +5%, the KPI value for each of the four KPIs. Examples: -50% = 65% / 10.0% / 20 / 70%; -10% = 80% / 8.0% / 19 / 80%; -1% = 88% / 5.0% / 15 / 88%; 0% = 90% / 4.5% / 14 / 90%; +5% = 100% / 2.0% / 8 / 100%.",
+      "evidence": [
+        {"kind": "see", "at": "05:26", "frame": "t00326.jpg", "quote": "Scoring table rows -50% to +5% with the values listed; column headers On time 10%, Defect rate 60%, Days to solve 20%, Claims coverage 10%."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Claims coverage is, of the claims you were given to solve, the share you have actually solved, judged as of today.",
+      "evidence": [
+        {"kind": "see", "at": "05:02", "frame": "t00303.jpg", "quote": "Methodology: Of the claims you were given to solve, the share you have actually solved, judged as of today."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Claims coverage is counted against the month (monthly view) or the week (weekly view) in which the claim was received.",
+      "evidence": [
+        {"kind": "see", "at": "05:02", "frame": "t00303.jpg", "quote": "Methodology: Counted against the month the claim was received."},
+        {"kind": "see", "at": "05:14", "frame": "t00314.jpg", "quote": "Methodology (weekly): Counted against the week the claim was received."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The claims coverage divisor is received minus cancelled: a withdrawn (cancelled) claim never had to be solved, so it counts neither for nor against the seller.",
+      "evidence": [
+        {"kind": "see", "at": "05:02", "frame": "t00303.jpg", "quote": "Methodology: The divisor is received minus cancelled: a claim that was withdrawn never had to be solved, so it counts neither for nor against you."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "A claim counts as solved when a warranty claim's device ships back, or a return claim's money reaches the customer. These are the same endings Days to solve uses.",
+      "evidence": [
+        {"kind": "see", "at": "05:02", "frame": "t00303.jpg", "quote": "Methodology: A warranty is solved when the device ships back, a return when the money reaches the customer - the same endings Days to solve uses, so the two reconcile claim for claim."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "A recent month (or week) always reads low on claims coverage: a claim received last month (or week) has had fewer days to be solved than one received months ago.",
+      "evidence": [
+        {"kind": "see", "at": "05:02", "frame": "t00303.jpg", "quote": "Methodology: A recent month always reads low: a claim received last month has had days to be solved, one from months ago has had months."},
+        {"kind": "see", "at": "05:14", "frame": "t00314.jpg", "quote": "Methodology (weekly): A recent week always reads low: a claim received last week has had days to solve, one from months ago has had months."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Claims coverage is keyed on the repair partner, meaning the claims you repaired. Change-of-mind claims and claims ruled invalid are excluded.",
+      "evidence": [
+        {"kind": "see", "at": "05:02", "frame": "t00303.jpg", "quote": "Methodology: Keyed on the repair partner: the claims you repaired. Change-of-mind claims and claims ruled invalid are excluded."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Claims coverage analysis (Analysis tab) lists every claim from 22 Jun - 23 Aug that is still not solved, oldest first, with its days open. Its header reads 17 still open of 137 to solve, 88% coverage, rung -1% x weight 10% = -0.1% of score. Cancelled claims are not listed, because they left the sum.",
+      "evidence": [
+        {"kind": "see", "at": "09:02", "frame": "t00506.jpg", "quote": "Claims coverage analysis: 17 still open of 137 to solve, 88% coverage, rung -1% x weight 10% = -0.1% of score; note: The claims from 22 Jun - 23 Aug that are still not solved... Oldest first. Each one counts against you until it is solved; cancelled claims are not here, because they left the sum entirely."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Days to solve analysis (Analysis tab) header: 21 claims resolved, 15 days on average, rung -1% x weight 20% = -0.2% of score. Days are calendar days from the claim date to the ending that counts.",
+      "evidence": [
+        {"kind": "see", "at": "08:44", "frame": "t00488.jpg", "quote": "Days to solve analysis: 21 claims resolved, 15 days on average, rung -1% x weight 20% = -0.2% of score; note: Days is calendar days from the claim date to the ending that counts."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "For a return, days to solve ends when the refund reaches the customer (check the refund date). For a warranty, it ends when the device ships back (check the shipped-back date). Where a warranty ended in a refund instead, the day the refund landed is used.",
+      "evidence": [
+        {"kind": "say", "at": "08:13", "quote": "If it's a return, we will check the refund date."},
+        {"kind": "say", "at": "08:17", "quote": "And if it's a warranty, we will check the shipped back date."},
+        {"kind": "see", "at": "08:44", "frame": "t00488.jpg", "quote": "Note: a return ends when the refund reaches the customer, a warranty when the device ships back - or, where the warranty ended in a refund instead, the day that refund landed."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The on-time analysis reads orders over the window 17-23 Aug: every order that missed in that window is listed.",
+      "evidence": [
+        {"kind": "see", "at": "06:21", "frame": "t00381.jpg", "quote": "Note: Every order that missed in the window your on-time score is read over - 17-23 Aug."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "On-time analysis header: 55 missed of 166 judged orders, 67% on time, rung -10% x weight 10% = -1% of score.",
+      "evidence": [
+        {"kind": "say", "at": "06:25", "quote": "For on-time analysis, we spotted 55 orders out of the 166, which led to 67% on"},
+        {"kind": "see", "at": "06:21", "frame": "t00381.jpg", "quote": "On time analysis: 55 missed of 166 judged, 67% on time, rung -10% x weight 10% = -1% of score."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "For orders outside SA, an order is counted late (missed) if it shipped 3 or more working days after confirmation.",
+      "evidence": [
+        {"kind": "see", "at": "06:21", "frame": "t00381.jpg", "quote": "Analysis note: outside Saudi an order is late if it shipped 3+ working days after confirmation."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "For SA orders, an order is counted late (missed) if it arrived outside the 5-working-day promise.",
+      "evidence": [
+        {"kind": "see", "at": "06:21", "frame": "t00381.jpg", "quote": "Analysis note: in Saudi an order is late if it arrived outside the 5-working-day promise."},
+        {"kind": "say", "at": "07:04", "quote": "which is way above the five working days that we expect."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The SLA column sets the threshold for each row: SA rows show 'SLA <= 5'; the ZA and AE shipment rows show 'SLA < 3'. The on-time chart legend reads AE (<=2), ZA (<=2), SA (<=5).",
+      "evidence": [
+        {"kind": "see", "at": "07:47", "frame": "t00431.jpg", "quote": "SLA column: SA rows '<= 5'; ZA-74346-1 and 102740-3 rows '< 3'."},
+        {"kind": "see", "at": "06:03", "frame": "t00363.jpg", "quote": "On time chart legend: All markets, AE (<=2), ZA (<=2), SA (<=5)."},
+        {"kind": "say", "at": "07:24", "quote": "the 3 days that we expect."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "All day columns on the on-time analysis are working days (weekends excluded), and the red figure is the one that made the order a miss.",
+      "evidence": [
+        {"kind": "see", "at": "06:21", "frame": "t00381.jpg", "quote": "Both day columns are working days - weekends excluded - counted the same way the metric counts them, and the SLA column is the threshold that row was judged against, so the figure in red is the one that actually made it a miss."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "A miss tagged 'Delivery - not marked' means the order shipped, was never marked delivered, and is now past its deadline. It is counted as late, and the screen notes the fix is often marking it rather than shipping faster.",
+      "evidence": [
+        {"kind": "see", "at": "06:21", "frame": "t00381.jpg", "quote": "Delivery - not marked is the third case - shipped, never marked delivered, and now past its deadline. Those are counted late, and the fix is often marking them rather than shipping faster."},
+        {"kind": "see", "at": "07:01", "frame": "t00421.jpg", "quote": "Row SA-142921-1 with miss tag 'Delivery - not marked'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "To see why orders were late, click the On time metric name on the Scoring tab (or open the Analysis tab). The On time analysis lists each missed order with its miss tag and the working-day figures that explain it.",
+      "evidence": [
+        {"kind": "say", "at": "06:05", "quote": "And if you want to know why 55 orders were late, just click here."},
+        {"kind": "say", "at": "06:11", "quote": "It will lead you to the analysis tab."},
+        {"kind": "see", "at": "06:10", "frame": "t00370.jpg", "quote": "Scoring tab, On time metric name underlined as a link."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "example",
+      "statement": "Example: order SA-142893-1 (Delivery) was ordered and confirmed 23 Aug, shipped 26 Aug and delivered 1 Sep, which is 7 working days against 5 expected.",
+      "evidence": [
+        {"kind": "say", "at": "06:50", "quote": "on the 23rd {which?} means that it was delivered in seven working days whereas we expect five working"},
+        {"kind": "see", "at": "07:16", "frame": "t00401.jpg", "quote": "Row SA-142893-1: ordered 23 Aug, confirmed 23 Aug, shipped 26 Aug, delivered 1 Sep, days to deliver 7, SLA <= 5."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "example",
+      "statement": "Example: order SA-142921-1 (Delivery - not marked) was confirmed 23 Aug, shipped 3 Sep and has no delivery date; it shows 10 days so far against the 5 working days expected.",
+      "evidence": [
+        {"kind": "say", "at": "07:04", "quote": "but still not delivered which means 10 days so far which is way above the five working days"},
+        {"kind": "see", "at": "07:01", "frame": "t00421.jpg", "quote": "Row SA-142921-1: confirmed 23 Aug, shipped 3 Sep, delivered blank, 10 so far, SLA <= 5."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "number",
+      "statement": "Defect rate analysis header: 69 claims counted of 1,221 orders, 5.7% defect rate, rung -2% x weight 60% = -1.2% of score; the claims behind it cover 13 Jul - 23 Aug and are counted against the order's date, not the claim's date.",
+      "evidence": [
+        {"kind": "see", "at": "08:05", "frame": "t00449.jpg", "quote": "Defect rate analysis: 69 claims counted of 1,221 orders, 5.7% defect rate, rung -2% x weight 60% = -1.2% of score."},
+        {"kind": "see", "at": "07:01", "frame": "t00421.jpg", "quote": "The claims behind your defect rate over 13 Jul - 23 Aug, counted against the order's date rather than the claim's."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Defect rate counts one row per order: two claims on the same order count as one defect.",
+      "evidence": [
+        {"kind": "see", "at": "07:01", "frame": "t00421.jpg", "quote": "One row per order - two claims on the same order are one defect, which is how the rate counts them."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Defect claims split by warranty vs return: Return 74% (51 claims); Warranty 26% (18 claims).",
+      "evidence": [
+        {"kind": "see", "at": "08:05", "frame": "t00449.jpg", "quote": "Warranty vs return: Return 74% - 51; Warranty 26% - 18."},
+        {"kind": "say", "at": "07:37", "quote": "74% of them being returns and 26% of them being warranties."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "number",
+      "statement": "Defect claims split by reported issue: Software issue 30% (21); Screen issue 23% (16); Physical condition 14% (10); Battery draining 12% (8); Overheating 7.2% (5); (Wrong device) - Wrong specs 4.3% (3); Button issue 2.9% (2); Camera issue 1.4% (1).",
+      "evidence": [
+        {"kind": "see", "at": "08:05", "frame": "t00449.jpg", "quote": "By reported issue list with the counts shown in this fact."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "number",
+      "statement": "Worst models by defect rate (Analysis tab, Defect rate): iphone-16-pro-max 16% (8/50), samsung-galaxy-s22-ultra 14% (4/29), ipad-9th-generation 13% (4/31), galaxy-s23-ultra 12% (2/17), galaxy-s22-ultra 9.4% (3/32), iphone-16-pro 7.4% (2/27), iphone-14-pro 7.3% (3/41), iphone-15 7.3% (3/41).",
+      "evidence": [
+        {"kind": "see", "at": "08:25", "frame": "t00469.jpg", "quote": "Worst models - defect rate panel with the values listed in this fact; the 16% entry is highlighted."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Defect claims table columns: ORDER, CLAIM, TYPE (Return or Warranty), MODEL, REPORTED ISSUE, ORDERED, CLAIMED, STAGE.",
+      "evidence": [
+        {"kind": "see", "at": "08:25", "frame": "t00469.jpg", "quote": "Table headers: ORDER, CLAIM, TYPE, MODEL, REPORTED ISSUE, ORDERED, CLAIMED, STAGE."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Performance KPI tiles (the header shows the period, e.g. 'Aug 24 KPIs' for a week or 'Aug 26 KPIs' for a month) show Orders, GMV, On time, On time ship. (excl. SA), On time del. (SA), Defect rate and Days to solve, each with the change vs the previous comparison period.",
+      "evidence": [
+        {"kind": "see", "at": "08:44", "frame": "t00524.jpg", "quote": "KPI tiles: Orders 330, GMV 567K, On time 45%, On time ship. (excl. SA) 44%, On time del. (SA) 45%, Defect rate 0.6% (still filling), Days to solve 19.0d; deltas vs Aug 17."},
+        {"kind": "see", "at": "08:48", "frame": "t00528.jpg", "quote": "KPI header 'Aug 26 KPIs' with tiles and deltas vs Jul 26."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Orders chart on the Performance tab is titled 'Orders - confirmed', with legend SA, ZA, AE, Other and Average, and Volume / % and Country / Cat. toggles.",
+      "evidence": [
+        {"kind": "see", "at": "08:44", "frame": "t00524.jpg", "quote": "Orders - confirmed chart legend: SA, ZA, AE, Other, Average; toggles Volume / % and Country / Cat."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Implied: the label 'still filling' on a KPI tile means that period's figure is not final yet.",
+      "evidence": [
+        {"kind": "see", "at": "08:44", "frame": "t00524.jpg", "quote": "Defect rate tile shows '0.6%' with the caption 'still filling'."}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Timeframe options on the Performance tab: Monthly - last 12M, Weekly - last 12W, Daily - last 30D. The footnote reads '339 days of data' and 'plotted as 12 months' (monthly) or 'plotted as 12 weeks' (weekly).",
+      "evidence": [
+        {"kind": "see", "at": "05:01", "frame": "t00301.jpg", "quote": "TIMEFRAME: Monthly - last 12M; Weekly - last 12W; Daily - last 30D; '339 days of data - plotted as 12 months'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Country filter (flag buttons plus All, Exclude SA, Core 3) and Category filter (iPhone, Samsung, Macbook, Laptop, Tablet, Watch, plus All and Top 3) sit in the left panel of the Performance and Analysis tabs.",
+      "evidence": [
+        {"kind": "see", "at": "05:01", "frame": "t00301.jpg", "quote": "COUNTRY flags with All / Exclude SA / Core 3; CATEGORY chips iPhone, Samsung, Macbook, Laptop, Tablet, Watch with All / Top 3."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "On time chart (Performance tab, lower section, under the GMV chart) has toggles On time / On time shipment / On time delivery and lines for All markets, AE (<=2), ZA (<=2), SA (<=5), plus a dashed Average line.",
+      "evidence": [
+        {"kind": "see", "at": "06:03", "frame": "t00363.jpg", "quote": "Toggles: On time | On time shipment | On time delivery; legend All markets, AE (<=2), ZA (<=2), SA (<=5), Average."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Defect rate chart has toggles Overall / By country / By category and lines for Defect rate, Within 30 days of the order, Within 90 days of the order, and Average.",
+      "evidence": [
+        {"kind": "see", "at": "06:03", "frame": "t00363.jpg", "quote": "Defect rate section: toggles Overall | By country | By category; legend Defect rate, Within 30 days of the order, Within 90 days of the order, Average."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Claims coverage chart legend: Solved (green), Still open (red), Average (dashed line); a Volume / % toggle switches the bars between counts and percentages.",
+      "evidence": [
+        {"kind": "see", "at": "05:01", "frame": "t00301.jpg", "quote": "Legend: Solved, Still open, Average; toggle Volume / %."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Weekly claims coverage tooltip example (Aug 10): Solved 9 (64%), Still open 5 (36%), To solve 14, Coverage 64%.",
+      "evidence": [
+        {"kind": "see", "at": "05:12", "frame": "t00312.jpg", "quote": "Tooltip Aug 10: Solved 9 - 64%; Still open 5 - 36%; To solve 14; Coverage 64%."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "policy",
+      "statement": "Questions about any number on the Performance page, or any figure that does not match what you see in the seller portal, go to your Revibe account manager.",
+      "evidence": [
+        {"kind": "see", "at": "05:01", "frame": "t00301.jpg", "quote": "Footer: Questions about any number here - or a figure that does not match what you see in the seller portal - go to your Revibe account manager."},
+        {"kind": "say", "at": "08:57", "quote": "if you have any question, please reach out to your account manager directly"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "To reach the account manager, send a WhatsApp message or book a meeting in the account manager's agenda. The seller header has WhatsApp and Meeting buttons.",
+      "evidence": [
+        {"kind": "say", "at": "09:04", "quote": "by sending a WhatsApp message or by booking a meeting in his agenda."},
+        {"kind": "see", "at": "09:44", "frame": "t00548.jpg", "quote": "Header buttons: WhatsApp and Meeting (Meeting outlined)."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    }
+  ],
+  "terms": [
+    {"term": "Next score", "meaning": "Total of the four KPI contributions for the next score calculation (-2.5% in the snapshot). Shown at the bottom of the Scoring tab's table.", "at": "05:18-05:33"},
+    {"term": "Score impact", "meaning": "The change to the score that a KPI value produces, shown in the Score impact column of the Next score calculation table (for example -10% for On time at 67%).", "at": "05:36-05:52"},
+    {"term": "Weight", "meaning": "Share of the score a KPI carries: On time 10%, Defect rate 60%, Days to solve 20%, Claims coverage 10%.", "at": "05:26"},
+    {"term": "Contribution", "meaning": "Score impact multiplied by weight; the contributions add up to the Next score.", "at": "05:39-05:52"},
+    {"term": "Period", "meaning": "The time window a KPI is measured over (for example Week -2 = 17-23 Aug in the snapshot). Shown in the Period column.", "at": "05:33"},
+    {"term": "Methodology", "meaning": "Expandable definition panel under each chart or table, giving the rule used for the number.", "at": "05:02-05:14"},
+    {"term": "Missed / judged (on time)", "meaning": "Missed = orders counted late in the window. Implied: judged = orders the on-time KPI considered. Snapshot: 55 missed of 166 judged, 67% on time.", "at": "06:25"},
+    {"term": "SLA", "meaning": "Per-row threshold the row was judged against: <= 5 for SA rows, < 3 for the ZA and AE shipment rows shown in the snapshot.", "at": "07:04-07:24"},
+    {"term": "WD", "meaning": "Working days, weekends excluded. Used for days to ship and days to deliver on the on-time analysis.", "at": "06:21"},
+    {"term": "Delivery - not marked", "meaning": "A miss tag for an order that shipped but was never marked delivered and is now past its deadline.", "at": "06:58"},
+    {"term": "Defect rate (as shown)", "meaning": "Claims counted against orders in the window: one row per order, so two claims on one order count as one defect. Snapshot: 69 of 1,221 orders = 5.7%.", "at": "07:28-07:37"},
+    {"term": "Return", "meaning": "Claim type where the money goes back to the customer; days to solve ends when the refund reaches the customer.", "at": "07:37-08:17"},
+    {"term": "Warranty", "meaning": "Claim type where the device ships back; days to solve ends when the device ships back.", "at": "07:37-08:17"},
+    {"term": "Claims coverage", "meaning": "Share of claims given to solve that are actually solved, judged as of today. Snapshot: 120 of 137 = 88%.", "at": "05:01-05:02"},
+    {"term": "Divisor (received minus cancelled)", "meaning": "The claims count used as the denominator for claims coverage: received claims minus cancelled claims.", "at": "05:02"},
+    {"term": "Solved / Still open / To solve", "meaning": "Chart categories on claims coverage: Solved = solved claims; Still open = unsolved claims; To solve = Solved plus Still open.", "at": "05:12"},
+    {"term": "Days to solve", "meaning": "Calendar days from the claim date to the ending that counts (refund for returns, shipped back for warranties; refund day if a warranty ended in a refund).", "at": "08:08-08:21"},
+    {"term": "Days open", "meaning": "For an unsolved claim, the number of days it has been open, listed in the Claims coverage analysis.", "at": "08:33"},
+    {"term": "Stage", "meaning": "Current stage of a claim. Stages seen on screen include: 2. In transit; 3. Under QC; 4. Invalid claim; 7. Refunded; 8. Under process; 9. To ship back; 10. Shipped back; 16. Under collection; 18. Under revision; 19. Expert revision; 20. Invalid claim confirmed.", "at": "08:05-08:39"},
+    {"term": "Market", "meaning": "Country code of the order: SA, ZA, AE (shown in the MARKET column and the country filter).", "at": "07:11"},
+    {"term": "Core 3 / Exclude SA", "meaning": "Country filter presets shown above the country flags.", "at": "05:01"},
+    {"term": "Top 3", "meaning": "Implied: category filter preset that limits the chart to the top three categories.", "at": "05:01"},
+    {"term": "Repair partner", "meaning": "The basis for claims coverage: the claims you repaired. Change-of-mind claims and claims ruled invalid are excluded.", "at": "05:02"}
+  ],
+  "asr_fixes": [
+    {"at": "05:52", "heard": "contribution is 1", "correct": "contribution is -1%", "basis": "On the screen the On time row shows Contribution -1% (t00326.jpg, t00354.jpg); the trainer reads it as a negative figure too ('minus 1% score' at 06:34)."},
+    {"at": "08:39", "heard": "the current {stages.?}", "correct": "the current stage", "basis": "The table column is named STAGE (singular) on t00476.jpg and t00506.jpg."},
+    {"at": "08:08", "heard": "{Days?} to solve", "correct": "Days to solve", "basis": "The analysis panel is titled 'Days to solve analysis' (t00488.jpg)."}
+  ],
+  "unclear": [
+    {"at": "05:43-05:52", "issue": "The On time KPI is 67%. The narration says it is higher than 65 so it takes that row, but the screen shows score impact -10%. In the Scoring table the -50% row holds 65% and the -10% row holds 80%, so 67% falls between them. The rule for matching a KPI to a row is not stated, so no matching rule is given as a fact."},
+    {"at": "07:16-07:24", "issue": "The trainer says the UAE shipment took 5 days, but on the screen the 102740-3 row shows Days to ship (WD) = 3 with SLA < 3. Order 22 Aug to shipped 27 Aug is 5 calendar days, while the column is in working days. The unit the trainer uses is not clear, so the figure is not stated as a fact."},
+    {"at": "05:26", "issue": "In the Scoring table, the Days to solve column reads 8 at +3% and 6 at +4%, then 8 again at +5%. The +5% value is higher than the +4% value while the rest of the column falls as the score rises. This may be a misread or a table error; not stated as a fact."},
+    {"at": "05:01-05:12", "issue": "The monthly claims coverage tooltip (Jan 26) shows All claims 16.5, Returns 16.8 and Warranties 16.3. The unit and meaning of these numbers are not explained on screen or in the narration."},
+    {"at": "05:01-09:04", "issue": "Axis labels such as 'Aug 31*' and 'Sep*' carry an asterisk that is not explained anywhere on screen or in the narration."},
+    {"at": "06:43-07:24", "issue": "Parts of the on-time explanatory note are small in the frames, so the wording of the SA and outside-SA rules is read from frame t00381.jpg and stated at medium confidence."},
+    {"at": "06:03-07:24", "issue": "The on-time chart legend reads AE (<=2) and ZA (<=2), but the shipment rows for ZA-74346-1 and 102740-3 show SLA '< 3' on the Analysis tab (t00431.jpg). The legend and the table use different thresholds for the same markets; this is not resolved here, so no single AE or ZA threshold is stated as fact."},
+    {"at": "08:08-09:04", "issue": "GMV values show a currency symbol on screen (a glyph shown in front of the GMV figures); the narration never names the currency. The currency is not stated."},
+    {"at": "08:05", "issue": "The claims table stage 'Sent to Naif' is not explained; it is unclear whether it is a partner name or a stage."},
+    {"at": "05:01-09:04", "issue": "The header chip 'Pepe' is shown next to Buybox open and WhatsApp and is not explained. It is not treated as the account manager's name."},
+    {"at": "05:15", "issue": "Narration 'On the analysis tab, we will detail {everyone,?} each of these four KPIs' has an unclear word; no fact depends on it."},
+    {"at": "08:44-09:24", "issue": "The KPI header 'Aug 26' is shown as the monthly period label. It is not explicitly stated whether it means August 2026 or another reading."}
+  ],
+  "outdated": [
+    {"at": "05:01-09:10", "signal": "All figures are a demo seller snapshot (URL demo=Seller+ABC) from June to August data, with fixed periods such as 17-23 Aug, 13 Jul - 23 Aug, 22 Jun - 23 Aug and 17-30 Aug. They are examples and must not be read as a current score."},
+    {"at": "05:33-05:52", "signal": "The worked example (On time 67%, impact -10%, Next score -2.5%) is a past snapshot and will change as new data arrives."}
+  ],
+  "privacy": [
+    {"at": "06:41-07:24", "what": "Order numbers and courier names (SA-142893-1, SA-142921-1, 102740-3, ZA-74346-1; Naqel, DHL, Quiqup). These are seller-level identifiers, not customer names, but they are real order references in the demo and should be checked before sharing with sellers.", "frame": "t00401.jpg, t00421.jpg, t00431.jpg"},
+    {"at": "07:29-08:39", "what": "Claim IDs and order numbers on the defect, days-to-solve and claims coverage tables (for example IpQn95, PUPD081, SA-119945-1, ZSBZ876). No customer name, phone, email or address is visible in any frame.", "frame": "t00469.jpg, t00476.jpg, t00488.jpg, t00506.jpg"},
+    {"at": "05:01-09:10", "what": "The header chip 'Pepe' and the 'Sent to Naif' stage may be personal names. Not confirmed; check before sharing.", "frame": "t00301.jpg, t00469.jpg, t00548.jpg"},
+    {"at": "05:01-09:10", "what": "Presenter webcam overlay in the lower-left corner of every frame, and browser tabs and bookmarks visible at the top (Revibe CX - Login, Select a Date & Time - Calendar, Share on WhatsApp; bookmarks such as Interactive Brokers and Carta). Crop or blur these before the material is shown to sellers.", "frame": "all frames"}
+  ],
+  "audit": {
+    "checked": 113,
+    "removed": [
+      {"statement": "ASR fix at 07:11: 'UAE order' corrected to 'AE order (market code AE)'", "reason": "UAE is a spoken country name and AE is the on-screen market code. Both name the same market, so this is not a mishearing and no ASR fix applies."},
+      {"statement": "ASR fix at 05:57: 'on the {period?} taken into account' corrected to 'on the period taken into account'", "reason": "The word heard is already 'period', which matches the Period column; nothing was mis-transcribed."},
+      {"statement": "ASR fix at 08:33: 'for how many days it {been?} {opened?}' corrected to 'has been opened'", "reason": "The screen shows only the column name DAYS OPEN; it does not confirm the spoken wording, so the fix cannot be stated."}
+    ],
+    "corrected": [
+      {"before": "Step 05:05-05:12 evidence t00305.jpg: 'Monthly chart with Methodology collapsed.'", "after": "Monthly chart with the Methodology panel still expanded (six bullets visible).", "reason": "Frame t00305.jpg shows the Methodology bullets expanded."},
+      {"before": "Step 06:04-06:05 screen: 'Scoring tab'", "after": "Performance tab with the On time chart (t00364.jpg); the narration refers to the On time link on the Scoring tab.", "reason": "The frame cited for this narration (t00364.jpg) shows the Performance tab."},
+      {"before": "Step 05:43-05:52 why: 'The trainer says the 65 threshold decides the row, but the impact he reads is -10%...'", "after": "The trainer's stated reason: 67% is higher than 65, so this row is taken. The rule is not explained (see unclear).", "reason": "Restated as the trainer's stated reason only, without the unsupported claim about the -50% row."},
+      {"before": "Step 05:57-06:02 says: 'on the period taken into account'", "after": "says: 'on the {period?} taken into account', keeping the low-confidence mark.", "reason": "Transcript marks the word {period?}; marks must be kept."},
+      {"before": "Step 07:41-07:50 says: 'We give you split by issue'", "after": "says: 'We give you {split?} by issue', keeping the low-confidence mark.", "reason": "Transcript marks the word {split?}."},
+      {"before": "Step 07:53-08:05 says: 'claim ID is the return or warranty'", "after": "says: 'claim ID {is?} the return or warranty', keeping the low-confidence mark.", "reason": "Transcript marks the word {is?}."},
+      {"before": "Step 08:26-08:39 says: 'for how many days it been opened and what is the current stages.'", "after": "says: 'for how many days it {been?} {opened?} and what is the current {stages.?}', as transcribed.", "reason": "The pack's wording changed the transcript and dropped the low-confidence marks."},
+      {"before": "Step 08:41-08:56 says: 'get hence a better scoring'", "after": "says: 'get {hence?} a better scoring'", "reason": "Transcript marks the word {hence?}."},
+      {"before": "Fact 1 statement: 'The seller score is built from four KPIs'", "after": "'The next score is built from four KPIs'", "reason": "The evidence (Scoring tab, next score table) supports the next score, not a general seller score."},
+      {"before": "Fact 'On time chart (Performance > GMV page, lower section)'", "after": "On time chart (Performance tab, lower section, under the GMV chart)", "reason": "The GMV index is highlighted in t00363.jpg; the On time chart sits on the Performance tab below the GMV chart."},
+      {"before": "Fact SLA rule: 'SA rows show SLA <= 5 (working days to deliver); AE and ZA shipment rows show SLA < 3 (working days to ship)'", "after": "SA rows show 'SLA <= 5'; the ZA and AE shipment rows show 'SLA < 3'. The working-day unit is not stated on the SLA column itself.", "reason": "The screen shows the SLA values only; the unit wording was inferred from the WD column headers."},
+      {"before": "Fact Scoring table: 'gives the KPI value that corresponds to each score impact'", "after": "lists, for each score impact row from -50% to +5%, the KPI value for each of the four KPIs", "reason": "Describes what the table shows without interpreting its use."},
+      {"before": "Unclear 05:26: '+5% row shows 8, which is higher than the +4% row (6) and the +3% row (8)'", "after": "+3% row (8) and +5% row (8) are equal; +4% (6) is lower than both, while the column otherwise falls as the score rises.", "reason": "The original wording called +5% higher than +3%, which is false: both read 8."},
+      {"before": "Unclear 05:12 timestamp", "after": "05:01-05:12", "reason": "The Jan 26 tooltip is visible in t00301.jpg (05:01), not only at 05:12."},
+      {"before": "Term Score impact: 'read from the Scoring table'", "after": "shown in the Score impact column of the Next score calculation table", "reason": "Score impact is a column of the Next score table, not of the Scoring table."},
+      {"before": "Term Warranty: 'device is repaired and shipped back'", "after": "'Claim type where the device ships back'", "reason": "'Repaired' is not shown or narrated; only the ship-back ending is on screen."},
+      {"before": "Term Top 3: 'limits the chart to the top three categories'", "after": "marked Implied", "reason": "Only the label 'Top 3' is visible; the effect is inferred."},
+      {"before": "Term Missed / judged: 'judged = orders the on-time KPI considered'", "after": "marked Implied", "reason": "Not stated by the trainer or the screen; only the header wording '55 missed of 166 judged' is shown."},
+      {"before": "Summary: 'every number is a sample snapshot from summer data'", "after": "charts run from Jun 15 to Aug 31* (June to August data)", "reason": "The screens show Jun 15 to Aug 31*; 'summer' was an unsupported label."},
+      {"before": "Stage term: 'Stages seen on screen include 2. In transit; 3. Under QC; 4. Invalid claim...'", "after": "unchanged", "reason": "Verified: 4. Invalid claim (t00506.jpg), 18. Under revision and 19. Expert revision (t00476.jpg)."}
+    ],
+    "added": [
+      "Fact: Orders chart titled 'Orders - confirmed' with legend SA, ZA, AE, Other, Average and Volume / % and Country / Cat. toggles (t00524.jpg).",
+      "Fact: on-time analysis is read over the window 17-23 Aug (t00381.jpg note).",
+      "Unclear: on-time chart legend gives AE (<=2) and ZA (<=2) while the shipment rows show SLA < 3 (t00363.jpg vs t00431.jpg).",
+      "Coverage sweep: all 27 frames (t00301 to t00549) were opened; no step or fact was found that is missing beyond the two facts and one unclear item above."
+    ]
+  }
+}

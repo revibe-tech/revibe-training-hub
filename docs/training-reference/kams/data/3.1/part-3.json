@@ -1,0 +1,559 @@
+{
+  "summary": "Part 3 (12:05-15:10) of the Buybox (Sellers) training covers the Gamification section of the Buybox Training workbook. The trainer shows how to accept a small or big price drop on the AE Tool (UAE and South Africa) and the SA Tool (Saudi Arabia). Each tool has a small-drop table (titled under 20 AED) and a big-drop table (titled over 20 AED). The seller ticks the 'Accept change?' checkbox on chosen SKUs, then clicks the matching 'Accept small price drop' or 'Accept big price drop' label on the sheet. The trainer says the ticked SKUs will then disappear from the sheet and the buybox prices update automatically, but no frame shows that result. The trainer then recaps the buybox training (catalog organization, neutral prices, buybox prices, lowest condition, how to win, minimum prices). All 26 listed frames were opened and checked against the narration. Several speech-recognition errors were corrected from the screen. Some items are unclear and are listed in unclear.",
+  "steps": [
+    {
+      "at": "12:07",
+      "screen": "Buybox Training workbook, index tab (Google Sheets tab 'Buybox Training')",
+      "action": "Starts the Gamification section from the index tab of the Buybox Training workbook.",
+      "evidence": [
+        {"kind": "say", "at": "12:07", "frame": "", "quote": "So now let's dig into gamification."},
+        {"kind": "see", "at": "12:05", "frame": "t00725.jpg", "quote": "Index tab lists 1 Buybox presentation (Catalog organization, Neutral prices, Buybox prices, Lowest condition, How to win, Minimum prices) and 2 Gamification (Small price drop, Big price drop, UAE - Fulfillment proposition, KSA - Lock request). Tabs at bottom: Buybox, AE Tool, SA Tool."}
+      ],
+      "says": "So now let's dig into gamification.",
+      "why": ""
+    },
+    {
+      "at": "12:22",
+      "screen": "AE Tool tab",
+      "action": "Goes to the AE Tool tab for UAE and South Africa.",
+      "evidence": [
+        {"kind": "say", "at": "12:22", "frame": "", "quote": "So for UAE and South Africa you have to go to the {AE?} tool and for Saudi Arabia"},
+        {"kind": "see", "at": "12:20", "frame": "t00740.jpg", "quote": "AE Tool tab active; cell A1 reads 'AE and ZA'; small-drop table title 'Products you can win with small price drop (<20 AED)'."}
+      ],
+      "says": "So for UAE and South Africa you have to go to the {AE?} tool and for Saudi Arabia",
+      "why": ""
+    },
+    {
+      "at": "12:27",
+      "screen": "SA Tool tab",
+      "action": "Goes to the SA Tool tab for Saudi Arabia. The sheet is empty at first (12:22), then shows the SA tables.",
+      "evidence": [
+        {"kind": "say", "at": "12:27", "frame": "", "quote": "you have to go to the SA tool."},
+        {"kind": "see", "at": "12:22", "frame": "t00742.jpg", "quote": "SA Tool tab active with an empty sheet; only the 'Accept small price drop' round label is visible."},
+        {"kind": "see", "at": "12:26", "frame": "t00746.jpg", "quote": "SA Tool open; cell A1 reads SA; small-drop table with 'Price SA' and 'Price to win SA' columns."}
+      ],
+      "says": "you have to go to the SA tool.",
+      "why": ""
+    },
+    {
+      "at": "12:33",
+      "screen": "AE Tool and SA Tool, small and big drop tables",
+      "action": "Points out the two tables: accept small price drop on the left (small table), accept big price drop on the right (big table). Says the Saudi sheet is the same.",
+      "evidence": [
+        {"kind": "say", "at": "12:30", "frame": "", "quote": "These sheets are {the?} same way."},
+        {"kind": "say", "at": "12:33", "frame": "", "quote": "Here accept small price drop and here accept big price drop and here it's the same for Saudi"},
+        {"kind": "see", "at": "12:31", "frame": "t00751.jpg", "quote": "AE Tool (cell A1 'AE and ZA') with two round labels: 'Accept small price drop' beside the small table and pink 'Accept big price drop' beside column S; big table headed 'Products you can win with big price drop (>20 AED)'."},
+        {"kind": "see", "at": "12:32", "frame": "t00752.jpg", "quote": "SA Tool (cell A1 'SA') with the small table and the round label 'Accept small price drop'; big table headed 'Products you can win with big price drop (>20 AED)'. No 'Accept big price drop' label is visible in this frame."}
+      ],
+      "says": "Here accept small price drop and here accept big price drop and here it's the same for Saudi",
+      "why": ""
+    },
+    {
+      "at": "12:46",
+      "screen": "AE Tool, column C 'Your current price'",
+      "action": "Explains that the listed SKUs are the ones where the seller has put a price, and that the 'Your current price' column shows the current price.",
+      "evidence": [
+        {"kind": "say", "at": "12:46", "frame": "", "quote": "we targeted for you SKUs where you put a price these are the current prices your current prices"},
+        {"kind": "see", "at": "12:49", "frame": "t00769.jpg", "quote": "Cell C2 selected (formula bar 'Your current price'); header 'Your current price' above 'Price AE'; header 'Price needed' above 'Price to win AE'."}
+      ],
+      "says": "we targeted for you SKUs where you put a price these are the current prices your current prices",
+      "why": ""
+    },
+    {
+      "at": "12:54",
+      "screen": "AE Tool, column D 'Price to win AE'",
+      "action": "Points at the price needed to win (Price to win AE column).",
+      "evidence": [
+        {"kind": "say", "at": "12:54", "frame": "", "quote": "and here is the price that you need to accept in order to win."},
+        {"kind": "see", "at": "12:54", "frame": "t00774.jpg", "quote": "Column E is selected (name box E:E, cursor on the column E header). Column D 'Price to win AE' values 820, 800 and 560 are still visible beside 'Price AE'."}
+      ],
+      "says": "and here is the price that you need to accept in order to win.",
+      "why": ""
+    },
+    {
+      "at": "12:59",
+      "screen": "AE Tool, column E 'Monthly Sales'",
+      "action": "Says the SKUs are sorted by Monthly Sales so the best-selling SKUs are targeted first.",
+      "evidence": [
+        {"kind": "say", "at": "12:59", "frame": "", "quote": "Here we sorted the SKUs {by?} monthly sales so that you can first target the SKUs with the"},
+        {"kind": "say", "at": "13:06", "frame": "", "quote": "highest monthly sales."},
+        {"kind": "see", "at": "12:57", "frame": "t00777.jpg", "quote": "Column E 'Monthly Sales' selected (name box E:E); values run 20-50 (row 4), 10-20, 5-10, 3-5, 1-3 down to 0-1."}
+      ],
+      "says": "Here we sorted the SKUs {by?} monthly sales so that you can first target the SKUs with the highest monthly sales.",
+      "why": "so that you can first target the SKUs with the highest monthly sales"
+    },
+    {
+      "at": "13:08",
+      "screen": "AE Tool, row 4 example",
+      "action": "Reads the example row 4: current price 833, price needed 820, price drop 13.",
+      "evidence": [
+        {"kind": "say", "at": "13:08", "frame": "", "quote": "Here you can see that your current price is {8?}.33 and if you want to win you"},
+        {"kind": "say", "at": "13:13", "frame": "", "quote": "have to accept a price of 8.20 which basically represents a price drop of 13 dirhams."},
+        {"kind": "see", "at": "12:49", "frame": "t00769.jpg", "quote": "Row 4 (SKU_Long 020704-038601, name cut off on screen): Price AE 833, Price to win AE 820, Monthly Sales 20-50, Price drop required 13."}
+      ],
+      "says": "your current price is {8?}.33 ... accept a price of 8.20 ... a price drop of 13 dirhams.",
+      "why": ""
+    },
+    {
+      "at": "13:19",
+      "screen": "AE Tool, column H 'Accept change?' checkboxes",
+      "action": "Ticks the Accept change? checkbox on each SKU the seller wants to accept.",
+      "evidence": [
+        {"kind": "say", "at": "13:19", "frame": "", "quote": "The only thing that you need to do is to select the ones where you want to accept"},
+        {"kind": "see", "at": "13:17", "frame": "t00797.jpg", "quote": "AE Tool; column H 'Accept change?' ticked on rows 4 to 6; cell H6 selected."},
+        {"kind": "see", "at": "13:27", "frame": "t00807.jpg", "quote": "AE Tool; name box H4:H9 with the range highlighted; ticks on rows 4 to 7 and on rows 10 to 13 and 15; rows 8 and 9 unticked."}
+      ],
+      "says": "The only thing that you need to do is to select the ones where you want to accept the price drop",
+      "why": ""
+    },
+    {
+      "at": "13:26",
+      "screen": "AE Tool, round label 'Accept small price drop'",
+      "action": "Says to click 'Accept small price drop' after ticking the SKUs in the small table.",
+      "evidence": [
+        {"kind": "say", "at": "13:26", "frame": "", "quote": "the price drop and then click {on?} {accept?} small price drop."},
+        {"kind": "see", "at": "13:29", "frame": "t00809.jpg", "quote": "AE Tool; round label 'Accept small price drop' placed to the right of the small-drop table (columns I to J); cell I4 selected."}
+      ],
+      "says": "the price drop and then click {on?} {accept?} small price drop.",
+      "why": ""
+    },
+    {
+      "at": "13:30",
+      "screen": "AE Tool, small table, then Buybox tab",
+      "action": "Says that when the button is clicked the selected SKUs will disappear from this sheet and the buybox prices will update automatically. No frame shows the result.",
+      "evidence": [
+        {"kind": "say", "at": "13:30", "frame": "", "quote": "At the moment you will do it,"},
+        {"kind": "say", "at": "13:33", "frame": "", "quote": "the SKUs you have selected here will disappear from this sheet and your prices here in the buy"},
+        {"kind": "say", "at": "13:39", "frame": "", "quote": "box will be automatically updated."},
+        {"kind": "see", "at": "13:32", "frame": "t00812.jpg", "quote": "AE Tool content still shown with ticks on rows 4 to 7, 10 to 13 and 15; the address bar shows the Buybox sheet id and the mouse pointer is on the 'Buybox' tab."},
+        {"kind": "see", "at": "13:37", "frame": "t00817.jpg", "quote": "AE Tool content still shown; ticks still on the same rows; no rows removed from the small table."}
+      ],
+      "says": "the SKUs you have selected here will disappear from this sheet and your prices here in the buy box will be automatically updated.",
+      "why": ""
+    },
+    {
+      "at": "13:42",
+      "screen": "AE Tool, big-drop table, column S 'Accept change?'",
+      "action": "Does the same for the big price drop: ticks the SKUs in column S and clicks the 'Accept big price drop' label.",
+      "evidence": [
+        {"kind": "say", "at": "13:42", "frame": "", "quote": "So basically you just need to select the ones you want where you want to accept the small"},
+        {"kind": "say", "at": "13:47", "frame": "", "quote": "or the big price drop and click on the button {and?} this is something you can do both"},
+        {"kind": "see", "at": "13:44", "frame": "t00824.jpg", "quote": "AE Tool; name box S4:S13 selected; column S 'Accept change?' ticked on some of rows 4 to 13 (rows 5, 9 and 10 unticked); pink round label 'Accept big price drop' beside the big table; column W header 'Products you can win sending to F...' (truncated)."}
+      ],
+      "says": "So basically you just need to select the ones you want where you want to accept the small or the big price drop and click on the button",
+      "why": ""
+    },
+    {
+      "at": "13:47",
+      "screen": "AE Tool and SA Tool",
+      "action": "Says the same steps apply to both UAE and Saudi Arabia.",
+      "evidence": [
+        {"kind": "say", "at": "13:47", "frame": "", "quote": "this is something you can do both"},
+        {"kind": "say", "at": "13:52", "frame": "", "quote": "{for?} UAE and for Saudi Arabia."},
+        {"kind": "see", "at": "13:50", "frame": "t00830.jpg", "quote": "SA Tool open, cell A1 SA; small table with 'Accept change?' column H unticked and the 'Accept small price drop' label; big table headed 'Products you can win with big price drop (>20 AED)'."}
+      ],
+      "says": "this is something you can do both {for?} UAE and for Saudi Arabia.",
+      "why": ""
+    }
+  ],
+  "facts": [
+    {
+      "type": "definition",
+      "statement": "Scope of this part: the trainer says he will show how to accept a small or a big price drop in UAE and South Africa, and in Saudi Arabia, in order to win more.",
+      "evidence": [
+        {"kind": "say", "at": "12:10", "frame": "", "quote": "Here I will show you how to accept a small or a big price drop in UAE, South"},
+        {"kind": "say", "at": "12:17", "frame": "", "quote": "Africa on one side and Saudi Arabia on the other side in order to win more."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "The Buybox Training index lists two Gamification items: 'Small price drop' and 'Big price drop'. It also lists 'UAE - Fulfillment proposition' and 'KSA - Lock request', which the narration in this part does not cover.",
+      "evidence": [
+        {"kind": "see", "at": "12:05", "frame": "t00725.jpg", "quote": "Section 2 Gamification lists Small price drop, Big price drop, UAE - Fulfillment proposition, KSA - Lock request."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "For UAE and South Africa, use the AE Tool tab. Its cell A1 reads 'AE and ZA'.",
+      "evidence": [
+        {"kind": "say", "at": "12:22", "frame": "", "quote": "So for UAE and South Africa you have to go to the {AE?} tool"},
+        {"kind": "see", "at": "12:20", "frame": "t00740.jpg", "quote": "Tab 'AE Tool' active; cell A1 reads 'AE and ZA'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "For Saudi Arabia, use the SA Tool tab. Its cell A1 reads 'SA'.",
+      "evidence": [
+        {"kind": "say", "at": "12:27", "frame": "", "quote": "you have to go to the SA tool."},
+        {"kind": "see", "at": "12:26", "frame": "t00746.jpg", "quote": "Cell A1 reads 'SA'; columns 'Price SA' and 'Price to win SA'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The trainer says the SA Tool sheet is the same as the AE Tool ('These sheets are {the?} same way'). Both tabs show a small-drop table on the left and a big-drop table on the right. In the SA Tool frames only the 'Accept small price drop' label is visible; no frame shows an 'Accept big price drop' label on the SA Tool.",
+      "evidence": [
+        {"kind": "say", "at": "12:30", "frame": "", "quote": "These sheets are {the?} same way."},
+        {"kind": "see", "at": "12:32", "frame": "t00752.jpg", "quote": "SA Tool: small table on the left with the 'Accept small price drop' label; big table on the right; no 'Accept big price drop' label visible."}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "The small-drop table is titled 'Products you can win with small price drop (<20 AED)'.",
+      "evidence": [
+        {"kind": "see", "at": "12:20", "frame": "t00740.jpg", "quote": "Title 'Products you can win with small price drop (<20 AED)' above the left table."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The big-drop table is titled 'Products you can win with big price drop (>20 AED)'.",
+      "evidence": [
+        {"kind": "see", "at": "12:31", "frame": "t00751.jpg", "quote": "Title 'Products you can win with big price drop (>20 AED)' above the big table on the AE Tool."},
+        {"kind": "see", "at": "12:32", "frame": "t00752.jpg", "quote": "Same title above the big table on the SA Tool."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "On the AE Tool, the header 'Your current price' sits above 'Price AE' (the seller's current price on the SKU) and 'Price needed' sits above 'Price to win AE'. The trainer says the price needed is the price the seller must accept in order to win. On the SA Tool the headers are 'Price SA' and 'Price to win SA'.",
+      "evidence": [
+        {"kind": "say", "at": "12:46", "frame": "", "quote": "these are the current prices your current prices"},
+        {"kind": "say", "at": "12:54", "frame": "", "quote": "and here is the price that you need to accept in order to win."},
+        {"kind": "see", "at": "12:49", "frame": "t00769.jpg", "quote": "Header 'Your current price' above Price AE; 'Price needed' above Price to win AE."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The SKUs listed in the small and big tables are the ones where the seller has put a price.",
+      "evidence": [
+        {"kind": "say", "at": "12:46", "frame": "", "quote": "we targeted for you SKUs where you put a price"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The tables are sorted by Monthly Sales, highest first, so the best-selling SKUs are targeted first.",
+      "evidence": [
+        {"kind": "say", "at": "12:59", "frame": "", "quote": "Here we sorted the SKUs {by?} monthly sales so that you can first target the SKUs with the"},
+        {"kind": "say", "at": "13:06", "frame": "", "quote": "highest monthly sales."},
+        {"kind": "see", "at": "12:57", "frame": "t00777.jpg", "quote": "Monthly Sales column reads 20-50 at row 4 and falls row by row to 0-1."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Monthly Sales bands on the tables are 50+, 20-50, 10-20, 5-10, 3-5, 1-3 and 0-1.",
+      "evidence": [
+        {"kind": "see", "at": "12:32", "frame": "t00752.jpg", "quote": "SA Tool small table shows 20-50, 10-20, 5-10, 3-5, 1-3 and 0-1; SA big table shows 50+ in its Monthly Sales column."},
+        {"kind": "see", "at": "13:44", "frame": "t00824.jpg", "quote": "AE Tool big table Monthly Sales column shows 50+ on rows 16 to 22."}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "number",
+      "statement": "Example SKU row 4 (SKU_Long 020704-038601, name cut off on screen): Price AE 833, Price to win AE 820, Price drop required 13. The trainer calls the 13 'dirhams'; the sheet shows no unit.",
+      "evidence": [
+        {"kind": "say", "at": "13:08", "frame": "", "quote": "your current price is {8?}.33 ... accept a price of 8.20 ... a price drop of 13 dirhams."},
+        {"kind": "see", "at": "12:49", "frame": "t00769.jpg", "quote": "Row 4: Price AE 833, Price to win AE 820, Price drop required 13."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Implied: 'Price drop required' equals 'Price AE' minus 'Price to win AE' on the sample rows (833 - 820 = 13; 807 - 800 = 7; big table on AE Tool 3550 - 3185 = 365). The trainer does not state this rule.",
+      "evidence": [
+        {"kind": "see", "at": "12:49", "frame": "t00769.jpg", "quote": "Row 4 shows 833, 820 and 13; row 5 shows 807, 800 and 7."},
+        {"kind": "see", "at": "13:44", "frame": "t00824.jpg", "quote": "Big table row 4 shows Price AE 3550, Price to win AE 3185, Price drop required 365."}
+      ],
+      "confidence": "low",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "To accept a price drop, tick the 'Accept change?' checkbox for each SKU you want to accept (column H on the small table, column S on the big table).",
+      "evidence": [
+        {"kind": "say", "at": "13:19", "frame": "", "quote": "The only thing that you need to do is to select the ones where you want to accept the price drop"},
+        {"kind": "see", "at": "13:17", "frame": "t00797.jpg", "quote": "Column H 'Accept change?' checkboxes ticked on rows 4 to 6."},
+        {"kind": "see", "at": "13:44", "frame": "t00824.jpg", "quote": "Column S header 'Accept change?' with checkboxes ticked on some rows."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "After ticking the SKUs, click the round 'Accept small price drop' label for the small table, or the 'Accept big price drop' label for the big table.",
+      "evidence": [
+        {"kind": "say", "at": "13:26", "frame": "", "quote": "and then click {on?} {accept?} small price drop."},
+        {"kind": "say", "at": "13:47", "frame": "", "quote": "or the big price drop and click on the button"},
+        {"kind": "see", "at": "13:44", "frame": "t00824.jpg", "quote": "Pink round label 'Accept big price drop' beside the big table."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "The trainer says that after the accept click, the SKUs selected will disappear from the sheet and the buybox prices will update automatically. No frame shows this result: the ticked rows are still on the AE Tool at 13:32 and 13:37.",
+      "evidence": [
+        {"kind": "say", "at": "13:33", "frame": "", "quote": "the SKUs you have selected here will disappear from this sheet and your prices here in the buy"},
+        {"kind": "see", "at": "13:37", "frame": "t00817.jpg", "quote": "AE Tool content still shown with ticks on the same rows."}
+      ],
+      "confidence": "low",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Small and big price drops can both be accepted, for UAE and for Saudi Arabia.",
+      "evidence": [
+        {"kind": "say", "at": "13:47", "frame": "", "quote": "this is something you can do both"},
+        {"kind": "say", "at": "13:52", "frame": "", "quote": "{for?} UAE and for Saudi Arabia."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "tip",
+      "statement": "The trainer says accepting small and big price drops is meant to help the seller win more orders in UAE, South Africa and Saudi Arabia.",
+      "evidence": [
+        {"kind": "say", "at": "14:44", "frame": "", "quote": "Then I showed you how you can accept small and big price drops in order to win more"},
+        {"kind": "say", "at": "14:49", "frame": "", "quote": "orders in UAE, South Africa {and?} Saudi Arabia."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Lowest-condition SKUs are not affected by the score. For these SKUs the seller competes only on price.",
+      "evidence": [
+        {"kind": "say", "at": "14:14", "frame": "", "quote": "I showed you what are the lowest condition, which are the SKUs that are not impacted by the score, but only you need to compete on them on the price."},
+        {"kind": "see", "at": "14:13", "frame": "t00853.jpg", "quote": "Index row 8 'Lowest condition' selected under Buybox presentation."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "tip",
+      "statement": "Minimum prices: the trainer says setting minimum prices means the seller does not have to come back to the buy box every day to refresh prices in order to win orders.",
+      "evidence": [
+        {"kind": "say", "at": "14:31", "frame": "", "quote": "And also I showed you how to set your minimum prices in order not to be obliged to"},
+        {"kind": "say", "at": "14:36", "frame": "", "quote": "come every day on the buy box and to refresh your prices in order to be able to"},
+        {"kind": "see", "at": "14:37", "frame": "t00877.jpg", "quote": "Index row 10 'Minimum prices' selected under Buybox presentation (name box C10)."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Recap by the trainer: at 13:58 he lists the buybox presentation topics catalog organization, neutral prices, buybox prices and prices impacted by your score. At 14:14 to 14:31 he also covers lowest condition, how to win and minimum prices.",
+      "evidence": [
+        {"kind": "say", "at": "13:58", "frame": "", "quote": "So just to recap, I presented you the {buy?} box,"},
+        {"kind": "say", "at": "14:04", "frame": "", "quote": "how the catalog is organized, what are the neutral prices, what are the buy box prices, which are"},
+        {"kind": "see", "at": "13:53", "frame": "t00833.jpg", "quote": "Index lists 1 Buybox presentation items (Catalog organization, Neutral prices, Buybox prices, Lowest condition, How to win, Minimum prices)."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Revibe ecosystem diagram: the Buybox box reads 'Set prices for direct shipping'. The Fulfillment App box reads 'Set prices and quantities for fulfillment shipping'.",
+      "evidence": [
+        {"kind": "see", "at": "12:05", "frame": "t00725.jpg", "quote": "Buybox box reads 'Set prices for direct shipping'; Fulfillment App box reads 'Set prices and quantities for fulfillment shipping'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Revibe ecosystem diagram: Orders App lists 'Manage orders received', 'Interact with Revibe team' and 'Invoices and payments'. Claims App lists 'Manage warranties / returns' and 'Interact with Revibe team'.",
+      "evidence": [
+        {"kind": "see", "at": "12:05", "frame": "t00725.jpg", "quote": "Orders App bullets: Manage orders received; Interact with Revibe team; Invoices and payments. Claims App bullets: Manage warranties / returns; Interact with Revibe team."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Revibe ecosystem diagram arrow labels: 'Score affecting prices' runs from Performance & Score back to Buybox; 'Score > 0% > price increase' runs to Fulfillment App; 'On time and cancellation rate' and 'Claims rate and days to solve' lead into Performance & Score, whose box reads 'Improve performance'.",
+      "evidence": [
+        {"kind": "see", "at": "12:05", "frame": "t00725.jpg", "quote": "Labels on arrows: 'Score affecting prices', 'On time and cancellation rate', 'Claims rate and days to solve', 'Score > 0% > price increase'; Performance & Score box reads 'Improve performance'."}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Buybox tab columns: Monthly Sales, Score, Buybox AE, Buybox SA, Wins AE, Wins SA, Price AE, Price SA, Min AE, Min SA. Sample values: Score -4.00% on the visible rows; Buybox SA row 77 reads '414 - Locked'; Buybox AE row 93 reads '311 - Fulfillment'; Wins AE and Wins SA read 'FALSE' on the visible rows.",
+      "evidence": [
+        {"kind": "see", "at": "14:34", "frame": "t00874.jpg", "quote": "Column headers Monthly Sales, Score, Buybox AE, Buybox SA, Wins AE, Wins SA, Price AE, Price SA, Min AE, Min SA; Score -4.00% in the visible rows; Buybox SA row 77 shows '414 - Locked'; row 93 Buybox AE shows '311 - Fulfillment'."}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "tip",
+      "statement": "The trainer invites questions and offers to book a meeting with him for further questions.",
+      "evidence": [
+        {"kind": "say", "at": "15:00", "frame": "", "quote": "Do not hesitate to ask me all the questions you may have related to this and to take"},
+        {"kind": "say", "at": "15:05", "frame": "", "quote": "a meeting with me and to book a meeting with me in case you have any further question."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    }
+  ],
+  "screens": [
+    {
+      "name": "Buybox Training workbook index",
+      "shows": "Sections: 1 Buybox presentation (Catalog organization, Neutral prices, Buybox prices, Lowest condition, How to win, Minimum prices); 2 Gamification (Small price drop, Big price drop, UAE - Fulfillment proposition, KSA - Lock request); 3 Lock expiry process (Force competitors to unlock, Lock renewal). Tabs: Buybox, AE Tool, SA Tool. In frames t00833, t00853, t00877 and t00897 the index ends at 'Big price drop'.",
+      "at": "12:05-15:09",
+      "where": "Google Sheets tab 'Buybox Training' (gid 790186835)",
+      "frame": "t00725.jpg, t00833.jpg, t00853.jpg, t00877.jpg, t00897.jpg, t00903.jpg, t00909.jpg"
+    },
+    {
+      "name": "Revibe ecosystem diagram",
+      "shows": "Seller, Buybox, Orders App, Fulfillment App, Claims App, Performance & Score, with arrows and labels such as 'Score affecting prices' and 'Score > 0% > price increase'.",
+      "at": "12:05",
+      "where": "Top of the Buybox Training index tab",
+      "frame": "t00725.jpg"
+    },
+    {
+      "name": "AE Tool, small-drop table",
+      "shows": "Title 'Products you can win with small price drop (<20 AED)'. Columns: Name, SKU_Long, Price AE (under 'Your current price'), Price to win AE (under 'Price needed'), Monthly Sales, SUM of Priority, Price drop required, Accept change? (column H). Round label 'Accept small price drop' beside the table.",
+      "at": "12:20-13:37",
+      "where": "Tab 'AE Tool', A1 'AE and ZA'",
+      "frame": "t00740.jpg, t00751.jpg, t00755.jpg, t00759.jpg, t00769.jpg, t00774.jpg, t00777.jpg, t00797.jpg, t00807.jpg, t00809.jpg, t00812.jpg, t00817.jpg"
+    },
+    {
+      "name": "AE Tool, big-drop table",
+      "shows": "Title 'Products you can win with big price drop (>20 AED)'. Columns: Name, SKU_Long, Price AE, Price to win AE, Monthly Sales, SUM of Priority, Price drop required, Accept change? (column S). Pink round label 'Accept big price drop'. A third block at column W headed 'Products you can win sending to F...' (truncated).",
+      "at": "12:31-13:44",
+      "where": "Tab 'AE Tool', columns L to W",
+      "frame": "t00751.jpg, t00821.jpg, t00824.jpg"
+    },
+    {
+      "name": "SA Tool",
+      "shows": "Empty on first view (t00742); then A1 'SA' with the small table (Price SA, Price to win SA, Monthly Sales, 'Accept change?' column H) and the big table, with the 'Accept small price drop' label. No 'Accept big price drop' label is visible in the SA frames.",
+      "at": "12:22-13:50",
+      "where": "Tab 'SA Tool'",
+      "frame": "t00742.jpg, t00746.jpg, t00752.jpg, t00830.jpg"
+    },
+    {
+      "name": "Buybox tab",
+      "shows": "Product list with columns Monthly Sales, Score, Buybox AE, Buybox SA, Wins AE, Wins SA, Price AE, Price SA, Min AE, Min SA. Status text such as 'Locked', 'Fulfillment' and 'No bid' appears in buybox cells. Score -4.00% on visible rows. Cell V100 holds 500 under Price SA.",
+      "at": "14:34",
+      "where": "Tab 'Buybox' (gid 1160739065)",
+      "frame": "t00874.jpg"
+    }
+  ],
+  "terms": [
+    {"term": "Buybox", "meaning": "The buybox prices sheet and tab in the workbook. The index's first section is 'Buybox presentation'. The ecosystem diagram says Buybox is where prices are set for direct shipping.", "at": "12:05"},
+    {"term": "AE Tool", "meaning": "Tab used for UAE and South Africa (cell A1 reads 'AE and ZA').", "at": "12:22"},
+    {"term": "SA Tool", "meaning": "Tab used for Saudi Arabia (cell A1 reads 'SA').", "at": "12:27"},
+    {"term": "Small price drop", "meaning": "Products you can win with a small price drop. The table title reads '(<20 AED)'.", "at": "12:10"},
+    {"term": "Big price drop", "meaning": "Products you can win with a big price drop. The table title reads '(>20 AED)'.", "at": "12:33"},
+    {"term": "Accept change?", "meaning": "Checkbox column (H on the small table, S on the big table). The trainer says to tick it on the SKUs to accept.", "at": "13:19"},
+    {"term": "Accept small price drop / Accept big price drop", "meaning": "Round labels drawn on the sheet beside the tables. The trainer says to click them after ticking SKUs (13:26, 13:47). He says the ticked SKUs will then disappear from the sheet (13:30); no frame shows this.", "at": "13:26"},
+    {"term": "Your current price (Price AE / Price SA)", "meaning": "Header over the seller's current price on the SKU. It is shown on the AE Tool; the SA Tool headers read 'Price SA'.", "at": "12:46"},
+    {"term": "Price needed (Price to win AE / Price to win SA)", "meaning": "Header over the price the seller must accept to win, as stated by the trainer.", "at": "12:54"},
+    {"term": "Price drop required", "meaning": "Column showing the drop needed (13 for the first sample SKU).", "at": "13:08"},
+    {"term": "Monthly Sales", "meaning": "Sales band per SKU (for example 50+, 20-50, 0-1). The tables are sorted by it.", "at": "12:59"},
+    {"term": "SUM of Priority", "meaning": "Column on the tables. Not explained in this part.", "at": "12:59"},
+    {"term": "Lowest condition", "meaning": "SKUs that the trainer says are not impacted by the score, so the seller competes only on price.", "at": "14:14"},
+    {"term": "Minimum prices", "meaning": "Setting the trainer says lets the seller avoid coming back to the buy box every day to refresh prices.", "at": "14:31"},
+    {"term": "Score", "meaning": "Score column on the Buybox tab (-4.00% on the visible rows). The ecosystem diagram links it to prices ('Score affecting prices') and to the Performance & Score box. Its exact rule is not explained in this part.", "at": "13:58"},
+    {"term": "Locked", "meaning": "Status text inside buybox cells, such as '414 - Locked'. Meaning not explained in this part.", "at": "14:34"},
+    {"term": "Fulfillment (buybox cell text)", "meaning": "Status text inside buybox cells, such as '311 - Fulfillment'. Not explained in this part.", "at": "14:34"},
+    {"term": "UAE / KSA / ZA", "meaning": "The trainer names UAE and South Africa for the AE Tool (cell A1 reads 'AE and ZA') and Saudi Arabia for the SA Tool. Implied: 'KSA' in the index refers to Saudi Arabia and 'ZA' to South Africa.", "at": "12:10"},
+    {"term": "Products you can win sending to F...", "meaning": "Third block on the AE Tool (column W), title cut off. Not explained in this part.", "at": "13:44"},
+    {"term": "Lock request / Lock expiry process / Lock renewal / Force competitors to unlock", "meaning": "Index entries in the workbook that the narration in this part does not explain.", "at": "12:05"}
+  ],
+  "asr_fixes": [
+    {"at": "13:08", "heard": "your current price is {8?}.33", "correct": "your current price is 833", "basis": "Screen t00769: Price AE for row 4 reads 833; no decimal point is shown."},
+    {"at": "13:13", "heard": "accept a price of 8.20", "correct": "accept a price of 820", "basis": "Screen t00769: Price to win AE for row 4 reads 820; 833 minus 820 gives the 13 shown in Price drop required."},
+    {"at": "12:22", "heard": "the {AE?} tool", "correct": "the AE Tool", "basis": "Screen t00740: tab named 'AE Tool'; cell A1 reads 'AE and ZA'."},
+    {"at": "13:26", "heard": "click {on?} {accept?} small price drop", "correct": "click on 'Accept small price drop'", "basis": "Screen t00809: round label on the sheet reads 'Accept small price drop'."},
+    {"at": "13:58", "heard": "I presented you the {buy?} box", "correct": "I presented you the buybox", "basis": "Screen t00833: index section '1 Buybox presentation' and tab 'Buybox'."}
+  ],
+  "unclear": [
+    {"at": "14:26", "issue": "Recap says 'how to win ... by dropping your price by {one?} dirham'. The {one?} marker is unreliable and no screen shows the amount. Not stated as a fact."},
+    {"at": "12:30", "issue": "'These sheets are {the?} same way' is marked unreliable. The two tabs show the same two-table layout in the frames, but the exact wording is not confirmed. The SA frames show only the small-table label."},
+    {"at": "13:58", "issue": "Recap lists 'which are the prices impacted by your score'. The sentence does not say clearly which price type is score-impacted. Only 'Lowest condition' SKUs are described as not impacted by the score."},
+    {"at": "13:30", "issue": "Trainer says ticked SKUs disappear from the sheet and buybox prices update. Frames t00812 (13:32) and t00817 (13:37) still show the ticks, and no later AE Tool frame confirms the result."},
+    {"at": "12:05", "issue": "The Fulfillment App box in the diagram shows one crossed-out flag and two country flags. The meaning of the crossed-out flag is not explained."},
+    {"at": "13:44", "issue": "Third block on the AE Tool at column W, headed 'Products you can win sending to F...' (truncated). The trainer does not explain it."},
+    {"at": "14:34", "issue": "Buybox cells show status text such as 'Locked', 'Fulfillment' and 'No bid', and Score is -4.00%. The trainer does not explain these in this part."},
+    {"at": "12:05", "issue": "Index lists 'UAE - Fulfillment proposition', 'KSA - Lock request', 'Lock expiry process', 'Force competitors to unlock' and 'Lock renewal', but the narration in this part does not explain them."},
+    {"at": "13:50", "issue": "The SA Tool big-drop table's 'Accept change?' column (S) is not visible in the SA frames, so the SA big-drop steps cannot be confirmed on screen. No 'Accept big price drop' label is visible on the SA Tool either."},
+    {"at": "14:34", "issue": "Buybox tab cell V100 holds the value 500 under 'Price SA' (frame t00874). Its purpose is not explained."},
+    {"at": "13:53", "issue": "The index rows 16 to 22 (UAE - Fulfillment proposition, KSA - Lock request, Lock expiry process and its two items) are visible in frames t00725 (12:05), t00903 (15:03) and t00909 (15:09), but frames t00833, t00853, t00877 and t00897 show the index ending at 'Big price drop'. The reason for the difference is not shown."},
+    {"at": "14:53", "issue": "'I showed you the table {which?} are suggesting this.' The word 'which' is marked unreliable and 'this' is not defined in the narration, so the point is unclear."}
+  ],
+  "outdated": [],
+  "privacy": [],
+  "frames_opened": 26,
+  "audit": {
+    "checked": 80,
+    "removed": [
+      {"statement": "Term 'Accept small price drop / Accept big price drop': 'Clicking them applies the ticked price drops.'", "reason": "The result of clicking is not shown on any frame; the trainer only says what will happen (future tense at 13:30)."},
+      {"statement": "Step 10 evidence: round label described as 'drawn shape, used as the button'.", "reason": "The frame shows a drawn label; nothing on screen shows it works as a button. The trainer's word 'button' appears only at 13:47."},
+      {"statement": "Fact 'SA Tool and AE Tool set up the same way ... an Accept button for each'.", "reason": "No SA Tool frame shows the 'Accept big price drop' label, so 'an Accept button for each' is not confirmed for the SA Tool."},
+      {"statement": "ASR fix 12:59 'sorted the SKUs {by?} monthly sales' to 'by'.", "reason": "The basis (the Monthly Sales header) does not confirm the word 'by'; the {by?} marker stays unresolved."}
+    ],
+    "corrected": [
+      {"before": "Step 4 evidence t00752 described as 'AE Tool with the two round labels'.", "after": "t00752 is the SA Tool (cell A1 'SA'); the two labels are on AE Tool frame t00751 (12:31).", "reason": "Wrong tab and frame attribution; t00752 shows only the small label."},
+      {"before": "Step 9 evidence t00797 'rows 4 to 8 ticked; selection range H4:H9 highlighted'; time '12:xx-13:19'.", "after": "t00797 (13:17): rows 4 to 6 ticked, H6 selected. H4:H9 range and ticks on rows 4 to 7 are on t00807 (13:27).", "reason": "Row count and selection were attributed to the wrong frame; time was a placeholder."},
+      {"before": "Step 7 evidence t00759 'Column E Monthly Sales selected; values 20-50 ... 0-1'.", "after": "Column E selection and the 20-50 to 0-1 values are on t00777 (12:57). t00759 (12:39) shows no selected column.", "reason": "Wrong frame."},
+      {"before": "Step 6 evidence t00774 'Price to win AE column ... next to Price AE'.", "after": "t00774 shows column E selected; the Price to win AE values 820, 800 and 560 are still visible in column D.", "reason": "The frame shows a different selection than the claim describes; the values are visible."},
+      {"before": "Step 10 'round label placed above the small-drop table' with evidence t00752.", "after": "Label sits to the right of the small table (columns I to J) on t00809 (13:29).", "reason": "Wrong frame and placement."},
+      {"before": "Step 11 evidence t00817 'mouse pointer on the Buybox tab; trainer moves to the Buybox tab'; statement that SKUs leave the sheet.", "after": "The mouse is on the Buybox tab in t00812 (13:32); t00817 (13:37) still shows the AE Tool with the ticks. The disappearance is future tense in the narration and is not shown.", "reason": "Wrong frame; overstated result."},
+      {"before": "Step 12 'column S ticked on rows 4 to 13'; label 'above the big table'; time 13:47.", "after": "Some rows 4 to 13 ticked (rows 5, 9 and 10 not ticked); label is beside the big table; frame t00824 is at 13:44.", "reason": "Overstated tick state; placement and time corrected."},
+      {"before": "Step 13 quote 'this is something you can do both {for?} UAE and for Saudi Arabia.' at 13:47.", "after": "Split into 13:47 'this is something you can do both' and 13:52 '{for?} UAE and for Saudi Arabia.'", "reason": "Quote spans two transcript lines."},
+      {"before": "Step 3 evidence only t00746.", "after": "Added t00742 (SA Tool empty at 12:22).", "reason": "Coverage sweep."},
+      {"before": "Summary: 'clicks the matching button'; 'all frames checked' and no note on disappearance.", "after": "Summary says 'label' and records that the disappearance result is not shown.", "reason": "Overstated wording."},
+      {"before": "Fact 'SA Tool and AE Tool set up the same way (..., an Accept button for each)' with evidence t00752 and 'same layout on AE Tool'.", "after": "Trainer statement with the observed SA frames; only the small label is visible on SA.", "reason": "Not fully supported by the SA frames."},
+      {"before": "Fact 'Your current price' stated for Price AE / Price SA.", "after": "Header 'Your current price' is shown on the AE Tool only; SA headers are 'Price SA' and 'Price to win SA'.", "reason": "Header names differ by tab."},
+      {"before": "Fact monthly-sales bands with evidence t00752 at 12:52.", "after": "Evidence at 12:32 (t00752 SA) plus t00824 (AE, 50+ on rows 16 to 22).", "reason": "Timestamp and frame corrected; 50+ is on the AE big table."},
+      {"before": "Fact example SKU 'microsoft-surface-pro-6-core-i58 GB256 GB ... 833 AED, 820 AED, 13 AED'.", "after": "Name is cut off on screen; no currency unit on the sheet; the trainer says '13 dirhams'.", "reason": "AED is not shown on the sheet; name truncated."},
+      {"before": "Implied rule evidence t00769 only; 'Implied' confidence low.", "after": "Added t00824 for the big-table sample (3550 - 3185 = 365); kept low confidence.", "reason": "More evidence for the sample rows."},
+      {"before": "Fact 'Accept change?' checkbox ticked on rows 4 to 8 (t00797).", "after": "Ticked rows 4 to 6 on t00797; rows 4 to 7 and 10 to 13 and 15 on t00807.", "reason": "Row numbers corrected."},
+      {"before": "Fact 'click the round accept button ... above the big table' (t00824, 13:47).", "after": "Pink label beside the big table; the trainer says 'button' at 13:47.", "reason": "Placement corrected."},
+      {"before": "Fact 'After you click the accept button, the SKUs disappear and prices update' (medium, quiz true).", "after": "Trainer's future-tense statement, confidence low, quiz false; no frame shows the result.", "reason": "Not shown on screen."},
+      {"before": "Fact 'Recap ... catalog, neutral, buybox prices, prices impacted by your score, lowest condition, how to win, minimum prices' cited to 13:58.", "after": "13:58 covers catalog, neutral, buybox prices and score-impacted prices; lowest condition, how to win and minimum prices come at 14:14 to 14:31.", "reason": "Evidence did not cover all items."},
+      {"before": "Fact 'Purpose ... in UAE, South Africa and Saudi Arabia' cited to 14:44 only.", "after": "Kept 14:44 and 14:49 quotes.", "reason": "Two-line quote completed."},
+      {"before": "Screen 'Buybox Training workbook index' listed all sections in every frame; frames list omitted t00903.", "after": "Notes that t00833, t00853, t00877 and t00897 end at 'Big price drop'; t00903 added to frames.", "reason": "Index content differs between frames."},
+      {"before": "Screen 'AE Tool, big-drop table' frames t00752 and t00824.", "after": "Frames t00751, t00821 and t00824 (t00752 is SA Tool).", "reason": "Wrong frame."},
+      {"before": "Screen 'SA Tool' with 'same small and big tables'.", "after": "Adds that no SA frame shows the 'Accept big price drop' label.", "reason": "Overstated."},
+      {"before": "Term 'Score' defined as 'Seller performance score'.", "after": "Score column on the Buybox tab; the diagram links it to prices; exact rule not explained.", "reason": "'Seller performance score' is an inference not stated on screen."},
+      {"before": "Term 'UAE / KSA / ZA' stated as fact that KSA is Saudi Arabia and ZA is South Africa.", "after": "Implied label added; trainer names the markets.", "reason": "Code meanings not on screen; general knowledge."},
+      {"before": "Term 'Small/Big price drop' evidence at 12:10 for 'Big price drop' meaning.", "after": "Big price drop meaning cited at 12:33.", "reason": "Timing corrected."},
+      {"before": "ASR fix 13:26 'click on the Accept small price drop button'.", "after": "'click on Accept small price drop' (label on the sheet).", "reason": "Label, not a confirmed button."},
+      {"before": "Unclear 14:xx for V100.", "after": "14:34 (frame t00874).", "reason": "Timestamp placeholder replaced."},
+      {"before": "Unclear 13:42 for SA big-drop column.", "after": "13:50, with the missing SA big label added.", "reason": "Timing and detail."},
+      {"before": "Unclear 13:30 cites t00817 as the only frame.", "after": "Cites t00812 and t00817.", "reason": "Frame attribution."},
+      {"before": "Fact 'Lock expiry process ... not covered' phrasing.", "after": "Phrased as entries the narration does not explain.", "reason": "The narration does not cover them; no claim about the trainer's intent."}
+    ],
+    "added": [
+      "Fact (definition): scope of the part from 12:10 and 12:17 (small or big price drop in UAE, South Africa and Saudi Arabia to win more).",
+      "Step 3 evidence t00742: SA Tool sheet empty at 12:22.",
+      "Unclear: index rows 16 to 22 missing in frames t00833, t00853, t00877 and t00897 but visible at 12:05, 15:03 and 15:09.",
+      "Unclear: 14:53 'I showed you the table {which?} are suggesting this.'",
+      "Screen detail: Buybox tab URL gid 1160739065 and workbook gid 790186835 noted."
+    ]
+  }
+}

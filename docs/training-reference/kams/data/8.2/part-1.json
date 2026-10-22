@@ -1,0 +1,891 @@
+{
+  "summary": "Training video 8.2 (Warranties - Wrong Device, Seller and KAM audience, 02:43). The narrator walks through the wrong-device warranty claim in the Revibe seller portal and on the workflow slide: the customer's claim is raised on Revibe, the seller checks the device received, then marks the claim Valid (send the right device if in stock, otherwise refund) or Invalid (written reason plus proof, Revibe checks it, the Lab decides). All 27 frames in the pack were opened. Screens are the workflow overview slide, the R - Seller Warranties claims list, the claim detail panel with Mark valid/Mark invalid, the availability and IMEI dialogs, a ship-back tracking section, a claim statuses view, the invalid-proof dialog, and the recap.",
+  "frames_opened": 27,
+  "steps": [
+    {
+      "at": "00:08",
+      "screen": "Workflow overview slide",
+      "action": "Points at the four-step overview of the wrong-device flow",
+      "evidence": [
+        {"kind": "say", "at": "00:08", "quote": "A wrong device claim follows the same four steps as any warranty claim, only the outcome is different.", "frame": ""},
+        {"kind": "see", "at": "00:08", "frame": "t00008.jpg", "quote": "Overview slide titled 'Revibe Warranty – Wrong Device' with four step cards: 1 Customer raise claim, 2 Revibe Agent Check, 3 Pickup, 4 Seller action, plus a Scope box."}
+      ],
+      "says": "A wrong device claim follows the same four steps as any warranty claim, only the outcome is different.",
+      "why": ""
+    },
+    {
+      "at": "00:17",
+      "screen": "Scope callout on overview slide",
+      "action": "Highlights the scope box",
+      "evidence": [
+        {"kind": "say", "at": "00:18", "quote": "There's no warranty period check.", "frame": ""},
+        {"kind": "see", "at": "00:17", "frame": "t00017.jpg", "quote": "Scope box: customer received a different device than ordered, under warranty, no warranty-period check, the claim goes straight to the original seller (or repair partner)."}
+      ],
+      "says": "There's no warranty period check.",
+      "why": ""
+    },
+    {
+      "at": "00:20",
+      "screen": "Scope callout on overview slide",
+      "action": "Says the claim goes straight to the original seller",
+      "evidence": [
+        {"kind": "say", "at": "00:20", "quote": "The claim goes straight to the original seller.", "frame": ""},
+        {"kind": "see", "at": "00:17", "frame": "t00017.jpg", "quote": "Scope box text ends: 'the claim goes straight to the original seller (or repair partner).'"}
+      ],
+      "says": "The claim goes straight to the original seller.",
+      "why": ""
+    },
+    {
+      "at": "00:24",
+      "screen": "Step 1 and 2 cards",
+      "action": "Points at steps 1 and 2 labelled NO ACTION REQUIRED",
+      "evidence": [
+        {"kind": "say", "at": "00:24", "quote": "Steps {1?} and 2 need nothing from you.", "frame": ""},
+        {"kind": "see", "at": "00:24", "frame": "t00025.jpg", "quote": "Cards labelled 'NO ACTION REQUIRED': 1 Customer raise claim (Status: Pending, Revibe team to review); 2 Revibe Agent Check (Status: Pending Collection). Caption: 'Steps 1–2: no action for you'."}
+      ],
+      "says": "Steps {1?} and 2 need nothing from you.",
+      "why": ""
+    },
+    {
+      "at": "00:33",
+      "screen": "Step 3 Pickup card",
+      "action": "Points at the pickup rules for AE, Others, SA and repair partner",
+      "evidence": [
+        {"kind": "say", "at": "00:33", "quote": "In the UAE, QuickUp collects the device and DHL in other countries.", "frame": ""},
+        {"kind": "see", "at": "00:33", "frame": "t00033.jpg", "quote": "Card 'ACTION REQUIRED IF SA': 'AE & Others: AWB auto-created (AE = Quiqup · Others = DHL) — moves to Under Collection immediately; SA: Seller to create the AWB manually; Repair partner: always auto (SA = Naqel)'. Caption 'Pickup: Saudi sellers create the AWB'."}
+      ],
+      "says": "In the UAE, QuickUp collects the device and DHL in other countries.",
+      "why": ""
+    },
+    {
+      "at": "00:38",
+      "screen": "Step 3 Pickup card",
+      "action": "Points at the automatic AWB creation for AE and Others",
+      "evidence": [
+        {"kind": "say", "at": "00:38", "quote": "The {Wable?} is created automatically.", "frame": ""},
+        {"kind": "see", "at": "00:38", "frame": "t00033.jpg", "quote": "'AWB auto-created' for AE and Others."}
+      ],
+      "says": "The {Wable?} is created automatically.",
+      "why": ""
+    },
+    {
+      "at": "00:40",
+      "screen": "Step 3 Pickup card",
+      "action": "Points at the Saudi Arabia line",
+      "evidence": [
+        {"kind": "say", "at": "00:40", "quote": "In Saudi Arabia, you create it.", "frame": ""},
+        {"kind": "see", "at": "00:40", "frame": "t00033.jpg", "quote": "'SA: Seller to create the AWB manually'."}
+      ],
+      "says": "In Saudi Arabia, you create it.",
+      "why": ""
+    },
+    {
+      "at": "00:43",
+      "screen": "R - Seller Warranties claims list",
+      "action": "Shows the seller warranties view with the claim under the Under QC group",
+      "evidence": [
+        {"kind": "say", "at": "00:43", "quote": "In your seller warranties view, the claim appears under QC with the subtype wrong device.", "frame": ""},
+        {"kind": "see", "at": "00:43", "frame": "t00043.jpg", "quote": "Left menu item 'R - Seller Warranties' highlighted. Claims table grouped 'Under QC (1)' with claim TBGV164, Type Warranty, Subtype Wrong device, Issue 'I received the wrong device'. Other groups: 'Pending LAB collection (1)', 'Cancelled (39)'. Footer '1–58 of 58'."}
+      ],
+      "says": "In your seller warranties view, the claim appears under QC with the subtype wrong device.",
+      "why": ""
+    },
+    {
+      "at": "00:48",
+      "screen": "Claims list, Subtype column (t00048.jpg)",
+      "action": "Points at the Subtype column showing Wrong device",
+      "evidence": [
+        {"kind": "see", "at": "00:48", "frame": "t00048.jpg", "quote": "Caption 'Subtype: Wrong device' over the same claims list; Subtype column shows 'Wrong device' for TBGV164."}
+      ]
+    },
+    {
+      "at": "00:50",
+      "screen": "Claim detail panel",
+      "action": "Opens the claim to read the customer's issue and details",
+      "evidence": [
+        {"kind": "say", "at": "00:50", "quote": "Open it to see the customer's issue and details.", "frame": ""},
+        {"kind": "see", "at": "00:50", "frame": "t00050.jpg", "quote": "Right-hand panel 'Claim # TBGV164', status Open, buttons Edit and Tracker. Header 'Seller policy timer: 8 days left'. Action icons Mark valid and Mark invalid. Fields include Issue 'I received the wrong device'."}
+      ],
+      "says": "Open it to see the customer's issue and details.",
+      "why": ""
+    },
+    {
+      "at": "00:53",
+      "screen": "Claim detail panel",
+      "action": "Narration says to check the device that was received",
+      "evidence": [
+        {"kind": "say", "at": "00:53", "quote": "Then check the device you received.", "frame": ""}
+      ],
+      "says": "Then check the device you received.",
+      "why": ""
+    },
+    {
+      "at": "00:55",
+      "screen": "Claim detail panel",
+      "action": "Narration asks whether the device really is the wrong one",
+      "evidence": [
+        {"kind": "say", "at": "00:55", "quote": "Is it really the wrong one?", "frame": ""},
+        {"kind": "see", "at": "00:55", "frame": "t00055.jpg", "quote": "Caption 'I received the wrong device' on the claim panel."}
+      ],
+      "says": "Is it really the wrong one?",
+      "why": ""
+    },
+    {
+      "at": "00:57",
+      "screen": "Claim detail panel",
+      "action": "Narration says to mark the claim valid if the customer is right",
+      "evidence": [
+        {"kind": "say", "at": "00:57", "quote": "If the customer is right, mark the claim valid.", "frame": ""}
+      ],
+      "says": "If the customer is right, mark the claim valid.",
+      "why": ""
+    },
+    {
+      "at": "01:00",
+      "screen": "Valid card on overview slide",
+      "action": "Shows the two outcomes of a valid claim",
+      "evidence": [
+        {"kind": "say", "at": "01:00", "quote": "You'll then either send the right device, or the customer is refunded.", "frame": ""},
+        {"kind": "see", "at": "01:00", "frame": "t00058.jpg", "quote": "Card 'VALID - Replacement or Refund': 'Seller confirms stock of the right device. Available -> correct device shipped to the customer. Not available -> automated refund, charged to the seller (actual cost). Case closed.' Caption 'Valid: replacement or refund'."}
+      ],
+      "says": "You'll then either send the right device, or the customer is refunded.",
+      "why": ""
+    },
+    {
+      "at": "01:05",
+      "screen": "Claim detail panel, top action bar",
+      "action": "Clicks the Mark valid button at the top of the claim",
+      "evidence": [
+        {"kind": "say", "at": "01:05", "quote": "If the customer is right, click {Mark?} Valid at the top of the claim.", "frame": ""},
+        {"kind": "see", "at": "01:05", "frame": "t00065.jpg", "quote": "Cursor on the 'Mark valid' icon (first icon in the claim action bar, left of 'Mark invalid'), tooltip 'Mark valid' showing. Caption 'Click Mark valid'."}
+      ],
+      "says": "If the customer is right, click {Mark?} Valid at the top of the claim.",
+      "why": ""
+    },
+    {
+      "at": "01:09",
+      "screen": "Device availability dialog",
+      "action": "The availability question appears in the dialog",
+      "evidence": [
+        {"kind": "say", "at": "01:09", "quote": "One question pops up.", "frame": ""},
+        {"kind": "say", "at": "01:11", "quote": "Is the correct device available for replacement?", "frame": ""},
+        {"kind": "see", "at": "01:11", "frame": "t00070.jpg", "quote": "Dialog 'Please confirm device availability' with dropdown 'Device Available For Replacement?' showing options Yes and No. Caption 'Do you have the right device?'."}
+      ],
+      "says": "Is the correct device available for replacement?",
+      "why": ""
+    },
+    {
+      "at": "01:14",
+      "screen": "Device availability dialog with IMEI field",
+      "action": "Narration says to choose Yes and enter the IMEI of the device to send; the frame shows Yes selected and the IMEI field being typed into. Confirm is not clicked on screen",
+      "evidence": [
+        {"kind": "say", "at": "01:14", "quote": "If you have it in stock, choose Yes, enter the IMEI of the device you'll send, and confirm.", "frame": ""},
+        {"kind": "see", "at": "01:14", "frame": "t00075.jpg", "quote": "Dialog with 'Device Available For Replacement?' = Yes and a field 'Replacement Device IMEI' (typing begins). Buttons Cancel and Confirm. Caption 'Yes -> enter the new IMEI'."}
+      ],
+      "says": "If you have it in stock, choose Yes, enter the IMEI of the device you'll send, and confirm.",
+      "why": ""
+    },
+    {
+      "at": "01:21",
+      "screen": "Ship back tracking section",
+      "action": "Narration says the claim moves to ship back, just like after a repair; the shipback section shown is for a different sample claim (SJRS808)",
+      "evidence": [
+        {"kind": "say", "at": "01:21", "quote": "The claim moves to ship back, just like after a repair.", "frame": ""},
+        {"kind": "see", "at": "01:21", "frame": "t00082.jpg", "quote": "Tab 'Ship back under collection (1)' with claim SJRS808. Sections: 'Shipback Tracking Information' (Shipback Tracking ID, Shipback Tracking Label Link, Shipback Tracking Company = Quiqup, Shipback Tracking Link), 'LAB to Seller Tracking Information', 'Seller to Revibe Tracking Information', 'Payment & Delivery' (Payment method shopify_payments, Refund type). Buttons Save and Cancel. Caption 'Then ship it, like any ship-back'."}
+      ],
+      "says": "The claim moves to ship back, just like after a repair.",
+      "why": ""
+    },
+    {
+      "at": "01:24",
+      "screen": "Ship back tracking section",
+      "action": "Narration says the seller enters the ship back label yourself in Saudi Arabia; no Saudi-specific step is shown on screen",
+      "evidence": [
+        {"kind": "say", "at": "01:24", "quote": "In Saudi Arabia, enter the ship back {label?} yourself.", "frame": ""},
+        {"kind": "see", "at": "01:24", "frame": "t00082.jpg", "quote": "Shipback Tracking Label Link field is visible, already populated on this sample claim (Quiqup). No Saudi-specific entry step is shown on screen."}
+      ],
+      "says": "In Saudi Arabia, enter the ship back {label?} yourself.",
+      "why": ""
+    },
+    {
+      "at": "01:29",
+      "screen": "Device availability dialog",
+      "action": "Narration says to choose No when the right device is not in stock; the frame at this point shows Yes selected (see unclear)",
+      "evidence": [
+        {"kind": "say", "at": "01:29", "quote": "If you don't have the right device, choose no.", "frame": ""},
+        {"kind": "say", "at": "01:31", "quote": "No IMEI is needed.", "frame": ""},
+        {"kind": "see", "at": "01:31", "frame": "t00089.jpg", "quote": "Caption 'No -> no IMEI needed', but the dropdown shows Yes and the IMEI field contains 123456789. See unclear entry."}
+      ],
+      "says": "If you don't have the right device, choose no.",
+      "why": ""
+    },
+    {
+      "at": "01:34",
+      "screen": "Claim statuses view",
+      "action": "Narration says confirming moves the claim straight to Ready for refund; the statuses view shows Stage Ready for refund",
+      "evidence": [
+        {"kind": "say", "at": "01:34", "quote": "Confirm and the claim moves straight to ready for refund.", "frame": ""},
+        {"kind": "see", "at": "01:34", "frame": "t00094.jpg", "quote": "Action bar icons include 'Refund to customer'. Statuses: Stage 'Ready for refund', Status 'Open', Valid claim 'Valid Claim', Device Available For Replacement? 'No', Refund to cx status 'Ready For Refund', Pickup Shipment Status 'Delivered'. Caption 'Stage: Ready for refund'."}
+      ],
+      "says": "Confirm and the claim moves straight to ready for refund.",
+      "why": ""
+    },
+    {
+      "at": "01:38",
+      "screen": "Valid card zoom",
+      "action": "Explains the automated refund for the not-available path",
+      "evidence": [
+        {"kind": "say", "at": "01:38", "quote": "Revive refunds the customer automatically and charges the refund to you at actual cost.", "frame": ""},
+        {"kind": "see", "at": "01:38", "frame": "t00099.jpg", "quote": "Caption 'Refund charged to you · you keep the device' over the highlighted 'Not available -> automated refund, charged to the seller (actual cost). Case closed.' line."}
+      ],
+      "says": "Revive refunds the customer automatically and charges the refund to you at actual cost.",
+      "why": ""
+    },
+    {
+      "at": "01:44",
+      "screen": "Valid card zoom",
+      "action": "Explains that the case closes and the seller keeps the device",
+      "evidence": [
+        {"kind": "say", "at": "01:44", "quote": "The case is closed and you keep the device, there's no extra shipping.", "frame": ""},
+        {"kind": "see", "at": "01:44", "frame": "t00099.jpg", "quote": "Caption 'Refund charged to you · you keep the device' with 'Not available -> automated refund, charged to the seller (actual cost). Case closed.' highlighted."}
+      ],
+      "says": "The case is closed and you keep the device, there's no extra shipping.",
+      "why": ""
+    },
+    {
+      "at": "01:48",
+      "screen": "Invalid card on overview slide",
+      "action": "Explains that a non-wrong-device claim is marked invalid",
+      "evidence": [
+        {"kind": "say", "at": "01:48", "quote": "If it's not a wrong device, mark the claim invalid with a written reason and proof, exactly like", "frame": ""},
+        {"kind": "say", "at": "01:55", "quote": "an issue claim.", "frame": ""},
+        {"kind": "see", "at": "01:48", "frame": "t00110.jpg", "quote": "Caption 'Invalid: written reason + proof'. Card: 'Seller submits proof - Required: written reason + supporting proof to challenge the customer claim.'"}
+      ],
+      "says": "If it's not a wrong device, mark the claim invalid with a written reason and proof, exactly like an issue claim.",
+      "why": ""
+    },
+    {
+      "at": "02:02",
+      "screen": "Enter proof of invalid claim dialog",
+      "action": "Narration says to choose the reason, add a comment and upload proof; the dialog shows reason Misuse, an empty comment and an empty file area",
+      "evidence": [
+        {"kind": "say", "at": "02:02", "quote": "Choose the reason, add a comment, and upload your proof.", "frame": ""},
+        {"kind": "see", "at": "02:02", "frame": "t00123.jpg", "quote": "Dialog 'Enter proof of invalid claim' with 'Invalid claim reason' dropdown (showing Misuse), 'Invalid claim comment' field, 'Proof of invalid claim by supplier' drop zone ('Drop or Select file'), note 'Attachment should be less than 100 mb', buttons Cancel and Add. Caption 'Add as much proof as you can'."}
+      ],
+      "says": "Choose the reason, add a comment, and upload your proof.",
+      "why": ""
+    },
+    {
+      "at": "02:05",
+      "screen": "Enter proof of invalid claim dialog",
+      "action": "Advises adding as much proof as possible",
+      "evidence": [
+        {"kind": "say", "at": "02:05", "quote": "The more proof, the better.", "frame": ""},
+        {"kind": "see", "at": "02:05", "frame": "t00123.jpg", "quote": "Caption 'Add as much proof as you can'."}
+      ],
+      "says": "The more proof, the better.",
+      "why": ""
+    },
+    {
+      "at": "02:08",
+      "screen": "Enter proof dialog with comment and file slot (t00126.jpg)",
+      "action": "Shows a comment 'ABCD' entered and a file slot with a remove X; the cursor is on Add",
+      "evidence": [
+        {"kind": "see", "at": "02:08", "frame": "t00126.jpg", "quote": "'Invalid claim comment' filled with ABCD, a file slot with a remove X appears under 'Proof of invalid claim by supplier', cursor on Add."}
+      ]
+    },
+    {
+      "at": "02:08",
+      "screen": "Revibe checks proof card",
+      "action": "Explains that Revibe checks the proof",
+      "evidence": [
+        {"kind": "say", "at": "02:08", "quote": "Revive checks your proof.", "frame": ""},
+        {"kind": "see", "at": "02:09", "frame": "t00129.jpg", "quote": "Card 'Revibe checks proof': 'Good proof -> device sent to Lab; Proof rejected -> re-marked Valid -> replacement or refund; Repair partner: no Lab, Revibe decides'. Caption 'Revibe checks your proof'."}
+      ],
+      "says": "Revive checks your proof.",
+      "why": ""
+    },
+    {
+      "at": "02:09",
+      "screen": "Revibe checks proof card",
+      "action": "Explains the good-proof and rejected-proof outcomes",
+      "evidence": [
+        {"kind": "say", "at": "02:09", "quote": "If it's good, the device goes to the lab.", "frame": ""},
+        {"kind": "say", "at": "02:12", "quote": "If it's rejected, the claim is marked valid again, so you replace a refund.", "frame": ""}
+      ],
+      "says": "If it's rejected, the claim is marked valid again, so you replace a refund.",
+      "why": ""
+    },
+    {
+      "at": "02:18",
+      "screen": "Lab final decision card",
+      "action": "Explains the lab decision for valid and invalid outcomes",
+      "evidence": [
+        {"kind": "say", "at": "02:18", "quote": "The lab decides, valid, the customer gets a full refund, and the device comes back to you.", "frame": ""},
+        {"kind": "see", "at": "02:19", "frame": "t00139.jpg", "quote": "Card 'Revibe Lab final decision': 'Valid -> full refund + ship back to seller; Invalid -> customer pays = ship to customer; doesn't pay = device disposed'. Caption 'Lab: valid → refund · invalid → returned'."}
+      ],
+      "says": "The lab decides, valid, the customer gets a full refund, and the device comes back to you.",
+      "why": ""
+    },
+    {
+      "at": "02:23",
+      "screen": "Lab final decision card",
+      "action": "Explains the invalid outcome",
+      "evidence": [
+        {"kind": "say", "at": "02:23", "quote": "Invalid, the device returns to the customer at their cost.", "frame": ""}
+      ],
+      "says": "Invalid, the device returns to the customer at their cost.",
+      "why": ""
+    },
+    {
+      "at": "02:28",
+      "screen": "Delivery failed box on overview slide",
+      "action": "Explains a failed ship-back delivery",
+      "evidence": [
+        {"kind": "say", "at": "02:28", "quote": "If a ship back delivery fails, Revive offers the customer a new attempt.", "frame": ""},
+        {"kind": "see", "at": "02:28", "frame": "t00150.jpg", "quote": "Box: 'Delivery failed on ship-back: agent offers a new AWB · refused → device sent to disposal. Payment: all refunds, credits and charges appear in the payment tool.'"}
+      ],
+      "says": "If a ship back delivery fails, Revive offers the customer a new attempt.",
+      "why": ""
+    },
+    {
+      "at": "02:33",
+      "screen": "Delivery failed box on overview slide",
+      "action": "Points out where refunds and charges appear",
+      "evidence": [
+        {"kind": "say", "at": "02:33", "quote": "And all refunds, credits, and charges appear in your payment tool.", "frame": ""}
+      ],
+      "says": "And all refunds, credits, and charges appear in your payment tool.",
+      "why": ""
+    },
+    {
+      "at": "02:38",
+      "screen": "Recap slide",
+      "action": "Narration closes the wrong-device process",
+      "evidence": [
+        {"kind": "say", "at": "02:38", "quote": "That's the wrong device process.", "frame": ""},
+        {"kind": "see", "at": "02:37", "frame": "t00157.jpg", "quote": "Recap 'Right device, or refund' on screen."}
+      ],
+      "says": "That's the wrong device process.",
+      "why": ""
+    },
+    {
+      "at": "02:39",
+      "screen": "Recap slide",
+      "action": "Points to the key account manager for questions",
+      "evidence": [
+        {"kind": "say", "at": "02:39", "quote": "{Any?} question, ask your key account manager.", "frame": ""},
+        {"kind": "see", "at": "02:37", "frame": "t00157.jpg", "quote": "Recap 'Right device, or refund': 'Valid -> in stock: send the right device · not in stock: refund · Invalid -> reason + proof'. Button 'Questions? Ask your Key Account Manager'."}
+      ],
+      "says": "{Any?} question, ask your key account manager.",
+      "why": ""
+    }
+  ],
+  "facts": [
+    {
+      "type": "rule",
+      "statement": "A wrong-device claim follows the same four steps as any warranty claim; only the outcome differs.",
+      "evidence": [
+        {"kind": "say", "at": "00:08", "quote": "A wrong device claim follows the same four steps as any warranty claim, only the outcome is different.", "frame": ""},
+        {"kind": "see", "at": "00:08", "frame": "t00008.jpg", "quote": "Four step cards: 1 Customer raise claim, 2 Revibe Agent Check, 3 Pickup, 4 Seller action."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "A wrong-device claim applies when the customer received a different device than the one they ordered.",
+      "evidence": [
+        {"kind": "say", "at": "00:15", "quote": "The customer received a different device than the one they ordered.", "frame": ""},
+        {"kind": "see", "at": "00:17", "frame": "t00017.jpg", "quote": "Scope box: customer received a different device than ordered."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Scope: the customer received a different device than the one ordered, under warranty. There is no warranty-period check. The claim goes straight to the original seller (or repair partner).",
+      "evidence": [
+        {"kind": "say", "at": "00:18", "quote": "There's no warranty period check.", "frame": ""},
+        {"kind": "see", "at": "00:17", "frame": "t00017.jpg", "quote": "Scope box: customer received a different device than ordered, under warranty, no warranty-period check, the claim goes straight to the original seller (or repair partner)."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Steps 1 (customer raises claim) and 2 (Revibe Agent Check) need no action from the seller.",
+      "evidence": [
+        {"kind": "say", "at": "00:24", "quote": "Steps {1?} and 2 need nothing from you.", "frame": ""},
+        {"kind": "see", "at": "00:24", "frame": "t00025.jpg", "quote": "Cards 1 and 2 labelled NO ACTION REQUIRED; caption 'Steps 1–2: no action for you'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Step 1: the customer raises the wrong-device claim through the 'My Account' section on Revibe. The claim status is Pending (Revibe team to review).",
+      "evidence": [
+        {"kind": "say", "at": "00:26", "quote": "The customer raises the claim from my account and a {revive?} agent checks their proof.", "frame": ""},
+        {"kind": "see", "at": "00:24", "frame": "t00025.jpg", "quote": "'The customer raises a wrong-device claim through the My Account section on Revibe. Status: Pending (Revibe team to review)'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "Step 2 (Revibe Agent Check): the Revibe agent reviews the customer's proof. Missing documents are requested; proof not provided leads to Cancelled. Once validated, the request moves on. Status is Pending Collection.",
+      "evidence": [
+        {"kind": "see", "at": "00:24", "frame": "t00025.jpg", "quote": "'The agent reviews the customer's proof (missing docs -> requested; not provided -> Cancelled). Once validated the request moves on. Status: Pending Collection'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Pickup, AE and Others: the AWB is auto-created and the claim moves to Under Collection immediately. AE = Quiqup; Others = DHL. The narrator says AE is the UAE (speech only; see unclear).",
+      "evidence": [
+        {"kind": "say", "at": "00:33", "quote": "In the UAE, QuickUp collects the device and DHL in other countries.", "frame": ""},
+        {"kind": "see", "at": "00:33", "frame": "t00033.jpg", "quote": "'AE & Others: AWB auto-created (AE = Quiqup · Others = DHL) — moves to Under Collection immediately'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Pickup, Saudi Arabia (SA): the seller creates the AWB manually.",
+      "evidence": [
+        {"kind": "say", "at": "00:40", "quote": "In Saudi Arabia, you create it.", "frame": ""},
+        {"kind": "see", "at": "00:40", "frame": "t00033.jpg", "quote": "'SA: Seller to create the AWB manually'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Repair partner pickup is always automatic (SA = Naqel).",
+      "evidence": [
+        {"kind": "see", "at": "00:33", "frame": "t00033.jpg", "quote": "'Repair partner: always auto (SA = Naqel)'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "In the seller's R - Seller Warranties view, the wrong-device claim appears under the Under QC group with Type Warranty and Subtype Wrong device.",
+      "evidence": [
+        {"kind": "say", "at": "00:43", "quote": "In your seller warranties view, the claim appears under QC with the subtype wrong device.", "frame": ""},
+        {"kind": "see", "at": "00:43", "frame": "t00043.jpg", "quote": "Left menu 'R - Seller Warranties' selected; group 'Under QC (1)'; row TBGV164, Warranty, Wrong device."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Seller action: once the courier delivers the device, the seller can see the claim and its status becomes Under QC. The seller then chooses Mark VALID or Mark INVALID.",
+      "evidence": [
+        {"kind": "see", "at": "00:08", "frame": "t00008.jpg", "quote": "'Once the Courier Company delivers the seller can see the claim which status becomes Under QC.' Two options shown: Mark [VALID] and Mark [INVALID]."},
+        {"kind": "say", "at": "00:43", "quote": "In your seller warranties view, the claim appears under QC with the subtype wrong device.", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Open the claim to see the customer's issue and details, then check the device you received.",
+      "evidence": [
+        {"kind": "say", "at": "00:50", "quote": "Open it to see the customer's issue and details.", "frame": ""},
+        {"kind": "say", "at": "00:53", "quote": "Then check the device you received.", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Decision: if the customer is right (the device received really is the wrong one), mark the claim Valid. If it is not a wrong device, mark it Invalid.",
+      "evidence": [
+        {"kind": "say", "at": "00:57", "quote": "If the customer is right, mark the claim valid.", "frame": ""},
+        {"kind": "say", "at": "01:48", "quote": "If it's not a wrong device, mark the claim invalid with a written reason and proof, exactly like", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Click Mark valid at the top of the claim panel (first icon in the action bar, left of Mark invalid).",
+      "evidence": [
+        {"kind": "say", "at": "01:05", "quote": "If the customer is right, click {Mark?} Valid at the top of the claim.", "frame": ""},
+        {"kind": "see", "at": "01:05", "frame": "t00065.jpg", "quote": "Cursor on 'Mark valid' icon, tooltip 'Mark valid'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "After Mark valid, the dialog 'Please confirm device availability' asks 'Device Available For Replacement?' with Yes or No.",
+      "evidence": [
+        {"kind": "say", "at": "01:11", "quote": "Is the correct device available for replacement?", "frame": ""},
+        {"kind": "see", "at": "01:11", "frame": "t00070.jpg", "quote": "Dialog 'Please confirm device availability', dropdown 'Device Available For Replacement?' with options Yes and No; caption 'Do you have the right device?'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "If the right device is in stock: choose Yes, enter the IMEI of the device you will send in the 'Replacement Device IMEI' field, then confirm.",
+      "evidence": [
+        {"kind": "say", "at": "01:14", "quote": "If you have it in stock, choose Yes, enter the IMEI of the device you'll send, and confirm.", "frame": ""},
+        {"kind": "see", "at": "01:14", "frame": "t00075.jpg", "quote": "Dialog with 'Device Available For Replacement?' = Yes, field 'Replacement Device IMEI', buttons Cancel and Confirm; caption 'Yes -> enter the new IMEI'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "If the right device is not in stock: choose No. No IMEI is needed (narration).",
+      "evidence": [
+        {"kind": "say", "at": "01:29", "quote": "If you don't have the right device, choose no.", "frame": ""},
+        {"kind": "say", "at": "01:31", "quote": "No IMEI is needed.", "frame": ""},
+        {"kind": "see", "at": "01:31", "frame": "t00089.jpg", "quote": "Caption 'No -> no IMEI needed'. The dropdown on this frame shows Yes (see unclear)."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "After a Valid confirmation with a replacement, the claim moves to ship back, the same as after a repair. The ship back section shows Shipback Tracking ID, Shipback Tracking Label Link, Shipback Tracking Company and Shipback Tracking Link (shown on sample claim SJRS808).",
+      "evidence": [
+        {"kind": "say", "at": "01:21", "quote": "The claim moves to ship back, just like after a repair.", "frame": ""},
+        {"kind": "see", "at": "01:21", "frame": "t00082.jpg", "quote": "Tab 'Ship back under collection (1)'; section 'Shipback Tracking Information' with Shipback Tracking ID, Label Link, Company (Quiqup), Tracking Link."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "In Saudi Arabia, the seller enters the ship back label yourself (narration only; no Saudi entry step is visible on screen).",
+      "evidence": [
+        {"kind": "say", "at": "01:24", "quote": "In Saudi Arabia, enter the ship back {label?} yourself.", "frame": ""},
+        {"kind": "see", "at": "01:24", "frame": "t00082.jpg", "quote": "Shipback Tracking Label Link field present; the sample claim already shows Quiqup data, and no Saudi entry step is visible."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Confirming a No availability answer moves the claim to stage Ready for refund.",
+      "evidence": [
+        {"kind": "say", "at": "01:34", "quote": "Confirm and the claim moves straight to ready for refund.", "frame": ""},
+        {"kind": "see", "at": "01:34", "frame": "t00094.jpg", "quote": "Stage 'Ready for refund'; 'Device Available For Replacement?' = No; 'Refund to cx status' = Ready For Refund."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Replacement not available (No): Revibe refunds the customer automatically and charges the refund to the seller at actual cost. The case is closed and the seller keeps the device. There is no extra shipping.",
+      "evidence": [
+        {"kind": "say", "at": "01:38", "quote": "Revive refunds the customer automatically and charges the refund to you at actual cost.", "frame": ""},
+        {"kind": "say", "at": "01:44", "quote": "The case is closed and you keep the device, there's no extra shipping.", "frame": ""},
+        {"kind": "see", "at": "01:44", "frame": "t00099.jpg", "quote": "'Not available -> automated refund, charged to the seller (actual cost). Case closed.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Replacement available (Yes): the correct device is shipped to the customer. The seller confirms stock of the right device before choosing Yes.",
+      "evidence": [
+        {"kind": "see", "at": "01:00", "frame": "t00058.jpg", "quote": "'Seller confirms stock of the right device. Available -> correct device shipped to the customer.'"},
+        {"kind": "say", "at": "01:14", "quote": "If you have it in stock, choose Yes, enter the IMEI of the device you'll send, and confirm.", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "A higher-spec device is not a wrong device.",
+      "evidence": [
+        {"kind": "say", "at": "01:56", "quote": "Note, a higher spec device, for example {more?} storage, is not a wrong device.", "frame": ""}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "To mark a claim Invalid: choose the invalid claim reason, add a comment, and upload proof (the dialog's 'Proof of invalid claim by supplier' area), then click Add.",
+      "evidence": [
+        {"kind": "say", "at": "02:02", "quote": "Choose the reason, add a comment, and upload your proof.", "frame": ""},
+        {"kind": "see", "at": "02:02", "frame": "t00123.jpg", "quote": "Dialog 'Enter proof of invalid claim': reason dropdown, 'Invalid claim comment', proof drop zone, Cancel and Add."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Invalid claim proof: the dialog says attachments must be less than 100 MB. The required content is a written reason and supporting proof to challenge the customer claim.",
+      "evidence": [
+        {"kind": "see", "at": "02:02", "frame": "t00123.jpg", "quote": "'Attachment should be less than 100 mb'."},
+        {"kind": "see", "at": "01:48", "frame": "t00110.jpg", "quote": "'Required: written reason + supporting proof to challenge the customer claim.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "tip",
+      "statement": "The more proof you add, the better.",
+      "evidence": [
+        {"kind": "say", "at": "02:05", "quote": "The more proof, the better.", "frame": ""},
+        {"kind": "see", "at": "02:05", "frame": "t00123.jpg", "quote": "Caption 'Add as much proof as you can'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "The invalid path runs: seller submits proof, then Revibe checks the proof, then the Lab verifies. Shown on the slide as 'Proof Required -> Revibe Review -> Lab Verification'.",
+      "evidence": [
+        {"kind": "see", "at": "01:48", "frame": "t00110.jpg", "quote": "'INVALID' box with 'Proof Required -> Revibe Review -> Lab Verification'."},
+        {"kind": "see", "at": "00:08", "frame": "t00008.jpg", "quote": "'Proof Required → Revibe Review → Lab Verification'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "After an Invalid claim, Revibe checks the proof. A good proof sends the device to the Lab. A rejected proof re-marks the claim Valid, leading to a replacement or refund. For a repair partner there is no Lab and Revibe decides.",
+      "evidence": [
+        {"kind": "say", "at": "02:08", "quote": "Revive checks your proof.", "frame": ""},
+        {"kind": "say", "at": "02:09", "quote": "If it's good, the device goes to the lab.", "frame": ""},
+        {"kind": "see", "at": "02:09", "frame": "t00129.jpg", "quote": "'Good proof -> device sent to Lab; Proof rejected -> re-marked Valid -> replacement or refund; Repair partner: no Lab, Revibe decides'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Lab final decision, Valid: the customer gets a full refund and the device is shipped back to the seller.",
+      "evidence": [
+        {"kind": "say", "at": "02:18", "quote": "The lab decides, valid, the customer gets a full refund, and the device comes back to you.", "frame": ""},
+        {"kind": "see", "at": "02:19", "frame": "t00139.jpg", "quote": "'Valid -> full refund + ship back to seller'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "Lab final decision, Invalid: the customer pays, and the device is then shipped to the customer. If the customer does not pay, the device is disposed of.",
+      "evidence": [
+        {"kind": "say", "at": "02:23", "quote": "Invalid, the device returns to the customer at their cost.", "frame": ""},
+        {"kind": "see", "at": "02:19", "frame": "t00139.jpg", "quote": "'Invalid -> customer pays = ship to customer; doesn't pay = device disposed'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "If a ship-back delivery fails, the agent offers a new AWB (screen wording 'agent'; narration says Revibe offers the customer a new attempt). If the customer refuses, the device is sent to disposal.",
+      "evidence": [
+        {"kind": "say", "at": "02:28", "quote": "If a ship back delivery fails, Revive offers the customer a new attempt.", "frame": ""},
+        {"kind": "see", "at": "02:28", "frame": "t00150.jpg", "quote": "'Delivery failed on ship-back: agent offers a new AWB · refused → device sent to disposal.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "All refunds, credits and charges appear in the payment tool.",
+      "evidence": [
+        {"kind": "say", "at": "02:33", "quote": "And all refunds, credits, and charges appear in your payment tool.", "frame": ""},
+        {"kind": "see", "at": "02:28", "frame": "t00150.jpg", "quote": "'Payment: all refunds, credits and charges appear in the payment tool.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Questions about the wrong-device process go to your key account manager.",
+      "evidence": [
+        {"kind": "say", "at": "02:39", "quote": "{Any?} question, ask your key account manager.", "frame": ""},
+        {"kind": "see", "at": "02:37", "frame": "t00157.jpg", "quote": "Button 'Questions? Ask your Key Account Manager'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The seller's claim panel header shows a 'Seller policy timer' (on TBGV164: 8 days left). The video does not explain the timer.",
+      "evidence": [
+        {"kind": "see", "at": "00:50", "frame": "t00050.jpg", "quote": "'Seller policy timer: 8 days left'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    }
+  ],
+  "screens": [
+    {
+      "name": "Title card",
+      "shows": "'REVIBE · WARRANTY PROCESS' / 'Wrong device claims' / 'Replace it, or refund it'.",
+      "at": "00:01",
+      "where": "Video title frame (t00001.jpg)"
+    },
+    {
+      "name": "Workflow overview slide",
+      "shows": "'Revibe Warranty - Wrong Device' with four step cards (1 Customer raise claim; 2 Revibe Agent Check; 3 Pickup; 4 Seller action), a Dispute resolution section with a VALID box (Replacement or Refund) and an INVALID box (Proof Required -> Revibe Review -> Lab Verification), and a bottom box 'Delivery failed on ship-back ... Payment: all refunds, credits and charges appear in the payment tool.'",
+      "at": "00:08",
+      "where": "t00008.jpg"
+    },
+    {
+      "name": "Claims list - R - Seller Warranties view",
+      "shows": "Left sidebar with 'R - Seller Warranties' selected. Table title 'Claims', search key 'Claim id', buttons Export, Groups, More Filters, 'Raise a claim'. Columns: Seller Elapsed Ho..., Claim ID, Claim Date, Order Help, Type, Subtype, Issue, Since creation, Since last stage, Since last update, Type. Groups: 'Under QC (1)' (TBGV164, 16/10/2026 12:54 PM, order 108200-2, Warranty, Wrong device, 'I received the wrong device'), 'Pending LAB collection (1)' (NMAV339, Issue), 'Cancelled (39)'. Footer '1–58 of 58', Dense toggle on.",
+      "at": "00:43",
+      "where": "t00043.jpg, t00048.jpg"
+    },
+    {
+      "name": "Claim detail panel (TBGV164)",
+      "shows": "Right-hand panel 'Claim # TBGV164' with Open badge, Edit and Tracker buttons, 'Seller policy timer: 8 days left' bar, top action icons Mark valid and Mark invalid. Fields: Claim ID, Order help, Issue, Issue Details (shows 'Wrong Language'), Description, Translated description, Type of request, Explanation to show, Name to show, Order details ('iphone-7 Black / 32 GB / Good'), Cancellation reason (customer), Replacement Device IMEI, Reason for claim cancellation, Disposal reason, Information complete? (Completed), Customer action required, Missing document, Rejection reason.",
+      "at": "00:50",
+      "where": "t00050.jpg, t00055.jpg"
+    },
+    {
+      "name": "Device availability dialog",
+      "shows": "'Please confirm device availability', dropdown 'Device Available For Replacement?' (Yes / No). After Yes: field 'Replacement Device IMEI' with Cancel and Confirm buttons. The t00089 frame shows Yes selected with IMEI 123456789 under the caption 'No -> no IMEI needed'.",
+      "at": "01:09",
+      "where": "t00070.jpg, t00075.jpg, t00089.jpg"
+    },
+    {
+      "name": "Claim action bar (after valid)",
+      "shows": "Icons in order: Mark valid, Mark invalid, Refund to customer, To be returned to supplier, Reject refund to supplier, Waive refund to supplier, Cancel override, Validate address, Revoke claim, Repair finished.",
+      "at": "01:34",
+      "where": "t00094.jpg, t00089.jpg (background)"
+    },
+    {
+      "name": "Claim statuses section (TBGV164 after confirm)",
+      "shows": "Type Warranty; Subtype Wrong device; Stage 'Ready for refund'; Status Open; Valid claim 'Valid Claim'; Device Available For Replacement? 'No'; Received By Supplier 'Yes'; Refund to cx status 'Ready For Refund'; Pickup Shipment Status 'Delivered'; fields for Customer wants AWB?, Refund to supplier status, Credit from supplier/customer status, Refunded to cx at, Shopify credit status, Policy status. Frame t00096 shows the same statuses view again (caption 'Stage: Ready for refund').",
+      "at": "01:34",
+      "where": "t00094.jpg, t00096.jpg"
+    },
+    {
+      "name": "Ship back tracking section (SJRS808)",
+      "shows": "Tab 'Ship back under collection (1)'. Sections: Shipback Tracking Information (Shipback Tracking ID, Shipback Tracking Label Link, Shipback Tracking Company 'Quiqup', Shipback Tracking Link, Shipback Shipment Error), LAB to Seller Tracking Information, Seller to Revibe Tracking Information, Payment & Delivery (Payment method 'shopify_payments', Refund type). Buttons Save, Cancel, Tracker. Header shows 'Seller policy timer: 8 days left (paused)'.",
+      "at": "01:21",
+      "where": "t00082.jpg"
+    },
+    {
+      "name": "Valid card (Replacement or Refund)",
+      "shows": "'VALID - Replacement or Refund': Seller confirms stock of the right device. Available -> correct device shipped to the customer. Not available -> automated refund, charged to the seller (actual cost). Case closed. Caption on t00099: 'Refund charged to you · you keep the device'.",
+      "at": "01:00",
+      "where": "t00058.jpg, t00099.jpg"
+    },
+    {
+      "name": "Invalid card (Dispute resolution)",
+      "shows": "'INVALID - Proof Required -> Revibe Review -> Lab Verification'. Seller submits proof: Required: written reason + supporting proof to challenge the customer claim. Revibe checks proof: Good proof -> device sent to Lab; Proof rejected -> re-marked Valid -> replacement or refund; Repair partner: no Lab, Revibe decides. Revibe Lab final decision: Valid -> full refund + ship back to seller; Invalid -> customer pays = ship to customer; doesn't pay = device disposed.",
+      "at": "01:48",
+      "where": "t00110.jpg, t00129.jpg, t00139.jpg"
+    },
+    {
+      "name": "Enter proof of invalid claim dialog",
+      "shows": "Title 'Enter proof of invalid claim'. Field 'Invalid claim reason' (shows Misuse), field 'Invalid claim comment', section 'Proof of invalid claim by supplier' with 'Drop or Select file' area, note 'Attachment should be less than 100 mb', buttons Cancel and Add. Claim NMAV339 shown in the background, group 'Under QC (2)'.",
+      "at": "02:02",
+      "where": "t00123.jpg, t00126.jpg"
+    },
+    {
+      "name": "Delivery failed box",
+      "shows": "'Delivery failed on ship-back: agent offers a new AWB - refused -> device sent to disposal. Payment: all refunds, credits and charges appear in the payment tool.'",
+      "at": "02:28",
+      "where": "t00150.jpg"
+    },
+    {
+      "name": "Recap slide",
+      "shows": "'Right device, or refund' - 'Valid -> in stock: send the right device · not in stock: refund · Invalid -> reason + proof' with button 'Questions? Ask your Key Account Manager'. Footer 'Revibe · Supply team training'.",
+      "at": "02:39",
+      "where": "t00157.jpg, t00162.jpg"
+    }
+  ],
+  "terms": [
+    {"term": "Wrong device claim", "meaning": "A warranty claim where the customer received a different device than the one they ordered (subtype 'Wrong device').", "at": "00:08"},
+    {"term": "Subtype: Wrong device", "meaning": "The subtype label of a warranty claim in the seller warranties view, shown under Type 'Warranty'.", "at": "00:43"},
+    {"term": "Under QC", "meaning": "The claim group where the seller can see a claim after the courier delivers the device; the seller then marks it Valid or Invalid. Also shown as the status name on the overview slide.", "at": "00:43"},
+    {"term": "AWB", "meaning": "The shipment document number created for pickup (screen: 'AWB auto-created'; 'Seller to create the AWB manually'). The video does not expand the abbreviation.", "at": "00:38"},
+    {"term": "AE", "meaning": "Pickup partner label on the overview slide: 'AE = Quiqup'. The narrator calls this the UAE (speech only).", "at": "00:33"},
+    {"term": "Others", "meaning": "Pickup partner label on the overview slide for other countries: 'Others = DHL'.", "at": "00:33"},
+    {"term": "SA", "meaning": "Saudi Arabia, where the seller creates the AWB manually (narrator: 'In Saudi Arabia'; screen: 'SA: Seller to create the AWB manually').", "at": "00:40"},
+    {"term": "Repair partner", "meaning": "A repair partner: pickup is always automatic (screen: SA = Naqel); the slide says 'Repair partner: no Lab, Revibe decides' for invalid proof.", "at": "00:33"},
+    {"term": "Valid claim", "meaning": "Claim outcome after the seller marks it Valid: the customer gets the right device (if in stock) or an automated refund (if not).", "at": "01:05"},
+    {"term": "Invalid claim", "meaning": "Claim outcome when the device is not the wrong one: the seller submits a written reason and proof, then Revibe and the Lab decide.", "at": "01:48"},
+    {"term": "Ready for refund", "meaning": "Claim stage shown after the availability answer is No and the claim is confirmed (screen: Stage 'Ready for refund').", "at": "01:34"},
+    {"term": "Ship back", "meaning": "The return shipment of the device; the claim moves to 'Ship back under collection' (screen tab name) after a Valid confirmation with a replacement, per the narration.", "at": "01:21"},
+    {"term": "Replacement Device IMEI", "meaning": "The IMEI field of the replacement device the seller will send; shown when the device is available (Yes).", "at": "01:14"},
+    {"term": "Device Available For Replacement", "meaning": "The yes/no dropdown answering 'Is the correct device available for replacement?' (in stock).", "at": "01:11"},
+    {"term": "Seller policy timer", "meaning": "A timer shown in the claim panel header (sample shows '8 days left'); the video does not explain it.", "at": "00:50"},
+    {"term": "Lab", "meaning": "The Revibe lab that verifies a seller's invalid proof (slide: 'Good proof -> device sent to Lab'); the slide says there is no Lab for repair partners.", "at": "02:09"},
+    {"term": "Disposal", "meaning": "Device disposed of when the customer does not pay for the return of an invalid device (slide), or refuses a ship-back delivery (slide: 'refused -> device sent to disposal').", "at": "02:23"}
+  ],
+  "asr_fixes": [
+    {"at": "00:24", "heard": "Steps {1?} and 2", "correct": "Steps 1 and 2", "basis": "Frame t00025.jpg caption 'Steps 1–2: no action for you'."},
+    {"at": "00:26", "heard": "{revive?} agent", "correct": "Revibe agent", "basis": "Frame t00008.jpg and t00025.jpg show 'Revibe Agent Check'; brand is Revibe."},
+    {"at": "00:32", "heard": "pickup.?", "correct": "Pickup", "basis": "Step card titled 'Pickup' on frame t00033.jpg."},
+    {"at": "00:33", "heard": "QuickUp", "correct": "Quiqup", "basis": "Frame t00033.jpg: 'AE = Quiqup'."},
+    {"at": "00:38", "heard": "The {Wable?} is created automatically.", "correct": "The AWB is created automatically.", "basis": "Frame t00033.jpg: 'AWB auto-created'."},
+    {"at": "01:05", "heard": "click {Mark?} Valid", "correct": "click Mark valid", "basis": "Frame t00065.jpg: 'Mark valid' icon and tooltip."},
+    {"at": "01:24", "heard": "enter the ship back {label?} yourself", "correct": "enter the ship back label yourself", "basis": "Frame t00082.jpg field 'Shipback Tracking Label Link'. Speech and screen agree on 'label'; the Saudi step itself is still unclear."},
+    {"at": "01:38", "heard": "Revive refunds the customer", "correct": "Revibe refunds the customer", "basis": "Brand name shown as Revibe on frames t00008.jpg and t00129.jpg."},
+    {"at": "02:08", "heard": "Revive checks your proof.", "correct": "Revibe checks your proof.", "basis": "Frame t00129.jpg caption 'Revibe checks your proof' and card title 'Revibe checks proof'."},
+    {"at": "02:28", "heard": "Revive offers the customer a new attempt", "correct": "Revibe offers the customer a new attempt", "basis": "Brand name shown as Revibe on all frames."}
+  ],
+  "unclear": [
+    {"at": "01:29", "issue": "Narration says 'If you don't have the right device, choose no' and the caption says 'No -> no IMEI needed' (t00089.jpg), but that dialog still shows 'Yes' selected with the IMEI field filled with 123456789. The claim after confirm (t00094.jpg) shows 'Device Available For Replacement? No'. The frames do not show which answer was selected when the dialog was confirmed. The No path itself is stated by the narration and the result screen."},
+    {"at": "01:24", "issue": "Narration says 'In Saudi Arabia, enter the ship back label yourself', but no Saudi entry step is visible. The sample claim SJRS808 (t00082.jpg) already shows Quiqup shipback tracking data. It is unclear which fields the seller fills for SA."},
+    {"at": "01:56", "issue": "The example word 'more' (in 'for example {more?} storage') is low-confidence and no frame shows the example. The rule is kept; the example is not relied on."},
+    {"at": "00:33", "issue": "The narrator calls AE 'the UAE'; the slide only says 'AE' (AE = Quiqup). The UAE mapping comes from speech only."},
+    {"at": "00:50", "issue": "The claim panel for TBGV164 shows 'Issue Details: Wrong Language' on a wrong-device claim. The video does not explain this field."},
+    {"at": "02:02", "issue": "The invalid claim reason dropdown shows 'Misuse', but the full list of reasons is not shown; the narration says only 'Choose the reason'. The available reasons cannot be confirmed from the video."},
+    {"at": "02:12", "issue": "Narration says 'so you replace a refund' (low-confidence speech). The slide reads 'Proof rejected -> re-marked Valid -> replacement or refund'. The spoken wording cannot be confirmed, so the statement uses the slide wording."}
+  ],
+  "outdated": [],
+  "privacy": [
+    {"at": "00:43", "what": "Claim IDs (TBGV164, NMAV339, SJRS808), order-help numbers (108200-2, 100919-2, 108084-2), and a shipback tracking ID (27261924) with a tracking link to a Revibe tracking bucket and a Quiqup tracking URL are visible. No customer name, phone number, email or address is visible in the frames. 'Name to show' is empty on the claim panel.", "frame": "t00043.jpg, t00082.jpg, t00123.jpg"}
+  ],
+  "audit": {
+    "checked": 108,
+    "removed": [
+      {"statement": "Asr fix 'so you replace a refund' -> 'so you replacement or refund'", "reason": "The corrected wording is ungrammatical and the 'or' is inferred from the slide, not spoken. Moved to unclear (02:12)."},
+      {"statement": "Term AWB expansion 'Air waybill'", "reason": "General knowledge; not shown or said in the video. Removed."},
+      {"statement": "Fact: higher-spec example 'more storage'", "reason": "The example word is a {more?} low-confidence word with no screen support. Example removed; rule kept."},
+      {"statement": "Step 02:08 wording '(test text)' and 'clicks Add'", "reason": "'(test text)' is inference; the frame shows the cursor on Add but no click."},
+      {"statement": "Step 01:38 evidence note 'this frame file is t00099.jpg in the pack list'", "reason": "Pack-internal note, not evidence. The Valid card caption is on t00099.jpg; t00096.jpg shows the statuses view."}
+    ],
+    "corrected": [
+      {"before": "summary: 'Pierre walks through...'", "after": "summary: 'The narrator walks through...'", "reason": "The narrator is not named anywhere in the frames or transcript excerpt; the name is not evidenced."},
+      {"before": "Title card 'REVIBE - WARRANTY PROCESS'", "after": "'REVIBE · WARRANTY PROCESS'", "reason": "Screen text uses a middle dot."},
+      {"before": "Step 01:14 action 'chooses Yes, types the IMEI..., and clicks Confirm'", "after": "Narration says to choose Yes, enter the IMEI and confirm; frame t00075 shows Yes selected and typing begun, Confirm not clicked.", "reason": "The click is not visible on any frame."},
+      {"before": "Step 01:21 'Shows the claim moving to ship back'", "after": "Narration says the claim moves to ship back; t00082 shows sample claim SJRS808, not TBGV164.", "reason": "The frame shows a different claim; the move itself is narration only."},
+      {"before": "Step 01:29 'Chooses No when the right device is not in stock'", "after": "Narration says to choose No; frame t00089 shows Yes selected.", "reason": "The screen contradicts the choice; only the narration supports No."},
+      {"before": "Step 01:38 evidence frame t00096.jpg, 'Valid card zoom'", "after": "Frame t00099.jpg, caption 'Refund charged to you · you keep the device'.", "reason": "t00096.jpg is the claim statuses view (caption 'Stage: Ready for refund'), not the Valid card."},
+      {"before": "Step 02:02 'Chooses the invalid reason, adds a comment, uploads proof'", "after": "Narration says to choose the reason, add a comment and upload proof; the dialog shows reason Misuse pre-set, empty comment, empty file area.", "reason": "The actions are narration; the reason 'Misuse' is already displayed."},
+      {"before": "Fact 'Step 4 (seller action)' evidence see at 00:33 frame t00008.jpg with 'Mark VALID / Mark INVALID'", "after": "See at 00:08; the slide shows 'Mark [VALID]' and 'Mark [INVALID]' boxes, not a slash.", "reason": "Timestamp did not match the frame; wording of the two options adjusted to the layout."},
+      {"before": "Fact 'Repair partner pickup is always automatic' confidence medium", "after": "confidence high", "reason": "The screen text 'Repair partner: always auto (SA = Naqel)' is clear on frame t00033.jpg."},
+      {"before": "Fact 'Lab final decision, Invalid: the customer pays for shipping the device back'", "after": "'the customer pays, and the device is then shipped to the customer'", "reason": "Closer to the slide text 'customer pays = ship to customer'."},
+      {"before": "Fact 'Revibe's agent offers a new AWB'", "after": "'the agent offers a new AWB' with narration noted", "reason": "The slide says 'agent', not 'Revibe agent'."},
+      {"before": "Fact ship back section (no sample named)", "after": "Names sample claim SJRS808 and states it is shown on that claim.", "reason": "The frame is a different claim from TBGV164."},
+      {"before": "Term 'Ready for refund' meaning 'the refund is then made to the customer'", "after": "Meaning limited to the stage shown on screen.", "reason": "The refund step itself is narration (01:38), not screen."},
+      {"before": "Screen 'Recap slide' footer 'Revibe - Supply team training'", "after": "'Revibe · Supply team training'", "reason": "Screen text uses a middle dot."},
+      {"before": "Screen 'Recap' bullet text with '->' arrows", "after": "Arrows as shown on screen ('->' and '·').", "reason": "Exact screen wording."},
+      {"before": "asr_fix 00:26 basis cites t00017.jpg", "after": "basis cites t00008.jpg and t00025.jpg", "reason": "t00017.jpg does not show 'Revibe Agent Check'."},
+      {"before": "Step 02:08 'Revive checks your proof' see frame at 02:09", "after": "Kept, caption text 'Revibe checks your proof' confirmed on t00129.jpg.", "reason": "Confirmed."},
+      {"before": "Privacy frames t00043.jpg, t00082.jpg", "after": "Adds t00123.jpg (claim NMAV339 visible in dialog background).", "reason": "Complete frame list for claim IDs."},
+      {"before": "Summary says 'Screens are ... a claim statuses view'", "after": "Kept; frame t00096.jpg duplicates the statuses view.", "reason": "Accurate."}
+    ],
+    "added": [
+      "Step 00:20 'The claim goes straight to the original seller' (say 00:20; scope box on t00017.jpg)",
+      "Step 02:38 'That's the wrong device process.' (say 02:38; t00157.jpg recap)",
+      "Fact 'A wrong-device claim applies when the customer received a different device than the one they ordered' (say 00:15; scope box on t00017.jpg)",
+      "Fact 'The invalid path runs: Proof Required -> Revibe Review -> Lab Verification' (t00110.jpg, t00008.jpg)",
+      "asr_fix 00:24 'Steps {1?} and 2' -> 'Steps 1 and 2' (t00025.jpg caption)",
+      "asr_fix 01:05 'click {Mark?} Valid' -> 'click Mark valid' (t00065.jpg tooltip)",
+      "asr_fix 01:24 'ship back {label?}' -> 'ship back label' (t00082.jpg field name)",
+      "unclear 02:12 'so you replace a refund' vs slide 'replacement or refund'",
+      "Frame t00000.jpg is a black frame (no content); t00162.jpg is a dimmed recap frame (no new content)"
+    ]
+  }
+}

@@ -1,0 +1,1520 @@
+{
+  "summary": "Part 2 of the Revibe Seller onboarding training (04:19 to 08:29 per the pack header; last spoken line at 08:26). The trainer walks through the Revibe - Fulfillment App (AppSheet, in Chrome): choosing SKUs from SKUs available, filling the Request products form inside a shipment (Quantity Sent, Price), saving, reading the shipment's Related Request_products table, then the sidebar tabs Request products, Supplier inventory, Inventory exits and Packaging request. He ends with the packing rules (bubble wrap, sticker, USB-C cables, box) and the pickup by Quiqup. All 40 frames listed in the pack were opened. Frame-to-narration timing is approximate for the middle screens, so frame file names are cited with the visible content. Open questions are in unclear: the airway bill vs tracking label, the Add button used, the shipment-level Qnt sent (10) vs the line total (15), the error message for a second shipment, and the carrier spelling (Quiqup on screen, Quickup on the slide).",
+  "frames_opened": 40,
+  "steps": [
+    {
+      "at": "04:19",
+      "screen": "SKUs available (Revibe - Fulfillment App, Chrome, appsheet.com)",
+      "action": "Look at the SKUs available list and choose the SKU to send. The trainer picks iPhone 7 32 GB good black, SKU 010101-050101.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "04:20",
+          "quote": "iPhone 7 32 GB good and black good condition black color you can take the SKU {this?} and"
+        },
+        {
+          "kind": "see",
+          "at": "04:19",
+          "frame": "t00259.jpg",
+          "quote": "SKUs available list with columns Category, Model, Product, Price, Quantities recommended, SKU; row iphone-7 / iphone-732 GBGoodBlack, price 203, quantities recommended 18, SKU 010101-050101."
+        }
+      ]
+    },
+    {
+      "at": "04:23",
+      "screen": "SKUs available, SKU side panel",
+      "action": "The SKU side panel for 010101-050101 is open. The click that opened it is not in the frames.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "04:23",
+          "frame": "t00263.jpg",
+          "quote": "Side panel titled 010101-050101 with SKU 010101-050101, Supplier Smart Life, Price 203, Category iPhone, Product iphone-732 GBGoodBlack, Model iphone-7, SKU Status Free market, Quantities recommended 18."
+        }
+      ]
+    },
+    {
+      "at": "04:30",
+      "screen": "Sidebar, then Shipments",
+      "action": "Go back to the shipment (the sidebar Shipments item) to add the new SKU to it.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "04:30",
+          "quote": "you can go back to your shipment and here you can add new SKUs, iPhone 7, 32 GB,"
+        },
+        {
+          "kind": "see",
+          "at": "04:30",
+          "frame": "t00270.jpg",
+          "quote": "SKUs available page with the mouse on the Shipments item in the left sidebar."
+        },
+        {
+          "kind": "see",
+          "at": "04:32",
+          "frame": "t00272.jpg",
+          "quote": "Shipments page with one row: Supplier Smart Life, ID ab9970c5, Request Status Requested, Payment method 100% - After sales, Tracking company Quiqup, Tracking link https://track-parcel.quiqup.com/."
+        }
+      ]
+    },
+    {
+      "at": "04:36",
+      "screen": "Request products Form (opens over the Shipments page)",
+      "action": "Enter SKU 010101-050101 in the SKU field. Product, Supplier and Quantity recommended fill in. Check the quantity recommended (18), then set Quantity Sent.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "04:39",
+          "quote": "good condition, black."
+        },
+        {
+          "kind": "say",
+          "at": "04:40",
+          "quote": "The quantities recommended are 18."
+        },
+        {
+          "kind": "see",
+          "at": "04:36",
+          "frame": "t00276.jpg",
+          "quote": "Request products Form: SKU 010101-050101, Product iphone-732 GBGoodBlack, Supplier Smart Life, Quantity recommended 18, Quantity Sent 0, Buybox supplier 203, Price 202, Stage Open button."
+        }
+      ]
+    },
+    {
+      "at": "04:42",
+      "screen": "Request products Form, Quantity Sent field",
+      "action": "Set Quantity Sent to 5 for this SKU, then check the price (202) before saving.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "04:42",
+          "quote": "Let's say you want also to send {5?} pieces for this one, you validate this price and you"
+        },
+        {
+          "kind": "see",
+          "at": "04:44",
+          "frame": "t00284.jpg",
+          "quote": "Quantity Sent field shows 5; Price field shows 202; Save button at top right."
+        }
+      ]
+    },
+    {
+      "at": "04:47",
+      "screen": "Request products Form, Save",
+      "action": "Click Save.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "04:47",
+          "quote": "save."
+        }
+      ]
+    },
+    {
+      "at": "04:48",
+      "screen": "Shipment ab9970c5 detail, Related Request_products table",
+      "action": "After saving, the shipment detail shows two requested SKUs in Related Request_products: 010109-060101 (iphone-1164 GBGoodBlack) and 010101-050101 (iphone-732 GBGoodBlack).",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "04:48",
+          "quote": "At this stage you can see that in your {shipment?} you requested two SKUs, the iPhone 7 64"
+        },
+        {
+          "kind": "say",
+          "at": "04:56",
+          "quote": "GB good condition black and the iPhone 7 32 GB good condition black."
+        },
+        {
+          "kind": "see",
+          "at": "04:52",
+          "frame": "t00287.jpg",
+          "quote": "Shipment ab9970c5 panel; Related Request_products 2 with rows 010109-060101 iphone-1164 GBGoodBlack Smart Life and 010101-050101 iphone-732 GBGoodBlack Smart Life; Qnt sent 10 at the bottom."
+        }
+      ]
+    },
+    {
+      "at": "05:03",
+      "screen": "Related Request_products table, scrolled right",
+      "action": "Read the Quantity recommended, Quantity Sent, Quantity received, Buybox supplier, Price and Total price columns for each line.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "05:03",
+          "quote": "The quantities recommended are 155 and 18 and you decided to send us 15 pieces and you defined"
+        },
+        {
+          "kind": "say",
+          "at": "05:10",
+          "quote": "this price."
+        },
+        {
+          "kind": "see",
+          "at": "05:03",
+          "frame": "t00303.jpg",
+          "quote": "Related table columns Product, Supplier, Quantity recommended 155 and 18 (row 1 iphone-1164, row 2 iphone-732), with Quantity Sent 10 and 5 partly visible."
+        },
+        {
+          "kind": "see",
+          "at": "05:05",
+          "frame": "t00305.jpg",
+          "quote": "Quantity Sent column shows 10 and 5 for the two rows."
+        },
+        {
+          "kind": "see",
+          "at": "05:09",
+          "frame": "t00309.jpg",
+          "quote": "Columns Quantity received, Quantity accepted, Buybox supplier, Price, Total price: row 1 Buybox 598, Price 597, Total price 5,970; row 2 Buybox 203, Price 202, Total price 1,010."
+        },
+        {
+          "kind": "see",
+          "at": "05:12",
+          "frame": "t00312.jpg",
+          "quote": "Columns Buybox supplier, Price, Total price, Updated at, Updated by: row 1 598 / 597 / 5,970 (updated 8/8/2025 11:43:37 AM); row 2 203 / 202 / 1,010 (updated 8/8/2025 11:45:14 AM)."
+        }
+      ]
+    },
+    {
+      "at": "05:12",
+      "screen": "Related Request_products table, Total price",
+      "action": "Total price is the amount the seller gets paid if all those products sell.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "05:12",
+          "quote": "{So?} here is the total price, it's the price you will get paid if we sell all these"
+        },
+        {
+          "kind": "say",
+          "at": "05:18",
+          "quote": "products."
+        }
+      ]
+    },
+    {
+      "at": "05:19",
+      "screen": "Shipments page, Tracking columns",
+      "action": "The trainer says that once the shipment is requested, after one hour a tracking ID and a tracking label link appear on the shipment row. He says to download the label and put it on the box. The word {automatically?} in the narration is unreliable, so the moment the request is made is not confirmed.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "05:19",
+          "quote": "Once {this?} is done your shipment is requested {automatically?} after one hour a tracking idea and the tracking"
+        },
+        {
+          "kind": "say",
+          "at": "05:28",
+          "quote": "{label?} link will appear here you will just be able to download it and to put it on"
+        },
+        {
+          "kind": "see",
+          "at": "05:23",
+          "frame": "t00323.jpg",
+          "quote": "Shipments list (no detail panel): row ab9970c5 Request Status Requested; Tracking ID column empty; Tracking Label link column empty; Cables balance 0."
+        }
+      ]
+    },
+    {
+      "at": "05:33",
+      "screen": "Shipment ab9970c5 detail, lower section",
+      "action": "Read the box quantities in the shipment detail: Qnt sent, Qnt received, Qnt accepted, Qnt rejected.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "05:35",
+          "quote": "the box of your shipment here in request product you are able to see all the products that"
+        },
+        {
+          "kind": "see",
+          "at": "05:31",
+          "frame": "t00331.jpg",
+          "quote": "Detail lower section: Request Status Requested, Supplier Smart Life, Payment method 100% - After sales, Tracking company Quiqup, Cables balance 0, Qnt sent 10, Qnt received 0, Qnt accepted 0, Qnt rejected 0."
+        }
+      ]
+    },
+    {
+      "at": "05:41",
+      "screen": "Request products page",
+      "action": "Open Request products to see all the requested products in one list.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "05:41",
+          "quote": "you have requested and here in {In?} Supplier Inventory, you will see all your products once we will"
+        },
+        {
+          "kind": "see",
+          "at": "05:38",
+          "frame": "t00338.jpg",
+          "quote": "Request products page, filter All / Open; columns Request Status, SKU, Product, Supplier, Quantity recommended, Quantity Sent, Warning message, Quantity received, Quantity accepted, Buybox supplier, Price; rows 010109-060101 Requested 155 10 and 010101-050101 Requested 18 5; Export button."
+        }
+      ]
+    },
+    {
+      "at": "05:44",
+      "screen": "Supplier inventory page",
+      "action": "Supplier inventory lists the products once Revibe has inbounded them in its warehouse. At recording it is empty.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "05:49",
+          "quote": "inbound them in our warehouse."
+        },
+        {
+          "kind": "see",
+          "at": "05:44",
+          "frame": "t00344.jpg",
+          "quote": "Supplier inventory page: left filter All, centre text No items, Download button."
+        }
+      ]
+    },
+    {
+      "at": "05:52",
+      "screen": "Inventory exits page",
+      "action": "Inventory exits lists products Revibe took out of its warehouse, for two reasons: return or sale. At recording it is empty.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "05:52",
+          "quote": "Finally, here in Inventory Exit, you will see all the products that we exited from our warehouse for"
+        },
+        {
+          "kind": "see",
+          "at": "05:53",
+          "frame": "t00353.jpg",
+          "quote": "Inventory exits page: left filter All, centre text No items, Download button."
+        }
+      ]
+    },
+    {
+      "at": "06:16",
+      "screen": "Packaging request page",
+      "action": "Skip the Packaging request tab for now. The trainer says it will be covered in a later video.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "06:16",
+          "quote": "The Packaging Request tab, you don't need it at the moment."
+        },
+        {
+          "kind": "say",
+          "at": "06:19",
+          "quote": "This will be explained in a training video later if you get onboarded on Revive."
+        },
+        {
+          "kind": "see",
+          "at": "06:17",
+          "frame": "t00377.jpg",
+          "quote": "Packaging request page with an Add button and the text No items."
+        }
+      ]
+    },
+    {
+      "at": "06:36",
+      "screen": "Slide: Next steps (Prepare the shipment)",
+      "action": "Prepare the physical shipment: bubble wrap each device, label it, add USB-C cable(s), put everything in a box.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "06:36",
+          "quote": "Then, how to prepare the shipment?"
+        },
+        {
+          "kind": "say",
+          "at": "06:38",
+          "quote": "Put all the devices in a bubble wrap, like this."
+        },
+        {
+          "kind": "see",
+          "at": "06:25",
+          "frame": "t00385.jpg",
+          "quote": "Slide Next steps: Prepare the shipment: Put all the devices in bubble wrap; On the bubble wrap put a sticker with Model, Storage, Color, Condition, SKU; Include USB C cables (similar to the one below); Put everything in a box; Quickup will come and collect. Example sticker 010119-071701 iphone-13-pro 128 GB Alpine Green Good."
+        }
+      ]
+    },
+    {
+      "at": "06:41",
+      "screen": "Slide: Next steps, sticker",
+      "action": "Put a sticker on the bubble wrap showing the SKU, model, storage, color and condition.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "06:41",
+          "quote": "{On?} the bubble wrap, put a sticker with the model, storage, color, condition {and?} the SKU {Like?} this,"
+        },
+        {
+          "kind": "say",
+          "at": "06:48",
+          "quote": "put the SKU, the model, the storage, the color and the condition Include USB-C cables, similar to"
+        },
+        {
+          "kind": "see",
+          "at": "06:45",
+          "frame": "t00405.jpg",
+          "quote": "Next steps slide with example sticker 010119-071701 / iphone-13-pro 128 GB Alpine Green Good on a bubble-wrapped device."
+        }
+      ]
+    },
+    {
+      "at": "06:56",
+      "screen": "Slide: Next steps, cables",
+      "action": "Include one USB-C cable per device, using the cable model shown on the slide.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "06:56",
+          "quote": "this one This is the only model that we accept So basically, if you send to us 15"
+        },
+        {
+          "kind": "say",
+          "at": "07:03",
+          "quote": "please include 15 USB-C cables"
+        },
+        {
+          "kind": "see",
+          "at": "07:05",
+          "frame": "t00425.jpg",
+          "quote": "Slide Next steps still shown, with the USB-C cable image and the same five bullets."
+        }
+      ]
+    },
+    {
+      "at": "07:06",
+      "screen": "Slide: Next steps, laptops",
+      "action": "For laptops, include the original cables in the box.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "07:06",
+          "quote": "{or?} if you're sending to us laptops include the original cables put everything in the box {quick?} up"
+        }
+      ]
+    },
+    {
+      "at": "07:15",
+      "screen": "Slide: Next steps, pickup",
+      "action": "Quiqup collects the shipment at the address entered in the onboarding app form, so the address must be precise and accurate.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "07:15",
+          "quote": "will collect will come and collect your shipment so basically quick quick up will come to the place"
+        },
+        {
+          "kind": "say",
+          "at": "07:21",
+          "quote": "that you meant when you fill the form on the onboarding app this is why having a very"
+        },
+        {
+          "kind": "say",
+          "at": "07:26",
+          "quote": "precise and accurate address is very important for you so let me recap everything for you {here?} you"
+        },
+        {
+          "kind": "see",
+          "at": "07:15",
+          "frame": "t00405.jpg",
+          "quote": "Slide bullet reads 'Quickup will come and collect' (spelling on the slide differs from the Quiqup spelling on screen; see unclear)."
+        }
+      ]
+    },
+    {
+      "at": "07:30",
+      "screen": "SKUs available (catalog recap)",
+      "action": "Recap: the SKUs available list gives the full catalog with the prices and recommended quantities. Choose the SKUs to include in the shipment.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "07:34",
+          "quote": "have the whole catalog with all the products that we offer the prices that is required and the"
+        },
+        {
+          "kind": "say",
+          "at": "07:40",
+          "quote": "quantities that are recommended based on this you can make the selection of the skus you want to"
+        },
+        {
+          "kind": "see",
+          "at": "07:30",
+          "frame": "t00450.jpg",
+          "quote": "SKUs available list, columns Category, Model, Product, Price, Quantities recommended, SKU; first row iphone-11 / iphone-1164 GBGoodBlack, price 598, quantities recommended 155, SKU 010109-060101."
+        }
+      ]
+    },
+    {
+      "at": "07:44",
+      "screen": "SKUs available sorted by Quantities recommended, then Shipments",
+      "action": "Only one shipment can be created at a time. The trainer says that clicking Add when one already exists shows an error message; no error message appears in the frames. Add all the devices to that single shipment.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "07:46",
+          "quote": "include in your shipment here you can only create one shipment at a time here if you click"
+        },
+        {
+          "kind": "say",
+          "at": "07:52",
+          "quote": "on add you will see an error message you create your shipment and into this {shipment?} you can"
+        },
+        {
+          "kind": "see",
+          "at": "07:44",
+          "frame": "t00464.jpg",
+          "quote": "SKUs available list sorted by Quantities recommended (arrow in the column header), first row iphone-1164 GBGoodBlack, 155."
+        },
+        {
+          "kind": "see",
+          "at": "07:51",
+          "frame": "t00471.jpg",
+          "quote": "Shipments page with the mouse over the + Add button; tooltip Add."
+        }
+      ]
+    },
+    {
+      "at": "07:48",
+      "screen": "Shipments page (after returning from the sidebar)",
+      "action": "Return to Shipments from the sidebar. The page shows the one shipment row ab9970c5 that is already open.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "07:48",
+          "frame": "t00468.jpg",
+          "quote": "Shipments page with one row ab9970c5 (Smart Life, Requested, Quiqup); mouse on the Shipments item in the left sidebar."
+        }
+      ]
+    },
+    {
+      "at": "07:59",
+      "screen": "Shipment ab9970c5 detail, Related Request_products",
+      "action": "Add as many SKUs as you like to the shipment, and set each quantity and price.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "07:59",
+          "quote": "add as many devices as you want {we?} recommend you for this first shipment to send at least"
+        },
+        {
+          "kind": "say",
+          "at": "08:11",
+          "quote": "to our customers so include all the devices you want set up the quantities and set up the"
+        },
+        {
+          "kind": "see",
+          "at": "07:57",
+          "frame": "t00477.jpg",
+          "quote": "Shipment ab9970c5 detail, Related Request_products 2 rows, mouse near the Expand / Add buttons."
+        },
+        {
+          "kind": "see",
+          "at": "07:58",
+          "frame": "t00478.jpg",
+          "quote": "Mouse on the Add button under Related Request_products."
+        }
+      ]
+    },
+    {
+      "at": "08:00",
+      "screen": "Shipment ab9970c5 detail, Related Request_products",
+      "action": "The screen shows the two lines again with Quantity recommended and Quantity Sent per line (155 and 10; 18 and 5). The trainer gives no spoken instruction to check them in this window.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "08:00",
+          "frame": "t00480.jpg",
+          "quote": "Related Request_products 2 rows: 010109-060101 iphone-1164 GBGoodBlack Smart Life; 010101-050101 iphone-732 GBGoodBlack Smart Life."
+        },
+        {
+          "kind": "see",
+          "at": "08:15",
+          "frame": "t00495.jpg",
+          "quote": "Related table scrolled: Product, Supplier, Quantity recommended 155 and 18, Quantity Sent 10 and 5."
+        }
+      ]
+    },
+    {
+      "at": "08:18",
+      "screen": "Shipments page, tracking label link",
+      "action": "After about one hour the tracking label link is filled in on the shipment. Print it and stick it on the box.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "08:18",
+          "quote": "price after one hour a tracking label link will be updated here you will be able to print"
+        },
+        {
+          "kind": "say",
+          "at": "08:26",
+          "quote": "{it?} and to put it on the box."
+        },
+        {
+          "kind": "see",
+          "at": "08:23",
+          "frame": "t00503.jpg",
+          "quote": "Shipments page, row ab9970c5: Tracking link https://track-parcel.quiqup.com/, Tracking Label link column empty at recording, Cables balance 0."
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "type": "rule",
+      "statement": "Quiqup collects the shipment from the address the seller entered in the onboarding app form, so the address must be precise and accurate.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "07:15",
+          "quote": "will collect will come and collect your shipment so basically quick quick up will come to the place"
+        },
+        {
+          "kind": "say",
+          "at": "07:21",
+          "quote": "that you meant when you fill the form on the onboarding app this is why having a very"
+        },
+        {
+          "kind": "say",
+          "at": "07:26",
+          "quote": "precise and accurate address is very important for you so let me recap everything for you {here?} you"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Include one USB-C cable per device: for 15 devices, include 15 USB-C cables. Only the cable model shown on the slide is accepted.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "06:56",
+          "quote": "this one This is the only model that we accept So basically, if you send to us 15"
+        },
+        {
+          "kind": "say",
+          "at": "07:03",
+          "quote": "please include 15 USB-C cables"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "For laptops, include the original cables in the box.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "07:06",
+          "quote": "{or?} if you're sending to us laptops include the original cables put everything in the box {quick?} up"
+        }
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Packing: put each device in bubble wrap, put a sticker on the bubble wrap showing Model, Storage, Color, Condition and SKU, include the USB-C cable(s), put everything in a box, and Quiqup collects it (the slide spells the carrier Quickup).",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "06:38",
+          "quote": "Put all the devices in a bubble wrap, like this."
+        },
+        {
+          "kind": "say",
+          "at": "06:41",
+          "quote": "{On?} the bubble wrap, put a sticker with the model, storage, color, condition {and?} the SKU {Like?} this,"
+        },
+        {
+          "kind": "see",
+          "at": "06:45",
+          "frame": "t00405.jpg",
+          "quote": "Slide Next steps: Prepare the shipment: Put all the devices in bubble wrap; On the bubble wrap put a sticker with Model, Storage, Color, Condition, SKU; Include USB C cables (similar to the one below); Put everything in a box; Quickup will come and collect."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "example",
+      "statement": "Slide example of a sticker and label: SKU 010119-071701, iphone-13-pro, 128 GB, Alpine Green, Good (example only, not a real shipment item).",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "06:45",
+          "frame": "t00405.jpg",
+          "quote": "Speech bubble and sticker on the bubble wrap read 010119-071701 / iphone-13-pro / 128 GB / Alpine Green / Good."
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "number",
+      "statement": "For the first shipment, Revibe recommends sending at least 30 to 50 pieces, so that Revibe can have a clear understanding of the quality it can propose to its customers.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "07:59",
+          "quote": "add as many devices as you want {we?} recommend you for this first shipment to send at least"
+        },
+        {
+          "kind": "say",
+          "at": "08:05",
+          "quote": "30 to 50 pieces so that we can have a clear understanding of the quality you can propose"
+        }
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Only one shipment can be created at a time. The trainer says clicking Add when a shipment already exists shows an error message; no error message appears in the frames, so add all the devices to the one shipment.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "07:46",
+          "quote": "include in your shipment here you can only create one shipment at a time here if you click"
+        },
+        {
+          "kind": "say",
+          "at": "07:52",
+          "quote": "on add you will see an error message you create your shipment and into this {shipment?} you can"
+        }
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Add a SKU to a shipment with the Request products Form: enter the SKU, check the Quantity recommended, set Quantity Sent, check the Price, then Save.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "04:42",
+          "quote": "Let's say you want also to send {5?} pieces for this one, you validate this price and you"
+        },
+        {
+          "kind": "say",
+          "at": "04:47",
+          "quote": "save."
+        },
+        {
+          "kind": "see",
+          "at": "04:36",
+          "frame": "t00276.jpg",
+          "quote": "Request products Form fields: SKU, Product, Supplier, Quantity recommended, Quantity Sent, Buybox supplier, Price, Total price, Request Status, Payment method, Stage, Created by; buttons Cancel and Save."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Price in the Request products Form is the price the seller validates for the SKU; the field label reads 'Price - The lower you go, the more you sell!'.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "04:42",
+          "quote": "Let's say you want also to send {5?} pieces for this one, you validate this price and you"
+        },
+        {
+          "kind": "see",
+          "at": "04:44",
+          "frame": "t00284.jpg",
+          "quote": "Field label 'Price - The lower you go, the more you sell!' with value 202."
+        }
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Total price is the amount the seller is paid if all the products in that line are sold.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "05:12",
+          "quote": "{So?} here is the total price, it's the price you will get paid if we sell all these"
+        },
+        {
+          "kind": "say",
+          "at": "05:18",
+          "quote": "products."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "The screen shows Total price 5,970 on the line with Price 597 and Quantity Sent 10, and Total price 1,010 on the line with Price 202 and Quantity Sent 5 (597 x 10 = 5,970; 202 x 5 = 1,010).",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "05:12",
+          "frame": "t00312.jpg",
+          "quote": "Price 597, Total price 5,970 on row 1; Price 202, Total price 1,010 on row 2."
+        },
+        {
+          "kind": "see",
+          "at": "05:05",
+          "frame": "t00305.jpg",
+          "quote": "Quantity Sent 10 and 5."
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "number",
+      "statement": "The recommended quantities for the shipment's SKUs are 155 (010109-060101, iphone-1164 GBGoodBlack) and 18 (010101-050101, iphone-732 GBGoodBlack).",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "05:03",
+          "quote": "The quantities recommended are 155 and 18 and you decided to send us 15 pieces and you defined"
+        },
+        {
+          "kind": "see",
+          "at": "05:03",
+          "frame": "t00303.jpg",
+          "quote": "Quantity recommended 155 and 18."
+        },
+        {
+          "kind": "see",
+          "at": "05:24",
+          "frame": "t00295.jpg",
+          "quote": "Related table scrolled right: Quantity recommended 155 and 18 on the two Requested rows."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "The trainer says the shipment is for 15 pieces: Quantity Sent is 10 for iphone-1164 GBGoodBlack and 5 for iphone-732 GBGoodBlack.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "05:03",
+          "quote": "you decided to send us 15 pieces"
+        },
+        {
+          "kind": "see",
+          "at": "05:05",
+          "frame": "t00305.jpg",
+          "quote": "Quantity Sent column shows 10 and 5."
+        }
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The SKU panel shows, for 010101-050101: Supplier Smart Life, Price 203, Category iPhone, Product iphone-732 GBGoodBlack, Model iphone-7, SKU Status 'Free market', Quantities recommended 18.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "04:23",
+          "frame": "t00263.jpg",
+          "quote": "Side panel 010101-050101: Supplier Smart Life; Price 203; Category iPhone; Product iphone-732 GBGoodBlack; Model iphone-7; SKU Status Free market; Quantities recommended 18."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "After saving, Request Status shows 'Requested' for both request lines and for shipment ab9970c5.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "04:52",
+          "frame": "t00287.jpg",
+          "quote": "Request Status column shows Requested for both lines and for shipment ab9970c5."
+        },
+        {
+          "kind": "see",
+          "at": "05:38",
+          "frame": "t00338.jpg",
+          "quote": "Request products page: Request Status Requested for SKUs 010109-060101 and 010101-050101."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "The trainer says that once the shipment is requested, after one hour a tracking ID and a tracking label link appear on the shipment; the seller downloads the label and puts it on the box.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "05:19",
+          "quote": "Once {this?} is done your shipment is requested {automatically?} after one hour a tracking idea and the tracking"
+        },
+        {
+          "kind": "say",
+          "at": "05:28",
+          "quote": "{label?} link will appear here you will just be able to download it and to put it on"
+        },
+        {
+          "kind": "say",
+          "at": "08:18",
+          "quote": "price after one hour a tracking label link will be updated here you will be able to print"
+        },
+        {
+          "kind": "say",
+          "at": "08:26",
+          "quote": "{it?} and to put it on the box."
+        }
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "At recording the shipment's Tracking company is Quiqup and its Tracking link is https://track-parcel.quiqup.com/. Tracking ID and Tracking Label link are empty.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "04:32",
+          "frame": "t00272.jpg",
+          "quote": "Tracking company Quiqup; Tracking link https://track-parcel.quiqup.com/; Tracking ID and Tracking Label link columns blank."
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The Shipments list columns are: Supplier, ID, Created by, Created at, Updated at, Request Status, Payment method, Tracking company, Tracking ID, Tracking link, Tracking Label link, Cables balance. The '+ Add' button is at top right.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "04:32",
+          "frame": "t00272.jpg",
+          "quote": "Column headers Supplier, ID, Created by, Created at, Updated at, Request Status, Payment method, Tracking company, Tracking ID, Tracking link, Tracking Label link, Cables balance; + Add button."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The Request products page lists each requested line with Request Status, SKU, Product, Supplier, Quantity recommended, Quantity Sent, Warning message, Quantity received, Quantity accepted, Buybox supplier and Price, with an Export button. The left filter has All and Open.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "05:38",
+          "frame": "t00338.jpg",
+          "quote": "Request products page columns Request Status, SKU, Product, Supplier, Quantity recommended, Quantity Sent, Warning message, Quantity received, Quantity accepted, Buybox supplier, Price; Export button; filter All / Open."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Shipment detail shows Qnt sent, Qnt received, Qnt accepted and Qnt rejected, plus Cables balance; at recording the values were Cables balance 0, Qnt sent 10, Qnt received 0, Qnt accepted 0, Qnt rejected 0.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "05:31",
+          "frame": "t00331.jpg",
+          "quote": "Cables balance 0; Qnt sent 10; Qnt received 0; Qnt accepted 0; Qnt rejected 0."
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Supplier inventory shows all the seller's products once Revibe has inbounded them in its warehouse.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "05:41",
+          "quote": "you have requested and here in {In?} Supplier Inventory, you will see all your products once we will"
+        },
+        {
+          "kind": "say",
+          "at": "05:49",
+          "quote": "inbound them in our warehouse."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Inventory exits lists products Revibe takes out of its warehouse for two reasons: (1) the quality was not good, and the status says return, with the product shown as returned to the seller and followable with a tracking link; (2) a sale (the trainer's exact words for the sale reason are unclear, see unclear).",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "05:58",
+          "quote": "two reasons mainly."
+        },
+        {
+          "kind": "say",
+          "at": "05:59",
+          "quote": "The first one is if the quality was not good, it will mention return and you will be"
+        },
+        {
+          "kind": "say",
+          "at": "06:04",
+          "quote": "able to see that the product has been returned to you."
+        },
+        {
+          "kind": "say",
+          "at": "06:07",
+          "quote": "You will be able to follow it with a tracking link."
+        },
+        {
+          "kind": "say",
+          "at": "06:10",
+          "quote": "And the second reason is for a sale."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The Packaging request tab is not needed at the moment. The trainer says it will be covered in a later training video.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "06:16",
+          "quote": "The Packaging Request tab, you don't need it at the moment."
+        },
+        {
+          "kind": "say",
+          "at": "06:19",
+          "quote": "This will be explained in a training video later if you get onboarded on Revive."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Supplier inventory, Inventory exits and Packaging request were all empty ('No items') at recording.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "05:44",
+          "frame": "t00344.jpg",
+          "quote": "Supplier inventory: No items."
+        },
+        {
+          "kind": "see",
+          "at": "05:53",
+          "frame": "t00353.jpg",
+          "quote": "Inventory exits: No items."
+        },
+        {
+          "kind": "see",
+          "at": "06:17",
+          "frame": "t00377.jpg",
+          "quote": "Packaging request: No items."
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "The SKUs available list gives the whole catalog with the prices and recommended quantities; the seller selects the SKUs to include in the shipment.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "07:34",
+          "quote": "have the whole catalog with all the products that we offer the prices that is required and the"
+        },
+        {
+          "kind": "say",
+          "at": "07:40",
+          "quote": "quantities that are recommended based on this you can make the selection of the skus you want to"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    }
+  ],
+  "screens": [
+    {
+      "name": "Revibe - Fulfillment App, SKUs available",
+      "shows": "Sidebar: SKUs available, Shipments, Request products, Supplier inventory, Inventory exits, Packaging request, About, Feedback, App Gallery. Table columns Category, Model, Product, Price, Quantities recommended, SKU; Download button; search box.",
+      "at": "04:19"
+    },
+    {
+      "name": "SKU side panel",
+      "shows": "Details for one SKU: SKU, Supplier, Price, Category, Product, Model, SKU Status, Quantities recommended.",
+      "at": "04:23"
+    },
+    {
+      "name": "Shipments",
+      "shows": "One shipment row: Supplier Smart Life, ID ab9970c5, Request Status Requested, Payment method 100% - After sales, Tracking company Quiqup, Tracking link, Tracking ID, Tracking Label link, Cables balance. + Add button.",
+      "at": "04:32"
+    },
+    {
+      "name": "Request products Form",
+      "shows": "Fields SKU, Product, Supplier, Quantity recommended, Quantity Sent, Buybox supplier, Price, Total price, Request Status, Payment method, Stage, Created by; Cancel and Save buttons.",
+      "at": "04:36"
+    },
+    {
+      "name": "Shipment detail (ab9970c5)",
+      "shows": "ID, Related Request_products table (SKU, Request Status, Product, Supplier; then quantities, buybox, price, total price, updated at), Request Status, Supplier, Payment method, Tracking company, Tracking link, Created/Updated by and at, Cables balance, Qnt sent, Qnt received, Qnt accepted, Qnt rejected. Edit button.",
+      "at": "04:52"
+    },
+    {
+      "name": "Related Request_products, Total price and Updated at columns",
+      "shows": "Buybox supplier 598 / Price 597 / Total price 5,970 (updated 8/8/2025 11:43:37 AM) and Buybox supplier 203 / Price 202 / Total price 1,010 (updated 8/8/2025 11:45:14 AM). Quantity received column is blank for both lines.",
+      "at": "05:12"
+    },
+    {
+      "name": "Request products page",
+      "shows": "Filter All / Open; columns Request Status, SKU, Product, Supplier, Quantity recommended, Quantity Sent, Warning message, Quantity received, Quantity accepted, Buybox supplier, Price; Export button.",
+      "at": "05:38"
+    },
+    {
+      "name": "Supplier inventory",
+      "shows": "Filter All; No items; Download button.",
+      "at": "05:44"
+    },
+    {
+      "name": "Inventory exits",
+      "shows": "Filter All; No items; Download button.",
+      "at": "05:53"
+    },
+    {
+      "name": "Packaging request",
+      "shows": "No items; + Add button.",
+      "at": "06:17"
+    },
+    {
+      "name": "Slide: Next steps",
+      "shows": "Prepare the shipment checklist (bubble wrap, sticker, USB C cables, box, Quickup will come and collect) and an example sticker 010119-071701 iphone-13-pro with a USB-C cable image. Shown first at 06:25, still shown to 07:26.",
+      "at": "06:25"
+    }
+  ],
+  "terms": [
+    {
+      "term": "SKU",
+      "meaning": "Product reference per device line, for example 010101-050101 (iphone-732 GBGoodBlack). Used on the form, and the slide example sticker shows a SKU on the bubble wrap.",
+      "at": "04:20"
+    },
+    {
+      "term": "Quantities recommended",
+      "meaning": "Column and read-only form field giving the recommended quantity for a SKU (for example 155 and 18).",
+      "at": "05:03"
+    },
+    {
+      "term": "Quantity Sent",
+      "meaning": "Number of pieces of a SKU the seller sends in the shipment; set in the Request products Form.",
+      "at": "04:42"
+    },
+    {
+      "term": "Price",
+      "meaning": "Price for a SKU in the Request products Form that the seller validates; the field label says 'The lower you go, the more you sell!'.",
+      "at": "04:42"
+    },
+    {
+      "term": "Buybox supplier",
+      "meaning": "Value shown next to Price in the form and the table (598 and 203 for the two lines). The trainer does not explain it.",
+      "at": "04:36"
+    },
+    {
+      "term": "Total price",
+      "meaning": "Amount the seller gets paid if all the products of that line sell (per the trainer).",
+      "at": "05:12"
+    },
+    {
+      "term": "Request Status",
+      "meaning": "Status of a requested SKU or shipment; 'Requested' after saving.",
+      "at": "04:48"
+    },
+    {
+      "term": "Tracking ID / Tracking link / Tracking Label link",
+      "meaning": "Shipment tracking fields. Tracking link holds the tracking URL shown on screen (https://track-parcel.quiqup.com/). The Tracking Label link is the label the trainer says to print and stick on the box, expected about an hour after the shipment is requested.",
+      "at": "05:19"
+    },
+    {
+      "term": "Cables balance",
+      "meaning": "Shipment field showing 0 at recording; the trainer does not explain it.",
+      "at": "05:31"
+    },
+    {
+      "term": "Payment method '100% - After sales'",
+      "meaning": "Payment method shown on the shipment and the form. The trainer does not explain it.",
+      "at": "04:36"
+    },
+    {
+      "term": "Quiqup",
+      "meaning": "The carrier named as Tracking company on the shipment; the trainer says it collects the shipment from the seller's address.",
+      "at": "07:15"
+    },
+    {
+      "term": "Qnt sent / received / accepted / rejected",
+      "meaning": "Shipment-level quantity fields in the shipment detail.",
+      "at": "05:33"
+    },
+    {
+      "term": "SKU Status 'Free market'",
+      "meaning": "Status field on the SKU side panel for 010101-050101. The trainer does not explain it.",
+      "at": "04:23"
+    }
+  ],
+  "asr_fixes": [
+    {
+      "at": "07:15",
+      "heard": "quick quick up",
+      "correct": "Quiqup",
+      "basis": "Screen shows Tracking company 'Quiqup' and tracking link https://track-parcel.quiqup.com/ (frames t00272.jpg and t00503.jpg). The slide (t00405.jpg) spells it 'Quickup'; see unclear."
+    },
+    {
+      "at": "07:06",
+      "heard": "{quick?} up",
+      "correct": "Quiqup",
+      "basis": "Same carrier as the sentence at 07:15 that names it; screen shows Quiqup as Tracking company (frame t00272.jpg). Low confidence because the word itself is marked unreliable."
+    },
+    {
+      "at": "04:48",
+      "heard": "the iPhone 7 64 GB good condition black",
+      "correct": "iPhone 11 64 GB good condition black (iphone-1164 GBGoodBlack, model iphone-11, SKU 010109-060101)",
+      "basis": "Screen row for SKU 010109-060101 shows Model iphone-11 and Product iphone-1164 GBGoodBlack, price 598, quantities recommended 155 (frame t00450.jpg). The shipment row shows the same SKU and product (frame t00287.jpg)."
+    },
+    {
+      "at": "06:19",
+      "heard": "Revive",
+      "correct": "Revibe",
+      "basis": "App title on screen is 'Revibe - Fulfillment App' (frame t00259.jpg and every other app frame)."
+    },
+    {
+      "at": "05:28",
+      "heard": "{label?} link",
+      "correct": "Tracking Label link",
+      "basis": "Shipments column header 'Tracking Label link' (frame t00272.jpg); the trainer says 'tracking label link' at 08:18."
+    },
+    {
+      "at": "05:41",
+      "heard": "{In?} Supplier Inventory",
+      "correct": "Supplier inventory",
+      "basis": "Sidebar item 'Supplier inventory' (frames t00344.jpg and t00259.jpg)."
+    },
+    {
+      "at": "05:19",
+      "heard": "tracking idea",
+      "correct": "tracking ID",
+      "basis": "Shipments column header 'Tracking ID' (frame t00272.jpg)."
+    },
+    {
+      "at": "05:52",
+      "heard": "Inventory Exit",
+      "correct": "Inventory exits",
+      "basis": "Sidebar item 'Inventory exits' (frame t00353.jpg)."
+    }
+  ],
+  "unclear": [
+    {
+      "at": "06:25",
+      "issue": "The trainer says an 'airway bill' will be created and printed one hour after the request (06:25-06:31), but at 08:18-08:26 says a 'tracking label link' appears and is printed. The screen only shows a 'Tracking Label link' column, empty at recording (frames t00323.jpg, t00503.jpg). It is unclear whether these are the same document."
+    },
+    {
+      "at": "05:19",
+      "issue": "The word '{automatically?}' is unreliable. The narration may say the shipment is requested automatically when the form is saved, or may describe something else. The screen shows only Request Status 'Requested' after saving (frame t00287.jpg)."
+    },
+    {
+      "at": "04:30",
+      "issue": "The pack does not show which Add button was used to open the Request products Form: the Shipments page '+ Add' (tooltip 'Add' in frame t00471.jpg) or the 'Add' under Related Request_products in the shipment detail (frame t00478.jpg). The Form is already open in frame t00276.jpg, so the click is not in the frames."
+    },
+    {
+      "at": "05:03",
+      "issue": "The shipment-level 'Qnt sent' shows 10 (frames t00287.jpg and t00331.jpg) while the two request lines are 10 and 5 (total 15) and the trainer says 15 pieces. The shipment field may not have updated, or it may count only one line. Not resolved on screen."
+    },
+    {
+      "at": "06:13",
+      "issue": "The phrase 'if {weekly?} sold your products on the website' is unreliable. The word after 'if' could be 'when', 'we' or another word; the reason for an Inventory exit (a sale) is clear enough, but the exact wording, including whether it is the Revibe website, is not."
+    },
+    {
+      "at": "07:46",
+      "issue": "The trainer says clicking Add when a shipment already exists shows an error message, but no error message appears in any frame (the only Add frame is the tooltip in t00471.jpg), so the exact text and behaviour are not verified."
+    },
+    {
+      "at": "05:12",
+      "issue": "The Buybox supplier column (598 and 203) is shown next to Price (597 and 202) but the trainer does not explain it, so its meaning is not stated here."
+    },
+    {
+      "at": "07:15",
+      "issue": "Carrier spelling differs between sources. The narration says 'quick up' (07:15), the slide says 'Quickup will come and collect' (t00385.jpg, t00405.jpg), and the app and tracking URL say 'Quiqup' (t00272.jpg, t00503.jpg). The app spelling is used in this pack; confirm with the trainer before publishing."
+    },
+    {
+      "at": "08:05",
+      "issue": "The number '30 to 50 pieces' is spoken only; no frame shows it. The speech-recognition risk on this number cannot be checked on screen."
+    }
+  ],
+  "outdated": [
+    {
+      "at": "06:19",
+      "signal": "Trainer says the Packaging Request tab 'will be explained in a training video later' (frame t00377.jpg shows the tab). That video is not part of this pack; the text may be stale."
+    },
+    {
+      "at": "06:16",
+      "signal": "Packaging Request is described as 'not needed at the moment'. This may change."
+    },
+    {
+      "at": "04:19",
+      "signal": "Screens are dated 8 August 2025 (menu bar 'Ven. 8 août', frame t00259.jpg) and the shipment ab9970c5 was created 8/8/2025 11:43:31 AM (frame t00272.jpg). Prices (for example 598, 597, 202), recommended quantities (155, 18) and the Quiqup carrier may have changed since."
+    }
+  ],
+  "privacy": [
+    {
+      "at": "04:32",
+      "frame": "t00272.jpg",
+      "what": "Shipment row shows the 'Created by' email pierre.villaqueque@revibe.me (a Revibe staff address, not seller personal data). Redact it before showing to sellers."
+    },
+    {
+      "at": "04:36",
+      "frame": "t00281.jpg",
+      "what": "Request products Form shows 'Created by' pierre.villaqueque@revibe.me. Redact it before showing to sellers."
+    },
+    {
+      "at": "05:31",
+      "frame": "t00331.jpg",
+      "what": "Shipment detail (Created by / Updated by) shows the same email address pierre.villaqueque@revibe.me. Redact it before showing to sellers."
+    }
+  ],
+  "audit": {
+    "checked": 91,
+    "removed": [
+      {
+        "statement": "Ship the products to the place Quiqup collects from only after the shipment is requested and the label is printed; the label is stuck on the box.",
+        "reason": "Not stated by the trainer. He says the label link appears after about one hour and to put it on the box; 'only after' and 'ship the products to the place' are not in the narration. The label and box points are kept in the tracking procedure fact."
+      },
+      {
+        "statement": "Implied: the SKUs available list is the source for SKUs, prices and recommended quantities (low confidence).",
+        "reason": "Not implied: the trainer states it directly (catalog with prices and recommended quantities). Restated as a high-confidence fact without the Implied prefix."
+      },
+      {
+        "statement": "Request Status 'Requested' means the product line has been requested and not yet processed.",
+        "reason": "The meaning 'not yet processed' is not on screen or in the narration. Replaced with the screen-only fact that Request Status shows Requested after saving."
+      }
+    ],
+    "corrected": [
+      {
+        "before": "Step 04:36 say quote 'good condition, black.' at 04:36",
+        "after": "Same quote at 04:39",
+        "reason": "Transcript line is [04:39]."
+      },
+      {
+        "before": "Step 05:03 and fact 'Price' evidence say 'this price.' at 05:09",
+        "after": "at 05:10",
+        "reason": "Transcript line is [05:10] 'this price.'"
+      },
+      {
+        "before": "Step 05:03 frame t00303 described as 155/18 only",
+        "after": "Also records Quantity Sent 10 and 5 partly visible at the right edge; t00305 and t00309/t00312 cited for the other columns",
+        "reason": "Frame content checked; the Buybox, Price and Total price columns are in t00309 and t00312, not t00303."
+      },
+      {
+        "before": "Step 05:19 frame t00331 'Shipments list, shipment row ... Tracking Label link empty'",
+        "after": "Frame t00323 (Shipments list, no detail panel)",
+        "reason": "t00331 is the shipment detail lower section; the Shipments list is t00323."
+      },
+      {
+        "before": "Step 05:19 action 'After the save, the shipment is requested. About one hour later...'",
+        "after": "Trainer says once it is done the shipment is requested (word 'automatically' unreliable); tracking ID and label link said to appear after one hour",
+        "reason": "'After the save' is inferred; the trainer does not say when the request is made beyond '{automatically?}'."
+      },
+      {
+        "before": "Step 05:33 frame t00333 'Detail lower section ... Qnt sent 10 ...'",
+        "after": "Frame t00331 (lower section with Qnt values); t00333 is the upper section with Related Request_products",
+        "reason": "Frame mix-up."
+      },
+      {
+        "before": "Step 05:41 frame t00344 'Request products page'",
+        "after": "Frame t00338 (Request products page); t00344 is Supplier inventory",
+        "reason": "Frame mix-up."
+      },
+      {
+        "before": "Step 05:44 frame t00353 'Supplier inventory page'",
+        "after": "Frame t00344 (Supplier inventory); t00353 is Inventory exits",
+        "reason": "Frame mix-up."
+      },
+      {
+        "before": "Step 06:16 frame t00379 'Packaging request page'",
+        "after": "Frame t00377 (Packaging request, No items, Add button); t00379 is the SKUs available list",
+        "reason": "Frame mix-up."
+      },
+      {
+        "before": "Step 06:36 evidence page kind for the slide, frame t00405 at 06:38",
+        "after": "kind see, frame t00385 (slide first shown 06:25) and t00405 (06:45) for the slide text",
+        "reason": "A video slide is a see item, not a PDF page; t00405 is at 06:45 in the pack."
+      },
+      {
+        "before": "Step 07:44 action 'Only one shipment can be open at a time. Clicking Add ... gives an error if one already exists.'",
+        "after": "Only one shipment can be created at a time; the error is narrated but not seen in any frame",
+        "reason": "Trainer says 'create one shipment at a time'; the error message is not on screen."
+      },
+      {
+        "before": "Step 08:00 action 'Check the quantity recommended and quantity sent per line before finishing.'",
+        "after": "The screen shows the two lines again with Quantity recommended and Quantity Sent per line; no spoken instruction to check them",
+        "reason": "The check instruction is not in the narration."
+      },
+      {
+        "before": "Step 07:15 and fact 'Quiqup' evidence only from the narration",
+        "after": "Added slide bullet 'Quickup will come and collect' as a see item, with the spelling difference flagged in unclear",
+        "reason": "The slide spells the carrier differently from the app."
+      },
+      {
+        "before": "Fact 'For laptops, include the original laptop cables in the box.'",
+        "after": "'For laptops, include the original cables in the box.'",
+        "reason": "The trainer says 'the original cables'; 'laptop' is added wording."
+      },
+      {
+        "before": "Fact 'Packing: ... and Quiqup collects it.'",
+        "after": "Adds that the slide spells the carrier Quickup",
+        "reason": "The slide text differs from the app spelling."
+      },
+      {
+        "before": "Fact 'Add a SKU ... validate the Price' (wording 'validate the Price')",
+        "after": "'check the Price'",
+        "reason": "Minor wording; the trainer says 'you validate this price', so 'check' is used as a neutral form of the same action."
+      },
+      {
+        "before": "Fact 'Price ... is the price the seller sets for the SKU'",
+        "after": "'the price the seller validates for the SKU'; confidence medium",
+        "reason": "The trainer says 'you validate this price'; 'sets' is not said."
+      },
+      {
+        "before": "Fact 'Only one shipment can be created at a time ... gives an error message'",
+        "after": "Error message reported as narrated, not seen in frames; confidence medium",
+        "reason": "No error message appears in any frame."
+      },
+      {
+        "before": "Fact 'On screen, Total price equals Price x Quantity sent ...'",
+        "after": "Screen values with the multiplication shown as a check",
+        "reason": "The multiplication is the reviewer's arithmetic, not an on-screen statement."
+      },
+      {
+        "before": "Fact 'Request Status ... Requested' (meaning) with frames t00287 and t00344",
+        "after": "Screen-only fact: Request Status shows Requested after saving (frames t00287, t00338)",
+        "reason": "t00344 is Supplier inventory; the meaning is not stated."
+      },
+      {
+        "before": "Fact 'After the shipment is requested, about one hour later ...' (medium)",
+        "after": "Trainer says ... (medium); 'automatically' unreliable",
+        "reason": "Keeps the narration wording and flags the unreliable word."
+      },
+      {
+        "before": "Fact 'Shipment detail shows Qnt ...' frame t00333",
+        "after": "Frame t00331",
+        "reason": "Frame mix-up."
+      },
+      {
+        "before": "Fact 'Request products page ...' frame t00344",
+        "after": "Frame t00338",
+        "reason": "Frame mix-up."
+      },
+      {
+        "before": "Fact 'Supplier inventory, Inventory exits and Packaging request ... No items' frames t00353 and t00379",
+        "after": "Frames t00344, t00353 and t00377",
+        "reason": "Frame mix-up."
+      },
+      {
+        "before": "Fact 'Inventory exits ... (2) the product was sold on the Revibe website.'",
+        "after": "(2) a sale; the trainer's words 'sold your products on the website' are unreliable, see unclear",
+        "reason": "'Revibe' is not in the narration; the sale wording is marked unreliable in the transcript."
+      },
+      {
+        "before": "Fact 'Ship the products ...' (removed)",
+        "after": "See removed",
+        "reason": "See removed."
+      },
+      {
+        "before": "Term 'Tracking link goes to the carrier tracking page'",
+        "after": "Tracking link holds the tracking URL shown on screen",
+        "reason": "The carrier page is not shown or said."
+      },
+      {
+        "before": "Term 'Tracking Label link ... expected about an hour after the shipment is requested'",
+        "after": "Same, with the label described as what the trainer says to print and put on the box",
+        "reason": "Keeps narration wording."
+      },
+      {
+        "before": "Screen 'Request products page' at 05:44",
+        "after": "at 05:38 (frame t00338)",
+        "reason": "Frame timing in the pack."
+      },
+      {
+        "before": "Screen 'Slide: Next steps' at 06:38",
+        "after": "at 06:25 (first frame t00385)",
+        "reason": "First frame showing the slide."
+      },
+      {
+        "before": "Summary 'Part 2 ... (04:19 to 08:26)'",
+        "after": "04:19 to 08:29 per the pack header (last spoken line 08:26)",
+        "reason": "Matches the pack header."
+      },
+      {
+        "before": "Outdated date '00:00 ... menu bar Ven. 8 aout'",
+        "after": "at 04:19 with the accented 'Ven. 8 août' and the created date 8/8/2025 11:43:31 AM",
+        "reason": "Exact date and frame."
+      },
+      {
+        "before": "ASR fix 04:48 correct 'iPhone 11 64 GB ...' basis frames t00287, t00303, t00259",
+        "after": "Basis frame t00450 (row 010109-060101: iphone-11 / iphone-1164 GBGoodBlack, 598, 155); t00259 shows 010109-060103 GBExcellentBlack, not GoodBlack",
+        "reason": "The earlier basis frame does not show GoodBlack for this SKU."
+      },
+      {
+        "before": "ASR fix 06:19 'Revive' basis frames t00379, t00259",
+        "after": "Basis frame t00259 only",
+        "reason": "t00379 is the SKUs list, but the app title is visible in t00259."
+      },
+      {
+        "before": "ASR fix 05:41 basis frames t00353, t00259",
+        "after": "Basis frame t00344 (Supplier inventory page) and t00259",
+        "reason": "t00353 is Inventory exits."
+      },
+      {
+        "before": "Unclear 04:30 'highlighted in frame t00276.jpg'",
+        "after": "Tooltip Add in t00471.jpg, '+ Add' in t00272.jpg; t00276 is the open form",
+        "reason": "Frame content mismatch."
+      },
+      {
+        "before": "Unclear 05:03 cites t00503 for Qnt sent 10",
+        "after": "Cites t00287 and t00331",
+        "reason": "t00503 is the Shipments list with no quantity fields."
+      },
+      {
+        "before": "Privacy 05:31 frame t00331",
+        "after": "Kept; added 04:36 frame t00281 (Created by in the form)",
+        "reason": "Adds another location of the same staff email."
+      },
+      {
+        "before": "Outdated 06:19 'Trainer says ... later'",
+        "after": "Frame cite t00377 (tab shown), not t00379",
+        "reason": "Frame mix-up."
+      },
+      {
+        "before": "Shipment screen 04:32 'Created by' email",
+        "after": "Kept; email is a Revibe staff address (presenter), flagged for redaction",
+        "reason": "Privacy classification."
+      },
+      {
+        "before": "Frame cited for Tracking Label link empty: t00331 at 05:31",
+        "after": "t00323 at 05:23",
+        "reason": "Frame mix-up."
+      }
+    ],
+    "added": [
+      "Step 07:48: Shipments page after returning from the sidebar (frame t00468.jpg), with the one shipment row ab9970c5.",
+      "Screen: Related Request_products Total price and Updated at columns (frame t00312.jpg), with the Updated at values 8/8/2025 11:43:37 AM and 8/8/2025 11:45:14 AM and a blank Quantity received column (frame t00498.jpg).",
+      "Fact on the Updated at timestamps is covered by the screen entry above; no separate fact added.",
+      "Frame t00385.jpg: the Next steps slide first appears at 06:25, before the 06:36 narration about packing; added to the slide screen and step.",
+      "ASR fixes: 'tracking idea' to 'tracking ID' (05:19) and 'Inventory Exit' to 'Inventory exits' (05:52).",
+      "Unclear: carrier spelling Quickup (slide) vs Quiqup (app) at 07:15; number '30 to 50 pieces' at 08:05 is spoken only.",
+      "Privacy: pierre.villaqueque@revibe.me in the Request products Form (frame t00281.jpg)."
+    ]
+  }
+}

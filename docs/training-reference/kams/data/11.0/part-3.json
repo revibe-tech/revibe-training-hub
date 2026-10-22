@@ -1,0 +1,1300 @@
+{
+  "summary": "Part 3 (13:45 to 19:39) of the 11.0 Dashboard (KAMs) video walks through the Supply dashboard's KAM tab, sidebar section by section, with the Sherin KAM tab selected throughout: Sellers (Semi-active, Buybox closed, Slowing down), Orders, On time (Performance, Backlog, Stuck orders, Delivery companies, Manual update), Fulfillment, Quality (Defect rate, Top offenders), Claims management (Days to solve, Claims coverage, Refund policy, Invalid claims). Cancellation and Sellers connections are narrated only; no frame in this part shows them. All 40 frames listed in the pack were opened. Several screen numbers are cut off or unreadable and are listed under unclear.",
+  "frames_opened": 40,
+  "steps": [
+    {
+      "at": "13:45-13:52",
+      "screen": "Supply dashboard, KAM tab, Sellers > Semi-active",
+      "action": "Opens Sellers > Semi-active for the Sherin KAM tab and points at it as the quick-win list.",
+      "evidence": [
+        {"kind": "say", "at": "13:50", "quote": "These are your quick wins."},
+        {"kind": "see", "at": "13:52", "frame": "t00830.jpg", "quote": "Semi-active table with columns SELLER, STATUS, BUYBOX, KAM, FEB 26 to OCT*; header '1 to 29 orders this month'; caption 'Semi-active lists every seller with between one and twenty nine orders so far this month, with their history over the last nine months.'"}
+      ],
+      "says": "They're the sellers closest to becoming active, and one good push can get each of them over 30.",
+      "why": ""
+    },
+    {
+      "at": "14:02",
+      "screen": "Supply dashboard, KAM tab, Sellers > Buybox closed",
+      "action": "Clicks Buybox closed in the Sellers section.",
+      "evidence": [
+        {"kind": "say", "at": "14:02", "quote": "Buy Box Closed is the same list as in daily, limited to your book."},
+        {"kind": "see", "at": "14:08", "frame": "t00848.jpg", "quote": "Buybox closed item highlighted in the index; caption 'Buybox closed is the same list as in Daily, limited to your book.'"}
+      ],
+      "says": "Buy Box Closed is the same list as in daily, limited to your book.",
+      "why": ""
+    },
+    {
+      "at": "14:10-14:24",
+      "screen": "Supply dashboard, KAM tab, Sellers > Slowing down",
+      "action": "Opens Slowing down. The narrator says to read the PACE column, the percentage, not the raw count. The screen column header is VS. SAME DAYS and its values are percentages.",
+      "evidence": [
+        {"kind": "say", "at": "14:10", "quote": "Slowing Down catches sellers who were active last month but are behind their own pace this month."},
+        {"kind": "say", "at": "14:20", "quote": "Read the PACE column, the percentage, not the raw count."},
+        {"kind": "see", "at": "14:19", "frame": "t00859.jpg", "quote": "Slowing down table: SELLER, STATUS, BUYBOX, KAM, 'SEP 26 TO DAY 16', 'OCT 26', 'VS. SAME DAYS'. Rows: Bab Al Afia 21 / 12 / -43%; Bilal Sohail Trading 58 / 7 / -88%; MH Electronics (OUT, Closed (28d...)) 40 / 0 / -100%."}
+      ],
+      "says": "A big negative number is your early warning to pick up the phone.",
+      "why": "Stated: a big negative number is an early warning."
+    },
+    {
+      "at": "14:32-14:43",
+      "screen": "Supply dashboard, KAM tab, Orders",
+      "action": "Clicks Orders. Reads the Confirmed orders and GMV (k AED) charts, and points at the split buttons and the Volume/% switch.",
+      "evidence": [
+        {"kind": "say", "at": "14:32", "quote": "Orders shows confirmed orders and GMV per period."},
+        {"kind": "see", "at": "14:39", "frame": "t00879.jpg", "quote": "Confirmed orders chart, legend 'Excl. SA (AE / ZA / other)' and 'SA', buttons 'SA / ex-SA', 'Direct / FBR', 'By country', 'By seller'."},
+        {"kind": "see", "at": "14:41", "frame": "t00881.jpg", "quote": "Confirmed orders and GMV (k AED) charts; Volume/% toggle on each chart; Oct column 1,297 orders and 1,758 GMV."},
+        {"kind": "say", "at": "14:43", "quote": "The volume and percent switch on each chart shows counts or shares."}
+      ],
+      "says": "The buttons switch the split, Saudi Arabia against the rest, direct against fulfilled by revive or by country.",
+      "why": ""
+    },
+    {
+      "at": "14:52-15:07",
+      "screen": "Supply dashboard, KAM tab, On time > Performance",
+      "action": "Opens On time > Performance and reads the promise per market.",
+      "evidence": [
+        {"kind": "see", "at": "14:57", "frame": "t00897.jpg", "quote": "On time % by country header text: 'Revibe's promise per market: delivery within 5 working days in SA, shipment within 2 business days everywhere else - both over decided orders. Monthly - last 15 months.'"},
+        {"kind": "say", "at": "14:52", "quote": "time performance revives promise is different per market in Saudi Arabia it is delivery within five working days"},
+        {"kind": "say", "at": "15:00", "quote": "everywhere else it is shipment within two business days the chart shows the percentage of orders that kept"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "15:11-15:31",
+      "screen": "Supply dashboard, KAM tab, On time > Backlog",
+      "action": "Opens On time > Backlog. The narrator explains the chart: clicking a column opens its pending orders, and the Refused & Cancelled box adds those outcomes to the bars. The frames show the chart, the checkbox and the caption; no click is shown.",
+      "evidence": [
+        {"kind": "say", "at": "15:11", "quote": "backlog each column is the orders received in that period colored by where they stand today delivered shipped"},
+        {"kind": "see", "at": "15:23", "frame": "t00923.jpg", "quote": "Backlog chart: legend Delivered, Shipped, Quality check, Order created; pink pending line; Oct column 1,224 total, 129 pending; caption 'Click a column for the orders still pending in it.'; checkbox 'REFUSED & CANCELLED'."},
+        {"kind": "say", "at": "15:27", "quote": "Click any column to open the list of orders still pending in it."},
+        {"kind": "say", "at": "15:31", "quote": "The refused and {cancelled?} box adds those outcomes to the bars."}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "15:36-16:00",
+      "screen": "Supply dashboard, KAM tab, On time > Backlog, below the chart",
+      "action": "Shows Top late orders and Top suppliers contributing to backlog, with the OLD slider at >=6d. The narrator says clicking a seller's row lists its orders oldest first; no click is shown.",
+      "evidence": [
+        {"kind": "see", "at": "15:36", "frame": "t00936.jpg", "quote": "Top late orders table: ORDER, MARKET, SELLER, DAYS SINCE ORDER, STAGE (stages 'At quality check' and 'Order created')."},
+        {"kind": "say", "at": "15:37", "quote": "Under it top late orders, the oldest unshipped orders in your book, and top suppliers contributing to backlog."},
+        {"kind": "see", "at": "15:46", "frame": "t00946.jpg", "quote": "Top suppliers contributing to backlog: OLD slider 0 to >=6d, columns SUPPLIER, MARKETS, BACKLOG COUNT, BACKLOG GMV (AED), OLD (>=6D), % OLD. Rows include M4U Mobile 48 / 72,480 / 0; Noor Al Hadeya 7 / 13,023 / 3 / 43%; FSA Trading 2 / 4,192 / 1 / 50%."},
+        {"kind": "say", "at": "15:51", "quote": "The old slider sets how many days make an order old."},
+        {"kind": "say", "at": "15:55", "quote": "At six days, it matches the business operations definition."},
+        {"kind": "say", "at": "16:00", "quote": "Click a seller's row to see its orders oldest first."}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "16:02-16:11",
+      "screen": "Supply dashboard, KAM tab, On time > Stuck orders",
+      "action": "Opens Stuck orders and reads its definition.",
+      "evidence": [
+        {"kind": "say", "at": "16:07", "quote": "Stuck orders is the same list as in daily for your sellers."},
+        {"kind": "say", "at": "16:11", "quote": "Shipped more than three days ago and not yet marked delivered."},
+        {"kind": "see", "at": "16:14", "frame": "t00974.jpg", "quote": "Stuck orders header '208 shipped and not marked delivered, oldest first'; columns ORDER, SELLER, ORDER DATE, SHIPPING DATE, DAYS SINCE SHIPPING, SLA, TRACKING COMPANY, TRACKING; footnote 'Showing the oldest 200 of 208 - the rest are older still and read the same.'"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "16:14-16:40",
+      "screen": "Supply dashboard, KAM tab, On time > Delivery companies",
+      "action": "Opens Delivery companies and reads the columns. The narrator describes the timeline controls (drag an end, click a month, Whole window); the timeline and the Whole window button are visible, the dragging is not shown.",
+      "evidence": [
+        {"kind": "say", "at": "16:18", "quote": "Delivery companies ranks the couriers your sellers use."},
+        {"kind": "see", "at": "16:19", "frame": "t00986.jpg", "quote": "Delivery companies table: #, DELIVERY COMPANY, MARKETS, ORDERS, DELIVERED, MARKED, AVG. DAYS TO DELIVERY. Rows: DHL 8,344 / 8,204 / 98% / 5; Quiqup 3,020 / 2,967 / 98% / 1.2; SMSA Express 2,285 / 2,101 / 92% / 3.8; Aramex 2,123 / 2,039 / 96% / 4.6; UPS 1,832 / 1,743 / 95% / 5; Delivery Panda 343 / 293 / 85% / 5.5; Unidentified 97 / 84 / 87% / 6.3; RSA Global 17 / 17 / 100% / 1; The Courier Guy 10 / 8 / 80% / 13.5. Header 'Jul 25 - Oct 26 - 16 months', button 'Whole window'."},
+        {"kind": "say", "at": "16:22", "quote": "Orders handed over, orders delivered, the share marked delivered, and the average days from shipping to delivery."},
+        {"kind": "say", "at": "16:33", "quote": "Drag either end to choose a range or click a month name for that month alone."},
+        {"kind": "say", "at": "16:39", "quote": "Whole window resets it."}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "16:47-16:57",
+      "screen": "Supply dashboard, KAM tab, On time > Delivery companies, MARKED column",
+      "action": "The narrator says to read the MARKED column first: under 70% it is red, and the average days are then based only on parcels somebody marked by hand, so they are not reliable. The frames show MARKED values of 80% to 100% only, so the red rule is narrated and not checked on screen.",
+      "evidence": [
+        {"kind": "say", "at": "16:47", "quote": "Read the marked column first."},
+        {"kind": "say", "at": "16:49", "quote": "Under 70% it is red."},
+        {"kind": "say", "at": "16:52", "quote": "The average days is then only based on the parcel somebody marked by hand, so it is not"},
+        {"kind": "say", "at": "16:57", "quote": "reliable."},
+        {"kind": "see", "at": "16:41", "frame": "t01018.jpg", "quote": "Subtitle 'Read the Marked column first. Under seventy percent it is red: the average days is then only based on the parcels somebody marked by hand, so it is not reliable.'"}
+      ],
+      "says": "Read the marked column first.",
+      "why": "Stated: average days based only on parcels marked by hand are not reliable."
+    },
+    {
+      "at": "16:58-17:30",
+      "screen": "Supply dashboard, KAM tab, On time > Manual update",
+      "action": "Opens Manual update, which is for Saudi Arabia. It shows the share of statuses set by the courier feed versus by hand, per courier, then a seller x courier table.",
+      "evidence": [
+        {"kind": "say", "at": "16:58", "quote": "The EVOL switch shows each courier month by month."},
+        {"kind": "say", "at": "17:05", "quote": "Manual update is for Saudi Arabia."},
+        {"kind": "say", "at": "17:08", "quote": "It shows, per courier, the share of shipped or delivered statuses that were set automatically by the courier"},
+        {"kind": "see", "at": "17:14", "frame": "t01039.jpg", "quote": "Marking pattern by courier - SA, Oct 2026 (status: Delivered), subtitle '100% manual means no API integration for this status - every order is hand-flagged'; bars SMSA Express (205), UPS (99), Delivery Panda (60), DHL (57), Aramex (51), all 0% manual; Automatic/Manual legend; Delivered/Shipped toggle."},
+        {"kind": "say", "at": "17:17", "quote": "100% manual means there is no integration, so someone must mark every order."},
+        {"kind": "see", "at": "17:19", "frame": "t01039.jpg", "quote": "Seller x courier - ordered by volume, SA Oct 2026 (month-to-date): '0 of 10 seller x courier pairs with something marked by hand'; 'Nothing marked by hand in the selected scope this month - every parcel came through a courier API.'; toggles 'With manual' / 'All sellers'."},
+        {"kind": "say", "at": "17:24", "quote": "The table under it shows the same split per seller and courier, so you can see which of"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "17:35-17:42",
+      "screen": "Supply dashboard, KAM tab, Fulfillment",
+      "action": "Opens Fulfillment and reads the Fulfillment share chart.",
+      "evidence": [
+        {"kind": "say", "at": "17:35", "quote": "Fulfillment shows the share of your seller's orders fulfilled by Revive, where Revive ships the order instead of"},
+        {"kind": "see", "at": "17:37", "frame": "t01057.jpg", "quote": "Fulfillment share chart, badge '3% - 79%', peak 79.2% on the first Oct label falling to 3.2% on the last; Sep 2.6%, Aug 3.4%, Jul 6.3%. Caption: 'Fulfillment shows the share of your sellers' orders fulfilled by Revibe, where Revibe ships the order instead of the seller.'"},
+        {"kind": "say", "at": "17:42", "quote": "the seller."}
+      ],
+      "says": "the seller.",
+      "why": ""
+    },
+    {
+      "at": "17:46-18:01",
+      "screen": "Supply dashboard, KAM tab, Quality > Defect rate",
+      "action": "Opens Defect rate and explains why only the 30-day and 90-day windows are compared.",
+      "evidence": [
+        {"kind": "say", "at": "17:46", "quote": "Quality Defect Rate."},
+        {"kind": "say", "at": "17:48", "quote": "Claims keep arriving for months after an order, so the all-time rate keeps climbing and cannot be"},
+        {"kind": "say", "at": "17:55", "quote": "This chart only counts claims filed within 30 or 90 days of the order."},
+        {"kind": "see", "at": "17:57", "frame": "t01077.jpg", "quote": "Stabilized % claims - 30-day and 90-day windows; on-screen text: 'The 30-day rate locks in 30 days after the month ends - this is the cleanest gauge of whether % claims is actually improving... check mark = window fully matured, warning sign = still partial (don't compare yet).'; legend 30-day rate, 90-day rate, All-time (still growing)."},
+        {"kind": "say", "at": "18:01", "quote": "That is the clean way to see whether quality is improving."}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "18:02-18:22",
+      "screen": "Supply dashboard, KAM tab, Quality > Defect rate (monthly table), then Quality > Top offenders",
+      "action": "Reads the monthly defect table, then opens Top offenders and reads the contribution column.",
+      "evidence": [
+        {"kind": "see", "at": "18:02", "frame": "t01080.jpg", "quote": "Monthly table rows: Oct 25 orders 24, 30-day 4.17% (1 claim), 90-day 4.17% (1), all-time 8.33% (2); Nov 25 orders 537, 2.23% (12), 6.70% (36), 9.50% (51); Dec 25 orders 323, 3.41% (11), 6.50% (21), 13.31% (43)."},
+        {"kind": "say", "at": "18:08", "quote": "Top Offenders splits your book's claim rate for one month across your sellers."},
+        {"kind": "say", "at": "18:12", "quote": "Each seller's contribution is its own claims over all your orders, so the column adds up to your"},
+        {"kind": "see", "at": "18:19", "frame": "t01104.jpg", "quote": "Top offenders for Sep 26: 'Portfolio 4.67% 135 claims / 2,893 orders - 19 sellers in scope'; Sherin total 2,893 orders, 135 claims, 4.67%; 971 Fixing 489 orders, 31 claims, 6.3%, contribution 1.07%; M4U Mobile 864 orders, 24 claims, 2.8%, 0.83%; MH Electronics 40 orders, 8 claims, 20.0%, 0.28%."},
+        {"kind": "say", "at": "18:19", "quote": "It shows who is really driving your defect rate."},
+        {"kind": "say", "at": "18:22", "quote": "A big seller with an average rate or a small seller with a terrible one."}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "18:24-18:49",
+      "screen": "Supply dashboard, KAM tab, Claims management > Days to solve, then Claims coverage",
+      "action": "Reads the average days to solve chart, then the Claims coverage bars and the red open share.",
+      "evidence": [
+        {"kind": "say", "at": "18:32", "quote": "Days to solve is the average number of days your sellers take to resolve a claim."},
+        {"kind": "say", "at": "18:37", "quote": "Lower is better."},
+        {"kind": "see", "at": "18:42", "frame": "t01122.jpg", "quote": "Avg. days to solve chart, range '3.2 - 14.4'; Dec 3.2, Jun 13.8, Jul 14.4, Oct 7.4."},
+        {"kind": "say", "at": "18:42", "quote": "Claims coverage is the share of claims raised in each period that are now closed, with the open"},
+        {"kind": "see", "at": "18:47", "frame": "t01127.jpg", "quote": "Claims coverage chart (Monthly, last 15 months): Oct 26 bar 260 claims, 45% still open (red) and 55% closed; Sep 438 with a small red top; Aug 435 (99%), Jul 467 (100%). Caption: the right-most month (Oct 26) is still running and is partial."},
+        {"kind": "say", "at": "18:48", "quote": "ones in red."},
+        {"kind": "say", "at": "18:49", "quote": "Click a bar for the list."}
+      ],
+      "says": "ones in red.",
+      "why": ""
+    },
+    {
+      "at": "18:54-19:21",
+      "screen": "Supply dashboard, KAM tab, Claims management > Refund policy, then Invalid claims",
+      "action": "Reads the refund policy clock for the Sherin sellers, then the invalid-claims funnel and its three verdicts.",
+      "evidence": [
+        {"kind": "say", "at": "18:55", "quote": "Refund policy is the policy clock from daily for your sellers."},
+        {"kind": "see", "at": "19:00", "frame": "t01134.jpg", "quote": "Refund policy - Sherin: ON THE CLOCK 41 (open returns with a seller timer); MOVING 28 (68% of the clock, accruing weekday hours); STOPPED 13 (32% of the clock, banked, frozen until it restarts); snapshot 2026-10-16, 12 sellers in scope. SA: 24 moving, 5 stopped. AE / ZA: 4 moving, 8 stopped."},
+        {"kind": "say", "at": "19:03", "quote": "Invalid claims follows returns through three verdicts."},
+        {"kind": "say", "at": "19:06", "quote": "How many the seller rejected, how many of those a Revive agent confirmed as invalid, and how many"},
+        {"kind": "see", "at": "19:12", "frame": "t01152.jpg", "quote": "Funnel: 716 claims received (664 decided, 52 still pending) to 91 rejected by the seller (13.7% of decided) to 88 confirmed by a Revibe agent (96.7% of those) to 35 confirmed by the Revibe lab (46.1% of 76 judged). Note: 'Repair partners are excluded from both ends' and 'Follows the country, account-manager and seller filters.'"},
+        {"kind": "say", "at": "19:13", "quote": "the Revive lab confirmed."},
+        {"kind": "say", "at": "19:15", "quote": "A seller who rejects lots of claims that Revive then finds valid is definitely a seller to talk"},
+        {"kind": "say", "at": "19:21", "quote": "to."}
+      ],
+      "says": "to.",
+      "why": ""
+    },
+    {
+      "at": "19:26-19:38",
+      "screen": "Sidebar only: Cancellation and Sellers connections (no frame in this part shows these screens)",
+      "action": "The narrator describes what each screen shows. No on-screen demonstration is in this part.",
+      "evidence": [
+        {"kind": "say", "at": "19:26", "quote": "Cancellation shows the percentage of orders canceled per period."},
+        {"kind": "say", "at": "19:33", "quote": "Seller's Connections shows how often each of your sellers opens the seller portal."},
+        {"kind": "say", "at": "19:38", "quote": "Each cell counts how many times a card was opened."}
+      ],
+      "says": "",
+      "why": ""
+    }
+  ],
+  "facts": [
+    {
+      "type": "definition",
+      "statement": "Semi-active sellers are those with between 1 and 29 orders so far this month (header '1 to 29 orders this month'), with their monthly history over the last nine months, shown as quick wins for the KAM.",
+      "evidence": [
+        {"kind": "say", "at": "13:48", "quote": "over the last 9 months."},
+        {"kind": "see", "at": "13:52", "frame": "t00830.jpg", "quote": "Header '1 to 29 orders this month'; monthly columns FEB 26 to OCT*; sellers Mediana Trading, Golden Maher, Cellmart Trading, etc."},
+        {"kind": "say", "at": "13:52", "quote": "They're the sellers closest to becoming active, and one good push can get each of them over 30."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The Sellers chart legend lists Total sellers (>=1 order), Active sellers (>=30 orders), New sellers (first order) and New active sellers (first month >=30 direct orders).",
+      "evidence": [
+        {"kind": "see", "at": "13:45", "frame": "t00825.jpg", "quote": "Chart legend: 'Total sellers (>=1 order)', 'Active sellers (>=30 orders)', 'New sellers (first order)', 'New active sellers (first month >=30 direct orders)'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Buybox closed lists active sellers whose buybox has been closed for more than 3 days (subtitle 'Active sellers, closed for more than 3 days'). It is the same list as in Daily, limited to the KAM's book; for the Sherin book it shows 'None in this book.'",
+      "evidence": [
+        {"kind": "say", "at": "14:02", "quote": "Buy Box Closed is the same list as in daily, limited to your book."},
+        {"kind": "see", "at": "14:10", "frame": "t00850.jpg", "quote": "'Buybox closed' panel: 'Active sellers, closed for more than 3 days', 'None in this book.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Slowing down lists sellers who were active last month but are behind their own pace this month. It compares the current month so far with the same days of last month.",
+      "evidence": [
+        {"kind": "say", "at": "14:10", "quote": "Slowing Down catches sellers who were active last month but are behind their own pace this month."},
+        {"kind": "say", "at": "14:15", "quote": "It compares this month so far with the same days of last month."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "On Slowing down, the narrator says to read the percentage (PACE column), not the raw count. The screen header is VS. SAME DAYS. A big negative percentage is the early warning to call the seller.",
+      "evidence": [
+        {"kind": "say", "at": "14:20", "quote": "Read the PACE column, the percentage, not the raw count."},
+        {"kind": "say", "at": "14:24", "quote": "A big negative number is your early warning to pick up the phone."},
+        {"kind": "see", "at": "14:19", "frame": "t00859.jpg", "quote": "Column header 'VS. SAME DAYS'; values -43%, -88%, -100%."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "The screen column is labelled 'VS. SAME DAYS' while the narration says 'PACE column'. The name differs; the percentage values are the same column. See unclear.",
+      "evidence": [
+        {"kind": "see", "at": "14:19", "frame": "t00859.jpg", "quote": "Column header 'VS. SAME DAYS'."}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "The Orders page shows confirmed orders and GMV per period, in the Confirmed orders and GMV (k AED) charts.",
+      "evidence": [
+        {"kind": "say", "at": "14:32", "quote": "Orders shows confirmed orders and GMV per period."},
+        {"kind": "see", "at": "14:41", "frame": "t00881.jpg", "quote": "Charts titled 'Confirmed orders' and 'GMV (k AED)'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Orders page split buttons are 'SA / ex-SA', 'Direct / FBR', 'By country' and 'By seller'. The narrator describes them as Saudi Arabia against the rest, direct against fulfilled by Revibe, or by country.",
+      "evidence": [
+        {"kind": "say", "at": "14:36", "quote": "The buttons switch the split, Saudi Arabia against the rest, direct against fulfilled by revive or by country."},
+        {"kind": "see", "at": "14:39", "frame": "t00879.jpg", "quote": "Buttons 'SA / ex-SA', 'Direct / FBR', 'By country', 'By seller'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Each chart on Orders has a Volume / % switch that changes between counts and shares.",
+      "evidence": [
+        {"kind": "say", "at": "14:43", "quote": "The volume and percent switch on each chart shows counts or shares."},
+        {"kind": "see", "at": "14:39", "frame": "t00879.jpg", "quote": "'Volume' toggle with '%' option on the Confirmed orders chart."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Revibe's promise differs by market. In Saudi Arabia (SA) it is delivery within 5 working days. Everywhere else it is shipment within 2 business days. Both are measured over decided orders.",
+      "evidence": [
+        {"kind": "see", "at": "14:57", "frame": "t00897.jpg", "quote": "On time % by country: 'Revibe's promise per market: delivery within 5 working days in SA, shipment within 2 business days everywhere else - both over decided orders.'"},
+        {"kind": "say", "at": "14:52", "quote": "time performance revives promise is different per market in Saudi Arabia it is delivery within five working days"},
+        {"kind": "say", "at": "15:00", "quote": "everywhere else it is shipment within two business days the chart shows the percentage of orders that kept"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The On time % by country chart shows, per country, the percentage of orders that kept the promise, over monthly data for the last 15 months. Oct 26 is the month still running; it is drawn past the divider as a to-date figure (label '81% MTD') and is outside the headline figure.",
+      "evidence": [
+        {"kind": "see", "at": "14:57", "frame": "t00897.jpg", "quote": "'Monthly - last 15 months.' '77% over the plotted periods'; 'Oct 26 is the month still running, drawn past the divider as a to-date figure ... and the month is outside the headline above.'; label '81% MTD'."},
+        {"kind": "say", "at": "15:02", "quote": "the promise by country"}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Backlog shows the orders received in each period, coloured by the stage they are at today: Delivered, Shipped, Quality check or Order created. The pink line accumulates what is still pending.",
+      "evidence": [
+        {"kind": "say", "at": "15:11", "quote": "backlog each column is the orders received in that period colored by where they stand today delivered shipped"},
+        {"kind": "say", "at": "15:20", "quote": "a quality check or {still?} at order created."},
+        {"kind": "say", "at": "15:23", "quote": "The pink line accumulates what is still pending."},
+        {"kind": "see", "at": "15:23", "frame": "t00923.jpg", "quote": "Legend: Delivered, Shipped, Quality check, Order created; caption 'Click a column for the orders still pending in it.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Clicking a backlog column opens the list of orders still pending in it (caption: 'Click a column for the orders still pending in it'). Ticking the 'REFUSED & CANCELLED' box adds the refused and cancelled outcomes to the bars (narrated).",
+      "evidence": [
+        {"kind": "say", "at": "15:27", "quote": "Click any column to open the list of orders still pending in it."},
+        {"kind": "say", "at": "15:31", "quote": "The refused and {cancelled?} box adds those outcomes to the bars."},
+        {"kind": "see", "at": "15:23", "frame": "t00923.jpg", "quote": "Checkbox 'REFUSED & CANCELLED' above the chart; bottom row of counts 0 ... 129."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Top late orders lists the oldest unshipped orders in the KAM's book, with columns ORDER, MARKET, SELLER, DAYS SINCE ORDER and STAGE (stages seen: 'At quality check', 'Order created').",
+      "evidence": [
+        {"kind": "say", "at": "15:37", "quote": "Under it top late orders, the oldest unshipped orders in your book, and top suppliers contributing to backlog."},
+        {"kind": "see", "at": "15:36", "frame": "t00936.jpg", "quote": "Columns ORDER, MARKET, SELLER, DAYS SINCE ORDER, STAGE; stage pills 'At quality check' and 'Order created'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Top suppliers contributing to backlog shows, per seller, the backlog count, the backlog GMV (AED), how many orders are old (OLD >=6D) and the % OLD. Clicking a seller's row lists its orders, oldest first (narrated).",
+      "evidence": [
+        {"kind": "say", "at": "15:44", "quote": "How many orders each of your sellers has not shipped, their value, and how many are old."},
+        {"kind": "say", "at": "16:00", "quote": "Click a seller's row to see its orders oldest first."},
+        {"kind": "see", "at": "15:46", "frame": "t00946.jpg", "quote": "Columns SUPPLIER, MARKETS, BACKLOG COUNT, BACKLOG GMV (AED), OLD (>=6D), % OLD."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "The OLD slider sets how many days make an order old. On screen it is set to '>=6d'. The narrator says six days matches the business operations definition.",
+      "evidence": [
+        {"kind": "say", "at": "15:51", "quote": "The old slider sets how many days make an order old."},
+        {"kind": "say", "at": "15:55", "quote": "At six days, it matches the business operations definition."},
+        {"kind": "see", "at": "15:46", "frame": "t00946.jpg", "quote": "Slider labels 0 1 2 3 4 5 6 and '>=6d', with the handle at the right end."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Stuck orders are orders shipped more than three days ago that are not yet marked delivered. The list is the same as in Daily, for the KAM's sellers. Screen header: '208 shipped and not marked delivered, oldest first'.",
+      "evidence": [
+        {"kind": "say", "at": "16:07", "quote": "Stuck orders is the same list as in daily for your sellers."},
+        {"kind": "say", "at": "16:11", "quote": "Shipped more than three days ago and not yet marked delivered."},
+        {"kind": "see", "at": "16:14", "frame": "t00974.jpg", "quote": "'208 shipped and not marked delivered, oldest first'; footnote 'Showing the oldest 200 of 208 - the rest are older still and read the same.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Stuck orders columns are ORDER, SELLER, ORDER DATE, SHIPPING DATE, DAYS SINCE SHIPPING, SLA (values shown as ≤5d), TRACKING COMPANY and TRACKING. The list shows the oldest 200 of the 208 stuck orders.",
+      "evidence": [
+        {"kind": "see", "at": "16:14", "frame": "t00974.jpg", "quote": "Column headers as listed; SLA column values '≤5d'; footnote 'Showing the oldest 200 of 208'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Delivery companies ranks the couriers the KAM's sellers use. Columns: ORDERS, DELIVERED, MARKED (share marked delivered) and AVG. DAYS TO DELIVERY (average days from shipping to delivery).",
+      "evidence": [
+        {"kind": "say", "at": "16:18", "quote": "Delivery companies ranks the couriers your sellers use."},
+        {"kind": "say", "at": "16:22", "quote": "Orders handed over, orders delivered, the share marked delivered, and the average days from shipping to delivery."},
+        {"kind": "see", "at": "16:19", "frame": "t00986.jpg", "quote": "Columns #, DELIVERY COMPANY, MARKETS, ORDERS, DELIVERED, MARKED, AVG. DAYS TO DELIVERY."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Narrator: read the MARKED column first on Delivery companies. Under 70% the MARKED figure is red, and the average days to delivery is then based only on parcels that somebody marked by hand, so it is not reliable. The frames show MARKED values of 80% to 100%, none under 70%, so the threshold is not checked on screen.",
+      "evidence": [
+        {"kind": "say", "at": "16:47", "quote": "Read the marked column first."},
+        {"kind": "say", "at": "16:49", "quote": "Under 70% it is red."},
+        {"kind": "say", "at": "16:52", "quote": "The average days is then only based on the parcel somebody marked by hand, so it is not"},
+        {"kind": "say", "at": "16:57", "quote": "reliable."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Delivery companies timeline: MONTHS 'Jul 25 - Oct 26 - 16 months'. Drag either end to choose a range, click a month name for that month alone, and use 'Whole window' to reset (the narration describes these; the frames show the timeline and the button).",
+      "evidence": [
+        {"kind": "say", "at": "16:33", "quote": "Drag either end to choose a range or click a month name for that month alone."},
+        {"kind": "say", "at": "16:39", "quote": "Whole window resets it."},
+        {"kind": "see", "at": "16:19", "frame": "t00986.jpg", "quote": "'MONTHS Jul 25 - Oct 26 - 16 months' and 'Whole window' button."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Delivery companies has a Static / Evol. switch at the top right. The narrator says Evol shows each courier month by month.",
+      "evidence": [
+        {"kind": "say", "at": "16:58", "quote": "The EVOL switch shows each courier month by month."},
+        {"kind": "see", "at": "16:19", "frame": "t00979.jpg", "quote": "'Static' and 'Evol.' toggle at the top right of the Delivery companies panel."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Manual update is for Saudi Arabia (SA). It shows, per courier, the share of shipped or delivered statuses that were set automatically by the courier feed versus set by hand.",
+      "evidence": [
+        {"kind": "say", "at": "17:05", "quote": "Manual update is for Saudi Arabia."},
+        {"kind": "say", "at": "17:08", "quote": "It shows, per courier, the share of shipped or delivered statuses that were set automatically by the courier"},
+        {"kind": "see", "at": "17:14", "frame": "t01039.jpg", "quote": "'Marking pattern by courier - SA, Oct 2026 (status: Delivered)'; legend Automatic / Manual; Delivered and Shipped buttons."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "100% manual for a courier means it has no API integration for that status, so every order must be marked by hand. The screen subtitle says the same.",
+      "evidence": [
+        {"kind": "say", "at": "17:17", "quote": "100% manual means there is no integration, so someone must mark every order."},
+        {"kind": "see", "at": "17:14", "frame": "t01039.jpg", "quote": "Subtitle: '100% manual means no API integration for this status - every order is hand-flagged'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The seller x courier table under Manual update is ordered by volume, shows which sellers mark orders by hand, and has a 'With manual' / 'All sellers' filter. For SA, Oct 2026 (month-to-date), 0 of 10 seller x courier pairs had anything marked by hand.",
+      "evidence": [
+        {"kind": "say", "at": "17:24", "quote": "The table under it shows the same split per seller and courier, so you can see which of"},
+        {"kind": "say", "at": "17:30", "quote": "your sellers are marking by hand."},
+        {"kind": "see", "at": "17:19", "frame": "t01039.jpg", "quote": "'0 of 10 seller x courier pairs with something marked by hand'; 'Nothing marked by hand in the selected scope this month - every parcel came through a courier API.'"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Fulfillment share is the share of the seller's orders fulfilled by Revibe, where Revibe ships the order instead of the seller (narration and caption). The chart range badge reads 3% - 79%.",
+      "evidence": [
+        {"kind": "say", "at": "17:35", "quote": "Fulfillment shows the share of your seller's orders fulfilled by Revive, where Revive ships the order instead of"},
+        {"kind": "say", "at": "17:42", "quote": "the seller."},
+        {"kind": "see", "at": "17:37", "frame": "t01057.jpg", "quote": "'Fulfillment share' chart, badge '3% - 79%'; peak 79.2% and 3.2% at the last Oct label."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Use the 30-day and 90-day rates to judge claim quality. The all-time rate keeps climbing for up to a year as warranty claims trickle in (screen text), so it cannot be compared month to month. The 30-day rate locks 30 days after the month ends.",
+      "evidence": [
+        {"kind": "say", "at": "17:48", "quote": "Claims keep arriving for months after an order, so the all-time rate keeps climbing and cannot be"},
+        {"kind": "say", "at": "17:55", "quote": "This chart only counts claims filed within 30 or 90 days of the order."},
+        {"kind": "say", "at": "18:01", "quote": "That is the clean way to see whether quality is improving."},
+        {"kind": "see", "at": "17:57", "frame": "t01077.jpg", "quote": "On-screen text: 'For each order, only count claims filed within the first N days... The total (all-time) rate keeps climbing for up to a year as warranty claims trickle in... The 30-day rate locks in 30 days after the month ends.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "On the Defect rate chart, a check mark means the window is fully matured and a warning sign means it is still partial and must not be compared yet.",
+      "evidence": [
+        {"kind": "see", "at": "17:57", "frame": "t01077.jpg", "quote": "'check mark = window fully matured, warning sign = still partial (don't compare yet).'"},
+        {"kind": "see", "at": "18:02", "frame": "t01080.jpg", "quote": "Monthly table with check marks on the 30-day and 90-day columns (e.g. '✓ 12' for Nov 25)."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Top offenders splits the book's claim rate for one month across sellers. A seller's contribution is its own claims divided by the portfolio's orders, so the CONTRIBUTION column adds up to the portfolio rate (the narrator says 'adds up to your total'). Example, Sep 26: portfolio 4.67% (135 claims / 2,893 orders, 19 sellers in scope).",
+      "evidence": [
+        {"kind": "say", "at": "18:08", "quote": "Top Offenders splits your book's claim rate for one month across your sellers."},
+        {"kind": "say", "at": "18:12", "quote": "Each seller's contribution is its own claims over all your orders, so the column adds up to your"},
+        {"kind": "see", "at": "18:19", "frame": "t01104.jpg", "quote": "'Portfolio 4.67% 135 claims / 2,893 orders - 19 sellers in scope'; column CONTRIBUTION; subtitle 'A seller's contribution is its own claims over the portfolio's orders'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "A seller with a small contribution can still have a terrible claim rate, and a big seller with an average rate can drive the total. Look at contribution and claim rate together.",
+      "evidence": [
+        {"kind": "say", "at": "18:19", "quote": "It shows who is really driving your defect rate."},
+        {"kind": "say", "at": "18:22", "quote": "A big seller with an average rate or a small seller with a terrible one."},
+        {"kind": "see", "at": "18:19", "frame": "t01104.jpg", "quote": "MH Electronics: 40 orders, 20.0% claim rate, contribution 0.28%; 971 Fixing: 489 orders, 6.3% claim rate, contribution 1.07%."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Days to solve is the average number of days the sellers take to resolve a claim. Lower is better. The chart range is 3.2 to 14.4 days, peaking at 14.4 in Jul.",
+      "evidence": [
+        {"kind": "say", "at": "18:32", "quote": "Days to solve is the average number of days your sellers take to resolve a claim."},
+        {"kind": "say", "at": "18:37", "quote": "Lower is better."},
+        {"kind": "see", "at": "18:42", "frame": "t01122.jpg", "quote": "Avg. days to solve chart, range '3.2 - 14.4'; Jun 13.8, Jul 14.4, Oct 7.4."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Claims coverage is the share of claims raised in each period that are now closed. Open claims are shown in red. Click a bar for the list of claims behind it.",
+      "evidence": [
+        {"kind": "say", "at": "18:42", "quote": "Claims coverage is the share of claims raised in each period that are now closed, with the open"},
+        {"kind": "say", "at": "18:48", "quote": "ones in red."},
+        {"kind": "say", "at": "18:49", "quote": "Click a bar for the list."},
+        {"kind": "see", "at": "18:47", "frame": "t01127.jpg", "quote": "Claims coverage: green Closed, red Still open; Oct 26 bar 260 claims, 45% still open, 55% closed."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Claims coverage has a Volume / % switch. Volume scales the bars by claims raised, and % draws every period at full height so the mix is comparable. The right-most month (Oct 26) is still running and is partial.",
+      "evidence": [
+        {"kind": "see", "at": "18:47", "frame": "t01127.jpg", "quote": "Screen text: 'Use the switch to read it either way: Volume scales the bars by claims raised, % draws every period full height so the mix is comparable ... The right-most month (Oct 26) is still running and is partial.'"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Refund policy is the policy clock from Daily, shown for the KAM's sellers ('Refund policy - Sherin', snapshot 2026-10-16, 12 sellers in scope). The top card reads ON THE CLOCK 41, meaning open returns with a seller timer.",
+      "evidence": [
+        {"kind": "say", "at": "18:55", "quote": "Refund policy is the policy clock from daily for your sellers."},
+        {"kind": "see", "at": "19:00", "frame": "t01134.jpg", "quote": "'ON THE CLOCK 41 - open returns with a seller timer'; 'snapshot 2026-10-16'; 'Open returns on the policy clock right now - not the selected timeframe - 12 sellers in scope'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Of the 41 on the clock, 28 are moving (68% of the clock, accruing weekday hours) and 13 are stopped (32% of the clock, banked and frozen until the timer restarts).",
+      "evidence": [
+        {"kind": "see", "at": "19:00", "frame": "t01134.jpg", "quote": "'MOVING 28 - 68% of the clock, accruing weekday hours'; 'STOPPED 13 - 32% of the clock, banked, frozen until it restarts'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Market split on the refund policy cards for the same snapshot: SA has 24 moving and 5 stopped; AE / ZA has 4 moving and 8 stopped.",
+      "evidence": [
+        {"kind": "see", "at": "19:00", "frame": "t01134.jpg", "quote": "'SA 24 moving - 5 stopped'; 'AE · ZA 4 moving - 8 stopped'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "A policy day is 24 weekday hours on the Dubai calendar day. Saturday and Sunday never accrue, in any market, so a full policy week is about 9 calendar days.",
+      "evidence": [
+        {"kind": "see", "at": "19:00", "frame": "t01134.jpg", "quote": "'A policy day is 24 weekday hours, on the Dubai calendar day - Saturday and Sunday never accrue, in any market - so a full policy week is about 9 calendar days.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Each claim lands in one column only: 1d is over 0 and up to 24 weekday hours, 2d is 24 to 48, and so on. The last column collects everything past the action day. A solid blue block is accruing; a light blue block is stopped, with its hours banked and frozen until the timer restarts.",
+      "evidence": [
+        {"kind": "see", "at": "19:00", "frame": "t01134.jpg", "quote": "'Each claim lands in one column only - 1d is over 0 and up to 24 weekday hours, 2d is 24 to 48, and so on... The solid blue block is accruing and the light blue one is stopped: banked hours only, frozen in that column until the timer restarts.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Policy thresholds on the refund chart differ by market. SA: warning days at 7d and 8d, policy applied from 9d. AE / ZA: warning days at 6d and 7d, policy applied from 8d. A claim standing in a policy-applied column is one Revibe can act on. The thresholds are read from the config table, per the screen text.",
+      "evidence": [
+        {"kind": "see", "at": "19:00", "frame": "t01134.jpg", "quote": "SA chart axis labels '7d', '8d' (warning icon), '9d' and '>9d' (policy applied icon); AE / ZA chart axis labels '6d' and '7d' (warning icon), '8d' and '>8d' (policy applied icon). Text: 'a claim standing in one of those is one Revibe can act on. Both are read from the config table'."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Invalid claims follows returns through three verdicts: the seller rejected the claim (valid_claim), a Revibe agent confirmed it as invalid (revibe_confirmation), and the Revibe lab confirmed it (lab_decision).",
+      "evidence": [
+        {"kind": "say", "at": "19:03", "quote": "Invalid claims follows returns through three verdicts."},
+        {"kind": "say", "at": "19:06", "quote": "How many the seller rejected, how many of those a Revive agent confirmed as invalid, and how many"},
+        {"kind": "say", "at": "19:13", "quote": "the Revive lab confirmed."},
+        {"kind": "see", "at": "19:12", "frame": "t01152.jpg", "quote": "Funnel boxes '91 Rejected by the seller - valid_claim', '88 Confirmed by a Revibe agent - revibe_confirmation', '35 Confirmed by the Revibe lab - lab_decision'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "A seller who rejects many claims that the Revibe lab then finds valid is a seller to talk to.",
+      "evidence": [
+        {"kind": "say", "at": "19:15", "quote": "A seller who rejects lots of claims that Revive then finds valid is definitely a seller to talk"},
+        {"kind": "say", "at": "19:21", "quote": "to."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Invalid claims funnel figures for the window shown: 716 claims received (664 decided, 52 still pending); 91 rejected by the seller (13.7% of decided); 88 confirmed by a Revibe agent (96.7% of those); 35 confirmed by the Revibe lab (46.1% of 76 judged).",
+      "evidence": [
+        {"kind": "see", "at": "19:12", "frame": "t01152.jpg", "quote": "'716 Claims received 664 decided - 52 still pending'; '91 Rejected by the seller 13.7% of decided'; '88 Confirmed by a Revibe agent 96.7% of those'; '35 Confirmed by the Revibe lab 46.1% of 76 judged'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Invalid claims covers only the defect rate's own claims, over the whole window (the timeframe picker does not apply). Repair partners are excluded from both ends. The country, account-manager and seller filters apply. Revibe can also reject claims the seller passed (2 claims on this window).",
+      "evidence": [
+        {"kind": "see", "at": "19:12", "frame": "t01152.jpg", "quote": "'Returns only, on the defect rate's own claims ... the whole window; the timeframe picker does not apply ... Repair partners are excluded from both ends ... Follows the country, account-manager and seller filters.' 'Not a funnel that only narrows: Revibe also rejects claims the seller passed - 2 claims on this window.'"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Invalid claims has a monthly bar chart with a legend 'Rejected by the seller' (red) and 'Every other claim received' (grey), and a purple line showing how often the Revibe lab agreed with the seller on each order month.",
+      "evidence": [
+        {"kind": "see", "at": "19:12", "frame": "t01161.jpg", "quote": "Legend 'Rejected by the seller' and 'Every other claim received'; purple line percentages (e.g. 53% Jun, 44% Aug); caption 'Month by month, on the order month the defect rate uses ... the line is how often the lab then agreed with the seller'."}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Cancellation shows the percentage of orders canceled per period. This is narrated only; no frame in this part shows the screen.",
+      "evidence": [
+        {"kind": "say", "at": "19:26", "quote": "Cancellation shows the percentage of orders canceled per period."}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Sellers connections shows how often each seller opens the seller portal. Each cell counts how many times a card was opened. This is narrated only; no frame in this part shows the screen.",
+      "evidence": [
+        {"kind": "say", "at": "19:33", "quote": "Seller's Connections shows how often each of your sellers opens the seller portal."},
+        {"kind": "say", "at": "19:38", "quote": "Each cell counts how many times a card was opened."}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Top offenders month selector lists Jul 25 to Oct 26 as pills; Sep 26 is selected in the frames, and the subtitle says to click a second month for a range.",
+      "evidence": [
+        {"kind": "see", "at": "18:19", "frame": "t01104.jpg", "quote": "'MONTHS Sep 26 · 1 month - click a second month for a range'; pills Jul 25 to Oct 26 with Sep 26 highlighted."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    }
+  ],
+  "screens": [
+    {
+      "name": "Supply dashboard, KAM tab",
+      "shows": "Top nav tabs Daily, Periskope, Team, KAM (active), Sellers, Price recs, KPIs, Scores, Tools; Chart/Table toggle; Meeting notes, Data freshness and Home buttons. Left index: HR, Sellers, Orders, On time, Fulfillment, Quality, Claims management, Cancellation, Sellers connections, Meetings.",
+      "at": "13:45",
+      "where": "Top of the dashboard (frames t00825 to t01161)"
+    },
+    {
+      "name": "KAM person tabs",
+      "shows": "All 149, Pepe 15, Yahia 61, Sherin 30 (selected in these frames), Momen 23, Samaa 11, Unassigned 9.",
+      "at": "13:45",
+      "where": "Row under the top nav"
+    },
+    {
+      "name": "Filter panel",
+      "shows": "TIMEFRAME Monthly (last 15M), Weekly (last 10W), Daily (last 30D), '442 days of data'; COUNTRY flags; SELLER STATUS All / Active / OUT / OFF; SELLERS search with checkbox list and All / Clear / Top 15.",
+      "at": "13:45",
+      "where": "Left column on every KAM page"
+    },
+    {
+      "name": "Sellers > Semi-active",
+      "shows": "Seller table with STATUS, BUYBOX, KAM and monthly order columns (FEB 26 to OCT*); header '1 to 29 orders this month'; methodology toggle; Total/Active/New sellers chart legend.",
+      "at": "13:50",
+      "where": "Sellers section"
+    },
+    {
+      "name": "Sellers > Buybox closed",
+      "shows": "Panel 'Buybox closed' with subtitle 'Active sellers, closed for more than 3 days' and 'None in this book.'",
+      "at": "14:08",
+      "where": "Sellers section"
+    },
+    {
+      "name": "Sellers > Slowing down",
+      "shows": "Table SELLER, STATUS, BUYBOX, KAM, 'SEP 26 TO DAY 16', 'OCT 26', 'VS. SAME DAYS'.",
+      "at": "14:19",
+      "where": "Sellers section"
+    },
+    {
+      "name": "Orders",
+      "shows": "Buttons SA / ex-SA, Direct / FBR, By country, By seller; charts Confirmed orders (counts) and GMV (k AED), each with Volume/% switch.",
+      "at": "14:39",
+      "where": "Orders section"
+    },
+    {
+      "name": "On time > Performance",
+      "shows": "On time % by country line chart with SA, ZA, AE and other country lines, 'All selected' line, '81% MTD' label; header text on promise.",
+      "at": "14:57",
+      "where": "On time section"
+    },
+    {
+      "name": "On time > Backlog",
+      "shows": "Orders received by where they stand now (Delivered, Shipped, Quality check, Order created), pink pending line, Refused & cancelled checkbox, counts under each column; Top late orders table; Top suppliers contributing to backlog table with OLD slider.",
+      "at": "15:18",
+      "where": "On time section"
+    },
+    {
+      "name": "On time > Stuck orders",
+      "shows": "Table of shipped-not-delivered orders, oldest first, with ORDER, SELLER, ORDER DATE, SHIPPING DATE, DAYS SINCE SHIPPING, SLA, TRACKING COMPANY, TRACKING; footnote 'Showing the oldest 200 of 208'.",
+      "at": "16:02",
+      "where": "On time section"
+    },
+    {
+      "name": "On time > Delivery companies",
+      "shows": "Table #, DELIVERY COMPANY, MARKETS, ORDERS, DELIVERED, MARKED, AVG. DAYS TO DELIVERY; MONTHS timeline with Whole window; Static/Evol toggle.",
+      "at": "16:14",
+      "where": "On time section"
+    },
+    {
+      "name": "On time > Manual update",
+      "shows": "Marking pattern by courier (SA, Oct 2026, Delivered/Shipped buttons, Automatic and Manual legend); Seller x courier table with 'With manual' / 'All sellers' filter.",
+      "at": "16:58",
+      "where": "On time section"
+    },
+    {
+      "name": "Fulfillment",
+      "shows": "Fulfillment share line chart, badge '3% - 79%'.",
+      "at": "17:37",
+      "where": "Sidebar item Fulfillment"
+    },
+    {
+      "name": "Quality > Defect rate",
+      "shows": "Stabilized % claims chart (30-day rate, 90-day rate, All-time (still growing)); monthly table MONTH, ORDERS, 30-DAY CLAIMS, 90-DAY CLAIMS, ALL-TIME (SO FAR).",
+      "at": "17:57",
+      "where": "Quality section"
+    },
+    {
+      "name": "Quality > Top offenders",
+      "shows": "Month pills Jul 25 to Oct 26 (click a month, then a second month for a range); Portfolio header; table SELLER, ORDERS, SHARE OF ORDERS, CLAIMS, CLAIM RATE, CONTRIBUTION with bars.",
+      "at": "18:19",
+      "where": "Quality section"
+    },
+    {
+      "name": "Claims management > Days to solve",
+      "shows": "Avg. days to solve line chart (range 3.2 - 14.4).",
+      "at": "18:32",
+      "where": "Claims management section"
+    },
+    {
+      "name": "Claims management > Claims coverage",
+      "shows": "Stacked bar chart Closed (green) and Still open (red) with Volume/% switch; Refund policy panel below: ON THE CLOCK 41, MOVING 28, STOPPED 13, with SA and AE/ZA charts.",
+      "at": "18:42",
+      "where": "Claims management section"
+    },
+    {
+      "name": "Claims management > Refund policy",
+      "shows": "Policy clock summary cards and per-market column charts (SA; AE and ZA) with warning and policy-applied icons, 'snapshot 2026-10-16'.",
+      "at": "18:55",
+      "where": "Claims management section"
+    },
+    {
+      "name": "Claims management > Invalid claims",
+      "shows": "Funnel boxes 716 - 91 - 88 - 35; monthly bar chart of claims received with rejected-by-seller share and lab-agreed line; a seller table (partly cut off) with columns CLAIMS RECEIVED, REJECTED, % OF DECIDED, LAB UPHELD, LAB OVERTURNED, % OVERTURNED, NOT JUDGED.",
+      "at": "19:03",
+      "where": "Claims management section"
+    },
+    {
+      "name": "Cancellation and Sellers connections",
+      "shows": "Not shown in any frame in this part. Only the sidebar items are visible.",
+      "at": "19:26",
+      "where": "Sidebar only"
+    }
+  ],
+  "terms": [
+    {
+      "term": "KAM",
+      "meaning": "The KAM tab filters the dashboard to one KAM's book of sellers (screen tabs All, Pepe, Yahia, Sherin, Momen, Samaa, Unassigned). The expansion 'key account manager' is not shown on screen or in this part's narration. Implied: key account manager.",
+      "at": "13:45"
+    },
+    {
+      "term": "Book (your book)",
+      "meaning": "The set of sellers assigned to the KAM. Lists such as Buybox closed are limited to it.",
+      "at": "14:02"
+    },
+    {
+      "term": "Semi-active",
+      "meaning": "A seller with between 1 and 29 orders so far this month; the quick-win list.",
+      "at": "13:50"
+    },
+    {
+      "term": "Active seller",
+      "meaning": "Chart legend: a seller with 30 or more orders (screen: 'Active sellers (>=30 orders)').",
+      "at": "13:45"
+    },
+    {
+      "term": "Buybox closed",
+      "meaning": "An active seller whose buybox has been closed for more than 3 days.",
+      "at": "14:02"
+    },
+    {
+      "term": "Slowing down",
+      "meaning": "An active-last-month seller who is behind its own pace this month (month-to-date vs same days last month).",
+      "at": "14:10"
+    },
+    {
+      "term": "VS. SAME DAYS",
+      "meaning": "Slowing down column giving the percentage change of this month to date against the same days last month. The narrator calls this column the PACE column.",
+      "at": "14:19"
+    },
+    {
+      "term": "Confirmed orders",
+      "meaning": "Orders shown per period on the Orders page.",
+      "at": "14:32"
+    },
+    {
+      "term": "GMV (k AED)",
+      "meaning": "GMV per period, in thousands of AED, shown on the Orders page.",
+      "at": "14:32"
+    },
+    {
+      "term": "SA / ex-SA",
+      "meaning": "Split button: Saudi Arabia against the rest of the markets (legend 'SA' and 'Excl. SA (AE / ZA / other)').",
+      "at": "14:36"
+    },
+    {
+      "term": "Direct / FBR",
+      "meaning": "Split button. The narrator describes it only as direct against fulfilled by Revibe; the screen shows the label without a definition.",
+      "at": "14:36"
+    },
+    {
+      "term": "Promise (on time)",
+      "meaning": "Revibe's delivery promise: delivery within 5 working days in SA; shipment within 2 business days elsewhere.",
+      "at": "14:52"
+    },
+    {
+      "term": "Backlog",
+      "meaning": "Orders received in a period, shown by the stage they are at today.",
+      "at": "15:11"
+    },
+    {
+      "term": "Pending (backlog)",
+      "meaning": "Orders still not delivered; the pink line accumulates them.",
+      "at": "15:23"
+    },
+    {
+      "term": "Quality check / Order created",
+      "meaning": "Backlog stages seen on screen for orders not yet shipped.",
+      "at": "15:20"
+    },
+    {
+      "term": "Top late orders",
+      "meaning": "The oldest unshipped orders in the KAM's book (narration).",
+      "at": "15:37"
+    },
+    {
+      "term": "OLD (>=6d)",
+      "meaning": "An order is old once it reaches the OLD threshold; the slider is at >=6d on screen, and the narrator says six days matches the business operations definition.",
+      "at": "15:51"
+    },
+    {
+      "term": "Stuck orders",
+      "meaning": "Orders shipped more than three days ago and not yet marked delivered.",
+      "at": "16:11"
+    },
+    {
+      "term": "Delivery company",
+      "meaning": "A courier the sellers use (for example DHL, SMSA Express, Aramex, UPS).",
+      "at": "16:18"
+    },
+    {
+      "term": "MARKED",
+      "meaning": "Column header on Delivery companies. The narrator describes it as the share marked delivered; under 70% is red (narrated, not seen on screen).",
+      "at": "16:49"
+    },
+    {
+      "term": "Manual update / marked by hand",
+      "meaning": "A status set by hand, not by the courier feed. 100% manual means no API integration for that status.",
+      "at": "17:08"
+    },
+    {
+      "term": "Evol",
+      "meaning": "Switch on Delivery companies that shows each courier month by month (screen label 'Evol.').",
+      "at": "16:58"
+    },
+    {
+      "term": "Fulfillment share",
+      "meaning": "Share of the seller's orders fulfilled by Revibe, where Revibe ships the order instead of the seller.",
+      "at": "17:35"
+    },
+    {
+      "term": "Defect rate / claim rate",
+      "meaning": "Claims filed within 30 or 90 days of the order, shown as a rate on the Defect rate chart. Implied: the rate is claims divided by orders (consistent with the Top offenders contribution definition).",
+      "at": "17:46"
+    },
+    {
+      "term": "All-time rate",
+      "meaning": "Claim rate counting every claim filed so far; still growing, so not comparable month to month.",
+      "at": "17:48"
+    },
+    {
+      "term": "Contribution",
+      "meaning": "A seller's own claims divided by the portfolio's orders; the column adds up to the portfolio rate.",
+      "at": "18:12"
+    },
+    {
+      "term": "Days to solve",
+      "meaning": "Average number of days the sellers take to resolve a claim. Lower is better.",
+      "at": "18:32"
+    },
+    {
+      "term": "Claims coverage",
+      "meaning": "Share of claims raised in a period that are now closed; open claims are red.",
+      "at": "18:42"
+    },
+    {
+      "term": "Refund policy / policy clock",
+      "meaning": "The policy clock running on open returns for the sellers, from Daily.",
+      "at": "18:55"
+    },
+    {
+      "term": "Policy day",
+      "meaning": "24 weekday hours on the Dubai calendar day; Saturday and Sunday never accrue.",
+      "at": "19:00"
+    },
+    {
+      "term": "On the clock / Moving / Stopped",
+      "meaning": "On the clock is the total of open returns with a seller timer (41); moving (28) is accruing weekday hours; stopped (13) is banked hours frozen until the timer restarts.",
+      "at": "19:00"
+    },
+    {
+      "term": "Warning days / policy applied",
+      "meaning": "Refund-chart markers: a warning icon on warning days, and a red icon once the policy is applied; read from the config table.",
+      "at": "19:00"
+    },
+    {
+      "term": "Invalid claims",
+      "meaning": "Returns followed through three verdicts: rejected by the seller, confirmed invalid by a Revibe agent, confirmed by the Revibe lab.",
+      "at": "19:03"
+    },
+    {
+      "term": "Revibe agent / Revibe lab",
+      "meaning": "The two Revibe review stages in invalid claims; the lab is the last word.",
+      "at": "19:06"
+    },
+    {
+      "term": "Repair partners",
+      "meaning": "Excluded from both ends of the invalid-claims funnel.",
+      "at": "19:12"
+    },
+    {
+      "term": "Cancellation",
+      "meaning": "Percentage of orders canceled per period (narrated only).",
+      "at": "19:26"
+    },
+    {
+      "term": "Sellers connections",
+      "meaning": "How often each seller opens the seller portal; each cell counts the card opens (narrated only). Sidebar label is 'Sellers connections'.",
+      "at": "19:33"
+    }
+  ],
+  "asr_fixes": [
+    {
+      "at": "14:02",
+      "heard": "Buy Box Closed",
+      "correct": "Buybox closed",
+      "basis": "Screen sidebar and panel title read 'Buybox closed' (frames t00848.jpg, t00850.jpg)."
+    },
+    {
+      "at": "14:36",
+      "heard": "fulfilled by revive",
+      "correct": "fulfilled by Revibe",
+      "basis": "Brand is spelled Revibe on screen, e.g. 'Revibe's promise per market' (frame t00897.jpg) and 'Revibe agent' (frame t01152.jpg)."
+    },
+    {
+      "at": "14:52",
+      "heard": "time performance revives promise",
+      "correct": "On time, Performance. Revibe's promise",
+      "basis": "Screen header and caption read 'Revibe's promise per market' (frame t00897.jpg)."
+    },
+    {
+      "at": "16:58",
+      "heard": "EVOL switch",
+      "correct": "Evol. switch",
+      "basis": "Toggle label on the Delivery companies panel reads 'Static' and 'Evol.' (frame t00979.jpg)."
+    },
+    {
+      "at": "17:35",
+      "heard": "fulfilled by Revive, where Revive ships",
+      "correct": "fulfilled by Revibe, where Revibe ships",
+      "basis": "Brand is spelled Revibe on screen (frames t01057.jpg, t01152.jpg)."
+    },
+    {
+      "at": "19:06",
+      "heard": "a Revive agent",
+      "correct": "a Revibe agent",
+      "basis": "Funnel box reads 'Confirmed by a Revibe agent' (frame t01152.jpg)."
+    },
+    {
+      "at": "19:13",
+      "heard": "the Revive lab confirmed",
+      "correct": "the Revibe lab confirmed",
+      "basis": "Funnel box reads 'Confirmed by the Revibe lab' (frame t01152.jpg)."
+    },
+    {
+      "at": "19:15",
+      "heard": "that Revive then finds valid",
+      "correct": "that Revibe then finds valid",
+      "basis": "Brand is spelled Revibe on screen (frame t01152.jpg)."
+    },
+    {
+      "at": "19:33",
+      "heard": "Seller's Connections",
+      "correct": "Sellers connections",
+      "basis": "Sidebar label reads 'Sellers connections' (frame t00825.jpg)."
+    }
+  ],
+  "unclear": [
+    {
+      "at": "14:20",
+      "issue": "Narration says 'Read the PACE column'. The screen header is 'VS. SAME DAYS'. The column is the same percentage column, but the name differs. Not stated as a fact beyond the screen label."
+    },
+    {
+      "at": "14:48",
+      "issue": "Token '{on?}' is unreadable and has no context. Ignored."
+    },
+    {
+      "at": "15:20",
+      "issue": "Narration reads '{still?} at order created'. The screen legend shows 'Quality check' and 'Order created' only. The word 'still' is not confirmed, so the fact uses the screen stage names."
+    },
+    {
+      "at": "15:31",
+      "issue": "Narration reads '{cancelled?}'. The screen checkbox reads 'REFUSED & CANCELLED'. The screen wording is used."
+    },
+    {
+      "at": "16:22",
+      "issue": "Narration says 'Orders handed over'. The screen column is 'ORDERS'. The meaning of 'handed over' is not explained on screen, so it is not stated as a fact."
+    },
+    {
+      "at": "16:40",
+      "issue": "Narration says the default view shows the top 10 couriers and a button shows the rest. The frames show 9 rows (DHL to The Courier Guy) and no button under the table. Cannot confirm the count."
+    },
+    {
+      "at": "16:49",
+      "issue": "Narration says under 70% the MARKED figure is red. The frames show MARKED values of 80% to 100%, with the 80% to 87% figures in orange or brown rather than a value under 70%. The red rule cannot be checked on screen."
+    },
+    {
+      "at": "14:57",
+      "issue": "Headline figure in the On time subtitle is partly unreadable: '77% over the plotted periods (13,051 / 16,91?)'. The denominator is cut off and is not stated."
+    },
+    {
+      "at": "19:00",
+      "issue": "Refund policy subtitle is partly hidden: 'The policy's clock began on 01 Sep 2026 and nothing was backfilled, so the clock is only 31.2 policy days old...'. The 31.2 figure is faint, so it is not stated as a fact."
+    },
+    {
+      "at": "19:21",
+      "issue": "Invalid claims subtitle is partly hidden, including a phrase that claims upheld every time are not on the list. Not used."
+    },
+    {
+      "at": "19:26",
+      "issue": "Cancellation and Sellers connections are narrated, but no frame in this part shows either screen. Their content is from narration only."
+    },
+    {
+      "at": "18:02",
+      "issue": "Monthly defect-rate table rows from about Jan 26 onward are partly covered by the subtitle and not readable. Only the Oct 25 to Dec 25 rows are used."
+    }
+  ],
+  "outdated": [
+    {
+      "at": "18:55",
+      "signal": "Refund policy snapshot is dated 2026-10-16 ('snapshot 2026-10-16'); the counts (41 on the clock, 28 moving, 13 stopped) are a point-in-time snapshot and will change."
+    },
+    {
+      "at": "14:57",
+      "signal": "Oct 26 is labelled as the month still running ('Oct 26 is the month still running... drawn past the divider as a to-date figure', '81% MTD'). The Oct figures are month-to-date at recording time."
+    },
+    {
+      "at": "16:14",
+      "signal": "Stuck orders header '208 shipped and not marked delivered' is a live count at recording time."
+    },
+    {
+      "at": "17:19",
+      "signal": "Manual update seller x courier figure is 'SA, Oct 2026 (month-to-date)'; it will change through the month."
+    },
+    {
+      "at": "18:42",
+      "signal": "Claims coverage: 'The right-most month (Oct 26) is still running and is partial'. The Oct 26 bar (260 claims, 45% still open) will change."
+    },
+    {
+      "at": "18:02",
+      "signal": "Defect rate: the Sep and Oct points are shown faded or dashed and the screen says partial windows must not be compared. Those values are not final."
+    }
+  ],
+  "privacy": [
+    {
+      "at": "16:14",
+      "what": "Stuck orders rows show tracking numbers and order references per row (for example SA-139376-2 with a tracking number), linked to named seller businesses (for example Cellular Trading). No customer names, phone numbers, emails or addresses are visible in the frames. Review before showing shipment-level rows to sellers.",
+      "frame": "t00974.jpg"
+    },
+    {
+      "at": "15:37",
+      "what": "Top late orders rows show order references and seller business names, with market flags. No customer personal data visible. Review the order references before sharing with sellers.",
+      "frame": "t00936.jpg"
+    },
+    {
+      "at": "13:45",
+      "what": "The KAM person tabs (Sherin, Pepe, Yahia, Momen, Samaa) and the Sherin heading show internal staff first names. These are internal KAM names, not sellers, but should not be shown to sellers as-is.",
+      "frame": "t00825.jpg"
+    }
+  ],
+  "audit": {
+    "checked": 144,
+    "removed": [
+      {
+        "statement": "Term 'Direct / FBR' meaning 'orders sold directly by the seller'",
+        "reason": "Not on screen or in narration. The narrator says only 'direct against fulfilled by Revibe'. The meaning was replaced with the narrated wording."
+      },
+      {
+        "statement": "Fact: 'The default is 6 days' for the OLD slider",
+        "reason": "The frames show the slider at '>=6d' but do not show a default setting. The word 'default' was removed."
+      },
+      {
+        "statement": "Fact: 'Manual update is only for Saudi Arabia'",
+        "reason": "The narrator says 'Manual update is for Saudi Arabia'. The word 'only' is not in the evidence and was removed."
+      }
+    ],
+    "corrected": [
+      {
+        "before": "Step 14:10: 'reads the VS. SAME DAYS column, which is the percentage, not the raw count'",
+        "after": "The narrator says to read the PACE column, the percentage, not the raw count; the screen header is VS. SAME DAYS and its values are percentages.",
+        "reason": "The column name differs between narration and screen. The name is taken from the screen and the narration is attributed to the narrator."
+      },
+      {
+        "before": "Step 15:11: 'clicks a column for its pending orders, and ticks the Refused & Cancelled box'",
+        "after": "The narrator explains that clicking a column opens its pending orders and that the Refused & Cancelled box adds those outcomes to the bars; no click is shown.",
+        "reason": "The click and tick actions are narrated, not shown in the frames."
+      },
+      {
+        "before": "Step 15:36: 'moves the OLD slider and clicks a seller row'",
+        "after": "Shows the OLD slider at >=6d; the narrator says clicking a seller row lists its orders oldest first.",
+        "reason": "No slider movement or click is shown in the frames."
+      },
+      {
+        "before": "Step 16:14: 'uses the timeline (drag ends, click a month, Whole window) to pick months'",
+        "after": "Narrates the timeline controls (drag ends, click a month, Whole window); the timeline and button are visible, the dragging is not.",
+        "reason": "The actions are narrated only."
+      },
+      {
+        "before": "Step 16:47 and facts on MARKED: 'Under 70% the cell is red'",
+        "after": "Narrator says under 70% it is red; the frames show only 80% to 100% values, so the rule is not checked on screen. Confidence set to medium.",
+        "reason": "The screen does not show a value under 70%."
+      },
+      {
+        "before": "Step 17:14 frame t01034 for the five-courier marking pattern bars and the Automatic/Manual legend",
+        "after": "Frame t01039 carries the five bars (SMSA Express 205, UPS 99, Delivery Panda 60, DHL 57, Aramex 51), the legend and the Delivered/Shipped toggle. Frame t01034 shows only the Delivery companies table with the first two bars.",
+        "reason": "Frame citation was wrong; the content is in t01039."
+      },
+      {
+        "before": "Step 17:35 frame citation for the Fulfillment chart's 'Oct 25' and 'Oct 26' labels",
+        "after": "The axis shows 'Oct' at both ends; the years 25 and 26 are inferred from the axis starting at Aug 25 and are not shown as year labels on the chart.",
+        "reason": "The year labels are not printed on the chart."
+      },
+      {
+        "before": "Step 18:19 and Top offenders fact frame t01099",
+        "after": "The Sep 26 Top offenders table is in frame t01104. Frame t01099 is a title overlay ('KAM · Quality · Top offenders') with no table.",
+        "reason": "Frame citation was wrong."
+      },
+      {
+        "before": "Fact: 'The default is 6 days (shown as '>=6d')'",
+        "after": "On screen the OLD slider is at '>=6d'; the narrator says six days matches the business operations definition.",
+        "reason": "'Default' is not shown in the evidence."
+      },
+      {
+        "before": "Fact: 'SLA (shown as <=5d)'",
+        "after": "SLA values are shown as '≤5d' (with the ≤ glyph).",
+        "reason": "Copy the character exactly as shown on screen."
+      },
+      {
+        "before": "Fact: 'Each open return is either on the clock (accruing), moving, or stopped.'",
+        "after": "41 open returns are on the clock. Of these, 28 are moving (accruing weekday hours) and 13 are stopped (banked, frozen until the timer restarts).",
+        "reason": "On the clock is the total; moving and stopped split it. The original statement made the three categories look like alternatives."
+      },
+      {
+        "before": "Fact: 'all-time rate keeps climbing for up to a year as warranty claims arrive'",
+        "after": "The screen text says warranty claims 'trickle in'.",
+        "reason": "Use the exact on-screen wording."
+      },
+      {
+        "before": "Screen 'Claims management > Invalid claims' table columns: 'CLAIMS RECEIVED, REJECTED, LAB UPHELD, LAB OVERTURNED, % OVERTURNED, NOT JUDGED'",
+        "after": "Columns CLAIMS RECEIVED, REJECTED, % OF DECIDED, LAB UPHELD, LAB OVERTURNED, % OVERTURNED, NOT JUDGED (table partly cut off).",
+        "reason": "The % OF DECIDED column was missing."
+      },
+      {
+        "before": "Term 'KAM' meaning: 'Key account manager.'",
+        "after": "The expansion is not on screen or in this part's narration; marked Implied.",
+        "reason": "Not supported by evidence in this part. Per the rules, general knowledge is marked Implied."
+      },
+      {
+        "before": "Term 'MARKED' meaning: 'Share of an courier's delivered orders whose status was marked as delivered'",
+        "after": "Column header on Delivery companies. Narrator describes it as the share marked delivered; under 70% is red (narrated, not seen on screen).",
+        "reason": "Grammar error and an unsupported definition; the wording now follows the narration."
+      },
+      {
+        "before": "Term 'Defect rate / claim rate': 'Share of orders that have a claim'",
+        "after": "Claims filed within 30 or 90 days of the order, shown as a rate. Implied: claims divided by orders.",
+        "reason": "The screen does not state claims divided by orders; this is implied by the Top offenders definition."
+      },
+      {
+        "before": "Term 'Seller's Connections'",
+        "after": "'Sellers connections' (sidebar label).",
+        "reason": "Match the on-screen sidebar label."
+      },
+      {
+        "before": "Fact 'Manual update is only for Saudi Arabia (SA)'",
+        "after": "Manual update is for Saudi Arabia (SA), per the narrator.",
+        "reason": "'Only' is not in the evidence."
+      },
+      {
+        "before": "Summary: 'Cancellation and Seller's connections are narrated'",
+        "after": "Cancellation and Sellers connections are narrated only.",
+        "reason": "Use the sidebar label."
+      }
+    ],
+    "added": [
+      "Fact: Top offenders month selector and subtitle (frame t01104).",
+      "Fact: Refund policy market split, SA 24 moving and 5 stopped; AE / ZA 4 moving and 8 stopped (frame t01134).",
+      "Fact: 41 on the clock splits into 28 moving and 13 stopped (frame t01134).",
+      "Fact: Invalid claims monthly chart legend and lab-agreed line (frame t01161).",
+      "Fact: Delivery companies Static / Evol. switch and narrated meaning (frame t00979).",
+      "ASR fix: 'EVOL switch' to 'Evol. switch' (16:58).",
+      "ASR fix: 'Seller's Connections' to 'Sellers connections' (19:33).",
+      "Screen and steps now cite t01039 for the five-bar marking pattern and t01104 for the Sep 26 Top offenders table."
+    ]
+  }
+}

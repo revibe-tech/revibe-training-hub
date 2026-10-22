@@ -1,0 +1,1126 @@
+{
+  "summary": "Part 2 of 3 (02:20-04:45) of the Revibe training \"12.0 South Africa Bulk Shipments (Seller & KAMs)\". The trainer walks through packing a Quiqup bulk box in the Revibe box panel (scan every device, remove any device not in the box, seal with red tape and film it), then the hand-over (press \"Mark ready for collection\" only when the Quiqup rider is there, usually around 3 PM; print the Quiqup label and stick it on the box), then tracking the box and fixing exceptions (Missing and Can't scan), and finally a daily checklist. 43 frames were opened: the 40 frames cited in the pack plus t00285, t00288 and t00290, which no claim cited. The hand-over table shows four device rows while the packing list had six devices, which is logged as unclear.",
+  "frames_opened": 43,
+  "steps": [
+    {
+      "at": "02:20",
+      "screen": "Revibe box guide: Step 2 of 4 · Each device (barcode rules slide)",
+      "action": "Shows the barcode rules on each device: do not cut the barcode, do not fold it over an edge, and do not crumple it or cover it with another label. The on-screen caption repeats the narration spoken at 02:16-02:17.",
+      "says": "",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "02:16", "frame": "", "quote": "Never cut it."},
+        {"kind": "say", "at": "02:17", "frame": "", "quote": "Never fold it over an edge {and?} never crumple it or cover it with another label."},
+        {"kind": "see", "at": "02:20", "frame": "t00140.jpg", "quote": "Three cards: 'Don't cut it', 'Don't fold it over an edge', 'Don't crumple or cover it'. Caption: 'Never cut it. Never fold it over an edge. And never crumple it, or cover it with another label.'"}
+      ]
+    },
+    {
+      "at": "02:23",
+      "screen": "Step 3 of 4 · The big box",
+      "action": "Starts step 3: packing one box with all of the day's devices (six purple device labels shown beside a brown box).",
+      "says": "Step 3. Pack one big box with all of today's devices.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "02:23", "frame": "", "quote": "[02:23] Step 3."},
+        {"kind": "say", "at": "02:24", "frame": "", "quote": "Pack one big box with all of today's devices."},
+        {"kind": "see", "at": "02:25", "frame": "t00145.jpg", "quote": "Header 'Step 3 of 4 · The big box', title 'Pack one big box with today's devices', six purple device labels, one brown box, caption 'Step three: pack one big box with all of today's devices.'"}
+      ]
+    },
+    {
+      "at": "02:28",
+      "screen": "Step 3 of 4 · The big box (Quiqup box and red tape)",
+      "action": "Says to use the Quiqup box and the red tape; Quiqup sends both.",
+      "says": "Use the QuickUp box and the red tape.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "02:28", "frame": "", "quote": "Use the QuickUp box and the red tape."},
+        {"kind": "see", "at": "02:30", "frame": "t00150.jpg", "quote": "Box labelled 'QUIQUP BOX' with purple device labels inside; a 'Red tape' label on the left; caption 'Use the Quiqup box and the red tape. Quiqup sends you both.'"}
+      ]
+    },
+    {
+      "at": "02:31",
+      "screen": "Step 3 of 4 · The big box (Quiqup supplies both)",
+      "action": "Points out that Quiqup sends both the box and the red tape.",
+      "says": "QuickUp sends you both.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "02:31", "frame": "", "quote": "QuickUp sends you both."},
+        {"kind": "see", "at": "02:31", "frame": "t00153.jpg", "quote": "Red tape roll on the left, a pill reading 'Quiqup sends you both' in the middle, the 'QUIQUP BOX' on the right."}
+      ]
+    },
+    {
+      "at": "02:32",
+      "screen": "Box #1 open-box list (Scanned 0/6)",
+      "action": "Explains that the box must match the open box list, then that every device on the list goes in and nothing else. The Box #1 open-box list shows six devices, each with a check mark, and the 'Scanned 0/6' counter.",
+      "says": "The box must match the open box list. Every device on the list goes in and nothing else.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "02:32", "frame": "", "quote": "The box must match the open box list."},
+        {"kind": "say", "at": "02:35", "frame": "", "quote": "Every device on the list goes in and nothing else."},
+        {"kind": "see", "at": "02:33", "frame": "t00160.jpg", "quote": "Dark panel 'Open box • Box #1' with rows ZA-85669-1 samsung-galaxy-s21-fe, ZA-85723-1 iphone-17, ZA-85654-1 iphone-15-pro-max, ZA-85719-1 iphone-14-pro-max, ZA-85753-1 dell-latitude-5310, ZA-85666-1 iphone-15-pro-max, each with a green check; a scanner gun icon; counter 'Scanned 0/6'."}
+      ]
+    },
+    {
+      "at": "02:39",
+      "screen": "Box #1 open-box list (scan each barcode)",
+      "action": "Scans every barcode yourself before sealing; the trainer says it proves each one reads and that you keep a record.",
+      "says": "Before you seal, scan every barcode yourself. It proves each one reads and you keep a record.",
+      "why": "It proves each one reads and you keep a record.",
+      "evidence": [
+        {"kind": "say", "at": "02:39", "frame": "", "quote": "Before you seal, scan every barcode yourself."},
+        {"kind": "say", "at": "02:43", "frame": "", "quote": "It proves each one reads and you keep a record."},
+        {"kind": "see", "at": "02:39", "frame": "t00160.jpg", "quote": "Caption 'Before you seal, scan every barcode yourself. It proves each one reads, and you keep a record.' Counter 'Scanned 0/6'."}
+      ]
+    },
+    {
+      "at": "02:46",
+      "screen": "Box #1 open-box list (device not in box)",
+      "action": "If a device is on the list but not in the box, presses Remove on that row. The flagged row shows ZA-85681-1 'not in the box' with a Remove button; the cursor moves onto Remove.",
+      "says": "If a device is on the list but not in the box, press remove.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "02:46", "frame": "", "quote": "If a device is on the list but not in the box, press remove."},
+        {"kind": "see", "at": "02:47", "frame": "t00167.jpg", "quote": "Seventh row highlighted in yellow-brown: 'ZA-85681-1 not in the box' with a red 'Remove' button. Caption 'If a device is on the list but not in the box, press Remove. Otherwise, it comes back as Missing.'"},
+        {"kind": "see", "at": "02:50", "frame": "t00170.jpg", "quote": "Mouse cursor on the Remove button of the ZA-85681-1 row."}
+      ]
+    },
+    {
+      "at": "02:52",
+      "screen": "Phone recording the packing and sealing (no screen label)",
+      "action": "Seals every seam with red tape, then films the packing and sealing on the phone; the trainer says the video is proof if a count is ever questioned.",
+      "says": "Seal every seam with the red tape and film the packing and the sealing on your phone. That video is your proof if a count is ever questioned.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "02:52", "frame": "", "quote": "Seal every seam with the red tape and film the packing and the sealing on your phone."},
+        {"kind": "say", "at": "02:58", "frame": "", "quote": "That video is your proof if a count is ever questioned."},
+        {"kind": "see", "at": "02:56", "frame": "t00176.jpg", "quote": "Phone outline with 'REC' and a preview of the taped box; caption 'And film the packing and the sealing on your phone. That video is your proof if a count is ever questioned.'"},
+        {"kind": "see", "at": "02:58", "frame": "t00180.jpg", "quote": "Phone showing 'REC 00:04' with the taped box and a 'Your proof' shield-with-check badge. Right side: photo of the box with red tape and a Quiqup label."}
+      ]
+    },
+    {
+      "at": "03:04",
+      "screen": "Step 4 of 4 · Hand-over: Mark ready for collection (Box #1 panel)",
+      "action": "Starts the hand-over step. The Box #1 panel shows status Open, Open For Additions, the buttons 'Print all barcodes (6)' and 'Mark ready for collection', carrier Quiqup, and a device table of four rows.",
+      "says": "The handover.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "03:04", "frame": "", "quote": "The handover."},
+        {"kind": "see", "at": "03:04", "frame": "t00184.jpg", "quote": "Panel 'Box #1' with badges 'Open' and 'Open For Additions'; buttons 'Print all barcodes (6)' and purple 'Mark ready for collection'; 'CARRIER Quiqup'; 'PICKUP AWB LABEL Available after ready for collection'; table columns Order Help, Device Name, Scan status, Actions; four rows ZA-85669-1, ZA-85654-1, ZA-85719-1, ZA-85753-1, all 'Added' with Remove buttons."}
+      ]
+    },
+    {
+      "at": "03:05",
+      "screen": "Hand-over: Mark ready for collection (timing)",
+      "action": "Presses Mark ready for collection only when the Quiqup rider is with the seller, usually around 3 PM.",
+      "says": "Only when the QuickUp {rider?} is with you, usually around 3 {p?}.m., press mark ready for collection.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "03:05", "frame": "", "quote": "Only when the QuickUp {rider?} is with you, usually around 3 {p?}.m., press mark ready for collection."},
+        {"kind": "see", "at": "03:07", "frame": "t00187.jpg", "quote": "Clock at about 3 o'clock, a Quiqup truck, caption 'Only when the Quiqup rider is with you, usually around 3 PM, press Mark ready for collection.'"},
+        {"kind": "see", "at": "03:12", "frame": "t00189.jpg", "quote": "Clock labelled '~3 PM' and the Quiqup truck; cursor in the device table."}
+      ]
+    },
+    {
+      "at": "03:11",
+      "screen": "Hand-over: Mark ready for collection (button pressed)",
+      "action": "Warns not to press the button early. After it is pressed the box is closed: the status changes to 'Ready for collection', the Mark ready button is greyed out and the device Remove buttons are greyed out.",
+      "says": "Don't press it earlier. Once you do, the box is closed and you can't add or remove devices.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "03:11", "frame": "", "quote": "Don't press it earlier."},
+        {"kind": "say", "at": "03:12", "frame": "", "quote": "Once you do, the box is closed and you can't add or remove devices."},
+        {"kind": "see", "at": "03:16", "frame": "t00196.jpg", "quote": "Badge 'Ready for collection' next to 'Open'; yellow pop-up 'Box closed: no adding or removing'; Mark ready for collection button greyed out; Remove buttons greyed out."}
+      ]
+    },
+    {
+      "at": "03:16",
+      "screen": "Box #1 panel: Pickup AWB label (Print Quiqup label)",
+      "action": "Prints the Quiqup label, which appears under PICKUP AWB LABEL once the box is ready for collection. The trainer says it is one label for the whole box.",
+      "says": "The QuickUp label appears under {pickup?} AWB label. It's one label for the whole box.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "03:17", "frame": "", "quote": "The QuickUp label appears under {pickup?} AWB label."},
+        {"kind": "say", "at": "03:21", "frame": "", "quote": "It's one label for the whole box."},
+        {"kind": "see", "at": "03:17", "frame": "t00199.jpg", "quote": "Under 'PICKUP AWB LABEL' a purple button 'Print Quiqup label'; caption 'The Quiqup label appears under Pickup AWB label. It's one label for the whole box.'"}
+      ]
+    },
+    {
+      "at": "03:24",
+      "screen": "Physical box with the printed Quiqup label",
+      "action": "Prints the label, sticks it on top of the box and covers it with clear tape, as in the photo.",
+      "says": "Print it, stick it on top of the box, and cover it with clear tape, like in the photo.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "03:24", "frame": "", "quote": "Print it, stick it on top of the box, and cover it with clear tape, like in the"},
+        {"kind": "say", "at": "03:29", "frame": "", "quote": "photo."},
+        {"kind": "see", "at": "03:22", "frame": "t00202.jpg", "quote": "Photo of a printed label fading over the Box #1 panel and the box graphic; caption 'The Quiqup label appears under Pickup AWB label. It's one label for the whole box.'"},
+        {"kind": "see", "at": "03:26", "frame": "t00206.jpg", "quote": "Illustration of a taped box with a white label stuck on top; caption 'Print it, stick it on top of the box, and cover it with clear tape, like in the photo.'"},
+        {"kind": "see", "at": "03:34", "frame": "t00214.jpg", "quote": "Photo of the sealed box with red tape and a white label with barcode and QR code on top, under clear tape."}
+      ]
+    },
+    {
+      "at": "03:30",
+      "screen": "Rider handover (Done for today)",
+      "action": "The rider scans the label and takes the box; the day's hand-over is done.",
+      "says": "The rider scans the label and takes the {box.?} That's it for the day.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "03:30", "frame": "", "quote": "The rider scans the label and takes the {box.?}"},
+        {"kind": "say", "at": "03:33", "frame": "", "quote": "That's it for the day."},
+        {"kind": "see", "at": "03:31", "frame": "t00211.jpg", "quote": "Quiqup truck, a barcode scanner gun pointing at the label on the box; caption 'The rider scans the label and takes the box. That's it for the day.'"},
+        {"kind": "see", "at": "03:37", "frame": "t00214.jpg", "quote": "Green badge 'Done for today' over the photo of the taped box."}
+      ]
+    },
+    {
+      "at": "03:35",
+      "screen": "After the hand-over: Track the box, fix exceptions (tracker)",
+      "action": "Follows the box after the hand-over in the same panel. The tracker shows tabs Open box, With Quiqup, Scanned, With DHL, With TCG and a timeline Packing, Collected, Shipped, Flying, Delivering.",
+      "says": "After the handover, follow your box in the same panel.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "03:35", "frame": "", "quote": "After the handover, follow your box in the same panel."},
+        {"kind": "see", "at": "03:37", "frame": "t00217.jpg", "quote": "Dark tab bar 'Open box', 'With Quiqup', 'Scanned', 'With DHL', 'With TCG'; timeline Packing, Collected, Shipped (green), Flying, Delivering; caption 'After the hand-over, follow your box in the same panel.'"}
+      ]
+    },
+    {
+      "at": "03:40",
+      "screen": "Track the box: tabs walked through in order",
+      "action": "Narrates the tracker tabs in order (open box, with Quiqup, scanned, with DHL, with the courier guy) and says to remember that the order turns Shipped. The caption on t00227 says it turns Shipped when Quiqup scans it.",
+      "says": "Open box with {quick?} up scanned with dhl and with the courier guy remember your order turns shipped",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "03:40", "frame": "", "quote": "Open box with {quick?} up scanned with dhl and with the courier guy remember your order turns shipped"},
+        {"kind": "see", "at": "03:44", "frame": "t00224.jpg", "quote": "'With DHL' tab selected; caption 'Open box, With Quiqup, Scanned, With DHL, and With The Courier Guy.'"},
+        {"kind": "see", "at": "03:47", "frame": "t00227.jpg", "quote": "'With TCG' tab selected, box icon at Delivering; caption 'Remember: your order turns Shipped when Quiqup scans it.'"}
+      ]
+    },
+    {
+      "at": "03:49",
+      "screen": "Track the box: Scanned tab (ZA-85669-1 Shipped)",
+      "action": "Opens the Scanned tab; the example order ZA-85669-1 shows the status Shipped with the box at the Shipped point. The trainer starts the exceptions explanation (two things can go wrong).",
+      "says": "when quick up scans it two things can go wrong missing the device is on the list but",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "03:49", "frame": "", "quote": "when quick up scans it two things can go wrong missing the device is on the list but"},
+        {"kind": "see", "at": "03:49", "frame": "t00229.jpg", "quote": "'Scanned' tab highlighted; row ZA-85669-1 with badge 'Shipped'; box icon at Shipped point; caption 'Remember: your order turns Shipped when Quiqup scans it.'"}
+      ]
+    },
+    {
+      "at": "03:53",
+      "screen": "Missing panel",
+      "action": "Explains Missing: the device is on the list but was not in the box. The panel uses ZA-85654-1 as its example: the order goes back to Order created and the device goes in the next box.",
+      "says": "was not in the box the order goes back to order created put it in your next box",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "03:55", "frame": "", "quote": "was not in the box the order goes back to order created put it in your next box"},
+        {"kind": "see", "at": "03:51", "frame": "t00231.jpg", "quote": "Tracker dimmed as a transition (Scanned tab still outlined), caption 'Two things can go wrong. Missing: the device is on the list, but was not in the box.'"},
+        {"kind": "see", "at": "03:53", "frame": "t00233.jpg", "quote": "Pink 'Missing' header; rows ZA-85669-1 and ZA-85723-1 with green checks; ZA-85654-1 in a pink row; tan box graphic over purple device labels; caption 'Two things can go wrong. Missing: the device is on the list, but was not in the box.'"},
+        {"kind": "see", "at": "03:57", "frame": "t00237.jpg", "quote": "Missing panel shows 'ZA-85654-1 → Order created' and a tan box icon with 'Put it in your next box'; the box graphic shows a dashed red outline on an empty slot; faint 'Can't scan' panel behind it; caption 'Can't scan: the barcode was cut, folded or unreadable.'"}
+      ]
+    },
+    {
+      "at": "04:01",
+      "screen": "Can't scan panel",
+      "action": "Explains Can't scan: the barcode was cut, folded or unreadable. Quiqup sends the device back the next day; reprint its barcode and put it in a new box.",
+      "says": "can't scan the barcode was cut folded {or?} unreadable.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "04:01", "frame": "", "quote": "can't scan the barcode was cut folded {or?} unreadable."},
+        {"kind": "see", "at": "04:02", "frame": "t00242.jpg", "quote": "Side-by-side 'Missing' and 'Can't scan' panels; Can't scan shows a scanner gun, a crossed-out barcode RV-15-441625 and 'Back to you the next day'; caption 'Quiqup sends the device back the next day. Reprint its barcode, and put it in a new box.'"},
+        {"kind": "see", "at": "04:08", "frame": "t00248.jpg", "quote": "Can't scan panel adds 'Reprint its barcode' with a printer icon."}
+      ]
+    },
+    {
+      "at": "04:06",
+      "screen": "Can't scan panel (next day)",
+      "action": "States that Quiqup sends the device back the next day and that the seller reprints its barcode and puts it in a new box.",
+      "says": "QuickUp sends the device back the next day. Reprint its barcode and put it in a new box.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "04:06", "frame": "", "quote": "QuickUp sends the device back the next day."},
+        {"kind": "say", "at": "04:09", "frame": "", "quote": "Reprint its barcode and put it in a new box."},
+        {"kind": "see", "at": "04:08", "frame": "t00248.jpg", "quote": "'Back to you the next day' and 'Reprint its barcode' rows; caption 'Quiqup sends the device back the next day. Reprint its barcode, and put it in a new box.'"}
+      ]
+    },
+    {
+      "at": "04:10",
+      "screen": "Scan status table (Track the box, fix exceptions)",
+      "action": "Reads the Scan status column: Scanned means all good; Pickup failed means one of two things happened. The table has columns Order Help, Device Name, Scan status.",
+      "says": "In the {scan?} status column, scanned means all good. Pickup failed means one of these two happened.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "04:13", "frame": "", "quote": "In the {scan?} status column, scanned means all good."},
+        {"kind": "say", "at": "04:16", "frame": "", "quote": "Pickup failed means one of these two happened."},
+        {"kind": "see", "at": "04:10", "frame": "t00250.jpg", "quote": "Table columns Order Help, Device Name, Scan status; rows ZA-85669-1 samsung-galaxy-s21-fe, ZA-85654-1 iphone-15-pro-max, ZA-85719-1 iphone-14-pro-max, ZA-85753-1 dell-latitude-5310, all 'Added'."},
+        {"kind": "see", "at": "04:14", "frame": "t00254.jpg", "quote": "Same table with Scan status values: 'Scanned' for ZA-85669-1, ZA-85654-1, ZA-85753-1; 'Pickup failed' (red cross) for ZA-85719-1; the Scan status column is outlined in pink."}
+      ]
+    },
+    {
+      "at": "04:18",
+      "screen": "Daily checklist",
+      "action": "Shows the daily checklist with six items and says to print it and keep it next to the packing table.",
+      "says": "Here is your daily checklist. Print it and keep it next to your packing table.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "04:20", "frame": "", "quote": "Here is your daily checklist."},
+        {"kind": "say", "at": "04:23", "frame": "", "quote": "Print it and keep it next to your packing table."},
+        {"kind": "see", "at": "04:18", "frame": "t00258.jpg", "quote": "Purple checklist 'Daily checklist' with six empty boxes: Ready for pickup on every South Africa order; A barcode on every device: flat, whole, readable; Box matches the Open box list, every barcode scanned; Anything not in the box removed in the panel; Box sealed with red tape, sealing filmed; Rider here: Mark ready for collection, label on top."},
+        {"kind": "see", "at": "04:23", "frame": "t00263.jpg", "quote": "Subtitle 'Print it and keep it next to your packing table' under the title."}
+      ]
+    },
+    {
+      "at": "04:25",
+      "screen": "Daily checklist (items ticked as read)",
+      "action": "Reads the checklist aloud and ticks items as it goes: the first two items are ticked by t00266 and five of six are ticked by t00281. The rider item (Mark ready for collection, label on top) is still unticked on the last frame.",
+      "says": "Ready for pickup on every order. A barcode on every device. The box matches the open box list. Anything not in the box, removed, sealed with red tape, and filmed. And when the {writer?} arrives, mark ready for collection, label on top.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "04:25", "frame": "", "quote": "Ready for pickup on every order."},
+        {"kind": "say", "at": "04:28", "frame": "", "quote": "A barcode on every device."},
+        {"kind": "say", "at": "04:30", "frame": "", "quote": "The box matches the open box list."},
+        {"kind": "say", "at": "04:33", "frame": "", "quote": "Anything not in the box, removed, sealed with red tape, and filmed."},
+        {"kind": "say", "at": "04:39", "frame": "", "quote": "And when the {writer?} arrives, mark ready for collection, label on top."},
+        {"kind": "see", "at": "04:26", "frame": "t00266.jpg", "quote": "Checklist with 'Ready for pickup' and 'A barcode on every device' ticked; the other four boxes empty."},
+        {"kind": "see", "at": "04:39", "frame": "t00281.jpg", "quote": "Five items ticked (all except 'Rider here: Mark ready for collection, label on top'); caption 'And when the rider arrives: Mark ready for collection, label on top.'"}
+      ]
+    },
+    {
+      "at": "04:43",
+      "screen": "Closing slide",
+      "action": "Invites questions and points the seller to the Revibe account manager.",
+      "says": "Questions? Message your Revive account manager.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "04:43", "frame": "", "quote": "Questions?"},
+        {"kind": "say", "at": "04:44", "frame": "", "quote": "Message your Revive account manager."},
+        {"kind": "see", "at": "04:43", "frame": "t00285.jpg", "quote": "REVIBE logo on the purple gradient; caption 'Questions? Message your Revibe account manager. Thank you!'"},
+        {"kind": "see", "at": "04:44", "frame": "t00288.jpg", "quote": "Pill 'Questions? Message your Revibe account manager.' below the REVIBE logo, with 'Thank you!' underneath."},
+        {"kind": "see", "at": "04:47", "frame": "t00290.jpg", "quote": "Same closing slide: pill 'Questions? Message your Revibe account manager.' and 'Thank you!'."}
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "type": "rule",
+      "statement": "Never cut a device barcode, never fold it over an edge, and never crumple it or cover it with another label.",
+      "evidence": [
+        {"kind": "say", "at": "02:16", "frame": "", "quote": "Never cut it."},
+        {"kind": "say", "at": "02:17", "frame": "", "quote": "Never fold it over an edge {and?} never crumple it or cover it with another label."},
+        {"kind": "see", "at": "02:20", "frame": "t00140.jpg", "quote": "Cards 'Don't cut it', 'Don't fold it over an edge', 'Don't crumple or cover it'; caption 'Never cut it. Never fold it over an edge. And never crumple it, or cover it with another label.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Pack all of the day's devices into one big box, the Quiqup box.",
+      "evidence": [
+        {"kind": "say", "at": "02:24", "frame": "", "quote": "Pack one big box with all of today's devices."},
+        {"kind": "see", "at": "02:25", "frame": "t00145.jpg", "quote": "'Step 3 of 4 · The big box' with the title 'Pack one big box with today's devices'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Use the Quiqup box and the red tape; Quiqup sends both the box and the red tape.",
+      "evidence": [
+        {"kind": "say", "at": "02:28", "frame": "", "quote": "Use the QuickUp box and the red tape."},
+        {"kind": "see", "at": "02:31", "frame": "t00153.jpg", "quote": "Pill 'Quiqup sends you both' between the red tape roll and the 'QUIQUP BOX'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The box must match the open box list: every device on the Box #1 open box list goes in the box, and nothing else goes in.",
+      "evidence": [
+        {"kind": "say", "at": "02:32", "frame": "", "quote": "The box must match the open box list."},
+        {"kind": "say", "at": "02:35", "frame": "", "quote": "Every device on the list goes in and nothing else."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Before sealing the box, scan every device barcode yourself; scanning proves each barcode reads and gives you a record.",
+      "evidence": [
+        {"kind": "say", "at": "02:39", "frame": "", "quote": "Before you seal, scan every barcode yourself."},
+        {"kind": "say", "at": "02:43", "frame": "", "quote": "It proves each one reads and you keep a record."},
+        {"kind": "see", "at": "02:39", "frame": "t00160.jpg", "quote": "Counter 'Scanned 0/6' next to a scanner gun icon."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "If a device is on the list but not in the box, press Remove on its row in the Box #1 panel. Otherwise it comes back as Missing.",
+      "evidence": [
+        {"kind": "say", "at": "02:46", "frame": "", "quote": "If a device is on the list but not in the box, press remove."},
+        {"kind": "say", "at": "02:50", "frame": "", "quote": "Otherwise it comes back is missing."},
+        {"kind": "see", "at": "02:47", "frame": "t00167.jpg", "quote": "Row 'ZA-85681-1 not in the box' with a red 'Remove' button; caption 'Otherwise, it comes back as Missing.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Seal every seam of the box with red tape, then film the packing and the sealing on your phone.",
+      "evidence": [
+        {"kind": "say", "at": "02:52", "frame": "", "quote": "Seal every seam with the red tape and film the packing and the sealing on your phone."},
+        {"kind": "see", "at": "02:56", "frame": "t00176.jpg", "quote": "Phone showing 'REC' over the taped box; caption 'And film the packing and the sealing on your phone.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "policy",
+      "statement": "The sealing video is your proof if a count is ever questioned.",
+      "evidence": [
+        {"kind": "say", "at": "02:58", "frame": "", "quote": "That video is your proof if a count is ever questioned."},
+        {"kind": "see", "at": "02:58", "frame": "t00180.jpg", "quote": "Badge 'Your proof' next to the phone showing 'REC 00:04'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Press Mark ready for collection only when the Quiqup rider is with you, usually around 3 PM.",
+      "evidence": [
+        {"kind": "say", "at": "03:05", "frame": "", "quote": "Only when the QuickUp {rider?} is with you, usually around 3 {p?}.m., press mark ready for collection."},
+        {"kind": "see", "at": "03:12", "frame": "t00189.jpg", "quote": "Clock labelled '~3 PM' and a Quiqup truck; caption 'Only when the Quiqup rider is with you, usually around 3 PM, press Mark ready for collection.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "Do not press Mark ready for collection early. Once pressed, the box is closed and devices can no longer be added or removed.",
+      "evidence": [
+        {"kind": "say", "at": "03:11", "frame": "", "quote": "Don't press it earlier."},
+        {"kind": "say", "at": "03:12", "frame": "", "quote": "Once you do, the box is closed and you can't add or remove devices."},
+        {"kind": "see", "at": "03:16", "frame": "t00196.jpg", "quote": "Yellow pop-up 'Box closed: no adding or removing'; status 'Ready for collection'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "After Mark ready for collection is pressed, the Box #1 status changes to Ready for collection, the Mark ready button is greyed out, and the Remove buttons are greyed out.",
+      "evidence": [
+        {"kind": "see", "at": "03:16", "frame": "t00196.jpg", "quote": "Badge 'Ready for collection'; 'Mark ready for collection' button greyed; Remove buttons greyed out."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "After Mark ready for collection, print the Quiqup label with the 'Print Quiqup label' button that appears under PICKUP AWB LABEL.",
+      "evidence": [
+        {"kind": "say", "at": "03:17", "frame": "", "quote": "The QuickUp label appears under {pickup?} AWB label."},
+        {"kind": "see", "at": "03:17", "frame": "t00199.jpg", "quote": "Purple button 'Print Quiqup label' under 'PICKUP AWB LABEL'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The Quiqup label is one label for the whole box.",
+      "evidence": [
+        {"kind": "say", "at": "03:21", "frame": "", "quote": "It's one label for the whole box."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Stick the printed Quiqup label on top of the box and cover it with clear tape.",
+      "evidence": [
+        {"kind": "say", "at": "03:24", "frame": "", "quote": "Print it, stick it on top of the box, and cover it with clear tape, like in the"},
+        {"kind": "see", "at": "03:34", "frame": "t00214.jpg", "quote": "Photo of the sealed box with red tape and a white label with barcode and QR code on top, under clear tape."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "The Quiqup rider scans the label and takes the box; that completes the hand-over for the day.",
+      "evidence": [
+        {"kind": "say", "at": "03:30", "frame": "", "quote": "The rider scans the label and takes the {box.?}"},
+        {"kind": "say", "at": "03:33", "frame": "", "quote": "That's it for the day."},
+        {"kind": "see", "at": "03:37", "frame": "t00214.jpg", "quote": "Green badge 'Done for today'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "After the hand-over, follow the box in the same panel, in the tracker with the tabs Open box, With Quiqup, Scanned, With DHL and With TCG.",
+      "evidence": [
+        {"kind": "say", "at": "03:35", "frame": "", "quote": "After the handover, follow your box in the same panel."},
+        {"kind": "see", "at": "03:44", "frame": "t00224.jpg", "quote": "Tabs 'Open box', 'With Quiqup', 'Scanned', 'With DHL', 'With TCG'; caption 'Open box, With Quiqup, Scanned, With DHL, and With The Courier Guy.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The tracker timeline stages are Packing, Collected, Shipped, Flying and Delivering.",
+      "evidence": [
+        {"kind": "see", "at": "03:37", "frame": "t00217.jpg", "quote": "Timeline labels Packing, Collected, Shipped (green text), Flying, Delivering."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "An order turns Shipped when Quiqup scans it.",
+      "evidence": [
+        {"kind": "say", "at": "03:40", "frame": "", "quote": "remember your order turns shipped"},
+        {"kind": "see", "at": "03:47", "frame": "t00227.jpg", "quote": "Caption 'Remember: your order turns Shipped when Quiqup scans it.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Missing means the device is on the list but was not in the box.",
+      "evidence": [
+        {"kind": "say", "at": "03:49", "frame": "", "quote": "when quick up scans it two things can go wrong missing the device is on the list but"},
+        {"kind": "see", "at": "03:51", "frame": "t00231.jpg", "quote": "Caption 'Two things can go wrong. Missing: the device is on the list, but was not in the box.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "For a Missing device, the order goes back to Order created and the device goes in your next box.",
+      "evidence": [
+        {"kind": "say", "at": "03:55", "frame": "", "quote": "was not in the box the order goes back to order created put it in your next box"},
+        {"kind": "see", "at": "03:57", "frame": "t00237.jpg", "quote": "'ZA-85654-1 → Order created' and 'Put it in your next box'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Can't scan means the device barcode was cut, folded or unreadable.",
+      "evidence": [
+        {"kind": "say", "at": "04:01", "frame": "", "quote": "can't scan the barcode was cut folded {or?} unreadable."},
+        {"kind": "see", "at": "03:57", "frame": "t00237.jpg", "quote": "Caption 'Can't scan: the barcode was cut, folded or unreadable.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "For a Can't scan device, Quiqup sends the device back the next day; reprint its barcode and put it in a new box.",
+      "evidence": [
+        {"kind": "say", "at": "04:06", "frame": "", "quote": "QuickUp sends the device back the next day."},
+        {"kind": "say", "at": "04:09", "frame": "", "quote": "Reprint its barcode and put it in a new box."},
+        {"kind": "see", "at": "04:02", "frame": "t00242.jpg", "quote": "'Back to you the next day'; caption 'Quiqup sends the device back the next day. Reprint its barcode, and put it in a new box.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "In the Scan status column, Scanned means all good.",
+      "evidence": [
+        {"kind": "say", "at": "04:13", "frame": "", "quote": "In the {scan?} status column, scanned means all good."},
+        {"kind": "see", "at": "04:14", "frame": "t00254.jpg", "quote": "Status 'Scanned' with a check mark for three rows."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Implied: Pickup failed in the Scan status column means one of the two exceptions happened (Missing or Can't scan).",
+      "evidence": [
+        {"kind": "say", "at": "03:49", "frame": "", "quote": "when quick up scans it two things can go wrong missing the device is on the list but"},
+        {"kind": "say", "at": "04:16", "frame": "", "quote": "Pickup failed means one of these two happened."},
+        {"kind": "see", "at": "04:14", "frame": "t00254.jpg", "quote": "Status 'Pickup failed' with a red cross for ZA-85719-1; the two exceptions were shown on the earlier Missing and Can't scan panels."}
+      ],
+      "confidence": "low",
+      "quiz": false
+    },
+    {
+      "type": "tip",
+      "statement": "Print the daily checklist and keep it next to the packing table.",
+      "evidence": [
+        {"kind": "say", "at": "04:23", "frame": "", "quote": "Print it and keep it next to your packing table."},
+        {"kind": "see", "at": "04:23", "frame": "t00263.jpg", "quote": "Subtitle 'Print it and keep it next to your packing table'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Checklist item: Ready for pickup on every South Africa order.",
+      "evidence": [
+        {"kind": "see", "at": "04:18", "frame": "t00258.jpg", "quote": "First checklist item 'Ready for pickup on every South Africa order'."},
+        {"kind": "say", "at": "04:25", "frame": "", "quote": "Ready for pickup on every order."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Checklist item: a barcode on every device, flat, whole and readable.",
+      "evidence": [
+        {"kind": "see", "at": "04:18", "frame": "t00258.jpg", "quote": "'A barcode on every device: flat, whole, readable'."},
+        {"kind": "say", "at": "04:28", "frame": "", "quote": "A barcode on every device."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Checklist item: the box matches the Open box list, with every barcode scanned.",
+      "evidence": [
+        {"kind": "see", "at": "04:18", "frame": "t00258.jpg", "quote": "'Box matches the Open box list, every barcode scanned'."},
+        {"kind": "say", "at": "04:30", "frame": "", "quote": "The box matches the open box list."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Checklist item: anything not in the box is removed in the panel.",
+      "evidence": [
+        {"kind": "see", "at": "04:18", "frame": "t00258.jpg", "quote": "'Anything not in the box removed in the panel'."},
+        {"kind": "say", "at": "04:33", "frame": "", "quote": "Anything not in the box, removed, sealed with red tape, and filmed."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Checklist item: the box is sealed with red tape and the sealing is filmed.",
+      "evidence": [
+        {"kind": "see", "at": "04:18", "frame": "t00258.jpg", "quote": "'Box sealed with red tape, sealing filmed'."},
+        {"kind": "say", "at": "04:33", "frame": "", "quote": "Anything not in the box, removed, sealed with red tape, and filmed."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Checklist item: when the rider is here, press Mark ready for collection and put the label on top.",
+      "evidence": [
+        {"kind": "see", "at": "04:18", "frame": "t00258.jpg", "quote": "'Rider here: Mark ready for collection, label on top'."},
+        {"kind": "say", "at": "04:39", "frame": "", "quote": "And when the {writer?} arrives, mark ready for collection, label on top."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Device barcode text shown on screen is RV-15-441625 (format example).",
+      "evidence": [
+        {"kind": "see", "at": "02:20", "frame": "t00140.jpg", "quote": "Barcode text 'RV-15-441625'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Order Help IDs on screen look like ZA-85669-1 (example).",
+      "evidence": [
+        {"kind": "see", "at": "02:33", "frame": "t00160.jpg", "quote": "Order Help column IDs such as 'ZA-85669-1'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The Box #1 panel header shows the box status badge (Open), an 'Open For Additions' badge, a 'Print all barcodes (6)' button and a 'Mark ready for collection' button.",
+      "evidence": [
+        {"kind": "see", "at": "03:04", "frame": "t00184.jpg", "quote": "Header 'Box #1', badges 'Open' and 'Open For Additions', buttons 'Print all barcodes (6)' and 'Mark ready for collection'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The hand-over panel shows the carrier as Quiqup, and the Pickup AWB label as 'Available after ready for collection' until the box is marked ready.",
+      "evidence": [
+        {"kind": "see", "at": "03:04", "frame": "t00184.jpg", "quote": "'CARRIER Quiqup'; 'PICKUP AWB LABEL Available after ready for collection'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    }
+  ],
+  "screens": [
+    {
+      "name": "Step 2 of 4 · Each device (barcode rules)",
+      "shows": "Three cards: Don't cut it, Don't fold it over an edge, Don't crumple or cover it. Barcode example RV-15-441625.",
+      "at": "02:20",
+      "where": "Revibe guide slide (t00140.jpg)"
+    },
+    {
+      "name": "Step 3 of 4 · The big box",
+      "shows": "Title 'Pack one big box with today's devices'; six purple device labels and one brown box; then the QUIQUP BOX with red tape and the pill 'Quiqup sends you both'.",
+      "at": "02:25",
+      "where": "Revibe guide slides (t00145, t00150, t00153)"
+    },
+    {
+      "name": "Open box • Box #1 (packing list)",
+      "shows": "Dark panel with a row per device: Order Help (ZA-85669-1, ZA-85723-1, ZA-85654-1, ZA-85719-1, ZA-85753-1, ZA-85666-1), Device Name and a green check; counter 'Scanned 0/6'; scanner gun icon.",
+      "at": "02:33",
+      "where": "Revibe box panel (t00160.jpg)"
+    },
+    {
+      "name": "Open box • Box #1 (device not in box)",
+      "shows": "Seventh row ZA-85681-1 'not in the box' in yellow with a red Remove button; cursor on Remove.",
+      "at": "02:47",
+      "where": "Revibe box panel (t00167.jpg, t00170.jpg)"
+    },
+    {
+      "name": "Phone video 'Your proof'",
+      "shows": "Phone with 'REC' and timer 00:04 over a photo of the taped box, with 'Your proof' badge.",
+      "at": "02:56",
+      "where": "Guide slide (t00176.jpg, t00180.jpg)"
+    },
+    {
+      "name": "Step 4 of 4 · Hand over: Mark ready for collection",
+      "shows": "Box #1 header with badges Open and Open For Additions; buttons Print all barcodes (6) and Mark ready for collection; Carrier Quiqup; Pickup AWB label 'Available after ready for collection'; table of four devices (ZA-85669-1, ZA-85654-1, ZA-85719-1, ZA-85753-1) with Scan status 'Added' and Remove buttons; clock ~3 PM and Quiqup truck.",
+      "at": "03:04",
+      "where": "Revibe box panel (t00184.jpg, t00187.jpg, t00189.jpg, t00191.jpg)"
+    },
+    {
+      "name": "Box closed: no adding or removing",
+      "shows": "Badge 'Ready for collection'; yellow pop-up 'Box closed: no adding or removing'; Mark ready for collection and Remove buttons greyed out.",
+      "at": "03:16",
+      "where": "Revibe box panel (t00196.jpg)"
+    },
+    {
+      "name": "Pickup AWB label: Print Quiqup label",
+      "shows": "Purple button 'Print Quiqup label' under PICKUP AWB LABEL (t00199); a photo of the printed label fades over the box graphic while the caption still reads 'It's one label for the whole box' (t00202).",
+      "at": "03:17",
+      "where": "Revibe box panel (t00199.jpg, t00202.jpg)"
+    },
+    {
+      "name": "Physical box with Quiqup label",
+      "shows": "Photo of the box taped in red with a white label (barcode and QR code) on top under clear tape (t00214.jpg; also t00176.jpg and t00180.jpg right-hand photos). t00206.jpg is an illustration of the same step.",
+      "at": "03:26",
+      "where": "Guide photos (t00176, t00180, t00206, t00214)"
+    },
+    {
+      "name": "Done for today",
+      "shows": "Green badge 'Done for today' next to the photo of the sealed box.",
+      "at": "03:37",
+      "where": "Guide slide (t00214.jpg)"
+    },
+    {
+      "name": "Track the box, fix exceptions (tracker)",
+      "shows": "Dark tab bar with tabs Open box, With Quiqup, Scanned, With DHL, With TCG; timeline Packing, Collected, Shipped, Flying, Delivering with a box icon that moves along it.",
+      "at": "03:37",
+      "where": "Revibe tracker (t00217.jpg-t00227.jpg)"
+    },
+    {
+      "name": "Scanned tab: ZA-85669-1 Shipped",
+      "shows": "Order ZA-85669-1 with badge 'Shipped' under the Shipped point of the timeline.",
+      "at": "03:49",
+      "where": "Revibe tracker (t00229.jpg)"
+    },
+    {
+      "name": "Missing panel",
+      "shows": "Pink 'Missing' header; rows ZA-85669-1 and ZA-85723-1 with checks, ZA-85654-1 in a pink row; tan box graphic; 'ZA-85654-1 → Order created' and 'Put it in your next box'.",
+      "at": "03:51",
+      "where": "Revibe tracker exception (t00231.jpg, t00233.jpg, t00237.jpg)"
+    },
+    {
+      "name": "Missing panel with empty slot",
+      "shows": "The box graphic beside the Missing panel shows a dashed red outline over an empty slot where the device should be.",
+      "at": "03:57",
+      "where": "Revibe tracker exception (t00237.jpg)"
+    },
+    {
+      "name": "Can't scan panel",
+      "shows": "Magenta 'Can't scan' header; scanner gun, crossed-out barcode RV-15-441625; 'Back to you the next day'; 'Reprint its barcode' with a printer icon.",
+      "at": "03:57",
+      "where": "Revibe tracker exception (t00237.jpg-t00248.jpg)"
+    },
+    {
+      "name": "Scan status table",
+      "shows": "Columns Order Help, Device Name, Scan status; rows ZA-85669-1, ZA-85654-1, ZA-85719-1, ZA-85753-1 with Scan status 'Scanned' or 'Pickup failed' (red cross on ZA-85719-1); the Scan status column is outlined in pink.",
+      "at": "04:10",
+      "where": "Revibe tracker (t00250.jpg, t00254.jpg)"
+    },
+    {
+      "name": "Daily checklist",
+      "shows": "Purple slide 'Daily checklist', subtitle 'Print it and keep it next to your packing table', six checkboxes: Ready for pickup on every South Africa order; A barcode on every device: flat, whole, readable; Box matches the Open box list, every barcode scanned; Anything not in the box removed in the panel; Box sealed with red tape, sealing filmed; Rider here: Mark ready for collection, label on top. Boxes are ticked progressively from t00266 to t00281.",
+      "at": "04:18",
+      "where": "Guide slide (t00258.jpg-t00281.jpg)"
+    },
+    {
+      "name": "Closing slide",
+      "shows": "REVIBE logo on a purple gradient with the pill 'Questions? Message your Revibe account manager.' and 'Thank you!'.",
+      "at": "04:43",
+      "where": "Closing slide (t00285.jpg, t00288.jpg, t00290.jpg)"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Quiqup (spoken as QuickUp)",
+      "meaning": "The courier that collects the box. Shown on screen as the carrier and in 'QUIQUP BOX'. The narration says QuickUp.",
+      "at": "02:28"
+    },
+    {
+      "term": "Quiqup box",
+      "meaning": "The box used to pack all of the day's devices. Quiqup sends it together with the red tape.",
+      "at": "02:28"
+    },
+    {
+      "term": "Open box (Box #1)",
+      "meaning": "The box being packed in the Revibe box panel. The panel lists its devices; the tracker also has an 'Open box' tab.",
+      "at": "02:32"
+    },
+    {
+      "term": "Open For Additions",
+      "meaning": "Badge on the box panel while devices can still be added or removed.",
+      "at": "03:04"
+    },
+    {
+      "term": "Scanned 0/6",
+      "meaning": "Counter of barcodes scanned so far against the devices on the open box list (0 of 6 at this point).",
+      "at": "02:39"
+    },
+    {
+      "term": "Remove",
+      "meaning": "Button on a device row, used to take a listed device off the box list when it is not in the box.",
+      "at": "02:46"
+    },
+    {
+      "term": "Missing",
+      "meaning": "Exception: the device is on the list but was not in the box.",
+      "at": "03:49"
+    },
+    {
+      "term": "Can't scan",
+      "meaning": "Exception: the device barcode was cut, folded or unreadable.",
+      "at": "04:01"
+    },
+    {
+      "term": "Order created",
+      "meaning": "Status an order goes back to when its device is Missing.",
+      "at": "03:55"
+    },
+    {
+      "term": "Mark ready for collection",
+      "meaning": "Button pressed when the Quiqup rider is with you (usually around 3 PM). It closes the box.",
+      "at": "03:05"
+    },
+    {
+      "term": "Ready for collection",
+      "meaning": "Box status after Mark ready for collection is pressed.",
+      "at": "03:16"
+    },
+    {
+      "term": "Print all barcodes",
+      "meaning": "Button on the box panel that prints the device barcodes. On the hand-over screen (t00184) it reads 'Print all barcodes (6)' while the device table below lists four rows.",
+      "at": "03:04"
+    },
+    {
+      "term": "Pickup AWB label (Print Quiqup label)",
+      "meaning": "Section where the single Quiqup label for the whole box appears after the box is marked ready. The screen gives the label name only; AWB is not expanded on screen or in the narration.",
+      "at": "03:17"
+    },
+    {
+      "term": "Scan status",
+      "meaning": "Column showing each device's scan result on the hand-over and tracker tables: Added, Scanned, or Pickup failed.",
+      "at": "04:13"
+    },
+    {
+      "term": "Added",
+      "meaning": "Scan status shown on each device row of the hand-over table (t00184). The screen does not say how the status is set.",
+      "at": "03:04"
+    },
+    {
+      "term": "Scanned",
+      "meaning": "Scan status meaning the device has been scanned and is all good.",
+      "at": "04:13"
+    },
+    {
+      "term": "Pickup failed",
+      "meaning": "Scan status that the trainer says means one of the two exceptions (Missing or Can't scan) happened.",
+      "at": "04:16"
+    },
+    {
+      "term": "Tracker stages (Packing, Collected, Shipped, Flying, Delivering)",
+      "meaning": "Timeline shown after the hand-over. An order reaches Shipped when Quiqup scans it.",
+      "at": "03:37"
+    },
+    {
+      "term": "With Quiqup / Scanned / With DHL / With TCG",
+      "meaning": "Tracker tabs that group boxes by where they are: with Quiqup, scanned, with DHL, with TCG.",
+      "at": "03:44"
+    },
+    {
+      "term": "TCG (The Courier Guy)",
+      "meaning": "Courier named in the tracker tab 'With TCG' and in the caption 'With The Courier Guy' (t00224).",
+      "at": "03:40"
+    },
+    {
+      "term": "DHL",
+      "meaning": "Courier named in the tracker tab 'With DHL'.",
+      "at": "03:40"
+    },
+    {
+      "term": "Rider",
+      "meaning": "The Quiqup driver who collects the box and scans its label.",
+      "at": "03:05"
+    },
+    {
+      "term": "Revibe account manager",
+      "meaning": "The contact a seller messages with questions.",
+      "at": "04:44"
+    }
+  ],
+  "asr_fixes": [
+    {
+      "at": "02:28",
+      "heard": "QuickUp box",
+      "correct": "Quiqup box",
+      "basis": "Screen t00150.jpg shows 'QUIQUP BOX' and the caption 'Use the Quiqup box and the red tape. Quiqup sends you both.'"
+    },
+    {
+      "at": "02:31",
+      "heard": "QuickUp sends you both",
+      "correct": "Quiqup sends you both",
+      "basis": "Screen t00153.jpg shows the pill 'Quiqup sends you both'."
+    },
+    {
+      "at": "02:50",
+      "heard": "Otherwise it comes back is missing.",
+      "correct": "Otherwise, it comes back as Missing.",
+      "basis": "Screen t00167.jpg caption 'If a device is on the list but not in the box, press Remove. Otherwise, it comes back as Missing.'"
+    },
+    {
+      "at": "03:05",
+      "heard": "QuickUp {rider?}",
+      "correct": "Quiqup rider",
+      "basis": "Screen t00187.jpg caption 'Only when the Quiqup rider is with you, usually around 3 PM, press Mark ready for collection.'"
+    },
+    {
+      "at": "03:05",
+      "heard": "3 {p?}.m.",
+      "correct": "3 PM",
+      "basis": "Screen t00187.jpg and t00189.jpg show 'usually around 3 PM' and the '~3 PM' clock label."
+    },
+    {
+      "at": "03:17",
+      "heard": "{pickup?} AWB label",
+      "correct": "Pickup AWB label",
+      "basis": "Screen t00184.jpg 'PICKUP AWB LABEL' header and t00199.jpg caption."
+    },
+    {
+      "at": "03:30",
+      "heard": "takes the {box.?}",
+      "correct": "takes the box",
+      "basis": "Screen t00211.jpg caption 'The rider scans the label and takes the box. That's it for the day.'"
+    },
+    {
+      "at": "03:40",
+      "heard": "Open box with {quick?} up scanned with dhl and with the courier guy",
+      "correct": "Open box, With Quiqup, Scanned, With DHL, and With The Courier Guy",
+      "basis": "Screen t00224.jpg caption and tab names 'Open box', 'With Quiqup', 'Scanned', 'With DHL', 'With TCG'."
+    },
+    {
+      "at": "03:49",
+      "heard": "when quick up scans it",
+      "correct": "when Quiqup scans it",
+      "basis": "Screen t00227.jpg caption 'Remember: your order turns Shipped when Quiqup scans it.'"
+    },
+    {
+      "at": "04:01",
+      "heard": "cut folded {or?} unreadable",
+      "correct": "cut, folded or unreadable",
+      "basis": "Screen t00237.jpg caption 'Can't scan: the barcode was cut, folded or unreadable.'"
+    },
+    {
+      "at": "04:06",
+      "heard": "QuickUp sends the device back the next day",
+      "correct": "Quiqup sends the device back the next day",
+      "basis": "Screen t00242.jpg and t00248.jpg caption 'Quiqup sends the device back the next day.'"
+    },
+    {
+      "at": "04:13",
+      "heard": "In the {scan?} status column",
+      "correct": "In the Scan status column",
+      "basis": "Screen t00250.jpg table header 'Scan status'."
+    },
+    {
+      "at": "04:39",
+      "heard": "And when the {writer?} arrives",
+      "correct": "And when the rider arrives",
+      "basis": "Screen t00281.jpg caption 'And when the rider arrives: Mark ready for collection, label on top.'"
+    },
+    {
+      "at": "04:44",
+      "heard": "Message your Revive account manager.",
+      "correct": "Message your Revibe account manager.",
+      "basis": "Screen t00288.jpg and t00290.jpg pill 'Questions? Message your Revibe account manager.' (brand spelled REVIBE on the logo throughout). The audio word is the same; the screen sets the spelling."
+    }
+  ],
+  "unclear": [
+    {
+      "at": "03:04",
+      "issue": "The hand-over table on t00184.jpg (and t00187-t00196) shows four device rows (ZA-85669-1, ZA-85654-1, ZA-85719-1, ZA-85753-1) and the button 'Print all barcodes (6)'. The packing list on t00160.jpg had six devices, including ZA-85723-1 (iphone-17) and ZA-85666-1 (iphone-15-pro-max), which are not in the hand-over table. Neither the narration nor the screen explains this, so do not state how many devices a box holds at hand-over."
+    },
+    {
+      "at": "03:53",
+      "issue": "The Missing panel (t00233.jpg, t00237.jpg) uses ZA-85654-1 as its example device, but the hand-over table (t00184.jpg) shows ZA-85654-1 as Added and the scan status table (t00254.jpg, 04:10) shows it as Scanned. The narration does not say the Missing panel is illustrative, so do not present ZA-85654-1 as a real missing device."
+    },
+    {
+      "at": "04:16",
+      "issue": "The narration says 'Pickup failed means one of these two happened' but does not name the two causes on this slide. The earlier Missing and Can't scan panels suggest them, but that link is implied only."
+    }
+  ],
+  "outdated": [],
+  "privacy": [
+    {
+      "at": "02:56",
+      "what": "Photos of the taped box with a printed Quiqup label (t00176 and t00180 right-hand photos, t00202 label photo over the panel, t00211 and t00214 box photos). The label carries printed address-style and tracking text that is too small to read reliably at this resolution. Check it for recipient or sender names and addresses before this material is shared with sellers.",
+      "frame": "t00176.jpg, t00180.jpg, t00202.jpg, t00211.jpg, t00214.jpg"
+    }
+  ],
+  "audit": {
+    "checked": 117,
+    "removed": [
+      {
+        "statement": "Unclear entry at 03:40: the narration says 'with dhl and with the courier guy' while the tab is 'With TCG'.",
+        "reason": "Not a conflict. The caption on t00224.jpg reads 'With The Courier Guy' and the tab is 'With TCG', so the screen resolves it. The TCG term and the asr_fix at 03:40 keep the screen wording."
+      },
+      {
+        "statement": "Unclear entry at 02:52: 'Seal every seam with the red tape' has no matching caption.",
+        "reason": "Not a conflict. The checklist on t00258.jpg says 'Box sealed with red tape, sealing filmed' and t00176.jpg shows the red-taped box. The narration stands as a say line."
+      },
+      {
+        "statement": "Unclear entry at 03:40: the box icon on the other tracker tabs is not explained.",
+        "reason": "The icon is an animation position, not a fact the claims rely on. No claim depends on it, so it is not a content question."
+      },
+      {
+        "statement": "Privacy entry at 04:08: order Help IDs and device models on screen (for example ZA-85669-1).",
+        "reason": "These are internal order and device identifiers, not customer or seller personal data (names, phone numbers, emails, addresses), so they are outside the privacy list's scope."
+      },
+      {
+        "statement": "Privacy entry at 03:26 for t00206.jpg and t00196.jpg / t00199.jpg overlays.",
+        "reason": "Wrong frame references. t00206.jpg is an illustration, not a photo, and t00196.jpg and t00199.jpg show panel screens with no waybill. Replaced by the real photo frames in the privacy entry."
+      }
+    ],
+    "corrected": [
+      {
+        "before": "summary: 'All 40 frames were opened.'",
+        "after": "summary: '43 frames were opened: the 40 cited in the pack plus t00285, t00288 and t00290, which no claim cited.'",
+        "reason": "Frame count. The three closing-slide frames were not in the pack and were opened in this check."
+      },
+      {
+        "before": "Step 02:20: 'The pack has no narration for this slide.'",
+        "after": "Step 02:20: the on-screen caption repeats the narration 'Never cut it.' (02:16) and 'Never fold it over an edge {and?} never crumple it or cover it with another label.' (02:17).",
+        "reason": "The narration is spoken over this slide's caption, so the 'no narration' statement was wrong."
+      },
+      {
+        "before": "Step 03:11 and fact 'After Mark ready for collection...': 'Remove buttons are disabled.'",
+        "after": "'the Remove buttons are greyed out.'",
+        "reason": "t00196.jpg shows the Remove buttons greyed out. 'Disabled' is an inference the screen does not show."
+      },
+      {
+        "before": "Step 03:24 evidence t00202.jpg: caption 'Print it, stick it on top of the box, and cover it with clear tape, like in the photo.'",
+        "after": "t00202.jpg: label photo fading over the panel with caption 'The Quiqup label appears under Pickup AWB label. It's one label for the whole box.' The 'Print it...' caption is on t00206.jpg.",
+        "reason": "Caption mismatch: the frame at 03:22 shows the earlier caption."
+      },
+      {
+        "before": "Step 03:24 evidence t00206.jpg: 'Photo of the sealed box with red tape; a white Quiqup waybill with barcode and QR code stuck on top, under clear tape.'",
+        "after": "t00206.jpg: 'Illustration of a taped box with a white label stuck on top; caption Print it, stick it on top ... like in the photo.' The sealed-box photo with the label is t00214.jpg.",
+        "reason": "t00206.jpg is an illustration, not a photo. 'Quiqup' on the label itself is not legible; the Quiqup name comes from the 'Print Quiqup label' button on t00199.jpg."
+      },
+      {
+        "before": "Fact 'Stick the printed Quiqup label on top of the box...' evidence t00206.jpg 'Photo of the sealed box with a white Quiqup label on top under clear tape.'",
+        "after": "Evidence is t00214.jpg: 'Photo of the sealed box with red tape and a white label with barcode and QR code on top, under clear tape.'",
+        "reason": "Frame mismatch (see the step above)."
+      },
+      {
+        "before": "Step 03:40: 'says the order turns Shipped when Quiqup scans it.'",
+        "after": "Step 03:40: narration says 'remember your order turns shipped'; the caption on t00227.jpg says it turns Shipped when Quiqup scans it.",
+        "reason": "The words 'when Quiqup scans it' are on screen, not in the narration at 03:40."
+      },
+      {
+        "before": "Step 04:25: 'Ticks each checklist item while reading it aloud, ending with the rider item.'",
+        "after": "Step 04:25: ticks five of six items; the rider item is still unticked on the last frame (t00281.jpg).",
+        "reason": "The rider item is not ticked on t00281.jpg, so 'ending with the rider item' overstates what is shown."
+      },
+      {
+        "before": "Step 04:10 evidence t00254.jpg: 'Pickup failed for ZA-85719-1 highlighted in a pink box.'",
+        "after": "The Scan status column is outlined in pink; ZA-85719-1 shows a red-cross 'Pickup failed' badge.",
+        "reason": "The pink outline covers the whole Scan status column, not only the failed row."
+      },
+      {
+        "before": "Step 03:53 evidence t00231.jpg: 'Pink Missing header; rows ... ZA-85654-1 in a pink row'.",
+        "after": "t00231.jpg is a dimmed tracker transition with caption 'Two things can go wrong...'. The Missing panel with the pink header and ZA-85654-1 row is t00233.jpg.",
+        "reason": "Frame mismatch: the Missing panel is on t00233.jpg, not t00231.jpg."
+      },
+      {
+        "before": "Step 03:53 action: 'The example ZA-85654-1 is missing from the box'.",
+        "after": "Step 03:53 action: the Missing panel uses ZA-85654-1 as its example device (see unclear 03:53).",
+        "reason": "The screen and narration show an example panel, not a confirmed missing device."
+      },
+      {
+        "before": "Fact 'The sealing video is your proof ... so keep it.'",
+        "after": "'The sealing video is your proof if a count is ever questioned.'",
+        "reason": "'So keep it' is not in the narration or on screen."
+      },
+      {
+        "before": "Fact 'The Quiqup label is one label for the whole box, not one label per device.'",
+        "after": "'The Quiqup label is one label for the whole box.'",
+        "reason": "'Not one label per device' is an inference. The screen says only 'one label for the whole box'."
+      },
+      {
+        "before": "Term 'Print all barcodes ... with a count in brackets (6 at packing)'.",
+        "after": "Count shown in brackets on the hand-over screen (t00184.jpg): '(6)' next to a four-row device table.",
+        "reason": "'At packing' is not shown; the (6) appears on the hand-over screen."
+      },
+      {
+        "before": "Term 'Added: Scan status of a device packed into the box and listed on the hand-over table.'",
+        "after": "Scan status shown on each device row of the hand-over table (t00184.jpg); the screen does not say how the status is set.",
+        "reason": "'Packed into the box' is not on screen."
+      },
+      {
+        "before": "Screen 'Scan status table': 'ZA-85719-1 highlighted'.",
+        "after": "Scan status column outlined in pink; ZA-85719-1 is the only 'Pickup failed' row.",
+        "reason": "Same pink-outline correction as step 04:10."
+      },
+      {
+        "before": "Screen 'Physical box with Quiqup label': 'Photo ... with a white Quiqup waybill' at t00206.",
+        "after": "Photo frames are t00176, t00180, t00214; t00206 is an illustration.",
+        "reason": "Frame mismatch (see the step above)."
+      },
+      {
+        "before": "asr_fix 04:06 basis: 'Screen t00248.jpg caption'.",
+        "after": "Basis: caption on t00242.jpg and t00248.jpg.",
+        "reason": "The caption appears on both frames; t00242.jpg is the first."
+      },
+      {
+        "before": "asr_fix 04:44 basis: 'Brand on every screen ... (t00145.jpg, t00184.jpg)'.",
+        "after": "Basis: the pill on t00288.jpg and t00290.jpg reads 'Revibe account manager'.",
+        "reason": "The closing screen spells the word, which is a stronger basis than the logo."
+      },
+      {
+        "before": "Fact 'Pickup failed ... means one of the two exceptions happened' (implied, low).",
+        "after": "Kept as low confidence, with the 03:49 'two things can go wrong' say line added as evidence.",
+        "reason": "The narration does refer to two things defined just before, so the link is stronger than the pack said. It stays marked Implied."
+      }
+    ],
+    "added": [
+      "Evidence for the barcode-rule step and fact: say lines at 02:16 ('Never cut it.') and 02:17 (the fold and crumple line), which the pack omitted.",
+      "Screen 'Missing panel with empty slot' at 03:57 (t00237.jpg): dashed red outline on an empty box slot. Not in the pack.",
+      "Frame t00233.jpg (03:53): Missing panel with pink header and ZA-85654-1 row, now cited in the Missing step.",
+      "Frame t00266.jpg (04:26): first two checklist items ticked, now cited in the 04:25 step.",
+      "Closing slide evidence: t00285.jpg, t00288.jpg, t00290.jpg, now cited in the 04:43 step and the closing screen. The pack did not cite these frames.",
+      "Evidence for the 'Pickup failed' implied fact: say line at 03:49 ('two things can go wrong') and 04:16.",
+      "Unclear entry at 03:53: ZA-85654-1 is the Missing example but shows as Added at 03:04 and Scanned at 04:10.",
+      "Screen 'Physical box with Quiqup label' now lists the photo frames t00176, t00180 and t00214 as the reference photos."
+    ]
+  }
+}

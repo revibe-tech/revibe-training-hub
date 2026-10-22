@@ -1,0 +1,858 @@
+{
+  "summary": "Part 1 of 2 of the '11.1 Dashboard (Seller)' training (00:00 to about 05:01). The trainer shows the sign-in options (Google, or email instead), then the Seller Performance dashboard. Sign-in itself is not shown on screen: the Email and Password fields stay empty and the dashboard tab is already open. He narrates the header (buy box status, account manager, WhatsApp and Meeting buttons), then walks the Performance tab: timeframes, country and category filters, top KPI tiles, and the Orders, GMV, On time, Defect rate and Days to solve sections, each with a Methodology box. Claims coverage appears at the end without explanation. All 40 frames were opened and checked against the narration. The dashboard was recorded on a localhost demo build (localhost:8099) with demo seller 'Seller ABC', so its figures are demo data. Narration and screen agree on most definitions. Conflicts are logged as unclear: the on-time working-day limits for AE and ZA, and the meaning of several buttons and of GMV currency. Part 2 (from about 05:01) is not covered here.",
+  "steps": [
+    {
+      "at": "00:00",
+      "screen": "Revibe CX login page (merchant.revibe.me/login)",
+      "action": "Shows the two sign-in options: Sign in with Google, or Sign in with email instead.",
+      "evidence": [
+        {"kind": "say", "at": "00:19", "quote": "On this portal, you can connect either with a Google account or with the email and password you"},
+        {"kind": "see", "at": "00:00", "frame": "t00000.jpg", "quote": "Sign in with Google. Revibe staff use their @revibe.me account; sellers and repair partners use the Google address Revibe has for them. Sign in with email instead →"}
+      ],
+      "says": "On this portal, you can connect either with a Google account or with the email and password you",
+      "why": ""
+    },
+    {
+      "at": "00:25",
+      "screen": "Email sign-in form (Enterprise Access)",
+      "action": "Shows the email and password form (Email, Password, Sign in, Back, Forgot password?). The Email and Password fields are empty in the frames shown; the sign-in itself is not shown.",
+      "evidence": [
+        {"kind": "see", "at": "00:25", "frame": "t00025.jpg", "quote": "For sellers and repair partners. Use the same email address and password you use on admin.revibe.me — there is no separate password for this dashboard."},
+        {"kind": "say", "at": "00:27", "quote": "are using on a daily basis on the order management."}
+      ],
+      "says": "are using on a daily basis on the order management.",
+      "why": ""
+    },
+    {
+      "at": "00:31",
+      "screen": "Seller Performance dashboard (localhost demo, tab Revibe · Seller Performance)",
+      "action": "Lands on the dashboard after sign-in, as narrated. The Revibe · Seller Performance tab is already open in the tab strip before the sign-in options are shown.",
+      "evidence": [
+        {"kind": "say", "at": "00:31", "quote": "Once done, you will land on this dashboard."},
+        {"kind": "see", "at": "00:48", "frame": "t00048.jpg", "quote": "Seller ABC; pills: Buybox open, Pepe, WhatsApp, Meeting; Chart / Tables toggle; tabs Performance, Scoring, Analysis"}
+      ],
+      "says": "Once done, you will land on this dashboard.",
+      "why": ""
+    },
+    {
+      "at": "00:38",
+      "screen": "Dashboard header",
+      "action": "Narrates the header: seller name, whether the buy box is open or closed, the account manager, then the WhatsApp and Meeting buttons.",
+      "evidence": [
+        {"kind": "say", "at": "00:38", "quote": "First, your seller name, if your buy box is open or closed, who is your account manager, you"},
+        {"kind": "say", "at": "00:45", "quote": "can reach out to him directly on WhatsApp,"}
+      ],
+      "says": "First, your seller name, if your buy box is open or closed, who is your account manager, you",
+      "why": ""
+    },
+    {
+      "at": "00:48",
+      "screen": "Meeting booking (Calendly tab) and Share on WhatsApp tab",
+      "action": "A Calendly tab (calendly.com/pierre-revibe/meeting) is open and still loading, and a Share on WhatsApp tab is also open. How these tabs were opened is not shown.",
+      "evidence": [
+        {"kind": "say", "at": "00:48", "quote": "and you can book a meeting directly in his agenda."},
+        {"kind": "see", "at": "00:54", "frame": "t00054.jpg", "quote": "Browser tabs: Revibe CX - Login, Revibe · Seller Performance, Calendly (URL calendly.com/pierre-revibe/meeting, page loading), Share on WhatsApp"}
+      ],
+      "says": "and you can book a meeting directly in his agenda.",
+      "why": ""
+    },
+    {
+      "at": "00:54",
+      "screen": "Dashboard tab bar (Performance, Scoring, Analysis)",
+      "action": "Names the three analysis tabs. Performance is already the selected tab and is the one covered in this part.",
+      "evidence": [
+        {"kind": "say", "at": "00:54", "quote": "You can also see three types, performance, scoring {and?} analysis."},
+        {"kind": "say", "at": "01:00", "quote": "Let's first dig into the performance one."}
+      ],
+      "says": "Let's first dig into the performance one.",
+      "why": ""
+    },
+    {
+      "at": "01:07",
+      "screen": "Timeframe panel (Monthly, Weekly, Daily)",
+      "action": "Hovers Monthly, then Daily, and selects Daily to show the daily view (Sep 3 KPIs).",
+      "evidence": [
+        {"kind": "say", "at": "01:07", "quote": "You can see them on a monthly basis, weekly or daily basis."},
+        {"kind": "see", "at": "01:27", "frame": "t00077.jpg", "quote": "Daily · last 30D selected; footer 339 days of data · plotted as 30 days; KPIs heading Sep 3"}
+      ],
+      "says": "You can see them on a monthly basis, weekly or daily basis.",
+      "why": ""
+    },
+    {
+      "at": "01:11",
+      "screen": "Country and Category filter panels",
+      "action": "Shows the country and category filter buttons. Country: flag buttons plus All, Exclude SA and Core 3. Category: iPhone, Samsung, Macbook, Laptop, Tablet and Watch, plus All and Top 3.",
+      "evidence": [
+        {"kind": "say", "at": "01:11", "quote": "You can filter by country."},
+        {"kind": "say", "at": "01:14", "quote": "You can also filter by category."},
+        {"kind": "see", "at": "01:27", "frame": "t00077.jpg", "quote": "Country buttons: All, Exclude SA, Core 3; Category buttons: iPhone, Samsung, Macbook, Laptop, Tablet, Watch, All, Top 3"}
+      ],
+      "says": "You can filter by country.",
+      "why": ""
+    },
+    {
+      "at": "01:17",
+      "screen": "Top KPI tiles and Orders chart (Monthly, Jul 26 KPIs)",
+      "action": "Shows the top KPI tiles for the selected month, Jul 26, each with a change against the previous period. The narration says the KPIs are always compared with the months before.",
+      "evidence": [
+        {"kind": "say", "at": "01:17", "quote": "On the top, you can see the KPIs of the months that you select here."},
+        {"kind": "say", "at": "01:23", "quote": "These KPIs are always put in comparison with the months before."},
+        {"kind": "see", "at": "01:51", "frame": "t00097.jpg", "quote": "Monthly · last 12M selected; Jul 26 KPIs: ORDERS 1,205 (-106 vs. Jun 26), GMV ₿2.29M (-₿370K vs. Jun 26), ON TIME 62% (-5pp vs. Jun 26)"}
+      ],
+      "says": "These KPIs are always put in comparison with the months before.",
+      "why": ""
+    },
+    {
+      "at": "01:34",
+      "screen": "Orders — confirmed chart controls",
+      "action": "Shows the Volume / % toggle and the Country / Cat. toggle on the Orders chart, and the Chart / Tables toggle, which shows the raw data as a table.",
+      "evidence": [
+        {"kind": "say", "at": "01:34", "quote": "Orders, first {you?} can check them by country, you can see them in volume or in percentage, and"},
+        {"kind": "say", "at": "01:41", "quote": "you can also see them by product category."},
+        {"kind": "say", "at": "01:46", "quote": "All these KPIs you can always see them with raw data."},
+        {"kind": "see", "at": "02:02", "frame": "t00108.jpg", "quote": "Chart/Tables toggle set to Tables; table with Month, SA, ZA, AE, Other, Total rows Oct 25 to Sep*, Window row 14,118"}
+      ],
+      "says": "All these KPIs you can always see them with raw data.",
+      "why": ""
+    },
+    {
+      "at": "01:51",
+      "screen": "Methodology button under Orders — confirmed",
+      "action": "Opens the Methodology box for Orders.",
+      "evidence": [
+        {"kind": "say", "at": "01:51", "quote": "{And?} for each KPI, we give you access to a methodology that will explain you what is taken"},
+        {"kind": "say", "at": "01:57", "quote": "into account and what is not."},
+        {"kind": "see", "at": "02:13", "frame": "t00116.jpg", "quote": "Methodology: A confirmed order, counted on the day it was confirmed. One order is one confirmed order line — a three-item order counts three. Split by the market it shipped to. Other is every market under 1.5% of the window, added together. Sep '26* is the current month, still running."}
+      ],
+      "says": "into account and what is not.",
+      "why": ""
+    },
+    {
+      "at": "02:00",
+      "screen": "GMV section (left index: GMV)",
+      "action": "Moves to the GMV section, which has the same Volume / % and Country / Cat. controls. The trainer says countries and categories can be removed; the removal control itself is not shown.",
+      "evidence": [
+        {"kind": "say", "at": "02:00", "quote": "Let's move to the next one."},
+        {"kind": "say", "at": "02:03", "quote": "You can check by volume or percentage, by country or with a split by category."},
+        {"kind": "say", "at": "02:08", "quote": "And you can remove countries if you want."},
+        {"kind": "say", "at": "02:13", "quote": "You can remove categories also."},
+        {"kind": "see", "at": "02:21", "frame": "t00124.jpg", "quote": "GMV — Volume / % toggle and Country / Cat. toggle shown; monthly GMV bars Oct 25 to Sep*"}
+      ],
+      "says": "You can remove categories also.",
+      "why": ""
+    },
+    {
+      "at": "02:15",
+      "screen": "On time section with three toggles",
+      "action": "Opens On time, which shows the three toggles (On time, On time shipment, On time delivery). The Methodology box is opened at about 02:36.",
+      "evidence": [
+        {"kind": "say", "at": "02:15", "quote": "Third KPI, on time."},
+        {"kind": "say", "at": "02:34", "quote": "you can see your on-time shipment rate, and you can see your on-time delivery rate."},
+        {"kind": "see", "at": "02:31", "frame": "t00135.jpg", "quote": "On time section with buttons On time / On time shipment / On time delivery; legend All markets, AE (≤ 2), ZA (≤ 2), SA (≤ 5)"},
+        {"kind": "see", "at": "02:36", "frame": "t00138.jpg", "quote": "On time methodology: On time is the composite Revibe scores you on: each market judged on the leg Revibe actually holds you to. Outside Saudi — shipment: confirmed → shipped in under 3 working days, over shipments that happened."}
+      ],
+      "says": "you can see your on-time shipment rate, and you can see your on-time delivery rate.",
+      "why": ""
+    },
+    {
+      "at": "02:40",
+      "screen": "Defect rate section (Overall, By country, By category) with methodology",
+      "action": "Names the three Defect rate KPIs: the total defect rate, the defect rate within 30 days, and the defect rate within 90 days. The Methodology box is opened (see 03:03).",
+      "evidence": [
+        {"kind": "say", "at": "02:40", "quote": "Then, let's move to {defect?} rate."},
+        {"kind": "say", "at": "02:42", "quote": "Here again, methodology, and here we give you three different KPIs."},
+        {"kind": "say", "at": "02:50", "quote": "the defect rate after 30 days, and the defect rate after 90 days."},
+        {"kind": "see", "at": "03:03", "frame": "t00163.jpg", "quote": "Defect rate methodology: Qualifying warranty and return claims + confirmed orders. Both sides are counted against the order's month... Excluded: change-of-mind, cancelled-form, installment-failure and RTO claims."}
+      ],
+      "says": "Then, let's move to {defect?} rate.",
+      "why": ""
+    },
+    {
+      "at": "03:08",
+      "screen": "Defect rate chart, February example tooltips",
+      "action": "Uses February as the example. Hovers Feb to read the Defect rate (3.2%), within 30 days (1.2%) and within 90 days (2.4%) values.",
+      "evidence": [
+        {"kind": "say", "at": "03:08", "quote": "As you can see here, so let's take the month of February."},
+        {"kind": "say", "at": "03:15", "quote": "Here, this defect rate after 30 days was at 1.2%."},
+        {"kind": "see", "at": "03:52", "frame": "t00212.jpg", "quote": "Feb tooltip: Defect rate 3.2%, Within 30 days of the order 1.2%, Within 90 days of the order 2.4%"}
+      ],
+      "says": "Here, this defect rate after 30 days was at 1.2%.",
+      "why": ""
+    },
+    {
+      "at": "04:00",
+      "screen": "Defect rate legend toggles and By country / By category tabs",
+      "action": "Explains why claims keep coming. Clicks legend items to show or hide series (see t00179.jpg and t00236.jpg), then moves the cursor onto the By country tab (t00269.jpg). The By country chart is not clearly shown in the frames.",
+      "evidence": [
+        {"kind": "say", "at": "04:03", "quote": "Meaning that claims will keep coming because customers week after week will keep using your devices and might"},
+        {"kind": "say", "at": "04:13", "quote": "Which is the reason why this KPI, the defect rate after 30 days, will help you to very"},
+        {"kind": "say", "at": "04:27", "quote": "And as {ways?} you can check like this but also by country and by category."},
+        {"kind": "see", "at": "04:56", "frame": "t00269.jpg", "quote": "Overall / By country / By category tabs; cursor on By country"}
+      ],
+      "says": "And as {ways?} you can check like this but also by country and by category.",
+      "why": ""
+    },
+    {
+      "at": "04:35",
+      "screen": "Days to solve section (All claims, Returns, Warranties) with methodology",
+      "action": "Opens the Days to solve methodology and shows the All claims, Returns and Warranties legend, which splits the figure by returns and by warranties.",
+      "evidence": [
+        {"kind": "say", "at": "04:35", "quote": "Now {days?} to solve."},
+        {"kind": "say", "at": "04:37", "quote": "So days to solve will give you the methodology."},
+        {"kind": "say", "at": "04:58", "quote": "You can split by returns and by warranties."},
+        {"kind": "see", "at": "05:03", "frame": "t00274.jpg", "quote": "Days to solve legend: All claims, Returns, Warranties"},
+        {"kind": "see", "at": "05:06", "frame": "t00277.jpg", "quote": "Days to solve methodology: Calendar days from the claim date to the claim being resolved — the same clock in every market."}
+      ],
+      "says": "You can split by returns and by warranties.",
+      "why": ""
+    },
+    {
+      "at": "04:58",
+      "screen": "Claims coverage section (Solved / Still open)",
+      "action": "Scrolls to the Claims coverage section at the end of this part. The narration does not explain it.",
+      "evidence": [
+        {"kind": "see", "at": "05:29", "frame": "t00299.jpg", "quote": "Claims coverage legend: Solved, Still open; Aug bar 39 solved, 41 still open, 49% line"}
+      ],
+      "says": "",
+      "why": ""
+    }
+  ],
+  "facts": [
+    {
+      "type": "procedure",
+      "statement": "Sellers and repair partners can sign in to the Seller Performance dashboard in two ways: with Sign in with Google (using the Google address Revibe has for them), or with Sign in with email instead.",
+      "evidence": [
+        {"kind": "say", "at": "00:19", "quote": "On this portal, you can connect either with a Google account or with the email and password you"},
+        {"kind": "see", "at": "00:00", "frame": "t00000.jpg", "quote": "Sign in with Google. Revibe staff use their @revibe.me account; sellers and repair partners use the Google address Revibe has for them. Sign in with email instead →"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The email and password option for sellers and repair partners uses the same email address and password they use on admin.revibe.me. The login page says there is no separate password for this dashboard.",
+      "evidence": [
+        {"kind": "see", "at": "00:25", "frame": "t00025.jpg", "quote": "For sellers and repair partners. Use the same email address and password you use on admin.revibe.me — there is no separate password for this dashboard."},
+        {"kind": "say", "at": "00:27", "quote": "are using on a daily basis on the order management."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The dashboard header shows the seller name, a buy box status pill (for example Buybox open), an account manager name pill, a WhatsApp button and a Meeting button.",
+      "evidence": [
+        {"kind": "say", "at": "00:38", "quote": "First, your seller name, if your buy box is open or closed, who is your account manager, you"},
+        {"kind": "see", "at": "00:48", "frame": "t00048.jpg", "quote": "Seller ABC; pills: Buybox open, Pepe, WhatsApp, Meeting"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "To reach your account manager, use the WhatsApp button in the dashboard header, or the Meeting button to book a meeting in the account manager's agenda.",
+      "evidence": [
+        {"kind": "say", "at": "00:45", "quote": "can reach out to him directly on WhatsApp,"},
+        {"kind": "say", "at": "00:48", "quote": "and you can book a meeting directly in his agenda."},
+        {"kind": "see", "at": "00:54", "frame": "t00054.jpg", "quote": "Browser tabs: Calendly (URL calendly.com/pierre-revibe/meeting, page loading), Share on WhatsApp"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The buy box status on the dashboard header is shown as open or closed (the screen shows Buybox open).",
+      "evidence": [
+        {"kind": "say", "at": "00:38", "quote": "First, your seller name, if your buy box is open or closed, who is your account manager, you"},
+        {"kind": "see", "at": "00:48", "frame": "t00048.jpg", "quote": "Buybox open"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The dashboard has three analysis tabs: Performance, Scoring and Analysis. Part 1 covers only Performance.",
+      "evidence": [
+        {"kind": "say", "at": "00:54", "quote": "You can also see three types, performance, scoring {and?} analysis."},
+        {"kind": "see", "at": "00:48", "frame": "t00048.jpg", "quote": "Tabs: Performance, Scoring, Analysis"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "Performance KPIs can be viewed by Monthly (last 12M), Weekly (last 12W) or Daily (last 30D) timeframe. The footer says 339 days of data, plotted as 12 months, 12 weeks or 30 days.",
+      "evidence": [
+        {"kind": "say", "at": "01:07", "quote": "You can see them on a monthly basis, weekly or daily basis."},
+        {"kind": "see", "at": "01:27", "frame": "t00077.jpg", "quote": "Daily · last 30D; 339 days of data · plotted as 30 days"},
+        {"kind": "see", "at": "00:48", "frame": "t00048.jpg", "quote": "Weekly · last 12W; 339 days of data · plotted as 12 weeks"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Performance can be filtered by country (flag buttons, plus All, Exclude SA and Core 3) and by category (iPhone, Samsung, Macbook, Laptop, Tablet, Watch, plus All and Top 3).",
+      "evidence": [
+        {"kind": "say", "at": "01:11", "quote": "You can filter by country."},
+        {"kind": "say", "at": "01:14", "quote": "You can also filter by category."},
+        {"kind": "see", "at": "01:27", "frame": "t00077.jpg", "quote": "Country buttons: All, Exclude SA, Core 3; Category buttons: iPhone, Samsung, Macbook, Laptop, Tablet, Watch, All, Top 3"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The top KPI tiles show the selected period (for example Jul 26 KPIs) and compare each figure with the previous period. For a month the comparison reads vs. Jun 26; for a week, vs. Aug 17; for a day, vs. Sep 2.",
+      "evidence": [
+        {"kind": "say", "at": "01:17", "quote": "On the top, you can see the KPIs of the months that you select here."},
+        {"kind": "say", "at": "01:23", "quote": "These KPIs are always put in comparison with the months before."},
+        {"kind": "see", "at": "01:51", "frame": "t00097.jpg", "quote": "Jul 26 KPIs; ORDERS 1,205 -106 vs. Jun 26"},
+        {"kind": "see", "at": "00:48", "frame": "t00048.jpg", "quote": "Aug 24 KPIs; ORDERS 330 +139 vs. Aug 17"},
+        {"kind": "see", "at": "01:27", "frame": "t00077.jpg", "quote": "Sep 3 KPIs; ORDERS 32 +8 vs. Sep 2"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Jul 26 monthly KPI tiles (demo data): ORDERS 1,205 (-106 vs. Jun 26); GMV ₿2.29M (-₿370K vs. Jun 26); ON TIME 62% (-5pp); ON TIME SHIP. (EXCL. SA) 71% (+9.2pp); ON TIME DEL. (SA) 61% (-6.7pp); DEFECT RATE 5.8% (+2.3pp); DAYS TO SOLVE 16.0d (-0.5d).",
+      "evidence": [
+        {"kind": "see", "at": "01:51", "frame": "t00097.jpg", "quote": "ORDERS 1,205 -106 vs. Jun 26; GMV ₿2.29M -₿370K vs. Jun 26; ON TIME 62% -5pp; ON TIME SHIP. (EXCL. SA) 71% +9.2pp; ON TIME DEL. (SA) 61% -6.7pp; DEFECT RATE 5.8% +2.3pp; DAYS TO SOLVE 16.0d -0.5d"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "warning",
+      "statement": "Some KPI tiles for recent periods are labelled 'still filling', 'no data' or 'not settled yet'. The week of Aug 24 shows DEFECT RATE 0.6% still filling; the day Sep 3 shows ON TIME and ON TIME SHIP. (EXCL. SA) no data, ON TIME DEL. (SA) not settled yet, and DEFECT RATE 0.0% still filling. The narration does not explain these labels.",
+      "evidence": [
+        {"kind": "see", "at": "00:48", "frame": "t00048.jpg", "quote": "DEFECT RATE 0.6% still filling"},
+        {"kind": "see", "at": "01:27", "frame": "t00077.jpg", "quote": "ON TIME — no data; ON TIME SHIP. (EXCL. SA) — no data; ON TIME DEL. (SA) — not settled yet; DEFECT RATE 0.0% still filling"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Orders counts confirmed orders, counted on the day each order was confirmed.",
+      "evidence": [
+        {"kind": "see", "at": "02:13", "frame": "t00116.jpg", "quote": "A confirmed order, counted on the day it was confirmed."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "One order is one confirmed order line, so a three-item order counts as three.",
+      "evidence": [
+        {"kind": "see", "at": "02:13", "frame": "t00116.jpg", "quote": "One order is one confirmed order line — a three-item order counts three."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Orders are split by the market the order shipped to. Other is every market under 1.5% of the window, added together.",
+      "evidence": [
+        {"kind": "see", "at": "02:13", "frame": "t00116.jpg", "quote": "Split by the market it shipped to. Other is every market under 1.5% of the window, added together."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "tip",
+      "statement": "The current month is marked with an asterisk (Sep '26* in the methodology, Sep* on the charts) and the methodology says it is still running.",
+      "evidence": [
+        {"kind": "see", "at": "02:13", "frame": "t00116.jpg", "quote": "Sep '26* is the current month, still running."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "The Orders chart can be switched between Volume and % (toggle), split by Country or by Category (Country / Cat. toggle), and shown as a table of raw numbers (Chart / Tables toggle, top right).",
+      "evidence": [
+        {"kind": "say", "at": "01:34", "quote": "Orders, first {you?} can check them by country, you can see them in volume or in percentage, and"},
+        {"kind": "say", "at": "01:46", "quote": "All these KPIs you can always see them with raw data."},
+        {"kind": "see", "at": "02:02", "frame": "t00108.jpg", "quote": "Tables view with columns Month, SA, ZA, AE, Other, Total"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Orders table window totals (Oct 25 to Sep*): SA 11,831; ZA 1,492; AE 752; Other 43; Total 14,118.",
+      "evidence": [
+        {"kind": "see", "at": "02:02", "frame": "t00108.jpg", "quote": "Window 11,831 1,492 752 43 14,118"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "The monthly view covers Oct 25 to Sep* (12 months). Sep* is the current month and is still running.",
+      "evidence": [
+        {"kind": "see", "at": "02:02", "frame": "t00108.jpg", "quote": "Table rows Oct 25 to Sep*; Sep* row marked in italics"},
+        {"kind": "see", "at": "01:17", "frame": "t00097.jpg", "quote": "Monthly · last 12M selected; x-axis Oct 25 to Sep*"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The Orders chart can be split by product category (legend iPhone, Samsung, Macbook, Laptop, Tablet, Other). The Aug tooltip shows iPhone 650 (67%), Samsung 171 (18%), Macbook 51 (5%), Laptop 28 (3%), Tablet 67 (7%), Other 8 (1%), Orders 975.",
+      "evidence": [
+        {"kind": "see", "at": "01:45", "frame": "t00105.jpg", "quote": "Legend iPhone, Samsung, Macbook, Laptop, Tablet, Other; Aug tooltip: iPhone 650 67%, Samsung 171 18%, Macbook 51 5%, Laptop 28 3%, Tablet 67 7%, Other 8 1%, Orders 975"},
+        {"kind": "say", "at": "01:41", "quote": "you can also see them by product category."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "Each KPI has a Methodology button that explains what is taken into account and what is not.",
+      "evidence": [
+        {"kind": "say", "at": "01:51", "quote": "{And?} for each KPI, we give you access to a methodology that will explain you what is taken"},
+        {"kind": "say", "at": "01:57", "quote": "into account and what is not."},
+        {"kind": "see", "at": "02:13", "frame": "t00116.jpg", "quote": "Methodology button expanded under Orders — confirmed"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "The GMV section has the same Volume / % and Country / Cat. controls. The trainer says countries and categories can be removed; the removal control is not shown on screen.",
+      "evidence": [
+        {"kind": "say", "at": "02:03", "quote": "You can check by volume or percentage, by country or with a split by category."},
+        {"kind": "say", "at": "02:08", "quote": "And you can remove countries if you want."},
+        {"kind": "say", "at": "02:13", "quote": "You can remove categories also."},
+        {"kind": "see", "at": "02:21", "frame": "t00124.jpg", "quote": "GMV — Volume / % toggle and Country / Cat. toggle shown"}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "number",
+      "statement": "GMV tooltip for Oct 25 (demo data): SA ₿1.51M (73%), ZA ₿241K (12%), AE ₿299K (14%), Other ₿9K (0%), GMV ₿2.06M.",
+      "evidence": [
+        {"kind": "see", "at": "02:24", "frame": "t00128.jpg", "quote": "Oct 25: SA ₿1.51M 73%; ZA ₿241K 12%; AE ₿299K 14%; Other ₿9K 0%; GMV ₿2.06M"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "On time is a composite score: each market is judged on the leg Revibe actually holds the seller to.",
+      "evidence": [
+        {"kind": "see", "at": "02:36", "frame": "t00138.jpg", "quote": "On time is the composite Revibe scores you on: each market judged on the leg Revibe actually holds you to."},
+        {"kind": "say", "at": "02:30", "quote": "So you can see the global on-time KPI,"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Outside Saudi, a shipment is on time when it is confirmed and shipped in under 3 working days, per the on-time methodology. The denominator is shipments that happened. The on-time chart legend shows different limits for AE and ZA (see unclear), so the per-market limit is not settled.",
+      "evidence": [
+        {"kind": "see", "at": "02:36", "frame": "t00138.jpg", "quote": "Outside Saudi — shipment: confirmed → shipped in under 3 working days, over shipments that happened."},
+        {"kind": "say", "at": "02:17", "quote": "{For?} the on-time, as mentioned here, we take into account shipment under three working days in UAE"},
+        {"kind": "see", "at": "02:31", "frame": "t00135.jpg", "quote": "legend AE (≤ 2), ZA (≤ 2), SA (≤ 5)"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "In Saudi, a delivery is on time when it is confirmed and delivered within 5 working days. The denominator is decided orders: delivered orders, plus shipments already past their SLA that were never marked delivered.",
+      "evidence": [
+        {"kind": "see", "at": "02:36", "frame": "t00138.jpg", "quote": "In Saudi — delivery: confirmed → delivered within 5 working days, over decided orders (delivered, plus shipments already past their SLA that were never marked delivered)."},
+        {"kind": "say", "at": "02:26", "quote": "and delivery within five working days in Saudi Arabia."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The shipment and delivery rates are pooled: on-time orders of both are divided by orders of both. They are not averaged as two separate rates.",
+      "evidence": [
+        {"kind": "see", "at": "02:36", "frame": "t00138.jpg", "quote": "The two are pooled — on-time orders of both over orders of both — not the average of two rates."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The three on-time readings (On time, On time shipment, On time delivery) come from the same rows and the same confirmed-date clock. Switching between them changes the definition, never the population.",
+      "evidence": [
+        {"kind": "see", "at": "02:36", "frame": "t00138.jpg", "quote": "All three readings come from the same rows and the same confirmed-date clock: switching changes the definition, never the population."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "A month whose SLA clock has not run out yet is not judged at all.",
+      "evidence": [
+        {"kind": "see", "at": "02:36", "frame": "t00138.jpg", "quote": "A month whose SLA clock has not run out yet is not judged at all."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "A market with fewer than 10 judged orders in a month does not get its own on-time figure. It still counts inside all markets, weighted by its size.",
+      "evidence": [
+        {"kind": "see", "at": "02:36", "frame": "t00138.jpg", "quote": "A market with fewer than 10 judged orders in a month is not given a figure of its own — a rate off one or two orders is not a rate. It still counts inside all markets, weighted by its own size."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "In this window, 594 Saudi misses are shipments past SLA that were never marked delivered. The methodology calls this a delivery-marking gap as much as a speed one.",
+      "evidence": [
+        {"kind": "see", "at": "02:36", "frame": "t00138.jpg", "quote": "594 of the Saudi misses in this window are shipments past SLA that were never marked delivered — a delivery-marking gap as much as a speed one."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The On time section has three toggles: On time, On time shipment and On time delivery.",
+      "evidence": [
+        {"kind": "see", "at": "02:31", "frame": "t00135.jpg", "quote": "On time section with buttons On time / On time shipment / On time delivery"},
+        {"kind": "see", "at": "02:56", "frame": "t00157.jpg", "quote": "On time delivery selected"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The On time legends show per-market limits: On time and On time shipment read AE (≤ 2), ZA (≤ 2), SA (≤ 5); On time delivery reads AE (≤ 3), ZA (≤ 5), SA (≤ 5).",
+      "evidence": [
+        {"kind": "see", "at": "02:31", "frame": "t00135.jpg", "quote": "Legend: All markets, AE (≤ 2), ZA (≤ 2), SA (≤ 5)"},
+        {"kind": "see", "at": "02:56", "frame": "t00157.jpg", "quote": "Legend: All markets, AE (≤ 3), ZA (≤ 5), SA (≤ 5)"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Defect rate qualifying claims are warranty and return claims, counted against confirmed orders.",
+      "evidence": [
+        {"kind": "see", "at": "03:03", "frame": "t00163.jpg", "quote": "Qualifying warranty and return claims + confirmed orders."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Excluded from the defect rate: change-of-mind, cancelled-form, installment-failure and RTO claims. Two claims on the same item count once.",
+      "evidence": [
+        {"kind": "see", "at": "03:03", "frame": "t00163.jpg", "quote": "Excluded: change-of-mind, cancelled-form, installment-failure and RTO claims. Two claims on the same item count once."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Both claims and orders are counted against the order's month, not the claim's month. The rate reads as of what was sold in a month, how much came back.",
+      "evidence": [
+        {"kind": "see", "at": "03:03", "frame": "t00163.jpg", "quote": "Both sides are counted against the order's month, not the claim's — so it reads as \"of what I sold in March, how much came back\"."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Within 30 days of the order and within 90 days of the order are the same rate over the same orders, counting only claims filed within 30 or 90 days of the order.",
+      "evidence": [
+        {"kind": "see", "at": "03:03", "frame": "t00163.jpg", "quote": "Within 30 days and within 90 days are the same rate over the same orders, counting only the claims filed within that many days of the order."},
+        {"kind": "see", "at": "03:52", "frame": "t00212.jpg", "quote": "Within 30 days of the order; Within 90 days of the order"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The 30-day and 90-day rates become final once that many days have passed since the month closed. The unbounded (full) defect rate never settles, so a recent month always reads low.",
+      "evidence": [
+        {"kind": "see", "at": "03:03", "frame": "t00163.jpg", "quote": "Each of those is final once that many days have passed since the month closed. The unbounded rate never settles — claims arrive for months after an order, so a recent month always reads low."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The rates are subsets of the same claims, so the 30-day rate is always at most the 90-day rate, which is at most the full defect rate.",
+      "evidence": [
+        {"kind": "see", "at": "03:03", "frame": "t00163.jpg", "quote": "They are subsets of the same claims, so 30 days ≤ 90 days ≤ the full rate always holds."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "tip",
+      "statement": "The narration says the 30-day defect rate, especially, helps show whether quality is improving over a short period. It is not compared with the total defect rate in the narration.",
+      "evidence": [
+        {"kind": "say", "at": "02:54", "quote": "These two will help you a lot, and especially the one after 30 days, to understand if your"},
+        {"kind": "say", "at": "03:03", "quote": "quality is improving or not on a short term period."},
+        {"kind": "say", "at": "04:21", "quote": "quickly understand if your quality is improving or not."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "example",
+      "statement": "February example (demo data): defect rate 3.2%; within 30 days 1.2%; within 90 days 2.4%. The trainer's reading: 1.2% at the 30-day mark, an extra 1.2 points between day 31 and day 90, and from day 91 to today the defect rate rose from 2.4% to 3.2%.",
+      "evidence": [
+        {"kind": "say", "at": "03:15", "quote": "Here, this defect rate after 30 days was at 1.2%."},
+        {"kind": "say", "at": "03:31", "quote": "between day 31 and day 90 this metric increased to 2.4 meaning an additional 1.2 {percent?}"},
+        {"kind": "say", "at": "03:42", "quote": "extra defect rate and from day 91 to today the defect rate increased from 2.4 percent to"},
+        {"kind": "see", "at": "03:52", "frame": "t00212.jpg", "quote": "Feb: Defect rate 3.2%; Within 30 days of the order 1.2%; Within 90 days of the order 2.4%"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "A falling total defect rate can be misleading. Claims keep arriving week after week, so the rate can rise later even when it looks like it is decreasing.",
+      "evidence": [
+        {"kind": "say", "at": "03:50", "quote": "3.2 percent so here you could believe that the defect rate is decreasing over time but this"},
+        {"kind": "say", "at": "04:03", "quote": "Meaning that claims will keep coming because customers week after week will keep using your devices and might"},
+        {"kind": "say", "at": "04:12", "quote": "raise new claims."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The Defect rate section can be viewed as Overall, By country or By category. Legend items can be clicked to hide or show Defect rate, Within 30 days of the order and Within 90 days of the order; the frames show Within 30 days alone (t00179) and Defect rate alone (t00236).",
+      "evidence": [
+        {"kind": "say", "at": "04:27", "quote": "And as {ways?} you can check like this but also by country and by category."},
+        {"kind": "see", "at": "04:56", "frame": "t00269.jpg", "quote": "Overall / By country / By category tabs"},
+        {"kind": "see", "at": "04:59", "frame": "t00272.jpg", "quote": "By category selected; legend All categories, iPhone, Samsung, Macbook, Laptop"},
+        {"kind": "see", "at": "03:19", "frame": "t00179.jpg", "quote": "Legend: Defect rate greyed, Within 30 days of the order shown alone as a blue line"},
+        {"kind": "see", "at": "04:19", "frame": "t00236.jpg", "quote": "Legend: Within 30 days and Within 90 days greyed; Defect rate shown alone as an area"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Days to solve is calendar days from the claim date to the claim being resolved, using the same clock in every market.",
+      "evidence": [
+        {"kind": "see", "at": "05:06", "frame": "t00277.jpg", "quote": "Calendar days from the claim date to the claim being resolved — the same clock in every market."},
+        {"kind": "say", "at": "04:39", "quote": "It's between the claim date and the date the claim is sold."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "A return is resolved when the refund reaches the customer. A warranty is resolved when the device ships back to them, or when it is refunded instead.",
+      "evidence": [
+        {"kind": "see", "at": "05:06", "frame": "t00277.jpg", "quote": "A return is resolved when the refund reaches the customer. A warranty is resolved when the device ships back to them, or when it is refunded instead."},
+        {"kind": "say", "at": "04:44", "quote": "For a return we will take into account the day when the refund reaches the customer and for"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Days to solve counts only claims that reached a resolved ending and have the timestamp needed to measure it. A claim still in progress is left out, not scored as zero days.",
+      "evidence": [
+        {"kind": "see", "at": "05:06", "frame": "t00277.jpg", "quote": "Only claims that actually reached one of those endings, and carry the timestamp to measure it, are counted — a claim still in progress is absent, not scored as zero days."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Days to solve is keyed on the repair partner: it covers the claims you repaired, never claims on your orders that another partner handled.",
+      "evidence": [
+        {"kind": "see", "at": "05:06", "frame": "t00277.jpg", "quote": "Keyed on the repair partner: the claims you repaired, never claims on your orders that another partner handled."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The All claims days-to-solve figure is total days over total claims resolved, not the average of the Returns and Warranties averages. It is therefore weighted by whichever kind you handled.",
+      "evidence": [
+        {"kind": "see", "at": "05:06", "frame": "t00277.jpg", "quote": "All claims is total days over total claims resolved, not the mean of the two means — so it is weighted by whichever kind you actually handled."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The Days to solve chart shows All claims, Returns and Warranties (legend toggles), so the figure can be split by returns and by warranties.",
+      "evidence": [
+        {"kind": "say", "at": "04:58", "quote": "You can split by returns and by warranties."},
+        {"kind": "see", "at": "05:03", "frame": "t00274.jpg", "quote": "Days to solve legend: All claims, Returns, Warranties"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The Claims coverage section shows monthly Solved and Still open claims, with a coverage percentage line. Aug shows 39 solved and 41 still open (49%).",
+      "evidence": [
+        {"kind": "see", "at": "05:29", "frame": "t00299.jpg", "quote": "Claims coverage legend: Solved, Still open; Aug bar 39 solved, 41 still open, 49% line"}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The dashboard has a Sign out button at the top right, next to a Chart / Tables toggle.",
+      "evidence": [
+        {"kind": "see", "at": "00:48", "frame": "t00048.jpg", "quote": "Sign out (top right); Chart / Tables toggle"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Charts show a dashed Average line, listed in the legend as Average.",
+      "evidence": [
+        {"kind": "see", "at": "00:48", "frame": "t00048.jpg", "quote": "Legend: SA, ZA, AE, Other, - - Average"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Implied: the chart legend codes AE, ZA and SA are UAE, South Africa and Saudi Arabia, the three markets named in the on-time narration.",
+      "evidence": [
+        {"kind": "say", "at": "02:17", "quote": "{For?} the on-time, as mentioned here, we take into account shipment under three working days in UAE"},
+        {"kind": "say", "at": "02:24", "quote": "and South Africa,"},
+        {"kind": "see", "at": "02:31", "frame": "t00135.jpg", "quote": "Legend: All markets, AE (≤ 2), ZA (≤ 2), SA (≤ 5)"}
+      ],
+      "confidence": "low",
+      "quiz": false
+    }
+  ],
+  "screens": [
+    {"name": "Revibe CX login (Enterprise Access)", "shows": "Sign in with Google button, Sign in with email instead link, Revibe staff @revibe.me note", "at": "00:00", "frame": "t00000.jpg", "where": "Browser tab Revibe CX - Login, URL merchant.revibe.me/login"},
+    {"name": "Email sign-in form", "shows": "Email and Password fields (empty), Sign in, Back, Forgot password?, note that sellers use the admin.revibe.me email and password", "at": "00:25", "frame": "t00025.jpg", "where": "Same login page after Sign in with email instead"},
+    {"name": "Seller Performance dashboard (header, tabs, KPI tiles, Orders chart)", "shows": "Seller name, Buybox open pill, account manager name pill (Pepe), WhatsApp and Meeting buttons, Chart/Tables toggle, Sign out button, Performance/Scoring/Analysis tabs, KPI tiles with comparison, Orders chart", "at": "00:31", "frame": "t00048.jpg", "where": "Browser tab Revibe · Seller Performance on a localhost demo URL (demo=Seller+ABC, tab=performance, grain=week at this point)"},
+    {"name": "Meeting booking (Calendly) and Share on WhatsApp tabs", "shows": "Calendly tab (calendly.com/pierre-revibe/meeting) still loading, Share on WhatsApp tab open", "at": "00:54", "frame": "t00054.jpg", "where": "Browser tab strip; how the tabs were opened is not shown"},
+    {"name": "Performance index and timeframe panel", "shows": "Left index (Orders, GMV, On time, Defect rate, Days to solve, Claims coverage); Timeframe buttons Monthly last 12M, Weekly last 12W, Daily last 30D", "at": "01:07", "frame": "t00067.jpg", "where": "Performance tab, left side"},
+    {"name": "Country and Category filter panels", "shows": "Country flag buttons with All, Exclude SA, Core 3; Category buttons iPhone to Watch with All, Top 3", "at": "01:27", "frame": "t00077.jpg", "where": "Performance tab, left column under timeframe"},
+    {"name": "Top KPI tiles and Orders confirmed chart (Monthly Jul 26)", "shows": "Seven KPI tiles (Orders, GMV, On time, On time ship. (excl. SA), On time del. (SA), Defect rate, Days to solve), each with change vs previous period; Orders chart with Volume/% and Country/Cat. toggles and Methodology button", "at": "01:51", "frame": "t00097.jpg", "where": "Performance tab, Monthly timeframe"},
+    {"name": "Orders category split tooltip", "shows": "Legend iPhone, Samsung, Macbook, Laptop, Tablet, Other; Aug tooltip with category counts and Orders 975", "at": "01:45", "frame": "t00105.jpg", "where": "Orders chart with Country / Cat. toggle set to Cat."},
+    {"name": "Orders table view", "shows": "Month rows Oct 25 to Sep*, columns SA, ZA, AE, Other, Total, Window total row", "at": "02:02", "frame": "t00108.jpg", "where": "Chart/Tables toggle switched to Tables"},
+    {"name": "Orders methodology box", "shows": "Confirmed-order definition, order line rule, market split, Other grouping, Sep current month note", "at": "02:13", "frame": "t00116.jpg", "where": "Methodology button under Orders confirmed"},
+    {"name": "GMV section", "shows": "Monthly GMV stacked by SA, ZA, AE, Other, Volume/% and Country/Cat. toggles", "at": "02:01", "frame": "t00120.jpg", "where": "Left index: GMV"},
+    {"name": "On time section with toggles", "shows": "On time, On time shipment and On time delivery toggles; lines for All markets, AE, ZA, SA with legend limits (AE ≤ 2, ZA ≤ 2, SA ≤ 5)", "at": "02:31", "frame": "t00135.jpg", "where": "Left index: On time"},
+    {"name": "On time methodology box", "shows": "Composite definition, outside Saudi shipment rule, Saudi delivery rule, pooling and minimum-order rules, Saudi delivery-marking note", "at": "02:36", "frame": "t00138.jpg", "where": "Methodology button under On time"},
+    {"name": "Defect rate section and methodology", "shows": "Overall/By country/By category tabs, legend Defect rate, Within 30 days of the order, Within 90 days of the order, methodology bullets", "at": "03:03", "frame": "t00163.jpg", "where": "Left index: Defect rate"},
+    {"name": "Defect rate February tooltip", "shows": "Feb: Defect rate 3.2%, Within 30 days 1.2%, Within 90 days 2.4%", "at": "03:52", "frame": "t00212.jpg", "where": "Hover on Feb in Defect rate chart"},
+    {"name": "Defect rate By category view", "shows": "Legend All categories, iPhone, Samsung, Macbook, Laptop", "at": "04:59", "frame": "t00272.jpg", "where": "Defect rate section, By category tab"},
+    {"name": "Days to solve section and methodology", "shows": "Days to solve chart with All claims, Returns, Warranties legend; methodology bullets", "at": "05:06", "frame": "t00277.jpg", "where": "Left index: Days to solve"},
+    {"name": "Claims coverage section (partial)", "shows": "Solved and Still open bars by month, coverage % line, Volume/% toggle", "at": "05:29", "frame": "t00299.jpg", "where": "Left index: Claims coverage (narration ends before it is explained)"}
+  ],
+  "terms": [
+    {"term": "Buybox open", "meaning": "Buy box status shown in the dashboard header (open or closed). The trainer calls it the buy box status.", "at": "00:38"},
+    {"term": "Account manager", "meaning": "The seller's account manager, named in the narration and reachable from the dashboard header through WhatsApp or a Meeting booking.", "at": "00:38"},
+    {"term": "Confirmed order", "meaning": "An order counted on the day it was confirmed. Basis of the Orders KPI.", "at": "02:13"},
+    {"term": "Order line", "meaning": "One confirmed order line. A three-item order counts as three.", "at": "02:13"},
+    {"term": "Market (SA, ZA, AE, Other)", "meaning": "Chart split by the market the order shipped to. Other groups all markets under 1.5% of the window.", "at": "02:13"},
+    {"term": "Volume / %", "meaning": "Chart toggle between absolute counts and percentage view.", "at": "01:34"},
+    {"term": "Country / Cat.", "meaning": "Chart toggle between a split by country and a split by product category.", "at": "01:41"},
+    {"term": "Tables (Chart / Tables toggle)", "meaning": "Shows the raw data behind the KPI as a table.", "at": "01:46"},
+    {"term": "Methodology", "meaning": "Expandable box under each KPI that explains what is taken into account and what is not.", "at": "01:51"},
+    {"term": "SLA clock", "meaning": "The shipment or delivery deadline clock used by the on-time KPI. A month whose clock has not run out is not judged.", "at": "02:36"},
+    {"term": "Working days", "meaning": "Unit for the on-time limits: under 3 working days outside Saudi (shipment), within 5 working days in Saudi (delivery).", "at": "02:17"},
+    {"term": "Judged orders", "meaning": "Orders counted in an on-time figure. A market with fewer than 10 judged orders in a month gets no figure of its own.", "at": "02:36"},
+    {"term": "Defect rate", "meaning": "Qualifying warranty and return claims, set against confirmed orders, counted against the order's month. Listed claim types are excluded.", "at": "03:03"},
+    {"term": "Within 30 days of the order / Within 90 days of the order", "meaning": "Defect rate computed only from claims filed within 30 or 90 days of the order. Final once those days have passed since the month closed.", "at": "02:50"},
+    {"term": "Change-of-mind, cancelled-form, installment-failure, RTO claims", "meaning": "Claim types excluded from the defect rate. RTO is not expanded on screen.", "at": "03:03"},
+    {"term": "Days to solve", "meaning": "Calendar days from the claim date to the claim being resolved, keyed on the repair partner.", "at": "04:37"},
+    {"term": "Returns / Warranties", "meaning": "Claim types used to split days to solve. A return is resolved when the refund reaches the customer; a warranty when the device ships back or it is refunded instead.", "at": "04:44"},
+    {"term": "Claims coverage (Solved / Still open)", "meaning": "Monthly split of claims that are solved or still open, with a coverage percentage. Meaning is not explained in part 1.", "at": "04:58"},
+    {"term": "Repair partner", "meaning": "Key used for days to solve: the claims you repaired, as stated in the Days to solve methodology.", "at": "05:06"},
+    {"term": "Still filling", "meaning": "Implied: the label on KPI tiles for a period whose figures are not final. The narration does not define it.", "at": "00:48"},
+    {"term": "Core 3 / Top 3 / Exclude SA", "meaning": "Filter buttons for country and category. The narration does not define them.", "at": "01:11"}
+  ],
+  "asr_fixes": [
+    {"at": "04:39", "heard": "the date the claim is sold", "correct": "the claim being resolved", "basis": "Screen Days to solve methodology (frame t00277.jpg): 'Calendar days from the claim date to the claim being resolved'."},
+    {"at": "00:38", "heard": "buy box", "correct": "Buybox open", "basis": "Screen header pill (frame t00048.jpg) reads 'Buybox open'. Spelling only; the narration term is the same status."},
+    {"at": "02:40", "heard": "{defect?} rate", "correct": "Defect rate", "basis": "Screen section heading 'Defect rate' (frame t00163.jpg)."}
+  ],
+  "unclear": [
+    {"at": "02:17", "issue": "Narration says the 3-working-day shipment limit applies to UAE and South Africa. The screen says Outside Saudi, shipment under 3 working days (t00138.jpg). The chart legend on On time and On time shipment reads AE (≤ 2), ZA (≤ 2), SA (≤ 5) (t00135.jpg, t00151.jpg). The On time delivery legend reads AE (≤ 3), ZA (≤ 5), SA (≤ 5) (t00157.jpg), while its methodology covers Saudi only. The limit that applies to AE and ZA cannot be determined. Do not state a per-market limit for them."},
+    {"at": "01:23", "issue": "Narration says KPIs compare with the months before. The screen compares with the previous period of the chosen grain: vs. Jun 26 (monthly), vs. Aug 17 (weekly), vs. Sep 2 (daily). The narration is probably loose wording, but the exact comparison period for each grain is only shown on screen."},
+    {"at": "01:11", "issue": "Meaning of the buttons Core 3, Top 3 and Exclude SA is not explained in part 1. The countries or categories in each group are not stated."},
+    {"at": "02:01", "issue": "GMV currency: the GMV figures carry a currency symbol on screen (shown as ₿ in the captured frames, e.g. t00097.jpg, t00128.jpg). The narration never names the currency, and the symbol could not be read with certainty. Do not state the currency."},
+    {"at": "02:01", "issue": "No GMV methodology is opened or narrated in part 1 (the GMV Methodology button stays collapsed), so the GMV definition is not available in this evidence."},
+    {"at": "04:35", "issue": "The meaning of the label 'still filling' on KPI tiles (for example DEFECT RATE 0.6% still filling on t00048.jpg) is not explained in the narration. The defect methodology implies the recent-month effect but does not define the label."},
+    {"at": "04:58", "issue": "Claims coverage (Solved / Still open) is shown on screen (t00299.jpg) but neither its methodology nor the narration covers it in part 1. Its definition is not in this evidence."},
+    {"at": "00:27", "issue": "Narration says 'the order management' while the screen names admin.revibe.me (t00025.jpg). This may be a paraphrase rather than a mishearing, so it is not logged as an ASR fix. Use the screen wording for the sign-in rule."}
+  ],
+  "outdated": [
+    {"at": "00:00", "signal": "The recording shows a localhost demo build (URL localhost:8099/seller/?supplier=7&demo=Seller+ABC) with demo seller Seller ABC. The figures are demo data, not a live seller's numbers. The screen URL is not a production address."},
+    {"at": "01:17", "signal": "Implied: the frames were captured in early September 2026, since the daily view runs to Sep 3 and the current month is marked Sep* (still running per the methodology). Sep* figures are not final."},
+    {"at": "02:36", "signal": "The methodology's 594 Saudi misses figure is explicitly for this window ('in this window'). Do not reuse it as a current number."}
+  ],
+  "privacy": [
+    {"at": "00:38", "what": "The account manager's first name ('Pepe') is shown in a header pill on the dashboard.", "frame": "t00048.jpg"},
+    {"at": "00:54", "what": "The browser tab strip shows a Calendly URL with a personal booking path (calendly.com/pierre-revibe/meeting).", "frame": "t00054.jpg"}
+  ],
+  "frames_opened": 40,
+  "audit": {
+    "checked": 120,
+    "removed": [
+      {"statement": "asr_fix: heard 'the order management' correct 'admin.revibe.me' (00:27)", "reason": "Paraphrase, not clearly a mishearing. Logged as an unclear item instead."},
+      {"statement": "asr_fix: heard 'the defect rate after 30 days, and the defect rate after 90 days' correct 'Within 30 days ... / Within 90 days ...' (02:50)", "reason": "The narration paraphrases the legend labels; this is not a speech recognition error."},
+      {"statement": "term 'Account manager (KAM)': KAM label", "reason": "KAM is neither on screen nor in the narration."},
+      {"statement": "warning: 'Do not read these as final' (KPI tiles) and 'its figures will change' (current-month tip)", "reason": "Not stated on screen or in narration. The screen says only 'still filling', 'no data', 'not settled yet' and 'still running'."},
+      {"statement": "tip: the 30-day defect rate is more useful than the total defect rate on a short-term view", "reason": "The narration does not compare the 30-day rate with the total rate."}
+    ],
+    "corrected": [
+      {"before": "summary: 'The trainer signs in to the Seller Performance dashboard'", "after": "The trainer shows the sign-in options, then the Seller Performance dashboard; sign-in itself is not shown.", "reason": "Email and Password fields stay empty, and the dashboard tab was already open before the sign-in options."},
+      {"before": "step 00:00 and fact 1 say at 00:12", "after": "say at 00:19", "reason": "The transcript line 'On this portal, you can connect...' is at [00:19]."},
+      {"before": "step 00:25: 'The trainer does not enter any values on screen.'", "after": "The Email and Password fields are empty in the frames shown; the sign-in itself is not shown.", "reason": "Describes what the frames show, not what the trainer did."},
+      {"before": "step 00:31: 'Lands on the dashboard after sign-in.'", "after": "Lands on the dashboard after sign-in, as narrated; the tab is already open before the sign-in options are shown.", "reason": "Sign-in is narrated, not shown."},
+      {"before": "frame quote t00048 'pills: Buybox open, account manager, WhatsApp, Meeting'", "after": "'pills: Buybox open, Pepe, WhatsApp, Meeting'", "reason": "Quote now matches the visible pill text."},
+      {"before": "step 00:38: 'Points at the header'", "after": "Narrates the header", "reason": "No pointer is visible on the header in the frames."},
+      {"before": "step 00:48: 'Opens the Meeting booking (Calendly page loads in a new tab)'", "after": "A Calendly tab is open and still loading; how it was opened is not shown.", "reason": "Frame t00054 shows the tab already open, not the opening action."},
+      {"before": "step 00:54: 'opens the Performance tab'", "after": "Names the tabs; Performance is already selected.", "reason": "Frame t00048 shows Performance already selected."},
+      {"before": "step 01:11: 'Points at the country and category filters'", "after": "Shows the country and category filter buttons", "reason": "No pointer is visible in the frames."},
+      {"before": "step 01:17: 'Reads the top KPI tiles'", "after": "Shows the top KPI tiles", "reason": "The trainer does not read them aloud on the cited lines."},
+      {"before": "step 02:15: 'reads the Methodology box'", "after": "The Methodology box is opened at about 02:36", "reason": "Frames show the box opened, not read aloud."},
+      {"before": "step 02:40: 'points at the three KPIs'", "after": "Names the three KPIs", "reason": "No pointer is visible; the narration names them."},
+      {"before": "step 04:00: 'then shows the By country and By category views'", "after": "Cursor rests on By country (t00269.jpg); the By country chart is not clearly shown", "reason": "Frames show the cursor on the tab; the By category view is shown later (t00272.jpg)."},
+      {"before": "screen 'Top KPI tiles': 'Eight KPI tiles'", "after": "Seven KPI tiles", "reason": "Frame t00097 shows seven tiles."},
+      {"before": "screen 'Meeting booking': 'Opened from the header Meeting and WhatsApp buttons'", "after": "How the tabs were opened is not shown", "reason": "The opening action is not in the frames."},
+      {"before": "fact 'warning: recent periods can show incomplete KPIs ... Do not read these as final'", "after": "Tiles labelled still filling, no data or not settled yet, with the exact values shown on screen", "reason": "The advice 'do not read as final' is not on screen or in narration."},
+      {"before": "fact 'current month ... its figures will change'", "after": "The current month is marked with an asterisk and labelled still running in the methodology.", "reason": "'Figures will change' is not stated."},
+      {"before": "fact 'GMV section ... Countries and categories can be removed from the chart' (confidence high)", "after": "Confidence medium; the narration says it, the removal control is not shown", "reason": "Narration only."},
+      {"before": "fact 'Outside Saudi, a shipment is on time ... under 3 working days' (confidence high)", "after": "Confidence medium; the on-time legend shows AE and ZA limits of 2 days", "reason": "Conflicting limit on the legend (see unclear 02:17)."},
+      {"before": "fact 'The 30-day defect rate is the KPI to watch... more useful than the total defect rate'", "after": "The narration says the 30-day rate helps show whether quality is improving over a short period; no comparison with the total is made.", "reason": "The comparison is not in the evidence."},
+      {"before": "fact 'Defect Rate section ... legend toggles' (no legend evidence)", "after": "Adds frames t00179.jpg and t00236.jpg as legend-toggle evidence", "reason": "Statement needed evidence."},
+      {"before": "term 'Account manager (KAM)'", "after": "term 'Account manager' (KAM removed)", "reason": "KAM not in evidence."},
+      {"before": "term 'Repair partner': 'The party that repaired the device'", "after": "Key used for days to solve: the claims you repaired", "reason": "The device-repair gloss is not on screen."},
+      {"before": "term 'Defect rate': 'Warranty and return claims plus confirmed orders'", "after": "Qualifying warranty and return claims, set against confirmed orders", "reason": "Wording now matches the methodology."},
+      {"before": "term 'Still filling' (no implied marker)", "after": "Marked as Implied", "reason": "The meaning is inferred."},
+      {"before": "outdated 01:17: 'the frames were captured in early September 2026'", "after": "Implied: the frames were captured in early September 2026 ... Sep* figures are not final.", "reason": "Capture date is an inference from the Sep 3 and Sep* labels."},
+      {"before": "privacy 00:38: frame t00031, 'This is an internal staff member, not seller data.'", "after": "frame t00048; 'internal staff' removed", "reason": "t00031 is the empty sign-in form; the Pepe pill is on t00048; staff status is not on screen."},
+      {"before": "privacy 00:54: 'staff member's personal booking path'", "after": "'personal booking path'", "reason": "Staff status is not shown on screen."},
+      {"before": "step 01:07 claim that the trainer 'selects Daily' with 'hovering Monthly then Daily'", "after": "Kept; hover on Monthly (t00067.jpg) and Daily (t00070.jpg) confirmed", "reason": "Checked against frames."}
+    ],
+    "added": [
+      "fact: Sign out button at the top right of the dashboard (t00048.jpg)",
+      "fact: charts show a dashed Average line in the legend (t00048.jpg)",
+      "fact: monthly view covers Oct 25 to Sep* (t00108.jpg rows, t00097.jpg x-axis)",
+      "screen and fact: Orders chart split by product category, with the Aug tooltip counts (t00105.jpg)",
+      "screen and fact: On time legend limits AE/ZA/SA and On time delivery legend limits (t00135.jpg, t00157.jpg)",
+      "evidence: Feb tooltip and legend-toggle frames t00179.jpg and t00236.jpg for the Defect rate legend",
+      "unclear 00:27: 'the order management' vs admin.revibe.me (not an ASR error)",
+      "step 01:34 extra say line 01:41 'you can also see them by product category.'",
+      "step 02:15 Methodology box timing (opened about 02:36, frame t00138.jpg)"
+    ]
+  }
+}

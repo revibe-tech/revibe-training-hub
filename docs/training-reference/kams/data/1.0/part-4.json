@@ -1,0 +1,774 @@
+{
+  "summary": "Part 4 of the 1.0 Onboarding App (KAM) video (11:58-15:24) covers the Revibe Seller Onboarding App. Pierre walks through a lead record (Leads, stage 'Sent to app'), then the Open applications and Processed applications views, explains each accepted-application sub-status from Access to create through Onboarded, then the KAM role, then one seller profile's Next steps message that the seller receives after approval, and closes by defining leads. All 20 frames (t00718 to t00923) were opened and the claims were checked against them. Several narration words are garbled and are flagged in asr_fixes and unclear. Counts on screen are a snapshot from recording.",
+  "frames_opened": 20,
+  "steps": [
+    {
+      "at": "11:58-12:05",
+      "screen": "Seller Onboarding App > Leads > lead record 'ahmed' (form panel)",
+      "action": "Has a lead record open. The form shows Email, ID, Contact status 'Answered', Stage 'Sent to app', Not completed initially reason 'Other', and a Comment log. The word 'Sp' is highlighted on the second comment line.",
+      "says": "",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "11:58", "frame": "t00718.jpg", "quote": "Lead form titled 'ahmed': Contact status Answered; Stage Sent to app; Not completed initially reason Other; Comment lines 11/11 Supplier filled the form, 06/11 Cancelled / Sp has no VAT certificate, 05/11 Called no answer / Send whatsapp reminder, 03/11 Called / send form VIA WhatsApp / supplier will follow; Save and Cancel buttons top right; 'Sp' highlighted."},
+        {"kind": "say", "at": "12:02", "quote": "again and supplier {fill?} the form and then he sent him to {to?} the app here in open"}
+      ]
+    },
+    {
+      "at": "12:05",
+      "screen": "Leads > lead record 'ahmed' > Stage field",
+      "action": "The Stage field is selected with 'Sent to app' highlighted. No change to the value is visible on the frame.",
+      "says": "",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "12:05", "frame": "t00725.jpg", "quote": "Stage field focused with 'Sent to app' selected and highlighted; an X and dropdown arrow appear on the field."}
+      ]
+    },
+    {
+      "at": "12:08",
+      "screen": "Open applications",
+      "action": "Shows the Open applications page with its sidebar status groups. The frame has no pointer on those groups.",
+      "says": "application the difference versus profile is that you can see all the ones that are still pending either",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "12:08", "frame": "t00728.jpg", "quote": "Sidebar: All; Missing data 52; Under review 25; Application incomplete 3. Columns: Since last update, Updated at, Company name, Name, Email, Phone, Country, Application status, Approval (Incomplete / Final review)."},
+        {"kind": "say", "at": "12:10", "quote": "application the difference versus profile is that you can see all the ones that are still pending either"},
+        {"kind": "say", "at": "12:16", "quote": "because data is missing either because we need to review them or because the application is complete is"}
+      ]
+    },
+    {
+      "at": "12:23",
+      "screen": "Processed applications",
+      "action": "Shows the Processed applications page, with the cursor on its left-menu item. The sidebar shows Accepted 202 and Rejected 144.",
+      "says": "either have been accepted and for the ones that have been accepted these are the different steps until",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "12:22", "quote": "incomplete in processed application we can see all the applications that either have been rejected"},
+        {"kind": "see", "at": "12:23", "frame": "t00743.jpg", "quote": "Processed applications page; sidebar 'All', 'Accepted 202', 'Rejected 144'; Approval column shows Accepted or Rejected; Application status 'Application closed'; cursor on the Processed applications menu item."},
+        {"kind": "say", "at": "12:29", "quote": "either have been accepted and for the ones that have been accepted these are the different steps until"}
+      ]
+    },
+    {
+      "at": "12:30",
+      "screen": "Processed applications > Accepted expanded",
+      "action": "Expands Accepted to show its sub-statuses.",
+      "says": "being onboarded first we need to create the accesses at the moment i'm speaking yaya is creating the",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "12:30", "frame": "t00750.jpg", "quote": "Accepted 202 expanded: Access to create 3, Pending 20, Postponed 6, Requested 2, Received 1, Second chance 2, Rejected 64, Onboarded 104; Rejected 144 below."},
+        {"kind": "say", "at": "12:36", "quote": "being onboarded first we need to create the accesses at the moment i'm speaking yaya is creating the"}
+      ]
+    },
+    {
+      "at": "12:50",
+      "screen": "Processed applications > Accepted > Pending (hover)",
+      "action": "Points at the Pending sub-status while describing it. The table shows all processed rows.",
+      "says": "accesses for you pending is when accesses have been created and we are asking from the seller to",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "12:50", "frame": "t00770.jpg", "quote": "Cursor on 'Pending 20' in the Accepted sub-list; the table shows all processed rows."},
+        {"kind": "say", "at": "12:45", "quote": "accesses for you pending is when accesses have been created and we are asking from the seller to"},
+        {"kind": "say", "at": "12:55", "quote": "send the first batch of devices to the fulfillment"}
+      ]
+    },
+    {
+      "at": "12:58-13:08",
+      "screen": "Processed applications > Accepted > Postponed (narration only, no frame change)",
+      "action": "Describes when to use Postponed. No click is visible in the frames for this step; the cursor stays on Pending in t00770.",
+      "says": "Postpone, if the seller told you, for instance,",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "12:58", "quote": "Postpone, if the seller told you, for instance,"},
+        {"kind": "say", "at": "13:03", "quote": "I should receive stock in two weeks, I will send at this moment, then you can put them"},
+        {"kind": "say", "at": "13:08", "quote": "in postpone."}
+      ]
+    },
+    {
+      "at": "13:09",
+      "screen": "Processed applications > Accepted > Requested 2",
+      "action": "Selects Requested. Two accepted rows are listed.",
+      "says": "Requested, if the seller actually requested some stock.",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "13:09", "frame": "t00789.jpg", "quote": "Requested 2 highlighted; rows MUHAMMAD YASIR COMPUTE... (Since last update 8, orange dot, updated 9/30/2026) and Bwireless Technology FZCO (0, green dot, updated 10/8/2026); Approval Accepted."},
+        {"kind": "say", "at": "13:10", "quote": "Requested, if the seller actually requested some stock."}
+      ]
+    },
+    {
+      "at": "13:13",
+      "screen": "Processed applications > Accepted > Received 1 (narration only)",
+      "action": "Describes the Received sub-status. No click is visible in the frames for this step.",
+      "says": "Received when the stock is received at the warehouse.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "13:13", "quote": "Received when the stock is received at the warehouse."}
+      ]
+    },
+    {
+      "at": "13:25",
+      "screen": "Processed applications > Accepted > Second chance 2",
+      "action": "Selects Second chance; two rows are listed. The cursor then moves to Rejected 64.",
+      "says": "Second chance, if the stock received is not a good quality, then we can give the seller a",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "13:25", "frame": "t00805.jpg", "quote": "Second chance 2 highlighted; rows Erp Trading (24, red dot, updated 9/14/2026) and Mohammad Tariq Electronics (30, red dot, updated 9/8/2026); Approval Accepted; cursor on 'Rejected 64'."},
+        {"kind": "say", "at": "13:17", "quote": "Second chance, if the stock received is not a good quality, then we can give the seller a"},
+        {"kind": "say", "at": "13:23", "quote": "second chance to send us some stock and to get onboarded."}
+      ]
+    },
+    {
+      "at": "13:26-13:34",
+      "screen": "Processed applications > Accepted > Rejected 64 (narration only)",
+      "action": "Describes when a seller is rejected under Accepted, and the start of the Onboarded explanation.",
+      "says": "rejected if the seller {was?} had like very bad quality at fulfillment or didn't send to fulfillment at",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "13:26", "quote": "rejected if the seller {was?} had like very bad quality at fulfillment or didn't send to fulfillment at"},
+        {"kind": "say", "at": "13:34", "quote": "all and onboarded when the seller are actually onboarded {as?} you can see so far we onboarded a"}
+      ]
+    },
+    {
+      "at": "13:34-13:41",
+      "screen": "Processed applications > Accepted > Onboarded 104",
+      "action": "Selects Onboarded. The list shows rows with Approval Accepted and Application status Application closed. The trainer scrolls the list down (t00820), then the list is back at the top with the cursor on the row 'Middle East China wholesale C...' (t00821).",
+      "says": "lot of sellers what we expect from you is to drive your seller at the moment the seller",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "13:34", "frame": "t00814.jpg", "quote": "Onboarded 104 highlighted; table rows Approval Accepted, Application status Application closed; cursor on Onboarded in sidebar."},
+        {"kind": "see", "at": "13:40", "frame": "t00820.jpg", "quote": "Onboarded list scrolled down; rows from TEAM TELECOM FZCO onward, all Approval Accepted."},
+        {"kind": "see", "at": "13:41", "frame": "t00821.jpg", "quote": "Onboarded list back at the top; cursor on the row 'Middle East China wholesale C...' (Approval Accepted)."},
+        {"kind": "say", "at": "13:41", "quote": "lot of sellers what we expect from you is to drive your seller at the moment the seller"}
+      ]
+    },
+    {
+      "at": "13:41-14:03",
+      "screen": "Processed applications > Accepted > Access to create (cursor hover)",
+      "action": "Points at Access to create while describing the KAM's role.",
+      "says": "to a key account manager if the seller is assigned to you then it is your mission to",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "14:01", "frame": "t00841.jpg", "quote": "Cursor on 'Access to create 3'; Onboarded 104 still selected in the sidebar."},
+        {"kind": "say", "at": "13:50", "quote": "goes to access to create is accesses through for revive applications are created and the seller is assigned"},
+        {"kind": "say", "at": "13:57", "quote": "to a key account manager if the seller is assigned to you then it is your mission to"},
+        {"kind": "say", "at": "14:03", "quote": "connect with him start creating relationship and drive him through the onboarding process the"}
+      ]
+    },
+    {
+      "at": "14:09-14:13",
+      "screen": "Profile > seller record (Accepted seller)",
+      "action": "Opens Profile and a seller record. The record shows the seller's details, with the 'Internal comment' heading at the top.",
+      "says": "seller will keep being able to connect on the portal and to see all the information related to",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "14:09", "frame": "t00849.jpg", "quote": "Profile page; sidebar All, Application closed 346, Missing data 52, Under review 25, Application incomplete 3; Accepted 202 group; right panel shows seller fields: Internal comment, First name, Last name, Email, Phone, Company name, Country, Emirate, shipping address, Google map location, products sold, wholesaler (B2B), sells online, platforms, Noon or Amazon seller page, and the question 'On average, how many units do you sell per month' (partly cut off)."},
+        {"kind": "say", "at": "14:10", "quote": "seller will keep being able to connect on the portal and to see all the information related to"}
+      ]
+    },
+    {
+      "at": "14:13-14:17",
+      "screen": "Profile > seller record > status block",
+      "action": "Scrolls down to the status block.",
+      "says": "",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "14:13", "frame": "t00853.jpg", "quote": "Documentation status Complete; Uploads status Complete; Application status Application closed; Approval Accepted; Next steps message begins 'Congrats !'."}
+      ]
+    },
+    {
+      "at": "14:17-14:23",
+      "screen": "Profile > seller record > Next steps message",
+      "action": "Reads the Next steps message aloud. It is the message the seller sees once the approval is accepted.",
+      "says": "his application {if?} the approval is accepted then the seller will see this message congrats your profile has",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "14:17", "frame": "t00857.jpg", "quote": "Next steps: 'Congrats !' / 'Your profile has been validated by our team ! You will get access to our fulfillment app' / 'You will send us a first batch of devices that will enable us to check the quality of your products' / 'Watch carefully this video to understand the process' / Drive video link / 'Once you have watched it, get access to the Fulfillment App by clicking on the link below' / 'Get access to the Fulfillment App' link."},
+        {"kind": "say", "at": "14:18", "quote": "his application {if?} the approval is accepted then the seller will see this message congrats your profile has"}
+      ]
+    },
+    {
+      "at": "14:23-14:39",
+      "screen": "Profile > seller record > Next steps message (continued)",
+      "action": "The Next steps message stays on screen while the trainer reads its middle lines. The cursor sits near the Approval and Application status fields.",
+      "says": "been validated by our team you will get access to our fulfillment app you will send us a",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "14:23", "frame": "t00863.jpg", "quote": "Same Profile record and Next steps message as t00857; cursor near Approval / Application status."},
+        {"kind": "say", "at": "14:28", "quote": "been validated by our team you will get access to our fulfillment app you will send us a"},
+        {"kind": "say", "at": "14:33", "quote": "first batch of devices that will enable us to check the quality of your product watch carefully this"},
+        {"kind": "say", "at": "14:39", "quote": "video to understand the process once you have watched it get access to the fulfillment app by clicking"}
+      ]
+    },
+    {
+      "at": "14:43-14:50",
+      "screen": "Profile > seller record > 'Get access to the Fulfillment App' link (pointer on the 'clicking' text)",
+      "action": "Points at the link instruction at the bottom of the message and gives the closing remark.",
+      "says": "on the link below {i?} hope this video was clear for you this is how the onboarding app",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "14:43", "frame": "t00883.jpg", "quote": "Cursor on 'Once you have watched it, get access to the Fulfillment App by clicking on the link below'."},
+        {"kind": "say", "at": "14:44", "quote": "on the link below {i?} hope this video was clear for you this is how the onboarding app"},
+        {"kind": "say", "at": "14:50", "quote": "is working"}
+      ]
+    },
+    {
+      "at": "14:52-15:21",
+      "screen": "Profile list (seller list on the left; seller record still open on the right)",
+      "action": "Describes how the team gets inbound and outbound sellers and gets back leads, and what to do with leads. The cursor moves over the seller list (t00903).",
+      "says": "getting inbounds also reaching sellers through outbounds and also getting back the leads meaning the sellers who tried",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "15:03", "frame": "t00903.jpg", "quote": "Cursor on a seller row in the Profile list; seller record still open on the right."},
+        {"kind": "say", "at": "14:52", "quote": "getting inbounds also reaching sellers through outbounds and also getting back the leads meaning the sellers who tried"},
+        {"kind": "say", "at": "15:04", "quote": "to register but didn't go through the whole process make sure they provide the appropriate documents and drive"},
+        {"kind": "say", "at": "15:12", "quote": "them through the first steps of the fulfillment app so that we can receive a shipment from them"},
+        {"kind": "say", "at": "15:19", "quote": "and make sure the quality is good."}
+      ]
+    },
+    {
+      "at": "15:21-15:23",
+      "screen": "Profile list (end frame)",
+      "action": "Closes with a thank-you. The final frame shows the Profile list with a seller record still open.",
+      "says": "Thank you so much for your attention.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "15:21", "quote": "Thank you so much for your attention."},
+        {"kind": "see", "at": "15:23", "frame": "t00923.jpg", "quote": "Profile list with a seller record still open on the right; cursor over a seller row."}
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "type": "definition",
+      "statement": "Open applications lists applications that are still pending: data is missing, they need to be reviewed, or the application is incomplete.",
+      "evidence": [
+        {"kind": "say", "at": "12:10", "quote": "application the difference versus profile is that you can see all the ones that are still pending either"},
+        {"kind": "say", "at": "12:16", "quote": "because data is missing either because we need to review them or because the application is complete is"},
+        {"kind": "see", "at": "12:08", "frame": "t00728.jpg", "quote": "Sidebar: Missing data 52, Under review 25, Application incomplete 3."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Processed applications lists applications that have either been accepted or rejected.",
+      "evidence": [
+        {"kind": "say", "at": "12:22", "quote": "incomplete in processed application we can see all the applications that either have been rejected"},
+        {"kind": "say", "at": "12:29", "quote": "either have been accepted and for the ones that have been accepted these are the different steps until"},
+        {"kind": "see", "at": "12:23", "frame": "t00743.jpg", "quote": "Processed applications sidebar: Accepted 202, Rejected 144."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Accepted applications are split into sub-statuses in this order: Access to create, Pending, Postponed, Requested, Received, Second chance, Rejected, Onboarded. Counts on screen at recording: 3, 20, 6, 2, 1, 2, 64, 104.",
+      "evidence": [
+        {"kind": "see", "at": "12:30", "frame": "t00750.jpg", "quote": "Accepted 202 expanded: Access to create 3, Pending 20, Postponed 6, Requested 2, Received 1, Second chance 2, Rejected 64, Onboarded 104."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Access to create is the first onboarding step: the trainer says the accesses have to be created first before the seller is onboarded.",
+      "evidence": [
+        {"kind": "say", "at": "12:36", "quote": "being onboarded first we need to create the accesses at the moment i'm speaking yaya is creating the"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Pending means the accesses have been created and we (the trainer's team) are asking the seller to send the first batch of devices to fulfillment.",
+      "evidence": [
+        {"kind": "say", "at": "12:45", "quote": "accesses for you pending is when accesses have been created and we are asking from the seller to"},
+        {"kind": "say", "at": "12:55", "quote": "send the first batch of devices to the fulfillment"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Use Postponed when the seller tells you about stock that is still to come, as in the trainer's example. The exact example wording is garbled in the audio.",
+      "evidence": [
+        {"kind": "say", "at": "12:58", "quote": "Postpone, if the seller told you, for instance,"},
+        {"kind": "say", "at": "13:08", "quote": "in postpone."},
+        {"kind": "see", "at": "12:30", "frame": "t00750.jpg", "quote": "Postponed 6 sub-status."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Requested means the seller has actually requested some stock.",
+      "evidence": [
+        {"kind": "say", "at": "13:10", "quote": "Requested, if the seller actually requested some stock."},
+        {"kind": "see", "at": "13:09", "frame": "t00789.jpg", "quote": "Requested 2 highlighted; two accepted rows listed."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Received means the stock has been received at the warehouse.",
+      "evidence": [
+        {"kind": "say", "at": "13:13", "quote": "Received when the stock is received at the warehouse."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Second chance applies when the stock received is not a good quality: the seller can be given a second chance to send stock and get onboarded.",
+      "evidence": [
+        {"kind": "say", "at": "13:17", "quote": "Second chance, if the stock received is not a good quality, then we can give the seller a"},
+        {"kind": "say", "at": "13:23", "quote": "second chance to send us some stock and to get onboarded."},
+        {"kind": "see", "at": "13:25", "frame": "t00805.jpg", "quote": "Second chance 2 selected."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "A seller is listed as Rejected (sub-status under Accepted) when their quality at fulfillment was very bad or they did not send anything to fulfillment at all.",
+      "evidence": [
+        {"kind": "say", "at": "13:26", "quote": "rejected if the seller {was?} had like very bad quality at fulfillment or didn't send to fulfillment at"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Onboarded means the seller has actually been onboarded. The trainer says 'so far we onboarded a lot of sellers'; the screen shows Onboarded 104.",
+      "evidence": [
+        {"kind": "say", "at": "13:34", "quote": "all and onboarded when the seller are actually onboarded {as?} you can see so far we onboarded a"},
+        {"kind": "say", "at": "13:41", "quote": "lot of sellers what we expect from you is to drive your seller at the moment the seller"},
+        {"kind": "see", "at": "13:34", "frame": "t00814.jpg", "quote": "Onboarded 104 selected."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "A seller can be assigned to a key account manager (KAM). If the seller is assigned to you, your mission is to drive them through onboarding.",
+      "evidence": [
+        {"kind": "say", "at": "13:57", "quote": "to a key account manager if the seller is assigned to you then it is your mission to"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "If the seller is assigned to you, connect with them, start creating a relationship and drive them through the onboarding process.",
+      "evidence": [
+        {"kind": "say", "at": "14:03", "quote": "connect with him start creating relationship and drive him through the onboarding process the"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The trainer says the seller will keep being able to connect on the portal and see the information related to (the sentence is cut off in the audio).",
+      "evidence": [
+        {"kind": "say", "at": "14:10", "quote": "seller will keep being able to connect on the portal and to see all the information related to"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "When the approval is accepted, the seller sees a 'Congrats !' Next steps message in their profile, saying the profile has been validated by the team and the seller will get access to the fulfillment app.",
+      "evidence": [
+        {"kind": "say", "at": "14:18", "quote": "his application {if?} the approval is accepted then the seller will see this message congrats your profile has"},
+        {"kind": "see", "at": "14:17", "frame": "t00857.jpg", "quote": "Next steps: 'Congrats !' 'Your profile has been validated by our team !' 'You will get access to our fulfillment app'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "The Next steps message asks the seller to watch the onboarding video first; it then tells the seller to get access to the Fulfillment App by clicking the link below once they have watched it.",
+      "evidence": [
+        {"kind": "say", "at": "14:39", "quote": "video to understand the process once you have watched it get access to the fulfillment app by clicking"},
+        {"kind": "see", "at": "14:43", "frame": "t00883.jpg", "quote": "'Once you have watched it, get access to the Fulfillment App by clicking on the link below'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The seller's first batch of devices lets Revibe check the quality of the seller's products (the message addresses the seller as 'your products').",
+      "evidence": [
+        {"kind": "say", "at": "14:33", "quote": "first batch of devices that will enable us to check the quality of your product watch carefully this"},
+        {"kind": "see", "at": "14:17", "frame": "t00857.jpg", "quote": "'You will send us a first batch of devices that will enable us to check the quality of your products'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The seller profile status block shows Documentation status, Uploads status, Application status and Approval. In the example both documentation and uploads are Complete, the application is closed and the approval is Accepted.",
+      "evidence": [
+        {"kind": "see", "at": "14:13", "frame": "t00853.jpg", "quote": "Documentation status Complete; Uploads status Complete; Application status Application closed; Approval Accepted."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Leads are sellers who tried to register but did not go through the whole process.",
+      "evidence": [
+        {"kind": "say", "at": "14:52", "quote": "getting inbounds also reaching sellers through outbounds and also getting back the leads meaning the sellers who tried"},
+        {"kind": "say", "at": "15:04", "quote": "to register but didn't go through the whole process make sure they provide the appropriate documents and drive"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "For leads who did not finish registering: make sure they provide the appropriate documents, then drive them through the first steps of the fulfillment app so that the team can receive a shipment from them and make sure the quality is good.",
+      "evidence": [
+        {"kind": "say", "at": "15:04", "quote": "to register but didn't go through the whole process make sure they provide the appropriate documents and drive"},
+        {"kind": "say", "at": "15:12", "quote": "them through the first steps of the fulfillment app so that we can receive a shipment from them"},
+        {"kind": "say", "at": "15:19", "quote": "and make sure the quality is good."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The lead record form has these fields: Email, ID, Contact status (e.g., Answered), Stage (e.g., Sent to app), Not completed initially reason (e.g., Other), and Comment.",
+      "evidence": [
+        {"kind": "see", "at": "11:58", "frame": "t00718.jpg", "quote": "Lead form: Email, ID, Contact status Answered, Stage Sent to app, Not completed initially reason Other, Comment."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "After the supplier filled in the form, the lead was sent to the app; the example record's Stage shows 'Sent to app'.",
+      "evidence": [
+        {"kind": "say", "at": "12:02", "quote": "again and supplier {fill?} the form and then he sent him to {to?} the app here in open"},
+        {"kind": "see", "at": "11:58", "frame": "t00718.jpg", "quote": "Comment line '11/11 - Supplier filled the form'; Stage Sent to app."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "example",
+      "statement": "A lead was cancelled because the supplier had no VAT certificate (example comment on screen: '06/11 - Cancelled / Sp has no VAT certificate').",
+      "evidence": [
+        {"kind": "see", "at": "11:58", "frame": "t00718.jpg", "quote": "Comment line '06/11 - Cancelled / Sp has no VAT certificate'; Leads sidebar shows Cancelled 6 under +10 000."}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "tip",
+      "statement": "Implied: the example comments in the lead record are dated 11/11, 06/11, 05/11 and 03/11, listed newest first.",
+      "evidence": [
+        {"kind": "see", "at": "11:58", "frame": "t00718.jpg", "quote": "Comment lines dated 11/11, 06/11, 05/11, 03/11 in descending order."}
+      ],
+      "confidence": "low",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Leads view is grouped by country, then by value band and stage. United Arab Emirates shows 402 leads; the +10 000 band has Sent to app 1 and Cancelled 6.",
+      "evidence": [
+        {"kind": "see", "at": "11:58", "frame": "t00718.jpg", "quote": "Leads sidebar: United Arab Emirates 402; +10 000 7 with Sent to app 1 and Cancelled 6; (empty) 8."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Open applications rows show an Approval value of 'Incomplete' or 'Final review' next to the Application status.",
+      "evidence": [
+        {"kind": "see", "at": "12:08", "frame": "t00728.jpg", "quote": "Application status: Missing data / Under review / Application incomplete; Approval: Incomplete / Final review."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    }
+  ],
+  "screens": [
+    {
+      "name": "Seller Onboarding App > Leads",
+      "shows": "Leads list grouped by country, then value band, then stage (Sent to app, Cancelled, (empty)); status groups To call 2, Called 1, Answered 4; columns Days since last update, First name, Last name, Email, Phone, Co (truncated).",
+      "at": "11:58",
+      "frame": "t00718.jpg",
+      "where": "Left menu 'Leads'"
+    },
+    {
+      "name": "Lead record form",
+      "shows": "Panel for one lead ('ahmed'): Email, ID, Contact status, Stage, Not completed initially reason, Comment log; Cancel and Save buttons.",
+      "at": "11:58-12:05",
+      "frame": "t00718.jpg",
+      "where": "Right-hand panel on Leads"
+    },
+    {
+      "name": "Open applications",
+      "shows": "Pending applications. Sidebar: All, Missing data 52, Under review 25, Application incomplete 3 (label cut off on screen). Columns: Since last update, Updated at, Company name, Name, Email, Phone, Country, Application status, Approval; '+ Add' button.",
+      "at": "12:08",
+      "frame": "t00728.jpg",
+      "where": "Left menu 'Open applications'"
+    },
+    {
+      "name": "Processed applications",
+      "shows": "Sidebar: All; Accepted 202 (expandable: Access to create 3, Pending 20, Postponed 6, Requested 2, Received 1, Second chance 2, Rejected 64, Onboarded 104); Rejected 144 (expandable). Application status 'Application closed'; Approval Accepted or Rejected.",
+      "at": "12:23-13:34",
+      "frame": "t00743.jpg",
+      "where": "Left menu 'Processed applications'"
+    },
+    {
+      "name": "Processed applications > Accepted sub-status filter lists",
+      "shows": "Filtered tables for Requested (2 rows) and Second chance (2 rows); Onboarded selected (sidebar count 104; the list scrolls). Since last update shows a number with a coloured dot.",
+      "at": "13:09-13:41",
+      "frame": "t00789.jpg",
+      "where": "Processed applications > Accepted"
+    },
+    {
+      "name": "Profile",
+      "shows": "Seller list with sidebar All, Application closed 346, Missing data 52, Under review 25, Application incomplete 3; Accepted 202 group in the list.",
+      "at": "14:09",
+      "frame": "t00849.jpg",
+      "where": "Left menu 'Profile'"
+    },
+    {
+      "name": "Seller profile record",
+      "shows": "Seller fields (Internal comment, names, Email, Phone, Company name, Country, Emirate, shipping address, Google map location, products sold, B2B, online sales, platforms, Noon or Amazon seller page, units sold per month), then trading license number, ID, position in company, bank details, Documentation status, Uploads status, Application status, Approval, and the Next steps message. Edit button and prev/next arrows.",
+      "at": "14:09-15:23",
+      "frame": "t00853.jpg",
+      "where": "Right-hand panel on Profile"
+    },
+    {
+      "name": "Next steps message (inside the Profile record)",
+      "shows": "'Congrats !' message shown to the seller after approval: validated profile, fulfillment app access, first batch of devices, watch the video, then click to access the Fulfillment App.",
+      "at": "14:17-14:43",
+      "frame": "t00857.jpg",
+      "where": "Profile record > Next steps"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Seller",
+      "meaning": "A supplier or business on the Seller Onboarding App. The trainer calls them sellers; the lead comments say supplier. The KAM looks after the seller.",
+      "at": "13:41"
+    },
+    {
+      "term": "Key account manager (KAM)",
+      "meaning": "The person a seller is assigned to. The trainer says that if the seller is assigned to you, it is your mission to drive them through onboarding.",
+      "at": "13:57"
+    },
+    {
+      "term": "Lead",
+      "meaning": "A seller who tried to register but did not go through the whole process.",
+      "at": "14:52"
+    },
+    {
+      "term": "Fulfillment app / fulfillment",
+      "meaning": "The app sellers use after the approval (Get access to the Fulfillment App link). The first batch of devices is sent to fulfillment. The video does not define fulfillment further; 'Received' is described as stock received at the warehouse.",
+      "at": "12:55"
+    },
+    {
+      "term": "Access to create",
+      "meaning": "Sub-status: the seller's accesses are being created.",
+      "at": "12:36"
+    },
+    {
+      "term": "Pending",
+      "meaning": "Sub-status: accesses have been created and we are asking the seller to send the first batch of devices.",
+      "at": "12:45"
+    },
+    {
+      "term": "Postponed",
+      "meaning": "Sub-status used when the seller tells you about stock still to come (the trainer's example; the wording is garbled in the audio).",
+      "at": "12:58"
+    },
+    {
+      "term": "Requested",
+      "meaning": "Sub-status: the seller has actually requested some stock.",
+      "at": "13:10"
+    },
+    {
+      "term": "Received",
+      "meaning": "Sub-status: the stock has been received at the warehouse.",
+      "at": "13:13"
+    },
+    {
+      "term": "Second chance",
+      "meaning": "Sub-status: the received stock is not a good quality, so the seller can be given a second chance to send stock and be onboarded.",
+      "at": "13:17"
+    },
+    {
+      "term": "Rejected (under Accepted)",
+      "meaning": "Sub-status: very bad quality at fulfillment, or no stock sent to fulfillment at all.",
+      "at": "13:26"
+    },
+    {
+      "term": "Onboarded",
+      "meaning": "Sub-status: the seller has been onboarded.",
+      "at": "13:34"
+    },
+    {
+      "term": "Application status / Approval",
+      "meaning": "Profile status fields: Application status (e.g. 'Application closed') and Approval (Accepted or Rejected on the processed list; Incomplete or Final review on the open list). The video does not explain these further.",
+      "at": "12:08"
+    },
+    {
+      "term": "Sp",
+      "meaning": "Short form in lead comments (e.g., 'Sp has no VAT certificate'). Not defined in the video.",
+      "at": "11:58"
+    }
+  ],
+  "asr_fixes": [
+    {
+      "at": "12:02",
+      "heard": "supplier {fill?} the form",
+      "correct": "supplier filled the form",
+      "basis": "Screen: lead comment line '11/11 - Supplier filled the form' (t00718.jpg, t00721.jpg)."
+    },
+    {
+      "at": "12:16",
+      "heard": "the application is complete is",
+      "correct": "Application incomplete",
+      "basis": "Screen: Open applications sidebar label 'Application incomplete 3' (t00728.jpg). The transcript at 12:22 also starts 'incomplete in processed application'. Medium confidence."
+    },
+    {
+      "at": "12:58",
+      "heard": "Postpone,",
+      "correct": "Postponed",
+      "basis": "Screen: Accepted sub-status 'Postponed 6' (t00750.jpg)."
+    },
+    {
+      "at": "13:50",
+      "heard": "for revive applications",
+      "correct": "for Revibe applications",
+      "basis": "Screen: app header 'Revibe - Seller Onboarding App' (t00718.jpg). Medium confidence on the brand spelling in speech."
+    }
+  ],
+  "unclear": [
+    {
+      "at": "12:02",
+      "issue": "'here in open' is unclear: it could mean the Open applications page, or the 'Sent to app' stage. The screen at this point shows the lead form, not Open applications."
+    },
+    {
+      "at": "12:36",
+      "issue": "The person who creates the accesses is named 'yaya' in the audio. The name is not visible on screen, so who does it cannot be confirmed."
+    },
+    {
+      "at": "13:03",
+      "issue": "'I should receive stock in two weeks, I will send at this moment' is garbled. It is unclear whether the stock timing refers to the seller or to the trainer."
+    },
+    {
+      "at": "13:26",
+      "issue": "'rejected if the seller {was?} had like very bad quality' has an uncertain word. The screen does not show a rule, so the Rejected rule is stated at medium confidence only."
+    },
+    {
+      "at": "13:50",
+      "issue": "'the seller goes to access to create is accesses through for revive applications are created and the seller is assigned' is garbled. The order of Access to create, applications created and KAM assignment is not confirmed by the screen, so no timing is stated."
+    },
+    {
+      "at": "14:10",
+      "issue": "'seller will keep being able to connect on the portal and to see all the information related to' is cut off, so the exact scope is not stated."
+    },
+    {
+      "at": "14:44",
+      "issue": "'on the link below {i?} hope this video was clear' has an uncertain word; no effect on the procedure."
+    }
+  ],
+  "outdated": [
+    {
+      "at": "12:36",
+      "signal": "Time-bound wording: 'at the moment i'm speaking yaya is creating the accesses' describes one moment of the recording."
+    },
+    {
+      "at": "12:08-14:43",
+      "signal": "Counts shown on screen (for example Missing data 52, Pending 20, Onboarded 104, Application closed 346) are a snapshot from recording, not current figures. The video gives no date for them."
+    },
+    {
+      "at": "14:39-14:44",
+      "signal": "The seller message points to a Google Drive training video and a Fulfillment App link. These are shown on screen; the video does not say whether they are current."
+    }
+  ],
+  "privacy": [
+    {
+      "at": "11:58-12:05",
+      "frame": "t00718.jpg",
+      "what": "Lead record shows an email address for an individual; the Leads list shows first and last names, emails and phone numbers of several other individuals."
+    },
+    {
+      "at": "11:58-12:08",
+      "frame": "t00721.jpg",
+      "what": "Same lead record and Leads list: an individual's email address and the names, emails and phone numbers in the list."
+    },
+    {
+      "at": "12:08",
+      "frame": "t00728.jpg",
+      "what": "Open applications table shows company names, personal names, email addresses and phone numbers of many sellers."
+    },
+    {
+      "at": "12:23-13:41",
+      "frame": "t00743.jpg",
+      "what": "Processed and Onboarded tables show seller company names, personal names, email addresses and phone numbers (for example t00743, t00750, t00789, t00805, t00814, t00820, t00821)."
+    },
+    {
+      "at": "14:09-15:23",
+      "frame": "t00849.jpg",
+      "what": "Seller profile shows full name, email, phone number, company name, shipping address, Google Maps location, position in company, trading licence number, Emirates ID and bank details file names; the Profile list also shows other sellers' names and emails."
+    },
+    {
+      "at": "15:03-15:23",
+      "frame": "t00903.jpg",
+      "what": "Profile list shows other sellers' names, company names and emails (for example rows near the cursor in t00903.jpg and t00923.jpg)."
+    }
+  ],
+  "audit": {
+    "checked": 85,
+    "removed": [
+      {
+        "statement": "Access to create is the first onboarding step ... (the trainer says a colleague, named 'yaya', is creating them while he speaks).",
+        "reason": "The name 'yaya' is not on screen and cannot be confirmed; the parenthetical was dropped from the fact and kept in unclear at 12:36."
+      },
+      {
+        "statement": "Implied: log each contact in the lead Comment field with a date prefix (DD/MM), newest entry first.",
+        "reason": "The screen does not establish a DD/MM format; '11/11' and '06/11' are ambiguous as written. Only the descending order is kept, as an Implied low-confidence tip."
+      },
+      {
+        "statement": "After onboarding the seller keeps the ability to connect on the portal and see all information related to their application.",
+        "reason": "The transcript at 14:10 does not say 'after onboarding' and the sentence is cut off; the wording is kept only as the trainer's cut-off sentence."
+      }
+    ],
+    "corrected": [
+      {"before": "Step 1 action: 'cursor is on the first comment lines'", "after": "'Sp' is highlighted on the second comment line", "reason": "t00718 shows the highlight on 'Sp' and the I-beam on the second comment line, not the cursor on the first lines."},
+      {"before": "Step 3 action: 'points at the status groups in the sidebar'", "after": "shows the page; the frame has no pointer on the sidebar groups", "reason": "No pointer is visible on the sidebar in t00728."},
+      {"before": "Step 4 action: 'Opens Processed applications'", "after": "shows the page, with the cursor on its left-menu item", "reason": "The click itself is not captured; the cursor is on the menu item in t00743."},
+      {"before": "Step 12 action: 'Opens the Onboarded list'; evidence only t00814 and t00820", "after": "Adds t00821 (list back at top, cursor on 'Middle East China wholesale C...') and describes the scroll and return", "reason": "t00821 was not cited; the pack's 'points at a row' is supported by it."},
+      {"before": "Step 14 evidence: 'average orders per month'", "after": "'On average, how many units do you sell per month' (partly cut off)", "reason": "Wording taken from the on-screen question in t00849."},
+      {"before": "Step 16 evidence quote at 14:33: 'quality of your products'", "after": "'quality of your product' (transcript wording)", "reason": "The quote must match the transcript; the screen text 'products' is kept in the Next steps evidence."},
+      {"before": "Step 18 action: 'Closes by describing the purpose of the onboarding app and the lead follow-up'", "after": "'Describes how the team gets inbound and outbound sellers and gets back leads, and what to do with leads'", "reason": "The purpose of the app is not stated in the closing lines."},
+      {"before": "Fact 5 (Pending): 'Revibe is asking the seller'", "after": "'we (the trainer's team) are asking the seller'", "reason": "The transcript says 'we are asking from the seller'."},
+      {"before": "Fact 6 (Postponed): 'stock expected in two weeks' stated as the example, confidence high", "after": "Example wording marked as garbled; confidence medium", "reason": "13:03 is garbled ('I should receive stock in two weeks, I will send at this moment'); the meaning cannot be fixed from the audio."},
+      {"before": "Fact 11 (Onboarded): 'Revibe has onboarded a lot of sellers'", "after": "'so far we onboarded a lot of sellers' (trainer's 'we')", "reason": "The trainer says 'we'; the company name is not said at that point."},
+      {"before": "Fact 12 (KAM): 'Once a seller's accesses are being created, the seller is assigned to a KAM'", "after": "'A seller can be assigned to a key account manager (KAM)', confidence medium; the 13:50 evidence removed", "reason": "13:50 is garbled, so the timing is not supported. 13:57 supports only the assignment and the mission."},
+      {"before": "Fact 14 (portal): 'After onboarding the seller keeps the ability to connect'", "after": "'The trainer says the seller will keep being able to connect on the portal...' (sentence cut off)", "reason": "'After onboarding' is not said; the 14:18 evidence is about the Next steps message, not the portal, so it was removed."},
+      {"before": "Fact 16 (video): 'The seller must watch the onboarding video before getting access; the access link is given after watching it'", "after": "'The Next steps message asks the seller to watch the video first; it then tells the seller to get access ... by clicking the link below once they have watched it.'", "reason": "'must' is not said, and the Fulfillment App link is shown on the message regardless of watching."},
+      {"before": "Fact 17 (devices): 'lets Revibe check the quality of their products'", "after": "'lets Revibe check the quality of the seller's products (the message addresses the seller as 'your products')'", "reason": "The message on screen says 'your products'; 'their' is not used."},
+      {"before": "Fact 22 (Stage): 'When the supplier has filled in the form, the lead's Stage is set to Sent to app'", "after": "'After the supplier filled in the form, the lead was sent to the app; the example record's Stage shows Sent to app'", "reason": "The transcript says the supplier was sent to the app; the setting of the Stage field itself is inferred."},
+      {"before": "Fact 24 (tip): 'each contact logged with a DD/MM date prefix'", "after": "'Implied: the example comments are dated 11/11, 06/11, 05/11 and 03/11, newest first' (low)", "reason": "DD/MM is not shown; the statement is kept only as an Implied low-confidence observation."},
+      {"before": "Screen 'Processed applications > Accepted sub-status filter lists': 'Onboarded (104 rows, list scrolls)'", "after": "'Onboarded selected (sidebar count 104; the list scrolls)'", "reason": "The number of rows is not counted on screen; 104 is the sidebar count."},
+      {"before": "Screen name 'Seller-facing Next steps message'", "after": "'Next steps message (inside the Profile record)'", "reason": "The message is shown in the KAM's Profile view; it is the message the seller receives, which the trainer says."},
+      {"before": "Term KAM: 'The person a seller is assigned to once their applications are created'", "after": "'The person a seller is assigned to'; the trainer's mission sentence kept", "reason": "The timing from 13:50 is garbled and not supported."},
+      {"before": "Term Pending: 'Revibe is asking the seller'", "after": "'we are asking the seller'", "reason": "Transcript wording."},
+      {"before": "Term Application closed / Approval: 'Application status Application closed and Approval Accepted or Rejected'", "after": "Adds the Open list values Incomplete and Final review", "reason": "Approval values on the open list (t00728) are Incomplete and Final review."},
+      {"before": "asr_fixes 13:50 basis: 'Next steps text our team brand name in the seller message (t00857.jpg)'", "after": "basis: app header 'Revibe - Seller Onboarding App' (t00718.jpg) only", "reason": "The Next steps text says 'our team', not a brand name."},
+      {"before": "Privacy 11:58-12:05: 'Lead record shows full name, email and phone number'", "after": "'Lead record shows an email address; the Leads list shows names, emails and phone numbers'", "reason": "The lead form has no name field; the full name is not shown in the form, only in the list."}
+    ],
+    "added": [
+      "Step 14:23-14:39 (new): Next steps message stays on screen while the trainer reads the middle lines; evidence t00863.jpg, which no pack claim cited.",
+      "Step 15:21-15:23 (new): thank-you line and end frame t00923.jpg, which no pack claim cited.",
+      "Step 13:34-13:41: evidence t00821.jpg added (list back at top with cursor on a row).",
+      "Privacy coverage for t00750 (Processed list with names, emails and phone numbers) and t00841 (Processed list with the Access to create hover), which had no privacy entry.",
+      "Screen 'Leads': '(empty) 8' group under United Arab Emirates is shown in the Leads tree (t00718), as used in the fact on the Leads view."
+    ]
+  }
+}

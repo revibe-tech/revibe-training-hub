@@ -1,0 +1,514 @@
+{
+  "summary": "Part 5 (20:26-20:49) closes the 3.0 Buybox video. Pierre explains 'lowest conditions' SKUs, where sellers compete on price only and not on score. He says these apply to the lowest storage, a neutral colour and the Good condition of iPhone models; which colour counts as neutral is not clear from the audio or the sheet. The reason he gives is marketing: Revibe wants to appear as the marketplace with the lowest price on these specific devices. All 7 frames show the Buybox tab of the 'Smart Cell x Revibe' Google Sheet. The web search he describes at 20:26 is never shown on screen.",
+  "frames_opened": 7,
+  "steps": [
+    {
+      "at": "20:26",
+      "screen": "Google Sheets 'Smart Cell x Revibe', tab 'Buybox' (frame t01226)",
+      "action": "Pierre says that when a customer searches the web for iPhone 12 Pro Max, 'the first one you will see from all marketplaces'. The screen stays on the Buybox sheet; no web search is shown. The pointer is over the 'Monthly Sales' header and the Name Box shows F1.",
+      "says": "is searching on the web iPhone 12 Pro Max, the first one you will see from all marketplaces,",
+      "why": "",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "20:26",
+          "quote": "is searching on the web iPhone 12 Pro Max, the first one you will see from all marketplaces,"
+        },
+        {
+          "kind": "see",
+          "at": "20:26",
+          "frame": "t01226.jpg",
+          "quote": "Buybox tab of the Smart Cell x Revibe Google Sheet open; pointer over the 'Monthly Sales' column header; Name Box shows F1 'Storage (laptop)'."
+        }
+      ]
+    },
+    {
+      "at": "20:33",
+      "screen": "Same Buybox sheet (frame t01230)",
+      "action": "Pierre says 'all vendors will be what we call the lowest conditions.' The sentence is hard to parse and is not confirmed on screen. The sheet is unchanged.",
+      "says": "all vendors will be what we call the lowest conditions.",
+      "why": "",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "20:33",
+          "quote": "all vendors will be what we call the lowest conditions."
+        },
+        {
+          "kind": "see",
+          "at": "20:30",
+          "frame": "t01230.jpg",
+          "quote": "Buybox sheet unchanged; pointer over the 'Monthly Sales' header."
+        }
+      ]
+    },
+    {
+      "at": "20:37",
+      "screen": "Same Buybox sheet (frame t01235)",
+      "action": "Pierre states Revibe's goal for these specific devices. The sheet is unchanged and the pointer is still over the 'Monthly Sales' header.",
+      "says": "So on these very specific devices, we want to appear as the marketplace with the lowest price.",
+      "why": "Stated goal only; the marketing reason is given at 20:19 (see facts).",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "20:37",
+          "quote": "So on these very specific devices, we want to appear as the marketplace with the lowest price."
+        },
+        {
+          "kind": "see",
+          "at": "20:35",
+          "frame": "t01235.jpg",
+          "quote": "Buybox sheet unchanged; pointer still over the 'Monthly Sales' column header; no pointer near the tab bar in this frame."
+        }
+      ]
+    },
+    {
+      "at": "20:43",
+      "screen": "Same Buybox sheet (frames t01241, t01246, t01248)",
+      "action": "Pierre closes the video and invites questions. The Buybox sheet stays on screen; in t01246 and t01248 the pointer sits near the sheet-tab bar at the bottom.",
+      "says": "Let us know if you have any questions and thank you very much for your attention.",
+      "why": "",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "20:43",
+          "quote": "Let us know if you have any questions and thank you very much for your attention."
+        },
+        {
+          "kind": "see",
+          "at": "20:48",
+          "frame": "t01248.jpg",
+          "quote": "Buybox sheet of the Smart Cell x Revibe Google Sheet still shown; pointer near the sheet-tab bar at the bottom; no change from earlier frames."
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "type": "rule",
+      "statement": "On some SKUs, Pierre says there is no price difference between the neutral buy box and the buy box. He calls these SKUs 'lowest conditions'.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "19:02",
+          "quote": "you will not see any price difference between the neutral buy box and the buy box why because"
+        },
+        {
+          "kind": "say",
+          "at": "19:11",
+          "quote": "for these skus we have what we call lowest conditions {this?} happens only for some specific models where"
+        }
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "On lowest-conditions SKUs, Pierre says sellers compete only on price, not on score.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "19:19",
+          "quote": "we want the sellers to compete between themselves only on the price and not on the score at"
+        }
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Pierre says lowest conditions apply to the lowest storage, a neutral colour and the Good condition, for all iPhone models. The wording is unconfirmed: the audio reads 'neutral color like the most standard {colored?}', and the screen does not show which colour is neutral.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "19:32",
+          "quote": "the lowest storage neutral color like the most standard {colored?} and the good condition and this for all"
+        },
+        {
+          "kind": "say",
+          "at": "19:43",
+          "quote": "the models of iPhones so here iPhone 7 32 black good you can see that the price neutral"
+        }
+      ],
+      "confidence": "low",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Pierre gives marketing campaigns as the reason for lowest-conditions SKUs. He links a customer's web search for iPhone 12 Pro Max to 'the first one you will see from all marketplaces'; the rest of that sentence ('all vendors will be what we call the lowest conditions') is unclear.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "20:19",
+          "quote": "on the price we do this because for our marketing campaigns most of the time when a customer"
+        },
+        {
+          "kind": "say",
+          "at": "20:26",
+          "quote": "is searching on the web iPhone 12 Pro Max, the first one you will see from all marketplaces,"
+        },
+        {
+          "kind": "say",
+          "at": "20:33",
+          "quote": "all vendors will be what we call the lowest conditions."
+        }
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "policy",
+      "statement": "For these very specific devices, Revibe wants to appear as the marketplace with the lowest price.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "20:37",
+          "quote": "So on these very specific devices, we want to appear as the marketplace with the lowest price."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "example",
+      "statement": "Example from narration: iPhone 7 32 GB Black Good. Pierre says the price neutral and the price buy box are the same, 134. On screen, row 5 shows Buybox AE '134 - Fulfillment', Buybox SA '285' and Monthly Sales '50+'. The price neutral value is not on screen.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "19:43",
+          "quote": "the models of iPhones so here iPhone 7 32 black good you can see that the price neutral"
+        },
+        {
+          "kind": "say",
+          "at": "19:50",
+          "quote": "and the price buy box is the same 134 but if you go to other models like let's"
+        },
+        {
+          "kind": "see",
+          "at": "20:26",
+          "frame": "t01226.jpg",
+          "quote": "Row 5: Model iphone-7, 32 GB, Black, Condition 'Good', Monthly Sales '50+', Buybox AE '134 - Fulfillment', Buybox SA '285'."
+        }
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "example",
+      "statement": "Pierre says the iPhone 12 Pro Max 128 graphite good-condition unit shows 1059 1059 (price neutral and price buy box). This figure is not visible on any of the 7 frames.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "20:02",
+          "quote": "not the gold but i think this works with the graphite yes 128 graphite"
+        },
+        {
+          "kind": "say",
+          "at": "20:12",
+          "quote": "good condition you can see that the price is 1059 1059 so here the sellers can only compete"
+        }
+      ],
+      "confidence": "low",
+      "quiz": false
+    },
+    {
+      "type": "example",
+      "statement": "Implied: Pierre picks the iPhone 12 Pro Max 128 graphite good-condition unit as his second example, saying it is 'not the gold' but he thinks 'this works with the graphite'. The colour choice is not shown on screen.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "20:02",
+          "quote": "not the gold but i think this works with the graphite yes"
+        }
+      ],
+      "confidence": "low",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "'Lowest conditions' is Pierre's term for SKUs where sellers compete on price only, not on score, and the buy box price equals the neutral buy box price.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "19:11",
+          "quote": "for these skus we have what we call lowest conditions {this?} happens only for some specific models where"
+        },
+        {
+          "kind": "say",
+          "at": "19:19",
+          "quote": "we want the sellers to compete between themselves only on the price and not on the score at"
+        }
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Buybox tab column headers, left to right: Name, Category, Model, CPU (Laptop) Connectivity (Tablet), RAM (laptop) Storage (phone), Storage (laptop) Color (phone), Colour (laptop), SKU_Long, Screen size (laptop), Series (Laptop), Condition (laptop), Keyboard (laptop) / Condition (phone), Monthly Sales, Score, Buybox AE, Buybox SA, Wins AE, Wins SA, Price AE, Price SA, Min AE, Min SA. The Name Box shows F1 'Storage (laptop)' and the pointer is over the 'Monthly Sales' header.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "20:26",
+          "frame": "t01226.jpg",
+          "quote": "Header row 1 lists the columns in the order above; Name Box shows F1 'Storage (laptop)'; pointer over the 'Monthly Sales' header."
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The Monthly Sales column holds range values 0-1, 1-3, 3-5, 5-10, 10-20, 20-50 and 50+. Cells are colour-coded: red for 0-1 and 1-3, yellow for 3-5 and 5-10, light green for 10-20, green for 20-50 and 50+. The colour legend is not shown.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "20:26",
+          "frame": "t01226.jpg",
+          "quote": "Monthly Sales values include '0-1' (red), '1-3' (red), '3-5' and '5-10' (yellow), '10-20' (light green), '20-50' and '50+' (green). No colour legend visible."
+        }
+      ],
+      "confidence": "low",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The Score column shows 2.70% in every visible row (rows 2 to 46).",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "20:26",
+          "frame": "t01226.jpg",
+          "quote": "Score column value '2.70%' in all visible rows."
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Wins AE and Wins SA show FALSE in every visible row (rows 2 to 46). Price AE, Price SA, Min AE and Min SA are blank in those rows.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "20:26",
+          "frame": "t01226.jpg",
+          "quote": "Wins AE and Wins SA cells read FALSE in rows 2 to 46; Price AE, Price SA, Min AE and Min SA are blank."
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The bottom tab bar lists: Buybox (active), AE tool, SA tool, App New Claims, Payment tool, then dated tabs from 12-10-26 down to 27-07-26.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "20:26",
+          "frame": "t01226.jpg",
+          "quote": "Sheet tabs: Buybox (active), AE tool, SA tool, App New Claims, Payment tool, 12-10-26, 05-10-26, 28-09-26 ... 27-07-26."
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Browser tabs open during the segment: Revibe - Fulfillment App, Fulfillment App - O&D, Videos | Library | Loom, Smart Cell x Revibe (active), Buybox AI - Google Sheet, Skyfitronics x Revibe, Revibe - Seller Performance (title truncated on screen).",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "20:26",
+          "frame": "t01226.jpg",
+          "quote": "Tab strip: 'Revibe - Fulfillment App', 'Fulfillment App - O&D', 'Videos | Library | Loom', 'Smart Cell x Revibe - Goo...' (active), 'Buybox AI - Google Sheet', 'Skyfitronics x Revibe', 'Revibe - Seller Performanc...'."
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    }
+  ],
+  "screens": [
+    {
+      "name": "Google Sheets: Smart Cell x Revibe, tab 'Buybox'",
+      "shows": "Product rows 2-46: iphone-7 32 GB (rows 2-25) and 128 GB (rows 26-46). Visible columns: Model, RAM (laptop) Storage (phone), Storage (laptop) Color (phone) with colour words such as Black and Gold, Keyboard (laptop) / Condition (phone) with condition words such as Premium, Excellent and Good, Monthly Sales, Score, Buybox AE/SA, Wins AE/SA, Price AE/SA and Min AE/SA. The Colour (laptop) and Condition (laptop) columns are blank in the visible rows. Visible for the whole segment.",
+      "at": "20:26-20:48",
+      "where": "Browser tab 'Smart Cell x Revibe - Goo...' (active)"
+    },
+    {
+      "name": "Browser tab strip",
+      "shows": "Revibe - Fulfillment App; Fulfillment App - O&D; Videos | Library | Loom; Smart Cell x Revibe; Buybox AI - Google Sheet; Skyfitronics x Revibe; Revibe - Seller Performance.",
+      "at": "20:26",
+      "where": "Top of the browser window"
+    },
+    {
+      "name": "Presenter webcam overlay",
+      "shows": "Pierre speaking, bottom-right corner. Not a data screen.",
+      "at": "20:26-20:48",
+      "where": "Bottom-right of frames"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Buy box",
+      "meaning": "The algorithm that selects the best seller able to sell a SKU (narration 00:29-00:37). In the sheet it appears as 'Buybox AE' and 'Buybox SA' columns.",
+      "at": "00:29-00:37; 18:56-19:02"
+    },
+    {
+      "term": "Lowest conditions",
+      "meaning": "Pierre's term for SKUs where sellers compete only on price, not on score. Per narration, it applies to the lowest storage, a neutral colour (wording unclear) and the Good condition, for iPhone models.",
+      "at": "19:11-20:37"
+    },
+    {
+      "term": "Price neutral / neutral buy box",
+      "meaning": "Pierre says 'price neutral' at 19:43. At 04:54 he defines the neutral buy box as the price a seller should compete with at a score of 0%. No sheet column carries the name 'price neutral'.",
+      "at": "04:54; 19:43"
+    },
+    {
+      "term": "Fulfillment",
+      "meaning": "Shown in a cell as '134 - Fulfillment' in Buybox AE for iPhone 7 32 GB Black Good. At 01:02-01:14 Pierre contrasts buy box with fulfillment: sellers can put price and prices only, not quantities, for direct shipping in all the countries. No fuller definition is given.",
+      "at": "01:02-01:14; 19:24"
+    },
+    {
+      "term": "Monthly Sales",
+      "meaning": "Estimated monthly sales a seller could do over the next 30 days, based on sales over the past 30 days across all countries. Shown as ranges such as 0-1, 20-50 and 50+.",
+      "at": "02:09-02:27"
+    },
+    {
+      "term": "Wins AE / Wins SA",
+      "meaning": "Show TRUE when the seller is winning the SKU and FALSE when not. All FALSE in the visible rows.",
+      "at": "06:17-06:22"
+    },
+    {
+      "term": "Min AE / Min SA and Price AE / Price SA",
+      "meaning": "Narration at 11:43 says the 'minimum' lets sellers define a minimum price so they do not have to refresh prices every hour (11:43-12:00). Price AE / Price SA are not defined in the video. All four columns are blank in the visible rows.",
+      "at": "11:43-12:00"
+    }
+  ],
+  "asr_fixes": [],
+  "unclear": [
+    {
+      "at": "20:26",
+      "issue": "Narration describes a customer searching the web for iPhone 12 Pro Max and 'the first one you will see from all marketplaces', but all 7 frames show the Google Sheet. No web search is on screen, so the marketplace result cannot be verified."
+    },
+    {
+      "at": "19:32",
+      "issue": "'the lowest storage neutral color' with '{colored?}': the colour values sit in the 'Storage (laptop) Color (phone)' column, 'Colour (laptop)' is blank, and no column is labelled neutral. Which colour counts as neutral is unclear."
+    },
+    {
+      "at": "20:02",
+      "issue": "Pierre says 'not the gold but i think this works with the graphite yes' before the 128 graphite example. Colour choice is uncertain and not shown on screen."
+    },
+    {
+      "at": "19:43",
+      "issue": "'price neutral' and 'price buy box' are not matched to screen columns. The sheet shows Buybox AE/SA and Price AE/SA, and Price AE is blank on row 5, so the mapping is uncertain."
+    },
+    {
+      "at": "20:12",
+      "issue": "The 1059 figure for iPhone 12 Pro Max is not visible in any of the 7 frames, so it cannot be checked on screen."
+    },
+    {
+      "at": "20:33",
+      "issue": "'all vendors will be what we call the lowest conditions' is hard to parse. It may mean sellers on the iPhone 12 Pro Max listing are in lowest-conditions mode, but this is not confirmed on screen."
+    }
+  ],
+  "outdated": [],
+  "privacy": [],
+  "audit": {
+    "checked": 35,
+    "removed": [
+      {
+        "statement": "Term 'Buy box': 'The video does not define it further.'",
+        "reason": "The narration defines it at 00:29-00:37 as the algorithm that selects the best seller for a SKU."
+      },
+      {
+        "statement": "Term 'Monthly Sales': 'The video does not define it.'",
+        "reason": "The narration defines it at 02:09-02:27 as the estimated monthly sales over the next 30 days, based on the past 30 days across all countries."
+      },
+      {
+        "statement": "Term 'Wins AE / Wins SA': 'The video does not define them.'",
+        "reason": "The narration defines them at 06:17-06:22 (TRUE means the seller is winning, FALSE means not winning)."
+      },
+      {
+        "statement": "Screen fact: 'The highlighted headers are Storage (laptop) and Monthly Sales.'",
+        "reason": "The frame does not clearly show which headers are highlighted. It shows the Name Box at F1 and the pointer over the Monthly Sales header."
+      }
+    ],
+    "corrected": [
+      {
+        "before": "Step 20:26: 'a customer searching the web ... sees the first offer from all marketplaces'",
+        "after": "Pierre says that a customer searching the web for iPhone 12 Pro Max sees 'the first one you will see from all marketplaces'",
+        "reason": "Overstated paraphrase; the quoted words are the evidence."
+      },
+      {
+        "before": "Step 20:26 frame detail: 'column M Monthly Sales header is selected' and 'pointer rests on Monthly Sales header (M1)'",
+        "after": "Pointer is over the Monthly Sales header; Name Box shows F1 'Storage (laptop)'. Cell M1 is not shown as selected.",
+        "reason": "The Name Box shows F1, so M1 is not the selected cell."
+      },
+      {
+        "before": "Step 20:33: 'Pierre says that all vendors in this case fall under what he calls the lowest conditions.'",
+        "after": "Pierre says 'all vendors will be what we call the lowest conditions.' The sentence is hard to parse and is not confirmed on screen.",
+        "reason": "'In this case fall under' is an interpretation the audio does not state."
+      },
+      {
+        "before": "Step 20:37 frame t01235: 'pointer has moved to the sheet-tab bar at the bottom of the window'",
+        "after": "In t01235 the pointer is still over the Monthly Sales header; the pointer is near the tab bar in t01246 and t01248.",
+        "reason": "Checked against the frame: the tab-bar pointer is not in t01235."
+      },
+      {
+        "before": "Fact 1: 'the buy box price and the neutral price are the same'",
+        "after": "Pierre says there is no price difference between the neutral buy box and the buy box.",
+        "reason": "Wording matches the transcript at 19:02; 'neutral price' is not his phrase here."
+      },
+      {
+        "before": "Fact 3: 'apply to ... the neutral colour ... for all iPhone models' stated as a rule",
+        "after": "Pierre says lowest conditions apply to the lowest storage, a neutral colour and the Good condition, for all iPhone models; the wording is unconfirmed.",
+        "reason": "Confidence is low; the audio is '{colored?}' and the screen does not show the neutral colour."
+      },
+      {
+        "before": "Fact 4: 'the first offer they see from all marketplaces is the lowest-price offer'",
+        "after": "Pierre links a web search for iPhone 12 Pro Max to 'the first one you will see from all marketplaces'; the lowest-price wording comes only at 20:37 as a separate sentence.",
+        "reason": "'Lowest-price' is not said in the 20:26 sentence; it was an inference."
+      },
+      {
+        "before": "Fact 7: 'the iPhone 12 Pro Max 128 GB good-condition unit'",
+        "after": "Pierre says the iPhone 12 Pro Max 128 graphite good-condition unit (20:02).",
+        "reason": "'GB' is not spoken; he says '128 graphite'."
+      },
+      {
+        "before": "Monthly Sales colour fact: 'green for 20-50 and 50+' with no mention of 10-20",
+        "after": "Adds 10-20 as light green (row 29).",
+        "reason": "The frame shows 10-20 in light green; the fact omitted it."
+      },
+      {
+        "before": "Screen 1: 'Colour' and 'Condition' listed as visible columns with values",
+        "after": "Colour values sit in 'Storage (laptop) Color (phone)' and condition values in 'Keyboard (laptop) / Condition (phone)'; 'Colour (laptop)' and 'Condition (laptop)' are blank.",
+        "reason": "Checked against the header row and the cell values in the frame."
+      },
+      {
+        "before": "Term 'Price neutral': 'Trainer's name for a neutral price shown beside the buy box price'",
+        "after": "Pierre says 'price neutral' at 19:43; he defines the neutral buy box at 04:54 as the price a seller should compete with at a score of 0%.",
+        "reason": "The definition is in the transcript at 04:54, and the 'price neutral' phrase is his own."
+      },
+      {
+        "before": "Term 'Buy box': 'The offer that wins the marketplace price comparison'",
+        "after": "The algorithm that selects the best seller able to sell a SKU (00:29-00:37).",
+        "reason": "The narration defines it as an algorithm; the earlier wording was not in the transcript."
+      },
+      {
+        "before": "Term 'Fulfillment': 'The video does not define it.'",
+        "after": "At 01:02-01:14 Pierre contrasts buy box with fulfillment; no fuller definition is given.",
+        "reason": "The narration does give a contrast at 01:02."
+      },
+      {
+        "before": "Summary: 'lowest storage, neutral colour and Good condition of iPhone models'",
+        "after": "Same, but the neutral colour is flagged as unclear.",
+        "reason": "The audio is '{colored?}' and the sheet has no labelled neutral column."
+      }
+    ],
+    "added": [
+      "Fact (example, low confidence, not quizzed): Pierre picks the iPhone 12 Pro Max 128 graphite good-condition unit as his second example at 20:02 ('not the gold but i think this works with the graphite yes').",
+      "Screen fact detail: Monthly Sales cell colour for 10-20 (light green), taken from frame t01226.",
+      "Step 20:43 detail: in t01246 and t01248 the pointer sits near the sheet-tab bar at the bottom."
+    ]
+  }
+}

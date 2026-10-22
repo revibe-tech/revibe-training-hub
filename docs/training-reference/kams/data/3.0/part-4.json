@@ -1,0 +1,754 @@
+{
+  "summary": "Part 4 (18:02-20:26) of the 3.0 Buybox (KAMs) video. Pierre walks the 'Smart Cell x Revibe' Google Sheet: the AE tool price-drop tables, the Payment tool and weekly dated payment tabs (summary totals, claims, extended-warranty refund block), then the Buybox tab, where for some SKUs the Neutral Buybox price equals the Buybox price (the 'lowest conditions' SKUs, which he does not fully explain). All 40 listed frames were opened and checked. Several sentences are cut off in the transcript, so those are logged as unclear rather than stated. The Neutral Buybox columns are hidden in some later frames.",
+  "frames_opened": 40,
+  "steps": [
+    {
+      "at": "18:02",
+      "screen": "Google Sheets 'Smart Cell x Revibe', AE tool tab (t01082)",
+      "action": "Shows the AE tool tab with the 'Small price drop (<20 AED)' and 'Big price drop (>20 AED)' tables and their Accept? columns; the cursor rests over the App New Claims tab. No click visible in this frame.",
+      "says": "a big price drop to accept above 20 dirhams {in?} this tab i just explained to you very",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "18:02", "quote": "a big price drop to accept above 20 dirhams {in?} this tab i just explained to you very"},
+        {"kind": "see", "at": "18:02", "frame": "t01082.jpg", "quote": "AE tool tab active; A2 'Small price drop (<20 AED)'; L2 'Big price drop (>20 AED)'; columns Name, SKU_Long, Price to win AE, Monthly Sales, Accept?; badges 'SMALL PRICE DROP' and 'BIG PRICE DROP'; heading 'UAE & ZA'; cursor over the 'App New Claims' tab"}
+      ]
+    },
+    {
+      "at": "18:04-18:08",
+      "screen": "Payment tool tab (t01084, t01088)",
+      "action": "Opens the Payment tool tab. The summary block shows 0 in every line; the table headers on row 14 read Supplier, Penalty Status, Ready to pay?, ID, Order ID, Payment. Rows 15-50 show only ticked Ready to pay? checkboxes and no order data.",
+      "says": "",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "18:04", "frame": "t01084.jpg", "quote": "Payment tool tab active; L1-N11 summary all 0 (Orders, Compensations - receivable, Compensations - payable, Subtotal, Returns credit, Claims - Extended Warranty, Claims - Shipping charges, Claims - Repair charges, Claims - Credit compensations, Claims - Shipping UAE charges, Total to pay); row 14 headers Supplier, Penalty Status, Ready to pay?, ID, Order ID, Payment; rows 15-50 show ticked checkboxes in the Ready to pay? column and no order values"}
+      ]
+    },
+    {
+      "at": "18:09",
+      "screen": "Payment tool tab (t01088)",
+      "action": "Explains what the tab is for while the Payment tool tab stays open.",
+      "says": "quickly this tab is used for the payments every week the sellers can see how much they will",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "18:09", "quote": "quickly this tab is used for the payments every week the sellers can see how much they will"},
+        {"kind": "see", "at": "18:08", "frame": "t01088.jpg", "quote": "Payment tool tab still active; summary all 0"}
+      ]
+    },
+    {
+      "at": "18:10-18:14",
+      "screen": "Dated tab 12-10-26 (t01090), then dated tab 05-10-26 (t01094)",
+      "action": "Clicks the dated weekly tabs. 12-10-26 appears blank (t01090); 05-10-26 shows the order rows with Ready to pay? ticked and Penalty Status 'No claims'.",
+      "says": "get paid and can get the details of all their payments {but?} these tabs are about to be",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "18:15", "quote": "get paid and can get the details of all their payments {but?} these tabs are about to be"},
+        {"kind": "see", "at": "18:14", "frame": "t01094.jpg", "quote": "tab 05-10-26 active; summary Orders 87,205, Compensations - receivable 14,503, Subtotal 72,702, Total to pay 72,702; rows with Supplier 'Smart Cell', Penalty Status 'No claims', Ready to pay? checked"}
+      ]
+    },
+    {
+      "at": "18:22",
+      "screen": "Dated tab 12-10-26 (t01102, t01103)",
+      "action": "Stays on the 12-10-26 tab while speaking. The summary shows Orders 72,098; the right edge shows the ID and Order ID columns with the Payment header cut off, and no Paid value is visible yet.",
+      "says": "deleted and replaced by a new system the only thing you will have to know is that every",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "18:22", "quote": "deleted and replaced by a new system the only thing you will have to know is that every"},
+        {"kind": "see", "at": "18:22", "frame": "t01102.jpg", "quote": "tab 12-10-26 active; N1 Orders 72,098; order rows 15-30 with Record type 'Wrong device', 'Issue', 'RTO' values; 'Payment' header cut off at the right edge; no 'Paid' value visible"}
+      ]
+    },
+    {
+      "at": "18:26-18:31",
+      "screen": "Dated tab 12-10-26, summary block (t01106, t01111)",
+      "action": "Selects cells in the summary block at the top right (N1 Orders, N3 Compensations - payable) while describing what sellers see.",
+      "says": "week the sellers can see here all these orders {all?} {these?} compensation receivables all these compensation payables these",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "18:29", "quote": "week the sellers can see here all these orders {all?} {these?} compensation receivables all these compensation payables these"},
+        {"kind": "see", "at": "18:31", "frame": "t01111.jpg", "quote": "tab 12-10-26; N1 Orders 72,098; N2 Compensations - receivable 4,441; N3 Compensations - payable 0 selected; N4 Subtotal 67,657; N11 Total to pay 67,657"}
+      ]
+    },
+    {
+      "at": "18:37",
+      "screen": "Dated tab 12-10-26, rows 82-98 and the summary block (t01117)",
+      "action": "Scrolls down the order rows (82-98 visible, Payment status 'Paid', Ready to pay? ticked). The cursor is over the Shipping Date column of the order rows, not on the summary lines.",
+      "says": "three are displayed here in this first table all the rest returns credit claims extended warranty shipping charges",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "18:37", "quote": "three are displayed here in this first table all the rest returns credit claims extended warranty shipping charges"},
+        {"kind": "see", "at": "18:37", "frame": "t01117.jpg", "quote": "rows 82-98 with Confirmed Status 'Confirmed', Penalty Status 'No claims', Ready to pay? checked; column header 'Payment status' with 'Paid'; cursor over the Shipping Date column"}
+      ]
+    },
+    {
+      "at": "18:46-18:47",
+      "screen": "Dated tab 12-10-26, far-right refund block (t01127)",
+      "action": "Scrolls far to the right to a block titled 'Refund to supplier for extended warranty repairs'.",
+      "says": "repair charges etc {are?} displayed in order tables on the right of the sheet {this?} is the only",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "18:46", "quote": "repair charges etc {are?} displayed in order tables on the right of the sheet {this?} is the only"},
+        {"kind": "see", "at": "18:47", "frame": "t01127.jpg", "quote": "columns BD-BY; 'Refund to supplier for extended warranty repairs'; 'Total to credit' 0; 'Credit ready' 0; numbered header 1-21 with 'Columns' label"}
+      ]
+    },
+    {
+      "at": "18:51-18:54",
+      "screen": "Dated tab 12-10-26, summary block (t01131)",
+      "action": "Returns to the order rows (54-89 visible) with N8 'Claims - Repair charges' selected.",
+      "says": "thing you need to know",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "18:54", "quote": "thing you need to know"},
+        {"kind": "see", "at": "18:51", "frame": "t01131.jpg", "quote": "N8 'Claims - Repair charges' selected, value 0; rows 54-89 with Ready to pay? ticked"}
+      ]
+    },
+    {
+      "at": "18:55-19:02",
+      "screen": "AE tool tab then Buybox tab (t01135, t01140)",
+      "action": "Leaves the AE tool tab (cursor on the Buybox tab, t01135) and opens the Buybox tab (t01140), which lists one row per SKU with Buybox AE and Buybox SA price columns. The Neutral Buybox columns are not shown in that frame.",
+      "says": "last thing that i forgot to tell you is that for some skus here in the buy box",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "18:56", "quote": "last thing that i forgot to tell you is that for some skus here in the buy box"},
+        {"kind": "say", "at": "19:02", "quote": "you will not see any price difference between the neutral buy box and the buy box why because"},
+        {"kind": "see", "at": "19:00", "frame": "t01140.jpg", "quote": "tab 'Buybox' (gid 1302875135); header row with Name, Category, Model, SKU_Long, Keyboard (laptop) / Condition (phone), Monthly Sales, Score, Buybox AE, Buybox SA, Wins AE, Wins SA, Price AE, Price SA, Min AE, Min SA; no Neutral Buybox headers visible"}
+      ]
+    },
+    {
+      "at": "19:08-19:19",
+      "screen": "Buybox tab, iPhone 7 rows (t01148, t01152, t01154, t01156)",
+      "action": "Selects N7 (Neutral Buybox AE 206.79, Gold Excellent row) on the iPhone 7 rows while explaining lowest conditions and the seller competition aim. No Condition cell is selected.",
+      "says": "for these skus we have what we call lowest conditions {this?} happens only for some specific models where",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "19:11", "quote": "for these skus we have what we call lowest conditions {this?} happens only for some specific models where"},
+        {"kind": "say", "at": "19:19", "quote": "we want the sellers to compete between themselves only on the price and not on the score at"},
+        {"kind": "see", "at": "19:12", "frame": "t01152.jpg", "quote": "Buybox tab; iphone-7 rows; Neutral Buybox AE/SA and Score 2.70% columns visible; no label for lowest conditions on screen"}
+      ]
+    },
+    {
+      "at": "19:24-19:32",
+      "screen": "Buybox tab, row 5 iPhone 7 32 GB Black Good (t01164, t01168)",
+      "action": "Selects row 5 (iphone-732 GB, Black, Good, SKU 010101-050101) and points at its price cells.",
+      "says": "all so here for instance this one is in fulfillment {but?} it works lowest conditions are only for",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "19:24", "quote": "all so here for instance this one is in fulfillment {but?} it works lowest conditions are only for"},
+        {"kind": "say", "at": "19:32", "quote": "the lowest storage neutral color like the most standard {colored?} and the good condition and this for all"},
+        {"kind": "see", "at": "19:28", "frame": "t01168.jpg", "quote": "row 5 (5:5) selected; Model iphone-7; E5 '32 GB'; F5 'Black'; L5 'Good'; M5 '50+'; H5 '010101-050101'"}
+      ]
+    },
+    {
+      "at": "19:33-19:50",
+      "screen": "Buybox tab, row 5 (t01173-t01186)",
+      "action": "Compares the Neutral Buybox and Buybox prices on row 5 (iPhone 7 32 GB Black Good).",
+      "says": "the models of iPhones so here iPhone 7 32 black good you can see that the price neutral",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "19:43", "quote": "the models of iPhones so here iPhone 7 32 black good you can see that the price neutral"},
+        {"kind": "say", "at": "19:50", "quote": "and the price buy box is the same 134 but if you go to other models like let's"},
+        {"kind": "see", "at": "19:50", "frame": "t01186.jpg", "quote": "row 5: Neutral Buybox AE '134 - Fulfillment', Neutral Buybox SA 285, Buybox AE '134 - Fulfillment', Buybox SA 285"}
+      ]
+    },
+    {
+      "at": "19:51-19:56",
+      "screen": "Buybox tab, scrolled list (t01191, t01195, t01196)",
+      "action": "Scrolls down the Buybox list through the iPhone 8 Plus and SE 2020 rows, then the iPhone 12 Pro and 12 Pro Max rows, without speaking.",
+      "says": "",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "19:51", "frame": "t01191.jpg", "quote": "rows 204-251: iphone-8-plus and iphone-se-2020 SKUs; Monthly Sales bands visible; Neutral Buybox and Buybox columns visible"},
+        {"kind": "see", "at": "19:55", "frame": "t01195.jpg", "quote": "rows 840-888: iphone-12-pro-max (Graphite row 841 with 50+ and 1059/1190) and iphone-13 SKUs"}
+      ]
+    },
+    {
+      "at": "19:57-20:12",
+      "screen": "Buybox tab, row 841 iPhone 12 Pro Max (t01198, t01201, t01205, t01207, t01209)",
+      "action": "Selects row 841 (iphone-12-pro-max, 128 GB, Graphite, Good) and reads the price cells.",
+      "says": "say for instance okay iPhone 12 Pro Max you take",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "19:57", "quote": "say for instance okay iPhone 12 Pro Max you take"},
+        {"kind": "say", "at": "20:02", "quote": "{the?} good one here not the gold but i think this works with the graphite yes 128 graphite"},
+        {"kind": "say", "at": "20:12", "quote": "good condition you can see that the price is 1059 1059 so here the sellers can only compete"},
+        {"kind": "see", "at": "20:09", "frame": "t01209.jpg", "quote": "name box 841:841 'Graphite'; row 841: E '128 GB', F 'Graphite', H '010115-071201', L 'Good', M '50+', N 1059, O 1190, Q 1059, R 1190"}
+      ]
+    },
+    {
+      "at": "20:15-20:21",
+      "screen": "Buybox tab header, column F selected (t01215, t01218, t01221)",
+      "action": "Moves to the top of the Buybox tab with F1 (Storage (laptop)) selected and starts explaining the marketing reason. In t01218 and t01221 the Neutral Buybox columns are not shown.",
+      "says": "on the price we do this because for our marketing campaigns most of the time when a customer",
+      "why": "for marketing campaigns (reason cut off in the transcript)",
+      "evidence": [
+        {"kind": "say", "at": "20:19", "quote": "on the price we do this because for our marketing campaigns most of the time when a customer"},
+        {"kind": "see", "at": "20:18", "frame": "t01218.jpg", "quote": "F1 'Storage (laptop)' selected; header row runs Name ... Monthly Sales, Score, Buybox AE, Buybox SA, Wins AE, Wins SA, Price AE, Price SA, Min AE, Min SA with no Neutral Buybox headers; 'Saving...' indicator"}
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "type": "rule",
+      "statement": "On the AE tool tab, price drops are split into two tables: Small price drop (<20 AED) and Big price drop (>20 AED); each table has an Accept? checkbox column.",
+      "evidence": [
+        {"kind": "see", "at": "18:02", "frame": "t01082.jpg", "quote": "A2 'Small price drop (<20 AED)'; L2 'Big price drop (>20 AED)'; both tables have Name, SKU_Long, Price to win AE, Monthly Sales and Accept? columns"},
+        {"kind": "say", "at": "18:02", "quote": "a big price drop to accept above 20 dirhams {in?} this tab i just explained to you very"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The big price drop table is headed 'Big price drop (>20 AED)'; the trainer says a big price drop is to be accepted above 20 dirhams.",
+      "evidence": [
+        {"kind": "say", "at": "18:02", "quote": "a big price drop to accept above 20 dirhams {in?} this tab i just explained to you very"},
+        {"kind": "see", "at": "18:02", "frame": "t01082.jpg", "quote": "L2 'Big price drop (>20 AED)'; Accept? checkboxes in the big table, some ticked"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Monthly Sales is shown in bands: 0-1, 1-3, 3-5, 5-10, 10-20, 20-50 and 50+ (the AE tool tables show 0-1, 1-3, 3-5, 5-10 and 50+).",
+      "evidence": [
+        {"kind": "see", "at": "18:02", "frame": "t01082.jpg", "quote": "Monthly Sales column values 50+, 5-10, 3-5, 1-3, 0-1 in the AE tool tables"},
+        {"kind": "see", "at": "19:00", "frame": "t01140.jpg", "quote": "Monthly Sales column with 0-1, 1-3, 3-5, 5-10, 10-20 and 20-50 and 50+ bands on the Buybox tab"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The Payment tool tab summary block lists, in order: Orders, Compensations - receivable, Compensations - payable, Subtotal, Returns credit, Claims - Extended Warranty, Claims - Shipping charges, Claims - Repair charges, Claims - Credit compensations, Claims - Shipping UAE charges, and Total to pay.",
+      "evidence": [
+        {"kind": "see", "at": "18:04", "frame": "t01084.jpg", "quote": "L2-L11 labels: Orders, Compensations - receivable, Compensations - payable, Subtotal, Returns credit, Claims - Extended Warranty, Claims - Shipping charges, Claims - Repair charges, Claims - Credit compensations, Claims - Shipping UAE charges; L11 Total to pay"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "policy",
+      "statement": "The Payment tool tab is used for payments every week, and sellers can see how much they will be paid.",
+      "evidence": [
+        {"kind": "say", "at": "18:09", "quote": "quickly this tab is used for the payments every week the sellers can see how much they will"},
+        {"kind": "say", "at": "18:15", "quote": "get paid and can get the details of all their payments {but?} these tabs are about to be"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Implied: each dated tab (for example 12-10-26 and 05-10-26) holds one week's payment sheet.",
+      "evidence": [
+        {"kind": "say", "at": "18:09", "quote": "quickly this tab is used for the payments every week the sellers can see how much they will"},
+        {"kind": "see", "at": "18:14", "frame": "t01094.jpg", "quote": "dated tabs 12-10-26, 05-10-26, 28-09-26, 21-09-26 ... 27-07-26 across the bottom of the sheet"}
+      ],
+      "confidence": "low",
+      "quiz": false
+    },
+    {
+      "type": "number",
+      "statement": "On the 12-10-26 tab: Orders 72,098; Compensations - receivable 4,441; Compensations - payable 0; Subtotal 67,657; Total to pay 67,657.",
+      "evidence": [
+        {"kind": "see", "at": "18:31", "frame": "t01111.jpg", "quote": "N1 Orders 72,098; N2 Compensations - receivable 4,441; N3 Compensations - payable 0; N4 Subtotal 67,657; N11 Total to pay 67,657"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "number",
+      "statement": "On the 05-10-26 tab: Orders 87,205; Compensations - receivable 14,503; Compensations - payable 0; Subtotal 72,702; Total to pay 72,702.",
+      "evidence": [
+        {"kind": "see", "at": "18:14", "frame": "t01094.jpg", "quote": "N1 Orders 87,205; N2 Compensations - receivable 14,503; N3 Compensations - payable 0; N4 Subtotal 72,702; N11 Total to pay 72,702"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The refund block on the dated payment tabs is far to the right (columns BD-BY) and is titled 'Refund to supplier for extended warranty repairs', with 'Total to credit' and 'Credit ready' cells (both 0 on the 12-10-26 tab).",
+      "evidence": [
+        {"kind": "see", "at": "18:47", "frame": "t01127.jpg", "quote": "'Refund to supplier for extended warranty repairs'; 'Total to credit' 0; 'Credit ready' 0; header numbers 1-21 and 'Columns' label"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Dated payment tab order rows have these columns: id, record_type, Active Or Closed, Order Help, Payable Amount, Receivable Amount, Actual Currency, Confirmed Date, Shipping Date, Delivery Method, COD To Collect, Shipment Status, Shipment Status Date, Tracking ID, Tracking Link, Payment Method, Confirmed Status, Supplier, Penalty Status, Ready to pay?, ID, Order ID, Payment status.",
+      "evidence": [
+        {"kind": "see", "at": "18:14", "frame": "t01094.jpg", "quote": "row 14 headers: id, record_type, Active Or Closed, Order Help, Payable Amount, Receivable Amount, Actual Currency, Confirmed Date, Shipping Date, Delivery Method, COD To Collect, Shipment Status, Shipment Status Date, Tracking ID, Tracking Link, Payment Method, Confirmed Status, Supplier, Penalty Status, Ready to pay?, ID, Order ID, Payment"},
+        {"kind": "see", "at": "18:37", "frame": "t01117.jpg", "quote": "right edge header 'Payment status' with values 'Paid'"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Record types visible on the dated payment tabs include Sale, Issue, Wrong device, Charger Charges, RTO - Customer... and RTO - Courier/...",
+      "evidence": [
+        {"kind": "see", "at": "18:14", "frame": "t01094.jpg", "quote": "record_type values: Issue, Charger Charges, RTO - Courier/Sc..., RTO - Customer..., Sale, Wrong device"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "On the visible rows of the 05-10-26 and 12-10-26 tabs, Ready to pay? is ticked and Penalty Status shows 'No claims'.",
+      "evidence": [
+        {"kind": "see", "at": "18:14", "frame": "t01094.jpg", "quote": "Ready to pay? checkboxes ticked; Penalty Status 'No claims' on the visible rows"},
+        {"kind": "see", "at": "18:37", "frame": "t01117.jpg", "quote": "Ready to pay? checked and Penalty Status 'No claims' on rows 82-98"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The Payment tool tab has no order rows in view: rows 15-50 show only ticked Ready to pay? checkboxes and empty Supplier and Penalty Status cells.",
+      "evidence": [
+        {"kind": "see", "at": "18:04", "frame": "t01084.jpg", "quote": "rows 15-50 with ticked checkboxes in the Ready to pay? column; no values in the visible cells of the order area"}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "warning",
+      "statement": "For some SKUs on the Buybox tab, the Neutral Buybox price and the Buybox price are the same, so there is no visible price difference between them.",
+      "evidence": [
+        {"kind": "say", "at": "19:02", "quote": "you will not see any price difference between the neutral buy box and the buy box why because"},
+        {"kind": "see", "at": "19:50", "frame": "t01186.jpg", "quote": "row 5: Neutral Buybox AE and Buybox AE both '134 - Fulfillment'; Neutral Buybox SA and Buybox SA both 285"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "example",
+      "statement": "Example: row 5 on the Buybox tab, iPhone 7 32 GB Black Good (SKU 010101-050101, Monthly Sales 50+), shows Neutral Buybox AE and Buybox AE both '134 - Fulfillment' and Neutral Buybox SA and Buybox SA both 285.",
+      "evidence": [
+        {"kind": "see", "at": "19:50", "frame": "t01186.jpg", "quote": "row 5: L 'Good', M '50+', N '134 - Fulfillment', O 285, Q '134 - Fulfillment', R 285"},
+        {"kind": "say", "at": "19:50", "quote": "and the price buy box is the same 134 but if you go to other models like let's"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "example",
+      "statement": "Example: iPhone 7 32 GB Gold Excellent row 7 on the Buybox tab (Monthly Sales 1-3) shows Neutral Buybox AE 206.79 and Buybox AE 213, so the match is not on every SKU.",
+      "evidence": [
+        {"kind": "see", "at": "19:08", "frame": "t01148.jpg", "quote": "row 7 (iphone-7, 32 GB, Gold, Excellent, Monthly Sales 1-3): N7 206.79 selected; Q7 213; R7 436"}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "For lowest-conditions SKUs the trainer says sellers compete between themselves only on price, not on score.",
+      "evidence": [
+        {"kind": "say", "at": "19:19", "quote": "we want the sellers to compete between themselves only on the price and not on the score at"},
+        {"kind": "say", "at": "19:11", "quote": "for these skus we have what we call lowest conditions {this?} happens only for some specific models where"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The trainer calls certain SKUs 'lowest conditions'; he says this happens only for some specific models. The definition is cut off in the transcript.",
+      "evidence": [
+        {"kind": "say", "at": "19:11", "quote": "for these skus we have what we call lowest conditions {this?} happens only for some specific models where"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Implied: for lowest-conditions SKUs the applicable selection is the lowest storage, the neutral (most standard) colour and the Good condition, and this applies to all of them.",
+      "evidence": [
+        {"kind": "say", "at": "19:32", "quote": "the lowest storage neutral color like the most standard {colored?} and the good condition and this for all"}
+      ],
+      "confidence": "low",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Phone condition grades in the Keyboard (laptop) / Condition (phone) column include Premium, Excellent, Very Good and Good.",
+      "evidence": [
+        {"kind": "see", "at": "19:08", "frame": "t01148.jpg", "quote": "column L values Premium, Excellent, Very Good, Good for iphone-7 rows"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The Score column shows 2.70% on every visible SKU row of the Buybox tab.",
+      "evidence": [
+        {"kind": "see", "at": "19:16", "frame": "t01156.jpg", "quote": "column P Score 2.70% on every visible row"},
+        {"kind": "see", "at": "19:51", "frame": "t01191.jpg", "quote": "Score column 2.70% on rows 204-251"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Wins AE and Wins SA show FALSE on every visible SKU row of the Buybox tab.",
+      "evidence": [
+        {"kind": "see", "at": "19:16", "frame": "t01156.jpg", "quote": "columns S Wins AE and T Wins SA show FALSE on every visible row"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "example",
+      "statement": "Example: row 841 on the Buybox tab, iPhone 12 Pro Max 128 GB Graphite Good (SKU 010115-071201, Monthly Sales 50+), shows Neutral Buybox AE 1059, Neutral Buybox SA 1190, Buybox AE 1059 and Buybox SA 1190.",
+      "evidence": [
+        {"kind": "see", "at": "20:09", "frame": "t01209.jpg", "quote": "row 841: E '128 GB', F 'Graphite', H '010115-071201', L 'Good', M '50+', N 1059, O 1190, Q 1059, R 1190"},
+        {"kind": "say", "at": "20:12", "quote": "good condition you can see that the price is 1059 1059 so here the sellers can only compete"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "policy",
+      "statement": "Implied: when the Neutral Buybox and Buybox prices match on a SKU, sellers can only compete on price. The end of the sentence is cut off.",
+      "evidence": [
+        {"kind": "say", "at": "20:12", "quote": "good condition you can see that the price is 1059 1059 so here the sellers can only compete"}
+      ],
+      "confidence": "low",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Buybox tab columns, in order: Name, Category, Model, CPU (Laptop) Connectivity (Tablet), RAM (laptop) Storage (phone), Storage (laptop) Color (phone), Colour (laptop), SKU_Long, Screen size (laptop), Series (Laptop), Condition (laptop), Keyboard (laptop) / Condition (phone), Monthly Sales, Neutral Buybox AE, Neutral Buybox SA, Score, Buybox AE, Buybox SA, Wins AE, Wins SA, Price AE, Price SA, Min AE, Min SA. The Neutral Buybox columns are hidden in some frames (t01140, t01218, t01221).",
+      "evidence": [
+        {"kind": "see", "at": "20:15", "frame": "t01215.jpg", "quote": "row 1 headers as listed with Neutral Buybox AE and Neutral Buybox SA visible; F1 'Storage (laptop)' selected"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "On the Buybox tab, the phone storage value sits in the RAM (laptop) Storage (phone) column (for example 128 GB) and the phone colour sits in the Storage (laptop) Color (phone) column (for example Graphite).",
+      "evidence": [
+        {"kind": "see", "at": "20:09", "frame": "t01209.jpg", "quote": "E '128 GB' and F 'Graphite' on row 841"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The Price AE, Price SA, Min AE and Min SA columns are present on the Buybox tab but are empty on the rows shown.",
+      "evidence": [
+        {"kind": "see", "at": "19:28", "frame": "t01168.jpg", "quote": "columns U Price AE, V Price SA, W Min AE, X Min SA headers present with no values on visible rows"}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The Neutral Buybox AE and Neutral Buybox SA columns (N and O) are hidden in frames t01140, t01218 and t01221, and visible in the frames between them.",
+      "evidence": [
+        {"kind": "see", "at": "20:18", "frame": "t01218.jpg", "quote": "header row runs Monthly Sales, Score, Buybox AE, Buybox SA, Wins AE ... with no Neutral Buybox headers; 'Saving...' indicator"},
+        {"kind": "see", "at": "19:00", "frame": "t01140.jpg", "quote": "header row with Monthly Sales, Score, Buybox AE, Buybox SA, Wins AE, Wins SA, Price AE, Price SA, Min AE, Min SA; no Neutral Buybox headers"}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The Buybox tab lists rows grouped by model: rows 2-46 are iphone-7 (iphone-732 GB and iphone-7128 GB), rows 204-251 are iphone-8-plus and iphone-se-2020, and rows 798-888 are iphone-12-pro, iphone-12-pro-max and iphone-13.",
+      "evidence": [
+        {"kind": "see", "at": "19:08", "frame": "t01148.jpg", "quote": "rows 2-46 with Name iphone-732 GB and iphone-7128 GB, Model iphone-7"},
+        {"kind": "see", "at": "19:51", "frame": "t01191.jpg", "quote": "rows 204-251: iphone-8-plus and iphone-se-2020 SKUs"},
+        {"kind": "see", "at": "19:55", "frame": "t01195.jpg", "quote": "rows 840-888: iphone-12-pro-max and iphone-13 SKUs"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Google Sheet tab order (left to right): Buybox, AE tool, SA tool, App New Claims, Payment tool, then dated tabs 12-10-26, 05-10-26, 28-09-26, 21-09-26, 14-09-26, 09-09-26, 07-09-26, 31-08-26, 24-08-26, 17-08-26, 10-08-26, 03-08-26, 27-07-26.",
+      "evidence": [
+        {"kind": "see", "at": "18:02", "frame": "t01082.jpg", "quote": "bottom tab bar: Buybox, AE tool, SA tool, App New Claims, Payment tool, 12-10-26, 05-10-26, 28-09-26, 21-09-26, 14-09-26, 09-09-26, 07-09-26, 31-08-26, 24-08-26, 17-08-26, 10-08-26, 03-08-26, 27-07-26"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The AE tool heading reads 'UAE & ZA' with UAE and South Africa flags.",
+      "evidence": [
+        {"kind": "see", "at": "18:02", "frame": "t01082.jpg", "quote": "A1 heading 'UAE & ZA' with two flags"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Price cells in the Buybox tab can show 'No bid' (for example on Premium rows), and some cells show a fulfilment label such as '134 - Fulfillment'.",
+      "evidence": [
+        {"kind": "see", "at": "19:03", "frame": "t01145.jpg", "quote": "Premium rows show 'No bid' in Neutral Buybox AE and Buybox AE (for example row 6, Q6 'No bid'); row 5 shows '134 - Fulfillment' in N5 and Q5"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    }
+  ],
+  "screens": [
+    {
+      "name": "Google Sheets 'Smart Cell x Revibe' (spreadsheet)",
+      "shows": "Single spreadsheet holding the Buybox, AE tool, SA tool, App New Claims, Payment tool and dated weekly tabs. Sheet title 'Smart Cell x Revibe'.",
+      "at": "18:02"
+    },
+    {
+      "name": "AE tool tab",
+      "shows": "UAE & ZA heading; Small price drop (<20 AED) and Big price drop (>20 AED) tables with Name, SKU_Long, Price to win AE, Monthly Sales, Accept? columns.",
+      "at": "18:02"
+    },
+    {
+      "name": "Payment tool tab",
+      "shows": "Summary block (Orders ... Total to pay, all 0 in the frames) and an order table with Supplier, Penalty Status, Ready to pay?, ID, Order ID, Payment headers; no order data in the visible rows.",
+      "at": "18:04"
+    },
+    {
+      "name": "Dated weekly tabs (12-10-26, 05-10-26 ...)",
+      "shows": "Same summary block at top right (N1-N11) and an order table from row 14 with about 24 columns (record_type, Payable/Receivable Amount, Shipment, Tracking, Payment Method, Supplier, Penalty Status, Ready to pay?, Payment status). Far-right block 'Refund to supplier for extended warranty repairs' at columns BD-BY.",
+      "at": "18:14"
+    },
+    {
+      "name": "Buybox tab",
+      "shows": "One row per SKU: Name, Category, Model, storage/colour/condition columns, SKU_Long, Keyboard (laptop) / Condition (phone), Monthly Sales, Neutral Buybox AE/SA (hidden in some frames), Score, Buybox AE/SA, Wins AE/SA, Price AE/SA, Min AE/SA.",
+      "at": "19:00"
+    },
+    {
+      "name": "Browser tab bar (all frames)",
+      "shows": "Tabs: Revibe - Fulfillment App; Fulfillment App - O&D; Videos | Library | Loom; Smart Cell x Revibe; Buybox AI - Google Sheet; Skyfitronics x Revibe; Revibe - Seller Performance.",
+      "at": "18:02"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Buybox (tab)",
+      "meaning": "Tab of the Smart Cell x Revibe sheet with one row per SKU and Buybox and Neutral Buybox price columns, Wins, Price and Min columns. The trainer does not define the tab itself beyond showing it.",
+      "at": "18:56"
+    },
+    {
+      "term": "Neutral Buybox AE / Neutral Buybox SA",
+      "meaning": "Price columns (N and O) placed before Score and Buybox AE / Buybox SA. The trainer does not define them; he compares them with Buybox prices.",
+      "at": "19:02"
+    },
+    {
+      "term": "Buybox AE / Buybox SA",
+      "meaning": "Price columns on the Buybox tab for AE and SA (the trainer compares them with the Neutral Buybox columns).",
+      "at": "19:50"
+    },
+    {
+      "term": "Wins AE / Wins SA",
+      "meaning": "TRUE/FALSE columns on the Buybox tab; FALSE on all visible rows. The trainer does not explain them.",
+      "at": "19:19"
+    },
+    {
+      "term": "Price to win AE",
+      "meaning": "Column on the AE tool price-drop tables, shown in the sheet's price-drop logic.",
+      "at": "18:02"
+    },
+    {
+      "term": "Small price drop (<20 AED) / Big price drop (>20 AED)",
+      "meaning": "The two AE tool tables, split by a 20 AED threshold as written in the headings.",
+      "at": "18:02"
+    },
+    {
+      "term": "Accept?",
+      "meaning": "Checkbox column on the price-drop tables.",
+      "at": "18:02"
+    },
+    {
+      "term": "Lowest conditions",
+      "meaning": "Term the trainer uses for some SKUs; he says it happens only for some specific models. The definition is incomplete in the transcript. Implied: it is the SKUs where the two prices match and sellers compete only on price.",
+      "at": "19:11"
+    },
+    {
+      "term": "Fulfillment (in price cells, e.g. '134 - Fulfillment')",
+      "meaning": "Text shown in some Buybox and Neutral Buybox price cells. The trainer says 'this one is in fulfillment' but does not explain the label.",
+      "at": "19:24"
+    },
+    {
+      "term": "Compensations - receivable / Compensations - payable",
+      "meaning": "Summary lines on the Payment tool and dated tabs; the trainer says sellers can see all compensation receivables and payables.",
+      "at": "18:29"
+    },
+    {
+      "term": "Claims (Extended Warranty, Shipping charges, Repair charges, Credit compensations, Shipping UAE charges)",
+      "meaning": "Summary lines on the Payment tool and dated tabs, all 0 in the frames.",
+      "at": "18:37"
+    },
+    {
+      "term": "Returns credit",
+      "meaning": "Summary line on the Payment tool and dated tabs, all 0 in the frames.",
+      "at": "18:37"
+    },
+    {
+      "term": "Total to pay",
+      "meaning": "Last summary line on the Payment tool and dated tabs (for example 72,702 on 05-10-26).",
+      "at": "18:14"
+    },
+    {
+      "term": "Ready to pay?",
+      "meaning": "Checkbox column on the payment tabs; ticked on visible rows. Meaning not explained by the trainer.",
+      "at": "18:14"
+    },
+    {
+      "term": "Penalty Status",
+      "meaning": "Column on the payment tabs; 'No claims' on visible rows.",
+      "at": "18:14"
+    },
+    {
+      "term": "Monthly Sales",
+      "meaning": "Column with sales bands (0-1 up to 50+) per SKU on the AE tool and Buybox tabs.",
+      "at": "18:02"
+    },
+    {
+      "term": "Score",
+      "meaning": "Column on the Buybox tab, 2.70% on all visible rows. The trainer says sellers should not compete on score but does not define it.",
+      "at": "19:19"
+    },
+    {
+      "term": "record_type / RTO",
+      "meaning": "Column on the payment tabs holding values such as Sale, Issue, Wrong device, Charger Charges and RTO - Customer.../RTO - Courier.... Meanings not explained.",
+      "at": "18:14"
+    },
+    {
+      "term": "AE / SA (tool and tab names)",
+      "meaning": "AE tool and SA tool tabs; the AE tool heading reads 'UAE & ZA'. The trainer does not spell out the abbreviations. Implied: AE corresponds to UAE and SA to South Africa (low confidence).",
+      "at": "18:02"
+    },
+    {
+      "term": "Smart Cell",
+      "meaning": "Supplier name on every visible payment row and in the sheet title 'Smart Cell x Revibe'.",
+      "at": "18:14"
+    }
+  ],
+  "asr_fixes": [
+    {
+      "at": "18:56",
+      "heard": "buy box",
+      "correct": "Buybox",
+      "basis": "Tab name 'Buybox' and column headers 'Buybox AE' / 'Buybox SA' on screen (t01140)."
+    },
+    {
+      "at": "19:02",
+      "heard": "neutral buy box",
+      "correct": "Neutral Buybox",
+      "basis": "Column headers 'Neutral Buybox AE' and 'Neutral Buybox SA' on screen (t01143)."
+    }
+  ],
+  "unclear": [
+    {
+      "at": "18:15",
+      "issue": "'these tabs are about to be' is cut off; unclear whether the Payment tool, the dated tabs or both will be replaced, and the joining words to 'deleted and replaced by a new system' at 18:22 are missing."
+    },
+    {
+      "at": "18:22",
+      "issue": "'the only thing you will have to know is that every' is cut off; the rule that applies to every item (tab, row or week) is not stated."
+    },
+    {
+      "at": "18:37",
+      "issue": "Speech says three lines are in the first table and the rest (returns credit, claims) are elsewhere, but the first summary table on screen (N2-N11) already lists Returns credit and all Claims lines. Not stated as a fact."
+    },
+    {
+      "at": "18:46",
+      "issue": "Speech says repair charges etc are displayed in order tables on the right. The only far-right block seen (t01127) is titled 'Refund to supplier for extended warranty repairs'; the other claim/returns tables were not seen on screen."
+    },
+    {
+      "at": "18:14",
+      "issue": "Meaning of 'Ready to pay?' (ticked on visible rows) is never explained."
+    },
+    {
+      "at": "19:02",
+      "issue": "Reason for matching Neutral and Buybox prices is cut off ('why because'). Not stated."
+    },
+    {
+      "at": "19:11",
+      "issue": "'lowest conditions' is described but no label with that name appears on screen, and the transcript does not say which column or flag marks those SKUs."
+    },
+    {
+      "at": "19:19",
+      "issue": "Score (2.70% on every visible row) is said not to be a competition factor, but its definition is not given."
+    },
+    {
+      "at": "19:24",
+      "issue": "'this one is in fulfillment {but?} it works lowest conditions' is unclear: it is not known whether the '134 - Fulfillment' label is what makes a SKU a lowest-conditions SKU."
+    },
+    {
+      "at": "19:32",
+      "issue": "'the lowest storage neutral color ... and the good condition and this for all' is garbled; unclear whether 'for all' means all models or all lowest-conditions SKUs."
+    },
+    {
+      "at": "20:12",
+      "issue": "'so here the sellers can only compete' is cut off; the word that completes the sentence (presumably 'on price') is not in the transcript."
+    },
+    {
+      "at": "20:19",
+      "issue": "Reason ('for our marketing campaigns most of the time when a customer ...') is cut off at the end of the pack. Not stated."
+    }
+  ],
+  "outdated": [
+    {
+      "at": "18:15",
+      "signal": "Trainer says the tabs are 'about to be deleted and replaced by a new system' (18:15 'these tabs are about to be'; 18:22 'deleted and replaced by a new system'). The sentence is split and cut off, so it is not clear whether the Payment tool, the dated tabs or both are meant. Treat the Payment tool and dated weekly tabs as possibly superseded."
+    },
+    {
+      "at": "18:14",
+      "signal": "Dated weekly tabs run from 12-10-26 back to 27-07-26 (weekly sheets). Their figures are snapshots, e.g. 12-10-26 Total to pay 67,657 and 05-10-26 Total to pay 72,702."
+    }
+  ],
+  "privacy": [
+    {
+      "at": "18:14",
+      "what": "Supplier name 'Smart Cell' appears on every visible payment row and in the sheet title. Seller business name, not a personal name. Shown on screen (t01094, t01117)."
+    },
+    {
+      "at": "18:02",
+      "what": "Browser tab 'Skyfitronics x Revibe' is visible, which appears to name another seller's business. Shown on screen (t01082)."
+    },
+    {
+      "at": "18:14",
+      "what": "Order-level data visible: Order Help references (for example SA-147759-1), Tracking IDs, Tracking Links and Payment Method per order. No customer names, phone numbers, emails or addresses are visible in the columns shown in the frames."
+    }
+  ],
+  "audit": {
+    "checked": 91,
+    "removed": [
+      {
+        "statement": "asr_fixes: 'dirhams' -> 'AED' at 18:02",
+        "reason": "Not a mishearing. 'Dirhams' is the correct spoken word for the currency shown as AED on screen, so no speech correction is needed."
+      },
+      {
+        "statement": "asr_fixes: 'the price buy box is the same 134' -> 'the Buybox price is the same 134 - Fulfillment' at 19:50",
+        "reason": "Not a speech error. The spoken '134' is accurate; the full '134 - Fulfillment' text is a display detail, now recorded in the fact and example entries instead."
+      }
+    ],
+    "corrected": [
+      {"before": "Step 18:22: frame t01102 shows 'order rows with Payment status Paid at the right edge'", "after": "t01102 shows the 'Payment' header cut off at the right edge with no Paid value visible; 'Paid' values first appear in t01117.", "reason": "Frame does not show the cited value."},
+      {"before": "Step 18:10-18:14: '12-10-26 is blank while loading'", "after": "12-10-26 appears blank in t01090; loading is not shown.", "reason": "Loading state is inferred, not visible."},
+      {"before": "Step 18:37: cursor 'points at the summary lines'", "after": "Cursor is over the Shipping Date column of the order rows.", "reason": "Frame shows a different target."},
+      {"before": "Step 18:55-19:02: Buybox tab opens 'with Buybox and Neutral Buybox price columns' (t01140)", "after": "In t01140 the Neutral Buybox columns are not shown; they appear in later frames.", "reason": "Frame does not show the Neutral columns."},
+      {"before": "Step 19:08: 'Points at the Condition and Neutral columns for iPhone 7 rows'", "after": "N7 (Neutral Buybox AE 206.79) is selected on the iPhone 7 rows; no Condition cell is selected.", "reason": "Frame shows a different selection."},
+      {"before": "Step 20:15 and fact on Buybox column order cite t01218 with Neutral Buybox columns present", "after": "t01218 has no Neutral Buybox headers; the full column list is shown in t01215.", "reason": "Wrong frame cited and Neutral columns hidden in t01218."},
+      {"before": "Fact: 'The big price drop table is the one ... where the drop is accepted (ticked in Accept?)' (confidence medium)", "after": "The big price drop table is headed 'Big price drop (>20 AED)'; the trainer says a big price drop is to be accepted above 20 dirhams.", "reason": "'Ticked' is not said by the trainer; wording kept to what the speech and heading show."},
+      {"before": "Fact: Monthly Sales bands listed as seen on AE tool tables including 20-50", "after": "AE tool tables show 50+, 5-10, 3-5, 1-3, 0-1; 10-20 and 20-50 appear on the Buybox tab (t01140).", "reason": "20-50 not seen on the AE tool; the cited frame was wrong."},
+      {"before": "Example: iPhone 7 32 GB Excellent row 7 cited to t01145", "after": "Cited to t01148 (N7 206.79 selected, Q7 213); row 7 is Gold, Excellent.", "reason": "Wrong frame; colour omitted in the original."},
+      {"before": "Fact: 'Implied: when prices match... sellers can only compete on price' (confidence medium)", "after": "Restated as Implied, confidence low, noting the sentence is cut off at 'compete'.", "reason": "End of sentence missing from the transcript."},
+      {"before": "Term 'Lowest conditions': 'SKUs where prices match'", "after": "Matching prices are implied, not stated; marked Implied in the term.", "reason": "The trainer does not say that the term means matching prices."},
+      {"before": "Outdated 18:15: payment tabs 'should not be treated as the current process'", "after": "Possibly superseded; which tabs are meant is cut off in the transcript.", "reason": "Claim goes beyond the cut-off speech."},
+      {"before": "Screen 'Buybox tab' at 18:55", "after": "Buybox tab first appears at 19:00 (t01140); 18:55 frame shows the AE tool.", "reason": "Wrong timestamp."},
+      {"before": "Term 'Neutral Buybox': 'shown next to Buybox AE and Buybox SA'", "after": "Neutral columns sit before Score, with Buybox AE/SA after Score.", "reason": "Placement wording corrected to the sheet layout."},
+      {"before": "Privacy: 'Skyfitronics x Revibe' 'names another seller's business'", "after": "Tab is visible and appears to name another seller's business.", "reason": "Ownership is inferred from the tab name."},
+      {"before": "Term 'AE / SA': abbreviations not expanded", "after": "Implied mapping AE = UAE and SA = South Africa, low confidence.", "reason": "Mapping is implied by the 'UAE & ZA' heading only."},
+      {"before": "Fact on 'Price cells ... No bid' cited t01145 for 'row 5 shows 134 - Fulfillment' in Q5", "after": "t01145 shows Q5 '134 - Fulfillment' and Q6 'No bid'; cited accordingly.", "reason": "Frame check passed; citation text tightened."}
+    ],
+    "added": [
+      "Fact: Payment tool tab has no order rows in view; rows 15-50 show only ticked Ready to pay? checkboxes (t01084).",
+      "Fact: Neutral Buybox AE/SA columns hidden in t01140, t01218 and t01221 (t01140, t01218).",
+      "Fact: Buybox rows are grouped by model (rows 2-46 iphone-7; 204-251 iphone-8-plus and iphone-se-2020; 798-888 iphone-12-pro, 12-pro-max and iphone-13) (t01148, t01191, t01195).",
+      "Unclear 18:22: 'the only thing you will have to know is that every' is cut off.",
+      "Unclear 20:12: 'so here the sellers can only compete' is cut off.",
+      "Coverage: frames t01097 and t01103 repeat the 05-10-26 and 12-10-26 summary views already covered; t01161, t01181, t01183, t01205 and t01207 show the same Buybox rows (row 5 or row 841 selection) and add no new claim; t01221 shows the same header state as t01218 (Neutral columns hidden)."
+    ]
+  }
+}

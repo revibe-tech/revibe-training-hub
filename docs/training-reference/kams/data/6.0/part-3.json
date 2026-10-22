@@ -1,0 +1,505 @@
+{
+  "summary": "Part 3 of the \"6.0 Returns (Seller)\" training (12:12 to 12:26) shows one page, \"Revibe Return Process\", a one-page PDF (Revibe-Return-Process.pdf) in a PDF viewer. The page sets out the end-to-end return workflow: four steps (customer claim, Revibe agent check, pickup, seller action), the eligibility window of 15 days from delivery, the VALID and INVALID paths with dispute resolution through proof, Revibe review and Lab verification, and the portal info and payment locations. The trainer's narration in this window is limited: the pack holds only the fragment 'will keep the device.' at 12:16 and the closing remarks at 12:17 to 12:24. The speech at 12:10 that starts that sentence runs into this window. The walkthrough is therefore taken mainly from the screen. Two frames were opened, and the same page remains on screen to the end of the video.",
+  "steps": [
+    {
+      "at": "12:12",
+      "screen": "Revibe-Return-Process.pdf in a PDF viewer (frame t00732)",
+      "action": "Shows the one-page PDF 'Revibe Return Process' in the PDF viewer window, with the page filling the viewer and the macOS menu bar visible. No click, filter or typing is visible in the frames.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "12:12",
+          "frame": "t00732.jpg",
+          "quote": "Title bar reads 'Revibe-Return-Process.pdf' with '1 page'; the slide 'WORKFLOW · END-TO-END / Revibe Return Process' fills the viewer."
+        }
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "12:12",
+      "screen": "Revibe Return Process PDF page, Invalid / Revibe Lab final decision box (frame t00732)",
+      "action": "A mouse cursor rests over the 'Revibe Lab final decision' box, on part of the 'Invalid' line.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "12:12",
+          "frame": "t00732.jpg",
+          "quote": "A mouse cursor sits over part of the 'Revibe Lab final decision' box, on the line 'Invalid → customer pays = ship to customer; doesn't pay = device kept'."
+        }
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "12:16",
+      "screen": "Revibe Return Process PDF page (frame t00732)",
+      "action": "Speaks 'will keep the device.' at 12:16. The start of the sentence is at 12:10 in the transcript ('or if he doesn't pay, Revive'), so the sentence is about the device being kept if the customer does not pay. The name is spoken as 'Revive'; the screen reads 'Revibe' (see asr_fixes).",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "12:10",
+          "quote": "or if he doesn't pay, Revive"
+        },
+        {
+          "kind": "say",
+          "at": "12:16",
+          "quote": "will keep the device."
+        }
+      ],
+      "says": "will keep the device.",
+      "why": ""
+    },
+    {
+      "at": "12:17",
+      "screen": "Revibe Return Process PDF page (frame t00732)",
+      "action": "Closes the training: thanks the viewer for following the claims return training and invites questions to your account manager.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "12:17",
+          "quote": "Thank you very much for following this claims return training and do not hesitate to ask questions to"
+        },
+        {
+          "kind": "say",
+          "at": "12:24",
+          "quote": "your account manager in case you have any."
+        }
+      ],
+      "says": "Thank you very much for following this claims return training and do not hesitate to ask questions to your account manager in case you have any.",
+      "why": ""
+    },
+    {
+      "at": "12:25",
+      "screen": "Revibe Return Process PDF page, unchanged (frame t00745)",
+      "action": "Implied: the same PDF page stays on screen to the end of the video. No mouse cursor is visible in t00745, and no further narration is in the pack.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "12:25",
+          "frame": "t00745.jpg",
+          "quote": "Same 'Revibe Return Process' page as t00732; no mouse cursor visible."
+        }
+      ],
+      "says": "",
+      "why": ""
+    }
+  ],
+  "facts": [
+    {
+      "type": "rule",
+      "statement": "Return claims: eligibility is 15 days from delivery.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "12:12",
+          "frame": "t00732.jpg",
+          "quote": "Eligibility box: 'Eligibility: 15 days from delivery · any second valid claim on the same order is accepted even after 15 days.'"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "A second valid claim on the same order is accepted even after 15 days.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "12:12",
+          "frame": "t00732.jpg",
+          "quote": "'any second valid claim on the same order is accepted even after 15 days.'"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Step 1, Customer raise claim: the customer raises a return through the 'My Account' section on Revibe. The status is Pending (Revibe team to review). No action is required from the seller.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "12:12",
+          "frame": "t00732.jpg",
+          "quote": "Step 1 'Customer raise claim' tagged 'NO ACTION REQUIRED': 'The customer raises a return through the \"My Account\" section on Revibe. Status: Pending (Revibe team to review)'."
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "Step 2, Revibe Agent Check: the Revibe agent reviews the customer's proof. Once validated, the request is marked Completed. The status shown is Pending Collection. No action is required from the seller.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "12:12",
+          "frame": "t00732.jpg",
+          "quote": "Step 2 'Revibe Agent Check' tagged 'NO ACTION REQUIRED': 'The Revibe agent reviews the customer's proof. Once validated the request is marked Completed. Status: Pending Collection'."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Step 3, Pickup, for AE and ZA: the AWB is auto-created and the claim moves to Under Collection immediately.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "12:12",
+          "frame": "t00732.jpg",
+          "quote": "Step 3 'Pickup' tagged 'ACTION REQUIRED IF SA': 'AE & ZA: AWB auto-created — moves to Under Collection immediately'."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Step 3, Pickup, for SA: the seller must create the AWB manually.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "12:12",
+          "frame": "t00732.jpg",
+          "quote": "'SA: Seller to create the AWB manually'."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Step 4, Seller action: once the Courier Company delivers, the seller can see the claim, and its status becomes Under QC.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "12:12",
+          "frame": "t00732.jpg",
+          "quote": "Step 4 'Seller action' tagged 'ACTION REQUIRED': 'Once the Courier Company delivers the seller can see the claim which status become Under QC'."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "At seller action the seller has two options: mark the claim VALID or mark it INVALID.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "12:12",
+          "frame": "t00732.jpg",
+          "quote": "'Two options: Mark VALID / Mark INVALID'."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "A claim marked VALID gives an Instant Refund: the customer is refunded immediately and the case is closed.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "12:12",
+          "frame": "t00732.jpg",
+          "quote": "VALID box 'Instant Refund': 'The customer is refunded immediately Case closed.'"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "A claim marked INVALID goes through dispute resolution in this order: Proof Required, then Revibe Review, then Lab Verification.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "12:12",
+          "frame": "t00732.jpg",
+          "quote": "INVALID box: 'Proof Required → Revibe Review → Lab Verification'."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "For an INVALID claim, the seller submits proof: a written message plus supporting proof to challenge the customer claim is required.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "12:12",
+          "frame": "t00732.jpg",
+          "quote": "'Seller submits proof: Required: written message + supporting proof to challenge the customer claim.'"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Revibe checks the proof: if the proof is good, the device is sent to the Lab; if the proof is insufficient, the seller is asked for new proof and re-marks the claim Valid or Invalid.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "12:12",
+          "frame": "t00732.jpg",
+          "quote": "'Revibe checks proof: Good proof → device sent to Lab. Insufficient → seller asked for new proof and re-marks Valid/Invalid.'"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Revibe Lab final decision: if Valid, the customer gets a full refund and the device is shipped back to the seller. If Invalid, the customer pays and the device is shipped to the customer; if the customer does not pay, the device is kept.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "12:12",
+          "frame": "t00732.jpg",
+          "quote": "'Revibe Lab final decision: Valid → full refund + ship back to seller. Invalid → customer pays = ship to customer; doesn't pay = device kept'."
+        },
+        {
+          "kind": "say",
+          "at": "12:10",
+          "quote": "either the customer will pay to get back his device"
+        },
+        {
+          "kind": "say",
+          "at": "12:16",
+          "quote": "will keep the device."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The portal info displayed for a return covers four items: Tracking (original shipment), Pickup Tracking (return), Ship-Back (sent to customer) and Lab (testing).",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "12:12",
+          "frame": "t00732.jpg",
+          "quote": "'Portal info displayed: Tracking (original shipment) · Pickup Tracking (return) · Ship-Back (sent to customer) · Lab (testing).'"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "All refunds and charges for returns appear in the payment tool.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "12:12",
+          "frame": "t00732.jpg",
+          "quote": "'Payment: all refunds and charges appear in the payment tool.'"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    }
+  ],
+  "screens": [
+    {
+      "name": "Revibe-Return-Process.pdf (PDF viewer)",
+      "shows": "A one-page PDF titled 'Revibe Return Process' (WORKFLOW · END-TO-END). It has four workflow steps with tags, the eligibility box, a Dispute Resolution section with VALID and INVALID branches, and a bottom bar of portal info and payment.",
+      "at": "12:12 to 12:25 (frames t00732, t00745)",
+      "where": "Shown in a PDF viewer window with macOS window controls and menu bar visible; the page fills the viewer (window title 'Revibe-Return-Process.pdf', '1 page', French search field 'Rechercher')."
+    }
+  ],
+  "terms": [
+    {
+      "term": "Revibe Return Process",
+      "meaning": "The end-to-end workflow for returns shown on the PDF page: customer claim, Revibe agent check, pickup, seller action, then dispute resolution.",
+      "at": "12:12"
+    },
+    {
+      "term": "Eligibility",
+      "meaning": "The return window: 15 days from delivery. A second valid claim on the same order is accepted even after 15 days.",
+      "at": "12:12"
+    },
+    {
+      "term": "AWB",
+      "meaning": "Shipping document abbreviation shown on screen in the pickup step (auto-created for AE and ZA, created manually by the seller for SA). The screen does not expand it; the speech at 10:51 and 10:58 (outside this window) calls it the 'airway bill'.",
+      "at": "12:12"
+    },
+    {
+      "term": "AE, ZA, SA",
+      "meaning": "Codes shown on screen in the pickup step to split the process by market. The screen does not expand them. The speech at 10:51 names 'UAE and South Africa' for the auto-created AWB and at 10:58 'Saudi Arabia' for manual creation; which code matches which market is not stated.",
+      "at": "12:12"
+    },
+    {
+      "term": "Pending",
+      "meaning": "Status of a claim while the Revibe team reviews the customer's claim (step 1).",
+      "at": "12:12"
+    },
+    {
+      "term": "Pending Collection",
+      "meaning": "Status shown in step 2 (Revibe Agent Check).",
+      "at": "12:12"
+    },
+    {
+      "term": "Under Collection",
+      "meaning": "Status a claim moves to right after the AWB is auto-created (AE and ZA).",
+      "at": "12:12"
+    },
+    {
+      "term": "Under QC",
+      "meaning": "Status a claim has once the Courier Company delivers; the seller can then see it and mark it VALID or INVALID.",
+      "at": "12:12"
+    },
+    {
+      "term": "Completed",
+      "meaning": "What the request is marked once the Revibe agent has validated the customer's proof (step 2).",
+      "at": "12:12"
+    },
+    {
+      "term": "Courier Company",
+      "meaning": "Party named on screen as the one whose delivery makes the claim visible to the seller ('Once the Courier Company delivers the seller can see the claim').",
+      "at": "12:12"
+    },
+    {
+      "term": "Instant Refund",
+      "meaning": "Outcome of a VALID claim: the customer is refunded immediately and the case is closed.",
+      "at": "12:12"
+    },
+    {
+      "term": "Proof Required / Revibe Review / Lab Verification",
+      "meaning": "The three stages of the INVALID dispute path.",
+      "at": "12:12"
+    },
+    {
+      "term": "Lab (testing)",
+      "meaning": "Lab where a device goes for verification when proof is good; shown as a portal info item.",
+      "at": "12:12"
+    },
+    {
+      "term": "Ship-Back",
+      "meaning": "Portal info item for the shipment sent to the customer.",
+      "at": "12:12"
+    },
+    {
+      "term": "Pickup Tracking",
+      "meaning": "Portal info item shown as 'Pickup Tracking (return)'.",
+      "at": "12:12"
+    }
+  ],
+  "asr_fixes": [
+    {
+      "at": "12:10",
+      "heard": "Revive",
+      "correct": "Revibe",
+      "basis": "The PDF on screen spells the brand 'Revibe' in its title 'Revibe Return Process', in step 2 'Revibe Agent Check' and in 'Revibe Lab final decision'. The speech at 12:10 (and in the 12:16 sentence it completes) uses 'Revive' for the same party."
+    }
+  ],
+  "unclear": [
+    {
+      "at": "12:12",
+      "issue": "The codes 'AE & ZA' and 'SA' are shown on screen but not expanded. The speech at 10:51 says 'For UAE and South Africa' and at 10:58 'For Saudi Arabia', outside this window, so the markets are named but the mapping of AE, ZA and SA to them is not stated. The market mapping is not stated as a fact."
+    },
+    {
+      "at": "12:12",
+      "issue": "Step 2 says the request is 'marked Completed' once validated, but the status label beside it reads 'Pending Collection'. The screen does not say which status applies after validation."
+    },
+    {
+      "at": "12:10",
+      "issue": "The speech for 12:10 to 12:16 is in transcript.md but outside pack-3, and only its last part falls in this window. The step notes for 12:12 are taken from screen text and from the 12:10 and 12:16 speech lines; any other explanation the trainer gave in the window is not in the pack."
+    }
+  ],
+  "outdated": [],
+  "privacy": [],
+  "frames_opened": 2,
+  "audit": {
+    "checked": 40,
+    "removed": [
+      {
+        "statement": "unclear: subject of 'will keep the device.' is not known (pack-3 at 12:16)",
+        "reason": "Resolved by the 12:10 speech line 'or if he doesn't pay, Revive', which is the start of the same sentence; the entry is no longer unclear."
+      }
+    ],
+    "corrected": [
+      {
+        "before": "Step 1 action: 'Shows the one-page PDF ... full screen.'",
+        "after": "Shows the PDF in the viewer window with the page filling the viewer and the macOS menu bar visible.",
+        "reason": "The frame shows a windowed viewer with window chrome and menu bar, not a full-screen display."
+      },
+      {
+        "before": "Step 2 action: 'Points the mouse cursor at the Revibe Lab final decision text box, near the Invalid rule.'",
+        "after": "A mouse cursor rests over the 'Revibe Lab final decision' box, on part of the 'Invalid' line.",
+        "reason": "The frame shows a resting cursor over the text, not a deliberate pointing action; wording tightened to what is visible."
+      },
+      {
+        "before": "Step 3 (12:16): 'The start of the sentence is not in the pack, so its subject is not known.'",
+        "after": "The start of the sentence is at 12:10 ('or if he doesn't pay, Revive'), so the sentence is about the device being kept if the customer does not pay.",
+        "reason": "The transcript line at 12:10 supplies the subject and condition."
+      },
+      {
+        "before": "Step 4 (12:17): 'invites questions to their account manager.'",
+        "after": "invites questions to your account manager.",
+        "reason": "The spoken words at 12:24 are 'your account manager'."
+      },
+      {
+        "before": "Step 5 (12:25): 'The same PDF page stays on screen to the end of the video.'",
+        "after": "Implied: the same PDF page stays on screen to the end of the video.",
+        "reason": "Only frames t00732 and t00745 are in the pack; the end-of-video state is inferred from the absence of later frames and narration."
+      },
+      {
+        "before": "Fact 2: 'A second valid claim on the same order is accepted even after the 15 days from delivery.'",
+        "after": "A second valid claim on the same order is accepted even after 15 days.",
+        "reason": "The screen says 'even after 15 days'; 'the 15 days from delivery' is a restatement not shown on that line."
+      },
+      {
+        "before": "Fact 13: 'If Invalid, the customer pays for shipping to them; if the customer does not pay, the device is kept.'",
+        "after": "If Invalid, the customer pays and the device is shipped to the customer; if the customer does not pay, the device is kept.",
+        "reason": "The screen says 'customer pays = ship to customer'; 'for shipping' is not on screen."
+      },
+      {
+        "before": "Term AWB: 'The screen does not expand it.'",
+        "after": "The screen does not expand it; the speech at 10:51 and 10:58 calls it the 'airway bill'.",
+        "reason": "The narration does expand the abbreviation outside this window, so the pack's statement was incomplete."
+      },
+      {
+        "before": "Term AE, ZA, SA: 'The screen does not expand them and the narration does not explain them.'",
+        "after": "The speech at 10:51 names 'UAE and South Africa' and at 10:58 'Saudi Arabia'; which code matches which market is not stated.",
+        "reason": "The narration does name the markets; only the code-to-market mapping remains unstated."
+      },
+      {
+        "before": "Term Courier Company: 'Carrier that delivers the returned device...'",
+        "after": "Party named on screen as the one whose delivery makes the claim visible to the seller.",
+        "reason": "'Carrier' is not on screen; the screen only says 'Courier Company delivers'."
+      },
+      {
+        "before": "Term Pickup Tracking: 'Portal info item for the return shipment tracking.'",
+        "after": "Portal info item shown as 'Pickup Tracking (return)'.",
+        "reason": "The screen shows only 'Pickup Tracking (return)'; 'return shipment' is an interpretation."
+      },
+      {
+        "before": "Screen 'where': 'Shown full screen in a PDF viewer'",
+        "after": "Shown in a PDF viewer window with macOS window controls and menu bar visible.",
+        "reason": "Same as step 1: the viewer is windowed."
+      },
+      {
+        "before": "Unclear 12:12 (codes): 'The screen does not say which markets they cover ... the narration does not explain them.'",
+        "after": "Markets are named at 10:51 and 10:58; the code-to-market mapping remains unclear.",
+        "reason": "The narration does name the markets, so the statement that it is not explained was overstated."
+      },
+      {
+        "before": "Unclear 12:12 (narration): 'The trainer's narration for 12:12 to 12:16 is not in the pack.'",
+        "after": "The speech for 12:10 to 12:16 is in transcript.md; only its last part falls in this window.",
+        "reason": "The 12:10 line runs into the window and was not mentioned in the pack."
+      }
+    ],
+    "added": [
+      "asr_fixes: 12:10 'Revive' corrected to 'Revibe' from the on-screen spelling.",
+      "steps and facts: no further visible or spoken content found in the coverage sweep beyond the items already listed (frames t00732 and t00745 both reviewed; no other frames are in pack-3)."
+    ]
+  }
+}

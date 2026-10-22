@@ -1,0 +1,772 @@
+{
+  "summary": "Part 1 of 1 of '0.0 Revibe Ecosystem (KAM)' (07:04). The trainer walks through an 11-page PDF deck: the 'Sellers' journey' diagram (Onboarding, then Journey) and the 'Onboarding process' table (page 2). He covers the onboarding steps and their durations, the interview questions and assets to present, the two order channels (Buybox and Fulfillment App), the Revibe App and Seller portal, and the scoring system that affects prices. Several screen and narration conflicts are logged as unclear, and the deck footer dates it to 2024.",
+  "frames_opened": 33,
+  "screens": [
+    {
+      "name": "Sellers' journey slide deck (PDF viewer, 11 pages)",
+      "shows": "Two-part diagram. Onboarding column: Onboarding App (Legal clearance, Revibe terms and conditions, Quality guidelines), then Quality check (Send 20/30 pieces to our lab, Quality check), leading to Onboarded (If quality is good) or Rejected (If quality is not good). Journey column: Buybox (Set prices for direct shipping, 3 country flags), Seller, Fulfillment App (Set prices and quantities for fulfillment shipping, 2 country flags), Revibe App (Manage orders received, Interact with Revibe team, Invoices and payments, Manage warranties / returns), Seller portal (Dashboard, Get access to all apps, Get access to all trainings). Arrows labelled 'Get orders' and 'Score affecting prices'.",
+      "at": "00:00-07:03. Page 1 t00000; page 3 t00187 (03:07, 'Page 3 sur 11'); page 7 t00318 ('Page 7 sur 11'); page 8 t00348; page 9 t00365 ('Page 9 sur 11'); page 10 t00381 ('Page 10 sur 11'); page 11 t00415 and t00395",
+      "where": "PDF viewer, page indicator reads 'Page N sur 11' in French UI on some frames; the deck's own page number sits bottom-right on every slide"
+    },
+    {
+      "name": "Onboarding process table (slide page 2)",
+      "shows": "Six rows with duration and content: Interview 1h; Legal & admin clearance Auto; Reception & quality check 2 days; Account creation & sales 1h; Trainings 1 day; Trial period 2 weeks. Interview row text: 'Understanding business, supply origin, experience in retail, warranty policy, technical team, inhouse or externalized refurbishment process, online experience, etc.' and 'Present Revibe main assets: orders, simple processes, KAMs team, care team, no commission, weekly payments, data transparency, specialist player..'",
+      "at": "01:30-03:44 and 04:02-04:05 (frames t00090, t00110, t00130, t00150, t00170, t00195, t00204, t00224, t00242, t00245)",
+      "where": "Page 2 of the deck"
+    },
+    {
+      "name": "Seller portal dashboard screenshot (inset)",
+      "shows": "Dark dashboard screenshot on the Seller portal box. Text is too small to read on the frames, so no values are recorded.",
+      "at": "00:00-07:03 (pages 1, 3, 10; frames t00000, t00187, t00381)",
+      "where": "Inset image inside the Seller portal box of the deck"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Sellers' journey",
+      "meaning": "The deck diagram of the seller lifecycle, split into Onboarding (left) and Journey (right).",
+      "at": "00:00"
+    },
+    {
+      "term": "Onboarding App",
+      "meaning": "First onboarding app, where the seller completes legal clearance, accepts Revibe terms and conditions and reads the quality guidelines.",
+      "at": "00:29"
+    },
+    {
+      "term": "Quality check",
+      "meaning": "Onboarding step in which the seller sends 20 to 30 pieces to the Revibe lab for inspection.",
+      "at": "00:43"
+    },
+    {
+      "term": "Onboarded / Rejected",
+      "meaning": "Outcomes of the quality check: the seller is onboarded when the quality is good and rejected when it is not.",
+      "at": "01:04"
+    },
+    {
+      "term": "Interview",
+      "meaning": "First onboarding step (1h) in which the KAM learns about the seller's business and presents Revibe's main assets.",
+      "at": "01:26"
+    },
+    {
+      "term": "Legal & admin clearance",
+      "meaning": "Onboarding step (Auto) in which the seller provides the five documents.",
+      "at": "02:36"
+    },
+    {
+      "term": "Inbounding",
+      "meaning": "Word listed on screen in the Reception & quality check row, next to inspection of devices and feedback given to the seller.",
+      "at": "03:15"
+    },
+    {
+      "term": "Trial period",
+      "meaning": "Two-week period after account creation with close monitoring, regular Q&A and training sessions, during which the KAM is expected to train the seller.",
+      "at": "03:39"
+    },
+    {
+      "term": "Buybox",
+      "meaning": "Order channel in which the seller sets prices for direct shipping, shown with three country flags. The narration names Saudi, UAE and South Africa at 05:32.",
+      "at": "05:15"
+    },
+    {
+      "term": "Fulfillment App",
+      "meaning": "Order channel in which the seller sets prices and quantities for fulfillment shipping, shown with UAE and South Africa flags.",
+      "at": "05:39"
+    },
+    {
+      "term": "SKU",
+      "meaning": "Each product listing the seller must price in the Buybox channel ('every single SKU he wants to sell').",
+      "at": "05:25"
+    },
+    {
+      "term": "Revibe App",
+      "meaning": "App in which the seller manages orders received, interacts with the Revibe team, checks invoices and payments, and manages warranties and returns.",
+      "at": "06:05"
+    },
+    {
+      "term": "Seller portal",
+      "meaning": "Portal where the seller checks the dashboard, gets access to all apps and gets access to all trainings.",
+      "at": "06:20"
+    },
+    {
+      "term": "Score affecting prices",
+      "meaning": "Scoring system shown on the dashboard that changes the prices of the seller, with arrows feeding back to Buybox and Fulfillment App.",
+      "at": "06:34"
+    },
+    {
+      "term": "KAM",
+      "meaning": "Key account manager, whose main goal is to create and keep a relationship with the seller.",
+      "at": "01:12"
+    }
+  ],
+  "steps": [
+    {
+      "at": "00:00",
+      "screen": "Sellers' journey, deck page 1",
+      "action": "Opens the training on the seller ecosystem with the Sellers' journey diagram on screen.",
+      "evidence": [
+        {"kind": "say", "at": "00:00", "quote": "Hello and welcome in the Revibe ecosystem training."},
+        {"kind": "see", "at": "00:00", "frame": "t00000", "quote": "Sellers' journey diagram with Onboarding and Journey columns."}
+      ],
+      "says": "Hello and welcome in the Revibe ecosystem training."
+    },
+    {
+      "at": "00:18",
+      "screen": "Sellers' journey, deck page 1",
+      "action": "Points at the two halves of the diagram, Onboarding on the left and Journey on the right.",
+      "evidence": [
+        {"kind": "say", "at": "00:18", "quote": "As you can see, the seller ecosystem is split in two parts."},
+        {"kind": "see", "at": "00:20", "frame": "t00020", "quote": "Cursor on the Onboarding App box; headings Onboarding and Journey visible."}
+      ],
+      "says": "As you can see, the seller ecosystem is split in two parts."
+    },
+    {
+      "at": "00:29",
+      "screen": "Sellers' journey, deck page 1",
+      "action": "Walks through the Onboarding App box, with Revibe terms and conditions highlighted.",
+      "evidence": [
+        {"kind": "say", "at": "00:29", "quote": "As you can see, onboarding process is split into two, the onboarding app where seller will have to"},
+        {"kind": "see", "at": "00:40", "frame": "t00040", "quote": "Text 'Revibe terms and conditions' is highlighted in the Onboarding App box."}
+      ],
+      "says": "the onboarding app where seller will have to clear some legal documentation"
+    },
+    {
+      "at": "00:58",
+      "screen": "Sellers' journey, deck page 1",
+      "action": "Explains what happens to a rejected seller, with the cursor on the Rejected box.",
+      "evidence": [
+        {"kind": "say", "at": "00:58", "quote": "If most of the products are rejected, then the seller could not proceed with this application."},
+        {"kind": "see", "at": "01:00", "frame": "t00060", "quote": "Cursor on the red Rejected box, 'If quality is not good' visible."}
+      ],
+      "says": "If most of the products are rejected, then the seller could not proceed with this application."
+    },
+    {
+      "at": "01:10",
+      "screen": "Sellers' journey, deck page 1 (cursor moving to thumbnail 2)",
+      "action": "Says the onboarding process is simple, while the deck is still on page 1. The Onboarding process table (page 2) is on screen by 01:30.",
+      "evidence": [
+        {"kind": "say", "at": "01:10", "quote": "The onboarding process is quite simple."},
+        {"kind": "see", "at": "01:10", "frame": "t00070", "quote": "Sellers' journey page 1 still on screen, cursor on thumbnail 2."},
+        {"kind": "see", "at": "01:30", "frame": "t00090", "quote": "Onboarding process table with six rows and durations 1h, Auto, 2 days, 1h, 1 day, 2 weeks."}
+      ],
+      "says": "The onboarding process is quite simple."
+    },
+    {
+      "at": "01:12",
+      "screen": "Onboarding process table, deck page 2 (page 1 still on screen at 01:12)",
+      "action": "States that creating the relationship with the seller is the KAM's main goal.",
+      "evidence": [
+        {"kind": "say", "at": "01:12", "quote": "First, you will have to create relationship."},
+        {"kind": "say", "at": "01:15", "quote": "Actually, this is the main goal of your key account manager's role."}
+      ],
+      "says": "Actually, this is the main goal of your key account manager's role.",
+      "why": ""
+    },
+    {
+      "at": "02:16",
+      "screen": "Onboarding process table, Interview row",
+      "action": "Explains why the interview questions are asked.",
+      "evidence": [
+        {"kind": "say", "at": "02:16", "quote": "And on top of that, this will show to your seller that you are mastering this topic, that"},
+        {"kind": "see", "at": "02:10", "frame": "t00130", "quote": "Interview row (1h) with its list of topics visible."}
+      ],
+      "says": "this will show to your seller that you are mastering this topic",
+      "why": "The trainer says the questions help the KAM understand the seller and show the seller that the KAM masters the topic and is interested in the business."
+    },
+    {
+      "at": "02:36",
+      "screen": "Onboarding process table, Legal & admin clearance row",
+      "action": "Says the legal and admin step is mostly automatic but the KAM may need to guide the seller.",
+      "evidence": [
+        {"kind": "say", "at": "02:36", "quote": "but nonetheless you will maybe have to drive a bit your seller to tell him okay now you"},
+        {"kind": "say", "at": "02:43", "quote": "need {to?} review this one but most of it is automatic."},
+        {"kind": "see", "at": "02:30", "frame": "t00150", "quote": "Legal & admin clearance row, Auto, with the five documents listed."}
+      ],
+      "says": "most of it is automatic"
+    },
+    {
+      "at": "02:48",
+      "screen": "Onboarding process table, Legal & admin clearance row",
+      "action": "Lists the documents the seller must provide.",
+      "evidence": [
+        {"kind": "say", "at": "02:48", "quote": "The seller will have to provide the seller agreement signed, his trading license, his VAT registration certificate,"},
+        {"kind": "say", "at": "02:59", "quote": "These are the only five documents that we expect from the sellers."},
+        {"kind": "see", "at": "02:50", "frame": "t00170", "quote": "Legal & admin clearance row lists: Revibe seller agreement, trading license, VAT registration certificate, Emirates ID, bank details."}
+      ],
+      "says": "These are the only five documents that we expect from the sellers."
+    },
+    {
+      "at": "03:09",
+      "screen": "Onboarding process table, Reception & quality check row",
+      "action": "Explains the device sample and quality check, feedback and inbounding.",
+      "evidence": [
+        {"kind": "say", "at": "03:09", "quote": "At this part, they will send us some pieces, let's say between 20 and 30 so that we"},
+        {"kind": "say", "at": "03:15", "quote": "can have like good overview of their quality we will inspect them we will give them feedback and"},
+        {"kind": "see", "at": "03:15", "frame": "t00195", "quote": "Reception & quality check row (2 days): Inspection of devices, feedback given to seller, inbounding."}
+      ],
+      "says": "we will inspect them we will give them feedback and"
+    },
+    {
+      "at": "03:20",
+      "screen": "Onboarding process table, Account creation & sales row",
+      "action": "Describes creating the full account and the trainings that follow.",
+      "evidence": [
+        {"kind": "say", "at": "03:20", "quote": "we will inbound if the majority of the quality is good okay then we will create the {the?}"},
+        {"kind": "say", "at": "03:27", "quote": "full account of the seller you will get access to some trainings almost the same that you will"},
+        {"kind": "see", "at": "03:24", "frame": "t00204", "quote": "Account creation & sales row (1h): Creation of all Revibe tools access + sales launch."}
+      ],
+      "says": "full account of the seller you will get access to some trainings"
+    },
+    {
+      "at": "03:39",
+      "screen": "Onboarding process table, Trial period row",
+      "action": "Explains the trial period and the KAM's training responsibility during it.",
+      "evidence": [
+        {"kind": "say", "at": "03:39", "quote": "the period during which at the beginning we {i?} we expect you to train the sellers make sure"},
+        {"kind": "say", "at": "03:46", "quote": "that they understand the processes make sure that they understand revive main assets as well and make sure"},
+        {"kind": "see", "at": "03:44", "frame": "t00224", "quote": "Trial period row (2 weeks): Close monitoring, regular Q&A and training sessions."}
+      ],
+      "says": "we expect you to train the sellers"
+    },
+    {
+      "at": "04:01",
+      "screen": "Onboarding process table, Interview row, assets highlighted",
+      "action": "Says presenting Revibe's main assets matters for the KAM, and highlights the assets text.",
+      "evidence": [
+        {"kind": "say", "at": "04:01", "quote": "is also something very important in your role of key account manager why because Because through this, you"},
+        {"kind": "say", "at": "04:10", "quote": "will give the motivation to the seller to start selling on Revive."},
+        {"kind": "see", "at": "04:05", "frame": "t00245", "quote": "Text 'Present Revibe main assets: orders, simple processes, KAMs team, care team, no commission, weekly payments, data transparency, specialist player' is highlighted."}
+      ],
+      "says": "will give the motivation to the seller to start selling on Revive.",
+      "why": "The trainer says presenting the assets motivates the seller to start selling on Revibe."
+    },
+    {
+      "at": "05:05",
+      "screen": "Onboarding process table, deck page 2 (cursor moving to thumbnail 3)",
+      "action": "Returns to the seller after onboarding; the deck still shows page 2 at this moment.",
+      "evidence": [
+        {"kind": "say", "at": "05:07", "quote": "going back to the seller so if most of the quality is good we will onboard him"},
+        {"kind": "see", "at": "05:05", "frame": "t00305", "quote": "Onboarding process table still on screen (page 2), cursor on thumbnail 3."}
+      ],
+      "says": "if most of the quality is good we will onboard him"
+    },
+    {
+      "at": "05:15",
+      "screen": "Sellers' journey, deck page 7",
+      "action": "Introduces the Buybox channel, with the cursor moving over the country flags.",
+      "evidence": [
+        {"kind": "say", "at": "05:15", "quote": "then based on this he will have two ways to get orders the first one buy box the"},
+        {"kind": "say", "at": "05:19", "quote": "historical way to get orders this is very simple the seller will just have to put prices on"},
+        {"kind": "see", "at": "05:22", "frame": "t00322", "quote": "Page 7 with the Buybox box and its three country flags visible; cursor on the Onboarded label."},
+        {"kind": "see", "at": "05:39", "frame": "t00339", "quote": "Page 7, Buybox box; cursor on the third flag."}
+      ],
+      "says": "the first one buy box the historical way to get orders"
+    },
+    {
+      "at": "05:39",
+      "screen": "Sellers' journey, deck page 7 (Fulfillment App not yet on screen)",
+      "action": "Says the second channel is the Fulfillment App. The Fulfillment App slide with its text highlighted appears on page 8 at 05:48.",
+      "evidence": [
+        {"kind": "say", "at": "05:39", "quote": "the second way to get orders is through the fulfillment app here the seller will set prices and"},
+        {"kind": "see", "at": "05:39", "frame": "t00339", "quote": "Page 7 still on screen, Buybox with cursor on the third flag."},
+        {"kind": "see", "at": "05:48", "frame": "t00348", "quote": "Page 8: Fulfillment App box with text 'prices and quantities for fulfillment shipping' highlighted; two country flags shown."}
+      ],
+      "says": "the second way to get orders is through the fulfillment app"
+    },
+    {
+      "at": "05:48",
+      "screen": "Sellers' journey, deck page 8",
+      "action": "Says Saudi is excluded from fulfillment shipping, with the Fulfillment App box on screen.",
+      "evidence": [
+        {"kind": "say", "at": "05:56", "quote": "that say saudi is excluded from this process because Revive does not handle the shipment in Saudi."},
+        {"kind": "see", "at": "05:48", "frame": "t00348", "quote": "Page 8 with Fulfillment App box and its UAE and South Africa flags; the Saudi exclusion is not shown on the slide."}
+      ],
+      "says": "saudi is excluded from this process because Revive does not handle the shipment in Saudi.",
+      "why": "The trainer says Revibe does not handle shipment in Saudi."
+    },
+    {
+      "at": "06:05",
+      "screen": "Sellers' journey, deck page 9",
+      "action": "Describes what the seller does in the Revibe App with received orders.",
+      "evidence": [
+        {"kind": "say", "at": "06:05", "quote": "Then the sellers will receive orders and through the Revive app they will be able to manage the"},
+        {"kind": "say", "at": "06:11", "quote": "orders received, interact with the Revive team, check their invoices and payments, manage also warranties and returns."},
+        {"kind": "see", "at": "06:05", "frame": "t00365", "quote": "Page 9 ('Page 9 sur 11'), Revibe App box highlighted with bullets Manage orders received, Interact with Revibe team, Invoices and payments, Manage warranties / returns."}
+      ],
+      "says": "orders received, interact with the Revive team, check their invoices and payments, manage also warranties and returns."
+    },
+    {
+      "at": "06:20",
+      "screen": "Sellers' journey, deck page 10",
+      "action": "Describes the Seller portal, with its text highlighted.",
+      "evidence": [
+        {"kind": "say", "at": "06:20", "quote": "At the end they will get access to their portal from where they can check their dashboard, get"},
+        {"kind": "say", "at": "06:28", "quote": "access to all the apps and get access to all the trainings provided by {revive?} please note that"},
+        {"kind": "see", "at": "06:21", "frame": "t00381", "quote": "Page 10 ('Page 10 sur 11'): Seller portal box with bullets Dashboard, Get access to all apps, Get access to all trainings and the dashboard screenshot."},
+        {"kind": "see", "at": "06:23", "frame": "t00383", "quote": "Same page 10 with the 'Seller portal' heading text-selected."}
+      ],
+      "says": "access to all the apps and get access to all the trainings"
+    },
+    {
+      "at": "06:34",
+      "screen": "Sellers' journey, deck page 11",
+      "action": "Explains the scoring system and points at the 'Score affecting prices' label.",
+      "evidence": [
+        {"kind": "say", "at": "06:34", "quote": "through this dashboard we have a scoring system that affects the prices of the seller this is almost"},
+        {"kind": "see", "at": "06:35", "frame": "t00395", "quote": "Page 11: 'Score affecting prices' label text-selected at the top; arrows run from Seller portal back to Buybox and to Fulfillment App."}
+      ],
+      "says": "through this dashboard we have a scoring system that affects the prices of the seller"
+    },
+    {
+      "at": "06:40",
+      "screen": "Sellers' journey, deck page 11",
+      "action": "Closes by telling the KAM to explain the ecosystem clearly to sellers.",
+      "evidence": [
+        {"kind": "say", "at": "06:47", "quote": "for you to understand it to be able to explain it in a very clear way to the"},
+        {"kind": "say", "at": "07:02", "quote": "Thank you so much for watching this first video."},
+        {"kind": "see", "at": "06:55", "frame": "t00415", "quote": "Sellers' journey page 11 still on screen, 'Score affecting prices' label text-selected."}
+      ],
+      "says": "for you to understand it to be able to explain it in a very clear way to the"
+    }
+  ],
+  "facts": [
+    {
+      "type": "definition",
+      "statement": "The seller ecosystem in the deck is split into two parts: Onboarding (left) and Journey (right).",
+      "evidence": [
+        {"kind": "say", "at": "00:18", "quote": "As you can see, the seller ecosystem is split in two parts."},
+        {"kind": "see", "at": "00:00", "frame": "t00000", "quote": "Headings 'Onboarding' and 'Journey' above the two column boxes."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "The Onboarding App covers three things the seller completes: legal clearance, Revibe terms and conditions, and quality guidelines.",
+      "evidence": [
+        {"kind": "say", "at": "00:29", "quote": "the onboarding app where seller will have to"},
+        {"kind": "say", "at": "00:35", "quote": "clear some legal documentation, will get access to {revived?} terms and conditions and also to our quality guidelines."},
+        {"kind": "see", "at": "00:20", "frame": "t00020", "quote": "Onboarding App box lists: Legal clearance, Revibe terms and conditions, Quality guidelines."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "In the Quality check step, the seller sends between 20 and 30 pieces to the Revibe lab (shown as 'Send 20/30 pieces to our lab').",
+      "evidence": [
+        {"kind": "say", "at": "03:09", "quote": "At this part, they will send us some pieces, let's say between 20 and 30 so that we"},
+        {"kind": "say", "at": "00:43", "quote": "Then through another app, the fulfillment app, sellers will have to send between 20, 30 pieces to our"},
+        {"kind": "see", "at": "00:00", "frame": "t00000", "quote": "Quality check box: 'Send 20/30 pieces to our lab' and 'Quality check'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "The purpose of the quality check is to make sure the seller's quality is aligned with Revibe's standard, so the seller can start on a healthy basis.",
+      "evidence": [
+        {"kind": "say", "at": "00:49", "quote": "lab {so?} that we'll proceed with some quality check to make sure their quality is aligned with our"},
+        {"kind": "say", "at": "00:55", "quote": "standard and that they can start then on a healthy basis."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "If most of the products sent for quality check are rejected, the seller cannot proceed with the application.",
+      "evidence": [
+        {"kind": "say", "at": "00:58", "quote": "If most of the products are rejected, then the seller could not proceed with this application."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The seller is onboarded when the quality is good. The narration also says that if most of the quality is good the seller is onboarded.",
+      "evidence": [
+        {"kind": "say", "at": "01:04", "quote": "If the quality is good, the seller will get onboarded."},
+        {"kind": "say", "at": "05:07", "quote": "going back to the seller so if most of the quality is good we will onboard him"},
+        {"kind": "see", "at": "00:00", "frame": "t00000", "quote": "Arrow labelled 'Onboarded - If quality is good' and red 'Rejected - If quality is not good'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "policy",
+      "statement": "The main goal of the KAM role is to create a relationship with the seller and talk to them on a regular basis.",
+      "evidence": [
+        {"kind": "say", "at": "01:15", "quote": "Actually, this is the main goal of your key account manager's role."},
+        {"kind": "say", "at": "01:20", "quote": "I'm expecting you to create relationship with the seller, to talk with them on a regular basis."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "The Interview step of onboarding lasts 1h.",
+      "evidence": [
+        {"kind": "see", "at": "01:30", "frame": "t00090", "quote": "Onboarding process table, Interview row, duration '1h'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "During the interview the KAM learns the seller's business: supply origin, experience in retail, warranty policy, technical team (in-house or externalized refurbishment process), and online experience.",
+      "evidence": [
+        {"kind": "see", "at": "01:30", "frame": "t00090", "quote": "Interview row text: 'Understanding business, supply origin, experience in retail, warranty policy, technical team, inhouse or externalized refurbishment process, online experience, etc.'"},
+        {"kind": "say", "at": "01:50", "quote": "do they have some technical team in-house, or {Or?} do they have like only externalized partner to"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "In the interview the KAM asks which platforms the seller operates, where supply comes from, whether the seller sells B2B, B2C or both, the warranty policy the seller offers its own sellers, and whether the seller refurbishes or only grades devices.",
+      "evidence": [
+        {"kind": "say", "at": "01:32", "quote": "what platforms are they also operating, where is their supply coming from, do they have experience in retail,"},
+        {"kind": "say", "at": "01:42", "quote": "do they do only B2B, B2C, both, what is the warranty policy they currently offer to their sellers,"},
+        {"kind": "say", "at": "02:00", "quote": "And also, by the way, do they do refurbishing or do they do only grading of the devices?"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "tip",
+      "statement": "The interview questions help the KAM judge whether the seller has good experience and good potential, and they show the seller that the KAM masters the topic and is interested in the seller's business.",
+      "evidence": [
+        {"kind": "say", "at": "02:06", "quote": "All these questions will enable you to understand who is your seller, if he has a good experience,"},
+        {"kind": "say", "at": "02:16", "quote": "And on top of that, this will show to your seller that you are mastering this topic, that"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "tip",
+      "statement": "During the interview the KAM presents Revibe's main assets: orders, simple processes, KAMs team, care team, no commission, weekly payments, data transparency, and specialist player.",
+      "evidence": [
+        {"kind": "see", "at": "04:05", "frame": "t00245", "quote": "Interview row text: 'Present Revibe main assets: orders, simple processes, KAMs team, care team, no commission, weekly payments, data transparency, specialist player..'"},
+        {"kind": "say", "at": "04:01", "quote": "is also something very important in your role of key account manager why because Because through this, you"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Revibe's care team is based in Egypt and its agents build relationships between customers and sellers.",
+      "evidence": [
+        {"kind": "say", "at": "04:29", "quote": "simple processes, a full team of {camps?} dedicated to him, a care team also based in Egypt with"},
+        {"kind": "say", "at": "04:37", "quote": "agents that are here to create relationships between the customers and the sellers {and?} through smooth operational process"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "tip",
+      "statement": "Revibe presents itself as a specialist player, which the trainer names as the main difference versus players such as noon and Amazon.",
+      "evidence": [
+        {"kind": "say", "at": "04:55", "quote": "that we are a specialist player which"},
+        {"kind": "say", "at": "05:01", "quote": "is the main difference that we have versus players like noon and amazon"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "policy",
+      "statement": "Revibe pays sellers on a weekly basis.",
+      "evidence": [
+        {"kind": "say", "at": "04:46", "quote": "talk to him about our commission system the fact that we pay them on a weekly basis"},
+        {"kind": "see", "at": "04:05", "frame": "t00245", "quote": "Interview row text includes 'weekly payments'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "tip",
+      "statement": "Revibe provides very transparent data to help sellers improve.",
+      "evidence": [
+        {"kind": "say", "at": "04:55", "quote": "that we provide very transparent data to help them improve and that we are a specialist player which"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Legal & admin clearance is mostly automatic, though the KAM may need to guide the seller to sign or review documents.",
+      "evidence": [
+        {"kind": "say", "at": "02:29", "quote": "as i mentioned they will go through some legal and administration clearance this process is quite automatic"},
+        {"kind": "say", "at": "02:43", "quote": "need {to?} review this one but most of it is automatic."},
+        {"kind": "see", "at": "02:30", "frame": "t00150", "quote": "Legal & admin clearance row shows 'Auto'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Revibe expects exactly five documents from sellers: the Revibe seller agreement, trading license, VAT registration certificate, Emirates ID, and bank details.",
+      "evidence": [
+        {"kind": "say", "at": "02:48", "quote": "The seller will have to provide the seller agreement signed, his trading license, his VAT registration certificate,"},
+        {"kind": "say", "at": "02:56", "quote": "his Emirates ID, and bank details."},
+        {"kind": "say", "at": "02:59", "quote": "These are the only five documents that we expect from the sellers."},
+        {"kind": "see", "at": "02:50", "frame": "t00170", "quote": "Legal & admin clearance row: 'Revibe seller agreement, trading license, VAT registration certificate, Emirates ID, bank details'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "After legal and admin clearance, the seller moves on to the quality check.",
+      "evidence": [
+        {"kind": "say", "at": "03:03", "quote": "Then, as I mentioned, they will go to the next steps, which is the quality check."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "number",
+      "statement": "The Reception & quality check step takes 2 days and covers inspection of devices, feedback given to the seller, and inbounding.",
+      "evidence": [
+        {"kind": "see", "at": "03:15", "frame": "t00195", "quote": "Reception & quality check row: '2 days', 'Inspection of devices, feedback given to seller, inbounding'."},
+        {"kind": "say", "at": "03:15", "quote": "we will inspect them we will give them feedback and"},
+        {"kind": "say", "at": "03:20", "quote": "we will inbound if the majority of the quality is good"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "The Account creation & sales step takes 1h and creates all Revibe tools access and launches sales.",
+      "evidence": [
+        {"kind": "see", "at": "03:24", "frame": "t00204", "quote": "Account creation & sales row: '1h', 'Creation of all Revibe tools access + sales launch'."},
+        {"kind": "say", "at": "03:27", "quote": "full account of the seller you will get access to some trainings almost the same that you will"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Trainings take 1 day and cover Buybox, Dashboard, Orders app, Claims app, and Fulfillment app.",
+      "evidence": [
+        {"kind": "see", "at": "03:27", "frame": "t00204", "quote": "Trainings row: '1 day', 'Buybox, Dashboard, Orders app, Claims app, Fulfillment app'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "The Trial period lasts 2 weeks and includes close monitoring, regular Q&A and training sessions.",
+      "evidence": [
+        {"kind": "see", "at": "03:44", "frame": "t00224", "quote": "Trial period row: '2 weeks', 'Close monitoring, regular Q&A and training sessions'."},
+        {"kind": "say", "at": "03:33", "quote": "get access to and then he will start with like a kind of trial period which is just"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "During the trial period the KAM is expected to train the seller, make sure the seller understands the processes and Revibe's main assets, and make sure the seller complies with the operation guidelines.",
+      "evidence": [
+        {"kind": "say", "at": "03:39", "quote": "the period during which at the beginning we {i?} we expect you to train the sellers make sure"},
+        {"kind": "say", "at": "03:46", "quote": "that they understand the processes make sure that they understand revive main assets as well and make sure"},
+        {"kind": "say", "at": "03:54", "quote": "that they comply with the operation guidelines we provide them by the way talking about revive {main?} assets"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "tip",
+      "statement": "The KAM must show the seller that Revibe can get a significant volume of orders. The narration also says the seller must consider Revibe 'a bigger set' for him, a phrase whose meaning is unclear.",
+      "evidence": [
+        {"kind": "say", "at": "04:23", "quote": "So you will have to show him that we can get significant volume of orders, that we have"},
+        {"kind": "say", "at": "04:18", "quote": "The seller from the very beginning must consider that Revive is a bigger set for him."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The Buybox channel is the historical way to get orders: the seller puts a price on every SKU they want to sell, and these prices give orders for direct shipping in Saudi, UAE, South Africa and the new markets Revibe is opening.",
+      "evidence": [
+        {"kind": "say", "at": "05:15", "quote": "then based on this he will have two ways to get orders the first one buy box the"},
+        {"kind": "say", "at": "05:19", "quote": "historical way to get orders this is very simple the seller will just have to put prices on"},
+        {"kind": "say", "at": "05:25", "quote": "every single SKU he wants to sell and these prices will enable him to get orders for direct"},
+        {"kind": "say", "at": "05:32", "quote": "shipping in saudi uae south africa and also in the new markets that we are opening right now"},
+        {"kind": "see", "at": "05:22", "frame": "t00322", "quote": "Buybox box 'Set prices for direct shipping' with three country flags."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The Fulfillment App channel is the second way to get orders: the seller sets prices and quantities for fulfillment shipping, only in UAE and South Africa.",
+      "evidence": [
+        {"kind": "say", "at": "05:39", "quote": "the second way to get orders is through the fulfillment app here the seller will set prices and"},
+        {"kind": "say", "at": "05:46", "quote": "also quantities for fulfillment shipping but only in uae and south africa and {countries?} we are opening meaning"},
+        {"kind": "see", "at": "05:48", "frame": "t00348", "quote": "Fulfillment App box 'Set prices and quantities for fulfillment shipping' with two country flags (UAE and South Africa)."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "Saudi Arabia is excluded from fulfillment shipping because Revibe does not handle shipment in Saudi.",
+      "evidence": [
+        {"kind": "say", "at": "05:56", "quote": "that say saudi is excluded from this process because Revive does not handle the shipment in Saudi."},
+        {"kind": "see", "at": "05:48", "frame": "t00348", "quote": "Fulfillment App shows only UAE and South Africa flags."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "In the Revibe App the seller manages orders received, interacts with the Revibe team, checks invoices and payments, and manages warranties and returns.",
+      "evidence": [
+        {"kind": "say", "at": "06:05", "quote": "Then the sellers will receive orders and through the Revive app they will be able to manage the"},
+        {"kind": "say", "at": "06:11", "quote": "orders received, interact with the Revive team, check their invoices and payments, manage also warranties and returns."},
+        {"kind": "see", "at": "06:05", "frame": "t00365", "quote": "Revibe App bullets: Manage orders received, Interact with Revibe team, Invoices and payments, Manage warranties / returns."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "The Seller portal gives the seller a dashboard, access to all apps, and access to all trainings.",
+      "evidence": [
+        {"kind": "say", "at": "06:20", "quote": "At the end they will get access to their portal from where they can check their dashboard, get"},
+        {"kind": "say", "at": "06:28", "quote": "access to all the apps and get access to all the trainings provided by {revive?} please note that"},
+        {"kind": "see", "at": "06:21", "frame": "t00381", "quote": "Seller portal bullets: Dashboard, Get access to all apps, Get access to all trainings."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "A scoring system shown on the seller dashboard affects the seller's prices, feeding back to Buybox and Fulfillment App ('Score affecting prices').",
+      "evidence": [
+        {"kind": "say", "at": "06:34", "quote": "through this dashboard we have a scoring system that affects the prices of the seller this is almost"},
+        {"kind": "see", "at": "06:35", "frame": "t00395", "quote": "'Score affecting prices' arrows run from Seller portal back to Buybox and to Fulfillment App."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "tip",
+      "statement": "The KAM must understand the whole seller journey and Revibe ecosystem well enough to explain it clearly to sellers, so they see that the apps and processes are there to support them.",
+      "evidence": [
+        {"kind": "say", "at": "06:47", "quote": "for you to understand it to be able to explain it in a very clear way to the"},
+        {"kind": "say", "at": "06:57", "quote": "with processes that make sense and that are here to support them."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    }
+  ],
+  "asr_fixes": [
+    {
+      "at": "04:10",
+      "heard": "Revive",
+      "correct": "Revibe",
+      "basis": "The deck logo and body text read 'Revibe' (frame t00000, and 'Revibe terms and conditions' on frames t00020 and t00040). The narrator says 'Revive' for the brand on several lines after 03:46."
+    },
+    {
+      "at": "00:35",
+      "heard": "{revived?}",
+      "correct": "Revibe",
+      "basis": "Frame t00040 shows 'Revibe terms and conditions' highlighted in the Onboarding App box."
+    },
+    {
+      "at": "04:29",
+      "heard": "{camps?}",
+      "correct": "KAMs",
+      "basis": "Frame t00090 (and t00245), Interview row: 'Present Revibe main assets: orders, simple processes, KAMs team, care team...'."
+    },
+    {
+      "at": "05:15",
+      "heard": "buy box",
+      "correct": "Buybox",
+      "basis": "Frame t00322 and frame t00000 show the box labelled 'Buybox'."
+    },
+    {
+      "at": "06:28",
+      "heard": "{revive?}",
+      "correct": "Revibe",
+      "basis": "Revibe spelling on the deck logo and in the Revibe App box (frame t00365) and the Revibe App and Seller portal boxes."
+    },
+    {
+      "at": "05:56",
+      "heard": "Revive",
+      "correct": "Revibe",
+      "basis": "Deck logo reads 'REVIBE' on frame t00348 (page 8). Narration says 'Revive does not handle the shipment in Saudi'."
+    }
+  ],
+  "unclear": [
+    {
+      "at": "00:43",
+      "issue": "The narrator says 'Then through another app, the fulfillment app, sellers will have to send between 20, 30 pieces'. On screen the Quality check box sits in the Onboarding column (frames t00000, t00040), and the Fulfillment App is a separate Journey box with no quality check. Which app runs the quality check cannot be confirmed from the video."
+    },
+    {
+      "at": "04:46",
+      "issue": "Conflict between screen and narration on commission. Slide 2 (frame t00090) lists 'no commission' among Revibe's main assets, but the narrator says 'talk to him about our commission system the fact that we pay them on a weekly basis'. Whether Revibe charges a commission cannot be determined from this video."
+    },
+    {
+      "at": "00:22",
+      "issue": "The narrator says 'One temporary part, the onboarding part and usual seller journey.' The slide headings are 'Onboarding' and 'Journey' and nothing on screen says the onboarding part is temporary, so the word 'temporary' cannot be confirmed."
+    },
+    {
+      "at": "04:18",
+      "issue": "The narrator says 'Revive is a bigger set for him.' The phrase is unclear (possibly a mis-hearing) and is not on screen, so the intended meaning cannot be stated."
+    },
+    {
+      "at": "05:46",
+      "issue": "The narrator says 'and {countries?} we are opening', and the new markets are never named in the video or on screen, so which countries are meant is unknown."
+    },
+    {
+      "at": "06:28",
+      "issue": "The scoring system is mentioned and its arrows appear on slide 11 (frames t00395, t00415), but neither the narration nor the screen says how the score is calculated or how much it changes prices."
+    },
+    {
+      "at": "03:20",
+      "issue": "Narration says the seller is onboarded if 'the majority of the quality is good' (03:20) or 'most of the products' are rejected (00:58), while the slide only says 'If quality is good' and 'If quality is not good'. The exact threshold is not shown on screen."
+    }
+  ],
+  "outdated": [
+    {
+      "at": "00:00",
+      "signal": "Every slide footer reads 'Copyright © 2024' (frame t00000), so the deck is dated 2024 and may not match the current process."
+    },
+    {
+      "at": "05:32",
+      "signal": "The narrator says 'the new markets that we are opening right now' and does not name them, so this is time-bound and may be out of date."
+    }
+  ],
+  "privacy": [],
+  "audit": {
+    "checked": 82,
+    "removed": [],
+    "corrected": [
+      {"before": "summary: 'Pierre walks through'", "after": "summary: 'The trainer walks through'", "reason": "The name Pierre is not in the transcript or on screen; the speaker is only identified as the trainer."},
+      {"before": "screen 1 'at' listed page 8 at t00339 and page 10 at t00370", "after": "page 8 at t00348, page 9 at t00365, page 10 at t00381, page 11 at t00415", "reason": "Checked frames: t00339 shows page 7 (Buybox, cursor on third flag), t00370 shows page 9 (Revibe App), and page 8 Fulfillment is on t00348."},
+      {"before": "step 01:10 frame t00090 'Onboarding process table'", "after": "frame t00070 shows page 1 still on screen at 01:10; the page 2 table is first visible at t00090 (01:30)", "reason": "The slide change to page 2 happens after the 01:10 narration line."},
+      {"before": "step 01:12 screen 'Onboarding process table, deck page 2'", "after": "screen 'page 1 still on screen at 01:12'", "reason": "Frame t00070 shows page 1 at that time."},
+      {"before": "step 05:05 screen 'deck page 3' with frame t00187", "after": "screen page 2 with frame t00305 (cursor on thumbnail 3)", "reason": "t00187 is a 03:07 frame showing page 3. At 05:05 the deck still shows page 2."},
+      {"before": "step 05:15 frame t00322 'cursor on third flag'", "after": "t00322 shows page 7 Buybox with cursor on the Onboarded label; the third-flag cursor is on t00339", "reason": "Checked each frame directly."},
+      {"before": "step 05:39 frame t00339 'Fulfillment App box highlighted'", "after": "t00339 shows page 7 Buybox; the Fulfillment App highlight is on t00348 (page 8, 05:48)", "reason": "Frame content did not match the claim."},
+      {"before": "step 05:48 'deck page 9 with Revibe App highlighted', frame t00348", "after": "page 8, Fulfillment App text highlighted on t00348", "reason": "t00348 shows page 8 (Fulfillment App); Revibe App is on page 9 (t00365)."},
+      {"before": "step 06:10 'deck page 10', frame t00370", "after": "t00370 is page 9 (Revibe App, cursor on bullet); page 10 Seller portal appears on t00381", "reason": "Page number and frame content did not match."},
+      {"before": "step 06:20 'Seller portal box highlighted' frame t00381", "after": "t00381 shows page 10 with the Seller portal box but no text selection; the 'Seller portal' heading is text-selected on t00383", "reason": "Highlight is on a different frame."},
+      {"before": "step 06:34 frame t00383 'Score affecting prices highlighted'", "after": "frame t00395 (06:35) shows page 11 with 'Score affecting prices' text-selected; t00383 is page 10", "reason": "t00383 shows page 10 with Seller portal selected, not the score label."},
+      {"before": "fact 'Implied: in the interview the KAM also asks ...' with confidence medium", "after": "stated as narrated, without the 'Implied:' prefix, confidence high", "reason": "The narrator explicitly asks these questions at 01:32, 01:42 and 02:00, so it is not an implication."},
+      {"before": "fact 'Trainings... KAM must show ... treats Revibe as a bigger opportunity' (tip at 04:18)", "after": "statement limited to 'show a significant volume of orders' and the 'bigger set' wording is flagged as unclear", "reason": "'Bigger opportunity' is not in the narration; 'bigger set' is unclear speech."},
+      {"before": "fact Saudi warning evidence frame t00339", "after": "evidence frame t00348 (page 8, UAE and South Africa flags)", "reason": "t00339 is page 7 Buybox."},
+      {"before": "fact score evidence frame t00383", "after": "evidence frame t00395 (page 11)", "reason": "t00383 is page 10 (Seller portal)."},
+      {"before": "fact Quality check evidence first line 00:43 'fulfillment app'", "after": "first evidence line changed to 03:09 ('between 20 and 30'); the 00:43 'fulfillment app' wording moved to unclear", "reason": "The screen places Quality check in the Onboarding column, so the 'fulfillment app' wording is a narration conflict, not a fact."},
+      {"before": "asr_fix 04:10 basis 'slide 2 Revibe terms and conditions'", "after": "basis 'frames t00020 and t00040' for Revibe terms and conditions", "reason": "That text is on the page 1 Onboarding App box, not slide 2."},
+      {"before": "screen 3 at '00:00-07:03 (slides 1, 3, 10)'", "after": "pages 1, 3, 10 (frames t00000, t00187, t00381)", "reason": "Frame references made explicit."}
+    ],
+    "added": [
+      "fact: quality check purpose is to ensure quality is aligned with Revibe standard (00:49-00:55)",
+      "fact: after legal and admin clearance, sellers move to the quality check (03:03)",
+      "unclear: 00:43 narrator says 'fulfillment app' for the quality check, which the screen places in the Onboarding column",
+      "asr_fix: 05:56 'Revive' to 'Revibe' (deck logo on t00348)"
+    ]
+  }
+}

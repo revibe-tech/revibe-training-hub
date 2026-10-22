@@ -1,0 +1,1230 @@
+{
+  "summary": "Part 1 of 2 of \"10.0 Quality guidelines (Seller & KAMs)\" (00:00-03:57). Pierre walks through Revibe's Phones, tablets & watches quality guidelines deck: why the guidelines exist, the three grades (Excellent, Very good, Good), general and grade rules (hardware, screen, body, battery, camera dots, plug), parts rules, the functions deep dive, screen acceptance, and the banned-elements and claims-penalty policy. All 40 pack-1 frames were opened and each cited frame was matched to its caption and content. Many frame citations in the pack were off by one or two frames; they are corrected in audit.corrected. Narration-versus-screen conflicts are logged as unclear rather than stated as facts, including a new one: the Cameras row shows max 2 small dots for Very good and Good, while the grading table and narration say one for Very good.",
+  "frames_opened": 40,
+  "steps": [
+    {
+      "at": "00:01",
+      "screen": "Title card 'REVIBE · QUALITY GUIDELINES' ('Quality rules & claims', subtitle 'What every grade must meet, and what triggers a penalty')",
+      "action": "Opens the Revibe quality guidelines deck and introduces it",
+      "says": "In this video, I'll walk you through Revibe's quality guidelines.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "00:01", "quote": "In this video, I'll walk you through Revibe's quality guidelines."},
+        {"kind": "see", "at": "00:01", "frame": "t00001", "quote": "Title card 'REVIBE · QUALITY GUIDELINES', title 'Quality rules & claims', subtitle 'What every grade must meet, and what triggers a penalty'"}
+      ]
+    },
+    {
+      "at": "00:05",
+      "screen": "Quality guidelines deck viewer, page 1, caption 'Written for our sellers', bottom bar '1 · WHY QUALITY GUIDELINES'",
+      "action": "Says these are the quality guidelines",
+      "says": "These are our quality guidelines.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "00:05", "quote": "These are our quality guidelines."},
+        {"kind": "see", "at": "00:08", "frame": "t00008", "quote": "Viewer page 1, 'Phones, tablets & watches - Quality guidelines' grading table; bottom bar '1 · WHY QUALITY GUIDELINES'; caption 'Written for our sellers'"}
+      ]
+    },
+    {
+      "at": "00:15",
+      "screen": "Page 1 grading table, column headers Excellent / Very good / Good",
+      "action": "Points at the three grade columns",
+      "says": "The guidelines are split by grade, excellent, very good, and good.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "00:15", "quote": "The guidelines are split by grade, excellent, very good, and good."},
+        {"kind": "see", "at": "00:16", "frame": "t00016", "quote": "Caption 'Three grades'; cursor on the Excellent header"}
+      ]
+    },
+    {
+      "at": "00:20",
+      "screen": "Page 1, General guidelines: Hardware row",
+      "action": "Points at the Hardware row (100% fully functional)",
+      "says": "As a general rule, every device must be 100% functional, just like a new one.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "00:20", "quote": "As a general rule, every device must be 100% functional, just like a new one."},
+        {"kind": "see", "at": "00:21", "frame": "t00021", "quote": "Caption 'Every device: 100% functional'; Hardware row '100% fully functional' spanning all grades"}
+      ]
+    },
+    {
+      "at": "00:27",
+      "screen": "Page 1, caption 'Every device: 100% functional'",
+      "action": "Says the rules reflect the spirit of the guidelines",
+      "says": "That's the spirit of these guidelines.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "00:27", "quote": "That's the spirit of these guidelines."},
+        {"kind": "see", "at": "00:21", "frame": "t00021", "quote": "Caption 'Every device: 100% functional'"}
+      ]
+    },
+    {
+      "at": "00:29",
+      "screen": "Page 1, Screen / Body / Battery rows highlighted",
+      "action": "Highlights the Screen, Body and Battery rows to show what is allowed to differ between grades",
+      "says": "The difference from a new device must never be in the features, only in small details like battery health or physical condition.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "00:29", "quote": "The difference from a new device must never be in the features, only in small details like battery"},
+        {"kind": "say", "at": "00:35", "quote": "health or physical condition."},
+        {"kind": "see", "at": "00:28", "frame": "t00028", "quote": "Caption 'Differences: condition & battery only'; Screen, Body and Battery rows highlighted"}
+      ]
+    },
+    {
+      "at": "00:37",
+      "screen": "Page 1, Screen row highlighted (caption 'Screen')",
+      "action": "Highlights the Screen row and states the excellent and very good screen rule",
+      "says": "For the screen, excellent and very good must show no sign of use.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "00:37", "quote": "For the screen, excellent and very good must show no sign of use."},
+        {"kind": "see", "at": "00:38", "frame": "t00038", "quote": "Caption 'Screen'; Screen row highlighted: 'No sign of use' (Excellent and Very good) and 'Slight scratches may be visible, but they do not interfere when the appliance is switched on' (Good)"}
+      ]
+    },
+    {
+      "at": "00:48",
+      "screen": "Page 1, Body row highlighted (caption 'Body')",
+      "action": "Highlights the Body row and states the excellent body rule",
+      "says": "For the body, excellent means no sign of use.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "00:48", "quote": "For the body, excellent means no sign of use."},
+        {"kind": "see", "at": "00:49", "frame": "t00049", "quote": "Caption 'Body'; Body row highlighted: 'No sign of use' (Excellent), 'May have a few light scratches that are not visible at first glance unless you look closely. Small' (Very good and Good)"}
+      ]
+    },
+    {
+      "at": "01:01",
+      "screen": "Page 1, Battery row",
+      "action": "Points at the battery minimums per grade",
+      "says": "Minimum battery health is 95% for excellent, 90 for very good, and 85 for good.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "01:01", "quote": "Minimum battery health is 95% for excellent, 90 for very good, and 85 for good."},
+        {"kind": "see", "at": "01:01", "frame": "t00061", "quote": "Battery row: '95% battery health minimum + match 3utool', '90% battery health minimum + match 3utool', '85% battery health minimum + match 3utool'"}
+      ]
+    },
+    {
+      "at": "01:07",
+      "screen": "Page 1, Battery row (3utool named in the row text)",
+      "action": "Says the battery is checked with 3utool",
+      "says": "We check it with 3U tools, a free tool every seller can use.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "01:07", "quote": "We check it with 3U tools, a free tool every seller can use."},
+        {"kind": "see", "at": "01:01", "frame": "t00061", "quote": "'match 3utool' printed in each battery cell"}
+      ]
+    },
+    {
+      "at": "01:12",
+      "screen": "Page 1, Camera dot row (caption 'Camera dots: 0 / 1 / 2 max')",
+      "action": "Explains how to check camera dots, then points at the camera dot limits per grade",
+      "says": "To check camera dots, switch to portrait mode and point the camera at white paper or a white wall. Excellent allows none, very good one at most, and good up to two small dots.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "01:12", "quote": "To check camera dots, switch to portrait mode and point the camera at white paper or a white"},
+        {"kind": "say", "at": "01:17", "quote": "wall."},
+        {"kind": "say", "at": "01:18", "quote": "Excellent allows none, very good one at most, and good up to two small dots."},
+        {"kind": "see", "at": "01:13", "frame": "t00073", "quote": "Caption 'Camera dots: 0 / 1 / 2 max'; Camera dot row: 'None' (Excellent), '1 small maximum' (Very good), '2 small maximum' (Good)"}
+      ]
+    },
+    {
+      "at": "01:24",
+      "screen": "Page 1, Plug / socket type row (caption 'Plug must fit the country')",
+      "action": "Points at the plug row",
+      "says": "The plug or socket type must match the country's specs.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "01:24", "quote": "The plug or socket type must match the country's specs."},
+        {"kind": "see", "at": "01:26", "frame": "t00086", "quote": "Caption 'Plug must fit the country'; Plug / socket type row: 'Must fit country specs' across all grades"}
+      ]
+    },
+    {
+      "at": "01:27",
+      "screen": "Page 1, Plug row (caption 'Plug must fit the country')",
+      "action": "Extends the plug rule to laptops",
+      "says": "That applies to laptops, too.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "01:27", "quote": "That applies to laptops, too."},
+        {"kind": "see", "at": "01:26", "frame": "t00086", "quote": "Plug / socket type row still reads 'Must fit country specs'; no laptop content on screen"}
+      ]
+    },
+    {
+      "at": "01:30",
+      "screen": "Page 1, Parts section, Display row (caption 'Display: original or DD on Excellent')",
+      "action": "Points at the Display row and states the display rule by grade",
+      "says": "For parts, an excellent device needs an original or DD display. On Very Good and Good, a high-quality copy is accepted.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "01:30", "quote": "For parts, an excellent device needs an original or DD display."},
+        {"kind": "say", "at": "01:38", "quote": "On Very Good and Good, a high-quality copy is accepted."},
+        {"kind": "see", "at": "01:32", "frame": "t00092", "quote": "Caption 'Display: original or DD on Excellent'; Display row: 'Original or DD' (Excellent), 'High quality copy accepted' (Very good and Good)"}
+      ]
+    },
+    {
+      "at": "01:34",
+      "screen": "Page 1, Parts section",
+      "action": "Explains DD",
+      "says": "DD is a type of copy LCD some suppliers use on phones.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "01:34", "quote": "DD is a type of copy LCD some suppliers use on phones."}
+      ]
+    },
+    {
+      "at": "01:43",
+      "screen": "Page 1, Parts section: merged cell Glass / Cover / Buttons / Others (caption 'No non-original part message')",
+      "action": "Highlights the merged parts cell and the no-message text",
+      "says": "Glass, cover, and buttons can also be high-quality copies, but the device must never show a message about non-original parts.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "01:43", "quote": "Glass, cover, and buttons can also be high-quality copies, but the device must never show a message"},
+        {"kind": "say", "at": "01:49", "quote": "about non-original parts."},
+        {"kind": "see", "at": "01:44", "frame": "t00104", "quote": "Merged cell spanning all grades for Glass, Cover, Buttons, Others: 'High quality copy accepted - no message mentioning the replacement of non-original parts should appear'; caption 'No non-original part message'"}
+      ]
+    },
+    {
+      "at": "01:51",
+      "screen": "Page 1, Parts section, S Pen row (caption 'Samsung S Pen: original only')",
+      "action": "Points at the S Pen row",
+      "says": "On Samsung, the S Pen must be original.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "01:51", "quote": "On Samsung, the S Pen must be original."},
+        {"kind": "see", "at": "01:52", "frame": "t00112", "quote": "Caption 'Samsung S Pen: original only'; 'S Pen (Samsung only)' row: 'Must be original'"}
+      ]
+    },
+    {
+      "at": "01:58",
+      "screen": "Page 1, Parts section, caption 'Samsung S Pen: original only'",
+      "action": "Moves on to the functions section",
+      "says": "Next come the functions.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "01:58", "quote": "Next come the functions."},
+        {"kind": "see", "at": "01:52", "frame": "t00112", "quote": "Caption 'Samsung S Pen: original only'"}
+      ]
+    },
+    {
+      "at": "02:00",
+      "screen": "Page 1, Functions deep dive section (caption 'Same functions for every grade')",
+      "action": "Scrolls the functions deep dive and explains there is no grade difference for most functions",
+      "says": "For almost all of them, there's no difference between grades because everything must be 100% functional.",
+      "why": "Stated by trainer: because everything must be 100% functional.",
+      "evidence": [
+        {"kind": "say", "at": "02:00", "quote": "For almost all of them, there's no difference between grades because everything must be 100% functional."},
+        {"kind": "see", "at": "01:59", "frame": "t00119", "quote": "Caption 'Same functions for every grade'; functions deep dive rows Sim to Temperature"}
+      ]
+    },
+    {
+      "at": "02:05",
+      "screen": "Page 1, Functions deep dive (caption 'Same functions for every grade'), Hardware to Cameras rows visible",
+      "action": "Continues scrolling the functions deep dive",
+      "says": "",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "02:05", "frame": "t00125", "quote": "Caption 'Same functions for every grade'; deep dive rows from Hardware down to Cameras visible; no narration at this point"}
+      ]
+    },
+    {
+      "at": "02:07",
+      "screen": "Page 1, Functions deep dive, Cameras row (caption 'Only exception: camera dots'); no row highlight visible",
+      "action": "Names the camera as the only grade difference in the functions section",
+      "says": "The only difference is the camera, checked in portrait mode, one small that is accepted on very good, and up to two on good.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "02:07", "quote": "The only difference is the camera, checked in portrait mode, one small that is accepted on very good"},
+        {"kind": "say", "at": "02:13", "quote": "and up to two on good."},
+        {"kind": "see", "at": "02:10", "frame": "t00130", "quote": "Caption 'Only exception: camera dots'; Cameras (checked with portrait mode) row: 'All modes must work and max 1 small camera dot accepted' (Excellent), 'All modes must work and max 2 small camera dots accepted' (Very good and Good, one merged cell)"}
+      ]
+    },
+    {
+      "at": "02:15",
+      "screen": "Viewer page 2, 'Which screens we accept' (bottom bar '5 · SCREEN QUALITY')",
+      "action": "Opens page 2 on screen quality and points at the acceptance table",
+      "says": "This page shows which screens we accept. Original and DD screens are fine.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "02:15", "quote": "This page shows which screens we accept."},
+        {"kind": "say", "at": "02:18", "quote": "Original and DD screens are fine."},
+        {"kind": "see", "at": "02:16", "frame": "t00136", "quote": "Caption 'Which screens we accept'; acceptance table: 'Original & DD' ticked for Excellent / Very good and Good; 'GW Good quality' crossed for Excellent / Very good and ticked for Good; 'GW & others Bad quality' crossed"}
+      ]
+    },
+    {
+      "at": "02:20",
+      "screen": "Page 2, 'GW Good quality' and 'GW & others Bad quality' columns, criteria table below",
+      "action": "Explains that replacement screens are split into good and bad quality",
+      "says": "Replacement screens are split into good quality and bad quality.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "02:20", "quote": "Replacement screens are split into good quality and bad quality."},
+        {"kind": "see", "at": "02:23", "frame": "t00143", "quote": "Caption 'Which screens we accept'; acceptance table header outlined; criteria table below with columns GW Good quality and GW & others Bad quality"}
+      ]
+    },
+    {
+      "at": "02:24",
+      "screen": "Page 2, criteria table, GW Good quality column (caption 'A good-quality replacement')",
+      "action": "Walks through the good-quality replacement criteria",
+      "says": "A good quality replacement has a normal size and is thin. The touch is smooth. The backlight is whitish. The sensors work normally.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "02:24", "quote": "A good quality replacement has a normal size and is thin."},
+        {"kind": "say", "at": "02:28", "quote": "The touch is smooth."},
+        {"kind": "say", "at": "02:30", "quote": "The backlight is whitish."},
+        {"kind": "say", "at": "02:31", "quote": "The sensors work normally."},
+        {"kind": "see", "at": "02:25", "frame": "t00145", "quote": "Caption 'A good-quality replacement'; GW Good quality column: Size 'Normal', Thickness 'Thin', Touch 'Smooth', Backlighting 'Whitish', Proximity sensors 'Normal', Keyboard 'Light grey', Physical issues 'Slight heat'"}
+      ]
+    },
+    {
+      "at": "02:33",
+      "screen": "Page 2, criteria table, Keyboard and Physical issues rows (caption 'A good-quality replacement')",
+      "action": "Describes the colour when off and the heat level",
+      "says": "It looks light gray when off. And it only warms slightly. It never overheats.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "02:33", "quote": "It looks light gray when off."},
+        {"kind": "say", "at": "02:34", "quote": "And it only warms slightly."},
+        {"kind": "say", "at": "02:36", "quote": "It never overheats."},
+        {"kind": "see", "at": "02:37", "frame": "t00157", "quote": "Keyboard: 'Light grey' (Good quality); Physical issues: 'Slight heat' (Good quality)"}
+      ]
+    },
+    {
+      "at": "02:39",
+      "screen": "Page 2, caption 'A good-quality replacement'; illustrations 'Small boarder' and 'Big boarder'",
+      "action": "Introduces the examples",
+      "says": "Here are some examples.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "02:39", "quote": "Here are some examples."},
+        {"kind": "see", "at": "02:37", "frame": "t00157", "quote": "Caption 'A good-quality replacement'; 'Small boarder' (green) and 'Big boarder' (red) illustrations"}
+      ]
+    },
+    {
+      "at": "02:40",
+      "screen": "Page 2, illustration 1 'Small boarder' vs 'Big boarder' (screen spelling), caption 'Small borders vs big borders'",
+      "action": "Compares a good screen with a bad screen by border size",
+      "says": "A good quality screen has small borders. A bad one has big borders.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "02:40", "quote": "A good quality screen has small borders."},
+        {"kind": "say", "at": "02:43", "quote": "A bad one has big borders."},
+        {"kind": "see", "at": "02:41", "frame": "t00161", "quote": "Caption 'Small borders vs big borders'; 'Small boarder' (green) vs 'Big boarder' (red)"}
+      ]
+    },
+    {
+      "at": "02:45",
+      "screen": "Page 2, illustration caption 'Sharp & white vs blurry & grey'",
+      "action": "Compares photos of a good and a bad screen",
+      "says": "Even on a low-resolution picture, the bad copy looks blurry, while the good one is much sharper. The good one is quite white, the bad one quite gray.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "02:45", "quote": "Even on a low-resolution picture, the bad copy looks blurry, while the good one is much sharper."},
+        {"kind": "say", "at": "02:51", "quote": "The good one is quite white, the bad one quite gray."},
+        {"kind": "see", "at": "02:46", "frame": "t00166", "quote": "Caption 'Sharp & white vs blurry & grey'"},
+        {"kind": "see", "at": "02:51", "frame": "t00171", "quote": "Caption 'Sharp & white vs blurry & grey'"}
+      ]
+    },
+    {
+      "at": "02:56",
+      "screen": "Page 2, illustration 2 'Thick screen' (side view), caption 'No thick screens'",
+      "action": "Shows the thick-screen check",
+      "says": "We don't accept thick screens. The screen must sit flat on the device.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "02:56", "quote": "We don't accept thick screens."},
+        {"kind": "say", "at": "02:58", "quote": "The screen must sit flat on the device."},
+        {"kind": "see", "at": "02:59", "frame": "t00179", "quote": "Caption 'No thick screens'; 'Thick screen' callout on the side-view phone"}
+      ]
+    },
+    {
+      "at": "03:01",
+      "screen": "Page 2, illustration 3 'Pinkish' phones, caption 'No pinkish or yellowish tint'",
+      "action": "Shows the tint examples and how to spot them",
+      "says": "We also refuse screens with a pinkish or yellowish tint. You can spot it by taking a picture of the device from the side.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "03:01", "quote": "We also refuse screens with a pinkish or yellowish tint."},
+        {"kind": "say", "at": "03:05", "quote": "You can spot it by taking a picture of the device from the side."},
+        {"kind": "see", "at": "03:04", "frame": "t00184", "quote": "Caption 'No pinkish or yellowish tint'; 'Pinkish' label on the phone images"}
+      ]
+    },
+    {
+      "at": "03:09",
+      "screen": "Page 2, 'Others' illustrations: 'Display gap' photo and 'Screen freeze / Apple logo remaining'",
+      "action": "Points at the other issues to look out for",
+      "says": "Other issues to look out for Gaps around the display And an Apple logo that stays frozen on the screen",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "03:09", "quote": "Other issues to look out for Gaps around the display And an Apple logo that stays frozen on"},
+        {"kind": "see", "at": "03:07", "frame": "t00187", "quote": "'Display gap' photo with the gap circled; 'Screen freeze / Apple logo remaining' label under the frozen-logo phone"},
+        {"kind": "see", "at": "03:10", "frame": "t00190", "quote": "Caption 'Display gaps & frozen Apple logo'; close-up of the 'Display gap' photo with the gap circled"}
+      ]
+    },
+    {
+      "at": "03:16",
+      "screen": "Viewer page 3, 'Banned elements - not accepted in any grade, any device' (bottom bar '6 · BANNED ELEMENTS & PENALTIES')",
+      "action": "Opens page 3 on banned elements",
+      "says": "We're now introducing banned elements Issues that should never be accepted And should never lead to a claim",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "03:16", "quote": "We're now introducing banned elements Issues that should never be accepted And should never lead to a claim"},
+        {"kind": "see", "at": "03:17", "frame": "t00197", "quote": "Heading 'Banned elements - not accepted in any grade, any device'; caption 'Never acceptable, in any grade'"}
+      ]
+    },
+    {
+      "at": "03:22",
+      "screen": "Page 3, banned elements list (heading still shown)",
+      "action": "States the consequence of a banned element",
+      "says": "If they do, the supplier clearly didn't follow the quality guidelines",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "03:22", "quote": "If they do, the supplier clearly didn't follow the quality guidelines"},
+        {"kind": "see", "at": "03:19", "frame": "t00199", "quote": "Page 3 top box 'Total should never exceed 2 claims' still shown; caption fading from 'More than 2 claims → trigger'"}
+      ]
+    },
+    {
+      "at": "03:27",
+      "screen": "Page 3, top box 'Total should never exceed 2 claims'",
+      "action": "Points at the claims limit box",
+      "says": "Under the new policy The total should never exceed two claims Above that, a trigger is activated",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "03:27", "quote": "Under the new policy The total should never exceed two claims Above that, a trigger is activated"},
+        {"kind": "see", "at": "03:27", "frame": "t00207", "quote": "'Total should never exceed 2 claims. If so, a trigger gets activated: Revibe team to check these claims one by one. If confirmed, 10% penalty applies on each claim received, based on the seller's price'"}
+      ]
+    },
+    {
+      "at": "03:35",
+      "screen": "Page 3, top box; caption '10% penalty per confirmed claim' (t00207); caption 'AI flags them, you confirm' (t00215)",
+      "action": "Explains the review and penalty steps",
+      "says": "You, as a KM then check these claims one by one. If they're confirmed, a 10% penalty applies to each claim received based on the seller price.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "03:35", "quote": "You, as a KM then check these claims one by one."},
+        {"kind": "say", "at": "03:38", "quote": "If they're confirmed, a 10% penalty applies to each claim received based on the seller price."},
+        {"kind": "see", "at": "03:35", "frame": "t00207", "quote": "Caption '10% penalty per confirmed claim'; box text '10% penalty applies on each claim received, based on the seller's price'"},
+        {"kind": "see", "at": "03:35", "frame": "t00215", "quote": "Caption 'AI flags them, you confirm'; box text unchanged"}
+      ]
+    },
+    {
+      "at": "03:45",
+      "screen": "Page 3, caption 'AI flags them, you confirm'",
+      "action": "Explains that AI reviews customer claim forms and flags issues",
+      "says": "Using AI, we'll analyze customer claim forms in detail. When we spot one of these issues, we'll flag it to you. You check the claims, and if they're valid, the seller gets a penalty for each one.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "03:45", "quote": "Using AI, we'll analyze customer claim forms in detail."},
+        {"kind": "say", "at": "03:49", "quote": "When we spot one of these issues, we'll flag it to you."},
+        {"kind": "say", "at": "03:52", "quote": "You check the claims, and if they're valid, the seller gets a penalty for each one."},
+        {"kind": "see", "at": "03:45", "frame": "t00225", "quote": "Caption 'AI flags them, you confirm' on the banned elements page"}
+      ]
+    },
+    {
+      "at": "03:52",
+      "screen": "Page 3, full banned elements list (Grading, Wrong item, Parts, Locks & IMEI)",
+      "action": "Shows the full list of banned elements",
+      "says": "",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "03:52", "frame": "t00228", "quote": "Grading: '\"Excellent\" sold with visible scratches'; 'Battery health below the grade minimum: Good < 85%, Very good < 90%, Excellent < 95%'; '\"New\" must be non-active and sold in a box that has never been opened'. Wrong item: 'Wrong device shipped: wrong storage, colour or model'; 'Region variant mismatch such as Japan shutter sound or inability to use the device in the destination countries'; 'Missing in-box accessories (charger for laptops, cable for all devices)'. Parts: 'Non-original or fake S Pen on Samsung devices'; 'Device displaying a spare-part replacement message (showing non-original parts) or battery replacement alert'. Locks & IMEI: 'iCloud, Google account or MDM profile still active'; 'Blacklisted IMEI, or device reported lost or stolen'; 'Device not factory reset - previous user data still present'; 'Network / carrier-locked (SIM lock) device sold as unlocked'"}
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "type": "rule",
+      "statement": "The guidelines were written so sellers can follow them, avoid as many claims as possible, and spend less time handling claims.",
+      "evidence": [
+        {"kind": "say", "at": "00:07", "quote": "We wrote them so sellers can follow them, avoid as many claims as possible, and spend less time"},
+        {"kind": "say", "at": "00:13", "quote": "handling claims."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "The guidelines are split into three grades: Excellent, Very good, and Good.",
+      "evidence": [
+        {"kind": "say", "at": "00:15", "quote": "The guidelines are split by grade, excellent, very good, and good."},
+        {"kind": "see", "at": "00:16", "frame": "t00016", "quote": "Column headers 'Excellent', 'Very good', 'Good' on the grading table"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Every device must be 100% functional in every grade, just like a new one. The Hardware row reads '100% fully functional' across all three grades.",
+      "evidence": [
+        {"kind": "say", "at": "00:20", "quote": "As a general rule, every device must be 100% functional, just like a new one."},
+        {"kind": "see", "at": "00:21", "frame": "t00021", "quote": "Hardware: '100% fully functional' spanning all grades"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The difference from a new device must never be in the features. It may only be in small details such as battery health or physical condition.",
+      "evidence": [
+        {"kind": "say", "at": "00:29", "quote": "The difference from a new device must never be in the features, only in small details like battery"},
+        {"kind": "say", "at": "00:35", "quote": "health or physical condition."},
+        {"kind": "see", "at": "00:28", "frame": "t00028", "quote": "Caption 'Differences: condition & battery only'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Screen: Excellent and Very good must show no sign of use.",
+      "evidence": [
+        {"kind": "say", "at": "00:37", "quote": "For the screen, excellent and very good must show no sign of use."},
+        {"kind": "see", "at": "00:38", "frame": "t00038", "quote": "Screen row: 'No sign of use' spanning Excellent and Very good"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Screen, Good grade: slight scratches are allowed. The screen table says they may be visible but must not interfere when the appliance is switched on. The narration says they are allowed as long as you can't see them when the screen is on. See the unclear list.",
+      "evidence": [
+        {"kind": "say", "at": "00:42", "quote": "On good, slight scratches are allowed, as long as you can't see them when the screen is on."},
+        {"kind": "see", "at": "00:28", "frame": "t00028", "quote": "Good column: 'Slight scratches may be visible, but they do not interfere when the appliance is switched on'"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Body, Excellent: no sign of use. The device should look exactly like a new device.",
+      "evidence": [
+        {"kind": "say", "at": "00:48", "quote": "For the body, excellent means no sign of use."},
+        {"kind": "say", "at": "00:51", "quote": "It should look exactly like a new device."},
+        {"kind": "see", "at": "00:49", "frame": "t00049", "quote": "Body row, Excellent: 'No sign of use'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Body, Very good and Good: the screen says they may have a few light scratches that are not visible at first glance unless you look closely (marked Small). The narration adds that these are invisible from 20 to 30 centimeters away; that distance is not on screen (see unclear list).",
+      "evidence": [
+        {"kind": "say", "at": "00:54", "quote": "Very {good?} and good may have a few light scratches, invisible from 20 to 30 centimeters away."},
+        {"kind": "see", "at": "00:49", "frame": "t00049", "quote": "Body row, Very good and Good: 'May have a few light scratches that are not visible at first glance unless you look closely. Small'"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Minimum battery health: 95% for Excellent, 90% for Very good, 85% for Good. Each cell also says 'match 3utool'. (The narration says 90 and 85 without the % sign; the screen shows the %.)",
+      "evidence": [
+        {"kind": "say", "at": "01:01", "quote": "Minimum battery health is 95% for excellent, 90 for very good, and 85 for good."},
+        {"kind": "see", "at": "01:01", "frame": "t00061", "quote": "Battery row: '95% battery health minimum + match 3utool' / '90% ...' / '85% ...'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Battery health is checked with 3utool, which the trainer describes as a free tool every seller can use.",
+      "evidence": [
+        {"kind": "say", "at": "01:07", "quote": "We check it with 3U tools, a free tool every seller can use."},
+        {"kind": "see", "at": "01:01", "frame": "t00061", "quote": "'match 3utool' printed in each battery cell"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Camera dots: Excellent allows none, Very good allows at most 1 small dot, Good allows at most 2 small dots.",
+      "evidence": [
+        {"kind": "say", "at": "01:18", "quote": "Excellent allows none, very good one at most, and good up to two small dots."},
+        {"kind": "see", "at": "01:13", "frame": "t00073", "quote": "Camera dot row: 'None' / '1 small maximum' / '2 small maximum'; caption 'Camera dots: 0 / 1 / 2 max'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "To check camera dots, switch the camera to portrait mode and point it at white paper or a white wall.",
+      "evidence": [
+        {"kind": "say", "at": "01:12", "quote": "To check camera dots, switch to portrait mode and point the camera at white paper or a white"},
+        {"kind": "say", "at": "01:17", "quote": "wall."},
+        {"kind": "see", "at": "02:07", "frame": "t00127", "quote": "Cameras row label: '(checked with portrait mode)'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The plug or socket type must fit the country specs in every grade.",
+      "evidence": [
+        {"kind": "say", "at": "01:24", "quote": "The plug or socket type must match the country's specs."},
+        {"kind": "see", "at": "01:26", "frame": "t00086", "quote": "Plug / socket type row: 'Must fit country specs' spanning all grades; caption 'Plug must fit the country'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The plug rule also applies to laptops (narration only; laptops are not shown on screen).",
+      "evidence": [
+        {"kind": "say", "at": "01:27", "quote": "That applies to laptops, too."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Display: Excellent requires an original or DD display. Very good and Good accept a high-quality copy.",
+      "evidence": [
+        {"kind": "say", "at": "01:30", "quote": "For parts, an excellent device needs an original or DD display."},
+        {"kind": "say", "at": "01:38", "quote": "On Very Good and Good, a high-quality copy is accepted."},
+        {"kind": "see", "at": "01:32", "frame": "t00092", "quote": "Display row: 'Original or DD' (Excellent), 'High quality copy accepted' (Very good and Good)"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "DD is a type of copy LCD that some suppliers use on phones.",
+      "evidence": [
+        {"kind": "say", "at": "01:34", "quote": "DD is a type of copy LCD some suppliers use on phones."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Glass, Cover, Buttons and Others may be high-quality copies in every grade, but the device must never show a message mentioning the replacement of non-original parts.",
+      "evidence": [
+        {"kind": "say", "at": "01:43", "quote": "Glass, cover, and buttons can also be high-quality copies, but the device must never show a message"},
+        {"kind": "say", "at": "01:49", "quote": "about non-original parts."},
+        {"kind": "see", "at": "01:44", "frame": "t00104", "quote": "Merged cell: 'High quality copy accepted - no message mentioning the replacement of non-original parts should appear'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "On Samsung devices, the S Pen must be original in every grade.",
+      "evidence": [
+        {"kind": "say", "at": "01:51", "quote": "On Samsung, the S Pen must be original."},
+        {"kind": "see", "at": "01:52", "frame": "t00112", "quote": "'S Pen (Samsung only)' row: 'Must be original'; caption 'Samsung S Pen: original only'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "The narration says 'Non-original ones cause too many issues' in the S Pen context. It does not say this is the reason non-original S Pens are refused.",
+      "evidence": [
+        {"kind": "say", "at": "01:55", "quote": "Non-original ones cause too many issues."}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Functions are the same in every grade, because everything must be 100% functional. The only exception is the camera dots.",
+      "evidence": [
+        {"kind": "say", "at": "02:00", "quote": "For almost all of them, there's no difference between grades because everything must be 100% functional."},
+        {"kind": "see", "at": "01:59", "frame": "t00119", "quote": "Caption 'Same functions for every grade'"},
+        {"kind": "see", "at": "02:10", "frame": "t00130", "quote": "Caption 'Only exception: camera dots'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The narration says the only grade difference in the functions section is the camera, checked in portrait mode: one small dot accepted on Very good and up to two on Good. The screen's Cameras row shows max 1 small dot for Excellent and max 2 for Very good and Good (one merged cell). The Very good value conflicts with the grading table; see unclear list.",
+      "evidence": [
+        {"kind": "say", "at": "02:07", "quote": "The only difference is the camera, checked in portrait mode, one small that is accepted on very good"},
+        {"kind": "say", "at": "02:13", "quote": "and up to two on good."},
+        {"kind": "see", "at": "02:10", "frame": "t00130", "quote": "Caption 'Only exception: camera dots'; Cameras row: Excellent 'All modes must work and max 1 small camera dot accepted'; Very good and Good 'All modes must work and max 2 small camera dots accepted'"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Data deletion: data must have been reset.",
+      "evidence": [
+        {"kind": "see", "at": "01:59", "frame": "t00119", "quote": "'Data deletion: Data must have been reset'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Chargers and cables: an original copy is required. It must charge effectively and be compatible.",
+      "evidence": [
+        {"kind": "see", "at": "01:59", "frame": "t00119", "quote": "'Chargers / cables: Original copy required - must charge effectively and be compatible'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Unlocking: the device must be unlocked from any previous protection systems.",
+      "evidence": [
+        {"kind": "see", "at": "01:59", "frame": "t00119", "quote": "'Unlocking: Unlocked from any previous protection systems'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "IMEI: the IMEI is checked to see whether it has been blacklisted, and the device configuration (like colour and capacity) must match manufacturer settings.",
+      "evidence": [
+        {"kind": "see", "at": "01:59", "frame": "t00119", "quote": "'IMEI serial number on a device is checked to see if it has been blacklisted and if the device configuration (like color and capacity) match manufacturer settings'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Phone carrier: the device must be unlocked to a phone carrier (wording as on screen; see unclear list).",
+      "evidence": [
+        {"kind": "see", "at": "01:59", "frame": "t00119", "quote": "'Phone carrier: Must be unlocked to a phone carrier'"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Temperature: the device must not overheat when used in normal conditions.",
+      "evidence": [
+        {"kind": "see", "at": "01:59", "frame": "t00119", "quote": "'Temperature: Device should not overheat when used in normal conditions'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Other functions checked in the deep dive: SIM and memory cards must read correctly; external sensors, biometric sensors, Wi-Fi and Bluetooth, GPS, flash and indicator lights, mics and speakers, and ports (headphone jacks, battery, USB, ethernet) must work; the oxidation indicator is inspected; buttons must feel like the originals and open the right functions; on-screen visuals must have no defects such as stains, dust or burn-in discolouration.",
+      "evidence": [
+        {"kind": "see", "at": "01:59", "frame": "t00119", "quote": "Deep dive rows: 'SIM cards and memory cards are correctly read...', 'GPS and positioning system are accurate and working', 'Wi-Fi and Bluetooth functions are working correctly and accurately', 'Inspecting the oxidation indicator within the device', 'Buttons must be pressed efficiently, feeling must be same as original buttons and open the right functions', 'On-screen visuals are tested to ensure that there are no defects like stains, dusts, and discoloration from burn-in'"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Screens accepted: Original and DD screens are accepted.",
+      "evidence": [
+        {"kind": "say", "at": "02:18", "quote": "Original and DD screens are fine."},
+        {"kind": "see", "at": "02:16", "frame": "t00136", "quote": "'Original & DD' ticked for Excellent / Very good and Good"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Replacement screens: a GW Good quality replacement is accepted only on the Good grade. It is not accepted on Excellent or Very good.",
+      "evidence": [
+        {"kind": "say", "at": "02:20", "quote": "Replacement screens are split into good quality and bad quality."},
+        {"kind": "see", "at": "02:16", "frame": "t00136", "quote": "'GW Good quality' crossed for Excellent / Very good, ticked for Good"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Replacement screens: a GW & others Bad quality screen is not accepted in any grade.",
+      "evidence": [
+        {"kind": "see", "at": "02:16", "frame": "t00136", "quote": "'GW & others Bad quality' column crossed"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "A good-quality replacement screen has normal size, a thin thickness, smooth touch, whitish backlighting and normal proximity sensors.",
+      "evidence": [
+        {"kind": "say", "at": "02:24", "quote": "A good quality replacement has a normal size and is thin."},
+        {"kind": "say", "at": "02:28", "quote": "The touch is smooth."},
+        {"kind": "say", "at": "02:30", "quote": "The backlight is whitish."},
+        {"kind": "say", "at": "02:31", "quote": "The sensors work normally."},
+        {"kind": "see", "at": "02:25", "frame": "t00145", "quote": "GW Good quality column: 'Normal', 'Thin', 'Smooth', 'Whitish', 'Normal'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "A good-quality replacement screen looks light grey when off, only warms slightly and never overheats (the on-screen row is labelled 'Keyboard' and 'Physical issues'; see unclear list).",
+      "evidence": [
+        {"kind": "say", "at": "02:33", "quote": "It looks light gray when off."},
+        {"kind": "say", "at": "02:34", "quote": "And it only warms slightly."},
+        {"kind": "say", "at": "02:36", "quote": "It never overheats."},
+        {"kind": "see", "at": "02:37", "frame": "t00157", "quote": "'Keyboard: Light grey' and 'Physical issues: Slight heat' in the GW Good quality column"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "A bad-quality replacement (GW & others Bad quality) shows: small size with big borders; thick body; lagging or jumping touch; yellowish or pinkish backlight; proximity sensors sometimes not working, with the screen going blank when calling someone; very light grey or brownish keyboard; overheating, freezing when charging, or fast battery drain.",
+      "evidence": [
+        {"kind": "see", "at": "02:16", "frame": "t00136", "quote": "'Small hence having big borders', 'Thick', 'Lagging, jumping', 'Yellowish / Pinkish', 'Sometimes not working, screen goes blank when calling someone', 'Very light grey or brownish', 'Over heat / Freezing when charging / Fast battery drain'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "tip",
+      "statement": "A good screen has small borders. A bad one has big borders. (The screen labels read 'Small boarder' and 'Big boarder'.)",
+      "evidence": [
+        {"kind": "say", "at": "02:40", "quote": "A good quality screen has small borders."},
+        {"kind": "say", "at": "02:43", "quote": "A bad one has big borders."},
+        {"kind": "see", "at": "02:41", "frame": "t00161", "quote": "Caption 'Small borders vs big borders'; 'Small boarder' (green) vs 'Big boarder' (red)"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "tip",
+      "statement": "A bad copy looks blurry, even on a low-resolution picture, while a good one is much sharper. A good one is quite white and a bad one quite grey.",
+      "evidence": [
+        {"kind": "say", "at": "02:45", "quote": "Even on a low-resolution picture, the bad copy looks blurry, while the good one is much sharper."},
+        {"kind": "say", "at": "02:51", "quote": "The good one is quite white, the bad one quite gray."},
+        {"kind": "see", "at": "02:51", "frame": "t00171", "quote": "Caption 'Sharp & white vs blurry & grey'"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Thick screens are not accepted.",
+      "evidence": [
+        {"kind": "say", "at": "02:56", "quote": "We don't accept thick screens."},
+        {"kind": "see", "at": "02:59", "frame": "t00179", "quote": "Caption 'No thick screens'; 'Thick screen' callout"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The screen must sit flat on the device.",
+      "evidence": [
+        {"kind": "say", "at": "02:58", "quote": "The screen must sit flat on the device."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Screens with a pinkish or yellowish tint are refused.",
+      "evidence": [
+        {"kind": "say", "at": "03:01", "quote": "We also refuse screens with a pinkish or yellowish tint."},
+        {"kind": "see", "at": "03:04", "frame": "t00184", "quote": "Caption 'No pinkish or yellowish tint'; 'Pinkish' label"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "To spot a pinkish or yellowish tint, take a picture of the device from the side.",
+      "evidence": [
+        {"kind": "say", "at": "03:05", "quote": "You can spot it by taking a picture of the device from the side."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "Other issues to look out for: gaps around the display, and an Apple logo that stays frozen on the screen.",
+      "evidence": [
+        {"kind": "say", "at": "03:09", "quote": "Other issues to look out for Gaps around the display And an Apple logo that stays frozen on"},
+        {"kind": "see", "at": "03:07", "frame": "t00187", "quote": "'Display gap' photo with the gap circled"},
+        {"kind": "see", "at": "03:07", "frame": "t00184", "quote": "'Screen freeze / Apple logo remaining' label"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Banned elements are not accepted in any grade and on any device, and must never lead to a claim.",
+      "evidence": [
+        {"kind": "say", "at": "03:16", "quote": "We're now introducing banned elements Issues that should never be accepted And should never lead to a claim"},
+        {"kind": "see", "at": "03:17", "frame": "t00197", "quote": "'Banned elements - not accepted in any grade, any device'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "A banned element means, in the narrator's words, that the supplier clearly did not follow the quality guidelines.",
+      "evidence": [
+        {"kind": "say", "at": "03:22", "quote": "If they do, the supplier clearly didn't follow the quality guidelines"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "number",
+      "statement": "The total of claims should never exceed 2. Above that, a trigger is activated.",
+      "evidence": [
+        {"kind": "say", "at": "03:27", "quote": "Under the new policy The total should never exceed two claims Above that, a trigger is activated"},
+        {"kind": "see", "at": "03:27", "frame": "t00207", "quote": "'Total should never exceed 2 claims. If so, a trigger gets activated'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "When the trigger is activated, claims are checked one by one. The screen says the Revibe team checks them; the narration says 'You, as a KM' (see unclear list).",
+      "evidence": [
+        {"kind": "say", "at": "03:35", "quote": "You, as a KM then check these claims one by one."},
+        {"kind": "see", "at": "03:27", "frame": "t00207", "quote": "'Revibe team to check these claims one by one'"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "If a claim is confirmed, a 10% penalty applies to each claim received, based on the seller's price.",
+      "evidence": [
+        {"kind": "say", "at": "03:38", "quote": "If they're confirmed, a 10% penalty applies to each claim received based on the seller price."},
+        {"kind": "see", "at": "03:35", "frame": "t00207", "quote": "'10% penalty applies on each claim received, based on the seller's price'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "AI analyses customer claim forms in detail and flags the issues it spots. The narration says 'you' check the flagged claims, and if they are valid the seller gets a penalty for each one.",
+      "evidence": [
+        {"kind": "say", "at": "03:45", "quote": "Using AI, we'll analyze customer claim forms in detail."},
+        {"kind": "say", "at": "03:49", "quote": "When we spot one of these issues, we'll flag it to you."},
+        {"kind": "say", "at": "03:52", "quote": "You check the claims, and if they're valid, the seller gets a penalty for each one."},
+        {"kind": "see", "at": "03:45", "frame": "t00225", "quote": "Caption 'AI flags them, you confirm'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Grading banned elements: a 'Excellent' device sold with visible scratches; battery health below the grade minimum (Good < 85%, Very good < 90%, Excellent < 95%); a 'New' device that must be non-active and sold in a box that has never been opened.",
+      "evidence": [
+        {"kind": "see", "at": "03:52", "frame": "t00228", "quote": "'\"Excellent\" sold with visible scratches'; 'Battery health below the grade minimum: Good < 85%, Very good < 90%, Excellent < 95%'; '\"New\" must be non-active and sold in a box that has never been opened'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Wrong-item banned elements: wrong device shipped (wrong storage, colour or model); region variant mismatch such as Japan shutter sound or inability to use the device in the destination countries; missing in-box accessories (charger for laptops, cable for all devices).",
+      "evidence": [
+        {"kind": "see", "at": "03:52", "frame": "t00228", "quote": "'Wrong device shipped: wrong storage, colour or model'; 'Region variant mismatch such as Japan shutter sound...'; 'Missing in-box accessories (charger for laptops, cable for all devices)'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Parts banned elements: a non-original or fake S Pen on Samsung devices; a device displaying a spare-part replacement message (showing non-original parts) or a battery replacement alert.",
+      "evidence": [
+        {"kind": "see", "at": "03:52", "frame": "t00228", "quote": "'Non-original or fake S Pen on Samsung devices'; 'Device displaying a spare-part replacement message (showing non-original parts) or battery replacement alert'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Locks and IMEI banned elements: iCloud, Google account or MDM profile still active; blacklisted IMEI, or device reported lost or stolen; device not factory reset (previous user data still present); network or carrier-locked (SIM lock) device sold as unlocked.",
+      "evidence": [
+        {"kind": "see", "at": "03:52", "frame": "t00228", "quote": "'iCloud, Google account or MDM profile still active'; 'Blacklisted IMEI, or device reported lost or stolen'; 'Device not factory reset - previous user data still present'; 'Network / carrier-locked (SIM lock) device sold as unlocked'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    }
+  ],
+  "screens": [
+    {
+      "name": "Title card",
+      "shows": "'REVIBE · QUALITY GUIDELINES' with the title 'Quality rules & claims' and subtitle 'What every grade must meet, and what triggers a penalty'",
+      "at": "00:01",
+      "where": "frame t00001"
+    },
+    {
+      "name": "Quality guidelines deck viewer, page 1 (grading table)",
+      "shows": "'Phones, tablets & watches - Quality guidelines' table with column headers Excellent / Very good / Good. Rows: General guidelines (Hardware, Screen, Body, Battery, Camera dot, Plug / socket type); Parts (Display, Glass, Cover, Buttons, Others, S Pen (Samsung only)); Functions deep dive (Sim, Data deletion, Chargers / cables, Unlocking, GPS, Cameras (checked with portrait mode), External sensors, Biometric sensors, Wi-Fi / Bluetooth, IMEI, Oxidation, Flash and indicator lights, Mics and speakers, Ports, Phone carrier, Screen, Buttons, Temperature). Bottom bar section labels '1 · WHY QUALITY GUIDELINES', '2 · GRADING RULES', '3 · PARTS', '4 · FUNCTIONS'",
+      "at": "00:08 to 02:10",
+      "where": "frames t00008 to t00130"
+    },
+    {
+      "name": "Quality guidelines deck viewer, page 2 (screen quality)",
+      "shows": "'Which screens we accept' table: Original & DD / GW Good quality / GW & others Bad quality, with rows for Excellent / Very good and Good. Criteria table: Size, Thickness, Touch, Backlighting, Proximity sensors, Keyboard, Physical issues. Illustrations 1 to 3 and 'Others': small vs big borders, thick screen side view, pinkish phones, display gap photo and frozen Apple logo. Bottom bar section label '5 · SCREEN QUALITY'",
+      "at": "02:15 to 03:09",
+      "where": "frames t00136 to t00194"
+    },
+    {
+      "name": "Quality guidelines deck viewer, page 3 (banned elements)",
+      "shows": "'Banned elements - not accepted in any grade, any device'. Top box: 'Total should never exceed 2 claims', trigger and 10% penalty text. Grouped banned list: Grading, Wrong item, Parts, Locks & IMEI. Bottom bar section label '6 · BANNED ELEMENTS & PENALTIES'",
+      "at": "03:17 to 03:52",
+      "where": "frames t00197 to t00228"
+    },
+    {
+      "name": "Phone Settings screens in the pinkish-tint illustration",
+      "shows": "Phone Settings screens (pinkish tint example) with a personal name partly legible at the top of the Settings list. Not reproduced here.",
+      "at": "03:01",
+      "where": "frames t00181 and t00184"
+    },
+    {
+      "name": "3utool",
+      "shows": "Named as the battery check tool: 'match 3utool' printed in each battery cell. Not shown on screen as an application window.",
+      "at": "01:07",
+      "where": "frames t00049 and t00061"
+    },
+    {
+      "name": "Camera app in portrait mode",
+      "shows": "Not shown on screen. Described in narration only.",
+      "at": "01:12",
+      "where": "narration only"
+    },
+    {
+      "name": "Customer claim forms with AI analysis",
+      "shows": "Not shown on screen. Described in narration only ('Using AI, we'll analyze customer claim forms in detail'); caption 'AI flags them, you confirm' is shown.",
+      "at": "03:45",
+      "where": "narration; frames t00215 and t00225"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Grade (Excellent / Very good / Good)",
+      "meaning": "The three quality grades the guidelines are split into. Each device is rated against the rules for its grade.",
+      "at": "00:15"
+    },
+    {
+      "term": "100% functional",
+      "meaning": "Every device must be fully working in all grades, like a new one.",
+      "at": "00:20"
+    },
+    {
+      "term": "Battery health minimum",
+      "meaning": "Minimum battery health per grade: 95% Excellent, 90% Very good, 85% Good. The screen adds 'match 3utool'.",
+      "at": "01:01"
+    },
+    {
+      "term": "3utool",
+      "meaning": "The tool used to check battery health. The trainer calls it a free tool every seller can use. Spelled 3utool on screen.",
+      "at": "01:07"
+    },
+    {
+      "term": "Camera dot",
+      "meaning": "A camera defect checked with the camera in portrait mode against white paper or a white wall. Limits: none (Excellent), 1 maximum (Very good), 2 maximum (Good), per the grading table.",
+      "at": "01:12"
+    },
+    {
+      "term": "Original",
+      "meaning": "A part type named in the table. Accepted for the display in Excellent, and required for the S Pen on Samsung. The video does not define it further.",
+      "at": "01:30"
+    },
+    {
+      "term": "DD",
+      "meaning": "A type of copy LCD that some suppliers use on phones. Accepted as the display in Excellent.",
+      "at": "01:34"
+    },
+    {
+      "term": "High quality copy",
+      "meaning": "A copy part accepted for display, glass, cover, buttons and others. The device must not show a message about non-original parts.",
+      "at": "01:38"
+    },
+    {
+      "term": "GW Good quality / GW & others Bad quality",
+      "meaning": "Column headings on the screen acceptance table for replacement screens. The abbreviation GW is not defined in the video.",
+      "at": "02:16"
+    },
+    {
+      "term": "Replacement screen",
+      "meaning": "A screen that is not original or DD, judged against the good-quality and bad-quality criteria.",
+      "at": "02:20"
+    },
+    {
+      "term": "Banned element",
+      "meaning": "An issue that should never be accepted in any grade or on any device, and should never lead to a claim.",
+      "at": "03:16"
+    },
+    {
+      "term": "Claim",
+      "meaning": "A customer claim about a device. Claims are counted against the 2-claim limit and checked one by one.",
+      "at": "03:27"
+    },
+    {
+      "term": "Trigger",
+      "meaning": "What happens when a seller's total claims go above 2. The screen says the Revibe team checks the claims. Its full effect is not explained in the video.",
+      "at": "03:27"
+    },
+    {
+      "term": "Seller's price",
+      "meaning": "The base for the 10% penalty per confirmed claim.",
+      "at": "03:38"
+    },
+    {
+      "term": "Penalty",
+      "meaning": "10% per claim received, when the claim is confirmed, based on the seller's price.",
+      "at": "03:38"
+    },
+    {
+      "term": "Spare-part replacement message",
+      "meaning": "A message on the device showing non-original parts. It is a banned element.",
+      "at": "03:52"
+    },
+    {
+      "term": "Blacklisted IMEI",
+      "meaning": "An IMEI reported as blacklisted. It is a banned element.",
+      "at": "03:52"
+    },
+    {
+      "term": "Carrier-locked (SIM lock)",
+      "meaning": "A device locked to a network carrier. Selling it as unlocked is a banned element.",
+      "at": "03:52"
+    },
+    {
+      "term": "Region variant mismatch",
+      "meaning": "A device whose region variant does not suit the destination country, for example a Japan shutter sound or no ability to use the device in the destination countries.",
+      "at": "03:52"
+    }
+  ],
+  "asr_fixes": [
+    {
+      "at": "00:54",
+      "heard": "Very {good?} and good",
+      "correct": "Very good and Good",
+      "basis": "Screen: Body row, Very good and Good columns (frame t00049) show 'May have a few light scratches that are not visible at first glance unless you look closely. Small'."
+    },
+    {
+      "at": "01:07",
+      "heard": "3U tools",
+      "correct": "3utool",
+      "basis": "Screen: each battery cell reads 'minimum + match 3utool' (frames t00049 and t00061)."
+    },
+    {
+      "at": "03:38",
+      "heard": "based on the seller price",
+      "correct": "based on the seller's price",
+      "basis": "Screen: box text on the banned elements page reads 'based on the seller's price' (frame t00207)."
+    }
+  ],
+  "unclear": [
+    {
+      "at": "00:42",
+      "issue": "Good screen scratches. Narration says slight scratches are allowed 'as long as you can't see them when the screen is on'. The screen says 'Slight scratches may be visible, but they do not interfere when the appliance is switched on'. The rule differs (visibility vs interference). Confirm the official wording before quoting it to a seller."
+    },
+    {
+      "at": "00:54",
+      "issue": "Body test distance. Narration says body scratches for Very good and Good are 'invisible from 20 to 30 centimeters away'. The screen says 'not visible at first glance unless you look closely' and gives no distance. The 20 to 30 cm test is not confirmed on screen."
+    },
+    {
+      "at": "02:07",
+      "issue": "Camera dot limit for Excellent in the functions deep dive. The Cameras row (frame t00130) says 'All modes must work and max 1 small camera dot accepted' in the Excellent column. The Camera dot row (frame t00073) and the narration (01:18) say Excellent allows none. The Excellent limit is unresolved."
+    },
+    {
+      "at": "02:07",
+      "issue": "Camera dot limit for Very good. Narration says one small dot is accepted on very good (02:07, and 01:18 'very good one at most'). The Cameras row (frame t00130) puts Very good and Good in one merged cell: 'All modes must work and max 2 small camera dots accepted'. The Camera dot row says '1 small maximum' for Very good. The screen and narration conflict."
+    },
+    {
+      "at": "03:35",
+      "issue": "Who checks the claims. Narration says 'You, as a KM then check these claims one by one.' The screen says 'Revibe team to check these claims one by one' (frame t00207). The caption 'AI flags them, you confirm' (frames t00215, t00225) suggests the KAM confirms. The role is unresolved."
+    },
+    {
+      "at": "03:35",
+      "issue": "Term 'KM' in narration. The audience is Seller & KAM and the term is not on screen. It probably means KAM (key account manager), but this is not confirmed in the evidence."
+    },
+    {
+      "at": "02:16",
+      "issue": "Abbreviation 'GW' in the screen acceptance table headings (GW Good quality, GW & others Bad quality) is not defined in the video, and neither the narration nor the screen says what it stands for."
+    },
+    {
+      "at": "02:33",
+      "issue": "Label mismatch. Narration says the replacement screen 'looks light gray when off'. On screen the row that reads 'Light grey' is labelled 'Keyboard' (frame t00157). The label and what is described do not obviously match."
+    },
+    {
+      "at": "03:27",
+      "issue": "Scope of the 2-claim limit. The screen says 'Total should never exceed 2 claims' but does not say per seller, per period, or per order. Also the meaning of 'a trigger gets activated' beyond the Revibe team check is not explained."
+    },
+    {
+      "at": "03:27",
+      "issue": "Effective date. Narration says 'Under the new policy' and 'We're now introducing banned elements'. No effective date is given on screen or in the narration."
+    },
+    {
+      "at": "01:12",
+      "issue": "The meaning of 'match 3utool' in the battery row is not explained. The video does not show how the reading is matched."
+    },
+    {
+      "at": "02:00",
+      "issue": "Phone carrier wording on screen, 'Must be unlocked to a phone carrier' (frame t00119), is ambiguous. It is not clear whether it means carrier-unlocked or something else. Compare the banned element 'Network / carrier-locked (SIM lock) device sold as unlocked'."
+    }
+  ],
+  "outdated": [
+    {
+      "at": "03:16",
+      "signal": "'We're now introducing banned elements' and 'Under the new policy' (03:27): time-bound wording with no effective date on screen or in narration. The policy may have changed since the video was made."
+    }
+  ],
+  "privacy": [
+    {
+      "at": "03:01",
+      "what": "A personal name appears at the top of the phone Settings screens in the pinkish-tint illustration. It is partly legible. It was not copied into this reference. Blur or crop before sharing with sellers.",
+      "frame": "t00181"
+    },
+    {
+      "at": "03:04",
+      "what": "The same personal name appears on the Settings screen in the same illustration.",
+      "frame": "t00184"
+    }
+  ],
+  "audit": {
+    "checked": 126,
+    "removed": [],
+    "corrected": [
+      {"before": "Step 00:15 cites frame t00014 for 'Three grades' caption and cursor on Excellent", "after": "Caption 'Three grades' and cursor on Excellent are on frame t00016; t00014 shows the title box highlighted with caption 'Written for our sellers'", "reason": "Frame mismatch"},
+      {"before": "Step 00:20 cites frame t00016 for 'Every device: 100% functional'", "after": "Frame t00021", "reason": "Frame mismatch"},
+      {"before": "Step 00:29 cites frame t00021 for 'Differences: condition & battery only'", "after": "Frame t00028; narration line 00:35 'health or physical condition.' added as evidence", "reason": "Frame mismatch; incomplete quote"},
+      {"before": "Step 00:37 cites frame t00028 for the Screen caption", "after": "Frame t00038", "reason": "Frame mismatch"},
+      {"before": "Step 00:48 cites frame t00038 for the Body caption", "after": "Frame t00049", "reason": "Frame mismatch"},
+      {"before": "Step 01:01 cites frame t00049 for the battery row", "after": "Frame t00061 (battery row visible; no caption)", "reason": "Frame mismatch"},
+      {"before": "Step 01:12 cites frame t00061 for 'Camera dots: 0 / 1 / 2 max' caption", "after": "Frame t00073", "reason": "Frame mismatch"},
+      {"before": "Step 01:24 cites frame t00073 for 'Plug must fit the country' caption", "after": "Frame t00086 (caption 'Plug must fit the country')", "reason": "Frame mismatch"},
+      {"before": "Step 01:27 says 'Plug row still highlighted'", "after": "No highlight is visible on the plug row on t00086; the row reads 'Must fit country specs' and the caption is 'Plug must fit the country'", "reason": "Overstated visual"},
+      {"before": "Step 01:30 cites frame t00086 for the display caption 'Display: original or DD on Excellent'", "after": "Frame t00092", "reason": "Frame mismatch"},
+      {"before": "Step 01:51 cites frame t00109 for 'Samsung S Pen: original only'", "after": "Frame t00112; t00109 shows the no-message text highlight", "reason": "Frame mismatch"},
+      {"before": "Step 02:00 cites frame t00112 for 'Same functions for every grade' caption", "after": "Frame t00119 (and t00125); t00112 shows the S Pen caption", "reason": "Frame mismatch"},
+      {"before": "Step 02:07 cites frame t00127 for caption 'Only exception: camera dots' and 'Cameras row highlighted'", "after": "Caption 'Only exception: camera dots' is on frame t00130. Frame t00127 has no caption. No row highlight is visible on either frame.", "reason": "Frame mismatch; visual overstated"},
+      {"before": "Step 02:07 implies the camera row difference is one small on Very good and up to two on Good, with no conflict noted", "after": "Screen Cameras row shows max 2 for Very good and Good in one merged cell; conflict logged in unclear", "reason": "Narration-screen conflict not stated"},
+      {"before": "Step 02:15 frame t00136 caption and table content", "after": "No change to content; t00136 caption 'Which screens we accept' confirmed", "reason": "Verified"},
+      {"before": "Step 02:56 cites frame t00174 for caption 'No thick screens'", "after": "Frame t00179 (t00174 shows caption 'Sharp & white vs blurry & grey')", "reason": "Frame mismatch"},
+      {"before": "Step 03:01 cites frame t00181 for caption 'No pinkish or yellowish tint'", "after": "Caption is on frame t00184; t00181 shows the Pinkish illustration with no caption", "reason": "Frame mismatch"},
+      {"before": "Step 03:09 cites frame t00187 for the 'Display gap' photo and frame t00190 for 'Screen freeze / Apple logo remaining'", "after": "t00187 shows the Display gap photo and the 'Screen freeze / Apple logo remaining' label; t00190 shows the Display gap close-up under caption 'Display gaps & frozen Apple logo'", "reason": "Frame content swapped"},
+      {"before": "Step 03:16 cites frame t00194 for the banned elements heading and caption 'Never acceptable, in any grade'", "after": "Frame t00197 (t00194 is the end of page 2 with the page 3 header below)", "reason": "Frame mismatch"},
+      {"before": "Step 03:22 cites frame t00199 for banned heading and caption 'Never acceptable, in any grade'", "after": "Frame t00199 shows the page 3 top box with caption fading from 'More than 2 claims → trigger'. The 'Never acceptable, in any grade' caption is on t00197.", "reason": "Caption mismatch"},
+      {"before": "Step 03:27 cites frame t00207 for caption 'More than 2 claims → trigger'", "after": "That caption is on frame t00199. t00207 shows the box text with caption '10% penalty per confirmed claim'.", "reason": "Caption mismatch"},
+      {"before": "Step 03:35 cites frame t00215 for caption '10% penalty per confirmed claim'", "after": "That caption is on frame t00207. t00215 shows caption 'AI flags them, you confirm'.", "reason": "Caption mismatch"},
+      {"before": "Fact 'Non-original S Pens cause too many issues, which is why they are not accepted.'", "after": "Narration says 'Non-original ones cause too many issues' in the S Pen context. The 'which is why' causal clause is not in the narration.", "reason": "Overstated causation"},
+      {"before": "Fact 'Body, Very good and Good: ... The screen says they must not be visible at first glance unless you look closely.'", "after": "Screen says they may have a few light scratches that are not visible at first glance unless you look closely. The 20 to 30 cm distance is narration only.", "reason": "Overstated: 'must not be visible' reverses the screen wording"},
+      {"before": "Fact 'Screen, Good grade ... The narration says they must not be visible when the screen is on.'", "after": "Narration says 'as long as you can't see them when the screen is on'", "reason": "Paraphrase tightened to the narration's words"},
+      {"before": "Fact 'The only grade difference in the functions section is the camera ... one small dot accepted on Very good and up to two on Good.'", "after": "States the narration claim and the screen values separately; Very good conflict logged as unclear", "reason": "Narration-screen conflict"},
+      {"before": "Fact 'AI analyses customer claim forms and flags likely banned-element issues.'", "after": "Word 'likely' removed; narration says 'when we spot one of these issues, we'll flag it to you'", "reason": "Added hedge not in the narration"},
+      {"before": "Fact 'When the trigger is activated, each claim is checked one by one before any penalty applies.'", "after": "Statement is limited to 'claims are checked one by one'; the reviewer (Revibe team on screen, 'you, as a KM' in speech) is unresolved (unclear) and confidence set to medium", "reason": "Reviewer unresolved; 'before any penalty applies' is inference"},
+      {"before": "Fact 'A 'New' device that is not non-active or is not sold in a box that has never been opened.'", "after": "'New' must be non-active and sold in a box that has never been opened (screen wording)", "reason": "Double negative in paraphrase"},
+      {"before": "Fact 'Other functions ... ' cites frame t00112 at 01:59", "after": "Evidence cites frame t00119 (the deep dive rows through Temperature are on t00119)", "reason": "Frame mismatch"},
+      {"before": "Fact 'Screens: Phone carrier ... ' cites frame t00112 at 01:59", "after": "Evidence cites frame t00119", "reason": "Frame mismatch"},
+      {"before": "Fact 'Original' term (in terms) defined as 'A genuine manufacturer part'", "after": "Definition removed; the video only says Original is accepted for the Excellent display and required for the Samsung S Pen", "reason": "General knowledge filled in, not in the evidence"},
+      {"before": "Screen 'Quality guidelines deck viewer, page 2' listed at frames t00130 to t00190 and 02:15 to 03:09", "after": "Page 2 is frames t00136 to t00194; page 3 is frames t00197 to t00228 (03:17 to 03:52)", "reason": "Frame range mismatch"},
+      {"before": "Screen 'Phone Settings screens' cites frame t00181 as showing the caption", "after": "The caption is on t00184; t00181 shows the phone screens with no caption", "reason": "Frame mismatch"},
+      {"before": "Unclear at 02:14 'Phone carrier wording'", "after": "Timestamp set to 02:00 (the functions deep dive, frame t00119); the row is not in the 02:14 narration", "reason": "Timestamp mismatch"},
+      {"before": "Summary says the Good-screen scratch rule and the Good-body 20-30 cm test are unclear", "after": "Summary also notes the new Very good camera-dot conflict", "reason": "Unclear list updated"}
+    ],
+    "added": [
+      "Step 00:05 'These are our quality guidelines.' (narration; frame t00008 caption 'Written for our sellers')",
+      "Step 00:27 'That's the spirit of these guidelines.' (narration; frame t00021)",
+      "Step 01:58 'Next come the functions.' (narration; frame t00112)",
+      "Step 02:05 scrolls the functions deep dive with caption 'Same functions for every grade' (frame t00125; no narration)",
+      "Step 02:39 'Here are some examples.' (narration; frame t00157 caption 'A good-quality replacement')",
+      "Unclear 02:07: Very good camera-dot conflict between narration/Camera dot row (1 max) and Cameras row (max 2 merged for Very good and Good)",
+      "Outdated 03:16 and 03:27: time-bound 'now introducing' and 'under the new policy' wording with no effective date",
+      "Screen 'Quality guidelines deck viewer, page 1' extended to frames t00008 to t00130; page 2 and page 3 frame ranges corrected",
+      "Frame t00179 added as evidence for the 'No thick screens' caption (02:56 step and thick-screen fact)"
+    ]
+  }
+}

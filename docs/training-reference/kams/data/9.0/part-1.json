@@ -1,0 +1,527 @@
+{
+  "summary": "Part 1 of 1 of the Revibe training video '9.0 Seller agreement (Seller & KAMs)', 03:45 long. There is no live app: the trainer walks through the Revibe Seller Agreement as a document viewer, highlighting clauses while speaking. Topics: the deal (commission model, price lists, no direct customer contact), order shipping deadlines and penalties, weekly payments and bank-account rules, required documents, VAT scheme choice, product grades and battery limits, returns and warranty, dispute timelines, shipping and packing duties, the score and exit terms. It ends on a recap slide that points to the Key Account Manager for questions. All 27 frames were opened; frame t00000 is black and the title card first appears at t00001.",
+  "frames_opened": 27,
+  "steps": [
+    {
+      "at": "00:00",
+      "screen": "Title card t00001: 'The Seller Agreement, made simple' (REVIBE · SELLER AGREEMENT)",
+      "action": "Opens the training with the title card. No clicks; t00000 is black at the start.",
+      "evidence": [
+        {"kind": "say", "at": "00:00", "quote": "Here's the Revibe Seller Agreement, explained simply."},
+        {"kind": "see", "at": "00:01", "frame": "t00001.jpg", "quote": "Title 'The Seller Agreement, made simple', subtitle 'The key rules for sellers and KAMs, in a few minutes'"},
+        {"kind": "see", "at": "00:00", "frame": "t00000.jpg", "quote": "Fully black frame"}
+      ],
+      "says": "Here's the Revibe Seller Agreement, explained simply.",
+      "why": ""
+    },
+    {
+      "at": "00:04",
+      "screen": "Agreement document, company details block highlighted (t00005)",
+      "action": "Points at the highlighted Company Name, Trade License No. and Principal place of business fields, under the banner telling the Seller to download the document to edit it offline and upload it on the onboarding form.",
+      "evidence": [
+        {"kind": "say", "at": "00:04", "quote": "Download the agreement, fill in your company details, and upload it on the onboarding form."},
+        {"kind": "see", "at": "00:05", "frame": "t00005.jpg", "quote": "Banner 'DOWNLOAD IT TO EDIT IT OFFLINE, THEN UPLOAD IT ON THE ONBOARDING FORM'; highlighted fields 'Company Name:', 'Trade License No.:', 'Principal place of business at (please mention exact and detailed address):'"}
+      ],
+      "says": "Download the agreement, fill in your company details, and upload it on the onboarding form.",
+      "why": ""
+    },
+    {
+      "at": "00:11",
+      "screen": "Agreement clauses 3.1 and 3.2 highlighted (t00012)",
+      "action": "Highlights clause 3.1 (commercial model) and clause 3.2 (seller inputs) while describing the model.",
+      "evidence": [
+        {"kind": "say", "at": "00:11", "quote": "The model is simple, Revibe sells your products on commission, and you fulfill and ship the orders."},
+        {"kind": "say", "at": "00:16", "quote": "Only list prices for stock you can really supply."},
+        {"kind": "see", "at": "00:12", "frame": "t00012.jpg", "quote": "Highlighted 3.1 'Revibe shall advertise and sell the Seller's Products on a commission-based model...' and 3.2 'The Seller shall provide Revibe with product availability and an up-to-date price list...'"}
+      ],
+      "says": "The model is simple, Revibe sells your products on commission, and you fulfill and ship the orders.",
+      "why": ""
+    },
+    {
+      "at": "00:20",
+      "screen": "Clause 4.1 and highlighted clause 4.2 (t00021)",
+      "action": "Highlights clause 4.2 (no direct customer contact) after saying Revibe handles customer communication.",
+      "evidence": [
+        {"kind": "say", "at": "00:20", "quote": "Revibe handles all customer communication and after sales."},
+        {"kind": "say", "at": "00:24", "quote": "Never contact a customer directly without Revibe's written approval."},
+        {"kind": "see", "at": "00:21", "frame": "t00021.jpg", "quote": "Highlighted 4.2 'The Seller is prohibited from contacting or communicating with customers directly, in any form, unless prior written authorization is granted by Revibe on a case-by-case basis.'"}
+      ],
+      "says": "Never contact a customer directly without Revibe's written approval.",
+      "why": ""
+    },
+    {
+      "at": "00:29",
+      "screen": "Clauses 3.4 and 3.5 highlighted (t00030)",
+      "action": "Highlights 3.4 (shipping deadline) and 3.5 (shipment status updates) while stating the 48-hour rule and the rule against premature shipped status.",
+      "evidence": [
+        {"kind": "say", "at": "00:29", "quote": "Ship every order within 48 working hours and never mark it as shipped before the device has actually"},
+        {"kind": "say", "at": "00:35", "quote": "left."},
+        {"kind": "see", "at": "00:30", "frame": "t00030.jpg", "quote": "Highlighted 3.4 'The Seller shall ship Products within 48 working hours of receiving an Order.' and 3.5 'The Seller shall not mark an Order as shipped unless the device has been dispatched.'"}
+      ],
+      "says": "Ship every order within 48 working hours and never mark it as shipped before the device has actually left.",
+      "why": ""
+    },
+    {
+      "at": "00:36",
+      "screen": "Clause 3.6 penalty table (t00037)",
+      "action": "Walks the penalty table, summarising the 5%, 20% and 10% penalties; the trainer merges the two 5% rows into one spoken line.",
+      "evidence": [
+        {"kind": "say", "at": "00:36", "quote": "Breaking them costs money, 5% of the SKU price for a refused or delayed order, 20%"},
+        {"kind": "say", "at": "00:42", "quote": "for a fake shipped status, and 10% after 15 days without shipping."},
+        {"kind": "see", "at": "00:37", "frame": "t00037.jpg", "quote": "Penalty table rows: 'Order refused because the item was marked not available...' 5%; 'Customer cancels due to a delay attributable to the Seller' 5%; 'Order marked as shipped before the device is actually dispatched' 20%; 'Order not shipped within 15 calendar days of order confirmation' 10% of the order value"}
+      ],
+      "says": "Breaking them costs money.",
+      "why": ""
+    },
+    {
+      "at": "00:48",
+      "screen": "Clauses 5.2 and 5.3 highlighted, then 5.5 (t00049)",
+      "action": "Highlights the weekly statement and payment-week clauses, then the AED 5,000 withholding clause.",
+      "evidence": [
+        {"kind": "say", "at": "00:48", "quote": "You get a statement every Monday and are paid that same week."},
+        {"kind": "say", "at": "00:51", "quote": "Balances under {5?},000 dirhams roll over to the next week."},
+        {"kind": "see", "at": "00:49", "frame": "t00049.jpg", "quote": "Highlighted 5.2 'Revibe shall issue the Seller a weekly statement every Monday.' 5.3 'Payment ... within the same week, between Tuesday and Friday.' 5.5 'Revibe reserves the right to withhold payment where the Seller's net balance is below AED 5,000.'"}
+      ],
+      "says": "You get a statement every Monday and are paid that same week.",
+      "why": ""
+    },
+    {
+      "at": "00:56",
+      "screen": "Clause 5.7 Payment Method highlighted (t00057)",
+      "action": "Explains the company-bank-account-only rule and gives the AML reason.",
+      "evidence": [
+        {"kind": "say", "at": "00:56", "quote": "Payments only go to a company bank account in your official registered name, never a personal or third"},
+        {"kind": "say", "at": "01:03", "quote": "Anti-money laundering law requires it."},
+        {"kind": "see", "at": "00:57", "frame": "t00057.jpg", "quote": "5.7 'Revibe will pay the Seller only by bank transfer, and only to a company bank account that is in the Seller's official registered name.' with the list of excluded account types"}
+      ],
+      "says": "Payments only go to a company bank account in your official registered name.",
+      "why": "Anti-money laundering law requires it."
+    },
+    {
+      "at": "01:07",
+      "screen": "Clause 5.10 Required Documentation highlighted (t00068)",
+      "action": "Lists the documents to keep valid and says what happens when one expires.",
+      "evidence": [
+        {"kind": "say", "at": "01:07", "quote": "Keep your trade license, bank letter, tax certificate, and Emirates ID valid."},
+        {"kind": "say", "at": "01:12", "quote": "If one expires, payments are withheld."},
+        {"kind": "see", "at": "01:08", "frame": "t00068.jpg", "quote": "5.10 list: valid commercial trade license; valid bank account confirmation letter; valid Tax Registration Certificate (TRC); valid Emirates ID of the authorized signatory and/or beneficial owner; renewed license shared within 10 calendar days of issuance"}
+      ],
+      "says": "Keep your trade license, bank letter, tax certificate, and Emirates ID valid.",
+      "why": ""
+    },
+    {
+      "at": "01:15",
+      "screen": "Clause 6.15.2 VAT scheme options, tick one (t00078)",
+      "action": "Says the Seller is the VAT supplier and must choose a VAT scheme at signing; the screen shows the three options.",
+      "evidence": [
+        {"kind": "say", "at": "01:15", "quote": "For VAT, you are the supplier and Revive issues self-build invoices in your name, {So,?} never issue"},
+        {"kind": "say", "at": "01:22", "quote": "Take your VAT scheme when you sign and report any change within 7 days."},
+        {"kind": "see", "at": "01:18", "frame": "t00078.jpg", "quote": "6.15.2 'VAT accounting scheme for supplies through Revibe (tick one)': Option A Standard Scheme; Option B Profit Margin Scheme; Option C Not VAT registered; caption 'You are the VAT supplier: tick your scheme'"}
+      ],
+      "says": "Take your VAT scheme when you sign.",
+      "why": ""
+    },
+    {
+      "at": "01:28",
+      "screen": "Clause 7.1 New and Excellent grades (t00090)",
+      "action": "Explains the New and Excellent grade criteria.",
+      "evidence": [
+        {"kind": "say", "at": "01:28", "quote": "New means sealed and never activated."},
+        {"kind": "say", "at": "01:31", "quote": "Excellent looks like new, with battery health above 95%."},
+        {"kind": "see", "at": "01:30", "frame": "t00090.jpg", "quote": "7.1 New: 'brand new and unused, unopened, never activated (non-active)'; Excellent: 'like-new condition and appearance', 'Battery Health is above 95%'"}
+      ],
+      "says": "New means sealed and never activated.",
+      "why": ""
+    },
+    {
+      "at": "01:36",
+      "screen": "Clause 7.1 Very Good and Good battery thresholds (t00097)",
+      "action": "States the Very Good and Good grade battery thresholds.",
+      "evidence": [
+        {"kind": "say", "at": "01:36", "quote": "Very good, light scratches, battery above 90%."},
+        {"kind": "say", "at": "01:40", "quote": "Good, visible scratches, above 85%."},
+        {"kind": "see", "at": "01:37", "frame": "t00097.jpg", "quote": "Very Good: 'Battery Health is above 90%.' Good: 'Battery Health is above 85%.'"}
+      ],
+      "says": "Good, visible scratches, above 85%.",
+      "why": ""
+    },
+    {
+      "at": "01:46",
+      "screen": "Clause 7.2 battery limits after delivery (t00107)",
+      "action": "Gives the battery replacement and refund thresholds.",
+      "evidence": [
+        {"kind": "say", "at": "01:46", "quote": "Battery loss beyond 10% in {6?} months or 20 in a year means a free replacement."},
+        {"kind": "say", "at": "01:53", "quote": "A non-original parts message means a full refund."},
+        {"kind": "see", "at": "01:47", "frame": "t00107.jpg", "quote": "7.2 bullets: 'More than 3% degradation within the first 10 days ... full refund'; 'More than 10% degradation within the first 6 months ... free of charge (including logistics cost)'; 'More than 20% degradation within the first 12 months ...'"}
+      ],
+      "says": "Battery loss beyond 10% in 6 months or 20 in a year means a free replacement.",
+      "why": ""
+    },
+    {
+      "at": "01:57",
+      "screen": "Clause 7.7 Evidentiary requirements (t00117)",
+      "action": "Says to film every device at packing and to record an unpacking video for every return, and gives the reason.",
+      "evidence": [
+        {"kind": "say", "at": "01:57", "quote": "Most important, film every device when you pack it and record an unpacking video for every return."},
+        {"kind": "say", "at": "02:03", "quote": "Without this proof, you can't dispute a claim."},
+        {"kind": "see", "at": "01:57", "frame": "t00117.jpg", "quote": "7.7 a) Outbound shipments: clear visual proof ... precondition to raising any subsequent claim; b) Returns and warranty cases: unpacking video"}
+      ],
+      "says": "Without this proof, you can't dispute a claim.",
+      "why": "Without this proof, you can't dispute a claim."
+    },
+    {
+      "at": "02:07",
+      "screen": "Clause 8.1 and 8.2 (t00127)",
+      "action": "States the 15-day return rule (the screen says 'for any valid reason, including change of mind or product issues') and the rule that Revibe's decision on disputed claims is final.",
+      "evidence": [
+        {"kind": "say", "at": "02:07", "quote": "Customers can return a device within 15 days for any reason."},
+        {"kind": "say", "at": "02:10", "quote": "If you disagree with a claim, Revive reviews it and its decision is final."},
+        {"kind": "see", "at": "02:07", "frame": "t00127.jpg", "quote": "8.1 valid/invalid claim definitions; 8.2 'acceptance of returns within 15 days from the delivery date for any valid reason, including change of mind or product issues'"}
+      ],
+      "says": "Customers can return a device within 15 days for any reason.",
+      "why": ""
+    },
+    {
+      "at": "02:16",
+      "screen": "Clause (b) and (c) return to origin (t00137)",
+      "action": "Explains the return costs and credits for change-of-mind or refused orders, UAE/ZA and KSA. The parent clause number is not visible on the frame.",
+      "evidence": [
+        {"kind": "say", "at": "02:16", "quote": "Change of mind or refuse delivery."},
+        {"kind": "say", "at": "02:19", "quote": "Revive covers shipping and you're paid in full."},
+        {"kind": "say", "at": "02:21", "quote": "Accept refused Saudi orders."},
+        {"kind": "say", "at": "02:23", "quote": "You get the device back, plus 20% of the price and 150 dirhams."},
+        {"kind": "see", "at": "02:17", "frame": "t00137.jpg", "quote": "(b) Return to Origin, Customer not accepting: 'AE & ZA Orders ... Seller is credited 100% of the SKU price'; 'SA Orders ... credited 80% of the SKU price ... minus 150 AED ... keeps the device + 20% of the SKU price ... plus 150 AED'; worked example AED 1,000"}
+      ],
+      "says": "Change of mind or refuse delivery.",
+      "why": ""
+    },
+    {
+      "at": "02:29",
+      "screen": "Warranty sub-clauses a) to d) (t00150); clause number not visible on frame",
+      "action": "States the 12-month warranty and its exclusions.",
+      "evidence": [
+        {"kind": "say", "at": "02:29", "quote": "Every device has a 12-month warranty."},
+        {"kind": "say", "at": "02:31", "quote": "It excludes misuse, physical or water damage, and normal battery wear."},
+        {"kind": "see", "at": "02:30", "frame": "t00150.jpg", "quote": "a) Coverage: 12 months from the delivery date; b) Day of delivery: full coverage incl. accidental damage that day; c) Exclusions: misuse, physical or accidental damage (incl. broken screens or cracks), water damage, normal battery wear per 7.2, LCD issues per 7.6"}
+      ],
+      "says": "Every device has a 12-month warranty.",
+      "why": ""
+    },
+    {
+      "at": "02:37",
+      "screen": "Warranty e) valid claim and f) invalid claim (t00158)",
+      "action": "Explains the repair/replace path for valid claims and the AED 30 fixed fee for UAE and South Africa.",
+      "evidence": [
+        {"kind": "say", "at": "02:37", "quote": "For a valid claim, you repair or replace the device."},
+        {"kind": "say", "at": "02:40", "quote": "In the UAE {and?} South Africa, shipping costs you have fixed 30 dirhams."},
+        {"kind": "see", "at": "02:38", "frame": "t00158.jpg", "quote": "e) Valid claim, AE & ZA Orders: 'Revibe shall arrange the shipping logistics on the Seller's behalf, and a fixed fee of AED 30 shall be deducted from the Seller ...'; f) Invalid claim: customer pays / does not pay shipping branches"}
+      ],
+      "says": "For a valid claim, you repair or replace the device.",
+      "why": ""
+    },
+    {
+      "at": "02:47",
+      "screen": "Clause 9.1 Resolution timelines (t00168)",
+      "action": "Gives the resolution deadline and the refund-at-your-cost rule.",
+      "evidence": [
+        {"kind": "say", "at": "02:47", "quote": "Resolve claims within five working days of receiving the device."},
+        {"kind": "say", "at": "02:50", "quote": "After eight, Revive refunds the customer at your cost."},
+        {"kind": "see", "at": "02:48", "frame": "t00168.jpg", "quote": "9.1 a) 5 working days from receipt; b) unresolved after 6 working days: Revibe may refund and recover, non-cooperation; c) unresolved by the Seller after 8 working days: full refund regardless of reason, recovered from Seller"}
+      ],
+      "says": "Resolve claims within five working days of receiving the device.",
+      "why": ""
+    },
+    {
+      "at": "02:55",
+      "screen": "Clause 10.1 shipping responsibility, UAE/ZA vs KSA (t00176)",
+      "action": "Explains that Revibe ships UAE and South Africa orders and that the Seller ships Saudi orders.",
+      "evidence": [
+        {"kind": "say", "at": "02:55", "quote": "Revive ships UAE and South Africa orders."},
+        {"kind": "say", "at": "02:58", "quote": "Saudi orders are yours to ship, by air, with an approved courier, customs included."},
+        {"kind": "see", "at": "02:56", "frame": "t00176.jpg", "quote": "10.1 'For UAE and ZA Orders, Revibe will handle the shipping.' 'For KSA Orders, the Seller is responsible for handling the shipping...' approved partners list; 'Failure to ship by air ... 10% of the Order value per non-compliant shipment'"}
+      ],
+      "says": "Revive ships UAE and South Africa orders.",
+      "why": ""
+    },
+    {
+      "at": "03:04",
+      "screen": "Clause 10.5 and 10.6 packing (t00185)",
+      "action": "Says to use Revibe packaging and what happens when packing materials run out.",
+      "evidence": [
+        {"kind": "say", "at": "03:04", "quote": "Always use Revive's packaging."},
+        {"kind": "say", "at": "03:06", "quote": "{If?} you run out, tell us right away, or it's 200 dirhams per complaint."},
+        {"kind": "see", "at": "03:05", "frame": "t00185.jpg", "quote": "'If the Seller runs out of Revibe's packing materials, they must notify Revibe immediately...'; 10.6 'A penalty of 200 AED will be applied to the Seller for each such complaint.'"}
+      ],
+      "says": "Always use Revive's packaging.",
+      "why": ""
+    },
+    {
+      "at": "03:12",
+      "screen": "Clause 10.9 and 10.10 (t00192)",
+      "action": "Says to factory reset every device and explains the charger compensation.",
+      "evidence": [
+        {"kind": "say", "at": "03:12", "quote": "Factory reset every device before shipping."},
+        {"kind": "say", "at": "03:14", "quote": "Missing chargers are refunded to the customer and charged to you, from 30 to 70 dirhams."},
+        {"kind": "see", "at": "03:13", "frame": "t00192.jpg", "quote": "10.9 'The Seller bears full responsibility for ensuring that all devices are completely wiped, reset to factory settings...'; 10.10 compensation values: Phone charger 30 AED, MacBook charger 70 AED, Laptop charger 50 AED"}
+      ],
+      "says": "Factory reset every device before shipping.",
+      "why": ""
+    },
+    {
+      "at": "03:21",
+      "screen": "Clause 11 Score (t00201)",
+      "action": "Explains the score range and the suspension consequence of a poor score.",
+      "evidence": [
+        {"kind": "say", "at": "03:21", "quote": "Your score, from {minus?} 10 to plus 10 percent, reflects your performance."},
+        {"kind": "say", "at": "03:25", "quote": "A poor score can suspend your own shipping."},
+        {"kind": "say", "at": "03:28", "quote": "You'd then sell only through Revive's warehouse."},
+        {"kind": "see", "at": "03:21", "frame": "t00201.jpg", "quote": "11.1 'Seller's score may vary between -10% and +10%'; 11.2 suspension, only option is sending products to Revibe's warehouse"}
+      ],
+      "says": "Your score, from -10 to plus 10 percent, reflects your performance.",
+      "why": ""
+    },
+    {
+      "at": "03:31",
+      "screen": "Clause 13 Termination (t00212)",
+      "action": "Explains the 30-day notice to leave and the obligations that survive termination.",
+      "evidence": [
+        {"kind": "say", "at": "03:31", "quote": "Either side can leave with 30 days notice."},
+        {"kind": "say", "at": "03:34", "quote": "{You?} still handle open orders and claims for 12 months and Revive pays what it owes within 180"},
+        {"kind": "see", "at": "03:32", "frame": "t00212.jpg", "quote": "13.1 '... terminated by either Party by providing a 30-day written notice to the other Party.' 13.3 surviving obligations; 'Revibe shall settle all amounts due to the Seller within 180 days from the date of the last Order delivery.'"}
+      ],
+      "says": "Either side can leave with 30 days notice.",
+      "why": ""
+    },
+    {
+      "at": "03:41",
+      "screen": "Recap slide (t00221, t00224)",
+      "action": "Closes the video and sends questions to the Key Account Manager.",
+      "evidence": [
+        {"kind": "say", "at": "03:41", "quote": "That's it any question ask your key account manager"},
+        {"kind": "see", "at": "03:44", "frame": "t00224.jpg", "quote": "'RECAP', 'Ship fast, prove everything', '48h shipping · weekly payments · 15-day returns · 12-month warranty', button 'Questions? Ask your Key Account Manager', footer 'Revibe · Supply team training'"}
+      ],
+      "says": "That's it any question ask your key account manager",
+      "why": ""
+    }
+  ],
+  "facts": [
+    {"type": "rule", "statement": "The Seller downloads the Revibe Seller Agreement, fills in company details offline (company name, trade license number, exact and detailed principal place of business) and uploads it on the onboarding form.", "evidence": [{"kind": "say", "at": "00:04", "quote": "Download the agreement, fill in your company details, and upload it on the onboarding form."}, {"kind": "see", "at": "00:05", "frame": "t00005.jpg", "quote": "Banner 'DOWNLOAD IT TO EDIT IT OFFLINE, THEN UPLOAD IT ON THE ONBOARDING FORM'; fields 'Company Name:', 'Trade License No.:', 'Principal place of business at (please mention exact and detailed address):'"}], "confidence": "high", "quiz": true},
+    {"type": "definition", "statement": "The agreement is between Revibe Technology FZ LLC (incorporated in Dubai Internet City, UAE, registered under No. 100866, principal place of business HD42A, 1st Floor, Internet City) and the Seller.", "evidence": [{"kind": "see", "at": "00:05", "frame": "t00005.jpg", "quote": "'Revibe Technology FZ LLC, a company incorporated in Dubai Internet City, United Arab Emirates, registered under No. 100866, with its principal place of business at HD42A, 1st Floor, Internet City'"}], "confidence": "high", "quiz": false},
+    {"type": "definition", "statement": "Revibe creates an Alias for each Seller, used across Revibe's internal systems and possibly displayed on the website when referencing the Seller as provider of specific products.", "evidence": [{"kind": "see", "at": "00:05", "frame": "t00005.jpg", "quote": "1.1 'Revibe will create an Alias for the Seller, which will be used across Revibe's internal systems and may be displayed on the website...'"}], "confidence": "high", "quiz": false},
+    {"type": "definition", "statement": "Under the commission model, Revibe advertises and sells the Seller's products on commission, and the Seller is responsible for fulfilling Orders and shipping products to end customers.", "evidence": [{"kind": "say", "at": "00:11", "quote": "The model is simple, Revibe sells your products on commission, and you fulfill and ship the orders."}, {"kind": "see", "at": "00:12", "frame": "t00012.jpg", "quote": "3.1 Commercial Model: 'Revibe shall advertise and sell the Seller's Products on a commission-based model. The Seller shall be responsible for fulfilling Orders and shipping Products to end customers.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "The Seller provides Revibe with product availability and an up-to-date price list, and lists prices only for items it can effectively supply to customers.", "evidence": [{"kind": "say", "at": "00:16", "quote": "Only list prices for stock you can really supply."}, {"kind": "see", "at": "00:12", "frame": "t00012.jpg", "quote": "3.2 Seller Inputs: 'The Seller agrees to list pricing only for items they can effectively supply to customers.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "Revibe manages all customer-facing communication about complaints and after-sales service on the Seller's behalf, including receipt, aggregation and filtering of all claims.", "evidence": [{"kind": "say", "at": "00:20", "quote": "Revibe handles all customer communication and after sales."}, {"kind": "see", "at": "00:21", "frame": "t00021.jpg", "quote": "4.1 'Revibe shall manage all customer-facing communications related to complaints and after-sales service on behalf of the Seller, including the receipt, aggregation, and filtering of all claims.'"}], "confidence": "high", "quiz": true},
+    {"type": "warning", "statement": "The Seller must never contact a customer directly, in any form, unless Revibe gives prior written authorization, granted case by case.", "evidence": [{"kind": "say", "at": "00:24", "quote": "Never contact a customer directly without Revibe's written approval."}, {"kind": "see", "at": "00:21", "frame": "t00021.jpg", "quote": "4.2 'The Seller is prohibited from contacting or communicating with customers directly, in any form, unless prior written authorization is granted by Revibe on a case-by-case basis.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "The Seller's after-sales obligations are limited to operational fulfilment of validated claims (repair or replacement); Revibe is not liable for replacing or repairing damaged or non-functioning devices.", "evidence": [{"kind": "see", "at": "00:24", "frame": "t00021.jpg", "quote": "4.3 'The Seller's obligations are limited to the operational fulfilment of validated claims (i.e., repair or replacement of devices). For the avoidance of doubt, Revibe shall not be liable for replacing or repairing any damaged or non-functioning devices.'"}], "confidence": "high", "quiz": false},
+    {"type": "rule", "statement": "Revibe provides Order updates through a shared system and reserves the right to cancel any Order before shipment.", "evidence": [{"kind": "see", "at": "00:30", "frame": "t00030.jpg", "quote": "3.3 Order Management: 'Revibe will provide the Seller with Order updates through a shared system. Revibe reserves the right to cancel any Order before shipment.'"}], "confidence": "high", "quiz": false},
+    {"type": "number", "statement": "The Seller must ship every Order within 48 working hours of receiving it.", "evidence": [{"kind": "say", "at": "00:29", "quote": "Ship every order within 48 working hours and never mark it as shipped before the device has actually"}, {"kind": "see", "at": "00:30", "frame": "t00030.jpg", "quote": "3.4 Shipping Deadline: 'The Seller shall ship Products within 48 working hours of receiving an Order.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "The Seller must not mark an Order as shipped unless the device has been dispatched.", "evidence": [{"kind": "see", "at": "00:30", "frame": "t00030.jpg", "quote": "3.5 'The Seller shall not mark an Order as shipped unless the device has been dispatched.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "For KSA (Saudi) orders where the courier is integrated with Revibe via API, shipment status syncs automatically and the Seller must not update it manually.", "evidence": [{"kind": "see", "at": "00:30", "frame": "t00030.jpg", "quote": "Bullet: 'Where the courier is integrated with Revibe via API, shipment status will be synchronized automatically, and the Seller shall not update it manually.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "For KSA orders where the courier is not integrated with Revibe, the Seller updates the shipment status manually, in line with the status provided by the courier.", "evidence": [{"kind": "see", "at": "00:30", "frame": "t00030.jpg", "quote": "Bullet: 'Where the courier is not integrated, the Seller shall update the shipment status manually, in line with the status provided by the courier.'"}], "confidence": "high", "quiz": true},
+    {"type": "warning", "statement": "Penalty of 5% of the SKU price initially quoted when an Order is refused because the item was marked 'not available' by the Seller after listing.", "evidence": [{"kind": "say", "at": "00:36", "quote": "Breaking them costs money, 5% of the SKU price for a refused or delayed order, 20%"}, {"kind": "see", "at": "00:37", "frame": "t00037.jpg", "quote": "'Order refused because the item was marked not available by the Seller after listing' - '5% of the SKU price initially quoted'"}], "confidence": "high", "quiz": true},
+    {"type": "warning", "statement": "Penalty of 5% of the SKU price initially quoted when a customer cancels due to a delay attributable to the Seller.", "evidence": [{"kind": "see", "at": "00:37", "frame": "t00037.jpg", "quote": "'Customer cancels due to a delay attributable to the Seller' - '5% of the SKU price initially quoted'"}], "confidence": "high", "quiz": true},
+    {"type": "warning", "statement": "Penalty of 20% of the SKU price initially quoted when an Order is marked as shipped before the device is actually dispatched (a fake shipped status).", "evidence": [{"kind": "say", "at": "00:42", "quote": "for a fake shipped status, and 10% after 15 days without shipping."}, {"kind": "see", "at": "00:37", "frame": "t00037.jpg", "quote": "'Order marked as shipped before the device is actually dispatched' - '20% of the SKU price initially quoted'"}], "confidence": "high", "quiz": true},
+    {"type": "warning", "statement": "Penalty of 10% of the order value when an Order is not shipped within 15 calendar days of order confirmation; Revibe may also cancel and reassign the Order.", "evidence": [{"kind": "say", "at": "00:42", "quote": "for a fake shipped status, and 10% after 15 days without shipping."}, {"kind": "see", "at": "00:37", "frame": "t00037.jpg", "quote": "'Order not shipped within 15 calendar days of order confirmation' - '10% of the order value (Revibe may also cancel and reassign the Order)'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "Penalties are deducted from the Seller's balance or invoiced separately, at Revibe's discretion.", "evidence": [{"kind": "see", "at": "00:36", "frame": "t00030.jpg", "quote": "3.6 Penalties: 'deducted from the Seller's balance or invoiced separately at Revibe's discretion'"}], "confidence": "high", "quiz": false},
+    {"type": "rule", "statement": "Revibe pays the Seller weekly: it issues a statement every Monday, and payment for the Orders on that statement is made the same week, between Tuesday and Friday.", "evidence": [{"kind": "say", "at": "00:48", "quote": "You get a statement every Monday and are paid that same week."}, {"kind": "see", "at": "00:49", "frame": "t00049.jpg", "quote": "5.2 'Revibe shall issue the Seller a weekly statement every Monday.' 5.3 'Payment ... shall be made within the same week, between Tuesday and Friday.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "All shipped Orders are settled on a weekly basis, except COD Orders, which are invoiced upon delivery to the customer.", "evidence": [{"kind": "see", "at": "00:49", "frame": "t00049.jpg", "quote": "5.1 'All shipped Orders, apart from COD Orders, shall be settled on a weekly basis.' 5.4 'COD Orders shall be invoiced upon delivery to the customer.'"}], "confidence": "high", "quiz": false},
+    {"type": "number", "statement": "If the Seller's net balance is below AED 5,000, Revibe may withhold payment; the withheld amount is carried forward and settled in the next weekly cycle in which the threshold is met.", "evidence": [{"kind": "say", "at": "00:51", "quote": "Balances under {5?},000 dirhams roll over to the next week."}, {"kind": "see", "at": "00:49", "frame": "t00049.jpg", "quote": "5.5 'Revibe reserves the right to withhold payment where the Seller's net balance is below AED 5,000. Any amount withheld ... shall be carried forward and settled in the next weekly cycle in which the threshold is met.'"}], "confidence": "high", "quiz": true},
+    {"type": "number", "statement": "Revibe may retain a minimum balance of AED 10,000 from amounts otherwise due to the Seller, to cover potential warranty and return cases, when the Seller is deemed to have discontinued the partnership.", "evidence": [{"kind": "see", "at": "00:57", "frame": "t00057.jpg", "quote": "5.6 'Revibe reserves the right to retain a minimum balance of AED 10,000 from amounts otherwise due to the Seller, to cover potential warranty and return cases.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "Discontinued partnership is presumed if either no shipments were made by the Seller in the last 5 working days, or 30% or more of claims received over the last 2 months remain unresolved, provided uncovered claims number 10 or more in absolute terms.", "evidence": [{"kind": "see", "at": "00:57", "frame": "t00057.jpg", "quote": "'no shipments have been made by the Seller during the last 5 working days;' '30% or more of the claims received by the Seller over the last 2 months remain unresolved ... greater than or equal to 10 in absolute terms.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "Revibe pays the Seller only by bank transfer, and only to a company bank account in the Seller's official registered name.", "evidence": [{"kind": "say", "at": "00:56", "quote": "Payments only go to a company bank account in your official registered name, never a personal or third"}, {"kind": "see", "at": "00:57", "frame": "t00057.jpg", "quote": "5.7 Payment Method: 'Revibe will pay the Seller only by bank transfer, and only to a company bank account that is in the Seller's official registered name.'"}], "confidence": "high", "quiz": true},
+    {"type": "warning", "statement": "Revibe never pays personal bank accounts, bank accounts belonging to another person or company, or any account whose name does not match the Seller's official registered name.", "evidence": [{"kind": "say", "at": "01:02", "quote": "-party account."}, {"kind": "see", "at": "01:03", "frame": "t00057.jpg", "quote": "'personal bank accounts,' 'bank accounts belonging to another person or company, or' 'any account where the name does not match the Seller's official registered name.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "The company-bank-account rule applies in all cases, even if the Seller signs an assignment or factoring agreement or sends instructions for a different account. The only exception is Revibe's written approval given in advance.", "evidence": [{"kind": "see", "at": "01:03", "frame": "t00057.jpg", "quote": "'This rule applies in all cases, even if the Seller signs an assignment, a factoring agreement, or sends written instructions asking for a different account. The only exception is if Revibe gives written approval in advance.'"}], "confidence": "high", "quiz": true},
+    {"type": "policy", "statement": "The bank-account rule cannot be changed; it is required by law under anti-money laundering (AML), sanctions and beneficial ownership regulations.", "evidence": [{"kind": "say", "at": "01:03", "quote": "Anti-money laundering law requires it."}, {"kind": "see", "at": "01:03", "frame": "t00057.jpg", "quote": "'This rule cannot be changed. It is required by law under anti-money laundering (AML), sanctions, and beneficial ownership regulations.'"}], "confidence": "high", "quiz": false},
+    {"type": "rule", "statement": "The Seller must keep valid: a commercial trade license, a bank account confirmation letter for the corporate account, a Tax Registration Certificate (TRC), and the Emirates ID of the authorized signatory and/or beneficial owner.", "evidence": [{"kind": "say", "at": "01:07", "quote": "Keep your trade license, bank letter, tax certificate, and Emirates ID valid."}, {"kind": "see", "at": "01:08", "frame": "t00068.jpg", "quote": "5.10 'a valid commercial trade license ...; a valid bank account confirmation letter ...; a valid Tax Registration Certificate (TRC); and a valid Emirates ID of the authorized signatory and/or beneficial owner.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "Renewed licence documents must be shared within 10 calendar days of issuance and no later than the expiry date of the previous one; the Seller must initiate renewal before expiry.", "evidence": [{"kind": "see", "at": "01:08", "frame": "t00068.jpg", "quote": "'initiate renewal before expiry,' 'share renewed license within 10 calendar days of issuance (and no later than the expiry date of the previous one),'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "The Seller must promptly notify Revibe of any change, expiry or renewal affecting its required documents, send updated copies without undue delay, and immediately notify any suspension, cancellation or material change.", "evidence": [{"kind": "see", "at": "01:08", "frame": "t00068.jpg", "quote": "'The Seller shall promptly notify Revibe of any change, expiry, or renewal affecting any of the above documents and shall provide updated copies without undue delay.' 'notify immediately of any suspension, cancellation or material change.'"}], "confidence": "high", "quiz": true},
+    {"type": "warning", "statement": "If a required document is missing, expired, invalid or not in order, Revibe may withhold payments, suspend the account and reject new Orders until a refreshed document is received.", "evidence": [{"kind": "say", "at": "01:12", "quote": "If one expires, payments are withheld."}, {"kind": "see", "at": "01:08", "frame": "t00068.jpg", "quote": "'Revibe can suspend the account, withhold payments and reject new Orders until refresh is received.' 5.11 'Revibe reserves the right to withhold any payment ... for as long as any of the documents listed in Clause 5.10 is missing, expired, invalid, or otherwise not in order.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "The Seller must complete and pass Revibe's KYC, anti-money-laundering and compliance checks, and remains responsible for keeping its compliance status valid.", "evidence": [{"kind": "see", "at": "01:07", "frame": "t00068.jpg", "quote": "'...the Seller shall complete and successfully pass all Know-Your-Customer (KYC), anti-money-laundering (AML), and compliance checks reasonably required by Revibe. The Seller shall remain solely responsible ...'"}], "confidence": "high", "quiz": false},
+    {"type": "rule", "statement": "For VAT, the Seller is the supplier and Revibe issues self-billed invoices in the Seller's name.", "evidence": [{"kind": "say", "at": "01:15", "quote": "For VAT, you are the supplier and Revive issues self-build invoices in your name, {So,?} never issue"}, {"kind": "see", "at": "01:18", "frame": "t00078.jpg", "quote": "'Option A ... Self-Billed Invoices will show VAT separately.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "Implied: the Seller should not issue its own separate invoice for a sale that Revibe already invoices through the self-billed invoice (the trainer's words are cut off).", "evidence": [{"kind": "say", "at": "01:15", "quote": "{So,?} never issue"}, {"kind": "say", "at": "01:21", "quote": "a duplicate."}], "confidence": "low", "quiz": false},
+    {"type": "rule", "statement": "The Seller must choose one VAT accounting scheme for supplies through Revibe when signing: Option A Standard Scheme, Option B Profit Margin Scheme, or Option C Not VAT registered.", "evidence": [{"kind": "say", "at": "01:22", "quote": "Take your VAT scheme when you sign"}, {"kind": "see", "at": "01:18", "frame": "t00078.jpg", "quote": "'6.15.2 VAT accounting scheme for supplies through Revibe (tick one)': Option A – Standard Scheme; Option B – Profit Margin Scheme; Option C – Not VAT registered"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "Option A (Standard Scheme): VAT at 5% is charged on the full selling price of all products supplied through Revibe, and Self-Billed Invoices show VAT separately.", "evidence": [{"kind": "see", "at": "01:18", "frame": "t00078.jpg", "quote": "'VAT at 5% is charged on the full selling price of all my Products supplied through Revibe. Self-Billed Invoices will show VAT separately.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "Option B (Profit Margin Scheme) applies to eligible supplies per Clause 6.14.2, with the Standard Scheme for any supply that does not meet the eligibility conditions. Clause 6.15.3 is completed only if Option B is selected.", "evidence": [{"kind": "see", "at": "01:18", "frame": "t00078.jpg", "quote": "'I apply the Profit Margin Scheme to my eligible supplies through Revibe (per Clause 6.14.2) ... I have completed Clause 6.15.3 below.' 6.15.3 'Complete this section ONLY if Option B is selected.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "Option C (Not VAT registered): the Seller is not registered for UAE VAT, no VAT applies, and Revibe issues a commercial statement with no VAT under Clause 6.4.", "evidence": [{"kind": "see", "at": "01:18", "frame": "t00078.jpg", "quote": "'I am not registered for UAE VAT. No VAT applies; Revibe will issue a commercial statement with no VAT under Clause 6.4.'"}], "confidence": "high", "quiz": false},
+    {"type": "rule", "statement": "Trainer says any change to the VAT scheme must be reported within 7 days. The 7-day period is not shown on any frame.", "evidence": [{"kind": "say", "at": "01:22", "quote": "Take your VAT scheme when you sign and report any change within 7 days."}], "confidence": "low", "quiz": false},
+    {"type": "definition", "statement": "Revibe grades phone products into four conditions: New, Excellent, Very Good and Good, based on cosmetic and technical standards.", "evidence": [{"kind": "see", "at": "01:30", "frame": "t00090.jpg", "quote": "7.1 'Revibe categorizes Products, particularly in the Phones category, into four distinct conditions based on cosmetic and technical standards: New ... Excellent ...'"}], "confidence": "high", "quiz": true},
+    {"type": "definition", "statement": "New: brand new, unused, unopened, never activated (non-active), in perfect condition in its original sealed packaging with all standard accessories.", "evidence": [{"kind": "say", "at": "01:28", "quote": "New means sealed and never activated."}, {"kind": "see", "at": "01:30", "frame": "t00090.jpg", "quote": "'The product is brand new and unused, unopened, never activated (non-active).' 'It is in perfect condition, never opened, and comes in its original sealed packaging with all standard accessories included.'"}], "confidence": "high", "quiz": true},
+    {"type": "warning", "statement": "Any deviation from the New criteria is misrepresentation and may lead to penalties, order cancellation or Seller suspension.", "evidence": [{"kind": "see", "at": "01:30", "frame": "t00090.jpg", "quote": "'Any deviation from these criteria shall constitute misrepresentation and may lead to penalties, order cancellation, or Seller suspension.'"}], "confidence": "high", "quiz": true},
+    {"type": "definition", "statement": "Excellent: like-new condition and appearance, technical condition and durability (including battery health) at the highest possible level, battery health above 95%, 100% tested and fully functional, no visible scratches or dents on any part of the device.", "evidence": [{"kind": "say", "at": "01:31", "quote": "Excellent looks like new, with battery health above 95%."}, {"kind": "see", "at": "01:30", "frame": "t00090.jpg", "quote": "'The product is in a like-new condition and appearance.' 'Technical condition and durability (including battery health) are the highest possible.' 'Battery Health is above 95%.' 'All devices are 100% tested in depth and fully functional.' 'There are no visible scratches or dents on any part of the device.'"}], "confidence": "high", "quiz": true},
+    {"type": "definition", "statement": "Very Good: light scratches only slightly visible from 20cm or more, technical condition above the average according to Revibe's quality standards, battery health above 90%, screen with no scratches (light scratches acceptable on the cover), 100% tested and fully functional.", "evidence": [{"kind": "say", "at": "01:36", "quote": "Very good, light scratches, battery above 90%."}, {"kind": "see", "at": "01:37", "frame": "t00097.jpg", "quote": "'Light scratches, only slightly visible from 20cm or more.' 'Technical condition is above the average according to Revibe's quality standards.' 'Battery Health is above 90%.' 'The screen should have no scratches, but light scratches are acceptable on the cover.'"}], "confidence": "high", "quiz": true},
+    {"type": "definition", "statement": "Good: visible scratches and possible minor dents, technical condition within the average according to Revibe's quality standards, battery health above 85%, screen may have light scratches, and more visible scratches or dents may be on the back cover; 100% tested and fully functional.", "evidence": [{"kind": "say", "at": "01:40", "quote": "Good, visible scratches, above 85%."}, {"kind": "see", "at": "01:37", "frame": "t00097.jpg", "quote": "'Visible scratches and possible minor dents.' 'Technical condition is within the average according to Revibe's quality standards.' 'Battery Health is above 85%.' 'The screen may have light scratches, and more visible scratches or dents can be present on the back cover.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "Every grade must be fully functional: all devices are 100% tested in depth and fully functional.", "evidence": [{"kind": "say", "at": "01:43", "quote": "Every grade must be fully functional."}, {"kind": "see", "at": "01:37", "frame": "t00097.jpg", "quote": "'All devices are 100% tested in depth and fully functional.' (listed under Excellent, Very Good and Good)"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "Normal battery wear and tear is not a warranty defect; battery health degradation is assessed against the thresholds in Clause 7.2.", "evidence": [{"kind": "see", "at": "01:37", "frame": "t00097.jpg", "quote": "'7.2 Battery Standards: Normal battery wear and tear is not considered a warranty defect.'"}], "confidence": "high", "quiz": true},
+    {"type": "number", "statement": "More than 3% battery degradation within the first 10 days after delivery entitles the customer to a full refund on returning the device.", "evidence": [{"kind": "see", "at": "01:47", "frame": "t00107.jpg", "quote": "'More than 3% degradation within the first 10 days following delivery - the customer is entitled to a full refund upon returning the device.'"}], "confidence": "medium", "quiz": true},
+    {"type": "number", "statement": "More than 10% battery degradation within the first 6 months after delivery means the Seller must provide a free battery replacement to the customer, including logistics cost.", "evidence": [{"kind": "say", "at": "01:46", "quote": "Battery loss beyond 10% in {6?} months or 20 in a year means a free replacement."}, {"kind": "see", "at": "01:47", "frame": "t00107.jpg", "quote": "'More than 10% degradation within the first 6 months following delivery - the Seller is required to provide a battery replacement free of charge to the customer (including logistics cost).'"}], "confidence": "high", "quiz": true},
+    {"type": "number", "statement": "More than 20% battery degradation within the first 12 months after delivery means the Seller must provide a free battery replacement to the customer, including logistics cost.", "evidence": [{"kind": "say", "at": "01:46", "quote": "Battery loss beyond 10% in {6?} months or 20 in a year means a free replacement."}, {"kind": "see", "at": "01:47", "frame": "t00107.jpg", "quote": "'More than 20% degradation within the first 12 months following delivery - the Seller is required to provide a battery replacement free of charge to the customer (including logistics cost).'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "If the phone shows a message that the battery or other parts are not original, the customer is entitled to a full refund.", "evidence": [{"kind": "say", "at": "01:53", "quote": "A non-original parts message means a full refund."}, {"kind": "see", "at": "01:47", "frame": "t00107.jpg", "quote": "'If the phone displays a message indicating that the battery or any other parts are not original, the customer is entitled to a full refund.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "The screen is covered by Revibe's warranty and returns policy if there are no signs of physical breakage caused by the customer. For suspected physical damage, the Seller must provide clear pictures or videos showing the breakage; this applies to returns and warranties.", "evidence": [{"kind": "see", "at": "01:47", "frame": "t00107.jpg", "quote": "'7.3 Screen Coverage: ... In cases of suspected physical damage, the Seller must provide clear pictures or videos showing the breakage to substantiate the claim. This policy applies to both returns and warranties.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "If a laptop arrives with the wrong specifications, such as a keyboard layout different from the order (e.g. English instead of Arabic), Revibe may fully refund the customer if the Seller refuses to rectify it.", "evidence": [{"kind": "see", "at": "01:57", "frame": "t00117.jpg", "quote": "'7.5 Laptops - Incorrect Device or Keyboard Layout ... Revibe reserves the right to fully refund the customer (in case the Seller refuses to rectify the issue).'"}], "confidence": "high", "quiz": false},
+    {"type": "rule", "statement": "LCD issues are not covered under warranty after 6 months from the delivery date.", "evidence": [{"kind": "see", "at": "01:57", "frame": "t00117.jpg", "quote": "'7.6 LCD Coverage - LCD issues are not covered under warranty after 6 months from the delivery date.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "For every Order dispatched, the Seller must record clear visual proof (photos or video) of the device's condition at packing and dispatch; this proof is a precondition to raising any later claim about the device's condition.", "evidence": [{"kind": "say", "at": "01:57", "quote": "Most important, film every device when you pack it and record an unpacking video for every return."}, {"kind": "say", "at": "02:03", "quote": "Without this proof, you can't dispute a claim."}, {"kind": "see", "at": "01:57", "frame": "t00117.jpg", "quote": "'a) Outbound shipments. For every Order dispatched ... clear visual proof (photographs or video) ... Such proof shall be a precondition to raising any subsequent claim'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "For every device returned in a return or warranty claim, the Seller must record an unpacking video on receipt; that video is the supporting evidence for any claim the Seller raises on that device.", "evidence": [{"kind": "say", "at": "01:57", "quote": "record an unpacking video for every return."}, {"kind": "see", "at": "01:57", "frame": "t00117.jpg", "quote": "'b) Returns and warranty cases. Upon receipt of any device returned ... the Seller shall record an unpacking video ... Such video shall constitute the supporting evidence'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "For UAE and South Africa orders, if the Seller has produced the evidence required under 7.7(a) and (b), Revibe bears the cost of the relevant shipment.", "evidence": [{"kind": "see", "at": "01:57", "frame": "t00117.jpg", "quote": "'c) Shipment costs — UAE and ZA. ... and provided the Seller has produced the evidence required under paragraphs (a) and (b) above, Revibe shall bear the cost of the relevant shipment.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "For KSA (Saudi) orders, the Seller bears the cost of the relevant shipment.", "evidence": [{"kind": "see", "at": "01:57", "frame": "t00117.jpg", "quote": "'d) Shipment costs — KSA. For Orders shipped to the Kingdom of Saudi Arabia (KSA), the Seller shall bear the cost of the relevant shipment.'"}], "confidence": "high", "quiz": true},
+    {"type": "definition", "statement": "A claim is valid if the Seller agrees the defect is valid, or if the Seller disagrees but Revibe reviews the case and confirms the defect is valid. Revibe's decision is final.", "evidence": [{"kind": "see", "at": "02:07", "frame": "t00127.jpg", "quote": "'8.1 Valid and Invalid Claims: A claim is considered valid if: the Seller agrees the defect is valid; or the Seller disagrees, but Revibe reviews the case and confirms the defect is valid. Revibe's decision is final.'"}, {"kind": "say", "at": "02:10", "quote": "If you disagree with a claim, Revive reviews it and its decision is final."}], "confidence": "high", "quiz": true},
+    {"type": "definition", "statement": "A claim is invalid if the Seller states the defect is invalid and Revibe, after review, confirms the claim is invalid. Revibe's decision is final.", "evidence": [{"kind": "see", "at": "02:07", "frame": "t00127.jpg", "quote": "'A claim is considered invalid if: the Seller states the defect is invalid; and Revibe, after review, confirms that the claim is invalid. Revibe's decision is final.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "The Clause 7.7 evidence requirements apply in every valid or invalid claim case.", "evidence": [{"kind": "see", "at": "02:07", "frame": "t00127.jpg", "quote": "'In all cases, the evidentiary requirements set out in Clause 7.7 shall apply.'"}], "confidence": "high", "quiz": false},
+    {"type": "rule", "statement": "Customers may return a device within 15 days of delivery for any valid reason, including change of mind or product issues.", "evidence": [{"kind": "say", "at": "02:07", "quote": "Customers can return a device within 15 days for any reason."}, {"kind": "see", "at": "02:07", "frame": "t00127.jpg", "quote": "'The acceptance of returns within 15 days from the delivery date for any valid reason, including change of mind or product issues.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "If a customer raises a second valid issue on the same order, the Seller must accept the return on the customer's request even if the 15-day period has expired.", "evidence": [{"kind": "see", "at": "02:07", "frame": "t00127.jpg", "quote": "'If a second claim is raised by the customer for the same order and for a second valid issue, the Seller shall be required to accept the return upon the customer's request, even if the 15-day period has expired.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "UAE and South Africa orders, customer does not accept (change of mind or refusal): the product returns to the Seller, Revibe handles the shipping costs, no deduction is made, and the Seller is credited 100% of the SKU price initially indicated.", "evidence": [{"kind": "say", "at": "02:16", "quote": "Change of mind or refuse delivery."}, {"kind": "say", "at": "02:19", "quote": "Revive covers shipping and you're paid in full."}, {"kind": "see", "at": "02:17", "frame": "t00137.jpg", "quote": "'AE & ZA Orders — The product is returned to the Seller, Revibe handles the shipping costs internally, and no deductions will be made from the Seller for returns due to a change of mind. The Seller is credited 100% of the SKU price they initially indicated.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "Saudi (KSA) orders, customer does not accept (change of mind or refusal): the product returns to the Seller, the Seller pays the shipping costs, no deduction is made for change of mind, and the Seller is credited 80% of the SKU price initially indicated minus AED 150. The Seller keeps the device plus 20% of the SKU price plus AED 150.", "evidence": [{"kind": "say", "at": "02:21", "quote": "Accept refused Saudi orders."}, {"kind": "say", "at": "02:23", "quote": "You get the device back, plus 20% of the price and 150 dirhams."}, {"kind": "see", "at": "02:17", "frame": "t00137.jpg", "quote": "'SA Orders — ... The Seller handles the shipping costs ... The Seller is credited 80% of the SKU price they initially indicated minus 150 AED meaning the Seller keeps the device + 20% of the SKU price they initially indicated plus 150 AED.'"}], "confidence": "high", "quiz": true},
+    {"type": "number", "statement": "Worked example from the agreement for a KSA customer refusal with an SKU price of AED 1,000: Revibe recovers AED 650 (80% x 1,000 - 150), and the Seller keeps the returned device plus AED 350 (20% x 1,000 + 150).", "evidence": [{"kind": "see", "at": "02:17", "frame": "t00137.jpg", "quote": "'For an Order with an SKU price of AED 1,000: Revibe recovers AED 650 (i.e. 80% × 1,000 – 150). The Seller retains the returned device plus AED 350 (i.e. 20% × 1,000 + 150).'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "Seller-issue return for UAE and South Africa orders: the product returns to the Seller, Revibe handles the shipping costs, the Seller is credited 100% of the SKU price initially indicated, and no additional deductions are made.", "evidence": [{"kind": "see", "at": "02:17", "frame": "t00137.jpg", "quote": "'(c) Return to Origin — Seller issue ... AE & ZA Orders — ... Revibe handles the shipping costs and the Seller is credited 100% of the SKU price they initially indicated. No additional deductions will be made from the Seller.'"}], "confidence": "high", "quiz": false},
+    {"type": "number", "statement": "Every device has a 12-month warranty from the delivery date, covering repair, replacement or refund of products that fail to meet Revibe's quality standards.", "evidence": [{"kind": "say", "at": "02:29", "quote": "Every device has a 12-month warranty."}, {"kind": "see", "at": "02:30", "frame": "t00150.jpg", "quote": "'a) Coverage. ... warranty period of 12 months from the delivery date, covering repair, replacement, or refund of Products that fail to meet Revibe's quality standards.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "On the day of delivery, the customer has full coverage, including accidental damage occurring that day.", "evidence": [{"kind": "see", "at": "02:30", "frame": "t00150.jpg", "quote": "'b) Day of delivery. On the day of delivery, the customer shall benefit from full coverage, including for accidental damage occurring on that day.'"}], "confidence": "high", "quiz": true},
+    {"type": "warning", "statement": "The warranty does not cover: misuse or failure to follow the user manual; physical or accidental damage including broken screens or cracks; water damage or liquid exposure; normal battery wear within the Clause 7.2 thresholds; and LCD issues under Clause 7.6.", "evidence": [{"kind": "say", "at": "02:31", "quote": "It excludes misuse, physical or water damage, and normal battery wear."}, {"kind": "see", "at": "02:30", "frame": "t00150.jpg", "quote": "'c) Exclusions. The warranty does not cover: Misuse or failure to comply with the user manual. Physical or accidental damage (including broken screens or cracks). Water damage or exposure to liquids. Normal battery wear and tear ... Clause 7.2. LCD issues, as set out in Clause 7.6.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "For a valid warranty claim on UAE and South Africa orders, the product goes back to the Seller for repair or replacement; Revibe arranges shipping on the Seller's behalf and a fixed AED 30 fee is deducted from the Seller, covering the return shipment and the reshipment to the customer.", "evidence": [{"kind": "say", "at": "02:37", "quote": "For a valid claim, you repair or replace the device."}, {"kind": "say", "at": "02:40", "quote": "In the UAE {and?} South Africa, shipping costs you have fixed 30 dirhams."}, {"kind": "see", "at": "02:38", "frame": "t00158.jpg", "quote": "'e) Valid claim. ... AE & ZA Orders — The product is returned to the Seller for repair or replacement. Revibe shall arrange the shipping logistics on the Seller's behalf, and a fixed fee of AED 30 shall be deducted from the Seller to cover the cost of both the return shipment and the subsequent reshipment to the customer.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "For a valid warranty claim on KSA orders, the product goes back to the Seller for repair or replacement and the Seller arranges the shipping logistics and related support fees.", "evidence": [{"kind": "see", "at": "02:38", "frame": "t00158.jpg", "quote": "'SA Orders — The product is returned to the Seller for repair or replacement. The Seller shall arrange the shipping logistics and support related fees.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "For an invalid claim on UAE and South Africa orders where the customer does not pay shipping, Revibe keeps the device and the Seller is not credited anything.", "evidence": [{"kind": "see", "at": "02:38", "frame": "t00158.jpg", "quote": "'AE & ZA Orders — Revibe keeps the device, the Seller is not credited anything.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "For an invalid claim on KSA orders where the customer does not pay shipping, Revibe keeps the device and the Seller is compensated 20% of the SKU price initially indicated plus AED 150.", "evidence": [{"kind": "see", "at": "02:38", "frame": "t00158.jpg", "quote": "'SA Orders — Revibe keeps the device, the Seller is compensated 20% of the SKU price they initially indicated plus 150 AED.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "For an invalid claim where the customer pays the shipping charges, the product is returned to the customer.", "evidence": [{"kind": "see", "at": "02:38", "frame": "t00158.jpg", "quote": "'Customer pays for shipping charges — The product is returned to the Customer.'"}], "confidence": "high", "quiz": false},
+    {"type": "number", "statement": "A warranty claim must be resolved (repair, replacement or refund, if the product fails the specifications) within 5 working days of Revibe receiving the Product.", "evidence": [{"kind": "say", "at": "02:47", "quote": "Resolve claims within five working days of receiving the device."}, {"kind": "see", "at": "02:48", "frame": "t00168.jpg", "quote": "'9.1 a) The warranty shall cover repair, replacement, or refund of the Product within 5 working days from the date of receiving the Product, if it fails to meet the specifications.'"}], "confidence": "high", "quiz": true},
+    {"type": "number", "statement": "If a warranty claim is still unresolved after 6 working days from receipt of the device, Revibe may issue a full refund to the customer and recover it from the Seller. This applies to non-cooperation or lack of response from the Seller.", "evidence": [{"kind": "see", "at": "02:48", "frame": "t00168.jpg", "quote": "'b) If any warranty claim remains unresolved after 6 working days from the date of the reception of the device, Revibe reserves the right to issue a full refund to the customer and recover the refunded amount from the Seller. This policy will be applied in cases of non-cooperation or lack of response from the Seller.'"}], "confidence": "high", "quiz": true},
+    {"type": "number", "statement": "If a warranty claim is still unresolved by the Seller after 8 working days, Revibe issues a full refund to the customer regardless of the reason and recovers the refunded amount from the Seller.", "evidence": [{"kind": "say", "at": "02:50", "quote": "After eight, Revive refunds the customer at your cost."}, {"kind": "see", "at": "02:48", "frame": "t00168.jpg", "quote": "'c) If any warranty claim remains unresolved by the Seller after 8 working days, Revibe will issue a full refund to the customer regardless of the reason and recover the refunded amount from the Seller.'"}], "confidence": "high", "quiz": true},
+    {"type": "warning", "statement": "In every country the Seller must receive the returned device and inform Revibe of its reception. Not doing so counts as non-cooperation, so Clause 9.1(b) applies.", "evidence": [{"kind": "see", "at": "02:48", "frame": "t00168.jpg", "quote": "'d) On all countries, the Seller is responsible to receive the device and inform Revibe about reception. Not taking necessary actions ... would be considered as non-cooperation, hence Clause 9.1(b) shall apply.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "When the Seller marks a claim as invalid, the Seller must provide its rationale and proof supporting that assessment before the invalid-claim re-evaluation (clause 9.2 a, AWB creation).", "evidence": [{"kind": "see", "at": "02:48", "frame": "t00168.jpg", "quote": "'9.2 Invalid Claim Re-evaluation ... a) AWB Creation. Once the Seller marks a claim as invalid, they need to provide rationale and proofs supporting their assessment.'"}], "confidence": "medium", "quiz": false},
+    {"type": "rule", "statement": "A product disputed for condition or grading is resolved using Revibe's grading definitions in Clause 7.1; if the product does not meet the grading standards, Revibe may adjust the price, request a replacement, or apply the return policy.", "evidence": [{"kind": "see", "at": "02:56", "frame": "t00176.jpg", "quote": "'In the event of a dispute regarding the condition or grading of a product, the Parties agree to resolve such matters based on Revibe's established grading definitions set out in Clause 7.1. ... Revibe reserves the right to adjust the price, request a replacement, or apply a return policy as necessary.'"}], "confidence": "high", "quiz": false},
+    {"type": "rule", "statement": "Revibe ships UAE and South Africa orders.", "evidence": [{"kind": "say", "at": "02:55", "quote": "Revive ships UAE and South Africa orders."}, {"kind": "see", "at": "02:56", "frame": "t00176.jpg", "quote": "'For UAE and ZA Orders, Revibe will handle the shipping.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "For KSA (Saudi) orders the Seller ships, covers all related charges including customs duties and fees, and must use a Revibe-approved partner so the customer always has a tracking ID.", "evidence": [{"kind": "say", "at": "02:58", "quote": "Saudi orders are yours to ship, by air, with an approved courier, customs included."}, {"kind": "see", "at": "02:56", "frame": "t00176.jpg", "quote": "'For KSA Orders, the Seller is responsible for handling the shipping, including covering all related charges such as customs duties and fees. The Seller must use Revibe-approved partners to ensure that there is always a tracking ID for the customer to follow.'"}], "confidence": "high", "quiz": true},
+    {"type": "definition", "statement": "Approved partners for KSA shipments are DHL, UPS, Aramex, SMSA, RSA and Delivery Panda.", "evidence": [{"kind": "see", "at": "02:56", "frame": "t00176.jpg", "quote": "'Approved partners for KSA shipments include DHL, UPS, Aramex, SMSA, RSA and Delivery Panda.'"}], "confidence": "high", "quiz": true},
+    {"type": "warning", "statement": "Failure to ship a KSA order by air costs the Seller a penalty of 10% of the Order value per non-compliant shipment.", "evidence": [{"kind": "say", "at": "02:58", "quote": "Saudi orders are yours to ship, by air, with an approved courier, customs included."}, {"kind": "see", "at": "02:56", "frame": "t00176.jpg", "quote": "'Failure to ship by air will result in a penalty equal to 10% of the Order value per non-compliant shipment'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "For KSA orders where the customer pays shipping fees on delivery, Revibe reimburses the customer for the amount paid plus an extra AED 50 goodwill amount, and the total is charged back to the Seller by deduction or separate invoice. This clause applies solely to sales delivered to customers in KSA.", "evidence": [{"kind": "see", "at": "02:56", "frame": "t00176.jpg", "quote": "'10.2 Customer Compensation for Fees (SA Orders only) ... This clause applies solely to sales delivered to customers located in the Kingdom of Saudi Arabia ... Revibe shall reimburse the customer for the amount paid, together with an additional 50 AED as a commercial goodwill gesture. The aggregate sum ... shall be charged back to the Seller, either by deduction from amounts owed to the Seller or by separate invoice.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "Always use Revibe's packaging. If the Seller runs out of Revibe packing materials, it must notify Revibe immediately, and until Revibe restocks it may ship with alternative packing.", "evidence": [{"kind": "say", "at": "03:04", "quote": "Always use Revive's packaging."}, {"kind": "say", "at": "03:06", "quote": "{If?} you run out, tell us right away, or it's 200 dirhams per complaint."}, {"kind": "see", "at": "03:05", "frame": "t00185.jpg", "quote": "'If the Seller runs out of Revibe's packing materials, they must notify Revibe immediately. Until Revibe restocks, the Seller is permitted to ship using alternative packing materials.'"}], "confidence": "high", "quiz": true},
+    {"type": "warning", "statement": "A 200 AED penalty applies to the Seller for each confirmed customer complaint about an order without Revibe's standard packing, when the Seller did not notify Revibe of the packing material shortage or the Seller still had stock of Revibe packing materials.", "evidence": [{"kind": "say", "at": "03:06", "quote": "{If?} you run out, tell us right away, or it's 200 dirhams per complaint."}, {"kind": "see", "at": "03:05", "frame": "t00185.jpg", "quote": "'10.6 Non-Compliance Penalty ... it is confirmed that: The Seller did not notify Revibe of the packing material shortage, or The Seller still had stock of Revibe's packing materials, A penalty of 200 AED will be applied to the Seller for each such complaint.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "The Seller must comply with Revibe's quality guidelines (linked from clause 10.7) and run quality check processes in line with them.", "evidence": [{"kind": "see", "at": "03:05", "frame": "t00185.jpg", "quote": "'10.7 Quality guidelines. The Seller agrees to comply with the quality guidelines outlined below and to implement quality check processes in alignment with these standards. Link to quality guidelines'"}], "confidence": "high", "quiz": false},
+    {"type": "definition", "statement": "NSYS is an app for diagnostics of mobile devices. Revibe may require a Seller to use it under Revibe's licence, Revibe supports set-up and training, and the scope of devices tested is limited to iPhones.", "evidence": [{"kind": "see", "at": "03:05", "frame": "t00185.jpg", "quote": "'10.8 NSYS: Revibe reserves the right to oblige a Seller to use NSYS (an app for diagnostics of mobile devices) under Revibe license ... The scope of devices tested is limited to iPhones.'"}], "confidence": "high", "quiz": false},
+    {"type": "rule", "statement": "The Seller must factory reset every device and ensure it is free of personal data before shipping to the customer; the Seller bears full responsibility for this.", "evidence": [{"kind": "say", "at": "03:12", "quote": "Factory reset every device before shipping."}, {"kind": "see", "at": "03:12", "frame": "t00192.jpg", "quote": "'The Seller bears full responsibility for ensuring that all devices are completely wiped, reset to factory settings, and free of any personal data prior to shipment to the customer.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "Revibe is not held responsible or liable for any personal or confidential data that remains stored on devices sold through its platform.", "evidence": [{"kind": "see", "at": "03:12", "frame": "t00192.jpg", "quote": "'Revibe shall not be held responsible or liable for any personal or confidential data that remains stored on the devices sold through its platform.'"}], "confidence": "high", "quiz": false},
+    {"type": "warning", "statement": "If a Seller does not wipe devices as required, the Seller's account may be suspended or terminated, and/or a 50 AED penalty applies at Revibe's discretion.", "evidence": [{"kind": "see", "at": "03:12", "frame": "t00192.jpg", "quote": "'Failure to comply with this requirement may result in suspension or termination of the Seller's account and/or 50 AED penalty at Revibe's discretion.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "If a customer receives a faulty or missing charger, the customer may raise a compensation claim within ten (10) days of receiving the order. Revibe reviews the evidence and, on approval, refunds the customer and debits the Seller. The process is fully automated.", "evidence": [{"kind": "see", "at": "03:12", "frame": "t00192.jpg", "quote": "'If a customer receives a faulty or missing charger, they may raise a compensation claim within ten (10) days of receiving the order.' 'This process is fully automated in Revibe's system.'"}, {"kind": "say", "at": "03:14", "quote": "Missing chargers are refunded to the customer and charged to you, from 30 to 70 dirhams."}], "confidence": "high", "quiz": true},
+    {"type": "number", "statement": "Charger compensation values: phone charger (iPhone or Samsung) AED 30; laptop charger AED 50; MacBook charger AED 70.", "evidence": [{"kind": "see", "at": "03:12", "frame": "t00192.jpg", "quote": "'Compensation values: Phone charger (iPhone / Samsung): 30 AED; MacBook charger: 70 AED; Laptop charger: 50 AED'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "Sellers remain accountable for the completeness and quality of the delivered package, including accessories.", "evidence": [{"kind": "see", "at": "03:21", "frame": "t00201.jpg", "quote": "'This ensures that customers receive all necessary accessories, while Sellers remain accountable for completeness and quality of the delivered package.'"}], "confidence": "medium", "quiz": false},
+    {"type": "definition", "statement": "The Seller's score must reflect its operational performance and let it set its price positioning against competitors, in line with the quality and operational excellence it offers. The score ranges from -10% to +10%.", "evidence": [{"kind": "say", "at": "03:21", "quote": "Your score, from {minus?} 10 to plus 10 percent, reflects your performance."}, {"kind": "see", "at": "03:21", "frame": "t00201.jpg", "quote": "'11.1 Score principle ... Seller's score may vary between -10% and +10%'"}], "confidence": "high", "quiz": true},
+    {"type": "definition", "statement": "Sellers get access to a Performance and Score sheet detailing their live performance and how their score is calculated.", "evidence": [{"kind": "see", "at": "03:21", "frame": "t00201.jpg", "quote": "'Sellers get access to a Performance and Score sheet detailing their live performance and how their score is calculated.'"}], "confidence": "high", "quiz": true},
+    {"type": "warning", "statement": "A poor score can lead Revibe to suspend the Seller's account; the Seller can then no longer ship orders independently and must send products to Revibe's warehouse, the only available option, to keep business active in the UAE and South Africa.", "evidence": [{"kind": "say", "at": "03:25", "quote": "A poor score can suspend your own shipping."}, {"kind": "say", "at": "03:28", "quote": "You'd then sell only through Revive's warehouse."}, {"kind": "see", "at": "03:21", "frame": "t00201.jpg", "quote": "'11.2 ... the Seller shall no longer be permitted to ship orders independently, and the only available option will be to send products to Revibe's warehouse ...'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "Either party can terminate the agreement with 30 days' written notice.", "evidence": [{"kind": "say", "at": "03:31", "quote": "Either side can leave with 30 days notice."}, {"kind": "see", "at": "03:32", "frame": "t00212.jpg", "quote": "'13.1 This Agreement may be terminated by either Party by providing a 30-day written notice to the other Party.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "After a breach, the non-breaching party may terminate the agreement immediately on written notice.", "evidence": [{"kind": "see", "at": "03:32", "frame": "t00212.jpg", "quote": "'13.2 In the event of a breach of the terms outlined in this Agreement, the non-breaching Party may terminate this Agreement immediately upon written notice.'"}], "confidence": "high", "quiz": false},
+    {"type": "rule", "statement": "After termination, the Seller must fulfil Orders confirmed before the termination notice date and resolve claims received before that date, plus claims arising within 12 months after the last Order delivery.", "evidence": [{"kind": "say", "at": "03:34", "quote": "{You?} still handle open orders and claims for 12 months"}, {"kind": "see", "at": "03:32", "frame": "t00212.jpg", "quote": "'The Seller shall fulfil all Orders confirmed prior to the date of the termination notice; The Seller shall resolve all Claims received prior to the date of the termination notice, as well as any Claims arising within 12 months following the date of the last Order delivery;'"}], "confidence": "high", "quiz": true},
+    {"type": "number", "statement": "Revibe settles all amounts due to the Seller within 180 days from the date of the last Order delivery.", "evidence": [{"kind": "say", "at": "03:34", "quote": "{You?} still handle open orders and claims for 12 months and Revive pays what it owes within 180"}, {"kind": "say", "at": "03:39", "quote": "days"}, {"kind": "see", "at": "03:32", "frame": "t00212.jpg", "quote": "'Revibe shall settle all amounts due to the Seller within 180 days from the date of the last Order delivery.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "The Seller must keep an active line of communication with Revibe and notify it immediately of stock issues or delays in fulfilling Orders.", "evidence": [{"kind": "see", "at": "03:32", "frame": "t00212.jpg", "quote": "'12.1 The Seller shall maintain an active line of communication with Revibe and notify Revibe immediately if there are any stock issues or delays in fulfilling Orders.'"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "Questions about the Seller Agreement go to the Seller's Key Account Manager (KAM).", "evidence": [{"kind": "say", "at": "03:41", "quote": "That's it any question ask your key account manager"}, {"kind": "see", "at": "03:44", "frame": "t00224.jpg", "quote": "Button 'Questions? Ask your Key Account Manager'"}], "confidence": "high", "quiz": true}
+  ],
+  "screens": [
+    {"name": "Title card", "shows": "'The Seller Agreement, made simple', subtitle 'The key rules for sellers and KAMs, in a few minutes', tag 'REVIBE · SELLER AGREEMENT'", "at": "00:01", "where": "t00001.jpg (t00000.jpg is black)"},
+    {"name": "Agreement document: opening block", "shows": "Revibe Seller Agreement with the banner 'DOWNLOAD IT TO EDIT IT OFFLINE, THEN UPLOAD IT ON THE ONBOARDING FORM'; highlighted fields Company Name, Trade License No., Principal place of business (exact and detailed address); clause 1.1 Seller Alias. Chapter label '1 · THE DEAL'.", "at": "00:05", "where": "t00005.jpg"},
+    {"name": "Agreement document: clause 3.1 and 3.2", "shows": "Commercial Model (commission-based) and Seller Inputs (product availability, up-to-date price list). Chapter '1 · THE DEAL'.", "at": "00:12", "where": "t00012.jpg"},
+    {"name": "Agreement document: clause 4.1 and 4.2", "shows": "Customer Relationship and After-Sales; 4.2 highlighted (no direct customer contact); 4.3 limits Seller obligations to validated claims.", "at": "00:21", "where": "t00021.jpg"},
+    {"name": "Agreement document: clause 3.3 to 3.5", "shows": "Order Management, Shipping Deadline (48 working hours), Shipment Status Updates with the KSA courier integration bullets. Chapter '2 · ORDERS'.", "at": "00:30", "where": "t00030.jpg"},
+    {"name": "Agreement document: clause 3.6 penalty table", "shows": "Penalty table with four breach rows and penalties (5%, 5%, 20%, 10%). Chapter '2 · ORDERS'.", "at": "00:37", "where": "t00037.jpg"},
+    {"name": "Agreement document: clause 5.1 to 5.5", "shows": "Weekly statement (Monday), payment Tuesday to Friday, COD exception, AED 5,000 withholding rule. Chapter '3 · PAYMENTS'.", "at": "00:49", "where": "t00049.jpg"},
+    {"name": "Agreement document: clause 5.5 to 5.8", "shows": "AED 10,000 minimum balance retention, discontinued partnership presumptions, 5.7 Payment Method (company bank account only), AML rule, 5.8 bank rejection (cut off).", "at": "00:57", "where": "t00057.jpg"},
+    {"name": "Agreement document: clause 5.9 to 5.11", "shows": "KYC/AML clause (top, cut off), 5.10 Required Documentation list highlighted, 5.11 right to withhold payment (cut off). Chapter '3 · PAYMENTS'.", "at": "01:08", "where": "t00068.jpg"},
+    {"name": "Agreement document: clause 6.15.2 and 6.15.3", "shows": "VAT accounting scheme for supplies through Revibe (tick one): Option A Standard, Option B Profit Margin, Option C Not VAT registered; fields TRN, VAT registration date, scheme application date; 6.15.3 eligibility list starts (cut off). Chapter '4 · VAT'.", "at": "01:18", "where": "t00078.jpg"},
+    {"name": "Agreement document: clause 7.1 New and Excellent", "shows": "Product Grading Categories with the New and Excellent criteria highlighted. Chapter '5 · PRODUCT STANDARDS'.", "at": "01:30", "where": "t00090.jpg"},
+    {"name": "Agreement document: clause 7.1 Very Good and Good", "shows": "Very Good (battery above 90%) and Good (battery above 85%) criteria highlighted; start of 7.2 Battery Standards.", "at": "01:37", "where": "t00097.jpg"},
+    {"name": "Agreement document: clause 7.2 and 7.3", "shows": "Battery degradation bullets (3%/10 days refund; 10%/6 months and 20%/12 months free replacement; non-original parts refund); 7.3 Screen Coverage.", "at": "01:47", "where": "t00107.jpg"},
+    {"name": "Agreement document: clause 7.5 to 7.7", "shows": "7.5 Laptops wrong device or keyboard layout; 7.6 LCD coverage; 7.7 Evidentiary Requirements a) to d).", "at": "01:57", "where": "t00117.jpg"},
+    {"name": "Agreement document: clause 8.1 and 8.2", "shows": "Valid and invalid claim definitions; 8.2 Return Window (15 days; second valid claim rule). Chapter '6 · RETURNS & WARRANTY'.", "at": "02:07", "where": "t00127.jpg"},
+    {"name": "Agreement document: return to origin (b) and (c)", "shows": "(b) customer not accepting: AE & ZA and SA credit rules with AED 1,000 worked example; (c) seller issue AE & ZA (SA line not visible).", "at": "02:17", "where": "t00137.jpg"},
+    {"name": "Agreement document: warranty a) to d)", "shows": "12-month coverage, day-of-delivery coverage, exclusions list (highlighted), d) all other legitimate device issues, e) valid claim heading. Parent clause number not visible.", "at": "02:30", "where": "t00150.jpg"},
+    {"name": "Agreement document: warranty e) and f)", "shows": "Valid claim (AE & ZA fixed AED 30 fee highlighted; SA orders); invalid claim branches (customer pays / does not pay shipping).", "at": "02:38", "where": "t00158.jpg"},
+    {"name": "Agreement document: 9.1 and 9.2", "shows": "Resolution timelines: 5 working days (a), 6 working days non-cooperation refund (b), 8 working days full refund (c), device reception (d); 9.2 invalid claim re-evaluation starts (cut off). Chapter '6 · RETURNS & WARRANTY'.", "at": "02:48", "where": "t00168.jpg"},
+    {"name": "Agreement document: grading dispute and 10.1 to 10.2", "shows": "Grading dispute paragraph (top); 10.1 Shipping Responsibility (UAE & ZA Revibe handles; KSA Seller with approved partners, air, 10% penalty); 10.2 KSA customer fee compensation. Chapter '7 · SHIPPING, PACKING & DATA'.", "at": "02:56", "where": "t00176.jpg"},
+    {"name": "Agreement document: 10.6 to 10.8", "shows": "Packing materials shortage paragraph (top); 10.6 Non-Compliance Penalty 200 AED; 10.7 Quality guidelines (link); 10.8 NSYS.", "at": "03:05", "where": "t00185.jpg"},
+    {"name": "Agreement document: 10.9 and 10.10", "shows": "10.9 Data compliance (wipe to factory settings, 50 AED penalty); 10.10 Charger Compensation Policy with values 30 / 70 / 50 AED.", "at": "03:12", "where": "t00192.jpg"},
+    {"name": "Agreement document: 11 Score", "shows": "Score principle (-10% to +10%, Performance and Score sheet); 11.2 Seller Performance and Account Suspension Policy. Chapter '8 · SCORE & EXIT'.", "at": "03:21", "where": "t00201.jpg"},
+    {"name": "Agreement document: 12 and 13", "shows": "12.1 Communication; 13.1 termination on 30 days written notice (highlighted); 13.2 breach; 13.3 post-termination obligations incl. 180-day settlement (highlighted).", "at": "03:32", "where": "t00212.jpg"},
+    {"name": "Recap slide", "shows": "'RECAP', 'Ship fast, prove everything', '48h shipping · weekly payments · 15-day returns · 12-month warranty', button 'Questions? Ask your Key Account Manager', footer 'Revibe · Supply team training'", "at": "03:41", "where": "t00221.jpg and t00224.jpg"}
+  ],
+  "terms": [
+    {"term": "Revibe", "meaning": "Revibe Technology FZ LLC, the counterparty to the Seller Agreement (incorporated in Dubai Internet City, UAE).", "at": "00:05"},
+    {"term": "Seller", "meaning": "The company that sells its Products through Revibe on commission and fulfils Orders.", "at": "00:11"},
+    {"term": "KAM (Key Account Manager)", "meaning": "The person who answers Seller questions about the agreement (per the recap slide and closing line).", "at": "03:41"},
+    {"term": "Seller Alias", "meaning": "Name Revibe creates for each Seller for internal systems; may be displayed on the website when referencing the Seller as provider of products.", "at": "00:05"},
+    {"term": "Commission-based model", "meaning": "Revibe sells the Seller's products on commission; the Seller fulfils and ships Orders to end customers.", "at": "00:11"},
+    {"term": "Order", "meaning": "An order that Revibe passes to the Seller to fulfil and ship; Revibe provides order updates through a shared system (3.1, 3.3).", "at": "00:29"},
+    {"term": "SKU price initially quoted", "meaning": "Base amount used for penalties, returns and credits (e.g. 5%, 20%, 100%, 80%).", "at": "00:36"},
+    {"term": "COD Orders", "meaning": "Cash-on-delivery Orders; invoiced upon delivery to the customer and excluded from the weekly settlement (5.1, 5.4).", "at": "00:48"},
+    {"term": "Net balance", "meaning": "The Seller's net balance is the basis for the AED 5,000 withholding threshold (5.5). The AED 10,000 minimum balance is retained from amounts otherwise due (5.6).", "at": "00:51"},
+    {"term": "Self-billed invoice", "meaning": "Invoice Revibe issues in the Seller's name for VAT purposes; shows VAT separately under the Standard Scheme.", "at": "01:15"},
+    {"term": "TRC (Tax Registration Certificate)", "meaning": "A required tax document the Seller must keep valid.", "at": "01:07"},
+    {"term": "Standard Scheme / Profit Margin Scheme", "meaning": "Two VAT accounting schemes for supplies through Revibe; Option B requires completing Clause 6.15.3.", "at": "01:18"},
+    {"term": "New / Excellent / Very Good / Good", "meaning": "The four product grades for phones, defined by cosmetic and technical standards and battery health thresholds.", "at": "01:28"},
+    {"term": "Battery health", "meaning": "Battery capacity percentage used to grade devices (above 95, 90, 85) and to judge degradation after delivery.", "at": "01:31"},
+    {"term": "Non-original parts message", "meaning": "A device message saying the battery or other parts are not original; entitles the customer to a full refund.", "at": "01:53"},
+    {"term": "Unpacking video", "meaning": "Video the Seller must record on receipt of any returned or warranty device; it is the supporting evidence for claims.", "at": "02:03"},
+    {"term": "Valid claim / Invalid claim", "meaning": "Clause 8.1 definitions; Revibe's decision is final when the Seller disagrees.", "at": "02:10"},
+    {"term": "Return to origin", "meaning": "Return of a device to the Seller, used in the change-of-mind, refusal and seller-issue cases.", "at": "02:17"},
+    {"term": "Warranty period", "meaning": "12 months from the delivery date for products meeting Revibe's quality standards.", "at": "02:29"},
+    {"term": "Fixed fee AED 30", "meaning": "Fee deducted from the Seller for a valid-claim return shipment and reshipment on UAE and South Africa orders.", "at": "02:40"},
+    {"term": "Working days / working hours", "meaning": "Used for the 48-hour shipping deadline and the 5, 6 and 8 working-day claim timelines; the agreement does not define them on the frames seen.", "at": "02:47"},
+    {"term": "AWB (Air Waybill)", "meaning": "Air waybill that the Revibe Operations Claims team generates in the invalid-claim re-evaluation process (clause 9.2).", "at": "02:48"},
+    {"term": "UAE, ZA, KSA / AE", "meaning": "UAE (United Arab Emirates, AE on some screens), ZA (South Africa) and KSA (Kingdom of Saudi Arabia). Clause 7.7 spells out ZA as South Africa and KSA as Saudi Arabia.", "at": "02:55"},
+    {"term": "Revibe-approved partners", "meaning": "Couriers the Seller must use for KSA shipments: DHL, UPS, Aramex, SMSA, RSA and Delivery Panda.", "at": "02:58"},
+    {"term": "NSYS", "meaning": "App for diagnostics of mobile devices that Revibe may require Sellers to use under Revibe's licence (iPhone scope).", "at": "03:05"},
+    {"term": "Score", "meaning": "Seller performance figure from -10% to +10%, reflecting operational performance and price positioning.", "at": "03:21"},
+    {"term": "Performance and Score sheet", "meaning": "Sheet that gives the Seller its live performance and shows how its score is calculated.", "at": "03:21"},
+    {"term": "Post-termination obligations", "meaning": "Duties that survive termination: open Orders, Claims received before notice, and Claims within 12 months after the last Order delivery.", "at": "03:34"},
+    {"term": "KYC / AML", "meaning": "Know-Your-Customer and anti-money-laundering checks the Seller must pass.", "at": "01:07"}
+  ],
+  "asr_fixes": [
+    {"at": "00:51", "heard": "Balances under {5?},000 dirhams", "correct": "Balances under AED 5,000", "basis": "Screen t00049.jpg, clause 5.5: 'below AED 5,000'; caption 'Paid weekly, from AED 5,000'."},
+    {"at": "01:15", "heard": "Revive issues self-build invoices", "correct": "Revibe issues self-billed invoices", "basis": "Screen t00078.jpg clause 6.15.2 'Self-Billed Invoices'; 'Revibe' is the company name on every frame."},
+    {"at": "01:46", "heard": "Battery loss beyond 10% in {6?} months", "correct": "More than 10% degradation within the first 6 months", "basis": "Screen t00107.jpg clause 7.2: 'More than 10% degradation within the first 6 months following delivery'."},
+    {"at": "01:46", "heard": "or 20 in a year", "correct": "More than 20% degradation within the first 12 months", "basis": "Screen t00107.jpg clause 7.2: 'More than 20% degradation within the first 12 months following delivery'."},
+    {"at": "02:10", "heard": "Revive reviews it and its decision is final", "correct": "Revibe reviews it and its decision is final", "basis": "Screen t00127.jpg clause 8.1 'Revibe reviews the case ... Revibe's decision is final'."},
+    {"at": "02:50", "heard": "After eight, Revive refunds the customer at your cost.", "correct": "After eight, Revibe refunds the customer at your cost.", "basis": "Screen t00168.jpg clause 9.1(c): 'Revibe will issue a full refund to the customer ... recover the refunded amount from the Seller'."},
+    {"at": "02:55", "heard": "Revive ships UAE and South Africa orders.", "correct": "Revibe ships UAE and South Africa orders.", "basis": "Screen t00176.jpg clause 10.1: 'For UAE and ZA Orders, Revibe will handle the shipping.'"},
+    {"at": "03:04", "heard": "Always use Revive's packaging.", "correct": "Always use Revibe's packaging.", "basis": "Screen t00185.jpg caption 'Always use Revibe packaging' and clause 10.6."},
+    {"at": "03:21", "heard": "Your score, from {minus?} 10 to plus 10 percent", "correct": "Your score, from -10% to +10%", "basis": "Screen t00201.jpg clause 11.1: 'Seller's score may vary between -10% and +10%'."},
+    {"at": "03:28", "heard": "You'd then sell only through Revive's warehouse.", "correct": "You'd then sell only through Revibe's warehouse.", "basis": "Screen t00201.jpg clause 11.2: 'send products to Revibe's warehouse'."},
+    {"at": "03:34", "heard": "Revive pays what it owes within 180", "correct": "Revibe pays what it owes within 180 days", "basis": "Screen t00212.jpg clause 13.3: 'Revibe shall settle all amounts due to the Seller within 180 days from the date of the last Order delivery'. The 180 days run from the last Order delivery, not from termination."}
+  ],
+  "unclear": [
+    {"at": "01:15", "issue": "The phrase '{So,?} never issue ... a duplicate' is unreliable and no frame shows it. The rule it refers to is only implied; see the low-confidence 'Implied:' fact."},
+    {"at": "01:22", "issue": "'Report any change within 7 days' for the VAT scheme is said by the trainer but the 7-day period is not shown on any frame. Clause 5.10 on screen says 'promptly ... without undue delay' for documents. Check the full agreement before relying on the 7 days."},
+    {"at": "02:07", "issue": "Trainer says customers can return 'for any reason'. Screen clause 8.2 says 'for any valid reason, including change of mind or product issues'. The fact uses the screen wording."},
+    {"at": "02:40", "issue": "Trainer says 'shipping costs you have fixed 30 dirhams' with no context. Screen shows the AED 30 fee only for a valid-claim return and reshipment on UAE and ZA orders (warranty e). Not confirmed that it applies in any other case."},
+    {"at": "03:34", "issue": "Trainer's '{You?} still handle open orders and claims for 12 months' is consistent with clause 13.3, but the 12-month window applies to claims arising after the last Order delivery, not to all open work. The wording on screen is precise."},
+    {"at": "03:44", "issue": "Recap slide says '48h shipping', but clause 3.4 says 'within 48 working hours of receiving an Order'. The slide drops 'working'. The agreement wording governs; do not tell Sellers 48 calendar hours."},
+    {"at": "02:17", "issue": "Parent clause numbers for the return-to-origin sub-clauses (b) and (c) are not visible. The SA line under (c) is not visible on the frame, so the seller-issue rule for KSA orders is not shown."},
+    {"at": "02:48", "issue": "Clause 9.2 (invalid claim re-evaluation, AWB creation) is cut off after step (a). The rest of the process (who does what, and when) is not visible."},
+    {"at": "01:08", "issue": "Clause 5.8 (bank rejection) and 5.11 (right to withhold payment) are cut off on the frames. Only the visible text is recorded."},
+    {"at": "01:47", "issue": "The lead-in sentence for the battery degradation bullets in clause 7.2 is cut off. The 3%-in-10-days bullet is visible but its introduction is not, and the trainer does not mention it."},
+    {"at": "03:05", "issue": "The quality guidelines link under clause 10.7 is only partly legible at frame resolution. The exact URL is not recorded here; take it from the agreement itself."},
+    {"at": "02:48", "issue": "Trainer-independent wording conflict: t00168 shows a KSA bullet saying the Seller 'should update the shipment status manually' for a courier without API integration, while t00030 shows the clause 3.5 bullet saying 'shall update'. The t00168 bullet sits above section 9 and its clause number is not visible, so it is not used as evidence for the 3.5 fact."},
+    {"at": "01:18", "issue": "Clause 6.15.3 Option B eligibility list is cut off after its first item (second-hand goods, antiques or collector's items within Article 29 of the Executive ...). The rest of the list is not visible."}
+  ],
+  "outdated": [],
+  "privacy": [],
+  "audit": {
+    "checked": 208,
+    "removed": [],
+    "corrected": [
+      {"before": "Step 00:36: 'Walks the penalty table and states each penalty.'", "after": "Walks the penalty table, summarising the 5%, 20% and 10% penalties; the trainer merges the two 5% rows into one spoken line.", "reason": "Trainer does not state each of the four rows separately; the screen shows four rows (5%, 5%, 20%, 10%)."},
+      {"before": "Step 02:07 action: 'States the 15-day return rule ...'", "after": "Action now quotes the screen wording 'for any valid reason, including change of mind or product issues'.", "reason": "Trainer said 'for any reason'; the screen says 'any valid reason'."},
+      {"before": "Step 02:29 screen: 'Clause 8.3 warranty sub-clauses a to d'", "after": "'Warranty sub-clauses a) to d) (t00150); clause number not visible on frame'.", "reason": "The frame shows the a) to d) list but no visible '8.3' heading; the number is inferred from ordering after 8.2."},
+      {"before": "Step 02:16 screen: 'Clause 8 return to origin (b) and (c)'", "after": "'Clause (b) and (c) return to origin' with the parent number not visible.", "reason": "Parent clause number is not visible on t00137."},
+      {"before": "Step 02:37 screen: 'Clause 8.3 e) valid claim and f) invalid claim'", "after": "'Warranty e) valid claim and f) invalid claim (t00158)'.", "reason": "Sub-clauses e) and f) are visible; the parent 8.3 is not."},
+      {"before": "Term 'Seller': 'sells its refurbished products through Revibe'", "after": "'The company that sells its Products through Revibe on commission and fulfils Orders.'", "reason": "'Refurbished' does not appear in the evidence (general knowledge)."},
+      {"before": "Term 'Order': 'A customer purchase that Revibe passes to the Seller'", "after": "'An order that Revibe passes to the Seller to fulfil and ship; Revibe provides order updates through a shared system (3.1, 3.3).'", "reason": "'Customer purchase' is not stated in the evidence."},
+      {"before": "Term 'Net balance': 'used for the AED 5,000 withholding threshold and the AED 10,000 minimum balance'", "after": "Net balance is the basis for the AED 5,000 threshold; the AED 10,000 minimum balance is retained from amounts otherwise due.", "reason": "Clause 5.6 refers to amounts otherwise due, not to the net balance."},
+      {"before": "Fact (KSA not integrated courier): evidence included t00168 second quote", "after": "Second quote removed; t00168 wording ('should update') is flagged as a separate unclear item.", "reason": "Wording and clause number differ from the 3.5 bullet on t00030."},
+      {"before": "Fact (any change to VAT scheme must be reported within 7 days): stated as a rule with no caveat", "after": "Restated as 'Trainer says ...' with low confidence.", "reason": "The 7-day period is only said by the trainer and not shown on any frame."},
+      {"before": "Trainer line at 00:51 'roll over to the next week'", "after": "The fact keeps the screen rule: carried forward and settled in the next weekly cycle in which the threshold is met.", "reason": "The trainer's 'next week' simplifies the clause 5.5 rule."},
+      {"before": "ASR fix at 03:34: 'Revive pays what it owes within 180 days' correct to a paraphrase", "after": "Correct text now kept close to the spoken words, with the screen basis for 'from the last Order delivery'.", "reason": "Avoid rewriting the trainer's sentence as if it were a transcript correction."},
+      {"before": "Fact 'Option B ... Clause 6.15.3, which is only for Option B'", "after": "'Clause 6.15.3 is completed only if Option B is selected.'", "reason": "Clearer; same content as screen."}
+    ],
+    "added": [
+      "Fact: Revibe is not held responsible or liable for personal or confidential data that remains on devices sold through its platform (clause 10.9, t00192).",
+      "Unclear: Clause 6.15.3 Option B eligibility list is cut off (t00078).",
+      "Unclear: t00168 KSA courier bullet uses 'should update' wording, differs from the 3.5 bullet 'shall update' on t00030; clause number not visible.",
+      "Note: the Excellent, Very Good and Good technical-condition lines and the clause 10.2 KSA-only scope were added inside existing grade and fee facts (not as new facts)."
+    ]
+  }
+}

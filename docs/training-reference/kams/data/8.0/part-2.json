@@ -1,0 +1,1055 @@
+{
+  "summary": "Part 2 of the 8.0 Warranties - Issues (Seller & KAMs) training (03:29 to 06:37). The trainer walks through the seller side of an invalid warranty claim: marking a claim invalid with reason and proof, Revibe review (agree, challenge, or Care+ misuse route), the lab step (UAE only), the lab outcome (refund or closed), the Revibe Care+ quotation and repair routes, and cancelled or reopened claims. All 35 frames were opened (t00209 to t00396). Four example claims are used: NUVE086, MJSX592, VKDD197 and UXEQ435. Main ASR corrections: 'Revive' is Revibe, 'QuickUp' is Quiqup, 'ReviveCare Plus' is Revibe Care+ (RC+), and 'canceled' is shown as Cancelled.",
+  "frames_opened": 35,
+  "steps": [
+    {
+      "at": "03:29",
+      "screen": "Revibe back office, Claim Management, claim NUVE086 (closed)",
+      "action": "Points at the Stage and Internal Stage values on the Statuses panel of a closed claim",
+      "says": "If they refuse or don't reply, the stage becomes device disposed and the claim is closed.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "03:29", "quote": "If they refuse or don't reply, the stage becomes device disposed and the claim is closed."},
+        {"kind": "see", "at": "03:29", "frame": "t00209.jpg", "quote": "Stage: Device disposed; Internal Stage: Device disposed; Valid Claim?: Invalid claim; Closed badge; caption 'Refused → Device disposed, claim closed'"}
+      ]
+    },
+    {
+      "at": "03:34",
+      "screen": "Claim NUVE086, Closed badge and Statuses panel highlighted",
+      "action": "Points at the Closed badge, then the Stage and Internal Stage rows",
+      "says": "If you believe the claim is invalid, you must give a reason and proof.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "03:36", "quote": "If you believe the claim is invalid, you must give a reason and proof."},
+        {"kind": "see", "at": "03:34", "frame": "t00214.jpg", "quote": "Closed badge outlined; Stage: Device disposed and Internal Stage: Device disposed outlined; caption 'Refused → Device disposed, claim closed'"}
+      ]
+    },
+    {
+      "at": "03:37",
+      "screen": "Seller decision slide: INVALID path (Proof Required → Revibe Review → Lab Verification)",
+      "action": "Shows the slide; the Step 1 box 'Reason + proof of invalidity required → Invalid claim' is highlighted",
+      "says": "Choose the reason, for example misuse, add a comment and upload your proof.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "03:41", "quote": "Choose the reason, for example misuse, add a comment and upload your proof."},
+        {"kind": "see", "at": "03:37", "frame": "t00217.jpg", "quote": "Within 1 year: the seller inspects the device and marks the claim Valid (repair it) or Invalid (reason + proof). Revibe reviews every Invalid claim. Step 1 box 'Reason + proof of invalidity required → Invalid claim'"}
+      ]
+    },
+    {
+      "at": "03:42",
+      "screen": "Enter proof of invalid claim form",
+      "action": "Opens the Invalid claim reason dropdown and shows its four options",
+      "says": "",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "03:42", "frame": "t00222.jpg", "quote": "Dropdown 'Invalid claim reason' open with options: No issue, Misuse, Time expired for specific issue, Other; caption 'Add as much proof as you can'; section heading 'Proof of invalid claim by supplier'"}
+      ]
+    },
+    {
+      "at": "03:45",
+      "screen": "Enter proof of invalid claim form, reason set",
+      "action": "Selects Misuse as the reason and types the text ABCD into 'Invalid claim comment'",
+      "says": "You can add more files in the claims attachments. The more proof, the better.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "03:46", "quote": "You can add more files in the claims attachments."},
+        {"kind": "say", "at": "03:49", "quote": "The more proof, the better."},
+        {"kind": "see", "at": "03:45", "frame": "t00225.jpg", "quote": "'Invalid claim reason' = Misuse; 'Invalid claim comment' = ABCD; caption 'Add as much proof as you can'"}
+      ]
+    },
+    {
+      "at": "03:51",
+      "screen": "Claim NUVE086 after the invalid step, Active badge",
+      "action": "Shows the claim after the invalid submission; the mark action itself is not visible on screen",
+      "says": "Once you mark it invalid, the customer still sees under QC while the internal stage becomes invalid claim.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "03:52", "quote": "Once you mark it invalid, the customer still sees under QC while the internal stage becomes invalid claim."},
+        {"kind": "see", "at": "03:51", "frame": "t00231.jpg", "quote": "Active badge; Stage: Under QC (red); Internal Stage: Invalid claim; Valid Claim?: Invalid claim; Seller policy timer: 8 days left (paused)"}
+      ]
+    },
+    {
+      "at": "03:55",
+      "screen": "Claim NUVE086 Claim Details, scrolled down",
+      "action": "Scrolls the Claim Details and Attachments panels",
+      "says": "Your reason, comment, and proof appear in the claim details.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "03:58", "quote": "Your reason, comment, and proof appear in the claim details."},
+        {"kind": "see", "at": "03:55", "frame": "t00235.jpg", "quote": "Proof Of Invalid Claim: 'Impact damage on the screen corner, not a manufacturing fault'; Proof Of Invalid Claim File: revibe-order-track-bucket S3 link; caption 'Customer sees Under QC · you see Invalid claim'"},
+        {"kind": "see", "at": "03:57", "frame": "t00237.jpg", "quote": "Attachments panel with 'Drop or Select file' area; caption 'Customer sees Under QC · you see Invalid claim'"}
+      ]
+    },
+    {
+      "at": "04:01",
+      "screen": "Claim NUVE086 Claim Details, lower fields",
+      "action": "Scrolls further; the lower fields show the invalid claim reason, customer action and an attachment",
+      "says": "",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "04:01", "frame": "t00241.jpg", "quote": "Invalid Claim Reason: Misuse; Customer Action Required: Pickup failed; Description: Screen is flickering all the time; Attachments: 1791962227838-condition-guide-1-where-s..."}
+      ]
+    },
+    {
+      "at": "04:04",
+      "screen": "Seller decision slide: Revibe agent review column",
+      "action": "Points at the Agrees and Challenges boxes in the Revibe agent review column",
+      "says": "A Revive agent reviews every invalid claim. If they agree, the device goes to the lab. If not, they explain why. Either you must cover it and the claim goes under revision for your new answer, or the customer has ReviveCare Plus.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "04:04", "quote": "A Revive agent reviews every invalid claim."},
+        {"kind": "say", "at": "04:07", "quote": "If they agree, the device goes to the lab."},
+        {"kind": "say", "at": "04:09", "quote": "If not, they explain why."},
+        {"kind": "say", "at": "04:11", "quote": "Either you must cover it and the claim goes under revision for your new answer, or the customer"},
+        {"kind": "say", "at": "04:16", "quote": "has ReviveCare Plus."},
+        {"kind": "see", "at": "04:04", "frame": "t00244.jpg", "quote": "'Revibe agent review' box: 'Agrees → device sent to the Lab'; 'Challenges → marks Valid with a rationale'; 'Seller must cover → Under revision'; 'Misuse but customer has RC+ → seller quotation (page 3)'; caption 'Revibe reviews every Invalid'"}
+      ]
+    },
+    {
+      "at": "04:18",
+      "screen": "Edit page for claim NUVE086 (Claim Details form)",
+      "action": "Opens the Edit page; the narration does not say what is edited",
+      "says": "If Revive challenges you, the stage becomes under revision with Revive's comment. Recheck the device, then mark it valid or invalid again with more proof.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "04:19", "quote": "If Revive challenges you, the stage becomes under revision with Revive's comment."},
+        {"kind": "say", "at": "04:24", "quote": "Recheck the device, then mark it valid or invalid again with more proof."},
+        {"kind": "see", "at": "04:18", "frame": "t00258.jpg", "quote": "Page title 'Edit'; Claim ID NUVE086; Issue Details 'Screen Issue'; fields Type of request, Explanation to show, Name to show, Cancellation reason (customer), Information complete?"}
+      ]
+    },
+    {
+      "at": "04:25",
+      "screen": "Claim NUVE086 after the challenge, Under revision",
+      "action": "Shows the claim in Under revision; the seller's action buttons (Mark valid, Mark invalid) are visible at the top",
+      "says": "your policy timer keeps running.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "04:28", "quote": "your policy timer keeps running."},
+        {"kind": "see", "at": "04:25", "frame": "t00265.jpg", "quote": "Stage: Under revision; Internal Stage: Under revision; Valid Claim?: Not replied; buttons 'Mark valid' and 'Mark invalid'; 'Seller policy timer: 8 days left' (no paused label); caption 'Under revision: your turn again'"}
+      ]
+    },
+    {
+      "at": "04:32",
+      "screen": "Claim NUVE086 after the agent agrees, Expert revision",
+      "action": "Shows the claim after the agent agrees with the seller",
+      "says": "If Revive agrees with you, the customer sees expert revision and the internal stage becomes pending lab collection. The lab check is in the UAE only.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "04:31", "quote": "If Revive agrees with you, the customer sees expert revision and the internal stage becomes pending lab collection."},
+        {"kind": "say", "at": "04:39", "quote": "The lab check is in the UAE only."},
+        {"kind": "see", "at": "04:32", "frame": "t00272.jpg", "quote": "Stage: Expert revision; Internal Stage: Pending LAB collection; Valid Claim?: Invalid claim; caption 'Expert revision → Pending lab collection'"}
+      ]
+    },
+    {
+      "at": "04:40",
+      "screen": "Revibe agent review slide: Lab collection (AE only) and Outside AE boxes",
+      "action": "Shows the Lab collection (AE only) column outlined, with Pending lab collection, In transit to lab and Lab under QC, and the Outside AE box",
+      "says": "Hand the device to QuickUp and it travels to the lab outside the UAE. The agent's decision is final.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "04:42", "quote": "Hand the device to QuickUp and it travels to the lab outside the UAE."},
+        {"kind": "say", "at": "04:46", "quote": "The agent's decision is final."},
+        {"kind": "see", "at": "04:40", "frame": "t00280.jpg", "quote": "Caption 'Lab check: UAE only'; 'Pending lab collection: Quiqup AWB auto-created · seller hands the device to Quiqup'; 'In transit to lab → Lab under QC'; 'OUTSIDE AE: No Lab yet: the agent's confirmation of the seller's Invalid is final.'"}
+      ]
+    },
+    {
+      "at": "04:49",
+      "screen": "Lab final decision slide: LAB VALID and LAB INVALID boxes",
+      "action": "Shows the Lab final decision slide with caption 'Lab valid → refund · invalid → closed'; the LAB VALID and LAB INVALID boxes are on screen (no pointer visible on them)",
+      "says": "If the lab finds the claim valid, the customer is refunded and the device comes {back?} to you. If it's invalid, the claim is closed and the device returns to the customer at their cost in Saudi Arabia and South Africa. The lab's decision, comment, and proof are all visible in the claim.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "04:49", "quote": "If the lab finds the claim valid, the customer is refunded and the device comes {back?} to you."},
+        {"kind": "say", "at": "04:54", "quote": "If it's invalid, the claim is closed and the device returns to the customer at their cost in"},
+        {"kind": "say", "at": "04:59", "quote": "Saudi Arabia and South Africa."},
+        {"kind": "say", "at": "05:02", "quote": "The lab's decision, comment, and proof are all visible in the claim."},
+        {"kind": "see", "at": "04:49", "frame": "t00289.jpg", "quote": "LAB VALID: 'Customer refunded'; 'Pending lab to seller collection → In transit lab to seller → Delivered to seller'. LAB INVALID: 'Invalid claim confirmed — claim closed'; 'AE: Revibe ships the device back · ZA & SA: the customer pays the shipping fees (Stripe code once paid) · 90 days to pay'; caption 'Lab valid → refund · invalid → closed'"}
+      ]
+    },
+    {
+      "at": "05:03",
+      "screen": "Claim NUVE086 Claim Details, lab fields (lab invalid case); claim header not in frame, identified by the proof text 'Impact damage on the screen corner, not a manufacturing fault'",
+      "action": "Scrolls to the LAB fields to show the lab decision, comment and document",
+      "says": "",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "05:03", "frame": "t00303.jpg", "quote": "LAB Decision: Invalid claim; LAB Comments: 'Impact damage confirmed, not covered by warranty'; Revibe Invalid Confirmation Comment: 'Agree with seller, damage confirmed'; Revibe Confirmation: Invalid claim; LAB Document link; caption 'Lab decision, comment & proof'"}
+      ]
+    },
+    {
+      "at": "05:07",
+      "screen": "Claim MJSX592 after a lab valid decision, Ready for refund",
+      "action": "Shows the Ready for refund stage and the Refund to customer button",
+      "says": "When the lab finds the claim valid, the stage shows ready for refund. The customer is refunded and the device comes back to you.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "05:08", "quote": "When the lab finds the claim valid, the stage shows ready for refund."},
+        {"kind": "say", "at": "05:12", "quote": "The customer is refunded and the device comes back to you."},
+        {"kind": "see", "at": "05:07", "frame": "t00307.jpg", "quote": "Stage: Ready for refund; Internal Stage: Ready for refund; Valid Claim?: Invalid claim; Refund To Cx Status: Ready for refund; Explanation To Show: 'Your claim has been approved and your payment is being processed.'"},
+        {"kind": "see", "at": "05:11", "frame": "t00311.jpg", "quote": "Caption 'Lab valid → Ready for refund'; Stage: Ready for refund; 'Refund to customer' button highlighted; Valid Claim?: Invalid claim"}
+      ]
+    },
+    {
+      "at": "05:16",
+      "screen": "Revibe Care+ · Paid Repairs slide, Route A and Route B",
+      "action": "Shows the Care+ workflow overview and the two routes",
+      "says": "Finally, ReviveCare {Plus,?} our extended warranty. Within one year, if you find misuse, but the customer has Care {Plus,?} you quote and repair the device, and Revive pays.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "05:16", "quote": "Finally, ReviveCare {Plus,?} our extended warranty."},
+        {"kind": "say", "at": "05:20", "quote": "Within one year, if you find misuse, but the customer has Care {Plus,?} you quote and repair the"},
+        {"kind": "say", "at": "05:25", "quote": "device, and Revive pays."},
+        {"kind": "see", "at": "05:16", "frame": "t00316.jpg", "quote": "'Revibe Care+ (RC+) covers the repair for the customer. The repairer gives a quotation, Revibe approves it and pays the repair.' ROUTE A · WITHIN 1 YEAR; ROUTE B · AFTER 1 YEAR, OR MISUSE DECLARED"}
+      ]
+    },
+    {
+      "at": "05:27",
+      "screen": "Claim VKDD197, Under QC, Internal Stage Seller quotation",
+      "action": "Shows the claim in Seller quotation and points at the Internal Stage value",
+      "says": "When the customer has Care Plus, Revive marks the claim misuse, but customer has Care Plus, and the internal stage becomes seller quotation. It's your turn to quote the repair.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "05:28", "quote": "When the customer has Care Plus, Revive marks the claim misuse, but customer has Care Plus, and the"},
+        {"kind": "say", "at": "05:33", "quote": "internal stage becomes seller quotation."},
+        {"kind": "say", "at": "05:36", "quote": "It's your turn to quote the repair."},
+        {"kind": "see", "at": "05:27", "frame": "t00327.jpg", "quote": "Stage: Under QC; Internal Stage: Seller quotation; Valid Claim?: Invalid claim; caption 'Seller quotation: your turn to quote'"},
+        {"kind": "see", "at": "05:32", "frame": "t00332.jpg", "quote": "Internal Stage: Seller quotation outlined; caption 'Seller quotation: your turn to quote'"}
+      ]
+    },
+    {
+      "at": "05:38",
+      "screen": "Claim VKDD197 at Quotation review, then Financial summary (claim number not visible on the Financial summary frame)",
+      "action": "Shows Quotation review, then scrolls to the Financial summary",
+      "says": "Once you've quoted, it moves to quotation review, and your price shows in the financial summary.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "05:38", "quote": "Once you've quoted, it moves to quotation review, and your price shows in the financial summary."},
+        {"kind": "see", "at": "05:38", "frame": "t00338.jpg", "quote": "Internal Stage: Quotation review; Seller policy timer: 8 days left (paused); caption 'Your price in the Financial summary'"},
+        {"kind": "see", "at": "05:40", "frame": "t00340.jpg", "quote": "Claim VKDD197: Stage Under QC; Internal Stage: Quotation review; caption 'Your price in the Financial summary'"},
+        {"kind": "see", "at": "05:42", "frame": "t00342.jpg", "quote": "Financial Summary: 'Seller Repair Quotation Amount (AED): 2000'; Gross Sale: 2819; Order Amount: 2819"}
+      ]
+    },
+    {
+      "at": "05:45",
+      "screen": "Revibe Care+ slide, Route B: Revibe Repair Partner",
+      "action": "Shows Route B",
+      "says": "After one year, or when the customer declares misuse, the Revive repair {partner?} handles it, and you won't see the claim.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "05:45", "quote": "After one year, or when the customer declares misuse, the Revive repair {partner?} handles it, and you won't"},
+        {"kind": "say", "at": "05:51", "quote": "see the claim."},
+        {"kind": "see", "at": "05:45", "frame": "t00345.jpg", "quote": "'The device is sent straight to the Revibe Repair Partner — the original seller doesn't see the claim. The partner inspects the device, identifies the issue and gives a quotation.'; caption 'After 1 year: Revibe Repair Partner'"}
+      ]
+    },
+    {
+      "at": "05:53",
+      "screen": "Revibe Care+ quotation flow diagram",
+      "action": "Points at the quotation loop",
+      "says": "Enter your repair price as a quotation. The agent approves it or sends it back for a new one.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "05:53", "quote": "Enter your repair price as a quotation."},
+        {"kind": "say", "at": "05:55", "quote": "The agent approves it or sends it back for a new one."},
+        {"kind": "see", "at": "05:53", "frame": "t00353.jpg", "quote": "'Seller quotation → repairer enters the price → Seller quotation review → Revibe agent approves? No → back to quotation · Yes → repair'; caption 'Quote → Revibe approves'"}
+      ]
+    },
+    {
+      "at": "05:59",
+      "screen": "Revibe Care+ slide: APPROVED box (the CANCELLED box is shown at 06:05)",
+      "action": "Shows the approved repair path and the delivery-failure and payment banners",
+      "says": "Once approved, repair the device and ship it back as usual. If Revive cancels the repair, the device goes back to the customer as is.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "05:59", "quote": "Once approved, repair the device and ship it back as usual."},
+        {"kind": "say", "at": "06:04", "quote": "If Revive cancels the repair, the device goes back to the customer as is."},
+        {"kind": "see", "at": "05:59", "frame": "t00359.jpg", "quote": "APPROVED: 'Ready for repair → Under repair → Repair finished → To ship back'; 'Ship back under collection → Shipped back → Delivered'; banner 'Delivery failed on ship-back: agent offers a new attempt · refused → device disposed.'; caption 'Approved → repair & ship back'"}
+      ]
+    },
+    {
+      "at": "06:05",
+      "screen": "Revibe Care+ slide: CANCELLED box, then Payment banner",
+      "action": "Shows the cancelled box and the payment banner",
+      "says": "And all refunds, credits, and charges appear in your payment tool.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "06:09", "quote": "And all refunds, credits, and charges appear in your payment tool."},
+        {"kind": "see", "at": "06:05", "frame": "t00365.jpg", "quote": "CANCELLED: 'Repair cancelled by Revibe. No repair is done. The device is shipped back to the customer as is.'; caption 'Cancelled → returned as is'"},
+        {"kind": "see", "at": "06:10", "frame": "t00370.jpg", "quote": "Banner: 'Payment: all refunds, credits and charges appear in the payment tool.'; caption 'Everything shows in the payment tool'"}
+      ]
+    },
+    {
+      "at": "06:14",
+      "screen": "Claim UXEQ435, Stage Cancelled, then Closed",
+      "action": "Points at the Cancelled stage and then the Closed badge",
+      "says": "A claim can also stop partway, for example, when the customer cancels it or never sends missing documents. The stage becomes canceled and the claim is closed.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "06:14", "quote": "A claim can also stop partway, for example, when the customer cancels it or never sends missing documents."},
+        {"kind": "say", "at": "06:21", "quote": "The stage becomes {canceled?} and the claim is closed."},
+        {"kind": "see", "at": "06:14", "frame": "t00374.jpg", "quote": "Stage: Cancelled; Internal Stage: Cancelled; Reason For Claim Cancellation: 'Customer requested to cancel claim'; Closed badge; caption 'Cancelled: the claim stops'"},
+        {"kind": "see", "at": "06:18", "frame": "t00378.jpg", "quote": "Closed badge and Stage/Internal Stage rows outlined; Stage: Cancelled"}
+      ]
+    },
+    {
+      "at": "06:25",
+      "screen": "Claim UXEQ435 reopened, back to Form received, Active badge",
+      "action": "Shows the claim still Cancelled with the caption 'Reopened → back to Form received', then the Active badge and Form received stage",
+      "says": "If it was canceled by mistake, Revive can reopen it. It goes back to form received and is active again.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "06:25", "quote": "If it was canceled by mistake, Revive can reopen it."},
+        {"kind": "say", "at": "06:28", "quote": "It goes back to form received and is active again."},
+        {"kind": "see", "at": "06:25", "frame": "t00385.jpg", "quote": "Stage: Cancelled still shown; caption 'Reopened → back to Form received'"},
+        {"kind": "see", "at": "06:31", "frame": "t00391.jpg", "quote": "Active badge outlined; Stage: Form received; Internal Stage: Form received; Explanation To Show: 'We've received your warranty claim. Next we'll arrange to collect the device for repair.'"}
+      ]
+    },
+    {
+      "at": "06:32",
+      "screen": "Recap slide",
+      "action": "Shows the closing recap",
+      "says": "That's the warranty process. Any question, ask your key account manager.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "06:32", "quote": "That's the warranty process."},
+        {"kind": "say", "at": "06:34", "quote": "Any question, ask your key account manager."},
+        {"kind": "see", "at": "06:36", "frame": "t00396.jpg", "quote": "'Inspect, decide, prove. Valid → repair & ship back · Invalid → reason + proof · Care+ → quote.' 'Questions? Ask your Key Account Manager'"}
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "type": "rule",
+      "statement": "Within 1 year, the seller inspects the device and marks the claim Valid (repair it) or Invalid (reason + proof).",
+      "evidence": [
+        {"kind": "see", "at": "03:37", "frame": "t00217.jpg", "quote": "Within 1 year: the seller inspects the device and marks the claim Valid (repair it) or Invalid (reason + proof). Revibe reviews every Invalid claim."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "To mark a claim invalid, the seller must give a reason and proof.",
+      "evidence": [
+        {"kind": "say", "at": "03:36", "quote": "If you believe the claim is invalid, you must give a reason and proof."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The Invalid claim reason dropdown offers four options: No issue, Misuse, Time expired for specific issue, Other.",
+      "evidence": [
+        {"kind": "see", "at": "03:42", "frame": "t00222.jpg", "quote": "Dropdown 'Invalid claim reason' open with options: No issue, Misuse, Time expired for specific issue, Other"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "The invalid form asks for a reason, a comment (Invalid claim comment) and proof uploaded under 'Proof of invalid claim by supplier'.",
+      "evidence": [
+        {"kind": "say", "at": "03:41", "quote": "Choose the reason, for example misuse, add a comment and upload your proof."},
+        {"kind": "see", "at": "03:45", "frame": "t00225.jpg", "quote": "'Invalid claim comment' field; section heading 'Proof of invalid claim by supplier'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "tip",
+      "statement": "More proof is better: more files can be added in the claims attachments.",
+      "evidence": [
+        {"kind": "say", "at": "03:46", "quote": "You can add more files in the claims attachments."},
+        {"kind": "say", "at": "03:49", "quote": "The more proof, the better."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Once the seller marks a claim invalid, the customer still sees the stage Under QC, while the internal stage becomes Invalid claim.",
+      "evidence": [
+        {"kind": "say", "at": "03:52", "quote": "Once you mark it invalid, the customer still sees under QC while the internal stage becomes invalid claim."},
+        {"kind": "see", "at": "03:51", "frame": "t00231.jpg", "quote": "Stage: Under QC; Internal Stage: Invalid claim; Valid Claim?: Invalid claim"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The claim details show the seller's Invalid Claim Reason (Misuse) and the Proof Of Invalid Claim text and file, and an attachment appears in the Attachments panel. The comment typed on the form ('ABCD') is not shown in the claim details (see unclear entry at 03:58).",
+      "evidence": [
+        {"kind": "say", "at": "03:58", "quote": "Your reason, comment, and proof appear in the claim details."},
+        {"kind": "see", "at": "04:01", "frame": "t00241.jpg", "quote": "Invalid Claim Reason: Misuse; Attachments: 1791962227838-condition-guide-1-where-s..."},
+        {"kind": "see", "at": "03:55", "frame": "t00235.jpg", "quote": "Proof Of Invalid Claim: 'Impact damage on the screen corner, not a manufacturing fault'"}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "A Revibe agent reviews every invalid claim.",
+      "evidence": [
+        {"kind": "say", "at": "04:04", "quote": "A Revive agent reviews every invalid claim."},
+        {"kind": "see", "at": "04:04", "frame": "t00244.jpg", "quote": "Caption 'Revibe reviews every Invalid'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "If the Revibe agent agrees with the seller's invalid claim, the device is sent to the lab.",
+      "evidence": [
+        {"kind": "say", "at": "04:07", "quote": "If they agree, the device goes to the lab."},
+        {"kind": "see", "at": "04:04", "frame": "t00244.jpg", "quote": "'Agrees → device sent to the Lab'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "If the Revibe agent challenges the invalid claim, the agent marks it Valid with a rationale. Then either the seller must cover the repair (claim goes to Under revision) or, for a misuse claim where the customer has RC+, the seller gives a quotation (see page 3 of the slide).",
+      "evidence": [
+        {"kind": "say", "at": "04:09", "quote": "If not, they explain why."},
+        {"kind": "see", "at": "04:04", "frame": "t00244.jpg", "quote": "'Challenges → marks Valid with a rationale'; 'Seller must cover → Under revision'; 'Misuse but customer has RC+ → seller quotation (page 3)'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Under revision: the seller must mark the claim Valid or Invalid again with more proof; the agent then reviews again, and an Invalid answer goes to the lab.",
+      "evidence": [
+        {"kind": "say", "at": "04:24", "quote": "Recheck the device, then mark it valid or invalid again with more proof."},
+        {"kind": "see", "at": "04:04", "frame": "t00244.jpg", "quote": "'seller marks Valid / Invalid again → agent reviews again (Invalid → Lab)'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "Narration says 'your policy timer keeps running' just after the Under revision explanation. The Under revision screen shows 'Seller policy timer: 8 days left' with no '(paused)' label.",
+      "evidence": [
+        {"kind": "say", "at": "04:28", "quote": "your policy timer keeps running."},
+        {"kind": "see", "at": "04:25", "frame": "t00265.jpg", "quote": "Stage: Under revision; 'Seller policy timer: 8 days left' (no paused label)"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "When the agent agrees with the seller, the customer sees Expert revision and the internal stage becomes Pending LAB collection.",
+      "evidence": [
+        {"kind": "say", "at": "04:31", "quote": "If Revive agrees with you, the customer sees expert revision and the internal stage becomes pending lab collection."},
+        {"kind": "see", "at": "04:32", "frame": "t00272.jpg", "quote": "Stage: Expert revision; Internal Stage: Pending LAB collection"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The lab check is in the UAE only (screen caption: 'Lab check: UAE only'; the lab collection column is marked '(AE only)').",
+      "evidence": [
+        {"kind": "say", "at": "04:39", "quote": "The lab check is in the UAE only."},
+        {"kind": "see", "at": "04:40", "frame": "t00280.jpg", "quote": "Caption 'Lab check: UAE only'; 'Lab collection (AE only)'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "For a lab collection, a Quiqup AWB is auto-created and the seller hands the device to Quiqup. The status then goes Pending lab collection → In transit to lab → Lab under QC.",
+      "evidence": [
+        {"kind": "see", "at": "04:40", "frame": "t00280.jpg", "quote": "'Pending lab collection: Quiqup AWB auto-created · seller hands the device to Quiqup'; 'In transit to lab → Lab under QC'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Outside AE, there is no lab: the agent's confirmation of the seller's Invalid is final.",
+      "evidence": [
+        {"kind": "see", "at": "04:40", "frame": "t00280.jpg", "quote": "'OUTSIDE AE: No Lab yet: the agent's confirmation of the seller's Invalid is final.'"},
+        {"kind": "say", "at": "04:46", "quote": "The agent's decision is final."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Lab VALID: the customer is refunded and the device goes back to the seller (Pending lab to seller collection → In transit lab to seller → Delivered to seller).",
+      "evidence": [
+        {"kind": "say", "at": "04:49", "quote": "If the lab finds the claim valid, the customer is refunded and the device comes {back?} to you."},
+        {"kind": "see", "at": "04:49", "frame": "t00289.jpg", "quote": "'LAB VALID: Customer refunded'; 'Pending lab to seller collection → In transit lab to seller → Delivered to seller'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Lab INVALID: the invalid claim is confirmed and the claim is closed. Revibe ships the device back in AE. In ZA & SA the customer pays the shipping fees (Stripe code once paid).",
+      "evidence": [
+        {"kind": "say", "at": "04:54", "quote": "If it's invalid, the claim is closed and the device returns to the customer at their cost in"},
+        {"kind": "say", "at": "04:59", "quote": "Saudi Arabia and South Africa."},
+        {"kind": "see", "at": "04:49", "frame": "t00289.jpg", "quote": "'Invalid claim confirmed — claim closed'; 'AE: Revibe ships the device back · ZA & SA: the customer pays the shipping fees (Stripe code once paid) · 90 days to pay'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "For ZA & SA lab-invalid returns, the screen shows '90 days to pay' on the same line as the ZA & SA shipping-fee clause.",
+      "evidence": [
+        {"kind": "see", "at": "04:49", "frame": "t00289.jpg", "quote": "'ZA & SA: the customer pays the shipping fees (Stripe code once paid) · 90 days to pay'"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Lab ship-back path after a lab-invalid decision: Ship back under collection → Shipped back → Delivered. If delivery fails, a new attempt is offered or the device is disposed (the lab slide does not say who offers the new attempt).",
+      "evidence": [
+        {"kind": "see", "at": "04:49", "frame": "t00289.jpg", "quote": "'Ship back under collection → Shipped back → Delivered · Delivery failed → new attempt, or Device disposed'"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The lab decision, comment and proof are shown on the claim (LAB Decision, LAB Comments, LAB Document, Revibe Confirmation).",
+      "evidence": [
+        {"kind": "say", "at": "05:02", "quote": "The lab's decision, comment, and proof are all visible in the claim."},
+        {"kind": "see", "at": "05:03", "frame": "t00303.jpg", "quote": "LAB Decision: Invalid claim; LAB Comments: 'Impact damage confirmed, not covered by warranty'; LAB Document link; Revibe Confirmation: Invalid claim"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "When the lab finds the claim valid, the stage shows Ready for refund, and the customer is refunded.",
+      "evidence": [
+        {"kind": "say", "at": "05:08", "quote": "When the lab finds the claim valid, the stage shows ready for refund."},
+        {"kind": "see", "at": "05:07", "frame": "t00307.jpg", "quote": "Stage: Ready for refund; Refund To Cx Status: Ready for refund"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "On a Ready for refund claim, the Valid Claim? field still reads Invalid claim.",
+      "evidence": [
+        {"kind": "see", "at": "05:07", "frame": "t00307.jpg", "quote": "Valid Claim?: Invalid claim (red) with Stage: Ready for refund"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Revibe Care+ (RC+) is Revibe's extended warranty. It covers the repair for the customer: the repairer gives a quotation, Revibe approves it and pays the repair.",
+      "evidence": [
+        {"kind": "say", "at": "05:16", "quote": "Finally, ReviveCare {Plus,?} our extended warranty."},
+        {"kind": "see", "at": "05:16", "frame": "t00316.jpg", "quote": "'Revibe Care+ (RC+) covers the repair for the customer. The repairer gives a quotation, Revibe approves it and pays the repair.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Care+ Route A (within 1 year): if the original seller finds misuse and the customer has RC+, the agent marks 'Misuse but customer has RC+'. The original seller then gives a quotation and repairs the device, and Revibe covers the cost.",
+      "evidence": [
+        {"kind": "say", "at": "05:20", "quote": "Within one year, if you find misuse, but the customer has Care {Plus,?} you quote and repair the"},
+        {"kind": "say", "at": "05:25", "quote": "device, and Revive pays."},
+        {"kind": "see", "at": "05:17", "frame": "t00317.jpg", "quote": "'The seller marks Invalid (misuse). The agent sees that the customer has RC+ and marks \"Misuse but customer has RC+\". The original seller then gives a quotation and repairs the device — Revibe covers the cost.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Care+ Route B (after 1 year, or when misuse is declared): the device goes straight to the Revibe Repair Partner. The original seller does not see the claim; the partner inspects the device and gives a quotation.",
+      "evidence": [
+        {"kind": "say", "at": "05:45", "quote": "After one year, or when the customer declares misuse, the Revive repair {partner?} handles it, and you won't"},
+        {"kind": "say", "at": "05:51", "quote": "see the claim."},
+        {"kind": "see", "at": "05:45", "frame": "t00345.jpg", "quote": "'the original seller doesn't see the claim'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Route A quotation: the internal stage becomes Seller quotation (the customer sees Under QC). The seller enters the repair price as a quotation.",
+      "evidence": [
+        {"kind": "say", "at": "05:33", "quote": "internal stage becomes seller quotation."},
+        {"kind": "say", "at": "05:36", "quote": "It's your turn to quote the repair."},
+        {"kind": "see", "at": "05:27", "frame": "t00327.jpg", "quote": "Stage: Under QC; Internal Stage: Seller quotation"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "After the seller quotes, the claim moves to Quotation review, and the seller's price shows in the Financial summary.",
+      "evidence": [
+        {"kind": "say", "at": "05:38", "quote": "Once you've quoted, it moves to quotation review, and your price shows in the financial summary."},
+        {"kind": "see", "at": "05:38", "frame": "t00338.jpg", "quote": "Internal Stage: Quotation review"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The seller's repair price is in the Financial Summary as 'Seller Repair Quotation Amount (AED)'.",
+      "evidence": [
+        {"kind": "see", "at": "05:42", "frame": "t00342.jpg", "quote": "Financial Summary: 'Seller Repair Quotation Amount (AED): 2000'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Quotation loop: Seller quotation → repairer enters the price → Seller quotation review → Revibe agent approves? If No, back to quotation. If Yes, repair.",
+      "evidence": [
+        {"kind": "say", "at": "05:53", "quote": "Enter your repair price as a quotation."},
+        {"kind": "say", "at": "05:55", "quote": "The agent approves it or sends it back for a new one."},
+        {"kind": "see", "at": "05:53", "frame": "t00353.jpg", "quote": "'Revibe agent approves? No → back to quotation · Yes → repair'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Once approved, repair the device and ship it back as usual: Ready for repair → Under repair → Repair finished → To ship back → Ship back under collection → Shipped back → Delivered.",
+      "evidence": [
+        {"kind": "say", "at": "05:59", "quote": "Once approved, repair the device and ship it back as usual."},
+        {"kind": "see", "at": "05:59", "frame": "t00359.jpg", "quote": "APPROVED: 'Ready for repair → Under repair → Repair finished → To ship back'; 'Ship back under collection → Shipped back → Delivered'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "If Revibe cancels the repair, no repair is done and the device is shipped back to the customer as is.",
+      "evidence": [
+        {"kind": "say", "at": "06:04", "quote": "If Revive cancels the repair, the device goes back to the customer as is."},
+        {"kind": "see", "at": "06:05", "frame": "t00365.jpg", "quote": "'Repair cancelled by Revibe. No repair is done. The device is shipped back to the customer as is.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "If a ship-back delivery fails, the agent offers a new attempt; if delivery is refused, the device is disposed (the screen does not say who refused).",
+      "evidence": [
+        {"kind": "see", "at": "05:59", "frame": "t00359.jpg", "quote": "'Delivery failed on ship-back: agent offers a new attempt · refused → device disposed.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "All refunds, credits and charges appear in the payment tool.",
+      "evidence": [
+        {"kind": "say", "at": "06:09", "quote": "And all refunds, credits, and charges appear in your payment tool."},
+        {"kind": "see", "at": "06:10", "frame": "t00370.jpg", "quote": "'Payment: all refunds, credits and charges appear in the payment tool.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "A claim can stop partway, for example when the customer cancels it or never sends missing documents. The stage becomes Cancelled and the claim is closed.",
+      "evidence": [
+        {"kind": "say", "at": "06:14", "quote": "A claim can also stop partway, for example, when the customer cancels it or never sends missing documents."},
+        {"kind": "say", "at": "06:21", "quote": "The stage becomes {canceled?} and the claim is closed."},
+        {"kind": "see", "at": "06:14", "frame": "t00374.jpg", "quote": "Stage: Cancelled; Reason For Claim Cancellation: 'Customer requested to cancel claim'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "On the cancelled claim UXEQ435, the Reason For Claim Cancellation field reads 'Customer requested to cancel claim'.",
+      "evidence": [
+        {"kind": "see", "at": "06:14", "frame": "t00374.jpg", "quote": "Reason For Claim Cancellation: 'Customer requested to cancel claim'"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "If a claim was cancelled by mistake, Revibe can reopen it. It returns to Form received and is active again. The narration does not say that sellers can reopen claims.",
+      "evidence": [
+        {"kind": "say", "at": "06:25", "quote": "If it was canceled by mistake, Revive can reopen it."},
+        {"kind": "say", "at": "06:28", "quote": "It goes back to form received and is active again."},
+        {"kind": "see", "at": "06:31", "frame": "t00391.jpg", "quote": "Active badge; Stage: Form received; Internal Stage: Form received"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The Statuses panel on the claim page shows Stage (what the customer sees) and Internal Stage (Revibe's internal state), plus Valid Claim?.",
+      "evidence": [
+        {"kind": "say", "at": "03:52", "quote": "Once you mark it invalid, the customer still sees under QC while the internal stage becomes invalid claim."},
+        {"kind": "see", "at": "03:29", "frame": "t00209.jpg", "quote": "Statuses panel: Stage, Internal Stage, Policy Status, Type, Subtype, Valid Claim?, Credit From Customer Status"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "On the Under revision claim NUVE086, the Valid Claim? field reads 'Not replied'.",
+      "evidence": [
+        {"kind": "see", "at": "04:25", "frame": "t00265.jpg", "quote": "Valid Claim?: Not replied; Stage: Under revision; Internal Stage: Under revision"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "warning",
+      "statement": "Implied: the '(paused)' label appears on the claim screens in t00209, t00231, t00307, t00338, t00374, t00378 and t00391, and does not appear on t00265, t00272 and t00327. The narration does not explain this difference.",
+      "evidence": [
+        {"kind": "see", "at": "03:51", "frame": "t00231.jpg", "quote": "'Seller policy timer: 8 days left (paused)'"},
+        {"kind": "see", "at": "04:25", "frame": "t00265.jpg", "quote": "'Seller policy timer: 8 days left' (no paused label)"},
+        {"kind": "see", "at": "05:27", "frame": "t00327.jpg", "quote": "'Seller policy timer: 8 days left' (no paused label)"}
+      ],
+      "confidence": "low",
+      "quiz": false
+    }
+  ],
+  "screens": [
+    {
+      "name": "Revibe back office: Claim Management, claim detail page",
+      "shows": "Claim # header with status badge (Closed, Active), Tracker and Edit buttons, Seller policy timer bar, action bar (Mark valid, Mark invalid, Refund to customer, To be refunded to supplier, Reject refund to supplier, Waive refund to supplier, Cancel override, Validate address, Revoke claim, Repair finished, Reset policy timer, Refund via original payment, To be credited from supplier, Reject credit from supplier), Claim Details panel, Statuses panel, Attachments panel, Financial Summary, Order Timeline. Sidebar labels are truncated on screen (for example 'User Manag...', 'Agent Mana...', 'Roles Mana...', 'Shipment M...', 'Stock Mana...', 'Order Mana...', 'Resolution ...', 'Claim Mana...', 'Complaint M...'); full names are not visible.",
+      "at": "03:29",
+      "where": "frames t00209, t00231, t00265, t00307, t00327, t00374"
+    },
+    {
+      "name": "Seller decision slide (Invalid path)",
+      "shows": "'Within 1 year' rule; INVALID path: 1 Seller submits proof, 2 Revibe agent review, 3 Lab collection (AE only), Outside AE box.",
+      "at": "03:37",
+      "where": "frame t00217"
+    },
+    {
+      "name": "Enter proof of invalid claim form",
+      "shows": "Invalid claim reason dropdown (No issue, Misuse, Time expired for specific issue, Other), Invalid claim comment field, 'Proof of invalid claim by supplier' upload section.",
+      "at": "03:42",
+      "where": "frames t00222, t00225"
+    },
+    {
+      "name": "Claim Details, lower fields (invalid and lab fields)",
+      "shows": "Proof Of Invalid Claim, Proof Of Invalid Claim File, Revibe Invalid Confirmation Comment, Revibe Confirmation, Missing Document, LAB Decision, LAB Comments, LAB Document, Rejection Reason, Invalid Claim Reason, Agent Decision, Repair Finished, Traced Supplier Order Help, Customer Action Required, Evidence Re-uploaded, Compensation Rejection Note.",
+      "at": "03:55",
+      "where": "frames t00235, t00237, t00241, t00303"
+    },
+    {
+      "name": "Revibe agent review slide",
+      "shows": "Agrees → device sent to the Lab; Challenges → marks Valid with a rationale → Under revision or seller quotation (page 3).",
+      "at": "04:04",
+      "where": "frame t00244"
+    },
+    {
+      "name": "Edit page for a claim",
+      "shows": "Title 'Edit'; breadcrumb Dashboard • Claims • Details • 123325; fields Claim ID NUVE086, Issue, Issue Details (Screen Issue), Description, Translated description, Type of request, Explanation to show, Name to show, Cancellation reason (customer), Order details, Reason for claim cancellation, Information complete?",
+      "at": "04:18",
+      "where": "frame t00258"
+    },
+    {
+      "name": "Lab collection and lab decision slide",
+      "shows": "Pending lab collection (Quiqup AWB auto-created), In transit to lab, Lab under QC; Outside AE box; LAB VALID and LAB INVALID outcomes with Invalid claim confirmed, AE, ZA & SA, 90 days to pay, Ship back path.",
+      "at": "04:40",
+      "where": "frames t00280, t00289"
+    },
+    {
+      "name": "Revibe Care+ Paid Repairs slide (3/3)",
+      "shows": "Route A (within 1 year), Route B (after 1 year or misuse declared, Revibe Repair Partner), quotation loop, Approved repair and ship back path, Cancelled box, delivery failure and payment banners.",
+      "at": "05:16",
+      "where": "frames t00316, t00317, t00345, t00353, t00359, t00365, t00370"
+    },
+    {
+      "name": "Financial Summary section of claim page",
+      "shows": "Gross Sale, Discount, Actual Cost, Credit From Supplier, Net Balance, Order Refund Amount, Refund To Cx Amount, Order Amount, Credit From Customer Amount, Refund To Supplier, Warranty Refund Amount, Seller Repair Quotation Amount (AED); Payment fields (Stripe Code, Bank Name, Account Number, IBAN Number, Account Holder Name, National Address Code), shown as dashes. Order Timeline below.",
+      "at": "05:42",
+      "where": "frame t00342"
+    },
+    {
+      "name": "Recap slide",
+      "shows": "'Inspect, decide, prove' · Valid → repair & ship back · Invalid → reason + proof · Care+ → quote · 'Questions? Ask your Key Account Manager'",
+      "at": "06:36",
+      "where": "frame t00396"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Stage",
+      "meaning": "Status shown on the claim page that the customer sees, for example Under QC or Ready for refund (narration and screen).",
+      "at": "03:52"
+    },
+    {
+      "term": "Internal Stage",
+      "meaning": "Revibe's internal status for the claim, for example Invalid claim, Pending LAB collection, Seller quotation, Quotation review (narration: the internal stage differs from what the customer sees).",
+      "at": "03:52"
+    },
+    {
+      "term": "Valid Claim?",
+      "meaning": "Field on the Statuses panel showing the seller's or agent's verdict: Invalid claim or Not replied are both shown on screen. Its meaning beyond that is not defined in the material.",
+      "at": "04:25"
+    },
+    {
+      "term": "Seller policy timer",
+      "meaning": "Countdown bar on the claim page (8 days left in every recorded frame). Shows (paused) on some screens.",
+      "at": "03:29"
+    },
+    {
+      "term": "Under revision",
+      "meaning": "Stage after Revibe challenges an invalid claim; the seller must mark Valid or Invalid again with more proof.",
+      "at": "04:19"
+    },
+    {
+      "term": "Expert revision",
+      "meaning": "Customer-facing stage after Revibe agrees with the seller's invalid claim, before lab collection.",
+      "at": "04:31"
+    },
+    {
+      "term": "Pending lab collection",
+      "meaning": "Internal stage before the device is handed to Quiqup for the lab (in the lab collection column marked AE only).",
+      "at": "04:31"
+    },
+    {
+      "term": "AE / Outside AE",
+      "meaning": "Screen labels on the lab slide: 'Lab collection (AE only)' and 'OUTSIDE AE'. The screen does not spell out the code, but the caption 'Lab check: UAE only' appears on the same slide. Outside AE has no lab and the agent's confirmation is final.",
+      "at": "04:39"
+    },
+    {
+      "term": "Quiqup AWB",
+      "meaning": "AWB auto-created for the lab collection on the Quiqup side; the seller hands the device to Quiqup. The screen does not expand the AWB abbreviation.",
+      "at": "04:42"
+    },
+    {
+      "term": "ZA & SA",
+      "meaning": "Screen label for the markets where a lab-invalid device is returned at the customer's cost. Narration names them as Saudi Arabia and South Africa.",
+      "at": "04:59"
+    },
+    {
+      "term": "Ready for refund",
+      "meaning": "Stage after a lab-valid decision; the customer is refunded.",
+      "at": "05:08"
+    },
+    {
+      "term": "Revibe Care+ (RC+)",
+      "meaning": "Revibe's extended warranty covering the repair for the customer; the repairer gives a quotation, Revibe approves it and pays.",
+      "at": "05:16"
+    },
+    {
+      "term": "Misuse but customer has RC+",
+      "meaning": "Agent marking for a misuse claim where the customer has Revibe Care+. Leads to the seller quotation (Route A).",
+      "at": "05:20"
+    },
+    {
+      "term": "Revibe Repair Partner",
+      "meaning": "Repairer used after 1 year or when misuse is declared. The original seller does not see the claim.",
+      "at": "05:45"
+    },
+    {
+      "term": "Seller quotation / Seller quotation review / Quotation review",
+      "meaning": "Seller quotation: the repairer enters the repair price. Seller quotation review: the Revibe agent approves (Yes → repair) or sends it back (No → back to quotation). Quotation review is the internal stage after the seller quotes.",
+      "at": "05:33"
+    },
+    {
+      "term": "Seller Repair Quotation Amount (AED)",
+      "meaning": "Financial Summary field holding the seller's repair price.",
+      "at": "05:42"
+    },
+    {
+      "term": "Repair cancelled by Revibe",
+      "meaning": "Outcome where no repair is done and the device goes back to the customer as is.",
+      "at": "06:04"
+    },
+    {
+      "term": "Device disposed",
+      "meaning": "Closed outcome after refusal; also the outcome when a ship-back is refused.",
+      "at": "03:29"
+    },
+    {
+      "term": "Form received",
+      "meaning": "Stage a reopened claim returns to; the claim is active again.",
+      "at": "06:28"
+    }
+  ],
+  "asr_fixes": [
+    {
+      "at": "04:04",
+      "heard": "Revive agent",
+      "correct": "Revibe agent",
+      "basis": "Screen t00244 section header 'Revibe agent review' and caption 'Revibe reviews every Invalid'. The brand is spelled Revibe on the screens."
+    },
+    {
+      "at": "04:19",
+      "heard": "Revive's comment",
+      "correct": "Revibe Comment",
+      "basis": "Claim Details field 'Revibe Comment' on screen t00209."
+    },
+    {
+      "at": "04:16",
+      "heard": "ReviveCare Plus",
+      "correct": "Revibe Care+ (RC+)",
+      "basis": "Screen t00316 header 'Revibe Care+ · Paid Repairs' and t00244 'customer has RC+'."
+    },
+    {
+      "at": "04:31",
+      "heard": "Revive agrees",
+      "correct": "Revibe agrees",
+      "basis": "Screens t00244 and t00316 spell the brand Revibe throughout."
+    },
+    {
+      "at": "04:42",
+      "heard": "QuickUp",
+      "correct": "Quiqup",
+      "basis": "Screen t00280 'Quiqup AWB auto-created · seller hands the device to Quiqup'."
+    },
+    {
+      "at": "04:49",
+      "heard": "comes {back?} to you",
+      "correct": "comes back to you",
+      "basis": "Screen t00289 LAB VALID path 'Pending lab to seller collection → In transit lab to seller → Delivered to seller'."
+    },
+    {
+      "at": "05:16",
+      "heard": "ReviveCare {Plus,?}",
+      "correct": "Revibe Care+ (RC+)",
+      "basis": "Screen t00316 header 'Revibe Care+ · Paid Repairs'."
+    },
+    {
+      "at": "05:20",
+      "heard": "Care {Plus,?}",
+      "correct": "Care+ (RC+)",
+      "basis": "Screen t00317 'the customer has RC+ and marks Misuse but customer has RC+'. Narration also says 'Care Plus' at 05:28."
+    },
+    {
+      "at": "05:45",
+      "heard": "Revive repair {partner?}",
+      "correct": "Revibe Repair Partner",
+      "basis": "Screen t00345 'Revibe Repair Partner'."
+    },
+    {
+      "at": "06:21",
+      "heard": "canceled (and {canceled?})",
+      "correct": "Cancelled",
+      "basis": "Screen t00374 and t00378 show Stage: Cancelled and Internal Stage: Cancelled."
+    }
+  ],
+  "unclear": [
+    {
+      "at": "04:11",
+      "issue": "The narration says 'or the customer has ReviveCare Plus' (04:11 to 04:16) without the misuse condition. The screen only shows the RC+ branch as 'Misuse but customer has RC+ → seller quotation'. It is unclear whether an RC+ customer alone (no misuse) leads to a seller quotation."
+    },
+    {
+      "at": "03:58",
+      "issue": "The narration says the reason, comment and proof appear in the claim details. The comment typed on the form at 03:45 was 'ABCD', but the claim details for the same claim show Proof Of Invalid Claim 'Impact damage on the screen corner, not a manufacturing fault' and no 'ABCD'. The screens do not show whether the form comment is stored in the claim."
+    },
+    {
+      "at": "04:28",
+      "issue": "The narration says 'your policy timer keeps running'. The timer shows '(paused)' on some claim screens and not on the Under revision, Expert revision or Seller quotation screens. The narration does not explain why."
+    },
+    {
+      "at": "04:46",
+      "issue": "The narration says 'The agent's decision is final.' with no scope. The screen limits the finality to 'OUTSIDE AE: No Lab yet: the agent's confirmation of the seller's Invalid is final.' It is unclear whether the agent's decision is also final for AE claims that go to the lab."
+    },
+    {
+      "at": "04:42",
+      "issue": "Narration says 'The lab check is in the UAE only' (04:39) and then 'it travels to the lab outside the UAE' (04:42). The screen shows 'Lab check: UAE only' and 'Lab collection (AE only)' but does not say where the lab is. The location of the lab is unclear."
+    },
+    {
+      "at": "03:29",
+      "issue": "Narration says 'If they refuse or don't reply'. It is unclear who 'they' is (customer or another party). The screen only shows the caption 'Refused → Device disposed, claim closed' and nothing about no reply."
+    },
+    {
+      "at": "04:18",
+      "issue": "An Edit page is shown for claim NUVE086 with breadcrumb 'Dashboard • Claims • Details • 123325', which does not match the claim ID NUVE086. The narration does not say what was edited or why."
+    },
+    {
+      "at": "05:07",
+      "issue": "On the Ready for refund claim MJSX592 the Valid Claim? field still reads 'Invalid claim'. The narration does not explain whether this is expected."
+    },
+    {
+      "at": "05:42",
+      "issue": "The Financial Summary frame (t00342) does not show a claim number. It is placed after the VKDD197 frames and the 2000 value is attributed to VKDD197 on that basis."
+    },
+    {
+      "at": "06:25",
+      "issue": "Narration says 'Revive can reopen it'. It is not shown whether a seller can reopen a cancelled claim or only Revibe can."
+    },
+    {
+      "at": "03:51",
+      "issue": "Frame t00231 shows the action buttons 'Cancel override' and 'Validate address' drawn in a highlighted purple style, plus the Tracker button; neither is narrated. Their purpose is not explained in the material."
+    }
+  ],
+  "outdated": [
+    {
+      "at": "03:29",
+      "signal": "The seller policy timer reads '8 days left' in every claim frame. This is a snapshot from the recording, not a live value."
+    },
+    {
+      "at": "03:29",
+      "signal": "Claim headers are dated 14/10/2026 (NUVE086, MJSX592, VKDD197) and 15/10/2026 (UXEQ435) and use example claims (NUVE086, MJSX592, VKDD197, UXEQ435). These are recording-era examples, not current data."
+    }
+  ],
+  "privacy": [
+    {
+      "at": "03:55",
+      "what": "Proof Of Invalid Claim File shows a full storage URL (revibe-order-track-bucket S3 path with a screenshot file name). Attachment file name '1791962227838-condition-guide-1-where-s...' is also visible. No readable customer or seller name, phone, email or address is on screen (supplier fields are blurred). Blur or crop these before sharing with sellers.",
+      "frame": "t00235.jpg"
+    },
+    {
+      "at": "05:03",
+      "what": "LAB Document shows a full storage URL (revibe-order-track-bucket S3 path with a screenshot file name). Blur or crop before sharing with sellers.",
+      "frame": "t00303.jpg"
+    }
+  ],
+  "audit": {
+    "checked": 112,
+    "removed": [
+      {
+        "statement": "Implied: the seller policy timer shows '(paused)' where Revibe holds the claim, with the stages listed as the reason.",
+        "reason": "The 'where Revibe holds the claim' explanation is not in the evidence. Only the observed pattern of the (paused) label is kept, as a low-confidence Implied entry."
+      }
+    ],
+    "corrected": [
+      {"before": "03:37 action: 'Shows the slide; the Invalid box is highlighted'", "after": "Shows the slide; the Step 1 box 'Reason + proof of invalidity required → Invalid claim' is highlighted", "reason": "The highlighted box in t00217 is Step 1, not the INVALID heading."},
+      {"before": "03:45 action: 'types a comment ... (sample text ABCD on screen)'", "after": "types the text ABCD into 'Invalid claim comment'", "reason": "'Sample' is an inference; the screen shows only the typed text ABCD."},
+      {"before": "04:40 action: 'Points at the Pending lab collection, In transit to lab and Lab under QC steps, then the Outside AE box'", "after": "Shows the Lab collection (AE only) column outlined, with the Pending lab collection, In transit to lab and Lab under QC steps, and the Outside AE box", "reason": "t00280 shows an outline around the whole column, not a pointer on each step."},
+      {"before": "04:49 action: 'Points at the LAB VALID and LAB INVALID boxes'", "after": "Shows the Lab final decision slide with caption 'Lab valid → refund · invalid → closed'; the LAB VALID and LAB INVALID boxes are on screen", "reason": "No pointer or highlight on those boxes is visible in t00289."},
+      {"before": "05:59 screen: 'Revibe Care+ slide: APPROVED and CANCELLED boxes'; action 'Points at the approved repair path and the cancelled box'", "after": "Revibe Care+ slide: APPROVED box (the CANCELLED box is shown at 06:05)", "reason": "t00359 shows only the APPROVED box; the CANCELLED box first appears in t00365."},
+      {"before": "05:27 action: 'points at the Internal Stage value' cited only t00327", "after": "Added t00332 as evidence, where the Internal Stage row is outlined", "reason": "t00327 has no outline; t00332 shows it."},
+      {"before": "Fact 'The reason, comment and proof the seller entered appear in the claim details'", "after": "The claim details show the Invalid Claim Reason (Misuse) and the Proof Of Invalid Claim text and file; the form comment 'ABCD' is not shown (unclear entry at 03:58)", "reason": "t00241 and t00235 show reason, proof and file, but not the typed comment 'ABCD'. Confidence set to medium."},
+      {"before": "Fact 'The seller policy timer keeps running while a claim is Under revision' (confidence high)", "after": "Narration 'your policy timer keeps running' just after the Under revision explanation; the Under revision screen shows the timer with no '(paused)' label (confidence medium)", "reason": "The narration does not say 'while Under revision'; the link is an inference from timing and screen."},
+      {"before": "Fact 'If delivery fails, the agent offers a new attempt, or the device is disposed' (lab ship-back path)", "after": "If delivery fails, a new attempt is offered or the device is disposed (the lab slide does not say who offers the new attempt)", "reason": "'agent offers' is from the Care+ slide t00359, not the lab slide t00289."},
+      {"before": "Fact 'If a ship-back delivery fails, the agent offers a new attempt; if the customer refuses, the device is disposed.'", "after": "...if delivery is refused, the device is disposed (the screen does not say who refused)", "reason": "The screen says 'refused → device disposed' and does not name the customer."},
+      {"before": "Fact 'Refunds, credits and charges are checked in the payment tool.'", "after": "All refunds, credits and charges appear in the payment tool.", "reason": "The narration (06:09) and banner say they 'appear in' the payment tool; 'checked in' adds an action not in the evidence."},
+      {"before": "Fact 'For ZA & SA lab-invalid returns, the customer has 90 days to pay the shipping fees'", "after": "the screen shows '90 days to pay' on the same line as the ZA & SA shipping-fee clause", "reason": "The screen places '90 days to pay' after the ZA & SA clause; the tie to shipping fees is an inference."},
+      {"before": "Implied warning: '(paused)' on screens 'where Revibe holds the claim' (with stage lists)", "after": "Observed pattern only: '(paused)' on t00209, t00231, t00307, t00338, t00374, t00378, t00391; none on t00265, t00272, t00327", "reason": "The 'Revibe holds the claim' explanation is not in the evidence. Kept as low-confidence Implied."},
+      {"before": "Term 'Quiqup AWB': 'Air waybill auto-created...'", "after": "AWB auto-created on the Quiqup side; the screen does not expand the abbreviation", "reason": "'Air waybill' is an expansion from general knowledge, not from the screen or narration."},
+      {"before": "Term 'AE / Outside AE': 'AE only is where lab collection happens'", "after": "Screen labels 'Lab collection (AE only)' and 'OUTSIDE AE'; caption 'Lab check: UAE only' on the same slide", "reason": "Ties the AE label to the UAE only through the on-screen caption instead of general knowledge."},
+      {"before": "Screen 1 sidebar list: 'Shipment Management', 'Complaint Management', 'Roles Management', etc.", "after": "Sidebar labels are truncated on screen ('Shipment M...', 'Complaint M...', 'Roles Mana...', and so on)", "reason": "The full names are not visible; only truncated labels appear."},
+      {"before": "ASR 04:04 basis: \"Screen t00244 header 'REVIBE · WARRANTY PROCESS'\"", "after": "Screen t00244 section header 'Revibe agent review' and caption 'Revibe reviews every Invalid'", "reason": "The bottom-right 'REVIBE · WARRANTY PROCESS' label is not in the zoomed t00244 frame."},
+      {"before": "Unclear 03:55 (Cancel override / Validate address)", "after": "Moved to 03:51 (frame t00231) and described as a purple highlight", "reason": "t00231 is at 03:51, and 'active state' is an interpretation."},
+      {"before": "Unclear 04:11 'at'", "after": "04:11 to 04:16", "reason": "The RC+ phrase is spoken at 04:16."},
+      {"before": "Outdated: 'Claim headers are dated 14/10/2026 and 15/10/2026'", "after": "Dates per claim: NUVE086, MJSX592, VKDD197 on 14/10/2026; UXEQ435 on 15/10/2026", "reason": "Exact date per claim as shown on screen."}
+    ],
+    "added": [
+      "Step 05:07 evidence: t00311 (caption 'Lab valid → Ready for refund'; Refund to customer button highlighted)",
+      "Step 05:27 evidence: t00332 (Internal Stage outlined)",
+      "Step 05:38 evidence: t00340 (Quotation review; caption 'Your price in the Financial summary')",
+      "Step 06:25 evidence: t00385 (Stage still Cancelled; caption 'Reopened → back to Form received')",
+      "Fact: the cancelled claim UXEQ435 shows Reason For Claim Cancellation 'Customer requested to cancel claim' (t00374)",
+      "Fact: the Under revision claim NUVE086 shows Valid Claim? 'Not replied' (t00265)",
+      "ASR fix 04:31 'Revive agrees' to 'Revibe agrees'",
+      "ASR fix 04:49 'comes {back?} to you' to 'comes back to you' (screen 'Delivered to seller')",
+      "ASR fix 05:16 'ReviveCare {Plus,?}' to 'Revibe Care+ (RC+)'",
+      "Unclear 03:58: form comment 'ABCD' not visible in claim details",
+      "Unclear 04:28: timer '(paused)' pattern not explained by narration",
+      "Unclear 05:42: Financial Summary frame t00342 has no claim number",
+      "Privacy 05:03: LAB Document shows a full storage URL (frame t00303)",
+      "Screen 05:42: payment fields shown as dashes (no account data visible)"
+    ]
+  }
+}

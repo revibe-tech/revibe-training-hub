@@ -1,0 +1,904 @@
+{
+  "summary": "Part 3 of 4 of '7.0 Refund policy (Seller)' (06:52 to 09:42). Pierre explains the coloured markers on the Revibe App Claims list (yellow warning, orange policy to be applied for SA only, red policy applied, Resetted), the Seller Elapsed column, and the Seller Performance > Claims management > Refund policy view (On the clock / Moving / Stopped tiles, day-bucket charts, Methodology panel). Thresholds: SA warning on days 7 and 8 with the policy from day 9; AE, ZA and others warning on days 6 and 7 with the policy from day 8. All 40 frames were opened and checked against the transcript. Corrections in this pass: the yellow-marker reason (the policy, not the refund, is applied after two working days), 'also owns' removed from the SA ownership fact, the policy-day wording, the frame mapping for the Methodology and chart-pointing steps, the 08:41-09:21 frames (a slide, not the live page), the 'Seven' to '7' number, and the privacy note on the claims list (no seller names appear there). Speech words that are unreliable (revive, credited, South, 9, state) are resolved from the screen where the screen shows the value; the sample rows' marker colours do not match the hour values, and two policy-day wordings differ, so those points are listed as unclear.",
+  "frames_opened": 40,
+  "steps": [
+    {
+      "at": "06:52-06:56",
+      "screen": "Revibe App > Claims: slide 'Spot the claims at risk' (IN YOUR APP · CLAIMS)",
+      "action": "Points at 'Day 6' in the yellow box, which reads 'Day 6 in AE · ZA · others, day 7 in SA.'",
+      "says": "markets and after day 7 in Saudi Arabia The return is flagged in yellow.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "06:56", "quote": "markets and after day 7 in Saudi Arabia The return is flagged in yellow."},
+        {"kind": "see", "at": "06:52", "frame": "t00412.jpg", "quote": "Cursor on 'Day 6' in the yellow box, which reads 'Day 6 in AE · ZA · others, day 7 in SA.'"}
+      ]
+    },
+    {
+      "at": "07:01-07:03",
+      "screen": "Slide 'Spot the claims at risk'",
+      "action": "Cursor sits in the yellow box on the line 'The return is flagged in your list: solve it now, the refund is 2 WD away.'",
+      "says": "You have to solve it now because after two working days the policy will get applied Then you",
+      "why": "Speaker gives the reason: the policy is applied after two working days.",
+      "evidence": [
+        {"kind": "say", "at": "07:01", "quote": "You have to solve it now because after two working days the policy will get applied Then you"},
+        {"kind": "see", "at": "07:03", "frame": "t00417.jpg", "quote": "Cursor in the yellow box on 'the refund is 2 WD away'. Box text: 'The return is flagged in your list: solve it now, the refund is 2 WD away.'"}
+      ]
+    },
+    {
+      "at": "07:07",
+      "screen": "Slide 'Spot the claims at risk'",
+      "action": "Points at the orange box title 'Orange marker — policy to be applied (SA only)'.",
+      "says": "have the orange claims {these?} ones is the policy to be applied it's for Saudi Arabia only it's",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "07:07", "quote": "have the orange claims {these?} ones is the policy to be applied it's for Saudi Arabia only it's"},
+        {"kind": "see", "at": "07:07", "frame": "t00427.jpg", "quote": "Cursor on 'policy to be applied' in the orange box title, which reads 'Orange marker — policy to be applied (SA only)' with the SA flag."}
+      ]
+    },
+    {
+      "at": "07:15-07:21",
+      "screen": "Slide 'Spot the claims at risk'",
+      "action": "Cursor moves along the orange box text 'Day 9 in SA. Revibe to collect the device. Once received, customer to be refunded in full, seller credited and the claim is closed against you.'",
+      "says": "after day 9 in Saudi Arabia as I said {revive?} needs to collect the device and once received / the customer will be refunded fully and you will get {credited?} and the claim is closed against you",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "07:15", "quote": "after day 9 in Saudi Arabia as I said {revive?} needs to collect the device and once received"},
+        {"kind": "say", "at": "07:21", "quote": "the customer will be refunded fully and you will get {credited?} and the claim is closed against you"},
+        {"kind": "see", "at": "07:19", "frame": "t00439.jpg", "quote": "Orange box text: 'Revibe to collect the device. Once received, customer to be refunded in full, seller credited and the claim is closed against you.' Cursor on the box text."}
+      ]
+    },
+    {
+      "at": "07:29",
+      "screen": "Slide 'Spot the claims at risk'",
+      "action": "Explains the red box 'Red marker — policy applied' while the slide is shown.",
+      "says": "the red marked claims is when the policy has been applied so starting from day 8 in UAE",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "07:29", "quote": "the red marked claims is when the policy has been applied so starting from day 8 in UAE"},
+        {"kind": "see", "at": "07:28", "frame": "t00448.jpg", "quote": "Red box: 'Day 8 in AE · ZA · others, day 9 in SA. The customer has been refunded in full and the claim is closed against you.' (The speaker says UAE; the screen says AE.)"}
+      ]
+    },
+    {
+      "at": "07:36",
+      "screen": "Slide 'Spot the claims at risk'",
+      "action": "No pointing action visible; the slide stays on the red and orange boxes while the speech is cut off.",
+      "says": "{South?} {and?} other markets {and?} starting from day 9 in Saudi Arabia but probably even later once the",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "07:36", "quote": "{South?} {and?} other markets {and?} starting from day 9 in Saudi Arabia but probably even later once the"},
+        {"kind": "see", "at": "07:31", "frame": "t00451.jpg", "quote": "Slide still shown with the red and orange boxes."}
+      ]
+    },
+    {
+      "at": "07:45-07:52",
+      "screen": "Revibe App > Claims: slide with the claims list on the right",
+      "action": "Cursor on the red-marked row PJIR384, which shows Policy Status 'Action Taken' and Seller Elapsed 72, while the speaker explains the refund outcome.",
+      "says": "device has been collected. At this {state?} you can see that for this claim the customer has been refunded fully and the claim is closed against you.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "07:45", "quote": "device has been collected."},
+        {"kind": "say", "at": "07:46", "quote": "At this {state?} you can see that for this claim the customer has been refunded fully and the"},
+        {"kind": "say", "at": "07:52", "quote": "claim is closed against you."},
+        {"kind": "see", "at": "07:44", "frame": "t00464.jpg", "quote": "Cursor on the PJIR384 row (red left marker): Policy Status 'Action Taken', Seller Elapsed 72, Stage cell truncated to 'Ready for'."}
+      ]
+    },
+    {
+      "at": "07:54-07:57",
+      "screen": "Slide 'Spot the claims at risk' and the claims list row QWZU719",
+      "action": "Cursor is on the claims list row QWZU719 (Policy Status 'Resetted', cyan left marker) while the speaker names the Resetted category. The cyan box on the slide reads 'At Revibe discretion to reset working hours'.",
+      "says": "Last category {the?} {resetted.?} / Based on any specific issue it's at revive discretion to reset the working hours.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "07:54", "quote": "Last category {the?} {resetted.?}"},
+        {"kind": "say", "at": "07:57", "quote": "Based on any specific issue it's at revive discretion to reset the working hours."},
+        {"kind": "see", "at": "07:56", "frame": "t00476.jpg", "quote": "Cursor on the QWZU719 row, which shows Policy Status 'Resetted' and Seller Elapsed 40."}
+      ]
+    },
+    {
+      "at": "08:03-08:07",
+      "screen": "Revibe App > Claims: claims list table",
+      "action": "Cursor on the 'Seller Elapsed ...' column header.",
+      "says": "The working hours you can see them {here.?} / You can see here in {seller?} elapsed hours the number of working hours.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "08:07", "quote": "You can see here in {seller?} elapsed hours the number of working hours."},
+        {"kind": "see", "at": "08:07", "frame": "t00487.jpg", "quote": "Cursor on the 'Seller Elapsed ...' column header of the claims list (header truncated on screen)."}
+      ]
+    },
+    {
+      "at": "08:13-08:22",
+      "screen": "Slide 'Spot the claims at risk' (still shown)",
+      "action": "States the working-hour conversion for working days; no click or pointing is visible.",
+      "says": "Be aware that five working days correspond to 120 working hours and that seven working days correspond to / 168 working hours.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "08:13", "quote": "Be aware that five working days correspond to 120 working hours and that seven working days correspond to"},
+        {"kind": "say", "at": "08:22", "quote": "168 working hours."},
+        {"kind": "see", "at": "08:11", "frame": "t00491.jpg", "quote": "Slide 'Spot the claims at risk' still shown; no pointing visible."}
+      ]
+    },
+    {
+      "at": "08:25-08:32",
+      "screen": "Slide 'Track the age of your claims' (MONITOR, breadcrumb Seller Performance > Claims management > Refund policy)",
+      "action": "Introduces the new dashboard that tracks claims by aging days, with the sample day-bucket chart on screen.",
+      "says": "Now in your new dashboard we give you the possibility to track the claims {that?} you have, depending / on the aging days they have, so that you can solve them efficiently and you can prioritize them.",
+      "why": "Speaker gives the reason: solve claims efficiently and prioritise them by aging days.",
+      "evidence": [
+        {"kind": "say", "at": "08:25", "quote": "Now in your new dashboard we give you the possibility to track the claims {that?} you have, depending"},
+        {"kind": "say", "at": "08:32", "quote": "on the aging days they have, so that you can solve them efficiently and you can prioritize them."},
+        {"kind": "see", "at": "08:24", "frame": "t00504.jpg", "quote": "Slide title 'Track the age of your claims' with breadcrumb 'Seller Performance → Claims management → Refund policy'."}
+      ]
+    },
+    {
+      "at": "08:41-08:47",
+      "screen": "Slide 'Track the age of your claims' (breadcrumb shown; no live navigation in these frames)",
+      "action": "Describes the path to the dashboard: Claims management, then Refund policy. The slide breadcrumb reads 'Seller Performance → Claims management → Refund policy'. No navigation click is visible.",
+      "says": "So in your dashboard that you can now have access to, you can go to Claim Management section / and Refund Policy.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "08:41", "quote": "So in your dashboard that you can now have access to, you can go to Claim Management section"},
+        {"kind": "say", "at": "08:47", "quote": "and Refund Policy."},
+        {"kind": "see", "at": "08:41", "frame": "t00521.jpg", "quote": "Slide breadcrumb 'Seller Performance → Claims management → Refund policy'; cursor near the 'Seller Performance' heading of the sample page."}
+      ]
+    },
+    {
+      "at": "08:49-08:52",
+      "screen": "Slide 'Track the age of your claims' (sample Refund policy panel)",
+      "action": "Points at the 'Methodology' button above the tiles. The speaker then describes the tiles; no pointing at the tiles is visible in these frames.",
+      "says": "On the top here, we detail to you the methodology. / We show you how many claims are counted at the moment, how many are moving, and how many",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "08:49", "quote": "On the top here, we detail to you the methodology."},
+        {"kind": "say", "at": "08:52", "quote": "We show you how many claims are counted at the moment, how many are moving, and how many"},
+        {"kind": "see", "at": "08:51", "frame": "t00531.jpg", "quote": "Cursor on the 'Methodology' button under the 'Refund policy' heading of the sample panel."}
+      ]
+    },
+    {
+      "at": "08:59-09:15",
+      "screen": "Slide 'Track the age of your claims' (SA and AE · ZA panels)",
+      "action": "Cursor on the SA 7d column (frame t00541), then on the AE · ZA panel label (frame t00554). The speaker reads the warning and policy days for each panel.",
+      "says": "{are?} stopped {based?} {here?} you can see for Saudi Arabia the seven and eight days that are highlighted / as warning days and from day nine the policy that is applied same for UAE {South?} Africa and / other countries from day six and seven you will receive a warning and from day eight the policy",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "08:59", "quote": "{are?} stopped {based?} {here?} you can see for Saudi Arabia the seven and eight days that are highlighted"},
+        {"kind": "say", "at": "09:07", "quote": "as warning days and from day nine the policy that is applied same for UAE {South?} Africa and"},
+        {"kind": "say", "at": "09:15", "quote": "other countries from day six and seven you will receive a warning and from day eight the policy"},
+        {"kind": "see", "at": "09:01", "frame": "t00541.jpg", "quote": "Cursor on the SA '7d' column. SA axis reads '7d ⚠ 8d ⚠ 9d ● >9d ●'; AE · ZA axis reads '6d ⚠ 7d ⚠ 8d ● >8d ●'."},
+        {"kind": "see", "at": "09:14", "frame": "t00554.jpg", "quote": "Cursor on the 'AE · ZA' panel label."}
+      ]
+    },
+    {
+      "at": "09:21-09:27",
+      "screen": "Live Seller Performance page (Claims management, Refund policy), Methodology collapsed then expanded",
+      "action": "Switches from the slide to the live dashboard (127.0.0.1:8099/plans/seller-abc.html?tab=claims) and expands the Methodology panel.",
+      "says": "is applied now let's go to this dashboard so that you can have a better view of it / here {can?} also see in the methodology how we calculate the working hours,",
+      "why": "Speaker gives the reason: a better view of the dashboard.",
+      "evidence": [
+        {"kind": "say", "at": "09:21", "quote": "is applied now let's go to this dashboard so that you can have a better view of it"},
+        {"kind": "say", "at": "09:27", "quote": "here {can?} also see in the methodology how we calculate the working hours,"},
+        {"kind": "see", "at": "09:22", "frame": "t00562.jpg", "quote": "Live page with Methodology collapsed; 'Refund policy 37 on the clock'."},
+        {"kind": "see", "at": "09:25", "frame": "t00565.jpg", "quote": "Methodology expanded: 'A policy day is 24 working hours, and only the seller's hours count.'"}
+      ]
+    },
+    {
+      "at": "09:30-09:34",
+      "screen": "Live Refund policy panel, Methodology text and stage diagram",
+      "action": "Cursor moves onto the methodology text near 'the seller owns'. The speaker asks about the thresholds.",
+      "says": "what is the threshold in terms of days that we applied for Saudi 7 and {9?} days and",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "09:34", "quote": "what is the threshold in terms of days that we applied for Saudi 7 and {9?} days and"},
+        {"kind": "see", "at": "09:30", "frame": "t00570.jpg", "quote": "Cursor on the methodology text near 'the seller owns'; stage diagram visible."}
+      ]
+    },
+    {
+      "at": "09:41",
+      "screen": "Live Refund policy panel, Methodology text",
+      "action": "States the threshold for the other markets. The cursor sits at the right-hand end of the methodology text, near 'Hover any stage'.",
+      "says": "{everyone?} everywhere else 6 and 8 days.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "09:41", "quote": "{everyone?} everywhere else 6 and 8 days."},
+        {"kind": "see", "at": "09:32", "frame": "t00572.jpg", "quote": "Methodology text ends with 'Hover any stage for what has to happen to leave it.'; cursor at the right-hand end of that line."}
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "type": "screen",
+      "statement": "In the Revibe App Claims list, each row has a coloured marker on its left edge that shows the claim's refund-policy state (yellow, orange, red, cyan 'Resetted').",
+      "confidence": "high",
+      "quiz": true,
+      "evidence": [
+        {"kind": "see", "at": "06:52", "frame": "t00412.jpg", "quote": "Caption 'Claims list · the coloured marker on the left of each row'; claims table on the right with coloured left-edge markers."}
+      ]
+    },
+    {
+      "type": "rule",
+      "statement": "Yellow marker means warning: the return is flagged in the claims list and must be solved now. The screen says the refund is 2 WD away; the speaker says the policy is applied after two working days.",
+      "confidence": "high",
+      "quiz": true,
+      "evidence": [
+        {"kind": "say", "at": "07:01", "quote": "You have to solve it now because after two working days the policy will get applied Then you"},
+        {"kind": "see", "at": "06:52", "frame": "t00412.jpg", "quote": "Yellow box: 'The return is flagged in your list: solve it now, the refund is 2 WD away.'"}
+      ]
+    },
+    {
+      "type": "number",
+      "statement": "Yellow warning applies from day 6 in AE, ZA and other markets, and from day 7 in SA.",
+      "confidence": "high",
+      "quiz": true,
+      "evidence": [
+        {"kind": "see", "at": "06:52", "frame": "t00412.jpg", "quote": "Yellow marker — warning: 'Day 6 in AE · ZA · others, day 7 in SA.'"},
+        {"kind": "say", "at": "09:15", "quote": "other countries from day six and seven you will receive a warning and from day eight the policy"}
+      ]
+    },
+    {
+      "type": "number",
+      "statement": "Orange marker means policy to be applied, and applies to SA only: day 9 in SA.",
+      "confidence": "high",
+      "quiz": true,
+      "evidence": [
+        {"kind": "see", "at": "06:52", "frame": "t00412.jpg", "quote": "Orange marker — policy to be applied (SA only): 'Day 9 in SA.'"},
+        {"kind": "say", "at": "07:15", "quote": "after day 9 in Saudi Arabia as I said {revive?} needs to collect the device and once received"}
+      ]
+    },
+    {
+      "type": "procedure",
+      "statement": "For an orange (SA) claim, Revibe collects the device. Once Revibe has received it, the customer is refunded in full, the seller is credited, and the claim is closed against the seller.",
+      "confidence": "high",
+      "quiz": true,
+      "evidence": [
+        {"kind": "see", "at": "07:19", "frame": "t00439.jpg", "quote": "Orange box: 'Revibe to collect the device. Once received, customer to be refunded in full, seller credited and the claim is closed against you.'"},
+        {"kind": "say", "at": "07:21", "quote": "the customer will be refunded fully and you will get {credited?} and the claim is closed against you"}
+      ]
+    },
+    {
+      "type": "rule",
+      "statement": "Red marker means the policy has been applied: day 8 in AE, ZA and other markets, and day 9 in SA. The customer has been refunded in full and the claim is closed against the seller.",
+      "confidence": "high",
+      "quiz": true,
+      "evidence": [
+        {"kind": "see", "at": "07:28", "frame": "t00448.jpg", "quote": "Red box: 'Red marker — policy applied. Day 8 in AE · ZA · others, day 9 in SA. The customer has been refunded in full and the claim is closed against you.'"},
+        {"kind": "say", "at": "07:29", "quote": "the red marked claims is when the policy has been applied so starting from day 8 in UAE"}
+      ]
+    },
+    {
+      "type": "rule",
+      "statement": "Resetted (cyan marker): resetting the working hours of a claim is at Revibe's discretion, based on any specific issue.",
+      "confidence": "high",
+      "quiz": true,
+      "evidence": [
+        {"kind": "say", "at": "07:57", "quote": "Based on any specific issue it's at revive discretion to reset the working hours."},
+        {"kind": "see", "at": "06:52", "frame": "t00412.jpg", "quote": "Resetted box: 'At Revibe discretion to reset working hours'."}
+      ]
+    },
+    {
+      "type": "number",
+      "statement": "A policy day is 24 working hours, and only the seller's hours count.",
+      "confidence": "high",
+      "quiz": true,
+      "evidence": [
+        {"kind": "see", "at": "09:25", "frame": "t00565.jpg", "quote": "Methodology text: 'A policy day is 24 working hours, and only the seller's hours count.'"}
+      ]
+    },
+    {
+      "type": "number",
+      "statement": "Spoken only, not shown on any frame: five working days correspond to 120 working hours, and seven working days correspond to 168 working hours.",
+      "confidence": "medium",
+      "quiz": true,
+      "evidence": [
+        {"kind": "say", "at": "08:13", "quote": "Be aware that five working days correspond to 120 working hours and that seven working days correspond to"},
+        {"kind": "say", "at": "08:22", "quote": "168 working hours."}
+      ]
+    },
+    {
+      "type": "definition",
+      "statement": "The clock is the accumulated sum of the working hours a claim spends in the stages the seller owns. It runs while the claim sits with the seller, stops when the claim moves to a stage Revibe owns, and picks up again where it left off when it comes back.",
+      "confidence": "high",
+      "quiz": true,
+      "evidence": [
+        {"kind": "see", "at": "09:25", "frame": "t00565.jpg", "quote": "'The clock is the accumulated sum of the working hours a claim spends in the stages the seller owns — it runs while the claim sits with them, stops the moment it moves to a stage Revibe owns, and picks up again where it left off if it comes back.'"}
+      ]
+    },
+    {
+      "type": "rule",
+      "statement": "Time spent on Revibe's side of the process is never charged to the seller, and Saturdays and Sundays never accrue for either party.",
+      "confidence": "high",
+      "quiz": true,
+      "evidence": [
+        {"kind": "see", "at": "09:25", "frame": "t00565.jpg", "quote": "'Time on our side of the process is never charged to the seller, and Saturdays and Sundays never accrue for either of us.'"}
+      ]
+    },
+    {
+      "type": "number",
+      "statement": "Policy thresholds: Saudi Arabia runs 7 and 9 days (warning days 7 and 8, policy from day 9). All other markets run 6 and 8 days (warning days 6 and 7, policy from day 8).",
+      "confidence": "high",
+      "quiz": true,
+      "evidence": [
+        {"kind": "see", "at": "09:30", "frame": "t00565.jpg", "quote": "Methodology text: 'why SA runs 7 / 9 days against everyone else's 6 / 8.'"},
+        {"kind": "say", "at": "09:41", "quote": "{everyone?} everywhere else 6 and 8 days."},
+        {"kind": "see", "at": "09:01", "frame": "t00541.jpg", "quote": "SA axis '7d ⚠ 8d ⚠ 9d ● >9d ●'; AE · ZA axis '6d ⚠ 7d ⚠ 8d ● >8d ●'."}
+      ]
+    },
+    {
+      "type": "definition",
+      "statement": "In SA the seller owns the collection and ship-back legs, which is most of why an SA claim reaches its threshold sooner.",
+      "confidence": "high",
+      "quiz": true,
+      "evidence": [
+        {"kind": "see", "at": "09:25", "frame": "t00565.jpg", "quote": "'in SA the seller owns the collection and ship-back legs, which is most of why an SA claim reaches its threshold sooner'"}
+      ]
+    },
+    {
+      "type": "procedure",
+      "statement": "Refund policy view is opened in the Seller Performance page via Claims management, then Refund policy (breadcrumb Seller Performance > Claims management > Refund policy).",
+      "confidence": "high",
+      "quiz": true,
+      "evidence": [
+        {"kind": "say", "at": "08:41", "quote": "So in your dashboard that you can now have access to, you can go to Claim Management section"},
+        {"kind": "say", "at": "08:47", "quote": "and Refund Policy."},
+        {"kind": "see", "at": "08:24", "frame": "t00504.jpg", "quote": "Breadcrumb 'Seller Performance → Claims management → Refund policy'."}
+      ]
+    },
+    {
+      "type": "screen",
+      "statement": "The Methodology button sits at the top of the Refund policy panel, under the 'Refund policy' heading; clicking it expands the explanation of how the clock and thresholds work.",
+      "confidence": "high",
+      "quiz": true,
+      "evidence": [
+        {"kind": "say", "at": "08:49", "quote": "On the top here, we detail to you the methodology."},
+        {"kind": "see", "at": "09:25", "frame": "t00565.jpg", "quote": "Methodology expanded below the 'Methodology' button."}
+      ]
+    },
+    {
+      "type": "screen",
+      "statement": "The Refund policy panel shows three tiles: On the clock (open returns with a seller timer), Moving (accruing weekday hours, with % of the clock), and Stopped (banked, frozen until it restarts, with % of the clock).",
+      "confidence": "high",
+      "quiz": true,
+      "evidence": [
+        {"kind": "see", "at": "09:22", "frame": "t00562.jpg", "quote": "Tiles: 'ON THE CLOCK 37 open returns with a seller timer', 'MOVING 36 97% of the clock · accruing weekday hours', 'STOPPED 1 3% of the clock · banked, frozen until it restarts'."},
+        {"kind": "say", "at": "08:52", "quote": "We show you how many claims are counted at the moment, how many are moving, and how many"}
+      ]
+    },
+    {
+      "type": "screen",
+      "statement": "The chart has one column per day bucket: 1d to >9d for SA and 1d to >8d for AE and ZA. Each claim sits in exactly one column, and the last column collects everything past the action day.",
+      "confidence": "high",
+      "quiz": true,
+      "evidence": [
+        {"kind": "see", "at": "09:22", "frame": "t00562.jpg", "quote": "Footer: 'Each claim lands in one column only — 1d is over 0 and up to 24 weekday hours, 2d is 24 to 48, and so on … the last one collects everything past the action day.'"}
+      ]
+    },
+    {
+      "type": "screen",
+      "statement": "Chart legend: blue = moving (timer accruing), light blue = stopped (banked hours frozen), ⚠ = warning days, red dot = policy applied.",
+      "confidence": "high",
+      "quiz": true,
+      "evidence": [
+        {"kind": "see", "at": "09:22", "frame": "t00562.jpg", "quote": "Legend: 'moving', 'stopped', 'warning days', 'policy applied'. Dark blue is moving, light blue is stopped."}
+      ]
+    },
+    {
+      "type": "procedure",
+      "statement": "Click any column in the chart to list the claims in that day bucket, with their timer state, and clear the oldest first.",
+      "confidence": "high",
+      "quiz": true,
+      "evidence": [
+        {"kind": "see", "at": "08:25", "frame": "t00504.jpg", "quote": "'Click any column — It lists the claims in that day bucket, so you clear the oldest first.'"},
+        {"kind": "see", "at": "09:22", "frame": "t00562.jpg", "quote": "Footer: 'clicking any column lists its claims with the timer state on each.'"}
+      ]
+    },
+    {
+      "type": "warning",
+      "statement": "Red (policy applied) days on the chart are days where a claim standing in them is one Revibe can act on.",
+      "confidence": "medium",
+      "quiz": true,
+      "evidence": [
+        {"kind": "see", "at": "09:22", "frame": "t00562.jpg", "quote": "Footer: 'the days past its action day as ● policy applied — a claim standing in one of those is one Revibe can act on.'"}
+      ]
+    },
+    {
+      "type": "screen",
+      "statement": "Chart axis markers for the current thresholds: SA shows 7d and 8d with warning marks and 9d and >9d with policy marks; AE and ZA show 6d and 7d with warning marks and 8d and >8d with policy marks.",
+      "confidence": "high",
+      "quiz": false,
+      "evidence": [
+        {"kind": "see", "at": "09:01", "frame": "t00541.jpg", "quote": "SA axis: '7d ⚠ 8d ⚠ 9d ● >9d ●'; AE · ZA axis: '6d ⚠ 7d ⚠ 8d ● >8d ●'."}
+      ]
+    },
+    {
+      "type": "tip",
+      "statement": "Hover any stage in the Methodology diagram to see what has to happen for a claim to leave that stage.",
+      "confidence": "high",
+      "quiz": true,
+      "evidence": [
+        {"kind": "see", "at": "09:32", "frame": "t00572.jpg", "quote": "'Hover any stage for what has to happen to leave it.'"}
+      ]
+    },
+    {
+      "type": "screen",
+      "statement": "The Claims list (Revibe App > Claims) has these columns: Claim ID, Claim Date, Order Help, Stage, Type, Subtype, Original Supplier, Repair Supplier, Type Of Request, Seller Elapsed (header truncated on screen as 'Seller Elapsed ...'), Policy Status.",
+      "confidence": "high",
+      "quiz": true,
+      "evidence": [
+        {"kind": "see", "at": "06:52", "frame": "t00412.jpg", "quote": "Table header: 'Claim ID · Claim Date · Order Help · Stage · Type · Subtype · Original Supplier · Repair Supplier · Type Of Request · Seller Elapsed … · Policy Status'."}
+      ]
+    },
+    {
+      "type": "screen",
+      "statement": "The Seller Elapsed column in the Claims list shows working hours per claim; the speaker describes it as the number of working hours.",
+      "confidence": "high",
+      "quiz": true,
+      "evidence": [
+        {"kind": "say", "at": "08:07", "quote": "You can see here in {seller?} elapsed hours the number of working hours."}
+      ]
+    },
+    {
+      "type": "screen",
+      "statement": "The Policy Status column shows 'Warning' on the yellow-marked row, 'Action Pending' on the orange-marked rows, 'Action Taken' on the red-marked row, and 'Resetted' on the cyan-marked row. Rows with no policy status show '-'.",
+      "confidence": "high",
+      "quiz": true,
+      "evidence": [
+        {"kind": "see", "at": "06:52", "frame": "t00412.jpg", "quote": "Policy Status values: 'Warning' (KWMR102), 'Action Pending' (JJZR199, NGDK126), 'Action Taken' (PJIR384), 'Resetted' (QWZU719); '-' on Uxj3QN."}
+      ]
+    },
+    {
+      "type": "screen",
+      "statement": "The Refund policy panel header reads 'Refund policy' with the number of claims on the clock, and an index on the left with 'Refund policy' and 'Open claims'.",
+      "confidence": "high",
+      "quiz": false,
+      "evidence": [
+        {"kind": "see", "at": "09:22", "frame": "t00562.jpg", "quote": "Header 'Refund policy 37 on the clock'; left index 'Refund policy', 'Open claims'."}
+      ]
+    },
+    {
+      "type": "screen",
+      "statement": "The Open claims section lists every claim still not solved, longest open first. Cancelled and invalid claims are not counted.",
+      "confidence": "medium",
+      "quiz": false,
+      "evidence": [
+        {"kind": "see", "at": "09:22", "frame": "t00562.jpg", "quote": "Footer: 'Every claim of yours that is still not solved, longest open first… Cancelled claims are not here, and neither are invalid ones.'"}
+      ]
+    },
+    {
+      "type": "warning",
+      "statement": "7 open claims show a finished stage with no resolution date recorded. They are marked below in the Open claims list, still count as open, and are usually what holds a coverage figure below 100%.",
+      "confidence": "medium",
+      "quiz": false,
+      "evidence": [
+        {"kind": "see", "at": "09:22", "frame": "t00562.jpg", "quote": "Footer: '7 of these show a finished stage with no resolution date recorded, marked below — they still count as open, and they are usually what holds a coverage figure below 100%.'"}
+      ]
+    },
+    {
+      "type": "definition",
+      "statement": "Stage list in the Methodology diagram (17 stages): Form received, Pending collection, Under collection, Collection failed, In transit, Under QC, Invalid claim, Under revision, Send to LAB, Pending LAB collection, In transit to LAB, LAB Under QC, Invalid claim confirmed, To ship back, Ship back under collection (label truncated on screen), Shipped back, Ready for refund.",
+      "confidence": "medium",
+      "quiz": false,
+      "evidence": [
+        {"kind": "see", "at": "09:30", "frame": "t00570.jpg", "quote": "Stage labels along the diagram from 'Form received' to 'Ready for refund'."}
+      ]
+    },
+    {
+      "type": "definition",
+      "statement": "Legend in the Methodology diagram: 'Revibe — the clock is stopped' (light) and 'Seller — the clock is running' (dark).",
+      "confidence": "high",
+      "quiz": true,
+      "evidence": [
+        {"kind": "see", "at": "09:30", "frame": "t00570.jpg", "quote": "Legend: 'Revibe — the clock is stopped' and 'Seller — the clock is running'."}
+      ]
+    },
+    {
+      "type": "warning",
+      "statement": "The policy timers began on 03 Sep 2026 and nothing was backfilled. Columns past the current policy age are not reachable yet, rather than genuinely empty.",
+      "confidence": "medium",
+      "quiz": false,
+      "evidence": [
+        {"kind": "see", "at": "09:22", "frame": "t00562.jpg", "quote": "Footer: 'The policy's timers began on 03 Sep 2026 and nothing was backfilled, so the clock is only 5.7 policy days old: the columns past that are not reachable yet rather than genuinely empty.'"}
+      ]
+    },
+    {
+      "type": "tip",
+      "statement": "Track claims by aging days in the dashboard so that the oldest claims can be solved first and prioritised.",
+      "confidence": "high",
+      "quiz": false,
+      "evidence": [
+        {"kind": "say", "at": "08:25", "quote": "Now in your new dashboard we give you the possibility to track the claims {that?} you have, depending"},
+        {"kind": "say", "at": "08:32", "quote": "on the aging days they have, so that you can solve them efficiently and you can prioritize them."}
+      ]
+    },
+    {
+      "type": "screen",
+      "statement": "The Claims list is in the Revibe App under Claims.",
+      "confidence": "high",
+      "quiz": true,
+      "evidence": [
+        {"kind": "see", "at": "06:52", "frame": "t00412.jpg", "quote": "Footer 'Revibe App → Claims'."}
+      ]
+    },
+    {
+      "type": "screen",
+      "statement": "Sample Seller Elapsed values in the Claims list: Uxj3QN 0, KWMR102 147, JJZR199 425, NGDK126 120, PJIR384 72, QWZU719 40. The claim IDs are read from a small screenshot.",
+      "confidence": "medium",
+      "quiz": false,
+      "evidence": [
+        {"kind": "see", "at": "06:52", "frame": "t00412.jpg", "quote": "Seller Elapsed column values, top to bottom: 0, 147, 425, 120, 72, 40."}
+      ]
+    },
+    {
+      "type": "number",
+      "statement": "Snapshot counts differ between the slide and the live page: the slide sample shows 39 on the clock (SA 6 moving · 20 stopped; AE · ZA 10 moving · 3 stopped); the live page shows 37 on the clock (SA 25 moving · 0 stopped; AE · ZA 11 moving · 1 stopped).",
+      "confidence": "high",
+      "quiz": false,
+      "evidence": [
+        {"kind": "see", "at": "08:24", "frame": "t00504.jpg", "quote": "Slide: 'Refund policy 39 on the clock'; 'SA 6 moving · 20 stopped'; 'AE · ZA 10 moving · 3 stopped'."},
+        {"kind": "see", "at": "09:22", "frame": "t00562.jpg", "quote": "Live page: 'Refund policy 37 on the clock'; 'SA 25 moving · 0 stopped'; 'AE · ZA 11 moving · 1 stopped'."}
+      ]
+    },
+    {
+      "type": "screen",
+      "statement": "The Monitor slide has three call-outs: 'On the clock · moving · stopped' (how many returns carry a timer), 'Yellow and red days' (yellow is the warning band, red is where the policy applies), and 'Click any column' (lists the claims in that day bucket).",
+      "confidence": "high",
+      "quiz": false,
+      "evidence": [
+        {"kind": "see", "at": "08:24", "frame": "t00504.jpg", "quote": "Call-outs: 'On the clock · moving · stopped', 'Yellow and red days', 'Click any column'."}
+      ]
+    }
+  ],
+  "screens": [
+    {
+      "name": "Spot the claims at risk (slide)",
+      "shows": "Four marker definitions: Yellow warning, Orange policy to be applied (SA only), Red policy applied, Resetted; and the claims list table on the right with coloured left-edge markers.",
+      "at": "06:52-08:22",
+      "where": "Revibe App > Claims (slide, frames t00412 to t00495)"
+    },
+    {
+      "name": "Claims list table",
+      "shows": "Columns Claim ID, Claim Date, Order Help, Stage, Type, Subtype, Original Supplier, Repair Supplier, Type Of Request, Seller Elapsed ... (truncated), Policy Status; six sample rows with coloured left-edge markers.",
+      "at": "06:52-08:22",
+      "where": "Revibe App > Claims (inside the 'Spot the claims at risk' slide)"
+    },
+    {
+      "name": "Track the age of your claims (slide)",
+      "shows": "Breadcrumb Seller Performance > Claims management > Refund policy; a sample panel with On the clock, Moving, Stopped tiles and SA and AE · ZA day-bucket charts; three call-out boxes (On the clock · moving · stopped; Yellow and red days; Click any column). The sample shows 'ABC Trading' and a 'Pepe' badge.",
+      "at": "08:24-09:21",
+      "where": "Monitor slide (frames t00504 to t00554)"
+    },
+    {
+      "name": "Seller Performance page (live dashboard header and tabs)",
+      "shows": "Header 'ABC Seller' with badges Buybox open, Pepe, WhatsApp, Meeting; 'Last meeting 09/06 (94 days ago)'; tabs Performance, Score, Score analysis, Claims management, Price recommendations; left index Refund policy and Open claims.",
+      "at": "09:22-09:41",
+      "where": "Web dashboard at 127.0.0.1:8099, tab 'Claims management' (frames t00562 to t00572)"
+    },
+    {
+      "name": "Refund policy panel (live dashboard)",
+      "shows": "Refund policy header with '37 on the clock', Methodology button, three tiles (On the clock, Moving, Stopped), SA and AE · ZA day-bucket charts with legend, and footer text on how the columns, warning days, policy days and open claims are counted.",
+      "at": "09:22-09:41",
+      "where": "Claims management > Refund policy (frames t00562 to t00572)"
+    },
+    {
+      "name": "Methodology panel (live dashboard)",
+      "shows": "Explanation text and a two-row stage diagram (SA row and all-but-SA row) with Revibe and Seller legend.",
+      "at": "09:25-09:41",
+      "where": "Refund policy > Methodology (expanded; frames t00565 to t00572)"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Claim (return claim)",
+      "meaning": "A row in the Claims list identified by Claim ID; it carries a coloured marker showing its refund-policy state. The sample rows show Type 'Return'.",
+      "at": "06:52"
+    },
+    {
+      "term": "Yellow marker (warning)",
+      "meaning": "The claim is in the warning band: day 6 in AE, ZA and others, day 7 in SA. Solve it now.",
+      "at": "06:56"
+    },
+    {
+      "term": "Orange marker (policy to be applied)",
+      "meaning": "SA only. Day 9 in SA; Revibe collects the device and, once received, the customer is refunded in full and the seller is credited.",
+      "at": "07:07"
+    },
+    {
+      "term": "Red marker (policy applied)",
+      "meaning": "The policy has been applied: day 8 in AE, ZA and others; day 9 in SA. The customer is refunded in full and the claim is closed against the seller.",
+      "at": "07:29"
+    },
+    {
+      "term": "Resetted",
+      "meaning": "A claim whose working hours Revibe has reset at its discretion, based on a specific issue.",
+      "at": "07:54"
+    },
+    {
+      "term": "WD (working days)",
+      "meaning": "Shown on the yellow box as '2 WD away'; spoken as 'two working days'.",
+      "at": "07:01"
+    },
+    {
+      "term": "Seller Elapsed",
+      "meaning": "Claims list column (header truncated on screen as 'Seller Elapsed ...') showing the working hours for the claim; the speaker calls it elapsed hours.",
+      "at": "08:07"
+    },
+    {
+      "term": "Policy day",
+      "meaning": "A policy day is 24 working hours, and only the seller's hours count (Methodology text). The unit of the day buckets and thresholds.",
+      "at": "09:25"
+    },
+    {
+      "term": "On the clock",
+      "meaning": "Number of open returns that currently carry a seller timer.",
+      "at": "08:52"
+    },
+    {
+      "term": "Moving",
+      "meaning": "Claims whose timer is running (accruing weekday hours), shown as a share of the clock.",
+      "at": "08:52"
+    },
+    {
+      "term": "Stopped",
+      "meaning": "Claims whose timer is banked and frozen until it restarts, shown as a share of the clock.",
+      "at": "08:52"
+    },
+    {
+      "term": "Warning days (⚠)",
+      "meaning": "Day buckets on the chart that form the warning band (SA 7 and 8; AE, ZA and others 6 and 7).",
+      "at": "08:59"
+    },
+    {
+      "term": "Policy applied (●)",
+      "meaning": "Day buckets past the action day on the chart where the policy applies (SA 9 onward; AE, ZA and others 8 onward).",
+      "at": "09:07"
+    },
+    {
+      "term": "Methodology",
+      "meaning": "Expandable panel that explains how the clock, stages and thresholds are calculated.",
+      "at": "08:49"
+    },
+    {
+      "term": "Open claims",
+      "meaning": "Index entry listing every claim still not solved, longest open first.",
+      "at": "09:25"
+    }
+  ],
+  "asr_fixes": [
+    {
+      "at": "07:15",
+      "heard": "{revive?} needs to collect the device",
+      "correct": "Revibe needs to collect the device",
+      "basis": "Screen text reads 'Revibe to collect the device' on the orange box and 'At Revibe discretion' on the Resetted box."
+    },
+    {
+      "at": "07:21",
+      "heard": "you will get {credited?} and the claim is closed against you",
+      "correct": "you will get credited and the claim is closed against you",
+      "basis": "Screen text reads 'seller credited and the claim is closed against you' on the orange box."
+    },
+    {
+      "at": "07:54",
+      "heard": "Last category {the?} {resetted.?}",
+      "correct": "Last category: Resetted",
+      "basis": "Screen shows the cyan marker box titled 'Resetted'."
+    },
+    {
+      "at": "07:57",
+      "heard": "it's at revive discretion to reset the working hours",
+      "correct": "it's at Revibe discretion to reset the working hours",
+      "basis": "Screen text reads 'At Revibe discretion to reset working hours' on the Resetted box."
+    },
+    {
+      "at": "08:07",
+      "heard": "You can see here in {seller?} elapsed hours",
+      "correct": "You can see here in Seller Elapsed hours",
+      "basis": "Claims list column header reads 'Seller Elapsed ...'."
+    },
+    {
+      "at": "09:07",
+      "heard": "same for UAE {South?} Africa",
+      "correct": "same for AE · ZA (the labels on the chart panels)",
+      "basis": "The chart panels and slide label read 'AE · ZA'. The speaker says UAE and South Africa; the screen label is kept as the reference."
+    },
+    {
+      "at": "09:34",
+      "heard": "Saudi 7 and {9?} days",
+      "correct": "Saudi 7 and 9 days",
+      "basis": "Methodology text reads 'SA runs 7 / 9 days against everyone else's 6 / 8'."
+    },
+    {
+      "at": "09:41",
+      "heard": "{everyone?} everywhere else 6 and 8 days.",
+      "correct": "everyone else's 6 / 8",
+      "basis": "Methodology text reads 'everyone else's 6 / 8'. The spoken 'everywhere else' is kept as the speech."
+    }
+  ],
+  "unclear": [
+    {
+      "at": "06:52",
+      "issue": "The pack transcript starts at 06:56 mid-sentence. The transcript has a 06:48 line ('color code {So?} yellow is the warning {So?} after day 6 in UAE and South Africa and other') and no lines from 06:49 to 06:55, so the opening explanation of the yellow marker is only partly known."
+    },
+    {
+      "at": "09:25",
+      "issue": "Two versions of the policy-day definition are shown on the live page. The Methodology text (t00565) says 'A policy day is 24 working hours, and only the seller's hours count', while the chart footer (t00562) reads 'A policy day is 24 weekday hours, on the Dubai calendar day'. Which wording is correct is not clear. The 120 and 168 working-hour figures from speech match 24 hours per day."
+    },
+    {
+      "at": "06:52",
+      "issue": "Sample rows do not visibly match the hour values on the slide. NGDK126 (SA-138489-3, orange marker, Action Pending) shows Seller Elapsed 120, and PJIR384 (red marker, Action Taken) shows 72. The slide does not say whether the marker follows elapsed hours, the status, or something else, so the marker-to-hours link is not stated as a fact."
+    },
+    {
+      "at": "07:46",
+      "issue": "The stage of the red-marked row PJIR384 is truncated on screen (reads 'Ready for ...'), so the exact stage name cannot be read. The spoken word in 'At this {state?}' is also unclear; the Stage column is the likely referent."
+    },
+    {
+      "at": "09:25",
+      "issue": "Which stages are seller-owned or Revibe-owned in each market is shown only as a two-row diagram with small dots and bars. The text confirms only that in SA the seller owns the collection and ship-back legs. Per-stage ownership is not stated as a fact; the Methodology panel itself should be checked."
+    },
+    {
+      "at": "07:36",
+      "issue": "The speech about other markets' start days is cut off ('probably even later once the'), so the policy start day for markets other than SA is not confirmed by the trainer."
+    },
+    {
+      "at": "08:52",
+      "issue": "Two dashboard snapshots show different numbers (slide at 08:52: 39 on the clock, 16 moving, 23 stopped; live page at 09:22: 37 on the clock, 36 moving, 1 stopped). These are different snapshots, not a conflict, but the numbers should not be quoted as current."
+    }
+  ],
+  "outdated": [
+    {
+      "at": "07:36",
+      "signal": "Trainer says the policy for other markets starts 'probably even later once the' (cut off). The start date for markets other than SA is not final."
+    },
+    {
+      "at": "09:25",
+      "signal": "Chart footer says the thresholds are read from the config table, 'so they move if ops move a threshold'. The 7/9 and 6/8 day thresholds can change."
+    },
+    {
+      "at": "09:22",
+      "signal": "Footer says the policy's timers began on 03 Sep 2026 and the clock is 5.7 policy days old. This is a snapshot figure, not a fixed fact."
+    },
+    {
+      "at": "09:22",
+      "signal": "Live page header shows 'Last meeting 09/06 (94 days ago)' (the slide shows 93 days ago). This is a snapshot count, not a current date."
+    }
+  ],
+  "privacy": [
+    {
+      "at": "06:52",
+      "what": "The Claims list shows claim IDs (for example Uxj3QN, KWMR102, JJZR199, NGDK126, PJIR384, QWZU719) and Order Help references (for example SA-127740-1, ZA-55063-1). These are business identifiers, not personal names, phone numbers, emails or addresses. No seller name appears in the claims list in these frames.",
+      "frame": "t00412.jpg"
+    },
+    {
+      "at": "08:24",
+      "what": "The Seller Performance sample on the slide shows the seller name 'ABC Trading' and a staff view dropdown; the live page shows 'ABC Seller'. These look like placeholder names, but check before sharing.",
+      "frame": "t00504.jpg"
+    },
+    {
+      "at": "09:22",
+      "what": "The live seller header shows the badge 'Pepe' next to the seller name (also on the slide). It may be an internal staff name; it is not seller personal data but should be checked before sharing.",
+      "frame": "t00562.jpg"
+    },
+    {
+      "at": "09:22",
+      "what": "The browser bookmark bar and profile chip on the live page show personal or internal shortcuts (for example 'IBKR', 'Carta', 'Cash appart', 'Quiqup'). These are not part of the training content and should be cropped before the video is shared.",
+      "frame": "t00562.jpg"
+    }
+  ],
+  "audit": {
+    "checked": 92,
+    "removed": [
+      {
+        "statement": "asr_fix at 07:07: 'have the orange claims (these are the ones)'",
+        "reason": "The reconstructed wording is not on screen or in the speech; the words are unclear and the screen does not settle them."
+      },
+      {
+        "statement": "Unclear 06:52 claim that NGDK126 at 120 hours is below the SA policy day 9 'about 216 hours at 24 per day'",
+        "reason": "The 216-hour figure is derived arithmetic that the evidence does not state. The unclear entry keeps the row values only."
+      },
+      {
+        "statement": "Privacy 06:52 note that the Claims list shows seller labels 'ABC Trading' and 'ABC Seller'",
+        "reason": "Those names do not appear in the Claims list frames. They appear on the Seller Performance pages (t00504, t00562)."
+      },
+      {
+        "statement": "Screen 'Seller Performance page, Claims management tab (live dashboard)' at 08:41-09:21",
+        "reason": "Frames t00521 to t00554 are the Monitor slide, not the live page. The live page starts at t00562 (09:22)."
+      },
+      {
+        "statement": "Step 08:41-08:47 'Navigates in the dashboard'",
+        "reason": "No navigation is visible in these frames; the speaker describes a path shown on the slide breadcrumb."
+      },
+      {
+        "statement": "Fact 'Policy Status shows - when no policy applies'",
+        "reason": "The 'when no policy applies' reading is an inference. The screen shows only '-' on the Uxj3QN row."
+      }
+    ],
+    "corrected": [
+      {
+        "before": "Yellow marker means ... because the refund is 2 working days (2 WD) away.",
+        "after": "Yellow marker means warning: the return is flagged in the claims list and must be solved now. The screen says the refund is 2 WD away; the speaker says the policy is applied after two working days.",
+        "reason": "The screen says the refund is 2 WD away and the speaker says the policy is applied after two working days. The original merged the two."
+      },
+      {
+        "before": "A policy day is 24 working hours, and only the seller's working hours count.",
+        "after": "A policy day is 24 working hours, and only the seller's hours count.",
+        "reason": "Quoted wording must match the Methodology text on screen."
+      },
+      {
+        "before": "in SA the seller also owns the collection and ship-back legs",
+        "after": "in SA the seller owns the collection and ship-back legs",
+        "reason": "The word 'also' is not in the Methodology text (t00565)."
+      },
+      {
+        "before": "Claims list columns include 'Seller Elapsed (hours)'",
+        "after": "Column header reads 'Seller Elapsed ...' (truncated on screen); the speaker says elapsed hours.",
+        "reason": "The screen does not show '(hours)'."
+      },
+      {
+        "before": "Seller Elapsed in the Claims list is the number of working hours the claim has counted on the seller's clock.",
+        "after": "The speaker says the Seller Elapsed column shows the number of working hours.",
+        "reason": "The 'counted on the seller's clock' wording is not in the speech or on screen."
+      },
+      {
+        "before": "Policy Status: 'Warning' (yellow row), 'Action Pending' (orange rows), 'Action Taken' (red row), 'Resetted' (cyan row), and '-' when no policy applies.",
+        "after": "Same row values, with '-' only as shown on the Uxj3QN row.",
+        "reason": "Removed the inference about when '-' applies."
+      },
+      {
+        "before": "Seven open claims show a finished stage ... marked in the Open claims list",
+        "after": "7 open claims show a finished stage ... marked below in the Open claims list",
+        "reason": "Copy numbers exactly as on screen ('7'); the footer says 'marked below'."
+      },
+      {
+        "before": "Step 07:54-07:57: points at the cyan 'Resetted' box",
+        "after": "Cursor is on the claims list row QWZU719 (Resetted) while the speaker names the category; the cyan box text is quoted separately.",
+        "reason": "Frame t00476 shows the cursor on the QWZU719 row, not on the box."
+      },
+      {
+        "before": "Step 08:49-08:52 cites t00524 for the Methodology pointing",
+        "after": "Cites t00531 (cursor on Methodology button).",
+        "reason": "Frame t00524 shows the cursor at the page top; t00531 shows the Methodology button."
+      },
+      {
+        "before": "Step 08:59-09:15 cites t00531 at 09:01 for the chart axis",
+        "after": "Cites t00541 (cursor on SA 7d column) and t00554 (cursor on AE · ZA label).",
+        "reason": "Frame mapping corrected from the frame images."
+      },
+      {
+        "before": "Screen 'Seller Performance page ... header and tabs' at 08:41-09:21 (live dashboard)",
+        "after": "Moved to 09:22-09:41, live page with the 'ABC Seller' header.",
+        "reason": "Frames between 08:41 and 09:21 are the Monitor slide."
+      },
+      {
+        "before": "Privacy 06:52: seller labels 'ABC Trading', 'ABC Seller' in the Claims list",
+        "after": "Claims list shows claim IDs and Order Help references; the seller names are on the dashboard frames.",
+        "reason": "Seller names are not in the Claims list frames."
+      },
+      {
+        "before": "Term 'Seller Elapsed (hours)'",
+        "after": "Term 'Seller Elapsed' (header truncated on screen).",
+        "reason": "The screen does not show '(hours)'."
+      },
+      {
+        "before": "Stage list statement with 'Ship back under collection'",
+        "after": "Same list, noting that the label is truncated on screen.",
+        "reason": "The label is cut off in the diagram."
+      },
+      {
+        "before": "Speech 09:41 'everywhere else 6 and 8 days' as the threshold",
+        "after": "Screen reads 'everyone else's 6 / 8' (ASR fix added); fact still cites both.",
+        "reason": "The methodology text on screen is the reference."
+      },
+      {
+        "before": "The 5 and 7 working-day conversion stated as a high-confidence fact",
+        "after": "Medium confidence, marked spoken only.",
+        "reason": "No frame shows these figures."
+      }
+    ],
+    "added": [
+      "Fact: sample Seller Elapsed values (0, 147, 425, 120, 72, 40) from the Claims list (t00412).",
+      "Fact: slide sample versus live page snapshot counts (t00504, t00562).",
+      "Fact: the Monitor slide's three call-outs (t00504).",
+      "Screen: Seller Performance live header and tabs at 09:22-09:41 (t00562).",
+      "Unclear: the 'At this {state?}' word at 07:46 and the Stage column reading.",
+      "Privacy: browser bookmark bar and profile chip visible on the live page (t00562).",
+      "Privacy: 'ABC Trading' and 'ABC Seller' seller names on the Seller Performance pages (t00504, t00562).",
+      "Coverage: frames t00479, t00482 and t00484 show the cursor moving between the Resetted box, the Seller Elapsed header and the claims table; no new claims beyond the existing steps."
+    ]
+  }
+}

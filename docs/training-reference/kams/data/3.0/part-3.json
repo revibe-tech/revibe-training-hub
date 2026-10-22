@@ -1,0 +1,692 @@
+{
+  "summary": "Part 3 (13:57 to 18:02) of the 3.0 Buybox (KAMs) video walks through the price-drop tabs of the Google Sheet 'Smart Cell x Revibe'. The AE tool (title 'UAE & ZA') and the SA tool (title 'KSA') list SKUs where a seller has a price but is not winning, split into a small price drop table (under 20 AED) and a big price drop table (over 20 AED). The trainer works through one price-to-win example (Price AE 296, Buybox AE 290, Price to win AE 285, Price drop required 11), explains that the seller ticks Accept? and presses a purple button that runs a script (Google authorization is sometimes asked for), and says that Show edit history and a Log tab (which he says is hidden from sellers) can be used to trace changes. All 40 frames listed in the pack were opened and checked. Many pack frame names were attached to the wrong screens and were re-matched by reading the images. The claim that the SKU was removed from the list is not supported by the frames and was removed. The Buybox cell reverted from 285 to 296 between 16:20 and 16:40, which the trainer does not explain and is logged as unclear.",
+  "frames_opened": 40,
+  "steps": [
+    {
+      "at": "14:02-14:10",
+      "screen": "Buybox tab, then AE tool tab (Smart Cell x Revibe sheet)",
+      "action": "Moves from the Buybox tab to the AE tool tab and points at the sheet that shows two price-drop tables.",
+      "says": "we display to the sellers two tables one where the seller can win the",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "14:10", "quote": "drop small price drop we display to the sellers two tables one where the seller can win the"},
+        {"kind": "see", "at": "13:57", "frame": "t00837.jpg", "quote": "Buybox tab open with columns including Name, Model, SKU_Long, Monthly Sales, Score, Buybox AE, Buybox SA, Wins AE, Wins SA, Price AE, Price SA, Min AE, Min SA."},
+        {"kind": "see", "at": "14:08", "frame": "t00848.jpg", "quote": "AE tool tab titled 'UAE & ZA' with two tables: 'Small price drop (<20 AED)' on the left and 'Big price drop (>20 AED)' on the right."}
+      ]
+    },
+    {
+      "at": "14:19-14:26",
+      "screen": "AE tool tab, both price-drop tables",
+      "action": "Explains the two tables by the size of the price drop the seller needs: under 20 AED for the small table, over 20 AED for the big table.",
+      "says": "sku by dropping his price by less than 20 dirham and another one {where?} the seller can win",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "14:19", "quote": "sku by dropping his price by less than 20 dirham and another one {where?} the seller can win"},
+        {"kind": "say", "at": "14:26", "quote": "the SKU by dropping his price by more than 20 dirhams {the?} only thing the sellers have to"},
+        {"kind": "see", "at": "14:08", "frame": "t00848.jpg", "quote": "Headers 'Small price drop (<20 AED)' and 'Big price drop (>20 AED)'."}
+      ]
+    },
+    {
+      "at": "14:28-14:45",
+      "screen": "AE tool tab, purple SMALL PRICE DROP and BIG PRICE DROP buttons, then the Price AE and Price to win AE columns",
+      "action": "Points at the SKU rows and the price columns and says what the seller can see for each SKU: the current price and the price to win.",
+      "says": "do is look at the SKUs this is the price to win if they want to get more",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "14:31", "quote": "do is look at the SKUs this is the price to win if they want to get more"},
+        {"kind": "say", "at": "14:45", "quote": "they need to reach in order to win and here for instance they can see the price drop"},
+        {"kind": "see", "at": "14:28", "frame": "t00868.jpg", "quote": "AE tool with cell A3 selected and purple SMALL PRICE DROP and BIG PRICE DROP buttons above the two tables."},
+        {"kind": "see", "at": "14:44", "frame": "t00884.jpg", "quote": "Columns Name, SKU_Long, Price AE (C), Price to win AE (D), Monthly Sales (E); cell C5 selected showing 296."}
+      ]
+    },
+    {
+      "at": "14:51-15:17",
+      "screen": "AE tool row 5 (SKU 08-798-206-15-30), then the Buybox tab row 9823 for the same SKU",
+      "action": "Walks through one example: Price AE 296, buy box 290, price to win 285 and a price drop of 11. The narration gives these as 2.96, 2.90 and 2.85, while the sheet shows 296, 290 and 285.",
+      "says": "the seller indeed has a price of {2?}.96 and the current buy box is 2.90.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "14:57", "quote": "the seller indeed has a price of {2?}.96 and the current buy box is 2.90."},
+        {"kind": "say", "at": "15:05", "quote": "Here we apply the same rule of going to the nearest factor of five."},
+        {"kind": "say", "at": "15:17", "quote": "So, which means that between {2?}.96 and 2.85, the seller has to drop by 11."},
+        {"kind": "see", "at": "14:51", "frame": "t00891.jpg", "quote": "AE tool with cell B5 selected; Price drop required column shows 11 on row 5 next to SUM of Priority 4."},
+        {"kind": "see", "at": "14:53", "frame": "t00893.jpg", "quote": "Buybox tab, row 9823 highlighted; Price AE cell U9823 shows 296; Buybox AE cell Q9823 shows 290; find bar open."}
+      ]
+    },
+    {
+      "at": "15:23-15:32",
+      "screen": "AE tool, Accept? column (H)",
+      "action": "Says the seller only ticks Accept? for the SKUs he agrees to, then presses the button.",
+      "says": "So let's say these three, then he can just press the button and it will work.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "15:23", "quote": "The only thing the seller has to do here is to select the ones he agrees on the"},
+        {"kind": "say", "at": "15:32", "quote": "So let's say these three, then he can just press the button and it will work."},
+        {"kind": "see", "at": "15:23", "frame": "t00923.jpg", "quote": "Accept? column H4:H38 selected with several checkboxes ticked; status bar Count: 15."}
+      ]
+    },
+    {
+      "at": "15:38-15:44",
+      "screen": "AE tool, test SKU ticked in Accept? (H5), purple SMALL PRICE DROP button",
+      "action": "Ticks the test SKU, then presses the SMALL PRICE DROP button; a Running script message appears.",
+      "says": "Let's do the test with this SKU, seller has just to press the button.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "15:38", "quote": "Let's do the test with this SKU, seller has just to press the button."},
+        {"kind": "see", "at": "15:40", "frame": "t00940.jpg", "quote": "Cell H5 shows TRUE (ticked); pointer on the purple SMALL PRICE DROP button; toast 'Running script' with Cancel and Dismiss; status 'Saved to Drive'."}
+      ]
+    },
+    {
+      "at": "15:44-15:53",
+      "screen": "Google Sheets 'Authorization required' dialog, then a blank popup window",
+      "action": "Says that sometimes an authorization is required, then clicks OK on the dialog; a blank window opens.",
+      "says": "here sometimes an authorization is required when the seller asks for this authorization to be authorized look at",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "15:44", "quote": "here sometimes an authorization is required when the seller asks for this authorization to be authorized look at"},
+        {"kind": "say", "at": "15:53", "quote": "this they just need to click on ok then a window to appear continue"},
+        {"kind": "see", "at": "15:51", "frame": "t00951.jpg", "quote": "Dialog 'Authorization required': 'A script attached to this document needs your permission to run.' with Cancel and OK; pointer on OK."},
+        {"kind": "see", "at": "15:53", "frame": "t00953.jpg", "quote": "Blank 'about:blank' popup window open over the sheet."}
+      ]
+    },
+    {
+      "at": "15:58-16:02",
+      "screen": "Google sign-in window ('You're signing back in to Smart Cell x Revibe')",
+      "action": "Continues through the Google sign-in window.",
+      "says": "select all continue and now it's authorized and now you can run the script and you can you",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "15:58", "frame": "t00958.jpg", "quote": "'You're signing back in to Smart Cell x Revibe' with a Google account shown, and Cancel and Continue buttons."},
+        {"kind": "say", "at": "16:02", "quote": "select all continue and now it's authorized and now you can run the script and you can you"}
+      ]
+    },
+    {
+      "at": "16:02-16:06",
+      "screen": "Google consent screen 'Smart Cell x Revibe wants additional access to your Google Account'",
+      "action": "Shows the permissions the script asks for: Select all, plus two permission checkboxes. The trainer says select all and continue; the Continue button is not in the frame.",
+      "says": "select all continue",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "16:02", "frame": "t00962.jpg", "quote": "Consent screen with 'Select all' and two permissions checked: 'See, edit, create, and delete all your Google Sheets spreadsheets' and 'Allow this application to run when you are not present'."},
+        {"kind": "see", "at": "16:06", "frame": "t00966.jpg", "quote": "Back on the AE tool: H5 TRUE and a 'Running script' toast with Dismiss."}
+      ]
+    },
+    {
+      "at": "16:12-16:19",
+      "screen": "Buybox tab, row 9823 (SKU 08-798-206-15-30) after the script run",
+      "action": "Says the displayed price changed from 296 to 285. The trainer also says the SKU got removed from the list; the frames do not show this (see unclear).",
+      "says": "will see that now the price displayed so here the sku got removed and now you will be",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "16:19", "quote": "able to see that the price displayed is 285 whereas before it was 296."},
+        {"kind": "see", "at": "16:17", "frame": "t00977.jpg", "quote": "Buybox row 9823: Price AE cell U9823 shows 285 and the row is still listed; status bar Sum 1,534.73 with 'Running script' toast visible."}
+      ]
+    },
+    {
+      "at": "16:26-16:33",
+      "screen": "Buybox tab, cell U9823 selected",
+      "action": "Says the new price will reach the buy box algorithm after a delay ('{hour?}') and that the new price will be 284. The screen shows 285 at this point.",
+      "says": "here the new price appearing will be 284.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "16:26", "quote": "so now in the next one {hour?} this new price will sink into the buy box algorithm and"},
+        {"kind": "say", "at": "16:33", "quote": "here the new price appearing will be 284."},
+        {"kind": "see", "at": "16:20", "frame": "t00980.jpg", "quote": "Cell U9823 selected with 285 in the formula bar."}
+      ]
+    },
+    {
+      "at": "16:36-16:50",
+      "screen": "Buybox tab, cell U9823 right-click menu and Edit history popover",
+      "action": "Right-clicks the price cell and chooses Show edit history. The popover shows an editor name, a date and a Replaced entry.",
+      "says": "the {cell?} right click here and click on show edit history doing this you can see who modified",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "16:36", "quote": "if you want to see how a price has been changed by a seller you can go on"},
+        {"kind": "say", "at": "16:43", "quote": "the {cell?} right click here and click on show edit history doing this you can see who modified"},
+        {"kind": "see", "at": "16:40", "frame": "t01000.jpg", "quote": "Right-click context menu on cell U9823 with the item 'Show edit history'; formula bar shows 296."},
+        {"kind": "see", "at": "16:48", "frame": "t01008.jpg", "quote": "Edit history popover: 'Pierre Villaqueque', 'October 14, 5:37 PM', Replaced 285 with 296 (values quoted in the popover)."},
+        {"kind": "see", "at": "16:50", "frame": "t01010.jpg", "quote": "Edit history popover still blank (loading state)."}
+      ]
+    },
+    {
+      "at": "16:56-17:08",
+      "screen": "Log tab (narrated as hidden from sellers)",
+      "action": "Says the Log tab is hidden from sellers and shows whether a seller used price functions; then opens the Log tab (first shown at 17:00).",
+      "says": "that is hidden from the sellers which is called logs here in logs you can see if the",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "16:59", "quote": "that is hidden from the sellers which is called logs here in logs you can see if the"},
+        {"kind": "say", "at": "17:05", "quote": "seller used some price functions so price lock is not used anymore at the moment but you can"},
+        {"kind": "see", "at": "16:56", "frame": "t01016.jpg", "quote": "Buybox tab still active (cell W9822 selected); Log tab not yet open."},
+        {"kind": "see", "at": "17:00", "frame": "t01020.jpg", "quote": "Log tab with headers SKU_Long, Price AE, Price to win, Type, User, Datetime, Country; Small price drop rows, User fahimsikander17, Country AE."},
+        {"kind": "see", "at": "17:06", "frame": "t01026.jpg", "quote": "Log rows with Type 'Price Lock', User fahimsikander17, Datetime 05/01/2026 22:46:42, Country SA."}
+      ]
+    },
+    {
+      "at": "17:13-17:23",
+      "screen": "Log tab, Price Lock row 29526",
+      "action": "Says he uses the small price drop log row for one SKU to show a price going from one value to another on the 14th of October. The frame shown is a Price Lock row; the example SKU and its before and after prices are not visible.",
+      "says": "see here that i {use?} the small price drop for this sku i went from this price to",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "17:13", "quote": "see here that i {use?} the small price drop for this sku i went from this price to"},
+        {"kind": "say", "at": "17:23", "quote": "this price on the 14th of october and the same tab is available for the SKUs where the"},
+        {"kind": "see", "at": "17:08", "frame": "t01028.jpg", "quote": "Log row 29526: SKU_Long 08-797-206-30-2, Price AE 439, Price to win 430.22, Type Price Lock, User fahimsikander17, Datetime 06/01/2026 15:12:06, Country SA."}
+      ]
+    },
+    {
+      "at": "17:24",
+      "screen": "SA tool tab (KSA)",
+      "action": "Shows the SA tool tab (KSA). A partly visible Sheets tooltip starting 'Sheet hid...' appears at the bottom right.",
+      "says": "",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "17:24", "frame": "t01044.jpg", "quote": "SA tool titled 'KSA' with 'Small price drop (<20 AED)' and 'Big price drop (>20 AED)' tables; partly visible tooltip starting 'Sheet hid...' at bottom right."}
+      ]
+    },
+    {
+      "at": "17:32-17:38",
+      "screen": "SA tool tab (KSA) and AE tool tab",
+      "action": "Says that the seller put prices in Saudi and that the two tabs only list SKUs where the seller put a price and is not winning. The transcript does not say that the same log exists for Saudi SKUs; the sentence about the same tab (17:23) is cut off.",
+      "says": "only spot the SKUs where the seller put a price and is not winning and then we rank",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "17:32", "quote": "seller put prices in Saudi {so?} what you need to understand is that in these two tabs we"},
+        {"kind": "say", "at": "17:38", "quote": "only spot the SKUs where the seller put a price and is not winning and then we rank"},
+        {"kind": "see", "at": "17:30", "frame": "t01050.jpg", "quote": "SA tool titled 'KSA' with 'Small price drop (<20 AED)' and 'Big price drop (>20 AED)' tables; columns Name, SKU_Long, Price to win SA, Monthly Sales, Accept change?; purple SMALL PRICE DROP and BIG PRICE DROP buttons."}
+      ]
+    },
+    {
+      "at": "17:46-17:54",
+      "screen": "AE tool, Small and Big price drop tables",
+      "action": "Explains that the SKUs are ranked by decreasing sales and split into two buckets: the small bucket (below 20 AED) and the big bucket.",
+      "says": "them by decreasing order of sales and we split them into two buckets the ones where the seller",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "17:46", "quote": "them by decreasing order of sales and we split them into two buckets the ones where the seller"},
+        {"kind": "say", "at": "17:54", "quote": "has only a small price drop to accept below 20 dirhams and the ones where the seller has"},
+        {"kind": "see", "at": "17:54", "frame": "t01074.jpg", "quote": "AE tool, cell A2 selected; Small table Monthly Sales reads 50+, 5-10, 3-5, 1-3, 0-1 from top to bottom."}
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "type": "rule",
+      "statement": "The AE tool (title 'UAE & ZA') shows sellers two tables: 'Small price drop (<20 AED)' and 'Big price drop (>20 AED)'.",
+      "evidence": [
+        {"kind": "say", "at": "14:10", "quote": "drop small price drop we display to the sellers two tables one where the seller can win the"},
+        {"kind": "see", "at": "14:08", "frame": "t00848.jpg", "quote": "Two table headers: 'Small price drop (<20 AED)' (left) and 'Big price drop (>20 AED)' (right)."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Small price drop bucket: SKUs the seller can win by dropping the price by less than 20 AED. Big price drop bucket: SKUs the seller can win by dropping the price by more than 20 AED.",
+      "evidence": [
+        {"kind": "say", "at": "14:19", "quote": "sku by dropping his price by less than 20 dirham and another one {where?} the seller can win"},
+        {"kind": "say", "at": "14:26", "quote": "the SKU by dropping his price by more than 20 dirhams {the?} only thing the sellers have to"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Only SKUs where the seller has put a price and is not winning appear in these tabs. They are ranked by decreasing Monthly Sales and split into the small and big buckets.",
+      "evidence": [
+        {"kind": "say", "at": "17:38", "quote": "only spot the SKUs where the seller put a price and is not winning and then we rank"},
+        {"kind": "say", "at": "17:46", "quote": "them by decreasing order of sales and we split them into two buckets the ones where the seller"},
+        {"kind": "see", "at": "17:54", "frame": "t01074.jpg", "quote": "Monthly Sales column in the Small table reads 50+, 5-10, 3-5, 1-3, 0-1 going down."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Price to win is the price the seller has to reach to win the SKU. The Small table shows the seller's current price (Price AE) next to Price to win AE, and a Price drop required column.",
+      "evidence": [
+        {"kind": "say", "at": "14:38", "quote": "details they can here they can see their current price and here they can see the price that"},
+        {"kind": "say", "at": "14:45", "quote": "they need to reach in order to win and here for instance they can see the price drop"},
+        {"kind": "see", "at": "14:44", "frame": "t00884.jpg", "quote": "Columns Price AE and Price to win AE shown side by side for each SKU."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Narrated rule for the price to win: 'going to the nearest factor of five'. In the example it gives 285 for a buy box of 290 (both shown on screen). The exact rule is not defined in this part.",
+      "evidence": [
+        {"kind": "say", "at": "15:05", "quote": "Here we apply the same rule of going to the nearest factor of five."},
+        {"kind": "say", "at": "15:13", "quote": "So the price to win is 2.85."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "example",
+      "statement": "Worked example for SKU 08-798-206-15-30: Price AE 296 (cell C5), Buybox AE 290 (row 9823 of the Buybox tab), Price to win AE 285 (cell D5) and Price drop required 11 (cell G5). The narration gives these values as 2.96, 2.90 and 2.85.",
+      "evidence": [
+        {"kind": "say", "at": "15:17", "quote": "So, which means that between {2?}.96 and 2.85, the seller has to drop by 11."},
+        {"kind": "see", "at": "14:44", "frame": "t00884.jpg", "quote": "Cell C5 selected showing 296 in the formula bar; Price to win AE column shows 285 on row 5."},
+        {"kind": "see", "at": "14:51", "frame": "t00891.jpg", "quote": "Row 5 shows Price drop required 11 next to SUM of Priority 4."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "To accept price changes, the seller ticks the Accept? checkbox for each SKU he agrees with, then presses the button (the purple SMALL PRICE DROP button in the test). The press runs a script.",
+      "evidence": [
+        {"kind": "say", "at": "15:23", "quote": "The only thing the seller has to do here is to select the ones he agrees on the"},
+        {"kind": "say", "at": "15:32", "quote": "So let's say these three, then he can just press the button and it will work."},
+        {"kind": "see", "at": "15:23", "frame": "t00923.jpg", "quote": "Accept? checkboxes in column H with several ticked; status bar Count: 15."},
+        {"kind": "see", "at": "15:40", "frame": "t00940.jpg", "quote": "Toast 'Running script' after the button press, with H5 ticked."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "Sometimes the script needs Google authorization before it runs. The trainer says to click OK on the 'Authorization required' dialog, continue in the Google window, select all permissions and continue. The frames show the dialog, the sign-in and the permission checkboxes.",
+      "evidence": [
+        {"kind": "say", "at": "15:44", "quote": "here sometimes an authorization is required when the seller asks for this authorization to be authorized look at"},
+        {"kind": "say", "at": "16:02", "quote": "select all continue and now it's authorized and now you can run the script and you can you"},
+        {"kind": "see", "at": "15:51", "frame": "t00951.jpg", "quote": "Dialog 'Authorization required' with Cancel and OK."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The Google consent screen asks for two permissions: 'See, edit, create, and delete all your Google Sheets spreadsheets' and 'Allow this application to run when you are not present'.",
+      "evidence": [
+        {"kind": "see", "at": "16:02", "frame": "t00962.jpg", "quote": "Consent checkboxes: 'See, edit, create, and delete all your Google Sheets spreadsheets' and 'Allow this application to run when you are not present'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "example",
+      "statement": "After the test script run, the Buybox tab Price AE for row 9823 (cell U9823) shows 285. Before the run it showed 296. The trainer says the new price is 285 whereas before it was 296.",
+      "evidence": [
+        {"kind": "say", "at": "16:19", "quote": "able to see that the price displayed is 285 whereas before it was 296."},
+        {"kind": "see", "at": "14:53", "frame": "t00893.jpg", "quote": "Buybox row 9823: Price AE cell U9823 shows 296."},
+        {"kind": "see", "at": "16:17", "frame": "t00977.jpg", "quote": "Buybox row 9823 Price AE cell shows 285 after the run."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "example",
+      "statement": "The Buybox tab Price AE for row 9823 (U9823) shows 296 again at 16:40-16:50, after showing 285 at 16:20. The frames do not explain the change.",
+      "evidence": [
+        {"kind": "see", "at": "16:20", "frame": "t00980.jpg", "quote": "Cell U9823 selected with 285 in the formula bar."},
+        {"kind": "see", "at": "16:40", "frame": "t01000.jpg", "quote": "Cell U9823 selected with 296 in the formula bar; Show edit history in the right-click menu."},
+        {"kind": "see", "at": "16:48", "frame": "t01008.jpg", "quote": "Edit history popover: 'Pierre Villaqueque', 'October 14, 5:37 PM', Replaced 285 with 296."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "To see who changed a price cell: right-click the cell and choose Show edit history. The popover shows an editor name, a date and time, and a Replaced entry with the old and new values.",
+      "evidence": [
+        {"kind": "say", "at": "16:43", "quote": "the {cell?} right click here and click on show edit history doing this you can see who modified"},
+        {"kind": "see", "at": "16:40", "frame": "t01000.jpg", "quote": "Right-click context menu on U9823 with the item 'Show edit history'."},
+        {"kind": "see", "at": "16:48", "frame": "t01008.jpg", "quote": "Popover 'Pierre Villaqueque', 'October 14, 5:37 PM', Replaced 285 with 296."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Narrated: Show edit history tells whether a cell was changed by someone from Revibe or by the seller himself. On screen the popover shows only an editor name, a date and the old and new values, not the role of the editor.",
+      "evidence": [
+        {"kind": "say", "at": "16:50", "quote": "the cell if it's someone from revive or if it's the seller himself here you have another tab"},
+        {"kind": "see", "at": "16:48", "frame": "t01008.jpg", "quote": "Popover shows an editor name, a date and the Replaced values only."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "Narrated: the Log tab is hidden from sellers. It shows whether a seller used price functions, for example Price Lock. The trainer says price lock is not used at the moment. The hidden state is not shown on screen.",
+      "evidence": [
+        {"kind": "say", "at": "16:59", "quote": "that is hidden from the sellers which is called logs here in logs you can see if the"},
+        {"kind": "say", "at": "17:05", "quote": "seller used some price functions so price lock is not used anymore at the moment but you can"},
+        {"kind": "see", "at": "17:00", "frame": "t01020.jpg", "quote": "Tab named 'Log' is selected."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Log tab columns: SKU_Long, Price AE, Price to win, Type, User, Datetime, Country.",
+      "evidence": [
+        {"kind": "see", "at": "17:00", "frame": "t01020.jpg", "quote": "Header row: SKU_Long | Price AE | Price to win | Type | User | Datetime | Country."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Log Type values visible: 'Small price drop', 'Big price drop' and 'Price Lock'.",
+      "evidence": [
+        {"kind": "see", "at": "17:03", "frame": "t01023.jpg", "quote": "Type column shows 'Small price drop', 'Big price drop' and 'Price Lock' entries."},
+        {"kind": "see", "at": "17:06", "frame": "t01026.jpg", "quote": "Type column shows 'Price Lock' entries."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Buybox tab columns: Name, Category, Model, CPU (Laptop) Connectivity (Tablet), RAM (laptop) Storage (phone), Storage (laptop) Color (phone), Colour (laptop), SKU_Long, Screen size (laptop), Series (laptop), Condition (laptop), Keyboard (laptop) / Condition (phone), Monthly Sales, Score, Buybox AE, Buybox SA, Wins AE, Wins SA, Price AE, Price SA, Min AE, Min SA.",
+      "evidence": [
+        {"kind": "see", "at": "13:57", "frame": "t00837.jpg", "quote": "Header row of the Buybox tab with these column names in this order."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Monthly Sales buckets shown on the sheet: 0-1, 1-3, 3-5, 5-10, 10-20, 20-50, 50+.",
+      "evidence": [
+        {"kind": "see", "at": "13:57", "frame": "t00837.jpg", "quote": "Monthly Sales column values include 0-1, 1-3, 3-5, 5-10, 10-20, 20-50 and 50+."},
+        {"kind": "see", "at": "14:08", "frame": "t00848.jpg", "quote": "Monthly Sales column values 50+, 5-10, 3-5, 1-3, 0-1 in the Small table."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The SA tool (KSA) has the same two sections: 'Small price drop (<20 AED)' and 'Big price drop (>20 AED)', with columns Name, SKU_Long, Price to win SA, Monthly Sales and Accept change?.",
+      "evidence": [
+        {"kind": "see", "at": "17:30", "frame": "t01050.jpg", "quote": "KSA tab headers 'Small price drop (<20 AED)' and 'Big price drop (>20 AED)' with 'Price to win SA' and 'Accept change?' columns."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The AE tool and the SA tool each have purple SMALL PRICE DROP and BIG PRICE DROP buttons above their two tables.",
+      "evidence": [
+        {"kind": "see", "at": "14:28", "frame": "t00868.jpg", "quote": "Purple SMALL PRICE DROP and BIG PRICE DROP buttons on the AE tool."},
+        {"kind": "see", "at": "17:30", "frame": "t01050.jpg", "quote": "Purple SMALL PRICE DROP and BIG PRICE DROP buttons on the SA tool."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Implied: the SUM of Priority column (F on the AE tool) follows the Monthly Sales bucket on the visible rows: 50+ gives 7, 5-10 gives 4, 3-5 gives 3, 1-3 gives 2 and 0-1 gives 1. The trainer does not explain this column.",
+      "evidence": [
+        {"kind": "see", "at": "14:51", "frame": "t00891.jpg", "quote": "SUM of Priority values 7 (50+), 4 (5-10), 3 (3-5), 2 (1-3), 1 (0-1) on the visible rows."}
+      ],
+      "confidence": "low",
+      "quiz": false
+    }
+  ],
+  "screens": [
+    {
+      "name": "Google Sheet 'Smart Cell x Revibe' - Buybox tab",
+      "shows": "SKU catalogue with Monthly Sales, Score, Buybox AE and SA, Wins AE and SA, Price AE and SA, Min AE and SA; row 9823 (SKU 08-798-206-15-30 as shown in the find bar) used for the example and the edit history; cell U9823 showed 296, then 285 (16:17-16:20), then 296 again (16:40-16:50).",
+      "at": "13:57-16:50"
+    },
+    {
+      "name": "Google Sheet - AE tool tab ('UAE & ZA')",
+      "shows": "Two price-drop tables (Small price drop <20 AED, Big price drop >20 AED). Small table: Name, SKU_Long, Price AE, Price to win AE, Monthly Sales, SUM of Priority, Price drop required, Accept? (column H). Big table: Name, SKU_Long, Price to win AE, Monthly Sales, Accept? (column S). Purple SMALL PRICE DROP and BIG PRICE DROP buttons.",
+      "at": "14:02-17:59"
+    },
+    {
+      "name": "Google Sheet - SA tool tab ('KSA')",
+      "shows": "Same two-section layout for Saudi SKUs with Price to win SA and Accept change? checkboxes, and purple SMALL PRICE DROP and BIG PRICE DROP buttons.",
+      "at": "17:24-17:30"
+    },
+    {
+      "name": "Google Sheet - Log tab (narrated as hidden from sellers)",
+      "shows": "Log rows with SKU_Long, Price AE, Price to win, Type (Small price drop, Big price drop, Price Lock), User (fahimsikander17), Datetime and Country.",
+      "at": "17:00-17:08"
+    },
+    {
+      "name": "Cell context menu 'Show edit history' and edit history popover",
+      "shows": "Right-click menu on U9823 with Show edit history; popover with editor name, date and time and Replaced values.",
+      "at": "16:40-16:50"
+    },
+    {
+      "name": "Google authorization flow for the script",
+      "shows": "Running script toast with Cancel and Dismiss, 'Authorization required' dialog, a blank about:blank popup, the Google 'You're signing back in' sign-in window and the consent screen with Select all and two permission checkboxes.",
+      "at": "15:40-16:06"
+    },
+    {
+      "name": "Other browser tabs visible (not discussed in this part)",
+      "shows": "Revibe - Fulfillment App; Fulfillment App - O&D; Videos | Library | Loom; Buybox AI - Google Sheet; Skyfitronics x Revibe; Revibe - Seller Performanc (truncated).",
+      "at": "13:57-17:59"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Buybox (tab)",
+      "meaning": "Sheet tab listing SKUs with Buybox AE and SA, Wins AE and SA, Price AE and SA, and Min AE and SA columns. The trainer does not define the columns beyond the example.",
+      "at": "13:57"
+    },
+    {
+      "term": "Buy box",
+      "meaning": "Narrated as 'the current buy box' (2.90 in the narration; 290 in the Buybox AE column for the example SKU). The trainer refers to a buy box algorithm that picks up the new price.",
+      "at": "14:57-16:26"
+    },
+    {
+      "term": "Price to win",
+      "meaning": "The price the seller has to reach to win the SKU (Price to win AE column on the AE tool).",
+      "at": "14:45"
+    },
+    {
+      "term": "Price drop required",
+      "meaning": "Column G on the AE tool. In the example it is 11, which equals Price AE 296 minus Price to win AE 285. The trainer does not state the formula.",
+      "at": "15:17"
+    },
+    {
+      "term": "Small price drop / Big price drop",
+      "meaning": "The two buckets, shown as '<20 AED' and '>20 AED' on the sheet.",
+      "at": "14:19"
+    },
+    {
+      "term": "Accept?",
+      "meaning": "Checkbox per SKU that the seller ticks to agree to the price change before pressing the button.",
+      "at": "15:23"
+    },
+    {
+      "term": "SUM of Priority",
+      "meaning": "Column F on the AE tool; meaning not explained in this part.",
+      "at": "14:53"
+    },
+    {
+      "term": "Price Lock",
+      "meaning": "A Type value in the Log tab (for example Price Lock rows, user fahimsikander17). The trainer says it is not used at the moment.",
+      "at": "17:05"
+    },
+    {
+      "term": "Logs (Log tab)",
+      "meaning": "Narrated as hidden from sellers. Records the Small price drop, Big price drop and Price Lock entries shown on screen.",
+      "at": "16:59"
+    },
+    {
+      "term": "Edit history",
+      "meaning": "Google Sheets feature (right-click a cell, Show edit history) that shows an editor name, date and time and the Replaced old and new values.",
+      "at": "16:43"
+    },
+    {
+      "term": "SKU_Long",
+      "meaning": "SKU identifier column (example 08-798-206-15-30).",
+      "at": "14:08"
+    },
+    {
+      "term": "Nearest factor of five",
+      "meaning": "The trainer's stated rule for setting the price to win; the full definition is not given in this part.",
+      "at": "15:05"
+    }
+  ],
+  "asr_fixes": [
+    {
+      "at": "14:57",
+      "heard": "{2?}.96 / 2.96",
+      "correct": "296 (as shown in the AE tool Price AE cell C5 and the Buybox tab Price AE cell U9823)",
+      "basis": "The narration uses decimals; the sheet shows integer values 296, 290 and 285. The sheet values are used here. The unit is unresolved (see unclear)."
+    },
+    {
+      "at": "15:11",
+      "heard": "2.90",
+      "correct": "290",
+      "basis": "Buybox tab Buybox AE value for the example SKU row (row 9823) shows 290."
+    },
+    {
+      "at": "15:13",
+      "heard": "2.85",
+      "correct": "285",
+      "basis": "AE tool Price to win AE for SKU 08-798-206-15-30 (cell D5) shows 285; Price drop required is 11 (296 minus 285)."
+    },
+    {
+      "at": "16:50",
+      "heard": "revive",
+      "correct": "Revibe",
+      "basis": "Sheet title 'Smart Cell x Revibe'."
+    }
+  ],
+  "unclear": [
+    {
+      "at": "14:02",
+      "issue": "Narration says the tool exists in 'uae and saudi'. The AE tool title reads 'UAE & ZA' with a UAE flag and a second flag, and the SA tool title reads 'KSA' with one green flag. The trainer does not state which countries each tab covers."
+    },
+    {
+      "at": "14:57-15:17",
+      "issue": "Units. Narration says 2.96, 2.90, 2.85 and a drop of 11. The sheet shows 296, 290, 285 and 11 with no currency or decimal unit. The unit of the sheet values is not stated."
+    },
+    {
+      "at": "15:05",
+      "issue": "'nearest factor of five': the rule's exact direction (below or above the buy box) is not stated in this part. The example has the price to win 5 below the buy box, but this is not spoken explicitly."
+    },
+    {
+      "at": "14:19-14:26",
+      "issue": "Bucket edges: the sheet headers say '<20 AED' and '>20 AED'. A price drop of exactly 20 AED is not covered by either bucket as described."
+    },
+    {
+      "at": "16:12",
+      "issue": "Trainer says the SKU 'got removed' from the list. Not confirmed: Buybox row 9823 is still listed at 16:17 and 16:20 (t00977, t00980), and AE tool row 5 (08-798-206-15-30) is still listed with Price AE 296, Price to win 285 and Accept? ticked at 17:32 (t01052)."
+    },
+    {
+      "at": "16:26-16:33",
+      "issue": "Timing '{hour?}' is low-confidence. The narration says the next price is 284, but the screen shows 285 at 16:20 (t00980). Whether the price changes after a delay, and what 284 refers to, is unresolved."
+    },
+    {
+      "at": "15:44",
+      "issue": "'when the seller asks for this authorization to be authorized': unclear who grants the authorization (the seller or Revibe staff) and when it is needed. The narration says 'sometimes', not 'the first run'."
+    },
+    {
+      "at": "17:05",
+      "issue": "'if the seller used some price functions' and 'price lock': the price functions are not defined in this part."
+    },
+    {
+      "at": "14:31",
+      "issue": "Sentence is cut off: 'if they want to get more'. The benefit the seller gets from more details is not stated."
+    },
+    {
+      "at": "17:32",
+      "issue": "'in these two tabs': assumed to mean the AE tool and SA tool; the trainer does not confirm it. The transcript does not say the same log exists for Saudi SKUs."
+    },
+    {
+      "at": "16:59",
+      "issue": "Log tab is said to be hidden from sellers. No hidden state is shown on screen; a partly visible Sheets tooltip starting 'Sheet hid...' appears at 17:24 (t01044) and is cut off."
+    },
+    {
+      "at": "17:54",
+      "issue": "Part 3 transcript ends at 17:54 with 'has only a small price drop to accept below 20 dirhams and the ones where the seller has'. The rest of the sentence about the big bucket is not in the evidence pack (part ends 18:02)."
+    },
+    {
+      "at": "17:13-17:23",
+      "issue": "The 14 October example SKU and its before and after prices are not spoken clearly, so the example cannot be confirmed. The frame shown at 17:08 is a Price Lock row (t01028), not a small price drop row. The edit history on the Buybox tab (285 replaced with 296, October 14) is the only October 14 example on screen."
+    },
+    {
+      "at": "16:40-16:50",
+      "issue": "The Buybox cell U9823 shows 285 at 16:20 (t00980) and 296 again at 16:40-16:50 (t01000, t01008). The trainer does not explain the change. The popover 'Replaced 285 with 296' is dated October 14."
+    }
+  ],
+  "outdated": [
+    {
+      "at": "17:05",
+      "signal": "'price lock is not used anymore at the moment': time-bound statement. The frames show Price Lock rows dated 05/01/2026 and 06/01/2026 (t01026, t01028); later rows were not checked. Check before relying on it."
+    }
+  ],
+  "privacy": [
+    {
+      "at": "16:48",
+      "what": "Edit history popover shows a full name, 'Pierre Villaqueque', with a date and time (frame t01008.jpg). The frames do not show whether this person is Revibe staff or a seller; review before sharing with sellers."
+    },
+    {
+      "at": "15:58-16:02",
+      "what": "Google sign-in window shows the account email pierre@revibe.me (frames t00958.jpg and t00962.jpg). Staff account, not a seller; redact before sharing."
+    },
+    {
+      "at": "17:00-17:08",
+      "what": "Log tab User column shows the user identifier 'fahimsikander17' on many rows (frames t01020.jpg, t01023.jpg, t01026.jpg, t01028.jpg). Internal user ID; redact before sharing with sellers."
+    },
+    {
+      "at": "13:57-17:59",
+      "what": "Sheet title and browser tab titles name a partner or seller business: 'Smart Cell x Revibe' and 'Skyfitronics x Revibe'. Business names, not personal data, but check before sharing with sellers."
+    }
+  ],
+  "audit": {
+    "checked": 78,
+    "removed": [
+      {
+        "statement": "Step 16:12: the trainer's SKU 'got removed' is presented as happening after the script run.",
+        "reason": "Not supported. Buybox row 9823 is still listed at 16:17 and 16:20 (t00977, t00980), and AE tool row 5 is still listed with Price AE 296 and Accept? ticked at 17:32 (t01052). Kept only as a narrated claim in unclear."
+      },
+      {
+        "statement": "Asr fix at 14:19: 'dirham' corrected to 'AED'.",
+        "reason": "Not a mishearing. Dirham is the spoken name of AED; the sheet header reads '<20 AED'. The entry is removed from asr_fixes."
+      },
+      {
+        "statement": "Privacy: presenter's face visible in the webcam overlay.",
+        "reason": "Not seller or customer data; the presenter is the trainer. The privacy list covers seller and customer data only."
+      },
+      {
+        "statement": "Summary: 'first-time Google authorization'.",
+        "reason": "The narration says authorization is 'sometimes' required. 'First-time' is not said."
+      }
+    ],
+    "corrected": [
+      {"before": "Frame t00926 described as showing H4:H38 with several checkboxes ticked and Count 15.", "after": "Frame t00923 shows that (H4:H38, Count 15). Frame t00926 shows H4:H46 selected with no ticks and Count 43.", "reason": "Frame names were attached to the wrong screens."},
+      {"before": "Frame t00951 cited for the Running script toast after ticking H5.", "after": "Frame t00940 (15:40) shows the Running script toast. Frame t00951 (15:51) is the 'Authorization required' dialog.", "reason": "Frame mismatch."},
+      {"before": "Frame t00953 cited for the 'Authorization required' dialog.", "after": "Frame t00951 is the dialog. Frame t00953 is a blank about:blank popup.", "reason": "Frame mismatch."},
+      {"before": "Frame t00958 cited as a blank about:blank popup.", "after": "Frame t00958 is the Google sign-in 'You're signing back in to Smart Cell x Revibe'. The blank popup is t00953.", "reason": "Frame mismatch."},
+      {"before": "Frame t00962 cited as the sign-in screen; frame t00966 cited as the consent screen.", "after": "Frame t00962 (16:02) is the consent screen. Frame t00966 (16:06) is the AE tool with the Running script toast after authorization.", "reason": "Frame mismatch."},
+      {"before": "Frame t00903 described as Buybox tab row 9823 with Price AE 296 and a find bar.", "after": "Frame t00903 (15:03) is the AE tool with cell B5 selected and a find bar for 08-798-206-15-30. Buybox row 9823 with Price AE 296 is frame t00893 (14:53).", "reason": "Frame mismatch."},
+      {"before": "Frame t01016 cited as the Log tab with headers.", "after": "Frame t01016 (16:56) is the Buybox tab (W9822 selected). The Log tab first appears in frame t01020 (17:00).", "reason": "Frame mismatch; Log step moved to 17:00."},
+      {"before": "Frame t01010 cited as the edit history popover with the name and Replaced text.", "after": "The populated popover is frame t01008 (16:48). Frame t01010 (16:50) is still blank.", "reason": "Frame mismatch."},
+      {"before": "Frame t01028 used as a small price drop example in the Log.", "after": "Frame t01028 shows a Price Lock row (row 29526, Datetime 06/01/2026 15:12:06). The small price drop example is not on screen.", "reason": "Type mismatch with the narration."},
+      {"before": "Step 16:36: the popover shows who made 'the last change'.", "after": "The popover shows an editor name for the entry it displays; the frames do not confirm it is the last change.", "reason": "Overstatement."},
+      {"before": "Step 17:32: 'Says the same log exists for Saudi SKUs'.", "after": "Transcript at 17:23 is cut off ('the same tab is available for the SKUs where the'). The trainer only says 'seller put prices in Saudi' and talks about 'these two tabs'.", "reason": "Overstatement."},
+      {"before": "Fact: 'The first run may show' an authorization dialog.", "after": "Sometimes an authorization is required (narration at 15:44). 'First run' is not said.", "reason": "Overstatement."},
+      {"before": "Fact: the sheet values are 2.96, 2.90 and 2.85 (narration).", "after": "The sheet shows 296, 290 and 285; the narration gives decimals. Unit unresolved.", "reason": "Number check against the screen."},
+      {"before": "Fact: 'The press runs the script' for the SMALL PRICE DROP or BIG PRICE DROP button.", "after": "Only the SMALL PRICE DROP press is shown on screen (toast 'Running script'). The narration says 'the button'.", "reason": "Overstatement; big button not shown being pressed."},
+      {"before": "Definition: Edit history shows whether the change was by someone from Revibe or by the seller.", "after": "Narrated only. The popover on screen shows an editor name, a date and the Replaced values, not a role.", "reason": "Screen does not show the role."},
+      {"before": "Warning: the Log tab is hidden from sellers.", "after": "Narrated only; no hidden state is shown on screen.", "reason": "Not visible in the frames."},
+      {"before": "Screen: Revibe - Seller Performance tab.", "after": "Tab label reads 'Revibe - Seller Performanc' (truncated).", "reason": "Exact text."},
+      {"before": "Summary: 'a purple button that runs a script'.", "after": "A purple button press runs a script; the 'Running script' toast confirms it.", "reason": "Wording."},
+      {"before": "Outdated: Price Lock rows 'datetimes up to 06/01/2026'.", "after": "The frames show Price Lock rows dated 05/01/2026 and 06/01/2026; the latest row was not checked.", "reason": "'Up to' is not confirmed."},
+      {"before": "Term 'Buy box' defined as 'the current winning price for a SKU'.", "after": "Narrated as 'the current buy box'; the example value is the Buybox AE column (290).", "reason": "General knowledge filled in."},
+      {"before": "Term 'Price drop required' defined as the gap between current price and price to win.", "after": "Column G; in the example it equals 296 minus 285 = 11. The trainer does not state the formula.", "reason": "Formula not stated."},
+      {"before": "Privacy: 'Pierre Villaqueque' described as Revibe staff.", "after": "The name is shown in the popover; whether this person is staff is not shown (implied only).", "reason": "Inference presented as fact."},
+      {"before": "Privacy: Log user 'fahimsikander17' cited in frame t01016.", "after": "Visible in frames t01020, t01023, t01026 and t01028.", "reason": "Frame mismatch."},
+      {"before": "Screen: AE tool header 'UAE & ZA' with two flags; SA tool 'KSA'.", "after": "The SA tool shows one green flag; the AE tool shows a UAE flag and a second flag. Unclear entry 14:02 updated.", "reason": "Screen detail."}
+    ],
+    "added": [
+      "Step 17:24: SA tool (KSA) tab shown; partly visible Sheets tooltip reading 'Sheet hid...' (frame t01044.jpg).",
+      "Fact: the AE tool and the SA tool both have purple SMALL PRICE DROP and BIG PRICE DROP buttons above their two tables (frames t00868.jpg, t01050.jpg).",
+      "Fact: Buybox cell U9823 shows 296 again at 16:40-16:50 after 285 at 16:20, with no explanation in the narration (frames t00980.jpg, t01000.jpg, t01008.jpg).",
+      "Unclear: Buybox cell U9823 reverted to 296 between 16:20 and 16:40 (frames t00980.jpg, t01000.jpg).",
+      "Unclear: AE tool row 5 (08-798-206-15-30) is still listed with Price AE 296 and Accept? ticked at 17:32 (frame t01052.jpg), so the SKU removal is not shown.",
+      "Screen: Log tab first visible at 17:00 (frame t01020.jpg); frame t01016.jpg at 16:56 is still the Buybox tab.",
+      "Screen: Accept? column on the AE tool was unticked in frame t00926.jpg (H4:H46, Count 43) before the test tick."
+    ]
+  }
+}

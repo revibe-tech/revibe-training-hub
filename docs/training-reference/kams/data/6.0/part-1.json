@@ -1,0 +1,961 @@
+{
+  "summary": "Part 1 of 3 of the Revibe training video \"6.0 Returns (Seller)\" (00:00 to 06:38), checked against all 40 frames in the pack (t00000 to t00397). The trainer explains the return-claim rules and the Revibe Return Process slide, then shows a customer raising a claim on the customer account page, then the seller side in the admin portal (Claim Management > R - Seller Returns): opening claim o941bQ, reviewing its sections, and the Mark valid / Mark invalid buttons. Several frames show customer personal data and the presenter's personal file names. Some spoken words are unreliable (the trainer's '{rational?}' and 'above 95 {%?}' are not confirmed). The slide footer labels Ship-Back as 'sent to customer', which does not match the valid-lab outcome where the device goes back to the seller.",
+  "frames_opened": 40,
+  "steps": [
+    {
+      "at": "00:00-00:37",
+      "screen": "",
+      "action": "Trainer presents the rules and the Revibe Return Process slide; the cursor moves over the Eligibility banner (t00020) and then onto step 1 (t00040).",
+      "evidence": [
+        {"kind": "see", "at": "00:00", "frame": "t00000.jpg", "quote": "Revibe Return Process slide: 'Eligibility: 15 days from delivery'; four step boxes; Dispute resolution section; 'Portal info displayed' line."},
+        {"kind": "say", "at": "00:17", "frame": "", "quote": "First some rules."}
+      ],
+      "says": "First some rules.",
+      "why": ""
+    },
+    {
+      "at": "00:40-00:56",
+      "screen": "",
+      "action": "Points at the 'My Account' text in step 1 ('The customer raises a return through the My Account section on Revibe').",
+      "evidence": [
+        {"kind": "say", "at": "00:40", "frame": "", "quote": "First step, the customer will connect on Revive My Account Portal and will raise a claim."},
+        {"kind": "see", "at": "00:40", "frame": "t00040.jpg", "quote": "Cursor on 'My Account' in step 1 text."}
+      ],
+      "says": "First step, the customer will connect on Revive My Account Portal and will raise a claim.",
+      "why": ""
+    },
+    {
+      "at": "01:00-01:06",
+      "screen": "",
+      "action": "Points at step 2 (Revibe Agent Check) and explains the agent check and validation.",
+      "evidence": [
+        {"kind": "say", "at": "01:00", "frame": "", "quote": "If so, our team will validate the request and will mark it completed."},
+        {"kind": "see", "at": "01:00", "frame": "t00060.jpg", "quote": "Step 2 'Revibe Agent Check' labelled NO ACTION REQUIRED; 'Once validated the request is marked Completed'; Status: Pending Collection."}
+      ],
+      "says": "If so, our team will validate the request and will mark it completed.",
+      "why": ""
+    },
+    {
+      "at": "01:06-01:27",
+      "screen": "",
+      "action": "Points at step 3 and explains the two pickup cases (AE & ZA on the slide, described by the trainer as UAE and South Africa; SA, described as Saudi Arabia).",
+      "evidence": [
+        {"kind": "say", "at": "01:09", "frame": "", "quote": "Either this is a UAE and South Africa order, and in this case the airway bill will be"},
+        {"kind": "say", "at": "01:20", "frame": "", "quote": "Either it is a Saudi Arabia order and you will have to create the airway bill manually so"},
+        {"kind": "see", "at": "01:20", "frame": "t00080.jpg", "quote": "Step 3 Pickup, header 'ACTION REQUIRED IF SA': 'AE & ZA: AWB auto-created — moves to Under Collection immediately' and 'SA: Seller to create the AWB manually'."}
+      ],
+      "says": "Either it is a Saudi Arabia order and you will have to create the airway bill manually so",
+      "why": ""
+    },
+    {
+      "at": "01:32-01:59",
+      "screen": "",
+      "action": "Points at step 4 (Seller action); explains that the claim moves to Under QC for the seller, who then marks it valid or invalid. Explains the valid path first.",
+      "evidence": [
+        {"kind": "say", "at": "01:33", "frame": "", "quote": "Once the courier company will deliver the device to you {the?} stages of the claim will move to"},
+        {"kind": "say", "at": "01:45", "frame": "", "quote": "Either you will consider the claim as valid or invalid."},
+        {"kind": "see", "at": "01:40", "frame": "t00100.jpg", "quote": "Step 4 'Seller action' (ACTION REQUIRED): 'Once the Courier Company delivers the device to you, the seller can see the claim which status become Under QC'; Mark VALID / Mark INVALID."}
+      ],
+      "says": "Either you will consider the claim as valid or invalid.",
+      "why": ""
+    },
+    {
+      "at": "02:00-02:16",
+      "screen": "",
+      "action": "Points at the VALID box (Instant Refund) and then explains that the invalid path needs a proof.",
+      "evidence": [
+        {"kind": "say", "at": "02:03", "frame": "", "quote": "If you consider the claim as being invalid, then you will need to provide a proof."},
+        {"kind": "see", "at": "02:00", "frame": "t00120.jpg", "quote": "VALID box: 'Instant Refund — The customer is refunded immediately. Case closed.' Cursor on the box."}
+      ],
+      "says": "If you consider the claim as being invalid, then you will need to provide a proof.",
+      "why": ""
+    },
+    {
+      "at": "02:20-02:49",
+      "screen": "",
+      "action": "Explains that Revibe's expert team checks the proof, that insufficient proof sends the claim back to the seller, and that good proof goes to the Revibe Lab.",
+      "evidence": [
+        {"kind": "say", "at": "02:21", "frame": "", "quote": "At this stage, our expert team will check the proof that you provide."},
+        {"kind": "say", "at": "02:44", "frame": "", "quote": "then the device will be sent to ReviveLab for a final decision."},
+        {"kind": "see", "at": "02:40", "frame": "t00140.jpg", "quote": "'Seller submits proof — Required: written message + supporting proof to challenge the customer claim.' Cursor on that box."}
+      ],
+      "says": "At this stage, our expert team will check the proof that you provide.",
+      "why": ""
+    },
+    {
+      "at": "02:52-03:16",
+      "screen": "",
+      "action": "Explains the two Revibe Lab outcomes and the customer choice after an invalid lab decision. Ends the theory part.",
+      "evidence": [
+        {"kind": "say", "at": "02:52", "frame": "", "quote": "If our team internally decides that the claim is valid, the customer will be immediately refunded and the"},
+        {"kind": "say", "at": "03:09", "frame": "", "quote": "Either he pays and we will ship the device to him, either he is not willing to pay"},
+        {"kind": "see", "at": "03:00", "frame": "t00180.jpg", "quote": "'Revibe Lab final decision': 'Valid → full refund + ship back to seller / Invalid → customer pays = ship to customer; doesn't pay = device kept'."},
+        {"kind": "say", "at": "03:16", "frame": "", "quote": "This is for the theory."}
+      ],
+      "says": "This is for the theory.",
+      "why": ""
+    },
+    {
+      "at": "03:20-03:35",
+      "screen": "",
+      "action": "Trainer opens the customer account (the portal customers use) and shows order 91985 (iPhone 8, Delivered, 6 May 2026).",
+      "evidence": [
+        {"kind": "say", "at": "03:21", "frame": "", "quote": "I am here on my account {which?} is the portal provided to the customers so they can check"},
+        {"kind": "see", "at": "03:21", "frame": "t00200.jpg", "quote": "Orders page at revibe.me/pages/my-account; Order 91985 'Delivered' with 'Raise a claim' button; order 65068 shows Cancelled with 'Raise a claim' greyed out."}
+      ],
+      "says": "I am here on my account {which?} is the portal provided to the customers so they can check",
+      "why": ""
+    },
+    {
+      "at": "03:35-03:46",
+      "screen": "",
+      "action": "Trainer says the device was delivered and that he, as a customer, will raise a claim on the delivered order 91985.",
+      "evidence": [
+        {"kind": "say", "at": "03:35", "frame": "", "quote": "The device has been delivered {and?} as a customer I will decide to raise a claim."},
+        {"kind": "see", "at": "03:35", "frame": "t00215.jpg", "quote": "Orders page for order 91985 (Delivered, 6 May 2026 9:17 AM) with the 'Raise a claim' button at top right; cursor near the order timeline. No claim form open yet."}
+      ],
+      "says": "The device has been delivered {and?} as a customer I will decide to raise a claim.",
+      "why": ""
+    },
+    {
+      "at": "03:40-04:15",
+      "screen": "",
+      "action": "Claims Form is filled: order number 91985 and product iphone-8 Space Grey / 64 GB / Good are selected; then Type of request, What was the issue?, Please specify more about the issue?, Refund Method, and a Detail Description.",
+      "evidence": [
+        {"kind": "say", "at": "03:40", "frame": "", "quote": "This is the order number and here is the product."},
+        {"kind": "say", "at": "03:46", "frame": "", "quote": "I have received my order and I want to return it."},
+        {"kind": "see", "at": "03:40", "frame": "t00222.jpg", "quote": "Claims Form: Order # 91985; Product 'iphone-8 Space Grey / 64 GB / Good'; Order Status Delivered; Working days since order confirmed 1; Days since delivery 1."},
+        {"kind": "see", "at": "03:37", "frame": "t00217.jpg", "quote": "Claims Form opened from 'Raise a claim': Email address pierre.villaceque@gmail.com, Phone Number, Address, Order # and Product still empty."}
+      ],
+      "says": "This is the order number and here is the product.",
+      "why": ""
+    },
+    {
+      "at": "03:50-04:05",
+      "screen": "",
+      "action": "Selects issue 'The device is not working as expected', then 'Battery draining' under 'Please specify more about the issue?'. Refund Method is set to 'Original Payment Method' (the refund type stored on the claim, see step at 04:30).",
+      "evidence": [
+        {"kind": "say", "at": "03:51", "frame": "", "quote": "And here I said that the issue is like the device is not working as expected."},
+        {"kind": "say", "at": "04:05", "frame": "", "quote": "original payment method {battery?} draining very quickly"},
+        {"kind": "see", "at": "04:05", "frame": "t00242.jpg", "quote": "'Battery draining' selected; help text 'We need a screenshot that shows the % of Battery Health of the phone...'; Refund Method dropdown open with 'Store credit (get additional AED 100 with store credit)' and 'Original Payment Method' (cursor on Original Payment Method, selection not visible in this frame)."}
+      ],
+      "says": "original payment method {battery?} draining very quickly",
+      "why": ""
+    },
+    {
+      "at": "04:15-04:29",
+      "screen": "",
+      "action": "Trainer says he attaches a video or other attachment; the file picker is used and a PNG screenshot is selected. He then reads the important notice, ticks the testing confirmation option and submits.",
+      "evidence": [
+        {"kind": "say", "at": "04:15", "frame": "", "quote": "and here let's say that I put like a video whatever any attachments this is the way I"},
+        {"kind": "see", "at": "04:17", "frame": "t00257.jpg", "quote": "macOS file picker over the claim form; selected file is 'Capture d'écran 2026-05-06 à 09.33.44' (PNG, 440 ko), with a preview of the Revibe Return Process slide."},
+        {"kind": "say", "at": "04:23", "frame": "", "quote": "need to send back the device I agree to perform the necessary testing before submitting the form and"},
+        {"kind": "see", "at": "04:23", "frame": "t00261.jpg", "quote": "'Important notice: Proper device handling for warranty claims'; two radio options 'I agree to have performed the necessary testings before submitting the form' and 'I have not done the necessary testing before submitting the form'; Submit button greyed while no option is selected."}
+      ],
+      "says": "need to send back the device I agree to perform the necessary testing before submitting the form and",
+      "why": ""
+    },
+    {
+      "at": "04:30-04:34",
+      "screen": "",
+      "action": "Claim is submitted; the order page shows the new claim row with a timeline.",
+      "evidence": [
+        {"kind": "see", "at": "04:30", "frame": "t00270.jpg", "quote": "Toast 'Claim submitted successfully'; claim o941bQ, Claim Date 06/05/2026 12:01 PM, Claim type Issue, Refund Method Original Payment Method, Refund Amount AED 319, Request Return, Stage Claim created, Open; timeline Claim Created / Pending Collection / Under Collection / In Transit / Under QC / Ready For Refund / Refunded; 'We received your claim form and we are working on it.'"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "04:34-04:41",
+      "screen": "",
+      "action": "Switches to the admin portal Orders page (admin.revibe.me/dashboard); trainer calls it 'your new Revibe portal' where returns are managed; cursor moves to Claim Management.",
+      "evidence": [
+        {"kind": "say", "at": "04:34", "frame": "", "quote": "Now here welcome to your new Revive portal where you will be able to manage directly the returns."},
+        {"kind": "see", "at": "04:34", "frame": "t00273.jpg", "quote": "admin.revibe.me/dashboard, Orders page, Search Key 'Order number'; left menu Dashboard, Order Management, Claim Management, Payment Tool, Unassigned Orders, Invoices, Bulk Update."}
+      ],
+      "says": "Now here welcome to your new Revive portal where you will be able to manage directly the returns.",
+      "why": ""
+    },
+    {
+      "at": "04:41-04:52",
+      "screen": "",
+      "action": "Expands Claim Management and points at R - Seller Returns.",
+      "evidence": [
+        {"kind": "say", "at": "04:41", "frame": "", "quote": "Here you just need to go to claim management {you?} can already manage the cancellations."},
+        {"kind": "say", "at": "04:47", "frame": "", "quote": "Now you will be able to manage the returns from here seller returns."},
+        {"kind": "see", "at": "04:47", "frame": "t00288.jpg", "quote": "Claim Management submenu: Cancellations; Seller - My Compensati...; R - Revibe Returns; R - Seller Returns (hovered; status bar URL admin.revibe.me/dashboard/claim/14); R - Seller Request; R - Seller Returns SA."}
+      ],
+      "says": "Now you will be able to manage the returns from here seller returns.",
+      "why": ""
+    },
+    {
+      "at": "04:52-05:12",
+      "screen": "",
+      "action": "Shows that the new claim is already in Under QC and gives the reason.",
+      "evidence": [
+        {"kind": "say", "at": "04:52", "frame": "", "quote": "You can see here that my {that?} I raised has been automatically updated."},
+        {"kind": "say", "at": "05:01", "frame": "", "quote": "Here it's under QC."},
+        {"kind": "say", "at": "05:04", "frame": "", "quote": "Because the two previous steps have been completed by REVIBE."},
+        {"kind": "see", "at": "04:52", "frame": "t00292.jpg", "quote": "Group header '3. Under QC (1)'; row o941bQ, Order Help 91985-1, Stage Under QC, Type Return, Subtype Issue, Original Supplier Prime Cell, Repair Supplier Prime Cell, Refund Type Original Payment..., Status Open, Updated By pierre@revibe.me."}
+      ],
+      "says": "Here it's under QC.",
+      "why": "Because the two previous steps have been completed by REVIBE."
+    },
+    {
+      "at": "05:12-05:26",
+      "screen": "",
+      "action": "Explains that the agent accepted the proof and the airway bill was generated automatically, so the device has been delivered to the seller; points at the claim row.",
+      "evidence": [
+        {"kind": "say", "at": "05:10", "frame": "", "quote": "The agent considered that the claim, that the proof provided by the customer are relevant enough {and?} an"},
+        {"kind": "say", "at": "05:20", "frame": "", "quote": "airway bill has been automatically generated and now the {device?} has been delivered to the seller."},
+        {"kind": "see", "at": "05:12", "frame": "t00312.jpg", "quote": "Cursor on the o941bQ row, Order Help 91985-1 with copy icon."}
+      ],
+      "says": "airway bill has been automatically generated and now the {device?} has been delivered to the seller.",
+      "why": ""
+    },
+    {
+      "at": "05:26-05:30",
+      "screen": "",
+      "action": "Clicks the claim row, which opens the claim side panel.",
+      "evidence": [
+        {"kind": "say", "at": "05:26", "frame": "", "quote": "So what you just need to do is to click on it."},
+        {"kind": "see", "at": "05:25", "frame": "t00325.jpg", "quote": "Claim o941bQ side panel open with buttons 'Mark valid', 'Mark invalid', 'Order details'; Edit and Tracker buttons at top right; Status Open."}
+      ],
+      "says": "So what you just need to do is to click on it.",
+      "why": ""
+    },
+    {
+      "at": "05:30-05:37",
+      "screen": "",
+      "action": "Names the two options (mark valid or mark invalid) and starts going through the claim details.",
+      "evidence": [
+        {"kind": "say", "at": "05:30", "frame": "", "quote": "As I mentioned, two options, either mark valid or mark invalid."},
+        {"kind": "say", "at": "05:35", "frame": "", "quote": "You can see here all the details related to the claim,"},
+        {"kind": "see", "at": "05:30", "frame": "t00330.jpg", "quote": "Claim Details fields: Issue 'The device is not working as expected'; Issue Details 'Battery draining'; Description 'Battery draining very quickly'; Missing document 'Missing proof'; Information complete? 'Completed'."}
+      ],
+      "says": "As I mentioned, two options, either mark valid or mark invalid.",
+      "why": ""
+    },
+    {
+      "at": "05:37-05:54",
+      "screen": "",
+      "action": "Scrolls through the Statuses and tracking sections: Statuses (Pickup Shipment Status Delivered), then Tracking, Pickup Tracking, LAB Tracking (empty) and Shipback Tracking (empty).",
+      "evidence": [
+        {"kind": "say", "at": "05:42", "frame": "", "quote": "the tracking information related to the initial shipment, related to the pickup shipment, related to the lab and"},
+        {"kind": "say", "at": "05:51", "frame": "", "quote": "{even?} eventually related to the ship back as well."},
+        {"kind": "see", "at": "05:37", "frame": "t00337.jpg", "quote": "Statuses section: Type Return, Subtype Issue, Stage Under QC, Status Open, Received By Supplier Yes, Pickup Shipment Status Delivered."},
+        {"kind": "see", "at": "05:42", "frame": "t00342.jpg", "quote": "Tracking Information (Tracking ID Manual, Tracking Company The Courier Guy); Pickup Tracking Information (ID 25321802, Quiqup); LAB Tracking Information (empty); Shipback Tracking Information (empty)."},
+        {"kind": "see", "at": "05:48", "frame": "t00340.jpg", "quote": "Same tracking blocks scrolled; LAB and Shipback Tracking fields empty."}
+      ],
+      "says": "the tracking information related to the initial shipment, related to the pickup shipment, related to the lab and",
+      "why": ""
+    },
+    {
+      "at": "05:55-06:03",
+      "screen": "",
+      "action": "Points at the Payment & Delivery and Customer Information sections, then the Financial Summary.",
+      "evidence": [
+        {"kind": "say", "at": "05:55", "frame": "", "quote": "You can see all the information also related to the customer,"},
+        {"kind": "say", "at": "06:00", "frame": "", "quote": "the financial summary and stuff like this."},
+        {"kind": "see", "at": "05:55", "frame": "t00354.jpg", "quote": "Payment & Delivery: Payment method Card, Refund type Original Payment Method; Customer Information (customer name, phone, email, address, country, city) shown."},
+        {"kind": "see", "at": "06:00", "frame": "t00360.jpg", "quote": "Financial Summary: Gross sale 319; Order amount 319; Refund to cx amount 319; Discount empty."}
+      ],
+      "says": "the financial summary and stuff like this.",
+      "why": ""
+    },
+    {
+      "at": "06:03-06:07",
+      "screen": "",
+      "action": "Points at the attachments, where the customer proof is.",
+      "evidence": [
+        {"kind": "say", "at": "06:03", "frame": "", "quote": "Here you can find the proof provided by the customer."},
+        {"kind": "see", "at": "06:03", "frame": "t00366.jpg", "quote": "Notes section (empty) and Attachments section listing one PNG file (name contains 'Capture d...cran 2026-05-06 ... 09.33.44')."}
+      ],
+      "says": "Here you can find the proof provided by the customer.",
+      "why": ""
+    },
+    {
+      "at": "06:07-06:20",
+      "screen": "",
+      "action": "Restates the two options and explains that marking valid refunds the customer automatically and closes the case.",
+      "evidence": [
+        {"kind": "say", "at": "06:13", "frame": "", "quote": "If you market valid the customer will be refunded automatically and immediately {the?} case will be closed."},
+        {"kind": "see", "at": "06:07", "frame": "t00379.jpg", "quote": "Claim panel top: 'Mark valid' and 'Mark invalid' buttons; tooltip 'Mark invalid' shown under the cursor."}
+      ],
+      "says": "If you market valid the customer will be refunded automatically and immediately {the?} case will be closed.",
+      "why": ""
+    },
+    {
+      "at": "06:20-06:37",
+      "screen": "",
+      "action": "Explains that marking invalid requires documentation, then opens the attachment upload dialog to show where documents go.",
+      "evidence": [
+        {"kind": "say", "at": "06:20", "frame": "", "quote": "If you mark it invalid, you will need to provide some documentation."},
+        {"kind": "say", "at": "06:36", "frame": "", "quote": "And here you're able to provide like whatever claim, whatever document that you want."},
+        {"kind": "see", "at": "06:37", "frame": "t00397.jpg", "quote": "Attachment upload dialog with Cancel and Add buttons and the note 'Attachment should be less than 100 mb'; macOS file picker behind it (French dialog)."}
+      ],
+      "says": "And here you're able to provide like whatever claim, whatever document that you want.",
+      "why": ""
+    }
+  ],
+  "facts": [
+    {
+      "type": "rule",
+      "statement": "Customers can return a device within 15 days after delivery.",
+      "evidence": [
+        {"kind": "say", "at": "00:19", "frame": "", "quote": "The customers are able to return a device within 15 days after the delivery."},
+        {"kind": "see", "at": "00:00", "frame": "t00000.jpg", "quote": "Slide banner: 'Eligibility: 15 days from delivery'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "A second valid claim on the same order is accepted even after the 15-day period.",
+      "evidence": [
+        {"kind": "say", "at": "00:25", "frame": "", "quote": "are also able to return a device if any second valid claim is raised for the same"},
+        {"kind": "say", "at": "00:33", "frame": "", "quote": "order even after the 15 days period."},
+        {"kind": "see", "at": "00:20", "frame": "t00020.jpg", "quote": "Slide banner: 'any second valid claim on the same order is accepted even after 15 days.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "The customer raises the return claim through the My Account section on Revibe. The claim starts with status Pending (Revibe team to review). No seller action at this step.",
+      "evidence": [
+        {"kind": "say", "at": "00:40", "frame": "", "quote": "First step, the customer will connect on Revive My Account Portal and will raise a claim."},
+        {"kind": "see", "at": "00:40", "frame": "t00040.jpg", "quote": "Step 1 'Customer raise claim': 'The customer raises a return through the My Account section on Revibe'; Status: Pending (Revibe team to review); label NO ACTION REQUIRED."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "At the Revibe Agent Check step, the Revibe team reviews the customer's proof. If it is relevant, the request is validated and marked Completed (status Pending Collection). No seller action at this step.",
+      "evidence": [
+        {"kind": "say", "at": "00:49", "frame": "", "quote": "Our team of experts will review the claim raised by the customer and will check if the proof"},
+        {"kind": "say", "at": "01:00", "frame": "", "quote": "If so, our team will validate the request and will mark it completed."},
+        {"kind": "see", "at": "01:00", "frame": "t00060.jpg", "quote": "Step 2 'Revibe Agent Check' (NO ACTION REQUIRED): 'Once validated the request is marked Completed'; Status: Pending Collection."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "For UAE and South Africa orders (AE & ZA on the slide), the airway bill (AWB) is created automatically and the claim moves to Under Collection immediately. The seller has no action for this pickup.",
+      "evidence": [
+        {"kind": "say", "at": "01:09", "frame": "", "quote": "Either this is a UAE and South Africa order, and in this case the airway bill will be"},
+        {"kind": "say", "at": "01:15", "frame": "", "quote": "automatically created, {the?} device collected from the customer and delivered to you."},
+        {"kind": "see", "at": "01:20", "frame": "t00080.jpg", "quote": "Step 3 Pickup: 'AE & ZA: AWB auto-created — moves to Under Collection immediately'; header 'ACTION REQUIRED IF SA'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "For Saudi Arabia orders (SA), the seller creates the airway bill manually so that the device is collected and delivered to the seller.",
+      "evidence": [
+        {"kind": "say", "at": "01:20", "frame": "", "quote": "Either it is a Saudi Arabia order and you will have to create the airway bill manually so"},
+        {"kind": "say", "at": "01:27", "frame": "", "quote": "the device gets collected and delivered to you."},
+        {"kind": "see", "at": "01:20", "frame": "t00080.jpg", "quote": "Step 3 header 'ACTION REQUIRED IF SA'; 'SA: Seller to create the AWB manually'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Once the courier company delivers the device to the seller, the claim stage moves to Under QC in the seller portal. The seller then chooses Mark VALID or Mark INVALID.",
+      "evidence": [
+        {"kind": "say", "at": "01:33", "frame": "", "quote": "Once the courier company will deliver the device to you {the?} stages of the claim will move to"},
+        {"kind": "say", "at": "01:40", "frame": "", "quote": "{under?} QC in your portal."},
+        {"kind": "see", "at": "01:40", "frame": "t00100.jpg", "quote": "Step 4 'Seller action' (ACTION REQUIRED): 'Once the Courier Company delivers the device to you, the seller can see the claim which status become Under QC'; Mark VALID / Mark INVALID."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Mark VALID: the customer is refunded immediately and the case is closed.",
+      "evidence": [
+        {"kind": "say", "at": "01:50", "frame": "", "quote": "If you consider the claim as valid, the customer will be immediately refunded and the case will be"},
+        {"kind": "say", "at": "01:58", "frame": "", "quote": "immediately closed."},
+        {"kind": "see", "at": "02:00", "frame": "t00120.jpg", "quote": "VALID box: 'Instant Refund — The customer is refunded immediately. Case closed.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Implied: Mark VALID does not require a proof; the proof requirement is stated only for the invalid path.",
+      "evidence": [
+        {"kind": "say", "at": "02:03", "frame": "", "quote": "If you consider the claim as being invalid, then you will need to provide a proof."},
+        {"kind": "see", "at": "02:00", "frame": "t00120.jpg", "quote": "VALID box lists no proof step; only 'Instant Refund' and 'Case closed.'"}
+      ],
+      "confidence": "low",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Mark INVALID: the seller must provide proof to challenge the customer claim. The slide lists the required proof as a written message plus supporting proof.",
+      "evidence": [
+        {"kind": "say", "at": "02:03", "frame": "", "quote": "If you consider the claim as being invalid, then you will need to provide a proof."},
+        {"kind": "see", "at": "02:20", "frame": "t00140.jpg", "quote": "'Seller submits proof — Required: written message + supporting proof to challenge the customer claim.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "After a seller marks a claim invalid, the Revibe expert team checks the proof. If the proof is not relevant, the seller is asked again to mark the claim valid or invalid, and if the claim is invalid the seller is asked for a better proof.",
+      "evidence": [
+        {"kind": "say", "at": "02:21", "frame": "", "quote": "At this stage, our expert team will check the proof that you provide."},
+        {"kind": "say", "at": "02:27", "frame": "", "quote": "If the proof is not relevant, we will ask you again to mark if the claim is valid"},
+        {"kind": "say", "at": "02:34", "frame": "", "quote": "{and?} if invalid, we will ask you to provide a better proof."},
+        {"kind": "see", "at": "02:40", "frame": "t00160.jpg", "quote": "'Revibe checks proof': 'Good proof → device sent to Lab / Insufficient → seller asked for new proof and re-marks Valid/Invalid.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "If the proof is good enough, the device is sent to the Revibe Lab for a final decision.",
+      "evidence": [
+        {"kind": "say", "at": "02:40", "frame": "", "quote": "If we consider that the proof you provided is good enough,"},
+        {"kind": "say", "at": "02:44", "frame": "", "quote": "then the device will be sent to ReviveLab for a final decision."},
+        {"kind": "see", "at": "02:40", "frame": "t00160.jpg", "quote": "'Good proof → device sent to Lab'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Revibe Lab decision valid: the customer receives a full refund and the device is shipped back to the seller.",
+      "evidence": [
+        {"kind": "say", "at": "02:52", "frame": "", "quote": "If our team internally decides that the claim is valid, the customer will be immediately refunded and the"},
+        {"kind": "say", "at": "03:01", "frame": "", "quote": "device will be shipped back to you."},
+        {"kind": "see", "at": "03:00", "frame": "t00180.jpg", "quote": "'Revibe Lab final decision': 'Valid → full refund + ship back to seller'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Revibe Lab decision invalid: the customer chooses to pay, and then the device is shipped to the customer, or does not pay, and Revibe keeps the device.",
+      "evidence": [
+        {"kind": "say", "at": "03:02", "frame": "", "quote": "If our team says that the claim is invalid,"},
+        {"kind": "say", "at": "03:09", "frame": "", "quote": "Either he pays and we will ship the device to him, either he is not willing to pay"},
+        {"kind": "say", "at": "03:13", "frame": "", "quote": "and Revive will keep the device."},
+        {"kind": "see", "at": "03:00", "frame": "t00180.jpg", "quote": "'Invalid → customer pays = ship to customer; doesn't pay = device kept'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "Refunds and charges appear in the payment tool.",
+      "evidence": [
+        {"kind": "see", "at": "00:00", "frame": "t00000.jpg", "quote": "Slide footer: 'Payment: all refunds and charges appear in the payment tool.'"},
+        {"kind": "see", "at": "04:34", "frame": "t00273.jpg", "quote": "Admin left menu item 'Payment Tool'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The portal shows four tracking blocks for a claim: Tracking (original shipment), Pickup Tracking (return), Ship-Back (sent to customer) and Lab (testing).",
+      "evidence": [
+        {"kind": "see", "at": "00:00", "frame": "t00000.jpg", "quote": "Slide footer: 'Portal info displayed: Tracking (original shipment) · Pickup Tracking (return) · Ship-Back (sent to customer) · Lab (testing).'"},
+        {"kind": "say", "at": "05:42", "frame": "", "quote": "the tracking information related to the initial shipment, related to the pickup shipment, related to the lab and"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Claim status changes to Under QC for the seller once the Revibe agent check and the pickup (AWB) are done. The trainer says the status updated automatically; he does not describe a manual step.",
+      "evidence": [
+        {"kind": "say", "at": "05:03", "frame": "", "quote": "Why?"},
+        {"kind": "say", "at": "05:04", "frame": "", "quote": "Because the two previous steps have been completed by REVIBE."},
+        {"kind": "see", "at": "04:52", "frame": "t00292.jpg", "quote": "Claim o941bQ listed under group '3. Under QC (1)'."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "In the admin portal, seller returns are managed under Claim Management > R - Seller Returns.",
+      "evidence": [
+        {"kind": "say", "at": "04:41", "frame": "", "quote": "Here you just need to go to claim management {you?} can already manage the cancellations."},
+        {"kind": "say", "at": "04:47", "frame": "", "quote": "Now you will be able to manage the returns from here seller returns."},
+        {"kind": "see", "at": "04:47", "frame": "t00288.jpg", "quote": "Claim Management submenu item 'R - Seller Returns' (URL admin.revibe.me/dashboard/claim/14)."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The R - Seller Returns claim list groups claims by stage (for example '3. Under QC (1)') and shows columns including Claim ID, Claim Date, Order Help, Stage, Type, Subtype, Original Supplier, Repair Supplier, Type Of Request, Revibe Comment, Supplier Comment, Since creation, Since last stage, Since last update, Refund To Cx S... (truncated on screen), Refund Type, Updated By, Updated At, Valid Claim?, Status and Explanation.",
+      "evidence": [
+        {"kind": "see", "at": "04:52", "frame": "t00292.jpg", "quote": "Claims table header row as listed; group header '3. Under QC (1)'; '1-1 of 1' pager; Rows per page 100."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "To work on a claim, click its row in the claims list. A side panel opens with three buttons: Mark valid, Mark invalid and Order details.",
+      "evidence": [
+        {"kind": "say", "at": "05:26", "frame": "", "quote": "So what you just need to do is to click on it."},
+        {"kind": "say", "at": "05:30", "frame": "", "quote": "As I mentioned, two options, either mark valid or mark invalid."},
+        {"kind": "see", "at": "05:25", "frame": "t00325.jpg", "quote": "Claim panel top buttons: 'Mark valid', 'Mark invalid', 'Order details'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The claim side panel contains these sections: Claim Details, Statuses, Tracking Information, Pickup Tracking Information, LAB Tracking Information, Shipback Tracking Information, Payment & Delivery, Customer Information, Financial Summary, Bank Details, Notes and Attachments.",
+      "evidence": [
+        {"kind": "say", "at": "05:35", "frame": "", "quote": "You can see here all the details related to the claim,"},
+        {"kind": "say", "at": "05:55", "frame": "", "quote": "You can see all the information also related to the customer,"},
+        {"kind": "see", "at": "06:03", "frame": "t00354.jpg", "quote": "Section headers as listed, scrolled through the panel."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The Attachments section of the claim holds the proof provided by the customer.",
+      "evidence": [
+        {"kind": "say", "at": "06:03", "frame": "", "quote": "Here you can find the proof provided by the customer."},
+        {"kind": "see", "at": "06:03", "frame": "t00366.jpg", "quote": "Attachments section listing one PNG file."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "Marking a claim invalid requires documentation. The upload dialog says 'Attachment should be less than 100 mb'.",
+      "evidence": [
+        {"kind": "say", "at": "06:20", "frame": "", "quote": "If you mark it invalid, you will need to provide some documentation."},
+        {"kind": "say", "at": "06:36", "frame": "", "quote": "And here you're able to provide like whatever claim, whatever document that you want."},
+        {"kind": "see", "at": "06:37", "frame": "t00397.jpg", "quote": "Upload dialog text 'Attachment should be less than 100 mb' with Cancel and Add buttons."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "For a battery-draining claim, the customer form asks for a screenshot that shows the battery health percentage, and links to a guide: How to provide valid proof?",
+      "evidence": [
+        {"kind": "see", "at": "04:05", "frame": "t00242.jpg", "quote": "'We need a screenshot that shows the % of Battery Health of the phone. To make sure valid proof is provided and ensure a quick process, please check the following guide: How to provide valid proof?'"},
+        {"kind": "say", "at": "03:57", "frame": "", "quote": "I would say that there {like?} a battery issue and that I want to get refunded with the"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The customer must pick one of two options in the important notice about testing before the Submit button becomes active. The on-screen text for the options is 'I agree to have performed the necessary testings before submitting the form' and 'I have not done the necessary testing before submitting the form'.",
+      "evidence": [
+        {"kind": "say", "at": "04:23", "frame": "", "quote": "need to send back the device I agree to perform the necessary testing before submitting the form and"},
+        {"kind": "see", "at": "04:23", "frame": "t00261.jpg", "quote": "Radio options 'I agree to have performed the necessary testings before submitting the form' and 'I have not done the necessary testing before submitting the form'; Submit button greyed while no option is selected."}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "warning",
+      "statement": "Customer notice: include all necessary items and send the device back in its original box. Failing to comply may result in the claim being delayed or rejected.",
+      "evidence": [
+        {"kind": "see", "at": "04:23", "frame": "t00261.jpg", "quote": "'Important notice: Proper device handling for warranty claims ... Make sure you include all necessary items and that you send it back in its original box. Failing to comply with these instructions may result in your claim being delayed or rejected.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The customer claim form asks for: Order #, Product, Type of request, What was the issue?, Please specify more about the issue?, Refund Method and Detail Description. The issue options include Battery draining, Software issue, Physical condition, Screen issue, Defective charger and Overheating.",
+      "evidence": [
+        {"kind": "say", "at": "03:50", "frame": "", "quote": "And here I said that the issue is like the device is not working as expected."},
+        {"kind": "see", "at": "03:57", "frame": "t00235.jpg", "quote": "'Please specify more about the issue?' dropdown options: Battery draining; Software issue; Physical condition; Screen issue; Defective charger; Overheating."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "The customer's refund method choice is Store credit (get additional AED 100 with store credit) or Original Payment Method.",
+      "evidence": [
+        {"kind": "see", "at": "04:05", "frame": "t00242.jpg", "quote": "Refund Method options: 'Store credit (get additional AED 100 with store credit)'; 'Original Payment Method'."},
+        {"kind": "say", "at": "03:57", "frame": "", "quote": "and that I want to get refunded with the"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Customer-facing store credit note on the claim form: store credits can be used to purchase items on Revibe, and credits can be used on any product and combined with any payment method.",
+      "evidence": [
+        {"kind": "see", "at": "03:50", "frame": "t00230.jpg", "quote": "'Store credits can be used to purchase items on Revibe. ... Credits can be used on any product and are combinable with any payment method. See more on credits terms & conditions.'"}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Customer-facing claim timeline: Claim Created, Pending Collection, Under Collection, In Transit, Under QC, Ready For Refund, Refunded. The message shown after submission is 'We received your claim form and we are working on it.'",
+      "evidence": [
+        {"kind": "see", "at": "04:30", "frame": "t00270.jpg", "quote": "Timeline labels: Claim Created, Pending Collection, Under Collection, In Transit, Under QC, Ready For Refund, Refunded; text 'We received your claim form and we are working on it.'"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "The claim side panel Statuses section includes these fields: Valid claim, Received By Supplier, Customer wants AWB?, Refund to cx status, Refund to supplier status, Credit from supplier status, Credit from customer status, Refunded to cx at, Pickup Shipment Status, LAB Shipment Status and Shipback Shipment Status.",
+      "evidence": [
+        {"kind": "see", "at": "05:37", "frame": "t00337.jpg", "quote": "Statuses fields as listed; Pickup Shipment Status shows 'Delivered' for claim o941bQ."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "The claim side panel Claim Details section includes Issue, Issue Details, Description, Explanation to show, Order details, Information complete?, Missing document, Revibe confirmation, LAB decision, Customer paid?, Invalid claim comments, Revibe confirmation comments, LAB comments, Revibe Comments and Supplier Comments.",
+      "evidence": [
+        {"kind": "see", "at": "05:30", "frame": "t00330.jpg", "quote": "Claim Details fields as listed; 'Missing document: Missing proof'; 'Information complete?: Completed'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Order 65068 on the customer orders page shows status Cancelled and its 'Raise a claim' button is greyed out.",
+      "evidence": [
+        {"kind": "see", "at": "03:21", "frame": "t00200.jpg", "quote": "Order 65068 (Date & Time 19/05/2025 9:35 AM): Order Status 'Cancelled'; 'Raise a claim' button greyed out."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "The claim intake slide sets the invalid path as: Proof Required, then Revibe Review, then Lab Verification.",
+      "evidence": [
+        {"kind": "see", "at": "00:00", "frame": "t00000.jpg", "quote": "INVALID dispute path: 'Proof Required → Revibe Review → Lab Verification'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    }
+  ],
+  "screens": [
+    {
+      "name": "Aperçu: Revibe-Return-Process.pdf",
+      "shows": "Workflow slide 'Revibe Return Process': 4 steps (Customer raise claim; Revibe Agent Check; Pickup; Seller action), dispute resolution (VALID / INVALID, Proof Required → Revibe Review → Lab Verification), Revibe Lab final decision, portal info line, payment line.",
+      "at": "00:00-03:16",
+      "where": "Shown full-screen in Aperçu on the presenter's Mac",
+      "frame": "t00000.jpg to t00180.jpg"
+    },
+    {
+      "name": "Chrome: revibe.me/pages/my-account (customer Orders page)",
+      "shows": "Customer order list with Order number, Phone number, Address, Date & Time, Quantity, Total Amount, Change address, Download receipt, Raise a claim, status timeline (Order created / At quality check / Shipped / Delivered); filters Select Date, Order Status, Search.",
+      "at": "03:20-03:35",
+      "where": "Customer account portal",
+      "frame": "t00200.jpg, t00215.jpg"
+    },
+    {
+      "name": "Chrome: Claims Form modal (customer)",
+      "shows": "Fields: Email address, Phone Number, Address, Order #, Product, Order Status, Order Date, Working days since order confirmed, Days since delivery, Type of request, What was the issue?, Please specify more about the issue?, Refund Method, Detail Description, Back / Next buttons.",
+      "at": "03:40-04:15",
+      "where": "Opened by 'Raise a claim' on a delivered order",
+      "frame": "t00217.jpg, t00222.jpg, t00224.jpg, t00230.jpg, t00235.jpg, t00237.jpg, t00239.jpg, t00242.jpg"
+    },
+    {
+      "name": "Chrome: Claims Form attachment and submit step",
+      "shows": "Drop or Select file area (attachment should be less than 100 mb), 'Important notice: Proper device handling for warranty claims' with five packing photos, two radio options for testing confirmation, Back and Submit buttons.",
+      "at": "04:15-04:29",
+      "where": "Customer claim form, last step",
+      "frame": "t00257.jpg, t00261.jpg"
+    },
+    {
+      "name": "Chrome: Orders page after submission",
+      "shows": "Toast 'Claim submitted successfully'; claim o941bQ row with Claim Date 06/05/2026 12:01 PM, Claim type Issue, Refund Method Original Payment Method, Refund Amount AED 319, Request Return, Stage Claim created, Open; claim timeline.",
+      "at": "04:30",
+      "where": "Customer account portal",
+      "frame": "t00270.jpg"
+    },
+    {
+      "name": "admin.revibe.me/dashboard (Orders)",
+      "shows": "Left menu: Dashboard, Order Management, Claim Management, Payment Tool, Unassigned Orders, Invoices, Bulk Update. Orders page with Search Key 'Order number' dropdown, search box 'Search comma separated multiple order numbers and press enter', Export, More Filters.",
+      "at": "04:34",
+      "where": "Admin portal (dark theme)",
+      "frame": "t00273.jpg, t00278.jpg"
+    },
+    {
+      "name": "Admin: Claim Management submenu",
+      "shows": "Cancellations; Seller - My Compensati...; R - Revibe Returns; R - Seller Returns; R - Seller Request; R - Seller Returns SA.",
+      "at": "04:41-04:47",
+      "where": "Left menu under Claim Management",
+      "frame": "t00288.jpg"
+    },
+    {
+      "name": "Admin: Claims list (R - Seller Returns, admin.revibe.me/dashboard/claim/14)",
+      "shows": "Search Key 'Order number'; table grouped by stage '3. Under QC (1)'; columns Claim ID, Claim Date, Order Help, Stage, Type, Subtype, Original Supplier, Repair Supplier, Type Of Request, Revibe Comment, Supplier Comm..., Since creation, Since last stage, Since last update, Refund To Cx S..., Refund Type, Updated By, Updated At, Valid Claim?, Status, Explanation. Dense toggle, Groups, More Filters, Export.",
+      "at": "04:52-05:12",
+      "where": "Admin portal, Claim Management > R - Seller Returns",
+      "frame": "t00292.jpg, t00312.jpg"
+    },
+    {
+      "name": "Admin: Claim side panel (Claim # o941bQ)",
+      "shows": "Panel opened on the right with Edit and Tracker buttons; top buttons Mark valid, Mark invalid, Order details; sections Claim Details, Statuses, Tracking Information, Pickup Tracking Information, LAB Tracking Information, Shipback Tracking Information, Payment & Delivery, Customer Information, Financial Summary, Bank Details, Notes, Attachments, View Details button.",
+      "at": "05:26-06:37",
+      "where": "Opened by clicking the claim row",
+      "frame": "t00325.jpg to t00379.jpg (also t00340, t00348, t00350)"
+    },
+    {
+      "name": "macOS file picker (desktop, French dialog)",
+      "shows": "Desktop folders and files of the presenter; a screenshot is selected with preview of the Revibe Return Process slide. Other visible file names are personal.",
+      "at": "04:17 and 06:37",
+      "where": "Opened by the browse/upload control in the customer form (04:17) and the seller attachment dialog (06:37)",
+      "frame": "t00257.jpg, t00397.jpg"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Claim",
+      "meaning": "A customer request to return a device, raised on the customer account portal. Shown with a claim ID such as o941bQ, a claim type (Issue) and a request (Return).",
+      "at": "03:20"
+    },
+    {
+      "term": "Eligibility window",
+      "meaning": "15 days from delivery in which a customer can return a device.",
+      "at": "00:19"
+    },
+    {
+      "term": "Second valid claim",
+      "meaning": "A further valid claim on the same order; accepted even after the 15-day period.",
+      "at": "00:25"
+    },
+    {
+      "term": "Revibe Agent Check",
+      "meaning": "Step 2: the Revibe team checks the customer's proof; if validated, the request is marked Completed.",
+      "at": "00:49"
+    },
+    {
+      "term": "AWB (airway bill)",
+      "meaning": "The airway bill for the pickup. Auto-created for AE & ZA orders (trainer: UAE and South Africa); created manually by the seller for SA orders (trainer: Saudi Arabia).",
+      "at": "01:09"
+    },
+    {
+      "term": "AE & ZA / SA",
+      "meaning": "Order-country codes on the slide. AE & ZA = auto AWB; SA = seller creates the AWB manually. The trainer names the countries as UAE and South Africa (AE & ZA) and Saudi Arabia (SA).",
+      "at": "01:09"
+    },
+    {
+      "term": "Under Collection / Pending Collection",
+      "meaning": "Claim stages before the device reaches the seller; AE & ZA claims move to Under Collection immediately after the AWB is created.",
+      "at": "01:09"
+    },
+    {
+      "term": "Under QC",
+      "meaning": "Stage in which the device has reached the seller and the seller chooses Mark valid or Mark invalid.",
+      "at": "01:33"
+    },
+    {
+      "term": "Mark valid / Mark invalid",
+      "meaning": "The two seller decisions on a claim; valid triggers an immediate refund and closure, invalid requires proof.",
+      "at": "01:45"
+    },
+    {
+      "term": "Proof (supporting proof)",
+      "meaning": "Written message plus supporting proof the seller submits to challenge a customer claim.",
+      "at": "02:03"
+    },
+    {
+      "term": "Revibe Lab / LAB",
+      "meaning": "Testing step where Revibe makes the final decision on a claim with good proof. Shown as LAB Tracking Information in the portal.",
+      "at": "02:44"
+    },
+    {
+      "term": "Ship-Back",
+      "meaning": "Shipment tracking block labelled 'Ship-Back (sent to customer)' on the slide footer; the portal side panel calls it 'Shipback Tracking Information'.",
+      "at": "00:00"
+    },
+    {
+      "term": "Pickup Tracking",
+      "meaning": "Tracking of the pickup shipment for the return (slide footer: 'Pickup Tracking (return)'), for the device collected from the customer.",
+      "at": "05:42"
+    },
+    {
+      "term": "Missing proof",
+      "meaning": "Value shown in the Missing document field of a claim (example claim o941bQ).",
+      "at": "05:30"
+    },
+    {
+      "term": "Store credit",
+      "meaning": "Refund method option on the customer form: store credit (get additional AED 100 with store credit).",
+      "at": "04:05"
+    },
+    {
+      "term": "Original Payment Method",
+      "meaning": "Refund method option on the customer form and the refund type on the claim (example refund AED 319).",
+      "at": "04:05"
+    },
+    {
+      "term": "Valid claim",
+      "meaning": "Field in the Statuses section of the claim side panel (shown as 'Valid claim').",
+      "at": "05:37"
+    }
+  ],
+  "asr_fixes": [
+    {
+      "at": "00:40",
+      "heard": "Revive My Account Portal",
+      "correct": "Revibe My Account",
+      "basis": "Slide t00040.jpg: 'the My Account section on Revibe'; brand is Revibe throughout the screens."
+    },
+    {
+      "at": "02:44",
+      "heard": "ReviveLab",
+      "correct": "Revibe Lab",
+      "basis": "Slide t00180.jpg: 'Revibe Lab final decision'; slide t00160.jpg: 'Revibe Lab'."
+    },
+    {
+      "at": "03:13",
+      "heard": "and Revive will keep the device",
+      "correct": "and Revibe will keep the device",
+      "basis": "Brand spelled Revibe on slide t00180.jpg ('Revibe Lab final decision')."
+    },
+    {
+      "at": "04:34",
+      "heard": "your new Revive portal",
+      "correct": "your new Revibe portal",
+      "basis": "Admin portal URL admin.revibe.me on t00273.jpg; 'REVIBE' logo on the portal."
+    },
+    {
+      "at": "06:07",
+      "heard": "your market valid or your market invalid",
+      "correct": "your mark valid or your mark invalid",
+      "basis": "Buttons read 'Mark valid' and 'Mark invalid' on t00325.jpg and t00379.jpg."
+    },
+    {
+      "at": "06:13",
+      "heard": "If you market valid",
+      "correct": "If you mark valid",
+      "basis": "Button 'Mark valid' on t00325.jpg; the same statement at 01:50 on the slide (t00120.jpg)."
+    }
+  ],
+  "unclear": [
+    {
+      "at": "02:09",
+      "issue": "Word 'rational' (transcript '{rational?}') is unreliable. The slide shows 'Required: written message + supporting proof' (t00140.jpg), but the spoken word is not confirmed. Do not state the exact proof wording from the audio alone."
+    },
+    {
+      "at": "06:28",
+      "issue": "'above 95 {%?} for instance' is the trainer's example, not a stated rule. The threshold and the % sign are unconfirmed, and no threshold appears on screen (the customer help text only asks for a screenshot showing the % of Battery Health, t00242.jpg). Do not present 95% as a requirement."
+    },
+    {
+      "at": "03:01",
+      "issue": "Ship-back label conflict. The slide and the trainer agree that in the Revibe Lab valid case the device goes back to the seller ('Valid → full refund + ship back to seller', t00180.jpg; 'device will be shipped back to you'). The slide footer, however, labels Ship-Back as 'Ship-Back (sent to customer)' (t00000.jpg), and the portal side panel calls the block 'Shipback Tracking Information' (t00340.jpg). Which party the Ship-Back tracking block refers to is unclear."
+    },
+    {
+      "at": "02:09",
+      "issue": "Trainer says a pop-up window will appear for the invalid proof. No such pop-up is shown in any frame of this part. The seller screens show the Attachments area and upload dialog (t00366.jpg, t00397.jpg). Where the written message is entered on the seller side is not shown."
+    },
+    {
+      "at": "04:41",
+      "issue": "Claim Management has several seller return menus: R - Revibe Returns, R - Seller Returns, R - Seller Request and R - Seller Returns SA (t00288.jpg). The trainer only says 'seller returns' and does not explain the differences. Which one applies to a given case is unclear."
+    },
+    {
+      "at": "05:37",
+      "issue": "Explanation to show text is cut off on screen: 'We received your device and we are running our investigation process. This process will take from 2 to 4 day' (t00325.jpg). The full duration wording is not visible."
+    },
+    {
+      "at": "05:37",
+      "issue": "Statuses fields such as 'Refund to cx status', 'Refund to supplier status' and 'Valid claim' are shown, but the trainer does not explain what sets them or who fills them. 'Customer paid?' is in the Claim Details section, not Statuses, and is also not explained. Their purpose is unclear."
+    }
+  ],
+  "outdated": [],
+  "privacy": [
+    {
+      "at": "03:20",
+      "what": "Customer personal data in the orders list: customer name Pierre Villaceque, phone number 0585744270, delivery address Office 103 - Ontario Tower Dubai Dubai, and a second order address District One - Residence 27 Unit 205 Dubai.",
+      "frame": "t00200.jpg"
+    },
+    {
+      "at": "03:40",
+      "what": "Customer email address pierre.villaceque@gmail.com and phone number 0585744270 shown in the claims form.",
+      "frame": "t00217.jpg"
+    },
+    {
+      "at": "05:55",
+      "what": "Customer information section: customer name Pierre Villaceque, phone 0585744270, email pierre.villaceque@gmail.com, address Office 103 - Ontario Tower Dubai Dubai, country United Arab Emirates, city Dubai.",
+      "frame": "t00354.jpg, t00348.jpg"
+    },
+    {
+      "at": "05:42",
+      "what": "Pickup tracking ID 25321802 and pickup tracking link for a customer shipment; claim ID o941bQ is visible. Order numbers are not visible in this frame.",
+      "frame": "t00342.jpg, t00340.jpg"
+    },
+    {
+      "at": "04:52",
+      "what": "Internal staff email pierre@revibe.me shown in the Updated By column of the claims list.",
+      "frame": "t00292.jpg"
+    },
+    {
+      "at": "04:17",
+      "what": "Presenter's desktop file picker shows personal file names, including 'carta-backup-codes.txt', 'Finance_Pierre_Clara.xlsx' and 'DHL - Authori...on Letter.docx'. These are not customer data, but they are sensitive; blur before sharing.",
+      "frame": "t00257.jpg"
+    },
+    {
+      "at": "06:37",
+      "what": "Same desktop file picker (personal file names visible, including 'carta-backup-codes.txt', 'DHL - Authoriz...ter.docx' and 'Finance_Pierre_Clara.xlsx') behind the seller attachment dialog.",
+      "frame": "t00397.jpg"
+    },
+    {
+      "at": "00:00",
+      "what": "Presenter's webcam overlay shows the presenter's face in every frame.",
+      "frame": "t00000.jpg"
+    }
+  ],
+  "audit": {
+    "checked": 106,
+    "corrected": [
+      {"before": "Step 00:00: cursor over the Eligibility banner shown on t00000", "after": "Cursor over the Eligibility banner is visible in t00020, not t00000", "reason": "Frame citation"},
+      {"before": "Step 03:35: 'Raise a claim' button highlighted on t00215", "after": "t00215 shows the button at top right with the cursor near the timeline; no highlight and no open form", "reason": "Frame shows no highlight"},
+      {"before": "Step 03:40 and screen list: order #, product and order status values cited to t00217", "after": "Filled values are on t00222; t00217 shows the empty Order # and Product fields", "reason": "Frame mismatch"},
+      {"before": "Step 03:50: Refund Method 'Original Payment Method' stated as selected on t00242", "after": "t00242 shows the Refund Method dropdown open with the cursor on Original Payment Method; the selection is confirmed only by the claim row on t00270", "reason": "Overstated by frame"},
+      {"before": "Step 04:15: attachment described as a file picker for 'a screenshot'", "after": "Trainer says 'a video whatever any attachments'; the file selected on t00257 is a PNG screenshot", "reason": "Speech and screen differ"},
+      {"before": "Step 04:34: 'the seller's new portal'", "after": "Trainer says 'your new Revibe portal' (the 'seller' wording is not in the audio)", "reason": "Overstatement"},
+      {"before": "Fact (store credit note) cited to t00224", "after": "Cited to t00230, the 'What was the issue?' frame where the note is visible", "reason": "Frame citation"},
+      {"before": "Fact: 'Refunds and charges for these claims all appear in the payment tool.'", "after": "'Refunds and charges appear in the payment tool.' (slide: 'all refunds and charges appear in the payment tool')", "reason": "Added wording not on slide"},
+      {"before": "Fact: 'This is the only pickup case that needs seller action.'", "after": "Removed 'only'; slide header reads 'ACTION REQUIRED IF SA'", "reason": "Generalised beyond slide"},
+      {"before": "Fact: Mark VALID 'No proof is needed.'", "after": "Mark VALID kept; 'no proof' moved to a low-confidence Implied: fact", "reason": "Not stated in the evidence"},
+      {"before": "Fact: 'Valid claim?' status field", "after": "Field label on screen is 'Valid claim'", "reason": "Label check"},
+      {"before": "Screen list: customer Claims Form fields include Tracking Number", "after": "Tracking Number is not visible in any claim-form frame; removed", "reason": "Not on screen"},
+      {"before": "Screen/fact: attachment limit 'less than 100 MB'", "after": "On screen: 'Attachment should be less than 100 mb'", "reason": "Copy exact text"},
+      {"before": "Term: 'AWB (airway bill)' meaning 'Shipping label for the pickup'", "after": "'The airway bill for the pickup'", "reason": "Removed general-knowledge gloss"},
+      {"before": "Term: 'Ship-Back' as 'sent to customer' portal block", "after": "Slide footer labels Ship-Back as 'sent to customer'; portal calls it Shipback Tracking Information", "reason": "Portal label mismatch"},
+      {"before": "Term: 'Pickup Tracking' 'the courier collecting the device'", "after": "Slide footer 'Pickup Tracking (return)'; device collected from the customer per slide step 3", "reason": "Wording tied to evidence"},
+      {"before": "Term: 'Proof' as 'supporting documents'", "after": "Slide wording 'supporting proof'", "reason": "Exact wording"},
+      {"before": "Unclear 03:01: slide and trainer said to conflict on the valid-lab destination", "after": "They agree (back to seller); the conflict is with the slide footer label 'sent to customer'", "reason": "Misread conflict"},
+      {"before": "Unclear 05:37: 'Customer paid?' listed as a Statuses field", "after": "'Customer paid?' is in Claim Details", "reason": "Section mismatch"},
+      {"before": "Privacy 03:20: address 'Office 103 - Ontario Tower Dubai'", "after": "'Office 103 - Ontario Tower Dubai Dubai'", "reason": "Copy exact text"},
+      {"before": "Privacy 04:17: file name 'DHL - Authoriz...ter.docx'", "after": "On t00257 it reads 'DHL - Authori...on Letter.docx'", "reason": "Copy exact text"},
+      {"before": "Privacy 05:42: order numbers 91985 and 65068 visible on t00342", "after": "Order numbers not visible on t00342; removed", "reason": "Not on frame"},
+      {"before": "Summary: Ship-Back destination conflicts between slide and portal label", "after": "Slide footer label vs valid-lab outcome (back to seller)", "reason": "Precision"}
+    ],
+    "removed": [
+      {"statement": "Choosing 'I have not done the necessary testing before submitting the form' blocks submission.", "reason": "No frame or speech shows what the 'not done' option does; only that Submit is greyed while no option is selected."},
+      {"statement": "Customer claim form field 'Tracking Number'.", "reason": "Not visible on any claim-form frame."},
+      {"statement": "Unclear 03:01 framed as a slide-vs-trainer conflict on the valid-lab ship-back destination.", "reason": "Slide and trainer agree; the real conflict is the Ship-Back label."}
+    ],
+    "added": [
+      "Fact: INVALID dispute path 'Proof Required → Revibe Review → Lab Verification' (t00000.jpg).",
+      "Fact: order 65068 shows status Cancelled with 'Raise a claim' greyed out (t00200.jpg).",
+      "Step 05:37-05:54 evidence: t00340.jpg and t00348.jpg (tracking and customer blocks), and screen list entry for t00340/t00348/t00350.",
+      "Frames t00340, t00348 and t00350 were not cited by any claim and were opened in the sweep; they show the tracking, payment and customer blocks of claim o941bQ."
+    ]
+  }
+}

@@ -1,0 +1,875 @@
+{
+  "summary": "Part 2 of 3 of the TBU \"4.0 Orders App (Seller)\" video (03:34 to 07:56). The trainer walks through the seller's Orders app on admin.revibe.me: flagging a request to Revibe (Request Revibe box), confirming availability (choosing Not Available shows a warning that 5% of the cost is charged), the order moving to \"At quality check\", the airway bill for UAE and South Africa orders (narrated as QuickUp and DHL), copying the South Africa airway bill link and handing the parcel to DHL for scanning at pickup, the 48-hour shipping deadline, and entering a tracking ID for Saudi Arabia orders. All 40 listed frames were opened and matched to the transcript. Frame citations for 07:20 to 07:50 were corrected. No UAE order appears on any frame.",
+  "frames_opened": 40,
+  "steps": [
+    {
+      "at": "03:34-03:50",
+      "screen": "Orders > order 61021-1 Edit page (Order Details section), Request Revibe field",
+      "action": "On the order Edit page, open the Request Revibe dropdown and choose an option: Need Address, Need Phone Number, Other (Write Comment) or Revibe Replied. Choose Other (Write Comment) to write your own comment.",
+      "says": "request for us you need to press this button and to mention it like need address need phone number {other?} for instance and {you?} can put your own commands.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "03:43", "frame": "", "quote": "request for us you need to press this button and to mention it like need address need phone"},
+        {"kind": "say", "at": "03:50", "frame": "", "quote": "number {other?} for instance and {you?} can put your own commands."},
+        {"kind": "see", "at": "03:37", "frame": "t00217.jpg", "quote": "Request Revibe dropdown open with options: Need Address, Need Phone Number, Other (Write Comment), Revibe Replied"},
+        {"kind": "see", "at": "03:34", "frame": "t00214.jpg", "quote": "Order Edit page for 61021-1 (admin.revibe.me/dashboard/order/5/184824/edit); Request Revibe field empty, Revibe Comments field beside it"}
+      ]
+    },
+    {
+      "at": "03:53-03:55",
+      "screen": "Order Edit page, Request Revibe and Supplier Comments fields",
+      "action": "After choosing Other (Write Comment), click Supplier Comments and type your own text or pick one of the suggestions.",
+      "says": "",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "03:53", "frame": "t00233.jpg", "quote": "Request Revibe shows Other (Write Comment); Supplier Comments label shows an asterisk"},
+        {"kind": "see", "at": "03:55", "frame": "t00235.jpg", "quote": "Supplier Comments field focused; suggestion list: Empty, Need address, Please reset WH as it has be..., Need AWB, Create AWB, Guys this is hurting our score."}
+      ]
+    },
+    {
+      "at": "04:13-04:24",
+      "screen": "Orders list (Order Management, admin.revibe.me/dashboard/order/5)",
+      "action": "Open Order Management from the left menu to see the orders you have received, and use More Filters to narrow them.",
+      "says": "By the way let me tell you that here you can {all?} the orders that you have received and you can also filter them based on these criteria.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "04:20", "frame": "", "quote": "By the way let me tell you that here you can {all?} the orders that you have received"},
+        {"kind": "say", "at": "04:24", "frame": "", "quote": "and you can also filter them based on these criteria."},
+        {"kind": "see", "at": "04:13", "frame": "t00253.jpg", "quote": "Cursor on Order Management in left sidebar; tooltip Order Management"},
+        {"kind": "see", "at": "04:19", "frame": "t00259.jpg", "quote": "Orders page loading; column headers Order Help, WH, Request Revibe, Model, Variation, Delivery Method, COD To Collect, Confirmed Date, Category, Supplier Comments, Revibe Comment, Tracking Company, T (Tracking ID cut off); 0-0 of 0"},
+        {"kind": "see", "at": "04:25", "frame": "t00265.jpg", "quote": "More Filters panel open: Shipment Status, Active or closed, Payment Method, Payment Status, Source, Country, Select Date, Apply Filters"}
+      ]
+    },
+    {
+      "at": "04:29-04:40",
+      "screen": "Orders list, group 02. Order created",
+      "action": "When an order is received, confirm its availability. The trainer says this is the first step. For UAE and South Africa orders, the trainer says it is also the final step.",
+      "says": "When you receive an order, you need to confirm the availability. This is the first step. For UAE and South Africa order, this is also the final step. You just need to confirm availability.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "04:29", "frame": "", "quote": "When you receive an order, you need to confirm the availability."},
+        {"kind": "say", "at": "04:33", "frame": "", "quote": "This is the first step."},
+        {"kind": "say", "at": "04:35", "frame": "", "quote": "For UAE and South Africa order, this is also the final step."},
+        {"kind": "say", "at": "04:40", "frame": "", "quote": "You just need to confirm availability."},
+        {"kind": "see", "at": "04:29", "frame": "t00269.jpg", "quote": "Orders list with group headers 02. Order created (6) and 03. At quality check (4)"}
+      ]
+    },
+    {
+      "at": "04:43-04:45",
+      "screen": "Order detail side panel, then Edit mode, Order Status section",
+      "action": "Open the order, click Edit (top right), then set Availability Status under Order Status and confirm.",
+      "says": "To do this, here {just?} click on {edit?} {go?} here on availability status and confirm this is the last thing you",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "04:43", "frame": "", "quote": "To do this,"},
+        {"kind": "say", "at": "04:45", "frame": "", "quote": "here {just?} click on {edit?} {go?} here on availability status and confirm this is the last thing you"},
+        {"kind": "see", "at": "04:43", "frame": "t00283.jpg", "quote": "Order 61021-1 side panel with Edit button top right and workflow buttons Go to label, Request address..., Ready for pickup, Not ready for pickup, Download"},
+        {"kind": "see", "at": "04:48", "frame": "t00288.jpg", "quote": "Order Status section; Financial Summary shows Actual Cost 902; Availability Status and New Handle fields"}
+      ]
+    },
+    {
+      "at": "04:51-04:56",
+      "screen": "Order Status section, Availability Status dropdown",
+      "action": "Pick an Availability Status: Confirmed, Alternative, Not Available or High Courier Charges. Choosing Not Available brings up a charge warning.",
+      "says": "can do if you put not available you will have an error message saying if you mark it",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "04:51", "frame": "t00291.jpg", "quote": "Availability Status dropdown open with options Confirmed, Alternative, Not Available, High Courier Charges"},
+        {"kind": "see", "at": "04:56", "frame": "t00296.jpg", "quote": "Cursor on Not Available option"},
+        {"kind": "say", "at": "04:55", "frame": "", "quote": "can do if you put not available you will have an error message saying if you mark it"},
+        {"kind": "see", "at": "05:00", "frame": "t00300.jpg", "quote": "Dialog appears after Not Available is chosen: Are you sure? ... Confirm / Cancel"}
+      ]
+    },
+    {
+      "at": "05:00-05:09",
+      "screen": "Confirmation dialog after choosing Not Available",
+      "action": "Marking the order unavailable charges 5% of your cost. The dialog example uses a cost of 902 and shows a charge of 46. The dialog has Confirm and Cancel buttons; the trainer does not say what Cancel does.",
+      "says": "unavailable you will be charged {five?} percent of your cost so for instance if your cost is 902 you will be {46?} DRAMs.",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "05:00", "frame": "t00300.jpg", "quote": "Dialog: Are you sure? If you mark it unavailable, you will be charged 5% of your cost. (902 * 5% = 46). Buttons: Confirm, Cancel"},
+        {"kind": "say", "at": "05:02", "frame": "", "quote": "unavailable you will be charged {five?} percent of your cost so for instance if your cost is 902"},
+        {"kind": "say", "at": "05:09", "frame": "", "quote": "you will be {46?} DRAMs."}
+      ]
+    },
+    {
+      "at": "05:13",
+      "screen": "Order Status / Availability Status (pricing context)",
+      "action": "The trainer says the Not Available charge exists because the seller is the only one responsible for their prices.",
+      "says": "This we implemented it because you're the only one responsible for your prices.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "05:13", "frame": "", "quote": "This we implemented it because you're the only one responsible for your prices."}
+      ]
+    },
+    {
+      "at": "05:20-05:37",
+      "screen": "Order 61021-1 side panel during the SKU explanation (t00317, t00322)",
+      "action": "The trainer says that if an order has been placed for a SKU, the SKU is still live on the website. Monitor your prices so the SKU does not go out of stock.",
+      "says": "If an order has been placed for this SKU it means that at some point you put a price in your buy box or you locked a price. This is why the SKU is showing live on the website and this is why a customer asked for {So?} please be aware and monitor properly your prices to avoid this out of stock issue.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "05:20", "frame": "", "quote": "If an order has been placed for this SKU it means that at some point you put a"},
+        {"kind": "say", "at": "05:27", "frame": "", "quote": "price in your buy box or you locked a price."},
+        {"kind": "say", "at": "05:30", "frame": "", "quote": "This is why the SKU is showing live on the website and this is why a customer asked"},
+        {"kind": "say", "at": "05:37", "frame": "", "quote": "for {So?} please be aware and monitor properly your prices to avoid this out of stock issue."},
+        {"kind": "see", "at": "05:17", "frame": "t00317.jpg", "quote": "Order 61021-1 side panel in view mode with the Edit button hovered; Order Status section visible"}
+      ]
+    },
+    {
+      "at": "05:45-06:00",
+      "screen": "Order 61021-1 Order Status (Availability Status dropdown), then orders list group 03. At quality check",
+      "action": "For UAE and South Africa orders, edit the order and confirm the availability status. After that the order moves to the next category, At quality check.",
+      "says": "So just to sum up, when you receive an order for UAE and South Africa, you just need to edit it, confirm availability status. At the moment you confirm the availability status, the order will go to the next category which is {Add?} Quality Check.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "05:45", "frame": "", "quote": "So just to sum up, when you receive an order for UAE and South Africa, you just need"},
+        {"kind": "say", "at": "05:50", "frame": "", "quote": "to edit it, confirm availability status."},
+        {"kind": "say", "at": "05:54", "frame": "", "quote": "At the moment you confirm the availability status, the order will go to the next category which is"},
+        {"kind": "say", "at": "06:00", "frame": "", "quote": "{Add?} Quality Check."},
+        {"kind": "see", "at": "05:54", "frame": "t00354.jpg", "quote": "Availability Status dropdown open (Confirmed, Alternative, Not Available, High Courier Charges)"},
+        {"kind": "see", "at": "06:05", "frame": "t00365.jpg", "quote": "Orders list reloading (Rows per page 100, 1-100 of 476)"}
+      ]
+    },
+    {
+      "at": "06:02-06:18",
+      "screen": "Orders list group 03. At quality check (4); ZA-5181-1 side panel, Tracking Information",
+      "action": "Once availability is confirmed, the airway bill is generated automatically for UAE and South Africa orders. The trainer says UAE airway bills are made by QuickUp and South Africa airway bills by DHL.",
+      "says": "When it's Add Quality Check for UAE and South Africa order, an airway bill will be generated automatically. Once the availability is confirmed, an airway bill is generated automatically for UAE and South Africa orders. For UAE, the airway bill generated is made by QuickUp, and for South Africa orders, it's DHL.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "06:02", "frame": "", "quote": "When it's Add Quality Check for UAE and South Africa order, an airway bill will be generated automatically."},
+        {"kind": "say", "at": "06:10", "frame": "", "quote": "Once the availability is confirmed, an airway bill is generated automatically for UAE and South Africa orders."},
+        {"kind": "say", "at": "06:18", "frame": "", "quote": "For UAE, the airway bill generated is made by QuickUp, and for South Africa orders, it's DHL."},
+        {"kind": "see", "at": "06:07", "frame": "t00367.jpg", "quote": "Orders list with group 03. At quality check (4); ZA-5181-1 row shows Tracking Company DHL and Tracking ID 4649044982"},
+        {"kind": "see", "at": "06:25", "frame": "t00385.jpg", "quote": "ZA-5181-1 Basie Lee panel: Shipment Status At quality check, Availability Status Confirmed; Tracking Company DHL; Tracking ID 4649044982; Tracking Label Link populated"}
+      ]
+    },
+    {
+      "at": "06:25-06:45",
+      "screen": "Order ZA-5181-1 side panel, Tracking Information; AWB PDF opened in a new browser tab",
+      "action": "For a South Africa order, the airway bill is in the Tracking Label Link. The trainer says to copy it, open it to download the airway bill, place it on the shipment, and wait for DHL to collect the device.",
+      "says": "Here, it's a South Africa order, which explains why here you can see that the airway bill has been generated like this. {You?} can just copy it, put it here, and this way you can download the airway bill, place it on the shipment and wait for DHL to come and pick up the device.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "06:25", "frame": "", "quote": "Here, it's a South Africa order, which explains why here you can see that the airway bill has"},
+        {"kind": "say", "at": "06:32", "frame": "", "quote": "{You?} can just copy it, put it here,"},
+        {"kind": "say", "at": "06:37", "frame": "", "quote": "and this way you can download the airway bill, place it on the shipment and wait for DHL"},
+        {"kind": "say", "at": "06:45", "frame": "", "quote": "to come and pick up the device."},
+        {"kind": "see", "at": "06:31", "frame": "t00391.jpg", "quote": "Tracking Label Link field highlighted (selected) in the ZA-5181-1 panel"},
+        {"kind": "see", "at": "06:36", "frame": "t00396.jpg", "quote": "New browser tab loading the revibe-tracking-documents S3 link"},
+        {"kind": "see", "at": "06:37", "frame": "t00397.jpg", "quote": "New browser tab showing a one-page PDF named ZA-5181-1-2025-03-...-awb_document.pdf"}
+      ]
+    },
+    {
+      "at": "06:48-07:00",
+      "screen": "Pickup (physical handover, no screen)",
+      "action": "Make sure DHL scans the shipment at your location at the moment it picks up. Do not let DHL take the shipment to the warehouse to scan it a few hours later.",
+      "says": "When DHL comes and pick up the device, they will scan it. They need to scan it at your place, at the moment they pick up the order. Don't let them pick up the shipment, bring it to the warehouse, and scan it a few hours later.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "06:48", "frame": "", "quote": "When DHL comes and pick up the device,"},
+        {"kind": "say", "at": "06:51", "frame": "", "quote": "they will scan it."},
+        {"kind": "say", "at": "06:52", "frame": "", "quote": "They need to scan it at your place, at the moment they pick up the order."},
+        {"kind": "say", "at": "06:57", "frame": "", "quote": "Don't let them pick up the shipment,"},
+        {"kind": "say", "at": "07:00", "frame": "", "quote": "bring it to the warehouse, and scan it a few hours later."}
+      ]
+    },
+    {
+      "at": "07:04-07:14",
+      "screen": "Orders list (no frame shows a late order)",
+      "action": "Ship each order within 48 hours. The trainer says late orders hurt the seller's score.",
+      "says": "Because what is very important is that you have 48 hours to ship the order. Here is why we put the working hours like this. This order, for instance, from this seller is very late {and?} it will impact negatively his score.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "07:04", "frame": "", "quote": "Because what is very important is that you have 48 hours to ship the order."},
+        {"kind": "say", "at": "07:09", "frame": "", "quote": "Here is why we put the working hours like this."},
+        {"kind": "say", "at": "07:14", "frame": "", "quote": "This order, for instance, from this seller is very late {and?} it will impact negatively his score."}
+      ]
+    },
+    {
+      "at": "07:24-07:53",
+      "screen": "Order SA-57438-1 side panel (Order Details, Order Status, Tracking Information) and Edit mode",
+      "action": "For a Saudi Arabia order that is confirmed and at quality check, click Edit and enter the Tracking ID under Tracking Information. The Tracking Label Link is optional.",
+      "says": "For Saudi Arabia order, you have to provide {the?} tracking ID. The only thing that you need to do is, once you have confirmed the availability and that the order has been placed on quality check, you can just go here, edit, {and?} here put your tracking ID and if you want as well the tracking label link {but?} this is not mandatory.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "07:30", "frame": "", "quote": "For Saudi Arabia order, you have to provide {the?} tracking ID."},
+        {"kind": "say", "at": "07:35", "frame": "", "quote": "The only thing that you need to do is,"},
+        {"kind": "say", "at": "07:39", "frame": "", "quote": "once you have confirmed the availability and that the order has been placed on quality check, you can"},
+        {"kind": "say", "at": "07:45", "frame": "", "quote": "just go here, edit, {and?} here put your tracking ID and if you want as well the tracking"},
+        {"kind": "say", "at": "07:53", "frame": "", "quote": "label link {but?} this is not mandatory."},
+        {"kind": "see", "at": "07:41", "frame": "t00461.jpg", "quote": "SA-57438-1 side panel: Country Saudi Arabia, Silver Point supplier, Order Details, Customer Information"},
+        {"kind": "see", "at": "07:45", "frame": "t00465.jpg", "quote": "SA-57438-1 side panel: Actual Cost 779, Payment Method Tamara - Split Into 4, Shipment Status At quality check, Availability Status Confirmed, Tracking fields empty"},
+        {"kind": "see", "at": "07:50", "frame": "t00470.jpg", "quote": "Tracking ID field focused in Edit mode with a suggestion list of six numbers (2935446076, 2021253076, 19390005, 18680044, 18673919, 18703507)"}
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "type": "procedure",
+      "statement": "Request Revibe is the order field for asking Revibe for help. Its dropdown offers Need Address, Need Phone Number, Other (Write Comment) and Revibe Replied. Choose Other (Write Comment) to write your own comment.",
+      "evidence": [
+        {"kind": "see", "at": "03:37", "frame": "t00217.jpg", "quote": "Dropdown options: Need Address, Need Phone Number, Other (Write Comment), Revibe Replied"},
+        {"kind": "say", "at": "03:43", "frame": "", "quote": "request for us you need to press this button and to mention it like need address need phone"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "The trainer says Revibe teams in Egypt can only support a seller if the request is seen in the Request Revibe box in the specific section mentioned. The trainer says this is super important.",
+      "evidence": [
+        {"kind": "say", "at": "03:56", "frame": "", "quote": "This is super important."},
+        {"kind": "say", "at": "03:58", "frame": "", "quote": "Revive teams {based?} in Egypt are here to support you and they can only support you if they"},
+        {"kind": "say", "at": "04:04", "frame": "", "quote": "have seen that here in this specific box in this specific section you mentioned {request?} {revive.?}"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "When you receive an order, confirming its availability is the first step.",
+      "evidence": [
+        {"kind": "say", "at": "04:29", "frame": "", "quote": "When you receive an order, you need to confirm the availability."},
+        {"kind": "say", "at": "04:33", "frame": "", "quote": "This is the first step."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "For UAE and South Africa orders, confirming availability is also the final seller step. The seller only needs to confirm availability.",
+      "evidence": [
+        {"kind": "say", "at": "04:35", "frame": "", "quote": "For UAE and South Africa order, this is also the final step."},
+        {"kind": "say", "at": "04:40", "frame": "", "quote": "You just need to confirm availability."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Availability Status is set in the Order Status section of the order (Edit mode). Its options are: Confirmed, Alternative, Not Available, High Courier Charges.",
+      "evidence": [
+        {"kind": "see", "at": "04:51", "frame": "t00291.jpg", "quote": "Availability Status dropdown options: Confirmed, Alternative, Not Available, High Courier Charges"},
+        {"kind": "say", "at": "04:45", "frame": "", "quote": "here {just?} click on {edit?} {go?} here on availability status and confirm this is the last thing you"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "Setting Availability Status to Not Available charges 5% of your cost. The confirmation dialog reads: 'Are you sure? If you mark it unavailable, you will be charged 5% of your cost. (902 * 5% = 46).' Buttons: Confirm and Cancel.",
+      "evidence": [
+        {"kind": "see", "at": "05:00", "frame": "t00300.jpg", "quote": "Are you sure? If you mark it unavailable, you will be charged 5% of your cost. (902 * 5% = 46). Confirm / Cancel"},
+        {"kind": "say", "at": "05:02", "frame": "", "quote": "unavailable you will be charged {five?} percent of your cost so for instance if your cost is 902"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Not Available charge: 5% of the cost. The dialog's example uses an Actual Cost of 902 and shows the charge as 46. The currency is not shown on screen.",
+      "evidence": [
+        {"kind": "see", "at": "05:00", "frame": "t00300.jpg", "quote": "(902 * 5% = 46)"},
+        {"kind": "see", "at": "04:48", "frame": "t00288.jpg", "quote": "Financial Summary: Actual Cost 902"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The trainer says the seller is the only one responsible for their prices, and that this is the reason for the Not Available charge.",
+      "evidence": [
+        {"kind": "say", "at": "05:13", "frame": "", "quote": "This we implemented it because you're the only one responsible for your prices."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "If an order exists for a SKU, the trainer says it means at some point you set a price in your buy box or locked a price, which is why the SKU still shows live on the website. Monitor your prices to avoid out-of-stock problems.",
+      "evidence": [
+        {"kind": "say", "at": "05:20", "frame": "", "quote": "If an order has been placed for this SKU it means that at some point you put a"},
+        {"kind": "say", "at": "05:27", "frame": "", "quote": "price in your buy box or you locked a price."},
+        {"kind": "say", "at": "05:30", "frame": "", "quote": "This is why the SKU is showing live on the website and this is why a customer asked"},
+        {"kind": "say", "at": "05:37", "frame": "", "quote": "for {So?} please be aware and monitor properly your prices to avoid this out of stock issue."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "After you confirm availability, the order moves to the next category, 03. At quality check.",
+      "evidence": [
+        {"kind": "say", "at": "05:54", "frame": "", "quote": "At the moment you confirm the availability status, the order will go to the next category which is"},
+        {"kind": "see", "at": "06:07", "frame": "t00367.jpg", "quote": "Group header 03. At quality check (4)"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "For UAE and South Africa orders, an airway bill is generated automatically once availability is confirmed and the order is at quality check.",
+      "evidence": [
+        {"kind": "say", "at": "06:02", "frame": "", "quote": "When it's Add Quality Check for UAE and South Africa order, an airway bill will be generated automatically."},
+        {"kind": "say", "at": "06:10", "frame": "", "quote": "Once the availability is confirmed, an airway bill is generated automatically for UAE and South Africa orders."},
+        {"kind": "say", "at": "07:24", "frame": "", "quote": "{So?} for UAE and South Africa order, airway bill is generated automatically."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The trainer says the airway bill for UAE orders is made by QuickUp and the airway bill for South Africa orders is made by DHL. The South Africa order ZA-5181-1 shows Tracking Company DHL. No UAE order is shown on screen, so the QuickUp name is narration only.",
+      "evidence": [
+        {"kind": "say", "at": "06:18", "frame": "", "quote": "For UAE, the airway bill generated is made by QuickUp, and for South Africa orders, it's DHL."},
+        {"kind": "see", "at": "06:25", "frame": "t00385.jpg", "quote": "Tracking Company: DHL on ZA-5181-1 (South Africa per narration)"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "For a South Africa order, the airway bill is in the Tracking Label Link field. The trainer says to copy it, then open the link to download the airway bill PDF, place it on the shipment, and wait for DHL to collect the device.",
+      "evidence": [
+        {"kind": "say", "at": "06:32", "frame": "", "quote": "{You?} can just copy it, put it here,"},
+        {"kind": "say", "at": "06:37", "frame": "", "quote": "and this way you can download the airway bill, place it on the shipment and wait for DHL"},
+        {"kind": "see", "at": "06:31", "frame": "t00391.jpg", "quote": "Tracking Label Link field highlighted (selected) in the ZA-5181-1 panel"},
+        {"kind": "see", "at": "06:37", "frame": "t00397.jpg", "quote": "New tab showing a one-page PDF named ZA-5181-1-2025-03-...-awb_document.pdf"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The trainer says DHL must scan the shipment at the seller's location at the moment of pickup.",
+      "evidence": [
+        {"kind": "say", "at": "06:52", "frame": "", "quote": "They need to scan it at your place, at the moment they pick up the order."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "The trainer says not to let DHL take the shipment to the warehouse to scan it a few hours later.",
+      "evidence": [
+        {"kind": "say", "at": "06:57", "frame": "", "quote": "Don't let them pick up the shipment,"},
+        {"kind": "say", "at": "07:00", "frame": "", "quote": "bring it to the warehouse, and scan it a few hours later."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "The seller has 48 hours to ship the order.",
+      "evidence": [
+        {"kind": "say", "at": "07:04", "frame": "", "quote": "Because what is very important is that you have 48 hours to ship the order."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "The trainer says late orders hurt the seller's score, using an example order from one seller that is very late.",
+      "evidence": [
+        {"kind": "say", "at": "07:14", "frame": "", "quote": "This order, for instance, from this seller is very late {and?} it will impact negatively his score."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "For a Saudi Arabia order, the seller must enter a Tracking ID once availability is confirmed and the order is at quality check. Click Edit, then enter it under Tracking Information.",
+      "evidence": [
+        {"kind": "say", "at": "07:30", "frame": "", "quote": "For Saudi Arabia order, you have to provide {the?} tracking ID."},
+        {"kind": "say", "at": "07:45", "frame": "", "quote": "just go here, edit, {and?} here put your tracking ID and if you want as well the tracking"},
+        {"kind": "see", "at": "07:50", "frame": "t00470.jpg", "quote": "Tracking ID field focused in Edit mode"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The Tracking Label Link is optional for Saudi Arabia orders. The trainer says it is not mandatory.",
+      "evidence": [
+        {"kind": "say", "at": "07:53", "frame": "", "quote": "label link {but?} this is not mandatory."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Tracking Information section fields: Tracking ID, Tracking Company, Tracking Link, Tracking Label Link.",
+      "evidence": [
+        {"kind": "see", "at": "06:25", "frame": "t00385.jpg", "quote": "Tracking Information: Tracking ID, Tracking Company, Tracking Link, Tracking Label Link"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Orders list filter panel (More Filters) offers: Shipment Status, Active or closed, Payment Method, Payment Status, Source, Country, Select Date, with an Apply Filters button. The list also has Export and Groups buttons.",
+      "evidence": [
+        {"kind": "see", "at": "04:25", "frame": "t00265.jpg", "quote": "More Filters panel: Shipment Status, Active or closed, Payment Method, Payment Status, Source, Country, Select Date; Apply Filters; Export; Groups"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "In Edit mode the order side panel shows Save and Cancel buttons at the top right.",
+      "evidence": [
+        {"kind": "see", "at": "05:13", "frame": "t00313.jpg", "quote": "61021-1 side panel in Edit mode with Save and Cancel buttons at top right; Availability Status set to Not Available"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The orders list Request Revibe column shows values such as Other (for example on ZA-4414-1 and SA-57438-1) and Revibe replied (for 53156-1).",
+      "evidence": [
+        {"kind": "see", "at": "06:07", "frame": "t00367.jpg", "quote": "Request Revibe column shows red Other for ZA-4414-1 and SA-57438-1"},
+        {"kind": "see", "at": "06:25", "frame": "t00385.jpg", "quote": "Row 53156-1 in group 04. Shipped shows Revibe replied in the Request Revibe column"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The orders list shows 100 rows per page and a total of 476 orders (1-100 of 476).",
+      "evidence": [
+        {"kind": "see", "at": "06:07", "frame": "t00367.jpg", "quote": "Rows per page 100, 1-100 of 476"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "The trainer says that for Saudi Arabia orders, the only thing to do is, once availability is confirmed and the order is at quality check, edit the order and enter the tracking ID.",
+      "evidence": [
+        {"kind": "say", "at": "07:35", "frame": "", "quote": "The only thing that you need to do is,"},
+        {"kind": "say", "at": "07:39", "frame": "", "quote": "once you have confirmed the availability and that the order has been placed on quality check, you can"},
+        {"kind": "say", "at": "07:45", "frame": "", "quote": "just go here, edit, {and?} here put your tracking ID and if you want as well the tracking"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    }
+  ],
+  "screens": [
+    {
+      "name": "Orders list (Order Management)",
+      "shows": "Groups 02. Order created (6), 03. At quality check (4), 04. Shipped (19); columns Order Help, WH, Request Revibe, Model, Variation: Color, Sto... (truncated), Delivery Method, COD To Collect, Confirmed Date, Category, Supplier Comments, Revibe Comment, Tracking Company, Tracking ID, Delivery S... (truncated); pagination Rows per page 100, 1-100 of 476",
+      "at": "04:13-07:53",
+      "frame": "t00259.jpg, t00265.jpg, t00269.jpg, t00281.jpg, t00367.jpg, t00440.jpg",
+      "where": "admin.revibe.me/dashboard/order/5"
+    },
+    {
+      "name": "More Filters panel",
+      "shows": "Shipment Status, Active or closed, Payment Method, Payment Status, Source, Country, Select Date, Apply Filters; buttons Export, Groups, More Filters",
+      "at": "04:25",
+      "frame": "t00265.jpg",
+      "where": "Orders list header"
+    },
+    {
+      "name": "Order Edit page, order 61021-1",
+      "shows": "Order Details (Model, Variation, Storage, Condition, Country, Category, SKU (old: Order Status), Supplier, Supplier Provided ID, Request Revibe, Revibe Comments, Supplier Comments, IMEI Number), Customer Information",
+      "at": "03:34-03:55",
+      "frame": "t00214.jpg, t00233.jpg, t00235.jpg",
+      "where": "admin.revibe.me/dashboard/order/5/184824/edit"
+    },
+    {
+      "name": "Order side panel with workflow buttons",
+      "shows": "Edit button top right. Order 61021-1 shows Go to label, Request address..., Ready for pickup, Not ready for pickup, Download. ZA-5181-1 and SA-57438-1 also show Mark picked up and Mark delivered. The buttons shown differ between orders.",
+      "at": "04:43-07:41",
+      "frame": "t00283.jpg, t00385.jpg, t00461.jpg",
+      "where": "Orders list, click a row"
+    },
+    {
+      "name": "Side panel Financial Summary and Payment & Delivery",
+      "shows": "Actual Cost (902 for 61021-1, 509 for ZA-5181-1, 779 for SA-57438-1); Payment Method (Tabby for 61021-1, Card for ZA-5181-1, Tamara - Split Into 4 for SA-57438-1); Delivery Method Standard",
+      "at": "04:48-07:45",
+      "frame": "t00288.jpg, t00385.jpg, t00465.jpg",
+      "where": "Side panel, scroll down"
+    },
+    {
+      "name": "Side panel Order Status section",
+      "shows": "Shipment Status (Order created, At quality check), Confirmed Status (Confirmed), Availability Status dropdown (Confirmed, Alternative, Not Available, High Courier Charges), New Handle field, Payment Status, Delivery Status",
+      "at": "04:45-05:54",
+      "frame": "t00291.jpg, t00354.jpg",
+      "where": "Side panel, Order Status"
+    },
+    {
+      "name": "Charge confirmation dialog",
+      "shows": "Are you sure? text with 5% charge and example (902 * 5% = 46); Confirm and Cancel buttons",
+      "at": "05:00",
+      "frame": "t00300.jpg",
+      "where": "Opens after choosing Not Available"
+    },
+    {
+      "name": "Tracking Information section",
+      "shows": "Tracking ID, Tracking Company (DHL on ZA-5181-1), Tracking Link (DHL tracking URL), Tracking Label Link (link to the AWB PDF in the revibe-tracking-documents S3 bucket)",
+      "at": "06:25-07:50",
+      "frame": "t00385.jpg, t00391.jpg, t00470.jpg",
+      "where": "Side panel, Edit mode for entry"
+    },
+    {
+      "name": "Tracking ID suggestion list",
+      "shows": "Dropdown of six numeric suggestions shown when the Tracking ID field is focused in Edit mode",
+      "at": "07:50",
+      "frame": "t00470.jpg",
+      "where": "Side panel, Tracking ID field (SA-57438-1)"
+    },
+    {
+      "name": "AWB PDF in new browser tab",
+      "shows": "File named ZA-5181-1-2025-03-...-awb_document.pdf, one page",
+      "at": "06:36-06:37",
+      "frame": "t00396.jpg, t00397.jpg",
+      "where": "Opened from the Tracking Label Link"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Request Revibe",
+      "meaning": "Dropdown on the order Edit page where a seller flags a request to Revibe (options: Need Address, Need Phone Number, Other (Write Comment), Revibe Replied).",
+      "at": "03:43"
+    },
+    {
+      "term": "Supplier Comments",
+      "meaning": "Comment field on the order Edit page; shows a list of suggested texts when clicked (for example Need address, Need AWB, Create AWB).",
+      "at": "03:55"
+    },
+    {
+      "term": "Availability Status",
+      "meaning": "Field in the Order Status section; the seller sets it to confirm availability of the order (Confirmed, Alternative, Not Available, High Courier Charges).",
+      "at": "04:45"
+    },
+    {
+      "term": "Airway bill (AWB)",
+      "meaning": "Shipping document generated automatically for UAE and South Africa orders once availability is confirmed; opened from the Tracking Label Link and placed on the shipment.",
+      "at": "06:02"
+    },
+    {
+      "term": "At quality check",
+      "meaning": "Order category (group 03. At quality check) that an order moves into once availability is confirmed.",
+      "at": "05:54"
+    },
+    {
+      "term": "Tracking Label Link",
+      "meaning": "Field in Tracking Information holding the link to the airway bill PDF. Optional for Saudi Arabia orders.",
+      "at": "06:32"
+    },
+    {
+      "term": "Buy box",
+      "meaning": "Used by the trainer as a pricing term (a price is put in your buy box). Not defined in the video.",
+      "at": "05:27"
+    },
+    {
+      "term": "Locked price",
+      "meaning": "Used by the trainer as a pricing term (you locked a price). Not defined in the video.",
+      "at": "05:27"
+    }
+  ],
+  "asr_fixes": [
+    {
+      "at": "03:36",
+      "heard": "request revive",
+      "correct": "Request Revibe",
+      "basis": "Screen label Request Revibe on order Edit page (t00214.jpg, t00217.jpg)"
+    },
+    {
+      "at": "03:50",
+      "heard": "{other?}",
+      "correct": "Other (Write Comment)",
+      "basis": "Dropdown option Other (Write Comment) (t00217.jpg)"
+    },
+    {
+      "at": "03:50",
+      "heard": "your own commands",
+      "correct": "your own comments",
+      "basis": "Likely ASR error: the dropdown option is Other (Write Comment) (t00217.jpg) and the field is Supplier Comments (t00235.jpg). Not verified by the audio."
+    },
+    {
+      "at": "03:58",
+      "heard": "Revive teams",
+      "correct": "Revibe teams",
+      "basis": "Brand name as written on screen (Request Revibe, Revibe Comment, Revibe Installment Information)"
+    },
+    {
+      "at": "04:04",
+      "heard": "{revive.?}",
+      "correct": "Revibe",
+      "basis": "Screen label Request Revibe (t00217.jpg)"
+    },
+    {
+      "at": "05:02",
+      "heard": "{five?} percent",
+      "correct": "5%",
+      "basis": "Dialog text '5%' (t00300.jpg)"
+    },
+    {
+      "at": "05:09",
+      "heard": "{46?}",
+      "correct": "46",
+      "basis": "Dialog example '(902 * 5% = 46)' (t00300.jpg); the currency word is not on screen, see unclear"
+    },
+    {
+      "at": "06:00",
+      "heard": "{Add?} Quality Check",
+      "correct": "At quality check",
+      "basis": "Group header '03. At quality check (4)' on the orders list (t00269.jpg, t00367.jpg)"
+    },
+    {
+      "at": "06:02",
+      "heard": "Add Quality Check",
+      "correct": "At quality check",
+      "basis": "Group header '03. At quality check (4)' on the orders list (t00269.jpg, t00367.jpg)"
+    }
+  ],
+  "unclear": [
+    {
+      "at": "05:09",
+      "issue": "Currency unit: the narration says 'DRAMs' but no currency appears on screen. Do not state a currency. Also, 902 x 5% is 45.1, while the dialog shows 46. The screen's example and the spoken figure are both 46, so which figure the system actually charges is not confirmed."
+    },
+    {
+      "at": "04:55",
+      "issue": "The trainer says 'error message', but the screen shows an 'Are you sure?' confirmation dialog with Confirm and Cancel. Whether Cancel avoids the charge is not stated; the trainer only says that marking unavailable charges 5%."
+    },
+    {
+      "at": "06:02",
+      "issue": "No UAE order appears in any frame. The UAE airway bill statements and the QuickUp name (06:02 to 06:18, and 07:24) rest on narration alone."
+    },
+    {
+      "at": "06:18",
+      "issue": "The courier name 'QuickUp' is as spoken. It does not appear on screen, so its spelling is not verified."
+    },
+    {
+      "at": "06:32",
+      "issue": "'You can just copy it, put it here': the destination of the pasted link is not clear. The screen only shows the Tracking Label Link field highlighted, and it is not clear whether the link is copied from or pasted into it."
+    },
+    {
+      "at": "07:09",
+      "issue": "'Here is why we put the working hours like this' refers to working hours that are not shown or explained, so the basis for the 48-hour rule is unknown."
+    },
+    {
+      "at": "07:50",
+      "issue": "The Tracking ID field shows a dropdown of six numbers when clicked. The source of these suggestions is not explained."
+    },
+    {
+      "at": "06:25",
+      "issue": "The trainer says ZA-5181-1 is a South Africa order. The frame does not show its Country field, so this relies on the narration alone."
+    },
+    {
+      "at": "03:55",
+      "issue": "Supplier Comments shows an asterisk on screen (possibly required), but the trainer does not say whether it is mandatory. The frame is low resolution."
+    }
+  ],
+  "outdated": [
+    {
+      "at": "03:34",
+      "signal": "Video is titled TBU (to be updated). Every procedure in this part may change."
+    },
+    {
+      "at": "07:04",
+      "signal": "The 48-hour shipping deadline and the 'working hours' explanation may be out of date. This rests on the TBU title; no frame shows the working hours."
+    },
+    {
+      "at": "05:02",
+      "signal": "The 5% Not Available charge may have changed. This rests on the TBU title only; the dialog text on t00300.jpg is the only current evidence."
+    },
+    {
+      "at": "03:58",
+      "signal": "The description of Revibe teams being in Egypt may be out of date. This rests on the TBU title only; no frame shows it."
+    },
+    {
+      "at": "04:45",
+      "signal": "The field label 'SKU (old: Order Status)' suggests a renamed field (visible on t00214.jpg and t00283.jpg); the workflow may have changed since."
+    }
+  ],
+  "privacy": [
+    {
+      "at": "03:34-03:55",
+      "what": "Order 61021-1 Edit page (t00214.jpg) shows the customer's email address and full street address (Abu Dhabi). Do not reproduce these in seller material."
+    },
+    {
+      "at": "04:13-07:14",
+      "what": "Side panel header for order 61021-1 (t00283.jpg onward) shows the customer's full name. The Customer Information section shows phone number, email, address and city (t00283.jpg, t00288.jpg)."
+    },
+    {
+      "at": "06:25-06:37",
+      "what": "Side panel for ZA-5181-1 (t00385.jpg) shows the customer's name (Basie Lee) in the header. The AWB PDF opened in a new tab (t00397.jpg) is a shipping document that may contain customer details; its content is not visible in the frames."
+    },
+    {
+      "at": "07:41-07:50",
+      "what": "Side panel for SA-57438-1 (t00461.jpg, t00465.jpg, t00470.jpg) shows the customer's name (in Arabic), phone number, email, address and city."
+    },
+    {
+      "at": "04:19-07:14",
+      "what": "Orders list shows free-text Supplier Comments and Revibe Comment entries, which may include seller or customer details."
+    }
+  ],
+  "audit": {
+    "checked": 80,
+    "removed": [
+      {
+        "statement": "Step 05:00: 'Read the warning before confirming.'",
+        "reason": "The trainer does not say this and no frame shows it. It is advice beyond the evidence."
+      },
+      {
+        "statement": "Step 06:25: 'print it' (print the airway bill)",
+        "reason": "The trainer never says to print the airway bill. Only copy, open, place on the shipment and wait for DHL are said."
+      }
+    ],
+    "corrected": [
+      {
+        "before": "summary: 'Pierre walks through the seller's Orders app'",
+        "after": "summary: 'The trainer walks through the seller's Orders app'",
+        "reason": "No frame or transcript line in the pack names the narrator."
+      },
+      {
+        "before": "summary: 'Frame-to-timing alignment for the last batch (t00440 to t00470) is less certain'",
+        "after": "Frame-to-timing alignment checked. Citations for 07:20 to 07:50 were corrected: t00440 is the orders list, t00461 is the SA-57438-1 panel, t00465 shows its values, and t00470 shows the Tracking ID suggestions.",
+        "reason": "Opening the frames showed the earlier citations were off by one or more frames."
+      },
+      {
+        "before": "Step 03:34-03:50 and fact 1: frame t00217.jpg at 03:53 (or 03:43)",
+        "after": "t00217.jpg at 03:37",
+        "reason": "The pack places frame t00217 at 03:37."
+      },
+      {
+        "before": "Step 04:13-04:24: no say evidence for the trainer's words",
+        "after": "Added say evidence at 04:20 and 04:24 with the exact transcript words",
+        "reason": "Every step must cite transcript words for its speech."
+      },
+      {
+        "before": "Step 04:43-04:45 'says' text dropped the {just?} {edit?} {go?} marks",
+        "after": "Restored the low-confidence marks as they appear in the transcript",
+        "reason": "Words marked {word?} must keep their marks."
+      },
+      {
+        "before": "Step 04:29-04:40: 'This is the first step for every order.'",
+        "after": "'This is the first step.' (trainer's words)",
+        "reason": "Overstated; the trainer says 'When you receive an order ... This is the first step.'"
+      },
+      {
+        "before": "Step 05:00: 'Click Confirm to proceed or Cancel to stop.'",
+        "after": "The dialog has Confirm and Cancel buttons; the trainer does not say what Cancel does.",
+        "reason": "Cancel's effect is not shown or said (see unclear 04:55)."
+      },
+      {
+        "before": "Step 05:13: 'Treat your own prices as your responsibility'",
+        "after": "The trainer says the Not Available charge exists because the seller is the only one responsible for their prices.",
+        "reason": "The step was an instruction the trainer did not give; the trainer's stated reason is restated instead."
+      },
+      {
+        "before": "Step 05:20-05:37 screen: 'Orders list / SKU (no specific frame text)'",
+        "after": "Order 61021-1 side panel (t00317.jpg); no SKU screen is shown",
+        "reason": "The passage has a frame (t00317 at 05:17); the screen is the order side panel."
+      },
+      {
+        "before": "Step 05:45-06:00 screen: 'Availability Status set to Confirmed'",
+        "after": "Availability Status dropdown open (t00354.jpg, 05:54); group 03 on the orders list (t00365.jpg, 06:05)",
+        "reason": "No frame shows Confirmed being set for 61021-1."
+      },
+      {
+        "before": "Step 06:25 action: copy, open, print it, place, wait",
+        "after": "copy, open to download, place on the shipment, wait for DHL to collect; 'print it' removed",
+        "reason": "The trainer does not say to print."
+      },
+      {
+        "before": "Step 07:04-07:14 screen 'Orders list (shipping timing, late orders)' with frame t00433",
+        "after": "Screen: no frame shows a late order; t00433 is the ZA-5181-1 side panel, not an orders list",
+        "reason": "No late-order marker is visible in any frame."
+      },
+      {
+        "before": "Step 07:24-07:53 evidence: see 07:20 t00440 'SA-57438-1 side panel'",
+        "after": "see 07:41 t00461 (SA-57438-1 panel: Country Saudi Arabia) and see 07:45 t00465 (Actual Cost 779, Tamara - Split Into 4)",
+        "reason": "t00440 is the orders list; the SA side panel is t00461 and t00465."
+      },
+      {
+        "before": "Step 07:24-07:53: see 07:45 t00465 'Tracking ID field focused with suggestion list'",
+        "after": "see 07:50 t00470 (Tracking ID suggestions)",
+        "reason": "t00465 is the SA-57438-1 view with empty Tracking fields; t00470 shows the suggestion list."
+      },
+      {
+        "before": "Fact: 'For UAE and South Africa orders... for every new order' (Confirming availability is the first step for every new order)",
+        "after": "When you receive an order, confirming its availability is the first step.",
+        "reason": "Limited to what the trainer says."
+      },
+      {
+        "before": "Fact: 'Setting Availability Status to Not Available charges 5% of the order's cost'",
+        "after": "charges 5% of your cost (dialog wording)",
+        "reason": "Matches the dialog text on t00300.jpg."
+      },
+      {
+        "before": "Fact: QuickUp airway bill for UAE, confidence high",
+        "after": "Confidence medium; no UAE order is shown on any frame",
+        "reason": "The name is narration only."
+      },
+      {
+        "before": "Fact: South Africa procedure says 'Copy it, open it ... place the airway bill on the shipment'",
+        "after": "Confidence medium; the trainer says 'copy it, put it here' and the destination is unclear (unclear 06:32)",
+        "reason": "The copy destination is unclear."
+      },
+      {
+        "before": "Screen 'Orders list': 'Variation: Color, Storage, Condition' and 'Delivery Status' columns",
+        "after": "'Variation: Color, Sto...' and 'Delivery S...' (truncated on screen)",
+        "reason": "Column labels are cut off; Condition and the full Delivery Status label are not visible."
+      },
+      {
+        "before": "Screen 'Order side panel with workflow buttons': 'the set varies by order status' and Mark picked up/delivered not shown",
+        "after": "Order 61021-1 shows five buttons; ZA-5181-1 and SA-57438-1 also show Mark picked up and Mark delivered",
+        "reason": "States only what the frames show."
+      },
+      {
+        "before": "Screen 'Financial Summary' frame t00440",
+        "after": "frame t00465 (SA-57438-1 Actual Cost 779, Tamara); t00385 (ZA-5181-1 Actual Cost 509, Card)",
+        "reason": "t00440 is the orders list."
+      },
+      {
+        "before": "Screen 'Tracking Information' frame t00465 and 'Tracking ID suggestion list' at 07:45 (t00465)",
+        "after": "frame t00470 at 07:50",
+        "reason": "t00470 shows the suggestion list; the frame times are 07:50 not 07:45."
+      },
+      {
+        "before": "Unclear 07:45 (Tracking ID suggestions)",
+        "after": "07:50",
+        "reason": "Frame t00470 is at 07:50."
+      },
+      {
+        "before": "Privacy 04:13-05:54: 'Side panel for order 61021-1 (t00265 onward)'",
+        "after": "t00283 onward (t00265 is the orders list with the filter panel)",
+        "reason": "The side panel first appears on t00283."
+      },
+      {
+        "before": "Privacy 07:20-07:45: frames t00440, t00465",
+        "after": "t00461, t00465, t00470; the customer name shown in Arabic",
+        "reason": "t00440 is the orders list."
+      },
+      {
+        "before": "Outdated 05:02 and 03:58 signals stated as if known to be out of date",
+        "after": "Signals say they rest on the TBU title only",
+        "reason": "No frame or line shows a change; only the video title shows TBU."
+      },
+      {
+        "before": "Summary and screen claims rely on a 'Revibe teams in Egypt' statement",
+        "after": "Kept as the trainer's words, with the ASR fix for 'Revive teams' to 'Revibe teams'",
+        "reason": "The statement is in the transcript; the 'based' word is low-confidence."
+      },
+      {
+        "before": "Screen 'Orders list' frame list included t00259 for column headers including 'Tracking ID'",
+        "after": "t00259 shows the headers up to 'T' (Tracking ID cut off); the fuller headers are on t00265 and t00367",
+        "reason": "The frame truncates the last column label."
+      }
+    ],
+    "added": [
+      "asr_fix 03:50: 'your own commands' to 'your own comments' (likely ASR error, supported by the screen option Other (Write Comment))",
+      "fact: Save and Cancel buttons at the top right in Edit mode (t00313.jpg, 05:13)",
+      "fact: orders list Request Revibe column shows Other (ZA-4414-1, SA-57438-1) and Revibe replied (53156-1) (t00367.jpg, t00385.jpg)",
+      "fact: orders list shows 100 rows per page and 1-100 of 476 (t00367.jpg)",
+      "fact: for Saudi Arabia orders the trainer says the only thing to do is edit the order and enter the tracking ID once availability is confirmed and the order is at quality check (07:35 to 07:45)",
+      "unclear 06:02: no UAE order appears in any frame; the UAE and QuickUp statements rest on narration alone",
+      "say evidence 05:30, 06:51, 06:45, 07:09, 07:24 added to steps and facts where the transcript words were cited but not quoted"
+    ]
+  }
+}

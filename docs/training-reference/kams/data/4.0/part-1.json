@@ -1,0 +1,624 @@
+{
+  "summary": "Part 1 of 3 (00:00-03:34) of the Orders App (Seller) training walks a seller through the Revibe admin Orders list and order detail pages: the stage groups shown on the list (02. Order created, 03. At quality check, 04. Shipped, 05. Delivered), the order columns (Order Help, WH, order-number country prefixes, tracking, cost, payment), opening an order in the side panel, View Details, Edit, and the Comments box. The pack title carries the TBU (to be updated) label. Several narrated sentences are cut off, so the Request Revibe meaning, the 'fulfillment' delivery option, 'supplier view' and the cost definition are left as unclear. All 40 frames listed in the pack were opened.",
+  "frames_opened": 40,
+  "steps": [
+    {
+      "at": "00:00-00:20",
+      "screen": "",
+      "action": "Trainer introduces the Orders App training; no clicks yet. Left menu visible: Dashboard, Order Management, Invoices, Payment Tool.",
+      "evidence": [
+        {"kind": "say", "at": "00:00", "quote": "Hi everyone and welcome to the Orders {App?} training.", "frame": ""},
+        {"kind": "see", "at": "00:20", "frame": "t00020", "quote": "Dashboard page at admin.revibe.me/dashboard with left menu items Dashboard, Order Mana..., Invoices, Payment Tool"}
+      ],
+      "says": "Here is the Orders App.",
+      "why": ""
+    },
+    {
+      "at": "00:21-00:25",
+      "screen": "",
+      "action": "Points the cursor at Payment Tool, then at Order Management in the left menu.",
+      "evidence": [
+        {"kind": "say", "at": "00:22", "quote": "As you can see, you can go to {orders?} management and supplier view in order to see your", "frame": ""},
+        {"kind": "see", "at": "00:21", "frame": "t00021", "quote": "Cursor on the Payment Tool item in the left menu"},
+        {"kind": "see", "at": "00:25", "frame": "t00025", "quote": "Cursor on the Order Mana... item in the left menu"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "00:28-00:39",
+      "screen": "",
+      "action": "Opens the order list and points at the stage groups, reading them out in order.",
+      "evidence": [
+        {"kind": "say", "at": "00:29", "quote": "Here you can see that you have several stages for the orders.", "frame": ""},
+        {"kind": "see", "at": "00:30", "frame": "t00030", "quote": "Group headers '02. Order created (6)' and '03. At quality check (4)'; footer '1-100 of 476'"},
+        {"kind": "say", "at": "00:34", "quote": "Orders created, {add?} quality check,", "frame": ""},
+        {"kind": "say", "at": "00:37", "quote": "shipped,", "frame": ""},
+        {"kind": "say", "at": "00:39", "quote": "delivered.", "frame": ""}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "00:41-00:57",
+      "screen": "",
+      "action": "Explains what each stage means: Order created, Quality check, Shipped, Delivered. The stage headers are shown on the list: 02 and 03 in the first list frames, 04 Shipped in the scrolled frame, 05 Delivered further down.",
+      "evidence": [
+        {"kind": "say", "at": "00:41", "quote": "Order created is when the order has just been placed by the customer and validated by the Revive", "frame": ""},
+        {"kind": "see", "at": "00:41", "frame": "t00041", "quote": "Group headers '02. Order created (6)' and '03. At quality check (4)' visible; no Shipped header in this frame"},
+        {"kind": "see", "at": "00:46", "frame": "t00046", "quote": "Group header '04. Shipped (19)' with rows showing 'Picked up' (cut off at the right edge) in the Delivery Status column"},
+        {"kind": "see", "at": "00:59", "frame": "t00059", "quote": "Group header '05. Delivered (442)' with rows showing 'Delivered' in the Delivery Status column"}
+      ],
+      "says": "Quality check is when basically you do your quality check.",
+      "why": ""
+    },
+    {
+      "at": "00:59-01:21",
+      "screen": "",
+      "action": "Points at the first list row (61021-1, WH 13) to explain the Order Help reference and the working hours since the order was created, then lists the request, model, variation and delivery method fields.",
+      "evidence": [
+        {"kind": "say", "at": "01:01", "quote": "Here every time you can see the order help, which is basically the order reference, the working hours", "frame": ""},
+        {"kind": "say", "at": "01:08", "quote": "since the order was created, so this order has been placed 13 hours ago.", "frame": ""},
+        {"kind": "say", "at": "01:14", "quote": "If there is a request that has been made for Revive, the model, the variation, the delivery method,", "frame": ""},
+        {"kind": "see", "at": "01:08", "frame": "t00030", "quote": "Row 61021-1 with WH value 13 in the WH column"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "01:23-01:31",
+      "screen": "",
+      "action": "Lists the remaining order fields to check: cash on delivery, confirmed date, category, tracking company.",
+      "evidence": [
+        {"kind": "say", "at": "01:24", "quote": "Is there cash on delivery to collect?", "frame": ""},
+        {"kind": "say", "at": "01:27", "quote": "When the order has been confirmed?", "frame": ""},
+        {"kind": "say", "at": "01:29", "quote": "What is the category?", "frame": ""},
+        {"kind": "say", "at": "01:31", "quote": "What is the tracking company?", "frame": ""}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "01:37-01:45",
+      "screen": "",
+      "action": "Points at the cost column, then at the customer information columns.",
+      "evidence": [
+        {"kind": "say", "at": "01:38", "quote": "What is the cost, which is basically the price that you mentioned in your price sheet or in", "frame": ""},
+        {"kind": "see", "at": "01:45", "frame": "t00097", "quote": "Column 'Actual Cost' with values 902, 348, 348, 471, 180, 311, 409, 779, 509, 327"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "01:54-02:09",
+      "screen": "",
+      "action": "Lists payment method, active or closed status and SKU as order fields, and says the order view shows all this information.",
+      "evidence": [
+        {"kind": "say", "at": "01:54", "quote": "Payment method,", "frame": ""},
+        {"kind": "say", "at": "01:55", "quote": "is the order active or closed, what is the SKU, etc.", "frame": ""},
+        {"kind": "say", "at": "01:59", "quote": "Here {when?} you enter the order, you can see all these information as well.", "frame": ""},
+        {"kind": "see", "at": "01:54", "frame": "t00114", "quote": "Columns 'Payment Method' (Tabby, PayJustNow, Card, Tamara - Split Into 4), 'Active Or Closed' (Active), 'SKU (Old: Orde...' with 020499-048651"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "02:09-02:16",
+      "screen": "",
+      "action": "Opens the order side panel and describes its information (order, customer, cost, payment and delivery, status, tracking). Says Edit lets you change some fields.",
+      "evidence": [
+        {"kind": "say", "at": "02:09", "quote": "about the cost, the price that {put?} the payment and delivery method, the status of the order, tracking", "frame": ""},
+        {"kind": "say", "at": "02:16", "quote": "information, if you click on edit you will be able to edit some information here.", "frame": ""},
+        {"kind": "see", "at": "02:02", "frame": "t00122", "quote": "Side panel '61021-1 Tarwa Burokhim' with Edit button top right, sections Order Details, Customer Information and Financial Summary, and View Details button at the bottom"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "02:17-02:22",
+      "screen": "",
+      "action": "Clicks Edit; the side panel switches to edit mode with Save and Cancel buttons.",
+      "evidence": [
+        {"kind": "see", "at": "02:17", "frame": "t00137", "quote": "Side panel with 'Edit' button at top right (view mode)"},
+        {"kind": "see", "at": "02:22", "frame": "t00142", "quote": "Top-right buttons 'Save' and 'Cancel' replace 'Edit' in the side panel"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "02:23-02:30",
+      "screen": "",
+      "action": "Opens View Details for a fuller view of the order, and says the order can also be edited there.",
+      "evidence": [
+        {"kind": "say", "at": "02:23", "quote": "You can also go to view details to have a more complete view of the order and here", "frame": ""},
+        {"kind": "say", "at": "02:30", "quote": "as well you can edit it.", "frame": ""},
+        {"kind": "see", "at": "02:30", "frame": "t00150", "quote": "Page titled 'Order #61021-1' with status badge 'Active', date 24 Mar 2025, and Edit button at top right"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "02:35-02:59",
+      "screen": "",
+      "action": "Explains the order number format for UAE, South Africa and Saudi Arabia, and points at the country labels.",
+      "evidence": [
+        {"kind": "say", "at": "02:40", "quote": "The order is either for UAE, Saudi Arabia or South Africa.", "frame": ""},
+        {"kind": "say", "at": "02:46", "quote": "When it's for UAE {you?} will just see the order number like this.", "frame": ""},
+        {"kind": "say", "at": "02:49", "quote": "When it's for South Africa you will see ZA {and?} when it's for Saudi Arabia you will see", "frame": ""},
+        {"kind": "say", "at": "02:54", "quote": "SA.", "frame": ""},
+        {"kind": "say", "at": "02:59", "quote": "Saudi Arabia, here South Africa and here United Arab Emirates.", "frame": ""},
+        {"kind": "see", "at": "02:57", "frame": "t00177", "quote": "Country column with values South Africa, Saudi Arabia and United Arab Emirates"},
+        {"kind": "see", "at": "00:30", "frame": "t00030", "quote": "Order Help column with values 61021-1, ZA-5207-1 and SA-57438-1"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "03:03-03:18",
+      "screen": "",
+      "action": "Explains that View Details has more order information, the order detail sections, and the shipment status.",
+      "evidence": [
+        {"kind": "say", "at": "03:03", "quote": "As I told you, when you go to {view?} details, you can have more important information about the", "frame": ""},
+        {"kind": "say", "at": "03:10", "quote": "order detail,", "frame": ""},
+        {"kind": "say", "at": "03:12", "quote": "which is all that I just mentioned to you previously.", "frame": ""},
+        {"kind": "say", "at": "03:17", "quote": "And here,", "frame": ""},
+        {"kind": "say", "at": "03:18", "quote": "the shipment status of the order.", "frame": ""},
+        {"kind": "see", "at": "03:12", "frame": "t00192", "quote": "Full order page Order Status section with Shipment Status 'Order created' and Confirmed 'Confirmed'"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "03:22-03:28",
+      "screen": "",
+      "action": "Says the comments box can be used to send a comment to the Revibe team, then mentions editing and asking Revibe for help.",
+      "evidence": [
+        {"kind": "say", "at": "03:22", "quote": "Here you can put some comments, if you want, and send it to Revive Team.", "frame": ""},
+        {"kind": "say", "at": "03:28", "quote": "{and?} here if you want you can edit and if you need anything you can ask {revive?} you", "frame": ""},
+        {"kind": "see", "at": "03:22", "frame": "t00202", "quote": "Right-hand Comments box with placeholder 'Type a message' and a send icon"}
+      ],
+      "says": "",
+      "why": ""
+    }
+  ],
+  "facts": [
+    {
+      "type": "definition",
+      "statement": "The Orders App is the Revibe admin tool (admin.revibe.me) that a seller uses to manage orders, ship on time, avoid cancellation, interact with the Revibe team, and download invoices and track payments.",
+      "evidence": [
+        {"kind": "say", "at": "00:04", "quote": "In this training, I will show you how to use the Orders App in order to manage your", "frame": ""},
+        {"kind": "say", "at": "00:12", "quote": "to avoid cancellation, to interact with the {Revibe?} team and also to download invoices and track payments.", "frame": ""},
+        {"kind": "see", "at": "00:00", "frame": "t00000", "quote": "Browser address bar shows admin.revibe.me/dashboard"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The left menu of the Orders App (admin.revibe.me) lists Dashboard, Order Management, Invoices and Payment Tool.",
+      "evidence": [
+        {"kind": "see", "at": "00:20", "frame": "t00000", "quote": "Left menu items labelled Dashboard, Order Mana..., Invoices and Payment Tool"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Orders are grouped into stages on the Order List, shown in this order: 02. Order created, 03. At quality check, 04. Shipped, 05. Delivered. No group numbered 01 appears in the frames.",
+      "evidence": [
+        {"kind": "say", "at": "00:29", "quote": "Here you can see that you have several stages for the orders.", "frame": ""},
+        {"kind": "see", "at": "00:30", "frame": "t00030", "quote": "Group headers '02. Order created (6)' and '03. At quality check (4)'"},
+        {"kind": "see", "at": "00:46", "frame": "t00046", "quote": "Group header '04. Shipped (19)'"},
+        {"kind": "see", "at": "00:59", "frame": "t00059", "quote": "Group header '05. Delivered (442)'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Order created means the order has just been placed by the customer and validated by the Revibe team.",
+      "evidence": [
+        {"kind": "say", "at": "00:41", "quote": "Order created is when the order has just been placed by the customer and validated by the Revive", "frame": ""},
+        {"kind": "say", "at": "00:47", "quote": "team.", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The stage 'At quality check' is where the trainer says you do your quality check. The trainer gives no detail on what the check involves.",
+      "evidence": [
+        {"kind": "say", "at": "00:48", "quote": "Quality check is when basically you do your quality check.", "frame": ""},
+        {"kind": "see", "at": "00:30", "frame": "t00030", "quote": "Group header '03. At quality check (4)'"}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Shipped means the order has been picked up by the delivery company and sent to the customer.",
+      "evidence": [
+        {"kind": "say", "at": "00:52", "quote": "And then shipped {it?} means that it has been picked up by the delivery company and shipped to", "frame": ""},
+        {"kind": "say", "at": "00:57", "quote": "the customer.", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Delivered means the order has been delivered to the customer.",
+      "evidence": [
+        {"kind": "say", "at": "00:57", "quote": "{delivered,?} it's when it has been delivered to the customer.", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The Order Help column shows the order reference, for example 61021-1.",
+      "evidence": [
+        {"kind": "say", "at": "01:01", "quote": "Here every time you can see the order help, which is basically the order reference, the working hours", "frame": ""},
+        {"kind": "see", "at": "00:30", "frame": "t00030", "quote": "Column 'Order Help' with value 61021-1 in the first row"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The WH column shows the working hours since the order was created (the trainer's words). The trainer says 'this order has been placed 13 hours ago' while pointing at the first row, which shows 61021-1 with WH 13. The narration does not name the order, so the link to 61021-1 is implied.",
+      "evidence": [
+        {"kind": "say", "at": "01:01", "quote": "Here every time you can see the order help, which is basically the order reference, the working hours", "frame": ""},
+        {"kind": "say", "at": "01:08", "quote": "since the order was created, so this order has been placed 13 hours ago.", "frame": ""},
+        {"kind": "see", "at": "01:08", "frame": "t00030", "quote": "Row 61021-1 with WH value 13"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Order numbers show the country: UAE orders have no prefix (e.g. 61021-1), South Africa orders start with ZA (e.g. ZA-5207-1), and Saudi Arabia orders start with SA (e.g. SA-57438-1).",
+      "evidence": [
+        {"kind": "say", "at": "02:40", "quote": "The order is either for UAE, Saudi Arabia or South Africa.", "frame": ""},
+        {"kind": "say", "at": "02:46", "quote": "When it's for UAE {you?} will just see the order number like this.", "frame": ""},
+        {"kind": "say", "at": "02:49", "quote": "When it's for South Africa you will see ZA {and?} when it's for Saudi Arabia you will see", "frame": ""},
+        {"kind": "say", "at": "02:54", "quote": "SA.", "frame": ""},
+        {"kind": "say", "at": "02:55", "quote": "For Saudi Arabia {which?} is exactly what you can see here.", "frame": ""},
+        {"kind": "see", "at": "00:30", "frame": "t00030", "quote": "Order Help column values 61021-1, ZA-5207-1, SA-57438-1"},
+        {"kind": "see", "at": "02:57", "frame": "t00177", "quote": "Country column values South Africa, Saudi Arabia and United Arab Emirates"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The Order List has a search: a Search Key dropdown set to 'Order number' and a box that reads 'Search order number and press enter'.",
+      "evidence": [
+        {"kind": "see", "at": "00:30", "frame": "t00030", "quote": "Search Key dropdown set to 'Order number' and text 'Search order number and press enter'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The Order List has Export, Groups and More Filters buttons above the table, and shows 100 rows per page.",
+      "evidence": [
+        {"kind": "see", "at": "00:30", "frame": "t00030", "quote": "Buttons 'Export', 'Groups', 'More Filters'; 'Rows per page 100'"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Tracking Company values seen on the Order List include DHL, Quiqup and Unidentified.",
+      "evidence": [
+        {"kind": "see", "at": "00:38", "frame": "t00038", "quote": "Tracking Company values 'Quiqup' and 'Unidentified' in shipped rows"},
+        {"kind": "see", "at": "00:52", "frame": "t00052", "quote": "Tracking Company value 'DHL' in At quality check rows"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "The trainer names these tracking fields for the order: tracking company, tracking ID, delivery status, shipment status, tracking link and tracking label link.",
+      "evidence": [
+        {"kind": "say", "at": "01:31", "quote": "What is the tracking company?", "frame": ""},
+        {"kind": "say", "at": "01:32", "quote": "The tracking ID, the delivery status, shipment status, tracking link, tracking label link.", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Implied: the Actual Cost column holds a cost value for each order (values such as 902, 348 and 779). The trainer starts to define cost as 'the price that you mentioned in your price sheet or in', but the sentence is cut off, so the definition is not confirmed.",
+      "evidence": [
+        {"kind": "say", "at": "01:38", "quote": "What is the cost, which is basically the price that you mentioned in your price sheet or in", "frame": ""},
+        {"kind": "see", "at": "01:45", "frame": "t00097", "quote": "Column 'Actual Cost' with values 902, 348, 779"}
+      ],
+      "confidence": "low",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The Payment Method column shows values including Tabby, PayJustNow, Card and Tamara - Split Into 4.",
+      "evidence": [
+        {"kind": "see", "at": "01:54", "frame": "t00114", "quote": "Column 'Payment Method' with values 'Tabby', 'PayJustNow', 'Card', 'Tamara - Split Into 4'"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The Active Or Closed column shows Active or Closed for each order, and the SKU column shows values like 020499-048651 (list header cut off on screen as 'SKU (Old: Orde...').",
+      "evidence": [
+        {"kind": "say", "at": "01:55", "quote": "is the order active or closed, what is the SKU, etc.", "frame": ""},
+        {"kind": "see", "at": "01:54", "frame": "t00114", "quote": "Column 'Active Or Closed' with 'Active'; column 'SKU (Old: Orde...' with 020499-048651"},
+        {"kind": "see", "at": "02:12", "frame": "t00177", "quote": "Column 'Active Or Closed' with 'Closed' on rows with SKU 020456-048851"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "To open an order, click its row. A side panel opens with the order's details, the Edit button (top right) and the View Details button (bottom).",
+      "evidence": [
+        {"kind": "say", "at": "01:59", "quote": "Here {when?} you enter the order, you can see all these information as well.", "frame": ""},
+        {"kind": "see", "at": "02:02", "frame": "t00122", "quote": "Side panel '61021-1 Tarwa Burokhim' with Edit button top right and View Details button at bottom"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The order side panel has these sections in order: Order Details, Customer Information, Financial Summary, Payment & Delivery, Order Status, Tracking Information, Revibe Installment Information.",
+      "evidence": [
+        {"kind": "see", "at": "02:02", "frame": "t00122", "quote": "Sections 'Order Details', 'Customer Information', 'Financial Summary'"},
+        {"kind": "see", "at": "02:09", "frame": "t00129", "quote": "Sections 'Payment & Delivery' and 'Order Status'"},
+        {"kind": "see", "at": "02:12", "frame": "t00134", "quote": "Sections 'Tracking Information' and 'Revibe Installment Information'"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "To edit an order, click Edit. Save and Cancel buttons then appear at the top right.",
+      "evidence": [
+        {"kind": "say", "at": "02:16", "quote": "information, if you click on edit you will be able to edit some information here.", "frame": ""},
+        {"kind": "see", "at": "02:17", "frame": "t00137", "quote": "'Edit' button at top right in view mode"},
+        {"kind": "see", "at": "02:22", "frame": "t00142", "quote": "Buttons 'Save' and 'Cancel' at top right of the side panel"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "In the side panel's edit mode, the Order Status section has a field labelled 'New Handle' next to Availability Status. The trainer does not explain this field.",
+      "evidence": [
+        {"kind": "see", "at": "02:22", "frame": "t00142", "quote": "Order Status section with Availability Status dropdown and a field reading 'New Handle'"}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "View Details opens the full order page at admin.revibe.me/dashboard/order/5/184824 (order #61021-1), which can also be edited with its Edit button.",
+      "evidence": [
+        {"kind": "say", "at": "02:23", "quote": "You can also go to view details to have a more complete view of the order and here", "frame": ""},
+        {"kind": "say", "at": "02:30", "quote": "as well you can edit it.", "frame": ""},
+        {"kind": "see", "at": "02:30", "frame": "t00150", "quote": "Page 'Order #61021-1' with status 'Active', Edit button top right"},
+        {"kind": "see", "at": "02:28", "frame": "t00148", "quote": "Browser URL admin.revibe.me/dashboard/order/5/184824"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The full order page's right-hand Statuses panel shows Shipment Status 'Order created' and Confirmed Status 'Confirmed' for order 61021-1.",
+      "evidence": [
+        {"kind": "say", "at": "03:18", "quote": "the shipment status of the order.", "frame": ""},
+        {"kind": "see", "at": "02:30", "frame": "t00150", "quote": "Statuses panel: 'Shipment Status: Order created', 'Confirmed Status: Confirmed'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The full order page's Order Timeline section lists Confirmed Date, Quality Check Date, Shipping Date, Delivered Date, Cancelled Date and Payment Date.",
+      "evidence": [
+        {"kind": "see", "at": "03:22", "frame": "t00202", "quote": "Order Timeline fields 'Confirmed Date', 'Delivered Date', 'Cancelled Date', 'Quality Check Date', 'Shipping Date', 'Payment Date'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The full order page's Logs section shows Last Updated By and Last Update Date. Under Revibe Installment Information, Cod Status Logs says 'No logs available!' and Shipment Status Logs shows an 'Order created' entry. A further status-logs heading is cut off and shows 'No logs available!'.",
+      "evidence": [
+        {"kind": "see", "at": "03:16", "frame": "t00196", "quote": "Sections 'Logs' (Last Updated By: -, Last Update Date 24/03/2025 10:29 PM), 'Cod Status Logs' with 'No logs available!', and 'Shipment Status Logs' with 'Order created'"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "Use the Comments box on the full order page to write a comment and send it to the Revibe team.",
+      "evidence": [
+        {"kind": "say", "at": "03:22", "quote": "Here you can put some comments, if you want, and send it to Revive Team.", "frame": ""},
+        {"kind": "see", "at": "03:22", "frame": "t00202", "quote": "Right-hand Comments panel with placeholder 'Type a message' and a send icon"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The side panel and the full order page show a stepper under the header with Go to label, Request address..., Ready for pickup, Not ready for pickup and Download. The trainer does not explain these steps.",
+      "evidence": [
+        {"kind": "see", "at": "02:02", "frame": "t00122", "quote": "Stepper labels 'Go to label', 'Request address...', 'Ready for pickup', 'Not ready for pickup', 'Download' under the side panel header"},
+        {"kind": "see", "at": "02:30", "frame": "t00150", "quote": "Same stepper under the header of the full order page"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "On the full order page, Payment & Delivery shows Delivery Method 'Standard' and Payment Method 'Tabby' for order 61021-1.",
+      "evidence": [
+        {"kind": "see", "at": "03:03", "frame": "t00192", "quote": "Payment & Delivery section with 'Delivery Method: Standard' and 'Payment Method: Tabby'"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The full order page's Order Status section also has Delivery Status and Payment Status fields, both shown as '-' for order 61021-1.",
+      "evidence": [
+        {"kind": "see", "at": "03:12", "frame": "t00192", "quote": "Order Status fields 'Delivery Status: -' and 'Payment Status: -'"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "On the Order List, DHL rows in the At quality check group show a DHL tracking link; two of those rows also show a tracking label link starting with https://revibe-tracking-documents-bucket.s3.me-.",
+      "evidence": [
+        {"kind": "see", "at": "01:45", "frame": "t00097", "quote": "Tracking Link values 'https://www.dhl.com/us-en/home/tracking/tracking-...' and Tracking Label Link values 'https://revibe-tracking-documents-bucket.s3.me-...' on two DHL rows"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    }
+  ],
+  "screens": [
+    {
+      "name": "Revibe admin dashboard",
+      "shows": "admin.revibe.me/dashboard with a left menu: Dashboard, Order Management, Invoices, Payment Tool. The page body is an illustration with no data.",
+      "at": "00:00-00:25",
+      "frame": "t00000, t00020, t00021, t00025"
+    },
+    {
+      "name": "Order List",
+      "shows": "Table titled 'Orders' at admin.revibe.me/dashboard/order/5. Search Key dropdown (default 'Order number') and search box. Buttons Export, Groups, More Filters. Stage group headers 02. Order created (6), 03. At quality check (4), 04. Shipped (19), 05. Delivered (442). Footer '1-100 of 476'. Columns include Order Help, WH, Request Revibe, Model, Variation: Color, Storage, Condition, Delivery Method, COD To Collect, Confirmed Date, Category, Supplier Comments, Revibe Comment, Tracking Company, Tracking ID, Delivery Status, Shipment Status, Tracking Link, Tracking Label Link, Actual Cost, Supplier Provided ID, Name, Address, City, Phone Number, Email, Last Updated By, Last Update Date, Date, Quality Check Date, Delivered Date, Shipping Date, Cancelled Date, Payment Date, Payment Status, Payment Method, Active Or Closed, SKU (Old: Order Status), New Handle, Availability Status, Supplier, Country, COD Status, Cancel Reason, Confirmed Status, Device Lock Status, Device Lock ID, Language, Variation/Color, Condition, Storage, IMEI Number.",
+      "at": "00:30-03:12",
+      "frame": "t00030 to t00177"
+    },
+    {
+      "name": "Order side panel",
+      "shows": "Opens from the list when an order row is clicked, titled '<order number> <customer name>' (for example '61021-1 Tarwa Burokhim'). Top right: Edit (or Save and Cancel in edit mode) and a close X. Stepper under the header: Go to label, Request address..., Ready for pickup, Not ready for pickup, Download. Sections: Order Details, Customer Information, Financial Summary, Payment & Delivery, Order Status, Tracking Information, Revibe Installment Information. Bottom: View Details.",
+      "at": "02:02-02:23",
+      "frame": "t00122, t00129, t00132, t00134, t00137, t00142, t00143"
+    },
+    {
+      "name": "Order detail page",
+      "shows": "Titled 'Order #61021-1' with status badge 'Active' and date '24 Mar 2025'. Top right: Edit. Sections: Order Details, Payment & Delivery, Order Status, Order Timeline, Tracking Information, Financial Summary, Customer Information, Logs, Revibe Installment Information. Right column: Statuses panel, a 'Drop or Select file' upload area with 'No files uploaded', and a Comments panel with 'Type a message' and a send icon.",
+      "at": "02:30-03:28",
+      "frame": "t00150, t00192, t00196, t00202"
+    },
+    {
+      "name": "Order edit page",
+      "shows": "Breadcrumb 'Dashboard > Orders > Details > 61021-1', heading 'Edit'. Order Details fields (Model, Variation/Color, Storage, Condition, Country, SKU, Category, Supplier, Request Revibe, Supplier Provided ID, Revibe Comments, Supplier Comments, IMEI Number) and Customer Information fields (Email, Address, City, Language). URL admin.revibe.me/dashboard/order/5/184824/edit. Only some fields look editable; the trainer does not say which.",
+      "at": "03:30-03:32",
+      "frame": "t00210, t00212"
+    }
+  ],
+  "terms": [
+    {"term": "Order Help", "meaning": "Column holding the order reference, e.g. 61021-1 (narrated as 'order help, which is basically the order reference').", "at": "01:01"},
+    {"term": "WH", "meaning": "Working hours since the order was created (narrated as 'the working hours since the order was created'). Row 61021-1 shows WH 13 in the list.", "at": "01:01-01:08"},
+    {"term": "Order created", "meaning": "Stage 02: order just placed by the customer and validated by the Revibe team.", "at": "00:41"},
+    {"term": "Quality check", "meaning": "Stage 03 'At quality check'. The trainer says 'you do your quality check' and gives no detail on what the check involves.", "at": "00:48"},
+    {"term": "Shipped", "meaning": "Stage 04: picked up by the delivery company and shipped to the customer.", "at": "00:52"},
+    {"term": "Delivered", "meaning": "Stage 05: delivered to the customer.", "at": "00:57"},
+    {"term": "Request Revibe", "meaning": "Column with values 'Revibe replied' and 'Other'. Its meaning is not explained in this part (narration cut off).", "at": "01:14"},
+    {"term": "COD To Collect", "meaning": "Column for cash on delivery to collect (shown as '-' in the frames seen). Narrated as 'Is there cash on delivery to collect?'", "at": "01:24"},
+    {"term": "Actual Cost", "meaning": "Column showing a cost value for each order. Its definition is cut off in the narration (see the Actual Cost fact, low confidence).", "at": "01:38"},
+    {"term": "Active Or Closed", "meaning": "Column showing whether the order is Active or Closed.", "at": "01:55"},
+    {"term": "SKU (Old: Order Status)", "meaning": "Column with the SKU, e.g. 020499-048651. The list header is cut off on screen ('SKU (Old: Orde...'); the side panel label reads 'SKU (old: Order Status)'.", "at": "01:55"},
+    {"term": "Tracking Company", "meaning": "Carrier shown on the order, e.g. DHL, Quiqup, Unidentified.", "at": "01:31"},
+    {"term": "Tracking Label Link", "meaning": "Column of links; on some DHL rows in the At quality check group the value starts with https://revibe-tracking-documents-bucket.s3.me-. The trainer names the field but does not explain it.", "at": "01:32"},
+    {"term": "Shipment Status", "meaning": "Order status such as 'Order created' or 'At quality check' (shown in the list and the side panel).", "at": "03:18"},
+    {"term": "Confirmed Status", "meaning": "Status shown as 'Confirmed' on the order (side panel and full page).", "at": "03:18"},
+    {"term": "Revibe Installment Information", "meaning": "Section on the side panel and the full order page; the full page shows Cod Status Logs and Shipment Status Logs under it. The trainer does not explain it.", "at": "03:12"},
+    {"term": "Country / order prefix", "meaning": "UAE orders have no prefix; ZA means South Africa; SA means Saudi Arabia.", "at": "02:40-02:59"}
+  ],
+  "asr_fixes": [
+    {"at": "00:41", "heard": "Revive", "correct": "Revibe", "basis": "Screen shows 'Revibe' (admin.revibe.me, 'Revibe Comment', 'Request Revibe' column)."},
+    {"at": "01:14", "heard": "for Revive,", "correct": "for Revibe,", "basis": "Screen shows 'Request Revibe' column header."},
+    {"at": "00:34", "heard": "{add?} quality check", "correct": "At quality check", "basis": "Group header on screen reads '03. At quality check (4)'."},
+    {"at": "01:21", "heard": "{standard?}", "correct": "Standard", "basis": "Delivery Method values on screen are 'Standard'. The word 'fulfillment' is not on screen (see unclear)."},
+    {"at": "00:22", "heard": "{orders?} management", "correct": "Order Management", "basis": "Left menu item on screen is 'Order Mana...'."},
+    {"at": "03:03", "heard": "{view?} details", "correct": "View Details", "basis": "Button label on screen reads 'View Details'."},
+    {"at": "03:22", "heard": "Revive Team", "correct": "Revibe Team", "basis": "Brand name on screen is Revibe."},
+    {"at": "03:28", "heard": "{revive?} you", "correct": "Revibe you", "basis": "Brand name on screen is Revibe; the word is marked low-confidence and the screen does not confirm it directly."}
+  ],
+  "unclear": [
+    {"at": "01:14-01:21", "issue": "The sentence about requests for Revibe ('If there is a request that has been made for Revive, the model, the variation, the delivery method, so either standard or fulfillment?') is cut off. It is not clear what 'Request Revibe' means, and 'fulfillment' is not visible on screen. Only 'Standard' appears as a delivery method."},
+    {"at": "00:22", "issue": "The trainer says 'orders management and supplier view' but no supplier view appears on screen. Only the 'Order Mana...' menu item is shown."},
+    {"at": "01:38-01:45", "issue": "The definition of cost ('the price that you mentioned in your price sheet or in ...') is cut off, and the continuation ('the payment app and information related to the customer') does not make clear what Actual Cost is based on."},
+    {"at": "02:17-02:30", "issue": "The trainer says Edit lets you change 'some information' but does not say which fields. On the edit page only some fields look editable, and this is not confirmed."},
+    {"at": "00:48", "issue": "'Quality check is when basically you do your quality check' does not say what the seller must check or do."},
+    {"at": "02:09-02:16", "issue": "'the price that {put?} the payment and delivery method' has a garbled word, so the sentence is unclear."},
+    {"at": "03:12-03:28", "issue": "The Revibe Installment Information section and the stepper buttons (Go to label, Request address..., Ready for pickup, Not ready for pickup, Download) are shown on screen but never explained. Whether they are clickable actions is not known."},
+    {"at": "00:59-01:08", "issue": "The narration says 'this order has been placed 13 hours ago' without naming the order. The pointer is on the first row (61021-1, WH 13), so the link to that order is implied, not stated."}
+  ],
+  "outdated": [
+    {"at": "00:00", "signal": "The pack title flags this video as '(TBU)', meaning to be updated, so the workflow may change."},
+    {"at": "00:30-03:12", "signal": "Stage counts on screen (6, 4, 19, 442) and the total of 476 orders are a snapshot from the recording and will change."},
+    {"at": "00:59-03:12", "signal": "Order dates on screen run from 11/11/2024 to 25/03/2025 and are example data."}
+  ],
+  "privacy": [
+    {"at": "00:59-03:28", "what": "Real customer personal data is visible in the Order List (Name, Address, City, Phone Number, Email columns), in the order side panel and on the full order page for order 61021-1 (customer name, phone number, email, street address), and for many other orders in the list. Frames include t00091, t00097, t00107, t00122, t00129, t00134, t00192, t00196, t00202. Do not share these screens with sellers without redaction."},
+    {"at": "01:31-01:45", "what": "The Last Updated By column shows a Revibe staff email address on the ZA-4414-1 row (frame t00112). The Email column on that same row shows a customer address. This is staff data."},
+    {"at": "03:16", "what": "The Logs area shows an internal Revibe admin email in the small 'Updated by' text of the Shipment Status Logs entry (frame t00196). This is staff data; the text is small and was read with low certainty."}
+  ],
+  "audit": {
+    "checked": 87,
+    "added": [
+      "Fact: on the full order page, Payment & Delivery shows Delivery Method 'Standard' and Payment Method 'Tabby' for 61021-1 (frame t00192).",
+      "Fact: the full order page Order Status section has Delivery Status and Payment Status fields, both '-' for 61021-1 (frame t00192).",
+      "Fact: some DHL rows in the At quality check group show a DHL tracking link and a tracking label link starting with https://revibe-tracking-documents-bucket.s3.me- (frame t00097).",
+      "Unclear: the WH narration does not name order 61021-1; the link is implied from the pointer position (frame t00030).",
+      "Frame t00021 added as evidence for the cursor on Payment Tool in step 00:21-00:25; t00114 added for the payment, active/closed and SKU columns; t00177 added for the Closed rows and Country column."
+    ],
+    "removed": [
+      {"statement": "unclear: '00:30 Stage group 01 is not shown on screen and is not mentioned'", "reason": "Not an audio/screen conflict; the list simply begins at group 02, which is already stated in the stage rule fact."},
+      {"statement": "unclear: '00:00-00:12 The intro promises invoices and payment tracking, but this part does not demonstrate Invoices or Payment Tool. The coverage is in parts 2 and 3.'", "reason": "'Coverage is in parts 2 and 3' is not in the evidence for this part; the rest is outside the scope of the check."},
+      {"statement": "outdated: '00:20 trainer calls the app Orders App but the on-screen page title is Orders'", "reason": "Not an outdated or dated signal; the naming difference is not evidence of change."},
+      {"statement": "fact: 'Quality check ... the seller does its quality check on the device'", "reason": "'On the device' is not in the narration; the trainer says only 'you do your quality check'."},
+      {"statement": "fact: 'Active Or Closed ... Active and Closed' cited to frame t00097", "reason": "t00097 does not show these values; restated with t00114 (Active) and t00177 (Closed)."},
+      {"statement": "screen fact: Edit mode 'Availability Status shows New Handle' and 'Tracking ID and Tracking Label Link input boxes'", "reason": "'New Handle' is a separate field beside Availability Status, not its value; the input-box detail looks the same in view mode (t00137), so it is not specific to edit mode."},
+      {"statement": "fact: 'Payment Status Logs' heading", "reason": "Heading is cut off in frame t00196; only 'Cod Status Logs' and 'Shipment Status Logs' are readable."},
+      {"statement": "fact: 'Order Timeline ... Confirmed Date and empty Quality Check Date, Shipping Date ...' cited to t00180", "reason": "Frame t00180 is the list, not the order page; the timeline is shown in t00202."}
+    ],
+    "corrected": [
+      {"before": "step 00:41-00:57: 'Group header 04. Shipped (19)' cited to t00041 and 'Group header 05. Delivered (442)' cited to t00046", "after": "04 Shipped cited to t00046; 05 Delivered cited to t00059; t00041 shows only 02 and 03 headers", "reason": "Frame t00041 has no Shipped header and t00046 has no Delivered header."},
+      {"before": "fact stage rule: '05. Delivered' cited to t00046", "after": "cited to t00059", "reason": "Frame check."},
+      {"before": "fact Quality check: 'the seller does its quality check on the device'", "after": "'The stage At quality check is where the trainer says you do your quality check', confidence medium", "reason": "Narration does not mention a device, and the trainer gives no detail."},
+      {"before": "step 00:59-01:21: 'example order 61021-1 placed 13 hours ago'", "after": "the pointer is on the first row (61021-1, WH 13); the narration does not name the order", "reason": "The link to 61021-1 is implied, not stated."},
+      {"before": "fact WH: 'Example: order 61021-1 has WH 13 and was placed 13 hours ago.'", "after": "medium confidence; 'this order' is not named in the narration", "reason": "Implied row linkage."},
+      {"before": "fact Actual Cost: 'The trainer says it is the price you put in your price sheet'", "after": "low confidence, sentence cut off, description marked as implied", "reason": "Narration is cut off; the definition is not confirmed."},
+      {"before": "step 01:54-02:09 cited to t00112 for the side panel", "after": "payment, active/closed and SKU shown on t00114; side panel on t00122", "reason": "t00112 is the far-right list, not the side panel."},
+      {"before": "fact Payment Method cited to t00097 (01:55)", "after": "cited to t00114 (01:54)", "reason": "t00097 does not show Payment Method; t00114 does."},
+      {"before": "step 02:14-02:17 cited to t00129 for Save/Cancel", "after": "Edit (view mode) on t00137 and Save/Cancel on t00142 (02:22)", "reason": "t00129 is view mode with an Edit button."},
+      {"before": "step 02:23-02:30 and fact View Details: cited to t00137 for the full order page", "after": "t00150 for the full order page; t00137 is the side panel", "reason": "t00137 shows the side panel."},
+      {"before": "step 02:35-02:59 cited to t00148 for the country labels", "after": "t00177 (Country column) and t00030 (order numbers)", "reason": "t00148 is a loading screen."},
+      {"before": "step 03:03-03:18 cited to t00180 for the Order Status and Timeline", "after": "t00192 for Order Status and Shipment Status; t00202 for Order Timeline", "reason": "t00180 is the list."},
+      {"before": "step 03:22-03:28 and fact Comments cited to t00137", "after": "t00202", "reason": "t00137 does not show the Comments box."},
+      {"before": "fact stepper described as 'bottom stepper' cited to t00112 (02:00)", "after": "stepper is under the side panel header and the full page header; cited to t00122 and t00150", "reason": "Wrong position and wrong frame."},
+      {"before": "fact Statuses panel cited to t00137", "after": "cited to t00150", "reason": "Frame check."},
+      {"before": "fact Logs cited to t00177 (03:12)", "after": "cited to t00196 (03:16)", "reason": "Frame check."},
+      {"before": "fact view details ... 'Edit button'", "after": "procedure now says the Edit button is top right on both the side panel and the full page", "reason": "Frames t00137 and t00150."},
+      {"before": "fact 'To see an order's full details, click the order row'", "after": "'To open an order, click its row'", "reason": "The side panel is a partial view; full details are on View Details."},
+      {"before": "screen Order List frames 't00030 to t00148'", "after": "'t00030 to t00177'", "reason": "t00148 is a loading screen."},
+      {"before": "screen Order side panel frames 't00112, t00114, t00120 ...'", "after": "'t00122, t00129, t00132, t00134, t00137, t00142, t00143'", "reason": "t00112 and t00114 show the list; t00120 shows the list with no panel."},
+      {"before": "screen Order detail page frames 't00137, t00143, t00150, t00172, t00177, t00180'", "after": "'t00150, t00192, t00196, t00202'", "reason": "Several listed frames are the side panel or the list."},
+      {"before": "screen Order edit page frames 't00184, t00187, t00212'", "after": "'t00210, t00212'", "reason": "t00184 is the side panel and t00187 is a loading screen."},
+      {"before": "asr_fix at 02:22 '{orders?} management'", "after": "at 00:22", "reason": "The word is at 00:22 in the transcript."},
+      {"before": "unclear at 02:22 'supplier view'", "after": "at 00:22", "reason": "The words are at 00:22 in the transcript."},
+      {"before": "fact Order created definition quote and frame coverage", "after": "unchanged; confirmed against narration lines 00:41 and 00:47", "reason": "Verified."},
+      {"before": "fact 'SKU (Old: Order Status)' as list header", "after": "list header reads 'SKU (Old: Orde...' (cut off); side panel reads 'SKU (old: Order Status)'", "reason": "Exact header text as shown on screen."},
+      {"before": "outdated date range '2024 to March 2025' at 00:52-03:12", "after": "11/11/2024 to 25/03/2025 at 00:59-03:12", "reason": "Exact dates from the frames."},
+      {"before": "privacy: staff email in 'Last Updated By and Email columns' cited to t00091", "after": "staff email in the Last Updated By column on the ZA-4414-1 row, frame t00112; the Email column on the same row shows a customer address", "reason": "Frame and column correction."},
+      {"before": "privacy: Logs 'Updated by' admin email cited to t00177", "after": "cited to t00196, marked low certainty because the text is small", "reason": "Frame check."},
+      {"before": "term Tracking Label Link: 'Link to the tracking label document'", "after": "column of links; the trainer names it and does not explain it; values start with https://revibe-tracking-documents-bucket.s3.me-", "reason": "The 'document' meaning is inferred from the URL, not from narration."},
+      {"before": "term Request Revibe", "after": "values 'Revibe replied' and 'Other' retained; meaning stays unclear", "reason": "Verified on t00030 and t00038."},
+      {"before": "step 00:28-00:39 summary of narration", "after": "unchanged; 'shipped' and 'delivered' lines added as say evidence", "reason": "Verified against lines 00:37 and 00:39."}
+    ]
+  }
+}

@@ -1,0 +1,656 @@
+{
+  "summary": "Part 2 (03:55-05:47) of the 2.2 Fulfillment App (KAM) video. Pierre moves from the Fulfillment App O&D Google Sheet (Users tab) to the AppSheet Revibe - Fulfillment App. He shows the Packaging request, SKUs available (with one SKU detail), Shipments, Request products and Inventory exits pages. He describes taking a seller's view from the Users tab, which the narration only partly explains. The last section covers the Return to supplier reason per device and the photo attached to one example return, 010114-081203. All 25 frames were opened and checked. Several narration lines are cut or garbled, so some items are marked unclear or low confidence.",
+  "frames_opened": 25,
+  "steps": [
+    {
+      "at": "03:55",
+      "screen": "Browser tab 'Fulfillment App - O&D' (Google Sheet)",
+      "action": "Opens the Fulfillment App - O&D Google Sheet tab; the page is blank white at first.",
+      "evidence": [
+        {"kind": "see", "at": "03:55", "frame": "t00235.jpg", "quote": "Browser tab 'Fulfillment App - O&D' open at docs.google.com spreadsheet; page is blank white."}
+      ]
+    },
+    {
+      "at": "03:58",
+      "screen": "Google Sheet, Users tab",
+      "action": "Shows the Users tab with cell E2 selected (Type 'Supplier') on row 2 (ID 1, Name Pierre). Row 2 reads Role 'SteppingStone', Type 'Supplier', Initials 'SS', Status 'Closed'.",
+      "evidence": [
+        {"kind": "see", "at": "03:58", "frame": "t00238.jpg", "quote": "Users tab; E2 selected showing 'Supplier'; row 2 Name Pierre, Role 'SteppingStone', Type 'Supplier', Initials 'SS', Status 'Closed'."},
+        {"kind": "say", "at": "03:59", "quote": "{so?} now when reloading the app now you see i am in the app the number of views"}
+      ],
+      "says": "now when reloading the app now you see i am in the app the number of views",
+      "why": ""
+    },
+    {
+      "at": "04:00",
+      "screen": "Google Sheet, Users tab, then AppSheet tab",
+      "action": "Moves the cursor from the sheet to the AppSheet browser tab (Revibe - Fulfillment App).",
+      "evidence": [
+        {"kind": "see", "at": "04:00", "frame": "t00240.jpg", "quote": "Sheet with D2 'SteppingStone' selected in the formula bar; cursor on the AppSheet tab."}
+      ]
+    },
+    {
+      "at": "04:03",
+      "screen": "AppSheet 'Revibe - Fulfillment App' - Packaging request",
+      "action": "Shows the Packaging request page. Left menu: SKUs available, Shipments, Request products, Supplier inventory, Inventory exits, Packaging request, About, App Gallery.",
+      "evidence": [
+        {"kind": "see", "at": "04:03", "frame": "t00243.jpg", "quote": "Packaging request table; columns ID, Type, Stage, Reason, AWB, Quantity, Stickers, Seller, Required at, Tracking link; rows show Stage 'Sent', Reason 'Send to seller', Seller 'SteppingStone'."}
+      ]
+    },
+    {
+      "at": "04:06",
+      "screen": "AppSheet - Packaging request (still on screen)",
+      "action": "Says the words 'available is way more restricted' (the start of the sentence is cut off, so what is restricted is not stated), then goes to SKUs available.",
+      "evidence": [
+        {"kind": "say", "at": "04:06", "quote": "available is way more restricted and here when i go into skus available i can see them as"}
+      ],
+      "says": "available is way more restricted and here when i go into skus available i can see them as",
+      "why": ""
+    },
+    {
+      "at": "04:11",
+      "screen": "AppSheet - SKUs available",
+      "action": "Opens the SKUs available list; the cursor rests on the iphone-1264 GBGoodBlack row.",
+      "evidence": [
+        {"kind": "see", "at": "04:11", "frame": "t00251.jpg", "quote": "SKUs available columns Category, Model, Product, Price, Quantities recomm..., SKU; warranty rows priced 9,999; iPhone rows priced 519, 858, 479; cursor on iphone-1264 GBGoodBlack row."}
+      ]
+    },
+    {
+      "at": "04:13",
+      "screen": "AppSheet - SKUs available",
+      "action": "Says that the displayed price is based on the buy box of SteppingStone (the sentence ends before the rest of the rule).",
+      "evidence": [
+        {"kind": "say", "at": "04:13", "quote": "stepping stone meaning that the price displayed is based on the buy box of stepping stone and thus"}
+      ],
+      "says": "stepping stone meaning that the price displayed is based on the buy box of stepping stone and thus",
+      "why": "meaning of the price is given; sentence is cut off"
+    },
+    {
+      "at": "04:14",
+      "screen": "AppSheet - SKUs available, SKU detail panel",
+      "action": "Clicks SKU 010113-060101 (iphone-1264 GBGoodBlack). The right-hand panel opens with its details.",
+      "evidence": [
+        {"kind": "see", "at": "04:14", "frame": "t00254.jpg", "quote": "Detail panel 010113-060101: Supplier SteppingStone, Price 519, Category iPhone, Product iphone-1264 GBGoodBlack, Model iphone-12, SKU Status Free market, Quantities recommended 64."}
+      ]
+    },
+    {
+      "at": "04:20",
+      "screen": "AppSheet - Shipments",
+      "action": "Opens Shipments: rows with Supplier 'SteppingStone', grouped by Request Status, with the Completed group (32) at the top.",
+      "evidence": [
+        {"kind": "see", "at": "04:20", "frame": "t00260.jpg", "quote": "Shipments table columns Supplier, ID, Created by, Created at, Updated at, Request Status, Payment method, Tracking company, Tracking ID, Tracking link, Tracking Label link; group header 'Completed 32'; Supplier 'SteppingStone'."}
+      ]
+    },
+    {
+      "at": "04:21",
+      "screen": "AppSheet - Shipments",
+      "action": "Says that the shipments created by SteppingStone are all listed here. The word before 'score' is unclear.",
+      "evidence": [
+        {"kind": "say", "at": "04:21", "quote": "based on {the?} score here i can see all the shipments created by stepping stone all the request"}
+      ],
+      "says": "based on {the?} score here i can see all the shipments created by stepping stone all the request",
+      "why": ""
+    },
+    {
+      "at": "04:25",
+      "screen": "AppSheet - Shipments, scrolled",
+      "action": "Scrolls down to the Cancelled group (7 shipments). The Completed group above still shows row ebc59c29 with Tracking company 'Self delivered'.",
+      "evidence": [
+        {"kind": "see", "at": "04:25", "frame": "t00265.jpg", "quote": "Shipments scrolled to 'Cancelled 7' group; Cancelled rows show Request Status 'Cancelled' and Tracking company Quiqup; Completed row ebc59c29 shows Tracking company 'Self delivered' with no Tracking ID."}
+      ]
+    },
+    {
+      "at": "04:26",
+      "screen": "AppSheet - Shipments, top of list",
+      "action": "Scrolls back to the top, then moves the cursor to the Supplier inventory menu item while talking about products created by SteppingStone. The Supplier inventory page is not opened.",
+      "evidence": [
+        {"kind": "see", "at": "04:26", "frame": "t00266.jpg", "quote": "Shipments at top (Completed 32); cursor on the 'Supplier inventory' sidebar item; the Supplier inventory page is not opened in any frame."},
+        {"kind": "say", "at": "04:28", "quote": "product created by stepping stone all of this meaning that if you need you can go to this"}
+      ],
+      "says": "product created by stepping stone all of this meaning that if you need you can go to this",
+      "why": "sentence cut off before naming the page"
+    },
+    {
+      "at": "04:31",
+      "screen": "AppSheet - Request products",
+      "action": "Opens Request products: groups listed by status, with the 'Closed 755' filter in the left panel.",
+      "evidence": [
+        {"kind": "see", "at": "04:31", "frame": "t00271.jpg", "quote": "Request products columns Request Status, SKU, Product, Supplier, Quantity recommended, Quantity Sent, Warning message, Quantity received, Quantity accepted, Buybox supplier; groups Cancelled (rows visible), Missing item 11, Rejected 16, Warehouse received 588; left filter 'Closed 755'."}
+      ]
+    },
+    {
+      "at": "04:33",
+      "screen": "AppSheet - Request products, Cancelled group expanded",
+      "action": "Shows the Cancelled group (140). The cursor is over the browser tab bar.",
+      "evidence": [
+        {"kind": "see", "at": "04:33", "frame": "t00273.jpg", "quote": "Request products with group 'Cancelled 140' expanded; cursor over the browser tab bar."},
+        {"kind": "say", "at": "04:34", "quote": "user table that i just showed you she is not loading but so meaning that if you need"}
+      ],
+      "says": "user table that i just showed you she is not loading but so meaning that if you need",
+      "why": ""
+    },
+    {
+      "at": "04:40",
+      "screen": "Browser - AppSheet tab (blank dark page)",
+      "action": "Shows a blank dark page on the AppSheet tab while the trainer explains how to reach the user table.",
+      "evidence": [
+        {"kind": "see", "at": "04:40", "frame": "t00280.jpg", "quote": "Blank dark page on the AppSheet tab; no content loaded."},
+        {"kind": "say", "at": "04:41", "quote": "you can come to this user table take the view take the account of a seller in order"}
+      ],
+      "says": "you can come to this user table take the view take the account of a seller in order",
+      "why": ""
+    },
+    {
+      "at": "04:48",
+      "screen": "Google Sheet, Users tab",
+      "action": "Shows the Users tab. Header cell E1 reads 'Pierre Villacèque'; row 3 (Revibe Tech) is selected with Role 'Superadmin'; the status bar shows 'Count: 3'.",
+      "evidence": [
+        {"kind": "see", "at": "04:48", "frame": "t00288.jpg", "quote": "Users sheet; E1 header 'Pierre Villacèque' in orange; D3:G3 selected showing Superadmin; status bar 'Count: 3'."},
+        {"kind": "say", "at": "04:49", "quote": "to see exactly what the seller can see in his app"}
+      ],
+      "says": "to see exactly what the seller can see in his app",
+      "why": ""
+    },
+    {
+      "at": "04:50",
+      "screen": "Google Sheet, Users tab, row 2",
+      "action": "Row 2 (Pierre) changes from Role 'SteppingStone' / Type 'Supplier' to Role 'Superadmin' / Type 'Superadmin'; the sheet shows 'Saving...'. The narration does not explain this edit.",
+      "evidence": [
+        {"kind": "see", "at": "04:50", "frame": "t00290.jpg", "quote": "Row 2 Role 'Superadmin', Type 'Superadmin', Initials and Status cleared; top-left 'Saving...'."}
+      ]
+    },
+    {
+      "at": "04:54",
+      "screen": "AppSheet - Request products",
+      "action": "Says the seller view is used during meetings with sellers, so they do not see other sellers' information. The frame still shows Request products.",
+      "evidence": [
+        {"kind": "see", "at": "04:54", "frame": "t00294.jpg", "quote": "Request products page, Cancelled 140 group, cursor near the top of the page."},
+        {"kind": "say", "at": "04:54", "quote": "{this?} is a way for you during interviews i mean during not interviews but this is a way"},
+        {"kind": "say", "at": "04:59", "quote": "for you during meetings with sellers to guide them going through their view so that they do not"},
+        {"kind": "say", "at": "05:05", "quote": "see the information of other sellers and to show them for instance in the inventory exit all the"}
+      ],
+      "says": "for you during meetings with sellers to guide them going through their view so that they do not",
+      "why": "the trainer says the view lets a KAM show a seller the inventory exit list without exposing other sellers' information"
+    },
+    {
+      "at": "05:11",
+      "screen": "AppSheet - Inventory exits",
+      "action": "Opens Inventory exits. Says he is covering the reasons devices were rejected, which he had not covered in the earlier videos.",
+      "evidence": [
+        {"kind": "see", "at": "05:11", "frame": "t00311.jpg", "quote": "Inventory exits table: Aging inventory return group; Bulk QC rejection 5; RTO 8; Return to supplier 137; left filter 'SteppingStone 568'; columns SKU, Name, Order help, IMEI, Type, Reason for return, Comment, Quantity before, Quantity after, Tracking ID."},
+        {"kind": "say", "at": "05:12", "quote": "reasons why we rejected some devices okay this is something i didn't mention in the previous videos so"}
+      ],
+      "says": "reasons why we rejected some devices okay this is something i didn't mention in the previous videos so",
+      "why": ""
+    },
+    {
+      "at": "05:14",
+      "screen": "AppSheet - Inventory exits, detail panel 010114-081203",
+      "action": "Opens the Return to supplier row 010114-081203 (iphone-12-pro256 GBGraphiteExcellent). The detail panel shows Reason for return 'Camera dot'.",
+      "evidence": [
+        {"kind": "see", "at": "05:14", "frame": "t00314.jpg", "quote": "Detail 010114-081203: Name iphone-12-pro256 GBGraphiteExcellent, Type 'Return to supplier', Reason for return 'Camera dot', Quantity before 3, Quantity after 2, Tracking ID 19299179, Return status 'To return'."}
+      ]
+    },
+    {
+      "at": "05:16",
+      "screen": "AppSheet - Inventory exits, detail panel",
+      "action": "The detail panel stays open and the Return to supplier list is visible behind it. The cursor rests on the Supplier inventory sidebar item while the trainer says to check Inventory exits, Return to supplier.",
+      "evidence": [
+        {"kind": "see", "at": "05:16", "frame": "t00316.jpg", "quote": "Same detail panel; cursor at the Supplier inventory sidebar item; Return to supplier list visible."},
+        {"kind": "say", "at": "05:19", "quote": "i'm mentioning here to you {when?} you check inventory exit return to supplier you can see here device"}
+      ],
+      "says": "i'm mentioning here to you {when?} you check inventory exit return to supplier you can see here device",
+      "why": ""
+    },
+    {
+      "at": "05:22",
+      "screen": "AppSheet - Inventory exits, detail panel (top, not scrolled)",
+      "action": "The detail panel for 010114-081203 is still at the top. The cursor rests on the Supplier inventory sidebar item.",
+      "evidence": [
+        {"kind": "see", "at": "05:22", "frame": "t00322.jpg", "quote": "Detail panel top for 010114-081203 (not scrolled): Type 'Return to supplier', Reason for return 'Camera dot', Tracking ID 19299179; cursor at the Supplier inventory sidebar item."}
+      ]
+    },
+    {
+      "at": "05:27",
+      "screen": "AppSheet - Inventory exits, detail panel scrolled",
+      "action": "Scrolls the detail panel down to Related Attachments (1) and Payment method. Says the reason is shown device by device and that the device is returned to the seller.",
+      "evidence": [
+        {"kind": "see", "at": "05:27", "frame": "t00327.jpg", "quote": "Detail panel scrolled: Reason for return 'Camera dot'; Created by staff email; Related Attachments 1 (52b18beb, 1/30/2025 2:10:25 PM); Payment method '100% - After sales'; Request product ID 010114-081203; cursor near the Updated at value."},
+        {"kind": "say", "at": "05:27", "quote": "by device why we return it we return this device to the seller as you can see this"}
+      ],
+      "says": "by device why we return it we return this device to the seller as you can see this",
+      "why": ""
+    },
+    {
+      "at": "05:32",
+      "screen": "AppSheet - Inventory exits table scrolled right",
+      "action": "Scrolls the list horizontally so the Reason for return column is visible for the Return to supplier rows. Camera dot is on the selected row.",
+      "evidence": [
+        {"kind": "see", "at": "05:32", "frame": "t00332.jpg", "quote": "Table scrolled right: Reason for return column shows Physical condition not matching, Camera dot (selected row), Other, Display issue, Camera issue, Face ID failure."},
+        {"kind": "say", "at": "05:33", "quote": "was because of a camera dot and here you have the proof that is attached and as you"}
+      ],
+      "says": "was because of a camera dot and here you have the proof that is attached and as you",
+      "why": ""
+    },
+    {
+      "at": "05:36",
+      "screen": "AppSheet - Inventory exits, detail panel scrolled",
+      "action": "The cursor rests on the Related Attachments thumbnail 52b18beb while the detail panel is still shown. The full-size photo is on screen by 05:40.",
+      "evidence": [
+        {"kind": "see", "at": "05:36", "frame": "t00336.jpg", "quote": "Detail panel with Related Attachments 1 (52b18beb, 1/30/2025 2:10:25 PM); cursor on the thumbnail; table scrolled right with Camera dot on the selected row."}
+      ]
+    },
+    {
+      "at": "05:40",
+      "screen": "AppSheet - full-size attachment photo",
+      "action": "Shows the full-size photo (an iPhone camera screen). Says camera dots can be seen there and ends the video.",
+      "evidence": [
+        {"kind": "see", "at": "05:40", "frame": "t00340.jpg", "quote": "Full-screen photo of a phone showing the iPhone camera app (VIDEO, PHOTO, PORTRAIT, PANO controls, zoom .5, 1x, 2); no camera dot is clearly visible in this frame."},
+        {"kind": "say", "at": "05:40", "quote": "can see here we can see camera dots thank you very much for watching this video"}
+      ],
+      "says": "can see here we can see camera dots thank you very much for watching this video",
+      "why": ""
+    },
+    {
+      "at": "05:45",
+      "screen": "AppSheet - Inventory exits, attachment panel",
+      "action": "Shows the attachment panel for 52b18beb (Attachment ID 52b18beb, Movement ID 010114-081203, photo thumbnail).",
+      "evidence": [
+        {"kind": "see", "at": "05:45", "frame": "t00345.jpg", "quote": "Attachment 52b18beb panel: Attachment ID 52b18beb, Movement ID 010114-081203, Attachment picture thumbnail, Created at 1/30/2025 2:10:25 PM, Created by staff email."}
+      ]
+    },
+    {
+      "at": "05:46",
+      "screen": "AppSheet - Inventory exits, attachment panel",
+      "action": "Final frame; the same attachment panel is still shown.",
+      "evidence": [
+        {"kind": "see", "at": "05:46", "frame": "t00346.jpg", "quote": "Same attachment panel as t00345."}
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "type": "procedure",
+      "statement": "In Inventory exits > Return to supplier, the Reason for return column gives the reason for each device. The trainer says you check this list to see why each device is returned.",
+      "evidence": [
+        {"kind": "say", "at": "05:19", "quote": "i'm mentioning here to you {when?} you check inventory exit return to supplier you can see here device"},
+        {"kind": "say", "at": "05:27", "quote": "by device why we return it we return this device to the seller as you can see this"},
+        {"kind": "see", "at": "05:32", "frame": "t00332.jpg", "quote": "Return to supplier rows with Reason for return values Physical condition not matching, Camera dot, Other, Display issue, Camera issue, Face ID failure."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Devices in the Return to supplier group are returned to the seller, according to the trainer ('we return this device to the seller').",
+      "evidence": [
+        {"kind": "say", "at": "05:27", "quote": "by device why we return it we return this device to the seller as you can see this"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "A Return to supplier record can carry a photo in Related Attachments. Example record 010114-081203 has one attachment, 52b18beb, created 1/30/2025 2:10:25 PM. The trainer says this attachment is the proof for the camera dot reason.",
+      "evidence": [
+        {"kind": "say", "at": "05:33", "quote": "was because of a camera dot and here you have the proof that is attached and as you"},
+        {"kind": "see", "at": "05:27", "frame": "t00327.jpg", "quote": "Related Attachments 1: 52b18beb, 1/30/2025 2:10:25 PM."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "example",
+      "statement": "Example return record 010114-081203 (iphone-12-pro256 GBGraphiteExcellent, Return to supplier): Reason for return 'Camera dot', Quantity before 3, Quantity after 2, Tracking ID 19299179, Return status 'To return', Inventory type 'Fulfillment', Payment method '100% - After sales'.",
+      "evidence": [
+        {"kind": "see", "at": "05:14", "frame": "t00314.jpg", "quote": "Detail 010114-081203: Name iphone-12-pro256 GBGraphiteExcellent, Reason for return 'Camera dot', Quantity before 3, Quantity after 2, Tracking ID 19299179, Return status 'To return'."},
+        {"kind": "see", "at": "05:27", "frame": "t00327.jpg", "quote": "Inventory type 'Fulfillment'; Payment method '100% - After sales'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Inventory exits groups on the screen are Aging inventory return, Bulk QC rejection (5), RTO (8) and Return to supplier (137), filtered by the left filter 'SteppingStone' (568).",
+      "evidence": [
+        {"kind": "see", "at": "05:11", "frame": "t00311.jpg", "quote": "Group headers Bulk QC rejection 5, RTO 8, Return to supplier 137; left filter 'SteppingStone 568'; Aging inventory return group at the top."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Inventory exits columns: SKU, Name, Order help, IMEI, Type, Reason for return, Comment, Quantity before, Quantity after, Tracking ID (Tracking link and more to the right).",
+      "evidence": [
+        {"kind": "see", "at": "05:11", "frame": "t00311.jpg", "quote": "Column headers SKU, Name, Order help, IMEI, Type, Reason for return, Comment, Quantity before, Quantity after, Tracking ID."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Bulk QC rejection rows show reasons such as Microphone issue, Battery issue and Display issue, and each row has a Comment.",
+      "evidence": [
+        {"kind": "see", "at": "05:32", "frame": "t00332.jpg", "quote": "Bulk QC rejection rows with Reason for return Microphone issue, Microphone issue, Battery issue, Display issue; Comment column populated."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "RTO rows show Quantity before 0 and Quantity after 1. The eight RTO rows show an Order help value; seven of them also show an IMEI (the apple-macbook row shows '-' for IMEI). Example: 010119-071201 iphone-13-pro128, Order help ZA-3503, IMEI 352668915819435.",
+      "evidence": [
+        {"kind": "see", "at": "05:11", "frame": "t00311.jpg", "quote": "RTO rows e.g. 010119-071201 iphone-13-pro128 Order help ZA-3503, IMEI 352668915819435, Quantity before 0, Quantity after 1; 020116-048851 row shows IMEI '-'."}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "Implied: a KAM can open a seller's view from the Users tab and see what the seller sees in the app. The trainer says 'take the view take the account of a seller'; the exact steps are not shown on screen.",
+      "evidence": [
+        {"kind": "say", "at": "03:34", "quote": "Here in user, you can see me at the top, I can take the admin view of another"},
+        {"kind": "say", "at": "04:41", "quote": "you can come to this user table take the view take the account of a seller in order"},
+        {"kind": "say", "at": "04:49", "quote": "to see exactly what the seller can see in his app"}
+      ],
+      "confidence": "low",
+      "quiz": true
+    },
+    {
+      "type": "tip",
+      "statement": "The trainer says the seller view is for meetings with sellers, so he can guide a seller through their own view without showing them other sellers' information.",
+      "evidence": [
+        {"kind": "say", "at": "04:59", "quote": "for you during meetings with sellers to guide them going through their view so that they do not"},
+        {"kind": "say", "at": "05:05", "quote": "see the information of other sellers and to show them for instance in the inventory exit all the"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "The trainer says that to take a seller's view you go to the Users table, and that you can take the admin view of another seller while you are a super admin. Once you take a seller's account and are no longer super admin, the app shows the seller's view when reloaded.",
+      "evidence": [
+        {"kind": "say", "at": "03:34", "quote": "Here in user, you can see me at the top, I can take the admin view of another"},
+        {"kind": "say", "at": "03:46", "quote": "If I take the view of another seller and I'm not anymore super admin, you will see what's"},
+        {"kind": "say", "at": "03:59", "quote": "{so?} now when reloading the app now you see i am in the app the number of views"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Users sheet columns: ID, Name, Email, Role, Type, Initials, Status. Role values seen include Superadmin, Admin, SteppingStone, Dealt, Gadgeteer, Peera, Smart Life, TechSauda, Refurbzoo, Souqrefurb and Perfect. Type values seen include Supplier, Superadmin and Internal. Status values seen include Open and Closed.",
+      "evidence": [
+        {"kind": "see", "at": "03:58", "frame": "t00238.jpg", "quote": "Column headers ID, Name, Email, Role, Type, Initials, Status; Status values 'Closed' and 'Open'; Type values 'Supplier', 'Superadmin', 'Internal'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "SKUs available shows per SKU: Category, Model, Product, Price, Quantities recommended and SKU. Warranty SKUs such as 2-years-extended-warranty-plan (SKU 9999A1-000000) show Price 9,999.",
+      "evidence": [
+        {"kind": "see", "at": "04:11", "frame": "t00251.jpg", "quote": "SKUs available columns Category, Model, Product, Price, Quantities recomm..., SKU; row Warranty 2-years-extended-warranty-plan price 9,999 quantities 144 SKU 9999A1-000000."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "The trainer says the price displayed for SKUs in the SteppingStone seller view is based on the buy box of SteppingStone.",
+      "evidence": [
+        {"kind": "say", "at": "04:13", "quote": "stepping stone meaning that the price displayed is based on the buy box of stepping stone and thus"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "example",
+      "statement": "SKU 010113-060101 (iphone-1264 GBGoodBlack, SteppingStone): Price 519, Category iPhone, Model iphone-12, SKU Status 'Free market', Quantities recommended 64.",
+      "evidence": [
+        {"kind": "see", "at": "04:14", "frame": "t00254.jpg", "quote": "Detail panel: Supplier SteppingStone, Price 519, SKU Status Free market, Quantities recommended 64."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Shipments lists shipments by Supplier (SteppingStone in this example) with Request Status, Payment method, Tracking company, Tracking ID and Tracking link. The Completed group has 32 rows and the Cancelled group 7.",
+      "evidence": [
+        {"kind": "see", "at": "04:20", "frame": "t00260.jpg", "quote": "Shipments columns Supplier, Request Status, Payment method, Tracking company, Tracking ID, Tracking link; group header 'Completed 32'."},
+        {"kind": "see", "at": "04:25", "frame": "t00265.jpg", "quote": "Group header 'Cancelled 7'."},
+        {"kind": "say", "at": "04:21", "quote": "based on {the?} score here i can see all the shipments created by stepping stone all the request"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Shipments rows show Payment method '100% - After sales' and mostly Tracking company 'Quiqup'. One Completed row, ebc59c29, has Tracking company 'Self delivered' and no Tracking ID.",
+      "evidence": [
+        {"kind": "see", "at": "04:20", "frame": "t00260.jpg", "quote": "Payment method '100% - After sales', Tracking company 'Quiqup'."},
+        {"kind": "see", "at": "04:25", "frame": "t00265.jpg", "quote": "Completed row ebc59c29, Tracking company 'Self delivered', Tracking ID empty."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Request products groups requests by Request Status: Cancelled (140), Missing item (11), Rejected (16), Warehouse received (588). The left filter shows 'Closed' (755).",
+      "evidence": [
+        {"kind": "see", "at": "04:31", "frame": "t00271.jpg", "quote": "Groups Missing item 11, Rejected 16, Warehouse received 588; left filter 'Closed 755'."},
+        {"kind": "see", "at": "04:33", "frame": "t00273.jpg", "quote": "Group header 'Cancelled 140'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Request products columns: Request Status, SKU, Product, Supplier, Quantity recommended, Quantity Sent, Warning message, Quantity received, Quantity accepted, Buybox supplier.",
+      "evidence": [
+        {"kind": "see", "at": "04:31", "frame": "t00271.jpg", "quote": "Column headers including Quantity recommended, Quantity Sent, Warning message, Quantity received, Quantity accepted, Buybox supplier."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "warning",
+      "statement": "A Missing item row can show the warning 'Warning: quantity exceeds the r...' (truncated on screen). Example: SKU 010114-071303, Quantity recommended 3, Quantity Sent 4, Quantity received 0.",
+      "evidence": [
+        {"kind": "see", "at": "04:31", "frame": "t00271.jpg", "quote": "Missing item row 010114-071303 iphone-12-pro128, Quantity recommended 3, Quantity Sent 4, Warning 'Warning: quantity exceeds the r...', Quantity received 0."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Packaging request columns: ID, Type, Stage, Reason, AWB, Quantity, Stickers, Seller, Required at, Tracking link. Stage values seen: Sent, Requested, Out of stock. Reason seen: Send to seller. AWB values seen: porter delivery, Porter delivery, porter.",
+      "evidence": [
+        {"kind": "see", "at": "04:03", "frame": "t00243.jpg", "quote": "Column headers ID, Type, Stage, Reason, AWB, Quantity, Stickers, Seller, Required at, Tracking link; Stage 'Sent', 'Requested', 'Out of stock'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "The Packaging request page lists packaging items with their Stage, Reason and Tracking link for the seller. The trainer does not explain the page in this part.",
+      "evidence": [
+        {"kind": "see", "at": "04:03", "frame": "t00243.jpg", "quote": "Rows such as Phone (box + inners) - English, Quantity 500, Seller SteppingStone, Reason 'Send to seller'."}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The app left menu lists: SKUs available, Shipments, Request products, Supplier inventory, Inventory exits, Packaging request, About, App Gallery.",
+      "evidence": [
+        {"kind": "see", "at": "04:03", "frame": "t00243.jpg", "quote": "Left sidebar menu items SKUs available, Shipments, Request products, Supplier inventory, Inventory exits, Packaging request, About, App Gallery."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "tip",
+      "statement": "The trainer says the reasons devices are rejected were not covered in the previous videos.",
+      "evidence": [
+        {"kind": "say", "at": "05:12", "quote": "okay this is something i didn't mention in the previous videos so"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "warning",
+      "statement": "At 04:34 the trainer says the user table he just showed 'is not loading'. The AppSheet tab is blank at 04:40. Which table is meant is unclear (see unclear list).",
+      "evidence": [
+        {"kind": "say", "at": "04:34", "quote": "user table that i just showed you she is not loading but so meaning that if you need"},
+        {"kind": "see", "at": "04:40", "frame": "t00280.jpg", "quote": "Blank dark page on the AppSheet tab."}
+      ],
+      "confidence": "low",
+      "quiz": false
+    }
+  ],
+  "screens": [
+    {
+      "name": "Google Sheet 'Fulfillment App - O&D' - Users tab",
+      "shows": "Users table: ID, Name, Email, Role, Type, Initials, Status. Row 2 Pierre (Role 'SteppingStone', Type 'Supplier', Status 'Closed') is changed to Role 'Superadmin' / Type 'Superadmin' during the walkthrough (04:50).",
+      "where": "Browser tab 2, Users sheet",
+      "at": "03:55-04:50",
+      "frame": "t00235.jpg, t00238.jpg, t00240.jpg, t00288.jpg, t00290.jpg"
+    },
+    {
+      "name": "AppSheet 'Revibe - Fulfillment App' - SKUs available",
+      "shows": "SKU list with Category, Model, Product, Price, Quantities recommended, SKU; SKU detail panel for 010113-060101 (Supplier, Price, Category, Product, Model, SKU Status, Quantities recommended).",
+      "where": "Left menu: SKUs available",
+      "at": "04:11-04:14",
+      "frame": "t00251.jpg, t00254.jpg"
+    },
+    {
+      "name": "AppSheet - Shipments",
+      "shows": "Shipments grouped by Request Status: Completed (32) and Cancelled (7). Columns Supplier, ID, Created by, Created at, Updated at, Request Status, Payment method, Tracking company, Tracking ID, Tracking link, Tracking Label link.",
+      "where": "Left menu: Shipments",
+      "at": "04:20-04:26",
+      "frame": "t00260.jpg, t00265.jpg, t00266.jpg"
+    },
+    {
+      "name": "AppSheet - Request products",
+      "shows": "Request products grouped by status: Cancelled (140), Missing item (11), Rejected (16), Warehouse received (588); left filter 'Closed' (755); columns including Quantity recommended, Quantity Sent, Warning message, Quantity received, Quantity accepted, Buybox supplier.",
+      "where": "Left menu: Request products",
+      "at": "04:31-04:54",
+      "frame": "t00271.jpg, t00273.jpg, t00294.jpg"
+    },
+    {
+      "name": "AppSheet - Packaging request",
+      "shows": "Packaging request list: ID, Type, Stage, Reason, AWB, Quantity, Stickers, Seller, Required at, Tracking link.",
+      "where": "Left menu: Packaging request",
+      "at": "04:03",
+      "frame": "t00243.jpg"
+    },
+    {
+      "name": "AppSheet - Inventory exits",
+      "shows": "Inventory exits grouped by Type: Aging inventory return, Bulk QC rejection (5), RTO (8), Return to supplier (137); left filter 'SteppingStone' (568); columns SKU, Name, Order help, IMEI, Type, Reason for return, Comment, Quantity before, Quantity after, Tracking ID.",
+      "where": "Left menu: Inventory exits",
+      "at": "05:11-05:32",
+      "frame": "t00311.jpg, t00314.jpg, t00316.jpg, t00322.jpg, t00327.jpg, t00332.jpg"
+    },
+    {
+      "name": "AppSheet - Inventory exit detail and Related Attachments",
+      "shows": "Detail panel for 010114-081203: Reason for return 'Camera dot', Related Attachments (1: 52b18beb), Payment method '100% - After sales', Request product ID 010114-081203.",
+      "where": "Inventory exits, click row, then attachment",
+      "at": "05:14-05:46",
+      "frame": "t00314.jpg, t00322.jpg, t00327.jpg, t00336.jpg, t00340.jpg, t00345.jpg, t00346.jpg"
+    }
+  ],
+  "terms": [
+    {"term": "KAM", "meaning": "Audience label of this item in the item metadata. The narration does not define it.", "at": "03:55"},
+    {"term": "SteppingStone", "meaning": "Supplier name used as the example in this part. The trainer calls it a seller. Spelled 'SteppingStone' on screen.", "at": "04:13"},
+    {"term": "Buy box / Buybox supplier", "meaning": "The trainer says the displayed price is based on the buy box of SteppingStone. The Request products screen has a 'Buybox supplier' column.", "at": "04:13"},
+    {"term": "Free market", "meaning": "Value of 'SKU Status' on the SKU detail panel for SKU 010113-060101. The meaning is not explained in the video.", "at": "04:14"},
+    {"term": "Quantities recommended", "meaning": "Column on SKUs available and Request products. The trainer does not define it.", "at": "04:11"},
+    {"term": "Completed / Cancelled (shipment Request Status)", "meaning": "Request Status groups on the Shipments page.", "at": "04:20"},
+    {"term": "100% - After sales", "meaning": "Payment method value shown on shipments and on the inventory exit detail.", "at": "04:20"},
+    {"term": "Quiqup", "meaning": "Tracking company shown on most shipments and return links.", "at": "04:20"},
+    {"term": "Self delivered", "meaning": "Tracking company value on one Completed shipment (ebc59c29) with no Tracking ID.", "at": "04:25"},
+    {"term": "Missing item / Rejected / Warehouse received", "meaning": "Request products status groups.", "at": "04:31"},
+    {"term": "Warehouse received", "meaning": "Request products status group with 588 rows.", "at": "04:31"},
+    {"term": "Return to supplier", "meaning": "Inventory exits Type for devices returned to the seller. The trainer says each device is returned to the seller.", "at": "05:19"},
+    {"term": "Reason for return", "meaning": "Inventory exits column giving the reason for each return (for example Camera dot).", "at": "05:19"},
+    {"term": "Camera dot", "meaning": "Reason for return on the example device 010114-081203.", "at": "05:33"},
+    {"term": "RTO", "meaning": "Inventory exits Type group with 8 rows. The meaning is not explained in this part.", "at": "05:11"},
+    {"term": "Bulk QC rejection", "meaning": "Inventory exits Type group with 5 rows. Reasons include Microphone issue, Battery issue and Display issue.", "at": "05:11"},
+    {"term": "Aging inventory return", "meaning": "Inventory exits Type group. The meaning is not explained in this part.", "at": "05:11"},
+    {"term": "Return status 'To return'", "meaning": "Field on the return record of 010114-081203.", "at": "05:14"},
+    {"term": "Inventory type 'Fulfillment'", "meaning": "Field on the return record of 010114-081203.", "at": "05:14"},
+    {"term": "Order help", "meaning": "Inventory exits column. Values such as ZA-3503 appear on RTO rows. The meaning is not explained.", "at": "05:11"},
+    {"term": "Related Attachments", "meaning": "Section of an inventory exit record that holds the photo attached to the return (attachment 52b18beb).", "at": "05:22"},
+    {"term": "Users tab (Role / Type)", "meaning": "Google Sheet tab with a Role and a Type column for each user. The trainer says a seller's view is taken from this table.", "at": "04:41"}
+  ],
+  "asr_fixes": [
+    {"at": "04:13", "heard": "stepping stone", "correct": "SteppingStone", "basis": "Supplier name is spelled SteppingStone on the SKU detail panel (t00254) and in the Supplier column (t00243, t00260)."},
+    {"at": "04:13", "heard": "buy box", "correct": "Buybox (Buybox supplier)", "basis": "The Request products table has a column named 'Buybox supplier' (t00271). The spoken phrase itself is correct English; only the on-screen spelling is recorded."},
+    {"at": "04:21", "heard": "stepping stone", "correct": "SteppingStone", "basis": "Supplier name on the Shipments and Request products screens (t00260, t00271)."},
+    {"at": "04:28", "heard": "stepping stone", "correct": "SteppingStone", "basis": "Supplier column on Request products shows 'SteppingStone' (t00271)."}
+  ],
+  "unclear": [
+    {"at": "04:06", "issue": "'available is way more restricted' is cut off. The narration does not say what is restricted (the SKU list, or the seller view)."},
+    {"at": "04:21", "issue": "'based on {the?} score here' is unclear. No 'score' element is visible on the Shipments page, so the word may be wrong."},
+    {"at": "04:34", "issue": "'user table that i just showed you she is not loading' is unclear. The Users table is on the Google Sheet tab, which was shown loaded at 03:58 (t00238) and 04:48 (t00288). The AppSheet tab is blank at 04:40 (t00280). It is not clear which table or view the trainer means."},
+    {"at": "04:50", "issue": "Row 2 of the Users sheet changes from Role 'SteppingStone' / Type 'Supplier' to Role 'Superadmin' / Type 'Superadmin' during the walkthrough, with no narration about it. It is not clear whether this is a demo step or the intended way to switch a view."},
+    {"at": "04:54", "issue": "'during interviews i mean during not interviews' is garbled. The next line says 'meetings with sellers', so the word 'interviews' is most likely a slip."},
+    {"at": "05:12", "issue": "'reasons why we rejected some devices' does not map directly to the screen. Inventory exits shows 'Reason for return'; 'Rejected' is a Request products status, a different concept."},
+    {"at": "05:40", "issue": "'we can see camera dots' is not clearly visible in the frame. The full-size photo (t00340) shows an iPhone camera app screen and no clearly visible camera dot."},
+    {"at": "04:14-04:20", "issue": "The price-based-on-buy-box sentence is cut off after 'and thus' at 04:13, so the full rule (for example whether the price is always the supplier's buy box) cannot be confirmed."},
+    {"at": "04:26-04:33", "issue": "The trainer points at Supplier inventory (t00266) but no Supplier inventory page is shown in any frame, so its content is not in the evidence."}
+  ],
+  "outdated": [
+    {"at": "04:03", "signal": "Packaging request rows show Required at dates before today (2026-10-22), such as 6/11/2026 12:29:49 PM and 6/30/2026 2:59:31 AM, with Stage still 'Sent'. Row ff1f6b3a shows 10/13/2026 3:09:34 PM with Stage 'Requested'."},
+    {"at": "05:14", "signal": "Return and attachment records shown are dated 1/30/2025 (created and updated), and Shipments show 2025 dates, so the example data is old."}
+  ],
+  "privacy": [
+    {"at": "03:58-04:50", "what": "Users sheet shows full names of staff and sellers, and their email addresses (a mix of revibe.me staff addresses and external addresses). Frames t00238, t00288, t00290. Addresses are masked in this record.", "frame": "t00238.jpg, t00288.jpg, t00290.jpg"},
+    {"at": "04:20-04:26", "what": "Shipments 'Created by' column shows seller login email addresses (Gmail accounts, masked here). Frames t00260, t00265, t00266.", "frame": "t00260.jpg, t00265.jpg, t00266.jpg"},
+    {"at": "05:14-05:46", "what": "Return record shows 'Created by' and 'Updated by' staff email (a revibe.me address, masked here), plus internal Request ID cc47d27d, Request tracking ID 19274731, Inventory ID and Movement IDs. Frames t00314, t00327, t00345.", "frame": "t00314.jpg, t00327.jpg, t00345.jpg"}
+  ],
+  "audit": {
+    "checked": 100,
+    "removed": [
+      {"statement": "Privacy item: attachment photo 52b18beb may show a person's hand (frames t00336, t00340).", "reason": "Not verifiable on screen. The full-size photo shows only an iPhone camera screen and no person is clearly visible."},
+      {"statement": "Term KAM defined as 'Key account manager'.", "reason": "General knowledge, not in the evidence. The narration does not define KAM; the audience label comes from the item metadata."},
+      {"statement": "Users sheet Role values include 'Internal' and 'Supplier'.", "reason": "These values appear only in the Type column (E), not in Role (D)."},
+      {"statement": "Warning fact: 'Do not assume the table will always load.'", "reason": "Advice not in the evidence. Kept only as the trainer's 'is not loading' remark, marked low confidence."},
+      {"statement": "Step 05:16 'Points at the return row'.", "reason": "The cursor rests on the Supplier inventory sidebar item (t00316), not on a return row."},
+      {"statement": "Step 04:25 'one row with Tracking company Self delivered' under the Cancelled group.", "reason": "The Self delivered row (ebc59c29) is in the Completed group, not the Cancelled group."}
+    ],
+    "corrected": [
+      {"before": "Step 03:58: row 2 Role 'StteppingStone'.", "after": "Role 'SteppingStone' (the screen and the formula bar both read SteppingStone).", "reason": "Typo in the claim; checked against t00238 and t00240."},
+      {"before": "Step 04:06: 'Says the seller view of SKUs is more restricted'.", "after": "Says the words 'available is way more restricted' (sentence cut off).", "reason": "The narration does not say the seller view of SKUs is restricted."},
+      {"before": "Step 04:20: 'list of shipments created by SteppingStone'.", "after": "Rows with Supplier 'SteppingStone'.", "reason": "The screen column is Supplier; 'Created by' holds login addresses."},
+      {"before": "Step 04:25: Cancelled group row shows 'Self delivered'.", "after": "Self delivered row ebc59c29 is in the Completed group above.", "reason": "t00265 shows the row in the Completed section."},
+      {"before": "Step 05:16: 'Points at the return row'.", "after": "Detail panel stays open; cursor rests on the Supplier inventory sidebar item.", "reason": "t00316 cursor position."},
+      {"before": "Step 05:22: frame t00322 shows the detail panel scrolled down to Related Attachments and Payment method.", "after": "t00322 shows the detail panel at the top, not scrolled. The scrolled view with Related Attachments and Payment method is t00327 (moved to the 05:27 step).", "reason": "Frame mismatch."},
+      {"before": "Step 05:27: 'cursor over the attachment thumbnail 52b18beb' (t00327).", "after": "In t00327 the cursor is near the Updated at value. The thumbnail hover is in t00336 (05:36).", "reason": "Cursor position mismatch."},
+      {"before": "Step 05:36: frame t00336 shows the attachment panel 52b18beb, opening it.", "after": "t00336 shows the detail panel still open with the cursor on the Related Attachments thumbnail. The attachment panel is shown later (t00345).", "reason": "Frame content mismatch."},
+      {"before": "Step 05:40: 'Shows the full-size photo; says camera dots are visible'.", "after": "Same, plus 'no camera dot is clearly visible in this frame' as the frame shows.", "reason": "Accuracy of the frame description."},
+      {"before": "Users sheet Role values 'Superadmin, Admin, Internal, Supplier, SteppingStone, Dealt, Gadgeteer, Peera'.", "after": "Role values: Superadmin, Admin, SteppingStone, Dealt, Gadgeteer, Peera, Smart Life, TechSauda, Refurbzoo, Souqrefurb, Perfect. Type values: Supplier, Superadmin, Internal.", "reason": "Internal and Supplier are Type values; the Role column holds the others."},
+      {"before": "RTO rows show 'an Order help value and an IMEI'.", "after": "Eight RTO rows show an Order help value; seven show an IMEI (the apple-macbook row shows '-').", "reason": "t00311 shows IMEI '-' on 020116-048851."},
+      {"before": "Fact (rule): 'The price displayed for a SKU in SKUs available is based on the buy box of the supplier'.", "after": "'The trainer says the price displayed for SKUs in the SteppingStone seller view is based on the buy box of SteppingStone'.", "reason": "The narration is limited to the SteppingStone view and is cut off."},
+      {"before": "Fact (Related Attachments): 'The trainer says the proof is attached and shows camera dots on the device'.", "after": "The trainer says the attached proof is for the camera dot reason. The camera dot is not clearly visible in the frames.", "reason": "The camera dot visibility is unclear (05:40)."},
+      {"before": "Fact (Implied seller view): 'a KAM opens a seller's view from the Users sheet (Role/Type columns)'.", "after": "'Implied: a KAM can open a seller's view from the Users tab'. The Role/Type columns are not shown as the mechanism.", "reason": "Not supported by the frames."},
+      {"before": "Fact (warning, 04:34): 'the frames show no Users table is loaded in the app'.", "after": "The Users table is on the Google Sheet tab, not the app. Frames show the Google Sheet tab loaded at 03:58 and 04:48.", "reason": "The Users table is a Google Sheet tab."},
+      {"before": "Screen Users sheet: 'Row 2 Pierre (Role StteppingStone...)'.", "after": "Row 2 Pierre (Role 'SteppingStone', Type 'Supplier', Status 'Closed').", "reason": "Typo corrected."},
+      {"before": "Screen Shipments: 'Cancelled group ... one row with Tracking company Self delivered'.", "after": "Self delivered row is in the Completed group.", "reason": "t00265."},
+      {"before": "Shipments fact: 'one completed row has Tracking company Self delivered'.", "after": "Kept, with the row ID ebc59c29 and the Completed group.", "reason": "Confirmed."},
+      {"before": "Term Users table (Role/Type): 'Google Sheet tab that controls the user accounts'.", "after": "'Google Sheet tab with a Role and a Type column for each user. The trainer says a seller's view is taken from this table.'", "reason": "'Controls the user accounts' is not in the narration or on screen."},
+      {"before": "Term Related Attachments: 'holds the photo proof of a return'.", "after": "'holds the photo attached to the return'.", "reason": "Narration calls it proof; the section itself is only an attachment list."},
+      {"before": "Outdated 04:03: 'The screen is a snapshot from the recording.'", "after": "Removed the snapshot remark and added row ff1f6b3a (10/13/2026, Requested).", "reason": "Speculation removed; a further past-dated row found."},
+      {"before": "Privacy: email addresses listed in full.", "after": "Addresses masked in this record; kinds of data kept.", "reason": "Reduce repetition of personal data."},
+      {"before": "Summary: 'switching to a seller's view through the Users sheet'.", "after": "'describes taking a seller's view from the Users tab, which the narration only partly explains'.", "reason": "The narration only partly explains the mechanism."}
+    ],
+    "added": [
+      "Procedure fact (medium): the trainer says a super admin takes a seller's view from the Users table and that the app shows the seller's view when reloaded (03:34, 03:46, 03:59).",
+      "ASR fix at 04:28: 'stepping stone' to 'SteppingStone' (supplier column on Request products).",
+      "Outdated row ff1f6b3a (Required at 10/13/2026 3:09:34 PM, Stage 'Requested') on Packaging request (t00243).",
+      "Step 05:22 (detail panel top, not scrolled) and step 05:27 (scrolled, Related Attachments and Payment method) split from the earlier single 05:22 step.",
+      "Users sheet header E1 reads 'Pierre Villacèque' at 04:48 (t00288), noted in step 04:48."
+    ]
+  }
+}

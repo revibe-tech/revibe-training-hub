@@ -1,0 +1,816 @@
+{
+  "summary": "Part 3 of the 4.0 Orders App (TBU) seller training (07:56 to 12:07). Covers the Tracking ID field and tracking label link, the courier-data check that flags late orders (trainer's 48-hour rule), the order timeline and shipment logs, the first-step availability confirmation, the 5% charge the trainer mentions for cancellation, the Saudi tracking-ID step, the Request Revibe workflow, the Invoices page, the Payment Tool, and a closing note on the score KPIs. The item title is marked TBU, so dates and figures are 2024-2025 examples and need checking. All 32 frames listed in the pack were opened with Read. Several frame citations in the pack were wrong and are corrected below.",
+  "frames_opened": 32,
+  "steps": [
+    {
+      "at": "07:56",
+      "screen": "Orders list, order side panel for SA-57438-1 (Tracking Information section)",
+      "action": "Clicks into the empty Tracking ID field; a list of six suggested tracking numbers opens below it.",
+      "evidence": [
+        {"kind": "say", "at": "07:56", "frame": "", "quote": "With the tracking ID we will be able to identify the tracking label link."},
+        {"kind": "see", "at": "07:56", "frame": "t00476.jpg", "quote": "Tracking ID input is focused and empty; suggestion list shows six numbers (2935446076, 2021253076, 19390005, 18660044, 18673919, 18703507); Tracking Company, Tracking Link and Tracking Label Link fields are empty."}
+      ],
+      "says": "With the tracking ID we will be able to identify the tracking label link.",
+      "why": "to identify the tracking label link"
+    },
+    {
+      "at": "08:00",
+      "screen": "Order side panel (SA-57438-1)",
+      "action": "Clicks Cancel in the panel header, which returns the panel to read-only fields. No speech for this action.",
+      "evidence": [
+        {"kind": "see", "at": "08:00", "frame": "t00480.jpg", "quote": "Cursor on the Cancel button next to Save in the panel header; the panel fields are greyed out."}
+      ]
+    },
+    {
+      "at": "08:04",
+      "screen": "Orders list, grouped by stage (03. At quality check, 04. Shipped)",
+      "action": "Shows the orders list while explaining the courier-data check for the UAE, Saudi Arabia and South Africa orders.",
+      "evidence": [
+        {"kind": "say", "at": "08:04", "frame": "", "quote": "For all the orders for UAE, Saudi Arabia and South Africa, thanks to the data provided by the"},
+        {"kind": "say", "at": "08:13", "frame": "", "quote": "courier delivery company, we are able to identify if the order has been shipped on time or Here"},
+        {"kind": "see", "at": "08:04", "frame": "t00484.jpg", "quote": "Orders list with group headers '03. At quality check (4)' and '04. Shipped (19)'; footer reads 1-100 of 476."}
+      ],
+      "says": "thanks to the data provided by the courier delivery company, we are able to identify if the order has been shipped on time",
+      "why": "courier delivery data"
+    },
+    {
+      "at": "08:19",
+      "screen": "Orders list, scrolled to the 04. Shipped group",
+      "action": "Scrolls to the Shipped group and clicks the shipped row 53156-1; the side panel opens (still loading at 08:24).",
+      "evidence": [
+        {"kind": "say", "at": "08:21", "frame": "", "quote": "you can see for instance that this order has been shipped, it is in the shipped category and"},
+        {"kind": "see", "at": "08:19", "frame": "t00499.jpg", "quote": "Shipped group rows (53156-1, 53731-1, ZA-2320-2, ZA-2483-1, ZA-2540-2, 55747-1, 56832-2, ZA-3154-1) with 'Picked up' in the right-hand column."},
+        {"kind": "see", "at": "08:24", "frame": "t00504.jpg", "quote": "Side panel for the shipped row opens with an Edit button at the top right and a View Details button at the bottom; content not yet loaded; cursor sits on the 53156-1 row."}
+      ]
+    },
+    {
+      "at": "08:27",
+      "screen": "Orders list",
+      "action": "Points out that the order moves from quality check into the shipped category by itself.",
+      "evidence": [
+        {"kind": "say", "at": "08:27", "frame": "", "quote": "it moves automatically from the quality check to the shipped category."}
+      ]
+    },
+    {
+      "at": "08:32",
+      "screen": "Order side panel (shipped order), bottom",
+      "action": "Clicks View Details at the bottom of the side panel to open the full order page.",
+      "evidence": [
+        {"kind": "say", "at": "08:32", "frame": "", "quote": "Here if you go to view details for instance,"},
+        {"kind": "see", "at": "08:36", "frame": "t00516.jpg", "quote": "Full order page at /dashboard/order/5/150957 scrolled to the bottom: Logs section and Revibe Installment Information section."}
+      ]
+    },
+    {
+      "at": "08:35",
+      "screen": "Order details page /dashboard/order/5/150957, bottom sections",
+      "action": "Scrolls to the bottom to show the Logs, COD Status Logs and Shipment Status Logs.",
+      "evidence": [
+        {"kind": "say", "at": "08:35", "frame": "", "quote": "you can see at the bottom that all the information are provided."},
+        {"kind": "see", "at": "08:36", "frame": "t00516.jpg", "quote": "Logs: Last Updated By basharat@revibe.me, Last Update Date 17/12/2024 01:09 AM; Revibe Installment Information with COD Status Logs 'No logs available!'; Shipment Status Logs heading with no entries visible yet."},
+        {"kind": "see", "at": "08:37", "frame": "t00517.jpg", "quote": "Shipment Status Logs entries: Shipped at 9 Dec 2024 4:39 PM, At quality check at 8 Dec 2024 5:33 PM, Order created at 7 Dec 2024 2:04 PM; Payment Status Logs: Paid, 17 Dec 2024 1:09 AM."}
+      ]
+    },
+    {
+      "at": "08:41",
+      "screen": "Order details page, Shipment Status Logs",
+      "action": "Points at the logged times for order created, quality check and shipped.",
+      "evidence": [
+        {"kind": "say", "at": "08:41", "frame": "", "quote": "You can see when the order was created, when it has been put at quality check and when"},
+        {"kind": "say", "at": "08:48", "frame": "", "quote": "it was shipped."},
+        {"kind": "see", "at": "08:46", "frame": "t00526.jpg", "quote": "Shipment Status Logs show Shipped (9 Dec 2024 4:39 PM), At quality check (8 Dec 2024 5:33 PM) and Order created (7 Dec 2024 2:04 PM); no Delivered entry is visible in this frame."}
+      ]
+    },
+    {
+      "at": "08:49",
+      "screen": "Order details page, Shipment Status Logs (cursor on the Shipped entry)",
+      "action": "Explains where the timing data comes from; no click shown.",
+      "evidence": [
+        {"kind": "say", "at": "08:49", "frame": "", "quote": "This data is provided by the courier delivery company itself."},
+        {"kind": "say", "at": "08:57", "frame": "", "quote": "We are connected with their IT system and at the moment they scan it, the data is recorded"},
+        {"kind": "say", "at": "09:04", "frame": "", "quote": "in their system and a few hours later {they?} transmit it to us."}
+      ]
+    },
+    {
+      "at": "09:10",
+      "screen": "Order details page (no change on screen)",
+      "action": "Warns that a small delay can appear in the app.",
+      "evidence": [
+        {"kind": "say", "at": "09:10", "frame": "", "quote": "So what can happen is that a small delay can be shown on the app, Which means that,"}
+      ]
+    },
+    {
+      "at": "09:17",
+      "screen": "Order details page, Order Timeline section",
+      "action": "Scrolls to the Order Timeline and points at the Confirmed Date and Shipping Date to compare them for an example order.",
+      "evidence": [
+        {"kind": "say", "at": "09:17", "frame": "", "quote": "for instance, you can see that the shipping date will be always accurate."},
+        {"kind": "see", "at": "09:17", "frame": "t00557.jpg", "quote": "Order Timeline: Confirmed Date 07/12/2024 01:59 PM; Quality Check Date 08/12/2024 05:33 PM; Shipping Date 09/12/2024 04:39 PM; Payment Date 17/12/2024 01:09 AM; Delivered Date and Cancelled Date show '-'; cursor near the Shipping Date value."}
+      ]
+    },
+    {
+      "at": "09:38",
+      "screen": "Order details page, Shipping Date value",
+      "action": "Points at the Shipping Date value while giving the late reason. The '09' is highlighted by selection only later, in t00610.",
+      "evidence": [
+        {"kind": "say", "at": "09:35", "frame": "", "quote": "So this order can be considered as late."},
+        {"kind": "say", "at": "09:38", "frame": "", "quote": "{because?} it was shipped more than 48 hours after being confirmed."},
+        {"kind": "see", "at": "09:38", "frame": "t00577.jpg", "quote": "Cursor on the Shipping Date value (09/12/2024 04:39 PM); no highlight yet."},
+        {"kind": "see", "at": "10:10", "frame": "t00610.jpg", "quote": "Shipping Date 09/12/2024 04:39 PM with the day/month '09' highlighted by selection."}
+      ]
+    },
+    {
+      "at": "09:46",
+      "screen": "Order details page (no change on screen)",
+      "action": "Explains that the courier can send the shipping date later than the actual scan; uses a hypothetical date (10 December) as the example.",
+      "evidence": [
+        {"kind": "say", "at": "09:46", "frame": "", "quote": "What can happen, as I was telling you sometimes, is that the shipping date is transmitted by the"},
+        {"kind": "say", "at": "09:53", "frame": "", "quote": "courier delivery company, but later."},
+        {"kind": "say", "at": "09:56", "frame": "", "quote": "Like maybe, for instance, this shipping date might have been transmitted by the delivery company on the 10th"},
+        {"kind": "say", "at": "10:04", "frame": "", "quote": "of December, {which?} will mean, for instance in this case, that the order will first appear as late"},
+        {"kind": "say", "at": "10:11", "frame": "", "quote": "on the orders app {but?} actually the real data that we will get is the data when the"},
+        {"kind": "say", "at": "10:19", "frame": "", "quote": "driver came and scanned you."}
+      ]
+    },
+    {
+      "at": "10:22",
+      "screen": "Orders list, grouped by stage (02. Order created, 03. At quality check)",
+      "action": "Returns to the Orders list for a recap of the stages.",
+      "evidence": [
+        {"kind": "say", "at": "10:22", "frame": "", "quote": "So just to recap,"},
+        {"kind": "say", "at": "10:24", "frame": "", "quote": "here you have all the orders with the different stages."},
+        {"kind": "see", "at": "10:26", "frame": "t00626.jpg", "quote": "Groups '02. Order created (6)' (61021-1, ZA-5207-1, ZA-5221-1, ZA-5228-1, ZA-5237-1, ZA-5238-1) and '03. At quality check (4)' (ZA-4414-1, SA-57438-1, ZA-5181-1, ZA-5185-1)."}
+      ]
+    },
+    {
+      "at": "10:27",
+      "screen": "Order side panel, Order Status section",
+      "action": "Explains that the first step for every order is to confirm its availability. On SA-57438-1 the Availability Status dropdown already reads 'Confirmed'; the click that sets it is not shown.",
+      "evidence": [
+        {"kind": "say", "at": "10:27", "frame": "", "quote": "The first step for you is just to confirm the availability"},
+        {"kind": "say", "at": "10:32", "frame": "", "quote": "for all the orders."},
+        {"kind": "see", "at": "07:56", "frame": "t00476.jpg", "quote": "Order Status section: Shipment Status 'At quality check' and Confirmed Status 'Confirmed' are greyed out; Availability Status dropdown shows 'Confirmed' with a clear (x) button."}
+      ]
+    },
+    {
+      "at": "10:33",
+      "screen": "Not shown on screen",
+      "action": "Explains the charge that applies when an order is cancelled.",
+      "evidence": [
+        {"kind": "say", "at": "10:33", "frame": "", "quote": "If you have to cancel,"},
+        {"kind": "say", "at": "10:36", "frame": "", "quote": "you need to pay a 5% charge, you will be charged 5% for these orders."}
+      ]
+    },
+    {
+      "at": "10:43",
+      "screen": "Order side panel, Tracking Information section (SA-57438-1)",
+      "action": "Explains that for Saudi orders the seller enters the tracking ID it gets from its delivery company in the Tracking ID field.",
+      "evidence": [
+        {"kind": "say", "at": "10:43", "frame": "", "quote": "And the extra step is that for Saudi orders, you need to input the tracking ID that you"},
+        {"kind": "say", "at": "10:52", "frame": "", "quote": "will get through your delivery company."},
+        {"kind": "say", "at": "10:55", "frame": "", "quote": "{These?} are the only steps."},
+        {"kind": "see", "at": "07:56", "frame": "t00476.jpg", "quote": "Tracking ID input field (empty, focused) above Tracking Company, Tracking Link and Tracking Label Link fields."}
+      ]
+    },
+    {
+      "at": "10:58",
+      "screen": "Orders list, 02. Order created group, then order side panel for 61021-1 in edit mode",
+      "action": "Clicks order 61021-1 in the 02. Order created group; its side panel opens in edit mode with an empty Request Revibe dropdown and a Revibe Comments field beside it. Typing a comment is not shown.",
+      "evidence": [
+        {"kind": "say", "at": "10:58", "frame": "", "quote": "If you need to request something from Revive, you can just go here, {edit?} {and?} here request Revive"},
+        {"kind": "see", "at": "10:58", "frame": "t00658.jpg", "quote": "Cursor on the 61021-1 row in the 02. Order created group."},
+        {"kind": "see", "at": "11:00", "frame": "t00660.jpg", "quote": "Panel 61021-1 in edit mode (Save and Cancel buttons at top right); Request Revibe dropdown empty; Revibe Comments field beside it."}
+      ]
+    },
+    {
+      "at": "11:04",
+      "screen": "Order side panel, Request Revibe dropdown open",
+      "action": "Opens the Request Revibe dropdown to choose a request type.",
+      "evidence": [
+        {"kind": "see", "at": "11:04", "frame": "t00664.jpg", "quote": "Dropdown lists Need Address, Need Phone Number, Other (Write Comment), Revibe Replied, String, Confirmed."}
+      ]
+    },
+    {
+      "at": "11:06",
+      "screen": "Order side panel, after Save",
+      "action": "Clicks Save; the panel then shows a loading screen. The request choice and the comment are not shown being entered.",
+      "evidence": [
+        {"kind": "say", "at": "11:06", "frame": "", "quote": "and put any comment that you need."},
+        {"kind": "see", "at": "11:06", "frame": "t00666.jpg", "quote": "Cursor on Save at top right; the panel body shows a loading screen."}
+      ]
+    },
+    {
+      "at": "11:09",
+      "screen": "Invoices page (/dashboard/invoices)",
+      "action": "Opens Invoices from the left navigation. The page lists invoices with a Download button on each row; no download is clicked on screen.",
+      "evidence": [
+        {"kind": "say", "at": "11:09", "frame": "", "quote": "Last two things."},
+        {"kind": "say", "at": "11:12", "frame": "", "quote": "Here {you?} can download all the invoices related to your orders in a PDF."},
+        {"kind": "see", "at": "11:13", "frame": "t00678.jpg", "quote": "Invoices list with columns ID, Order Help, Order Date, Supplier, Download Invoice; Select Date filter and order-help search box; purple Download button on each row. The page first shows skeleton rows (t00673.jpg)."}
+      ]
+    },
+    {
+      "at": "11:18",
+      "screen": "Payment Tool (/dashboard/payment-tool)",
+      "action": "Opens the Payment Tool and points at the Total Payable figure.",
+      "evidence": [
+        {"kind": "say", "at": "11:18", "frame": "", "quote": "{and?} here you can track all your past and upcoming payments."},
+        {"kind": "see", "at": "11:18", "frame": "t00681.jpg", "quote": "Summary bar: Total Payable 1042, Amount Paid 0, Total Receivable 0, Amount Received 0; one Sale row SA-54831-1; cursor on the Total Payable figure."}
+      ]
+    },
+    {
+      "at": "11:24",
+      "screen": "Payment Tool",
+      "action": "States when payments are made; no click shown. The cursor then moves to the left nav, where a 'Supplier View' tooltip appears next to Order Management.",
+      "evidence": [
+        {"kind": "say", "at": "11:24", "frame": "", "quote": "Payments being done every time an order is shipped."},
+        {"kind": "see", "at": "11:25", "frame": "t00685.jpg", "quote": "Tooltip 'Supplier View' next to the Order Management nav item; Payment Tool page still shown."}
+      ]
+    },
+    {
+      "at": "11:28",
+      "screen": "Orders list (/dashboard/order/5)",
+      "action": "Closes the training on the Orders list; no click shown.",
+      "evidence": [
+        {"kind": "say", "at": "11:28", "frame": "", "quote": "This is everything for this training."},
+        {"kind": "say", "at": "11:30", "frame": "", "quote": "Please do not hesitate to reach me if you have any further questions regarding the orders app."},
+        {"kind": "see", "at": "11:28", "frame": "t00688.jpg", "quote": "Orders list reloading (skeleton rows)."}
+      ]
+    },
+    {
+      "at": "11:41",
+      "screen": "Orders list (no change on screen)",
+      "action": "Explains why the order-handling work matters for the seller score; no screen change.",
+      "evidence": [
+        {"kind": "say", "at": "11:35", "frame": "", "quote": "Make sure that everything is clear for you because it is very important for you to properly manage"},
+        {"kind": "say", "at": "11:41", "frame": "", "quote": "It will help you to {a?} non-time shipment ratio which is very high {which?} is good for"},
+        {"kind": "say", "at": "11:48", "frame": "", "quote": "your score and it will help you to reduce your cancellation rate which are the two {which?} are"},
+        {"kind": "see", "at": "11:50", "frame": "t00710.jpg", "quote": "Orders list still shown, no change."}
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "type": "rule",
+      "statement": "Orders are grouped by stage in the Orders list (for example '02. Order created', '03. At quality check', '04. Shipped'). The trainer says an order moves from quality check to the shipped category automatically.",
+      "evidence": [
+        {"kind": "say", "at": "08:27", "frame": "", "quote": "it moves automatically from the quality check to the shipped category."},
+        {"kind": "see", "at": "10:26", "frame": "t00626.jpg", "quote": "Group headers '02. Order created (6)' and '03. At quality check (4)'."},
+        {"kind": "see", "at": "08:04", "frame": "t00484.jpg", "quote": "Group header '04. Shipped (19)' is visible in the list."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "An order is treated as late when it was shipped more than 48 hours after it was confirmed (the trainer's rule, as stated in the example). Confirm the current rule before use.",
+      "evidence": [
+        {"kind": "say", "at": "07:04", "frame": "", "quote": "Because what is very important is that you have 48 hours to ship the order."},
+        {"kind": "say", "at": "09:35", "frame": "", "quote": "So this order can be considered as late."},
+        {"kind": "say", "at": "09:38", "frame": "", "quote": "{because?} it was shipped more than 48 hours after being confirmed."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "example",
+      "statement": "Example order 53156-1 (page /dashboard/order/5/150957): Confirmed Date 07/12/2024 01:59 PM and Shipping Date 09/12/2024 04:39 PM; the trainer calls this order late.",
+      "evidence": [
+        {"kind": "see", "at": "09:17", "frame": "t00557.jpg", "quote": "Order Timeline: Confirmed Date 07/12/2024 01:59 PM."},
+        {"kind": "see", "at": "09:31", "frame": "t00557.jpg", "quote": "Shipping Date 09/12/2024 04:39 PM."},
+        {"kind": "see", "at": "09:17", "frame": "t00557.jpg", "quote": "Tracking Label Link https://revibe-tracking-documents-bucket.s3.me-central-1.amazonaws.com/prod/53156-1-2024-12-... (order 53156-1)."},
+        {"kind": "say", "at": "09:35", "frame": "", "quote": "So this order can be considered as late."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "The Order Timeline on the order details page lists Confirmed Date, Quality Check Date, Shipping Date, Delivered Date, Cancelled Date and Payment Date. The trainer uses it to compare the Confirmed and Shipping dates.",
+      "evidence": [
+        {"kind": "see", "at": "09:17", "frame": "t00557.jpg", "quote": "Order Timeline section lists Confirmed Date, Quality Check Date, Shipping Date, Delivered Date, Cancelled Date and Payment Date."},
+        {"kind": "say", "at": "09:17", "frame": "", "quote": "for instance, you can see that the shipping date will be always accurate."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Shipping dates come from the courier delivery company's scan: the trainer says the courier records the time when it scans the parcel and transmits it to Revibe a few hours later.",
+      "evidence": [
+        {"kind": "say", "at": "08:49", "frame": "", "quote": "This data is provided by the courier delivery company itself."},
+        {"kind": "say", "at": "08:57", "frame": "", "quote": "We are connected with their IT system and at the moment they scan it, the data is recorded"},
+        {"kind": "say", "at": "09:04", "frame": "", "quote": "in their system and a few hours later {they?} transmit it to us."}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "warning",
+      "statement": "The courier can transmit a shipping date later than the actual scan. In the trainer's hypothetical, an order would first appear late in the orders app, while the real data is the time the driver scanned the parcel.",
+      "evidence": [
+        {"kind": "say", "at": "09:53", "frame": "", "quote": "courier delivery company, but later."},
+        {"kind": "say", "at": "09:56", "frame": "", "quote": "Like maybe, for instance, this shipping date might have been transmitted by the delivery company on the 10th"},
+        {"kind": "say", "at": "10:11", "frame": "", "quote": "on the orders app {but?} actually the real data that we will get is the data when the"},
+        {"kind": "say", "at": "10:19", "frame": "", "quote": "driver came and scanned you."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "First step for every order: confirm its availability. The trainer describes this as clicking Edit, then the availability status, and confirming it.",
+      "evidence": [
+        {"kind": "say", "at": "10:27", "frame": "", "quote": "The first step for you is just to confirm the availability"},
+        {"kind": "say", "at": "10:32", "frame": "", "quote": "for all the orders."},
+        {"kind": "say", "at": "04:45", "frame": "", "quote": "here {just?} click on {edit?} {go?} here on availability status and confirm this is the last thing you"},
+        {"kind": "see", "at": "07:56", "frame": "t00476.jpg", "quote": "Availability Status dropdown in the Order Status section shows 'Confirmed'."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "The trainer says that if an order has to be cancelled, a 5% charge applies to these orders. The cost base and currency are not stated on screen.",
+      "evidence": [
+        {"kind": "say", "at": "10:33", "frame": "", "quote": "If you have to cancel,"},
+        {"kind": "say", "at": "10:36", "frame": "", "quote": "you need to pay a 5% charge, you will be charged 5% for these orders."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "For Saudi orders, input the tracking ID you get from your delivery company in the Tracking ID field of the order's Tracking Information section.",
+      "evidence": [
+        {"kind": "say", "at": "07:30", "frame": "", "quote": "For Saudi Arabia order, you have to provide {the?} tracking ID."},
+        {"kind": "say", "at": "10:43", "frame": "", "quote": "And the extra step is that for Saudi orders, you need to input the tracking ID that you"},
+        {"kind": "say", "at": "10:52", "frame": "", "quote": "will get through your delivery company."},
+        {"kind": "see", "at": "07:56", "frame": "t00476.jpg", "quote": "Tracking ID field in Tracking Information (empty)."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "To ask Revibe for something on an order: open the order, click Edit, choose an option in the Request Revibe dropdown, add any comment in Revibe Comments, then click Save.",
+      "evidence": [
+        {"kind": "say", "at": "10:58", "frame": "", "quote": "If you need to request something from Revive, you can just go here, {edit?} {and?} here request Revive"},
+        {"kind": "say", "at": "11:06", "frame": "", "quote": "and put any comment that you need."},
+        {"kind": "see", "at": "10:58", "frame": "t00660.jpg", "quote": "Panel in edit mode with Save and Cancel; Request Revibe dropdown and Revibe Comments field."},
+        {"kind": "see", "at": "11:06", "frame": "t00666.jpg", "quote": "Cursor on Save; the panel shows a loading screen."},
+        {"kind": "see", "at": "08:24", "frame": "t00504.jpg", "quote": "Side panel in view mode shows an Edit button at the top right."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Request Revibe dropdown options shown on screen: Need Address, Need Phone Number, Other (Write Comment), Revibe Replied, String, Confirmed. The trainer names only the first three in the spoken list; String and Confirmed are not explained.",
+      "evidence": [
+        {"kind": "see", "at": "11:04", "frame": "t00664.jpg", "quote": "Dropdown lists Need Address, Need Phone Number, Other (Write Comment), Revibe Replied, String, Confirmed."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Invoices page: lists invoices with ID, Order Help, Order Date, Supplier and a Download button on each row, with a Select Date filter and an order-help search box at the top. The trainer says you can download the invoices related to your orders as a PDF.",
+      "evidence": [
+        {"kind": "say", "at": "11:12", "frame": "", "quote": "Here {you?} can download all the invoices related to your orders in a PDF."},
+        {"kind": "see", "at": "11:13", "frame": "t00678.jpg", "quote": "Select Date filter, 'Search order help and press enter' box, and Download button on each row."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Payment Tool summary bar shows Total Payable, Amount Paid, Total Receivable and Amount Received. The trainer says the page tracks past and upcoming payments.",
+      "evidence": [
+        {"kind": "say", "at": "11:18", "frame": "", "quote": "{and?} here you can track all your past and upcoming payments."},
+        {"kind": "see", "at": "11:18", "frame": "t00681.jpg", "quote": "Summary bar: Total Payable 1042, Amount Paid 0, Total Receivable 0, Amount Received 0."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Payments are made every time an order is shipped (the trainer's statement).",
+      "evidence": [
+        {"kind": "say", "at": "11:24", "frame": "", "quote": "Payments being done every time an order is shipped."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The trainer says the seller score is built from four KPIs and names two that improve it: the shipment ratio (spoken as 'non-time shipment ratio'; the exact name is unclear) and the cancellation rate. He says a very high shipment ratio is good for the score.",
+      "evidence": [
+        {"kind": "say", "at": "11:41", "frame": "", "quote": "It will help you to {a?} non-time shipment ratio which is very high {which?} is good for"},
+        {"kind": "say", "at": "11:48", "frame": "", "quote": "your score and it will help you to reduce your cancellation rate which are the two {which?} are"},
+        {"kind": "say", "at": "11:55", "frame": "", "quote": "the two KPIs out of four that will improve your score and help you have better prices on"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "A better score helps the seller get better prices from Revibe (the trainer's statement).",
+      "evidence": [
+        {"kind": "say", "at": "11:55", "frame": "", "quote": "the two KPIs out of four that will improve your score and help you have better prices on"},
+        {"kind": "say", "at": "12:01", "frame": "", "quote": "Revive."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Orders list columns: Order Help, WH, Request Revibe, Model, Variation (Color, Storage), Delivery Method, COD To Collect, Confirmed Date, Category, Supplier Comments, Revibe Comment, Tracking Company, Tracking ID, and a column cut off at 'Delivery S'. Toolbar: Export, Groups, More Filters, and a Search Key (Order number) box. Footer shows 1-100 of 476.",
+      "evidence": [
+        {"kind": "see", "at": "08:04", "frame": "t00484.jpg", "quote": "Column headers as listed; Export, Groups and More Filters buttons; 'Rows per page 100' and '1-100 of 476'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Order side panel sections (top to bottom): Order Details, Customer Information, Financial Summary, Payment & Delivery, Order Status, Tracking Information, Revibe Installment Information; View Details button at the bottom. Save, Cancel and close buttons sit at the top.",
+      "evidence": [
+        {"kind": "see", "at": "10:58", "frame": "t00660.jpg", "quote": "Order Details, Customer Information, Financial Summary and Payment & Delivery sections; Save, Cancel and X at top right."},
+        {"kind": "see", "at": "07:56", "frame": "t00476.jpg", "quote": "Order Status, Tracking Information and Revibe Installment Information sections; View Details button at bottom."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "In the Order Status section, Shipment Status and Confirmed Status are read-only (greyed). Availability Status is an editable dropdown with a clear (x) button. Payment Status and Delivery Status are dropdowns.",
+      "evidence": [
+        {"kind": "see", "at": "07:56", "frame": "t00476.jpg", "quote": "Shipment Status 'At quality check' and Confirmed Status 'Confirmed' greyed; Availability Status dropdown editable; Payment Status and Delivery Status dropdowns."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Shipment Status Logs, Payment Status Logs and COD Status Logs appear at the bottom of the order details page. Log entries show the status, the time and who updated it; COD Status Logs show 'No logs available!' for this order.",
+      "evidence": [
+        {"kind": "see", "at": "08:37", "frame": "t00517.jpg", "quote": "Shipment Status Logs entries with 'Updated by' lines (admin@revibe.me, qaseemtahir@gmail.com); Payment Status Logs: Paid, 17 Dec 2024 1:09 AM."},
+        {"kind": "see", "at": "08:36", "frame": "t00516.jpg", "quote": "COD Status Logs: 'No logs available!'."},
+        {"kind": "see", "at": "08:46", "frame": "t00526.jpg", "quote": "Shipped at 9 Dec 2024 4:39 PM; At quality check at 8 Dec 2024 5:33 PM."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Shipped rows in the Orders list show 'Picked up' in the column at the right edge of the table.",
+      "evidence": [
+        {"kind": "see", "at": "08:19", "frame": "t00499.jpg", "quote": "'Picked up' text in the right-hand column of Shipped rows."}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Payment Tool table columns: Record Type, Order Help, Actual Cost, Penalty Fees, Confirmed Date, Shipping Date, Delivery Method, COD To Collect, Shipment Status, Date, Tracking ID, Tracking Link, Payment Method, Payment Status, Confirmed Status, Supplier.",
+      "evidence": [
+        {"kind": "see", "at": "11:18", "frame": "t00681.jpg", "quote": "Column headers as listed; one Sale row (SA-54831-1, Silver Point)."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The left navigation has Dashboard, Order Management (with a 'Supplier View' tooltip on hover), Invoices and Payment Tool.",
+      "evidence": [
+        {"kind": "see", "at": "11:25", "frame": "t00685.jpg", "quote": "Left nav with Dashboard, Order Management, Invoices, Payment Tool; 'Supplier View' tooltip next to Order Management."}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Order numbers show the country: ZA is South Africa and SA is Saudi Arabia (the trainer's statement). The Orders list shows ZA-5207-1 and SA-57438-1.",
+      "evidence": [
+        {"kind": "say", "at": "02:49", "frame": "", "quote": "When it's for South Africa you will see ZA {and?} when it's for Saudi Arabia you will see"},
+        {"kind": "say", "at": "02:54", "frame": "", "quote": "SA."},
+        {"kind": "see", "at": "10:26", "frame": "t00626.jpg", "quote": "Order numbers ZA-5207-1 and SA-57438-1 in the group lists."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "The tracking label link is optional; the trainer says the tracking ID is what is needed to identify it and the label link is not mandatory.",
+      "evidence": [
+        {"kind": "say", "at": "07:45", "frame": "", "quote": "just go here, edit, {and?} here put your tracking ID and if you want as well the tracking"},
+        {"kind": "say", "at": "07:53", "frame": "", "quote": "label link {but?} this is not mandatory."},
+        {"kind": "say", "at": "07:56", "frame": "", "quote": "With the tracking ID we will be able to identify the tracking label link."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    }
+  ],
+  "screens": [
+    {
+      "name": "Orders list (Order Management)",
+      "shows": "Orders grouped by stage (02. Order created, 03. At quality check, 04. Shipped), with columns Order Help, WH, Request Revibe, Model, Variation, Delivery Method, COD To Collect, Confirmed Date, Category, Supplier Comments, Revibe Comment, Tracking Company, Tracking ID; Groups, Export and More Filters buttons. The Supplier View item appears only as a hover tooltip.",
+      "at": "08:04",
+      "where": "admin.revibe.me/dashboard/order/5",
+      "frame": "t00484.jpg"
+    },
+    {
+      "name": "Order side panel (order detail slide-over)",
+      "shows": "Order Status (Availability Status editable), Tracking Information (Tracking ID, Tracking Company, Tracking Link, Tracking Label Link) and Revibe Installment Information; View Details at bottom; Save and Cancel buttons in edit mode. Order Details, Customer Information, Financial Summary and Payment & Delivery sit above these when the panel is scrolled up (t00660).",
+      "at": "07:56",
+      "where": "Opened by clicking an order row in the Orders list",
+      "frame": "t00476.jpg"
+    },
+    {
+      "name": "Order details page",
+      "shows": "Logs (Last Updated By basharat@revibe.me, Last Update Date 17/12/2024 01:09 AM); Revibe Installment Information with COD, Shipment and Payment Status Logs (t00516, t00517, t00530); Order Timeline (Confirmed, Quality Check, Shipping, Delivered, Cancelled, Payment dates), Tracking Information, Financial Summary (Actual Cost 650), Customer Information and Comments panel (t00557).",
+      "at": "08:36",
+      "where": "admin.revibe.me/dashboard/order/5/150957, opened with View Details",
+      "frame": "t00516.jpg"
+    },
+    {
+      "name": "Request Revibe edit panel",
+      "shows": "Order 61021-1 in edit mode with Request Revibe dropdown (empty), Revibe Comments, Supplier Comments, IMEI Number, Supplier Provided ID, Order Details and Financial Summary (Actual Cost 902).",
+      "at": "11:00",
+      "where": "Side panel of an order in the 02. Order created group",
+      "frame": "t00660.jpg"
+    },
+    {
+      "name": "Invoices list",
+      "shows": "Invoice rows with ID, Order Help, Order Date, Supplier (Silver Point) and a Download button; Select Date filter and order-help search.",
+      "at": "11:13",
+      "where": "admin.revibe.me/dashboard/invoices (left nav Invoices)",
+      "frame": "t00678.jpg"
+    },
+    {
+      "name": "Payment Tool",
+      "shows": "Summary bar (Total Payable, Amount Paid, Total Receivable, Amount Received), Dense toggle and a table of payment records with Record Type, Order Help, Actual Cost, Penalty Fees, dates, Shipment Status, Tracking ID and Link, Payment Method, Payment Status, Supplier. The one row (SA-54831-1) shows Shipment Status 'Refused delivery'.",
+      "at": "11:18",
+      "where": "admin.revibe.me/dashboard/payment-tool (left nav Payment Tool)",
+      "frame": "t00681.jpg"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Late order",
+      "meaning": "Trainer's rule: an order shipped more than 48 hours after it was confirmed.",
+      "at": "09:35"
+    },
+    {
+      "term": "Order Help",
+      "meaning": "The order number column and search label (examples: ZA-5207-1, SA-57438-1, 61021-1).",
+      "at": "08:04"
+    },
+    {
+      "term": "Availability Status",
+      "meaning": "Editable order-status dropdown in the side panel; the trainer's first step is to confirm it for all orders.",
+      "at": "10:27"
+    },
+    {
+      "term": "Shipment Status",
+      "meaning": "Read-only status of the shipment (examples: At quality check, Shipped, Delivered), with its time logs at the bottom of the order details page.",
+      "at": "08:35"
+    },
+    {
+      "term": "Confirmed Status",
+      "meaning": "Read-only confirmation status shown in the side panel (example: Confirmed).",
+      "at": "10:27"
+    },
+    {
+      "term": "Request Revibe",
+      "meaning": "Per-order dropdown used to ask Revibe for something; paired with a Revibe Comments field.",
+      "at": "10:58"
+    },
+    {
+      "term": "Tracking Label Link",
+      "meaning": "Link to the tracking label; the trainer says it is identified through the tracking ID and is not mandatory.",
+      "at": "07:56"
+    },
+    {
+      "term": "Tracking ID",
+      "meaning": "Courier tracking number; for Saudi orders the seller enters it from its delivery company.",
+      "at": "10:43"
+    },
+    {
+      "term": "Cancellation rate",
+      "meaning": "One of the four KPIs the trainer names as affecting the score; the trainer says it should be reduced. Its formula is not given.",
+      "at": "11:48"
+    },
+    {
+      "term": "Shipment ratio (spoken as 'non-time shipment ratio')",
+      "meaning": "One of the four KPIs; the trainer says a very high ratio is good for the score. The exact name is unclear and its formula is not given.",
+      "at": "11:41"
+    },
+    {
+      "term": "Score",
+      "meaning": "Seller score built from four KPIs; the trainer says a better score helps with better prices from Revibe.",
+      "at": "11:55"
+    },
+    {
+      "term": "Total Payable / Amount Paid / Total Receivable / Amount Received",
+      "meaning": "Summary totals at the top of the Payment Tool; labels only, no definitions in the video.",
+      "at": "11:18"
+    }
+  ],
+  "asr_fixes": [
+    {
+      "at": "10:58",
+      "heard": "Revive",
+      "correct": "Revibe",
+      "basis": "Screen shows 'Request Revibe' and 'Revibe Comments' (t00660.jpg, t00664.jpg)."
+    },
+    {
+      "at": "11:55",
+      "heard": "Revive",
+      "correct": "Revibe",
+      "basis": "Screen shows the Revibe brand and 'Request Revibe' fields (t00660.jpg); same term as 10:58."
+    },
+    {
+      "at": "09:24",
+      "heard": "1.59 {p?}.m.",
+      "correct": "01:59 PM",
+      "basis": "Screen shows Confirmed Date 07/12/2024 01:59 PM (t00557.jpg)."
+    },
+    {
+      "at": "09:31",
+      "heard": "4.39 {p?}.m.",
+      "correct": "04:39 PM",
+      "basis": "Screen shows Shipping Date 09/12/2024 04:39 PM (t00557.jpg)."
+    }
+  ],
+  "unclear": [
+    {
+      "at": "08:13",
+      "issue": "The sentence ends 'shipped on time or Here'. The word after 'or' cannot be made out, so the comparison the on-time check uses (for example, not on time) is not stated."
+    },
+    {
+      "at": "09:17",
+      "issue": "The trainer says a small delay can appear in the app (09:10), then says 'the shipping date will be always accurate' (09:17). The second line may mean 'will not always be accurate'. Not stated as a fact."
+    },
+    {
+      "at": "10:27",
+      "issue": "The trainer says to confirm availability for all orders, but no frame shows the confirm action being clicked. Availability Status already reads 'Confirmed' on an order that is still at quality check (t00476.jpg)."
+    },
+    {
+      "at": "10:33",
+      "issue": "Cancellation charge: the base the 5% applies to, the currency, and how an order is cancelled in the app are not shown. The Cancel button in t00480.jpg is the edit-panel Cancel, not an order-cancellation action. Earlier (04:55-05:02) the trainer ties the 5% charge to marking an order unavailable, with a cost example of 902 (the Actual Cost of 61021-1 in t00660.jpg is 902). Whether the trigger is cancelling or marking unavailable is not settled here. The currency word spoken at 05:09 is garbled ('46 DRAMs')."
+    },
+    {
+      "at": "10:58",
+      "issue": "The Request Revibe dropdown (t00664.jpg) lists 'String' and 'Confirmed' as options. The trainer names neither, and 'String' looks like a placeholder. Only the other options are stated as facts."
+    },
+    {
+      "at": "08:04",
+      "issue": "The courier company providing the data for UAE, Saudi Arabia and South Africa is not named at this point, and the video does not say how the courier link is set up."
+    },
+    {
+      "at": "09:24",
+      "issue": "Order Timeline in t00557.jpg shows Delivered Date '-', while the Shipment Status Logs for the same order in t00530.jpg show 'Delivered at 10 Dec 2024 3:05 PM'. The two screens disagree and the video does not explain it."
+    },
+    {
+      "at": "09:56",
+      "issue": "The example shipping date of 10 December is hypothetical. It is not the date shown on screen for the example order (9 Dec 2024), so the example must not be read as a real order."
+    },
+    {
+      "at": "11:41",
+      "issue": "The trainer's word for the shipment KPI is spoken as 'non-time shipment ratio'. No screen shows the KPI name, so the exact name and any 'on-time' reading are not confirmed. The four KPIs are not named, no formulas or targets are given, and 'which is very high' is not tied to a target."
+    },
+    {
+      "at": "08:19",
+      "issue": "The 'WH' column (numbers such as 13, 5, 2 and 272) and the cut-off 'Delivery S' column are not explained in the video."
+    }
+  ],
+  "outdated": [
+    {
+      "at": "00:00",
+      "signal": "The item title is marked 'TBU (to be updated)'. This marker comes from the item title, not from speech or screen. Treat every screen, rule and number in this part as possibly out of date until confirmed."
+    },
+    {
+      "at": "09:24",
+      "signal": "The worked example is order 53156-1, confirmed 7 Dec 2024 and shipped 9 Dec 2024, with payment logged 17 Dec 2024. These are historical examples."
+    },
+    {
+      "at": "09:38",
+      "signal": "The 5% cancellation charge (10:36) and the 48-hour late threshold (09:38, 07:04) are stated only in speech in a TBU video. Confirm the current values before relying on them."
+    },
+    {
+      "at": "11:18",
+      "signal": "Invoice rows (dated 07/03/2025 to 25/03/2025) and the Payment Tool figure Total Payable 1042 (order SA-54831-1 confirmed 18/02/2025) are snapshots from earlier data, not current balances."
+    },
+    {
+      "at": "11:41",
+      "signal": "The score and its four KPIs are described without names or values, and the video is flagged TBU. The set may have changed."
+    }
+  ],
+  "privacy": [
+    {
+      "at": "07:56",
+      "frame": "t00476.jpg",
+      "what": "Side panel header shows a full customer name in Arabic script for order SA-57438-1."
+    },
+    {
+      "at": "09:17",
+      "frame": "t00557.jpg",
+      "what": "Customer Information for order 53156-1 shows a customer full name, a Dubai street address, a phone number and an email address. The same panel is visible in t00577, t00590 and t00610."
+    },
+    {
+      "at": "09:17",
+      "frame": "t00557.jpg",
+      "what": "The Comments panel shows staff email addresses (qaseemtahir@gmail.com, mostafa.galal@revibe.me, nada.amgad@revibe.me) and customer-service notes ('Need address', '(M.G. Dec 10th) No answer x4, sent email', 'address updated')."
+    },
+    {
+      "at": "08:35",
+      "frame": "t00517.jpg",
+      "what": "Logs show staff email addresses as Last Updated By or Updated by: basharat@revibe.me (t00516), and admin@revibe.me and qaseemtahir@gmail.com (t00517)."
+    },
+    {
+      "at": "10:58",
+      "frame": "t00660.jpg",
+      "what": "Side panel for order 61021-1 shows a customer full name, email address, phone number (partly visible) and a delivery address, in edit mode. Frames t00664 and t00666 show the same panel."
+    },
+    {
+      "at": "08:19",
+      "frame": "t00499.jpg",
+      "what": "Revibe Comment for order 55747-1 includes a Google Maps link to a customer location. Supplier Comments on other rows contain free text about addresses and AWB requests."
+    },
+    {
+      "at": "10:26",
+      "frame": "t00626.jpg",
+      "what": "Supplier Comments column shows free text about customers' addresses and AWB requests, for example 'need complete address order is...' and 'i am asking for awb from last 7...'."
+    }
+  ],
+  "audit": {
+    "checked": 94,
+    "removed": [
+      {
+        "statement": "asr_fixes: 11:41 'non-time shipment ratio' corrected to 'on-time shipment ratio'",
+        "reason": "No screen shows the KPI or its name, and the nearby speech (08:13) is about courier data, not the KPI. The word is unresolved, so it is moved to unclear and no correction is applied."
+      },
+      {
+        "statement": "unclear 10:43: the video does not say what the SA- prefix means",
+        "reason": "Resolved by the transcript at 02:49-02:54 (ZA for South Africa, SA for Saudi Arabia). Replaced by a new fact on order-number prefixes."
+      },
+      {
+        "statement": "privacy 00:00: presenter's face in the webcam overlay, described as a named staff member",
+        "reason": "Not customer or seller personal data. No name is shown on screen, and the webcam overlay is not in every frame."
+      },
+      {
+        "statement": "term Cancellation rate: 'reduced by cancelling less'",
+        "reason": "The trainer only says the rate should be reduced. 'Cancelling less' is an added gloss, not stated."
+      }
+    ],
+    "corrected": [
+      {"before": "step 08:35 see t00516: Shipment Status Logs show Shipped, At quality check, Order created entries", "after": "Same entries are in t00517; t00516 shows only the empty Shipment Status Logs heading", "reason": "Frame mismatch"},
+      {"before": "step 08:41 see t00526 at 08:46: Shipment Status Logs show Delivered (10 Dec 2024 3:05 PM)", "after": "t00526 shows Shipped, At quality check and Order created only; the Delivered entry is in t00530 (and t00550)", "reason": "Wrong frame; Delivered is not visible in t00526"},
+      {"before": "step 09:17 see t00550: Order Timeline values", "after": "Order Timeline is in t00557; t00550 shows the Shipment Status Logs", "reason": "Wrong frame"},
+      {"before": "fact example and step 09:24 say frame t00550", "after": "Say lines use frame attribution from the pack header; the timeline screen is t00557", "reason": "Wrong frame for the timeline screen"},
+      {"before": "step 09:38 'Selects the Shipping Date value'; see t00590 shows '09' highlighted", "after": "Cursor is on the Shipping Date value in t00577 with no highlight; the '09' highlight is in t00610 (10:10)", "reason": "Selection is not visible in t00590 and happens later than the 09:38 speech"},
+      {"before": "step 09:46 say 10:04 cited to t00610", "after": "10:04 line sits under the t00590 frame header", "reason": "Frame attribution"},
+      {"before": "step 10:27 action: Sets Availability Status to Confirmed for every order", "after": "Explains the first step; SA-57438-1 already shows Availability Status 'Confirmed'; the click is not shown", "reason": "Click not shown on screen; overstated"},
+      {"before": "step 10:58 action: types any comment in Revibe Comments", "after": "Comment typing is not shown; the frame shows the empty edit panel", "reason": "Not shown"},
+      {"before": "step 11:06 action: chooses the request and adds a comment, then Save", "after": "Only the Save click is shown (t00666); the choice and comment are not shown being entered", "reason": "Not shown"},
+      {"before": "step 11:09 action: downloads the invoice PDFs; see t00669 is the Invoices page", "after": "No download is clicked. The Invoices page is t00678 (t00669 is the Orders list after Save)", "reason": "Overstated action and wrong frame"},
+      {"before": "step 11:18 see t00678 Payment Tool summary bar", "after": "Payment Tool summary is in t00681; t00678 is the invoices list", "reason": "Wrong frame"},
+      {"before": "step 11:24 see t00681 Supplier View tooltip", "after": "Tooltip is in t00685", "reason": "Wrong frame"},
+      {"before": "step 11:41 say 11:41 and 11:48 cited to t00710", "after": "Both lines sit under the t00690 frame header", "reason": "Frame attribution"},
+      {"before": "step 08:04 one say quote merging two transcript lines (08:04 and 08:13)", "after": "Split into the two exact transcript lines", "reason": "Quote must be copied from one line"},
+      {"before": "step 08:19 clicks shipped order 53156-1 (no evidence)", "after": "Click on the 53156-1 row is supported by cursor position in t00504", "reason": "Evidence added"},
+      {"before": "step 08:32 see t00516 at 08:32", "after": "Same frame timed 08:36 (frame header)", "reason": "Timestamp"},
+      {"before": "fact 'Order Timeline ... Use it to check when each step happened.'", "after": "Reworded to the trainer's use: compare Confirmed and Shipping dates (09:17)", "reason": "Overstated; not said by the trainer"},
+      {"before": "fact First step ... by setting Availability Status to Confirmed", "after": "Trainer describes clicking Edit, then the availability status and confirming (04:45); cited with the 10:27/10:32 lines", "reason": "Method was not shown in part 3; supported by the earlier transcript line"},
+      {"before": "fact 5% warning: If an order has to be cancelled, the seller pays a 5% charge on these orders", "after": "The trainer says a 5% charge applies if the order has to be cancelled; cost base and currency not stated", "reason": "Attribution made explicit"},
+      {"before": "fact invoices: filter by Select Date or search by Order Help", "after": "Describes the on-screen controls only (Select Date filter, order-help search)", "reason": "Trainer did not say to use them"},
+      {"before": "fact KPI: on-time shipment ratio", "after": "Shipment ratio, spoken as 'non-time shipment ratio'; exact name unclear", "reason": "Spelling is a guess; no screen basis"},
+      {"before": "fact side panel sections cited to t00476 only", "after": "Top sections cited to t00660; lower sections to t00476", "reason": "Order Details and Customer Information are not visible in t00476"},
+      {"before": "fact logs screen cited to t00516 for entries", "after": "Entries are in t00517; COD 'No logs' is in t00516", "reason": "Wrong frame"},
+      {"before": "screen Orders list name 'Order Management, Supplier View'", "after": "Supplier View appears only as a hover tooltip", "reason": "Not a visible screen element"},
+      {"before": "screen Order details page shows Order Timeline with frame t00516", "after": "Timeline is in t00557", "reason": "Wrong frame"},
+      {"before": "screen Invoices list frame t00673", "after": "Frame t00678 (t00673 is the loading state)", "reason": "Wrong frame"},
+      {"before": "screen Payment Tool frame t00678", "after": "Frame t00681", "reason": "Wrong frame"},
+      {"before": "term Cancellation rate: reduced by cancelling less", "after": "Trainer says it should be reduced; formula not given", "reason": "Gloss not stated"},
+      {"before": "term On-time shipment ratio", "after": "Shipment ratio (spoken as 'non-time shipment ratio'); a very high ratio helps the score", "reason": "Name not confirmed"},
+      {"before": "asr_fix 09:24 and 09:31 basis cites t00550 / t00557", "after": "Both values are on t00557 (Order Timeline)", "reason": "Wrong frame for 09:24"},
+      {"before": "unclear 09:10 'at' value", "after": "Moved to 09:17, where the second line is spoken", "reason": "Timing"},
+      {"before": "unclear 10:33 about the 5% charge", "after": "Adds the earlier 04:55-05:02 line tying the 5% charge to marking an order unavailable, with the 902 cost example", "reason": "Related transcript evidence the pack did not mention"},
+      {"before": "outdated 10:33 cites only speech", "after": "Cites 10:36 and 09:38 (and 07:04 for 48 hours)", "reason": "Citation completion"},
+      {"before": "privacy 08:35 customer details cited to t00550", "after": "Cited to t00557 (Customer Information and Comments panel)", "reason": "Wrong frame"},
+      {"before": "privacy 08:35 staff emails cited to t00516 for all", "after": "basharat in t00516; admin and qaseemtahir in t00517", "reason": "Wrong frame"},
+      {"before": "step 08:49 say evidence: none on the courier source line", "after": "Added the 08:49 line 'This data is provided by the courier delivery company itself.'", "reason": "Evidence added"}
+    ],
+    "added": [
+      "Fact: order numbers show the country (ZA for South Africa, SA for Saudi Arabia), from 02:49-02:54 (earlier part of the video); used to resolve the removed unclear item at 10:43.",
+      "Fact: the tracking label link is optional (07:45 and 07:53).",
+      "Fact: the 48-hour rule is also stated at 07:04 (earlier part of the video), added as evidence for the late-order definition.",
+      "Screen fact: clicking the empty Tracking ID field shows six suggested numbers (t00476).",
+      "Screen fact: the Order details Tracking Information for order 53156-1 shows Tracking Company Quiqup, Tracking ID 18929289 and a Tracking Link (t00557).",
+      "Screen fact: Financial Summary Actual Cost shows 902 for order 61021-1 (t00660) and 650 for order 53156-1 (t00557).",
+      "Screen fact: the one Payment Tool row SA-54831-1 shows Shipment Status 'Refused delivery' (t00681).",
+      "Privacy item: Supplier Comments free text about customer addresses and AWB requests (t00626)."
+    ]
+  }
+}

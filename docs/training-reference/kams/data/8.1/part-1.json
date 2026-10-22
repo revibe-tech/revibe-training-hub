@@ -1,1582 +1,257 @@
 {
-  "summary": "A 3-page workflow PDF with no narration, so there is no transcript and nothing to correct for Pierre's accent. Page 1 (Overview) covers who repairs. Within 1 year with no misuse, the original seller repairs. After 1 year, or if the customer declares misuse, the Revibe Repair Partner (Revibe Care+) repairs and the original seller doesn't see the claim. It then shows the 4-step flow (customer raises claim in My Account → Revibe agent check → pickup → seller action at Under QC), with pickup AWBs auto-created in AE & ZA and created manually by the seller in SA. It also covers what happens when a pickup fails, what the portal displays (Tracking, Pickup Tracking, Ship-Back, Lab) and that all refunds, credits and charges appear in the payment tool. Page 2 (Seller Decision · Under QC) covers two paths. Valid: the seller repairs, clicks \"Repair finished\" and the device is shipped back. In SA the seller creates and pays the ship-back AWB; in AE & ZA Revibe creates the AWB and 30 AED is deducted from the seller. It also covers failed deliveries. Invalid: the seller gives a reason + proof and Revibe reviews every Invalid claim. The agent either agrees (device sent to the Lab, AE only, collected by Quiqup) or challenges (\"Seller must cover\" → Under revision, or \"Misuse but customer has RC+\" → seller quotation). Lab Valid means the customer is refunded and the device goes back to the seller. Lab Invalid confirms the invalid claim and closes it; in AE Revibe ships the device back, in ZA & SA the customer pays the shipping fees and has 90 days to pay. Outside AE there is no Lab yet and the agent's confirmation of the seller's Invalid is final. Page 3 (Revibe Care+ · Paid Repairs): RC+ covers repairs up to 1,500 AED (Revibe pays the repair); above 1,500 AED the customer pays the difference. Route A: within 1 year, the original seller finds misuse on an RC+ customer. Route B: after 1 year or misuse declared, the device is sent straight to the Revibe Repair Partner. Then come the quotation, agent approval and cost check. At ≤ 1,500 AED Revibe covers the repair and the extended warranty is consumed. Above 1,500 AED the claim waits on customer payment; if not paid, there is no repair, the device is shipped back to the customer and RC+ is cancelled.",
+  "summary": "Training reference for the Revibe warranty claim process, from the 3-page PDF \"8.1 Warranties - Issues (Seller & KAMs)\". The pack has no narration or transcript lines, so every fact is cited to a PDF page image (kind \"page\"). Page 1 is the overview, page 2 is the seller decision (Valid/Invalid), and page 3 covers Revibe Care+ paid repairs. Items marked unclear need a KAM to confirm before relying on them.",
+  "frames_opened": 3,
   "steps": [
     {
       "at": "1",
-      "screen": "Page 1 · Revibe Warranty Process (overview)",
-      "action": "Start with the routing rule for who repairs. Within 1 year with no misuse, the original seller repairs. After 1 year, or if the customer declares misuse, the Revibe Repair Partner (Revibe Care+) repairs.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "1",
-          "frame": "p001.png",
-          "quote": "Who repairs? Within 1 year & no misuse → original seller · After 1 year, or misuse declared by the customer → Revibe Repair Partner (Revibe Care+, page 3)."
-        }
-      ],
-      "says": "Within 1 year & no misuse → original seller",
+      "screen": "Revibe Warranty Process (workflow 1/3, overview)",
+      "action": "Customer raises the warranty claim in the My Account section on Revibe; status Pending, Revibe team to review. Card is labelled NO ACTION REQUIRED.",
+      "evidence": [{"kind": "page", "at": "1", "quote": "The customer raises a warranty claim through the “My Account” section on Revibe. Status: Pending (Revibe team to review)", "frame": "p001.png"}],
+      "says": "",
       "why": ""
     },
     {
       "at": "1",
-      "screen": "Page 1 · Revibe Warranty Process (overview)",
-      "action": "Step 1 – Customer raise claim (NO ACTION REQUIRED): the customer raises the warranty claim through the \"My Account\" section on Revibe; status Pending, for the Revibe team to review.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "1",
-          "frame": "p001.png",
-          "quote": "NO ACTION REQUIRED 1 Customer raise claim The customer raises a warranty claim through the “My Account” section on Revibe Status: Pending (Revibe team to review)"
-        }
-      ],
-      "says": "Status: Pending",
+      "screen": "Revibe Warranty Process (overview)",
+      "action": "Revibe agent checks the claim info. Missing documents are requested from the customer; if not provided, the claim is Cancelled. Once complete, the repair supplier is assigned; status Pending Collection.",
+      "evidence": [{"kind": "page", "at": "1", "quote": "The agent checks the claim info. Missing documents → requested from the customer; not provided → Cancelled. Once complete, the repair supplier is assigned. Status: Pending Collection", "frame": "p001.png"}],
+      "says": "",
       "why": ""
     },
     {
       "at": "1",
-      "screen": "Page 1 · Revibe Warranty Process (overview)",
-      "action": "Step 2 – Revibe Agent Check (NO ACTION REQUIRED): the agent checks the claim info. Missing documents are requested from the customer; if they are not provided, the claim is Cancelled. Once complete, the repair supplier is assigned and the status becomes Pending Collection.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "1",
-          "frame": "p001.png",
-          "quote": "NO ACTION REQUIRED 2 Revibe Agent Check The agent checks the claim info. Missing documents → requested from the customer; not provided → Cancelled. Once complete, the repair supplier is assigned. Status: Pending Collection"
-        }
-      ],
-      "says": "Status: Pending Collection",
+      "screen": "Revibe Warranty Process (overview)",
+      "action": "Pickup: for AE and ZA the AWB is auto-created and the claim moves to Under Collection immediately. For SA the seller creates the AWB manually. Once picked up from the customer, the claim goes In Transit.",
+      "evidence": [{"kind": "page", "at": "1", "quote": "AE & ZA: AWB auto-created — moves to Under Collection immediately. SA: Seller to create the AWB manually. Once picked up from the customer → In Transit", "frame": "p001.png"}],
+      "says": "",
       "why": ""
     },
     {
       "at": "1",
-      "screen": "Page 1 · Revibe Warranty Process (overview)",
-      "action": "Step 3 – Pickup (ACTION REQUIRED IF SA): in AE & ZA the AWB is auto-created and the claim moves to Under Collection immediately. In SA the seller creates the AWB manually. Once the device is picked up from the customer, the status becomes In Transit.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "1",
-          "frame": "p001.png",
-          "quote": "ACTION REQUIRED IF SA 3 Pickup AE & ZA: AWB auto-created — moves to Under Collection immediately SA: Seller to create the AWB manually Once picked up from the customer → In Transit"
-        }
-      ],
-      "says": "SA: Seller to create the AWB manually",
+      "screen": "Revibe Warranty Process (overview)",
+      "action": "Seller action: once the courier delivers the device, the seller sees the claim with status Under QC and marks it Valid or Invalid.",
+      "evidence": [{"kind": "page", "at": "1", "quote": "Once the Courier Company delivers the seller can see the claim which status becomes Under QC. Two options: Mark VALID / Mark INVALID", "frame": "p001.png"}],
+      "says": "",
       "why": ""
     },
     {
       "at": "1",
-      "screen": "Page 1 · Revibe Warranty Process (overview)",
-      "action": "Step 4 – Seller action (ACTION REQUIRED): once the Courier Company delivers, the seller can see the claim and its status becomes Under QC. The seller has two options: Mark VALID or Mark INVALID.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "1",
-          "frame": "p001.png",
-          "quote": "ACTION REQUIRED 4 Seller action Once the Courier Company delivers the seller can see the claim which status becomes Under QC Two options: Mark VALID Mark INVALID"
-        }
-      ],
-      "says": "Two options: Mark VALID Mark INVALID",
+      "screen": "Revibe Warranty Process (overview, routing box)",
+      "action": "If the pickup fails (customer does not hand over the device): status Collection failed; the agent asks the customer if they want a new AWB. Yes: new AWB (auto for AE and ZA, manual by the seller for SA) and the claim is Under collection again. No: Cancelled.",
+      "evidence": [{"kind": "page", "at": "1", "quote": "Collection failed — the customer doesn't hand over the device. Agent asks the customer if they want a new AWB. Yes → new AWB (auto for AE & ZA · manual by the seller for SA) → Under collection again. No → Cancelled", "frame": "p001.png"}],
+      "says": "",
       "why": ""
     },
     {
       "at": "1",
-      "screen": "Page 1 · If the pickup fails · Routing",
-      "action": "Collection failed (the customer doesn't hand over the device): the agent asks the customer if they want a new AWB. Yes → a new AWB (auto for AE & ZA, created manually by the seller for SA) and the claim goes back to Under collection. No → Cancelled.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "1",
-          "frame": "p001.png",
-          "quote": "Collection failed — the customer doesn't hand over the device Collection failed → Agent asks the customer if they want a new AWB Yes → new AWB (auto for AE & ZA · manual by the seller for SA) → Under collection again No → Cancelled"
-        }
-      ],
-      "says": "No → Cancelled",
-      "why": ""
-    },
-    {
-      "at": "1",
-      "screen": "Page 1 · Which repair supplier?",
-      "action": "Repair supplier choice: the ORIGINAL SELLER (within 1 year, no misuse declared) inspects the device and identifies the issue. The REVIBE REPAIR PARTNER · RC+ handles claims after 1 year or when the customer declares misuse, and the original seller doesn't see those claims.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "1",
-          "frame": "p001.png",
-          "quote": "ORIGINAL SELLER Within 1 year, no misuse declared. The seller inspects the device and identifies the issue (page 2). REVIBE REPAIR PARTNER · RC+ After 1 year, or the customer declares misuse. The original seller doesn't see the claim (page 3)."
-        }
-      ],
-      "says": "The original seller doesn't see the claim",
-      "why": ""
-    },
-    {
-      "at": "1",
-      "screen": "Page 1 · footer",
-      "action": "Where to check things: the portal displays Tracking (original shipment), Pickup Tracking, Ship-Back and Lab. All refunds, credits and charges appear in the payment tool.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "1",
-          "frame": "p001.png",
-          "quote": "Portal info displayed: Tracking (original shipment) · Pickup Tracking · Ship-Back · Lab. Payment: all refunds, credits and charges appear in the payment tool."
-        }
-      ],
-      "says": "all refunds, credits and charges appear in the payment tool",
+      "screen": "Revibe Warranty Process (overview, routing box)",
+      "action": "Pick the repair supplier: within 1 year with no misuse declared, the original seller repairs (see page 2). After 1 year, or when the customer declares misuse, the Revibe Repair Partner (Revibe Care+) repairs, and the original seller does not see the claim (see page 3).",
+      "evidence": [{"kind": "page", "at": "1", "quote": "Within 1 year, no misuse declared. The seller inspects the device and identifies the issue (page 2). / After 1 year, or the customer declares misuse. The original seller doesn't see the claim (page 3).", "frame": "p001.png"}],
+      "says": "",
       "why": ""
     },
     {
       "at": "2",
-      "screen": "Page 2 · Seller Decision · Under QC",
-      "action": "Seller decision rule: within 1 year the seller inspects the device and marks the claim Valid (repair it) or Invalid (reason + proof). Revibe reviews every Invalid claim.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "Within 1 year: the seller inspects the device and marks the claim Valid (repair it) or Invalid (reason + proof). Revibe reviews every Invalid claim."
-        }
-      ],
-      "says": "Revibe reviews every Invalid claim.",
+      "screen": "Seller Decision · Under QC (workflow 2/3)",
+      "action": "Within 1 year, the seller inspects the device and marks the claim Valid (repair it) or Invalid (reason + proof). Revibe reviews every Invalid claim.",
+      "evidence": [{"kind": "page", "at": "2", "quote": "Within 1 year: the seller inspects the device and marks the claim Valid (repair it) or Invalid (reason + proof). Revibe reviews every Invalid claim.", "frame": "p002.png"}],
+      "says": "",
       "why": ""
     },
     {
       "at": "2",
-      "screen": "Page 2 · VALID · Repair & Ship Back",
-      "action": "Valid path: Under repair → seller clicks \"Repair finished\" → Ship back under collection → Shipped back → Delivered.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "Under repair → seller clicks “Repair finished” → Ship back under collection → Shipped back → Delivered"
-        }
-      ],
-      "says": "seller clicks “Repair finished”",
+      "screen": "Seller Decision · Under QC, VALID column",
+      "action": "Valid path: seller repairs the device; in the portal the seller clicks “Repair finished” after Under repair; the claim then goes Ship back under collection, Shipped back, Delivered. Final output: the seller fixes the device and ships it back to the customer.",
+      "evidence": [{"kind": "page", "at": "2", "quote": "Under repair → seller clicks “Repair finished” → Ship back under collection → Shipped back → Delivered", "frame": "p002.png"}],
+      "says": "",
       "why": ""
     },
     {
       "at": "2",
-      "screen": "Page 2 · VALID · Ship-back cost",
-      "action": "Ship-back cost: in SA the seller creates and pays the AWB. In AE & ZA the AWB is made by Revibe and 30 AED is deducted from the seller.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "SHIP-BACK COST SA: seller creates and pays the AWB AE & ZA: AWB by Revibe · 30 AED deducted from the seller"
-        }
-      ],
-      "says": "30 AED deducted from the seller",
+      "screen": "Seller Decision · Under QC, VALID column",
+      "action": "Ship-back cost: SA seller creates and pays the AWB; AE and ZA AWB by Revibe with 30 AED deducted from the seller.",
+      "evidence": [{"kind": "page", "at": "2", "quote": "SA: seller creates and pays the AWB. AE & ZA: AWB by Revibe · 30 AED deducted from the seller", "frame": "p002.png"}],
+      "says": "",
       "why": ""
     },
     {
       "at": "2",
-      "screen": "Page 2 · VALID · Delivery failed",
-      "action": "Delivery failed: if the customer refuses the delivery, the status becomes Delivery failed and the agent asks whether the customer wants a new attempt. Yes → the seller pays a new AWB and the claim returns to Ship back under collection. No → Device disposed. Final output: the seller fixes the device and ships it back to the customer.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "The customer refuses the delivery → Delivery failed Agent asks if the customer wants a new attempt: Yes → seller pays a new AWB → Ship back under collection No → Device disposed"
-        },
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "FINAL OUTPUT The seller fixes the device and ships it back to the customer."
-        }
-      ],
-      "says": "Yes → seller pays a new AWB",
+      "screen": "Seller Decision · Under QC, VALID column",
+      "action": "Delivery failed on ship-back: the customer refuses delivery and the claim shows Delivery failed. The agent asks if the customer wants a new attempt. Yes: seller pays a new AWB and the claim returns to Ship back under collection. No: Device disposed.",
+      "evidence": [{"kind": "page", "at": "2", "quote": "The customer refuses the delivery → Delivery failed. Agent asks if the customer wants a new attempt: Yes → seller pays a new AWB → Ship back under collection. No → Device disposed", "frame": "p002.png"}],
+      "says": "",
       "why": ""
     },
     {
       "at": "2",
-      "screen": "Page 2 · INVALID · ① Seller submits proof",
-      "action": "Invalid path (Proof Required → Revibe Review → Lab Verification): the seller must give a reason and proof of invalidity, and the claim becomes Invalid claim.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "Proof Required → Revibe Review → Lab Verification ① Seller submits proof Reason + proof of invalidity required → Invalid claim"
-        }
-      ],
-      "says": "Reason + proof of invalidity required",
+      "screen": "Seller Decision · Under QC, INVALID column",
+      "action": "Invalid path step 1: the seller submits proof. Reason and proof of invalidity are required; the claim becomes Invalid claim.",
+      "evidence": [{"kind": "page", "at": "2", "quote": "Seller submits proof. Reason + proof of invalidity required → Invalid claim", "frame": "p002.png"}],
+      "says": "",
       "why": ""
     },
     {
       "at": "2",
-      "screen": "Page 2 · INVALID · ② Revibe agent review",
-      "action": "The Revibe agent reviews the Invalid claim. If the agent agrees, the device is sent to the Lab (Lab collection is AE only; outside AE there is no Lab yet). If the agent challenges it, they mark it Valid with a rationale. \"Seller must cover\" → Under revision → the seller marks Valid / Invalid again → the agent reviews again (Invalid → Lab). \"Misuse but customer has RC+\" → seller quotation (page 3).",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "② Revibe agent review Agrees → device sent to the Lab Challenges → marks Valid with a rationale: • Seller must cover → Under revision → seller marks Valid / Invalid again → agent reviews again (Invalid → Lab) • Misuse but customer has RC+ → seller quotation (page 3)"
-        },
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "③ Lab collection (AE only)"
-        }
-      ],
-      "says": "Challenges → marks Valid with a rationale",
+      "screen": "Seller Decision · Under QC, INVALID column",
+      "action": "Invalid path step 2: Revibe agent review. If the agent agrees, the device is sent to the Lab. If the agent challenges, the agent marks the claim Valid with a rationale. If the seller must cover, the claim goes Under revision and the seller marks Valid or Invalid again, then the agent reviews again (Invalid goes to Lab). If the misuse is declared but the customer has RC+, the seller gives a quotation (page 3).",
+      "evidence": [{"kind": "page", "at": "2", "quote": "Agrees → device sent to the Lab. Challenges → marks Valid with a rationale: Seller must cover → Under revision → seller marks Valid / Invalid again → agent reviews again (Invalid → Lab). Misuse but customer has RC+ → seller quotation (page 3)", "frame": "p002.png"}],
+      "says": "",
       "why": ""
     },
     {
       "at": "2",
-      "screen": "Page 2 · INVALID · ③ Lab collection (AE only)",
-      "action": "Lab collection (AE only): status Pending lab collection. A Quiqup AWB is auto-created and the seller hands the device to Quiqup → In transit to lab → Lab under QC.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "③ Lab collection (AE only) Pending lab collection Quiqup AWB auto-created · seller hands the device to Quiqup → In transit to lab → Lab under QC"
-        }
-      ],
-      "says": "seller hands the device to Quiqup",
+      "screen": "Seller Decision · Under QC, INVALID column, lab collection (AE only)",
+      "action": "Lab collection (AE only): a Quiqup AWB is auto-created and the seller hands the device to Quiqup. The claim then goes Pending lab collection, In transit to lab, Lab under QC.",
+      "evidence": [{"kind": "page", "at": "2", "quote": "Lab collection (AE only). Pending lab collection. Quiqup AWB auto-created · seller hands the device to Quiqup → In transit to lab → Lab under QC", "frame": "p002.png"}],
+      "says": "",
       "why": ""
     },
     {
       "at": "2",
-      "screen": "Page 2 · INVALID · ④ Lab final decision",
-      "action": "Lab Valid: the customer is refunded and the device returns to the seller: Pending lab to seller collection → In transit lab to seller → Delivered to seller.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "④ Lab final decision Lab Valid → customer refunded Pending lab to seller collection → In transit lab to seller → Delivered to seller"
-        }
-      ],
-      "says": "Lab Valid → customer refunded",
+      "screen": "Seller Decision · Under QC, INVALID column, lab final decision",
+      "action": "Lab final decision. If Lab Valid: customer refunded, then Pending lab to seller collection, In transit lab to seller, Delivered to seller. If Lab Invalid: Invalid claim confirmed, claim closed; AE Revibe ships the device back; ZA and SA the customer pays the shipping fees (Stripe code entered once paid), 90 days to pay; then Ship back under collection, Shipped back, Delivered; or Delivery failed (new attempt, or Device disposed).",
+      "evidence": [{"kind": "page", "at": "2", "quote": "Lab Valid → customer refunded. Pending lab to seller collection → In transit lab to seller → Delivered to seller. Lab Invalid → Invalid claim confirmed — claim closed. AE: Revibe ships the device back. ZA & SA: the customer pays the shipping fees (Stripe code entered once paid) · 90 days to pay", "frame": "p002.png"}],
+      "says": "",
       "why": ""
     },
     {
       "at": "2",
-      "screen": "Page 2 · INVALID · ④ Lab final decision",
-      "action": "Lab Invalid: Invalid claim confirmed and the claim is closed. In AE, Revibe ships the device back. In ZA & SA, the customer pays the shipping fees (Stripe code entered once paid) and has 90 days to pay. Then Ship back under collection → Shipped back → Delivered. If delivery fails → a new attempt, or Device disposed.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "Lab Invalid → Invalid claim confirmed — claim closed AE: Revibe ships the device back ZA & SA: the customer pays the shipping fees (Stripe code entered once paid) · 90 days to pay → Ship back under collection → Shipped back → Delivered Delivery failed → new attempt, or Device disposed"
-        }
-      ],
-      "says": "90 days to pay",
-      "why": ""
-    },
-    {
-      "at": "2",
-      "screen": "Page 2 · INVALID · Outside AE",
-      "action": "Outside AE there is no Lab yet: the agent's confirmation of the seller's Invalid is final.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "OUTSIDE AE No Lab yet: the agent's confirmation of the seller's Invalid is final."
-        }
-      ],
-      "says": "No Lab yet",
-      "why": ""
-    },
-    {
-      "at": "2",
-      "screen": "Page 2 · footer",
-      "action": "Final outputs summary: Seller Valid → device repaired and shipped back. Lab Valid → customer refunded, device back to seller. Lab Invalid → invalid claim confirmed, ship-back at customer cost (ZA & SA).",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "Final outputs: Seller Valid → device repaired & shipped back · Lab Valid → customer refunded, device back to seller · Lab Invalid → invalid claim confirmed, ship-back at customer cost (ZA & SA)."
-        }
-      ],
+      "screen": "Seller Decision · Under QC, OUTSIDE AE box",
+      "action": "Outside AE there is no Lab: the agent's confirmation of the seller's Invalid is final.",
+      "evidence": [{"kind": "page", "at": "2", "quote": "OUTSIDE AE. No Lab yet: the agent's confirmation of the seller's Invalid is final.", "frame": "p002.png"}],
       "says": "",
       "why": ""
     },
     {
       "at": "3",
-      "screen": "Page 3 · Revibe Care+ · Paid Repairs",
-      "action": "RC+ coverage: RC+ covers repairs up to 1,500 AED. The repairer fixes the device and Revibe pays the repair. Above 1,500 AED, the customer pays the difference.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "3",
-          "frame": "p003.png",
-          "quote": "Revibe Care+ (RC+) covers repairs up to 1,500 AED. The repairer fixes the device, Revibe pays the repair. Above 1,500 AED, the customer pays the difference."
-        }
-      ],
-      "says": "covers repairs up to 1,500 AED",
+      "screen": "Revibe Care+ · Paid Repairs (workflow 3/3), Route A",
+      "action": "Route A (within 1 year, original seller finds misuse): the seller marks Invalid (misuse). The agent sees the customer has RC+ and marks “Misuse but customer has RC+”. The original seller then gives a quotation and repairs the device; Revibe covers the cost.",
+      "evidence": [{"kind": "page", "at": "3", "quote": "The seller marks Invalid (misuse). The agent sees that the customer has RC+ and marks “Misuse but customer has RC+”. The original seller then gives a quotation and repairs the device — Revibe covers the cost.", "frame": "p003.png"}],
+      "says": "",
       "why": ""
     },
     {
       "at": "3",
-      "screen": "Page 3 · Route A · Within 1 year",
-      "action": "Route A (within 1 year, original seller finds misuse): the seller marks Invalid (misuse). The agent sees the customer has RC+ and marks \"Misuse but customer has RC+\". The original seller then gives a quotation and repairs the device, and Revibe covers the cost.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "3",
-          "frame": "p003.png",
-          "quote": "ROUTE A · WITHIN 1 YEAR Original seller finds misuse The seller marks Invalid (misuse). The agent sees that the customer has RC+ and marks “Misuse but customer has RC+”. The original seller then gives a quotation and repairs the device — Revibe covers the cost."
-        }
-      ],
-      "says": "Revibe covers the cost.",
+      "screen": "Revibe Care+ · Paid Repairs, Route B",
+      "action": "Route B (after 1 year, or misuse declared): the device goes straight to the Revibe Repair Partner; the original seller does not see the claim. The partner inspects the device, identifies the issue and gives a quotation.",
+      "evidence": [{"kind": "page", "at": "3", "quote": "The device is sent straight to the Revibe Repair Partner — the original seller doesn't see the claim. The partner inspects the device, identifies the issue and gives a quotation.", "frame": "p003.png"}],
+      "says": "",
       "why": ""
     },
     {
       "at": "3",
-      "screen": "Page 3 · Route B · After 1 year, or misuse declared",
-      "action": "Route B (after 1 year, or misuse declared): the device is sent straight to the Revibe Repair Partner and the original seller doesn't see the claim. The partner inspects the device, identifies the issue and gives a quotation.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "3",
-          "frame": "p003.png",
-          "quote": "ROUTE B · AFTER 1 YEAR, OR MISUSE DECLARED Revibe Repair Partner The device is sent straight to the Revibe Repair Partner — the original seller doesn't see the claim. The partner inspects the device, identifies the issue and gives a quotation."
-        }
-      ],
-      "says": "the original seller doesn't see the claim",
+      "screen": "Revibe Care+ · Paid Repairs, QUOTATION",
+      "action": "Quotation: the repairer enters the price (Seller quotation). The Revibe agent reviews it (Seller quotation review). If the agent does not approve, it goes back to quotation; if approved, a cost check follows.",
+      "evidence": [{"kind": "page", "at": "3", "quote": "Seller quotation → repairer enters the price → Seller quotation review → Revibe agent approves? No → back to quotation · Yes → cost check", "frame": "p003.png"}],
+      "says": "",
       "why": ""
     },
     {
       "at": "3",
-      "screen": "Page 3 · Quotation",
-      "action": "Quotation: Seller quotation (the repairer enters the price) → Seller quotation review → Revibe agent approves? No → back to quotation. Yes → cost check.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "3",
-          "frame": "p003.png",
-          "quote": "Seller quotation repairer enters the price → Seller quotation review → Revibe agent approves? No → back to quotation · Yes → cost check"
-        }
-      ],
-      "says": "repairer enters the price",
+      "screen": "Revibe Care+ · Paid Repairs, box ≤ 1,500 AED",
+      "action": "If the cost is up to 1,500 AED, Revibe covers the repair: Ready for repair, Under repair, Repair finished, To ship back, Ship back under collection, Shipped back, Delivered. The extended warranty is consumed after the repair.",
+      "evidence": [{"kind": "page", "at": "3", "quote": "≤ 1,500 AED. Revibe covers the repair. Ready for repair → Under repair → Repair finished → To ship back → Ship back under collection → Shipped back → Delivered. The extended warranty is consumed after the repair.", "frame": "p003.png"}],
+      "says": "",
       "why": ""
     },
     {
       "at": "3",
-      "screen": "Page 3 · ≤ 1,500 AED",
-      "action": "Cost ≤ 1,500 AED: Revibe covers the repair. Ready for repair → Under repair → Repair finished → To ship back → Ship back under collection → Shipped back → Delivered. The extended warranty is consumed after the repair.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "3",
-          "frame": "p003.png",
-          "quote": "≤ 1,500 AED Revibe covers the repair Ready for repair → Under repair → Repair finished → To ship back → Ship back under collection → Shipped back → Delivered The extended warranty is consumed after the repair."
-        }
-      ],
-      "says": "The extended warranty is consumed after the repair.",
+      "screen": "Revibe Care+ · Paid Repairs, box > 1,500 AED",
+      "action": "If the cost is above 1,500 AED, the customer pays the difference (cost minus 1,500 AED) and the claim shows Pending customer payment. If paid, the repair goes ahead with the same stages as ≤ 1,500 AED. If not paid, there is no repair, the device is shipped back to the customer, and RC+ is cancelled.",
+      "evidence": [{"kind": "page", "at": "3", "quote": "> 1,500 AED. Customer pays the difference. Pending customer payment — customer pays (cost − 1,500 AED). Paid → repair goes ahead, same stages as ≤ 1,500 AED. Not paid → no repair · device shipped back to the customer · RC+ cancelled", "frame": "p003.png"}],
+      "says": "",
       "why": ""
     },
     {
       "at": "3",
-      "screen": "Page 3 · > 1,500 AED",
-      "action": "Cost > 1,500 AED: status Pending customer payment, and the customer pays (cost − 1,500 AED). Paid → the repair goes ahead with the same stages as ≤ 1,500 AED. Not paid → no repair, the device is shipped back to the customer and RC+ is cancelled.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "3",
-          "frame": "p003.png",
-          "quote": "> 1,500 AED Customer pays the difference Pending customer payment — customer pays (cost − 1,500 AED) Paid → repair goes ahead, same stages as ≤ 1,500 AED Not paid → no repair · device shipped back to the customer · RC+ cancelled"
-        }
-      ],
-      "says": "RC+ cancelled",
-      "why": ""
-    },
-    {
-      "at": "3",
-      "screen": "Page 3 · footer",
-      "action": "If a ship-back delivery fails, the agent offers a new attempt; if it is refused, the device is disposed. All refunds, credits and charges appear in the payment tool.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "3",
-          "frame": "p003.png",
-          "quote": "Delivery failed on ship-back: agent offers a new attempt · refused → device disposed. Payment: all refunds, credits and charges appear in the payment tool."
-        }
-      ],
-      "says": "refused → device disposed",
+      "screen": "Revibe Care+ · Paid Repairs, footer",
+      "action": "Delivery failed on ship-back: the agent offers a new attempt; if refused, the device is disposed.",
+      "evidence": [{"kind": "page", "at": "3", "quote": "Delivery failed on ship-back: agent offers a new attempt · refused → device disposed.", "frame": "p003.png"}],
+      "says": "",
       "why": ""
     }
   ],
   "facts": [
-    {
-      "type": "rule",
-      "statement": "Who repairs a warranty claim: within 1 year and with no misuse, the original seller repairs the device.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "1",
-          "frame": "p001.png",
-          "quote": "Who repairs? Within 1 year & no misuse → original seller"
-        },
-        {
-          "kind": "page",
-          "at": "1",
-          "frame": "p001.png",
-          "quote": "ORIGINAL SELLER Within 1 year, no misuse declared. The seller inspects the device and identifies the issue (page 2)."
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "rule",
-      "statement": "If the claim comes after 1 year, or the customer declares misuse, the Revibe Repair Partner (Revibe Care+ / RC+) handles it, not the original seller.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "1",
-          "frame": "p001.png",
-          "quote": "After 1 year, or misuse declared by the customer → Revibe Repair Partner (Revibe Care+, page 3)."
-        },
-        {
-          "kind": "page",
-          "at": "1",
-          "frame": "p001.png",
-          "quote": "REVIBE REPAIR PARTNER · RC+ After 1 year, or the customer declares misuse. The original seller doesn't see the claim (page 3)."
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "warning",
-      "statement": "On the Revibe Repair Partner / RC+ route (after 1 year, or misuse declared by the customer), the device goes straight to the Repair Partner and the original seller does not see the claim.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "1",
-          "frame": "p001.png",
-          "quote": "The original seller doesn't see the claim (page 3)."
-        },
-        {
-          "kind": "page",
-          "at": "3",
-          "frame": "p003.png",
-          "quote": "The device is sent straight to the Revibe Repair Partner — the original seller doesn't see the claim."
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "procedure",
-      "statement": "The customer raises a warranty claim through the \"My Account\" section on Revibe. The claim starts in status Pending, for the Revibe team to review.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "1",
-          "frame": "p001.png",
-          "quote": "The customer raises a warranty claim through the “My Account” section on Revibe Status: Pending (Revibe team to review)"
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "rule",
-      "statement": "Step 1 (Customer raise claim) and step 2 (Revibe Agent Check) are tagged NO ACTION REQUIRED.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "1",
-          "frame": "p001.png",
-          "quote": "NO ACTION REQUIRED 1 Customer raise claim"
-        },
-        {
-          "kind": "page",
-          "at": "1",
-          "frame": "p001.png",
-          "quote": "NO ACTION REQUIRED 2 Revibe Agent Check"
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "procedure",
-      "statement": "In the Revibe Agent Check, the agent checks the claim info. Missing documents are requested from the customer, and if the customer does not provide them, the claim is Cancelled.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "1",
-          "frame": "p001.png",
-          "quote": "The agent checks the claim info. Missing documents → requested from the customer; not provided → Cancelled."
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "procedure",
-      "statement": "Once the agent check is complete, the repair supplier is assigned and the claim status becomes Pending Collection.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "1",
-          "frame": "p001.png",
-          "quote": "Once complete, the repair supplier is assigned. Status: Pending Collection"
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "rule",
-      "statement": "Pickup in AE & ZA: the AWB is auto-created and the claim moves to Under Collection immediately. The Pickup step is tagged ACTION REQUIRED IF SA, so no seller action is flagged for AE & ZA at this step.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "1",
-          "frame": "p001.png",
-          "quote": "AE & ZA: AWB auto-created — moves to Under Collection immediately"
-        },
-        {
-          "kind": "page",
-          "at": "1",
-          "frame": "p001.png",
-          "quote": "ACTION REQUIRED IF SA"
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "rule",
-      "statement": "Pickup in SA: the seller must create the pickup AWB manually. The Pickup step is tagged ACTION REQUIRED IF SA.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "1",
-          "frame": "p001.png",
-          "quote": "ACTION REQUIRED IF SA"
-        },
-        {
-          "kind": "page",
-          "at": "1",
-          "frame": "p001.png",
-          "quote": "SA: Seller to create the AWB manually"
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "definition",
-      "statement": "Status In Transit: the device has been picked up from the customer.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "1",
-          "frame": "p001.png",
-          "quote": "Once picked up from the customer → In Transit"
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "procedure",
-      "statement": "Once the Courier Company delivers, the seller can see the claim and its status becomes Under QC. This step (Seller action) is tagged ACTION REQUIRED.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "1",
-          "frame": "p001.png",
-          "quote": "ACTION REQUIRED 4 Seller action Once the Courier Company delivers the seller can see the claim which status becomes Under QC"
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "screen",
-      "statement": "At Under QC the seller has two options: Mark VALID or Mark INVALID.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "1",
-          "frame": "p001.png",
-          "quote": "Two options: Mark VALID Mark INVALID"
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "procedure",
-      "statement": "Claim status order up to the seller decision: Pending → Pending Collection → Under Collection → In Transit → Under QC.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "1",
-          "frame": "p001.png",
-          "quote": "Status: Pending (Revibe team to review)"
-        },
-        {
-          "kind": "page",
-          "at": "1",
-          "frame": "p001.png",
-          "quote": "Status: Pending Collection"
-        },
-        {
-          "kind": "page",
-          "at": "1",
-          "frame": "p001.png",
-          "quote": "AE & ZA: AWB auto-created — moves to Under Collection immediately"
-        },
-        {
-          "kind": "page",
-          "at": "1",
-          "frame": "p001.png",
-          "quote": "Once picked up from the customer → In Transit"
-        },
-        {
-          "kind": "page",
-          "at": "1",
-          "frame": "p001.png",
-          "quote": "Once the Courier Company delivers the seller can see the claim which status becomes Under QC"
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "procedure",
-      "statement": "Collection failed means the customer doesn't hand over the device. The agent then asks the customer if they want a new AWB.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "1",
-          "frame": "p001.png",
-          "quote": "Collection failed — the customer doesn't hand over the device"
-        },
-        {
-          "kind": "page",
-          "at": "1",
-          "frame": "p001.png",
-          "quote": "Collection failed → Agent asks the customer if they want a new AWB"
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "rule",
-      "statement": "After a failed collection, if the customer wants a new AWB: it is created automatically in AE & ZA and manually by the seller in SA, and the claim goes back to Under collection.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "1",
-          "frame": "p001.png",
-          "quote": "Yes → new AWB (auto for AE & ZA · manual by the seller for SA) → Under collection again"
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "rule",
-      "statement": "After a failed collection, if the customer does not want a new AWB, the claim is Cancelled.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "1",
-          "frame": "p001.png",
-          "quote": "No → Cancelled"
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "screen",
-      "statement": "Claim info displayed in the portal: Tracking (original shipment), Pickup Tracking, Ship-Back and Lab.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "1",
-          "frame": "p001.png",
-          "quote": "Portal info displayed: Tracking (original shipment) · Pickup Tracking · Ship-Back · Lab."
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "tip",
-      "statement": "All refunds, credits and charges appear in the payment tool. That is where to check them on a warranty claim.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "1",
-          "frame": "p001.png",
-          "quote": "Payment: all refunds, credits and charges appear in the payment tool."
-        },
-        {
-          "kind": "page",
-          "at": "3",
-          "frame": "p003.png",
-          "quote": "Payment: all refunds, credits and charges appear in the payment tool."
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "rule",
-      "statement": "Within 1 year, the seller inspects the device at Under QC and marks the claim Valid (repair it) or Invalid (reason + proof).",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "Seller Decision · Under QC"
-        },
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "Within 1 year: the seller inspects the device and marks the claim Valid (repair it) or Invalid (reason + proof)."
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "rule",
-      "statement": "Revibe reviews every claim a seller marks Invalid.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "Revibe reviews every Invalid claim."
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "procedure",
-      "statement": "Valid claim status flow: Under repair → the seller clicks \"Repair finished\" → Ship back under collection → Shipped back → Delivered.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "Under repair → seller clicks “Repair finished” → Ship back under collection → Shipped back → Delivered"
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "policy",
-      "statement": "Ship-back cost on a Valid claim in SA: the seller creates and pays the AWB.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "SA: seller creates and pays the AWB"
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "number",
-      "statement": "Ship-back cost on a Valid claim in AE & ZA: the AWB is made by Revibe and 30 AED is deducted from the seller.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "AE & ZA: AWB by Revibe · 30 AED deducted from the seller"
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "procedure",
-      "statement": "If the customer refuses the ship-back delivery of a repaired device, the status becomes Delivery failed and the agent asks the customer if they want a new attempt.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "The customer refuses the delivery → Delivery failed Agent asks if the customer wants a new attempt:"
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "rule",
-      "statement": "Valid claim with failed delivery: if the customer wants a new attempt, the seller pays a new AWB and the claim goes back to Ship back under collection.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "Yes → seller pays a new AWB → Ship back under collection"
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "rule",
-      "statement": "Valid claim with failed delivery: if the customer does not want a new attempt, the status becomes Device disposed.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "No → Device disposed"
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "definition",
-      "statement": "Final output of a Valid claim: the seller fixes the device and ships it back to the customer.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "FINAL OUTPUT The seller fixes the device and ships it back to the customer."
-        }
-      ],
-      "confidence": "high",
-      "quiz": false
-    },
-    {
-      "type": "procedure",
-      "statement": "The Invalid path runs Proof Required → Revibe Review → Lab Verification.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "INVALID Proof Required → Revibe Review → Lab Verification"
-        }
-      ],
-      "confidence": "high",
-      "quiz": false
-    },
-    {
-      "type": "rule",
-      "statement": "To mark a claim Invalid, the seller must submit a reason and proof of invalidity. The claim then shows status Invalid claim.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "① Seller submits proof Reason + proof of invalidity required → Invalid claim"
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "procedure",
-      "statement": "If the Revibe agent agrees with the seller's Invalid, the device is sent to the Lab. Lab collection is AE only; outside AE there is no Lab yet and the agent's confirmation is final.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "② Revibe agent review Agrees → device sent to the Lab"
-        },
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "③ Lab collection (AE only)"
-        },
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "OUTSIDE AE No Lab yet: the agent's confirmation of the seller's Invalid is final."
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "procedure",
-      "statement": "If the Revibe agent challenges the seller's Invalid, the agent marks the claim Valid with a rationale.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "Challenges → marks Valid with a rationale:"
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "procedure",
-      "statement": "When the agent's rationale is \"Seller must cover\", the claim goes to Under revision. The seller marks it Valid or Invalid again and the agent reviews again; if it is Invalid, it goes to the Lab.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "• Seller must cover → Under revision → seller marks Valid / Invalid again → agent reviews again (Invalid → Lab)"
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "rule",
-      "statement": "When the agent's rationale is \"Misuse but customer has RC+\", the claim moves to a seller quotation (page 3, the Revibe Care+ paid-repair flow).",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "• Misuse but customer has RC+ → seller quotation (page 3)"
-        },
-        {
-          "kind": "page",
-          "at": "3",
-          "frame": "p003.png",
-          "quote": "Revibe Care+ · Paid Repairs"
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "rule",
-      "statement": "Lab collection (the Lab verification of Invalid claims) only exists in AE.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "③ Lab collection (AE only)"
-        },
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "OUTSIDE AE No Lab yet"
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "procedure",
-      "statement": "Lab collection in AE: the status is Pending lab collection, a Quiqup AWB is auto-created and the seller hands the device to Quiqup. Then In transit to lab → Lab under QC.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "Pending lab collection Quiqup AWB auto-created · seller hands the device to Quiqup → In transit to lab → Lab under QC"
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "rule",
-      "statement": "Lab Valid: the customer is refunded and the device goes back to the seller. Statuses: Pending lab to seller collection → In transit lab to seller → Delivered to seller.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "Lab Valid → customer refunded Pending lab to seller collection → In transit lab to seller → Delivered to seller"
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "rule",
-      "statement": "Lab Invalid: the status becomes Invalid claim confirmed and the claim is closed.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "Lab Invalid → Invalid claim confirmed — claim closed"
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "rule",
-      "statement": "After Lab Invalid in AE, Revibe ships the device back.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "AE: Revibe ships the device back"
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "number",
-      "statement": "When an Invalid claim is confirmed in ZA & SA, the customer pays the shipping fees for the ship-back. A Stripe code is entered once they have paid, and the customer has 90 days to pay.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "ZA & SA: the customer pays the shipping fees (Stripe code entered once paid) · 90 days to pay"
-        },
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "Lab Invalid → invalid claim confirmed, ship-back at customer cost (ZA & SA)."
-        }
-      ],
-      "confidence": "medium",
-      "quiz": true
-    },
-    {
-      "type": "procedure",
-      "statement": "Ship-back after a confirmed Invalid claim: Ship back under collection → Shipped back → Delivered. If delivery fails, there is a new attempt, or the device is disposed (Device disposed).",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "→ Ship back under collection → Shipped back → Delivered Delivery failed → new attempt, or Device disposed"
-        }
-      ],
-      "confidence": "high",
-      "quiz": false
-    },
-    {
-      "type": "rule",
-      "statement": "Outside AE there is no Lab yet, so the agent's confirmation of the seller's Invalid is final.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "OUTSIDE AE No Lab yet: the agent's confirmation of the seller's Invalid is final."
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "definition",
-      "statement": "Final outputs of the seller-decision flow: Seller Valid → device repaired and shipped back. Lab Valid → customer refunded, device back to seller. Lab Invalid → invalid claim confirmed, ship-back at customer cost (ZA & SA).",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "2",
-          "frame": "p002.png",
-          "quote": "Final outputs: Seller Valid → device repaired & shipped back · Lab Valid → customer refunded, device back to seller · Lab Invalid → invalid claim confirmed, ship-back at customer cost (ZA & SA)."
-        }
-      ],
-      "confidence": "high",
-      "quiz": false
-    },
-    {
-      "type": "number",
-      "statement": "Revibe Care+ (RC+) covers repairs up to 1,500 AED.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "3",
-          "frame": "p003.png",
-          "quote": "Revibe Care+ (RC+) covers repairs up to 1,500 AED."
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "policy",
-      "statement": "Under Revibe Care+, the repairer fixes the device and Revibe pays the repair.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "3",
-          "frame": "p003.png",
-          "quote": "The repairer fixes the device, Revibe pays the repair."
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "number",
-      "statement": "Under Revibe Care+, if the repair costs more than 1,500 AED, the customer pays the difference.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "3",
-          "frame": "p003.png",
-          "quote": "Above 1,500 AED, the customer pays the difference."
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "procedure",
-      "statement": "Route A (within 1 year, original seller finds misuse): the seller marks Invalid (misuse). The agent sees that the customer has RC+ and marks \"Misuse but customer has RC+\". The original seller then gives a quotation and repairs the device, and Revibe covers the cost.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "3",
-          "frame": "p003.png",
-          "quote": "ROUTE A · WITHIN 1 YEAR Original seller finds misuse The seller marks Invalid (misuse). The agent sees that the customer has RC+ and marks “Misuse but customer has RC+”. The original seller then gives a quotation and repairs the device — Revibe covers the cost."
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "procedure",
-      "statement": "Route B (after 1 year, or misuse declared): the device is sent straight to the Revibe Repair Partner, who inspects it, identifies the issue and gives a quotation.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "3",
-          "frame": "p003.png",
-          "quote": "The device is sent straight to the Revibe Repair Partner — the original seller doesn't see the claim. The partner inspects the device, identifies the issue and gives a quotation."
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "procedure",
-      "statement": "RC+ quotation flow: status Seller quotation (the repairer enters the price) → Seller quotation review → the Revibe agent approves or not. Not approved → back to quotation. Approved → cost check.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "3",
-          "frame": "p003.png",
-          "quote": "Seller quotation repairer enters the price → Seller quotation review → Revibe agent approves? No → back to quotation · Yes → cost check"
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "procedure",
-      "statement": "RC+ repair at ≤ 1,500 AED: Revibe covers the repair. Statuses: Ready for repair → Under repair → Repair finished → To ship back → Ship back under collection → Shipped back → Delivered.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "3",
-          "frame": "p003.png",
-          "quote": "≤ 1,500 AED Revibe covers the repair Ready for repair → Under repair → Repair finished → To ship back → Ship back under collection → Shipped back → Delivered"
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "rule",
-      "statement": "After an RC+ repair covered by Revibe (≤ 1,500 AED), the extended warranty is consumed.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "3",
-          "frame": "p003.png",
-          "quote": "≤ 1,500 AED Revibe covers the repair"
-        },
-        {
-          "kind": "page",
-          "at": "3",
-          "frame": "p003.png",
-          "quote": "The extended warranty is consumed after the repair."
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "procedure",
-      "statement": "RC+ repair above 1,500 AED: the status is Pending customer payment and the customer pays (cost − 1,500 AED).",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "3",
-          "frame": "p003.png",
-          "quote": "Pending customer payment — customer pays (cost − 1,500 AED)"
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "rule",
-      "statement": "If the customer pays the difference above 1,500 AED, the repair goes ahead with the same stages as a repair at ≤ 1,500 AED.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "3",
-          "frame": "p003.png",
-          "quote": "Paid → repair goes ahead, same stages as ≤ 1,500 AED"
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "rule",
-      "statement": "If the customer does not pay the difference above 1,500 AED, there is no repair, the device is shipped back to the customer and RC+ is cancelled.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "3",
-          "frame": "p003.png",
-          "quote": "Not paid → no repair · device shipped back to the customer · RC+ cancelled"
-        }
-      ],
-      "confidence": "high",
-      "quiz": true
-    },
-    {
-      "type": "rule",
-      "statement": "RC+ ship-back delivery failed: the agent offers a new attempt; if it is refused, the device is disposed.",
-      "evidence": [
-        {
-          "kind": "page",
-          "at": "3",
-          "frame": "p003.png",
-          "quote": "Delivery failed on ship-back: agent offers a new attempt · refused → device disposed."
-        }
-      ],
-      "confidence": "high",
-      "quiz": false
-    }
+    {"type": "rule", "statement": "Within 1 year and with no misuse declared, the original seller is the repair supplier.", "evidence": [{"kind": "page", "at": "1", "quote": "Who repairs? Within 1 year & no misuse → original seller", "frame": "p001.png"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "After 1 year, or when the customer declares misuse, the Revibe Repair Partner (Revibe Care+) repairs the device, and the original seller does not see the claim.", "evidence": [{"kind": "page", "at": "1", "quote": "After 1 year, or misuse declared by the customer → Revibe Repair Partner (Revibe Care+, page 3)", "frame": "p001.png"}, {"kind": "page", "at": "3", "quote": "the original seller doesn't see the claim", "frame": "p003.png"}], "confidence": "high", "quiz": true},
+    {"type": "procedure", "statement": "The customer raises a warranty claim through the “My Account” section on Revibe; the claim status is Pending (Revibe team to review).", "evidence": [{"kind": "page", "at": "1", "quote": "The customer raises a warranty claim through the “My Account” section on Revibe. Status: Pending (Revibe team to review)", "frame": "p001.png"}], "confidence": "high", "quiz": false},
+    {"type": "procedure", "statement": "At the Revibe agent check, missing documents are requested from the customer; if the customer does not provide them, the claim is Cancelled.", "evidence": [{"kind": "page", "at": "1", "quote": "Missing documents → requested from the customer; not provided → Cancelled", "frame": "p001.png"}], "confidence": "high", "quiz": true},
+    {"type": "procedure", "statement": "Once the agent check is complete, the repair supplier is assigned and the status becomes Pending Collection.", "evidence": [{"kind": "page", "at": "1", "quote": "Once complete, the repair supplier is assigned. Status: Pending Collection", "frame": "p001.png"}], "confidence": "high", "quiz": false},
+    {"type": "rule", "statement": "For AE and ZA the AWB is created automatically and the claim moves to Under Collection immediately; for SA the seller creates the AWB manually.", "evidence": [{"kind": "page", "at": "1", "quote": "AE & ZA: AWB auto-created — moves to Under Collection immediately. SA: Seller to create the AWB manually", "frame": "p001.png"}], "confidence": "high", "quiz": true},
+    {"type": "definition", "statement": "Once the device is picked up from the customer, the claim status changes to In Transit.", "evidence": [{"kind": "page", "at": "1", "quote": "Once picked up from the customer → In Transit", "frame": "p001.png"}], "confidence": "high", "quiz": false},
+    {"type": "procedure", "statement": "After the courier delivers the device, the seller sees the claim with status Under QC and must mark it Valid or Invalid.", "evidence": [{"kind": "page", "at": "1", "quote": "Once the Courier Company delivers the seller can see the claim which status becomes Under QC. Two options: Mark VALID / Mark INVALID", "frame": "p001.png"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "If collection fails (the customer does not hand over the device), the agent asks the customer whether they want a new AWB; Yes returns the claim to Under collection, No cancels it.", "evidence": [{"kind": "page", "at": "1", "quote": "Collection failed — the customer doesn't hand over the device. Agent asks the customer if they want a new AWB. Yes → new AWB → Under collection again. No → Cancelled", "frame": "p001.png"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "A new AWB after a failed collection is created automatically for AE and ZA, and manually by the seller for SA.", "evidence": [{"kind": "page", "at": "1", "quote": "new AWB (auto for AE & ZA · manual by the seller for SA)", "frame": "p001.png"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "Within 1 year, the seller inspects the device and marks the claim Valid (repair it) or Invalid (with reason and proof). Revibe reviews every Invalid claim.", "evidence": [{"kind": "page", "at": "2", "quote": "Within 1 year: the seller inspects the device and marks the claim Valid (repair it) or Invalid (reason + proof). Revibe reviews every Invalid claim.", "frame": "p002.png"}], "confidence": "high", "quiz": true},
+    {"type": "procedure", "statement": "Valid path: after repair, the seller clicks “Repair finished”; the claim then moves to Ship back under collection, Shipped back and Delivered.", "evidence": [{"kind": "page", "at": "2", "quote": "Under repair → seller clicks “Repair finished” → Ship back under collection → Shipped back → Delivered", "frame": "p002.png"}], "confidence": "high", "quiz": true},
+    {"type": "number", "statement": "Ship-back cost: for SA the seller creates and pays the AWB; for AE and ZA the AWB is created by Revibe and 30 AED is deducted from the seller.", "evidence": [{"kind": "page", "at": "2", "quote": "SA: seller creates and pays the AWB. AE & ZA: AWB by Revibe · 30 AED deducted from the seller", "frame": "p002.png"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "If the customer refuses delivery of the ship-back, the claim shows Delivery failed; the agent asks whether the customer wants a new attempt. If yes, the seller pays a new AWB; if no, the device is disposed.", "evidence": [{"kind": "page", "at": "2", "quote": "The customer refuses the delivery → Delivery failed. Agent asks if the customer wants a new attempt: Yes → seller pays a new AWB → Ship back under collection. No → Device disposed", "frame": "p002.png"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "An Invalid claim requires the seller to submit the reason and proof of invalidity.", "evidence": [{"kind": "page", "at": "2", "quote": "Reason + proof of invalidity required → Invalid claim", "frame": "p002.png"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "After a seller Invalid, Revibe's agent either agrees (the device is sent to the Lab) or challenges (the agent marks the claim Valid with a rationale).", "evidence": [{"kind": "page", "at": "2", "quote": "Agrees → device sent to the Lab. Challenges → marks Valid with a rationale", "frame": "p002.png"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "When the agent challenges and the seller must cover the cost, the claim goes to Under revision; the seller marks it Valid or Invalid again and the agent reviews again (Invalid goes to Lab).", "evidence": [{"kind": "page", "at": "2", "quote": "Seller must cover → Under revision → seller marks Valid / Invalid again → agent reviews again (Invalid → Lab)", "frame": "p002.png"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "If misuse is found but the customer has RC+, the seller gives a quotation (see page 3 workflow).", "evidence": [{"kind": "page", "at": "2", "quote": "Misuse but customer has RC+ → seller quotation (page 3)", "frame": "p002.png"}], "confidence": "high", "quiz": true},
+    {"type": "procedure", "statement": "Lab collection happens for AE only: a Quiqup AWB is created automatically, the seller hands the device to Quiqup, and the claim goes In transit to lab and then Lab under QC.", "evidence": [{"kind": "page", "at": "2", "quote": "Lab collection (AE only). Quiqup AWB auto-created · seller hands the device to Quiqup → In transit to lab → Lab under QC", "frame": "p002.png"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "Lab Valid: the customer is refunded and the device goes back to the seller (Pending lab to seller collection, In transit lab to seller, Delivered to seller).", "evidence": [{"kind": "page", "at": "2", "quote": "Lab Valid → customer refunded. Pending lab to seller collection → In transit lab to seller → Delivered to seller", "frame": "p002.png"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "Lab Invalid: the invalid claim is confirmed and the claim is closed.", "evidence": [{"kind": "page", "at": "2", "quote": "Lab Invalid → Invalid claim confirmed — claim closed", "frame": "p002.png"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "After Lab Invalid, AE: Revibe ships the device back. ZA and SA: the customer pays the shipping fees, entered as a Stripe code once paid, with 90 days to pay.", "evidence": [{"kind": "page", "at": "2", "quote": "AE: Revibe ships the device back. ZA & SA: the customer pays the shipping fees (Stripe code entered once paid) · 90 days to pay", "frame": "p002.png"}], "confidence": "high", "quiz": true},
+    {"type": "procedure", "statement": "After Lab Invalid, the device follows the ship-back stages Ship back under collection, Shipped back and Delivered; if delivery fails, the device is either re-attempted (new attempt) or Device disposed.", "evidence": [{"kind": "page", "at": "2", "quote": "→ Ship back under collection → Shipped back → Delivered · Delivery failed → new attempt, or Device disposed", "frame": "p002.png"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "Outside AE there is no Lab: the agent's confirmation of the seller's Invalid is final.", "evidence": [{"kind": "page", "at": "2", "quote": "OUTSIDE AE. No Lab yet: the agent's confirmation of the seller's Invalid is final.", "frame": "p002.png"}], "confidence": "high", "quiz": true},
+    {"type": "definition", "statement": "Revibe Care+ (RC+) covers repairs up to 1,500 AED. The repairer fixes the device and Revibe pays the repair.", "evidence": [{"kind": "page", "at": "3", "quote": "Revibe Care+ (RC+) covers repairs up to 1,500 AED. The repairer fixes the device, Revibe pays the repair.", "frame": "p003.png"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "For a repair above 1,500 AED, the customer pays the difference (cost minus 1,500 AED).", "evidence": [{"kind": "page", "at": "3", "quote": "Above 1,500 AED, the customer pays the difference. Pending customer payment — customer pays (cost − 1,500 AED)", "frame": "p003.png"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "Route A (within 1 year, seller finds misuse): the agent marks “Misuse but customer has RC+”, and the original seller gives a quotation and repairs the device, with Revibe covering the cost.", "evidence": [{"kind": "page", "at": "3", "quote": "The agent sees that the customer has RC+ and marks “Misuse but customer has RC+”. The original seller then gives a quotation and repairs the device — Revibe covers the cost.", "frame": "p003.png"}], "confidence": "high", "quiz": true},
+    {"type": "procedure", "statement": "Quotation flow: the repairer enters the price, the Revibe agent reviews it; No sends it back to quotation; Yes sends it to a cost check.", "evidence": [{"kind": "page", "at": "3", "quote": "repairer enters the price → Seller quotation review → Revibe agent approves? No → back to quotation · Yes → cost check", "frame": "p003.png"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "For a quoted cost up to 1,500 AED, Revibe covers the repair. The extended warranty is consumed after the repair.", "evidence": [{"kind": "page", "at": "3", "quote": "≤ 1,500 AED. Revibe covers the repair. The extended warranty is consumed after the repair.", "frame": "p003.png"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "For a quoted cost above 1,500 AED: if the customer pays, the repair goes ahead; if not, there is no repair, the device is shipped back to the customer and RC+ is cancelled.", "evidence": [{"kind": "page", "at": "3", "quote": "Paid → repair goes ahead, same stages as ≤ 1,500 AED. Not paid → no repair · device shipped back to the customer · RC+ cancelled", "frame": "p003.png"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "If delivery fails on the ship-back of an RC+ repair, the agent offers a new attempt; if the customer refuses, the device is disposed.", "evidence": [{"kind": "page", "at": "3", "quote": "Delivery failed on ship-back: agent offers a new attempt · refused → device disposed.", "frame": "p003.png"}], "confidence": "high", "quiz": true},
+    {"type": "tip", "statement": "All refunds, credits and charges appear in the payment tool.", "evidence": [{"kind": "page", "at": "1", "quote": "Payment: all refunds, credits and charges appear in the payment tool.", "frame": "p001.png"}], "confidence": "high", "quiz": true},
+    {"type": "screen", "statement": "The portal displays these tracking info items: Tracking (original shipment), Pickup Tracking, Ship-Back and Lab.", "evidence": [{"kind": "page", "at": "1", "quote": "Portal info displayed: Tracking (original shipment) · Pickup Tracking · Ship-Back · Lab.", "frame": "p001.png"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "Final outputs: Seller Valid means the device is repaired and shipped back; Lab Valid means the customer is refunded and the device goes back to the seller; Lab Invalid means the invalid claim is confirmed, with ship-back at the customer's cost (ZA and SA).", "evidence": [{"kind": "page", "at": "2", "quote": "Final outputs: Seller Valid → device repaired & shipped back · Lab Valid → customer refunded, device back to seller · Lab Invalid → invalid claim confirmed, ship-back at customer cost (ZA & SA).", "frame": "p002.png"}], "confidence": "high", "quiz": true},
+    {"type": "definition", "statement": "The Revibe Repair Partner receives the device directly, inspects it, identifies the issue and gives a quotation.", "evidence": [{"kind": "page", "at": "3", "quote": "The partner inspects the device, identifies the issue and gives a quotation.", "frame": "p003.png"}], "confidence": "high", "quiz": false}
   ],
   "screens": [
-    {
-      "name": "Revibe Warranty Process (Workflow 1/3 · Overview)",
-      "shows": "A routing banner for who repairs. A 4-step flow with action tags: 1 Customer raise claim (NO ACTION REQUIRED), 2 Revibe Agent Check (NO ACTION REQUIRED), 3 Pickup (ACTION REQUIRED IF SA), 4 Seller action (ACTION REQUIRED, Mark VALID / Mark INVALID). Also: an 'If the pickup fails · Routing' box (Collection failed → new AWB or Cancelled), a 'Which repair supplier?' box (Original seller vs Revibe Repair Partner · RC+), and a footer listing portal info and the payment tool.",
-      "at": "1",
-      "frame": "p001.png",
-      "where": "Training PDF page 1 (workflow diagram, not a live screen)"
-    },
-    {
-      "name": "Seller Decision · Under QC (Workflow 2/3)",
-      "shows": "VALID panel: Repair & Ship Back status chain, Ship-back cost (SA vs AE & ZA, 30 AED), Delivery failed handling, final output. INVALID panel: ① Seller submits proof, ② Revibe agent review (Agrees / Challenges: Seller must cover, Misuse but customer has RC+), ③ Lab collection (AE only, Quiqup), ④ Lab final decision (Lab Valid / Lab Invalid with AE vs ZA & SA ship-back, 90 days to pay), Outside AE box. A Final outputs footer.",
-      "at": "2",
-      "frame": "p002.png",
-      "where": "Training PDF page 2 (workflow diagram)"
-    },
-    {
-      "name": "Revibe Care+ · Paid Repairs (Workflow 3/3)",
-      "shows": "RC+ coverage banner (up to 1,500 AED). Route A (within 1 year, original seller finds misuse) and Route B (after 1 year or misuse declared, Revibe Repair Partner). Quotation chain (Seller quotation → Seller quotation review → agent approval → cost check). ≤ 1,500 AED status chain and > 1,500 AED Pending customer payment outcomes. Footer on failed ship-back delivery and the payment tool.",
-      "at": "3",
-      "frame": "p003.png",
-      "where": "Training PDF page 3 (workflow diagram)"
-    },
-    {
-      "name": "\"My Account\" section on Revibe",
-      "shows": "Where the customer raises a warranty claim (mentioned only; no screenshot).",
-      "at": "1",
-      "frame": "p001.png",
-      "where": "Customer side of Revibe"
-    },
-    {
-      "name": "Portal claim info",
-      "shows": "Info displayed: Tracking (original shipment), Pickup Tracking, Ship-Back, Lab (mentioned only; no screenshot).",
-      "at": "1",
-      "frame": "p001.png",
-      "where": "Portal (named only as 'Portal info displayed')"
-    },
-    {
-      "name": "Payment tool",
-      "shows": "Where all refunds, credits and charges appear (mentioned only; no screenshot).",
-      "at": "1",
-      "frame": "p001.png",
-      "where": "Named in the page 1 and page 3 footers"
-    }
+    {"name": "Revibe Warranty Process overview (workflow 1/3)", "shows": "Four stage cards (1 Customer raise claim, 2 Revibe Agent Check, 3 Pickup, 4 Seller action), the Collection failed routing box, the Which repair supplier box, and the portal info footer. Statuses shown: Pending, Pending Collection, Under Collection, In Transit, Under QC, Collection failed, Under collection, Cancelled.", "at": "1", "frame": "p001.png"},
+    {"name": "Seller Decision · Under QC (workflow 2/3)", "shows": "VALID column (Under repair, Ship back under collection, Shipped back, Delivered, ship-back cost, delivery failed, final output) and INVALID column (proof, Revibe review, lab collection AE only, lab final decision, Outside AE box). Statuses shown: Under repair, Ship back under collection, Shipped back, Delivered, Delivery failed, Device disposed, Invalid claim, Under revision, Pending lab collection, In transit to lab, Lab under QC, Pending lab to seller collection, In transit lab to seller, Delivered to seller, Invalid claim confirmed.", "at": "2", "frame": "p002.png"},
+    {"name": "Revibe Care+ · Paid Repairs (workflow 3/3)", "shows": "Route A and Route B cards, quotation flow, the 1,500 AED split (≤ 1,500 AED: Revibe covers the repair; > 1,500 AED: customer pays the difference). Statuses shown: Seller quotation, Seller quotation review, Ready for repair, Under repair, Repair finished, To ship back, Ship back under collection, Shipped back, Delivered, Pending customer payment.", "at": "3", "frame": "p003.png"},
+    {"name": "Portal info bar (on overview page)", "shows": "Portal info displayed: Tracking (original shipment), Pickup Tracking, Ship-Back, Lab; payment is handled in the payment tool.", "at": "1", "frame": "p001.png"}
   ],
   "terms": [
-    {
-      "term": "AWB",
-      "meaning": "Not expanded in the document. An AWB is created for the pickup (auto-created in AE & ZA, created manually by the seller in SA), for the ship-back (SA: the seller creates and pays it; AE & ZA: by Revibe, 30 AED deducted from the seller) and for lab collection in AE (Quiqup AWB, auto-created).",
-      "at": "1"
-    },
-    {
-      "term": "Revibe Care+ (RC+)",
-      "meaning": "Paid-repair cover: RC+ covers repairs up to 1,500 AED. The repairer fixes the device and Revibe pays the repair; above 1,500 AED the customer pays the difference.",
-      "at": "3"
-    },
-    {
-      "term": "Revibe Repair Partner",
-      "meaning": "Repairer used after 1 year, or when the customer declares misuse. The device is sent straight to it; it inspects the device, identifies the issue and gives a quotation. The original seller doesn't see the claim.",
-      "at": "1"
-    },
-    {
-      "term": "Original seller",
-      "meaning": "Implied: the seller who sold the device. Within 1 year with no misuse declared, the original seller inspects the device, identifies the issue and repairs it.",
-      "at": "1"
-    },
-    {
-      "term": "Under QC",
-      "meaning": "Status once the Courier Company delivers; the seller can see the claim and has two options: Mark VALID or Mark INVALID.",
-      "at": "1"
-    },
-    {
-      "term": "Valid (seller decision)",
-      "meaning": "The seller marks the claim Valid and repairs the device (\"repair it\"), then ships it back to the customer.",
-      "at": "2"
-    },
-    {
-      "term": "Invalid (seller decision)",
-      "meaning": "The seller marks the claim Invalid with a reason and proof of invalidity. Revibe reviews every Invalid claim.",
-      "at": "2"
-    },
-    {
-      "term": "Under revision",
-      "meaning": "Status when the agent challenges an Invalid with \"Seller must cover\". The seller marks the claim Valid or Invalid again.",
-      "at": "2"
-    },
-    {
-      "term": "Misuse but customer has RC+",
-      "meaning": "Agent marking used when the seller marks Invalid (misuse) but the customer has RC+. It leads to a seller quotation, and Revibe covers the cost (Route A).",
-      "at": "3"
-    },
-    {
-      "term": "Lab",
-      "meaning": "The Lab Verification step for Invalid claims the agent agrees with (AE only). Lab Valid → customer refunded and device back to seller; Lab Invalid → Invalid claim confirmed and claim closed.",
-      "at": "2"
-    },
-    {
-      "term": "Quiqup",
-      "meaning": "Used for lab collection in AE: a Quiqup AWB is auto-created and the seller hands the device to Quiqup.",
-      "at": "2"
-    },
-    {
-      "term": "Collection failed",
-      "meaning": "Pickup status when the customer doesn't hand over the device.",
-      "at": "1"
-    },
-    {
-      "term": "Delivery failed",
-      "meaning": "Ship-back status when the customer refuses the delivery.",
-      "at": "2"
-    },
-    {
-      "term": "Device disposed",
-      "meaning": "Outcome when the customer does not want a new delivery attempt after a failed ship-back.",
-      "at": "2"
-    },
-    {
-      "term": "Seller quotation / Seller quotation review",
-      "meaning": "RC+ statuses. The repairer enters the price (Seller quotation) and the Revibe agent then approves it or sends it back to quotation (Seller quotation review). Implied: the status is still called 'Seller quotation' on Route B, where the Revibe Repair Partner gives the quotation.",
-      "at": "3"
-    },
-    {
-      "term": "Pending customer payment",
-      "meaning": "RC+ status when the cost is above 1,500 AED and the customer must pay (cost − 1,500 AED).",
-      "at": "3"
-    },
-    {
-      "term": "Extended warranty",
-      "meaning": "Consumed after an RC+ repair covered by Revibe. Implied: the RC+ cover.",
-      "at": "3"
-    },
-    {
-      "term": "Stripe code",
-      "meaning": "Entered once the customer has paid the shipping fees after Lab Invalid (ZA & SA).",
-      "at": "2"
-    },
-    {
-      "term": "Payment tool",
-      "meaning": "Where all refunds, credits and charges appear.",
-      "at": "1"
-    },
-    {
-      "term": "AE / ZA / SA",
-      "meaning": "Market codes the material uses to split rules (pickup AWB, ship-back cost, Lab). The document does not expand them.",
-      "at": "1"
-    }
+    {"term": "Valid", "meaning": "Seller decision that the claim is repaired by the original seller: the seller repairs and ships the device back.", "at": "2"},
+    {"term": "Invalid", "meaning": "Seller decision that the claim is not valid; requires reason and proof, and Revibe reviews it.", "at": "2"},
+    {"term": "Under QC", "meaning": "Claim status once the courier delivers the device to the seller; the seller then marks it Valid or Invalid.", "at": "1"},
+    {"term": "RC+ / Revibe Care+", "meaning": "Revibe Care+ (RC+): covers repairs up to 1,500 AED, and Revibe pays the repair. The page 3 title for this workflow is Paid Repairs.", "at": "3"},
+    {"term": "Revibe Repair Partner", "meaning": "Repairer used after 1 year or when the customer declares misuse; the original seller does not see the claim.", "at": "1"},
+    {"term": "AWB", "meaning": "Shipment document named on the page for pickup, new attempts and ship-back; the page says who creates it per market and does not expand the acronym.", "at": "1"},
+    {"term": "Lab", "meaning": "Lab verification step after an Invalid claim is reviewed by Revibe; available for AE only.", "at": "2"},
+    {"term": "Quiqup", "meaning": "Named on the page as the party the seller hands the device to for lab collection in AE; a Quiqup AWB is auto-created.", "at": "2"},
+    {"term": "Misuse but customer has RC+", "meaning": "Agent status for a seller-found misuse claim where the customer holds RC+; the seller then gives a quotation.", "at": "3"},
+    {"term": "Seller quotation", "meaning": "Price entered by the repairer for the repair, reviewed by the Revibe agent before the cost check.", "at": "3"},
+    {"term": "AE, ZA, SA", "meaning": "Market codes used throughout the workflow to set different rules; the doc does not spell out what each code stands for.", "at": "1"},
+    {"term": "Stripe code", "meaning": "Code entered once the customer has paid the ship-back shipping fee (ZA and SA after Lab Invalid).", "at": "2"}
   ],
   "asr_fixes": [],
   "unclear": [
-    {
-      "at": "1",
-      "issue": "'Within 1 year' / 'After 1 year' — the document does not say what date the year is counted from."
-    },
-    {
-      "at": "1",
-      "issue": "Step 4 says the seller can see the claim only once the courier delivers it (Under QC). But in SA the seller must create the pickup AWB manually at the Pickup step, before delivery. The document doesn't explain how an SA seller sees or acts on the claim at that stage."
-    },
-    {
-      "at": "1",
-      "issue": "Pickup in SA: the seller creates the pickup AWB manually, but the document does not say who pays for it. It only says the SA seller creates and pays for the ship-back AWB."
-    },
-    {
-      "at": "2",
-      "issue": "Ship-back cost says 'AE & ZA: AWB by Revibe · 30 AED deducted from the seller'. No local-currency amount is given for ZA, so it's unclear whether ZA sellers are charged 30 AED or an equivalent."
-    },
-    {
-      "at": "2",
-      "issue": "Valid claim with failed delivery: 'Yes → seller pays a new AWB' is stated for all markets. In AE & ZA the normal ship-back AWB is made by Revibe with a 30 AED deduction, so it's unclear how the seller pays the new AWB there."
-    },
-    {
-      "at": "2",
-      "issue": "The Lab Invalid box says 'ZA & SA: the customer pays the shipping fees'. But Lab collection is '(AE only)' and outside AE there is 'No Lab yet'. It's unclear whether this rule applies after the agent's final Invalid confirmation in ZA & SA."
-    },
-    {
-      "at": "2",
-      "issue": "'Stripe code entered once paid' — the document does not say who enters the Stripe code or where."
-    },
-    {
-      "at": "2",
-      "issue": "'90 days to pay' — the document does not say what happens if the customer doesn't pay the shipping fees within 90 days."
-    },
-    {
-      "at": "2",
-      "issue": "Lab Valid → 'customer refunded' and the device goes back to the seller. The document does not say whether the refund is charged to the seller; it only says all refunds, credits and charges appear in the payment tool."
-    },
-    {
-      "at": "3",
-      "issue": "Route A says 'Revibe covers the cost' of the original seller's repair. It doesn't say whether the 1,500 AED cap and the customer-pays-the-difference step also apply to Route A, although the Quotation section appears under both routes."
-    },
-    {
-      "at": "3",
-      "issue": "The ship-back cost for RC+ repairs (who creates and pays the ship-back AWB, including a new attempt after a failed delivery) is not stated."
-    }
+    {"at": "1 and 3", "issue": "Misuse routing is ambiguous: page 1 sends claims to the Revibe Repair Partner when “misuse declared by the customer”, but page 3 Route A keeps seller-found misuse (within 1 year) with the original seller under RC+. Confirm the difference between customer-declared and seller-found misuse before relying on it."},
+    {"at": "2", "issue": "The phrase “Seller must cover” under a challenged Invalid claim is not explained (the cost to be covered, and by whom, is not stated)."},
+    {"at": "1 and 2", "issue": "“Within 1 year” has no start date stated anywhere (purchase date, delivery date, or claim date is not specified)."},
+    {"at": "2", "issue": "The Delivery failed rule says the seller pays a new AWB (Yes → seller pays a new AWB), but for AE and ZA ship-back AWBs are created by Revibe (30 AED deducted). It is not clear whether the seller pays for a re-attempt in AE and ZA as well."},
+    {"at": "2", "issue": "Stripe code: the doc says it is entered once the customer has paid, but does not say who enters it (the seller, the agent, or the customer)."},
+    {"at": "2", "issue": "Lab Invalid is labelled “claim closed”, yet the same branch then continues to ship-back, Delivered, Delivery failed and Device disposed. Confirm whether the claim is closed before or after the ship-back steps."},
+    {"at": "1", "issue": "The AWB acronym and the market codes AE, ZA and SA are used without definition; the pack has no narration to explain them."}
   ],
-  "outdated": [
-    {
-      "at": "2",
-      "signal": "The OUTSIDE AE box says 'No Lab yet: the agent's confirmation of the seller's Invalid is final.' Together with '③ Lab collection (AE only)', this suggests the Lab may later reach ZA & SA, which would change the rule that the agent's confirmation is final outside AE."
-    }
-  ],
+  "outdated": [],
   "privacy": [],
-  "frames_opened": 3,
   "audit": {
-    "checked": 117,
+    "checked": 77,
     "removed": [],
     "corrected": [
-      {
-        "before": "Summary: '...all money moves appear in the payment tool' · 'Outside AE there is no Lab yet and the agent's decision is final' · 'RC+ pays repairs up to 1,500 AED' · 'the claim goes straight to the Repair Partner'",
-        "after": "'all refunds, credits and charges appear in the payment tool' · 'the agent's confirmation of the seller's Invalid is final' · 'RC+ covers repairs up to 1,500 AED (Revibe pays the repair)' · 'the device is sent straight to the Revibe Repair Partner'; also added AE vs ZA & SA ship-back after Lab Invalid",
-        "reason": "Summary paraphrases generalised the page wording; aligned to what pages 1–3 actually say."
-      },
-      {
-        "before": "Step 'Revibe Agent Check (NO ACTION REQUIRED)' cited a quote without the NO ACTION REQUIRED tag.",
-        "after": "Quote now starts 'NO ACTION REQUIRED 2 Revibe Agent Check ...' as visible on p001.png.",
-        "reason": "The action's tag claim needed visible evidence."
-      },
-      {
-        "before": "Step ② Revibe agent review: 'If the agent agrees, the device is sent to the Lab.'",
-        "after": "'If the agent agrees, the device is sent to the Lab (Lab collection is AE only; outside AE there is no Lab yet).' with '③ Lab collection (AE only)' added as evidence.",
-        "reason": "Stated unqualified, it overgeneralises the Lab to all markets; p002 limits Lab collection to AE."
-      },
-      {
-        "before": "Step 3 Ship-back cost: 'In AE & ZA Revibe creates the AWB'",
-        "after": "'In AE & ZA the AWB is made by Revibe'",
-        "reason": "Page says 'AWB by Revibe'; kept closer to the source wording."
-      },
-      {
-        "before": "Fact: 'Step 1 ... and step 2 ... are labelled NO ACTION REQUIRED for the seller.'",
-        "after": "'Step 1 (Customer raise claim) and step 2 (Revibe Agent Check) are tagged NO ACTION REQUIRED.'",
-        "reason": "The tag on p001 does not name who needs no action; 'for the seller' was added from inference."
-      },
-      {
-        "before": "Fact: 'Pickup in AE & ZA: the AWB is auto-created and the claim moves to Under Collection immediately; the seller does nothing.'",
-        "after": "'... moves to Under Collection immediately. The Pickup step is tagged ACTION REQUIRED IF SA, so no seller action is flagged for AE & ZA at this step.' (tag added as evidence)",
-        "reason": "'The seller does nothing' overstates; the page only tags the step ACTION REQUIRED IF SA."
-      },
-      {
-        "before": "Fact: 'Once the courier company delivers the device to the seller, the seller can see the claim...'",
-        "after": "'Once the Courier Company delivers, the seller can see the claim and its status becomes Under QC...'",
-        "reason": "Kept to the page wording, which does not say 'the device to the seller'."
-      },
-      {
-        "before": "Fact: 'All warranty refunds, credits and charges appear in the payment tool. That is where to check money movements on a claim.'",
-        "after": "'All refunds, credits and charges appear in the payment tool. That is where to check them on a warranty claim.'",
-        "reason": "'Money movements' generalised the page's 'refunds, credits and charges'."
-      },
-      {
-        "before": "Fact: 'If the Revibe agent agrees with the seller's Invalid, the device is sent to the Lab.'",
-        "after": "Added: 'Lab collection is AE only; outside AE there is no Lab yet and the agent's confirmation is final.' with the two supporting quotes.",
-        "reason": "Unqualified, the statement wrongly implies a Lab step in ZA & SA."
-      },
-      {
-        "before": "Fact: 'After an RC+ repair covered by Revibe, the customer's extended warranty is consumed.'",
-        "after": "'After an RC+ repair covered by Revibe (≤ 1,500 AED), the extended warranty is consumed.' with the '≤ 1,500 AED Revibe covers the repair' heading added as evidence.",
-        "reason": "The sentence sits only in the ≤ 1,500 AED box; 'the customer's' was not on the page."
-      },
-      {
-        "before": "Fact: 'RC+ ship-back delivery failed: the agent offers the customer a new attempt; if the customer refuses, the device is disposed.'",
-        "after": "'RC+ ship-back delivery failed: the agent offers a new attempt; if it is refused, the device is disposed.'",
-        "reason": "The p003 footer does not say who is offered the attempt or who refuses."
-      },
-      {
-        "before": "Screen 'Portal claim info': '... Seller actions shown in the flow: Mark VALID / Mark INVALID at Under QC, and the \"Repair finished\" click (mentioned only; no screenshot).'",
-        "after": "'Info displayed: Tracking (original shipment), Pickup Tracking, Ship-Back, Lab (mentioned only; no screenshot).'",
-        "reason": "The page never says these seller actions are in the portal; only the four info items are listed under 'Portal info displayed'."
-      },
-      {
-        "before": "Term AWB: 'The material uses this for the shipping waybill created for pickup and ship-back...'",
-        "after": "'Not expanded in the document. An AWB is created for the pickup ..., for the ship-back ... and for lab collection in AE (Quiqup AWB, auto-created).'",
-        "reason": "'Shipping waybill' is general knowledge, not in the document; the old wording also applied the pickup rule to ship-back."
-      },
-      {
-        "before": "Term Original seller: 'The seller who sold the device. They repair it within 1 year when no misuse is declared.'",
-        "after": "'Implied: the seller who sold the device. Within 1 year with no misuse declared, the original seller inspects the device, identifies the issue and repairs it.'",
-        "reason": "The document never defines 'original seller'; the definition is inferred."
-      },
-      {
-        "before": "Term Lab: 'Revibe verification step for Invalid claims...'",
-        "after": "'The Lab Verification step for Invalid claims...'",
-        "reason": "The document does not say the Lab is Revibe's; it names the stage 'Lab Verification'."
-      },
-      {
-        "before": "Term Quiqup: 'The courier for lab collection in AE...'",
-        "after": "'Used for lab collection in AE: a Quiqup AWB is auto-created and the seller hands the device to Quiqup.'",
-        "reason": "The document never calls Quiqup a courier."
-      },
-      {
-        "before": "Term Seller quotation: '...The status name says 'Seller' even when the repairer is the Revibe Repair Partner.'",
-        "after": "'Implied: the status is still called 'Seller quotation' on Route B, where the Revibe Repair Partner gives the quotation.'",
-        "reason": "This is read from the layout (shared Quotation section), not stated, so it is marked Implied."
-      },
-      {
-        "before": "Terms Under QC / Valid / Misuse but customer has RC+ / Device disposed / Stripe code: minor paraphrases ('courier delivers the device to the seller', 'accepts the claim', 'paid by Revibe', 'refuses a new delivery attempt', 'after a confirmed Invalid claim')",
-        "after": "Reworded to the page wording ('Courier Company delivers', 'marks the claim Valid and repairs the device', 'Revibe covers the cost (Route A)', 'does not want a new delivery attempt', 'after Lab Invalid (ZA & SA)')",
-        "reason": "Paraphrases went slightly beyond what p001–p003 show."
-      }
+      {"before": "Shipment waybill used for pickup and ship-back; the doc says who creates it per market but does not expand the acronym.", "after": "Shipment document named on the page for pickup, new attempts and ship-back; the page says who creates it per market and does not expand the acronym.", "reason": "The expansion “waybill” is general knowledge and does not appear on the page."},
+      {"before": "Named as the carrier that collects the device for the lab in AE (Quiqup AWB auto-created).", "after": "Named on the page as the party the seller hands the device to for lab collection in AE; a Quiqup AWB is auto-created.", "reason": "The page does not call Quiqup a carrier; it only says the seller hands the device to Quiqup."},
+      {"before": "Revibe's paid care cover; covers repairs up to 1,500 AED, Revibe pays the repair.", "after": "Revibe Care+ (RC+): covers repairs up to 1,500 AED, and Revibe pays the repair. The page 3 title for this workflow is Paid Repairs.", "reason": "“Paid care cover” is a characterisation not on the page; the page uses the title Paid Repairs."},
+      {"before": "Customer raises the warranty claim in the My Account section on Revibe; status Pending, Revibe team to review. No action for the seller.", "after": "Customer raises the warranty claim in the My Account section on Revibe; status Pending, Revibe team to review. Card is labelled NO ACTION REQUIRED.", "reason": "The page shows the label NO ACTION REQUIRED; “No action for the seller” is a paraphrase."}
     ],
     "added": [
-      "Fact (procedure, p001): Claim status order up to the seller decision: Pending → Pending Collection → Under Collection → In Transit → Under QC.",
-      "Fact (procedure, p002): The Invalid path runs Proof Required → Revibe Review → Lab Verification.",
-      "Evidence added to the fact 'If the claim comes after 1 year, or the customer declares misuse...' (REVIBE REPAIR PARTNER · RC+ box), to 'Within 1 year, the seller inspects the device at Under QC...' (page title 'Seller Decision · Under QC'), to the 'Misuse but customer has RC+' fact (p003 title) and to 'Lab collection only exists in AE' (OUTSIDE AE box).",
-      "Unclear entry on RC+ ship-back cost extended to cover who pays a new attempt after a failed delivery."
+      "fact (page 2): After Lab Invalid, the device follows Ship back under collection → Shipped back → Delivered, or Delivery failed (new attempt, or Device disposed). This branch was in the lab final decision step but had no fact of its own.",
+      "unclear (page 2): Lab Invalid is labelled “claim closed” yet the same branch continues to ship-back and disposal steps."
     ]
   }
 }

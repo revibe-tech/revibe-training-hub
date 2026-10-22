@@ -1,0 +1,714 @@
+{
+  "summary": "Part 3 (10:20-14:12) of the 2.0 Fulfillment App (Sellers) video. Pierre covers what happens when Revibe rejects seller stock at quality check (bulk rejection of everything vs. partial return to supplier), how Inventory exits records returns, sales and aging returns, how to drop prices by 2% in Supplier inventory, and how to request boxes in the Box request page. All 40 frames were opened. Several narration timestamps do not match the screens shown: the Supplier inventory screen is on screen at 11:36, the aging rows appear at 13:10 (not 13:05), and the Box request page appears at 14:03 (not 13:49). RTO, the orders app and the single-device price drop are not explained in this part.",
+  "frames_opened": 40,
+  "steps": [
+    {
+      "at": "10:24",
+      "screen": "Request products list (t00620, t00640)",
+      "action": "Trainer introduces bulk rejection and gives the reason that a full quality check takes too much time. No click is shown on this list.",
+      "evidence": [
+        {"kind": "say", "at": "10:24", "quote": "our quality standards in this case we will do the bulk rejection because we cannot spend too much"},
+        {"kind": "see", "at": "10:20", "frame": "t00620.jpg", "quote": "Request products list; columns Request Status, SKU, Product, Supplier, Quantity Allowed, Quantity Sent, Quantity received, Buybox supplier, Price, Total price, Payment method, Updated at. Status values 'Warehouse received'. Left filter All / Open / Closed."}
+      ],
+      "says": "because we cannot spend too much time doing the quality check",
+      "why": "Trainer's stated reason for bulk rejection."
+    },
+    {
+      "at": "10:45",
+      "screen": "Inventory exits, All filter (t00654)",
+      "action": "Trainer explains partial rejection: non-matching devices are returned and listed under Return to supplier.",
+      "evidence": [
+        {"kind": "say", "at": "10:45", "quote": "If we see that only some devices are not matching our criteria, this one we will return them to you, but they will appear here in a category called return to supplier."},
+        {"kind": "see", "at": "10:54", "frame": "t00654.jpg", "quote": "Inventory exits table; Type 'Return to supplier' rows with reasons Display issue, Charging port, Vibrator issue, SIM issue, Button issue, Battery issue; a 'Sale' group header with count 210 lower down."}
+      ]
+    },
+    {
+      "at": "10:58",
+      "screen": "Inventory exits, Return to supplier rows (t00658, t00662)",
+      "action": "Trainer says every return shows its reason and lists examples.",
+      "evidence": [
+        {"kind": "say", "at": "10:58", "quote": "Return to Supplier {and?} every time here we will mention to you what is the reason for the"},
+        {"kind": "say", "at": "11:05", "quote": "Battery level was not matching, there was camera dots, {face?} ID was failing {etc.?}"},
+        {"kind": "see", "at": "11:02", "frame": "t00662.jpg", "quote": "Reason for return column reads Camera dot, Face ID failure, Physical condition not matching, Not selling, Battery level not matching."}
+      ],
+      "says": "every time here we will mention to you what is the reason for the return",
+      "why": ""
+    },
+    {
+      "at": "11:10",
+      "screen": "Inventory exits, Quantity before / after columns (t00670, t00672)",
+      "action": "Trainer explains quantity before and after on inventory exits, and that each exit carries a tracking ID and link.",
+      "evidence": [
+        {"kind": "say", "at": "11:10", "quote": "So every time you see that it is an inventory exit, this is why the quantity before and"},
+        {"kind": "say", "at": "11:20", "quote": "every time the tracking ID and the tracking link so that you will be able to follow up"},
+        {"kind": "see", "at": "11:12", "frame": "t00672.jpg", "quote": "Return to supplier rows with Quantity before and Quantity after columns, e.g. 5 and 4, 3 and 2, 2 and 1; Tracking ID values 18991176, 18991176-1, 19000591, 19015654-1."}
+      ]
+    },
+    {
+      "at": "11:21",
+      "screen": "Inventory exits scrolled right (t00681)",
+      "action": "Pointer and scroll move to the Tracking ID and Tracking Link columns while trainer explains how devices are returned.",
+      "evidence": [
+        {"kind": "say", "at": "11:24", "quote": "how we return the devices to {you.?}"},
+        {"kind": "see", "at": "11:21", "frame": "t00681.jpg", "quote": "Columns visible: IMEI, Type, Reason for return, Comment, Quantity before, Quantity after, Tracking ID, Tracking Link, Return status 'To return', Inventory type 'Fulfillment', Created at."}
+      ]
+    },
+    {
+      "at": "11:26",
+      "screen": "Inventory exits (t00686)",
+      "action": "Trainer explains the third option: devices passing Revibe quality check are inbounded and show live in inventory.",
+      "evidence": [
+        {"kind": "say", "at": "11:27", "quote": "Third option, the devices you sent to us are working well, they are passing our quality check and"},
+        {"kind": "say", "at": "11:34", "quote": "It means you will be able to see them live in your inventory."},
+        {"kind": "see", "at": "11:26", "frame": "t00686.jpg", "quote": "Inventory exits list; no Supplier inventory view on screen."}
+      ]
+    },
+    {
+      "at": "11:36",
+      "screen": "Supplier inventory, Live section (t00696, t00699, t00704)",
+      "action": "Trainer lists the stock fields the seller will see (initial quantity, current quantity, model, days in inventory, current price, total value) while Supplier inventory is on screen. The Name column shows the model.",
+      "evidence": [
+        {"kind": "say", "at": "11:38", "quote": "So you will be able to see like the initial quantity, the current quantity, what is the model"},
+        {"kind": "say", "at": "11:47", "quote": "The current price, total value, etc."},
+        {"kind": "see", "at": "11:36", "frame": "t00696.jpg", "quote": "Supplier inventory Live section; columns SKU, Inventory days, Created at, Name, Status, Initial quantity, Current quantity, Initial price, Price override, Current price, Supplier, Total value, Market unit price."}
+      ]
+    },
+    {
+      "at": "11:49",
+      "screen": "Inventory exits, Sale group (t00714)",
+      "action": "Trainer says devices will be sold progressively and that each sale is recorded in Inventory exits with its order help (order number). The Sale group first appears on screen at t00714; t00708 and t00712 still show Supplier inventory and Return to supplier rows.",
+      "evidence": [
+        {"kind": "say", "at": "11:49", "quote": "And we will progressively sell them."},
+        {"kind": "say", "at": "11:51", "quote": "When we will sell them, this is something you will be able to see here."},
+        {"kind": "say", "at": "11:56", "quote": "So here, every time we do, we record {the?} sale, you are able to see the order help,"},
+        {"kind": "say", "at": "12:01", "quote": "which is like basically the order number."},
+        {"kind": "see", "at": "11:54", "frame": "t00714.jpg", "quote": "Sale group rows with Order help values 52301-1, 52330-1 and 52379-1; Quantity before 1, Quantity after 0 on several rows; Sale group count 210."}
+      ]
+    },
+    {
+      "at": "12:03",
+      "screen": "Inventory exits, Sale rows (t00723, t00725)",
+      "action": "Trainer shows that a sale decreases quantity by one and that the device is sold on the fulfillment.",
+      "evidence": [
+        {"kind": "say", "at": "12:03", "quote": "{Sale,?} you can see that the quantity decreased by one."},
+        {"kind": "say", "at": "12:06", "quote": "You can see that it has been sold on the fulfillment."},
+        {"kind": "see", "at": "12:03", "frame": "t00723.jpg", "quote": "Sale rows with Quantity before and after, e.g. 1 to 0 and 4 to 3."}
+      ],
+      "says": "You can see that it has been sold on the fulfillment.",
+      "why": ""
+    },
+    {
+      "at": "12:09",
+      "screen": "Inventory exits, row detail panel (t00730, t00731)",
+      "action": "Trainer clicks a Sale row and the detail panel for SKU 010111-060601 opens with additional information.",
+      "evidence": [
+        {"kind": "say", "at": "12:09", "quote": "And also when you enter like this, you can see some additional information."},
+        {"kind": "see", "at": "12:10", "frame": "t00730.jpg", "quote": "Detail panel for 010111-060601 open on the right: Supplier SK World, Name iphone-11-pro-max64 GBSpace GreyGood, Order help 52330-1, IMEI 353908109300902, Type Sale, Quantity before 1, Quantity after 0, Battery level 98.00%, Inventory type Fulfillment, Created by tech@revibe.me."}
+      ]
+    },
+    {
+      "at": "12:16",
+      "screen": "Inventory exits, Sale rows (t00736)",
+      "action": "Trainer says sales can be found in another app, detailed in a separate video. See unclear entry.",
+      "evidence": [
+        {"kind": "say", "at": "12:16", "quote": "These sales, you can find them in the {orders?} app which is also detailed in another training video"},
+        {"kind": "see", "at": "12:16", "frame": "t00736.jpg", "quote": "Sale rows in Inventory exits; no orders app shown."}
+      ]
+    },
+    {
+      "at": "12:23",
+      "screen": "Supplier inventory, Out of stock section (t00743)",
+      "action": "Trainer points to the Out of stock section of Supplier inventory.",
+      "evidence": [
+        {"kind": "say", "at": "12:25", "quote": "{so?} here you can see your inventory {you?} can see everything which is now out of stock and"},
+        {"kind": "see", "at": "12:23", "frame": "t00743.jpg", "quote": "Supplier inventory with Live section followed by an Out of stock section; out-of-stock rows show Status 'Out of stock' and Current quantity 0."}
+      ]
+    },
+    {
+      "at": "12:31",
+      "screen": "Supplier inventory, Live section (t00748)",
+      "action": "Trainer points to live stock in Supplier inventory before explaining price drops.",
+      "evidence": [
+        {"kind": "say", "at": "12:31", "quote": "you can see everything which is live in the inventory when you want to decrease the price you"},
+        {"kind": "see", "at": "12:28", "frame": "t00748.jpg", "quote": "Supplier inventory Live section with Status 'Live' rows and Inventory days values in red, yellow and green."}
+      ]
+    },
+    {
+      "at": "12:33",
+      "screen": "Supplier inventory, Price columns (t00752) and selection icon (t00753)",
+      "action": "Trainer scrolls to the price columns, then points at the selection icon at the top right to enter selection mode.",
+      "evidence": [
+        {"kind": "say", "at": "12:37", "quote": "can just drop the price by two percent you can either enter like this in the device and"},
+        {"kind": "see", "at": "12:33", "frame": "t00753.jpg", "quote": "Supplier inventory; pointer on the icon at the top right next to the Filter icon."},
+        {"kind": "see", "at": "12:32", "frame": "t00752.jpg", "quote": "Supplier inventory scrolled to Initial price, Price override, Current price, Supplier, Total value, Market unit price, Type."}
+      ]
+    },
+    {
+      "at": "12:42",
+      "screen": "Supplier inventory, selection mode with 4 Selected (t00759)",
+      "action": "Trainer presses the Drop -2% button; he says it can be pressed as many times as wanted.",
+      "evidence": [
+        {"kind": "say", "at": "12:42", "quote": "drop the price by two percent and you can press this button as {many?} times as you want"},
+        {"kind": "see", "at": "12:39", "frame": "t00759.jpg", "quote": "Top bar reads '4 Selected' with a 'Drop -2%' button at the top right; four rows checked (010110-060501, 010110-070503, 010114-071203, 010120-081202)."}
+      ],
+      "says": "you can press this button as {many?} times as you want",
+      "why": ""
+    },
+    {
+      "at": "12:46",
+      "screen": "Supplier inventory, bulk selection (t00766)",
+      "action": "Trainer says the seller can also select all devices and drop them in bulk by 2%. No select-all click is shown in the frame.",
+      "evidence": [
+        {"kind": "say", "at": "12:46", "quote": "{or?} you can also click here select all the devices and then drop in bulk by {2?}%"},
+        {"kind": "see", "at": "12:46", "frame": "t00766.jpg", "quote": "Supplier inventory Live list without selection; pointer on the list."}
+      ]
+    },
+    {
+      "at": "12:54",
+      "screen": "Supplier inventory (t00770, t00776, t00778)",
+      "action": "Trainer repeats that the 2% drop button can be pressed as many times as wanted, then notes that Supplier inventory shows both live and out-of-stock devices.",
+      "evidence": [
+        {"kind": "say", "at": "12:54", "quote": "and as I told you you can press this button of drop by 2% as many times"},
+        {"kind": "say", "at": "12:59", "quote": "as you want so in supplier inventory you can see everything which is live and out of stock"},
+        {"kind": "see", "at": "12:58", "frame": "t00778.jpg", "quote": "Supplier inventory with Live rows at top and Out of stock section below."}
+      ]
+    },
+    {
+      "at": "13:05",
+      "screen": "Inventory exits, SK World filter, aging rows (t00790, t00792)",
+      "action": "Trainer shows Aging inventory return rows in Inventory exits and explains what they mean. t00785 still shows Supplier inventory with the pointer on the Inventory exits menu item; the SK World aging rows first appear at t00790 (13:10).",
+      "evidence": [
+        {"kind": "say", "at": "13:05", "quote": "and in inventory exit you can see the aging {inventory?} return {okay?} so this is when it was"},
+        {"kind": "say", "at": "13:13", "quote": "like too old so aging inventory return means that we returned the device to you because it was"},
+        {"kind": "see", "at": "13:10", "frame": "t00790.jpg", "quote": "SK World filter selected (359); rows with Type 'Aging inventory return', Tracking ID 21794253, Quantity before 1 and after 0 (some rows 2 and 0); RTO and Return to supplier groups below."}
+      ]
+    },
+    {
+      "at": "13:21",
+      "screen": "Inventory exits, aging rows (t00794)",
+      "action": "Trainer explains the aging rule: return after 20 days unless the price was dropped; if dropped, wait to 30 days.",
+      "evidence": [
+        {"kind": "say", "at": "13:28", "quote": "for this we have a process which is basically after 20 days we will return the device to"},
+        {"kind": "say", "at": "13:33", "quote": "you unless you have dropped the price if you have dropped the price {we?} will understand that you"},
+        {"kind": "say", "at": "13:39", "quote": "want to push for it to be sold and then we will wait until 30 days but after"},
+        {"kind": "say", "at": "13:44", "quote": "30 days we will return the device to you in any case"},
+        {"kind": "see", "at": "13:21", "frame": "t00794.jpg", "quote": "Inventory exits, SK World filter, Aging inventory return rows."}
+      ]
+    },
+    {
+      "at": "13:49",
+      "screen": "Inventory exits with SK World filter, pointer on the Box request menu item (t00829)",
+      "action": "Trainer introduces the Box request section and calls it a new feature. The Box request page is not yet open on this frame.",
+      "evidence": [
+        {"kind": "say", "at": "13:51", "quote": "{last?} section for this training the box {box?} request here it's a new feature we added to the"},
+        {"kind": "say", "at": "13:58", "quote": "fulfillment app which enables you to request us some new boxes what you only have to do is"},
+        {"kind": "see", "at": "13:49", "frame": "t00829.jpg", "quote": "Inventory exits (SK World filter, aging rows) still on screen with the pointer on the Box request item in the left menu."}
+      ]
+    },
+    {
+      "at": "14:03",
+      "screen": "Box request page, No items, with Box request Form opening (t00843)",
+      "action": "Trainer clicks Add in the Box request page; a new ID is generated.",
+      "evidence": [
+        {"kind": "say", "at": "14:05", "quote": "here to click on add It will generate an {automate?} ID and you have just to select the"},
+        {"kind": "see", "at": "14:03", "frame": "t00843.jpg", "quote": "Box request Form panel sliding in from the right; ID field shows 0d88444d; 'Add' tooltip near the top right; Box request list shows 'No items'."}
+      ]
+    },
+    {
+      "at": "14:07",
+      "screen": "Box request Form, Type selected (t00847)",
+      "action": "Trainer selects the box type Laptop.",
+      "evidence": [
+        {"kind": "say", "at": "14:10", "quote": "category of box type of box you want to get."},
+        {"kind": "see", "at": "14:07", "frame": "t00847.jpg", "quote": "Form with Type buttons Laptop (selected), Phone, iPad; Stage Requested (selected) and Sent; Reason dropdown; Quantity 0 with minus and plus; Stickers Yes / No; Required at 05/03/2025 13:31:16; Required by pierre.villaceque@revibe.me; Cancel and Save buttons top right."}
+      ],
+      "says": "category of box type of box you want to get.",
+      "why": ""
+    }
+  ],
+  "facts": [
+    {
+      "type": "rule",
+      "statement": "In the example Pierre gives, Revibe does a bulk rejection: everything is rejected back to the seller, with a rationale that is mainly an LCD issue, a physical-condition issue or a battery issue. The trigger for a bulk rejection is not stated in this part.",
+      "evidence": [
+        {"kind": "say", "at": "10:24", "quote": "our quality standards in this case we will do the bulk rejection because we cannot spend too much"},
+        {"kind": "say", "at": "10:32", "quote": "So in this case, we will do a bulk rejection, reject everything to you and provide you some"},
+        {"kind": "say", "at": "10:42", "quote": "condition or an issue related to the battery."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "If only some devices fail Revibe's criteria, only those devices are returned to the seller, and they appear in Inventory exits under the category Return to supplier.",
+      "evidence": [
+        {"kind": "say", "at": "10:45", "quote": "If we see that only some devices are not matching our criteria, this one we will return them"},
+        {"kind": "say", "at": "10:51", "quote": "to you, but they will appear here in a category called return to supplier."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Every Return to supplier entry carries a reason for return, which the trainer says is always shown.",
+      "evidence": [
+        {"kind": "say", "at": "10:58", "quote": "every time here we will mention to you what is the reason for the"},
+        {"kind": "see", "at": "11:02", "frame": "t00662.jpg", "quote": "Reason for return column populated on Return to supplier rows."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Reasons for return seen on screen include Battery level not matching, Camera dot, Face ID failure, Physical condition not matching, Not selling, Display issue, Charging port, Vibrator issue, SIM issue, Button issue and Battery issue.",
+      "evidence": [
+        {"kind": "see", "at": "11:02", "frame": "t00662.jpg", "quote": "Reason values: Camera dot, Face ID failure, Physical condition not matching, Not selling, Battery level not matching."},
+        {"kind": "see", "at": "10:54", "frame": "t00654.jpg", "quote": "Reason values: Display issue, Charging port, Vibrator issue, SIM issue, Button issue, Battery issue."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Each inventory exit row shows Quantity before and Quantity after. The trainer says the difference for a return is one device; on the visible Return to supplier rows the values drop by one (for example 2 to 1, 1 to 0, 5 to 4).",
+      "evidence": [
+        {"kind": "say", "at": "11:10", "quote": "So every time you see that it is an inventory exit, this is why the quantity before and"},
+        {"kind": "say", "at": "11:15", "quote": "the quantity {ala?} will be {there?} will be like a difference of one and we will provide you"},
+        {"kind": "see", "at": "11:12", "frame": "t00672.jpg", "quote": "Quantity before and after columns show 2 and 1, 1 and 0, 5 and 4 on Return to supplier rows."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Return to supplier and Aging inventory return rows carry a Tracking ID and a Tracking Link, which the trainer says let the seller follow up. Sale rows have no Tracking ID or Tracking Link.",
+      "evidence": [
+        {"kind": "say", "at": "11:20", "quote": "every time the tracking ID and the tracking link so that you will be able to follow up"},
+        {"kind": "say", "at": "11:24", "quote": "how we return the devices to {you.?}"},
+        {"kind": "see", "at": "11:21", "frame": "t00681.jpg", "quote": "Tracking ID and Tracking Link columns visible on Return to supplier rows."},
+        {"kind": "see", "at": "12:03", "frame": "t00723.jpg", "quote": "Sale rows show blank Tracking ID and Tracking Link columns."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Devices that pass Revibe's quality check are inbounded and then appear live in the seller's inventory.",
+      "evidence": [
+        {"kind": "say", "at": "11:27", "quote": "Third option, the devices you sent to us are working well, they are passing our quality check and"},
+        {"kind": "say", "at": "11:34", "quote": "It means you will be able to see them live in your inventory."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Supplier inventory columns: SKU, Inventory days, Created at, Name, Status, Initial quantity, Current quantity, Initial price, Price override, Current price, Supplier, Total value, Market unit price, Type. A Fulfillment filter sits in the left panel.",
+      "evidence": [
+        {"kind": "see", "at": "12:23", "frame": "t00743.jpg", "quote": "Column headers SKU, Inventory days, Created at, Name, Status, Initial quantity, Current quantity, Initial price, Price override, Current price, Supplier, Total value."},
+        {"kind": "see", "at": "12:32", "frame": "t00752.jpg", "quote": "Scrolled columns include Market unit price and Type 'Fulfillment'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Supplier inventory is split into a Live section and an Out of stock section. The Out of stock rows shown have Status 'Out of stock' and Current quantity 0.",
+      "evidence": [
+        {"kind": "see", "at": "12:23", "frame": "t00743.jpg", "quote": "Out of stock section rows show Status 'Out of stock' and Current quantity 0."},
+        {"kind": "say", "at": "12:59", "quote": "as you want so in supplier inventory you can see everything which is live and out of stock"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "Each sale is recorded in Inventory exits as Type Sale with an Order help (the trainer says this is basically the order number), and the trainer says the Quantity before and after drop by one.",
+      "evidence": [
+        {"kind": "say", "at": "11:56", "quote": "So here, every time we do, we record {the?} sale, you are able to see the order help,"},
+        {"kind": "say", "at": "12:01", "quote": "which is like basically the order number."},
+        {"kind": "say", "at": "12:03", "quote": "{Sale,?} you can see that the quantity decreased by one."},
+        {"kind": "see", "at": "11:54", "frame": "t00714.jpg", "quote": "Sale rows with Order help values 52301-1, 52330-1, 52379-1."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "To lower prices by 2% in Supplier inventory: select the devices with the selection icon at the top right, then press the Drop -2% button. Pressing it drops the price by 2%, and the trainer says it can be pressed as many times as wanted.",
+      "evidence": [
+        {"kind": "say", "at": "12:37", "quote": "can just drop the price by two percent you can either enter like this in the device and"},
+        {"kind": "say", "at": "12:42", "quote": "drop the price by two percent and you can press this button as {many?} times as you want"},
+        {"kind": "say", "at": "12:54", "quote": "and as I told you you can press this button of drop by 2% as many times"},
+        {"kind": "see", "at": "12:39", "frame": "t00759.jpg", "quote": "'4 Selected' bar with a 'Drop -2%' button at the top right."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Aging inventory return: a device is returned to the seller because it was too old and not selling properly on the Revibe website. The trainer says the reason may be falling demand. It appears in Inventory exits with Type 'Aging inventory return'.",
+      "evidence": [
+        {"kind": "say", "at": "13:13", "quote": "like too old so aging inventory return means that we returned the device to you because it was"},
+        {"kind": "say", "at": "13:21", "quote": "not selling properly on a {revive?} website maybe because the demand is dropping like whatever the reason so"},
+        {"kind": "see", "at": "13:10", "frame": "t00790.jpg", "quote": "Type 'Aging inventory return' rows in Inventory exits."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Aging rule: after 20 days the device is returned to the seller, unless the seller has dropped the price.",
+      "evidence": [
+        {"kind": "say", "at": "13:28", "quote": "for this we have a process which is basically after 20 days we will return the device to"},
+        {"kind": "say", "at": "13:33", "quote": "you unless you have dropped the price if you have dropped the price {we?} will understand that you"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "If the seller has dropped the price, Revibe waits until 30 days and then returns the device to the seller in any case.",
+      "evidence": [
+        {"kind": "say", "at": "13:39", "quote": "want to push for it to be sold and then we will wait until 30 days but after"},
+        {"kind": "say", "at": "13:44", "quote": "30 days we will return the device to you in any case"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "To request boxes: open Box request, click Add (the form opens with a generated ID), then select the box type. The other form fields are visible on screen but are not narrated in this part.",
+      "evidence": [
+        {"kind": "say", "at": "13:58", "quote": "fulfillment app which enables you to request us some new boxes what you only have to do is"},
+        {"kind": "say", "at": "14:05", "quote": "here to click on add It will generate an {automate?} ID and you have just to select the"},
+        {"kind": "see", "at": "14:03", "frame": "t00843.jpg", "quote": "ID field shows 0d88444d; Add tooltip near the top right."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Box request types offered: Laptop, Phone, iPad.",
+      "evidence": [
+        {"kind": "say", "at": "14:10", "quote": "category of box type of box you want to get."},
+        {"kind": "see", "at": "14:07", "frame": "t00847.jpg", "quote": "Type buttons Laptop, Phone, iPad."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Box request form Stage options are Requested (highlighted when the form is open) and Sent. Quantity starts at 0 and Stickers is Yes or No.",
+      "evidence": [
+        {"kind": "see", "at": "14:07", "frame": "t00847.jpg", "quote": "Stage buttons Requested (highlighted) and Sent; Quantity 0; Stickers Yes / No."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Request products list shows statuses such as 'Warehouse received' with Quantity Allowed, Quantity Sent and Quantity received columns. The trainer does not say what to do on this page in this part.",
+      "evidence": [
+        {"kind": "see", "at": "10:20", "frame": "t00620.jpg", "quote": "Status 'Warehouse received'; columns Quantity Allowed, Quantity Sent, Quantity received."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Left navigation of the Revibe Fulfillment App: SKUs available, Shipments, Request products, Supplier inventory, Inventory exits, Box request, About, Feedback, App Gallery.",
+      "evidence": [
+        {"kind": "see", "at": "12:23", "frame": "t00743.jpg", "quote": "Left menu items SKUs available, Shipments, Request products, Supplier inventory, Inventory exits, Box request, About, Feedback, App Gallery."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    }
+  ],
+  "screens": [
+    {
+      "name": "Request products",
+      "shows": "List of request lines with Request Status (e.g. Warehouse received), SKU, Product, Supplier, Quantity Allowed, Quantity Sent, Quantity received, Buybox supplier, Price, Total price, Payment method and Updated at. Left filter All / Open / Closed.",
+      "where": "Fulfillment App, left menu",
+      "at": "10:20"
+    },
+    {
+      "name": "Inventory exits",
+      "shows": "Table of stock leaving inventory, with filters All and SK World, groups Sale, RTO, Return to supplier and Aging inventory return. Columns SKU, Name, Order help, IMEI, Type, Reason for return, Comment, Quantity before, Quantity after, Tracking ID, Tracking Link; further right Return status, Inventory type, Created at, Created by, Updated at, Related Attachments.",
+      "where": "Fulfillment App, left menu",
+      "at": "10:54"
+    },
+    {
+      "name": "Inventory exit detail panel",
+      "shows": "Right-side panel for one row, e.g. SKU 010111-060601: ID, Inventory ID, Supplier, Name, Order help, IMEI, Type Sale, Quantity before and after, Battery level 98.00%, Inventory type, Created at, Created by, Updated at, Related Attachments.",
+      "where": "Inventory exits, row click",
+      "at": "12:10"
+    },
+    {
+      "name": "RTO and aging groups in Inventory exits",
+      "shows": "SK World filter selected. RTO rows have a blank Reason for return and mostly Quantity before 0 and after 1 (one row 6 and 7). Aging inventory return rows have Tracking ID 21794253 and Quantity before 1 or 2, after 0. Visible in t00658 and t00790.",
+      "where": "Inventory exits, SK World filter",
+      "at": "13:10"
+    },
+    {
+      "name": "Supplier inventory",
+      "shows": "Stock list with sections Live and Out of stock, filter Fulfillment; columns SKU, Inventory days (colour coded), Created at, Name, Status, Initial quantity, Current quantity, Initial price, Price override, Current price, Supplier, Total value, Market unit price, Type.",
+      "where": "Fulfillment App, left menu",
+      "at": "12:23"
+    },
+    {
+      "name": "Supplier inventory selection mode",
+      "shows": "Checkboxes on rows; top bar '4 Selected' and a 'Drop -2%' button at the top right.",
+      "where": "Supplier inventory, selection icon top right",
+      "at": "12:39"
+    },
+    {
+      "name": "Box request",
+      "shows": "Box request page with 'No items' and an Add action; the Box request Form opens from the right with ID 0d88444d, Type (Laptop, Phone, iPad), Stage (Requested, Sent), Reason dropdown, Quantity 0, Stickers (Yes, No), Required at 05/03/2025 13:31:16, Required by pierre.villaceque@revibe.me; Cancel and Save buttons.",
+      "where": "Fulfillment App, left menu",
+      "at": "14:03"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Bulk rejection",
+      "meaning": "Revibe rejects everything in the example batch and returns it to the seller, with a rationale (LCD, physical condition or battery). The trigger is not stated in this part.",
+      "at": "10:24"
+    },
+    {
+      "term": "Return to supplier",
+      "meaning": "Inventory exit category for devices returned to the seller after quality check fails for some devices; each row gives a reason for return.",
+      "at": "10:51"
+    },
+    {
+      "term": "Inventory exit",
+      "meaning": "Record of a device leaving stock, shown in the Inventory exits page with its type (Sale, RTO, Return to supplier, Aging inventory return).",
+      "at": "11:10"
+    },
+    {
+      "term": "Aging inventory return",
+      "meaning": "Return of a device to the seller because it is too old and not selling properly; happens after 20 days, or after 30 days if the price was dropped.",
+      "at": "13:13"
+    },
+    {
+      "term": "RTO",
+      "meaning": "Type shown on some inventory exit rows; meaning is not explained in this part.",
+      "at": "10:58"
+    },
+    {
+      "term": "Order help",
+      "meaning": "Order number recorded for a sale, shown on Sale rows; the trainer calls it basically the order number.",
+      "at": "12:01"
+    },
+    {
+      "term": "Tracking ID / Tracking Link",
+      "meaning": "Identifiers and link the seller can use to follow up a return.",
+      "at": "11:20"
+    },
+    {
+      "term": "Inbound",
+      "meaning": "Devices that pass quality check are inbounded and then appear live in inventory.",
+      "at": "11:33"
+    },
+    {
+      "term": "Live / Out of stock",
+      "meaning": "Sections of Supplier inventory: a Live section and an Out of stock section (rows show Status 'Out of stock' and Current quantity 0).",
+      "at": "12:25"
+    },
+    {
+      "term": "Drop -2%",
+      "meaning": "Button that lowers the selected devices' price by 2%; the trainer says it can be pressed as many times as wanted.",
+      "at": "12:37"
+    },
+    {
+      "term": "Box request",
+      "meaning": "New feature to ask Revibe for new boxes of type Laptop, Phone or iPad.",
+      "at": "13:58"
+    }
+  ],
+  "asr_fixes": [
+    {
+      "at": "11:05",
+      "heard": "{face?} ID was failing",
+      "correct": "Face ID failure",
+      "basis": "Reason for return value 'Face ID failure' on screen (t00666, t00670)."
+    },
+    {
+      "at": "11:05",
+      "heard": "camera dots",
+      "correct": "Camera dot",
+      "basis": "Reason for return value is singular 'Camera dot' on screen (t00662)."
+    },
+    {
+      "at": "12:03",
+      "heard": "{Sale,?}",
+      "correct": "Sale",
+      "basis": "Type value 'Sale' on Inventory exits rows (t00714, t00723)."
+    },
+    {
+      "at": "12:46",
+      "heard": "drop by {2?}%",
+      "correct": "drop by 2%",
+      "basis": "Button label 'Drop -2%' on screen (t00759)."
+    },
+    {
+      "at": "13:05",
+      "heard": "aging {inventory?} return",
+      "correct": "aging inventory return",
+      "basis": "Type value 'Aging inventory return' on screen (t00790)."
+    },
+    {
+      "at": "13:21",
+      "heard": "{revive?} website",
+      "correct": "Revibe website",
+      "basis": "App title 'Revibe - Fulfillment App' on screen (t00620)."
+    },
+    {
+      "at": "13:51",
+      "heard": "the box {box?} request",
+      "correct": "the box request",
+      "basis": "Left menu item 'Box request' on screen (t00829)."
+    }
+  ],
+  "unclear": [
+    {
+      "at": "12:16",
+      "issue": "Trainer names an app for sales ('{orders?} app') but the name is low-confidence and the app is not shown in this part. Do not state where sales are found beyond 'Inventory exits Sale rows'."
+    },
+    {
+      "at": "11:15",
+      "issue": "Narration words '{ala?}' and '{there?}' are low-confidence, so the exact wording of the quantity rule is unclear. The screen supports a difference of one on the visible rows (fact stated at medium confidence)."
+    },
+    {
+      "at": "12:37",
+      "issue": "Trainer says a single device can be dropped by entering the device ('enter like this in the device'), but no per-device Drop control is visible in the frames. Only the selection and bulk Drop -2% path is shown."
+    },
+    {
+      "at": "13:28",
+      "issue": "Trainer does not say when the 20-day count starts (listing date, sale date or another date)."
+    },
+    {
+      "at": "10:20",
+      "issue": "Trainer refers to 'Third option' and to earlier options that are not in this part of the video."
+    },
+    {
+      "at": "10:58",
+      "issue": "RTO rows appear in Inventory exits (Quantity before 0, after 1 on most rows), but the term RTO and its process are not explained in this part."
+    },
+    {
+      "at": "14:05",
+      "issue": "Narration says the form 'will generate an automated ID'. The screen shows an ID value 0d88444d, but the generation step is not shown, so the mechanism is not confirmed."
+    },
+    {
+      "at": "13:49",
+      "issue": "Narration introduces the Box request section at 13:49, but the frame at that time (t00829) still shows Inventory exits with the pointer on the Box request menu item. The Box request page and form appear at 14:03 (t00843)."
+    },
+    {
+      "at": "13:05",
+      "issue": "Narration about aging inventory returns starts at 13:05, but the frame at 13:05 (t00785) still shows Supplier inventory with the pointer on the Inventory exits menu item. The SK World aging rows first appear at 13:10 (t00790)."
+    },
+    {
+      "at": "11:49",
+      "issue": "Narration about selling devices starts at 11:49, but t00708 and t00712 show Supplier inventory and Return to supplier rows. The Sale group first appears at t00714 (11:54)."
+    }
+  ],
+  "outdated": [
+    {
+      "at": "14:07",
+      "signal": "Box request form shows a pre-filled Required at default of 05/03/2025 13:31:16, a 2025 sample date."
+    },
+    {
+      "at": "13:58",
+      "signal": "Trainer describes the Box request section as 'a new feature we added'; this wording will age."
+    },
+    {
+      "at": "10:20",
+      "signal": "Screens show sample data dated 2024 to 2025 (for example Updated at 12/11/2024 2:59:43 PM on Request products); treat the example values as illustrative."
+    }
+  ],
+  "privacy": [
+    {
+      "at": "12:05",
+      "what": "Staff work emails in the Created by column: shijesh.kalengadan@revibe.me, faizan.shaikh@revibe.me, tomas@revibe.me, tech@revibe.me.",
+      "frame": "t00725.jpg"
+    },
+    {
+      "at": "12:10",
+      "what": "Detail panel shows IMEI 353908109300902 and Created by / Updated by tech@revibe.me for a Sale row.",
+      "frame": "t00730.jpg"
+    },
+    {
+      "at": "14:07",
+      "what": "Box request form shows Required by pierre.villaceque@revibe.me (a named account).",
+      "frame": "t00847.jpg"
+    },
+    {
+      "at": "10:54",
+      "what": "Device IMEI numbers are visible in Inventory exits frames (for example 354991556958074 on a Return to supplier row, and 353908109300902 on Sale rows). These are device identifiers, not personal data, but they are visible.",
+      "frame": "t00654.jpg"
+    },
+    {
+      "at": "11:56",
+      "what": "Order help numbers such as 52330-1, 52379-1 and 52301-1 are visible on Sale rows and link to individual orders.",
+      "frame": "t00714.jpg"
+    },
+    {
+      "at": "12:23",
+      "what": "The supplier account name 'SK World' appears in the Supplier column of every visible Supplier inventory row and is the SK World filter on Inventory exits (seller identity).",
+      "frame": "t00743.jpg"
+    }
+  ],
+  "audit": {
+    "checked": 81,
+    "removed": [
+      {
+        "statement": "Unclear entry at 11:36: narration describes Supplier inventory columns but frames show Inventory exits; Supplier inventory first appears at t00743.",
+        "reason": "Frames t00696, t00699 and t00704 show Supplier inventory with the columns the narration names (Initial quantity, Current quantity, Name as model, Inventory days, Current price, Total value). There is no mismatch at 11:36."
+      },
+      {
+        "statement": "Fact: a device is listed under Out of stock when its Current quantity is 0.",
+        "reason": "The frames show Out of stock rows with Current quantity 0 but no rule for when a device moves there. Only the observed state is kept."
+      },
+      {
+        "statement": "Fact: box request procedure says to fill in Stage, Reason, Quantity and Stickers and save.",
+        "reason": "The trainer does not narrate these steps. Only Add and selecting the box type are narrated; the fields are kept as on-screen description only."
+      },
+      {
+        "statement": "Screen fact at 13:49 'Box request page, No items (t00829)'.",
+        "reason": "t00829 shows Inventory exits with the pointer on Box request. The No items Box request page is first shown in t00843 (14:03)."
+      }
+    ],
+    "corrected": [
+      {"before": "Step 10:24 action: Trainer introduces bulk rejection of a whole batch that fails quality check.", "after": "Trainer introduces bulk rejection and gives the reason that a full quality check takes too much time.", "reason": "The speech does not say a whole batch fails quality check; 'whole batch' is an added condition."},
+      {"before": "Fact 1: If a whole batch does not pass Revibe's quality check, Revibe does a bulk rejection.", "after": "In the example Pierre gives, Revibe does a bulk rejection; the trigger is not stated in this part.", "reason": "Trigger condition was not in the evidence."},
+      {"before": "Term Bulk rejection: rejects a whole batch after quality check.", "after": "Rejects everything in the example batch, trigger not stated.", "reason": "Same as above."},
+      {"before": "Step 11:36 screen: Inventory exits with Created by / Updated at columns (t00696, t00699) and row detail panel (t00704, t00708).", "after": "Supplier inventory, Live section (t00696, t00699, t00704).", "reason": "Those frames show Supplier inventory, not Inventory exits or a detail panel."},
+      {"before": "Step 11:49 frames t00708, t00712, t00714 described as Sale rows.", "after": "Sale group first shown in t00714; t00708 shows Supplier inventory and t00712 shows Return to supplier rows.", "reason": "Frame mismatch."},
+      {"before": "Step 12:09 frame t00730: detail panel only partly visible.", "after": "t00730 shows the full detail panel for 010111-060601 (Battery level 98.00%, Created by tech@revibe.me).", "reason": "Panel is fully visible; the 98.00% value is in t00730, not t00704."},
+      {"before": "Step 13:05 frame t00785 shows SK World filter selected with aging rows.", "after": "t00785 shows Supplier inventory with the pointer on Inventory exits; SK World aging rows first appear in t00790 (13:10).", "reason": "Frame mismatch."},
+      {"before": "Step 13:49 screen: Box request page, No items (t00829).", "after": "Inventory exits with the pointer on the Box request menu (t00829); Box request page at 14:03 (t00843).", "reason": "Frame mismatch."},
+      {"before": "Fact on detail panel: Battery level 98.00% from t00704.", "after": "Battery level 98.00% from t00730 and t00731.", "reason": "Frame citation error."},
+      {"before": "Fact 6: Every return comes with a Tracking ID and Tracking Link.", "after": "Return to supplier and Aging inventory return rows carry Tracking ID and Tracking Link; Sale rows have none.", "reason": "Sale rows have blank tracking columns (t00723); the claim should not imply all exit rows."},
+      {"before": "Fact: To lower prices... Each press drops the price by 2%.", "after": "Pressing it drops the price by 2%, and the trainer says it can be pressed as many times as wanted.", "reason": "Trainer says the button can be pressed repeatedly; the cumulative effect is not spelled out."},
+      {"before": "Fact: To request boxes... then fill in Stage, Reason, Quantity and Stickers and save.", "after": "Click Add, then select the box type; other fields are shown on screen only.", "reason": "Not narrated."},
+      {"before": "Fact: Box request Stage Requested (highlighted by default).", "after": "Requested (highlighted when the form is open).", "reason": "'By default' is not shown."},
+      {"before": "Term Live / Out of stock: devices with no current quantity.", "after": "Out of stock rows show Status 'Out of stock' and Current quantity 0.", "reason": "Rule for placement not in evidence."},
+      {"before": "Fact 'Aging' says reason is 'not selling properly on the Revibe website'.", "after": "Adds that the trainer says the reason may be falling demand.", "reason": "Completes the quoted speech."},
+      {"before": "Privacy: 11:44 Created by emails at t00696.", "after": "12:05 at t00725.", "reason": "Created by column is not on t00696."},
+      {"before": "Privacy: 11:44 detail panel IMEI and tech@revibe.me at t00704.", "after": "12:10 at t00730.", "reason": "Frame and time correction."},
+      {"before": "Privacy: 14:10 Required by pierre.villaceque@revibe.me.", "after": "14:07 at t00847.", "reason": "Timestamp correction."},
+      {"before": "Privacy: 11:10 IMEI numbers in t00654.", "after": "10:54 at t00654, with 354991556958074 shown.", "reason": "Timestamp correction and exact value."},
+      {"before": "ASR fix 13:05 basis t00785.", "after": "basis t00790.", "reason": "Type value is on t00790, not t00785."},
+      {"before": "Screen Inventory exit detail panel at 11:44.", "after": "at 12:10 (t00730, t00731).", "reason": "Timestamp correction."},
+      {"before": "Outdated 14:07: 'a past date'.", "after": "2025 sample default date.", "reason": "Date is a pre-filled sample value; wording made precise."}
+    ],
+    "added": [
+      "Screen: RTO and aging groups in Inventory exits (t00658, t00790): RTO rows have a blank Reason for return and mostly Quantity before 0 and after 1.",
+      "Fact: Sale rows have blank Tracking ID and Tracking Link columns (t00723), folded into the tracking fact.",
+      "Unclear 13:49: narration introduces Box request while the frame still shows Inventory exits.",
+      "Unclear 13:05: narration about aging starts before aging rows appear on screen (t00790 at 13:10).",
+      "Unclear 11:49: narration about sales starts before the Sale group appears (t00714 at 11:54).",
+      "Coverage: frames t00640 (duplicate Request products), t00666 (Return to supplier reasons), t00679 (Inventory exits return rows), t00718 (Sale group header count 210 under Return to supplier rows with Tracking IDs 21812576-1 and 21850016), t00770 and t00776 (Supplier inventory with no selection while the trainer repeats the Drop -2% instruction), t00792 and t00814 (aging rows and RTO group with SK World filter) were opened; they add no new claims beyond those listed."
+    ]
+  }
+}

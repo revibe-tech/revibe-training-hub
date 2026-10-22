@@ -1,0 +1,660 @@
+{
+  "frames_opened": 40,
+  "summary": "Part 2 of the KAM onboarding walkthrough (03:57 to 07:05). Pierre fills in a test seller record in the Revibe Seller Onboarding App (AppSheet, Users Form side panel): he answers the 'know anyone who sells' question with Yes and enters BAUTISTA TRADING LLC, opens the DocuSign-hosted Revibe Seller Agreement, uploads a test file (seller_info_form_1.html) in the signed-agreement field, answers Yes to the quality guidelines question, completes the legal documentation section (trading license number 12345, tax certificate, ID, position CEO / Founder, bank details, DHL No), then shows the application status change from Application incomplete to Under review. He then shows the Profile list (Under Review tab, 25 records), where the account manager and supply team check the seller's details, address, seller page and documents, and the admin-only Approval field.",
+  "steps": [
+    {
+      "at": "03:57",
+      "screen": "Revibe - Seller Onboarding App, Users Form side panel (frame t00237)",
+      "action": "Sets 'Do you know anyone who sells at Revibe ?' to Yes, which makes the 'Who ? Please mention the business name' field appear.",
+      "says": "but they can also say yes and then please mention the business name so let's say bautista trading",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "03:57", "frame": "t00237.jpg", "quote": "'No' is selected under 'Do you know anyone who sells at Revibe ?'; no business name field is shown below it."},
+        {"kind": "say", "at": "03:58", "frame": "", "quote": "but they can also say yes and then please mention the business name so let's say bautista trading"},
+        {"kind": "see", "at": "04:00", "frame": "t00240.jpg", "quote": "Yes is selected under 'Do you know anyone who sells at Revibe ?'; the 'Who ? Please mention the business name' field is empty and focused, with a browser suggestion popup beneath it."}
+      ]
+    },
+    {
+      "at": "04:03",
+      "screen": "Users Form, Who ? Please mention the business name (frames t00251, t00413)",
+      "action": "Enters the business name BAUTISTA TRADING LLC in the 'Who ? Please mention the business name' field.",
+      "says": "llc",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "04:07", "frame": "", "quote": "llc"},
+        {"kind": "see", "at": "04:11", "frame": "t00251.jpg", "quote": "The business name field, cut off at the top of the panel, reads BAUTISTA TRADING LLC; the 'Would you like to add something ?' field below is empty and focused."},
+        {"kind": "see", "at": "06:53", "frame": "t00413.jpg", "quote": "Record view shows 'Who ? Please mention the business name' with the value BAUTISTA TRADING LLC."}
+      ]
+    },
+    {
+      "at": "04:09",
+      "screen": "Users Form, 'Would you like to add something ?' field (frame t00251)",
+      "action": "Leaves the optional 'Would you like to add something ?' field empty and says it is not mandatory.",
+      "says": "{would?} you like to write something this is not a mandatory {field?} and then we present them a",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "04:09", "frame": "", "quote": "{would?} you like to write something this is not a mandatory {field?} and then we present them a"},
+        {"kind": "see", "at": "04:11", "frame": "t00251.jpg", "quote": "Field 'Would you like to add something ?' is empty, has no asterisk, and is focused."}
+      ]
+    },
+    {
+      "at": "04:13",
+      "screen": "Users Form, Seller agreement section (frames t00253, t00258)",
+      "action": "Scrolls to the new legal section and points at the Seller agreement box, which carries the instructions and a DocuSign link.",
+      "says": "new section which is the legal section first seller agreement here is the seller agreement it details all",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "04:14", "frame": "", "quote": "new section which is the legal section first seller agreement here is the seller agreement it details all"},
+        {"kind": "see", "at": "04:18", "frame": "t00258.jpg", "quote": "'Seller agreement*' box text: 'Here is the seller agreement / It details all the terms and conditions we offer to our sellers / Open link below in another window, download it, sign it and upload it in the section below', followed by a DocuSign PowerForm URL. Below it: 'Please upload here the seller agreement once signed' and status 'To do'."}
+      ]
+    },
+    {
+      "at": "04:22",
+      "screen": "Users Form, DocuSign PowerForm link in the Seller agreement box (frame t00295)",
+      "action": "Selects the DocuSign PowerForm URL in the Seller agreement box so it can be opened in another window.",
+      "says": "the terms and conditions we offer to our sellers open link below in another window download it sign",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "04:22", "frame": "", "quote": "the terms and conditions we offer to our sellers open link below in another window download it sign"},
+        {"kind": "see", "at": "04:30", "frame": "t00295.jpg", "quote": "The DocuSign PowerForm URL in the Seller agreement box is highlighted (selected text)."}
+      ]
+    },
+    {
+      "at": "04:35",
+      "screen": "DocuSign PowerForm Signer Information page (frame t00265)",
+      "action": "Opens the DocuSign link. The PowerForm asks the signer for Your Name and Your Email, then Begin Signing.",
+      "says": "here is the form they just need to {sign?} it let's make like this beginning signing please complete",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "04:35", "frame": "", "quote": "here is the form they just need to {sign?} it let's make like this beginning signing please complete"},
+        {"kind": "see", "at": "04:43", "frame": "t00265.jpg", "quote": "'PowerForm Signer Information' page, Seller section with empty 'Your Name' and 'Your Email' fields, both marked with an asterisk, and a 'Begin Signing' button."}
+      ]
+    },
+    {
+      "at": "04:43",
+      "screen": "DocuSign signing app, Revibe Seller Agreement (frames t00276, t00282)",
+      "action": "Shows the Revibe Seller Agreement in DocuSign and says the seller can sign it there.",
+      "says": "this contract to be able to join {revive?} continue and here they can just sign the contract very",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "04:43", "frame": "", "quote": "this contract to be able to join {revive?} continue and here they can just sign the contract very"},
+        {"kind": "see", "at": "04:45", "frame": "t00282.jpg", "quote": "Document titled 'Revibe Seller Agreement' with banner 'DOWNLOAD IT TO EDIT IT OFFLINE, THEN UPLOAD IT ON THE ONBOARDING FORM'. Blank fields: Company Name, Trade License No., Principal place of business at (please mention exact and detailed address)."}
+      ]
+    },
+    {
+      "at": "04:52",
+      "screen": "Users Form, Please upload here the seller agreement once signed (frame t00297)",
+      "action": "Says the seller downloads the signed contract and uploads it in the upload field in the form. The field is empty and the status is To do.",
+      "says": "easily once signed they can just download their contract and upload it here so here as well let's",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "04:52", "frame": "", "quote": "easily once signed they can just download their contract and upload it here so here as well let's"},
+        {"kind": "see", "at": "04:57", "frame": "t00297.jpg", "quote": "Empty upload box 'Please upload here the seller agreement once signed'; Seller agreement status button reads 'To do'; Application status 'Application incomplete'."}
+      ]
+    },
+    {
+      "at": "05:00",
+      "screen": "Users Form, after upload (frame t00303)",
+      "action": "Uploads a test file, seller_info_form_1.html, in the signed-agreement upload field. The Seller agreement status changes to Done and the 'Quality guidelines description*' section appears.",
+      "says": "upload something random we can see {the?} seller agreement is done and then they can get access to",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "05:00", "frame": "", "quote": "upload something random we can see {the?} seller agreement is done and then they can get access to"},
+        {"kind": "see", "at": "05:03", "frame": "t00303.jpg", "quote": "Upload box shows 'seller_info_form_1.html' with a remove (x) icon; status button reads 'Done'; new section 'Quality guidelines description*' appears below, with 'Have you read the quality guidelines ?' Not yet / Yes."}
+      ]
+    },
+    {
+      "at": "05:08",
+      "screen": "Users Form, Quality guidelines description (frames t00303, t00326)",
+      "action": "Explains what the quality guidelines are and says the seller should open them in another tab. The link is a Google Drive file.",
+      "says": "the quality guidelines {here?} are the quality guidelines it outlines the standard we expect for your first shipment",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "05:08", "frame": "", "quote": "the quality guidelines {here?} are the quality guidelines it outlines the standard we expect for your first shipment"},
+        {"kind": "say", "at": "05:20", "frame": "", "quote": "them copy and open them in another tab to know what kind of devices we are looking for"},
+        {"kind": "see", "at": "05:24", "frame": "t00326.jpg", "quote": "Google Drive file tab still loading; address bar shows drive.google.com/file/d/.../view."}
+      ]
+    },
+    {
+      "at": "05:29",
+      "screen": "Users Form, Have you read the quality guidelines ? (frames t00303, t00335)",
+      "action": "Answers Yes to 'Have you read the quality guidelines ?'; the legal documentation section then appears below.",
+      "says": "then have you read the quality guidelines {they?} can mention yes and then a new section is appearing",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "05:29", "frame": "", "quote": "then have you read the quality guidelines {they?} can mention yes and then a new section is appearing"},
+        {"kind": "see", "at": "05:30", "frame": "t00303.jpg", "quote": "Toggle 'Have you read the quality guidelines ?' with 'Not yet' (selected) and 'Yes' buttons."},
+        {"kind": "see", "at": "05:35", "frame": "t00335.jpg", "quote": "Legal documentation fields now appear below the quality guidelines: Trading license (upload), Trading license number (shows 0), and further fields."}
+      ]
+    },
+    {
+      "at": "05:36",
+      "screen": "Users Form, legal documentation section (frame t00335)",
+      "action": "Walks through the legal fields: Trading license upload, Trading license number, Tax registration certificate, ID, position in the company, Bank details, DHL account question.",
+      "says": "once again where they can fill their legal documentation so trading license and i have to indicate their",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "05:36", "frame": "", "quote": "once again where they can fill their legal documentation so trading license and i have to indicate their"},
+        {"kind": "say", "at": "05:43", "frame": "", "quote": "trading license number tax registration certificate id what is the position of the person in the company let's"},
+        {"kind": "see", "at": "05:45", "frame": "t00335.jpg", "quote": "Fields in order: Trading license (upload), Trading license number (numeric, shows 0), Tax registration certificate (upload), ID (upload), What is your position in the company ? (dropdown), Bank details (upload), Do you have a DHL account ? (No / Yes)."}
+      ]
+    },
+    {
+      "at": "05:53",
+      "screen": "Users Form, legal fields and position dropdown (frames t00342, t00349, t00353)",
+      "action": "Uploads seller_info_form_1.html to Trading license, enters 12345 as the trading license number, uploads the tax and ID files, and selects CEO / Founder in the position dropdown.",
+      "says": "put see your founder and their bank details do you have a dhl account they can pick yes",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "05:53", "frame": "", "quote": "put see your founder and their bank details do you have a dhl account they can pick yes"},
+        {"kind": "see", "at": "05:55", "frame": "t00342.jpg", "quote": "Trading license upload box shows 'seller_info_form_1.html'; Trading license number shows 0."},
+        {"kind": "see", "at": "05:58", "frame": "t00349.jpg", "quote": "Trading license number shows 12345; Tax registration certificate and ID boxes show 'seller_info_form_1.html'; position dropdown is open with options listed."},
+        {"kind": "see", "at": "05:59", "frame": "t00353.jpg", "quote": "Position field shows 'CEO / Founder'; Bank details upload box is still empty."}
+      ]
+    },
+    {
+      "at": "06:01",
+      "screen": "Users Form, Do you have a DHL account ? (frames t00362, t00366)",
+      "action": "Answers No to 'Do you have a DHL account ?'. Answering Yes shows an account number field.",
+      "says": "or no let's put no and if they put yes they can enter their account number and then",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "06:01", "frame": "", "quote": "or no let's put no and if they put yes they can enter their account number and then"},
+        {"kind": "see", "at": "06:03", "frame": "t00362.jpg", "quote": "DHL 'No' is selected; Application status reads 'Under review'."},
+        {"kind": "see", "at": "06:06", "frame": "t00366.jpg", "quote": "After Yes is selected: new field 'Please enter your account number to benefit from Revibe's preferential rates with DHL'."}
+      ]
+    },
+    {
+      "at": "06:08",
+      "screen": "Users Form, Application status (frames t00371, t00375)",
+      "action": "Points out the status change from Application incomplete to Under review. On screen the change appears right after DHL is answered No.",
+      "says": "here the application stages goes from application incomplete to under review",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "06:11", "frame": "", "quote": "here the application stages goes from application incomplete to under review"},
+        {"kind": "see", "at": "06:08", "frame": "t00371.jpg", "quote": "DHL question unanswered; Application status reads 'Application incomplete'; Approval empty."},
+        {"kind": "see", "at": "06:11", "frame": "t00375.jpg", "quote": "DHL 'No' is selected; Application status reads 'Under review' with a purple spinner icon; Approval field empty."}
+      ]
+    },
+    {
+      "at": "06:15",
+      "screen": "Users Form, Approval field (frame t00386)",
+      "action": "Points at the Approval field and says it is only available in admin view. He says he can see approval once the form is completed for the seller.",
+      "says": "here this field is only available for admin view it's only because i have a revive account that",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "06:17", "frame": "", "quote": "here this field is only available for admin view it's only because i have a revive account that"},
+        {"kind": "say", "at": "06:24", "frame": "", "quote": "i can see approval once the form is completed for the seller the seller will go under under"},
+        {"kind": "see", "at": "06:20", "frame": "t00386.jpg", "quote": "Approval field is focused and empty; the Save button at top right is hovered."}
+      ]
+    },
+    {
+      "at": "06:32",
+      "screen": "Profile list, Application incomplete (frame t00389) then Under Review tab (frame t00393)",
+      "action": "Opens the Profile list. The list opens on Application incomplete (t00389); the Under Review tab is then shown (t00393). Says the account manager and people from the supply team review applications here.",
+      "says": "review section here the account manager and people from the supply team can review the application of the",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "06:32", "frame": "", "quote": "review section here the account manager and people from the supply team can review the application of the"},
+        {"kind": "see", "at": "06:29", "frame": "t00389.jpg", "quote": "Profile list left filters: All, Application closed 346, Missing data 52, Under Review 25, Application incomplete 3 (highlighted). Three records under a 'Final review' group."},
+        {"kind": "see", "at": "06:33", "frame": "t00393.jpg", "quote": "Left filter 'Under Review 25' is selected; list groups 'blank 3' and 'Final review 22'."}
+      ]
+    },
+    {
+      "at": "06:40",
+      "screen": "Profile list, record view for Pierre Villaceque (frames t00393, t00407)",
+      "action": "Opens a seller record in the side panel and checks the details: the address the seller ships from, the Noon or Amazon seller page, and the products and sales channels.",
+      "says": "seller check all the details he provided check especially if the address is correct if he gave a",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "06:40", "frame": "", "quote": "seller check all the details he provided check especially if the address is correct if he gave a"},
+        {"kind": "say", "at": "06:50", "frame": "", "quote": "proper noon or amazon seller page check"},
+        {"kind": "see", "at": "06:46", "frame": "t00407.jpg", "quote": "Record shows 'Noon or Amazon seller page' value https://123456789xxxxtest; platforms 'Amazon , Noon'; B2B 'No'; products 'iPhones'."}
+      ]
+    },
+    {
+      "at": "06:54",
+      "screen": "Profile record, document fields (frames t00415, t00417)",
+      "action": "Checks the uploaded documents in the record: contract, tax registration certificate, trading license, Emirates ID and bank details.",
+      "says": "the {contract,?} the tax registration certificate, trading license, Emirates ID, and bank details.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "06:54", "frame": "", "quote": "the {contract,?} the tax registration certificate, trading license, Emirates ID, and bank details."},
+        {"kind": "see", "at": "06:55", "frame": "t00417.jpg", "quote": "Record lists: Please upload here the seller agreement once signed (02f28922.Contract.114642.html), Tax registration certificate (02f28922.Tax registration.114642.html), Trading license (02f28922.Trading license.114642.html), Trading license number 12345, ID (02f28922.Emirates ID.114645.html), Bank details (02f28922.Bank details.114646.html), Do you have a DHL account ? No."}
+      ]
+    },
+    {
+      "at": "07:00",
+      "screen": "Profile record, status fields (frame t00420)",
+      "action": "Shows the status fields at the bottom of the record: Documentation status Complete, Uploads status Complete, Application status Under review.",
+      "says": "",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "07:00", "frame": "t00420.jpg", "quote": "'Documentation status Complete', 'Uploads status Complete', 'Application status Under review'."}
+      ]
+    },
+    {
+      "at": "07:01",
+      "screen": "Edit form, Approval field (frame t00423)",
+      "action": "Says that, based on the checks, CAMS can go to the Approval field in the edit form and validate the approval.",
+      "says": "CAMS can go here and validate the approval.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "07:01", "frame": "", "quote": "And based on this,"},
+        {"kind": "say", "at": "07:03", "frame": "", "quote": "CAMS can go here and validate the approval."},
+        {"kind": "see", "at": "07:03", "frame": "t00423.jpg", "quote": "Edit form for Pierre: Approval dropdown is empty and not focused (cursor hovering over it); Internal comment field below; Cancel and Save buttons at top right."}
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "type": "rule",
+      "statement": "The seller form asks 'Do you know anyone who sells at Revibe ?' with the options No and Yes. Choosing Yes makes a 'Who ? Please mention the business name' field appear.",
+      "evidence": [
+        {"kind": "see", "at": "03:57", "frame": "t00237.jpg", "quote": "'No' selected under 'Do you know anyone who sells at Revibe ?'; no business name field shown below it."},
+        {"kind": "see", "at": "04:00", "frame": "t00240.jpg", "quote": "Yes selected; 'Who ? Please mention the business name' field appears below it."},
+        {"kind": "say", "at": "03:58", "frame": "", "quote": "but they can also say yes and then please mention the business name so let's say bautista trading"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The field 'Would you like to add something ?' has no asterisk on the screen. The trainer says it is not a mandatory field.",
+      "evidence": [
+        {"kind": "say", "at": "04:09", "frame": "", "quote": "{would?} you like to write something this is not a mandatory {field?} and then we present them a"},
+        {"kind": "see", "at": "04:11", "frame": "t00251.jpg", "quote": "Label 'Would you like to add something ?' has no asterisk; field is empty."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "'Seller agreement*' and 'Quality guidelines description*' are labelled with an asterisk on the form. Implied: the asterisk marks these fields as required. The screen does not explain the asterisk.",
+      "evidence": [
+        {"kind": "see", "at": "04:18", "frame": "t00258.jpg", "quote": "Label 'Seller agreement*' with an asterisk."},
+        {"kind": "see", "at": "05:03", "frame": "t00303.jpg", "quote": "Label 'Quality guidelines description*' with an asterisk."}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "The seller signs the Revibe Seller Agreement outside the form: open the DocuSign link in the Seller agreement box in another window, download the agreement, sign it, then upload the signed file in the field 'Please upload here the seller agreement once signed'.",
+      "evidence": [
+        {"kind": "say", "at": "04:22", "frame": "", "quote": "the terms and conditions we offer to our sellers open link below in another window download it sign"},
+        {"kind": "say", "at": "04:30", "frame": "", "quote": "in and upload it in the section below this is the link"},
+        {"kind": "see", "at": "04:18", "frame": "t00258.jpg", "quote": "Instruction text 'Open link below in another window, download it, sign it and upload it in the section below'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "The DocuSign PowerForm asks the signer for 'Your Name' and 'Your Email', both marked with an asterisk, then 'Begin Signing'.",
+      "evidence": [
+        {"kind": "see", "at": "04:43", "frame": "t00265.jpg", "quote": "'Your Name: *' and 'Your Email: *' fields marked required by an asterisk; button 'Begin Signing'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "The Revibe Seller Agreement names Revibe Technology FZ LLC (registered under No. 100866, principal place of business HD42A, 1st Floor, Internet City, United Arab Emirates) and 'the Seller'. The form-side blanks in the agreement are Company Name, Trade License No. and principal place of business (exact and detailed address).",
+      "evidence": [
+        {"kind": "see", "at": "04:45", "frame": "t00282.jpg", "quote": "'Revibe Technology FZ LLC, a company incorporated in Dubai Internet City, United Arab Emirates, registered under No. 100866, with its principal place of business at HD42A, 1st Floor, Internet City, United Arab Emirates'; blanks for 'Company Name:', 'Trade License No.:', 'Principal place of business at (please mention exact and detailed address):'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Seller agreement clause 2.4 'Commission': the fee charged by Revibe for each sale made through its platform.",
+      "evidence": [
+        {"kind": "see", "at": "04:45", "frame": "t00282.jpg", "quote": "'2.4 \"Commission\": The fee charged by Revibe for each sale made through its platform.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Seller agreement clause 2.5 'RTO' means Return to Origin, the process of returning goods back to the Seller. Clauses 2.1 to 2.3 are also visible: 2.1 Effective Date, 2.2 Products, 2.3 Order.",
+      "evidence": [
+        {"kind": "see", "at": "04:45", "frame": "t00282.jpg", "quote": "'2.5 \"RTO\": Return to Origin, the process of returning goods back to the Seller'; '2.1 \"Effective Date\": The date this Agreement is signed by both Parties.'; '2.2 \"Products\": The items listed by the Seller to be sold on Revibe's marketplace.'; '2.3 \"Order\": A purchase order placed by Revibe on behalf of a customer.'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Seller agreement clause 1.1 says Revibe creates an Alias for the seller, used across Revibe's internal systems and displayed on the website when referencing the seller as the provider of specific products. Clause 1.3 says Revibe uses the Alias when displaying who the seller of a product is on the website and in other customer-facing communications.",
+      "evidence": [
+        {"kind": "see", "at": "04:45", "frame": "t00282.jpg", "quote": "'1.1 Revibe will create an Alias for the Seller, which will be used across Revibe's internal systems and may be displayed on the website when referencing the Seller as the provider of specific products.' '1.3 Revibe will use this Alias when displaying who the Seller of the product is on the website and other customer-facing communications.'"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "warning",
+      "statement": "The seller agreement status shows 'To do' before a file is uploaded and 'Done' after the upload.",
+      "evidence": [
+        {"kind": "see", "at": "04:57", "frame": "t00297.jpg", "quote": "Seller agreement status button 'To do' with empty upload box."},
+        {"kind": "see", "at": "05:03", "frame": "t00303.jpg", "quote": "Status button 'Done' after 'seller_info_form_1.html' uploaded."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Quality guidelines appear after the signed agreement is uploaded. The seller opens the guidelines link in another tab, then answers 'Have you read the quality guidelines ?' with Yes to reveal the legal documentation section.",
+      "evidence": [
+        {"kind": "say", "at": "05:20", "frame": "", "quote": "them copy and open them in another tab to know what kind of devices we are looking for"},
+        {"kind": "say", "at": "05:29", "frame": "", "quote": "then have you read the quality guidelines {they?} can mention yes and then a new section is appearing"},
+        {"kind": "see", "at": "05:03", "frame": "t00303.jpg", "quote": "Quality guidelines section appears below the 'Done' status, with 'Not yet' selected."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The quality guidelines set the standard expected for the first shipment to Revibe's warehouse, and for future shipments sent directly to customers.",
+      "evidence": [
+        {"kind": "say", "at": "05:14", "frame": "", "quote": "to our warehouse as well as for future shipments sent directly to our customers they can just take"},
+        {"kind": "see", "at": "05:08", "frame": "t00303.jpg", "quote": "'It outlines the standards we expect for your first shipment to our warehouse, as well as for future shipments sent directly to customers'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "The legal documentation section contains: Trading license (upload), Trading license number (number), Tax registration certificate (upload), ID (upload), What is your position in the company ? (dropdown), Bank details (upload), and Do you have a DHL account ? (No / Yes).",
+      "evidence": [
+        {"kind": "say", "at": "05:36", "frame": "", "quote": "once again where they can fill their legal documentation so trading license and i have to indicate their"},
+        {"kind": "say", "at": "05:43", "frame": "", "quote": "trading license number tax registration certificate id what is the position of the person in the company let's"},
+        {"kind": "see", "at": "05:45", "frame": "t00335.jpg", "quote": "Field list in the order above."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Position dropdown options visible in the open list: CEO / Founder, Manager, Other, Sales Manager, accounts manager, Owner, DIRECTOR. The list may scroll; only these options are visible in the frame.",
+      "evidence": [
+        {"kind": "see", "at": "05:58", "frame": "t00349.jpg", "quote": "Dropdown list 'Add or search': 'CEO / Founder', 'Manager', 'Other', 'Sales Manager', 'accounts manager', 'Owner', 'DIRECTOR'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "In the example, the trainer answers No to 'Do you have a DHL account ?'. If the seller answers Yes, the field 'Please enter your account number to benefit from Revibe's preferential rates with DHL' appears.",
+      "evidence": [
+        {"kind": "say", "at": "06:01", "frame": "", "quote": "or no let's put no and if they put yes they can enter their account number and then"},
+        {"kind": "see", "at": "06:06", "frame": "t00366.jpg", "quote": "After Yes is selected: new field 'Please enter your account number to benefit from Revibe's preferential rates with DHL'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The application status changed from 'Application incomplete' to 'Under review' between t00371 and t00375, which is right after DHL was answered No. The trainer says the status goes from application incomplete to under review, but does not say what triggers the change.",
+      "evidence": [
+        {"kind": "say", "at": "06:11", "frame": "", "quote": "here the application stages goes from application incomplete to under review"},
+        {"kind": "see", "at": "06:08", "frame": "t00371.jpg", "quote": "Application status 'Application incomplete'; DHL unanswered."},
+        {"kind": "see", "at": "06:11", "frame": "t00375.jpg", "quote": "Application status 'Under review' (purple spinner icon); DHL 'No' selected; Approval empty."}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "According to the trainer, the Approval field is only available in admin view, and he can see it because he has a Revibe account. He says he can see approval once the form is completed for the seller. The seller-side view is not shown.",
+      "evidence": [
+        {"kind": "say", "at": "06:17", "frame": "", "quote": "here this field is only available for admin view it's only because i have a revive account that"},
+        {"kind": "say", "at": "06:24", "frame": "", "quote": "i can see approval once the form is completed for the seller the seller will go under under"},
+        {"kind": "see", "at": "06:20", "frame": "t00386.jpg", "quote": "Approval field focused and empty; Save button hovered."}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "The account manager and people from the supply team review submitted applications in the Profile list, under the Under Review tab.",
+      "evidence": [
+        {"kind": "say", "at": "06:32", "frame": "", "quote": "review section here the account manager and people from the supply team can review the application of the"},
+        {"kind": "see", "at": "06:33", "frame": "t00393.jpg", "quote": "Left filter 'Under Review 25' selected; list groups 'blank 3' and 'Final review 22'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "When reviewing an application, check all the details the seller provided, especially whether the address is correct and whether the seller gave a proper Noon or Amazon seller page.",
+      "evidence": [
+        {"kind": "say", "at": "06:40", "frame": "", "quote": "seller check all the details he provided check especially if the address is correct if he gave a"},
+        {"kind": "say", "at": "06:50", "frame": "", "quote": "proper noon or amazon seller page check"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Review the seller's documents: contract, tax registration certificate, trading license, Emirates ID and bank details.",
+      "evidence": [
+        {"kind": "say", "at": "06:54", "frame": "", "quote": "the {contract,?} the tax registration certificate, trading license, Emirates ID, and bank details."},
+        {"kind": "see", "at": "06:55", "frame": "t00417.jpg", "quote": "Record lists uploaded files for Contract, Tax registration, Trading license, ID and Bank details."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Profile list left filters: All; Application closed (346); Missing data (52); Under Review (25); Application incomplete (3). These counts are as shown at recording.",
+      "evidence": [
+        {"kind": "see", "at": "06:26", "frame": "t00389.jpg", "quote": "Left filter list: All, 'Application closed 346', 'Missing data 52', 'Under Review 25', 'Application incom... 3' (highlighted)."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Profile list columns: Since last update, Name, Company name, Email, Phone, Country, (email icon), Application status, Approval, Rationale, Comment.",
+      "evidence": [
+        {"kind": "see", "at": "06:26", "frame": "t00389.jpg", "quote": "Column headers: 'Since last update', 'Name', 'Company name', 'Email', 'Phone', 'Country', 'Application status', 'Approval', 'Rationale', 'Comment'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The record view has an Edit button. At the bottom of the record, the test record shows Documentation status Complete, Uploads status Complete and Application status Under review.",
+      "evidence": [
+        {"kind": "see", "at": "06:46", "frame": "t00393.jpg", "quote": "Side panel record with 'Edit' button top right."},
+        {"kind": "see", "at": "07:00", "frame": "t00420.jpg", "quote": "'Documentation status Complete', 'Uploads status Complete', 'Application status Under review'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "The trainer says that 'CAMS' can go to the Approval field and validate the approval. Who 'CAMS' refers to is not stated on screen or in the speech, so this must not be read as a named team.",
+      "evidence": [
+        {"kind": "say", "at": "07:03", "frame": "", "quote": "CAMS can go here and validate the approval."},
+        {"kind": "see", "at": "07:03", "frame": "t00423.jpg", "quote": "Approval dropdown (empty) in the edit form, with Internal comment field below."}
+      ],
+      "confidence": "low",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "In the Profile list, records with Application incomplete show Approval 'Final review'.",
+      "evidence": [
+        {"kind": "see", "at": "06:29", "frame": "t00389.jpg", "quote": "Three rows, each with Application status 'Application incomplete' and Approval 'Final review'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The Revibe Seller Agreement carries the banner 'DOWNLOAD IT TO EDIT IT OFFLINE, THEN UPLOAD IT ON THE ONBOARDING FORM'.",
+      "evidence": [
+        {"kind": "see", "at": "04:45", "frame": "t00282.jpg", "quote": "Banner text at top of the document: 'DOWNLOAD IT TO EDIT IT OFFLINE, THEN UPLOAD IT ON THE ONBOARDING FORM'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Test answers on the form at 03:57: 'Do you sell as is or refurbish the devices ?' = Both; 'How many technicians do you have ?' = 3 - 5; 'How many orders are you able to ship on a daily basis' = 20 - 30; 'How did you hear about Revibe ?' = Referral.",
+      "evidence": [
+        {"kind": "see", "at": "03:57", "frame": "t00237.jpg", "quote": "'Both' selected under 'Do you sell as is or you refurbish the devices ?'; technicians '3 - 5'; orders '20 - 30'; 'How did you hear about Revibe ?' 'Referral'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The record for Pierre Villaceque shows Profile status 'Complete' and the introduction 'Welcome to Revibe ! Please fill the form below to start the onboarding process.'",
+      "evidence": [
+        {"kind": "see", "at": "06:53", "frame": "t00413.jpg", "quote": "'Profile status Complete'; 'Introduction: Welcome to Revibe ! / Please fill the form below to start the onboarding process.'"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    }
+  ],
+  "screens": [
+    {
+      "name": "Revibe - Seller Onboarding App (AppSheet)",
+      "shows": "Left icon nav; 'Introduction video' tab (Welcome to REVIBE, 0:00 / 14:39). Seller form opens as a 'Users Form' side panel with Cancel and Save buttons at top right.",
+      "at": "03:57",
+      "where": "appsheet.com/start/... Revibe - Seller Onboarding App"
+    },
+    {
+      "name": "Users Form (seller onboarding form)",
+      "shows": "Fields in order: Do you sell as is or refurbish the devices? (As is / Refurbished / Both), How many technicians do you have?, How many orders are you able to ship on a daily basis (after having done quality check)?, How did you hear about Revibe?, Do you know anyone who sells at Revibe? (No / Yes), Who? Please mention the business name, Would you like to add something?, Seller agreement*, Please upload here the seller agreement once signed, Seller agreement status (To do / Done), Quality guidelines description*, Have you read the quality guidelines? (Not yet / Yes), Trading license, Trading license number, Tax registration certificate, ID, position in the company, Bank details, Do you have a DHL account? (No / Yes), Application status, Approval, Internal comment.",
+      "at": "03:57",
+      "where": "Side panel of the Revibe Seller Onboarding App"
+    },
+    {
+      "name": "DocuSign PowerForm signer page",
+      "shows": "'PowerForm Signer Information' with Seller section: Your Name*, Your Email*, Begin Signing.",
+      "at": "04:35",
+      "where": "powerforms.docusign.net (opened from the Seller agreement link)"
+    },
+    {
+      "name": "DocuSign signing app, Revibe Seller Agreement",
+      "shows": "Agreement text with blanks (Company Name, Trade License No., Principal place of business), clauses 1 and 2, field palette (Stamp, Date Signed, Name, First Name, Last Name, Email Address, Company, Title, Text, Checkbox), AI-assisted panel with a Generate Summary button, Download and Print buttons.",
+      "at": "04:43",
+      "where": "apps.docusign.com/sign"
+    },
+    {
+      "name": "Google Drive quality guidelines file",
+      "shows": "Opened in a new tab from the Quality guidelines link; the file was still loading in the frames.",
+      "at": "05:24",
+      "where": "drive.google.com/file/d/.../view"
+    },
+    {
+      "name": "Profile list (AppSheet, Profile section)",
+      "shows": "Left filter tabs with counts (All, Application closed 346, Missing data 52, Under Review 25, Application incomplete 3); list columns Since last update, Name, Company name, Email, Phone, Country, Application status, Approval, Rationale, Comment; Add button; search box. The Application incomplete tab is selected at 06:29; the Under Review tab (with groups blank 3 and Final review 22) is shown at 06:33.",
+      "at": "06:26",
+      "where": "Revibe - Seller Onboarding App, Profile icon in left nav"
+    },
+    {
+      "name": "Profile record side panel and edit form",
+      "shows": "Record detail (business address, products, B2B, sales platforms, seller page, units per month, grades, as-is/refurbish, technicians, orders per day, referral, business name, Profile status, Introduction, Seller agreement, Quality guidelines, uploaded documents, Documentation status, Uploads status, Application status) with an Edit button; Edit form with the same fields plus Approval and Internal comment.",
+      "at": "06:33",
+      "where": "Profile list, right-side panel"
+    }
+  ],
+  "terms": [
+    {"term": "Seller agreement", "meaning": "Legal agreement between Revibe Technology FZ LLC and the seller, signed via DocuSign and uploaded in the form.", "at": "04:14"},
+    {"term": "Quality guidelines", "meaning": "Standards the trainer says Revibe expects for the seller's first shipment to the warehouse and for future shipments sent directly to customers.", "at": "05:08"},
+    {"term": "Alias", "meaning": "Name Revibe creates for each seller (agreement clause 1.1), used internally and displayed on the website when the seller is named as the provider of products.", "at": "04:45"},
+    {"term": "Products", "meaning": "Items the seller lists to be sold on Revibe's marketplace (agreement clause 2.2).", "at": "04:45"},
+    {"term": "Order", "meaning": "A purchase order placed by Revibe on behalf of a customer (agreement clause 2.3).", "at": "04:45"},
+    {"term": "Commission", "meaning": "Fee charged by Revibe for each sale made through its platform (agreement clause 2.4).", "at": "04:45"},
+    {"term": "RTO", "meaning": "Return to Origin: the process of returning goods back to the Seller (agreement clause 2.5).", "at": "04:45"},
+    {"term": "DHL account preferential rates", "meaning": "Field text says Revibe offers preferential DHL rates to sellers who enter their DHL account number.", "at": "06:06"},
+    {"term": "Application status", "meaning": "Stage of a seller application. Values seen: Application incomplete, Under review. Tab names also seen: Application closed, Missing data.", "at": "06:11"},
+    {"term": "Approval", "meaning": "Field the trainer says is only available in admin view; the trainer says approval is set once the form is completed. The screen shows it empty on the test record.", "at": "06:17"},
+    {"term": "Final review", "meaning": "Approval value shown in the Profile list (and the name of a group in the list).", "at": "06:26"},
+    {"term": "Account manager / supply team", "meaning": "Roles the trainer says review submitted applications in the Under Review tab.", "at": "06:32"},
+    {"term": "PowerForm", "meaning": "DocuSign form that the seller fills in to start signing the seller agreement.", "at": "04:35"},
+    {"term": "Documentation status / Uploads status", "meaning": "Fields in the record view showing Complete on the test record.", "at": "07:00"}
+  ],
+  "asr_fixes": [
+    {"at": "03:58", "heard": "bautista trading", "correct": "BAUTISTA TRADING LLC", "basis": "The business name field shows BAUTISTA TRADING LLC (frame t00251, cut off at top) and the full value appears in the record (frame t00413); the trainer says 'llc' at 04:07."},
+    {"at": "04:09", "heard": "{would?} you like to write something", "correct": "Would you like to add something ?", "basis": "The field label on screen reads 'Would you like to add something ?' (frame t00251)."},
+    {"at": "04:43", "heard": "{revive?}", "correct": "Revibe", "basis": "The app title reads 'Revibe - Seller Onboarding App' (frame t00237) and the agreement names Revibe Technology FZ LLC (frame t00282)."},
+    {"at": "05:53", "heard": "see your founder", "correct": "CEO / Founder", "basis": "The position dropdown offers 'CEO / Founder' and the field shows CEO / Founder (frames t00349, t00353)."},
+    {"at": "06:17", "heard": "revive account", "correct": "Revibe account", "basis": "Brand spelling on screen is Revibe (frame t00237 title bar). This is a speech spelling, not a data value."}
+  ],
+  "unclear": [
+    {"at": "07:03", "issue": "Trainer says 'CAMS can go here and validate the approval.' CAMS may be a mishearing and the team that validates approval is not named anywhere. Do not state who approves until confirmed."},
+    {"at": "06:24", "issue": "Trainer says 'the seller will go under under', a stutter. It is not clear whether 'under review' is triggered by completing the form, by Save, or by answering the DHL question. The status changed after DHL No (frames t00371 to t00375); Save is only hovered later (frame t00386)."},
+    {"at": "06:11", "issue": "The change from Application incomplete to Under review is visible on screen right after DHL is answered No, but the trainer does not say what triggers it."},
+    {"at": "06:08", "issue": "Trainer says 'you as you can see' with no clear referent."},
+    {"at": "05:00", "issue": "Trainer says 'they can get access to' and the sentence is not finished. What the seller gets access to after the agreement is uploaded is not stated."},
+    {"at": "05:00", "issue": "Upload fields show a PDF-style icon, but the trainer uploads a test file named seller_info_form_1.html. Accepted file types are not stated in the material."},
+    {"at": "06:50", "issue": "The Noon or Amazon seller page value on screen is 'https://123456789xxxxtest', a placeholder in the test record. The required format of a seller page link is not stated."},
+    {"at": "04:00", "issue": "The business name field shows browser suggestions ('Revibe Technology FZ-LLC', 'chez Delphine Raspadori'). The material does not say whether these come from a business lookup or are only browser address suggestions."},
+    {"at": "05:24", "issue": "Frame order check: frames t00319, t00324 and t00326 were re-checked one by one. t00319 shows the quality guidelines section with 'Done' (not the Google Drive page), and t00326 is the first Google Drive loading frame. Frame-to-timestamp matching for t00319 to t00371 should still be checked against the video."}
+  ],
+  "outdated": [
+    {"at": "06:26", "signal": "Profile tab counts (Application closed 346, Missing data 52, Under Review 25, Application incomplete 3) are a snapshot from the recording and will not match the live app (frame t00389)."}
+  ],
+  "privacy": [
+    {"at": "06:26", "what": "Profile list (Application incomplete group, frame t00389) shows real seller names, company names, email addresses and phone numbers for three sellers: Shireen Manamela, Tefo Ernest Raleting, Chuan Tian.", "frame": "t00389.jpg"},
+    {"at": "06:32", "what": "Under Review list (frame t00393) shows names, company names, email addresses and phone numbers for the 25 records in the tab, for example NISAR AHMAD, Muhammad Haider Raza, NJABULO MASHINI, Aadil Haroon.", "frame": "t00393.jpg"},
+    {"at": "06:40", "what": "Seller record for Pierre Villaceque (frame t00393) shows a work email, a phone number, a business address (Ontario Tower - Business Bay - Dubai) and company PEPE trading LLC. It appears to be a test or staff record, but it contains personal contact data.", "frame": "t00393.jpg"},
+    {"at": "06:54", "what": "Record view (frames t00417, t00415) shows uploaded document file names with a seller ID prefix (02f28922.Contract..., 02f28922.Emirates ID...) and the trading license number 12345.", "frame": "t00417.jpg"}
+  ],
+  "audit": {
+    "checked": 82,
+    "removed": [
+      {"statement": "Sellers do not see the Approval field.", "reason": "The trainer only says the field is available in admin view and that he can see it because he has a Revibe account. The seller-side view is not shown in the frames."},
+      {"statement": "The seller agreement is only complete once a signed file is uploaded.", "reason": "Implied only. The screen shows 'To do' before upload and 'Done' after upload, and the trainer says the agreement is done after upload. 'Only complete' is not stated."},
+      {"statement": "The approval is validated by a team called 'CAMS'.", "reason": "The transcript says 'CAMS can go here and validate the approval.' It does not say CAMS is a team."},
+      {"statement": "Approval is made from the record after checking the documents (step 07:01).", "reason": "Implied. The trainer only says 'And based on this, CAMS can go here and validate the approval.'"}
+    ],
+    "corrected": [
+      {"before": "Summary: the seller 'uploads a signed file'.", "after": "The seller uploads a test file (seller_info_form_1.html) in the signed-agreement field.", "reason": "Frames t00297 to t00303 show a test file named seller_info_form_1.html, not a signed agreement."},
+      {"before": "Step 04:43: the signer 'completes it there and then signs'.", "after": "Says the seller can sign the agreement there.", "reason": "The trainer says 'they can just sign the contract'. Completing the blank fields is not said."},
+      {"before": "Step 05:08 frame t00319 for the Google Drive link loading.", "after": "frame t00326 (Google Drive loading, address bar drive.google.com/file/d/.../view).", "reason": "t00319 shows the quality guidelines section with status Done and no Drive page."},
+      {"before": "Step 05:29 and fact cites t00326 for the Not yet toggle.", "after": "Cites t00303 for 'Not yet' selected and t00335 for the legal section appearing.", "reason": "t00326 is the Google Drive loading frame."},
+      {"before": "Step 05:36 cites t00330 for the legal fields.", "after": "Cites t00335.", "reason": "t00330 still shows 'Not yet' and no legal section. The legal fields first appear in t00335."},
+      {"before": "Step 05:53 cites t00342 for 12345, tax and ID uploads, CEO / Founder and bank details.", "after": "Split across t00342 (trading license upload, number 0), t00349 (number 12345, tax and ID uploaded, dropdown open) and t00353 (CEO / Founder, bank empty). Trading license upload is also added.", "reason": "No single frame shows all of these values together."},
+      {"before": "Step 06:01 cites t00358 for answering No.", "after": "Cites t00362 (No selected) and t00366 (Yes shows the account number field).", "reason": "t00358 shows the DHL question still unanswered."},
+      {"before": "Step 06:06 and DHL facts cite t00362 for the Yes account-number field.", "after": "Cites t00366.", "reason": "t00362 shows No selected. The account-number field appears in t00366."},
+      {"before": "Step 06:08 cites t00371 for status Under review with DHL No and Approval empty.", "after": "t00371 shows Application incomplete and DHL unanswered. Under review with DHL No is shown in t00375 (and t00362).", "reason": "Frame content does not match the claim."},
+      {"before": "Status fact: Under review 'once the seller has completed the form'.", "after": "The status changes right after DHL is answered No. What triggers it is not stated (unclear entry added).", "reason": "'Completed the form' is not shown or said. The quote used as evidence (06:24) is about approval, not the status change."},
+      {"before": "Step 06:15: the trainer 'says the seller sees approval only after the form is complete'.", "after": "The trainer says he can see approval once the form is completed for the seller.", "reason": "The transcript says 'i can see approval once the form is completed', which describes the admin view, not what the seller sees."},
+      {"before": "Step 06:15 cites t00375 for Approval empty with Save hovered.", "after": "Cites t00386 (Approval focused, Save hovered).", "reason": "t00375 shows DHL No and Under review with the cursor near the status; Save is not hovered there."},
+      {"before": "Step 06:26 and screens cite t00386 for the Profile list counts and columns.", "after": "Cites t00389.", "reason": "t00386 is the Approval edit view. The Profile list is in t00389."},
+      {"before": "Step 06:32 says the list is switched to the Under Review tab in t00386 and t00389; claim: t00389 shows Under Review 25 selected with groups blank 3 and Final review 22.", "after": "t00389 shows the Application incomplete tab selected with 3 records. The Under Review tab with groups blank 3 and Final review 22 is in t00393.", "reason": "Frame content does not match the claim."},
+      {"before": "Step 06:40 frame list: 'address' checked on the record.", "after": "The address on screen is the field 'Please share the exact adress from where you will ship orders' (spelling as on screen).", "reason": "Records the exact field label."},
+      {"before": "Step 06:54 cites t00413 for the document fields.", "after": "Cites t00417 (document fields) and t00415.", "reason": "t00413 shows the business name, status and seller agreement fields, not the documents."},
+      {"before": "Step 07:01 says the approval 'is made from the record after checking the documents'.", "after": "The trainer says 'And based on this, CAMS can go here and validate the approval.'", "reason": "The 'record' and 'after checking' wording is not said."},
+      {"before": "Step 07:03 and screen: Approval dropdown 'focused'.", "after": "Approval dropdown is empty and not focused; the cursor hovers over it.", "reason": "The frame shows no focus state on the field."},
+      {"before": "Fact: 'Seller agreement*' and 'Quality guidelines description*' are required fields.", "after": "Labelled with an asterisk; required is implied (confidence medium).", "reason": "The screen does not say 'required'."},
+      {"before": "Fact: 'Would you like to add something ?' is optional.", "after": "No asterisk on screen; the trainer says it is not mandatory.", "reason": "Wording matches the evidence exactly."},
+      {"before": "Fact: position dropdown values in the seller form.", "after": "Position dropdown options visible in the open list.", "reason": "The list may scroll; only the visible options are confirmed."},
+      {"before": "DHL rule: 'answer No if the seller does not have a DHL account'.", "after": "In the example, the trainer answers No; if Yes, the account number field appears.", "reason": "The trainer gives an example answer and does not state the rule for sellers without DHL."},
+      {"before": "Approval rule: 'Sellers do not see it. The trainer uses an admin account, which is why he can see Approval.'", "after": "The trainer says the field is only available in admin view because he has a Revibe account.", "reason": "The trainer's words only; the seller-side view is not shown."},
+      {"before": "CAMS definition: 'set after the reviewer checks the documents' and validated by a team called CAMS.", "after": "The trainer says CAMS can go to the Approval field and validate the approval. Confidence low.", "reason": "Team name and sequence are not stated."},
+      {"before": "Documentation and Uploads status fact cites t00417.", "after": "Cites t00420.", "reason": "t00420 shows the status fields; t00417 does not."},
+      {"before": "Seller agreement blurb: 'Revibe Technology FZ LLC ... and the Seller' with 'fills in' blanks.", "after": "The blanks are listed as shown on screen. The seller fills them in is implied, so the statement is worded as the blanks shown.", "reason": "Wording limited to what the frame shows."},
+      {"before": "Terms: Approval 'where the approval decision is recorded'.", "after": "Field the trainer says is admin-only; screen shows it empty on the test record.", "reason": "'Approval decision is recorded' is not stated."},
+      {"before": "Screen 'Users Form' note: 'Would you like to add something?' as optional field.", "after": "Kept as shown, with 'not mandatory' coming from the trainer.", "reason": "Consistent with the evidence."}
+    ],
+    "added": [
+      "Step 07:00: shows the Documentation status Complete, Uploads status Complete and Application status Under review at the bottom of the record (frame t00420).",
+      "Fact: in the Profile list, records with Application incomplete show Approval 'Final review' (frame t00389).",
+      "Fact: the agreement banner 'DOWNLOAD IT TO EDIT IT OFFLINE, THEN UPLOAD IT ON THE ONBOARDING FORM' (frame t00282).",
+      "Fact: test answers at 03:57 on the Users Form: Both; 3 - 5; 20 - 30; Referral (frame t00237).",
+      "Fact: record shows Profile status Complete and the introduction text (frame t00413).",
+      "Step 05:53: the Trading license upload also holds seller_info_form_1.html (frame t00342).",
+      "Frames t00243, t00285, t00290, t00292, t00324, t00402 and t00406 were opened. They show the business name popup, the DocuSign agreement pages, the AI summary button, a Google Drive loading page, and record fields; no further claims were needed beyond those listed."
+    ]
+  }
+}

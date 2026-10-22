@@ -1,0 +1,1935 @@
+{
+  "summary": "Part 3 (10:25 to 15:24) of the 2.1 Fulfillment App (KAM) video, covering Request products, Shipments (AWB, Quiqup pickup, packaging rules), SKUs available, Pending QC, the All inventory categories, Fulfilment live inventory (prices, inventory days), Inventory to return, Supplier inventory and Inventory exits. All 40 frames listed in the pack were opened, and 5 frames that no claim cited (t00713, t00812, t00890, t00893, t00908) are now cited. Most screen facts are clearly visible. Several rules are spoken only, and some spoken numbers and words are garbled, so they are flagged in unclear or marked medium confidence rather than stated as firm facts.",
+  "frames_opened": 40,
+  "steps": [
+    {
+      "at": "10:25",
+      "screen": "Request products (Open list, Nisar Line selected, 20 rows)",
+      "action": "Shows request row 010112-060201 (iphone-se-202064 GBGoodWhite, Nisar Line) already open in the detail panel, with Price 304, Total price 912 and Buybox supplier 305.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "10:25",
+          "frame": "t00625.jpg",
+          "quote": "Nisar Line 20 selected in the Open list; detail panel for 010112-060201 open with Price 304, Total price 912, Buybox supplier 305, Quantity recommended 3, Quantity Sent 3."
+        }
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "10:28",
+      "screen": "Request products, detail panel",
+      "action": "Trainer asks about the buy box price, the price and the total price. The Buybox supplier value 305 is highlighted.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "10:28",
+          "quote": "what was his buy box price what is the price that he put what is the total price"
+        },
+        {
+          "kind": "see",
+          "at": "10:28",
+          "frame": "t00628.jpg",
+          "quote": "The value 305 under the label Buybox supplier is highlighted."
+        }
+      ],
+      "says": "what was his buy box price what is the price that he put what is the total price",
+      "why": ""
+    },
+    {
+      "at": "10:32",
+      "screen": "Request products, detail panel",
+      "action": "Explains that the total is the price times the number of units sent, for each product. The cursor is on Quantity Sent (3); Price 304 and Total price 912 are shown.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "10:32",
+          "quote": "which means just like the price times the number of units sent etc and for each product here"
+        },
+        {
+          "kind": "see",
+          "at": "10:35",
+          "frame": "t00635.jpg",
+          "quote": "Cursor on the Quantity Sent value 3; Price 304 and Total price 912 visible."
+        }
+      ],
+      "says": "which means just like the price times the number of units sent etc and for each product here",
+      "why": ""
+    },
+    {
+      "at": "10:38",
+      "screen": "Request products list (Requested rows)",
+      "action": "Talks through the request statuses and their reasons. The cursor sits on the SKU column header; no click is visible.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "10:40",
+          "quote": "the status can be requested warehouse received {cancelled?} this is based on seller decision missing item if the"
+        },
+        {
+          "kind": "say",
+          "at": "10:50",
+          "quote": "seller didn't send or rejected if for whatever reason the lab decided to reject just going back sorry"
+        },
+        {
+          "kind": "see",
+          "at": "10:38",
+          "frame": "t00638.jpg",
+          "quote": "Cursor on the SKU column header of the Request products table; only Requested rows visible."
+        }
+      ],
+      "says": "",
+      "why": "Trainer says the cancellation is based on the seller decision (garbled; see unclear)."
+    },
+    {
+      "at": "10:57",
+      "screen": "Shipments",
+      "action": "Clicks Shipments. The page first loads empty, then lists shipments in sections by Request Status.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "10:57",
+          "frame": "t00657.jpg",
+          "quote": "Shipments page loading, table empty."
+        },
+        {
+          "kind": "see",
+          "at": "11:03",
+          "frame": "t00663.jpg",
+          "quote": "Sections: Requested 1, AWB created 2, Under QC 1, Completed 1056."
+        },
+        {
+          "kind": "say",
+          "at": "10:57",
+          "quote": "to the shipments {here?} the status are requested airway {bill?} created picked up here you don't have any"
+        }
+      ],
+      "says": "to the shipments {here?} the status are requested airway {bill?} created picked up here you don't have any",
+      "why": ""
+    },
+    {
+      "at": "11:06",
+      "screen": "Shipments list",
+      "action": "Hovers the Smart Device World row while summarising the statuses.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "11:06",
+          "quote": "under QC completed and cancelled so now I mean just as a reminder when the seller has created"
+        },
+        {
+          "kind": "see",
+          "at": "11:06",
+          "frame": "t00666.jpg",
+          "quote": "Cursor on the Smart Device World row (AWB created)."
+        }
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "11:13",
+      "screen": "Request products (All view)",
+      "action": "Switches to Request products with the All view, showing the Cancelled group header (3,178).",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "11:13",
+          "frame": "t00673.jpg",
+          "quote": "Request products, All view: group header Cancelled 3,178 with Cancelled rows."
+        }
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "11:16",
+      "screen": "Request products (narration over the Cancelled view)",
+      "action": "Trainer says the requested products inside a shipment must be shipped by the seller to ReviveLab, and that Quiqup collects the shipment at the seller's office. Packaging guidelines follow.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "11:16",
+          "quote": "a shipment and requested products inside {this?} shipment he has to ship to ReviveLab it's free it's handled"
+        },
+        {
+          "kind": "say",
+          "at": "11:24",
+          "quote": "by {quick?} {up?} coming and picking the shipment at the seller office some packaging and shipping guidelines seller"
+        }
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "11:33",
+      "screen": "Request products (Cancelled view still on screen)",
+      "action": "Trainer says all devices go in bubble wrap, and each device gets a sticker with its details.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "11:33",
+          "quote": "he must put all the devices in bubble wrap label each device with sticker mentioning the model storage"
+        },
+        {
+          "kind": "say",
+          "at": "11:41",
+          "quote": "color condition and the sku which are only details that are mentioned like here you {you?} know, model,"
+        },
+        {
+          "kind": "see",
+          "at": "11:33",
+          "frame": "t00693.jpg",
+          "quote": "Request products Cancelled view still on screen."
+        }
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "11:48",
+      "screen": "SKUs available",
+      "action": "SKUs available is open (Category, Model, Product, Price, Quantities recommended, SKU). Trainer names the sticker details: storage, condition, color and SKU.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "11:48",
+          "frame": "t00708.jpg",
+          "quote": "SKUs available table with Category, Model, Product, Price, Quantities recommended and SKU columns."
+        },
+        {
+          "kind": "say",
+          "at": "11:50",
+          "quote": "storage, condition, color and the SKU that is related to this, you see."
+        }
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "11:57",
+      "screen": "SKUs available (cursor on the SKU and Price cells)",
+      "action": "Continues the packing talk: cables, the box, then the airway bill. The cursor is on SKU 010118-091603-TDRA (t00713), then on the Price 1,050 cell of iphone-13512 GBVery GoodBlue TDRA (t00717).",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "11:53",
+          "frame": "t00713.jpg",
+          "quote": "Cursor on the SKU 010118-091603-TDRA (iphone-13512 GBVery GoodStarlight TDRA, Price 1,050)."
+        },
+        {
+          "kind": "see",
+          "at": "11:57",
+          "frame": "t00717.jpg",
+          "quote": "Row iphone-13512 GBVery GoodBlue TDRA highlighted, cursor on its Price 1,050."
+        },
+        {
+          "kind": "say",
+          "at": "11:58",
+          "quote": "He must put cables,"
+        },
+        {
+          "kind": "say",
+          "at": "12:01",
+          "quote": "USB-C cables for phones, and he must put like the whole cable and charger for the laptops."
+        },
+        {
+          "kind": "say",
+          "at": "12:07",
+          "quote": "He must put everything in the random, safe box, no need to use a {revive?} box,"
+        },
+        {
+          "kind": "say",
+          "at": "12:13",
+          "quote": "print the airway bill that is given to the seller here in shipment {as?} you can see airway"
+        }
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "12:17",
+      "screen": "Shipments list",
+      "action": "Back on Shipments: Z And B Mobile and Smart Device World show AWB created with Tracking company Quiqup. Trainer says the bill has been created and the label is there.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "12:17",
+          "frame": "t00737.jpg",
+          "quote": "Z And B Mobile and Smart Device World show AWB created, Tracking company Quiqup."
+        },
+        {
+          "kind": "say",
+          "at": "12:19",
+          "quote": "bill has been created and the label is just here and he can put the airway bill on"
+        }
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "12:21",
+      "screen": "Shipments, detail panel for 41fa1c7c (Z And B Mobile)",
+      "action": "Opens shipment 41fa1c7c. The detail shows Request Status AWB created, Tracking company Quiqup, Tracking ID 27242172 and five visible linked requested SKUs.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "12:21",
+          "frame": "t00741.jpg",
+          "quote": "Request Status AWB created; Tracking company Quiqup; Tracking ID 27242172; Tracking Label link and Tracking link fields; five visible linked SKUs, all Requested, with an Expand button."
+        },
+        {
+          "kind": "say",
+          "at": "12:28",
+          "quote": "the box then {quick?} up to come please note that quick up is limited to 15 kg per"
+        }
+      ],
+      "says": "the box then {quick?} up to come please note that quick up is limited to 15 kg per",
+      "why": ""
+    },
+    {
+      "at": "12:41",
+      "screen": "Shipments, detail panel (scrolled down)",
+      "action": "Keeps the same shipment detail open, scrolled down to Request Status, Tracking fields, Created by and Updated by. Trainer talks about airway bills for several shipments (garbled).",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "12:41",
+          "frame": "t00761.jpg",
+          "quote": "Same Z And B Mobile detail, scrolled down to Request Status AWB created, Tracking ID 27242172, Created by zabmobiletrading@gmail.com, Updated by tech@revibe.me."
+        },
+        {
+          "kind": "say",
+          "at": "12:42",
+          "quote": "have to create yourself an airway bill with like mentioning like a specific airway bill with several shipments"
+        }
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "13:00",
+      "screen": "Pending QC",
+      "action": "Opens Pending QC with the All filter. The list reads No items.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "13:00",
+          "frame": "t00780.jpg",
+          "quote": "Pending QC page, All filter, list reads No items."
+        },
+        {
+          "kind": "say",
+          "at": "13:02",
+          "quote": "need to carry about here you {can?} see the full inventory in the full inventory {we?} will have"
+        }
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "13:04",
+      "screen": "All inventory (category tree on the left)",
+      "action": "Opens All inventory and reads the category list.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "13:04",
+          "frame": "t00784.jpg",
+          "quote": "All inventory category counts: Naif COD reject 0, Naif return 0, Invalid claim 470, Fulfillment 171, UGC Return 0, At fixing company 0, Auction 455."
+        },
+        {
+          "kind": "say",
+          "at": "13:08",
+          "quote": "like many categories naive cash and delivery reject {knife?} return invalid claim fulfillment UGC return at fixing company"
+        },
+        {
+          "kind": "say",
+          "at": "13:18",
+          "quote": "and options the only one you care about is fulfillment here you can see the live inventory which"
+        }
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "13:23",
+      "screen": "All inventory, Fulfillment expanded",
+      "action": "Expands the Fulfillment category to show its sub-filters.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "13:23",
+          "frame": "t00803.jpg",
+          "quote": "Fulfillment (171) expanded: Yes 2, Needs QC 0, Needs fixing 0, Perfect condition 0, (empty) 169."
+        },
+        {
+          "kind": "say",
+          "at": "13:27",
+          "quote": "with all the products like the 171 as you can see products that are 171 that are currently"
+        }
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "13:25",
+      "screen": "Fulfilment live inventory",
+      "action": "Opens Fulfilment live inventory from the sidebar. Rows are grouped by supplier (Ain Al Tair 3, Al Nafees 10, Al Nahr Al Thahabi 1, Arslan E Commerce 30, Bwireless Technology 16, DDH 5). The Fulfillment 171 filter is then selected.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "13:25",
+          "frame": "t00805.jpg",
+          "quote": "Fulfilment live inventory, All selected, supplier groups Ain Al Tair 3, Al Nafees 10, Al Nahr Al Thahabi 1, Arslan E Commerce 30, Bwireless Technology 16, DDH 5; rows Status Live."
+        },
+        {
+          "kind": "see",
+          "at": "13:27",
+          "frame": "t00807.jpg",
+          "quote": "Fulfillment 171 filter selected; rows show Status Live."
+        }
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "13:32",
+      "screen": "All inventory (transition)",
+      "action": "All inventory is still displayed, with the cursor on the Fulfillment 171 count, just before the Fulfilment live inventory page opens. No speech over this frame.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "13:32",
+          "frame": "t00812.jpg",
+          "quote": "All inventory still displayed; cursor on the Fulfillment 171 count in the left filter list."
+        }
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "13:35",
+      "screen": "Fulfilment live inventory, row 02-59-94-46-18-04-20-22-03-11 (Ain Al Tair)",
+      "action": "Points at the Ain Al Tair row 02-59-94-46-18-04-20-22-03-11, which has an empty Name cell and Inventory days 36 in red. Trainer says the seller sent some products under this SKU and the name disappeared.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "13:34",
+          "quote": "live in the fulfillment so you can see their status like you can see that this seller {ain't?}"
+        },
+        {
+          "kind": "say",
+          "at": "13:39",
+          "quote": "alta here he sent like some products with this sku here the name disappeared i must fix it"
+        },
+        {
+          "kind": "see",
+          "at": "13:38",
+          "frame": "t00818.jpg",
+          "quote": "Row 02-59-94-46-18-04-20-22-03-11 under Ain Al Tair has an empty Name cell; Inventory days 36 in red."
+        }
+      ],
+      "says": "alta here he sent like some products with this sku here the name disappeared i must fix it",
+      "why": ""
+    },
+    {
+      "at": "13:42",
+      "screen": "Fulfilment live inventory, row 02-59-94-46-18-04-20-22-03-11",
+      "action": "Reads the time in the warehouse, the quantities and the prices for that SKU: Inventory days 36, Initial quantity 1, Current quantity 1, Initial price 914, Price override 896, Current price 896.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "13:46",
+          "quote": "{is?} that has been in the warehouse for 33 days 36 days it's currently live he sent one"
+        },
+        {
+          "kind": "say",
+          "at": "13:53",
+          "quote": "quantity initially but there is still this quantity in the warehouse that was the initial price he dropped"
+        },
+        {
+          "kind": "say",
+          "at": "14:01",
+          "quote": "it a bit and yeah this is most of the things that you can see here"
+        },
+        {
+          "kind": "see",
+          "at": "13:42",
+          "frame": "t00822.jpg",
+          "quote": "Row 02-59-94-46-18-04-20-22-03-11: Inventory days 36, Status Live, Current quantity 1, Initial quantity 1, Initial price 914, Price override 896, Current price 896."
+        }
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "14:02",
+      "screen": "Fulfilment live inventory (table scrolled right, then back)",
+      "action": "Points at Price override 896 for the same SKU. Then scrolls right to show the extra columns (Notes, Product ID, Variant ID, Request product ID, Created by, Updated at, Updated by, Days since last charge) and scrolls back.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "14:02",
+          "frame": "t00842.jpg",
+          "quote": "Cursor on Price override 896 of row 02-59-94-46-18-04-20-22-03-11."
+        },
+        {
+          "kind": "see",
+          "at": "14:06",
+          "frame": "t00846.jpg",
+          "quote": "Scrolled right: Notes, Product ID, Variant ID, Request product ID, Created by, Updated at, Updated by (e.g. a.altairdxb@gmail.com), Days since last charge (10.00 or 5.00)."
+        },
+        {
+          "kind": "see",
+          "at": "14:07",
+          "frame": "t00847.jpg",
+          "quote": "Scrolled back to the price columns; no charge, request or return button is visible."
+        }
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "14:08",
+      "screen": "Fulfilment live inventory (narration)",
+      "action": "Trainer says there are charge, request and return buttons that the KAM does not need to manage. None of those buttons is visible in the frames.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "14:08",
+          "quote": "here same you have some buttons charge request return you don't need to manage them here you have"
+        },
+        {
+          "kind": "see",
+          "at": "14:07",
+          "frame": "t00847.jpg",
+          "quote": "No charge, request or return button visible on the scrolled-back table."
+        }
+      ],
+      "says": "here same you have some buttons charge request return you don't need to manage them here you have",
+      "why": ""
+    },
+    {
+      "at": "14:14",
+      "screen": "Fulfilment live inventory (narration, top-right toolbar visible)",
+      "action": "Trainer says the KAM is not supposed to interact in this dashboard or app; the app is there to support the KAM and show what the seller can see; connecting with the seller's password is usually enough.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "14:14",
+          "quote": "a price of drop two percent once again as a cam you are not supposed to interact in"
+        },
+        {
+          "kind": "say",
+          "at": "14:21",
+          "quote": "this dashboard, in this app."
+        },
+        {
+          "kind": "say",
+          "at": "14:23",
+          "quote": "This app is just here for you to support you and to help you see whatever the seller"
+        },
+        {
+          "kind": "say",
+          "at": "14:32",
+          "quote": "But most of the time, connecting to the app using the password of the seller is way enough."
+        },
+        {
+          "kind": "see",
+          "at": "14:17",
+          "frame": "t00857.jpg",
+          "quote": "Cursor at the top-right toolbar of Fulfilment live inventory; Select items tooltip visible."
+        }
+      ],
+      "says": "a price of drop two percent once again as a cam you are not supposed to interact in",
+      "why": ""
+    },
+    {
+      "at": "14:37",
+      "screen": "Fulfilment live inventory (transition)",
+      "action": "Moves from the top search bar toward the Inventory to return menu item. Fulfilment live inventory is still shown.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "14:37",
+          "frame": "t00877.jpg",
+          "quote": "Fulfilment live inventory still displayed; cursor at the top search bar."
+        }
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "14:41",
+      "screen": "Inventory to return (Fulfillment 12)",
+      "action": "Opens Inventory to return. Trainer explains the list: products that have been in the fulfilment too long, or that the seller himself asked to return.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "14:41",
+          "quote": "Here, Inventorito returns, these are the products that either have been there for too long in the fulfillment,"
+        },
+        {
+          "kind": "say",
+          "at": "14:48",
+          "quote": "{either?} have been requested for return by the seller himself {now?} if {to?} drop price you don't need"
+        },
+        {
+          "kind": "see",
+          "at": "14:41",
+          "frame": "t00881.jpg",
+          "quote": "Inventory to return page opens: Fulfillment 12 filter; group headers Ain Al Tair 1, Al Nahr Al Thahabi 1, DDH 5, R3 Telco Electronics 5."
+        }
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "14:49",
+      "screen": "Inventory to return (rows highlighted by cursor)",
+      "action": "Points at R3 Telco Electronics row 01-826-00-38-351-00-00-00-00-01 (t00889), then at the iPad-Air row 08-814-207-26-301-00-10-18-… (t00890).",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "14:49",
+          "frame": "t00889.jpg",
+          "quote": "Inventory to return, cursor on the R3 Telco row 01-826-00-38-351-00-00-00-00-01."
+        },
+        {
+          "kind": "see",
+          "at": "14:50",
+          "frame": "t00890.jpg",
+          "quote": "The iPad-Air row (08-814-207-26-301-00-10-18-…) is highlighted; Inventory days 8, Price delta -4.22%."
+        }
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "14:53",
+      "screen": "Inventory to return (cursor on the left menu)",
+      "action": "Cursor moves to Naif to drop price in the left menu while the trainer moves on to Supplier inventory.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "14:56",
+          "quote": "to consider it supplier inventory you can see the split between everything that is now out of stock"
+        },
+        {
+          "kind": "see",
+          "at": "14:53",
+          "frame": "t00893.jpg",
+          "quote": "Cursor on the Naif to drop price menu item; Inventory to return still displayed."
+        }
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "14:57",
+      "screen": "Supplier inventory",
+      "action": "Opens Supplier inventory (All, Live 171, Out of stock 0), then selects the Out of stock filter. Rows with Out of stock status stay listed.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "14:57",
+          "frame": "t00897.jpg",
+          "quote": "Supplier inventory, All view; filter list Live 171, Out of stock 0."
+        },
+        {
+          "kind": "see",
+          "at": "15:00",
+          "frame": "t00900.jpg",
+          "quote": "Out of stock filter hovered and selected; rows with Out of stock status still listed."
+        }
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "15:03",
+      "screen": "Supplier inventory, Out of stock then Live 171",
+      "action": "Trainer says the Live filter shows the 171 items currently in the warehouse. The Out of stock filter count shows 0 while its rows are still listed; the screen then switches to Live 171.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "15:03",
+          "quote": "and everything you will find again the 171 that is currently live in the warehouse so this is"
+        },
+        {
+          "kind": "see",
+          "at": "15:03",
+          "frame": "t00903.jpg",
+          "quote": "Out of stock filter selected; rows with Out of stock status listed; filter badge shows 0."
+        },
+        {
+          "kind": "see",
+          "at": "15:05",
+          "frame": "t00905.jpg",
+          "quote": "Live 171 selected; groups Ain Al Tair, Al Nafees, Al Nahr Al Thahabi, Arslan E Commerce, Bwireless Technology, DDH with Status Live."
+        },
+        {
+          "kind": "see",
+          "at": "15:08",
+          "frame": "t00908.jpg",
+          "quote": "Live 171 selected, cursor near the top search bar; columns SKU, Name, Inventory days, Created at, Status, Initial quantity, Current quantity, Initial price, Price override, Current price, Supplier."
+        }
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "15:09",
+      "screen": "Fulfilment live inventory (transition), then Inventory exits",
+      "action": "Trainer compares with Inventory exits. Fulfilment live inventory is shown loading, blank, on the way there.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "15:09",
+          "quote": "exactly the same as this one inventory exit here you can see all the reasons why we exited"
+        },
+        {
+          "kind": "see",
+          "at": "15:10",
+          "frame": "t00910.jpg",
+          "quote": "Fulfilment live inventory page loading, blank."
+        }
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "15:14",
+      "screen": "Inventory exits (TDRA 296 group)",
+      "action": "Opens Inventory exits: group TDRA 296, with the SKU, Name, Order help, IMEI, Type, Reason for return, Comment, Quantity before and Quantity after columns.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "15:14",
+          "frame": "t00914.jpg",
+          "quote": "Inventory exits page: group TDRA 296; columns SKU, Name, Order help, IMEI, Type, Reason for return, Comment, Quantity before, Quantity after."
+        }
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "15:18",
+      "screen": "Inventory exits (TDRA group)",
+      "action": "Trainer says stock leaves a seller's inventory for reasons such as TDRA.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "15:18",
+          "quote": "from the inventory the stock of a seller because either it was TDRA {for?} instance this {was?} this"
+        },
+        {
+          "kind": "see",
+          "at": "15:14",
+          "frame": "t00914.jpg",
+          "quote": "Type column shows TDRA on the visible rows; row 010118-071401 has Quantity before 19 and Quantity after 18."
+        }
+      ],
+      "says": "",
+      "why": ""
+    }
+  ],
+  "facts": [
+    {
+      "type": "screen",
+      "statement": "Request products left list: Open 345 with supplier sub-items (for example Nisar Line 20, Z And B Mobile 70, ReNova Tech 30) and Closed 25,389. The All view has a Cancelled group of 3,178.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "10:25",
+          "frame": "t00625.jpg",
+          "quote": "Left list: All, Open 345 with supplier sub-items (Nisar Line 20 selected, Z And B Mobile 70, ReNova Tech 30), Closed 25,389."
+        },
+        {
+          "kind": "see",
+          "at": "11:13",
+          "frame": "t00673.jpg",
+          "quote": "All view header Cancelled 3,178 with cancelled rows."
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Request products table columns: Request Status, SKU, Product, Supplier, Quantity recommended, Quantity Sent, Warning message, Quantity received, Quantity accepted, Buybox supplier (last column cut off at the right edge).",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "11:13",
+          "frame": "t00673.jpg",
+          "quote": "Column headers: Request Status, SKU, Product, Supplier, Quantity recommend..., Quantity Sent, Warning message, Quantity received, Quantity accepted, Buybox supplier."
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Request detail panel fields, in order: Product, Request Status, Quantity recommended, Quantity Sent, Supplier, Buybox supplier, Price, Total price, Updated at, Updated by, Created at, Created by, Payment method, Stage, and a Related Inventorys section.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "10:25",
+          "frame": "t00625.jpg",
+          "quote": "Detail panel for 010112-060201 with the listed fields in that order."
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "example",
+      "statement": "Worked example on screen: SKU 010112-060201 (iphone-se-202064 GBGoodWhite, supplier Nisar Line) has Quantity recommended 3, Quantity Sent 3, Price 304, Total price 912, Payment method 100% - After sales, Stage Open.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "10:25",
+          "frame": "t00625.jpg",
+          "quote": "Quantity recommended 3; Quantity Sent 3; Supplier Nisar Line; Price 304; Total price 912; Payment method 100% - After sales; Stage Open."
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Trainer says the total price is the price times the number of units sent. On the example request, 304 x 3 = 912.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "10:32",
+          "quote": "which means just like the price times the number of units sent etc and for each product here"
+        },
+        {
+          "kind": "see",
+          "at": "10:25",
+          "frame": "t00625.jpg",
+          "quote": "Price 304, Quantity Sent 3, Total price 912."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Per the trainer, a Cancelled request is based on the seller's decision: a missing item when the seller did not send it, or a rejection when the lab decides to reject it. The lab is not identified on screen.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "10:40",
+          "quote": "this is based on seller decision missing item if the"
+        },
+        {
+          "kind": "say",
+          "at": "10:50",
+          "quote": "seller didn't send or rejected if for whatever reason the lab decided to reject just going back sorry"
+        }
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Shipments are grouped by Request Status. At the time shown there are four sections only: Requested 1, AWB created 2, Under QC 1, Completed 1056. The trainer also names picked up and cancelled, which do not appear as sections.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "11:03",
+          "frame": "t00663.jpg",
+          "quote": "Group headers: Requested 1, AWB created 2, Under QC 1, Completed 1056."
+        },
+        {
+          "kind": "say",
+          "at": "11:06",
+          "quote": "under QC completed and cancelled so now I mean just as a reminder when the seller has created"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Shipments table columns: Supplier, ID, Created by, Created at, Updated at, Request Status, Payment method, Tracking company, Tracking ID, Tracking link, Tracking Label link.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "11:03",
+          "frame": "t00663.jpg",
+          "quote": "Column headers as listed, with Tracking company Quiqup on the visible rows."
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Per the trainer, the requested products inside a shipment must be shipped by the seller to ReviveLab.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "11:16",
+          "quote": "a shipment and requested products inside {this?} shipment he has to ship to ReviveLab it's free it's handled"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Trainer says Quiqup comes to the seller's office and picks up the shipment. On screen, Tracking company shows Quiqup on the shipment rows.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "11:24",
+          "quote": "by {quick?} {up?} coming and picking the shipment at the seller office some packaging and shipping guidelines seller"
+        },
+        {
+          "kind": "see",
+          "at": "12:17",
+          "frame": "t00737.jpg",
+          "quote": "Tracking company Quiqup on the Z And B Mobile and Smart Device World rows."
+        }
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Trainer says each device must be wrapped in bubble wrap. Speech only; no frame shows packing.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "11:33",
+          "quote": "he must put all the devices in bubble wrap"
+        }
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Trainer says each device must be labelled with a sticker showing model, storage, color, condition and SKU. Speech only.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "11:33",
+          "quote": "label each device with sticker mentioning the model storage"
+        },
+        {
+          "kind": "say",
+          "at": "11:41",
+          "quote": "color condition and the sku which are only details that are mentioned"
+        },
+        {
+          "kind": "say",
+          "at": "11:50",
+          "quote": "storage, condition, color and the SKU that is related to this, you see."
+        }
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Trainer says phones need USB-C cables, and laptops need the whole cable and charger. Speech only.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "12:01",
+          "quote": "USB-C cables for phones, and he must put like the whole cable and charger for the laptops."
+        }
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Trainer says to print the airway bill that is given to the seller in the shipment and put it on the package (the object is cut off in the speech). On screen, a shipment at AWB created status has a Tracking Label link.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "12:13",
+          "quote": "print the airway bill that is given to the seller here in shipment {as?} you can see airway"
+        },
+        {
+          "kind": "say",
+          "at": "12:19",
+          "quote": "bill has been created and the label is just here and he can put the airway bill on"
+        },
+        {
+          "kind": "see",
+          "at": "12:21",
+          "frame": "t00741.jpg",
+          "quote": "Request Status AWB created; Tracking Label link field populated."
+        }
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "Trainer says Quiqup pickup is limited to 15 kg per box. Spoken only; no screen shows this limit, and the figure is not checked against any source.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "12:28",
+          "quote": "please note that quick up is limited to 15 kg per"
+        }
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Shipment detail for 41fa1c7c (Z And B Mobile) shows Request Status AWB created, Tracking company Quiqup, Tracking ID 27242172, Payment method 100% - After sales, and five visible linked requested SKUs (all Requested) with an Expand button.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "12:21",
+          "frame": "t00741.jpg",
+          "quote": "Linked SKUs Requested: 010118-071401, 010109-060101, 010121-071101, 010111-060601, 010103-060602; Tracking ID 27242172; Expand button."
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "Pending QC shows No items when opened. The trainer's words after 'once the products are received' (so here pending qc no) are garbled, so it is not confirmed when products appear there.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "13:00",
+          "frame": "t00780.jpg",
+          "quote": "Pending QC page, All filter, list reads No items."
+        },
+        {
+          "kind": "say",
+          "at": "12:51",
+          "quote": "contained several boxes contained in the same shipment once the {product?} are received so here pending qc no"
+        }
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "All inventory category counts: Naif COD reject 0, Naif return 0, Invalid claim 470, Fulfillment 171, UGC Return 0, At fixing company 0, Auction 455.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "13:04",
+          "frame": "t00784.jpg",
+          "quote": "All inventory category counts as listed."
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Trainer says the only All inventory category 'you care about' is Fulfillment, where the live inventory is shown.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "13:18",
+          "quote": "and options the only one you care about is fulfillment here you can see the live inventory which"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Fulfillment sub-filters in All inventory: Yes 2, Needs QC 0, Needs fixing 0, Perfect condition 0, (empty) 169.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "13:23",
+          "frame": "t00803.jpg",
+          "quote": "Fulfillment expanded with those sub-filter counts."
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Fulfilment live inventory lists the products that are live in the fulfilment. The Fulfillment filter shows 171, and the visible rows show Status Live.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "13:27",
+          "quote": "products that are 171 that are currently"
+        },
+        {
+          "kind": "see",
+          "at": "13:27",
+          "frame": "t00807.jpg",
+          "quote": "Fulfillment 171 filter selected; rows show Status Live."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Fulfilment live inventory columns: SKU, Name, Inventory days, Status, Current quantity, Initial quantity, Initial price, Price override, Current price, Supplier, Total value, Market unit price (cut off). Scrolling right shows Type, Notes, Product ID, Variant ID, Request product ID, Created by, Updated at, Updated by, Days since last charge and Date last charged (cut off).",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "13:35",
+          "frame": "t00815.jpg",
+          "quote": "Column headers as listed (Current quantity before Initial quantity; Market unit pr... cut off)."
+        },
+        {
+          "kind": "see",
+          "at": "14:06",
+          "frame": "t00846.jpg",
+          "quote": "Scrolled-right headers: Notes, Product ID, Variant ID, Request product ID, Created by, Updated at, Updated by, Days since last charge."
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "On the rows shown, Current price equals Price override when an override is set, and otherwise equals Initial price. Rows checked: 02-59-94-46-18-04-20-22-03-11 (914 initial, 896 override, 896 current); 010116-060102 (500 initial, blank override, 500 current); 010111-080601 (1,038 initial, 977 override, 977 current).",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "13:42",
+          "frame": "t00822.jpg",
+          "quote": "Row 02-59-94-46-18-04-20-22-03-11: Initial price 914, Price override 896, Current price 896."
+        },
+        {
+          "kind": "see",
+          "at": "13:25",
+          "frame": "t00805.jpg",
+          "quote": "Rows 010116-060102 (500, blank override, 500) and 010111-080601 (1,038, 977, 977) visible."
+        }
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "example",
+      "statement": "Example SKU 02-59-94-46-18-04-20-22-03-11 (Ain Al Tair): Inventory days 36, Initial quantity 1, Current quantity 1, Initial price 914, Price override 896. The trainer says the seller sent one unit at first, and that the price was dropped a bit while the unit is still in the warehouse.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "13:42",
+          "frame": "t00822.jpg",
+          "quote": "Inventory days 36, Current quantity 1, Initial quantity 1, Initial price 914, Price override 896, Current price 896."
+        },
+        {
+          "kind": "say",
+          "at": "13:53",
+          "quote": "quantity initially but there is still this quantity in the warehouse that was the initial price he dropped"
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "warning",
+      "statement": "A SKU with a blank Name in Fulfilment live inventory (02-59-94-46-18-04-20-22-03-11) needs fixing. The trainer says 'the name disappeared i must fix it'.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "13:38",
+          "frame": "t00818.jpg",
+          "quote": "Name cell is empty for 02-59-94-46-18-04-20-22-03-11."
+        },
+        {
+          "kind": "say",
+          "at": "13:39",
+          "quote": "here the name disappeared i must fix it"
+        }
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Trainer says the KAM is not supposed to interact in this dashboard or app. He says the app is there to support the KAM and show what the seller can see.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "14:14",
+          "quote": "you are not supposed to interact in"
+        },
+        {
+          "kind": "say",
+          "at": "14:21",
+          "quote": "this dashboard, in this app."
+        },
+        {
+          "kind": "say",
+          "at": "14:23",
+          "quote": "This app is just here for you to support you and to help you see whatever the seller"
+        }
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Trainer says the charge, request and return buttons on this dashboard do not need to be managed by the KAM. None of these buttons is visible in the frames.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "14:08",
+          "quote": "here same you have some buttons charge request return you don't need to manage them here you have"
+        }
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Trainer says that most of the time, connecting to the app with the seller's password is enough. He does not say when this is allowed. See the unclear list before relying on it.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "14:32",
+          "quote": "But most of the time, connecting to the app using the password of the seller is way enough."
+        }
+      ],
+      "confidence": "low",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Inventory to return lists products that have been in the fulfilment too long, or that the seller himself has requested to return.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "14:41",
+          "quote": "these are the products that either have been there for too long in the fulfillment,"
+        },
+        {
+          "kind": "say",
+          "at": "14:48",
+          "quote": "have been requested for return by the seller himself"
+        }
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Inventory to return columns: SKU, Name, Inventory days, Price delta, Return request at, Status, Current quantity, Initial quantity, Created at, Initial price, Price override (cut off). The Fulfillment filter shows 12.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "14:41",
+          "frame": "t00881.jpg",
+          "quote": "Column headers as listed; Fulfillment 12."
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Inventory to return group headers are Ain Al Tair 1, Al Nahr Al Thahabi 1, DDH 5 and R3 Telco Electronics 5 (they sum to 12). The screen shows 2 DDH rows and 3 R3 Telco Electronics rows, 7 rows in total.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "14:41",
+          "frame": "t00881.jpg",
+          "quote": "Group headers Ain Al Tair 1, Al Nahr Al Thahabi 1, DDH 5, R3 Telco Electronics 5; rows shown: 1 + 1 + 2 + 3."
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "example",
+      "statement": "Example on Inventory to return: SKU 02-59-94-46-18-04-20-22-03-11 (Ain Al Tair) has Inventory days 36, Return request at 10/11/2026 12:34:17 PM and Price delta -5.88%.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "14:41",
+          "frame": "t00881.jpg",
+          "quote": "Row Ain Al Tair 02-59-94-46-18-04-20-22-03-11: Inventory days 36, Price delta -5.88%, Return request at 10/11/2026 12:34:17 PM."
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Price delta values on Inventory to return: Ain Al Tair -5.88%, Al Nahr Al Thahabi -2.22%, DDH 21.35% and 26.55%, R3 Telco Electronics -4.22%, -3.73% and -4.23%.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "14:41",
+          "frame": "t00881.jpg",
+          "quote": "Price delta column: -5.88%, -2.22%, 21.35%, 26.55%, -4.22%, -3.73%, -4.23%."
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "Supplier inventory splits a supplier's stock into Live and Out of stock. The trainer says the Live part is the 171 items currently live in the warehouse.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "14:56",
+          "quote": "you can see the split between everything that is now out of stock"
+        },
+        {
+          "kind": "say",
+          "at": "15:03",
+          "quote": "and everything you will find again the 171 that is currently live in the warehouse so this is"
+        },
+        {
+          "kind": "see",
+          "at": "15:05",
+          "frame": "t00905.jpg",
+          "quote": "Live 171 selected in the filter list."
+        }
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Supplier inventory with Live 171 selected shows group headers Ain Al Tair 3, Al Nafees 10, Al Nahr Al Thahabi 1, Arslan E Commerce 30, Bwireless Technology 16 and DDH 5, all with Status Live.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "15:08",
+          "frame": "t00908.jpg",
+          "quote": "Live 171 selected; group headers as listed; Status Live."
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Supplier inventory columns: SKU, Name, Inventory days, Created at, Status, Initial quantity, Current quantity, Initial price, Price override, Current price, Supplier.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "14:57",
+          "frame": "t00897.jpg",
+          "quote": "Column headers as listed."
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Inventory exits lists stock removed from a seller's stock, with IMEI, Type, Reason for return, Comment, and quantities before and after. The trainer says it shows all the reasons why stock was exited. On the visible rows the Reason for return and Comment columns are empty.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "15:09",
+          "quote": "exactly the same as this one inventory exit here you can see all the reasons why we exited"
+        },
+        {
+          "kind": "see",
+          "at": "15:14",
+          "frame": "t00914.jpg",
+          "quote": "Column headers SKU, Name, Order help, IMEI, Type, Reason for return, Comment, Quantity before, Quantity after, Tracking ID (cut off)."
+        }
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Inventory exits columns: SKU, Name, Order help, IMEI, Type, Reason for return, Comment, Quantity before, Quantity after, Tracking ID (cut off). The left filter lists suppliers with counts, for example Ain Al Tair 87, Al Nafees 200, Al Nahr Al Thahabi 104.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "15:14",
+          "frame": "t00914.jpg",
+          "quote": "Column headers and supplier filter counts as listed."
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "SKUs available columns: Category, Model, Product, Price, Quantities recommended, SKU. Examples: 2-years-extended-warranty-plan at Price 9,999; iphone-13512 GBVery GoodBlue TDRA at Price 1,050 with Quantities recommended 25.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "11:48",
+          "frame": "t00708.jpg",
+          "quote": "Column headers and rows as listed."
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The Fulfillment app runs in the browser at appsheet.com. The sidebar lists: SKUs available, Shipments, Request products, Pending QC, All inventory, Fulfilment live inventory, Inventory to return, Naif to drop price, Supplier inventory, Inventory exits, Stock control, Invalids to fix, Charge inventory, Box inventory, Packaging request, Fulfillment expenses, About, App Gallery.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "10:25",
+          "frame": "t00625.jpg",
+          "quote": "Browser URL appsheet.com/start/... with the sidebar items listed."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    }
+  ],
+  "screens": [
+    {
+      "name": "Request products",
+      "shows": "Left list: All, Open 345 (by supplier), Closed 25,389; the All view has a Cancelled group of 3,178. Table columns: Request Status, SKU, Product, Supplier, Quantity recommended, Quantity Sent, Warning message, Quantity received, Quantity accepted, Buybox supplier. Right detail panel with Price, Total price, Stage and Payment method.",
+      "at": "10:25 to 11:33",
+      "where": "Sidebar: Request products"
+    },
+    {
+      "name": "Shipments",
+      "shows": "Sections by Request Status: Requested 1, AWB created 2, Under QC 1, Completed 1056. Columns: Supplier, ID, Created by, Created at, Updated at, Request Status, Payment method, Tracking company, Tracking ID, Tracking link, Tracking Label link. Detail panel lists the linked requested SKUs.",
+      "at": "10:57 to 12:41",
+      "where": "Sidebar: Shipments"
+    },
+    {
+      "name": "SKUs available",
+      "shows": "Columns: Category, Model, Product, Price, Quantities recommended, SKU. Warranty and iPhone, iPad and Laptop SKUs listed.",
+      "at": "11:48 to 11:57",
+      "where": "Sidebar: SKUs available"
+    },
+    {
+      "name": "Pending QC",
+      "shows": "Filter All; No items at the time shown.",
+      "at": "13:00",
+      "where": "Sidebar: Pending QC"
+    },
+    {
+      "name": "All inventory",
+      "shows": "Category tree: Naif COD reject 0, Naif return 0, Invalid claim 470, Fulfillment 171 (expandable: Yes 2, Needs QC 0, Needs fixing 0, Perfect condition 0, (empty) 169), UGC Return 0, At fixing company 0, Auction 455. Columns: SKU, Name, Inventory days, Created at, Status, Initial quantity, Current quantity, Initial price, Price override, Current price, Supplier.",
+      "at": "13:04 to 13:32",
+      "where": "Sidebar: All inventory"
+    },
+    {
+      "name": "Fulfilment live inventory",
+      "shows": "Filter Fulfillment 171. Rows grouped by supplier; the visible rows all show Status Live. Columns as listed in the facts; scrolling right adds Notes, Product ID, Variant ID, Request product ID, Created by, Updated at, Updated by, Days since last charge. No charge, request or return button is visible.",
+      "at": "13:25 to 14:32",
+      "where": "Sidebar: Fulfilment live inventory"
+    },
+    {
+      "name": "Inventory to return",
+      "shows": "Filter Fulfillment 12. Group headers Ain Al Tair 1, Al Nahr Al Thahabi 1, DDH 5, R3 Telco Electronics 5; 7 rows are shown (see unclear). Columns: SKU, Name, Inventory days, Price delta, Return request at, Status, Current quantity, Initial quantity, Created at, Initial price, Price override.",
+      "at": "14:41 to 14:53",
+      "where": "Sidebar: Inventory to return"
+    },
+    {
+      "name": "Supplier inventory",
+      "shows": "Filter list: All, Live 171, Out of stock 0. Columns: SKU, Name, Inventory days, Created at, Status, Initial quantity, Current quantity, Initial price, Price override, Current price, Supplier. Groups include 100 Miles and 971 Fixing (All view).",
+      "at": "14:57 to 15:08",
+      "where": "Sidebar: Supplier inventory"
+    },
+    {
+      "name": "Inventory exits",
+      "shows": "Supplier filter list with counts (All, (empty) 17, 100 Miles 106, 971 Fixing 101, AAA Electronics 199, Ain Al Tair 87, Al Nafees 200, Al Nahr Al Thahabi 104, and others). Group TDRA 296. Columns: SKU, Name, Order help, IMEI, Type, Reason for return, Comment, Quantity before, Quantity after, Tracking ID (cut off).",
+      "at": "15:14 to 15:18",
+      "where": "Sidebar: Inventory exits"
+    },
+    {
+      "name": "Menu items seen but not opened",
+      "shows": "Naif to drop price, Stock control, Invalids to fix, Charge inventory, Box inventory, Packaging request, Fulfillment expenses, About, App Gallery. Not explained in this part.",
+      "at": "14:41 to 15:14",
+      "where": "Sidebar"
+    },
+    {
+      "name": "Second browser tab 'Seller starter pack - EN versi...' (truncated)",
+      "shows": "A second tab is open throughout (Google Drive document icon). It is never opened or mentioned in the narration. Not verified whether it holds the packaging or shipping rules.",
+      "at": "10:25 onward",
+      "where": "Browser tab bar"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Fulfillment app",
+      "meaning": "The Revibe - Fulfillment App, opened in the browser at appsheet.com. Used to see requests, shipments and inventory for sellers.",
+      "at": "10:25"
+    },
+    {
+      "term": "Request products",
+      "meaning": "Product requests from sellers, grouped by supplier and by Request Status (Open, Closed, Cancelled groups in the left list).",
+      "at": "10:25"
+    },
+    {
+      "term": "Request Status",
+      "meaning": "Status column. On Request products the values seen are Requested and Cancelled. On Shipments the sections seen are Requested, AWB created, Under QC and Completed. Trainer also names warehouse received and picked up, which are not seen on screen.",
+      "at": "10:40"
+    },
+    {
+      "term": "Buybox supplier",
+      "meaning": "Field on a request row; the value 305 is shown in the example. The trainer asks about the buy box price (see unclear).",
+      "at": "10:28"
+    },
+    {
+      "term": "Quantity recommended / Quantity Sent",
+      "meaning": "Two quantity fields on a request row (3 and 3 in the example). The screen does not explain them further. The trainer ties Quantity Sent to the total price.",
+      "at": "10:25"
+    },
+    {
+      "term": "Total price",
+      "meaning": "Price times the number of units sent, per the trainer; 304 x 3 = 912 on screen.",
+      "at": "10:32"
+    },
+    {
+      "term": "Payment method '100% - After sales'",
+      "meaning": "Payment method value shown on requests and shipments. Its meaning beyond the label is not explained.",
+      "at": "10:25"
+    },
+    {
+      "term": "Shipment",
+      "meaning": "A seller's sending of requested products, with tracking details, a Request Status and a Tracking company. The trainer says the shipment is sent to ReviveLab.",
+      "at": "10:57"
+    },
+    {
+      "term": "AWB (airway bill)",
+      "meaning": "Airway bill for a shipment. Shown as the status 'AWB created' on Shipments. The trainer says it is printed and put on the package (the object is cut off in the speech).",
+      "at": "12:13"
+    },
+    {
+      "term": "Tracking Label link",
+      "meaning": "Link field on a shipment; a Google Drive file link on screen.",
+      "at": "12:21"
+    },
+    {
+      "term": "Quiqup",
+      "meaning": "Courier shown as Tracking company on shipments. Spoken as the courier that picks up at the seller's office; the 15 kg per box limit is spoken only.",
+      "at": "11:24"
+    },
+    {
+      "term": "ReviveLab",
+      "meaning": "Place the trainer says the seller must ship the requested products to. The name does not appear on any screen, so its spelling cannot be checked.",
+      "at": "11:16"
+    },
+    {
+      "term": "Pending QC",
+      "meaning": "Page named Pending QC; empty when shown.",
+      "at": "13:00"
+    },
+    {
+      "term": "Under QC",
+      "meaning": "Shipment status section on the Shipments page (ReNova Tech row shows Under QC).",
+      "at": "11:03"
+    },
+    {
+      "term": "Fulfillment (category)",
+      "meaning": "Inventory category in All inventory, with 171 items. The trainer says it is the only category the KAM cares about.",
+      "at": "13:18"
+    },
+    {
+      "term": "Fulfilment live inventory",
+      "meaning": "Products live in the fulfilment (171 at recording), grouped by supplier.",
+      "at": "13:27"
+    },
+    {
+      "term": "Inventory days",
+      "meaning": "Number of days shown per row. The trainer says 'in the warehouse for 33 days 36 days' (see unclear). Row colours (red, green, yellow) are not explained.",
+      "at": "13:46"
+    },
+    {
+      "term": "Initial price / Price override / Current price",
+      "meaning": "Three price columns. Price override is a replacement price; on the rows shown, Current price equals Price override when one is set and the Initial price otherwise.",
+      "at": "13:42"
+    },
+    {
+      "term": "Price delta",
+      "meaning": "Column on Inventory to return showing a percentage (for example -5.88%). Its basis is not explained.",
+      "at": "14:41"
+    },
+    {
+      "term": "Inventory to return",
+      "meaning": "Products that have been in the fulfilment too long, or that the seller himself asked to return (trainer).",
+      "at": "14:41"
+    },
+    {
+      "term": "Supplier inventory",
+      "meaning": "Products by supplier, split by Status Live or Out of stock.",
+      "at": "14:53"
+    },
+    {
+      "term": "Inventory exits",
+      "meaning": "Page listing stock removed from a seller's stock, with IMEI, Type and quantities before and after.",
+      "at": "15:09"
+    },
+    {
+      "term": "TDRA",
+      "meaning": "Value of the Type column on Inventory exits, and a suffix in some SKU and product names. The video does not define it.",
+      "at": "15:18"
+    },
+    {
+      "term": "Naif COD reject / Naif return",
+      "meaning": "Inventory category names in All inventory. Not defined in the video.",
+      "at": "13:08"
+    },
+    {
+      "term": "Invalid claim / UGC Return / At fixing company / Auction",
+      "meaning": "Inventory category names in All inventory. Not defined in the video.",
+      "at": "13:08"
+    },
+    {
+      "term": "SKU",
+      "meaning": "Product code; the trainer says the packaging sticker must show the SKU.",
+      "at": "11:50"
+    },
+    {
+      "term": "IMEI",
+      "meaning": "Device identifier shown per row on Inventory exits.",
+      "at": "15:14"
+    },
+    {
+      "term": "Warranty (SKU category)",
+      "meaning": "Category value for warranty plans (for example 2-years-extended-warranty-plan at 9,999).",
+      "at": "11:48"
+    },
+    {
+      "term": "KAM",
+      "meaning": "The role the trainer addresses (spoken as 'cam' in the transcript). The video does not expand the term.",
+      "at": "14:14"
+    }
+  ],
+  "asr_fixes": [
+    {
+      "at": "13:08",
+      "heard": "naive cash and delivery reject",
+      "correct": "Naif COD reject",
+      "basis": "Screen t00784.jpg shows the All inventory category 'Naif COD reject'."
+    },
+    {
+      "at": "13:08",
+      "heard": "{knife?} return",
+      "correct": "Naif return",
+      "basis": "Screen t00784.jpg shows the All inventory category 'Naif return'."
+    },
+    {
+      "at": "13:08",
+      "heard": "UGC return at fixing company",
+      "correct": "UGC Return; At fixing company",
+      "basis": "Screen t00784.jpg shows the separate categories 'UGC Return' and 'At fixing company'."
+    },
+    {
+      "at": "11:24",
+      "heard": "{quick?} {up?}",
+      "correct": "Quiqup",
+      "basis": "Screen t00663.jpg and t00741.jpg show Tracking company 'Quiqup'."
+    },
+    {
+      "at": "12:28",
+      "heard": "quick up",
+      "correct": "Quiqup",
+      "basis": "Screen t00741.jpg shows the tracking link track-parcel.quiqup.com next to Tracking company Quiqup."
+    },
+    {
+      "at": "10:57",
+      "heard": "airway {bill?} created",
+      "correct": "AWB created",
+      "basis": "Screen t00663.jpg shows the Shipments section 'AWB created'."
+    },
+    {
+      "at": "13:39",
+      "heard": "alta",
+      "correct": "Ain Al Tair",
+      "basis": "Screen t00818.jpg shows the group 'Ain Al Tair' with the SKU 02-59-94-46-18-04-20-22-03-11 under it. The trainer uses the short form 'alta'."
+    },
+    {
+      "at": "14:14",
+      "heard": "as a cam",
+      "correct": "as a KAM",
+      "basis": "Not on screen. The audience label is KAM (from the pack header), and the trainer is addressing the viewer in that role. Lower certainty than the screen-based fixes."
+    },
+    {
+      "at": "14:41",
+      "heard": "Inventorito returns",
+      "correct": "Inventory to return",
+      "basis": "Screen t00881.jpg shows the left menu item 'Inventory to return'."
+    }
+  ],
+  "unclear": [
+    {
+      "at": "10:28",
+      "issue": "The trainer asks for the 'buy box price', but the field on screen is labelled 'Buybox supplier' and shows 305, while Price shows 304. It is not clear whether 305 is a price or a supplier value."
+    },
+    {
+      "at": "10:40",
+      "issue": "'Warehouse received' is spoken as a request status but is not visible on screen. Only Requested and Cancelled appear on Request products."
+    },
+    {
+      "at": "10:40",
+      "issue": "Cancellation reasons ('missing item', 'rejected') and 'the lab' are spoken but not shown on screen. It is not confirmed that 'the lab' is ReviveLab (ReviveLab is named at 11:16)."
+    },
+    {
+      "at": "10:57",
+      "issue": "'Picked up' is spoken as a shipment status but is not shown on screen. The shipment sections are Requested, AWB created, Under QC and Completed."
+    },
+    {
+      "at": "11:16",
+      "issue": "'It's free' follows the ReviveLab shipping sentence, but the speech does not say what is free (shipping, pickup or both), or for whom. Not stated as a fact."
+    },
+    {
+      "at": "11:33",
+      "issue": "'He must put everything in the random, safe box' and 'no need to use a {revive?} box' are garbled. It is unclear what box type is required, and whether a Revibe-branded box is needed."
+    },
+    {
+      "at": "12:42",
+      "issue": "'Several shipments contained several boxes contained in the same shipment' is garbled. It is unclear whether the seller or Revibe creates the airway bill for multi-box shipments, and the 30-laptop example is not confirmed."
+    },
+    {
+      "at": "12:51",
+      "issue": "'Once the {product?} are received so here pending qc no' is partly marked. Whether received products always go to Pending QC is not confirmed."
+    },
+    {
+      "at": "12:28",
+      "issue": "The 15 kg per box limit is spoken only. No screen shows it, and the number has not been checked against any other source."
+    },
+    {
+      "at": "13:46",
+      "issue": "The trainer says '33 days' then '36 days'. The screen shows 36 for the row. It is unclear whether 33 was a slip or a different figure, so it is not used as an ASR fix."
+    },
+    {
+      "at": "14:08",
+      "issue": "The charge, request and return buttons are mentioned, but no such buttons are visible in the frames, so their location cannot be confirmed."
+    },
+    {
+      "at": "14:14",
+      "issue": "'A price of drop two percent' is unclear. Nothing on screen matches a 2% rule, and the Price delta column (e.g. -5.88%) has no stated basis."
+    },
+    {
+      "at": "14:32",
+      "issue": "Trainer recommends connecting with the seller's password. This is a credential-sharing practice that is not described as an approved procedure on screen. Confirm whether it is allowed before treating it as a KAM procedure."
+    },
+    {
+      "at": "14:41",
+      "issue": "Inventory to return shows the Fulfillment filter as 12. The group headers DDH 5 and R3 Telco Electronics 5 do not match the 2 DDH rows and 3 R3 Telco rows shown; only 7 of the 12 rows are visible. The reason is not shown."
+    },
+    {
+      "at": "14:48",
+      "issue": "'If to drop price you don't need to consider it supplier inventory' is garbled. The rule for when an item is excluded from supplier inventory cannot be stated reliably. The Naif to drop price page is never opened."
+    },
+    {
+      "at": "14:57",
+      "issue": "In Supplier inventory the Out of stock filter badge shows 0, yet rows with Out of stock status are listed when that filter is selected (t00900.jpg, t00903.jpg)."
+    },
+    {
+      "at": "15:18",
+      "issue": "TDRA is shown on screen and given as an example reason, but its meaning is never defined in the video."
+    },
+    {
+      "at": "11:48",
+      "issue": "The purpose of the SKUs available page and of its 'Quantities recommended' column is not explained by the trainer."
+    },
+    {
+      "at": "12:17",
+      "issue": "The meaning of the red, yellow and green dots next to Inventory days is not explained."
+    },
+    {
+      "at": "10:25",
+      "issue": "The second browser tab 'Seller starter pack - EN versi...' is open in every frame but never opened or mentioned. It is not verified that it holds the packaging or shipping rules."
+    }
+  ],
+  "outdated": [],
+  "privacy": [
+    {
+      "at": "10:25",
+      "what": "Request detail (t00625.jpg) shows Created by and Updated by as nmtecommerce@gmail.com (a seller account email).",
+      "frame": "t00625.jpg"
+    },
+    {
+      "at": "11:03",
+      "what": "Shipments list (t00663.jpg) shows seller account emails in Created by, for example smartreachtrading@gmail.com, zabmobiletrading@gmail.com, smartdeviceworldllc@gmail.com and sales@medianatrading.ae, plus yahia.elbellaj@revibe.me (a revibe.me address against the Nisar Line row).",
+      "frame": "t00663.jpg"
+    },
+    {
+      "at": "12:21",
+      "what": "Shipment detail for 41fa1c7c (t00741.jpg) shows Created by zabmobiletrading@gmail.com (seller email) and Updated by tech@revibe.me, plus Tracking ID 27242172 and the Tracking link track-parcel.quiqup.com.",
+      "frame": "t00741.jpg"
+    },
+    {
+      "at": "14:06",
+      "what": "Fulfilment live inventory scrolled view (t00846.jpg) shows Updated by addresses a.altairdxb@gmail.com, nafeesazhar73@gmail.com and medi.umair786@gmail.com (seller accounts), and revibe.me staff addresses such as muhammad.azeem@revibe.me, faizan.shaikh@revibe.me and shijesh.kalengadan@revibe.me in Created by and Updated by.",
+      "frame": "t00846.jpg"
+    },
+    {
+      "at": "15:14",
+      "what": "Inventory exits (t00914.jpg) shows 15-digit IMEI device identifiers tied to seller stock rows, for example 356557849705487 on row 010118-071401. These are device identifiers rather than personal data, but they are linked to seller stock.",
+      "frame": "t00914.jpg"
+    }
+  ],
+  "audit": {
+    "checked": 138,
+    "removed": [
+      {
+        "statement": "Fact: 'Trainer says shipping to ReviveLab is free for the seller (it's free).'",
+        "reason": "The speech says 'it's free' but does not say what is free, or for whom. Moved to unclear at 11:16 rather than stated as a rule."
+      },
+      {
+        "statement": "Fact: 'Airway bill covering several boxes; 30 laptops implies the seller creates its own airway bill' (low).",
+        "reason": "The sentence is garbled (see unclear 12:42). The 'implied' statement goes beyond the speech and is removed."
+      },
+      {
+        "statement": "ASR fix: '33 days 36 days' -> '36 days' (13:46).",
+        "reason": "This is a spoken self-correction or a slip, not a clear mishearing, so it is not an ASR fix. The 33 versus 36 point is kept in unclear."
+      }
+    ],
+    "corrected": [
+      {
+        "before": "Step 10:25 action: 'Opens a request row so the detail panel shows on the right.'",
+        "after": "Shows request row 010112-060201 already open in the detail panel.",
+        "reason": "t00625 already shows the row selected and the detail panel open at 10:25; nothing is opened in the frame."
+      },
+      {
+        "before": "Step 10:32 action: 'Points at the quantity and price fields.'",
+        "after": "The cursor is on Quantity Sent (3); Price 304 and Total price 912 are shown.",
+        "reason": "t00635 shows the cursor only on Quantity Sent."
+      },
+      {
+        "before": "Step 10:38 action: 'Moves the cursor to the Request Status and SKU column headers.'",
+        "after": "The cursor sits on the SKU column header only.",
+        "reason": "t00638 shows the cursor on the SKU column header, not on Request Status."
+      },
+      {
+        "before": "Step 11:57 frame t00717: 'SKUs available, cursor on the SKU column.'",
+        "after": "t00717: cursor on the Price 1,050 cell of iphone-13512 GBVery GoodBlue TDRA; t00713: cursor on SKU 010118-091603-TDRA.",
+        "reason": "The cursor position in t00717 is on the price cell, not the SKU column."
+      },
+      {
+        "before": "Step 12:41 evidence: 'Shipment detail scrolled to the related Requested products list (010121-071101, 010111-060601, 010103-060602 and others).'",
+        "after": "t00761 shows the same detail scrolled down to Request Status, Tracking fields and Created by; the linked SKU list is in t00741.",
+        "reason": "The SKU list is visible in t00741, not in the scrolled-down t00761 frame."
+      },
+      {
+        "before": "Step 13:25 says quote timed 13:25 ('live in the fulfillment ... this seller ain't').",
+        "after": "Same quote, timed 13:34 (kept in step 13:35 evidence).",
+        "reason": "The transcript line is at 13:34."
+      },
+      {
+        "before": "ASR fix timed 13:34: 'this seller {ain't?} alta' -> 'this seller Ain Al Tair'.",
+        "after": "ASR fix timed 13:39: 'alta' -> 'Ain Al Tair'.",
+        "reason": "'alta' is spoken at 13:39; 13:34 contains 'this seller {ain't?}' only."
+      },
+      {
+        "before": "Quote 'to consider it supplier inventory ... split between everything that is now out of stock' timed 14:53 (step 14:49 and fact on Supplier inventory).",
+        "after": "Timed 14:56.",
+        "reason": "The transcript line is at 14:56."
+      },
+      {
+        "before": "Shipments fact: 'Completed (1,056)'.",
+        "after": "Completed 1056.",
+        "reason": "The screen and the transcript show the number 1056 without a comma; copy the number exactly."
+      },
+      {
+        "before": "Fact: 'The seller creates a shipment and requests products inside it, and must ship those requested products to ReviveLab.'",
+        "after": "Per the trainer, the requested products inside a shipment must be shipped by the seller to ReviveLab.",
+        "reason": "The speech does not say the seller creates the shipment; that is implied."
+      },
+      {
+        "before": "Fact: 'Quiqup pickup is limited to 15 kg per box' (confidence high).",
+        "after": "Trainer says ... Spoken only (confidence medium).",
+        "reason": "The number is spoken only and no screen shows it. Confidence is lowered accordingly."
+      },
+      {
+        "before": "Fact: bubble wrap rule (confidence high).",
+        "after": "Trainer says each device must be wrapped in bubble wrap. Speech only (confidence medium).",
+        "reason": "No frame shows packing, so the rule rests on speech alone."
+      },
+      {
+        "before": "Fact: Pending QC: 'the trainer says the seller does not need to worry about them'.",
+        "after": "The trainer's words after 'once the products are received' are garbled, so it is not confirmed when products appear there.",
+        "reason": "'Pending qc no' does not support 'does not need to worry', and 'appear in Pending QC' is an inference."
+      },
+      {
+        "before": "Warning fact on the blank Name: 'the trainer says ... he must fix it'.",
+        "after": "The trainer says 'the name disappeared i must fix it' (the trainer says 'I must fix it').",
+        "reason": "The transcript says 'i must fix it', not 'he must fix it'."
+      },
+      {
+        "before": "Fact: 'Fulfillment only category the KAM needs to look at'.",
+        "after": "The trainer says the only category 'you care about' is Fulfillment.",
+        "reason": "Keep the trainer's wording; 'needs to look at' goes beyond the speech."
+      },
+      {
+        "before": "Term 'Inventory days': 'trainer: in the warehouse for 36 days'.",
+        "after": "The trainer says 'in the warehouse for 33 days 36 days' (see unclear); row colours red, green and yellow are not explained.",
+        "reason": "Quote the speech exactly; the 36 days figure is what the screen shows."
+      },
+      {
+        "before": "Term AWB: 'Airway bill ... created before pickup'.",
+        "after": "Airway bill for a shipment. Shown as the status 'AWB created' on Shipments. Trainer says it is printed and put on the package.",
+        "reason": "'Created before pickup' is an inference; the screen shows AWB created but not the pickup order."
+      },
+      {
+        "before": "Term Pending QC: 'Page listing products waiting for quality control'.",
+        "after": "Page named Pending QC; empty when shown.",
+        "reason": "The description of waiting products is inferred from the name only."
+      },
+      {
+        "before": "Term Initial price: 'the original price'.",
+        "after": "Initial price is the price column value; Price override is a replacement price.",
+        "reason": "'Original' is an inference; the screen only labels the column."
+      },
+      {
+        "before": "Term Inventory exits: '(trainer)' for the columns.",
+        "after": "Columns are visible on the screen; the purpose is from the trainer.",
+        "reason": "The column list comes from the screen, not from the speech."
+      },
+      {
+        "before": "Screen Inventory to return: 'Fulfillment 12 ... seven rows visible' and unclear 'count difference not shown'.",
+        "after": "Group headers Ain Al Tair 1, Al Nahr Al Thahabi 1, DDH 5, R3 Telco Electronics 5 sum to 12; 2 DDH and 3 R3 Telco rows are shown.",
+        "reason": "The headers show the counts behind the 12, so the unclear point is the group-header versus visible-row mismatch."
+      },
+      {
+        "before": "Screen Fulfilment live inventory: 'rows grouped by supplier, all Status Live'.",
+        "after": "Visible rows all show Status Live.",
+        "reason": "Only visible rows were checked, not the whole 171."
+      },
+      {
+        "before": "Screen second browser tab: 'Seller starter pack - EN version'.",
+        "after": "'Seller starter pack - EN versi...' (truncated on screen).",
+        "reason": "The tab title is cut off in the frames."
+      },
+      {
+        "before": "Privacy 11:03: 'yahia.elbellaj@revibe.me (staff)'.",
+        "after": "'a revibe.me address (internal)'.",
+        "reason": "The frame shows the domain only; calling it staff is an inference."
+      },
+      {
+        "before": "Term Naif to drop price / Term SKUs etc. not corrected; Naif to drop price was listed as 'the purpose'.",
+        "after": "Menu item name only; not opened in this part.",
+        "reason": "The purpose is inferred from the name; the page is never opened."
+      }
+    ],
+    "added": [
+      "Step 13:32 (frame t00812): All inventory still displayed with the cursor on the Fulfillment 171 count, just before the Fulfilment live inventory page opens.",
+      "Step 11:57 now cites frame t00713 (cursor on SKU 010118-091603-TDRA), which no claim cited before.",
+      "Step 14:49 now cites frame t00890 (iPad-Air row highlighted; Inventory days 8, Price delta -4.22%).",
+      "Step 14:53 now cites frame t00893 (cursor on Naif to drop price while Inventory to return is still displayed).",
+      "Step 15:03 now cites frame t00908 (Live 171 selected, cursor near the top search bar, column headers).",
+      "Fact: Inventory to return group headers Ain Al Tair 1, Al Nahr Al Thahabi 1, DDH 5, R3 Telco Electronics 5 (frame t00881), with the rows actually shown.",
+      "Fact: Price delta values on Inventory to return (frame t00881): -5.88%, -2.22%, 21.35%, 26.55%, -4.22%, -3.73%, -4.23%.",
+      "Fact: Supplier inventory with Live 171 selected shows group headers Ain Al Tair 3, Al Nafees 10, Al Nahr Al Thahabi 1, Arslan E Commerce 30, Bwireless Technology 16 and DDH 5 (frame t00908).",
+      "Unclear 14:41: group headers DDH 5 and R3 Telco Electronics 5 versus 2 and 3 visible rows (frame t00881).",
+      "Unclear 12:28: the 15 kg per box figure is spoken only."
+    ]
+  }
+}

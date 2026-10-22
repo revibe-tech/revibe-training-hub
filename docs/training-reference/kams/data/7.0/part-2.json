@@ -1,0 +1,1265 @@
+{
+  "summary": "Part 2 of 4 of \"7.0 Refund policy (Seller)\" (03:41-06:52) covers the seller clock. Revibe's app slide shows which claim stages run the seller's clock in Saudi (SA) versus AE, ZA and other markets. It explains why the SA clock starts on day 1 (the AWB), says the courier choice is the seller's, shows how to raise a resolution request to freeze the clock, and shows the claims-list colour markers that flag claims at risk. The pack ends mid-sentence at 06:48. All 40 frames were opened (t00221 to t00404).",
+  "frames_opened": 40,
+  "steps": [
+    {
+      "at": "03:41",
+      "screen": "Revibe 'The Clock' slide: 'Which stages count against you' (frames t00221 to t00349)",
+      "action": "Trainer shows the stage timeline for SA (top row) and AE, ZA and others (bottom row). The stage labels are the names used in the Revibe App (footer). The legend shows light blue for Revibe (clock stopped) and dark blue for Seller (clock running).",
+      "why": "",
+      "says": "",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "03:41",
+          "frame": "t00221.jpg",
+          "quote": "Subtitle on screen: 'The timer only runs while the claim sits on the seller side. Dark blue = your clock is running.' Legend: light blue dot 'Revibe — the clock is stopped', dark blue dot 'Seller — the clock is running'. Footer: 'Stage names as they appear in the Revibe App'. No transcript line is spoken over this subtitle at 03:41."
+        }
+      ]
+    },
+    {
+      "at": "03:48",
+      "screen": "Same slide, SA row In transit bar (frames t00228, t00238)",
+      "action": "Trainer points at the dark-blue In transit section of the SA bar and says the seller bears that time.",
+      "why": "",
+      "says": "In transit it's also on your time even if it's the responsibility of the delivery company.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "03:48",
+          "frame": "t00228.jpg",
+          "quote": "In transit it's also on your time even if it's the responsibility of the delivery company."
+        },
+        {
+          "kind": "see",
+          "at": "03:58",
+          "frame": "t00238.jpg",
+          "quote": "Cursor on the dark-blue In transit section of the SA bar."
+        }
+      ]
+    },
+    {
+      "at": "03:53",
+      "screen": "Same slide (frames t00233, t00238)",
+      "action": "Trainer explains why the seller carries the transit time.",
+      "why": "Because we believe that it's your choice to choose the right and the most efficient delivery company to get the product quickly back.",
+      "says": "Why? Because we believe that it's your choice to choose the right and the most efficient delivery company to get the product quickly back {you.?}",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "03:54",
+          "frame": "t00233.jpg",
+          "quote": "Why?"
+        },
+        {
+          "kind": "say",
+          "at": "03:55",
+          "frame": "t00233.jpg",
+          "quote": "Because we believe that it's your choice to choose the right and the most efficient delivery company to"
+        },
+        {
+          "kind": "say",
+          "at": "04:02",
+          "frame": "t00238.jpg",
+          "quote": "get the product quickly back {you.?}"
+        }
+      ]
+    },
+    {
+      "at": "04:05",
+      "screen": "Same slide, SA row Under QC and Under revision (frames t00238, t00247)",
+      "action": "Trainer says Under QC is on the seller side. He says under revision applies if the seller declares the claim invalid, and that the seller then needs to provide additional proof that the claim is invalid.",
+      "why": "",
+      "says": "Under QC {of?} course is on your side as well {and?} under revision if you declare the claim as being invalid and that you need to provide additional proof to show that the claim is invalid.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "04:05",
+          "frame": "t00238.jpg",
+          "quote": "Under QC {of?} course is on your side as well {and?} under revision if you declare the claim"
+        },
+        {
+          "kind": "say",
+          "at": "04:11",
+          "frame": "t00247.jpg",
+          "quote": "as being invalid and that you need to provide additional proof to show that the claim is invalid."
+        }
+      ]
+    },
+    {
+      "at": "04:19",
+      "screen": "Same slide, SA row Pending LAB collection and Ship back under collection (frames t00259, t00263)",
+      "action": "Trainer explains the seller's part in the Pending LAB collection and ship-back stages.",
+      "why": "because you will have to send to the lab and to ship back",
+      "says": "Pending lab collection because you will have to send to the lab and to ship back ship back under collection and ship back because it's your responsibility to ship back efficiently {quickly?} with an efficient delivery company to the customer.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "04:19",
+          "frame": "t00259.jpg",
+          "quote": "Pending lab collection because you will have to send to the lab and to ship back ship back"
+        },
+        {
+          "kind": "say",
+          "at": "04:25",
+          "frame": "t00263.jpg",
+          "quote": "under collection and ship back because it's your responsibility to ship back efficiently {quickly?} with an efficient delivery"
+        },
+        {
+          "kind": "say",
+          "at": "04:34",
+          "frame": "t00270.jpg",
+          "quote": "company to the customer."
+        }
+      ]
+    },
+    {
+      "at": "04:37",
+      "screen": "Same slide, AE / ZA / others row and card (frames t00276, t00284)",
+      "action": "Trainer contrasts the other markets with SA and names the three seller-side stages.",
+      "why": "",
+      "says": "In UAE, South Africa and other countries, it's slightly different. Only under QC, under revision and pending lab collection are on your side.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "04:37",
+          "frame": "t00276.jpg",
+          "quote": "In UAE, South Africa and other countries, it's slightly different."
+        },
+        {
+          "kind": "say",
+          "at": "04:40",
+          "frame": "t00276.jpg",
+          "quote": "Only under QC, under revision and pending lab collection are on your side."
+        },
+        {
+          "kind": "see",
+          "at": "04:44",
+          "frame": "t00284.jpg",
+          "quote": "Card 'AE · ZA · others · 3 stages': 'Under QC · Under revision · Pending LAB collection.'"
+        }
+      ]
+    },
+    {
+      "at": "04:48",
+      "screen": "Legend under the timelines (frames t00284, t00289, t00293)",
+      "action": "Trainer explains the colour legend: light blue is Revibe, dark blue is the seller.",
+      "why": "",
+      "says": "Light blue, the clock is stopped because it's on revive side to take action {and?} dark blue, it's on your side, the clock is running.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "04:48",
+          "frame": "t00284.jpg",
+          "quote": "Legend: 'Revibe — the clock is stopped' (light blue) and 'Seller — the clock is running' (dark blue)."
+        },
+        {
+          "kind": "say",
+          "at": "04:50",
+          "frame": "t00289.jpg",
+          "quote": "Light blue, the clock is stopped because it's on revive side to take action {and?} dark blue, it's"
+        },
+        {
+          "kind": "say",
+          "at": "04:56",
+          "frame": "t00293.jpg",
+          "quote": "on your side, the clock is running."
+        }
+      ]
+    },
+    {
+      "at": "04:58",
+      "screen": "Slide card 'Why the clock starts on day 1 in SA' (frames t00299, t00301, t00313)",
+      "action": "Trainer asks why the SA count starts on day 1 and answers that the seller must create the airway bill (AWB) quickly.",
+      "why": "It's because it's your responsibility to create the airway bill, and nothing is moving until you issue it.",
+      "says": "In Saudi, why do we start the count on day one? It's because it's your responsibility to create the airway bill, and nothing is moving until you issue it. So you have to create the airway bill quickly.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "04:58",
+          "frame": "t00299.jpg",
+          "quote": "In Saudi, why do we start the count on day one?"
+        },
+        {
+          "kind": "say",
+          "at": "05:03",
+          "frame": "t00301.jpg",
+          "quote": "It's because it's your responsibility to create the airway bill,"
+        },
+        {
+          "kind": "say",
+          "at": "05:08",
+          "frame": "t00301.jpg",
+          "quote": "and nothing is moving until you issue it."
+        },
+        {
+          "kind": "say",
+          "at": "05:10",
+          "frame": "t00301.jpg",
+          "quote": "So you have to create the airway bill quickly."
+        },
+        {
+          "kind": "see",
+          "at": "05:01",
+          "frame": "t00301.jpg",
+          "quote": "Card 'Why the clock starts on day 1 in SA' bullet: 'The AWB is yours to create — nothing moves until you issue it.'"
+        }
+      ]
+    },
+    {
+      "at": "05:14",
+      "screen": "Same card, courier bullet (frames t00313, t00318, t00320)",
+      "action": "Trainer says the courier choice is the seller's and that a reliable, efficient courier keeps collection and transit short.",
+      "why": "",
+      "says": "Also, during the transit period, the courier is your choice. So, as I said, selecting an efficient courier that keeps the collection and the transit.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "05:14",
+          "frame": "t00313.jpg",
+          "quote": "Also, during the transit period, the courier is your choice."
+        },
+        {
+          "kind": "say",
+          "at": "05:20",
+          "frame": "t00320.jpg",
+          "quote": "selecting an efficient courier that keeps the collection and the transit."
+        },
+        {
+          "kind": "see",
+          "at": "05:14",
+          "frame": "t00313.jpg",
+          "quote": "Card bullet: 'The courier is your choice: a reliable, efficient one keeps the collection and the transit short.'"
+        }
+      ]
+    },
+    {
+      "at": "05:26",
+      "screen": "Same card (frames t00324, t00327, t00330, t00332, t00335)",
+      "action": "Trainer restates that choosing a reliable, efficient courier is the seller's responsibility.",
+      "why": "to be able to get the devices back quickly and hence reducing the time of transit.",
+      "says": "So selecting a reliable and efficient courier company is your responsibility to be able to get the devices quickly and hence reducing the time of transit.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "05:26",
+          "frame": "t00324.jpg",
+          "quote": "So selecting a reliable and efficient courier company is your responsibility to be able to get the devices"
+        },
+        {
+          "kind": "say",
+          "at": "05:35",
+          "frame": "t00335.jpg",
+          "quote": "quickly and hence reducing the time of transit."
+        }
+      ]
+    },
+    {
+      "at": "05:40",
+      "screen": "Slide cards 'SA · 9 stages run your clock' and 'AE · ZA · others · 3 stages' (frames t00335, t00345)",
+      "action": "Trainer compares the number of seller-side stages by market: 9 in SA, 3 in AE, ZA and others.",
+      "why": "",
+      "says": "So in Saudi you have {9?} stages on your side and in UAE South Africa you have 3 stages.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "05:40",
+          "frame": "t00335.jpg",
+          "quote": "So in Saudi you have {9?} stages on your side and in UAE South Africa you have 3"
+        },
+        {
+          "kind": "say",
+          "at": "05:47",
+          "frame": "t00345.jpg",
+          "quote": "stages."
+        },
+        {
+          "kind": "see",
+          "at": "05:40",
+          "frame": "t00345.jpg",
+          "quote": "Cards: 'SA · 9 stages run your clock' listing 9 stages; 'AE · ZA · others · 3 stages'."
+        }
+      ]
+    },
+    {
+      "at": "05:48",
+      "screen": "Slide card 'Under collection is never counted' (frames t00345, t00349)",
+      "action": "Trainer says under-collection time is never counted against the seller.",
+      "why": "in every market, the time the customer takes to hand the device to the courier sits on Revibe's side and your clock is stopped.",
+      "says": "As I said, under {collection?} is never counted, because in every market, the time the customer takes to hand the device to the courier sits on {revive?} side and your clock is stopped.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "05:48",
+          "frame": "t00345.jpg",
+          "quote": "As I said, under {collection?} is never counted, because in every market, the time the customer takes to"
+        },
+        {
+          "kind": "say",
+          "at": "05:54",
+          "frame": "t00349.jpg",
+          "quote": "hand the device to the courier sits on {revive?} side and your clock is stopped."
+        }
+      ]
+    },
+    {
+      "at": "06:00",
+      "screen": "Revibe 'Create a resolution request' slide (frames t00360 to t00398)",
+      "action": "Trainer introduces the resolution request as the way to report a blocker, then shows the path: claim page, Revibe Resolutions, Add Resolution.",
+      "why": "",
+      "says": "If you have any issue during the process, you can create a resolution request. You need to go to the claim and on the claim detailed page, you go to revive resolution and you can add a resolution.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "06:02",
+          "frame": "t00360.jpg",
+          "quote": "If you have any issue during the process, you can create a resolution request."
+        },
+        {
+          "kind": "say",
+          "at": "06:07",
+          "frame": "t00366.jpg",
+          "quote": "You need to go to the claim and on the claim detailed page, you go to revive resolution"
+        },
+        {
+          "kind": "say",
+          "at": "06:13",
+          "frame": "t00366.jpg",
+          "quote": "and you can add a resolution."
+        },
+        {
+          "kind": "see",
+          "at": "06:06",
+          "frame": "t00366.jpg",
+          "quote": "Panel 'Revibe Resolutions' with '+ Add Resolution' button and 'No resolutions yet'. Breadcrumb 'On the claim page · Revibe Resolutions → Add Resolution'."
+        }
+      ]
+    },
+    {
+      "at": "06:15",
+      "screen": "Same slide, card 1 'Raise it on the claim' (frames t00382, t00386)",
+      "action": "Trainer lists which blockers go in as a resolution request. The card on screen gives device issue, wrong item and missing information; iCloud is spoken only.",
+      "why": "",
+      "says": "If you have any issue, any blocker on your side, like device issue, wrong item, iCloud being blocked, {missing?} information, you can add a resolution.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "06:15",
+          "frame": "t00382.jpg",
+          "quote": "If you have any issue, any blocker on your side,"
+        },
+        {
+          "kind": "say",
+          "at": "06:19",
+          "frame": "t00382.jpg",
+          "quote": "like device issue, wrong item,"
+        },
+        {
+          "kind": "say",
+          "at": "06:23",
+          "frame": "t00382.jpg",
+          "quote": "iCloud being blocked, {missing?} information, you can add a resolution."
+        },
+        {
+          "kind": "see",
+          "at": "06:22",
+          "frame": "t00382.jpg",
+          "quote": "Card 1 'Raise it on the claim': 'Any blocker on your side — device issue, wrong item, missing information — goes in as a resolution request from the claim page.' iCloud is not on the card."
+        }
+      ]
+    },
+    {
+      "at": "06:28",
+      "screen": "Slide card 2 'The clock freezes' (frame t00386)",
+      "action": "Trainer says the clock freezes once a resolution is created.",
+      "why": "",
+      "says": "The clock is thus freezing. {From?} the moment the resolution is created, no working hours are counted against you on that claim.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "06:28",
+          "frame": "t00386.jpg",
+          "quote": "The clock is thus freezing."
+        },
+        {
+          "kind": "say",
+          "at": "06:31",
+          "frame": "t00386.jpg",
+          "quote": "{From?} the moment the resolution is created, no working hours are counted against you on that claim."
+        },
+        {
+          "kind": "see",
+          "at": "06:28",
+          "frame": "t00386.jpg",
+          "quote": "Card 2 'The clock freezes': 'From the moment the resolution is created, no working hours are counted against you on that claim.'"
+        }
+      ]
+    },
+    {
+      "at": "06:37",
+      "screen": "Slide card 3 'It restarts only when solved' (frames t00394, t00398)",
+      "action": "Trainer says the clock restarts only when the resolution is solved, not when an agent answers.",
+      "why": "",
+      "says": "{And?} it will restart only when the resolution is solved, not when a revive agent will answer.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "06:37",
+          "frame": "t00394.jpg",
+          "quote": "{And?} it will restart only when the resolution is solved, not when a revive agent will answer."
+        },
+        {
+          "kind": "see",
+          "at": "06:37",
+          "frame": "t00398.jpg",
+          "quote": "Card 3 'It restarts only when solved': 'An agent answering you does not restart the count. The clock resumes only once the resolution is marked as solved.'"
+        }
+      ]
+    },
+    {
+      "at": "06:42",
+      "screen": "Revibe 'Spot the claims at risk' slide with a claims-list screenshot (frames t00402, t00404)",
+      "action": "Trainer points to the colour markers on the claims list. The speech covers only the yellow warning before the pack ends; the slide shows four marker cards and the claims-list screenshot.",
+      "why": "",
+      "says": "Now in your claims portal you will be able to spot the claims at risk thanks to this color code {So?} yellow is the warning {So?} after day 6 in UAE and South Africa and other",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "06:42",
+          "frame": "t00402.jpg",
+          "quote": "Now in your claims portal you will be able to spot the claims at risk thanks to this"
+        },
+        {
+          "kind": "say",
+          "at": "06:48",
+          "frame": "t00404.jpg",
+          "quote": "color code {So?} yellow is the warning {So?} after day 6 in UAE and South Africa and other"
+        },
+        {
+          "kind": "see",
+          "at": "06:48",
+          "frame": "t00404.jpg",
+          "quote": "Four marker cards (Yellow, Orange, Red, Resetted) and a claims-list screenshot. The pack ends mid-sentence at this point."
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "type": "rule",
+      "statement": "The seller's clock runs only while the claim sits on the seller side. Revibe's side stops the clock. Dark blue means the seller's clock is running. Light blue means the clock is stopped on Revibe's side.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "03:41",
+          "frame": "t00221.jpg",
+          "quote": "Subtitle: 'The timer only runs while the claim sits on the seller side. Dark blue = your clock is running.' Legend: 'Revibe — the clock is stopped' (light blue), 'Seller — the clock is running' (dark blue)."
+        },
+        {
+          "kind": "say",
+          "at": "04:50",
+          "frame": "t00289.jpg",
+          "quote": "Light blue, the clock is stopped because it's on revive side to take action {and?} dark blue, it's"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "In Saudi (SA), 9 stages run the seller's clock: Pending collection, Collection failed, In transit, Under QC, Under revision, Pending LAB collection, To ship back, Ship back under collection, Shipped back.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "03:41",
+          "frame": "t00221.jpg",
+          "quote": "Card 'SA · 9 stages run your clock': 'Pending collection · Collection failed · In transit · Under QC · Under revision · Pending LAB collection · To ship back · Ship back under collection · Shipped back'."
+        },
+        {
+          "kind": "say",
+          "at": "05:40",
+          "frame": "t00335.jpg",
+          "quote": "So in Saudi you have {9?} stages on your side"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "In UAE, ZA and other markets, 3 stages run the seller's clock: Under QC, Under revision and Pending LAB collection.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "03:41",
+          "frame": "t00221.jpg",
+          "quote": "Card 'AE · ZA · others · 3 stages': 'Under QC · Under revision · Pending LAB collection.'"
+        },
+        {
+          "kind": "say",
+          "at": "04:40",
+          "frame": "t00276.jpg",
+          "quote": "Only under QC, under revision and pending lab collection are on your side."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "In UAE, ZA and other markets, collection and ship-back are run by Revibe, so they never cost the seller time.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "03:41",
+          "frame": "t00221.jpg",
+          "quote": "Card 'AE · ZA · others · 3 stages': 'Collection and ship-back are run by Revibe, so they never cost you time.'"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Under collection is never counted against the seller in any market. The time the customer takes to hand the device to the courier sits on Revibe's side, and the seller's clock is stopped.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "05:48",
+          "frame": "t00345.jpg",
+          "quote": "As I said, under {collection?} is never counted, because in every market, the time the customer takes to"
+        },
+        {
+          "kind": "say",
+          "at": "05:54",
+          "frame": "t00349.jpg",
+          "quote": "hand the device to the courier sits on {revive?} side and your clock is stopped."
+        },
+        {
+          "kind": "see",
+          "at": "03:41",
+          "frame": "t00221.jpg",
+          "quote": "Card 'Under collection is never counted': 'In every market, the time the customer takes to hand the device to the courier sits on Revibe's side — your clock is stopped.'"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "In Saudi, the seller's clock starts on day 1 because the seller must create the airway bill (AWB). Nothing moves until the seller issues it, so the seller must create the AWB quickly.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "05:03",
+          "frame": "t00301.jpg",
+          "quote": "It's because it's your responsibility to create the airway bill,"
+        },
+        {
+          "kind": "say",
+          "at": "05:10",
+          "frame": "t00301.jpg",
+          "quote": "So you have to create the airway bill quickly."
+        },
+        {
+          "kind": "see",
+          "at": "05:01",
+          "frame": "t00301.jpg",
+          "quote": "Card 'Why the clock starts on day 1 in SA': 'The AWB is yours to create — nothing moves until you issue it.'"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "The seller chooses the courier for the transit period. A reliable, efficient courier that keeps collection and transit short is the seller's responsibility, because it gets the devices back quickly.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "05:14",
+          "frame": "t00313.jpg",
+          "quote": "Also, during the transit period, the courier is your choice."
+        },
+        {
+          "kind": "say",
+          "at": "05:26",
+          "frame": "t00324.jpg",
+          "quote": "So selecting a reliable and efficient courier company is your responsibility to be able to get the devices"
+        },
+        {
+          "kind": "say",
+          "at": "05:35",
+          "frame": "t00335.jpg",
+          "quote": "quickly and hence reducing the time of transit."
+        },
+        {
+          "kind": "see",
+          "at": "05:14",
+          "frame": "t00313.jpg",
+          "quote": "Card bullet: 'The courier is your choice: a reliable, efficient one keeps the collection and the transit short.'"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "In SA, In transit counts on the seller's clock even though the delivery company is responsible for the transit.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "03:48",
+          "frame": "t00228.jpg",
+          "quote": "In transit it's also on your time even if it's the responsibility of the delivery company."
+        },
+        {
+          "kind": "see",
+          "at": "03:41",
+          "frame": "t00221.jpg",
+          "quote": "SA row: In transit bar is dark blue. The AE · ZA · others card lists only 'Under QC · Under revision · Pending LAB collection' as seller-side stages, so In transit is not counted there."
+        }
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Under QC is on the seller's side in SA and in AE, ZA and other markets.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "04:05",
+          "frame": "t00238.jpg",
+          "quote": "Under QC {of?} course is on your side as well"
+        },
+        {
+          "kind": "see",
+          "at": "03:41",
+          "frame": "t00221.jpg",
+          "quote": "Card lists Under QC among the seller-side stages for SA and for AE · ZA · others."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Under revision applies, according to the narration, if the seller declares the claim invalid. The seller then needs to provide additional proof that the claim is invalid.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "04:05",
+          "frame": "t00238.jpg",
+          "quote": "under revision if you declare the claim"
+        },
+        {
+          "kind": "say",
+          "at": "04:11",
+          "frame": "t00247.jpg",
+          "quote": "as being invalid and that you need to provide additional proof to show that the claim is invalid."
+        }
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Pending LAB collection is on the seller's side. The seller has to send the device to the lab and ship it back.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "04:19",
+          "frame": "t00259.jpg",
+          "quote": "Pending lab collection because you will have to send to the lab and to ship back ship back"
+        },
+        {
+          "kind": "see",
+          "at": "03:41",
+          "frame": "t00221.jpg",
+          "quote": "Card 'AE · ZA · others · 3 stages' lists 'Pending LAB collection'."
+        }
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Ship back under collection and ship back are the seller's responsibility. The seller must ship the device back efficiently with an efficient delivery company.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "04:25",
+          "frame": "t00263.jpg",
+          "quote": "under collection and ship back because it's your responsibility to ship back efficiently {quickly?} with an efficient delivery"
+        }
+      ],
+      "confidence": "low",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "The stage names on the clock slide are the names as they appear in the Revibe App.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "03:41",
+          "frame": "t00221.jpg",
+          "quote": "Footer: 'Stage names as they appear in the Revibe App'."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The stages in the SA timeline, in order, are: Form received, Pending collection, Under collection, Collection failed, In transit, Under QC, Invalid claim, Under revision, Send to LAB, Pending LAB collection, In transit to LAB, LAB Under QC, Invalid claim confirmed, To ship back, Ship back under collection, Shipped back, Ready for refund.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "03:41",
+          "frame": "t00221.jpg",
+          "quote": "Stage labels across the top of the SA row, from 'Form received' to 'Ready for refund'."
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "A resolution request is how the seller reports a blocker on its side on a claim. It is created from the claim page: Revibe Resolutions, then Add Resolution.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "06:02",
+          "frame": "t00360.jpg",
+          "quote": "If you have any issue during the process, you can create a resolution request."
+        },
+        {
+          "kind": "see",
+          "at": "06:06",
+          "frame": "t00366.jpg",
+          "quote": "Breadcrumb 'On the claim page · Revibe Resolutions → Add Resolution'. Button '+ Add Resolution'."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "To raise a blocker, open the claim, go to the claim detail page, open Revibe Resolutions and click Add Resolution.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "06:07",
+          "frame": "t00366.jpg",
+          "quote": "You need to go to the claim and on the claim detailed page, you go to revive resolution"
+        },
+        {
+          "kind": "say",
+          "at": "06:13",
+          "frame": "t00366.jpg",
+          "quote": "and you can add a resolution."
+        },
+        {
+          "kind": "see",
+          "at": "06:03",
+          "frame": "t00363.jpg",
+          "quote": "Footer breadcrumb 'Revibe App → Claim → Revibe Resolutions'."
+        },
+        {
+          "kind": "see",
+          "at": "06:06",
+          "frame": "t00366.jpg",
+          "quote": "Breadcrumb 'On the claim page · Revibe Resolutions → Add Resolution'."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Any blocker on the seller's side goes in as a resolution request. Examples on the card: device issue, wrong item, missing information. The narration also gives iCloud being blocked.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "06:15",
+          "frame": "t00382.jpg",
+          "quote": "Card 1 'Raise it on the claim': 'Any blocker on your side — device issue, wrong item, missing information — goes in as a resolution request from the claim page.'"
+        },
+        {
+          "kind": "say",
+          "at": "06:23",
+          "frame": "t00382.jpg",
+          "quote": "iCloud being blocked, {missing?} information, you can add a resolution."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "From the moment a resolution is created, no working hours are counted against the seller on that claim. The clock is frozen.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "06:31",
+          "frame": "t00386.jpg",
+          "quote": "{From?} the moment the resolution is created, no working hours are counted against you on that claim."
+        },
+        {
+          "kind": "see",
+          "at": "06:28",
+          "frame": "t00386.jpg",
+          "quote": "Card 2 'The clock freezes': 'From the moment the resolution is created, no working hours are counted against you on that claim.'"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The clock restarts only when the resolution is marked as solved. An agent answering does not restart it.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "06:37",
+          "frame": "t00394.jpg",
+          "quote": "{And?} it will restart only when the resolution is solved, not when a revive agent will answer."
+        },
+        {
+          "kind": "see",
+          "at": "06:37",
+          "frame": "t00398.jpg",
+          "quote": "Card 3 'It restarts only when solved': 'An agent answering you does not restart the count. The clock resumes only once the resolution is marked as solved.'"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "Yellow marker (warning) on a claim: day 6 in AE, ZA and others, or day 7 in SA. The return is flagged in your list. Solve it now: the refund is 2 WD away.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "06:42",
+          "frame": "t00402.jpg",
+          "quote": "Yellow marker — warning: 'Day 6 in AE · ZA · others, day 7 in SA. The return is flagged in your list: solve it now, the refund is 2 WD away.'"
+        },
+        {
+          "kind": "say",
+          "at": "06:48",
+          "frame": "t00404.jpg",
+          "quote": "color code {So?} yellow is the warning {So?} after day 6 in UAE and South Africa and other"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "Orange marker (SA only), policy to be applied: day 9 in SA. Revibe to collect the device. Once received, the customer is refunded in full, the seller is credited and the claim is closed against the seller.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "06:42",
+          "frame": "t00402.jpg",
+          "quote": "Orange marker — policy to be applied (SA only): 'Day 9 in SA. Revibe to collect the device. Once received, customer to be refunded in full, seller credited and the claim is closed against you.'"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "Red marker, policy applied: day 8 in AE, ZA and others, or day 9 in SA. The customer has been refunded in full and the claim is closed against the seller.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "06:42",
+          "frame": "t00402.jpg",
+          "quote": "Red marker — policy applied: 'Day 8 in AE · ZA · others, day 9 in SA. The customer has been refunded in full and the claim is closed against you.'"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Resetted marker: working hours are reset at Revibe's discretion.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "06:42",
+          "frame": "t00402.jpg",
+          "quote": "Resetted: 'At Revibe discretion to reset working hours'."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Where to spot claims at risk: in the claims list, the coloured marker on the left of each row flags the claim.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "06:42",
+          "frame": "t00402.jpg",
+          "quote": "Caption 'Claims list · the coloured marker on the left of each row'. Path 'Revibe App → Claims'."
+        },
+        {
+          "kind": "say",
+          "at": "06:42",
+          "frame": "t00402.jpg",
+          "quote": "Now in your claims portal you will be able to spot the claims at risk thanks to this"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The claims list columns are: Claim ID, Claim Date, Order Help, Stage, Type, Subtype, Original Supplier, Repair Supplier, Type Of Request, Seller Elapsed (header truncated on screen), and Policy Status.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "06:42",
+          "frame": "t00402.jpg",
+          "quote": "Table header row: 'Claim ID · Claim Date · Order Help · Stage · Type · Subtype · Original Supplier · Repair Supplier · Type Of Request · Seller Elapsed ... · Policy Status'."
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Policy Status values seen in the claims list: Warning, Action Pending, Action Taken, Resetted, and '-' when there is none.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "06:42",
+          "frame": "t00402.jpg",
+          "quote": "Policy Status column: 'Warning', 'Action Pending', 'Action Taken', 'Resetted', '-'."
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "The Type Of Request column can show 'Revibe replied' (green), as on the first example row of the claims list.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "06:42",
+          "frame": "t00402.jpg",
+          "quote": "First row, Type Of Request column: 'Revibe replied' in green."
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    }
+  ],
+  "screens": [
+    {
+      "name": "Revibe 'The Clock' slide: Which stages count against you",
+      "shows": "Stage timelines for SA (top) and AE · ZA · others (bottom), with the legend (light blue = Revibe, clock stopped; dark blue = Seller, clock running). Four cards: 'Why the clock starts on day 1 in SA' (AWB and courier bullets), 'SA · 9 stages run your clock', 'AE · ZA · others · 3 stages', 'Under collection is never counted'. Footer: 'Stage names as they appear in the Revibe App'.",
+      "at": "03:41 to 05:54",
+      "where": "Slide deck (footer 'Revibe · Seller communication')",
+      "frame": "t00221.jpg to t00349.jpg (30 frames)"
+    },
+    {
+      "name": "Revibe 'Create a resolution request' slide",
+      "shows": "Screenshot of a 'Revibe Resolutions' panel with '+ Add Resolution' button and 'No resolutions yet'. Breadcrumb 'On the claim page · Revibe Resolutions → Add Resolution'. Three cards: 1 Raise it on the claim, 2 The clock freezes, 3 It restarts only when solved. Footer breadcrumb 'Revibe App → Claim → Revibe Resolutions'.",
+      "at": "06:00 to 06:38",
+      "where": "Slide deck (footer 'Revibe · Seller communication')",
+      "frame": "t00360.jpg to t00398.jpg (8 frames)"
+    },
+    {
+      "name": "Claims list: Spot the claims at risk",
+      "shows": "Four coloured-marker cards (Yellow warning, Orange policy to be applied SA only, Red policy applied, Resetted) and a claims-list screenshot. Table columns include Claim ID, Claim Date, Order Help, Stage, Type, Subtype, Original Supplier, Repair Supplier, Type Of Request, Seller Elapsed, Policy Status. Stage values visible: Under collection, Under QC, and 'Ready for' (cut off). Policy Status values visible: '-', Warning, Action Pending, Action Taken, Resetted.",
+      "at": "06:42 to 06:48",
+      "where": "Revibe App → Claims",
+      "frame": "t00402.jpg, t00404.jpg (2 frames)"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Clock (your clock / working hours)",
+      "meaning": "The seller's running time on a claim. It runs only while the claim sits on the seller side (dark blue). It is stopped on Revibe's side (light blue). Working hours are counted against the seller.",
+      "at": "03:41"
+    },
+    {
+      "term": "AWB (airway bill)",
+      "meaning": "The shipping document. In SA the seller creates it; nothing moves until the seller issues it. The narration says 'airway bill'.",
+      "at": "05:03"
+    },
+    {
+      "term": "Seller side / Revibe side",
+      "meaning": "Which party holds the claim at a given stage. Seller side = clock running. Revibe side = clock stopped.",
+      "at": "03:41"
+    },
+    {
+      "term": "Resolution request (Revibe Resolutions)",
+      "meaning": "A request raised by the seller on a claim to report a blocker on its side. It freezes the clock until it is marked as solved.",
+      "at": "06:02"
+    },
+    {
+      "term": "QC",
+      "meaning": "Shown on screen only as 'Under QC'. The screen does not expand the abbreviation.",
+      "at": "04:05"
+    },
+    {
+      "term": "LAB / Send to LAB / Pending LAB collection",
+      "meaning": "Stage names on the SA timeline (Send to LAB, In transit to LAB, LAB Under QC, Pending LAB collection). The narration says the device is sent to the lab; the screen does not define the lab.",
+      "at": "04:19"
+    },
+    {
+      "term": "WD",
+      "meaning": "Shown on the yellow warning card as '2 WD away'. Not expanded on screen.",
+      "at": "06:42"
+    },
+    {
+      "term": "Resetted",
+      "meaning": "A claim marker meaning working hours were reset, at Revibe's discretion.",
+      "at": "06:42"
+    }
+  ],
+  "asr_fixes": [
+    {
+      "at": "04:19",
+      "heard": "Pending lab collection",
+      "correct": "Pending LAB collection",
+      "basis": "Stage label on frame t00221.jpg is 'Pending LAB collection'."
+    },
+    {
+      "at": "04:25",
+      "heard": "under collection and ship back",
+      "correct": "Ship back under collection",
+      "basis": "Stage label on frame t00221.jpg is 'Ship back under collection'."
+    },
+    {
+      "at": "04:40",
+      "heard": "pending lab collection",
+      "correct": "Pending LAB collection",
+      "basis": "Card 'AE · ZA · others · 3 stages' on frame t00284.jpg reads 'Pending LAB collection'."
+    },
+    {
+      "at": "04:50",
+      "heard": "revive side",
+      "correct": "Revibe side",
+      "basis": "Legend on frame t00284.jpg reads 'Revibe — the clock is stopped'."
+    },
+    {
+      "at": "05:40",
+      "heard": "{9?}",
+      "correct": "9",
+      "basis": "Card 'SA · 9 stages run your clock' on frame t00221.jpg lists nine stages."
+    },
+    {
+      "at": "05:48",
+      "heard": "under {collection?}",
+      "correct": "under collection",
+      "basis": "Card title 'Under collection is never counted' on frames t00221.jpg and t00349.jpg."
+    },
+    {
+      "at": "05:54",
+      "heard": "{revive?} side",
+      "correct": "Revibe's side",
+      "basis": "Card 'Under collection is never counted' on frame t00221.jpg reads 'sits on Revibe's side'."
+    },
+    {
+      "at": "06:07",
+      "heard": "revive resolution",
+      "correct": "Revibe Resolutions",
+      "basis": "Panel header on frame t00366.jpg reads 'Revibe Resolutions'."
+    },
+    {
+      "at": "06:23",
+      "heard": "{missing?} information",
+      "correct": "missing information",
+      "basis": "Card 1 'Raise it on the claim' on frame t00382.jpg reads 'missing information'."
+    },
+    {
+      "at": "06:31",
+      "heard": "{From?} the moment",
+      "correct": "From the moment",
+      "basis": "Card 2 'The clock freezes' on frame t00386.jpg reads 'From the moment the resolution is created'."
+    },
+    {
+      "at": "06:37",
+      "heard": "a revive agent",
+      "correct": "a Revibe agent",
+      "basis": "Brand spelled 'Revibe' on every slide footer (for example 'Revibe · Seller communication' on frame t00398.jpg). Card 3 on that frame reads 'An agent answering you'."
+    }
+  ],
+  "unclear": [
+    {
+      "at": "03:45",
+      "issue": "The narration reads 'arrange a new {pick?} up time.' over frame t00225.jpg, which shows the clock slide with no matching text. The word is unconfirmed, so no fact is based on it."
+    },
+    {
+      "at": "04:05",
+      "issue": "The narration says Under revision applies 'if you declare the claim as being invalid', but the screen does not show how a seller declares a claim invalid. Invalid claim sits on the Revibe side (light blue) in the SA timeline. The trigger and the step to declare are not confirmed."
+    },
+    {
+      "at": "04:34",
+      "issue": "Narration says the ship-back is done 'with an efficient delivery company to the customer'. The screen does not say where the device is shipped (to the customer, to the lab or to Revibe). The destination of ship-back is not confirmed."
+    },
+    {
+      "at": "05:48",
+      "issue": "The card says 'Under collection' is never counted against the seller, but the 9-stage SA card counts 'Ship back under collection'. The screen does not explain how the two stages differ."
+    },
+    {
+      "at": "06:23",
+      "issue": "'iCloud being blocked' is spoken as a blocker example but is not on the card (frame t00382.jpg lists device issue, wrong item, missing information). Included as spoken only; confirm it is a valid resolution reason."
+    },
+    {
+      "at": "06:42",
+      "issue": "'2 WD' on the yellow warning is not expanded on screen. Confirm the unit before a KAM quotes the timing."
+    },
+    {
+      "at": "06:42",
+      "issue": "The claims-list 'Seller Elapsed ...' column header is truncated on the screen, so the unit and meaning of the elapsed values (for example 0, 147, 425, 120, 72, 40) are not confirmed."
+    },
+    {
+      "at": "06:48",
+      "issue": "The speech says 'after day 6' for the yellow marker, while the screen says 'Day 6 in AE · ZA · others, day 7 in SA'. Whether the marker shows on day 6 or after day 6 is not confirmed."
+    },
+    {
+      "at": "06:42",
+      "issue": "The orange marker (SA, day 9, policy to be applied) and the red marker (SA, day 9, policy applied) give the same day. The screen does not say how a claim moves from one to the other on the same day."
+    }
+  ],
+  "outdated": [
+    {
+      "at": "06:42",
+      "signal": "The example claims-list rows are dated 22/06/2026, 25/06/2026, 17/08/2026, 03/09/2026 and 28/06/2026 (two rows dated 28/06/2026). These are before today (2026-10-22) and look like sample data, so treat the rows as illustrative only."
+    }
+  ],
+  "privacy": [],
+  "audit": {
+    "checked": 69,
+    "removed": [
+      {
+        "statement": "Unclear at 03:48: 'In transit' scope (no market qualifier, AE bar shown light blue).",
+        "reason": "Resolved on screen. The AE · ZA · others card lists only Under QC, Under revision and Pending LAB collection as seller-side stages, so In transit is not counted there. The SA-only scope is shown on frame t00221.jpg. Fact 'In SA, In transit counts...' kept as SA-only."
+      },
+      {
+        "statement": "Unclear at 05:40: the SA card lists 'Shipped back' among the 9 seller-side stages but the timeline shows it light blue.",
+        "reason": "Not a disagreement. On frame t00221.jpg the dark-blue bar runs from the To ship back point to the Shipped back point, and the light dot after it is Ready for refund. The card and the timeline agree."
+      },
+      {
+        "statement": "Term 'QC' expanded as 'Quality control'.",
+        "reason": "General knowledge. The screen only shows 'Under QC' and never expands the abbreviation."
+      },
+      {
+        "statement": "Screen 'Claims list' stages shown: 'Resetted'.",
+        "reason": "Resetted is a Policy Status value, not a stage. Stage values visible are Under collection, Under QC and a truncated 'Ready for'."
+      }
+    ],
+    "corrected": [
+      {
+        "before": "Step 03:41 'says': 'The timer only runs while the claim sits on the seller side. Dark blue = your clock is running.'",
+        "after": "Step 03:41 'says' emptied. The line is an on-screen subtitle. Moved to evidence as kind 'see'.",
+        "reason": "No transcript line is spoken at 03:41 over this subtitle. The subtitle is on screen only."
+      },
+      {
+        "before": "Step 04:05 action: 'Trainer says Under QC and Under revision are on the seller side, and explains when a claim goes to revision.'",
+        "after": "Trainer says Under QC is on the seller side, and that under revision applies if the seller declares the claim invalid, which then needs additional proof.",
+        "reason": "The narration makes under revision conditional. It does not say under revision is on the seller side in general."
+      },
+      {
+        "before": "Step 04:48 'says': 'Light blue, the clock is stopped because it's on revive side to take action and dark blue, it's on your side, the clock is running.'",
+        "after": "Restored the transcript marker: '... to take action {and?} dark blue, it's on your side, the clock is running.'",
+        "reason": "The pack marks 'and' as low-confidence. The marker must be kept in quotes."
+      },
+      {
+        "before": "Step 05:48 and Fact 'Under collection is never counted' cited the 05:48 line with 'collection' unmarked.",
+        "after": "Restored '{collection?}' and '{revive?}' markers in the quoted text. Screen confirms 'Under collection is never counted' and 'Revibe's side'.",
+        "reason": "Keep the low-confidence marks. The screen confirms the words, so they are recorded in asr_fixes instead of being stated as clean speech."
+      },
+      {
+        "before": "Step 06:15 'says' dropped the '{missing?}' marker.",
+        "after": "Restored '{missing?} information'.",
+        "reason": "Transcript marker must be kept. Screen confirms 'missing information' on card 1 (asr_fixes entry added)."
+      },
+      {
+        "before": "Step 06:28 'says': 'The clock is thus freezing. From the moment the resolution is created...' with 'From' unmarked.",
+        "after": "Restored '{From?} the moment'. Screen card 2 confirms 'From the moment', so the asr_fixes entry is added.",
+        "reason": "Transcript marker must be kept in the quote."
+      },
+      {
+        "before": "Step 06:42 'says' rewritten as 'So yellow is the warning. So after day 6...' with 'So' unmarked.",
+        "after": "Restored transcript text: 'color code {So?} yellow is the warning {So?} after day 6 in UAE and South Africa and other'.",
+        "reason": "The {So?} markers belong to the transcript and must be kept."
+      },
+      {
+        "before": "Step 06:42 action: 'Trainer shows the colour markers ... and explains what each colour means for the seller.'",
+        "after": "The speech covers only the yellow warning before the pack ends. The four marker cards are on screen.",
+        "reason": "Only yellow is explained in speech in this part. The other colours are on screen only."
+      },
+      {
+        "before": "Fact 'Under revision' stated as a fixed rule ('if the seller declares the claim invalid, the claim goes to under revision').",
+        "after": "Stated as narrated: under revision applies, according to the narration, if the seller declares the claim invalid; the seller then needs additional proof. Confidence medium.",
+        "reason": "The narration does not show the trigger on screen (see unclear 04:05)."
+      },
+      {
+        "before": "Fact 'Pending LAB collection' said 'must send the device to the lab and ship it back'.",
+        "after": "'The seller has to send the device to the lab and ship it back.'",
+        "reason": "Closer to the narration ('because you will have to send to the lab and to ship back'). Wording not overstated."
+      },
+      {
+        "before": "Fact 'Orange marker' said 'Revibe collects the device'.",
+        "after": "'Revibe to collect the device', the screen wording.",
+        "reason": "Screen wording is 'Revibe to collect the device'. Avoid a paraphrase on a quiz-facing fact."
+      },
+      {
+        "before": "Fact 'Where to spot claims at risk' said the marker 'shows the risk state'.",
+        "after": "'the coloured marker on the left of each row flags the claim.'",
+        "reason": "Minimal rewording to match the screen caption 'the coloured marker on the left of each row'."
+      },
+      {
+        "before": "Fact 'In SA, In transit' evidence said the AE/ZA/others row is light blue at In transit.",
+        "after": "Evidence now cites the AE card: 'Under QC · Under revision · Pending LAB collection' as the only seller-side stages.",
+        "reason": "The AE card directly supports the scope. The bar edge alone is hard to read."
+      },
+      {
+        "before": "Fact 'Under QC is on the seller's side' scoped to SA and AE via the card only.",
+        "after": "Kept as is, with the 04:05 quote and the card as evidence.",
+        "reason": "Verified. Both cards list Under QC."
+      },
+      {
+        "before": "Summary: 'why the SA clock starts on day 1 (AWB and courier)'.",
+        "after": "'why the SA clock starts on day 1 (the AWB)', with the courier choice stated separately.",
+        "reason": "The narration gives the AWB as the reason for day 1. The courier is a separate bullet on the same card."
+      },
+      {
+        "before": "Screen 'Claims list' lists stages 'Under collection, Under QC, Ready for refund, Resetted'.",
+        "after": "Stage values visible: Under collection, Under QC, and 'Ready for' (cut off). Policy Status values: '-', Warning, Action Pending, Action Taken, Resetted.",
+        "reason": "'Ready for refund' is truncated on screen and 'Resetted' is a Policy Status value, not a stage."
+      },
+      {
+        "before": "Term 'LAB' meaning: 'the device goes to the lab and is later collected for ship back'.",
+        "after": "Term meaning limited to the stage names on screen and the narration that the device is sent to the lab.",
+        "reason": "'Later collected for ship back' was an inference, not in the narration or on the screen."
+      },
+      {
+        "before": "asr_fixes basis for 'a revive agent' cited card 3 wording 'An agent answering you'.",
+        "after": "Basis is the brand spelled 'Revibe' on the slide footers.",
+        "reason": "Card 3 does not contain the word 'Revibe'. The brand spelling on the slides is the actual basis."
+      }
+    ],
+    "added": [
+      "Fact 'Type Of Request column can show Revibe replied' (frame t00402.jpg, first row, green text).",
+      "Unclear 03:45 '{pick?} up' spoken over frame t00225.jpg with no matching screen text. Not used as a fact.",
+      "Unclear 05:48: 'Under collection' not counted while 'Ship back under collection' is counted for SA. Screen does not explain the difference.",
+      "Unclear 06:48: speech 'after day 6' versus screen 'Day 6' for the yellow marker.",
+      "Unclear 06:42: orange and red markers both give day 9 for SA.",
+      "asr_fixes added for 04:40, 05:40 ({9?}), 05:48 ({collection?}), 06:23 ({missing?}) and 06:31 ({From?}).",
+      "Coverage: frames t00225, t00266, t00322, t00327, t00330, t00332, t00392 opened; they hold no claim beyond the slide already cited. Frame t00225 is the only one with uncovered speech (03:45, see unclear)."
+    ]
+  }
+}

@@ -1,0 +1,740 @@
+{
+  "summary": "Part 4 of the Revibe 2.1 Fulfillment App (KAM) video (15:24-18:13). The trainer walks through the Revibe - Fulfillment App (AppSheet web app) tab by tab: Inventory exits (exit types and return reasons, grouped by Type, filtered by supplier), Stock control, Invalids to fix, Charge inventory, Box inventory, Packaging request, Fulfillment expenses, Shipments, and Supplier inventory (bulk select, Drop -2%). He then gives the payment terms for fulfillment and points to the fulfillment video made for sellers. All 28 frames listed in the pack were opened. Several frame references in the pack were one or two frames off; the frame ids below were re-assigned from the frame content.",
+  "frames_opened": 28,
+  "steps": [
+    {
+      "at": "15:24",
+      "screen": "Inventory exits",
+      "action": "Opens Inventory exits, which lists exits grouped by Type. The first group visible is TDRA (296 rows).",
+      "evidence": [
+        {"kind": "see", "at": "15:24", "frame": "t00924.jpg", "quote": "Inventory exits page, sidebar item Inventory exits highlighted, left filter All selected, grouped header 'TDRA 296', columns SKU, Name, Order help, IMEI, Type, Reason for return, Comment, Quantity before, Quantity after, Tracking ID."},
+        {"kind": "say", "at": "15:31", "quote": "Other reasons are sales, obviously, let me find it for you."}
+      ],
+      "says": "Other reasons are sales, obviously, let me find it for you.",
+      "why": ""
+    },
+    {
+      "at": "15:32",
+      "screen": "Inventory exits (TDRA group)",
+      "action": "Scrolls down the TDRA group. The visible rows show Quantity before from 1 to 7, with Quantity after one lower on each row.",
+      "evidence": [
+        {"kind": "see", "at": "15:32", "frame": "t00932.jpg", "quote": "TDRA rows further down the group, SKUs ending -TDRA, Quantity before values 3, 2, 1, 7, 6, 5, 4 and Quantity after one lower on each row (for example 3 to 2, 2 to 1, 1 to 0)."}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "15:36",
+      "screen": "Inventory exits",
+      "action": "Scrolls down the Inventory exits list to the 'Sold - Not sellable' rows (Quantity before 1, after 0).",
+      "evidence": [
+        {"kind": "see", "at": "15:36", "frame": "t00936.jpg", "quote": "Rows with Type 'Sold - Not sellable' and Quantity before 1 / after 0, for example dell-latitude-7270 and galaxy-note-20128 SKUs."}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "15:41",
+      "screen": "Inventory exits",
+      "action": "Clicks the supplier filter '971 Fixing' (count 101) in the left list.",
+      "evidence": [
+        {"kind": "see", "at": "15:41", "frame": "t00941.jpg", "quote": "Cursor on the left filter item '971 Fixing 101'."},
+        {"kind": "say", "at": "15:42", "quote": "have aging inventory return {if?} the device stayed for too long in the inventory {bulk?} QC rejection if"}
+      ],
+      "says": "have aging inventory return {if?} the device stayed for too long in the inventory {bulk?} QC rejection if",
+      "why": ""
+    },
+    {
+      "at": "15:48",
+      "screen": "Inventory exits (971 Fixing)",
+      "action": "Shows the 971 Fixing groups: Aging inventory return 2, Bulk QC rejection 14, RTO 1, Return to supplier 23. Explains the Bulk QC rejection (whole-shipment) case and the one-by-one return case.",
+      "evidence": [
+        {"kind": "see", "at": "15:48", "frame": "t00948.jpg", "quote": "Group headers 'Aging inventory return 2', 'Bulk QC rejection 14', 'RTO 1', 'Return to supplier 23'. Ten of the 14 Bulk QC rejection rows show Reason for return 'Other' with comment 'We have received 30 devices. T...'; the other four show Camera issue, Display issue, Other with Screws missing, and Software issue."},
+        {"kind": "say", "at": "15:49", "quote": "initially from the QC the quality was not good on too many pieces then we rejected like the"},
+        {"kind": "say", "at": "15:56", "quote": "whole shipment in order to avoid wasting time doing too many QCs for nothing return to origin return"},
+        {"kind": "say", "at": "16:05", "quote": "to supplier if one by one like some devices were not matching the quality standards and sales if"}
+      ],
+      "says": "whole shipment in order to avoid wasting time doing too many QCs for nothing return to origin return",
+      "why": "Trainer gives the reason for rejecting the whole shipment: too many QCs would waste time."
+    },
+    {
+      "at": "16:04",
+      "screen": "Inventory exits (971 Fixing, Return to supplier rows)",
+      "action": "Shows the Return to supplier rows and explains that devices not matching the quality standards are returned one by one.",
+      "evidence": [
+        {"kind": "see", "at": "16:04", "frame": "t00964.jpg", "quote": "Return to supplier rows with Reason for return 'Physical condition not matching', 'Screws missing', 'Other', 'Display issue', 'Camera issue', 'Speaker issue' and 'Device restarting, Other' (comment 'DEVICE NOT GOING ON.')."},
+        {"kind": "say", "at": "16:05", "quote": "to supplier if one by one like some devices were not matching the quality standards and sales if"}
+      ],
+      "says": "to supplier if one by one like some devices were not matching the quality standards and sales if",
+      "why": ""
+    },
+    {
+      "at": "16:12",
+      "screen": "Inventory exits (971 Fixing, Sale group)",
+      "action": "Shows the Sale group (61 rows) below the Return to supplier rows. Trainer says sold devices are always marked with the AMEA and another help value; the AMEA label is not confirmed on screen.",
+      "evidence": [
+        {"kind": "see", "at": "16:11", "frame": "t00971.jpg", "quote": "Group header 'Sale 61' below the Return to supplier rows."},
+        {"kind": "see", "at": "16:15", "frame": "t00975.jpg", "quote": "Sale rows show Order help values such as 'ZA-53950-1' and IMEI or serial values (for example NXA94AA001119114D176... and PF2067ZG)."},
+        {"kind": "say", "at": "16:12", "quote": "we sold them and {if?} we sold them we always indicate also the AMEA and the {other?} help"}
+      ],
+      "says": "we sold them and {if?} we sold them we always indicate also the AMEA and the {other?} help",
+      "why": ""
+    },
+    {
+      "at": "16:18",
+      "screen": "Stock control",
+      "action": "Opens Stock control from the sidebar. Trainer says it is for the fulfillment team to control the stock they currently have.",
+      "evidence": [
+        {"kind": "say", "at": "16:18", "quote": "number {stock?} control this is for the guys in fulfillment so they can control the stock they currently"},
+        {"kind": "see", "at": "16:19", "frame": "t00979.jpg", "quote": "Cursor on sidebar item Stock control; the Inventory exits list is still on screen."},
+        {"kind": "see", "at": "16:20", "frame": "t00980.jpg", "quote": "Stock control page: columns SKU, Current quantity, Initial quantity, Supplier, ID; group headers such as 'Arslan E Commerce 30' and 'Bwireless Technology 16'."}
+      ],
+      "says": "number {stock?} control this is for the guys in fulfillment so they can control the stock they currently",
+      "why": "So the fulfillment team can control the stock they currently have."
+    },
+    {
+      "at": "16:24",
+      "screen": "Invalids to fix",
+      "action": "Opens Invalids to fix (sidebar). Trainer says it is for the lab.",
+      "evidence": [
+        {"kind": "say", "at": "16:24", "quote": "have and make sure that we don't lose {any?} things invalid to fix this is for the lab"},
+        {"kind": "see", "at": "16:27", "frame": "t00987.jpg", "quote": "Invalids to fix page: tabs All, Invalid claim, Fulfillment; group header 'Yes'; columns ID, SKU, Name, Initial quantity, Current quantity, Initial price, Price override, Current price, Supplier, Supplier initials, Total value."}
+      ],
+      "says": "have and make sure that we don't lose {any?} things invalid to fix this is for the lab",
+      "why": ""
+    },
+    {
+      "at": "16:28",
+      "screen": "Charge inventory",
+      "action": "Opens Charge inventory. Trainer says it reminds the team how many days devices have not been charged.",
+      "evidence": [
+        {"kind": "see", "at": "16:30", "frame": "t00990.jpg", "quote": "Charge inventory page: tab 'Fulfillment 171'; columns SKU, ID, Days since last charge, Date last charged, Inventory days, Current quantity, Initial quantity, Created at, Status (Live), Initial price, Price override; Days since last charge values 10.00 and 5.00."},
+        {"kind": "say", "at": "16:28", "quote": "you {need?} to manage charge inventory is also for them to have a reminder of since how many"},
+        {"kind": "say", "at": "16:36", "quote": "days they didn't charge the devices"}
+      ],
+      "says": "days they didn't charge the devices",
+      "why": "A reminder of how many days devices have gone without being charged."
+    },
+    {
+      "at": "16:38",
+      "screen": "Box inventory",
+      "action": "Opens Box inventory. Trainer says it is not really used.",
+      "evidence": [
+        {"kind": "see", "at": "16:38", "frame": "t00998.jpg", "quote": "Box inventory page: list area is dimmed and nearly empty; only faint rows are visible; header row labels are not legible; Add button at top right."},
+        {"kind": "say", "at": "16:38", "quote": "{box?} inventory this is not really used packaging requests so that the guys in the lab can see"}
+      ],
+      "says": "{box?} inventory this is not really used packaging requests so that the guys in the lab can see",
+      "why": ""
+    },
+    {
+      "at": "16:41",
+      "screen": "Packaging request",
+      "action": "Opens Packaging request. Trainer says the lab sees which packaging requests a seller has made so it can expedite the boxes to sellers, on a weekly basis.",
+      "evidence": [
+        {"kind": "see", "at": "16:41", "frame": "t01001.jpg", "quote": "Packaging request page: columns ID, Type, Stage, Reason, AWB, Quantity, Stickers, Seller, Required at, Tracking link; group 'Phone (box + inners) - English'; rows Stage 'Sent', Reason 'Send to seller'."},
+        {"kind": "say", "at": "16:44", "quote": "{hard?} which packaging requests have been made by the seller so they can expedite the {the?} boxes to"},
+        {"kind": "say", "at": "16:51", "quote": "the sellers on a weekly basis and fulfillment expenses this is"}
+      ],
+      "says": "the sellers on a weekly basis and fulfillment expenses this is",
+      "why": "So the lab can expedite the boxes to the sellers on a weekly basis."
+    },
+    {
+      "at": "16:56",
+      "screen": "Fulfillment expenses",
+      "action": "Opens Fulfillment expenses. Trainer moves on to the overview of all tabs.",
+      "evidence": [
+        {"kind": "see", "at": "16:54", "frame": "t01014.jpg", "quote": "Fulfillment expenses page: list is dimmed; columns ID, Item, Quantity, Unit price, Total cost, Invoice?, Bought at; item names faintly legible (for example Phone screen sticker pack, Warehouse boxes, Phone charging cables)."},
+        {"kind": "say", "at": "16:56", "quote": "also something something else then like so this is the presentation of all the tabs that you have"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "17:03",
+      "screen": "Shipments",
+      "action": "Opens Shipments. The trainer then says the walkthrough goes back to Supplier inventory, where sellers can act on devices.",
+      "evidence": [
+        {"kind": "see", "at": "16:57", "frame": "t01017.jpg", "quote": "Shipments page: groups Requested 1, AWB created 2, Under QC 1, Completed 1056; columns Supplier, ID, Created by, Created at, Updated at, Request Status, Payment method (100% - After sales), Tracking company (Quiqup), Tracking ID, Tracking link, Tracking Label link."},
+        {"kind": "say", "at": "17:03", "quote": "all the views {going?} back to supplier inventory please be aware that sellers can go here and"}
+      ],
+      "says": "all the views {going?} back to supplier inventory please be aware that sellers can go here and",
+      "why": ""
+    },
+    {
+      "at": "17:13",
+      "screen": "Supplier inventory",
+      "action": "Ticks the checkbox on one device row (header changes to '1 Selected'), then a second row ('2 Selected'). Points at the Drop -2% button.",
+      "evidence": [
+        {"kind": "see", "at": "17:13", "frame": "t01033.jpg", "quote": "Header reads '0 Selected' with an X close control, checkboxes unticked."},
+        {"kind": "see", "at": "17:15", "frame": "t01035.jpg", "quote": "Header reads '1 Selected'; checkbox ticked on SKU 02-59-94-46-18-04-20-22-03-11; a blue 'Drop -2%' button and a reset button appear at top right."},
+        {"kind": "see", "at": "17:23", "frame": "t01043.jpg", "quote": "Header reads '2 Selected' with two checkboxes ticked (SKU 02-59-94-46-18-04-20-22-03-11 and 0204113-048851); cursor on the 'Drop -2%' button, tooltip 'Drop -2%'."},
+        {"kind": "say", "at": "17:13", "quote": "the same way you can do it they can select devices and either request for return in bulk"}
+      ],
+      "says": "the same way you can do it they can select devices and either request for return in bulk",
+      "why": ""
+    },
+    {
+      "at": "17:20",
+      "screen": "Supplier inventory",
+      "action": "Trainer says sellers can drop the price by two percent in bulk and can see the products that are out of stock. The frames show the Drop -2% button but no price change after it.",
+      "evidence": [
+        {"kind": "say", "at": "17:20", "quote": "either drop the price by two percent in bulk they can also see the products that are out"},
+        {"kind": "see", "at": "17:26", "frame": "t01046.jpg", "quote": "Still '2 Selected'; cursor moved away from the Drop -2% button; Current price for the two selected rows unchanged (896 and 999)."}
+      ],
+      "says": "either drop the price by two percent in bulk they can also see the products that are out",
+      "why": ""
+    },
+    {
+      "at": "17:36",
+      "screen": "Not shown (no frame between 17:26 and 17:46)",
+      "action": "States the payment terms for fulfillment.",
+      "evidence": [
+        {"kind": "say", "at": "17:36", "quote": "the same payment terms as for direct shipping orders which means that payment terms are based on orders"},
+        {"kind": "say", "at": "17:42", "quote": "shipped on the past seven days and packaging requests we also mentioned to you i hope this {video?}"}
+      ],
+      "says": "the same payment terms as for direct shipping orders which means that payment terms are based on orders",
+      "why": ""
+    },
+    {
+      "at": "17:46",
+      "screen": "Supplier inventory",
+      "action": "Clears the selection, so the Supplier inventory list shows no selected rows.",
+      "evidence": [
+        {"kind": "see", "at": "17:46", "frame": "t01066.jpg", "quote": "Supplier inventory page with the Live 171 filter selected, no checkboxes ticked and no 'N Selected' bar; the Download button is back at top right; Ain Al Tair row still shows Initial price 914, Price override 896, Current price 896."}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "17:52",
+      "screen": "Packaging request",
+      "action": "Ends the walkthrough and points viewers to the fulfillment video made for sellers.",
+      "evidence": [
+        {"kind": "say", "at": "17:52", "quote": "was helpful for you {do?} not hesitate also do not forget also to watch the fulfillment video made"},
+        {"kind": "say", "at": "18:00", "quote": "for the sellers so that you can really understand the level of knowledge that is the most important"},
+        {"kind": "see", "at": "17:50", "frame": "t01070.jpg", "quote": "Packaging request page on screen, same columns and rows as t01001."},
+        {"kind": "see", "at": "18:07", "frame": "t01087.jpg", "quote": "Packaging request page still on screen."},
+        {"kind": "see", "at": "18:12", "frame": "t01092.jpg", "quote": "Packaging request page still on screen, same columns and rows as t01001."}
+      ],
+      "says": "",
+      "why": "Trainer says it is the level of knowledge that is most required for sellers to have."
+    }
+  ],
+  "facts": [
+    {
+      "type": "rule",
+      "statement": "Bulk QC rejection: when QC finds the quality poor on too many pieces of a shipment, the whole shipment is rejected, to avoid wasting time on repeated QCs for nothing.",
+      "evidence": [
+        {"kind": "say", "at": "15:49", "quote": "initially from the QC the quality was not good on too many pieces then we rejected like the"},
+        {"kind": "say", "at": "15:56", "quote": "whole shipment in order to avoid wasting time doing too many QCs for nothing return to origin return"},
+        {"kind": "see", "at": "15:48", "frame": "t00948.jpg", "quote": "Group 'Bulk QC rejection 14' with Reason for return 'Other' and comments 'We have received 30 devices. T...' on 10 of its 14 rows."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Return to supplier: applies to individual devices that do not match the quality standards (handled one by one), as opposed to whole-shipment Bulk QC rejection.",
+      "evidence": [
+        {"kind": "say", "at": "16:05", "quote": "to supplier if one by one like some devices were not matching the quality standards and sales if"},
+        {"kind": "see", "at": "16:04", "frame": "t00964.jpg", "quote": "Return to supplier rows with Reason for return values such as 'Physical condition not matching', 'Screws missing', 'Display issue'."},
+        {"kind": "see", "at": "15:48", "frame": "t00948.jpg", "quote": "Group header 'Return to supplier 23'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Aging inventory return: the return type used when a device has stayed too long in the inventory.",
+      "evidence": [
+        {"kind": "say", "at": "15:42", "quote": "have aging inventory return {if?} the device stayed for too long in the inventory {bulk?} QC rejection if"},
+        {"kind": "see", "at": "15:48", "frame": "t00948.jpg", "quote": "Group header 'Aging inventory return 2' with rows Type 'Aging inventory return'."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "The 971 Fixing filter lists 101 exit rows: Aging inventory return 2, Bulk QC rejection 14, RTO 1, Return to supplier 23, Sale 61.",
+      "evidence": [
+        {"kind": "see", "at": "15:48", "frame": "t00948.jpg", "quote": "Sidebar '971 Fixing 101'; group headers 'Aging inventory return 2', 'Bulk QC rejection 14', 'RTO 1', 'Return to supplier 23'."},
+        {"kind": "see", "at": "16:15", "frame": "t00975.jpg", "quote": "Group header 'Sale 61'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Inventory exits columns: SKU, Name, Order help, IMEI, Type, Reason for return, Comment, Quantity before, Quantity after, Tracking ID.",
+      "evidence": [
+        {"kind": "see", "at": "15:24", "frame": "t00924.jpg", "quote": "Column headers SKU, Name, Order help, IMEI, Type, Reason for return, Comment, Quantity before, Quantity after, Tracking ID."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Inventory exits Type groups seen on screen: TDRA, Sold - Not sellable, Aging inventory return, Bulk QC rejection, RTO, Return to supplier, Sale.",
+      "evidence": [
+        {"kind": "see", "at": "15:24", "frame": "t00924.jpg", "quote": "Group header 'TDRA 296'."},
+        {"kind": "see", "at": "15:36", "frame": "t00936.jpg", "quote": "Rows with Type 'Sold - Not sellable'."},
+        {"kind": "see", "at": "15:48", "frame": "t00948.jpg", "quote": "Group headers 'Aging inventory return', 'Bulk QC rejection', 'RTO', 'Return to supplier'."},
+        {"kind": "see", "at": "16:15", "frame": "t00975.jpg", "quote": "Group header 'Sale 61'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Reason for return values seen in Inventory exits: Physical condition not matching, Screws missing, Other, Camera issue, Display issue, Button issue, Software issue, Speaker issue, Device restarting.",
+      "evidence": [
+        {"kind": "see", "at": "16:04", "frame": "t00964.jpg", "quote": "Reason for return values 'Physical condition not matching', 'Screws missing', 'Other', 'Camera issue', 'Display issue', 'Speaker issue', 'Device restarting, Other' on Return to supplier rows; comment 'DEVICE NOT GOING ON.'."},
+        {"kind": "see", "at": "16:11", "frame": "t00971.jpg", "quote": "Reason for return 'Button issue, Software issue' on a Return to supplier row with comment 'Button stuck + Drivers not in...'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Trainer says Stock control is the view the fulfillment team uses to control the stock they currently have.",
+      "evidence": [
+        {"kind": "say", "at": "16:18", "quote": "number {stock?} control this is for the guys in fulfillment so they can control the stock they currently"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Stock control columns: SKU, Current quantity, Initial quantity, Supplier, ID. Rows are grouped by supplier with a count.",
+      "evidence": [
+        {"kind": "see", "at": "16:20", "frame": "t00980.jpg", "quote": "Column headers SKU, Current quantity, Initial quantity, Supplier, ID; group headers such as 'Arslan E Commerce 30' and 'Bwireless Technology 16'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "Invalids to fix is for the lab. Its tabs are All, Invalid claim and Fulfillment.",
+      "evidence": [
+        {"kind": "say", "at": "16:24", "quote": "have and make sure that we don't lose {any?} things invalid to fix this is for the lab"},
+        {"kind": "see", "at": "16:27", "frame": "t00987.jpg", "quote": "Left tabs 'All', 'Invalid claim', 'Fulfillment'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Invalids to fix columns: ID, SKU, Name, Initial quantity, Current quantity, Initial price, Price override, Current price, Supplier, Supplier initials, Total value, Market unit.",
+      "evidence": [
+        {"kind": "see", "at": "16:27", "frame": "t00987.jpg", "quote": "Column headers ID, SKU, Name, Initial quantity, Current quantity, Initial price, Price override, Current price, Supplier, Supplier initials, Total value, Market unit (partly cut off at the right edge)."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Charge inventory gives a reminder of how many days devices have gone without being charged (Days since last charge).",
+      "evidence": [
+        {"kind": "say", "at": "16:28", "quote": "you {need?} to manage charge inventory is also for them to have a reminder of since how many"},
+        {"kind": "say", "at": "16:36", "quote": "days they didn't charge the devices"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Charge inventory columns: SKU, ID, Days since last charge, Date last charged, Inventory days, Current quantity, Initial quantity, Created at, Status, Initial price, Price override. Sample Days since last charge values are 10.00 and 5.00.",
+      "evidence": [
+        {"kind": "see", "at": "16:30", "frame": "t00990.jpg", "quote": "Column headers SKU, ID, Days since last charge, Date last charged, Inventory days, Current quantity, Initial quantity, Created at, Status, Initial price, Price override; values '10.00' and '5.00' in Days since last charge."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "warning",
+      "statement": "Trainer says Box inventory is not really used.",
+      "evidence": [
+        {"kind": "say", "at": "16:38", "quote": "{box?} inventory this is not really used packaging requests so that the guys in the lab can see"},
+        {"kind": "see", "at": "16:38", "frame": "t00998.jpg", "quote": "Box inventory page shows a dimmed, nearly empty list."}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "Trainer says the lab sees which packaging requests a seller has made, so it can expedite the boxes to sellers on a weekly basis.",
+      "evidence": [
+        {"kind": "say", "at": "16:44", "quote": "{hard?} which packaging requests have been made by the seller so they can expedite the {the?} boxes to"},
+        {"kind": "say", "at": "16:51", "quote": "the sellers on a weekly basis and fulfillment expenses this is"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Packaging request columns: ID, Type, Stage, Reason, AWB, Quantity, Stickers, Seller, Required at, Tracking link. Sample row: Type 'Phone (box + inners) - English', Stage 'Sent', Reason 'Send to seller', Quantity 300.",
+      "evidence": [
+        {"kind": "see", "at": "16:41", "frame": "t01001.jpg", "quote": "Column headers ID, Type, Stage, Reason, AWB, Quantity, Stickers, Seller, Required at, Tracking link; first row Type 'Phone (box + inners) - English', Stage 'Sent', Reason 'Send to seller', Quantity 300."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Fulfillment expenses columns: ID, Item, Quantity, Unit price, Total cost, Invoice?, Bought at.",
+      "evidence": [
+        {"kind": "see", "at": "16:54", "frame": "t01014.jpg", "quote": "Column headers ID, Item, Quantity, Unit price, Total cost, Invoice?, Bought at (page dimmed)."}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Shipments groups and columns: Requested 1, AWB created 2, Under QC 1, Completed 1056; columns Supplier, ID, Created by, Created at, Updated at, Request Status, Payment method, Tracking company, Tracking ID, Tracking link, Tracking Label link. Payment method shows '100% - After sales' and tracking company 'Quiqup'.",
+      "evidence": [
+        {"kind": "see", "at": "16:57", "frame": "t01017.jpg", "quote": "Group headers 'Requested 1', 'AWB created 2', 'Under QC 1', 'Completed 1056'; Payment method '100% - After sales'; Tracking company 'Quiqup'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "Trainer says sellers can go to Supplier inventory, select devices and drop the price by two percent in bulk with the Drop -2% button.",
+      "evidence": [
+        {"kind": "say", "at": "17:03", "quote": "all the views {going?} back to supplier inventory please be aware that sellers can go here and"},
+        {"kind": "say", "at": "17:20", "quote": "either drop the price by two percent in bulk they can also see the products that are out"},
+        {"kind": "see", "at": "17:23", "frame": "t01043.jpg", "quote": "'2 Selected' with a 'Drop -2%' button at top right and tooltip 'Drop -2%'."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "In Supplier inventory, ticking a checkbox changes the header to 'N Selected' and makes a 'Drop -2%' button appear at top right (with a reset button beside it).",
+      "evidence": [
+        {"kind": "see", "at": "17:13", "frame": "t01033.jpg", "quote": "Header reads '0 Selected' with an X close control, checkboxes unticked."},
+        {"kind": "see", "at": "17:15", "frame": "t01035.jpg", "quote": "Header reads '1 Selected'; 'Drop -2%' button and reset button appear at top right."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Supplier inventory columns: SKU, Name, Inventory days, Created at, Status, Initial quantity, Current quantity, Initial price, Price override, Current price, Supplier. Status filters: Live (171) and Out of stock (0 when captured).",
+      "evidence": [
+        {"kind": "see", "at": "17:08", "frame": "t01028.jpg", "quote": "Column headers SKU, Name, Inventory days, Created at, Status, Initial quantity, Current quantity, Initial price, Price override, Current price, Supplier; left filters 'All', 'Live 171', 'Out of stock 0'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "In the visible Supplier inventory rows, Current price equals Price override where an override is set: for example Initial price 914, Price override 896, Current price 896.",
+      "evidence": [
+        {"kind": "see", "at": "17:13", "frame": "t01033.jpg", "quote": "Row SKU 02-59-94-46-18-04-20-22-03-11: Initial price 914, Price override 896, Current price 896."}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Trainer says payment terms for fulfillment are the same as for direct shipping orders, based on orders shipped in the past seven days and packaging requests.",
+      "evidence": [
+        {"kind": "say", "at": "17:26", "quote": "of stock inventory {exit?} we discussed about this one last thing payment terms for the fulfillment are exactly"},
+        {"kind": "say", "at": "17:36", "quote": "the same payment terms as for direct shipping orders which means that payment terms are based on orders"},
+        {"kind": "say", "at": "17:42", "quote": "shipped on the past seven days and packaging requests we also mentioned to you i hope this {video?}"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "tip",
+      "statement": "Watch the fulfillment video made for sellers, so you understand the level of knowledge sellers most need.",
+      "evidence": [
+        {"kind": "say", "at": "17:52", "quote": "was helpful for you {do?} not hesitate also do not forget also to watch the fulfillment video made"},
+        {"kind": "say", "at": "18:00", "quote": "for the sellers so that you can really understand the level of knowledge that is the most important"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    }
+  ],
+  "screens": [
+    {
+      "name": "Inventory exits (Revibe - Fulfillment App)",
+      "shows": "Exit rows grouped by Type (TDRA 296, Sold - Not sellable, Aging inventory return, Bulk QC rejection, RTO, Return to supplier, Sale 61). Left list of supplier filters with counts (All, (empty) 17, 100 Miles 106, 971 Fixing 101, AAA Electronics 199, etc.). Columns SKU, Name, Order help, IMEI, Type, Reason for return, Comment, Quantity before, Quantity after, Tracking ID.",
+      "at": "15:24-16:19",
+      "where": "Sidebar: Inventory exits; appsheet.com app 'Revibe - Fulfillment App'"
+    },
+    {
+      "name": "Stock control",
+      "shows": "Stock by supplier group, columns SKU, Current quantity, Initial quantity, Supplier, ID.",
+      "at": "16:20",
+      "where": "Sidebar: Stock control"
+    },
+    {
+      "name": "Invalids to fix",
+      "shows": "Items with Yes group header; tabs All, Invalid claim, Fulfillment; Add button; columns ID to Market unit.",
+      "at": "16:27",
+      "where": "Sidebar: Invalids to fix"
+    },
+    {
+      "name": "Charge inventory",
+      "shows": "Charge rows grouped by supplier; tab Fulfillment 171; Days since last charge, Date last charged, Inventory days (coloured dots), Status Live.",
+      "at": "16:30-16:36",
+      "where": "Sidebar: Charge inventory"
+    },
+    {
+      "name": "Box inventory",
+      "shows": "Nearly empty, dimmed list; Add button. Trainer says it is not really used.",
+      "at": "16:38",
+      "where": "Sidebar: Box inventory"
+    },
+    {
+      "name": "Packaging request",
+      "shows": "Packaging requests grouped by type 'Phone (box + inners) - English'; columns ID, Type, Stage, Reason, AWB, Quantity, Stickers, Seller, Required at, Tracking link.",
+      "at": "16:41-16:54 and 17:50-18:12",
+      "where": "Sidebar: Packaging request"
+    },
+    {
+      "name": "Fulfillment expenses",
+      "shows": "Dimmed list of expense items; columns ID, Item, Quantity, Unit price, Total cost, Invoice?, Bought at; Add button.",
+      "at": "16:54-16:56",
+      "where": "Sidebar: Fulfillment expenses"
+    },
+    {
+      "name": "Shipments",
+      "shows": "Shipment requests by Request Status (Requested, AWB created, Under QC, Completed 1056); Payment method '100% - After sales'; tracking company Quiqup.",
+      "at": "16:57-17:08",
+      "where": "Sidebar: Shipments"
+    },
+    {
+      "name": "Supplier inventory",
+      "shows": "Devices by supplier group with Live 171 / Out of stock 0 filter; checkboxes for selection; after selection, 'N Selected' header and Drop -2% button.",
+      "at": "17:08-17:46",
+      "where": "Sidebar: Supplier inventory"
+    },
+    {
+      "name": "Sidebar entries not opened in this part",
+      "shows": "SKUs available, Request products, Pending QC, All inventory, Fulfilment live inventory, Inventory to return, Naif to drop price, About, App Gallery.",
+      "at": "16:56 (visible in frames only)",
+      "where": "Sidebar of Revibe - Fulfillment App"
+    }
+  ],
+  "terms": [
+    {
+      "term": "RTO",
+      "meaning": "Return to origin. Trainer says 'return to origin' and the Inventory exits group is labelled RTO. Expansion comes from speech only.",
+      "at": "15:56"
+    },
+    {
+      "term": "Bulk QC rejection",
+      "meaning": "Whole-shipment rejection after QC finds poor quality on too many pieces.",
+      "at": "15:49"
+    },
+    {
+      "term": "Return to supplier",
+      "meaning": "Return of individual devices that do not match quality standards.",
+      "at": "16:05"
+    },
+    {
+      "term": "Aging inventory return",
+      "meaning": "Return of a device that has stayed too long in the inventory.",
+      "at": "15:42"
+    },
+    {
+      "term": "Sold - Not sellable",
+      "meaning": "Inventory exit Type shown on rows with Quantity before 1 and after 0. Meaning is not explained in the video.",
+      "at": "15:36"
+    },
+    {
+      "term": "Order help",
+      "meaning": "Inventory exits column. Sale rows show values such as ZA-53950-1. Trainer's 'AMEA' reference is not confirmed on screen.",
+      "at": "16:12"
+    },
+    {
+      "term": "Price override",
+      "meaning": "Supplier inventory and Invalids to fix column; in the visible rows, Current price shows the override value where one is set.",
+      "at": "17:13"
+    },
+    {
+      "term": "Drop -2%",
+      "meaning": "Button that appears for selected Supplier inventory rows. Trainer says it drops the price by two percent in bulk; the frames do not show the result.",
+      "at": "17:20"
+    },
+    {
+      "term": "Days since last charge",
+      "meaning": "Charge inventory column counting days since a device was last charged.",
+      "at": "16:36"
+    },
+    {
+      "term": "Inventory days",
+      "meaning": "Column in Charge inventory and Supplier inventory with coloured dots (red, yellow, green). The meaning of the colours and the metric is not explained.",
+      "at": "16:28"
+    },
+    {
+      "term": "AWB",
+      "meaning": "Column in Packaging request and Shipments; values include 'porter delivery' and numeric references. The expansion is not stated in the video.",
+      "at": "16:41"
+    },
+    {
+      "term": "Payment terms (fulfillment)",
+      "meaning": "Trainer says they are the same as for direct shipping orders, based on orders shipped in the past seven days and packaging requests.",
+      "at": "17:36"
+    },
+    {
+      "term": "TDRA",
+      "meaning": "Group label at the top of Inventory exits (296 rows). Not explained in the video.",
+      "at": "15:24"
+    }
+  ],
+  "asr_fixes": [
+    {
+      "at": "15:26",
+      "heard": "Revive",
+      "correct": "Revibe",
+      "basis": "Screen frame t00924.jpg shows the app title 'Revibe - Fulfillment App'."
+    },
+    {
+      "at": "16:24",
+      "heard": "invalid to fix",
+      "correct": "Invalids to fix",
+      "basis": "Sidebar and page title on frame t00987.jpg read 'Invalids to fix'."
+    }
+  ],
+  "unclear": [
+    {
+      "at": "15:26",
+      "issue": "'is like a {special?} operation led by Revive' starts mid-explanation. The pack has no earlier context, so the subject of this sentence is unclear."
+    },
+    {
+      "at": "16:12",
+      "issue": "'we always indicate also the AMEA and the {other?} help' has no screen equivalent. The term 'AMEA' cannot be confirmed; the Order help column is a possible but unconfirmed match."
+    },
+    {
+      "at": "17:13",
+      "issue": "Trainer says sellers can 'request for return in bulk', but no return button appears on frames t01035, t01043 or t01046. Only the Drop -2% button is visible on screen."
+    },
+    {
+      "at": "17:36",
+      "issue": "The payment-terms sentence is partly unclear: 'orders shipped on the past seven days and packaging requests'. The 'seven days' figure comes only from speech and is not shown on screen. It is unclear whether packaging requests are part of the basis."
+    },
+    {
+      "at": "16:38",
+      "issue": "Box inventory and Fulfillment expenses pages are dimmed in the frames, so column names and item names are only partly legible. Their purpose is only partly explained ('something something else', 'this is not really used')."
+    },
+    {
+      "at": "16:51",
+      "issue": "Narration 'fulfillment expenses this is' is cut off; the purpose of the Fulfillment expenses page is not stated."
+    },
+    {
+      "at": "17:03",
+      "issue": "'sellers can go here' does not say which view 'here' refers to. Supplier inventory is the likely view, but Shipments was on screen just before."
+    },
+    {
+      "at": "16:24",
+      "issue": "Frame-to-narration timing is approximate. 'Stock control' (16:18) and 'invalid to fix' (16:24) are spoken while the previous view is still on screen: Stock control appears at 16:20 and Invalids to fix at 16:27. Frame ids in the pack for these screens were one frame off."
+    },
+    {
+      "at": "16:28",
+      "issue": "Colours of the Inventory days dots (red, yellow, green) on Charge inventory and Supplier inventory are not explained on screen or in speech."
+    },
+    {
+      "at": "15:42",
+      "issue": "'{if?}' and '{bulk?}' markers on the aging-return sentence mean the trigger wording is low-confidence; the definition is taken from the unmarked clause only."
+    }
+  ],
+  "outdated": [
+    {
+      "at": "16:41",
+      "signal": "In the visible Packaging request rows, 'Required at' dates run from 5/19/2026 to 7/1/2026 (before today, 2026-10-22) with Stage 'Sent'. These look like past deadlines."
+    }
+  ],
+  "privacy": [
+    {
+      "at": "16:57",
+      "frame": "t01017.jpg",
+      "what": "Shipments 'Created by' column shows seller account email addresses in full (for example smartreachtrading@gmail.com and zabmobiletrading@gmail.com). One row shows an internal Revibe staff email (yahia.elbellaj@revibe.me). This column should not be shown to sellers."
+    },
+    {
+      "at": "16:41",
+      "frame": "t01001.jpg",
+      "what": "Packaging request rows show seller business names, AWB numbers and tracking links. These are business and shipment data, not personal data, but they link to a seller's shipments."
+    },
+    {
+      "at": "15:24",
+      "frame": "t00924.jpg",
+      "what": "Inventory exits rows show device IMEI numbers and tracking IDs. These are device and shipment identifiers, not personal data."
+    }
+  ],
+  "audit": {
+    "checked": 80,
+    "removed": [
+      {
+        "statement": "asr_fixes: 16:41 'packaging requests' -> 'Packaging request'",
+        "reason": "Not a speech-recognition error. The trainer's plural is generic speech, and the singular page title does not make it a mishearing."
+      },
+      {
+        "statement": "Fact: Stock control is the view ... so that nothing is lost",
+        "reason": "The 'nothing is lost' part rests on a {any?} fragment from the 16:24 line about Invalids to fix. Only the stock-control sentence is supported."
+      },
+      {
+        "statement": "Step 16:12: Sale type lists the sold devices with the sale reference",
+        "reason": "The trainer does not say 'sale reference'. Only the Order help values and the AMEA remark are in the evidence."
+      },
+      {
+        "statement": "Term AWB: expansion as air waybill (in the first draft)",
+        "reason": "Expansion comes from general knowledge, not from the video or screen. Removed from the term meaning."
+      }
+    ],
+    "corrected": [
+      {"before": "Step 15:24 say at 15:27", "after": "say at 15:31", "reason": "Transcript line for 'Other reasons are sales...' is stamped [15:31]."},
+      {"before": "Step 15:48 evidence: Bulk QC rows show Reason for return 'Other' with comment 'We have received 30 devices. T...'", "after": "Ten of the 14 Bulk QC rows show that Other/comment pattern; the other four show Camera issue, Display issue, Software issue and Other with Screws missing.", "reason": "Overstatement: the screen shows 'Other' on only some Bulk QC rows."},
+      {"before": "Step 16:12 'Explains the Sale type: the sold devices are listed with the sale reference.'", "after": "Trainer says sold devices are always marked with the AMEA and another help value; AMEA is not confirmed on screen.", "reason": "The 'sale reference' wording is not in the evidence. Sale rows show Order help values."},
+      {"before": "Step 16:18 frame t00987", "after": "frame t00980 (16:20), with t00979 (16:19) showing the click", "reason": "Frame id was one off; t00987 is the Invalids to fix page."},
+      {"before": "Step 16:18 why: 'make sure nothing is lost'", "after": "'So the fulfillment team can control the stock they currently have.'", "reason": "'Nothing is lost' is not in the 16:18 line; see removed item."},
+      {"before": "Step 16:24 frame t00990", "after": "frame t00987 (16:27)", "reason": "Frame id was one off."},
+      {"before": "Step 16:28 frame t00998", "after": "frame t00990 (16:30)", "reason": "Frame id was one off; t00998 is Box inventory."},
+      {"before": "Step 16:38 frame t01001", "after": "frame t00998 (16:38)", "reason": "Frame id was one off; t01001 is Packaging request."},
+      {"before": "Step 16:41 frame t01014 and 'so boxes can be sent out'", "after": "frame t01001 (16:41); 'so it can expedite the boxes to sellers, on a weekly basis'", "reason": "Frame id was one off; the wording now follows the 16:44 and 16:51 lines."},
+      {"before": "Step 16:56 frame t01028", "after": "frame t01014 (16:54)", "reason": "Frame id was one off; t01028 is Supplier inventory."},
+      {"before": "Step 17:03 frame t01030 (17:10)", "after": "frame t01017 (16:57)", "reason": "Frame id was one off; t01017 is Shipments."},
+      {"before": "Step 17:13 frames t01046 (1 Selected) and t01066 (2 Selected)", "after": "t01033 (0 Selected, 17:13), t01035 (1 Selected, 17:15), t01043 (2 Selected, 17:23)", "reason": "t01066 shows no selection; the 2-selected frames are t01043 and t01046."},
+      {"before": "Step 17:20 frame t01066 'Header reads 2 Selected ... tooltip'", "after": "Frame t01043 for the tooltip; t01046 for no price change; no click on the result is shown", "reason": "Frame id mix-up; t01066 shows no selection."},
+      {"before": "Step 17:36 screen 'Supplier inventory (last frame shows Packaging request)'", "after": "'Not shown (no frame between 17:26 and 17:46)'", "reason": "No frame covers 17:36. The Packaging request frames are at 17:50 onward."},
+      {"before": "Step 17:52: 'Closes the video'", "after": "'Ends the walkthrough and points viewers to the fulfillment video made for sellers.'", "reason": "The trainer does not say he closes the video; the frame cites t01092 at 18:12 also show the same Packaging request page as t01001."},
+      {"before": "Fact: Return to supplier evidence t00971 for reasons 'Physical condition not matching', 'Screws missing', 'Display issue'", "after": "Cite t00964 (16:04) for these reasons and t00948 for the group header", "reason": "Reason values are on t00964; t00971 does not show Screws missing or Display issue."},
+      {"before": "Fact: Reason for return values, cited t00971 and t00975", "after": "Cite t00964 and t00971; added 'Speaker issue' (on t00964)", "reason": "Frame id mix-up; Speaker issue is visible on t00964."},
+      {"before": "Fact: Stock control columns cites t00987", "after": "t00980 (16:20)", "reason": "Frame id was one off."},
+      {"before": "Fact: Invalids procedure and columns cite t00990", "after": "t00987 (16:27)", "reason": "Frame id was one off."},
+      {"before": "Fact: Charge inventory columns cite t00998", "after": "t00990 (16:30)", "reason": "Frame id was one off."},
+      {"before": "Fact: Box inventory warning cites t01001", "after": "t00998 (16:38)", "reason": "Frame id was one off."},
+      {"before": "Fact: Packaging procedure 'so boxes can be sent out' and Packaging columns cite t01014", "after": "Packaging wording follows 16:44 and 16:51; frame t01001", "reason": "Frame id was one off; 'sent out' is not in the speech."},
+      {"before": "Fact: Fulfillment expenses columns cite t01028 (17:08 frame)", "after": "t01014 (16:54)", "reason": "Frame id was one off."},
+      {"before": "Fact: Shipments groups cite t01030", "after": "t01017 (16:57)", "reason": "Frame id was one off."},
+      {"before": "Fact: Supplier inventory selection cites t01043 for '0 Selected' and t01046 for '1 Selected'", "after": "t01033 for '0 Selected' and t01035 for '1 Selected'", "reason": "Frame id mix-up."},
+      {"before": "Fact: Price example cites t01043", "after": "t01033 (17:13)", "reason": "t01043 shows the 2-selected state; the price row is visible on t01033. Also the wording is limited to the visible rows."},
+      {"before": "Fact: Sellers can open Supplier inventory ... use the bulk Drop -2% action to drop the price by two percent in bulk (stated as fact)", "after": "Trainer says sellers can drop the price by two percent in bulk; frames show only the button", "reason": "The result of the action is not shown on screen; the claim is the trainer's statement."},
+      {"before": "Fact: payment terms 'payment terms are based on orders shipped in the past seven days and packaging requests' (stated as fact)", "after": "Trainer says payment terms are the same as for direct shipping orders, based on orders shipped in the past seven days and packaging requests", "reason": "Attribute to the trainer. 'Seven days' and the packaging-request basis come only from speech and are in unclear."},
+      {"before": "Term Drop -2%: 'drops the price by two percent in bulk' (as fact)", "after": "Trainer says it drops the price by two percent in bulk; frames do not show the result", "reason": "Speech only; no result on screen."},
+      {"before": "Term Price override: 'when set, Current price shows the override value'", "after": "'in the visible rows, Current price shows the override value where one is set'", "reason": "Generalised from the visible rows only."},
+      {"before": "Term Payment terms (fulfillment): 'Same as direct shipping orders; based on ...'", "after": "Trainer says same as direct shipping orders; based on orders shipped in past seven days and packaging requests", "reason": "Attributed to the trainer."},
+      {"before": "Screen Inventory exits 'where': 'https://appsheet.com app'", "after": "'appsheet.com app Revibe - Fulfillment App'", "reason": "Dropped the protocol and the session-specific URL tokens."},
+      {"before": "Screen times: Stock control 16:18, Invalids 16:24, Charge 16:28-16:36, Packaging 16:41-18:12, Shipments 17:10, Supplier 17:13-17:23", "after": "Stock control 16:20, Invalids 16:27, Charge 16:30-16:36, Packaging 16:41-16:54 and 17:50-18:12, Fulfillment expenses 16:54-16:56, Shipments 16:57-17:08, Supplier 17:08-17:46", "reason": "Times now come from the frame headers."},
+      {"before": "Unclear 16:12 timing note", "after": "Unclear 16:24 timing note with the frame headers for stock control (16:20) and Invalids (16:27)", "reason": "Note now points at the right lines and frames."},
+      {"before": "asr_fixes 16:24 basis 'Sidebar and page title on frame t00990.jpg'", "after": "basis cites t00987.jpg", "reason": "Frame id was one off."},
+      {"before": "Outdated 'Required at' dates 5/19/2026 to 7/1/2026 (all rows)", "after": "'In the visible Packaging request rows' (same dates)", "reason": "Only the visible rows were read; the full list was not visible."},
+      {"before": "Privacy Shipments frame t01030 at 17:10", "after": "frame t01017 at 16:57", "reason": "Frame id was one off; the Created by column is on t01017. Staff email example kept."},
+      {"before": "Privacy 'Do not show this column to sellers.'", "after": "'This column should not be shown to sellers.'", "reason": "Reworded as a privacy note rather than an instruction."},
+      {"before": "Step 17:13 'Ticks the checkbox on one device row (header changes to 1 Selected)'", "after": "same, with the cited frames t01033, t01035 and t01043", "reason": "Frame ids corrected (see above)."}
+    ],
+    "added": [
+      "Step 15:32: Scrolls down the TDRA group (frame t00932). Quantity before values 1 to 7, Quantity after one lower on each row.",
+      "Step 16:04: Shows the Return to supplier rows and the one-by-one explanation (frame t00964).",
+      "Step 17:46: Clears the selection on Supplier inventory (frame t01066). No checkboxes ticked, Download button back, Ain Al Tair prices unchanged.",
+      "Step 16:18 evidence: frame t00979 (16:19) shows the cursor on the Stock control sidebar item.",
+      "Step 17:52 evidence: frames t01070 (17:50) and t01087 (18:07), both Packaging request pages.",
+      "Fact: 'Speaker issue' added to the reason-for-return list (frame t00964).",
+      "Bulk QC rows: the ten rows carrying the 'We have received 30 devices' comment are counted on frame t00948; the other four rows show other reasons."
+    ]
+  }
+}

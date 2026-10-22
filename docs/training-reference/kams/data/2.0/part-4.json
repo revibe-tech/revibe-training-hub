@@ -1,0 +1,619 @@
+{
+  "summary": "Part 4 (14:12 to 14:45) is a short demo of the Box request form in the Revibe - Fulfillment App (AppSheet web app). The trainer's example reason is 'Send to seller'. Quantity is set to 100, after a sizing example of maybe 50 sales a week with boxes for two weeks. He says stickers can optionally be requested, then tells the viewer to save. The frame at 14:31 shows a 'Discard changes?' dialog, so whether the example was saved is unclear. The video closes at the Box request list, which shows 'No items'. All 4 frames in the pack were opened (t00852, t00865, t00870, t00884). Unclear points: save or discard at 14:31, the {here.?} word in the two-week example, the opening click, and how 100 relates to the example.",
+  "steps": [
+    {
+      "at": "14:12",
+      "screen": "Revibe - Fulfillment App > Box request > Box request Form (side panel)",
+      "action": "The Box request form is open with ID 0d88444d pre-filled, Type Phone and Stage Requested selected, and the Reason dropdown expanded, showing 'Send to seller' and 'Send to Revibe Office'. The click that opened the form is not in this part's evidence.",
+      "says": "",
+      "why": "",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "14:12",
+          "frame": "t00852.jpg",
+          "quote": "Box request Form: ID 0d88444d; Type Laptop / Phone (selected) / iPad; Stage Requested (selected) / Sent; Reason dropdown open with 'Send to seller' and 'Send to Revibe Office'; Required at 05/03/2025 13:31:16; Required by pierre.villacque@revibe.me"
+        }
+      ]
+    },
+    {
+      "at": "14:13",
+      "screen": "Box request Form > Reason",
+      "action": "Sets the Reason to 'Send to seller'. On t00852 the dropdown is open with the cursor on 'Send to seller'; on t00865 the field shows 'Send to seller'.",
+      "says": "The reason is send to seller and you can just select the quantity.",
+      "why": "",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "14:13",
+          "quote": "The reason is send to seller and you can just select the quantity."
+        },
+        {
+          "kind": "see",
+          "at": "14:25",
+          "frame": "t00865.jpg",
+          "quote": "Reason field shows 'Send to seller'"
+        }
+      ]
+    },
+    {
+      "at": "14:17",
+      "screen": "Box request Form > Quantity (example, not shown on screen)",
+      "action": "Gives a sizing example: maybe 50 sales a week, and says 'you want to have boxes for two weeks'. The second sentence has a low-confidence word.",
+      "says": "So if you're doing, I don't know, maybe let's say 50 sales a week.",
+      "why": "",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "14:17",
+          "quote": "So if you're doing, I don't know, maybe let's say 50 sales a week."
+        },
+        {
+          "kind": "say",
+          "at": "14:22",
+          "quote": "You want to have boxes for two weeks {here.?}"
+        }
+      ]
+    },
+    {
+      "at": "14:25",
+      "screen": "Box request Form > Quantity",
+      "action": "Enters Quantity 100 in the Quantity field, which has - and + buttons.",
+      "says": "You can just put 100",
+      "why": "",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "14:25",
+          "quote": "You can just put 100 and you can also request stickers if you want, and then you just"
+        },
+        {
+          "kind": "see",
+          "at": "14:25",
+          "frame": "t00865.jpg",
+          "quote": "Quantity field shows 100 with - and + buttons"
+        }
+      ]
+    },
+    {
+      "at": "14:25",
+      "screen": "Box request Form > Stickers",
+      "action": "Sets Stickers to Yes (highlighted, cursor on it on t00865). The other choice is No. The trainer presents it as optional.",
+      "says": "and you can also request stickers if you want",
+      "why": "",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "14:25",
+          "quote": "and you can also request stickers if you want"
+        },
+        {
+          "kind": "see",
+          "at": "14:25",
+          "frame": "t00865.jpg",
+          "quote": "Stickers: Yes (highlighted, cursor on it) / No"
+        }
+      ]
+    },
+    {
+      "at": "14:25",
+      "screen": "Box request Form > Save (top right)",
+      "action": "Tells the viewer to save the request with the Save button at the top right of the form. A Save click is not shown; the next frame (t00870) shows a 'Discard changes?' dialog.",
+      "says": "and then you just have to save.",
+      "why": "",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "14:25",
+          "quote": "and then you just"
+        },
+        {
+          "kind": "say",
+          "at": "14:31",
+          "quote": "have to save."
+        },
+        {
+          "kind": "see",
+          "at": "14:25",
+          "frame": "t00865.jpg",
+          "quote": "Cancel and Save buttons at top right of the form"
+        }
+      ]
+    },
+    {
+      "at": "14:31",
+      "screen": "Box request Form > 'Discard changes?' dialog",
+      "action": "A 'Discard changes?' dialog appears with the cursor on Discard. The click that triggered the dialog (Cancel or close) is not visible, and the frame does not show whether Save was clicked earlier.",
+      "says": "have to save.",
+      "why": "",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "14:31",
+          "frame": "t00870.jpg",
+          "quote": "Discard changes? Any edits will be lost. Buttons: Continue editing / Discard (cursor on Discard)"
+        },
+        {
+          "kind": "say",
+          "at": "14:31",
+          "quote": "have to save."
+        }
+      ]
+    },
+    {
+      "at": "14:44",
+      "screen": "Box request list",
+      "action": "The form is closed. The Box request list shows 'No items', and the cursor is near 'SKUs available' in the left menu. No narration in this span.",
+      "says": "",
+      "why": "",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "14:44",
+          "frame": "t00884.jpg",
+          "quote": "Box request list: 'No items', + Add button top right, search bar 'Search Box request'; cursor near SKUs available"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "type": "screen",
+      "statement": "The Box request form has these fields: ID, Type (Laptop, Phone, iPad), Stage (Requested, Sent), Reason (dropdown), Quantity (required, with - and + buttons), Stickers (Yes or No), Required at (date and time, with a calendar icon), and Required by (an email-style value).",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "14:12",
+          "frame": "t00852.jpg",
+          "quote": "Box request Form field labels: ID, Type, Stage, Reason, Stickers, Required at, Required by"
+        },
+        {
+          "kind": "see",
+          "at": "14:25",
+          "frame": "t00865.jpg",
+          "quote": "Quantity* label with - and + buttons"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Set Reason to 'Send to seller' for this example request.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "14:13",
+          "quote": "The reason is send to seller and you can just select the quantity."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The Reason dropdown has two options: 'Send to seller' and 'Send to Revibe Office'. The trainer explains only 'Send to seller'.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "14:12",
+          "frame": "t00852.jpg",
+          "quote": "Reason dropdown options: 'Send to seller', 'Send to Revibe Office'"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "example",
+      "statement": "Trainer's sizing example: maybe 50 sales a week, and 'you want to have boxes for two weeks'. Implied: the 100 entered as Quantity matches 50 x 2 weeks, but the narration does not say so.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "14:17",
+          "quote": "So if you're doing, I don't know, maybe let's say 50 sales a week."
+        },
+        {
+          "kind": "say",
+          "at": "14:22",
+          "quote": "You want to have boxes for two weeks {here.?}"
+        },
+        {
+          "kind": "say",
+          "at": "14:25",
+          "quote": "You can just put 100"
+        }
+      ],
+      "confidence": "low",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "Enter the Quantity in the Quantity field of the Box request form. In the example, the trainer enters 100.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "14:25",
+          "quote": "You can just put 100"
+        },
+        {
+          "kind": "see",
+          "at": "14:25",
+          "frame": "t00865.jpg",
+          "quote": "Quantity field shows 100"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Stickers can be requested on a box request by choosing Yes in the Stickers field. The alternative is No.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "14:25",
+          "quote": "and you can also request stickers if you want"
+        },
+        {
+          "kind": "see",
+          "at": "14:25",
+          "frame": "t00865.jpg",
+          "quote": "Stickers Yes / No; Yes highlighted"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Click Save at the top right of the Box request form to save the request. The trainer says you 'just ... have to save'; the frames do not show a save click.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "14:31",
+          "quote": "have to save."
+        },
+        {
+          "kind": "see",
+          "at": "14:25",
+          "frame": "t00865.jpg",
+          "quote": "Save button top right"
+        }
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "A 'Discard changes?' dialog on the Box request form says 'Any edits will be lost', with 'Continue editing' and 'Discard' buttons. The action that opens it is not visible.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "14:31",
+          "frame": "t00870.jpg",
+          "quote": "Discard changes? Any edits will be lost. Continue editing / Discard"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The Box request list has a search bar 'Search Box request', a + Add button, and filter and select icons. The list shows 'No items' at the end of this part.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "14:44",
+          "frame": "t00884.jpg",
+          "quote": "'Box request' list, 'No items', '+ Add', filter and select icons, search 'Search Box request'"
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Left menu of the Revibe - Fulfillment App: SKUs available, Shipments, Request products, Supplier inventory, Inventory exits, Box request, About, Feedback, App Gallery.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "14:12",
+          "frame": "t00852.jpg",
+          "quote": "Left menu: SKUs available, Shipments, Request products, Supplier inventory, Inventory exits, Box request, About, Feedback, App Gallery"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Stage options on the Box request form are 'Requested' and 'Sent'. The example request is set to 'Requested'. What each stage means is not explained in this part.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "14:12",
+          "frame": "t00852.jpg",
+          "quote": "Stage buttons Requested (selected) / Sent"
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "tip",
+      "statement": "The trainer invites viewers to reach out with any {question?} about this training.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "14:40",
+          "quote": "hesitate to reach me if you have any {question?} related to this"
+        }
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Required at holds a date and time (calendar icon), and Required by holds an email-style value (pierre.villacque@revibe.me). Both are filled in on the example record; the rule for filling them is not explained.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "14:12",
+          "frame": "t00852.jpg",
+          "quote": "Required at 05/03/2025 13:31:16; Required by pierre.villacque@revibe.me"
+        }
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The ID field on the Box request form is pre-filled with 0d88444d.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "14:12",
+          "frame": "t00852.jpg",
+          "quote": "Box request Form ID field: 0d88444d"
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Type is set to Phone in the example. Laptop and iPad are the other options. Why Phone is chosen is not explained.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "14:12",
+          "frame": "t00852.jpg",
+          "quote": "Type: Laptop / Phone (selected) / iPad"
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "While the form is open (t00852), the Box request list behind it shows 'No items'.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "14:12",
+          "frame": "t00852.jpg",
+          "quote": "Box request list behind the form: 'No items'"
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    }
+  ],
+  "screens": [
+    {
+      "name": "Box request Form (side panel)",
+      "shows": "ID 0d88444d (pre-filled), Type (Laptop/Phone/iPad, Phone selected), Stage (Requested/Sent, Requested selected), Reason dropdown (Send to seller / Send to Revibe Office), Quantity with - and + (on t00865 only), Stickers (Yes/No), Required at, Required by. Cancel and Save buttons at the top right.",
+      "where": "Revibe - Fulfillment App (appsheet.com) > Box request",
+      "at": "14:12 to 14:31",
+      "frame": "t00852.jpg, t00865.jpg"
+    },
+    {
+      "name": "Discard changes? dialog",
+      "shows": "Text 'Discard changes?' and 'Any edits will be lost', with buttons Continue editing and Discard. Cursor is on Discard.",
+      "where": "Box request Form > Cancel or close",
+      "at": "14:31",
+      "frame": "t00870.jpg"
+    },
+    {
+      "name": "Box request list",
+      "shows": "Title 'Box request', 'No items', '+ Add' button, filter and select icons, search bar 'Search Box request'.",
+      "where": "Revibe - Fulfillment App > Box request",
+      "at": "14:44",
+      "frame": "t00884.jpg"
+    },
+    {
+      "name": "Left navigation menu",
+      "shows": "SKUs available, Shipments, Request products, Supplier inventory, Inventory exits, Box request, About, Feedback, App Gallery.",
+      "where": "Revibe - Fulfillment App",
+      "at": "14:12 to 14:44",
+      "frame": "t00852.jpg, t00884.jpg"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Box request",
+      "meaning": "The section of the Fulfillment App where box requests are listed and created. The form records Type, Stage, Reason, Quantity, Stickers, Required at and Required by.",
+      "at": "14:12"
+    },
+    {
+      "term": "Send to seller",
+      "meaning": "A Reason option on the Box request form. The trainer uses it for the example request. Its exact effect is not explained.",
+      "at": "14:13"
+    },
+    {
+      "term": "Send to Revibe Office",
+      "meaning": "The other Reason option on the Box request form. Not explained in this part.",
+      "at": "14:12"
+    },
+    {
+      "term": "Stage (Requested / Sent)",
+      "meaning": "Status field on the Box request form. Only Requested is used in the example. The meaning of Sent is not explained.",
+      "at": "14:12"
+    },
+    {
+      "term": "Stickers",
+      "meaning": "Yes/No choice on the Box request form. The trainer says the seller can 'also request stickers if you want'.",
+      "at": "14:25"
+    },
+    {
+      "term": "Quantity",
+      "meaning": "The quantity field on the Box request form, marked required. The trainer's example value is 100.",
+      "at": "14:25"
+    },
+    {
+      "term": "Fulfillment App",
+      "meaning": "The Revibe - Fulfillment App (AppSheet web app, appsheet.com) where the Box request section is found.",
+      "at": "14:12"
+    }
+  ],
+  "asr_fixes": [
+    {
+      "at": "14:40",
+      "heard": "{revive?}",
+      "correct": "Revibe",
+      "basis": "Screen title on every frame reads 'Revibe - Fulfillment App' and the email domain is revibe.me."
+    }
+  ],
+  "unclear": [
+    {
+      "at": "14:31",
+      "issue": "Narration says 'have to save.' while t00870 shows the 'Discard changes?' dialog with the cursor on Discard. The frames do not show whether the trainer saved or discarded the request. Do not state that the example was saved."
+    },
+    {
+      "at": "14:22",
+      "issue": "The word after 'boxes for two weeks' is marked {here.?}, so the wording of the sizing rule is not confirmed. The link between 50 sales a week, two weeks and the quantity 100 is not stated."
+    },
+    {
+      "at": "14:12",
+      "issue": "The opening step (clicking Add on the Box request list) is not in this part's evidence. The form is first shown open at t00852 with no narration before 14:13. Part 3's narration at 14:05 mentions clicking add, but that is outside this part."
+    },
+    {
+      "at": "14:12",
+      "issue": "The meaning of 'Send to Revibe Office' and of the Stage values 'Requested' and 'Sent' is not explained in this part."
+    },
+    {
+      "at": "14:12",
+      "issue": "Why Type Phone is selected is not explained. It is shown on screen only."
+    },
+    {
+      "at": "14:44",
+      "issue": "The list shows 'No items' after the form closes (t00884). This fits the example not being saved, but it does not prove it, and the list may not have refreshed."
+    },
+    {
+      "at": "14:40",
+      "issue": "The word {question?} is low-confidence and not shown on screen. The tip's wording depends on it."
+    }
+  ],
+  "outdated": [
+    {
+      "at": "14:12",
+      "signal": "Sample record 'Required at' reads 05/03/2025 13:31:16, a date in the past relative to the 2026-10-22 check date. Treat as sample data, not a live date."
+    }
+  ],
+  "privacy": [
+    {
+      "at": "14:12",
+      "what": "Frames t00852, t00865, t00870: the 'Required by' field shows the email pierre.villacque@revibe.me, a Revibe staff work address. Not seller data, but a person's email; do not show to sellers unredacted."
+    },
+    {
+      "at": "14:12",
+      "what": "All four frames (t00852, t00865, t00870, t00884) show a webcam overlay of the presenter in the bottom-left corner. Not customer data, but a person's face."
+    }
+  ],
+  "frames_opened": 4,
+  "audit": {
+    "checked": 42,
+    "removed": [
+      {
+        "statement": "Summary: the trainer 'saves' the request. Also step 6 action 'Saves the request using the Save button'.",
+        "reason": "Not shown. The narration says you 'just ... have to save', and t00870 shows a 'Discard changes?' dialog. Saving is not demonstrated."
+      }
+    ],
+    "corrected": [
+      {
+        "before": "Summary: 'enters a quantity of 100 with an example of 50 sales a week for two weeks'",
+        "after": "Quantity 100 is entered after a sizing example of maybe 50 sales a week, with 'boxes for two weeks'",
+        "reason": "The trainer says 'maybe let's say 50 sales a week'. He does not link 100 to the example."
+      },
+      {
+        "before": "Step 14:13 'Selects the Reason Send to seller'",
+        "after": "Reason is set to 'Send to seller'; t00852 shows the dropdown open with the cursor on it, and t00865 shows it set",
+        "reason": "The selection itself is between frames; the set value is shown on t00865."
+      },
+      {
+        "before": "Step 14:17 'with boxes for two weeks'",
+        "after": "says 'you want to have boxes for two weeks'",
+        "reason": "The words are 'you want to have', not a statement of what the seller orders."
+      },
+      {
+        "before": "Step 14:25 Save action: 'Saves the request using the Save button'",
+        "after": "Tells the viewer to save with the Save button; no save click shown",
+        "reason": "The save is narrated, not shown, and t00870 shows a discard dialog."
+      },
+      {
+        "before": "Step 14:31: 'Cancel (top right) > Discard changes? dialog'",
+        "after": "Discard changes? dialog appears; the triggering Cancel or close is not visible",
+        "reason": "t00870 shows the dialog and the cursor on Discard, not the click that opened it."
+      },
+      {
+        "before": "Fact 'Required at is a date and time field and Required by is an email field'",
+        "after": "Required at holds a date and time (calendar icon); Required by holds an email-style value",
+        "reason": "The field types are inferred from the values shown, not labelled on screen."
+      },
+      {
+        "before": "Fact 'Trainer's sizing example ... order boxes for two weeks; the trainer enters 100 as the quantity'",
+        "after": "Low-confidence: maybe 50 sales a week, 'you want to have boxes for two weeks'; the link to 100 is Implied only",
+        "reason": "'order' is not in the transcript. The narration does not connect 100 to the example."
+      },
+      {
+        "before": "Fact 'Save the Box request form before leaving it'",
+        "after": "Click Save at the top right to save the request; the trainer says 'have to save'",
+        "reason": "'before leaving it' is not stated. The save click is not shown."
+      },
+      {
+        "before": "Warning: 'Closing the form with Cancel while there are unsaved edits shows ... Choosing Discard removes the edits'",
+        "after": "The 'Discard changes?' dialog says 'Any edits will be lost'; the triggering action is not visible",
+        "reason": "'Cancel' and 'unsaved' are not shown. 'Any edits will be lost' is the on-screen text."
+      },
+      {
+        "before": "Tip: 'invites questions about this training to be sent to him'",
+        "after": "The trainer invites viewers to reach out with any {question?} about this training",
+        "reason": "The transcript says 'reach me', not 'sent to him'. The word {question?} is low-confidence."
+      },
+      {
+        "before": "Term 'Stickers': 'for requesting stickers with the boxes'",
+        "after": "Yes/No choice; the trainer says 'you can also request stickers if you want'",
+        "reason": "'with the boxes' is not said."
+      },
+      {
+        "before": "Privacy: 'the webcam overlay of the presenter (Pierre)'",
+        "after": "a webcam overlay of the presenter, with no name",
+        "reason": "The frames do not show a name for the presenter."
+      },
+      {
+        "before": "Outdated: 'today is 2026-10-22'",
+        "after": "Sample record date is past relative to the 2026-10-22 check date",
+        "reason": "The check date comes from the harness, not from the video; the sample date is the on-screen data."
+      }
+    ],
+    "added": [
+      "Fact: the ID field is pre-filled with 0d88444d (t00852)",
+      "Fact: Type is set to Phone in the example (t00852)",
+      "Fact: while the form is open, the Box request list behind it shows 'No items' (t00852)",
+      "Unclear: the list shows 'No items' after the form closes (t00884), which fits but does not prove that the example was not saved",
+      "Unclear: the {question?} word in the tip is low-confidence",
+      "Unclear: Part 3's narration at 14:05 mentions clicking add, but it is outside this part"
+    ]
+  }
+}

@@ -1,0 +1,343 @@
+{
+  "summary": "Part 1 of 5 (00:00 to 06:52) of the \"11.0 Dashboard (KAMs)\" training: a tour of the Supply dashboard for KAMs. It covers the tab bar, the top-right buttons, the chart/table switch, the index and filters, the methodology fold, and then the Daily tab sections Meetings, Legal, Buybox closed and Late orders, with the rules for colours, targets and what to do. Adversarial check: 13 of the 40 listed frames were opened and compared with the claims (t00000, t00024, t00048, t00097, t00129, t00153, t00208, t00259, t00310, t00344, t00360, t00378, t00404). Frame t00097 was cited for the KAM tab but shows the Daily tab, so those claims were downgraded. Speech recognition errors were fixed from on-screen labels. Meeting counts change between frames (100 vs 95), so those are logged as unclear rather than stated as facts.",
+  "frames_opened": 13,
+  "steps": [
+    {
+      "at": "00:00-00:24",
+      "screen": "Supply dashboard, Daily tab",
+      "action": "Introduction to the page and its layout.",
+      "evidence": [
+        {"kind": "say", "at": "00:05", "quote": "This is your tour of the supply dashboard, the page you will use every single day to run", "frame": ""},
+        {"kind": "see", "at": "00:00", "quote": "Supply dashboard header, Daily tab selected, Meetings table with seller rows", "frame": "t00000.jpg"}
+      ],
+      "says": "This is your tour of the supply dashboard, the page you will use every single day to run your book of sellers.",
+      "why": ""
+    },
+    {
+      "at": "00:22-00:39",
+      "screen": "Tab bar",
+      "action": "Explains each tab: Daily, KAM, Sellers, Scores, Tools. Says Team, Price recs, KPIs and Periskope are covered at the end.",
+      "evidence": [
+        {"kind": "say", "at": "00:22", "quote": "Along the top, you have the tabs.", "frame": ""},
+        {"kind": "see", "at": "00:24", "quote": "Tab bar outlined in orange: Daily, Periskope, Team, KAM, Sellers, Price recs, KPIs, Scores, Tools; subtitle names Daily, KAM, Sellers, Scores, Tools and says Team, Price recs, KPIs and Periskope are covered at the end", "frame": "t00024.jpg"}
+      ],
+      "says": "Along the top, you have the tabs.",
+      "why": ""
+    },
+    {
+      "at": "00:44-00:56",
+      "screen": "Top-right buttons",
+      "action": "Explains Meeting notes, Data freshness and Home.",
+      "evidence": [
+        {"kind": "say", "at": "00:45", "quote": "In the top right corner, Meeting Notes opens the form to log a seller meeting.", "frame": ""},
+        {"kind": "see", "at": "00:48", "quote": "Meeting notes, Data freshness and Home buttons outlined in orange; subtitle: Meeting notes opens the form to log a seller meeting, Data freshness tells you when each data source was last refreshed, Home takes you back to the main index of all Revibe dashboards", "frame": "t00048.jpg"}
+      ],
+      "says": "In the top right corner, Meeting notes opens the form to log a seller meeting.",
+      "why": ""
+    },
+    {
+      "at": "01:00-01:11",
+      "screen": "Data freshness",
+      "action": "Explains the nightly refresh and tells the KAM to re-check the next morning if a number looks wrong after a fix.",
+      "evidence": [
+        {"kind": "say", "at": "01:00", "quote": "The numbers on this page are refreshed every night from the production database, so what you see in", "frame": ""},
+        {"kind": "say", "at": "01:11", "quote": "If a number looks wrong after you fix something, check again the next morning.", "frame": ""}
+      ],
+      "says": "The numbers on this page are refreshed every night from the production database.",
+      "why": ""
+    },
+    {
+      "at": "01:17-01:28",
+      "screen": "Chart/Table toggle",
+      "action": "Explains the chart and table switch and the difference between the two views.",
+      "evidence": [
+        {"kind": "say", "at": "01:17", "quote": "Next to the tabs there is a chart and table switch.", "frame": ""},
+        {"kind": "say", "at": "01:21", "quote": "Chart shows each section as graphs.", "frame": ""},
+        {"kind": "see", "at": "01:20", "quote": "Chart/Table toggle at top right of the KAM tab, toggle set to Chart (frame t00129.jpg)", "frame": "t00129.jpg"}
+      ],
+      "says": "Chart shows each section as graphs. Table shows the same numbers as a scorecard, with periods as columns.",
+      "why": ""
+    },
+    {
+      "at": "01:34-01:46",
+      "screen": "KAM tab index",
+      "action": "Shows how to jump to a section from the index.",
+      "evidence": [
+        {"kind": "say", "at": "01:34", "quote": "On the left, the index lists every section of the tab you are on.", "frame": ""},
+        {"kind": "say", "at": "01:38", "quote": "Click any line to jump straight to it.", "frame": ""}
+      ],
+      "says": "Click any line to jump straight to it. The highlighted line follows you as you scroll.",
+      "why": "Cited frame t00097.jpg shows the Daily tab, not the KAM tab. The KAM index is seen on t00129.jpg and t00153.jpg."
+    },
+    {
+      "at": "01:48-02:19",
+      "screen": "KAM tab filter rail",
+      "action": "Explains the time frame, country, seller status and sellers filters.",
+      "evidence": [
+        {"kind": "say", "at": "01:50", "quote": "Time frame chooses the grain.", "frame": ""},
+        {"kind": "see", "at": "02:09", "quote": "Timeframe buttons Monthly · last 15M, Weekly · last 10W, Daily · last 30D; '442 days of data'; four country flag buttons; SELLER STATUS All / Active / OUT / OFF; Sellers box with Search sellers, All, Clear, Top 15 and a checkbox per seller", "frame": "t00129.jpg"},
+        {"kind": "say", "at": "02:19", "quote": "Every chart and table on the tab follows these filters.", "frame": ""}
+      ],
+      "says": "Monthly for the last 15 months, weekly for the last 10 weeks, or daily for the last 30 days.",
+      "why": ""
+    },
+    {
+      "at": "02:24-02:47",
+      "screen": "Card info icon and Methodology fold",
+      "action": "Explains the small info icon and the Methodology fold, and tells KAMs to use Methodology when unsure of a number or when a seller challenges it.",
+      "evidence": [
+        {"kind": "say", "at": "02:24", "quote": "Two small things appear on almost every card.", "frame": ""},
+        {"kind": "say", "at": "02:43", "quote": "Whenever you're not sure what a number means, open methodology.", "frame": ""},
+        {"kind": "see", "at": "02:33", "quote": "Subtitle: 'Two small things appear on almost every card. The little i next to a title shows which data source the card reads and how old that data is. And the Methodology fold explains exactly what is counted...'; METHODOLOGY fold visible under card titles (frame t00153.jpg)", "frame": "t00153.jpg"}
+      ],
+      "says": "Whenever you're not sure what a number means, open methodology.",
+      "why": ""
+    },
+    {
+      "at": "02:54-03:15",
+      "screen": "Repeated analyses across tabs",
+      "action": "Explains that a repeated analysis is the same, only the scope differs.",
+      "evidence": [
+        {"kind": "say", "at": "02:59", "quote": "Stuck orders, for example, is in daily, in KAM, and in sellers.", "frame": ""},
+        {"kind": "say", "at": "03:06", "quote": "Only the scope changes from the whole book to your book to one seller.", "frame": ""}
+      ],
+      "says": "It is the same analysis each time. Only the scope changes from the whole book to your book to one seller.",
+      "why": "Cited frame t00111.jpg was not opened in this check. Claim rests on narration."
+    },
+    {
+      "at": "03:20-03:41",
+      "screen": "Daily tab index",
+      "action": "Introduces the Daily tab and the count next to each index line.",
+      "evidence": [
+        {"kind": "say", "at": "03:27", "quote": "The daily tab is your morning checklist, and it's where your day starts.", "frame": ""},
+        {"kind": "say", "at": "03:31", "quote": "Every section here is a list of things that need an action today", "frame": ""},
+        {"kind": "see", "at": "03:28", "quote": "Daily index counts: Meetings (95), Legal (27), Buybox closed (8), Late orders (259), Stuck orders (1,423), Unidentified carrier (979), Refund policy (404), Claims coverage (1,235) (frame t00208.jpg)", "frame": "t00208.jpg"}
+      ],
+      "says": "Every section here is a list of things that need an action today, and the number next to each line of the index tells you how many items are waiting.",
+      "why": "Meetings count is (95) on t00208 but (100) on t00000 and t00048. See unclear."
+    },
+    {
+      "at": "03:43-03:56",
+      "screen": "Daily tab sidebar",
+      "action": "Sets the goal (bring every count down) and shows the filters that narrow the list.",
+      "evidence": [
+        {"kind": "say", "at": "03:46", "quote": "Your goal is simple.", "frame": ""},
+        {"kind": "say", "at": "03:47", "quote": "Bring every count down.", "frame": ""},
+        {"kind": "see", "at": "03:43", "quote": "Sidebar: Country flags, Seller status All / Active / OUT / OFF, Account manager Pepe 15, Yahia 61, Sherin 30, Momen 23, Samaa 11, Unassigned 9 (frame t00223.jpg, t00208.jpg)", "frame": "t00208.jpg"}
+      ],
+      "says": "Bring every count down.",
+      "why": ""
+    },
+    {
+      "at": "04:02-04:34",
+      "screen": "Daily, Meetings card",
+      "action": "Explains the Meetings columns, the target and the colour thresholds.",
+      "evidence": [
+        {"kind": "say", "at": "04:04", "quote": "One row per seller, one column per month and each cell counts the days on which a meeting", "frame": ""},
+        {"kind": "see", "at": "04:04", "quote": "Meetings card columns: Seller, Last seen, Status, Buybox, KAM, MAY 26, JUN, JUL, AUG, SEP, OCT, Frequency (frame t00244.jpg not opened; seen on t00208.jpg)", "frame": "t00208.jpg"},
+        {"kind": "see", "at": "04:19", "quote": "Subtitle: 'The target is one meeting at least every ten days. So in a full month three or more is green, two is yellow, and one or none is red. Last seen is the number of days since the most recent meeting: green under ten days, yellow up to twenty, red beyond.' (frame t00259.jpg)", "frame": "t00259.jpg"}
+      ],
+      "says": "Let's start with Meetings. One row per seller, one column per month, and each cell counts the days on which a meeting was logged with that seller.",
+      "why": ""
+    },
+    {
+      "at": "04:40-04:56",
+      "screen": "Meeting notes button",
+      "action": "Tells KAMs to log every call or visit with Meeting notes.",
+      "evidence": [
+        {"kind": "say", "at": "04:52", "quote": "Use the meeting notes button at the top of the page after every call or visit.", "frame": ""},
+        {"kind": "say", "at": "04:56", "quote": "If it's not logged as far as this dashboard is concerned, it never happened.", "frame": ""}
+      ],
+      "says": "Remember, meetings only count if they are logged.",
+      "why": ""
+    },
+    {
+      "at": "05:05-05:29",
+      "screen": "Daily, Legal card",
+      "action": "Explains the legal columns and the trade licence colour rules, and says what to collect from the seller.",
+      "evidence": [
+        {"kind": "say", "at": "05:06", "quote": "This is a chase {list?} of missing or expiring legal documents for each seller {the?} trade license expiry", "frame": ""},
+        {"kind": "see", "at": "05:25", "quote": "Legal card columns: Seller, Status, Buybox, KAM, TRADE LICENCE, TRN, TRN REG., VAT SCHEME (frame t00310.jpg)", "frame": "t00310.jpg"}
+      ],
+      "says": "The trade licence is a date and a colour. Red means it has expired, yellow means it expires within thirty days, and green means it is valid. Anything marked missing or crossed is something to collect from the seller.",
+      "why": "Colour rule is narrated (say). Not confirmed on screen because the dashboard's current date is not shown. See unclear."
+    },
+    {
+      "at": "05:40-05:53",
+      "screen": "Daily, Buybox closed card",
+      "action": "Explains the list and says these sellers are worth a call today.",
+      "evidence": [
+        {"kind": "say", "at": "05:40", "quote": "box closed lists every active seller whose buy box has been closed for more than three days a", "frame": ""},
+        {"kind": "see", "at": "05:44", "quote": "Card subtitle: 'Active sellers, closed for more than 3 days'; 8 rows, matching the index count (8) (frame t00344.jpg)", "frame": "t00344.jpg"},
+        {"kind": "see", "at": "05:46", "quote": "Subtitle: 'Buybox closed lists every active seller whose buy box has been closed for more than three days. A closed buy box means the seller cannot win sales, so every single day here is lost volume. These are worth a call today!' (frame t00346.jpg)", "frame": "t00346.jpg"}
+      ],
+      "says": "Buybox closed lists every Active seller whose buybox has been closed for more than three days. A closed buybox means the seller cannot win sales, so every single day here is lost volume. These are worth a call today!",
+      "why": ""
+    },
+    {
+      "at": "06:00-06:31",
+      "screen": "Daily, Buybox closed table",
+      "action": "Explains how to read the Since, Last meeting, Rationale and score columns before calling the seller.",
+      "evidence": [
+        {"kind": "see", "at": "06:00", "quote": "Subtitle: 'Since shows how many days the buy box has been closed: under five is green, five to ten yellow, over ten red, and over fifteen dark red. Last meeting shows when you last spoke to the seller, and Rationale is the note written when the buy box was closed.' (frame t00360.jpg)", "frame": "t00360.jpg"},
+        {"kind": "see", "at": "06:18", "quote": "Subtitle: 'The four columns after that are the seller's figures from the Scores tab: on time, defect rate, days to solve and claims coverage, with Next score. Green earns score, red costs score.' (frame t00378.jpg)", "frame": "t00378.jpg"}
+      ],
+      "says": "This tells you exactly what the seller has to fix to get the buybox reopened. Super useful for your next call.",
+      "why": ""
+    },
+    {
+      "at": "06:36-06:47",
+      "screen": "Daily, Top late orders",
+      "action": "Explains late orders and the list layout. The narration is cut off at the end of this part.",
+      "evidence": [
+        {"kind": "say", "at": "06:36", "quote": "Late orders are confirmed orders that have not shipped yet.", "frame": ""},
+        {"kind": "say", "at": "06:40", "quote": "They are still at order created or at quality check, and they are at least two days old.", "frame": ""},
+        {"kind": "see", "at": "06:44", "quote": "Top late orders table: columns ORDER, MARKET, SELLER, DAYS SINCE ORDER, STAGE; longest first (20, 15, 15, 13, 11, 11, 11, 10, 10, 10, 10, 10, 9); every visible stage is 'At quality check' (frame t00404.jpg)", "frame": "t00404.jpg"}
+      ],
+      "says": "The list is sorted oldest first, with the order number, the market flag, the seller, the days since",
+      "why": ""
+    }
+  ],
+  "facts": [
+    {"type": "definition", "statement": "The Daily tab is the morning to-do list.", "evidence": [{"kind": "say", "at": "00:25", "quote": "Daily is your morning to-do list."}, {"kind": "see", "at": "03:27", "quote": "Subtitle: 'The daily tab is your morning checklist'; cards list actions needed today (frame t00208.jpg)", "frame": "t00208.jpg"}], "confidence": "high", "quiz": true},
+    {"type": "definition", "statement": "The KAM tab is the KAM's own book, performance and bonus.", "evidence": [{"kind": "say", "at": "00:27", "quote": "KAM is your own book, your performance, and your bonus."}, {"kind": "see", "at": "00:24", "quote": "Subtitle on t00024.jpg matches the narration", "frame": "t00024.jpg"}], "confidence": "high", "quiz": true},
+    {"type": "definition", "statement": "The Sellers tab shows one seller at a time. The Scores tab is where every seller's score is calculated. The Tools tab holds the forms used with sellers.", "evidence": [{"kind": "say", "at": "00:31", "quote": "Sellers is one seller at a time."}, {"kind": "say", "at": "00:33", "quote": "Scores is where every seller's score is calculated, and Tools holds the forms you use with sellers."}], "confidence": "high", "quiz": true},
+    {"type": "procedure", "statement": "Team, Price recs, KPIs and Periskope are covered at the end of the video, not in this part.", "evidence": [{"kind": "say", "at": "00:39", "quote": "Team, Price {Rex,?} KPIs, and Periscope are covered at the end."}, {"kind": "see", "at": "00:24", "quote": "Tab bar shows Daily, Periskope, Team, KAM, Sellers, Price recs, KPIs, Scores, Tools (frame t00024.jpg)", "frame": "t00024.jpg"}], "confidence": "high", "quiz": false},
+    {"type": "screen", "statement": "The Meeting notes button at the top right opens the form to log a seller meeting.", "evidence": [{"kind": "say", "at": "00:45", "quote": "In the top right corner, Meeting Notes opens the form to log a seller meeting."}, {"kind": "see", "at": "00:48", "quote": "Top-right buttons: Meeting notes, Data freshness, Home (frame t00048.jpg)", "frame": "t00048.jpg"}], "confidence": "high", "quiz": true},
+    {"type": "definition", "statement": "Data freshness shows when each data source was last refreshed.", "evidence": [{"kind": "say", "at": "00:51", "quote": "Data freshness tells you when each data source was last refreshed"}, {"kind": "see", "at": "00:48", "quote": "Subtitle on t00048.jpg matches the narration", "frame": "t00048.jpg"}], "confidence": "high", "quiz": true},
+    {"type": "procedure", "statement": "Home takes the user back to the main index of all Revibe dashboards.", "evidence": [{"kind": "say", "at": "00:56", "quote": "main index of all revived dashboards."}, {"kind": "see", "at": "00:48", "quote": "Subtitle: 'Home takes you back to the main index of all Revibe dashboards.' (frame t00048.jpg)", "frame": "t00048.jpg"}], "confidence": "high", "quiz": false},
+    {"type": "policy", "statement": "The numbers on this page are refreshed every night from the production database. What is shown in the morning is the situation as of the early-morning cut, not live to the minute.", "evidence": [{"kind": "say", "at": "01:00", "quote": "The numbers on this page are refreshed every night from the production database, so what you see in"}, {"kind": "say", "at": "01:06", "quote": "the morning is the situation as of the early morning cut, not live to the minute."}], "confidence": "high", "quiz": true},
+    {"type": "procedure", "statement": "If a number looks wrong after you fix something, check it again the next morning, after the nightly refresh.", "evidence": [{"kind": "say", "at": "01:11", "quote": "If a number looks wrong after you fix something, check again the next morning."}], "confidence": "high", "quiz": true},
+    {"type": "screen", "statement": "The Chart/Table switch appears at the top right of the KAM tab, with Chart selected. The narration says it is next to the tabs. It is not visible on the Daily tab frames checked (t00000, t00208, t00310, t00404).", "evidence": [{"kind": "say", "at": "01:17", "quote": "Next to the tabs there is a chart and table switch."}, {"kind": "say", "at": "01:21", "quote": "Chart shows each section as graphs."}, {"kind": "see", "at": "01:20", "quote": "'Chart' toggle and 'Table' label at top right of the KAM tab (frame t00129.jpg)", "frame": "t00129.jpg"}], "confidence": "medium", "quiz": false},
+    {"type": "screen", "statement": "Table shows the same numbers as Chart, as a scorecard with periods as columns. Both read exactly the same data, so the KAM can use whichever they prefer.", "evidence": [{"kind": "say", "at": "01:23", "quote": "Table shows the same numbers as a scorecard, with periods as columns."}, {"kind": "say", "at": "01:28", "quote": "Both read exactly the same data, so use whichever you prefer."}], "confidence": "medium", "quiz": false},
+    {"type": "screen", "statement": "The left index lists every section of the current tab. Clicking a line jumps to that section, and the highlighted line follows the scroll position.", "evidence": [{"kind": "say", "at": "01:34", "quote": "On the left, the index lists every section of the tab you are on."}, {"kind": "say", "at": "01:38", "quote": "Click any line to jump straight to it."}], "confidence": "high", "quiz": false},
+    {"type": "rule", "statement": "Time frame options are Monthly for the last 15 months, Weekly for the last 10 weeks, and Daily for the last 30 days.", "evidence": [{"kind": "say", "at": "01:52", "quote": "Monthly for the last 15 months, weekly for the last 10 weeks, or daily for the last 30"}, {"kind": "see", "at": "02:09", "quote": "Timeframe buttons: Monthly · last 15M, Weekly · last 10W, Daily · last 30D (frame t00129.jpg)", "frame": "t00129.jpg"}], "confidence": "high", "quiz": true},
+    {"type": "screen", "statement": "The Country filter shows four flag buttons. The narration names them as Saudi Arabia, South Africa, the Emirates, and the rest of the world.", "evidence": [{"kind": "say", "at": "01:59", "quote": "Country narrows to Saudi Arabia, South Africa, the Emirates, or the rest of the"}, {"kind": "see", "at": "02:09", "quote": "Four flag buttons under COUNTRY (frame t00129.jpg)", "frame": "t00129.jpg"}], "confidence": "medium", "quiz": true},
+    {"type": "rule", "statement": "Seller status filter: keep only active sellers, or only sellers marked OUT or OFF. Buttons read All, Active, OUT, OFF.", "evidence": [{"kind": "say", "at": "02:06", "quote": "Seller status lets you keep only active sellers, or the ones that are OUT or OFF, and the"}, {"kind": "see", "at": "02:09", "quote": "SELLER STATUS buttons All / Active / OUT / OFF (frame t00129.jpg)", "frame": "t00129.jpg"}], "confidence": "high", "quiz": true},
+    {"type": "procedure", "statement": "The Sellers list can be searched, have individual sellers ticked or unticked, or be reduced to the top 15 sellers with the Top 15 button. Every chart and table on the tab follows these filters.", "evidence": [{"kind": "say", "at": "02:13", "quote": "{sellers?} list lets you search, tick and untick individual sellers, or keep only your top 15."}, {"kind": "say", "at": "02:19", "quote": "Every chart and table on the tab follows these filters."}, {"kind": "see", "at": "02:13", "quote": "Sellers box: Search sellers, All, Clear, Top 15 buttons, checkbox per seller (frame t00129.jpg)", "frame": "t00129.jpg"}], "confidence": "high", "quiz": true},
+    {"type": "screen", "statement": "Most cards show a small i icon next to the title. It shows which data source the card reads and how old that data is. The narration says 'eye', which is a speech recognition error.", "evidence": [{"kind": "say", "at": "02:27", "quote": "The little eye next to a title shows which data source the card reads and how old that"}, {"kind": "see", "at": "02:33", "quote": "Small 'i' icon next to card titles Meetings, Legal, Top late orders, Performance (frames t00153.jpg, t00208.jpg, t00404.jpg)", "frame": "t00153.jpg"}], "confidence": "medium", "quiz": true},
+    {"type": "definition", "statement": "The Methodology fold on each card explains exactly what is counted, which dates are used, and what is left out.", "evidence": [{"kind": "say", "at": "02:33", "quote": "And the methodology fold explains exactly what is counted, which dates are used, and what is left out."}, {"kind": "see", "at": "02:33", "quote": "METHODOLOGY fold under card titles (frames t00153.jpg, t00208.jpg)", "frame": "t00153.jpg"}], "confidence": "high", "quiz": true},
+    {"type": "tip", "statement": "When not sure what a number means, open Methodology. It is written in plain words and is the best tool when a seller challenges a figure.", "evidence": [{"kind": "say", "at": "02:43", "quote": "Whenever you're not sure what a number means, open methodology."}, {"kind": "say", "at": "02:47", "quote": "It's written for you in plain words, and it's your best friend when a seller challenges a figure."}], "confidence": "high", "quiz": true},
+    {"type": "definition", "statement": "Several analyses appear in more than one tab (for example Stuck orders appears in Daily, KAM and Sellers). It is the same analysis each time; only the scope changes, from the whole book, to the KAM's own book, to one seller.", "evidence": [{"kind": "say", "at": "02:59", "quote": "Stuck orders, for example, is in daily, in KAM, and in sellers."}, {"kind": "say", "at": "03:06", "quote": "Only the scope changes from the whole book to your book to one seller."}], "confidence": "high", "quiz": true},
+    {"type": "procedure", "statement": "Open the Daily tab first thing every morning and work down the list from top to bottom.", "evidence": [{"kind": "say", "at": "03:41", "quote": "Open it first thing every morning and work down the list from top to bottom."}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "Each section on the Daily tab lists items needing action today. The number next to each index line is how many items are waiting. The goal is to bring every count down.", "evidence": [{"kind": "say", "at": "03:31", "quote": "Every section here is a list of things that need an action today"}, {"kind": "say", "at": "03:47", "quote": "Bring every count down."}, {"kind": "see", "at": "03:28", "quote": "Index counts: Meetings (95), Legal (27), Buybox closed (8), Late orders (259), Stuck orders (1,423) (frame t00208.jpg)", "frame": "t00208.jpg"}], "confidence": "high", "quiz": true},
+    {"type": "procedure", "statement": "On the Daily tab, narrow the list to your own sellers with the account manager filter, and to Active sellers with the status buttons in the sidebar.", "evidence": [{"kind": "say", "at": "03:49", "quote": "You can narrow everything to your own sellers with the account manager filter and to active sellers only"}, {"kind": "say", "at": "03:56", "quote": "with the status buttons at the bottom of the index."}, {"kind": "see", "at": "03:43", "quote": "Sidebar: Seller status buttons (All, Active, OUT, OFF) and Account manager buttons below the index list (frame t00208.jpg)", "frame": "t00208.jpg"}], "confidence": "medium", "quiz": true},
+    {"type": "definition", "statement": "Daily tab account manager tabs and counts: All 149, Pepe 15, Yahia 61, Sherin 30, Momen 23, Samaa 11, Unassigned 9.", "evidence": [{"kind": "see", "at": "00:00", "quote": "Account manager tabs: All 149, Pepe 15, Yahia 61, Sherin 30, Momen 23, Samaa 11, Unassigned 9 (frame t00000.jpg)", "frame": "t00000.jpg"}], "confidence": "high", "quiz": false},
+    {"type": "definition", "statement": "Meetings card: one row per seller and one column per month. Each cell counts the days on which a meeting was logged with that seller.", "evidence": [{"kind": "say", "at": "04:04", "quote": "One row per seller, one column per month and each cell counts the days on which a meeting"}, {"kind": "say", "at": "04:09", "quote": "was logged with that seller."}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "Two meeting notes written on the same day count as one meeting day.", "evidence": [{"kind": "say", "at": "04:11", "quote": "Two notes written on the same day count as one meeting day."}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "Meeting target: at least one meeting every 10 days with each seller. The narration says 'ten days'.", "evidence": [{"kind": "say", "at": "04:16", "quote": "The target is one meeting at least every 10 days."}, {"kind": "see", "at": "04:19", "quote": "Subtitle: 'The target is one meeting at least every ten days' (frame t00259.jpg)", "frame": "t00259.jpg"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "Meetings colour rule for a full month: three or more meetings is green, two is yellow, one or none is red.", "evidence": [{"kind": "say", "at": "04:20", "quote": "So in a full month {three?} or more is green, two is yellow and one or none is"}, {"kind": "see", "at": "04:19", "quote": "Subtitle: 'So in a full month three or more is green, two is yellow, and one or none is red' (frame t00259.jpg)", "frame": "t00259.jpg"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "Last seen is the number of days since the most recent meeting. Green is under 10 days, yellow is up to 20 days, red is beyond 20 days.", "evidence": [{"kind": "say", "at": "04:25", "quote": "Last seen is the number of days since the most recent meeting, green under 10 days, yellow up"}, {"kind": "see", "at": "04:31", "quote": "Subtitle: 'Last seen is the number of days since the most recent meeting: green under ten days, yellow up to twenty, red beyond.' (frame t00259.jpg)", "frame": "t00259.jpg"}], "confidence": "high", "quiz": true},
+    {"type": "definition", "statement": "Frequency is the average gap between meetings, shown as every so many days.", "evidence": [{"kind": "say", "at": "04:34", "quote": "Frequency on the right is the average gap between meetings, shown as every so many days."}, {"kind": "see", "at": "04:34", "quote": "FREQUENCY column shows values such as 'every 34d' in the Meetings total row (frame t00208.jpg)", "frame": "t00208.jpg"}], "confidence": "high", "quiz": false},
+    {"type": "warning", "statement": "The current month is still running, so its meeting count will always look lower than a full month until the month ends.", "evidence": [{"kind": "say", "at": "04:40", "quote": "The current month is still running, so it will always look lower than a full month until the"}, {"kind": "say", "at": "04:46", "quote": "month ends."}], "confidence": "high", "quiz": true},
+    {"type": "warning", "statement": "Meetings only count if they are logged. Use the Meeting notes button at the top of the page after every call or visit. A meeting that is not logged does not count on the dashboard.", "evidence": [{"kind": "say", "at": "04:48", "quote": "Remember, meetings only count if they are logged."}, {"kind": "say", "at": "04:52", "quote": "Use the meeting notes button at the top of the page after every call or visit."}, {"kind": "say", "at": "04:56", "quote": "If it's not logged as far as this dashboard is concerned, it never happened."}], "confidence": "high", "quiz": true},
+    {"type": "definition", "statement": "The Legal card is a chase list of missing or expiring legal documents for each seller. Its columns are: trade licence expiry date, TRN (tax registration number), TRN registration document, and VAT scheme.", "evidence": [{"kind": "say", "at": "05:06", "quote": "This is a chase {list?} of missing or expiring legal documents for each seller"}, {"kind": "say", "at": "05:13", "quote": "date the tax registration number the TRN registration document and the VAT scheme the trade license is a"}, {"kind": "see", "at": "05:25", "quote": "Legal columns: TRADE LICENCE, TRN, TRN REG., VAT SCHEME (frame t00310.jpg)", "frame": "t00310.jpg"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "Trade licence colours as narrated: red means expired, yellow means it expires within 30 days, green means valid.", "evidence": [{"kind": "say", "at": "05:23", "quote": "date and a color red means it has expired yellow means it expires within 30 days and green"}, {"kind": "say", "at": "05:29", "quote": "means it is valid"}, {"kind": "see", "at": "05:25", "quote": "Subtitle on t00325.jpg: red means expired, yellow means it expires within thirty days, green means valid (frame not opened in this check)", "frame": "t00325.jpg"}], "confidence": "medium", "quiz": true},
+    {"type": "procedure", "statement": "Anything marked missing or crossed on the Legal card is something to collect from the seller.", "evidence": [{"kind": "say", "at": "05:29", "quote": "anything marked missing or crossed is something to collect from the seller"}, {"kind": "see", "at": "05:25", "quote": "Entries marked missing or with a red cross, for example Renova Devices TRN ✗ and TRN REG. ✗ (frame t00310.jpg)", "frame": "t00310.jpg"}], "confidence": "high", "quiz": true},
+    {"type": "definition", "statement": "Buybox closed lists every Active seller whose buybox has been closed for more than three days.", "evidence": [{"kind": "say", "at": "05:40", "quote": "box closed lists every active seller whose buy box has been closed for more than three days a"}, {"kind": "see", "at": "05:44", "quote": "Card subtitle: 'Active sellers, closed for more than 3 days' (frame t00344.jpg)", "frame": "t00344.jpg"}], "confidence": "high", "quiz": true},
+    {"type": "warning", "statement": "A closed buybox means the seller cannot win sales, so every day it stays closed is lost volume. These sellers are worth a call today.", "evidence": [{"kind": "say", "at": "05:46", "quote": "closed buy box means the seller cannot win sales so every single day here is lost volume these"}, {"kind": "see", "at": "05:46", "quote": "Subtitle: 'A closed buy box means the seller cannot win sales, so every single day here is lost volume. These are worth a call today!' (frame t00346.jpg)", "frame": "t00346.jpg"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "Buybox closed Since column (days the buybox has been closed): under 5 is green, 5 to 10 is yellow, over 10 is red, over 15 is dark red.", "evidence": [{"kind": "say", "at": "06:00", "quote": "is green five to ten yellow over ten red and over {fifteen?} dark red last meeting shows when"}, {"kind": "see", "at": "06:00", "quote": "Subtitle on t00360.jpg: 'Since shows how many days the buy box has been closed: under five is green, five to ten yellow, over ten red, and over fifteen dark red.'", "frame": "t00360.jpg"}], "confidence": "high", "quiz": true},
+    {"type": "definition", "statement": "In the Buybox closed table, Last meeting shows when the KAM last spoke to the seller. Rationale is the note written when the buybox was closed.", "evidence": [{"kind": "say", "at": "06:07", "quote": "you last spoke to the seller, and rationale is the note written when the buy box was closed."}], "confidence": "high", "quiz": true},
+    {"type": "definition", "statement": "The four score columns on the Buybox closed table (On time, Defect rate, Days to solve, Claims coverage) are the seller's figures from the Scores tab, plus a Next score column.", "evidence": [{"kind": "say", "at": "06:13", "quote": "The four columns after that are the seller's figures from the scores tab."}, {"kind": "see", "at": "06:18", "quote": "Column headers ON TIME, DEFECT RATE, DAYS TO SOLVE, CLAIMS COVERAGE, NEXT SCORE (frame t00378.jpg)", "frame": "t00378.jpg"}], "confidence": "high", "quiz": true},
+    {"type": "rule", "statement": "In the score columns, green means the seller earns score and red means the seller costs score. This shows what the seller has to fix to get the buybox reopened.", "evidence": [{"kind": "say", "at": "06:23", "quote": "Green earned score, red {costs?} score."}, {"kind": "say", "at": "06:26", "quote": "This tells you exactly what the seller has to fix to get the buy box reopened."}, {"kind": "see", "at": "06:23", "quote": "Subtitle on t00378.jpg: 'Green earns score, red costs score'", "frame": "t00378.jpg"}], "confidence": "high", "quiz": true},
+    {"type": "fact", "statement": "The Buybox closed card shows 8 Active sellers, matching the index count (8): Captain Way, Profuse Supply, GreenCircle, Nisar Line, Renewix, Smart Life, AAA Electronics and Yktech General.", "evidence": [{"kind": "see", "at": "05:44", "quote": "Buybox closed table lists 8 rows, all Status Active; index shows Buybox closed (8) (frame t00344.jpg)", "frame": "t00344.jpg"}], "confidence": "high", "quiz": true},
+    {"type": "definition", "statement": "Late orders are confirmed orders that have not shipped yet. They are still at Order created or Quality check, and they are at least two days old.", "evidence": [{"kind": "say", "at": "06:36", "quote": "Late orders are confirmed orders that have not shipped yet."}, {"kind": "say", "at": "06:40", "quote": "They are still at order created or at quality check, and they are at least two days old."}, {"kind": "see", "at": "06:39", "quote": "Subtitle: 'Late orders are confirmed orders that have not shipped yet. They are still at Order created or at Quality check, and they are at least two days old.' (frame t00399.jpg, frame not opened in this check)", "frame": "t00399.jpg"}], "confidence": "high", "quiz": true},
+    {"type": "screen", "statement": "The Top late orders table is sorted oldest first. Columns are Order, Market (flag), Seller, Days since order and Stage. Every visible row in the table shows the stage At quality check.", "evidence": [{"kind": "say", "at": "06:47", "quote": "The list is sorted oldest first, with the order number, the market flag, the seller, the days since"}, {"kind": "see", "at": "06:44", "quote": "Columns ORDER, MARKET, SELLER, DAYS SINCE ORDER, STAGE; days 20, 15, 15, 13, 11, 11, 11, 10, 10, 10, 10, 10, 9; all STAGE cells read 'At quality check' (frame t00404.jpg)", "frame": "t00404.jpg"}], "confidence": "high", "quiz": true},
+    {"type": "screen", "statement": "KAM Performance card (example KAM Sherin): KPI weights are GMV 50%, New active sellers 0%, % On time 10%, % Defect rate (M-1) 30%, Days to solve 10%. Columns are Weight, Min, Base, High, Perf., Manual.", "evidence": [{"kind": "see", "at": "02:09", "quote": "KPI table on t00129.jpg: GMV (K AED) weight 50%, New active sellers 0%, % On time 10%, % Defect rate (M-1) 30%, Days to solve 10%", "frame": "t00129.jpg"}], "confidence": "high", "quiz": true},
+    {"type": "screen", "statement": "The KAM Career card for the example KAM shows the stages: Junior KAM (current, from 1 Jul 2026) and KAM Trial (1 Apr 2026 to 30 Jun 2026, 3 months). A KAM Onboarding stage is not confirmed in the frames checked.", "evidence": [{"kind": "see", "at": "02:13", "quote": "Career card: Junior KAM CURRENT '1 Jul 2026 → today · 4 months'; KAM Trial '1 Apr 2026 → 30 Jun 2026 · 3 months' (frames t00129.jpg, t00153.jpg)", "frame": "t00153.jpg"}], "confidence": "high", "quiz": false}
+  ],
+  "screens": [
+    {"name": "Supply dashboard header", "shows": "Title, Meeting notes (top right), Data freshness, Home buttons.", "at": "00:00-00:56", "where": "t00048.jpg"},
+    {"name": "Tab bar", "shows": "Daily, Periskope, Team, KAM, Sellers, Price recs, KPIs, Scores, Tools.", "at": "00:22-00:39", "where": "t00024.jpg"},
+    {"name": "Daily tab, left index", "shows": "Index counts (t00208): Meetings (95), Legal (27), Buybox closed (8), Late orders (259), Stuck orders (1,423), Unidentified carrier (979), Refund policy (404), Claims coverage (1,235). Country flags, Seller status buttons, Account manager buttons with counts.", "at": "03:28-03:56", "where": "t00208.jpg"},
+    {"name": "Daily, account manager tabs", "shows": "All 149, Pepe 15, Yahia 61, Sherin 30, Momen 23, Samaa 11, Unassigned 9.", "at": "00:00-03:56", "where": "t00000.jpg"},
+    {"name": "Daily, Meetings card", "shows": "Table with Seller, Last seen, Status, Buybox, KAM, monthly columns MAY 26 to OCT, Frequency. Total row reads 95 sellers (t00208) or 100 sellers (t00000).", "at": "04:04-04:34", "where": "t00208.jpg"},
+    {"name": "Daily, Legal card", "shows": "Table with Seller, Status, Buybox, KAM, TRADE LICENCE (dated, coloured), TRN, TRN REG., VAT SCHEME (Standard, Profit Margin, missing, Standard ≠ TRN).", "at": "05:05-05:29", "where": "t00310.jpg"},
+    {"name": "Daily, Buybox closed card", "shows": "Table with Seller, Status, KAM, Buybox, Since, Last meeting, Rationale, On time, Defect rate, Days to solve, Claims coverage, Next score. 8 rows.", "at": "05:40-06:31", "where": "t00344.jpg"},
+    {"name": "Daily, Top late orders card", "shows": "Table with Order, Market flag, Seller, Days since order, Stage (At quality check).", "at": "06:36-06:47", "where": "t00404.jpg"},
+    {"name": "KAM tab, left index tree", "shows": "HR (Performance, Career), Sellers (Active, Semi-active, Buybox closed, Slowing down), Orders, On time (Performance, Backlog, Stuck orders, Delivery companies, Manual update), Fulfillment, Quality (Defect rate, Top offenders), Claims management (Days to solve, Claims coverage, Refund policy, Invalid claims), Cancellation, Sellers connections, Meetings.", "at": "01:34-03:00", "where": "t00153.jpg"},
+    {"name": "KAM tab filter rail", "shows": "Timeframe (Monthly last 15M, Weekly last 10W, Daily last 30D, 442 days of data), Country flags, Seller status, Sellers list with Search, All, Clear, Top 15, and a checkbox per seller.", "at": "01:48-02:19", "where": "t00129.jpg"},
+    {"name": "KAM tab Performance card", "shows": "Sherin: KPI cards (GMV 3,314K, % On time 81%, % Defect rate (M-1) 6.0%, Days to solve 8.1), KPI table with monthly columns, OCT, Weight, Min, Base, High, Perf., Manual, Bonus baseline, Bonus reached, a Ship to payroll button.", "at": "01:37-02:24", "where": "t00129.jpg"},
+    {"name": "KAM tab Career card", "shows": "Stages Junior KAM (current, 1 Jul 2026), KAM Trial (1 Apr 2026 to 30 Jun 2026), with monthly values and an average.", "at": "02:13", "where": "t00153.jpg"},
+    {"name": "Chart/Table toggle", "shows": "Switch at top right of the KAM tab, labelled Chart and Table.", "at": "01:17-01:28", "where": "t00129.jpg"}
+  ],
+  "terms": [
+    {"term": "Supply dashboard", "meaning": "The page KAMs use every day to run their book of sellers.", "at": "00:05"},
+    {"term": "Daily", "meaning": "The morning to-do list tab: sections of things needing action today.", "at": "00:25"},
+    {"term": "KAM (tab)", "meaning": "The KAM's own book, performance and bonus.", "at": "00:27"},
+    {"term": "Index", "meaning": "Left-hand list of every section of the tab you are on. Each line can be clicked to jump to it. On the Daily tab the number beside a line is how many items are waiting.", "at": "01:34"},
+    {"term": "Methodology", "meaning": "Fold on each card that explains what is counted, which dates are used, and what is left out.", "at": "02:33"},
+    {"term": "Data freshness", "meaning": "Shows when each data source was last refreshed.", "at": "00:51"},
+    {"term": "Meeting notes", "meaning": "Button that opens the form to log a seller meeting.", "at": "00:45"},
+    {"term": "Meeting day", "meaning": "A day on which at least one meeting was logged with a seller; two notes on the same day count as one meeting day.", "at": "04:11"},
+    {"term": "Frequency", "meaning": "Average gap between meetings, shown as every so many days.", "at": "04:34"},
+    {"term": "Last seen", "meaning": "Number of days since the most recent meeting with the seller.", "at": "04:25"},
+    {"term": "Trade licence", "meaning": "Legal document with an expiry date; colour shows expired, expiring within 30 days, or valid (as narrated).", "at": "05:23"},
+    {"term": "TRN", "meaning": "Tax registration number.", "at": "05:13"},
+    {"term": "Buybox closed", "meaning": "Status when an Active seller's buybox has been closed for more than three days. The seller cannot win sales while it is closed.", "at": "05:40"},
+    {"term": "Since (buybox)", "meaning": "Number of days the buybox has been closed.", "at": "06:00"},
+    {"term": "Rationale", "meaning": "The note written when the buybox was closed.", "at": "06:07"},
+    {"term": "Next score", "meaning": "Score column on the buybox table showing the seller's next score figure, shown green or red.", "at": "06:18"},
+    {"term": "Late orders", "meaning": "Confirmed orders that have not shipped yet, still at Order created or Quality check, and at least two days old (as narrated).", "at": "06:36"},
+    {"term": "Market flag", "meaning": "Country flag shown against each late order.", "at": "06:47"},
+    {"term": "Stuck orders", "meaning": "An analysis that appears in Daily, KAM and Sellers; the same analysis with a different scope in each (as narrated).", "at": "02:59"}
+  ],
+  "asr_fixes": [
+    {"at": "00:39", "heard": "Price {Rex,?} KPIs", "correct": "Price recs, KPIs", "basis": "Tab label reads 'Price recs' and 'KPIs' (frame t00024.jpg)."},
+    {"at": "00:39", "heard": "Periscope", "correct": "Periskope", "basis": "Tab label reads 'Periskope' (frame t00024.jpg)."},
+    {"at": "00:56", "heard": "revived dashboards", "correct": "Revibe dashboards", "basis": "On-screen subtitle reads 'main index of all Revibe dashboards' (frame t00048.jpg)."},
+    {"at": "02:27", "heard": "The little eye next to a title", "correct": "The little i next to a title", "basis": "Subtitle reads 'The little i next to a title shows which data source the card reads' and cards show an i icon (frames t00153.jpg, t00208.jpg)."},
+    {"at": "05:06", "heard": "trade license", "correct": "TRADE LICENCE", "basis": "Column header reads 'TRADE LICENCE' (frame t00310.jpg). Spelling only."}
+  ],
+  "unclear": [
+    {"at": "00:00-03:28", "issue": "Meeting totals differ between frames: the Daily index shows 'Meetings (100)' and 'Total · 100 sellers' in t00000 and t00048, but 'Meetings (95)' and 'Total · 95 sellers' in t00208 and t00244. The reason is not narrated. No count is stated as a fact."},
+    {"at": "01:37-02:24", "issue": "The KAM Performance card for the example KAM shows two different sets of values in frames seconds apart: one with Min/Base/High blank and Total 78% and one with Min/Base/High filled and Total 116%. Likely a loading state, but not narrated. The Total and Perf values are not stated as facts."},
+    {"at": "05:23", "issue": "Golden Maher trade licence '19 Nov 26' appears green on the Legal card (t00310.jpg), but the narration says yellow means expiring within 30 days. The dashboard's current date is not on screen, so this cannot be checked. Yellow is shown for 11 Nov 26 (Apple Gallery Mobile) and 15 Nov 26 (FSA Trading)."},
+    {"at": "01:17-06:52", "issue": "Chart/Table toggle: narration at 01:17 introduces it next to the tabs. It is visible on KAM tab frames (t00129.jpg) but not on the Daily tab frames checked (t00000, t00208, t00310, t00404). It is not confirmed whether it appears on every tab."},
+    {"at": "03:43-03:56", "issue": "Narration says the status buttons are 'at the bottom of the index'. On screen they sit in the left sidebar below the index list, with Country above them and Account manager below them. The meaning is clear, but the position is approximate."},
+    {"at": "05:25-05:53", "issue": "Legal card shows 'Standard ≠ TRN' (red outline) for MKD Trade and ReNova Tech, and 'Profit Margin' for FSA Trading. Neither is explained in part 1."},
+    {"at": "05:40-06:31", "issue": "Buybox closed table shows a 'License missing' rationale for Smart Life. No narration explains it."},
+    {"at": "06:44-06:52", "issue": "Narration about the late orders list is cut off mid-sentence ('the days since') at the end of part 1. The rest is in part 2 and was not checked here."},
+    {"at": "06:36-06:47", "issue": "Narration says late orders are at 'Order created or Quality check'. Visible rows show only 'At quality check'. The table shows the top rows only, and the card title 'Top late orders' does not say how many rows it holds, though the index count is 259."},
+    {"at": "02:13", "issue": "The KAM Performance card shows a 'Ship to payroll' button. Its purpose is not explained in part 1."},
+    {"at": "02:13", "issue": "The Career card shows 'Oct 26*' with an asterisk in the monthly row. The meaning is not narrated (probably the current month, still running, but not confirmed)."},
+    {"at": "02:13", "issue": "The Career card stage KAM Onboarding (1 Mar 2026 to 31 Mar 2026) was in the previous draft but is not visible in the frames checked (t00129.jpg, t00153.jpg). It is not stated as a fact."}
+  ],
+  "outdated": [
+    {"at": "05:25", "signal": "Legal card shows Connectancy trade licence 19 Sep 25 and Smart Life trade licence 02 Aug 26 in red (expired as displayed). These dates are already past on screen, so the seller needs to renew now. The date the dashboard was read is not on screen."},
+    {"at": "00:00-04:02", "signal": "Index and totals changed between frames (Meetings 100 to 95). The screenshots were taken at different times, so older counts on screen are out of date."}
+  ],
+  "privacy": [
+    {"at": "02:13-02:19", "what": "KAM Performance card and Career card for a named KAM (first name shown: Sherin) show bonus baseline and reached rows, a 'Ship to payroll' button, KPI scores and career stage dates. This is staff performance and pay-related data. It must not be shown to sellers.", "frame": "t00129.jpg"},
+    {"at": "05:05-06:52", "what": "Seller business names, order numbers and trade licence and TRN status are shown on screen. Business names and order numbers are not personal data. No individual's name, phone number, email or address is visible on the frames checked.", "frame": "t00310.jpg"}
+  ],
+  "audit": {
+    "checked": 96,
+    "removed": [
+      {"statement": "Career card: KAM Onboarding 1 Mar 2026 to 31 Mar 2026 (screen record and facts list)", "reason": "Not visible in any checked frame (t00129.jpg and t00153.jpg show Junior KAM and KAM Trial only)."},
+      {"statement": "Claim that the chart/table switch is on 'each tab' (fact 'Each tab offers a Chart/Table switch')", "reason": "Visible only on the KAM tab frame (t00129.jpg). Not on Daily frames t00000, t00208, t00310, t00404."},
+      {"statement": "Step 'Chart/Table toggle' citing frame t00080 for a subtitle describing the switch", "reason": "t00080 was not opened and the subtitle wording was not verified. The step now cites t00129.jpg for the visible toggle."},
+      {"statement": "Step 'KAM tab index' citing frame t00097 and 'KAM Performance card' citing t00097", "reason": "t00097.jpg shows the Daily tab (Meetings 100), not the KAM tab. Frame citation corrected to t00129.jpg and t00153.jpg."}
+    ],
+    "corrected": [
+      {"before": "Most cards show a small eye icon", "after": "Most cards show a small i icon", "reason": "ASR: 'eye' heard, subtitle and card icons show 'i' (t00153.jpg, t00208.jpg)."},
+      {"before": "Each tab offers a Chart/Table switch. Both read exactly the same data.", "after": "The KAM tab shows a Chart/Table switch at top right. The narration says both views read the same data.", "reason": "Overstated: only the KAM tab frames show the switch."},
+      {"before": "Stuck orders Daily index count (1,423)", "after": "Stuck orders (1,423) confirmed on t00208.jpg", "reason": "Verified; kept but with frame citation."},
+      {"before": "Meetings total 100 sellers stated as the Daily count", "after": "Meetings count shows 95 on t00208.jpg and 100 on t00000.jpg; logged as unclear", "reason": "Values change between frames."},
+      {"before": "Home step frame t00048 cited for 'main index of all revived dashboards'", "after": "Subtitle on t00048.jpg reads 'main index of all Revibe dashboards'", "reason": "ASR fix confirmed on screen."},
+      {"before": "Account manager counts in one fact cited t00024", "after": "Counts cited to t00000.jpg (All 149, Pepe 15, Yahia 61, Sherin 30, Momen 23, Samaa 11, Unassigned 9)", "reason": "Correct frame; t00024 shows the tab bar only."},
+      {"before": "Buybox closed table rows described as 'closed for more than 3 days' with no count", "after": "Buybox closed card shows 8 Active sellers, matching index count (8)", "reason": "Count verified on t00344.jpg."},
+      {"before": "Trade licence colour rule 'expired, 30 days, valid' stated as screen fact", "after": "Colour rule is narrated; subtitle on t00325.jpg matches; the current date is not on screen", "reason": "Only the narration and subtitle support it, not the dates."},
+      {"before": "Outdated: Smart Life 02 Aug 26 'past deadline' by the current date", "after": "Expired as displayed on screen; the dashboard's current date is not shown", "reason": "No current date on screen."},
+      {"before": "Standard ≠ TRN described as a red-outlined label for two sellers", "after": "Kept: red outline on MKD Trade and ReNova Tech in t00310.jpg", "reason": "Verified on screen."}
+    ],
+    "added": [
+      "Buybox closed card shows 8 Active sellers, matching index count (8) (t00344.jpg).",
+      "Buybox closed Since colour thresholds confirmed in subtitle on t00360.jpg.",
+      "KAM Career card: KAM Trial 1 Apr 2026 to 30 Jun 2026 (3 months) and Junior KAM current from 1 Jul 2026 (t00153.jpg).",
+      "KAM Performance card (example KAM Sherin): KPI weights match (t00129.jpg).",
+      "Legal card: Renova Devices TRN and TRN REG. marked with red cross, and VAT scheme missing (t00310.jpg).",
+      "Chart/Table switch is set to Chart on the KAM tab (t00129.jpg, t00153.jpg)."
+    ]
+  }
+}

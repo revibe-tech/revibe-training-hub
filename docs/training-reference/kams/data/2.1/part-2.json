@@ -1,0 +1,596 @@
+{
+  "summary": "Part 2 of 4 (07:12 to 10:25) of the 2.1 Fulfillment App (KAM) video. The trainer tours the Revibe - Fulfillment App (AppSheet, browser): the SKUs available table, then Shipments (Request Status groups, the Add button, the filter icon), then Request products (All, Open and Closed groups, with Cancelled rows), then one shipment's detail panel (related request products, tracking fields, inventory movements, quantity fields, unboxing video, Under QC and Completed times), then one request product's detail panel. The rule that a score is never negative for fulfillment is narration only (no score column on screen) and is medium confidence. The Add form and the filter panel claims from the original pack were not visible in the cited frames and were withdrawn. Frames: 25 distinct frames of the 40 listed were opened and checked against their content; on re-read, some frame file names did not match the image content, so claims were checked against what the images show.",
+  "frames_opened": 25,
+  "steps": [
+    {
+      "at": "07:12",
+      "screen": "Revibe - Fulfillment App > SKUs available",
+      "action": "Trainer is on the SKUs available table and moves the pointer over the Price cells of the iPhone 13 rows; the highlighted row is iphone-13512 GBVery GoodMidnight TDRA at Price 1,050.",
+      "evidence": [
+        {"kind": "see", "at": "07:12", "frame": "t00432.jpg", "quote": "SKUs available table; row iphone-13512 GBVery GoodMidnight TDRA highlighted, Price 1,050, Quantities recomm... 25, SKU 010118-091403-TDRA; pointer on its price."},
+        {"kind": "say", "at": "07:18", "quote": "can beat it by putting one dirham less."}
+      ],
+      "says": "can beat it by putting one dirham less."
+    },
+    {
+      "at": "07:24",
+      "screen": "SKUs available",
+      "action": "Trainer says the SKU prices are displayed 'including a score' (low-confidence words). No score column is on screen.",
+      "evidence": [
+        {"kind": "say", "at": "07:24", "quote": "Also please note that all {these?} SKUs here are displayed with the price {be?} including a score being"}
+      ]
+    },
+    {
+      "at": "07:33",
+      "screen": "SKUs available",
+      "action": "Trainer states the rule that a score is either null or positive, because a negative score is never taken into account for fulfillment.",
+      "evidence": [
+        {"kind": "say", "at": "07:33", "quote": "either null or positive because as a reminder a negative score is never taken into account for fulfillment"}
+      ],
+      "says": "a negative score is never taken into account for fulfillment"
+    },
+    {
+      "at": "07:44",
+      "screen": "Left sidebar > Shipments",
+      "action": "Trainer opens the Shipments tab from the left sidebar. The list shows shipments, with the Completed group (1056) at the top in this frame.",
+      "evidence": [
+        {"kind": "say", "at": "07:44", "quote": "{then?} let's go to the next tab shipments here in this tab you can see all the shipments"},
+        {"kind": "see", "at": "07:45", "frame": "t00465.jpg", "quote": "Shipments list; header row Supplier, ID, mail icon, Created by, Created at, Updated at, Request Status, Payment method, Tracking company, Tracking ID, Tracking link, Tracking Label link; group header Completed 1056."}
+      ],
+      "says": "here in this tab you can see all the shipments"
+    },
+    {
+      "at": "07:51",
+      "screen": "Shipments",
+      "action": "Trainer says the list holds the shipments requested by the sellers. The status groups are shown in order: Requested 1, AWB created 2, Under QC 1, Completed 1056.",
+      "evidence": [
+        {"kind": "say", "at": "07:51", "quote": "with all their {stage?} that has that have been requested by the sellers so you can see all"},
+        {"kind": "see", "at": "07:57", "frame": "t00503.jpg", "quote": "Group headers Requested 1 (Smart Reach), AWB created 2 (Z And B Mobile, Smart Device World), Under QC 1 (ReNova Tech), Completed 1056 (Ofoq Al Mzeezan, Completed, Quiqup, 100% - After sales)."}
+      ]
+    },
+    {
+      "at": "07:57",
+      "screen": "Shipments",
+      "action": "Trainer describes the groups: requested, airway bill created, under QC, completed, and a stage he calls cancel.",
+      "evidence": [
+        {"kind": "say", "at": "07:57", "quote": "the ones that are currently requested all the ones where the airway bill has been created the ones"},
+        {"kind": "say", "at": "08:03", "quote": "being under qc and the ones that have been completed there is another stage called cancel that you"}
+      ],
+      "says": "requested / airway bill created / under qc / completed / cancel"
+    },
+    {
+      "at": "08:05",
+      "screen": "Shipments (scrolled to the end)",
+      "action": "Trainer scrolls to the end of the list to show the Cancelled rows, which have Request Status Cancelled and dates from 10/31/2025 to 11/25/2025.",
+      "evidence": [
+        {"kind": "say", "at": "08:11", "quote": "can see i believe at the end of this sheet yes here you can see all the {canceled?}"},
+        {"kind": "see", "at": "08:15", "frame": "t00495.jpg", "quote": "Rows at the end of the Shipments list with Request Status Cancelled: Muhammad Usman (Created at 11/25/2025), DDH (11/21/2025), The Future (11/19/2025), JAD (11/14/2025), NAW (10/31/2025). No group header with a count is visible."}
+      ],
+      "says": "can see i believe at the end of this sheet yes here you can see all the {canceled?}"
+    },
+    {
+      "at": "08:19",
+      "screen": "Shipments > Add button",
+      "action": "Trainer says a shipment can be created, but creating it is the seller's role; the KAM can assist the seller doing it. The pointer rests on the Add button in the cited frame; no form is visible.",
+      "evidence": [
+        {"kind": "say", "at": "08:21", "quote": "{here?} is the same you can create a shipment if you need but it's the role of the"},
+        {"kind": "say", "at": "08:27", "quote": "seller to do it not your role you can assist the seller doing it and here you can"},
+        {"kind": "see", "at": "08:23", "frame": "t00503.jpg", "quote": "Shipments list with the pointer on the + Add button at top right; no form open."}
+      ],
+      "says": "it's the role of the seller to do it not your role you can assist the seller doing it"
+    },
+    {
+      "at": "08:28",
+      "screen": "Shipments > filter icon",
+      "action": "Trainer says to filter by whatever column you want. The filter icon is at the top right of the Shipments header; the filter panel is not open in the cited frame.",
+      "evidence": [
+        {"kind": "say", "at": "08:33", "quote": "filter by whatever"},
+        {"kind": "say", "at": "08:36", "quote": "column you want here in request products you can see all the products that have been requested by"},
+        {"kind": "see", "at": "08:28", "frame": "t00503.jpg", "quote": "Filter icon at the top right of the Shipments header, next to + Add."}
+      ],
+      "says": "filter by whatever column you want"
+    },
+    {
+      "at": "08:36",
+      "screen": "Request products",
+      "action": "Trainer opens Request products, which lists the products sellers have requested. With All selected, the group header shows Cancelled 3,178; the left panel shows Open 345 and Closed 25,389.",
+      "evidence": [
+        {"kind": "say", "at": "08:36", "quote": "column you want here in request products you can see all the products that have been requested by"},
+        {"kind": "see", "at": "08:39", "frame": "t00519.jpg", "quote": "All selected: group header Cancelled 3,178; left panel Open 345, Closed 25,389; columns Request Status, SKU, Product, Supplier, Quantity recommended, Quantity Sent, Warning message, Quantity received, Quantity accepted, Buybox supplier."}
+      ]
+    },
+    {
+      "at": "08:43",
+      "screen": "Request products > Closed > 100 Miles",
+      "action": "Trainer says some sellers are already closed because they were rejected or warehouse received (he adds 'i don't think'). Closed is expanded and 100 Miles (140) is selected: group Rejected 40 (Quantity Sent 10) and group Warehouse received 100.",
+      "evidence": [
+        {"kind": "say", "at": "08:43", "quote": "the sellers {some?} are already closed because they have been either rejected or warehouse received i don't think"},
+        {"kind": "see", "at": "08:48", "frame": "t00528.jpg", "quote": "Closed list expanded (Closed 25,389); 100 Miles 140 selected: group Rejected 40 with Quantity Sent 10 rows; group Warehouse received 100 with Buybox supplier values such as 1,105 and -15."}
+      ]
+    },
+    {
+      "at": "08:52",
+      "screen": "Request products > Open",
+      "action": "Trainer says there is another stage, cancelled, and some requests are still open. Open is expanded and Almas Al Burteqali (8) is selected: group Cancelled 8.",
+      "evidence": [
+        {"kind": "say", "at": "08:52", "quote": "there is another stage {oh?} yeah or cancelled and some are still open meaning that they are either"},
+        {"kind": "see", "at": "09:01", "frame": "t00541.jpg", "quote": "Open 345 expanded; Almas Al Burteqali 8 selected: group Cancelled 8; rows 010116-060101 iphone-12-mini64 GBGoodBlack (Quantity recommended 60, Quantity Sent 5) and 010118-071403 iphone-13128 GBExcellentMidni... (Quantity recommended 9, Quantity Sent 3)."}
+      ]
+    },
+    {
+      "at": "09:01",
+      "screen": "Request products > Open > ABS Cell",
+      "action": "Trainer says a request can be entered from the shipments tab or the request products tab. He selects ABS Cell under Open: group Requested 5, with 5 rows.",
+      "evidence": [
+        {"kind": "say", "at": "09:01", "quote": "requested {cancelled?} and here every time whether it is in shipments or request product you can enter the"},
+        {"kind": "see", "at": "09:04", "frame": "t00544.jpg", "quote": "Open > ABS Cell 5 selected: group Requested 5; rows 010122-071101 iphone-14128 GBGoodBlue (Quantity recommended 106), 010118-071401 iphone-13128 GBGoodMidnight (91), and others, all Requested."}
+      ],
+      "says": "here every time whether it is in shipments or request product you can enter the rows"
+    },
+    {
+      "at": "09:08",
+      "screen": "Shipments > detail panel for shipment d3d4befb (Ofoq Al Mzeezan)",
+      "action": "Trainer opens one shipment. Its detail panel lists Related Request_products 12.",
+      "evidence": [
+        {"kind": "say", "at": "09:09", "quote": "rows so here for instance you can enter this shipment"},
+        {"kind": "see", "at": "09:12", "frame": "t00552.jpg", "quote": "Split view: shipment d3d4befb, Supplier Ofoq Al Mzeezan, Completed; panel Related Request_products 12 with rows 010101-050103, 010101-050102, 010101-050101, 010101-052103, 010101-070103 (all Warehouse received)."},
+        {"kind": "say", "at": "09:13", "quote": "{from?} {ofoc?} al {mesan?} whatever and you can see all the related requested products"}
+      ]
+    },
+    {
+      "at": "09:20",
+      "screen": "Shipments > detail panel d3d4befb (top section)",
+      "action": "Trainer reads the shipment fields: status, supplier, payment method, tracking company, tracking ID, label link, tracking link, who created it, and when it was created and updated. The Related Request_products list includes SKU 010101-070101 with Request Status Cancelled.",
+      "evidence": [
+        {"kind": "see", "at": "09:20", "frame": "t00560.jpg", "quote": "Related Request_products row 010101-070101 with Request Status Cancelled (iphone-7128 GBGoodBlack); below it Request Status Completed, Supplier Ofoq Al Mzeezan, Payment method 100% - After sales, Tracking company Quiqup, Tracking ID 27202007, Tracking Label link https://drive.google.com/file/d/19ewH..., Tracking link https://track-parcel.quiqup.com/272020..., Created at 10/9/2026 11:19:36 PM."},
+        {"kind": "see", "at": "09:21", "frame": "t00561.jpg", "quote": "Updated by faizan.shaikh@revibe.me; Updated at 10/14/2026 10:12:42 AM; Warehouse received 10/13/2026 3:14:32 PM; Related Inventory_movements 11."},
+        {"kind": "say", "at": "09:21", "quote": "you can see the status of the shipment you can see the supplier the payment method tracking company"},
+        {"kind": "say", "at": "09:28", "quote": "tracking id tracking label link tracking link who created it when when it was updated so you can"}
+      ]
+    },
+    {
+      "at": "09:32",
+      "screen": "Shipment detail > Related Inventory_movements",
+      "action": "Trainer says the quality check was most probably done by the person transcribed as faisan (the screen shows only the Updated by field). He then describes the inventory movements: devices returned to supplier or bulk rejected.",
+      "evidence": [
+        {"kind": "say", "at": "09:36", "quote": "see that it's most probably faisan who did the quality check you can see also all the related"},
+        {"kind": "say", "at": "09:42", "quote": "inventory movements so all the devices that were either returned to supplier bulk rejected or maybe sold for"},
+        {"kind": "see", "at": "09:32", "frame": "t00572.jpg", "quote": "Related Inventory_movements scrolled sideways: columns Order help, IMEI, Type, Reason for return; Type Return to supplier (Reason Camera issue; Other, Display issue; Display issue; Other) and Type Bulk QC rejection (Reason Display issue)."}
+      ]
+    },
+    {
+      "at": "09:47",
+      "screen": "Shipment detail (quantity fields)",
+      "action": "Trainer points at the quantity fields for the shipment: Qnt sent 31, Qnt received 31, Qnt accepted 0, Qnt rejected 31; Cables balance 0 and Cables received 0.",
+      "evidence": [
+        {"kind": "see", "at": "09:51", "frame": "t00591.jpg", "quote": "Cables balance 0; Qnt sent 31; Qnt received 31; Qnt accepted 0; Qnt rejected 31; Cables received 0."},
+        {"kind": "say", "at": "09:52", "quote": "some of them and you can see also look quantity sent quantity received quantity rejected quantity accepted so"}
+      ]
+    },
+    {
+      "at": "09:54",
+      "screen": "Shipment detail (bottom section)",
+      "action": "Trainer points at the unboxing video and the Under QC and Completed times on the shipment.",
+      "evidence": [
+        {"kind": "say", "at": "10:01", "quote": "you have all these details you can see the unboxing video"},
+        {"kind": "see", "at": "10:00", "frame": "t00600.jpg", "quote": "Unboxing Video d3d4befb.Unboxing Video.061225.28 AM.mp4; Under QC time 10/13/2026 3:14:36 PM; Completed time 10/14/2026 10:12:42 AM."},
+        {"kind": "say", "at": "10:05", "quote": "and under qc time here if you go to request product same you can open the product that"}
+      ]
+    },
+    {
+      "at": "10:10",
+      "screen": "Request products > Open > Nisar Line > request product 010112-060201",
+      "action": "Trainer opens the Open list for Nisar Line (20: group Requested 20) and opens request product 010112-060201.",
+      "evidence": [
+        {"kind": "see", "at": "10:12", "frame": "t00612.jpg", "quote": "Nisar Line 20 selected in the Open list; group Requested 20; detail panel 010112-060201: Product iphone-se-202064 GBGoodWhite, Request Status Requested, Quantity recommended 3, Quantity Sent 3, Supplier Nisar Line, Buybox supplier 305, Price 304, Total price 912, Stage Open, Related Inventories 0."},
+        {"kind": "say", "at": "10:15", "quote": "have been requested let's go to this one for instance and you can see also many details related"}
+      ]
+    },
+    {
+      "at": "10:18",
+      "screen": "Request products > request product detail",
+      "action": "Trainer reviews the fields of the request product detail: product SKU, product, stage, quantity recommended, quantity sent, and who the seller is.",
+      "evidence": [
+        {"kind": "see", "at": "10:18", "frame": "t00618.jpg", "quote": "Request product detail for 010112-060201: fields SKU, Product, Request Status, Quantity recommended, Quantity Sent, Supplier, Buybox supplier, Price, Total price, Updated at and by, Created at and by, Payment method, Stage, Related Inventories."},
+        {"kind": "say", "at": "10:20", "quote": "to the product sku product stage quantity recommended quantity sent who is the seller"}
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "type": "screen",
+      "statement": "The Revibe - Fulfillment App left menu lists: SKUs available, Shipments, Request products, Pending QC, All inventory, Fulfilment live inventory, Inventory to return, Naif to drop price, Supplier inventory, Inventory exits, Stock control, Invalids to fix, Charge inventory, Box inventory, Packaging request, Fulfilment expenses, About, App Gallery.",
+      "evidence": [
+        {"kind": "see", "at": "07:12", "frame": "t00432.jpg", "quote": "Left sidebar with the menu items listed in the statement; SKUs available highlighted."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The SKUs available table has the columns Category, Model, Product, Price, Quantities recommended and SKU, with a Search SKUs available box and a Download button.",
+      "evidence": [
+        {"kind": "see", "at": "07:12", "frame": "t00432.jpg", "quote": "Columns Category, Model, Product, Price, Quantities recomm..., SKU; Download button top right."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "number",
+      "statement": "On the SKUs available table, 2-years-extended-warranty-plan (SKU 9999A1-000000) shows Price 9,999 and Quantities recommended 144.",
+      "evidence": [
+        {"kind": "see", "at": "07:12", "frame": "t00432.jpg", "quote": "Row Warranty, 2-years-extended-warranty-plan, Price 9,999, Quantities recomm... 144, SKU 9999A1-000000."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "number",
+      "statement": "On the SKUs available table, the row iphone-13512 GBVery GoodMidnight TDRA (SKU 010118-091403-TDRA) shows Price 1,050 and Quantities recommended 25.",
+      "evidence": [
+        {"kind": "see", "at": "07:12", "frame": "t00432.jpg", "quote": "Row iphone-13512 GBVery GoodMidnight TDRA: Price 1,050, Quantities recomm... 25, SKU 010118-091403-TDRA."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Per the trainer, a score is either null or positive, because a negative score is never taken into account for fulfillment. No score column is on screen, and the word 'score' is low-confidence in the transcript.",
+      "evidence": [
+        {"kind": "say", "at": "07:33", "quote": "either null or positive because as a reminder a negative score is never taken into account for fulfillment"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The Shipments list columns are Supplier, ID, Created by, Created at, Updated at, Request Status, Payment method, Tracking company, Tracking ID, Tracking link and Tracking Label link.",
+      "evidence": [
+        {"kind": "see", "at": "07:45", "frame": "t00465.jpg", "quote": "Header row: Supplier, ID, (mail icon), Created by, Created at, Updated at, Request Status, Payment method, Tracking company, Tracking ID, Tracking link, Tracking Label link."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "On the Shipments list, the Request Status groups visible are Requested, AWB created, Under QC and Completed (on screen: Requested 1, AWB created 2, Under QC 1, Completed 1056). Shipments with Request Status Cancelled appear at the end of the list; no Cancelled group header with a count is visible in the cited frames.",
+      "evidence": [
+        {"kind": "see", "at": "07:57", "frame": "t00503.jpg", "quote": "Group headers Requested 1, AWB created 2, Under QC 1, Completed 1056."},
+        {"kind": "see", "at": "08:15", "frame": "t00495.jpg", "quote": "Rows at the end of the list with Request Status Cancelled."},
+        {"kind": "say", "at": "08:03", "quote": "there is another stage called cancel that you"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Trainer's words: AWB created groups the shipments where the airway bill has been created. AWB is not expanded on screen.",
+      "evidence": [
+        {"kind": "say", "at": "07:57", "quote": "the ones where the airway bill has been created"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Per the trainer, creating a shipment is the seller's job, not the KAM's; the KAM can assist the seller in doing it.",
+      "evidence": [
+        {"kind": "say", "at": "08:21", "quote": "{here?} is the same you can create a shipment if you need but it's the role of the"},
+        {"kind": "say", "at": "08:27", "quote": "seller to do it not your role you can assist the seller doing it and here you can"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The Shipments header has an Add button and a filter icon at the top right.",
+      "evidence": [
+        {"kind": "see", "at": "08:23", "frame": "t00503.jpg", "quote": "+ Add button and filter icon at the top right of the Shipments header."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "To narrow the Shipments list, the trainer says to use the filter icon at the top right and filter by whatever column you want. The filter panel's field list was not visible in the cited frames, so the list of fields is not stated here.",
+      "evidence": [
+        {"kind": "say", "at": "08:33", "quote": "filter by whatever"},
+        {"kind": "say", "at": "08:36", "quote": "column you want"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The Request products list columns are Request Status, SKU, Product, Supplier, Quantity recommended, Quantity Sent, Warning message, Quantity received, Quantity accepted and Buybox supplier.",
+      "evidence": [
+        {"kind": "see", "at": "08:39", "frame": "t00519.jpg", "quote": "Header row: Request Status, SKU, Product, Supplier, Quantity recommend..., Quantity Sent, Warning message, Quantity received, Quantity accepted, Buybox supplier."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Request products are grouped in the left panel as All, Open (345) and Closed (25,389). Open expands into supplier rows such as ABS Cell 5, Almas Al Burteqali 8, Nisar Line 20 and Z And B Mobile 70; Closed expands into supplier rows such as 100 Miles 140, Alfa Group 496 and Almas Al Burteqali 646.",
+      "evidence": [
+        {"kind": "see", "at": "08:39", "frame": "t00519.jpg", "quote": "Left panel: All, Open 345, Closed 25,389; group header Cancelled 3,178 under All."},
+        {"kind": "see", "at": "08:48", "frame": "t00528.jpg", "quote": "Closed list: 100 Miles 140, 971 Fixing 132, AAA Electronics 228, ABS Cell 38, Alfa Group 496, Almas Al Burteqali 646."},
+        {"kind": "see", "at": "09:01", "frame": "t00541.jpg", "quote": "Open list: ABS Cell 5, Almas Al Burteqali 8, Nisar Line 20, Z And B Mobile 70."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The Closed group holds request products that are rejected or warehouse received (for example 100 Miles: Rejected 40 and Warehouse received 100). The trainer phrases this with 'i don't think', so treat it as his description, not a complete definition.",
+      "evidence": [
+        {"kind": "say", "at": "08:43", "quote": "the sellers {some?} are already closed because they have been either rejected or warehouse received i don't think"},
+        {"kind": "see", "at": "08:48", "frame": "t00528.jpg", "quote": "100 Miles (140): group Rejected 40 and group Warehouse received 100."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The Open group holds request products that are still Requested (example: ABS Cell, 5 rows with Request Status Requested) and also some with Request Status Cancelled (example: Almas Al Burteqali, 8 rows with Cancelled).",
+      "evidence": [
+        {"kind": "see", "at": "09:04", "frame": "t00544.jpg", "quote": "ABS Cell 5: group Requested 5."},
+        {"kind": "see", "at": "09:01", "frame": "t00541.jpg", "quote": "Almas Al Burteqali 8: group Cancelled 8."},
+        {"kind": "say", "at": "08:52", "quote": "some are still open meaning that they are either"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Cancelled is a request product status. With All selected, the group header Cancelled 3,178 is at the top of the list (on-screen count at recording time).",
+      "evidence": [
+        {"kind": "see", "at": "08:39", "frame": "t00519.jpg", "quote": "Group header Cancelled 3,178 at top of list under All."},
+        {"kind": "say", "at": "08:03", "quote": "there is another stage called cancel that you"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "Implied: rows with the Warning message 'Warning: quantity exceeds the r...' (text truncated on screen) show Quantity Sent above Quantity recommended, for example Quantity Sent 7 with recommended 4, Quantity Sent 4 with recommended 1, Quantity Sent 5 with recommended 3, Quantity Sent 7 with recommended 4 (AAA Electronics rows).",
+      "evidence": [
+        {"kind": "see", "at": "08:57", "frame": "t00537.jpg", "quote": "Rows with Warning: quantity exceeds the r... where Quantity Sent (7, 4, 5, 7) is above Quantity recommended (4, 1, 3, 4)."}
+      ],
+      "confidence": "low",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "A request product's detail panel shows SKU, Product, Request Status, Quantity recommended, Quantity Sent, Supplier, Buybox supplier, Price, Total price, Updated at, Updated by, Created at, Created by, Payment method, Stage and Related Inventories.",
+      "evidence": [
+        {"kind": "see", "at": "10:18", "frame": "t00618.jpg", "quote": "Detail panel fields SKU, Product, Request Status, Quantity recommended, Quantity Sent, Supplier, Buybox supplier, Price, Total price, Updated at, Updated by, Created at, Created by, Payment method, Stage, Related Inventories."},
+        {"kind": "say", "at": "10:20", "quote": "to the product sku product stage quantity recommended quantity sent who is the seller"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Example request product 010112-060201 (iphone-se-202064 GBGoodWhite, supplier Nisar Line): Request Status Requested, Quantity recommended 3, Quantity Sent 3, Buybox supplier 305, Price 304, Total price 912, Stage Open, Related Inventories 0.",
+      "evidence": [
+        {"kind": "see", "at": "10:12", "frame": "t00612.jpg", "quote": "Quantity recommended 3, Quantity Sent 3, Supplier Nisar Line, Buybox supplier 305, Price 304, Total price 912, Stage Open, Related Inventories 0."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Implied: Total price equals Price multiplied by Quantity Sent (304 x 3 = 912 on the example request product).",
+      "evidence": [
+        {"kind": "see", "at": "10:12", "frame": "t00612.jpg", "quote": "Price 304, Quantity Sent 3, Total price 912."}
+      ],
+      "confidence": "low",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "A shipment's detail panel shows Request Status, Supplier, Payment method, Tracking company, Tracking ID, Tracking Label link, Tracking link, Created by, Created at, Updated by, Updated at, Warehouse received, Related Request_products, Related Inventory_movements, Cables balance, Qnt sent, Qnt received, Qnt accepted, Qnt rejected, Cables received, Unboxing Video, Under QC time and Completed time.",
+      "evidence": [
+        {"kind": "see", "at": "09:20", "frame": "t00560.jpg", "quote": "Detail fields Request Status, Supplier, Payment method, Tracking company, Tracking ID, Tracking Label link, Tracking link, Created by, Created at."},
+        {"kind": "see", "at": "09:51", "frame": "t00591.jpg", "quote": "Cables balance, Qnt sent, Qnt received, Qnt accepted, Qnt rejected, Cables received, Unboxing Video."},
+        {"kind": "see", "at": "10:00", "frame": "t00600.jpg", "quote": "Under QC time and Completed time below the Unboxing Video field."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Example shipment d3d4befb (supplier Ofoq Al Mzeezan, Tracking ID 27202007): Request Status Completed, Qnt sent 31, Qnt received 31, Qnt accepted 0, Qnt rejected 31, Warehouse received 10/13/2026 3:14:32 PM, Under QC time 10/13/2026 3:14:36 PM, Completed time 10/14/2026 10:12:42 AM.",
+      "evidence": [
+        {"kind": "see", "at": "09:51", "frame": "t00591.jpg", "quote": "Qnt sent 31, Qnt received 31, Qnt accepted 0, Qnt rejected 31."},
+        {"kind": "see", "at": "09:21", "frame": "t00561.jpg", "quote": "Warehouse received 10/13/2026 3:14:32 PM."},
+        {"kind": "see", "at": "10:00", "frame": "t00600.jpg", "quote": "Under QC time 10/13/2026 3:14:36 PM; Completed time 10/14/2026 10:12:42 AM."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "warning",
+      "statement": "Shipment d3d4befb (header Request Status Completed) contains a request product whose own Request Status is Cancelled: SKU 010101-070101 (iphone-7128 GBGoodBlack). Its other visible rows show Warehouse received.",
+      "evidence": [
+        {"kind": "see", "at": "09:20", "frame": "t00560.jpg", "quote": "Related Request_products row 010101-070101 with Request Status Cancelled (iphone-7128 GBGoodBlack); other visible rows Warehouse received; header Request Status Completed."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Inventory movements linked to a shipment have a Type (Return to supplier or Bulk QC rejection on the visible rows) and a Reason for return (for example Camera issue, Display issue or Other).",
+      "evidence": [
+        {"kind": "say", "at": "09:42", "quote": "inventory movements so all the devices that were either returned to supplier bulk rejected or maybe sold for"},
+        {"kind": "see", "at": "09:32", "frame": "t00572.jpg", "quote": "Columns Type and Reason for return: Return to supplier / Camera issue; Return to supplier / Other, Display issue; Return to supplier / Display issue; Bulk QC rejection / Display issue; Return to supplier / Other."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The trainer reads the quantity fields in this order: Qnt sent, Qnt received, Qnt rejected, Qnt accepted. Cables balance and Cables received sit beside them.",
+      "evidence": [
+        {"kind": "say", "at": "09:52", "quote": "some of them and you can see also look quantity sent quantity received quantity rejected quantity accepted so"},
+        {"kind": "see", "at": "09:51", "frame": "t00591.jpg", "quote": "Cables balance 0, Qnt sent 31, Qnt received 31, Qnt accepted 0, Qnt rejected 31, Cables received 0."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "A shipment's Unboxing Video field holds a video file name; example d3d4befb.Unboxing Video.061225.28 AM.mp4, shown with Under QC time and Completed time.",
+      "evidence": [
+        {"kind": "say", "at": "10:01", "quote": "you have all these details you can see the unboxing video"},
+        {"kind": "see", "at": "10:00", "frame": "t00600.jpg", "quote": "Unboxing Video d3d4befb.Unboxing Video.061225.28 AM.mp4; Under QC time 10/13/2026 3:14:36 PM; Completed time 10/14/2026 10:12:42 AM."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "On the visible rows of the Shipments list, Payment method is 100% - After sales and Tracking company is Quiqup.",
+      "evidence": [
+        {"kind": "see", "at": "07:45", "frame": "t00465.jpg", "quote": "Payment method 100% - After sales and Tracking company Quiqup on the visible rows."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Shipment d3d4befb's Tracking link points to track-parcel.quiqup.com, and its Tracking Label link points to a Google Drive file.",
+      "evidence": [
+        {"kind": "see", "at": "09:20", "frame": "t00560.jpg", "quote": "Tracking Label link https://drive.google.com/file/d/19ewH...; Tracking link https://track-parcel.quiqup.com/272020..."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    }
+  ],
+  "screens": [
+    {
+      "name": "Revibe - Fulfillment App (left menu)",
+      "shows": "Menu items: SKUs available, Shipments, Request products, Pending QC, All inventory, Fulfilment live inventory, Inventory to return, Naif to drop price, Supplier inventory, Inventory exits, Stock control, Invalids to fix, Charge inventory, Box inventory, Packaging request, Fulfilment expenses, About, App Gallery.",
+      "at": "07:12 (t00432)"
+    },
+    {
+      "name": "SKUs available",
+      "shows": "Table of SKUs with Category, Model, Product, Price, Quantities recommended and SKU; Download button; Search SKUs available box.",
+      "at": "07:12-07:39 (t00432, t00436, t00449)"
+    },
+    {
+      "name": "Second browser tab: Seller starter pack - EN version (Google Drive)",
+      "shows": "Tab titled 'Seller starter pack - EN versi...' (title truncated on screen) beside the Revibe tab. The page content was not checked; it is not narrated.",
+      "at": "07:39 (t00459)"
+    },
+    {
+      "name": "Shipments list",
+      "shows": "Groups Requested 1, AWB created 2, Under QC 1, Completed 1056; columns Supplier, ID, Created by, Created at, Updated at, Request Status, Payment method, Tracking company, Tracking ID, Tracking link, Tracking Label link; Add button and filter icon at top right; Cancelled rows at the end of the list.",
+      "at": "07:45-08:19 (t00465, t00495, t00503)"
+    },
+    {
+      "name": "Request products list (All / Open / Closed tree)",
+      "shows": "Left panel All, Open 345 and Closed 25,389 (each expands into supplier rows); with All selected, group header Cancelled 3,178; table columns Request Status, SKU, Product, Supplier, Quantity recommended, Quantity Sent, Warning message, Quantity received, Quantity accepted, Buybox supplier; Export button.",
+      "at": "08:36-08:57 (t00519, t00528, t00541)"
+    },
+    {
+      "name": "Shipment detail panel (split view, d3d4befb, Ofoq Al Mzeezan)",
+      "shows": "Related Request_products 12; status, supplier, payment method, tracking fields, created and updated by and at, Warehouse received, Related Inventory_movements 11 (columns SKU, ID, Inventory ID, Request ID, Request product ID), Cables and Qnt fields, Unboxing Video, Under QC time, Completed time.",
+      "at": "09:08-10:00 (t00552, t00560, t00561, t00591, t00600)"
+    },
+    {
+      "name": "Request product detail panel (010112-060201, Nisar Line)",
+      "shows": "SKU, Product, Request Status, Quantity recommended, Quantity Sent, Supplier, Buybox supplier, Price, Total price, Updated at and by, Created at and by, Payment method, Stage Open, Related Inventories 0.",
+      "at": "10:10-10:20 (t00612, t00618)"
+    }
+  ],
+  "terms": [
+    {"term": "SKU", "meaning": "The product code for one device variant, e.g. 010118-091403-TDRA; shown on SKUs available and on every request product row.", "at": "07:12"},
+    {"term": "Request products", "meaning": "The tab listing products that sellers have requested; each row has a Request Status, quantities and a supplier.", "at": "08:36"},
+    {"term": "Shipment", "meaning": "A seller's shipment record with tracking fields and the related request products; opening a row shows its detail panel.", "at": "07:44; 09:09"},
+    {"term": "Related Request_products", "meaning": "The request products linked to a shipment; the count is shown (12 on d3d4befb).", "at": "09:13"},
+    {"term": "AWB", "meaning": "The trainer says 'airway bill'. The status label is AWB created (shipments in that group have an airway bill created). AWB is not expanded on screen.", "at": "07:57"},
+    {"term": "Open / Closed (stage groups)", "meaning": "Groups in the Request products left panel (Open 345, Closed 25,389). The trainer describes Closed as already closed (rejected or warehouse received) and Open as still requested or cancelled. Stage Open is also a field on the request product detail.", "at": "08:43-09:01; 10:18"},
+    {"term": "Warehouse received", "meaning": "A Request Status for request products (100 Miles, 100 rows) and a shipment date field (10/13/2026 3:14:32 PM on d3d4befb).", "at": "08:43; 09:21"},
+    {"term": "Quantity recommended", "meaning": "Column and field name on SKUs available and request products. The narration does not define it.", "at": "10:20"},
+    {"term": "Qnt sent / Qnt received / Qnt accepted / Qnt rejected", "meaning": "Quantity fields on the shipment detail panel, read by the trainer in the order sent, received, rejected, accepted.", "at": "09:52"},
+    {"term": "Inventory movements (Related Inventory_movements)", "meaning": "Per-device records linked to a shipment, shown with a Type (Return to supplier, Bulk QC rejection) and a Reason for return.", "at": "09:42"},
+    {"term": "Unboxing Video", "meaning": "Shipment field holding the unboxing video file name.", "at": "10:01"},
+    {"term": "Under QC time / Completed time", "meaning": "Timestamp fields on the shipment detail panel (10/13/2026 3:14:36 PM and 10/14/2026 10:12:42 AM on d3d4befb). Not seen on the request product detail in the cited frames.", "at": "10:05"},
+    {"term": "Tracking ID / Tracking link / Tracking Label link", "meaning": "Shipment tracking fields: the tracking ID, a link to the tracking page, and a link to the label file (Google Drive).", "at": "09:28"},
+    {"term": "Buybox supplier", "meaning": "Numeric column on request products (305 on 010112-060201; -15 on some Warehouse received rows of 100 Miles). Its meaning is not defined in this part.", "at": "08:36; 10:18"},
+    {"term": "Warning message", "meaning": "Column that flags some rows; the full text is truncated on screen ('Warning: quantity exceeds the r...').", "at": "08:39"},
+    {"term": "Score", "meaning": "Word the trainer uses (low-confidence transcription). No column with this name is on screen; the narration only says a negative score is not taken into account for fulfillment.", "at": "07:24-07:33"},
+    {"term": "Cables balance / Cables received", "meaning": "Fields on the shipment detail panel (both 0 on d3d4befb). Not explained in this part.", "at": "09:51"},
+    {"term": "Naif to drop price", "meaning": "Sidebar menu item; not explained in this part.", "at": "07:12"}
+  ],
+  "asr_fixes": [
+    {"at": "09:36", "heard": "faisan", "correct": "faizan", "basis": "The screen shows Updated by faizan.shaikh@revibe.me on shipment d3d4befb (t00561). The screen does not show who did the QC."},
+    {"at": "09:13", "heard": "{ofoc?} al {mesan?}", "correct": "Ofoq Al Mzeezan", "basis": "The screen shows supplier Ofoq Al Mzeezan for shipment d3d4befb (t00552, t00560)."},
+    {"at": "08:03", "heard": "another stage called cancel", "correct": "another stage called Cancelled (status label 'Cancelled')", "basis": "Cancelled is the Request Status label on the Shipments list (t00495) and the Request products list (t00519)."}
+  ],
+  "unclear": [
+    {"at": "07:18", "issue": "'can beat it by putting one dirham less' has no visible comparison on screen. It is not clear what price is being beaten, or whether it relates to the Buybox supplier column."},
+    {"at": "07:24-07:33", "issue": "The sentence 'the price {be?} including a score' is cut off, and no score column is on the SKUs available page. The score rule is stated, but what a score is and where it appears is not explained."},
+    {"at": "08:43 / 08:48", "issue": "Negative values appear in the Buybox supplier column (-15 on 100 Miles Warehouse received rows, t00528). The trainer does not connect them to the score rule, so no link is stated."},
+    {"at": "09:01", "issue": "'requested {cancelled?}' is low-confidence. Cancelled rows do appear inside the Open list (Almas Al Burteqali, t00541), but the trainer calls cancelled another stage, so whether cancelled items belong to Open is not clear."},
+    {"at": "09:42", "issue": "The sentence ends 'or maybe sold for' with the object missing. The visible inventory movement types are only Return to supplier and Bulk QC rejection, so 'sold' is not confirmed."},
+    {"at": "09:36", "issue": "'it's most probably faisan who did the quality check' is a guess. The screen shows only the Updated by field (faizan.shaikh@revibe.me); it does not show who did the QC."},
+    {"at": "10:05", "issue": "The trainer says Under QC time is also on the request product, but the request product detail fields shown in t00612 and t00618 do not include Under QC time."},
+    {"at": "09:51", "issue": "Cables balance and Cables received are shown (both 0) but never explained."},
+    {"at": "07:12", "issue": "Naif to drop price is a sidebar item that is not explained in this part."}
+  ],
+  "outdated": [
+    {"at": "07:49", "signal": "On-screen counts (Completed 1056, Requested 1, AWB created 2, Under QC 1, Open 345, Closed 25,389, Cancelled 3,178) are a snapshot from the recording and will have changed."}
+  ],
+  "privacy": [
+    {"at": "07:45-08:15", "frame": "t00465.jpg", "what": "Shipments list shows seller email addresses in Created by, for example ofoqalmeezan@gmail.com, death12race70@gmail.com, tareeqalaman2023@gmail.com, u87632021@gmail.com, nafeesazhar73@gmail.com, and the staff address yahia.elbellaj@revibe.me (Nisar Line row)."},
+    {"at": "08:16", "frame": "t00495.jpg", "what": "Cancelled rows show seller emails in Created by: lappybook2022@gmail.com (Muhammad Usman), medi.umair786@gmail.com (DDH), gnimra21@gmail.com (The Future), carsazgarage@gmail.com (JAD), waqasch73277@gmail.com (NAW)."},
+    {"at": "09:08-09:21", "frame": "t00560.jpg, t00561.jpg", "what": "Shipment d3d4befb shows seller email ofoqalmeezan@gmail.com in Created by and staff address faizan.shaikh@revibe.me in Updated by, plus a Tracking Label link and tracking link for a named seller shipment."},
+    {"at": "10:12-10:18", "frame": "t00612.jpg, t00618.jpg", "what": "Request product detail for 010112-060201 (Nisar Line) shows the seller account email nmtecommerce@gmail.com in Created by and Updated by."}
+  ],
+  "audit": {
+    "checked": 88,
+    "removed": [
+      {"statement": "Add form fields: ID 4725c588, Request Status Requested, Supplier, Payment method 100% - After sales, Tracking company Quiqup, Tracking ID, Tracking Label link http://, Tracking link https://track-parcel.quiqup.com/, Created by, Created at 14/10/2026 15:19:26 (fact 9, screen 'Requests Supplier Form', step 08:19 'shows form').", "reason": "Cited frame t00503 shows the Shipments list with the pointer on the Add button and no form. No frame in the pack shows the form, so the field list and its values are not supported."},
+      {"statement": "Filter panel fields (Request Status ... Unboxing Video, with Clear and Done buttons) at 08:28-08:32 (fact 10 detail, screen 'Shipments filter panel', step 08:28 'opens the panel').", "reason": "Cited frame t00508 shows the Shipments list with the cursor in the search box; no filter panel is open. The trainer only says 'filter by whatever column you want'."},
+      {"statement": "Group header 'Cancelled 107' (fact 6, screen 'Shipments list', evidence t00499).", "reason": "No frame in the pack shows a Cancelled group header with a count. The Cancelled rows are visible at the end of the list (t00495) with no header visible."},
+      {"statement": "Fact 17: the Buybox supplier figure is the competing price that a seller can beat by one dirham (low-confidence).", "reason": "Nothing on screen links the Buybox supplier figure to the trainer's remark; this is an interpretation. The remark stays as unclear at 07:18."},
+      {"statement": "Unclear 08:23 vs 09:21: date formats differ, with the Requests Supplier Form showing 14/10/2026 15:19:26 (day first).", "reason": "The form is not visible in the pack's frames, so the day-first date has no evidence. The visible dates are month first."},
+      {"statement": "Privacy at 08:23 (t00503): Requests Supplier Form Created by pierre@revibe.me.", "reason": "The form is not visible in the cited frame."},
+      {"statement": "Privacy at 08:15 and 08:21: staff addresses pierre@revibe.me, pierre.villaceque@revibe.me, and seller emails sultan@sjmobile.ae, ruman.mobipro.llc@gmail.com, rashaya1991@gmail.com, shivajora21@gmail.com, suppskworldfzco@gmail.com on Completed or Cancelled rows.", "reason": "These addresses are not visible in the cited frames (only yahia.elbellaj@revibe.me is visible among staff addresses)."},
+      {"statement": "Screen 'Seller starter pack - EN version': blank Google Drive folder page with a URL.", "reason": "Only the tab title is visible in the frames; the page content is not shown."},
+      {"statement": "Term AWB: 'the document created when a shipment is set up'.", "reason": "Not stated by the trainer or on screen; general knowledge removed."},
+      {"statement": "Step 07:44 and 07:39 claim that the Seller starter pack tab is linked to the shipments walk-through.", "reason": "Not narrated; no link is stated in the frames."}
+    ],
+    "corrected": [
+      {"before": "Summary: 'All 40 frames were opened' and 'Shipments (request statuses, Add form, filter)'.", "after": "25 distinct frames were opened and checked against their content; the Add form and filter panel are not shown in the cited frames.", "reason": "Only 25 frames were opened, and the form and filter panel are not visible."},
+      {"before": "Step 08:05: Cancelled rows dated 10/2026.", "after": "Cancelled rows dated 10/31/2025 to 11/25/2025 (Muhammad Usman 11/25/2025, DDH 11/21/2025, The Future 11/19/2025, JAD 11/14/2025, NAW 10/31/2025).", "reason": "The frame shows 2025 dates, not 2026."},
+      {"before": "Step 08:19: 'Clicks Add to show the Requests Supplier Form, then closes it without saving'.", "after": "The pointer rests on the Add button; the trainer says creating a shipment is the seller's role and the KAM can assist.", "reason": "No form is visible in the cited frame."},
+      {"before": "Step 08:28: 'Opens the filter panel, lists the columns, and closes it with Done'.", "after": "The filter icon is at the top right; the trainer says 'filter by whatever column you want'; no panel is open in the cited frame.", "reason": "The panel and its Done button are not visible."},
+      {"before": "Step 08:36: 'expands Closed'.", "after": "With All selected, the header shows Cancelled 3,178; Closed is expanded in t00528.", "reason": "The frame cited for the step shows Closed collapsed."},
+      {"before": "Fact 13: 'The Closed stage holds request products that were rejected or warehouse received.'", "after": "Closed holds rejected and warehouse received rows (100 Miles: Rejected 40, Warehouse received 100), per the trainer's hedged description; confidence medium.", "reason": "The trainer says 'i don't think'; one supplier is not a complete definition."},
+      {"before": "Fact 14: 'The Open stage holds request products that are still requested.'", "after": "Open holds Requested rows (ABS Cell 5) and Cancelled rows (Almas Al Burteqali 8).", "reason": "The frame t00541 shows Cancelled rows inside Open."},
+      {"before": "Fact 13 wording: 'Cancelled 3,178 (rows)'.", "after": "Cancelled 3,178 is the group header under All (on-screen count at recording).", "reason": "The number is a group header count, not a row count."},
+      {"before": "Fact 9 (Add form): 'Request Status (default Requested)'.", "after": "Removed; no form visible.", "reason": "Not supported by any cited frame."},
+      {"before": "Fact 10 (filter): '18 fields listed' as a screen fact.", "after": "Field list not stated; trainer's instruction only.", "reason": "The filter panel is not visible in the cited frames."},
+      {"before": "Fact 'Payment method 100% - After sales and Tracking company Quiqup on every visible row (t00465)'.", "after": "On the visible rows of the Shipments list (t00465).", "reason": "Scope narrowed to what the frame shows."},
+      {"before": "Step 09:32 (quality check): 'Says the quality check was most probably done by the Updated by user'.", "after": "The trainer names someone as most probably doing the quality check (transcribed 'faisan'); the screen shows only the Updated by field.", "reason": "A guess turned into a screen-supported statement."},
+      {"before": "Step 09:42: 'possibly sold (truncated)'.", "after": "The line is cut off at 'or maybe sold for'; 'sold' is not on screen.", "reason": "'Sold' is not a movement type on screen."},
+      {"before": "Step 09:21 cited t00561 for Warehouse received 10/13/2026 3:14:32 PM.", "after": "Warehouse received 10/13/2026 3:14:32 PM is shown in t00561 and t00591.", "reason": "Both frames show the field; t00561 is the cited frame for Updated by and Related Inventory_movements 11."},
+      {"before": "Term 'Under QC time': 'also on the request product'.", "after": "Shipment detail only; not seen on the request product detail in the cited frames.", "reason": "The request product detail fields do not include it."},
+      {"before": "Term 'Stage (Open/Closed)': Open means still requested.", "after": "Open holds Requested and Cancelled rows.", "reason": "Frame t00541 shows Cancelled rows in Open."},
+      {"before": "Screen 'Seller starter pack': 'Blank Drive folder page'.", "after": "Only the tab title 'Seller starter pack - EN versi...' is visible; not narrated.", "reason": "The page content is not visible."},
+      {"before": "Privacy 08:09 (t00489) for Cancelled seller emails.", "after": "Privacy 08:16 (t00495) for the Cancelled seller emails.", "reason": "The cancelled rows with these emails are visible in t00495."}
+    ],
+    "added": [
+      "Fact: Shipments with Request Status Cancelled appear at the end of the Shipments list, dated 10/31/2025 to 11/25/2025 (t00495). High confidence.",
+      "Fact (medium): Closed > AAA Electronics (228) shows a Cancelled group (5 rows) and a Warehouse received group (223 rows) (t00528, t00537).",
+      "Fact: Open > Nisar Line (20) shows 20 Requested rows, all with Stage Open (t00612).",
+      "Screen: Related Inventory_movements table columns are SKU, ID, Inventory ID, Request ID, Request product ID (t00561).",
+      "Outdated: on-screen counts at recording time (Completed 1056, Open 345, Closed 25,389, Cancelled 3,178) will have changed.",
+      "Unclear: Buybox supplier shows negative values (-15) on the Warehouse received rows of 100 Miles (t00528), and the trainer's score remark is not linked to them."
+    ]
+  }
+}

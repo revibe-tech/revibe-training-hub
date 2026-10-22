@@ -1,0 +1,552 @@
+{
+  "summary": "Part 1 of 3 (00:00-05:21) of the Revibe \"3.1 Buybox (Sellers)\" training. Pierre walks through the Buybox Google Sheet: what the Buybox is, how the catalogue is split by market (AE columns for UAE and South Africa, SA columns for Saudi Arabia), who pays shipping in each market, what neutral buy box prices and buy box prices are, how the seller score moves prices, and what the lowest condition rule means. All 40 frames listed in the pack were opened. The lock, minimum price, small/big price drop and \"how to win\" topics are only announced in the agenda and are not covered in this part.",
+  "steps": [
+    {
+      "at": "00:00-00:20",
+      "screen": "Google Sheets workbook 'Buybox Training', tab 'Buybox Training', slide titled 'Revibe ecosystem'",
+      "action": "Trainer opens the training and introduces the Buybox over the ecosystem diagram, then moves the pointer to the three flag icons under the Buybox box.",
+      "says": "The Buybox is the tool that you will use in order to set prices for direct shipping orders",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "00:12", "quote": "The Buybox is the tool that you will use in order to set prices for direct shipping orders", "frame": ""},
+        {"kind": "see", "at": "00:00", "quote": "Title 'Revibe ecosystem'; Buybox box reads 'Set prices for direct shipping' with three flag icons", "frame": "t00000.jpg"},
+        {"kind": "see", "at": "00:20", "quote": "Same diagram; pointer on the flag icons under Buybox", "frame": "t00020.jpg"}
+      ]
+    },
+    {
+      "at": "00:24-00:50",
+      "screen": "'Buybox Training' tab, contents list (1 Buybox presentation; 2 Gamification)",
+      "action": "Trainer lists the agenda and clicks contents rows (Catalog organization at D5, Small price drop at D14) and the section 1 heading at C4.",
+      "says": "First, I will introduce you {the?} buy box, how the catalogue is organized, what do we call neutral",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "00:24", "quote": "First, I will introduce you {the?} buy box, how the catalogue is organized, what do we call neutral", "frame": ""},
+        {"kind": "see", "at": "00:30", "quote": "Formula bar D5 selected on 'Catalog organization'", "frame": "t00030.jpg"},
+        {"kind": "see", "at": "00:50", "quote": "Formula bar D14 selected on 'Small price drop'", "frame": "t00050.jpg"},
+        {"kind": "see", "at": "01:10", "quote": "Cell C4 selected on '1 Buybox presentation'", "frame": "t00070.jpg"}
+      ]
+    },
+    {
+      "at": "01:08-01:25",
+      "screen": "Tab 'Buybox' (the catalogue table, one row per device SKU)",
+      "action": "Trainer opens the 'Buybox' tab to show the catalogue offered to all Revibe sellers.",
+      "says": "Here you can see the catalogue which is offered to all {revive?} sellers.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "01:24", "quote": "Here you can see the catalogue which is offered to all {revive?} sellers.", "frame": ""},
+        {"kind": "see", "at": "01:25", "quote": "Buybox tab: columns Name, w screen size, Category, Model, Storage, Color, SKU_Long, Condition, Monthly Sales, Score, Buybox AE, Buybox SA, Wins AE, Wins SA, Price AE; rows such as 'iphone-732 GBGoodBlack'", "frame": "t00085.jpg"}
+      ]
+    },
+    {
+      "at": "01:30-01:37",
+      "screen": "'Buybox' tab, column header filter menus (Category, Storage (laptop))",
+      "action": "Trainer lists the filter options while opening the header filter menus. The Category menu lists values Accessories, Audio, Fees. The Storage (laptop) menu lists values such as 1 TB HDD and 1 TB SSD. Only the category and storage menus appear in the frames.",
+      "says": "You can filter by category, by model, by storage, by color, and by condition.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "01:30", "quote": "You can filter by category,", "frame": ""},
+        {"kind": "say", "at": "01:33", "quote": "by model,", "frame": ""},
+        {"kind": "say", "at": "01:35", "quote": "by storage, by color, and by condition.", "frame": ""},
+        {"kind": "see", "at": "01:30", "quote": "Filter-by-values menu on the Category column (C1 'Category'): (Vides), Accessories, Audio, Fees", "frame": "t00090.jpg"},
+        {"kind": "see", "at": "01:33", "quote": "Filter-by-values menu on Storage (laptop) (G1): (Vides), (Product)Red, 1 TB HDD, 1 TB SSD", "frame": "t00093.jpg"}
+      ]
+    },
+    {
+      "at": "01:39-01:52",
+      "screen": "'Buybox' tab, cell J25 selected, no filter open",
+      "action": "Trainer tells sellers where to find condition details and says the catalogue is split into two parts.",
+      "says": "To have more detail related to the conditions, I highly recommend you to have a look at the",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "01:39", "quote": "To have more detail related to the conditions, I highly recommend you to have a look at the", "frame": ""},
+        {"kind": "say", "at": "01:46", "quote": "{Quality?} Guidelines PDF that I provided to you in the Revive Seller Starter Pack.", "frame": ""},
+        {"kind": "say", "at": "01:52", "quote": "You can see that first, the catalog is split a bit like in two parts.", "frame": ""},
+        {"kind": "see", "at": "01:52", "quote": "Buybox sheet with J25 selected; no PDF shown on screen", "frame": "t00099.jpg"}
+      ]
+    },
+    {
+      "at": "01:56-02:39",
+      "screen": "'Buybox' tab, Buybox AE (Q) and Buybox SA (R) column groups; headers coloured red (AE) and green (SA)",
+      "action": "Trainer points at the red and green column groups, says red is UAE and South Africa and green is Saudi Arabia, then explains the shipping difference between the two groups.",
+      "says": "The red are for UAE and South Africa, and the green ones are for Saudi Arabia.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "01:56", "quote": "{You?} have the red columns and the green ones.", "frame": ""},
+        {"kind": "say", "at": "02:00", "quote": "The red are for UAE and South Africa, and the green ones are for Saudi Arabia.", "frame": ""},
+        {"kind": "see", "at": "01:56", "quote": "Column group Buybox AE (Q) header in red/pink, Buybox SA (R) header in green; Wins AE and Wins SA headers also colour-coded", "frame": "t00116.jpg"},
+        {"kind": "see", "at": "02:00", "quote": "Column R (Buybox SA) selected, formula bar 'Buybox SA'", "frame": "t00119.jpg"},
+        {"kind": "see", "at": "02:10", "quote": "Column Q (Buybox AE) selected, formula bar 'Buybox AE'", "frame": "t00129.jpg"},
+        {"kind": "say", "at": "02:09", "quote": "For UAE and South Africa, we handle the shipment for you, which means that we pay the shipping", "frame": ""},
+        {"kind": "say", "at": "02:33", "quote": "You have to pay yourself for the shipping cost and get a partnership with one delivery company.", "frame": ""}
+      ]
+    },
+    {
+      "at": "02:45-03:08",
+      "screen": "'Buybox Training' summary tab (t00163), then 'Buybox' tab with Neutral Buybox AE (N) and Neutral Buybox SA (O) columns (t00171)",
+      "action": "Trainer opens the neutral price columns and says they show neutral buy box prices for UAE, South Africa and Saudi Arabia, then defines the neutral buy box price.",
+      "says": "The neutral buy box represents the prices that you could have if your score was at zero.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "02:45", "quote": "let's dig into neutral prices and buy box prices.", "frame": ""},
+        {"kind": "say", "at": "02:50", "quote": "Here, if you open this, you can see that you have neutral buy box for UAE and South", "frame": ""},
+        {"kind": "say", "at": "02:54", "quote": "Africa and neutral buy box for Saudi Arabia.", "frame": ""},
+        {"kind": "say", "at": "02:58", "quote": "The neutral buy box represents the prices", "frame": ""},
+        {"kind": "say", "at": "03:03", "quote": "that you could have if your score was at zero.", "frame": ""},
+        {"kind": "see", "at": "02:45", "quote": "Summary table: Free market - UAE / ZA 100, KSA 100; Fulfillment / Locked - UAE / ZA 100 - Fulfillment, KSA 100 - Locked", "frame": "t00163.jpg"},
+        {"kind": "see", "at": "02:55", "quote": "Headers 'Neutral Buybox AE' (N) and 'Neutral Buybox SA' (O) next to Score, Buybox AE, Buybox SA", "frame": "t00171.jpg"}
+      ]
+    },
+    {
+      "at": "03:08-03:52",
+      "screen": "'Buybox' tab, row 3 (iPhone 7 32 GB Black Excellent): N3 formula bar 211.33 (cell shows 211), Score P3 -4.00%, Buybox AE Q3 203",
+      "action": "Trainer compares row 3 neutral price with the actual buy box price for a seller whose score is negative, and explains how a score of zero or a positive score would change the price.",
+      "says": "Here for instance you can see that this price is for this iPhone 7 {32GB?} black excellent condition",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "03:08", "quote": "Here for instance you can see that this price is for this iPhone 7 {32GB?} black excellent condition", "frame": ""},
+        {"kind": "say", "at": "03:15", "quote": "is 211.", "frame": ""},
+        {"kind": "say", "at": "03:17", "quote": "The score of this seller is minus {This?} seller has a bad score,", "frame": ""},
+        {"kind": "say", "at": "03:25", "quote": "he has to compete with a price of 203.", "frame": ""},
+        {"kind": "say", "at": "03:29", "quote": "If his score was at 0, he would compete versus a price of 211 {and?} if his score", "frame": ""},
+        {"kind": "say", "at": "03:39", "quote": "was positive, he would even have a way better price here.", "frame": ""},
+        {"kind": "see", "at": "03:12", "quote": "N3 formula bar '211.33'; cell shows 211; Excellent, Black, 32 GB row; SKU_Long 010101-050103", "frame": "t00191.jpg"},
+        {"kind": "see", "at": "03:30", "quote": "Q3 formula bar '203'; P3 Score '-4.00%'", "frame": "t00208.jpg"}
+      ]
+    },
+    {
+      "at": "03:44-04:10",
+      "screen": "'Buybox' tab, neutral and buy box columns",
+      "action": "Trainer explains the difference between neutral prices and buy box prices and why score matters.",
+      "says": "You have to compete on the buy box prices that are the neutral prices impacted by your score.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "03:44", "quote": "So the score is very important to have higher prices, which then will give you better margins.", "frame": ""},
+        {"kind": "say", "at": "03:52", "quote": "So this is the difference between the neutral buy box prices and the buy box prices.", "frame": ""},
+        {"kind": "say", "at": "03:58", "quote": "You have to compete on the buy box prices that are the neutral prices impacted by your score.", "frame": ""},
+        {"kind": "say", "at": "04:06", "quote": "So the better will be your score, the better will be your prices.", "frame": ""},
+        {"kind": "see", "at": "03:52", "quote": "Neutral and Buybox columns side by side, rows 2-42", "frame": "t00228.jpg"}
+      ]
+    },
+    {
+      "at": "04:10-04:40",
+      "screen": "'Buybox' tab, row 5 (SKU_Long 010101-050101, iPhone 7 32 GB Black, Condition 'Good'): Neutral AE and Buybox AE show '190 - Fulfillment'; Neutral SA and Buybox SA show 374",
+      "action": "Trainer shows a SKU where the neutral price equals the buy box price in both markets and explains it with the lowest condition rule.",
+      "says": "For some devices, the neutral price is equal to the buy box price.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "04:10", "quote": "For some devices, the neutral price is equal to the buy box price.", "frame": ""},
+        {"kind": "say", "at": "04:21", "quote": "where you can see that you have a price in UAE of 190, here as well 190, and", "frame": ""},
+        {"kind": "say", "at": "04:27", "quote": "in Saudi Arabia 374, and here as well 374.", "frame": ""},
+        {"kind": "see", "at": "04:20", "quote": "Row 5: Neutral Buybox AE '190 - Fulfillment', Buybox AE '190 - Fulfillment', Neutral Buybox SA '374', Buybox SA '374', SKU_Long '010101-050101'", "frame": "t00258.jpg"},
+        {"kind": "see", "at": "04:33", "quote": "Cell G5 'Black' selected (Storage (laptop) Color (phone) column)", "frame": "t00270.jpg"},
+        {"kind": "see", "at": "04:34", "quote": "Cell L5 'Good' selected (Keyboard (laptop) / Condition (phone) column)", "frame": "t00273.jpg"},
+        {"kind": "say", "at": "04:31", "quote": "This is due to what we call the lowest condition.", "frame": ""}
+      ]
+    },
+    {
+      "at": "04:34-05:03",
+      "screen": "'Buybox' tab, row 5 and the condition/storage/colour columns",
+      "action": "Trainer defines lowest condition devices and states the score does not change their price.",
+      "says": "you have to compete only on the price, which means that the score has no impact on your",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "04:34", "quote": "For some devices,", "frame": ""},
+        {"kind": "say", "at": "04:37", "quote": "which are the ones with the lowest storage,", "frame": ""},
+        {"kind": "say", "at": "04:40", "quote": "the most basic color and the lowest quality condition,", "frame": ""},
+        {"kind": "say", "at": "04:47", "quote": "you have to compete only on the price, which means that the score has no impact on your", "frame": ""},
+        {"kind": "say", "at": "04:55", "quote": "Even if you have a super nice score, you won't have different prices {because?} the competition between the", "frame": ""},
+        {"kind": "say", "at": "05:03", "quote": "seller is made only on the price.", "frame": ""},
+        {"kind": "see", "at": "04:50", "quote": "Row 5 selected; Score column shows -4.00%", "frame": "t00281.jpg"}
+      ]
+    },
+    {
+      "at": "05:06-05:21",
+      "screen": "'Buybox' tab, Wins AE (S) and Wins SA (T) columns; all visible values FALSE",
+      "action": "Trainer closes the neutral vs buy box comparison and points at the Wins UAE and Wins Saudi Arabia columns, which show TRUE or FALSE.",
+      "says": "Here in wins UAE and wins Saudi Arabia, you will see that it's written either true or false.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "05:07", "quote": "So here are for the difference between neutral buy box and buy box with the score.", "frame": ""},
+        {"kind": "say", "at": "05:15", "quote": "Here in wins UAE and wins Saudi Arabia, you will see that it's written either true or false.", "frame": ""},
+        {"kind": "see", "at": "05:13", "quote": "Wins AE (S) and Wins SA (T) columns, all visible cells FALSE", "frame": "t00313.jpg"},
+        {"kind": "see", "at": "05:17", "quote": "Wins AE and Wins SA selected/visible, values FALSE", "frame": "t00317.jpg"}
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "type": "definition",
+      "statement": "The Buybox is the tool sellers use to set prices for direct shipping orders to their customers in Saudi Arabia, UAE and South Africa.",
+      "evidence": [
+        {"kind": "say", "at": "00:12", "quote": "The Buybox is the tool that you will use in order to set prices for direct shipping orders", "frame": ""},
+        {"kind": "say", "at": "00:17", "quote": "to your customers in Saudi Arabia, UAE and South Africa.", "frame": ""},
+        {"kind": "see", "at": "00:00", "quote": "Buybox box on the ecosystem diagram reads 'Set prices for direct shipping' with three flag icons", "frame": "t00000.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The Buybox is one app in the Revibe ecosystem. The ecosystem diagram shows the Buybox alongside the Seller, Orders App, Fulfillment App, Claims App and Performance & Score.",
+      "evidence": [
+        {"kind": "say", "at": "00:03", "quote": "In this video I will present you the Buybox {which?} is part of the {Revibe?} ecosystem as you", "frame": ""},
+        {"kind": "say", "at": "00:08", "quote": "have seen it in the Revibe ecosystem training.", "frame": ""},
+        {"kind": "see", "at": "00:00", "quote": "Revibe ecosystem diagram: Buybox, Orders App, Fulfillment App, Claims App, Performance & Score, Seller", "frame": "t00000.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Buybox prices are set for direct shipping; the Fulfillment App sets prices and quantities for fulfillment shipping, a separate app on the ecosystem diagram.",
+      "evidence": [
+        {"kind": "see", "at": "00:00", "quote": "Fulfillment App box: 'Set prices and quantities for fulfillment shipping', with three flag icons", "frame": "t00000.jpg"},
+        {"kind": "see", "at": "00:00", "quote": "Buybox box: 'Set prices for direct shipping'", "frame": "t00000.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The ecosystem diagram carries two score-related labels: 'Score affecting prices' above the arrow running to the Buybox, and 'Score > 0% > price increase' at the bottom arrow into the Fulfillment App. Implied: the top arrow starts at Performance & Score, but the frame does not label the start. The trainer does not narrate these labels in part 1.",
+      "evidence": [
+        {"kind": "see", "at": "00:00", "quote": "Top arrow label 'Score affecting prices' (to Buybox); bottom arrow label 'Score > 0% > price increase' (to Fulfillment App)", "frame": "t00000.jpg"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "The trainer says the catalogue offered to all Revibe sellers can be filtered by category, model, storage, colour and condition, using the filter menus on the Buybox tab's column headers. The frames show only the category and storage filter menus.",
+      "evidence": [
+        {"kind": "say", "at": "01:24", "quote": "Here you can see the catalogue which is offered to all {revive?} sellers.", "frame": ""},
+        {"kind": "say", "at": "01:30", "quote": "You can filter by category,", "frame": ""},
+        {"kind": "say", "at": "01:35", "quote": "by storage, by color, and by condition.", "frame": ""},
+        {"kind": "see", "at": "01:30", "quote": "Filter-by-values menu on Category (C) shows Accessories, Audio, Fees", "frame": "t00090.jpg"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "tip",
+      "statement": "For detail on the device conditions, read the Quality Guidelines PDF in the Revibe Seller Starter Pack. The transcript word 'Quality' is marked unreliable and the PDF is not shown on screen.",
+      "evidence": [
+        {"kind": "say", "at": "01:39", "quote": "To have more detail related to the conditions, I highly recommend you to have a look at the", "frame": ""},
+        {"kind": "say", "at": "01:46", "quote": "{Quality?} Guidelines PDF that I provided to you in the Revive Seller Starter Pack.", "frame": ""}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The catalogue is split into two groups of columns: the red columns (Buybox AE, Wins AE, Price AE and related AE columns) cover UAE and South Africa, and the green columns (Buybox SA and related SA columns) cover Saudi Arabia.",
+      "evidence": [
+        {"kind": "say", "at": "02:00", "quote": "The red are for UAE and South Africa, and the green ones are for Saudi Arabia.", "frame": ""},
+        {"kind": "see", "at": "01:56", "quote": "Buybox AE header in red/pink, Buybox SA header in green", "frame": "t00116.jpg"},
+        {"kind": "see", "at": "01:56", "quote": "Summary tab column headed 'UAE / ZA' (AE group) and 'KSA' (SA group)", "frame": "t00163.jpg"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "policy",
+      "statement": "For UAE and South Africa, Revibe handles the shipment and pays the shipping cost. The trainer names QuickUp as the UAE delivery partner and DHL as the South Africa partner; these names come from speech only.",
+      "evidence": [
+        {"kind": "say", "at": "02:09", "quote": "For UAE and South Africa, we handle the shipment for you, which means that we pay the shipping", "frame": ""},
+        {"kind": "say", "at": "02:16", "quote": "cost.", "frame": ""},
+        {"kind": "say", "at": "02:18", "quote": "Orders in UAE are delivered by our partner, QuickUp, and orders for South Africa are delivered {by?} our", "frame": ""},
+        {"kind": "say", "at": "02:25", "quote": "partner DHL.", "frame": ""},
+        {"kind": "say", "at": "02:27", "quote": "In both cases, we pay for the shipping cost.", "frame": ""}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "policy",
+      "statement": "For Saudi Arabia the seller pays their own shipping cost and has to get a partnership with one delivery company.",
+      "evidence": [
+        {"kind": "say", "at": "02:31", "quote": "For Saudi Arabia, it's a bit different.", "frame": ""},
+        {"kind": "say", "at": "02:33", "quote": "You have to pay yourself for the shipping cost and get a partnership with one delivery company.", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The neutral buy box price is the price the seller could have if their score were zero.",
+      "evidence": [
+        {"kind": "say", "at": "02:58", "quote": "The neutral buy box represents the prices", "frame": ""},
+        {"kind": "say", "at": "03:03", "quote": "that you could have if your score was at zero.", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The buy box price is the neutral buy box price adjusted by the seller's score, and sellers compete on buy box prices.",
+      "evidence": [
+        {"kind": "say", "at": "03:58", "quote": "You have to compete on the buy box prices that are the neutral prices impacted by your score.", "frame": ""},
+        {"kind": "say", "at": "03:52", "quote": "So this is the difference between the neutral buy box prices and the buy box prices.", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "tip",
+      "statement": "The higher the seller score, the higher the buy box prices, which give better margins. A negative score lowers the price a seller competes at, compared with a score of zero or a positive score.",
+      "evidence": [
+        {"kind": "say", "at": "03:44", "quote": "So the score is very important to have higher prices, which then will give you better margins.", "frame": ""},
+        {"kind": "say", "at": "04:06", "quote": "So the better will be your score, the better will be your prices.", "frame": ""},
+        {"kind": "say", "at": "03:39", "quote": "was positive, he would even have a way better price here.", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "example",
+      "statement": "Example: iPhone 7 32 GB Black Excellent (SKU_Long 010101-050103) has a neutral Buybox AE price of 211 (formula bar 211.33, cell displays 211). The seller's score is -4.00% and the buy box AE price is 203. At a score of 0 the seller would compete at 211.",
+      "evidence": [
+        {"kind": "say", "at": "03:08", "quote": "Here for instance you can see that this price is for this iPhone 7 {32GB?} black excellent condition", "frame": ""},
+        {"kind": "say", "at": "03:15", "quote": "is 211.", "frame": ""},
+        {"kind": "say", "at": "03:25", "quote": "he has to compete with a price of 203.", "frame": ""},
+        {"kind": "see", "at": "03:12", "quote": "N3 formula bar '211.33'; displayed 211; SKU_Long 010101-050103", "frame": "t00191.jpg"},
+        {"kind": "see", "at": "03:30", "quote": "Q3 '203'; P3 Score '-4.00%'", "frame": "t00208.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "example",
+      "statement": "For some devices the neutral price equals the buy box price, so the score has no effect on their price. Example row 5 (SKU_Long 010101-050101): UAE 190 (neutral and buy box, shown as '190 - Fulfillment') and Saudi Arabia 374 (neutral and buy box).",
+      "evidence": [
+        {"kind": "say", "at": "04:10", "quote": "For some devices, the neutral price is equal to the buy box price.", "frame": ""},
+        {"kind": "say", "at": "04:21", "quote": "where you can see that you have a price in UAE of 190, here as well 190, and", "frame": ""},
+        {"kind": "say", "at": "04:27", "quote": "in Saudi Arabia 374, and here as well 374.", "frame": ""},
+        {"kind": "see", "at": "04:20", "quote": "Row 5: Neutral Buybox AE '190 - Fulfillment', Buybox AE '190 - Fulfillment', Neutral Buybox SA '374', Buybox SA '374'", "frame": "t00258.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Lowest condition devices are those with the lowest storage, the most basic colour and the lowest quality condition. For these devices the sellers compete only on price, the score has no impact, and a higher score does not give a different price.",
+      "evidence": [
+        {"kind": "say", "at": "04:31", "quote": "This is due to what we call the lowest condition.", "frame": ""},
+        {"kind": "say", "at": "04:37", "quote": "which are the ones with the lowest storage,", "frame": ""},
+        {"kind": "say", "at": "04:40", "quote": "the most basic color and the lowest quality condition,", "frame": ""},
+        {"kind": "say", "at": "04:47", "quote": "you have to compete only on the price, which means that the score has no impact on your", "frame": ""},
+        {"kind": "say", "at": "05:03", "quote": "seller is made only on the price.", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Wins AE and Wins SA columns show TRUE or FALSE. All visible rows in this part show FALSE.",
+      "evidence": [
+        {"kind": "say", "at": "05:15", "quote": "Here in wins UAE and wins Saudi Arabia, you will see that it's written either true or false.", "frame": ""},
+        {"kind": "see", "at": "05:13", "quote": "Wins AE (S) and Wins SA (T) columns: FALSE in all visible rows", "frame": "t00313.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The Buybox tab columns, left to right, include Name, w screen size, Category, Model, CPU (Laptop) Connectivity (Tablet), RAM (laptop) Storage (phone), Storage (laptop) Color (phone), SKU_Long, Screen size (laptop), Series (Laptop), Condition (laptop), Keyboard (laptop) / Condition (phone), Monthly Sales, Neutral Buybox AE, Neutral Buybox SA, Score, Buybox AE, Buybox SA, Wins AE, Wins SA, Price AE, Price SA, Min AE, Min SA.",
+      "evidence": [
+        {"kind": "see", "at": "01:25", "quote": "Column headers as listed above on the Buybox tab", "frame": "t00085.jpg"},
+        {"kind": "see", "at": "03:52", "quote": "Neutral Buybox AE (N), Neutral Buybox SA (O), Score (P), Buybox AE (Q), Buybox SA (R)", "frame": "t00228.jpg"},
+        {"kind": "see", "at": "05:13", "quote": "Wins AE (S), Wins SA (T), Price AE, Price SA, Min AE, Min SA headers visible", "frame": "t00313.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The Score column shows -4.00% on every visible row of the Buybox tab. Whether this is the score of one seller or of all rows is not stated.",
+      "evidence": [
+        {"kind": "see", "at": "03:12", "quote": "Score column P shows -4.00% in every visible row", "frame": "t00191.jpg"},
+        {"kind": "say", "at": "03:17", "quote": "The score of this seller is minus {This?} seller has a bad score,", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Summary table on the 'Buybox Training' tab: Free market = 100 (UAE / ZA) and 100 (KSA); Fulfillment / Locked = 100 - Fulfillment (UAE / ZA) and 100 - Locked (KSA). The trainer does not explain these values in part 1.",
+      "evidence": [
+        {"kind": "see", "at": "02:45", "quote": "Table 'Free market' row 100 / 100; 'Fulfillment / Locked' row '100 - Fulfillment' / '100 - Locked'", "frame": "t00163.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The workbook has four tabs: 'Buybox Training' (contents and summary), 'Buybox' (catalogue table), 'AE Tool' and 'SA Tool'. The trainer names the AE tool and the Saudi Arabia tool.",
+      "evidence": [
+        {"kind": "say", "at": "01:16", "quote": "In this sheet you can see that you have buy box, AE tool, Saudi Arabia tool.", "frame": ""},
+        {"kind": "see", "at": "00:00", "quote": "Sheet tabs at bottom: Buybox Training, Buybox, AE Tool, SA Tool", "frame": "t00000.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Neutral Buybox AE (N) and Neutral Buybox SA (O) columns sit beside the Buybox columns. They show a neutral price per SKU for UAE/South Africa and for Saudi Arabia.",
+      "evidence": [
+        {"kind": "say", "at": "02:50", "quote": "Here, if you open this, you can see that you have neutral buy box for UAE and South", "frame": ""},
+        {"kind": "say", "at": "02:54", "quote": "Africa and neutral buy box for Saudi Arabia.", "frame": ""},
+        {"kind": "see", "at": "02:55", "quote": "Headers 'Neutral Buybox AE' and 'Neutral Buybox SA'", "frame": "t00171.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The Buybox tab shows Condition values 'Apple renewed', 'Excellent', 'Very Good' and 'Good' in the Keyboard (laptop) / Condition (phone) column.",
+      "evidence": [
+        {"kind": "see", "at": "01:25", "quote": "Keyboard (laptop) / Condition (phone) values: Apple renewed, Excellent, Very Good, Good", "frame": "t00085.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "Agenda only (not covered in part 1): the trainer says sellers can lock prices in UAE and South Africa by sending the devices to the Revibe warehouse. The Buybox Training contents list 'Lock expiry process' (section 3) and 'KSA - Lock request'.",
+      "evidence": [
+        {"kind": "say", "at": "00:59", "quote": "Then also I will show you that you have the possibility to lock prices in UAE and South", "frame": ""},
+        {"kind": "say", "at": "01:04", "quote": "Africa by sending the devices to our warehouse.", "frame": ""},
+        {"kind": "see", "at": "02:45", "quote": "Contents list shows '3 Lock expiry process' and 'KSA - Lock request'", "frame": "t00163.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    }
+  ],
+  "screens": [
+    {
+      "name": "Revibe ecosystem diagram (Buybox Training tab)",
+      "shows": "Google Sheets slide 'Revibe ecosystem': Seller, Buybox (Set prices for direct shipping, three flags), Orders App, Fulfillment App (Set prices and quantities for fulfillment shipping), Claims App, Performance & Score, with labels 'Score affecting prices' and 'Score > 0% > price increase'.",
+      "at": "00:00-00:50",
+      "where": "t00000.jpg, t00020.jpg"
+    },
+    {
+      "name": "Buybox Training contents list",
+      "shows": "Section 1 Buybox presentation (Catalog organization, Neutral prices, Buybox prices, Lowest condition, How to win, Minimum prices); Section 2 Gamification (Small price drop, Big price drop, UAE - Fulfillment proposition). Later extended with KSA - Lock request and Section 3 Lock expiry process.",
+      "at": "00:30-02:45",
+      "where": "t00030.jpg, t00050.jpg, t00070.jpg, t00163.jpg"
+    },
+    {
+      "name": "Buybox tab (catalogue table)",
+      "shows": "One row per device SKU: Name, Category, Model, RAM/storage, Colour, SKU_Long, Condition, Monthly Sales (bands such as 0-1, 3-5, 20-50), Score (-4.00%), Buybox AE, Buybox SA, Wins AE, Wins SA, Price AE, Price SA, Min AE, Min SA.",
+      "at": "01:08-05:21",
+      "where": "t00085.jpg onwards"
+    },
+    {
+      "name": "Category filter menu",
+      "shows": "Filter-by-values on the Category column with values Accessories, Audio, Fees (and the (Vides) blank entry).",
+      "at": "01:30",
+      "where": "t00090.jpg"
+    },
+    {
+      "name": "Storage (laptop) filter menu",
+      "shows": "Filter-by-values on column G (formula bar 'Storage (laptop)') with values (Vides), (Product)Red, 1 TB HDD, 1 TB SSD.",
+      "at": "01:33",
+      "where": "t00093.jpg"
+    },
+    {
+      "name": "Buybox AE / Buybox SA column groups",
+      "shows": "Buybox AE (Q) header in red/pink and Buybox SA (R) header in green; Wins AE and Wins SA headers also colour-coded.",
+      "at": "01:56-02:10",
+      "where": "t00116.jpg, t00119.jpg, t00129.jpg"
+    },
+    {
+      "name": "Buybox Training summary table",
+      "shows": "'Free market': UAE / ZA 100, KSA 100. 'Fulfillment / Locked': UAE / ZA 100 - Fulfillment, KSA 100 - Locked.",
+      "at": "02:45",
+      "where": "t00163.jpg"
+    },
+    {
+      "name": "Neutral Buybox AE / SA columns",
+      "shows": "Columns N (Neutral Buybox AE) and O (Neutral Buybox SA) with values such as N3 211 (formula 211.33), O3 372, N5 190 - Fulfillment, O5 374.",
+      "at": "02:50-03:30",
+      "where": "t00171.jpg, t00191.jpg, t00208.jpg"
+    },
+    {
+      "name": "Row 5 SKU view",
+      "shows": "Row 5, SKU_Long 010101-050101, iPhone 7 32 GB Black, Condition Good, Buybox AE and Neutral Buybox AE '190 - Fulfillment', Buybox SA and Neutral SA 374.",
+      "at": "04:10-04:40",
+      "where": "t00250.jpg, t00258.jpg, t00270.jpg, t00273.jpg"
+    },
+    {
+      "name": "Wins AE / Wins SA columns",
+      "shows": "Columns S and T with values TRUE/FALSE; all visible values FALSE.",
+      "at": "05:06-05:21",
+      "where": "t00306.jpg, t00313.jpg, t00317.jpg"
+    },
+    {
+      "name": "macOS Dictionary window (not part of the training)",
+      "shows": "A French-language macOS Dictionary app window ('Dictionnaire') opened over the sheet. It contains no Revibe content.",
+      "at": "01:27",
+      "where": "t00087.jpg"
+    }
+  ],
+  "terms": [
+    {"term": "Buybox", "meaning": "The tool sellers use to set prices for direct shipping orders to customers in Saudi Arabia, UAE and South Africa.", "at": "00:12"},
+    {"term": "Direct shipping", "meaning": "The shipping model the Buybox prices are set for, shown on the ecosystem diagram as 'Set prices for direct shipping'. The trainer does not define it further.", "at": "00:12"},
+    {"term": "Fulfillment shipping", "meaning": "The shipping model the Fulfillment App prices are set for, shown on the ecosystem diagram as 'Set prices and quantities for fulfillment shipping'.", "at": "00:00"},
+    {"term": "Catalogue", "meaning": "The list of devices offered to all Revibe sellers, shown on the Buybox tab.", "at": "01:24"},
+    {"term": "Neutral buy box price (neutral price)", "meaning": "The price a seller could have if their score were zero.", "at": "03:03"},
+    {"term": "Buy box price", "meaning": "The neutral buy box price impacted by the seller's score. Sellers compete on buy box prices.", "at": "03:58"},
+    {"term": "Score", "meaning": "The seller's score, shown as a percentage in the Score column (for example -4.00%). A better score gives better prices; the score does not affect lowest condition devices.", "at": "03:17"},
+    {"term": "Lowest condition (devices)", "meaning": "Devices with the lowest storage, the most basic colour and the lowest quality condition. Sellers compete only on price for these devices and the score has no impact.", "at": "04:31"},
+    {"term": "AE / UAE / South Africa columns", "meaning": "Columns labelled AE (Buybox AE, Wins AE, Price AE, Neutral Buybox AE). The trainer says the red columns are for UAE and South Africa. The summary table labels the group 'UAE / ZA'.", "at": "02:00"},
+    {"term": "SA / Saudi Arabia columns", "meaning": "Columns labelled SA (Buybox SA, Wins SA, Price SA, Neutral Buybox SA). The trainer says the green columns are for Saudi Arabia. The summary table labels the group 'KSA'.", "at": "02:00"},
+    {"term": "Wins AE / Wins SA", "meaning": "Columns that show TRUE or FALSE for UAE and Saudi Arabia. The trainer does not define what TRUE means in part 1.", "at": "05:15"},
+    {"term": "Lock (prices)", "meaning": "The trainer says sellers can lock prices in UAE and South Africa by sending devices to the Revibe warehouse. Only announced in part 1.", "at": "01:04"},
+    {"term": "Minimum prices", "meaning": "Listed as a topic in the agenda (Min AE / Min SA columns exist). Not covered in part 1.", "at": "00:36"},
+    {"term": "Partner QuickUp", "meaning": "The delivery partner for UAE orders, according to the trainer. Name from speech only.", "at": "02:18"},
+    {"term": "Partner DHL", "meaning": "The delivery partner for South Africa orders, according to the trainer. Name from speech only.", "at": "02:25"},
+    {"term": "Monthly Sales", "meaning": "Column with sales bands such as 0-1, 1-3, 3-5, 20-50. The trainer does not explain the bands in part 1.", "at": "01:25"}
+  ],
+  "asr_fixes": [
+    {"at": "00:00", "heard": "Buybox? training", "correct": "Buybox training", "basis": "Sheet tab and title read 'Buybox Training' (t00000.jpg)."},
+    {"at": "01:24", "heard": "revive? sellers", "correct": "Revibe sellers", "basis": "Slide title reads 'Revibe ecosystem' (t00000.jpg); the company name is spelled Revibe elsewhere in the same video."},
+    {"at": "01:46", "heard": "Revive Seller Starter Pack", "correct": "Revibe Seller Starter Pack", "basis": "Company name is spelled 'Revibe' on screen (t00000.jpg title 'Revibe ecosystem'); the same speech says 'Revibe ecosystem training' at 00:08."},
+    {"at": "03:08", "heard": "iPhone 7 {32GB?} black", "correct": "iPhone 7 32GB black", "basis": "Row 3 shows RAM column '32 GB' and product name 'iphone-732 GBExcellentBlack' (t00085.jpg, t00191.jpg)."},
+    {"at": "03:17", "heard": "minus {This?}", "correct": "minus 4.00% (score -4.00%)", "basis": "Score column shows -4.00% on the row the trainer is describing (t00191.jpg, t00208.jpg). The screen value is used because the spoken number is missing."}
+  ],
+  "unclear": [
+    {"at": "02:00", "issue": "Red/green mapping: the narration says red covers UAE and South Africa, but the Buybox tab headers only say AE and SA. The summary table labels the AE group 'UAE / ZA' (t00163.jpg), which supports ZA sitting in the AE columns, but the Buybox tab never labels ZA directly."},
+    {"at": "02:45", "issue": "Summary table values ('100', '100 - Fulfillment', '100 - Locked' under Free market and Fulfillment / Locked) are shown on screen but not explained in part 1."},
+    {"at": "04:20", "issue": "Suffix '- Fulfillment' on the UAE price cells (for example '190 - Fulfillment') is shown but not explained in part 1."},
+    {"at": "01:25", "issue": "'No bid' appears in Buybox AE, Buybox SA and neutral cells (for example row 2, row 6). Its meaning is not stated in part 1."},
+    {"at": "01:46", "issue": "The title of the PDF ('{Quality?} Guidelines') is flagged as unreliable speech and is not shown on screen."},
+    {"at": "02:18", "issue": "Delivery partner name 'QuickUp' comes from speech only and is not on screen. It could be misheard."},
+    {"at": "03:17", "issue": "The trainer says 'The score of this seller is minus ...' while the Score column shows -4.00% on all visible rows. The video does not say whether all rows belong to the same seller."},
+    {"at": "05:15", "issue": "The Wins AE / Wins SA columns are described as TRUE or FALSE, but the meaning of TRUE is not given in part 1."},
+    {"at": "04:31", "issue": "The narration says the lowest condition devices have 'the lowest quality condition', but the ranking of the condition values on screen (Apple renewed, Excellent, Very Good, Good) is not stated."},
+    {"at": "01:37", "issue": "The trainer lists five filters (category, model, storage, colour, condition) but the frames show only the category (t00090.jpg) and storage (t00093.jpg) menus."}
+  ],
+  "outdated": [],
+  "privacy": [],
+  "frames_opened": 40,
+  "audit": {
+    "checked": 77,
+    "removed": [],
+    "corrected": [
+      {"before": "Step 4 evidence: Category filter menu cited to t00093.jpg at 01:30, and Storage (laptop) menu cited to t00097.jpg at 01:37", "after": "Category menu is t00090.jpg (01:30); Storage (laptop) menu is t00093.jpg (01:33). t00097.jpg (01:37) shows cell J25 selected with no filter menu open.", "reason": "Frame-to-timestamp mapping was wrong; the frame names in the pack were swapped for the two filter menus."},
+      {"before": "Fact 'Filter-by-values menu on Category (C) shows Accessories, Audio, Fees' cited t00093.jpg", "after": "Cited to t00090.jpg", "reason": "The Category filter menu is in t00090.jpg."},
+      {"before": "Screen 'Category filter menu' at 01:30 cited t00093.jpg; screen 'Storage (laptop) filter menu' at 01:37 cited t00097.jpg", "after": "Category filter menu cites t00090.jpg; Storage (laptop) filter menu is at 01:33 and cites t00093.jpg", "reason": "Same frame mix-up as step 4."},
+      {"before": "Screen 'macOS Dictionary window (accidental)' at 00:50-01:25 with t00087.jpg", "after": "Screen 'macOS Dictionary window (not part of the training)' at 01:27, t00087.jpg", "reason": "The frame is at 01:27. Nothing in the video or on screen shows the window was accidental; it is a French-language macOS Dictionary app."},
+      {"before": "Fact 'filtered by category, model, storage, colour and condition ... using the filter menus' stated as fact (confidence high)", "after": "Stated as what the trainer says, with the frames showing only the category and storage menus (confidence medium)", "reason": "Only the speech lists all five filters. The frames show two of them."},
+      {"before": "Fact 'Saudi Arabia ... must have a partnership with one delivery company' (confidence high)", "after": "'has to get a partnership with one delivery company'", "reason": "The speech says 'get a partnership'; 'must have' is a paraphrase."},
+      {"before": "Fact 'For UAE and South Africa ... QuickUp ... DHL' (confidence high)", "after": "Confidence medium, and the statement says the partner names come from speech only", "reason": "Neither partner name appears on screen, and the pack's own unclear list flags QuickUp."},
+      {"before": "Fact 'The ecosystem diagram carries two score-related labels ... arrow from Performance & Score back to the Buybox'", "after": "Top arrow's start at Performance & Score is marked 'Implied:'; the labels themselves are visible on screen", "reason": "The frame labels the top arrow but does not label its start. Start point is inferred from the connecting line."},
+      {"before": "Procedure 'sellers can lock prices in UAE and South Africa by sending devices to the Revibe warehouse'", "after": "'The trainer says sellers can lock prices ...'", "reason": "The lock claim is from the trainer's speech at 00:59-01:04, not a demonstrated procedure."},
+      {"before": "Term 'Partner DHL' had no speech-only note", "after": "Note 'Name from speech only' added", "reason": "Same basis as QuickUp; DHL is not on screen."}
+    ],
+    "added": [
+      {"statement": "Frame t00097.jpg (01:37), not cited by the pack: cell J25 is selected in the Buybox tab with no filter menu open, which matches the 01:39 J25 frame (t00099.jpg). Other uncited frames (t00113, t00124, t00149, t00150, t00152, t00161, t00232, t00237, t00238, t00241, t00247, t00286, t00306, t00309) were opened and show the same Buybox table and column headers already covered; no new supported claim came from them."}
+    ]
+  }
+}

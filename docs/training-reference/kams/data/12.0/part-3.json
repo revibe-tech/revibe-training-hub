@@ -1,0 +1,85 @@
+{
+  "summary": "Part 3 (04:45 to 04:51) of \"12.0 South Africa Bulk Shipments (Seller & KAMs)\" contains no training content. It is a closing title card: the Revibe logo on a purple gradient, the green pill \"Questions? Message your Revibe account manager.\" and \"Thank you!\". The only spoken line in this window is \"Thank you.\" at 04:47. No steps, apps, pages, rules or numbers are shown in this part.",
+  "steps": [],
+  "facts": [
+    {
+      "type": "procedure",
+      "statement": "If you have questions, message your Revibe account manager.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "04:43",
+          "quote": "Questions?"
+        },
+        {
+          "kind": "say",
+          "at": "04:44",
+          "quote": "Message your Revive account manager."
+        },
+        {
+          "kind": "see",
+          "at": "04:48",
+          "frame": "t00288.jpg",
+          "quote": "Green pill with text 'Questions? Message your Revibe account manager.' above 'Thank you!' on the closing card; the same text appears in a dark caption bar at the bottom."
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    }
+  ],
+  "screens": [
+    {
+      "name": "Closing title card",
+      "shows": "Revibe logo on a purple gradient, the green pill 'Questions? Message your Revibe account manager.', the text 'Thank you!', and a bottom caption bar with the same question. t00285 shows the logo and the bottom caption bar only; the green pill and 'Thank you!' are not yet visible. t00290 shows the logo, the green pill and 'Thank you!' without the bottom caption bar.",
+      "at": "04:45 to 04:51",
+      "frame": "t00285.jpg, t00288.jpg, t00290.jpg"
+    }
+  ],
+  "terms": [],
+  "asr_fixes": [
+    {
+      "at": "04:44",
+      "heard": "Revive account manager",
+      "correct": "Revibe account manager",
+      "basis": "Screen: frames t00285.jpg, t00288.jpg and t00290.jpg show 'Revibe account manager' on the end card."
+    }
+  ],
+  "unclear": [],
+  "outdated": [],
+  "privacy": [],
+  "frames_opened": 3,
+  "audit": {
+    "checked": 3,
+    "removed": [
+      {
+        "statement": "Fact evidence: say 'Thank you.' at 04:47 cited as support for the account manager procedure",
+        "reason": "The 'Thank you.' line does not say anything about contacting the account manager, so it does not support the fact. Removed from the fact's evidence."
+      },
+      {
+        "statement": "Screen note: t00285 'looks like the start of the card's animation'",
+        "reason": "Speculation. The frame shows only the logo and caption bar, and nothing in the evidence says it is an animation. Removed."
+      }
+    ],
+    "corrected": [
+      {
+        "before": "If you have questions about this training, message your Revibe account manager.",
+        "after": "If you have questions, message your Revibe account manager.",
+        "reason": "The video says only 'Questions?' and 'Message your Revive account manager.' It does not say the questions are about this training. That qualifier is not in the evidence."
+      },
+      {
+        "before": "Fact evidence cites t00288 at 04:48 and the same quote with the spoken 'Thank you.' at 04:47",
+        "after": "Fact evidence: say 04:43 'Questions?', say 04:44 'Message your Revive account manager.' (corrected to Revibe on screen, see asr_fixes), see t00288 at 04:48.",
+        "reason": "Evidence now matches the transcript lines and frame the claim relies on."
+      },
+      {
+        "before": "Screen t00285 described as the logo with the caption bar and the pill and 'Thank you!' not yet visible",
+        "after": "Same observation kept, plus t00290 added: logo, green pill and 'Thank you!' with no bottom caption bar.",
+        "reason": "t00290 was cited in the pack but not described in the screen entry. Opened and verified."
+      }
+    ],
+    "added": [
+      "asr_fixes entry: 'Revive' heard at 04:44, corrected to 'Revibe' because the screen shows 'Revibe' on t00285, t00288 and t00290.",
+      "Coverage sweep: the pack lists only t00285, t00288 and t00290 for this window. All three were opened. No other frame in the window is cited, and the transcript for 04:45 to 04:51 has only the 'Thank you.' line at 04:47, so nothing else was missed."
+    ]
+  }
+}

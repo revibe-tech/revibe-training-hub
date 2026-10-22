@@ -1,0 +1,716 @@
+{
+  "summary": "Part 1 of 3 of the Revibe video \"1.2 Onboarding App _ Fulfillment (Seller)\" (00:00-04:19). The trainer (Pierre) moves a newly accepted seller from profile approval into the Quality screening stage: he shows the seller's profile in the Seller Onboarding App, copies the Fulfillment App link from the profile, tours the Fulfillment App's SKUs available list (sort, columns, price and quantity meaning), picks one example SKU (010109-060101, Smart Life, Buybox 598, 155 recommended), and walks through creating a shipment with one request line (quantity sent 10, price 597), then saves. Screen data is a snapshot from 8 August 2025 (Created at 08/08/2025 on the request form). All 40 frames were opened.",
+  "frames_opened": 40,
+  "steps": [
+    {
+      "at": "00:08-00:36",
+      "screen": "Slides: CONGRATS (t00000.jpg, slide 8) and Onboarding process (t00011.jpg, t00025.jpg, slide 9)",
+      "action": "Trainer introduces the quality screening stage on the onboarding slide. The slide says the seller sends a first shipment of devices so Revibe can check quality, and the warehouse inspection leads to either Sales + Onboarding or Return + No-onboarding.",
+      "evidence": [
+        {"kind": "say", "at": "00:08", "quote": "Now, let's dig into the second step of the onboarding process, the quality screening."},
+        {"kind": "see", "at": "00:11", "frame": "t00011.jpg", "quote": "Stage 2 Quality screening: Once your profile is validated, you will get access to the Fulfillment App; You will send us a 1st shipment of devices that will enable us to check your quality; Create a shipment, select products products, set quantities and prices"}
+      ],
+      "says": "The purpose of this is that you will send us a first batch of devices so that we will be able to inspect the quality.",
+      "why": "Trainer: the first batch lets Revibe inspect quality."
+    },
+    {
+      "at": "00:25-00:44",
+      "screen": "Onboarding process slide (t00025.jpg)",
+      "action": "Trainer describes both outcomes of the quality check, then switches to the app.",
+      "evidence": [
+        {"kind": "say", "at": "00:26", "quote": "If the quality is good on average, we will immediately start selling your devices, include you in the"},
+        {"kind": "say", "at": "00:36", "quote": "Unfortunately, if your quality doesn't match our expectations, we will return the devices to you."},
+        {"kind": "see", "at": "00:11", "frame": "t00011.jpg", "quote": "Shipment to warehouse for inspection: check = Sales + Onboarding; X = Return + No-onboarding"}
+      ],
+      "says": "Now let's go back to the app.",
+      "why": ""
+    },
+    {
+      "at": "00:44-00:51",
+      "screen": "Seller Onboarding App, Profile list (t00044.jpg)",
+      "action": "Looks at the profile row for the seller account: Application status and Approval columns.",
+      "evidence": [
+        {"kind": "see", "at": "00:44", "frame": "t00044.jpg", "quote": "Profile table: Accepted 1 | Pierre Villaceque | Company name Revibe | Application status: Application submitted | Approval: Accepted"},
+        {"kind": "say", "at": "00:45", "quote": "Here you can see that the approval shows that your profile has been accepted."}
+      ],
+      "says": "You can now have a look into this.",
+      "why": ""
+    },
+    {
+      "at": "00:52-00:55",
+      "screen": "Seller Onboarding App, profile detail (t00052.jpg)",
+      "action": "The profile record is open. The Edit button is at top right, and the trainer says 'Edit.' The read-only detail view shows DHL account, tax registration certificate, trading license, Emirates ID, position, bank details, application status, approval, next steps, watched-video answer and the Fulfillment App link.",
+      "evidence": [
+        {"kind": "say", "at": "00:55", "quote": "Edit."},
+        {"kind": "see", "at": "00:52", "frame": "t00052.jpg", "quote": "Next steps: Congrats! Your profile has been validated by our team! You will get access to our fulfillment app. You will send us a first batch of devices... Watch carefully this video to understand the process; Have you watched the Fulfillment App video? Yes; Link to Fulfillment App https://www.appsheet.com/start/05eea..."}
+      ],
+      "says": "Edit.",
+      "why": ""
+    },
+    {
+      "at": "00:56-01:01",
+      "screen": "Profile edit panel, bottom section (t00056.jpg)",
+      "action": "Points at the answer to 'Have you watched the Fulfillment App video?' and at the Link to Fulfillment App field at the bottom of the form.",
+      "evidence": [
+        {"kind": "say", "at": "00:56", "quote": "You have mentioned that you have watched the Fulfillment app video."},
+        {"kind": "say", "at": "01:01", "quote": "And you can see that here at the bottom, you have the link to get access to the"},
+        {"kind": "see", "at": "00:56", "frame": "t00056.jpg", "quote": "Have you watched the Fulfillment App video? [Not yet | Yes], with Yes selected; Link to Fulfillment App field (greyed, text cut off at the edge)"}
+      ],
+      "says": "And you can see that here at the bottom, you have the link to get access to the",
+      "why": ""
+    },
+    {
+      "at": "01:02-01:06",
+      "screen": "Profile edit panel, Link to Fulfillment App selected (t00065.jpg)",
+      "action": "Selects the Fulfillment App link text in the Link to Fulfillment App field so it can be copied.",
+      "evidence": [
+        {"kind": "see", "at": "01:05", "frame": "t00065.jpg", "quote": "Link to Fulfillment App field: https://www.appsheet.com/start/05eeac03-dbeb-456e-9559-e54df98a681 (text highlighted, cut off at the field edge)"},
+        {"kind": "say", "at": "01:05", "quote": "Fulfillment app."},
+        {"kind": "say", "at": "01:06", "quote": "Take it and paste it into your Google Sheet."}
+      ],
+      "says": "Take it and paste it into your Google Sheet.",
+      "why": ""
+    },
+    {
+      "at": "01:11-01:14",
+      "screen": "Browser new tab (t00071.jpg), then Revibe - Fulfillment App (t00074.jpg)",
+      "action": "Pastes the copied link into a new Chrome tab's address bar and opens the Fulfillment App.",
+      "evidence": [
+        {"kind": "see", "at": "01:11", "frame": "t00071.jpg", "quote": "New tab in Chrome; address bar holds the long appsheet.com link with view=SKUs%20available; suggestion 'Revibe - Fulfillment App'"},
+        {"kind": "say", "at": "01:12", "quote": "Here is the Fulfillment app."}
+      ],
+      "says": "Here is the Fulfillment app.",
+      "why": ""
+    },
+    {
+      "at": "01:14-01:22",
+      "screen": "Revibe - Fulfillment App (t00074.jpg): left menu",
+      "action": "Trainer says the app is split into several tabs and that not all of them are needed for the first shipment. Full training on the app comes after onboarding.",
+      "evidence": [
+        {"kind": "see", "at": "01:14", "frame": "t00074.jpg", "quote": "Left menu: SKUs available, Shipments, Request products, Supplier inventory, Inventory exits, Packaging request, About, Feedback, App Gallery"},
+        {"kind": "say", "at": "01:14", "quote": "You can see that the app is divided into {a?} few tabs."},
+        {"kind": "say", "at": "01:18", "quote": "All of them are not necessary to you for this first shipment."},
+        {"kind": "say", "at": "01:22", "quote": "{You?} will, once onboarded on Revive, you will get access to a full training of this Fulfillment app."}
+      ],
+      "says": "All of them are not necessary to you for this first shipment.",
+      "why": "Trainer: full training on the app comes once the seller is onboarded."
+    },
+    {
+      "at": "01:29-01:44",
+      "screen": "SKUs available tab (t00089.jpg)",
+      "action": "Trainer says the SKUs available tab lists the catalog by category, model, variation and condition, with prices and recommended quantities.",
+      "evidence": [
+        {"kind": "see", "at": "01:29", "frame": "t00089.jpg", "quote": "SKUs available table columns: Category, Model, Product, Price, Quantities recommended, SKU"},
+        {"kind": "say", "at": "01:29", "quote": "On this SKU's Available tab, you can see all the products that we are offering in our catalog."},
+        {"kind": "say", "at": "01:44", "quote": "You can see the different prices in DRAMs, and you can see the quantities recommended."}
+      ],
+      "says": "You can see them by category, by model, with all the variations in terms of storage, color, and",
+      "why": ""
+    },
+    {
+      "at": "01:49-01:59",
+      "screen": "SKUs available, sorted (t00109.jpg, t00117.jpg)",
+      "action": "Sorts the list by Quantities recommended, descending, and scrolls to the bottom.",
+      "evidence": [
+        {"kind": "see", "at": "01:49", "frame": "t00109.jpg", "quote": "Quantities recommended column header with a down arrow; top row iphone-11 1164 GBGoodBlack, 598, 155"},
+        {"kind": "say", "at": "01:49", "quote": "Here {I?} {sort?} it by descending quantities recommended."},
+        {"kind": "say", "at": "01:52", "quote": "So here is our best sellers and at the bottom you can see devices where we are selling"}
+      ],
+      "says": "a bit less products.",
+      "why": "Top of the sorted list = best sellers (trainer). Bottom = products the trainer says sell a bit less."
+    },
+    {
+      "at": "02:02-02:13",
+      "screen": "SKUs available (t00122.jpg) with Download button and filter icon top right",
+      "action": "Trainer explains the recommended-quantity estimate, the SKU reference download and the filter options.",
+      "evidence": [
+        {"kind": "say", "at": "02:02", "quote": "This is an estimate of how many pieces you would be able to sell on the next 15"},
+        {"kind": "say", "at": "02:09", "quote": "Here is the SKU reference and you can download it if you need."},
+        {"kind": "say", "at": "02:13", "quote": "You can also filter with the different parameters here."},
+        {"kind": "see", "at": "02:13", "frame": "t00134.jpg", "quote": "Top right: Download button and a filter icon (tooltip 'Filter')"}
+      ],
+      "says": "You can also filter with the different parameters here.",
+      "why": ""
+    },
+    {
+      "at": "02:14-02:34",
+      "screen": "SKUs available, scrolled through the list (t00134.jpg to t00154.jpg)",
+      "action": "Trainer says this tab is where the seller makes the selection for the first shipment: identify the SKUs to send, make sure quantities are significant, and check the price matches the seller's expectations.",
+      "evidence": [
+        {"kind": "say", "at": "02:18", "quote": "On this tab, you will make your selection."},
+        {"kind": "say", "at": "02:20", "quote": "Typically, you will be able to identify all the SKUs that you want to send to us for"},
+        {"kind": "say", "at": "02:27", "quote": "You have to make sure that the quantities are a bit significant and you have to make sure"},
+        {"kind": "say", "at": "02:34", "quote": "also that the price matches your expectations."}
+      ],
+      "says": "also that the price matches your expectations.",
+      "why": ""
+    },
+    {
+      "at": "02:38",
+      "screen": "Narration only",
+      "action": "Trainer says the seller will not need to pay for shipping costs. The video does not say which shipments this covers.",
+      "evidence": [
+        {"kind": "say", "at": "02:38", "quote": "As a remainder, you won't need to pay for the shipping costs."}
+      ],
+      "says": "As a remainder, you won't need to pay for the shipping costs.",
+      "why": ""
+    },
+    {
+      "at": "02:43-02:55",
+      "screen": "SKUs available, row with price 9,999 (t00163.jpg, t00175.jpg)",
+      "action": "Trainer explains that the price in the list is the price the seller gets paid for, and that 9,999 means no price has been set on the device yet.",
+      "evidence": [
+        {"kind": "say", "at": "02:43", "quote": "{So?} this is {the?} price that you will get paid for."},
+        {"kind": "say", "at": "02:46", "quote": "When you say that the price is 999, it means that no one put a price on this"},
+        {"kind": "say", "at": "02:55", "quote": "If you put the price, you will be sure that you will win it."},
+        {"kind": "see", "at": "02:46", "frame": "t00163.jpg", "quote": "Price column shows 9,999 on many rows (e.g. dell-latitude-7400 9,999; samsung rows 9,999)"}
+      ],
+      "says": "If you put the price, you will be sure that you will win it.",
+      "why": ""
+    },
+    {
+      "at": "03:00-03:10",
+      "screen": "SKU detail side panel for 010109-060101 (t00183.jpg, t00186.jpg)",
+      "action": "Trainer says the seller makes the selection on this tab, then clicks the example SKU to open its detail panel and says the example supplier name is only an example.",
+      "evidence": [
+        {"kind": "say", "at": "03:00", "quote": "So here you can make your selection."},
+        {"kind": "see", "at": "03:03", "frame": "t00183.jpg", "quote": "SKU 010109-060101; Supplier Smart Life; Price 598; Category iPhone; Product iphone-1164 GBGoodBlack; Model iphone-11; SKU Status Free market; Quantities recommended 155"},
+        {"kind": "say", "at": "03:02", "quote": "Let's say that you want to send us this SKU, for instance, here it's Smart Life is an"},
+        {"kind": "say", "at": "03:07", "quote": "example, but you will be able to see the name of your business."}
+      ],
+      "says": "Let's say that you want to send us this SKU, for instance, here it's Smart Life is an",
+      "why": ""
+    },
+    {
+      "at": "03:11-03:17",
+      "screen": "Shipments tab, Requests Supplier Form (t00197.jpg)",
+      "action": "Goes to Shipments and clicks New to start a shipment. Says only one shipment can be open at a time.",
+      "evidence": [
+        {"kind": "say", "at": "03:11", "quote": "And now what you need to do is to prepare a shipment."},
+        {"kind": "say", "at": "03:14", "quote": "Go to {shipment,?} add a new one."},
+        {"kind": "say", "at": "03:17", "quote": "You can only have one shipment at a time {and?} here click on new."},
+        {"kind": "see", "at": "03:17", "frame": "t00197.jpg", "quote": "Requests Supplier Form: ID ab9970c5; Request Status Requested; Supplier Smart Life (grey); Payment method 100% - After sales; Tracking company Quiqup (grey); Tracking link https://track-parcel.quiqup.com/ (grey); Created by pierre.villaceque@revibe.me; Created at 08/08/2025 11:43:31"}
+      ],
+      "says": "You can only have one shipment at a time {and?} here click on new.",
+      "why": ""
+    },
+    {
+      "at": "03:22-03:27",
+      "screen": "Request_products section, then Request products Form (t00202.jpg, t00207.jpg)",
+      "action": "Clicks New in the request_products section, then inputs the SKU in the SKU field. The Product and Supplier fields fill in from the SKU.",
+      "evidence": [
+        {"kind": "see", "at": "03:22", "frame": "t00202.jpg", "quote": "Requests Supplier Form with the request_products New button hovered"},
+        {"kind": "say", "at": "03:23", "quote": "Here you can just input the SKU that you have selected."},
+        {"kind": "see", "at": "03:27", "frame": "t00207.jpg", "quote": "Request products Form: SKU 010109-060101; Product iphone-1164 GBGoodBlack (grey); Supplier Smart Life; Quantity recommended 155; Quantity Sent 0; Buybox supplier 598; Price 597; Total price 0; Request Status Requested; Payment method 100% - After sales; Stage Open"},
+        {"kind": "say", "at": "03:27", "quote": "You can see that the quantities recommended is 155 and here you can determine the quantity that you"}
+      ],
+      "says": "You can see that the quantities recommended is 155 and here you can determine the quantity that you",
+      "why": ""
+    },
+    {
+      "at": "03:33-03:41",
+      "screen": "Request products Form, Quantity Sent field (t00209.jpg, t00221.jpg)",
+      "action": "Sets Quantity Sent to 10. The total updates to 5,970.",
+      "evidence": [
+        {"kind": "say", "at": "03:33", "quote": "want to send to us, say 10."},
+        {"kind": "see", "at": "03:41", "frame": "t00221.jpg", "quote": "Quantity Sent 10; Price 597; Total price 5,970"}
+      ],
+      "says": "want to send to us, say 10.",
+      "why": ""
+    },
+    {
+      "at": "03:37-03:52",
+      "screen": "Request products Form, Price field (t00221.jpg, t00227.jpg)",
+      "action": "Reads the Buybox price (598) and sets the price to 597. Tries 598 and gets an error that the price must beat Buybox.",
+      "evidence": [
+        {"kind": "say", "at": "03:37", "quote": "Here you can see that the current price {is?} 598 {if?} you want to sell it you have"},
+        {"kind": "say", "at": "03:42", "quote": "to beat this price and to go one dirham cheaper if you try to {meet?} to match the"},
+        {"kind": "say", "at": "03:47", "quote": "same price we will tell you come on let's beat by box win by at least one dirham"},
+        {"kind": "see", "at": "03:47", "frame": "t00227.jpg", "quote": "Price 598 with red error text: Come on! Let's beat Buybox! Win by at least 1 AED.; Total price 5,980"},
+        {"kind": "say", "at": "03:52", "quote": "you can go lower if it's okay for you it will boost your chances to sell a bit"}
+      ],
+      "says": "you can go lower if it's okay for you it will boost your chances to sell a bit",
+      "why": "Trainer: going lower is allowed and boosts the chances to sell a bit."
+    },
+    {
+      "at": "03:53-04:09",
+      "screen": "Request products Form saved, then Requests Supplier Form (t00233.jpg, t00241.jpg, t00244.jpg, t00249.jpg)",
+      "action": "Trainer says to click Save once the line is done. The request line then appears in the request_products table of the shipment form with status Requested. The shipment form is then saved.",
+      "evidence": [
+        {"kind": "say", "at": "03:59", "quote": "faster and then once done you can just click on save {here?} you can add by clicking on"},
+        {"kind": "see", "at": "04:04", "frame": "t00244.jpg", "quote": "Requests Supplier Form table: SKU 010109-060101 | Request Status Requested | Product iphone-1164 GBGoodB..."},
+        {"kind": "say", "at": "04:07", "quote": "new you can add other SKUs to your request like for instance you can here save your shipment"}
+      ],
+      "says": "new you can add other SKUs to your request like for instance you can here save your shipment",
+      "why": ""
+    },
+    {
+      "at": "04:12-04:18",
+      "screen": "Requests Supplier Form close, then SKUs available (t00252.jpg, t00258.jpg)",
+      "action": "Closes the shipment form and goes back to SKUs available to add more SKUs.",
+      "evidence": [
+        {"kind": "say", "at": "04:13", "quote": "and you can here go to SKUs available and let's say that you also want to sell this"},
+        {"kind": "see", "at": "04:18", "frame": "t00258.jpg", "quote": "SKUs available list, top-right shows 'Syncing'"}
+      ],
+      "says": "and you can here go to SKUs available and let's say that you also want to sell this",
+      "why": ""
+    }
+  ],
+  "facts": [
+    {
+      "type": "definition",
+      "statement": "The seller onboarding has four stages: Profile screening, Quality screening, Trial period, Full onboarding.",
+      "evidence": [
+        {"kind": "see", "at": "00:11", "frame": "t00011.jpg", "quote": "Onboarding process slide: 1 Profile screening, 2 Quality screening, 3 Trial period, 4 Full onboarding"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Quality screening: once the profile is validated, the seller gets access to the Fulfillment App.",
+      "evidence": [
+        {"kind": "say", "at": "00:13", "quote": "At this stage, as I mentioned, your profile has been validated and you will now get access to"},
+        {"kind": "see", "at": "00:11", "frame": "t00011.jpg", "quote": "Once your profile is validated, you will get access to the Fulfillment App"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Quality screening step: the seller sends Revibe a first shipment of devices so Revibe can inspect quality. The seller creates the shipment in the Fulfillment App, selects products, and sets quantities and prices.",
+      "evidence": [
+        {"kind": "say", "at": "00:19", "quote": "The purpose of this is that you will send us a first batch of devices so that we"},
+        {"kind": "see", "at": "00:11", "frame": "t00011.jpg", "quote": "Create a shipment, select products products, set quantities and prices"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Quality outcome: if quality is good on average, Revibe starts selling the devices and includes the seller in the payment cycle and onboarding. If quality does not match expectations, Revibe returns the devices and the seller is not onboarded.",
+      "evidence": [
+        {"kind": "say", "at": "00:26", "quote": "If the quality is good on average, we will immediately start selling your devices, include you in the"},
+        {"kind": "say", "at": "00:36", "quote": "Unfortunately, if your quality doesn't match our expectations, we will return the devices to you."},
+        {"kind": "see", "at": "00:11", "frame": "t00011.jpg", "quote": "Shipment to warehouse for inspection: check = Sales + Onboarding; X = Return + No-onboarding"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Trial period (slide): only Fulfillment by Revibe during the trial period; the seller gets access to all Revibe tools and online trainings; the trial enables reaching significant volume and getting used to the Revibe environment.",
+      "evidence": [
+        {"kind": "see", "at": "00:11", "frame": "t00011.jpg", "quote": "Trial period: Only Fulfillment by Revibe during trial period; You will get access to all Revibe tools and online trainings; It enables you to reach significant volume, get used to Revibe environment"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Full onboarding (slide): once the seller reaches significant volume of orders, they are fully onboarded, direct shipping to customers is allowed, and there are no more limits. The slide gives no numeric volume threshold.",
+      "evidence": [
+        {"kind": "see", "at": "00:11", "frame": "t00011.jpg", "quote": "Full onboarding: Once you have reached significant volume of orders you will be fully onboarded; It means direct shipping to customers will be allowed; No more limits !"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "Profile screening (slide): fill in the form in the app, input company information, input documents (TRN, trade license, Emirates ID), and get access to Revibe's main information (contract, quality guidelines).",
+      "evidence": [
+        {"kind": "see", "at": "00:11", "frame": "t00011.jpg", "quote": "Fill the form in this app; Input information related to your company; Input documents (TRN, trade license, Emirates ID); Get access to Revibe's main information (contract, quality guidelines, ...)"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "Where to check approval: in the Seller Onboarding App, the Profile list shows Application status and Approval. Accepted approval means the profile has been accepted.",
+      "evidence": [
+        {"kind": "see", "at": "00:44", "frame": "t00044.jpg", "quote": "Profile table columns: Name, Email, Company name, Application status, Approval; row Approval: Accepted"},
+        {"kind": "say", "at": "00:45", "quote": "Here you can see that the approval shows that your profile has been accepted."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "The profile has a 'Link to Fulfillment App' field, under the question 'Have you watched the Fulfillment App video?'. In the profile shown, the answer is Yes and the link is filled in.",
+      "evidence": [
+        {"kind": "see", "at": "00:52", "frame": "t00052.jpg", "quote": "Have you watched the Fulfillment App video? Yes; Link to Fulfillment App https://www.appsheet.com/start/05eea..."},
+        {"kind": "say", "at": "00:56", "quote": "You have mentioned that you have watched the Fulfillment app video."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Next steps on the profile (Congrats text): the profile is validated, the seller gets access to the fulfillment app, the seller sends a first batch of devices to check the quality of the products, and the seller should watch the process video (a Google Drive link is given).",
+      "evidence": [
+        {"kind": "see", "at": "00:52", "frame": "t00052.jpg", "quote": "Congrats! Your profile has been validated by our team! You will get access to our fulfillment app. You will send us a first batch of devices that will enable us to check the quality of your products. Watch carefully this video to understand the process"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The profile edit form lists the products sold as iPhones and Smartphones, and the wholesaler (B2B) question with Yes selected.",
+      "evidence": [
+        {"kind": "see", "at": "01:02", "frame": "t00062.jpg", "quote": "What kind of products do you sell? iPhones, Smartphones; Are you a wholesaler (B2B)? Yes selected"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "Fulfillment App tabs in the left menu: SKUs available, Shipments, Request products, Supplier inventory, Inventory exits, Packaging request, About, Feedback, App Gallery. The trainer says not all of them are needed for the first shipment.",
+      "evidence": [
+        {"kind": "see", "at": "01:14", "frame": "t00074.jpg", "quote": "SKUs available, Shipments, Request products, Supplier inventory, Inventory exits, Packaging request, About, Feedback, App Gallery"},
+        {"kind": "say", "at": "01:18", "quote": "All of them are not necessary to you for this first shipment."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "SKUs available columns: Category, Model, Product, Price, Quantities recommended, SKU. Star icons appear next to the Product name on some rows (the video does not explain them).",
+      "evidence": [
+        {"kind": "see", "at": "01:29", "frame": "t00089.jpg", "quote": "Category | Model | Product | Price | Quantities recommended | SKU"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The SKUs available tab is the Revibe catalog. The trainer says each product is shown by category, model, storage, colour and condition, with a price and a quantities recommended number.",
+      "evidence": [
+        {"kind": "say", "at": "01:29", "quote": "On this SKU's Available tab, you can see all the products that we are offering in our catalog."},
+        {"kind": "say", "at": "01:35", "quote": "You can see them by category, by model, with all the variations in terms of storage, color, and"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Quantities recommended is, per the narration, an estimate of how many pieces the seller could sell over the next 15 days.",
+      "evidence": [
+        {"kind": "say", "at": "02:02", "quote": "This is an estimate of how many pieces you would be able to sell on the next 15"},
+        {"kind": "say", "at": "02:08", "quote": "days."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "tip",
+      "statement": "To find best sellers, sort the SKUs available list by Quantities recommended in descending order; the trainer says the top rows are best sellers and the bottom rows sell less.",
+      "evidence": [
+        {"kind": "say", "at": "01:49", "quote": "Here {I?} {sort?} it by descending quantities recommended."},
+        {"kind": "see", "at": "01:49", "frame": "t00109.jpg", "quote": "Quantities recommended with down arrow; list top: iphone-11 1164 GBGoodBlack 598 155"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The SKUs available screen has a Download button and a filter icon at the top right. The trainer says the download gives the SKU reference.",
+      "evidence": [
+        {"kind": "say", "at": "02:09", "quote": "Here is the SKU reference and you can download it if you need."},
+        {"kind": "see", "at": "02:13", "frame": "t00134.jpg", "quote": "Download button and filter icon, tooltip 'Filter'"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "Choosing SKUs for the first shipment: identify the SKUs to send, make sure the quantities are significant, and check that the price matches your expectations.",
+      "evidence": [
+        {"kind": "say", "at": "02:20", "quote": "Typically, you will be able to identify all the SKUs that you want to send to us for"},
+        {"kind": "say", "at": "02:27", "quote": "You have to make sure that the quantities are a bit significant and you have to make sure"},
+        {"kind": "say", "at": "02:34", "quote": "also that the price matches your expectations."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Trainer says the seller does not need to pay shipping costs. The video does not say which shipments this covers.",
+      "evidence": [
+        {"kind": "say", "at": "02:38", "quote": "As a remainder, you won't need to pay for the shipping costs."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Trainer says the price shown in the SKU list is the price the seller gets paid for.",
+      "evidence": [
+        {"kind": "say", "at": "02:43", "quote": "{So?} this is {the?} price that you will get paid for."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "A price of 9,999 on a SKU means nobody has put a price on that device yet (trainer).",
+      "evidence": [
+        {"kind": "say", "at": "02:46", "quote": "When you say that the price is 999, it means that no one put a price on this"},
+        {"kind": "see", "at": "02:46", "frame": "t00163.jpg", "quote": "Price column shows 9,999 on many rows (e.g. dell-latitude-7400 9,999; samsung rows 9,999)"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "tip",
+      "statement": "Trainer says that if the seller puts a price on a SKU, the seller will be sure to win it.",
+      "evidence": [
+        {"kind": "say", "at": "02:55", "quote": "If you put the price, you will be sure that you will win it."}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "SKU detail panel fields: SKU, Supplier, Price, Category, Product, Model, SKU Status, Quantities recommended. The example SKU 010109-060101 shows SKU Status 'Free market'.",
+      "evidence": [
+        {"kind": "see", "at": "03:03", "frame": "t00183.jpg", "quote": "SKU 010109-060101; Supplier Smart Life; Price 598; SKU Status Free market; Quantities recommended 155"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "Create a shipment: go to the Shipments tab and click New. The Requests Supplier Form opens with an ID (example ab9970c5) and Request Status 'Requested'.",
+      "evidence": [
+        {"kind": "say", "at": "03:14", "quote": "Go to {shipment,?} add a new one."},
+        {"kind": "see", "at": "03:17", "frame": "t00197.jpg", "quote": "Requests Supplier Form: ID ab9970c5; Request Status Requested"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Only one shipment can be open at a time.",
+      "evidence": [
+        {"kind": "say", "at": "03:17", "quote": "You can only have one shipment at a time {and?} here click on new."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Each SKU is added to a shipment as a request_products line: click New in the Requests Supplier Form, then input the SKU in the Request products Form.",
+      "evidence": [
+        {"kind": "see", "at": "03:22", "frame": "t00202.jpg", "quote": "Request_products entries section with New button"},
+        {"kind": "say", "at": "03:23", "quote": "Here you can just input the SKU that you have selected."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Request products Form fields: SKU, Product, Supplier, Quantity recommended, Quantity Sent, Buybox supplier, Price ('The lower you go, the more you sell!'), Total price, Request Status, Payment method, Stage. Product and Supplier fill in from the chosen SKU.",
+      "evidence": [
+        {"kind": "see", "at": "03:27", "frame": "t00207.jpg", "quote": "SKU; Product; Supplier; Quantity recommended; Quantity Sent; Buybox supplier; Price - The lower you go, the more you sell!; Total price; Request Status; Payment method; Stage"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "For SKU 010109-060101 (example), Quantity recommended is 155. The trainer says to send 10 (Quantity Sent = 10).",
+      "evidence": [
+        {"kind": "say", "at": "03:27", "quote": "You can see that the quantities recommended is 155 and here you can determine the quantity that you"},
+        {"kind": "say", "at": "03:33", "quote": "want to send to us, say 10."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "number",
+      "statement": "Implied: Total price on the request line equals Quantity Sent x Price. The video does not state this formula. The screen values fit it: 10 x 597 = 5,970 and 10 x 598 = 5,980.",
+      "evidence": [
+        {"kind": "see", "at": "03:41", "frame": "t00221.jpg", "quote": "Quantity Sent 10; Price 597; Total price 5,970"},
+        {"kind": "see", "at": "03:47", "frame": "t00227.jpg", "quote": "Price 598; Total price 5,980"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Pricing rule: the price must beat the Buybox price by at least 1 AED. Setting the price equal to the Buybox price (598) shows the error 'Come on! Let's beat Buybox! Win by at least 1 AED.'",
+      "evidence": [
+        {"kind": "say", "at": "03:42", "quote": "to beat this price and to go one dirham cheaper if you try to {meet?} to match the"},
+        {"kind": "see", "at": "03:47", "frame": "t00227.jpg", "quote": "Red error text: Come on! Let's beat Buybox! Win by at least 1 AED."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Buybox supplier price for SKU 010109-060101 is 598. The trainer calls it the current price.",
+      "evidence": [
+        {"kind": "see", "at": "03:27", "frame": "t00207.jpg", "quote": "Buybox supplier 598"},
+        {"kind": "say", "at": "03:37", "quote": "Here you can see that the current price {is?} 598 {if?} you want to sell it you have"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "tip",
+      "statement": "Trainer says a price lower than the Buybox price is allowed and boosts the chances to sell a bit.",
+      "evidence": [
+        {"kind": "say", "at": "03:52", "quote": "you can go lower if it's okay for you it will boost your chances to sell a bit"}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "After filling the request line, click Save on the request, then Save on the shipment. The saved line then shows in the table in the Requests Supplier Form with its SKU, Request Status and Product.",
+      "evidence": [
+        {"kind": "say", "at": "03:59", "quote": "faster and then once done you can just click on save {here?} you can add by clicking on"},
+        {"kind": "see", "at": "04:04", "frame": "t00244.jpg", "quote": "Table: SKU 010109-060101 | Request Status Requested | Product iphone-1164 GBGoodB"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "To add more SKUs to the same shipment, click New in the request_products section; to add other SKUs, go to SKUs available.",
+      "evidence": [
+        {"kind": "say", "at": "04:07", "quote": "new you can add other SKUs to your request like for instance you can here save your shipment"},
+        {"kind": "say", "at": "04:13", "quote": "and you can here go to SKUs available and let's say that you also want to sell this"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Payment method on the request and shipment forms shows '100% - After sales'. The video does not explain it.",
+      "evidence": [
+        {"kind": "see", "at": "03:17", "frame": "t00197.jpg", "quote": "Payment method 100% - After sales"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Requests Supplier Form tracking fields show grey text: Tracking company 'Quiqup' and Tracking link 'https://track-parcel.quiqup.com/'. The video does not say whether these are defaults or placeholders.",
+      "evidence": [
+        {"kind": "see", "at": "03:17", "frame": "t00197.jpg", "quote": "Tracking company: Quiqup; Tracking link: https://track-parcel.quiqup.com/ (grey text)"}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    }
+  ],
+  "screens": [
+    {"name": "Congrats slide (slide 8)", "shows": "Large CONGRATS! title with the REVIBE logo.", "at": "00:00", "frame": "t00000.jpg"},
+    {"name": "Onboarding process slide (slide 9)", "shows": "Four stages (Profile screening, Quality screening, Trial period, Full onboarding), each with bullets; a shipment-to-warehouse inspection branch: check = Sales + Onboarding, X = Return + No-onboarding.", "at": "00:11", "frame": "t00011.jpg"},
+    {"name": "Seller Onboarding App - Profile list", "shows": "Profile table: Name, Email, Company name, Application status, Approval; group 'Accepted 1'; row Pierre Villaceque, Revibe, Application submitted, Accepted. The Email column is cut off as 'iam.pepemanagement'.", "at": "00:44", "frame": "t00044.jpg"},
+    {"name": "Seller Onboarding App - Profile detail", "shows": "Read-only profile fields: DHL account, tax registration certificate, trading license, trading license number, Emirates ID, position, bank details, application status, approval, next steps, watched-video answer, Link to Fulfillment App; Edit button top right.", "at": "00:52", "frame": "t00052.jpg"},
+    {"name": "Seller Onboarding App - Profile edit panel (bottom)", "shows": "Edit form: Bank details file, DHL account (Yes/No), account number, Application status, Approval, Next steps, Have you watched the Fulfillment App video? (Not yet / Yes, Yes selected), Link to Fulfillment App (greyed).", "at": "00:56", "frame": "t00056.jpg"},
+    {"name": "Seller Onboarding App - Profile edit panel (top)", "shows": "Fields: Last name, Email, Company name (as in trading licence), Country, Phone, Emirate, shipping address and Google map location (both show 'xxx'), products sold (iPhones, Smartphones), wholesaler (B2B) Yes/No with Yes selected.", "at": "01:02", "frame": "t00062.jpg"},
+    {"name": "Edit panel - link selected", "shows": "Link to Fulfillment App text highlighted for copying.", "at": "01:05", "frame": "t00065.jpg"},
+    {"name": "Chrome new tab with pasted link", "shows": "Address bar holds the Fulfillment App URL with view=SKUs available; suggestion 'Revibe - Fulfillment App'.", "at": "01:11", "frame": "t00071.jpg"},
+    {"name": "Revibe - Fulfillment App (left menu)", "shows": "Left menu: SKUs available, Shipments, Request products, Supplier inventory, Inventory exits, Packaging request, About, Feedback, App Gallery.", "at": "01:14", "frame": "t00074.jpg"},
+    {"name": "Fulfillment App - SKUs available", "shows": "Table columns Category, Model, Product, Price, Quantities recommended, SKU; search box 'Search SKUs available'; Download button; filter icon top right.", "at": "01:29", "frame": "t00089.jpg"},
+    {"name": "Fulfillment App - SKUs sorted by Quantities recommended", "shows": "Quantities recommended column with down-arrow; top row iphone-11 1164 GBGoodBlack 598 155 (010109-060101).", "at": "01:49", "frame": "t00109.jpg"},
+    {"name": "Fulfillment App - SKUs bottom of sorted list", "shows": "Rows with quantity 4 and 3; Samsung, Laptop, Tablet, Macbook and iPhone 7 rows.", "at": "01:57", "frame": "t00117.jpg"},
+    {"name": "Fulfillment App - SKU detail side panel", "shows": "Detail for 010109-060101: Supplier Smart Life, Price 598, Category iPhone, Product iphone-1164 GBGoodBlack, Model iphone-11, SKU Status Free market, Quantities recommended 155.", "at": "03:03", "frame": "t00183.jpg"},
+    {"name": "Fulfillment App - Shipments / Requests Supplier Form", "shows": "Shipments heading; No items; form with ID ab9970c5, request_products section with New button, Request Status, Supplier, Payment method, Tracking company, Tracking link, Created by pierre.villaceque@revibe.me, Created at 08/08/2025 11:43:31.", "at": "03:17", "frame": "t00197.jpg"},
+    {"name": "Fulfillment App - Request products Form", "shows": "SKU, Product, Supplier, Quantity recommended, Quantity Sent (+/-), Buybox supplier, Price (+/-; 'The lower you go, the more you sell!'), Total price, Request Status, Payment method, Stage (Open button), Created by/at.", "at": "03:27", "frame": "t00207.jpg"},
+    {"name": "Request products Form - price error", "shows": "Price 598, red error 'Come on! Let's beat Buybox! Win by at least 1 AED.', Total price 5,980.", "at": "03:47", "frame": "t00227.jpg"},
+    {"name": "Requests Supplier Form after save", "shows": "request_products table: SKU | Request Status | Product; row 010109-060101 Requested iphone-1164 GBGoodB...; New button below the table.", "at": "04:04", "frame": "t00244.jpg"},
+    {"name": "Fulfillment App - SKUs available (syncing)", "shows": "Top-right indicator 'Syncing'; SKUs available list.", "at": "04:18", "frame": "t00258.jpg"}
+  ],
+  "terms": [
+    {"term": "Fulfillment App", "meaning": "The Revibe app (on appsheet.com) where a seller sees the catalog, creates shipments and requests products. The profile link points to it. Shown as 'Revibe - Fulfillment App'.", "at": "01:11"},
+    {"term": "Seller Onboarding App", "meaning": "The app where the seller's profile is filled in and where approval is shown (Profile list with Application status and Approval).", "at": "00:44"},
+    {"term": "Quality screening", "meaning": "Stage 2 of onboarding: the first shipment of devices is sent to Revibe and inspected; good quality leads to sales and onboarding, otherwise the devices are returned (no onboarding).", "at": "00:08"},
+    {"term": "Trial period", "meaning": "Stage 3: only Fulfillment by Revibe during the trial period; access to all Revibe tools and online trainings (slide).", "at": "00:11"},
+    {"term": "Full onboarding", "meaning": "Stage 4: reached after significant volume of orders; direct shipping to customers allowed (slide).", "at": "00:11"},
+    {"term": "SKU", "meaning": "The catalog reference for one product variant (model, storage, colour, condition), shown in the SKU column. Example: 010109-060101.", "at": "01:29"},
+    {"term": "Quantities recommended", "meaning": "Per the narration, an estimate of how many pieces the seller could sell over the next 15 days. Shown per SKU.", "at": "02:02"},
+    {"term": "Price (SKU list)", "meaning": "Price set for a SKU. The trainer says 9,999 means no price has been set yet.", "at": "02:46"},
+    {"term": "Buybox supplier", "meaning": "Field on the request products form, shown as 598 for the example SKU. The trainer calls it the current price. The error text says the seller's price must win by at least 1 AED.", "at": "03:37"},
+    {"term": "Shipment", "meaning": "The Requests Supplier Form. Only one can be open at a time (trainer). Each SKU in it is a request_products line.", "at": "03:14"},
+    {"term": "Request products", "meaning": "A line in a shipment: one SKU with quantity sent and price. Created with New in the request_products section.", "at": "03:23"},
+    {"term": "Quantity Sent", "meaning": "The number of pieces the seller sends for that SKU (example: 10).", "at": "03:33"},
+    {"term": "Total price", "meaning": "Shown on the request line; the values match Quantity Sent x Price (example: 10 x 597 = 5,970). The video does not state the formula.", "at": "03:41"},
+    {"term": "Request Status", "meaning": "Status of a shipment or request line. Value shown: Requested. Other values not shown.", "at": "03:17"},
+    {"term": "Stage", "meaning": "Field on the request products form; value shown: Open. Other values not shown.", "at": "03:27"},
+    {"term": "SKU Status", "meaning": "Field in SKU detail; value shown: Free market. Meaning not explained.", "at": "03:03"},
+    {"term": "TRN", "meaning": "Document listed among profile screening inputs (on slide). Not defined in the video.", "at": "00:11"}
+  ],
+  "asr_fixes": [
+    {"at": "00:18", "heard": "the Fulfillment {App.?}", "correct": "the Fulfillment App", "basis": "Screen title 'Revibe - Fulfillment App' (t00071.jpg, t00074.jpg) and slide text 'Fulfillment App' (t00011.jpg)."},
+    {"at": "00:33", "heard": "you will get {on?}-board and on-revibe", "correct": "you will get onboarded on Revibe", "basis": "Slide text 'Sales + Onboarding' (t00011.jpg) supports 'onboarding'. The 'on Revibe' wording is the best fit for the spoken phrase. The slide does not show this line word for word, so treat it as likely, not confirmed."},
+    {"at": "01:22", "heard": "once onboarded on Revive", "correct": "once onboarded on Revibe", "basis": "Revibe logo on the slides (t00000.jpg, t00011.jpg)."},
+    {"at": "01:44", "heard": "prices in DRAMs", "correct": "prices in dirhams (AED)", "basis": "Narration at 03:42-03:47 says 'one dirham'; error text on screen reads 'Win by at least 1 AED.' (t00227.jpg). The Price column itself shows no currency symbol."},
+    {"at": "02:46", "heard": "the price is 999", "correct": "the price is 9,999", "basis": "Price column on screen shows 9,999 on many rows (t00089.jpg, t00163.jpg)."},
+    {"at": "03:14", "heard": "Go to {shipment,?}", "correct": "Go to Shipments", "basis": "Left menu tab 'Shipments' (t00074.jpg, t00197.jpg)."},
+    {"at": "03:47", "heard": "let's beat by box win by at least one dirham", "correct": "let's beat Buybox, win by at least one dirham", "basis": "Field label 'Buybox supplier' (t00207.jpg) and error text 'Come on! Let's beat Buybox! Win by at least 1 AED.' (t00227.jpg)."}
+  ],
+  "unclear": [
+    {"at": "03:42", "issue": "'to go one dirham cheaper if you try to {meet?} to match the' - the verb is uncertain. The screen only shows the error at a price equal to Buybox (598), so the intended wording is not confirmed. The 1 AED rule is taken from the screen error text, not from this word."},
+    {"at": "01:06", "issue": "Narration says to paste the link into a Google Sheet. The screen shows the link pasted into a Chrome address bar (t00071.jpg). No Google Sheet is shown, so whether a sheet step is required is not confirmed."},
+    {"at": "02:02", "issue": "The 15-day window appears only in narration. The SKUs available screen labels the column 'Quantities recommended' with no '15 days' text, so the period is not confirmed on screen."},
+    {"at": "02:38", "issue": "The trainer says the seller pays no shipping costs. The profile asks for a DHL account to 'benefit from Revibe's preferential rates with DHL' (t00052.jpg), but the video does not say which shipments this covers. Scope not confirmed."},
+    {"at": "03:17", "issue": "Payment method '100% - After sales' is shown on the shipment and request forms (t00197.jpg, t00207.jpg) and is never explained."},
+    {"at": "03:17", "issue": "Tracking company 'Quiqup' and Tracking link 'https://track-parcel.quiqup.com/' appear as grey text. It is not clear whether they are defaults or placeholders the seller must replace."},
+    {"at": "03:27", "issue": "Request Status 'Requested' and Stage 'Open' are shown, but the other possible values are not explained."},
+    {"at": "03:03", "issue": "SKU Status 'Free market' is shown in the SKU detail panel but not explained."},
+    {"at": "01:49", "issue": "The star icon next to some Product names (t00089.jpg) is not explained."},
+    {"at": "00:55", "issue": "Application status 'Application submitted' and Approval 'Accepted' are both shown on the same profile; the video does not say what each one controls."},
+    {"at": "01:02", "issue": "The price column (t00089.jpg, t00109.jpg) shows numbers with no currency symbol. The AED unit comes only from the error text on t00227.jpg and the narration 'one dirham' (03:42-03:47)."}
+  ],
+  "outdated": [
+    {"at": "00:44", "signal": "All prices, quantities, SKU rankings and Buybox values on screen are a snapshot from 8 August 2025 (Created at 08/08/2025 11:43:31 on t00197.jpg; Chrome clock 'Ven. 8 août à 11:38' on t00062.jpg). They are not current and must not be used as live figures."},
+    {"at": "03:02", "signal": "The SKU and supplier used (010109-060101, Smart Life, Buybox 598, quantity recommended 155) are a chosen example, as the trainer says ('Smart Life is an example'). Do not treat them as a current recommendation."}
+  ],
+  "privacy": [
+    {"at": "00:44", "frame": "t00044.jpg", "what": "Profile row shows a full name (Pierre Villaceque) and a truncated email 'iam.pepemanagement' for a seller account. The full address is visible in t00062.jpg (see next item)."},
+    {"at": "01:02", "frame": "t00062.jpg", "what": "Edit panel shows a personal email (iam.pepemanagement@gmail.com), a UAE phone number (+971585744270), Emirate Dubai, and shipping address and Google map location fields (both show the placeholder 'xxx', not a real address)."},
+    {"at": "00:52", "frame": "t00052.jpg", "what": "Profile shows a DHL account number (123456), a trading license number (123456), and file names of identity and bank documents (Emirates ID, Bank details, Trading license, Tax registration)."},
+    {"at": "03:17", "frame": "t00197.jpg", "what": "Shipment form shows 'Created by' and 'Updated by' as pierre.villaceque@revibe.me, a staff email address (also on t00207.jpg)."},
+    {"at": "00:56", "frame": "t00056.jpg", "what": "Seller-specific Fulfillment App link (https://www.appsheet.com/start/05eeac03-dbeb-456e-9559-e54df98a6814) is shown. t00056.jpg cuts the text off; the full link is in the address bar on t00071.jpg. The link identifies one seller's app access and should not be shared."},
+    {"at": "00:44", "frame": "t00044.jpg", "what": "Browser address bars show AppSheet URLs with long session parameters (vss=...). These should not be shared."}
+  ],
+  "audit": {
+    "checked": 117,
+    "removed": [
+      {"statement": "outdated item at 00:52: Next steps text and process video link 'may have changed since' the 2025 profile record", "reason": "Speculation. Nothing in the video or on screen says the text is out of date, so it is not evidence-based."},
+      {"statement": "Fact: the Fulfillment App link 'is filled in once the seller has watched the Fulfillment App video'", "reason": "Causation is not stated anywhere. The frame only shows the answer Yes and the filled link together. Kept as a plain description instead."},
+      {"statement": "Term: 'Stock keeping unit' expansion of SKU", "reason": "General knowledge, not in the video or on screen."}
+    ],
+    "corrected": [
+      {"before": "Step 01:14-01:22: 'Trainer explains which tabs matter for the first shipment.'", "after": "Trainer says not all tabs are needed for the first shipment; full training comes after onboarding.", "reason": "Transcript 01:18 does not say which tabs matter."},
+      {"before": "Step 00:52-00:55: 'clicks Edit (top right)'", "after": "Edit button at top right; trainer says 'Edit.'", "reason": "The frame shows the button, not a click."},
+      {"before": "Fact: going lower than Buybox 'will boost the chance to sell faster' (and the 'why' line 'helps the device sell faster')", "after": "Trainer: it will boost your chances to sell a bit.", "reason": "Transcript 03:52 says 'boost your chances to sell a bit'. 'Faster' is not said."},
+      {"before": "Step 02:43-02:55 'placeholder 9,999'", "after": "9,999 means no price has been set on the device yet (trainer).", "reason": "'Placeholder' is not the trainer's word. The trainer says 9,999 means no price has been put."},
+      {"before": "Fact: 'Setting a price on a SKU is what lets the seller win it'", "after": "Trainer says that if the seller puts a price on a SKU, the seller will be sure to win it.", "reason": "Attribution: the claim is the trainer's, and the wording was stronger than the transcript."},
+      {"before": "Rule: 'The price the seller sets is the price the seller gets paid for' (confidence high)", "after": "Trainer says the price shown in the SKU list is the price the seller gets paid for.", "reason": "Transcript 02:43 says 'this is the price that you will get paid for'. It does not say the seller sets it in that sentence."},
+      {"before": "Fact: 'Total price on the request line = Quantity Sent x Price' stated as a rule", "after": "Implied: Total price equals Quantity Sent x Price. The video does not state the formula; the screen values fit it. Confidence medium.", "reason": "Formula is not stated. Only examples are on screen."},
+      {"before": "Fact: 'Trainer: the rule that shipping costs are not paid' (confidence high)", "after": "Trainer says the seller does not need to pay shipping costs; scope not stated. Confidence medium.", "reason": "The video does not say which shipments this covers."},
+      {"before": "Fact: 'Quantities recommended is an estimate' (confidence medium)", "after": "Per the narration, an estimate of how many pieces could be sold over the next 15 days. Confidence medium.", "reason": "The 15-day period is narration only."},
+      {"before": "Term: Buybox supplier as 'The current lowest price on the SKU'", "after": "Field on the request products form, shown as 598 for the example SKU. The trainer calls it the current price.", "reason": "'Lowest' is not said anywhere."},
+      {"before": "Step 03:53-04:09: 'Clicks Save on the request line, then clicks Save on the shipment form.'", "after": "Trainer says to click Save once the line is done; the request then appears in the request_products table of the shipment form. The shipment form is then saved.", "reason": "Frames show the row in the table (t00244.jpg) and the Save hover, but the exact click sequence is not fully visible."},
+      {"before": "Fact: link 'It is filled in once the seller has watched ...' (medium)", "after": "The profile has a 'Link to Fulfillment App' field under 'Have you watched the Fulfillment App video?'. In the profile shown, the answer is Yes and the link is filled in.", "reason": "See removed items: causation not stated."},
+      {"before": "Fact: next-steps evidence cited 'say 00:55 Edit.'", "after": "Evidence is the see entry from t00052.jpg only.", "reason": "'Edit.' is not evidence for the next-steps content."},
+      {"before": "ASR 00:33 correct: 'onboarding and on Revibe (onboarded on Revibe)'", "after": "'you will get onboarded on Revibe' (likely, not confirmed).", "reason": "Basis line on the slide supports 'onboarding' only. The 'on Revibe' part is a best fit, not screen text."},
+      {"before": "Privacy 00:44: full email 'iam.pepemanagement@gmail.com' shown in the profile list", "after": "Profile list shows the email truncated as 'iam.pepemanagement'. The full address appears on t00062.jpg.", "reason": "t00044.jpg cuts off the domain."},
+      {"before": "Privacy 01:02: shipping-address field described as a real field value", "after": "Shipping address and Google map location show the placeholder 'xxx'.", "reason": "Frame t00062.jpg shows 'xxx' in both fields."},
+      {"before": "Privacy 00:56: link shown in full as '...98a6814...' from t00056", "after": "t00056 cuts the link off. The full link is in the address bar on t00071.jpg.", "reason": "The full text is only visible in the address bar."},
+      {"before": "Summary: snapshot date basis 'Chrome clock'", "after": "Snapshot date 8 August 2025 is supported by 'Created at 08/08/2025' on t00197.jpg; the Chrome clock shows 'Ven. 8 août' only.", "reason": "The year comes from the Created at field, not the clock."},
+      {"before": "Screen 00:44 profile list: Email column shows the full address", "after": "Email column shows 'iam.pepemanagement' (cut off).", "reason": "Frame text is truncated."}
+    ],
+    "added": [
+      "Fact (screen, t00062.jpg): the edit form lists products sold as iPhones and Smartphones, with the wholesaler (B2B) answer Yes.",
+      "Fact (screen, t00207.jpg): on the Request products form, Product (iphone-1164 GBGoodBlack) and Supplier (Smart Life) fill in from the chosen SKU.",
+      "Step 03:00 quote added: trainer says 'So here you can make your selection.' (t00179.jpg timing).",
+      "Unclear (01:02 / t00089.jpg, t00109.jpg): price column shows no currency symbol; AED comes only from t00227.jpg error text and the narration 'one dirham'.",
+      "Privacy: outdated/snapshot evidence adds the Created at value 08/08/2025 11:43:31 from t00197.jpg as the basis for the snapshot date."
+    ]
+  }
+}

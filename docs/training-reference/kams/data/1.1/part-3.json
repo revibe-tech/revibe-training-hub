@@ -1,0 +1,958 @@
+{
+  "summary": "Part 3 (09:50-13:49) of the Seller Onboarding App walkthrough. The trainer reads Revibe's quality guidelines (a Google Drive PDF, pages 2-4 of 6: phones, tablets and watches, then laptops), fills in the seller onboarding form in the AppSheet 'Seller Onboarding App' (quality-guidelines answer, DHL account, tax registration certificate, trading license and number, Emirates ID, position, bank details), then shows the application status and the three approval outcomes (Incomplete, Rejected, Accepted) and what happens next for each. The Yes click and the Save press are not on any frame; the open form already shows Application submitted by 11:45. All 40 frames listed in the pack were opened (t00780 and t00817 re-read to confirm). Test values (123456, random PDFs, 'XXX') were typed by the trainer and are not rules.",
+  "frames_opened": 40,
+  "steps": [
+    {
+      "at": "09:50",
+      "screen": "Chrome tab: Quality guidelines - Google Drive (PDF viewer)",
+      "action": "Reads the Revibe quality guidelines PDF, phones and tablets table on page 2, before going back to the onboarding form.",
+      "evidence": [
+        {"kind": "say", "at": "09:56", "frame": "", "quote": "and very good you can offer original NDD and if you're selling good you can offer original NDD"},
+        {"kind": "see", "at": "09:50", "frame": "t00590.jpg", "quote": "Table with columns 'Original & DD' (green check spanning Excellent / Very good and Good rows), 'GW Good quality' (red X on Excellent / Very good, green check on Good), 'GW & others Bad quality' (red X). Below it the criteria Size, Thickness, Touch, Backlighting, Proximity sensors, Keyboard, Physical issues. Page 2/6."}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "10:12",
+      "screen": "Chrome tab: Quality guidelines PDF, page 2 criteria table and examples",
+      "action": "Walks down the criteria (Size, Thickness, Touch, Backlighting, etc.) and their photo examples: small vs big border, thick screen, pinkish phones.",
+      "evidence": [
+        {"kind": "say", "at": "10:12", "frame": "", "quote": "we accept small borders not big borders we want smooth screens very thin"},
+        {"kind": "see", "at": "10:15", "frame": "t00615.jpg", "quote": "Criteria rows Size / Thickness / Touch / Backlighting with examples: 'Small boarder' (green), 'Big boarder' (red), 'Thick screen' (red arrows), 'Pinkish' phones; 'Others' section below."}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "10:30",
+      "screen": "Chrome tab: Quality guidelines PDF, 'Others' section (zoomed)",
+      "action": "Points at the 'Others' examples: a display gap and a screen freeze with the Apple logo remaining.",
+      "evidence": [
+        {"kind": "say", "at": "10:20", "frame": "", "quote": "and also we do not allow you to"},
+        {"kind": "say", "at": "10:30", "frame": "", "quote": "sell screens with a gap like this for instance or where like the {apple?} logo could remain like"},
+        {"kind": "see", "at": "10:30", "frame": "t00630.jpg", "quote": "Display gap photo with red outline; phone showing 'hell' screen freeze; caption 'Screen freeze Apple logo remaining'."}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "10:37",
+      "screen": "Chrome tab: Quality guidelines PDF, page 3 physical condition grades",
+      "action": "Shows the physical condition grades with phone photos: Excellent, Very good, Good.",
+      "evidence": [
+        {"kind": "say", "at": "10:44", "frame": "", "quote": "that some scratches are allowed for very good and good condition and a bit below you can see"},
+        {"kind": "see", "at": "10:40", "frame": "t00640.jpg", "quote": "Page 3/6 headings 'Excellent - like new' and 'Very good - Very small dot scratches accepted' with phone photos; 'Good - Slight scratches, they do not interfere when the device is on' heading at the bottom."}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "10:50",
+      "screen": "Chrome tab: Quality guidelines PDF, page 4 (Laptops quality guidelines)",
+      "action": "Scrolls to the laptop guidelines (General guidelines and Functions deep dive) on page 4 of 6.",
+      "evidence": [
+        {"kind": "say", "at": "10:50", "frame": "", "quote": "the quality guidelines for the laptops back to the onboarding app once you have read the quality guidelines"},
+        {"kind": "see", "at": "10:49", "frame": "t00649.jpg", "quote": "'Laptops quality guidelines' page 4/6: General guidelines (Hardware, Screen, Body, Battery) and Functions deep dive (Sim, Data deletion, Software, Chargers / cables, Unlocking, GPS, Cameras, External sensors, Internal sensors, Biometric sensors, Wi-Fi / Bluetooth, Serial number, Oxidation, Mics and speakers, Ports, Mechanical parts cut off at the bottom)."}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "10:54",
+      "screen": "Seller Onboarding App > New Slice Form (side panel, opened from the profile list)",
+      "action": "Returns to the onboarding app. The form shows the Seller agreement and Quality guidelines description fields, and 'Have you read the quality guidelines ?' with Not yet selected.",
+      "evidence": [
+        {"kind": "see", "at": "10:54", "frame": "t00654.jpg", "quote": "Form fields 'Seller agreement' (Download it, sign it and upload it in the section below), 'Quality guidelines description' (link to the Drive PDF), 'Have you read the quality guidelines ?' with Not yet selected (blue), upload 'Revibe Seller Agreement - March 2025.docx.pdf', 'Application incomplete'."},
+        {"kind": "see", "at": "10:56", "frame": "t00656.jpg", "quote": "Same form scrolled: Have you read the quality guidelines? Not yet selected; Application status 'Application incomplete'."}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "10:56",
+      "screen": "Seller Onboarding App > New Slice Form",
+      "action": "Tells the seller to press Yes for 'Have you read the quality guidelines?' after reading the guidelines. The click itself is not captured on any frame.",
+      "evidence": [
+        {"kind": "say", "at": "10:58", "frame": "", "quote": "you can press yes and then we will ask some details about your company do you have a"},
+        {"kind": "see", "at": "10:56", "frame": "t00656.jpg", "quote": "'Have you read the quality guidelines ?' still shows Not yet selected before the trainer continues."}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "11:01",
+      "screen": "Seller Onboarding App > New Slice Form",
+      "action": "Answers 'Do you have a DHL account ?' with No (trainer shows No first, then explains the Yes path).",
+      "evidence": [
+        {"kind": "say", "at": "11:03", "frame": "", "quote": "dhl account if you put no no if you put yes please enter your dhl account number so"},
+        {"kind": "see", "at": "11:01", "frame": "t00661.jpg", "quote": "'Do you have a DHL account ?*' with No highlighted in blue; below it Tax registration certificate*, Trading license*, Trading license number* (0), Emirates ID*, What is your position in the company ?*, Bank details*."}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "11:05",
+      "screen": "Seller Onboarding App > New Slice Form",
+      "action": "Selects Yes for the DHL account and types the account number (trainer enters 123456, a test value).",
+      "evidence": [
+        {"kind": "say", "at": "11:10", "frame": "", "quote": "that you will be able to benefit from revives preferential rates with dhl"},
+        {"kind": "see", "at": "11:05", "frame": "t00665.jpg", "quote": "'Do you have a DHL account ?' Yes selected; field 'Please enter your account number to benefit from Revibe's preferential rates with DHL*' containing 123456."}
+      ],
+      "says": "",
+      "why": "so that you will be able to benefit from Revibe's preferential rates with DHL (trainer, 11:10)"
+    },
+    {
+      "at": "11:16",
+      "screen": "Seller Onboarding App > New Slice Form, Tax registration certificate field",
+      "action": "Uploads a PDF into the Tax registration certificate field (trainer attaches 209926_DHL_Label-ZA-8858.pdf, a test file).",
+      "evidence": [
+        {"kind": "say", "at": "11:16", "frame": "", "quote": "here input all the documentation related to your company so let's say the tax registration number"},
+        {"kind": "see", "at": "11:17", "frame": "t00677.jpg", "quote": "Empty 'Tax registration certificate*' upload box with the pointer on the PDF icon."},
+        {"kind": "see", "at": "11:19", "frame": "t00679.jpg", "quote": "'Tax registration certificate*' now shows 209926_DHL_Label-ZA-8858.pdf with an x to remove it; Trading license still empty."}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "11:23",
+      "screen": "macOS file picker over the form, then Seller Onboarding App form",
+      "action": "Opens the file picker for the Trading license field and attaches 12345 TDRA.pdf. The trainer says he is attaching random documents.",
+      "evidence": [
+        {"kind": "say", "at": "11:23", "frame": "", "quote": "okay your trading license here i'm just putting like random documents"},
+        {"kind": "see", "at": "11:23", "frame": "t00683.jpg", "quote": "Finder-style file picker, folder 'Telechargements', listing files including 'Revibe Seller...2025.docx.pdf', '12345 TDRA.pdf', '209926_DHL...l-ZA-8858.pdf'."},
+        {"kind": "see", "at": "11:28", "frame": "t00688.jpg", "quote": "'Trading license*' shows 12345 TDRA.pdf with an x; 'Trading license number*' still 0; Emirates ID* empty."}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "11:29",
+      "screen": "Seller Onboarding App > New Slice Form, Trading license number field",
+      "action": "Types the trading license number (trainer enters 123456, a test value).",
+      "evidence": [
+        {"kind": "say", "at": "11:29", "frame": "", "quote": "also please indicate your trading license number put emirates {ID?} or any kind of ID that you have"},
+        {"kind": "see", "at": "11:35", "frame": "t00695.jpg", "quote": "'Trading license number*' shows 123456; Emirates ID* upload box empty."}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "11:29",
+      "screen": "Seller Onboarding App > New Slice Form, Emirates ID field",
+      "action": "Uploads the Emirates ID file (trainer attaches 209926_DHL_Label-ZA-8858.pdf, a test file).",
+      "evidence": [
+        {"kind": "say", "at": "11:29", "frame": "", "quote": "put emirates {ID?} or any kind of ID that you have"},
+        {"kind": "see", "at": "11:38", "frame": "t00698.jpg", "quote": "'Emirates ID*' shows 209926_DHL_Label-ZA-8858.pdf with an x; 'What is your position in the company ?*' dropdown open."}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "11:35",
+      "screen": "Seller Onboarding App > New Slice Form, position dropdown",
+      "action": "Opens 'What is your position in the company ?' and selects Manager from CEO / Founder, Manager, Other.",
+      "evidence": [
+        {"kind": "say", "at": "11:37", "frame": "", "quote": "what is your position in the company and put also your bank details so that we will be"},
+        {"kind": "see", "at": "11:38", "frame": "t00698.jpg", "quote": "Dropdown options 'CEO / Founder', 'Manager', 'Other' under the search box 'Add or search'."},
+        {"kind": "see", "at": "11:40", "frame": "t00700.jpg", "quote": "'What is your position in the company ?*' shows Manager; 'Bank details*' upload box empty."}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "11:37",
+      "screen": "Seller Onboarding App > New Slice Form, Bank details field",
+      "action": "Uploads a file into the Bank details field. The field then shows the file 'Revibe Seller Agreement - March 2025.docx.pdf' (a test file chosen by the trainer).",
+      "evidence": [
+        {"kind": "say", "at": "11:44", "frame": "", "quote": "able to include you in the next payment cycle if as I told you your first shipment is"},
+        {"kind": "see", "at": "11:45", "frame": "t00705.jpg", "quote": "'Bank details*' shows 'Revibe Seller Agreement - March 2025.docx.pdf'; 'Application status*' shows Application submitted; 'Approval*' shows Under review."}
+      ],
+      "says": "",
+      "why": "so that we will be able to include you in the next payment cycle (trainer, 11:37-11:44)"
+    },
+    {
+      "at": "11:57",
+      "screen": "Seller Onboarding App > New Slice Form, top-right Save button, then Profile list",
+      "action": "Trainer says to press Save. The Save press is not on any frame. The first frame after it is the Profile list (t00717), where the profile is in the Under review group. The open form already showed Application submitted and Under review before Save (t00705 at 11:45, t00706 at 11:46).",
+      "evidence": [
+        {"kind": "say", "at": "11:59", "frame": "", "quote": "has been submitted and that it's under review by our team press save and here you can see"},
+        {"kind": "see", "at": "11:46", "frame": "t00706.jpg", "quote": "Application status 'Application submitted' and Approval 'Under review' (spinner) shown on the open form; blue Save button top right."},
+        {"kind": "see", "at": "11:57", "frame": "t00717.jpg", "quote": "Profile list group header 'Under review 1'; row Application submitted / Under review."}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "12:04",
+      "screen": "Seller Onboarding App > Profile list",
+      "action": "Opens the Profile list to check the status. Columns: Name, Email, Company name, Application status, Approval.",
+      "evidence": [
+        {"kind": "say", "at": "12:06", "frame": "", "quote": "the status of your application here is your name your email your company and you can see the"},
+        {"kind": "see", "at": "12:04", "frame": "t00724.jpg", "quote": "Profile list columns Name | Email | Company name | Application status | Approval; group header 'Incomplete 1'; row Application submitted / Incomplete."}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "12:14",
+      "screen": "Seller Onboarding App > Profile list and profile detail",
+      "action": "Explains the three possible approval outcomes.",
+      "evidence": [
+        {"kind": "say", "at": "12:16", "frame": "", "quote": "our team will review your profile and three statuses are possible incomplete rejected or accepted let's first dig"},
+        {"kind": "see", "at": "12:14", "frame": "t00734.jpg", "quote": "Profile detail panel 'Pierre' with Application status 'Application submitted' and Approval 'Incomplete'."}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "12:25",
+      "screen": "Seller Onboarding App > Profile detail panel, Rationale field",
+      "action": "Opens an Incomplete profile and reads the Rationale.",
+      "evidence": [
+        {"kind": "say", "at": "12:25", "frame": "", "quote": "If the approval like this is showing incomplete, we will display to you a rationale saying,"},
+        {"kind": "say", "at": "12:33", "frame": "", "quote": "for instance, address is not precise and bank details, please update document from the bank."},
+        {"kind": "see", "at": "12:31", "frame": "t00734.jpg", "quote": "Approval 'Incomplete'; Rationale: 'Adress not precise' and 'Bank details - please upload document from the bank'."}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "12:38",
+      "screen": "Seller Onboarding App > Profile edit form (Edit button, top right of the detail panel)",
+      "action": "Clicks Edit. The fields named in the rationale have been cleared and show 'This entry is required'.",
+      "evidence": [
+        {"kind": "say", "at": "12:38", "frame": "", "quote": "In this case, you will have to edit and you will see that the space is related to"},
+        {"kind": "say", "at": "12:43", "frame": "", "quote": "your address or your bank details have been deleted."},
+        {"kind": "see", "at": "12:31", "frame": "t00751.jpg", "quote": "Edit form 'Pierre': 'Please share the exact adress from where you will ship orders*' empty with 'This entry is required' under it."},
+        {"kind": "see", "at": "12:43", "frame": "t00760.jpg", "quote": "'Bank details*' empty with 'This entry is required'; 'Do you have a DHL account ?' Yes; 'Application status*' Application incomplete."}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "12:47",
+      "screen": "Seller Onboarding App > Profile edit form, address and bank details fields",
+      "action": "Trainer tells the seller to give a clearer address. The address and Google Maps fields are still empty on the frame. The trainer then types 'xxx' as a placeholder (12:50) and opens the file picker over the bank details field, where a better document is chosen.",
+      "evidence": [
+        {"kind": "say", "at": "12:47", "frame": "", "quote": "In this case, just try to provide like a clearer address."},
+        {"kind": "say", "at": "12:50", "frame": "", "quote": "{at?} this point let's just put xxx and here provide a better document let's say this one for"},
+        {"kind": "see", "at": "12:45", "frame": "t00765.jpg", "quote": "'Please share the exact adress from where you will ship orders*' and 'Please share the exact google map location of this adress*' (http://) both empty with 'This entry is required'."},
+        {"kind": "see", "at": "12:53", "frame": "t00773.jpg", "quote": "Bank details upload with the file picker open over the form."}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "13:00",
+      "screen": "Seller Onboarding App > Profile list",
+      "action": "After saving the corrected profile, the profile is back in the Under review group.",
+      "evidence": [
+        {"kind": "say", "at": "13:00", "frame": "", "quote": "once done your status will come back to the under review status if your profile unfortunately does not"},
+        {"kind": "see", "at": "12:57", "frame": "t00777.jpg", "quote": "Profile list group header 'Under review 1'; row Application submitted / Under review."}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "13:08",
+      "screen": "Not shown on screen (no rejected example in the frames)",
+      "action": "Explains what the Rejected outcome means. No screen is shown for it.",
+      "evidence": [
+        {"kind": "say", "at": "13:08", "frame": "", "quote": "match our expectations we will mention rejected at this stage it means that we won't be able to"},
+        {"kind": "say", "at": "13:16", "frame": "", "quote": "go further in the application process with you and we are sorry about this third option the one"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "13:22",
+      "screen": "Seller Onboarding App > Profile list, Accepted group",
+      "action": "Shows an accepted profile: Accepted group header and Approval 'Accepted'. The Under review list shown at this point is t00780, so the Accepted list is on the later frame t00800.",
+      "evidence": [
+        {"kind": "say", "at": "13:22", "frame": "", "quote": "{i?} hope you will get is the accepted status at this moment you will be able to go"},
+        {"kind": "see", "at": "13:27", "frame": "t00800.jpg", "quote": "Group header 'Accepted 1'; row Application submitted / Accepted (green check); pointer on 'Accepted' in the Approval column."}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "13:28",
+      "screen": "Seller Onboarding App > Profile detail panel, Next steps section",
+      "action": "Opens the accepted profile (t00807), then reads the Next steps section (t00809).",
+      "evidence": [
+        {"kind": "say", "at": "13:28", "frame": "", "quote": "further in the application process you will see that here we {mention?} the next steps for you congrats"},
+        {"kind": "see", "at": "13:27", "frame": "t00807.jpg", "quote": "Profile detail 'Pierre' showing First name, Last name, Email, Phone, Company name 'Revibe', Country United Arab Emirates, Emirate Dubai, address 'XXX' and Google map 'xxx', products 'iPhones , Smartphones'."},
+        {"kind": "see", "at": "13:29", "frame": "t00809.jpg", "quote": "'Next steps': 'Congrats !' 'Your profile has been validated by our team ! You will get access to our fulfillment app' (highlighted)."}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "13:36",
+      "screen": "Seller Onboarding App > Profile detail panel, Next steps text",
+      "action": "Reads what the accepted seller must do next: send a first batch of devices, then watch the video.",
+      "evidence": [
+        {"kind": "say", "at": "13:36", "frame": "", "quote": "your profile has been validated by our team you will get access to our fulfillment app you will"},
+        {"kind": "say", "at": "13:41", "frame": "", "quote": "now send us a first batch of devices that will enable us to check the quality of your"},
+        {"kind": "say", "at": "13:46", "frame": "", "quote": "Watch carefully this video to understand the process."},
+        {"kind": "see", "at": "13:37", "frame": "t00817.jpg", "quote": "Next steps text: 'You will send us a first batch of devices that will enable us to check the quality of your products', 'Watch carefully this video to understand the process', then 'Have you watched the Fulfillment App video ?' Not yet."}
+      ],
+      "says": "",
+      "why": ""
+    }
+  ],
+  "facts": [
+    {
+      "type": "procedure",
+      "statement": "The onboarding form asks 'Have you read the quality guidelines ?' with the answers Not yet or Yes. The trainer says to press Yes after reading the guidelines.",
+      "evidence": [
+        {"kind": "say", "at": "10:50", "frame": "", "quote": "once you have read the quality guidelines"},
+        {"kind": "say", "at": "10:58", "frame": "", "quote": "you can press yes and then we will ask some details about your company"},
+        {"kind": "see", "at": "10:54", "frame": "t00654.jpg", "quote": "'Have you read the quality guidelines ?*' with Not yet selected (blue) and Yes beside it."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The quality guidelines set the standards Revibe expects for a seller's first shipment to Revibe's warehouse, and for future shipments sent directly to customers.",
+      "evidence": [
+        {"kind": "see", "at": "10:54", "frame": "t00654.jpg", "quote": "'Quality guidelines description': 'It outlines the standards we expect for your first shipment to our warehouse, as well as for future shipments sent directly to customers'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Original & DD devices are accepted for the Excellent / Very good and Good grades (green check on both rows).",
+      "evidence": [
+        {"kind": "see", "at": "09:50", "frame": "t00590.jpg", "quote": "'Original & DD' column with one green check spanning the 'Excellent / Very good' and 'Good' rows."},
+        {"kind": "say", "at": "09:56", "frame": "", "quote": "and very good you can offer original NDD and if you're selling good you can offer original NDD"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "GW Good quality devices are accepted only at the Good grade. Against Excellent / Very good the column shows a red X.",
+      "evidence": [
+        {"kind": "see", "at": "09:50", "frame": "t00590.jpg", "quote": "'GW Good quality' column: red X on the 'Excellent / Very good' row, green check on the 'Good' row."},
+        {"kind": "say", "at": "10:05", "frame": "", "quote": "here we explain what we call GW of good quality"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "GW & others Bad quality devices are not accepted: the column carries one red X covering both the Excellent / Very good and Good rows.",
+      "evidence": [
+        {"kind": "see", "at": "09:50", "frame": "t00590.jpg", "quote": "'GW & others Bad quality' column: single red X across the grade rows."},
+        {"kind": "say", "at": "10:12", "frame": "", "quote": "and others being bad quality we accept small borders not big borders"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Size criterion: GW Good quality devices have Normal size. GW & others Bad quality devices are small, hence having big borders. The trainer says small borders are accepted and big borders are not.",
+      "evidence": [
+        {"kind": "see", "at": "10:08", "frame": "t00608.jpg", "quote": "Row 'Size': 'Normal' vs 'Small hence having big borders'; examples 'Small boarder' (green circle) and 'Big boarder' (red circle)."},
+        {"kind": "say", "at": "10:12", "frame": "", "quote": "we accept small borders not big borders"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Thickness criterion: GW Good quality screens are Thin. Thick screens (red markers at both edges) are not accepted. The trainer says the screens must be very thin, not thick.",
+      "evidence": [
+        {"kind": "see", "at": "10:08", "frame": "t00608.jpg", "quote": "Row 'Thickness': 'Thin' vs 'Thick'; example 'Thick screen' with red markers at both ends."},
+        {"kind": "say", "at": "10:12", "frame": "", "quote": "we want smooth screens very thin"},
+        {"kind": "say", "at": "10:20", "frame": "", "quote": "not thick screens"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Touch criterion: smooth screens are accepted. Lagging or jumping touch is not.",
+      "evidence": [
+        {"kind": "see", "at": "10:13", "frame": "t00613.jpg", "quote": "Row 'Touch': 'Smooth' vs 'Lagging, jumping'."},
+        {"kind": "say", "at": "10:12", "frame": "", "quote": "we want smooth screens"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Backlighting criterion: whitish backlighting is accepted. Yellowish or pinkish colours are not accepted.",
+      "evidence": [
+        {"kind": "see", "at": "10:13", "frame": "t00613.jpg", "quote": "Row '3 Backlighting': 'Whitish' vs 'Yellowish / Pinkish'; example 'Pinkish' phones."},
+        {"kind": "say", "at": "10:20", "frame": "", "quote": "we want not yellowish or pinkish colors"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Proximity sensors criterion: GW Good quality is Normal. Sensors that sometimes do not work, or a screen that goes blank when calling someone, are not accepted.",
+      "evidence": [
+        {"kind": "see", "at": "10:13", "frame": "t00613.jpg", "quote": "Row 'Proximity sensors': 'Normal' vs 'Sometimes not working, screen goes blank when calling someone'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Keyboard criterion: GW Good quality is Light grey. Very light grey or brownish is not accepted.",
+      "evidence": [
+        {"kind": "see", "at": "10:13", "frame": "t00613.jpg", "quote": "Row 'Keyboard': 'Light grey' vs 'Very light grey or brownish'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Physical issues criterion: GW Good quality allows Slight heat. Overheating, freezing when charging, or fast battery drain are not accepted.",
+      "evidence": [
+        {"kind": "see", "at": "10:13", "frame": "t00613.jpg", "quote": "Row 'Physical issues': 'Slight heat' vs 'Over heat / Freezing when charging / Fast battery drain'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "warning",
+      "statement": "Devices with a display gap are not allowed to be sold.",
+      "evidence": [
+        {"kind": "say", "at": "10:20", "frame": "", "quote": "and also we do not allow you to"},
+        {"kind": "say", "at": "10:30", "frame": "", "quote": "sell screens with a gap like this for instance"},
+        {"kind": "see", "at": "10:30", "frame": "t00630.jpg", "quote": "'Display gap' photo with a red outline around the corner gap."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "Devices with a screen freeze where the {apple?} logo remains are not allowed to be sold (trainer's words; the screen caption reads 'Screen freeze Apple logo remaining').",
+      "evidence": [
+        {"kind": "say", "at": "10:30", "frame": "", "quote": "or where like the {apple?} logo could remain like"},
+        {"kind": "see", "at": "10:30", "frame": "t00630.jpg", "quote": "Phone showing a 'hell' boot screen with caption 'Screen freeze Apple logo remaining'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Grade 'Excellent' means like new.",
+      "evidence": [
+        {"kind": "see", "at": "10:40", "frame": "t00640.jpg", "quote": "Heading 'Excellent - like new' (Page 3/6)."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Grade 'Very good' accepts very small dot scratches.",
+      "evidence": [
+        {"kind": "see", "at": "10:43", "frame": "t00643.jpg", "quote": "Heading 'Very good - Very small dot scratches accepted'."},
+        {"kind": "say", "at": "10:44", "frame": "", "quote": "that some scratches are allowed for very good and good condition"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Grade 'Good' accepts slight scratches that do not interfere when the device is on.",
+      "evidence": [
+        {"kind": "see", "at": "10:40", "frame": "t00640.jpg", "quote": "Heading at the bottom 'Good - Slight scratches, they do not interfere when the device is on'."},
+        {"kind": "say", "at": "10:44", "frame": "", "quote": "some scratches are allowed for very good and good condition"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Laptops (General guidelines): hardware must be 100% fully functional. Screen: almost no sign of use, only 1 or 2 very small scratch accepted. Body: slight signs of use, with a few light scratches not visible at first glance unless looked at closely. Battery: should work normally, with no error or replacement message.",
+      "evidence": [
+        {"kind": "see", "at": "10:49", "frame": "t00649.jpg", "quote": "General guidelines: 'Hardware: 100% fully functional'; 'Screen: Almost no sign of use, only 1 or 2 very small scratch accepted'; 'Body: Slight signs of use...'; 'Battery: Should work normally - no error or replacement message'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Laptops (Functions deep dive): data must have been reset, and the device must be unlocked from any previous protection systems set by the previous owner or third-party accounts or software.",
+      "evidence": [
+        {"kind": "see", "at": "10:49", "frame": "t00649.jpg", "quote": "'Data deletion: Data must have been reset'; 'Unlocking: Unlocked from any previous protection systems set by the previous owner, or third-party accounts or software'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Laptops: an original charger is required. It must be clean, charge effectively and be compatible with the country socket. The most recent operating system must be installed and activated. The IMEI serial number is checked against the blacklist and against the manufacturer configuration (such as colour and capacity).",
+      "evidence": [
+        {"kind": "see", "at": "10:49", "frame": "t00649.jpg", "quote": "'Chargers / cables: Original charger required - must be clean, charge effectively and be compatible with country socket'; 'Software: Most recent operating system must be installed and activated'; 'Serial number: IMEI serial number ... checked to see if it has been blacklisted'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "The seller downloads the seller agreement, signs it, and uploads it in the 'Please upload here the seller agreement once signed' field.",
+      "evidence": [
+        {"kind": "see", "at": "10:54", "frame": "t00654.jpg", "quote": "'Seller agreement': 'Download it, sign it and upload it in the section below'; upload field 'Please upload here the seller agreement once signed*'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "'Do you have a DHL account ?' is answered No or Yes. If Yes, the seller enters a DHL account number, which lets the seller benefit from Revibe's preferential rates with DHL.",
+      "evidence": [
+        {"kind": "say", "at": "11:03", "frame": "", "quote": "dhl account if you put no no if you put yes please enter your dhl account number so"},
+        {"kind": "say", "at": "11:10", "frame": "", "quote": "that you will be able to benefit from revives preferential rates with dhl"},
+        {"kind": "see", "at": "11:05", "frame": "t00665.jpg", "quote": "'Do you have a DHL account ?*' Yes selected; 'Please enter your account number to benefit from Revibe's preferential rates with DHL*'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Fields marked with an asterisk include Tax registration certificate, Trading license, Trading license number, Emirates ID, 'What is your position in the company ?' and Bank details. An empty required field shows 'This entry is required' on the edit form.",
+      "evidence": [
+        {"kind": "see", "at": "11:01", "frame": "t00661.jpg", "quote": "Labels with *: 'Tax registration certificate*', 'Trading license*', 'Trading license number*', 'Emirates ID*', 'What is your position in the company ?*', 'Bank details*'."},
+        {"kind": "see", "at": "12:43", "frame": "t00760.jpg", "quote": "'Bank details*' empty with 'This entry is required'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The company name field is labelled 'Company name (as mentioned in your trading licence)*'.",
+      "evidence": [
+        {"kind": "see", "at": "12:38", "frame": "t00751.jpg", "quote": "Label 'Company name (as mentioned in your trading licence)*' with value 'Revibe'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The exact address from where the seller will ship orders, and the exact Google Maps location of that address, are required fields.",
+      "evidence": [
+        {"kind": "see", "at": "12:45", "frame": "t00765.jpg", "quote": "'Please share the exact adress from where you will ship orders*' and 'Please share the exact google map location of this adress*' (http://), both with 'This entry is required'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The position dropdown offers CEO / Founder, Manager and Other.",
+      "evidence": [
+        {"kind": "see", "at": "11:38", "frame": "t00698.jpg", "quote": "Dropdown options 'CEO / Founder', 'Manager', 'Other'."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "The trainer says that after the seller presses Save, the application has been submitted and is under review by Revibe's team. The Application status already reads 'Application submitted' and Approval 'Under review' on the open form at 11:45, before the Save press shown in the narration.",
+      "evidence": [
+        {"kind": "say", "at": "11:59", "frame": "", "quote": "has been submitted and that it's under review by our team press save"},
+        {"kind": "see", "at": "11:45", "frame": "t00705.jpg", "quote": "'Application status*' Application submitted; 'Approval*' Under review."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "There are three approval outcomes: incomplete, rejected, and accepted. While the team reviews, Approval shows 'Under review'.",
+      "evidence": [
+        {"kind": "say", "at": "12:16", "frame": "", "quote": "three statuses are possible incomplete rejected or accepted"},
+        {"kind": "see", "at": "12:00", "frame": "t00717.jpg", "quote": "Group header 'Under review 1'; Approval 'Under review'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "If the approval is Incomplete, the profile shows a Rationale that says what is missing. The trainer's example: address is not precise, and bank details must be updated with a document from the bank.",
+      "evidence": [
+        {"kind": "say", "at": "12:25", "frame": "", "quote": "we will display to you a rationale saying,"},
+        {"kind": "say", "at": "12:33", "frame": "", "quote": "for instance, address is not precise and bank details, please update document from the bank."},
+        {"kind": "see", "at": "12:31", "frame": "t00734.jpg", "quote": "Approval 'Incomplete'; Rationale 'Adress not precise' / 'Bank details - please upload document from the bank'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "To fix an Incomplete profile, the seller edits it. The fields named in the rationale have been cleared and show 'This entry is required' (in the trainer's example, the address and bank details).",
+      "evidence": [
+        {"kind": "say", "at": "12:38", "frame": "", "quote": "In this case, you will have to edit and you will see that the space is related to"},
+        {"kind": "say", "at": "12:43", "frame": "", "quote": "your address or your bank details have been deleted."},
+        {"kind": "see", "at": "12:43", "frame": "t00760.jpg", "quote": "'Bank details*' empty with 'This entry is required'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "For an Incomplete profile, provide a clearer address and upload a better bank document.",
+      "evidence": [
+        {"kind": "say", "at": "12:47", "frame": "", "quote": "In this case, just try to provide like a clearer address."},
+        {"kind": "say", "at": "12:50", "frame": "", "quote": "here provide a better document"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "After the corrected profile is saved, the status returns to Under review.",
+      "evidence": [
+        {"kind": "say", "at": "13:00", "frame": "", "quote": "once done your status will come back to the under review status"},
+        {"kind": "see", "at": "12:57", "frame": "t00777.jpg", "quote": "Group header 'Under review 1'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "Rejected means Revibe will not go further in the application process with the seller. The trainer says this is when the profile does not match Revibe's expectations.",
+      "evidence": [
+        {"kind": "say", "at": "13:08", "frame": "", "quote": "match our expectations we will mention rejected at this stage it means that we won't be able to"},
+        {"kind": "say", "at": "13:16", "frame": "", "quote": "go further in the application process with you"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "An Accepted profile shows Congrats and Next steps. The seller then gets access to the fulfillment app and sends a first batch of devices so Revibe can check quality. The seller is asked to watch the fulfillment app video, and the form shows 'Have you watched the Fulfillment App video ?' as Not yet.",
+      "evidence": [
+        {"kind": "say", "at": "13:36", "frame": "", "quote": "your profile has been validated by our team you will get access to our fulfillment app"},
+        {"kind": "say", "at": "13:41", "frame": "", "quote": "now send us a first batch of devices that will enable us to check the quality of your"},
+        {"kind": "see", "at": "13:29", "frame": "t00809.jpg", "quote": "'Next steps' 'Congrats !' 'Your profile has been validated by our team ! You will get access to our fulfillment app'."},
+        {"kind": "see", "at": "13:37", "frame": "t00817.jpg", "quote": "'Watch carefully this video to understand the process' and 'Have you watched the Fulfillment App video ?' Not yet."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "The Next steps section of an Accepted profile links to a Fulfillment App video on Google Drive, under the line 'Watch carefully this video to understand the process'.",
+      "evidence": [
+        {"kind": "see", "at": "13:37", "frame": "t00817.jpg", "quote": "'Watch carefully this video to understand the process' followed by a Google Drive link (file/d/1ANmfpN-...view?usp=drive_link)."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "On the edit form after an Incomplete rationale, the Application status field shows 'Application incomplete' while the profile is being corrected.",
+      "evidence": [
+        {"kind": "see", "at": "12:43", "frame": "t00760.jpg", "quote": "'Application status*' Application incomplete."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Implied: a seller may be included in the next payment cycle if the first shipment is good quality and can be sold right away. The narration here is garbled, so only 'next payment cycle' and 'first shipment' are clear.",
+      "evidence": [
+        {"kind": "say", "at": "11:44", "frame": "", "quote": "able to include you in the next payment cycle if as I told you your first shipment is"},
+        {"kind": "say", "at": "11:53", "frame": "", "quote": "of is good quality and {we?} can sell it right now {here?} you can see that your application"}
+      ],
+      "confidence": "low",
+      "quiz": false
+    }
+  ],
+  "screens": [
+    {
+      "name": "Quality guidelines PDF (Google Drive, Chrome tab)",
+      "shows": "Revibe 'Phones, tablets & watches - Quality guidelines' pages 2-3 of 6: grade table (Original & DD, GW Good quality, GW & others Bad quality), criteria rows (Size, Thickness, Touch, Backlighting, Proximity sensors, Keyboard, Physical issues) with photo examples, 'Others' examples (display gap, screen freeze), and grade photos (Excellent, Very good, Good). Page 4 of 6 is 'Laptops quality guidelines' (General guidelines and Functions deep dive).",
+      "at": "09:50-10:50",
+      "where": "Chrome tab 'Quality guidelines - Google Drive'",
+      "frame": "t00590.jpg to t00649.jpg"
+    },
+    {
+      "name": "Seller Onboarding App - New Slice Form (side panel)",
+      "shows": "AppSheet onboarding form with Save and Cancel at top right: Seller agreement, Quality guidelines description (with link), 'Have you read the quality guidelines ?', seller agreement upload, DHL account question, Tax registration certificate, Trading license, Trading license number, Emirates ID, position dropdown, Bank details, Application status and Approval.",
+      "at": "10:54-11:59",
+      "where": "AppSheet app 'Seller Onboarding App', Profile section, '+ Add' form",
+      "frame": "t00654.jpg to t00706.jpg"
+    },
+    {
+      "name": "Seller Onboarding App - Profile list",
+      "shows": "Table with columns Name, Email, Company name, Application status, Approval. Rows are grouped under status headers with counts: 'Under review', 'Incomplete', 'Accepted'. Search Profile box, Add button, filter and select icons, sync icon.",
+      "at": "11:57-13:22",
+      "where": "AppSheet app, left nav Profile icon",
+      "frame": "t00717.jpg, t00724.jpg, t00777.jpg, t00780.jpg (Under review), t00800.jpg (Accepted)"
+    },
+    {
+      "name": "Seller Onboarding App - Profile detail panel",
+      "shows": "Right-hand panel with the seller's answers, Application status, Approval, Rationale (Incomplete), Next steps (Accepted), Edit button, delete (trash) icon and close button.",
+      "at": "12:14-13:37",
+      "where": "AppSheet app, profile row opened",
+      "frame": "t00734.jpg, t00807.jpg, t00809.jpg, t00817.jpg"
+    },
+    {
+      "name": "Seller Onboarding App - Profile edit form",
+      "shows": "Edit form for the profile with required fields marked 'This entry is required' when cleared (address, Google Maps link, bank details). Includes Introduction text 'Welcome to Revibe !', name, email, phone, company name, country, emirate, product and sales questions.",
+      "at": "12:31-12:59",
+      "where": "AppSheet app, Edit button on profile detail",
+      "frame": "t00751.jpg, t00760.jpg, t00765.jpg, t00767.jpg, t00773.jpg"
+    },
+    {
+      "name": "macOS file picker",
+      "shows": "Finder-style picker opened from an upload field, folder 'Telechargements', listing PDF and DOCX files including '12345 TDRA.pdf' and '209926_DHL...l-ZA-8858.pdf'.",
+      "at": "11:23",
+      "where": "Opened by any upload field",
+      "frame": "t00683.jpg"
+    },
+    {
+      "name": "Chrome tab bar (all frames)",
+      "shows": "Tabs: 'Seller Onboarding App', 'Ontario Tower - Google Maps', 'Revibe Seller Agreement' (Google Doc), 'Quality guidelines - Google Drive'.",
+      "at": "09:50-13:49",
+      "where": "Chrome window",
+      "frame": "all frames"
+    },
+    {
+      "name": "Seller Onboarding App - Profile detail, test answers (accepted profile)",
+      "shows": "Test answers typed for the accepted profile: products 'iPhones , Smartphones', wholeseller (B2B) Yes, sells online Yes, platform 'Amazon', units per month '1,000 - 2,500', grades 'A+ , A , B , C', sell as is or refurbish 'Both'. These are the trainer's test values, not rules.",
+      "at": "13:27",
+      "where": "AppSheet app, profile row opened, scrolled down",
+      "frame": "t00807.jpg"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Quality guidelines",
+      "meaning": "Revibe document (Google Drive PDF) that sets the standards for the first shipment to the warehouse and for future shipments sent to customers. Covers phones, tablets and watches (pages 2-3) and laptops (page 4).",
+      "at": "09:50"
+    },
+    {
+      "term": "Original & DD",
+      "meaning": "Grade-table column accepted for Excellent / Very good and Good devices. 'DD' is not expanded anywhere in this part.",
+      "at": "09:56"
+    },
+    {
+      "term": "GW Good quality",
+      "meaning": "Grade-table column: accepted only for Good; Excellent / Very good is marked with a red X. 'GW' is not expanded in this part.",
+      "at": "10:05"
+    },
+    {
+      "term": "GW & others Bad quality",
+      "meaning": "Grade-table column for bad-quality devices; marked with a red X for both Excellent / Very good and Good.",
+      "at": "10:08"
+    },
+    {
+      "term": "Excellent - like new / Very good / Good",
+      "meaning": "Physical condition grades shown on page 3 of the guidelines, with the scratch allowance for each.",
+      "at": "10:37"
+    },
+    {
+      "term": "Warehouse",
+      "meaning": "Revibe warehouse that receives the seller's first shipment (as written in the form description).",
+      "at": "10:54"
+    },
+    {
+      "term": "Seller agreement",
+      "meaning": "Agreement that the seller downloads, signs and uploads to the form. The form says 'Download it, sign it and upload it in the section below'.",
+      "at": "10:54"
+    },
+    {
+      "term": "DHL preferential rates",
+      "meaning": "Revibe's preferential rates with DHL; available when the seller has a DHL account and enters the account number.",
+      "at": "11:10"
+    },
+    {
+      "term": "Application status",
+      "meaning": "Shows 'Application incomplete' on the blank form (t00654, t00656). By 11:45 it shows 'Application submitted' on the open form (t00705), before the Save press in the narration. Shows 'Application incomplete' again on the edit form after an Incomplete rationale (t00760).",
+      "at": "11:45"
+    },
+    {
+      "term": "Approval",
+      "meaning": "Review outcome of the application: 'Under review' while pending, then Incomplete, Rejected or Accepted (per the narration).",
+      "at": "12:14"
+    },
+    {
+      "term": "Rationale",
+      "meaning": "Explanation shown when Approval is Incomplete, saying what must be corrected (e.g. address not precise, bank details must be re-uploaded).",
+      "at": "12:25"
+    },
+    {
+      "term": "Payment cycle",
+      "meaning": "Payment cycle the seller can be included in when the first shipment is of good quality (narration, partly garbled).",
+      "at": "11:44"
+    },
+    {
+      "term": "Fulfillment app",
+      "meaning": "App that validated sellers get access to. The seller then sends the first batch of devices.",
+      "at": "13:36"
+    },
+    {
+      "term": "First batch of devices",
+      "meaning": "First shipment the seller sends so Revibe can check the quality of the products.",
+      "at": "13:41"
+    },
+    {
+      "term": "Tax registration certificate / Trading license / Trading license number / Emirates ID / Bank details",
+      "meaning": "Form fields for company documents and identity; the first three are asterisked, and the trading license number is a numeric field with a +/- stepper.",
+      "at": "11:16"
+    }
+  ],
+  "asr_fixes": [
+    {
+      "at": "09:56",
+      "heard": "original NDD",
+      "correct": "original DD",
+      "basis": "Screen frame t00590.jpg shows the column header 'Original & DD'."
+    },
+    {
+      "at": "10:30",
+      "heard": "the {apple?} logo",
+      "correct": "the Apple logo",
+      "basis": "Screen frames t00630.jpg and t00633.jpg show the caption 'Screen freeze Apple logo remaining'."
+    },
+    {
+      "at": "11:10",
+      "heard": "revives preferential rates with dhl",
+      "correct": "Revibe's preferential rates with DHL",
+      "basis": "Screen frame t00665.jpg shows the field label 'Please enter your account number to benefit from Revibe's preferential rates with DHL'."
+    },
+    {
+      "at": "11:29",
+      "heard": "emirates {ID?}",
+      "correct": "Emirates ID",
+      "basis": "Screen frames t00695.jpg and t00698.jpg show the upload field label 'Emirates ID*'."
+    }
+  ],
+  "unclear": [
+    {
+      "at": "10:05",
+      "issue": "'LCD or GW of good quality {and?} here we explain what we call GW of good quality GW'. 'LCD' does not match any screen label in frame t00590.jpg, and the '{and?}' word is unconfirmed. The grade rule itself is taken from the screen column headers."
+    },
+    {
+      "at": "10:37",
+      "issue": "'this frozen in the background here is the physical condition we expect you to sell you can see' is garbled. The page 3 grade criteria are taken from the screen, not from this line."
+    },
+    {
+      "at": "11:29",
+      "issue": "Narration says 'put emirates ID or any kind of ID that you have', but the form field is 'Emirates ID*' (a file upload). The video does not confirm whether other ID types are accepted."
+    },
+    {
+      "at": "11:53",
+      "issue": "'of is good quality and {we?} can sell it right now {here?}' is garbled. The payment-cycle condition in facts is low confidence for this reason."
+    },
+    {
+      "at": "12:50",
+      "issue": "'{at?} this point let's just put xxx' - the trainer types 'XXX' as a placeholder in the address and map fields (shown on frame t00807.jpg). It is a test entry, not a rule."
+    },
+    {
+      "at": "13:16",
+      "issue": "Narration lists three statuses (incomplete, rejected, accepted), but the screen also shows 'Under review' as the pending Approval value. Treated here as the pending state, not a fourth outcome."
+    },
+    {
+      "at": "13:08",
+      "issue": "No rejected profile is shown on any frame, so what a rejected seller sees is not documented in this part."
+    },
+    {
+      "at": "09:50",
+      "issue": "'DD' and 'GW' are not expanded anywhere in part 3. Their meanings may be in part 1 or 2 and are not confirmed here."
+    },
+    {
+      "at": "10:49",
+      "issue": "Laptop page 4 rows below 'Ports' (the mechanical parts row) are cut off in frame t00649.jpg, so they are not recorded."
+    },
+    {
+      "at": "10:56",
+      "issue": "The trainer says to press Yes on 'Have you read the quality guidelines ?', but no new-form frame shows the Yes state. The only frame with Yes for this field is the edit form at 12:47 (t00767.jpg)."
+    },
+    {
+      "at": "11:45",
+      "issue": "Application status shows 'Application submitted' and Approval 'Under review' on the open form at 11:45 (t00705.jpg), before the narrated Save press (11:57-11:59). The screen does not show what triggered the change."
+    }
+  ],
+  "outdated": [
+    {
+      "at": "10:54",
+      "signal": "The seller agreement is named 'Revibe Seller Agreement - March 2025.docx.pdf' (frame t00654.jpg, also used as the bank details file in t00705.jpg). The file name is dated March 2025 and the video does not confirm whether it is still the current agreement."
+    }
+  ],
+  "privacy": [
+    {
+      "at": "12:31",
+      "frame": "t00751.jpg",
+      "what": "Edit form shows a named seller's personal data: first name 'Pierre', last name 'Villaqueque', personal email 'iam.pepemanagement@gmail.com' and phone '+971585744270'. Name fragments also appear in the Profile list (t00717.jpg, t00724.jpg)."
+    },
+    {
+      "at": "13:27",
+      "frame": "t00807.jpg",
+      "what": "Accepted profile detail shows the same seller's first name, last name, email 'iam.pepemanagement@gmail.com' and phone '+971585744270'."
+    },
+    {
+      "at": "12:14",
+      "frame": "t00734.jpg",
+      "what": "Profile detail shows seller document file names: '7ad1da51.Contract.091406.docx.pdf', '7ad1da51.Tax registration.091406.pdf', '7ad1da51.Trading license.091406.pdf' and '7ad1da51.Emirates ID.091410.pdf'. The Bank details value is blank on this frame. The Emirates ID file is an identity document and should not be shown to sellers."
+    },
+    {
+      "at": "13:29",
+      "frame": "t00809.jpg",
+      "what": "Accepted profile Next steps shows the bank file name '7ad1da51.Bank details.092449.pdf' (also on t00817.jpg). Bank details should not be shown to sellers."
+    },
+    {
+      "at": "11:23",
+      "frame": "t00683.jpg",
+      "what": "The macOS file picker lists file names in Downloads that look like other companies' documents, for example 'Company Pro...yology (1).pdf', 'Company Pro..._Buyology.pdf', 'Dubai Land D...artment 1-.pdf' and 'Dubai Land D...artment 2-.pdf'. Their content is not visible, so it is not confirmed whose documents they are."
+    },
+    {
+      "at": "09:50",
+      "frame": "t00590.jpg",
+      "what": "The Chrome tab bar shows 'Ontario Tower - Google Maps' in every frame. The tab title may show a seller's location; this is not confirmed."
+    }
+  ],
+  "audit": {
+    "checked": 103,
+    "removed": [
+      {"statement": "Step 12:47: 'Enters a clearer address and the Google Maps link'", "reason": "No frame shows the address or map link being entered. Frame t00765.jpg (12:45) shows both fields still empty, and the trainer only says to provide a clearer address (12:47)."},
+      {"statement": "Step 10:56 evidence: 'see t00767.jpg at 11:00' for the Yes selection on the new form", "reason": "Wrong frame. t00767.jpg is the edit form at 12:47 with Yes selected, not the new form at 11:00. No new-form frame shows the Yes click."},
+      {"statement": "Step 13:22 evidence: 'see t00780.jpg' showing Accepted group header and Accepted approval", "reason": "t00780.jpg shows the Under review group at 11:25 (Approval 'Under review'), not the Accepted group. The Accepted list is on t00800.jpg."},
+      {"statement": "Fact: 'Before saving, Application status shows Application incomplete' and 'After the seller presses Save, the application is submitted'", "reason": "Contradicted by t00705.jpg (11:45), where the open form already shows Application submitted and Approval Under review before the narrated Save press (11:59)."},
+      {"statement": "Fact: required fields 'Each must be completed to submit'", "reason": "'To submit' is not said or shown. The screen only marks the fields with asterisks and shows 'This entry is required' on empty fields. Reworded."},
+      {"statement": "Privacy: 209926_DHL_Label-ZA-8858.pdf at 11:16 (t00679.jpg) 'may be a real shipment label'", "reason": "This is a file name only. It is not a name, phone number, email or address, so it is not personal data visible on screen. It is a test file, as the trainer types test values."},
+      {"statement": "Privacy: 'Device + LLC' in the business name field at 12:47 (t00767.jpg)", "reason": "A company name is not in the personal-data categories (names, phone numbers, emails, addresses). Not kept as privacy."}
+    ],
+    "corrected": [
+      {"before": "Step 10:56 'Sets Have you read the quality guidelines? to Yes' with evidence see t00767.jpg at 11:00", "after": "Step 10:56 'Tells the seller to press Yes ... The click is not captured on any frame', evidence say 10:58 and t00656.jpg", "reason": "The Yes selection is not on any new-form frame; t00767.jpg is a later edit form."},
+      {"before": "Step 11:16 'Uploads the tax registration certificate file ... (trainer attaches 209926_DHL_Label-ZA-8858.pdf)'", "after": "Same, with 'a test file' added", "reason": "The trainer types random test documents (11:23 'random documents'); not a rule."},
+      {"before": "Step 11:37 'uses the seller agreement PDF as a stand-in'", "after": "'The field then shows the file Revibe Seller Agreement - March 2025.docx.pdf (a test file chosen by the trainer)'", "reason": "'Stand-in' is an inference; the screen only shows the file name in the field."},
+      {"before": "Step 11:57 'presses Save ... The form then shows Application submitted and Approval Under review' (evidence t00706 at 11:59)", "after": "Trainer says to press Save (11:59); the Save press is not on a frame; the first post-save frame is t00717 (11:57 video) Profile list; the form already showed the statuses at t00705 and t00706", "reason": "Frame t00706.jpg is at 11:46 in the video and shows the form before Save. Timing and frame corrected."},
+      {"before": "Step 12:47 'Enters a clearer address and the Google Maps link, then re-uploads a better bank document'", "after": "Trainer tells the seller to give a clearer address; fields are still empty on t00765; trainer types 'xxx' (12:50) and the bank field shows the file picker (t00773)", "reason": "No frame shows the address being entered (see audit.removed)."},
+      {"before": "Step 13:22 evidence t00780.jpg for Accepted group", "after": "Evidence t00800.jpg for Accepted group; t00780 is the Under review list", "reason": "Frame mismatch."},
+      {"before": "Fact: 'The seller must watch the fulfillment app video' (implied in step 13:36 and fact 'The seller must watch')", "after": "'The seller is asked to watch the fulfillment app video' with 'Have you watched ... Not yet'", "reason": "'Must' is stronger than the narration ('Watch carefully this video') and the screen."},
+      {"before": "Fact: 'Laptops (General guidelines): ... Screen: ... only 1 or 2 very small scratches accepted'", "after": "Quote 'only 1 or 2 very small scratch accepted' as on the screen", "reason": "Wording must match the screen."},
+      {"before": "Fact: 'Grade Good accepts slight scratches' evidence t00648.jpg", "after": "Evidence t00640.jpg (page 3 full view shows the Good heading at the bottom)", "reason": "The Good heading is on the page 3 full view; t00648 was not confirmed to show it."},
+      {"before": "Fact: payment cycle 'if the first shipment is of good quality and can be sold right away' (medium)", "after": "Implied: ... (low). Only 'next payment cycle' and 'first shipment' are clear.", "reason": "The narration is garbled ('of is good quality and {we?} can sell it right now {here?}'), so the condition is not confirmed."},
+      {"before": "Fact: 'After the seller presses Save, the application is submitted to Revibe's team. Application status shows Application submitted and Approval Under review. Before saving, Application status shows Application incomplete.' (high)", "after": "Confidence medium; says the trainer says Save submits it, and the status already reads submitted by 11:45 (t00705.jpg)", "reason": "Status is shown before the Save press (see audit.removed)."},
+      {"before": "Term 'Application status': 'Shows Application incomplete before Save and Application submitted after Save'", "after": "Shows 'Application incomplete' on the blank form and 'Application submitted' by 11:45 on the open form, before Save; again 'Application incomplete' on the edit form (t00760)", "reason": "Contradicted by t00705.jpg."},
+      {"before": "Screen 'Profile list ... t00780.jpg (Accepted)'", "after": "t00780.jpg (Under review), t00800.jpg (Accepted)", "reason": "Frame mismatch."},
+      {"before": "Screen 'Profile detail' says products 'iPhones and Smartphones'", "after": "products 'iPhones , Smartphones' (t00807.jpg)", "reason": "Exact wording on screen."},
+      {"before": "Unclear 10:08 'Laptop page 4 rows ... cut off in frame t00649.jpg'", "after": "Timestamp 10:49", "reason": "Laptop page is at 10:49, not 10:08."},
+      {"before": "Privacy 11:20 t00751.jpg name, email, phone", "after": "Timestamp 12:31", "reason": "t00751.jpg is at 12:31 in the video."},
+      {"before": "Privacy 13:27 t00734.jpg 'Bank details and Emirates ID files with numeric suffixes'", "after": "Privacy 12:14 t00734.jpg lists the contract, tax, trading license and Emirates ID file names (Bank details value is blank on that frame); Privacy 13:29 t00809.jpg shows the bank file name", "reason": "Bank file name is not on t00734.jpg."},
+      {"before": "Privacy 11:23 'lists other companies' documents in the Downloads folder'", "after": "'lists file names that look like other companies' documents ... not confirmed whose documents they are'", "reason": "Only file names are visible; ownership is not confirmed."},
+      {"before": "Fact: Required fields 'Tax registration certificate, Trading license (file), Trading license number, Emirates ID (file), What is your position in the company, and Bank details (file)'", "after": "Asterisked fields list, which also includes 'Seller agreement' and 'Have you read the quality guidelines ?' and DHL questions on the form. Statement reworded.", "reason": "The asterisked list on screen is wider than the six fields."},
+      {"before": "Term 'Tax registration certificate ... Required form fields ... The trading license number is a numeric field.'", "after": "First three asterisked; trading license number is a numeric field with +/- stepper", "reason": "Adds the stepper shown on screen."}
+    ],
+    "added": [
+      "Fact: Next steps links to a Fulfillment App video on Google Drive (t00817.jpg). The pack did not record the link.",
+      "Fact: On the edit form after an Incomplete rationale, Application status reads 'Application incomplete' (t00760.jpg).",
+      "Unclear 10:56: the Yes click for 'Have you read the quality guidelines ?' is not on any new-form frame.",
+      "Unclear 11:45: Application submitted and Approval Under review on the open form before the narrated Save press.",
+      "Screen: accepted profile detail test answers (products, B2B, online, platform Amazon, 1,000 - 2,500 units, grades A+ / A / B / C, Both) on t00807.jpg, marked as trainer test values.",
+      "Privacy: t00807.jpg shows the seller's name, email and phone in the accepted profile detail (13:27)."
+    ]
+  }
+}

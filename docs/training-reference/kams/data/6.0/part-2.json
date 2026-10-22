@@ -1,0 +1,1223 @@
+{
+  "summary": "Part 2 (06:38-12:12) of the \"6.0 Returns (Seller)\" video shows, on the Revibe admin dashboard, how a seller records an invalid claim with supplier proof, how the trainer demonstrates the Revibe-side confirmation (Valid or Invalid with a comment), how a claim returns to the seller at stage 'Under revision' when the proof is judged insufficient, how the seller replaces the proof and sets Invalid again so the claim goes to Revibe Lab, and ends with a recap of the Revibe Return Process PDF. All 40 frames listed in the pack were opened and checked against the narration.",
+  "steps": [
+    {
+      "at": "06:38",
+      "screen": "Enter proof of invalid claim modal on admin.revibe.me/dashboard/claim/14, with claim o941bQ panel behind it",
+      "action": "Shows the modal with the 'Invalid claim comment' field filled with 'Battery health checked and above 95%' and the 'Proof of invalid claim by supplier' drop zone. The click that opened the modal is not visible in the frames.",
+      "evidence": [
+        {"kind": "see", "at": "06:38", "frame": "t00398.jpg", "quote": "Modal 'Enter proof of invalid claim'; field 'Invalid claim comment' = 'Battery health checked and above 95%'; 'Proof of invalid claim by supplier' drop zone; 'Attachment should be less than 100 mb'; buttons Cancel and Add"},
+        {"kind": "say", "at": "06:43", "quote": "Let's say this one for instance."}
+      ],
+      "says": "Let's say this one for instance.",
+      "why": ""
+    },
+    {
+      "at": "06:42",
+      "screen": "Same modal, upload in progress",
+      "action": "Trainer attaches the supplier proof file. The frame shows 'Uploading attachment...' and a 'Format not supported' toast at top right. The frame does not show which upload was accepted; a PNG later appears under 'Supplier's Proof of Invalidity' (t00414).",
+      "evidence": [
+        {"kind": "see", "at": "06:42", "frame": "t00402.jpg", "quote": "'Uploading attachment...' under the drop zone; top-right toast 'Format not supported'"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "06:44",
+      "screen": "Claim panel for claim o941bQ (status Open), top section",
+      "action": "After the proof is submitted, the claim panel shows the entered invalid claim comment and 'Missing proof' under Missing document.",
+      "evidence": [
+        {"kind": "see", "at": "06:44", "frame": "t00404.jpg", "quote": "Invalid claim comments 'Battery health checked and above 95%'; Missing document 'Missing proof'; top toolbar buttons 'Mark valid', 'Mark invalid', 'Order details'"},
+        {"kind": "say", "at": "06:45", "quote": "You can see here that your request of {the?} claim as invalid has been taken into account."}
+      ],
+      "says": "You can see here that your request of {the?} claim as invalid has been taken into account.",
+      "why": ""
+    },
+    {
+      "at": "06:52",
+      "screen": "Claim panel, scrolled to the Statuses section",
+      "action": "Trainer scrolls down to Statuses. The Valid claim field reads Invalid Claim. The narration points to Statuses as where the claim 'has been defined as invalid'; no pointer is shown on that field.",
+      "evidence": [
+        {"kind": "see", "at": "06:52", "frame": "t00412.jpg", "quote": "Statuses: Type 'Return', Subtype 'Issue', Stage 'Under QC', Status 'Open', Valid claim 'Invalid Claim', Received By Supplier 'Yes'"},
+        {"kind": "say", "at": "06:55", "quote": "{and?} here in statutes you can see that claim has been defined as invalid."}
+      ],
+      "says": "{and?} here in statutes you can see that claim has been defined as invalid.",
+      "why": ""
+    },
+    {
+      "at": "07:02",
+      "screen": "Claim panel, Attachments section",
+      "action": "Trainer scrolls to the bottom of the panel. The Attachments section lists one PNG file, and the 'Supplier's Proof of Invalidity' section lists one PNG file.",
+      "evidence": [
+        {"kind": "see", "at": "07:02", "frame": "t00422.jpg", "quote": "Attachments: one PNG file; section 'Supplier's Proof of Invalidity' with one PNG file"},
+        {"kind": "see", "at": "07:02", "frame": "t00428.jpg", "quote": "Bank Details and Notes fields empty; Attachments and 'Supplier's Proof of Invalidity' sections listed below"},
+        {"kind": "say", "at": "07:02", "quote": "Plus at the bottom your document supplier proof of invalidity has been taken into account."}
+      ],
+      "says": "Plus at the bottom your document supplier proof of invalidity has been taken into account.",
+      "why": ""
+    },
+    {
+      "at": "07:12",
+      "screen": "Second browser tab: Claims list (Claim Management > R - Seller Returns), search Order number = 91985",
+      "action": "Trainer shows the claims list searched by order number 91985. The list shows one claim, o941bQ, in group '3. Under QC (1)'. Narration says agents will get access to this portal and will pick up the claim to check the supplier proof of invalidity. That this list is the Revibe agent view is implied, not shown.",
+      "evidence": [
+        {"kind": "see", "at": "07:12", "frame": "t00432.jpg", "quote": "Search Key 'Order number', search text '91985'; row o941bQ, Order help 91985-1, Stage Under QC, Type Return, Subtype Issue; Valid Claim? 'Invalid claim'"},
+        {"kind": "say", "at": "07:10", "quote": "On our side our agents will get access to this {portal.?}"},
+        {"kind": "say", "at": "07:14", "quote": "They will be able to pick up the claim like this {to?} check the supplier proof of invalidity"}
+      ],
+      "says": "They will be able to pick up the claim like this {to?} check the supplier proof of invalidity",
+      "why": ""
+    },
+    {
+      "at": "07:17",
+      "screen": "Claim panel top toolbar",
+      "action": "Trainer opens the claim panel; the action toolbar is visible. The frame does not show a click on any button.",
+      "evidence": [
+        {"kind": "see", "at": "07:17", "frame": "t00437.jpg", "quote": "Toolbar: Mark valid, Mark invalid, Refund to customer, Reject refund to customer, To be refunded to supplier, Reject refund to supplier, Waive refund to supplier, Cancel override, To be credited from supplier, Reject credit from supplier, Waive credit from supplier, Credited from customer, Reject credit from customer, Order details (cut off)"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "07:23",
+      "screen": "Claim panel, Statuses section, then edit mode (Save and Cancel at top right)",
+      "action": "Trainer scrolls to Statuses. The claim panel then shows Save and Cancel at top right, and the Revibe confirmation fields are empty and editable. Narration says the agent can edit here to see the seller's comment.",
+      "evidence": [
+        {"kind": "see", "at": "07:23", "frame": "t00443.jpg", "quote": "Statuses section visible; Valid claim 'Invalid Claim'; Stage 'Under QC'"},
+        {"kind": "see", "at": "07:25", "frame": "t00445.jpg", "quote": "Top right buttons 'Save' and 'Cancel' (edit mode); Revibe confirmation dropdown empty; Revibe confirmation comments empty"},
+        {"kind": "say", "at": "07:23", "quote": "and then here they will be able to edit to see what is the comment of the seller"}
+      ],
+      "says": "and then here they will be able to edit to see what is the comment of the seller",
+      "why": ""
+    },
+    {
+      "at": "07:31",
+      "screen": "Claim panel edit mode, Revibe confirmation field",
+      "action": "Trainer clicks into the Revibe confirmation field, which is focused with the comments field empty. Narration says the agent will put either valid or invalid there.",
+      "evidence": [
+        {"kind": "see", "at": "07:31", "frame": "t00451.jpg", "quote": "Field 'Revibe confirmation' focused; 'Revibe confirmation comments' empty"},
+        {"kind": "say", "at": "07:33", "quote": "and to put a confirmation either they will put valid or invalid and here they will be able"}
+      ],
+      "says": "and to put a confirmation either they will put valid or invalid and here they will be able",
+      "why": ""
+    },
+    {
+      "at": "07:36",
+      "screen": "Claim panel edit mode, Revibe confirmation comments field",
+      "action": "Trainer clicks into the Revibe confirmation comments field. The frame shows a single text-cursor mark in the field, not legible text. The dropdown is closed in this frame.",
+      "evidence": [
+        {"kind": "see", "at": "07:36", "frame": "t00456.jpg", "quote": "'Revibe confirmation comments' field focused with a single mark (caret or one character); no legible text; Revibe confirmation dropdown closed"},
+        {"kind": "say", "at": "07:39", "quote": "also to put a comment."}
+      ],
+      "says": "also to put a comment.",
+      "why": ""
+    },
+    {
+      "at": "07:41",
+      "screen": "Revibe confirmation dropdown open",
+      "action": "Trainer hovers the Invalid claim option, then the Valid claim option, to explain the two outcomes.",
+      "evidence": [
+        {"kind": "see", "at": "07:41", "frame": "t00461.jpg", "quote": "Dropdown open with 'Valid claim' and 'Invalid claim'; cursor on 'Invalid claim'"},
+        {"kind": "say", "at": "07:43", "quote": "If they put invalid {they?} will confirm your decision {then?} the claim and the device will go to"},
+        {"kind": "say", "at": "07:52", "quote": "the lab for a final decision {but?} if they put valid they will say that your proof is"}
+      ],
+      "says": "If they put invalid {they?} will confirm your decision {then?} the claim and the device will go to",
+      "why": ""
+    },
+    {
+      "at": "07:58",
+      "screen": "Revibe confirmation dropdown, cursor on Valid claim",
+      "action": "Trainer explains that choosing Valid means the seller's proof is not sufficient. Narration says the agent would then write a comment asking for more proof.",
+      "evidence": [
+        {"kind": "see", "at": "07:58", "frame": "t00478.jpg", "quote": "Dropdown open with cursor on 'Valid claim'"},
+        {"kind": "say", "at": "07:59", "quote": "not sufficient {in?} this case you will have to provide another proof and they will for instance put"},
+        {"kind": "say", "at": "08:06", "quote": "a comment like this {proof?} {not?} relevant enough {please?} display the battery health {so?} if the revive agent"}
+      ],
+      "says": "a comment like this {proof?} {not?} relevant enough {please?} display the battery health {so?} if the revive agent",
+      "why": ""
+    },
+    {
+      "at": "08:17",
+      "screen": "Claims list, group '18. Under revision (1)'",
+      "action": "After Valid is saved on the Revibe side (Updated By 'pierre@revibe.me'), the claim appears back with the seller. The list row shows Stage 'Under revision', Valid Claim? 'Not replied' and Status 'Open'.",
+      "evidence": [
+        {"kind": "see", "at": "08:17", "frame": "t00497.jpg", "quote": "Group '18. Under revision (1)'; row o941bQ; Stage 'Under revision'; Valid Claim? 'Not replied'; Status 'Open'; Updated By 'pierre@revibe.me'; Updated At 06/05/2026 12:23 PM"},
+        {"kind": "say", "at": "08:21", "quote": "says that the claim from the customer is valid the claim will come back here to under revision"}
+      ],
+      "says": "says that the claim from the customer is valid the claim will come back here to under revision",
+      "why": ""
+    },
+    {
+      "at": "08:26",
+      "screen": "Claim panel reopened, Statuses, Valid claim field",
+      "action": "Seller reopens the claim (the panel is still loading in t00506). The Valid claim field reads 'Not Replied', and the seller can choose Valid claim, Invalid claim or Not replied. The Revibe confirmation comments field, partly out of view at the top of the panel, holds 'Proof not relevant enough, please display the battery health'.",
+      "evidence": [
+        {"kind": "see", "at": "08:26", "frame": "t00506.jpg", "quote": "Claim panel loading (blank panel with loading mark) for claim #14"},
+        {"kind": "see", "at": "08:35", "frame": "t00515.jpg", "quote": "Statuses: Stage 'Under revision'; 'Valid claim' = 'Not Replied'; 'Received By Supplier' = 'Yes'; Revibe confirmation comments partly visible at top: 'Proof not relevant enough, please display the battery healt'"},
+        {"kind": "see", "at": "08:38", "frame": "t00518.jpg", "quote": "Valid claim dropdown open with options 'Valid claim', 'Invalid claim', 'Not replied'"},
+        {"kind": "say", "at": "08:28", "quote": "here at this stage again you will have two options either to market valid or to market invalid"}
+      ],
+      "says": "here at this stage again you will have two options either to market valid or to market invalid",
+      "why": ""
+    },
+    {
+      "at": "08:35",
+      "screen": "Claim panel, Valid claim field changed to Invalid Claim",
+      "action": "Seller changes Valid claim from Not Replied to Invalid Claim. Narration says the seller can decide whether it is invalid and put comments.",
+      "evidence": [
+        {"kind": "see", "at": "08:41", "frame": "t00521.jpg", "quote": "Valid claim field shows 'Invalid Claim' (dropdown closed)"},
+        {"kind": "see", "at": "08:43", "frame": "t00523.jpg", "quote": "Valid claim dropdown open with 'Valid claim', 'Invalid claim', 'Not replied'"},
+        {"kind": "say", "at": "08:35", "quote": "you can edit you can decide if it's invalid or not and put comments."}
+      ],
+      "says": "you can edit you can decide if it's invalid or not and put comments.",
+      "why": ""
+    },
+    {
+      "at": "08:43",
+      "screen": "Claim panel, consequences of Valid (spoken only)",
+      "action": "Trainer explains what happens if the seller marks the claim Valid at this stage. No button is clicked in the frames.",
+      "evidence": [
+        {"kind": "say", "at": "08:43", "quote": "If you decide to mark the claim as valid {then?} the claim will be fully refunded to the"},
+        {"kind": "say", "at": "08:52", "quote": "customer and you will keep the device."}
+      ],
+      "says": "customer and you will keep the device.",
+      "why": ""
+    },
+    {
+      "at": "08:55",
+      "screen": "Claim panel scrolled to the Proof of invalid claim sections",
+      "action": "Trainer explains that marking Invalid means uploading new documents until the Revibe agents accept them. The frames show the supplier and Lab proof areas and a blurred file preview.",
+      "evidence": [
+        {"kind": "see", "at": "08:57", "frame": "t00537.jpg", "quote": "Sections 'Proof of invalid claim by supplier' and 'Proof of invalid claim by Lab' visible; a blurred preview overlay is open, content not legible"},
+        {"kind": "see", "at": "08:59", "frame": "t00539.jpg", "quote": "Revibe confirmation 'Valid Claim'; Revibe confirmation comments 'Proof not relevant enough, please display the battery healt'"},
+        {"kind": "say", "at": "08:55", "quote": "If you mark it invalid then you will have to update new documents to {support?} your point of"},
+        {"kind": "say", "at": "09:04", "quote": "view and until the {revive?} agents believe that your documents are valid."},
+        {"kind": "say", "at": "09:12", "quote": "In this case the claim will be then sent to revive lab for the final decision."}
+      ],
+      "says": "In this case the claim will be then sent to revive lab for the final decision.",
+      "why": ""
+    },
+    {
+      "at": "09:19",
+      "screen": "Claim Edit page, URL admin.revibe.me/dashboard/claim/14/Return/26974/edit",
+      "action": "Trainer shows the Edit page. Valid claim already reads Invalid Claim in this frame (the change itself is not shown), and the Revibe confirmation comments still hold the earlier comment. Narration says to remove the previous proof and provide a new one, then save.",
+      "evidence": [
+        {"kind": "see", "at": "09:19", "frame": "t00559.jpg", "quote": "URL /dashboard/claim/14/Return/26974/edit; 'Valid claim' = 'Invalid Claim'; Revibe confirmation comments 'Proof not relevant enough, please display the battery healt'"},
+        {"kind": "say", "at": "09:19", "quote": "So you can come here, edit the claim, mark it as invalid, remove the previous proof that you"},
+        {"kind": "say", "at": "09:28", "quote": "provided and provide a new one {like?} this for instance and save."}
+      ],
+      "says": "provided and provide a new one {like?} this for instance and save.",
+      "why": ""
+    },
+    {
+      "at": "09:23",
+      "screen": "Claim Edit page, Proof of invalid claim by supplier area",
+      "action": "The 'Proof of invalid claim by supplier' drop zone is empty. Trainer then opens the file picker (frame at 09:29) to add a new proof. The file chosen is not visible in these frames.",
+      "evidence": [
+        {"kind": "see", "at": "09:23", "frame": "t00563.jpg", "quote": "'Proof of invalid claim by supplier' drop zone empty; 'Attachment should be less than 100 mb'; 'Proof of invalid claim by Lab' drop zone empty"},
+        {"kind": "see", "at": "09:29", "frame": "t00569.jpg", "quote": "macOS file picker titled 'Sélectionnez un fichier que ce site peut lire' in the Music folder: 7577.webp, a Capture d'écran file, Covers, Press kit, Tracks; buttons Annuler and Ouvrir"}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "09:36",
+      "screen": "Claim panel, Revibe confirmation empty, comment still shows old text",
+      "action": "Trainer says the Revibe agent can now validate the seller's point of view. The frames show the Revibe confirmation field empty with the earlier comment still in place, and then the dropdown being opened. The new proof file is not visible in these frames.",
+      "evidence": [
+        {"kind": "see", "at": "09:36", "frame": "t00576.jpg", "quote": "Revibe confirmation field empty; Revibe confirmation comments still 'Proof not relevant enough, please display the battery healt'"},
+        {"kind": "see", "at": "09:39", "frame": "t00579.jpg", "quote": "Revibe confirmation dropdown open with 'Valid claim' and 'Invalid claim'; cursor near 'Invalid claim'"},
+        {"kind": "say", "at": "09:36", "quote": "Based on this new proof that you provided the Revive agent can then validate your point of view"}
+      ],
+      "says": "Based on this new proof that you provided the Revive agent can then validate your point of view",
+      "why": ""
+    },
+    {
+      "at": "09:43",
+      "screen": "Claim panel, Revibe confirmation set to Invalid Claim, comment changed",
+      "action": "Trainer sets Revibe confirmation to Invalid claim (cursor on the Invalid claim option, then 'Invalid Claim' shown with the earlier comment), then types the comment 'proof relevant, send to Revibe Lab'.",
+      "evidence": [
+        {"kind": "see", "at": "09:43", "frame": "t00583.jpg", "quote": "Revibe confirmation dropdown open with cursor on 'Invalid claim'"},
+        {"kind": "see", "at": "09:45", "frame": "t00585.jpg", "quote": "Revibe confirmation 'Invalid Claim'; Revibe confirmation comments still 'Proof not relevant enough, please display the battery healt'"},
+        {"kind": "see", "at": "09:53", "frame": "t00593.jpg", "quote": "Revibe confirmation 'Invalid Claim'; 'Revibe confirmation comments' = 'proof relevant, send to Revibe Lab'; Invalid claim comments 'Battery health checked and above 95%'; Valid claim 'Invalid Claim'"},
+        {"kind": "say", "at": "09:44", "quote": "and mark the claim as being {invalid.?}"},
+        {"kind": "say", "at": "09:48", "quote": "Proof {relevant.?}"},
+        {"kind": "say", "at": "09:51", "quote": "Send to ReviveLab."}
+      ],
+      "says": "Send to ReviveLab.",
+      "why": ""
+    },
+    {
+      "at": "09:53",
+      "screen": "Claim Edit page, after entering the Revibe confirmation",
+      "action": "Narration says that once this is done the device is sent automatically to Revibe Lab for the final decision and the case closes for the seller. The frame still shows the Edit page with its Save button; the save and the automatic transfer are not shown.",
+      "evidence": [
+        {"kind": "see", "at": "09:53", "frame": "t00593.jpg", "quote": "Edit page with Save button at top right; Revibe confirmation 'Invalid Claim'; comment 'proof relevant, send to Revibe Lab'"},
+        {"kind": "say", "at": "09:56", "quote": "Once done,"},
+        {"kind": "say", "at": "09:57", "quote": "your device will be automatically sent to ReviveLab for the final decision {who?} will mention here if the"},
+        {"kind": "say", "at": "10:09", "quote": "At this moment, the case will be closed for you because ReviveLab will {the?} final decision."}
+      ],
+      "says": "At this moment, the case will be closed for you because ReviveLab will {the?} final decision.",
+      "why": ""
+    },
+    {
+      "at": "10:02",
+      "screen": "Claim Edit page, LAB decision dropdown",
+      "action": "Trainer opens the LAB decision dropdown, which lists Valid claim and Invalid claim, to show where the Lab outcome is recorded. Who sets this field is not stated in the video.",
+      "evidence": [
+        {"kind": "see", "at": "10:02", "frame": "t00602.jpg", "quote": "'LAB decision' dropdown open with 'Valid claim' and 'Invalid claim'"},
+        {"kind": "say", "at": "10:06", "quote": "claim is valid or invalid."},
+        {"kind": "say", "at": "10:15", "quote": "If the claim is valid {you?} will get back your device and get refunded."},
+        {"kind": "say", "at": "10:19", "quote": "If the claim is invalid either the customer will have to pay to get back this device or"}
+      ],
+      "says": "If the claim is invalid either the customer will have to pay to get back this device or",
+      "why": ""
+    },
+    {
+      "at": "10:22",
+      "screen": "Claim Edit page, LAB decision dropdown still open",
+      "action": "The LAB decision dropdown is still open with the cursor near Invalid claim. No click is shown. Narration explains the Invalid outcome.",
+      "evidence": [
+        {"kind": "see", "at": "10:22", "frame": "t00622.jpg", "quote": "LAB decision dropdown open with 'Valid claim' and 'Invalid claim' listed; cursor near 'Invalid claim'"},
+        {"kind": "say", "at": "10:25", "quote": "if you refuse to pay {Revive?} will keep the device."}
+      ],
+      "says": "if you refuse to pay {Revive?} will keep the device.",
+      "why": ""
+    },
+    {
+      "at": "10:27",
+      "screen": "Claim Edit page, LAB decision = Valid Claim",
+      "action": "LAB decision shows 'Valid Claim' (LAB comments empty, Revibe confirmation still 'Invalid Claim'). The frame does not show who set it. Narration warns the customer will be refunded and there is no going back.",
+      "evidence": [
+        {"kind": "see", "at": "10:27", "frame": "t00627.jpg", "quote": "'LAB decision' = 'Valid Claim'; 'LAB comments' empty; 'Revibe confirmation' = 'Invalid Claim'"},
+        {"kind": "say", "at": "10:30", "quote": "You are accepting the claim the customer will be refunded and there is no possibility to go back."}
+      ],
+      "says": "You are accepting the claim the customer will be refunded and there is no possibility to go back.",
+      "why": ""
+    },
+    {
+      "at": "10:34",
+      "screen": "'Are you sure?' confirmation dialog",
+      "action": "Confirmation dialog shown after LAB decision is set to Valid claim. Trainer answers yes. The frame shows the cursor on Confirm, and the click that opened the dialog is not visible.",
+      "evidence": [
+        {"kind": "see", "at": "10:34", "frame": "t00634.jpg", "quote": "Dialog 'Are you sure?' text 'You are accepting the claim, the customer will be refunded and there is no possibility to go back. Do you accept?' buttons 'Confirm' and 'Cancel'"},
+        {"kind": "say", "at": "10:34", "quote": "Do you accept?"},
+        {"kind": "say", "at": "10:35", "quote": "Yes, {confirmed.?}"}
+      ],
+      "says": "Yes, {confirmed.?}",
+      "why": ""
+    },
+    {
+      "at": "10:38",
+      "screen": "Revibe Return Process PDF (Aperçu), page 1, workflow steps 1 to 4",
+      "action": "Recap of the full process. Trainer says the customer raises a claim, then the Revibe agent checks the proof.",
+      "evidence": [
+        {"kind": "page", "at": "10:54", "frame": "t00654.jpg", "quote": "Steps 1 to 4: 'Customer raise claim' (NO ACTION REQUIRED), 'Revibe Agent Check' (NO ACTION REQUIRED), 'Pickup' (ACTION REQUIRED IF SA), 'Seller action' (ACTION REQUIRED)"},
+        {"kind": "say", "at": "10:43", "quote": "The customer will first raise a claim."},
+        {"kind": "say", "at": "10:45", "quote": "Revive agent will check that the proof provided by the customer is correct."}
+      ],
+      "says": "Revive agent will check that the proof provided by the customer is correct.",
+      "why": ""
+    },
+    {
+      "at": "10:51",
+      "screen": "Revibe Return Process PDF, step 3 Pickup",
+      "action": "Trainer explains the airway bill (AWB) rule by country.",
+      "evidence": [
+        {"kind": "page", "at": "10:54", "frame": "t00654.jpg", "quote": "Step 3 'Pickup': 'AE & ZA: AWB auto-created - moves to Under Collection immediately'; 'SA: Seller to create the AWB manually'"},
+        {"kind": "say", "at": "10:51", "quote": "For UAE and South Africa, airway bill will be automatically created and the device delivered to you."},
+        {"kind": "say", "at": "10:58", "quote": "For Saudi Arabia, you need to create the airway bill to get it delivered to you."}
+      ],
+      "says": "For Saudi Arabia, you need to create the airway bill to get it delivered to you.",
+      "why": ""
+    },
+    {
+      "at": "11:02",
+      "screen": "Revibe Return Process PDF, step 4 Seller action",
+      "action": "Trainer says the claim moves to Under QC and the seller then sets Valid or Invalid.",
+      "evidence": [
+        {"kind": "page", "at": "10:54", "frame": "t00654.jpg", "quote": "Step 4 'Seller action': 'Once the Courier Company delivers the device, the seller can see the claim which status become Under QC'; 'Mark VALID' / 'Mark INVALID'"},
+        {"kind": "say", "at": "11:02", "quote": "Then the claims move to under QC."},
+        {"kind": "say", "at": "11:07", "quote": "Either your market valid, either your market invalid."}
+      ],
+      "says": "Either your market valid, either your market invalid.",
+      "why": ""
+    },
+    {
+      "at": "11:11",
+      "screen": "Revibe Return Process PDF, Dispute resolution: VALID branch",
+      "action": "Trainer explains that a Valid action refunds the customer immediately and closes the case.",
+      "evidence": [
+        {"kind": "page", "at": "11:14", "frame": "t00674.jpg", "quote": "'VALID' box: 'Instant Refund - The customer is refunded immediately. Case closed.'"},
+        {"kind": "say", "at": "11:11", "quote": "If valid, the customer is refunded immediately, the case is closed."}
+      ],
+      "says": "If valid, the customer is refunded immediately, the case is closed.",
+      "why": ""
+    },
+    {
+      "at": "11:16",
+      "screen": "Revibe Return Process PDF, Dispute resolution: INVALID branch",
+      "action": "Trainer explains that an Invalid action requires seller proof, Revibe review, then Lab verification, and what happens if the proof is not good.",
+      "evidence": [
+        {"kind": "page", "at": "11:14", "frame": "t00674.jpg", "quote": "'INVALID' branch: 'Proof Required -> Revibe Review -> Lab Verification'; 'Seller submits proof: Required: written message + supporting proof to challenge the customer claim.'"},
+        {"kind": "say", "at": "11:18", "quote": "you will have to submit proof that will get checked by your agent."},
+        {"kind": "say", "at": "11:21", "quote": "If the proof is good, we send to ReviveLab for the final decision."},
+        {"kind": "say", "at": "11:26", "quote": "If not good, we will ask you to provide a new proof and you will have again the"},
+        {"kind": "say", "at": "11:31", "quote": "choice to market valid or invalid."}
+      ],
+      "says": "If not good, we will ask you to provide a new proof and you will have again the",
+      "why": ""
+    },
+    {
+      "at": "11:35",
+      "screen": "Revibe Return Process PDF, reminder of deadlines (spoken)",
+      "action": "Trainer gives reminders about the working-day deadlines. No screen element shows them; the PDF page in t00692 shows no deadline text.",
+      "evidence": [
+        {"kind": "see", "at": "11:32", "frame": "t00692.jpg", "quote": "Revibe Return Process PDF page 1 with no deadline text visible; Dispute resolution boxes VALID and INVALID"},
+        {"kind": "say", "at": "11:40", "quote": "After six working days from the reception of the device, Revive reserves the right to issue a full"},
+        {"kind": "say", "at": "11:46", "quote": "refund to the customer if there is no cooperation from your side."}
+      ],
+      "says": "After six working days from the reception of the device, Revive reserves the right to issue a full",
+      "why": ""
+    },
+    {
+      "at": "11:52",
+      "screen": "Revibe Return Process PDF, Dispute resolution, final lines (spoken)",
+      "action": "Trainer repeats the eight working day rule and the Lab-outcome rules. No screen element shows the day rule.",
+      "evidence": [
+        {"kind": "see", "at": "11:52", "frame": "t00712.jpg", "quote": "Revibe Return Process PDF page 1 with no eight-working-day text visible"},
+        {"kind": "say", "at": "11:52", "quote": "And after eight working days, even with cooperation from your side, Revive reserves the right to issue a"},
+        {"kind": "say", "at": "12:06", "quote": "If it's valid, full refund to the customer, claims closed."},
+        {"kind": "say", "at": "12:10", "quote": "If invalid, either the customer will pay to get back his device or if he doesn't pay, Revive"}
+      ],
+      "says": "And after eight working days, even with cooperation from your side, Revive reserves the right to issue a",
+      "why": ""
+    }
+  ],
+  "facts": [
+    {
+      "type": "procedure",
+      "statement": "Sellers mark a return claim Valid or Invalid at the Under QC stage, which the Revibe PDF calls 'Seller action', after the Courier Company delivers the device and the claim status becomes Under QC.",
+      "evidence": [
+        {"kind": "page", "at": "10:54", "quote": "Step 4 'Seller action': 'Once the Courier Company delivers the device, the seller can see the claim which status become Under QC'; 'Mark VALID' / 'Mark INVALID'", "frame": "t00654.jpg"},
+        {"kind": "say", "at": "11:05", "quote": "At this stage, you have to set up the action."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "Marking a claim Valid refunds the customer immediately and closes the case.",
+      "evidence": [
+        {"kind": "page", "at": "11:14", "quote": "'VALID' box: 'Instant Refund - The customer is refunded immediately. Case closed.'", "frame": "t00674.jpg"},
+        {"kind": "say", "at": "11:11", "quote": "If valid, the customer is refunded immediately, the case is closed."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "On the Edit page, setting LAB decision to 'Valid claim' opens an 'Are you sure?' dialog: 'You are accepting the claim, the customer will be refunded and there is no possibility to go back. Do you accept?' with Confirm and Cancel buttons. Once confirmed, the narration says there is no going back.",
+      "evidence": [
+        {"kind": "see", "at": "10:34", "quote": "Dialog 'Are you sure?': 'You are accepting the claim, the customer will be refunded and there is no possibility to go back. Do you accept?' buttons 'Confirm' and 'Cancel'", "frame": "t00634.jpg"},
+        {"kind": "say", "at": "10:30", "quote": "You are accepting the claim the customer will be refunded and there is no possibility to go back."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "When a seller marks a claim Valid at this stage, the claim is fully refunded to the customer and the seller keeps the device (spoken rule; no button action is shown in the frames).",
+      "evidence": [
+        {"kind": "say", "at": "08:43", "quote": "If you decide to mark the claim as valid {then?} the claim will be fully refunded to the"},
+        {"kind": "say", "at": "08:52", "quote": "customer and you will keep the device."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Marking a claim Invalid requires the seller to submit proof: a written message plus supporting proof to challenge the customer claim.",
+      "evidence": [
+        {"kind": "page", "at": "11:14", "quote": "'Seller submits proof' - 'Required: written message + supporting proof to challenge the customer claim.'", "frame": "t00674.jpg"},
+        {"kind": "say", "at": "11:18", "quote": "you will have to submit proof that will get checked by your agent."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Invalid claims follow the path: Proof Required, then Revibe Review, then Lab Verification.",
+      "evidence": [
+        {"kind": "page", "at": "11:14", "quote": "'INVALID' branch: 'Proof Required -> Revibe Review -> Lab Verification'", "frame": "t00674.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The 'Enter proof of invalid claim' modal has an 'Invalid claim comment' text field, a 'Proof of invalid claim by supplier' drop zone with the note 'Attachment should be less than 100 mb', and Cancel and Add buttons.",
+      "evidence": [
+        {"kind": "see", "at": "06:38", "quote": "Modal 'Enter proof of invalid claim'; 'Invalid claim comment'; 'Proof of invalid claim by supplier'; 'Attachment should be less than 100 mb'; Cancel / Add", "frame": "t00398.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The proof drop zone note reads 'Attachment should be less than 100 mb'.",
+      "evidence": [
+        {"kind": "see", "at": "06:38", "quote": "'Attachment should be less than 100 mb'", "frame": "t00398.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "Uploading a proof file can show the error toast 'Format not supported'. The frame does not show which formats are allowed.",
+      "evidence": [
+        {"kind": "see", "at": "06:42", "quote": "Top-right toast 'Format not supported' while 'Uploading attachment...' is shown", "frame": "t00402.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "After an invalid claim is submitted, the claim panel shows the 'Invalid claim comments' value and 'Missing proof' under Missing document, and the Statuses section shows Valid claim = Invalid Claim.",
+      "evidence": [
+        {"kind": "see", "at": "06:44", "quote": "Invalid claim comments 'Battery health checked and above 95%'; Missing document 'Missing proof'", "frame": "t00404.jpg"},
+        {"kind": "see", "at": "06:52", "quote": "Valid claim 'Invalid Claim'; Stage 'Under QC'; Status 'Open'", "frame": "t00412.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The claim panel's top toolbar holds the claim actions: Mark valid, Mark invalid, Refund to customer, Reject refund to customer, To be refunded to supplier, Reject refund to supplier, Waive refund to supplier, Cancel override, To be credited from supplier, Reject credit from supplier, Waive credit from supplier, Credited from customer, Reject credit from customer, Order details.",
+      "evidence": [
+        {"kind": "see", "at": "07:17", "quote": "Toolbar buttons listed above (Mark valid and Mark invalid first; Order details last, partly cut off)", "frame": "t00437.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The Revibe Return Process PDF step 'Revibe Agent Check': the Revibe agent reviews the customer's proof. Once validated the request is marked Completed, and the status is Pending Collection.",
+      "evidence": [
+        {"kind": "page", "at": "10:54", "quote": "Step 2 'Revibe Agent Check': 'The Revibe agent reviews the customer's proof. Once validated the request is marked Completed'; 'Status: Pending Collection'", "frame": "t00654.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "The Revibe Return Process PDF step 'Customer raise claim': the customer raises a return through the 'My Account' section on Revibe, and the status is Pending (Revibe team to review).",
+      "evidence": [
+        {"kind": "page", "at": "10:54", "quote": "Step 1 'Customer raise claim' (NO ACTION REQUIRED): 'The customer raises a return through the My Account section on Revibe'; 'Status: Pending (Revibe team to review)'", "frame": "t00654.jpg"},
+        {"kind": "say", "at": "10:43", "quote": "The customer will first raise a claim."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "Revibe agents can read the seller's supplier proof of invalidity and the seller's comment in the claim, and then confirm Valid or Invalid with a comment. Narration describes this as the agents' step; the trainer demonstrates these fields on the seller-side dashboard.",
+      "evidence": [
+        {"kind": "say", "at": "07:14", "quote": "They will be able to pick up the claim like this {to?} check the supplier proof of invalidity"},
+        {"kind": "say", "at": "07:33", "quote": "and to put a confirmation either they will put valid or invalid and here they will be able"},
+        {"kind": "see", "at": "07:31", "quote": "'Revibe confirmation' dropdown offers 'Valid claim' and 'Invalid claim'", "frame": "t00451.jpg"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The Revibe confirmation dropdown offers Valid claim or Invalid claim. The comment field next to it is labelled 'Revibe confirmation comments'.",
+      "evidence": [
+        {"kind": "see", "at": "07:41", "quote": "Dropdown open with 'Valid claim' and 'Invalid claim'", "frame": "t00461.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "If the Revibe agent confirms Invalid, the seller's decision stands and the claim and device go to the Revibe Lab for a final decision.",
+      "evidence": [
+        {"kind": "say", "at": "07:43", "quote": "If they put invalid {they?} will confirm your decision {then?} the claim and the device will go to"},
+        {"kind": "say", "at": "07:52", "quote": "the lab for a final decision {but?} if they put valid they will say that your proof is"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "If the Revibe agent confirms Valid, the seller's proof is not sufficient. The seller must provide another proof, and the agent writes a comment such as 'Proof not relevant enough, please display the battery health'.",
+      "evidence": [
+        {"kind": "say", "at": "07:59", "quote": "not sufficient {in?} this case you will have to provide another proof and they will for instance put"},
+        {"kind": "say", "at": "08:06", "quote": "a comment like this {proof?} {not?} relevant enough {please?} display the battery health {so?} if the revive agent"},
+        {"kind": "see", "at": "08:59", "quote": "Revibe confirmation comments 'Proof not relevant enough, please display the battery healt'", "frame": "t00539.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "When the Revibe agent confirms Valid, the claim returns to the seller and its stage becomes 'Under revision'.",
+      "evidence": [
+        {"kind": "see", "at": "08:17", "quote": "Group '18. Under revision (1)'; Stage 'Under revision'; Valid Claim? 'Not replied'", "frame": "t00497.jpg"},
+        {"kind": "say", "at": "08:21", "quote": "says that the claim from the customer is valid the claim will come back here to under revision"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "In the 'Under revision' state the seller's Valid claim field shows 'Not Replied' and the dropdown offers Valid claim, Invalid claim and Not replied.",
+      "evidence": [
+        {"kind": "see", "at": "08:35", "quote": "'Valid claim' = 'Not Replied'; Stage 'Under revision'", "frame": "t00515.jpg"},
+        {"kind": "see", "at": "08:38", "quote": "Dropdown options 'Valid claim', 'Invalid claim', 'Not replied'", "frame": "t00518.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "To resubmit proof after an insufficient-proof decision, the seller changes Valid claim to Invalid Claim on the Edit page, removes the previous supplier proof, uploads a new one, and saves.",
+      "evidence": [
+        {"kind": "say", "at": "09:19", "quote": "So you can come here, edit the claim, mark it as invalid, remove the previous proof that you"},
+        {"kind": "say", "at": "09:28", "quote": "provided and provide a new one {like?} this for instance and save."},
+        {"kind": "see", "at": "09:23", "quote": "'Proof of invalid claim by supplier' drop zone empty after the old proof was removed", "frame": "t00563.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Revibe Lab hand-off: when the Revibe confirmation is set to Invalid with a comment such as 'proof relevant, send to Revibe Lab' (set by the trainer in the demo), the narration says the device is sent automatically to Revibe Lab for the final decision and the case is closed for the seller.",
+      "evidence": [
+        {"kind": "see", "at": "09:53", "quote": "'Revibe confirmation' = 'Invalid Claim'; 'Revibe confirmation comments' = 'proof relevant, send to Revibe Lab'", "frame": "t00593.jpg"},
+        {"kind": "say", "at": "09:57", "quote": "your device will be automatically sent to ReviveLab for the final decision {who?} will mention here if the"},
+        {"kind": "say", "at": "10:09", "quote": "At this moment, the case will be closed for you because ReviveLab will {the?} final decision."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The Edit page has a 'LAB decision' dropdown with Valid claim and Invalid claim, and a 'LAB comments' field.",
+      "evidence": [
+        {"kind": "see", "at": "10:02", "quote": "'LAB decision' dropdown open with 'Valid claim' and 'Invalid claim'; 'LAB comments' field", "frame": "t00602.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Lab decision Invalid: the customer pays to get the device shipped to them. If the customer does not pay, Revibe keeps the device.",
+      "evidence": [
+        {"kind": "page", "at": "11:14", "quote": "'Revibe Lab final decision': 'Invalid -> customer pays = ship to customer; doesn't pay = device kept'", "frame": "t00674.jpg"},
+        {"kind": "say", "at": "12:10", "quote": "If invalid, either the customer will pay to get back his device or if he doesn't pay, Revive"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Lab decision Valid: full refund and the device is shipped back to the seller, according to the Revibe Return Process PDF.",
+      "evidence": [
+        {"kind": "page", "at": "11:14", "quote": "'Revibe Lab final decision': 'Valid -> full refund + ship back to seller'", "frame": "t00674.jpg"},
+        {"kind": "say", "at": "10:15", "quote": "If the claim is valid {you?} will get back your device and get refunded."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Implied: the LAB decision field is where the Revibe Lab outcome is recorded. The narration says the Lab 'will mention here if the claim is valid or invalid', but the word before 'will mention' is unclear, and the frames do not show who sets the field.",
+      "evidence": [
+        {"kind": "say", "at": "09:57", "quote": "your device will be automatically sent to ReviveLab for the final decision {who?} will mention here if the"},
+        {"kind": "say", "at": "10:06", "quote": "claim is valid or invalid."}
+      ],
+      "confidence": "low",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Eligibility (PDF banner): 15 days from delivery; any second valid claim on the same order is accepted even after 15 days.",
+      "evidence": [
+        {"kind": "page", "at": "10:54", "quote": "'Eligibility: 15 days from delivery - any second valid claim on the same order is accepted even after 15 days.'", "frame": "t00654.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Deadline: after six working days from the reception of the device, Revibe may issue a full refund to the customer if the seller does not cooperate.",
+      "evidence": [
+        {"kind": "say", "at": "11:40", "quote": "After six working days from the reception of the device, Revive reserves the right to issue a full"},
+        {"kind": "say", "at": "11:46", "quote": "refund to the customer if there is no cooperation from your side."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Deadline: after eight working days, Revibe may issue a full refund to the customer even if the seller cooperates.",
+      "evidence": [
+        {"kind": "say", "at": "11:52", "quote": "And after eight working days, even with cooperation from your side, Revive reserves the right to issue a"},
+        {"kind": "say", "at": "11:58", "quote": "full refund to the customer."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Revibe checks the proof: if the proof is good the device is sent to the Lab; if the proof is insufficient the seller is asked for new proof and re-marks Valid or Invalid.",
+      "evidence": [
+        {"kind": "page", "at": "11:14", "quote": "'Revibe checks proof': 'Good proof -> device sent to Lab'; 'Insufficient -> seller asked for new proof and re-marks Valid/Invalid.'", "frame": "t00674.jpg"},
+        {"kind": "say", "at": "12:00", "quote": "If the proof provided by you is good, we will send to the lab for a final decision."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Pickup by country: for UAE and South Africa (PDF codes AE and ZA), the airway bill is created automatically and the device is delivered to the seller. For Saudi Arabia (PDF code SA), the seller must create the airway bill.",
+      "evidence": [
+        {"kind": "page", "at": "10:54", "quote": "Step 3 'Pickup': 'AE & ZA: AWB auto-created - moves to Under Collection immediately'; 'SA: Seller to create the AWB manually'", "frame": "t00654.jpg"},
+        {"kind": "say", "at": "10:51", "quote": "For UAE and South Africa, airway bill will be automatically created and the device delivered to you."},
+        {"kind": "say", "at": "10:58", "quote": "For Saudi Arabia, you need to create the airway bill to get it delivered to you."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Portal info shown on the claim (PDF): Tracking (original shipment), Pickup Tracking (return), Ship-Back (sent to customer), Lab (testing). All refunds and charges appear in the Payment Tool.",
+      "evidence": [
+        {"kind": "page", "at": "10:54", "quote": "'Portal info displayed: Tracking (original shipment) - Pickup Tracking (return) - Ship-Back (sent to customer) - Lab (testing). Payment: all refunds and charges appear in the payment tool.'", "frame": "t00654.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The Statuses section lists: Type, Subtype, Stage, Status, Valid claim, Received By Supplier, Customer wants AWB?, Refund to cx status, Refund to supplier status, Credit from supplier status, Credit from customer status, Refunded to cx at, Pickup Shipment Status, LAB Shipment Status, Shipback Shipment Status.",
+      "evidence": [
+        {"kind": "see", "at": "06:52", "quote": "Statuses section fields as listed", "frame": "t00412.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "In the Statuses section, Pickup Shipment Status reads 'Delivered' on this claim.",
+      "evidence": [
+        {"kind": "see", "at": "06:52", "quote": "Pickup Shipment Status 'Delivered'; LAB Shipment Status and Shipback Shipment Status empty", "frame": "t00412.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The Tracking Information section shows Tracking ID 'Manual', Tracking Company 'The Courier Guy', and Tracking Link 'https://thecourierguy.co.za/tracking/'.",
+      "evidence": [
+        {"kind": "see", "at": "06:52", "quote": "Tracking ID 'Manual'; Tracking Company 'The Courier Guy'; Tracking Link 'https://thecourierguy.co.za/tracking/'", "frame": "t00412.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The claim panel shows a 'Refund to cx amount' value of 319. No currency is shown on screen.",
+      "evidence": [
+        {"kind": "see", "at": "06:54", "quote": "'Refund to cx amount' = 319", "frame": "t00414.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The claims list (Claim Management > R - Seller Returns) has a Search Key dropdown (default 'Order number') and columns including Claim ID, Claim Date, Order Help, Stage, Type, Subtype, Original Supplier, Repair Supplier, Type Of Request, Revibe Comment, Supplier Comm..., Since creation, Since last stage, Since last update, Refund To Cx S..., Refund Type, Updated By, Updated At, Valid Claim?, Status.",
+      "evidence": [
+        {"kind": "see", "at": "07:12", "quote": "Column headers as listed; Search Key 'Order number'", "frame": "t00432.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The Claim Management sidebar submenu lists R - Revibe Returns, R - Seller Returns, R - Seller Request, R - Seller Returns SA, Payment Tool, Unassigned Orders, Invoices and Bulk Update, plus the R - 0 to R - 6 stage views (for example R - 0. Pending To Create, R - 3. Invalid Claim, R - 4. LAB).",
+      "evidence": [
+        {"kind": "see", "at": "07:12", "quote": "Sidebar Claim Management submenu: R - Revibe Returns, R - 0. Pending To Create, R - 1. Pending Collection, R - Seller Returns, R - 6. Ready For Refund, R - 3. Invalid Claim, R - 4. LAB, R - Revibe Request, R - Seller Request, R - 2. Collection Failed, R - Seller Returns SA", "frame": "t00432.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "To find a claim, use the claims list search with Search Key 'Order number' and type the order number (example: 91985). The search box placeholder reads 'Search order number and press enter'. The Order help is shown as 91985-1 (example claim o941bQ).",
+      "evidence": [
+        {"kind": "see", "at": "07:12", "quote": "Search Key 'Order number'; search text '91985'; row o941bQ with Order help 91985-1", "frame": "t00432.jpg"},
+        {"kind": "see", "at": "06:38", "quote": "Search box placeholder 'Search order number and press enter' (behind the modal)", "frame": "t00398.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "In the claim panel, the header has Edit and Tracker buttons. In edit mode (Save and Cancel shown at top right), the Revibe confirmation, Revibe confirmation comments and LAB decision fields are editable.",
+      "evidence": [
+        {"kind": "see", "at": "06:44", "quote": "Header with 'Edit' and 'Tracker' buttons", "frame": "t00404.jpg"},
+        {"kind": "see", "at": "07:25", "quote": "'Save' and 'Cancel' at top right; 'Revibe confirmation' dropdown editable", "frame": "t00445.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The claims list groups claims by stage with a count, for example '3. Under QC (1)' and '18. Under revision (1)'.",
+      "evidence": [
+        {"kind": "see", "at": "07:12", "quote": "Group header '3. Under QC (1)'", "frame": "t00432.jpg"},
+        {"kind": "see", "at": "08:17", "quote": "Group header '18. Under revision (1)'", "frame": "t00497.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Bank Details (Account holder name, Account number, Bank name, IBAN number) and a Notes field are in the claim panel. They were empty in the frames shown.",
+      "evidence": [
+        {"kind": "see", "at": "06:54", "quote": "Bank Details fields and Notes field empty", "frame": "t00414.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The Attachments section lists the claim's files. Supplier proof appears under 'Supplier's Proof of Invalidity', and the Lab proof area on the Edit page is labelled 'Proof of invalid claim by Lab'.",
+      "evidence": [
+        {"kind": "see", "at": "07:02", "quote": "Section 'Supplier's Proof of Invalidity' with a PNG file; Attachments section with a PNG file", "frame": "t00422.jpg"},
+        {"kind": "see", "at": "09:23", "quote": "'Proof of invalid claim by Lab' drop zone empty", "frame": "t00563.jpg"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "tip",
+      "statement": "Example seller comment for the invalid proof: 'Battery health checked and above 95%'. Example Revibe comment for insufficient proof: 'Proof not relevant enough, please display the battery health'.",
+      "evidence": [
+        {"kind": "see", "at": "06:38", "quote": "'Battery health checked and above 95%'", "frame": "t00398.jpg"},
+        {"kind": "see", "at": "08:59", "quote": "'Proof not relevant enough, please display the battery healt' (cut off in this frame)", "frame": "t00539.jpg"}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The 'Explanation to show' field on this claim reads 'We received your device and we are running our investigation process. This process will take from 2 to 4 days.' The video does not say who sees this field.",
+      "evidence": [
+        {"kind": "see", "at": "06:44", "quote": "'Explanation to show' = 'We received your device and we are running our investigation process. This process will take from 2 to 4 day' (cut off)", "frame": "t00404.jpg"},
+        {"kind": "see", "at": "09:53", "quote": "'Explanation to show' = '...This process will take from 2 to 4 days.' on the Edit page", "frame": "t00593.jpg"}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    }
+  ],
+  "screens": [
+    {
+      "name": "Enter proof of invalid claim modal",
+      "shows": "Opened over the claim panel at admin.revibe.me/dashboard/claim/14. Field 'Invalid claim comment', drop zone 'Proof of invalid claim by supplier', note 'Attachment should be less than 100 mb', buttons Cancel and Add.",
+      "at": "06:38",
+      "frame": "t00398.jpg",
+      "where": "Revibe admin dashboard, claim panel"
+    },
+    {
+      "name": "Claim detail side panel (claim o941bQ)",
+      "shows": "Header with claim ID, status badge Open, Edit and Tracker buttons; toolbar with Mark valid, Mark invalid, Order details; sections Claim Details, Statuses, Tracking Information, Bank Details, Notes, Attachments, View Details.",
+      "at": "06:44",
+      "frame": "t00404.jpg",
+      "where": "Right-hand side panel over the Claims list"
+    },
+    {
+      "name": "Statuses section",
+      "shows": "Type Return, Subtype Issue, Stage Under QC then Under revision, Status Open, Valid claim, Received By Supplier, Pickup Shipment Status 'Delivered', and the other shipment and refund status fields.",
+      "at": "06:52",
+      "frame": "t00412.jpg",
+      "where": "Claim detail panel"
+    },
+    {
+      "name": "Tracking Information section",
+      "shows": "Tracking ID 'Manual', Tracking Company 'The Courier Guy', Tracking Link https://thecourierguy.co.za/tracking/.",
+      "at": "06:54",
+      "frame": "t00414.jpg",
+      "where": "Claim detail panel"
+    },
+    {
+      "name": "Attachments section",
+      "shows": "Attachments list with a PNG file, and 'Supplier's Proof of Invalidity' with a PNG file.",
+      "at": "07:02",
+      "frame": "t00422.jpg",
+      "where": "Claim detail panel, bottom"
+    },
+    {
+      "name": "Claims list (Claim Management > R - Seller Returns) with search",
+      "shows": "Search Key dropdown 'Order number', search box with 91985, columns Claim ID to Status, Export, Groups, More Filters, Raise a claim, row o941bQ and group header '3. Under QC (1)'. Sidebar Claim Management submenu items incl. R - Seller Returns, R - Seller Returns SA, Payment Tool, Unassigned Orders, Invoices, Bulk Update.",
+      "at": "07:12",
+      "frame": "t00432.jpg",
+      "where": "Second browser tab"
+    },
+    {
+      "name": "Claim panel action toolbar",
+      "shows": "Mark valid, Mark invalid, Refund to customer, Reject refund to customer, To be refunded to supplier, Reject refund to supplier, Waive refund to supplier, Cancel override, To be credited from supplier, Reject credit from supplier, Waive credit from supplier, Credited from customer, Reject credit from customer, Order details.",
+      "at": "07:17",
+      "frame": "t00437.jpg",
+      "where": "Top of claim detail panel"
+    },
+    {
+      "name": "Claim panel edit mode",
+      "shows": "Save and Cancel buttons at top right, Revibe confirmation dropdown and comment field, LAB decision, Customer paid?, Revibe Comments, Supplier Comments.",
+      "at": "07:25",
+      "frame": "t00445.jpg",
+      "where": "Claim detail panel"
+    },
+    {
+      "name": "Revibe confirmation dropdown",
+      "shows": "Options 'Valid claim' and 'Invalid claim'.",
+      "at": "07:41",
+      "frame": "t00461.jpg",
+      "where": "Claim detail panel, edit mode"
+    },
+    {
+      "name": "Claims list group 18. Under revision",
+      "shows": "Row o941bQ with Stage 'Under revision', Valid Claim? 'Not replied', Status 'Open', Updated By and Updated At columns.",
+      "at": "08:17",
+      "frame": "t00497.jpg",
+      "where": "Claims list"
+    },
+    {
+      "name": "Valid claim dropdown (under revision)",
+      "shows": "Options 'Valid claim', 'Invalid claim', 'Not replied'.",
+      "at": "08:38",
+      "frame": "t00518.jpg",
+      "where": "Claim detail panel, Statuses"
+    },
+    {
+      "name": "Claim Edit page",
+      "shows": "Full edit form at URL admin.revibe.me/dashboard/claim/14/Return/26974/edit with a Save button at top right, sections Claim Details, Statuses, Tracking, Bank Details, Notes, Attachments.",
+      "at": "09:19",
+      "frame": "t00559.jpg",
+      "where": "Main browser tab, URL /dashboard/claim/14/Return/26974/edit"
+    },
+    {
+      "name": "Supplier proof drop zone (edit page)",
+      "shows": "Empty 'Proof of invalid claim by supplier' and 'Proof of invalid claim by Lab' drop zones with 'Attachment should be less than 100 mb'.",
+      "at": "09:23",
+      "frame": "t00563.jpg",
+      "where": "Claim Edit page"
+    },
+    {
+      "name": "macOS file picker",
+      "shows": "Sélectionnez un fichier que ce site peut lire (Music folder): 7577.webp, a Capture d'écran file, Covers, Press kit, Tracks; buttons Annuler and Ouvrir.",
+      "at": "09:29",
+      "frame": "t00569.jpg",
+      "where": "OS file dialog"
+    },
+    {
+      "name": "Claim Edit page, Revibe confirmation set to Invalid Claim",
+      "shows": "Revibe confirmation 'Invalid Claim', Revibe confirmation comments 'proof relevant, send to Revibe Lab', Invalid claim comments 'Battery health checked and above 95%', LAB decision empty, Customer paid?, Supplier Comments.",
+      "at": "09:53",
+      "frame": "t00593.jpg",
+      "where": "Claim Edit page"
+    },
+    {
+      "name": "LAB decision dropdown",
+      "shows": "Options 'Valid claim' and 'Invalid claim' under LAB decision.",
+      "at": "10:02",
+      "frame": "t00602.jpg",
+      "where": "Claim Edit page"
+    },
+    {
+      "name": "Are you sure? confirmation dialog",
+      "shows": "'You are accepting the claim, the customer will be refunded and there is no possibility to go back. Do you accept?' Buttons Confirm and Cancel.",
+      "at": "10:34",
+      "frame": "t00634.jpg",
+      "where": "Modal over Claim Edit page"
+    },
+    {
+      "name": "Revibe Return Process PDF",
+      "shows": "Revibe-Return-Process.pdf, page 1: 4-step workflow (Customer raise claim, Revibe Agent Check, Pickup, Seller action), Dispute resolution VALID and INVALID branches, Eligibility banner, Portal info line, Payment note.",
+      "at": "10:54",
+      "frame": "t00654.jpg",
+      "where": "macOS Preview window"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Claim (claim ID, e.g. o941bQ)",
+      "meaning": "A return claim record in Claim Management. Its order is shown as Order help (e.g. 91985-1).",
+      "at": "06:38"
+    },
+    {
+      "term": "Mark valid / Mark invalid",
+      "meaning": "Buttons in the claim panel toolbar, labelled as the seller's Valid and Invalid actions in the PDF (step 4: 'Mark VALID' / 'Mark INVALID').",
+      "at": "07:17"
+    },
+    {
+      "term": "Valid claim (status field)",
+      "meaning": "Field in Statuses holding the claim decision: Invalid Claim, Valid claim, Not Replied or Not replied (the Not Replied value appears after a return to Under revision).",
+      "at": "06:52"
+    },
+    {
+      "term": "Revibe confirmation (field)",
+      "meaning": "Field with the dropdown options Valid claim and Invalid claim, with a Revibe confirmation comments field beside it.",
+      "at": "07:31"
+    },
+    {
+      "term": "LAB decision (field)",
+      "meaning": "Field on the Edit page with the dropdown options Valid claim and Invalid claim, with LAB comments beside it.",
+      "at": "10:02"
+    },
+    {
+      "term": "Under QC",
+      "meaning": "Stage after the courier delivers the device (PDF: status becomes Under QC for the seller).",
+      "at": "11:02"
+    },
+    {
+      "term": "Under revision",
+      "meaning": "Stage shown on the claim after the Revibe side confirms Valid (narration: the claim 'will come back here to under revision').",
+      "at": "08:21"
+    },
+    {
+      "term": "Under Collection / Pending Collection / Pending",
+      "meaning": "Claim statuses named in the PDF workflow: Pending for a claim the customer raises (Revibe team to review); Pending Collection after Revibe validation; Under Collection after pickup for AE and ZA.",
+      "at": "10:54"
+    },
+    {
+      "term": "Revibe Lab (ReviveLab in the audio)",
+      "meaning": "The lab that gives the final decision on a disputed claim, per the narration. The screen and PDF use the spelling Revibe Lab.",
+      "at": "09:51"
+    },
+    {
+      "term": "AWB (airway bill)",
+      "meaning": "Shipping document for the return pickup. Created automatically for AE and ZA; created by the seller for SA (PDF).",
+      "at": "10:51"
+    },
+    {
+      "term": "AE / ZA / SA",
+      "meaning": "Country codes used in the PDF. The narration names UAE and South Africa for AE and ZA, and Saudi Arabia for SA.",
+      "at": "10:51"
+    },
+    {
+      "term": "Supplier's Proof of Invalidity",
+      "meaning": "Attachment section holding the seller's proof for an invalid claim.",
+      "at": "07:02"
+    },
+    {
+      "term": "Missing proof (Missing document)",
+      "meaning": "Value shown in the Missing document field after the seller submits an invalid claim.",
+      "at": "06:44"
+    },
+    {
+      "term": "Eligibility",
+      "meaning": "PDF banner: 15 days from delivery; any second valid claim on the same order is accepted even after 15 days.",
+      "at": "10:54"
+    },
+    {
+      "term": "Instant Refund",
+      "meaning": "PDF label for the Valid outcome: the customer is refunded immediately and the case is closed.",
+      "at": "11:11"
+    },
+    {
+      "term": "Payment tool",
+      "meaning": "Where all refunds and charges appear (per the PDF).",
+      "at": "10:54"
+    }
+  ],
+  "asr_fixes": [
+    {
+      "at": "06:55",
+      "heard": "{and?} here in statutes you can see",
+      "correct": "here in Statuses you can see",
+      "basis": "Section heading 'Statuses' (frames t00412, t00443)."
+    },
+    {
+      "at": "08:06",
+      "heard": "if the revive agent",
+      "correct": "if the Revibe agent",
+      "basis": "Screen shows the REVIBE logo and the field 'Revibe confirmation' (frames t00398 onward)."
+    },
+    {
+      "at": "08:06",
+      "heard": "{proof?} {not?} relevant enough {please?} display the battery health",
+      "correct": "Proof not relevant enough, please display the battery health",
+      "basis": "Revibe confirmation comment on screen (frames t00515, t00539, t00585); the field is cut off in some frames."
+    },
+    {
+      "at": "08:28",
+      "heard": "either to market valid or to market invalid",
+      "correct": "either to Mark valid or to Mark invalid",
+      "basis": "Claim panel toolbar buttons 'Mark valid' and 'Mark invalid' (frame t00437) and PDF step 4 'Mark VALID' / 'Mark INVALID' (frame t00654)."
+    },
+    {
+      "at": "09:51",
+      "heard": "Send to ReviveLab.",
+      "correct": "Send to Revibe Lab.",
+      "basis": "Screen comment field reads 'proof relevant, send to Revibe Lab' (frame t00593); PDF says 'Revibe Lab final decision' (frame t00674)."
+    },
+    {
+      "at": "10:45",
+      "heard": "Revive agent will check that the proof provided by the customer is correct.",
+      "correct": "Revibe agent will check that the proof provided by the customer is correct.",
+      "basis": "PDF step 2 'Revibe Agent Check' (frame t00654)."
+    },
+    {
+      "at": "10:50",
+      "heard": "Then {pick?} up stage.",
+      "correct": "Then Pickup stage.",
+      "basis": "PDF step 3 'Pickup' (frame t00654)."
+    },
+    {
+      "at": "11:07",
+      "heard": "Either your market valid, either your market invalid.",
+      "correct": "Either Mark valid, or Mark invalid.",
+      "basis": "Claim panel toolbar buttons 'Mark valid' and 'Mark invalid' (frames t00404, t00437); PDF step 4 reads 'Mark VALID' / 'Mark INVALID' (frame t00654)."
+    }
+  ],
+  "unclear": [
+    {
+      "at": "06:51",
+      "issue": "Narration says 'The invalid button is not available anymore', but the Mark invalid button still appears in the toolbar in frames t00404 and t00437. The frames do not clearly show a disabled state, so it is not stated as a fact."
+    },
+    {
+      "at": "07:36",
+      "issue": "The Revibe confirmation comments field shows only a text-cursor mark in t00456; the typed text, if any, is not legible. The narration only says 'also to put a comment.'"
+    },
+    {
+      "at": "09:36",
+      "issue": "Narration says a new proof was provided, but no new file name or attachment change is visible in frames t00573 to t00585. The file picker frame (t00569) does not show which file was chosen."
+    },
+    {
+      "at": "10:02",
+      "issue": "The narration says the outcome will be mentioned in the LAB decision field (the word before 'will mention' is unclear, marked {who?}). The video does not say whether the seller or Revibe Lab sets this field, although the trainer sets it in the demo (t00627)."
+    },
+    {
+      "at": "10:15",
+      "issue": "At Lab Valid, narration says 'you will get back your device and get refunded' (10:15), and at 12:06 'full refund to the customer'. The PDF says 'Valid -> full refund + ship back to seller'. Who receives the refund at Lab Valid is not settled by the evidence."
+    },
+    {
+      "at": "10:25",
+      "issue": "Narration says 'if you refuse to pay', but the PDF says the customer does not pay and the device is kept (frame t00674). The speech wording differs from the PDF, so the fact is stated from the PDF, not from the narration."
+    },
+    {
+      "at": "11:35",
+      "issue": "'{five?} working days to close a claim' is a low-confidence number, and it conflicts with the six working days in the next line. No screen or other speech confirms it. Not stated as a fact."
+    },
+    {
+      "at": "07:14",
+      "issue": "The video does not say whether sellers can edit the Revibe confirmation and LAB decision fields, or whether the trainer is demonstrating the Revibe agent view inside the seller dashboard. Frames show the same claim panel with these fields editable."
+    },
+    {
+      "at": "06:42",
+      "issue": "The upload shows 'Format not supported' (frame t00402), yet a PNG file is listed under Supplier's Proof of Invalidity later (frame t00414). The accepted file formats are not stated in the video."
+    },
+    {
+      "at": "10:30",
+      "issue": "The 'Are you sure?' dialog appears after LAB decision is set to Valid claim (frames t00627, t00634), but the click that triggers it is not shown. It is unclear whether the same dialog appears for a seller's own Valid decision."
+    }
+  ],
+  "outdated": [],
+  "privacy": [
+    {
+      "at": "07:12",
+      "frame": "t00432.jpg",
+      "what": "Claims list 'Updated By' column shows a personal email address: pierre.villaceque@gmail.com."
+    },
+    {
+      "at": "08:17",
+      "frame": "t00497.jpg",
+      "what": "Claims list 'Updated By' column shows a staff email address: pierre@revibe.me."
+    },
+    {
+      "at": "09:29",
+      "frame": "t00569.jpg",
+      "what": "OS file picker shows the presenter's local folders and file names (Music folder, 7577.webp, a Capture d'écran file, Covers, Press kit, Tracks)."
+    },
+    {
+      "at": "06:38",
+      "frame": "t00398.jpg",
+      "what": "Browser bookmark bar shows the presenter's personal bookmark folders (for example Cash appart, Interactive Brokers, Carta), and the webcam overlay shows the presenter's face in most frames. No customer names, phone numbers, emails or addresses are visible: Name to show, Bank details and Notes are empty."
+    }
+  ],
+  "frames_opened": 40,
+  "audit": {
+    "checked": 126,
+    "removed": [
+      {
+        "statement": "asr_fixes entry at 10:25 changing 'if you refuse to pay {Revive?} will keep the device.' to 'if the customer does not pay, Revibe will keep the device.'",
+        "reason": "Not a transcription error: the narrator's wording differs from the PDF, which is a content difference. Kept as an unclear entry at 10:25 instead."
+      },
+      {
+        "statement": "Step 06:52: trainer 'points at the Valid claim status'",
+        "reason": "No pointer is visible on the Valid claim field in t00412; the narration only says 'here in Statuses you can see'."
+      },
+      {
+        "statement": "Step 07:02: trainer 'points at the supplier proof file'",
+        "reason": "The frame t00422 shows the attachments without a pointer on the supplier proof file."
+      },
+      {
+        "statement": "Step 07:36 evidence 'Dropdown options Valid claim and Invalid claim' on t00456",
+        "reason": "t00456 shows no open dropdown; the options appear in t00461."
+      },
+      {
+        "statement": "Fact 'Lab-decision Valid is final: after the seller sets LAB decision to Valid and confirms'",
+        "reason": "The video does not say the seller sets LAB decision (narration says the Lab will mention the outcome there). Replaced by the dialog fact and the implied LAB-field fact."
+      }
+    ],
+    "corrected": [
+      {"before": "Summary: 'how the Revibe agent confirms Valid or Invalid with a comment'", "after": "'how the trainer demonstrates the Revibe-side confirmation (Valid or Invalid with a comment)'", "reason": "The Revibe-side steps are demonstrated by the trainer on the same dashboard; the agent's action is narrated, not shown."},
+      {"before": "Summary: 'how the seller replaces the proof and the claim goes to Revibe Lab'", "after": "'how the seller replaces the proof and sets Invalid again so the claim goes to Revibe Lab'", "reason": "Makes the trigger for the Lab hand-off explicit (Revibe confirmation Invalid with comment)."},
+      {"before": "Step 06:42: 'A later frame shows the proof listed under Attachments, so the upload was eventually accepted.'", "after": "A PNG later appears under 'Supplier's Proof of Invalidity' (t00414); the frames do not show which upload produced it.", "reason": "The acceptance of this specific upload is inferred, not shown."},
+      {"before": "Step 06:52: 'points at the Valid claim status'", "after": "Trainer scrolls to Statuses; narration says the claim is 'defined as invalid' there; no pointer on the field.", "reason": "Pointing is not visible in t00412."},
+      {"before": "Step 07:12: 'Trainer switches to the Revibe-side view'", "after": "Trainer shows the claims list in a second browser tab; that this is the Revibe agent view is implied.", "reason": "The frame does not state the view; narration says agents will get access to this portal."},
+      {"before": "Step 07:36 frame claim 'comment field receives text'", "after": "Comment field focused with a single text-cursor mark, text not legible.", "reason": "t00456 does not show a legible character or an open dropdown."},
+      {"before": "Step 08:26 evidence: 'top comment ... Proof not relevant enough'", "after": "The Revibe confirmation comments field, partly out of view at the top of the panel, holds the comment.", "reason": "It is the Revibe confirmation comments field, not a top comment of the claim."},
+      {"before": "Step 09:19: 'sets Valid claim to Invalid Claim'", "after": "Valid claim already reads Invalid Claim on the Edit page frame; the change itself is not shown.", "reason": "Action not visible; the frame shows the result."},
+      {"before": "Step 09:36: 'The new proof is in place.'", "after": "The new proof is not visible in the frames; only the file picker (t00569) is shown earlier.", "reason": "Not supported by frames t00573 to t00585."},
+      {"before": "Step 09:53: 'After this step the device is sent to the Revibe Lab automatically and the seller's case closes.'", "after": "Narration says that once done the device will be sent automatically to Revibe Lab and the case closes for the seller; the save and transfer are not shown.", "reason": "Stated as narration, not as a shown result."},
+      {"before": "Step 10:22: 'options not clearly visible'", "after": "The dropdown is open and lists Valid claim and Invalid claim, with the cursor near Invalid claim.", "reason": "t00622 shows both options listed."},
+      {"before": "Step 10:27: 'Trainer sets LAB decision to Valid claim'", "after": "LAB decision shows Valid Claim in t00627; who sets it is not stated.", "reason": "The narration says the Lab will mention the outcome in this field."},
+      {"before": "Step 08:17: 'After the agent saves Valid, the claim moves back to the seller.'", "after": "After Valid is saved on the Revibe side (Updated By pierre@revibe.me), the claim is back with the seller.", "reason": "Saving by the agent is narrated, and the Updated By value is shown in the frame."},
+      {"before": "Fact (warning): 'When the seller accepts a claim as Valid, the confirmation dialog warns...'", "after": "On the Edit page, setting LAB decision to Valid claim opens the 'Are you sure?' dialog with the text shown.", "reason": "The dialog is shown after LAB decision = Valid Claim (t00627 to t00634), not after a seller's Valid action."},
+      {"before": "Fact: 'Revibe Lab hand-off' with 'when the Revibe agent sets Invalid'", "after": "'when the Revibe confirmation is set to Invalid with a comment ... (set by the trainer in the demo)'", "reason": "The trainer sets the field in the demo; the narration does not say which role does."},
+      {"before": "Fact: 'Attachments must be less than 100 mb'", "after": "'The proof drop zone note reads Attachment should be less than 100 mb.'", "reason": "Exact wording on screen is 'should be'."},
+      {"before": "Fact: 'The Lab sets this outcome.' (LAB decision)", "after": "Implied: the LAB decision field is where the Revibe Lab outcome is recorded; the word before 'will mention' is unclear.", "reason": "The narration word is marked {who?}; it is implied, not stated."},
+      {"before": "Fact: 'Explain ... Eligibility: a claim must be raised within 15 days from delivery'", "after": "Eligibility (PDF banner): 15 days from delivery; any second valid claim on the same order is accepted even after 15 days.", "reason": "'Must be raised within' is not the PDF wording."},
+      {"before": "Fact: 'Revibe agents can read ... (narrated as what the agents do; the trainer demonstrates this on the same dashboard)'", "after": "Narration describes the agents' step; the trainer demonstrates these fields on the seller-side dashboard.", "reason": "Clarifies the source of the demonstration."},
+      {"before": "Fact: 'Edit opens the Save and Cancel controls...'", "after": "In edit mode (Save and Cancel at top right), the Revibe confirmation, Revibe confirmation comments and LAB decision fields are editable.", "reason": "The Edit click is not shown; the edit-mode state is shown."},
+      {"before": "Fact (warning): 'Explanation to show ... Its audience is not stated'", "after": "Type changed to 'screen'; full text 'This process will take from 2 to 4 days.' from the Edit page (t00593).", "reason": "Not a warning; the frame at 06:44 cuts the text off."},
+      {"before": "Fact: 'Revibe Agent Check ... Pending Collection' evidence cites only the PDF", "after": "Unchanged; additional evidence is the new 'Customer raise claim' definition fact.", "reason": "Confirmed."},
+      {"before": "Screen 'Attachments section': 'Attachments list with the customer-side file'", "after": "'Attachments list with a PNG file, and Supplier's Proof of Invalidity with a PNG file.'", "reason": "'Customer-side' is not shown on screen."},
+      {"before": "Screen 'Claims list': 'Search Key dropdown ... Sidebar ... Payment Tool'", "after": "Unchanged; the sidebar submenu is also listed separately.", "reason": "Confirmed."},
+      {"before": "Term 'Mark valid / Mark invalid': 'set the seller's decision'", "after": "Buttons in the toolbar, labelled as the seller's Valid and Invalid actions in the PDF.", "reason": "The button effect is not shown on screen; the PDF labels them."},
+      {"before": "Term 'Eligibility': 'The return window: 15 days from delivery'", "after": "PDF banner wording.", "reason": "'Return window' is a paraphrase not on screen."},
+      {"before": "Term 'AE / ZA / SA': 'The narration reads them as UAE, South Africa and Saudi Arabia.'", "after": "The narration names UAE and South Africa for AE and ZA, and Saudi Arabia for SA.", "reason": "The narration does not use the codes."},
+      {"before": "Term 'Valid claim': 'Invalid Claim, Valid claim, or Not Replied'", "after": "Adds 'Not replied' dropdown option, as on screen.", "reason": "Completeness."},
+      {"before": "Privacy 07:12: 'pierre.villaceque@gmail.com (staff account)'", "after": "'pierre.villaceque@gmail.com' (personal email address), with the staff label removed.", "reason": "'Staff account' is not shown on screen."},
+      {"before": "Privacy 06:38: 'personal bookmarks' generic wording", "after": "Names the bookmark folders visible (Cash appart, Interactive Brokers, Carta) as personal bookmarks.", "reason": "Specifies what is visible."},
+      {"before": "Coverage: frames t00576 and t00585 not cited", "after": "Cited as evidence in steps 09:36 and 09:43.", "reason": "Coverage sweep."},
+      {"before": "Coverage: frames t00583, t00692, t00712 not cited", "after": "Cited as evidence in steps 09:43, 11:35 and 11:52.", "reason": "Coverage sweep."},
+      {"before": "Coverage: frames t00428 and t00506 not cited", "after": "Cited as evidence in steps 07:02 and 08:26.", "reason": "Coverage sweep."}
+    ],
+    "added": [
+      "Fact: 'Customer raise claim' definition (PDF step 1: My Account section, Status Pending, Revibe team to review), page t00654.",
+      "Fact: PDF 'Revibe checks proof' box (Good proof -> device sent to Lab; Insufficient -> seller asked for new proof), page t00674, with spoken 12:00 line.",
+      "Screen: Statuses section shows Pickup Shipment Status 'Delivered' (t00412).",
+      "Screen: Claim Management sidebar submenu items, including R - 0 to R - 6 stage views (t00432).",
+      "Evidence: search box placeholder 'Search order number and press enter' (t00398) added to the search fact.",
+      "Evidence: t00428 (Bank Details and Notes empty; attachments sections) added to step 07:02.",
+      "ASR fixes at 10:45 ('Revibe agent') and 10:50 ('Pickup').",
+      "Unclear entries at 07:36 (text-cursor mark only), 09:36 (new file not visible) and 10:02 (who sets LAB decision)."
+    ]
+  }
+}

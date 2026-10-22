@@ -1,0 +1,752 @@
+{
+  "summary": "Part 2 (05:21-12:05) of the 3.1 Buybox (Sellers) video. The trainer walks through the Buybox tab of the 'Buybox Training' Google Sheet: what TRUE/FALSE in Wins AE/SA means, where sellers enter Price AE and Price SA, the hourly refresh, the No bid and Fulfillment statuses, the Monthly Sales filter, and Minimum prices (Min AE/Min SA), which keep a seller's price updating until it wins. Screen values are mostly clear. Unclear: the currency used for Saudi Arabia, whether sheet prices (892) equal decimal prices (8.92), the 'Centrof' file name, the Score rule, the cell used for the Saudi example, and a few garbled sentences.",
+  "frames_opened": 40,
+  "steps": [
+    {
+      "at": "05:21-05:46",
+      "screen": "Google Sheets 'Buybox Training', tab Buybox (Wins AE, Wins SA, Price AE, Price SA columns)",
+      "action": "Points at the Wins AE / Wins SA columns, then selects the Price AE header (column U) and moves toward the Price SA header (column V) to show where prices go.",
+      "says": "basically, true means that you are winning the orders in this country for this SKU. ... what you need to do is to put your prices here.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "05:24", "quote": "basically, true means that you are winning the orders in this country for this SKU."},
+        {"kind": "say", "at": "05:38", "quote": "what you need to do is to put your prices here."},
+        {"kind": "see", "at": "05:37", "quote": "frame t00337.jpg: column U header 'Price AE' selected, formula bar 'Price AE'"},
+        {"kind": "see", "at": "05:45", "quote": "frame t00345.jpg: U:U selected, cursor near the V header (Price SA)"}
+      ]
+    },
+    {
+      "at": "05:47-06:05",
+      "screen": "Buybox tab, row 195 (iphone-8-plus, 64 GB, Gold, Excellent)",
+      "action": "Selects U195 (Price AE 592) and points at the Buybox and Wins columns to show a lowest-price seller marked TRUE.",
+      "says": "When you have the lowest price, your price will then appear here and here it will be written",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "05:59", "quote": "When you have the lowest price, your price will then appear here and here it will be written"},
+        {"kind": "see", "at": "05:47", "quote": "frame t00347.jpg: U195 selected, formula bar 592; row 195 Wins AE = TRUE, Wins SA = FALSE"}
+      ]
+    },
+    {
+      "at": "06:07-06:25",
+      "screen": "Buybox tab, row 195 (Buybox SA 533, Price SA 532) then row 243 (Buybox SA 503, Price SA 522, Wins SA FALSE)",
+      "action": "Points at row 195, where the trainer says the Saudi price is 1 dirham cheaper than the Saudi buy box price, then moves to row 243 to explain how to win.",
+      "says": "Here, he put a price 1 dirham cheaper in Saudi Arabia ... you have to put a price 1 dirham cheaper than the buy box price.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "06:12", "quote": "Here, he put a price 1 dirham cheaper in Saudi Arabia"},
+        {"kind": "say", "at": "06:25", "quote": "you have to put a price 1 dirham cheaper than the buy box price."},
+        {"kind": "see", "at": "06:07", "quote": "frame t00367.jpg: Q195 (Buybox AE) = 592 selected; row 195 shows Buybox SA 533 and Price SA 532"},
+        {"kind": "see", "at": "06:22", "quote": "frame t00382.jpg: row 243 Buybox SA 503, Price SA 522, Wins SA FALSE"}
+      ]
+    },
+    {
+      "at": "06:31-06:56",
+      "screen": "Buybox tab, row 243 (Buybox SA R243, Price SA V243)",
+      "action": "Enters 502 for row 243 (frame t00390 shows 502 in the formula bar with name box R243), then says the next hourly refresh shows TRUE and that the seller gets the orders.",
+      "says": "{If?} he put a price of 502, which is {one?} dirham cheaper than the {buy?} box for Saudi Arabia, every one hour his price will update and one hour later here it will be written 502 ... At this moment it means that all the orders we will receive will be for this seller.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "06:40", "quote": "{If?} he put a price of 502, which is {one?} dirham cheaper than the {buy?} box for Saudi Arabia, every one hour his price will update and one hour later here it will be written 502"},
+        {"kind": "say", "at": "06:54", "quote": "and here it will be showing true."},
+        {"kind": "say", "at": "06:56", "quote": "At this moment it means that all the orders we will receive will be for this seller."},
+        {"kind": "see", "at": "06:50", "quote": "frame t00390.jpg: name box R243, formula bar 502"},
+        {"kind": "see", "at": "07:00", "quote": "frame t00410.jpg: row 243 Price SA (V243) shows 502"}
+      ]
+    },
+    {
+      "at": "07:03-07:21",
+      "screen": "Buybox tab, column M 'Monthly Sales', then its filter menu",
+      "action": "Selects the Monthly Sales column and explains it; opens the filter icon and 'Filtrer par valeurs', where 10-20 and 20-50 are ticked.",
+      "says": "Here we give you an estimate of how many units you can sell over the next 30 days ... Here you can filter in order to target the top selling SKUs, which are these ones.",
+      "why": "to target the top selling SKUs",
+      "evidence": [
+        {"kind": "say", "at": "07:09", "quote": "Here we give you an estimate of how many units you can sell over the next 30 days"},
+        {"kind": "say", "at": "07:21", "quote": "Here you can filter in order to target the top selling SKUs, which are these ones."},
+        {"kind": "see", "at": "07:06", "quote": "frame t00426.jpg: column M selected, formula bar 'Monthly Sales'"},
+        {"kind": "see", "at": "07:25", "quote": "frame t00445.jpg: filter list 'Filtrer par valeurs' with 10-20 and 20-50 ticked, 'Affichage de 8'"}
+      ]
+    },
+    {
+      "at": "07:29-07:52",
+      "screen": "Buybox tab, row 2 (iphone-7, 32 GB, Black, Apple renewed): Buybox AE 'No bid', Price AE empty",
+      "action": "Points at the No bid value in Q2 (Buybox AE), then types 300 in U2 (Price AE). Afterwards Buybox AE shows 300 and Wins AE shows TRUE.",
+      "says": "written no bid {it?} means that no seller already put a price on this SKU, which means that basically if you decide to put a price you will be automatically the new winner.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "07:44", "quote": "price on this SKU, which means that basically if you decide to put a price you will be"},
+        {"kind": "say", "at": "07:50", "quote": "automatically the new winner."},
+        {"kind": "see", "at": "07:29", "quote": "frame t00456.jpg: name box Q2, formula bar 'No bid'"},
+        {"kind": "see", "at": "07:56", "quote": "frame t00476.jpg: U2 = 300, Q2 Buybox AE = 300, S2 Wins AE = TRUE"}
+      ]
+    },
+    {
+      "at": "07:59-08:18",
+      "screen": "Buybox tab, Q5 (iphone-7, 32 GB, Black, Good; Monthly Sales 20-50): Buybox AE '190 - Fulfillment'",
+      "action": "Points at the Fulfillment value in row 5 and explains it.",
+      "says": "For the fulfillment here, it means that this SKU has been sent to the fulfillment at a price of 190. ... So if you want to sell this SKU you have also to send it to the fulfillment.",
+      "why": "because the device has been sent to the fulfillment",
+      "evidence": [
+        {"kind": "say", "at": "07:59", "quote": "For the fulfillment here, it means that this SKU has been sent to the fulfillment at a price"},
+        {"kind": "say", "at": "08:06", "quote": "of 190."},
+        {"kind": "say", "at": "08:18", "quote": "So if you want to sell this SKU you have also to send it to the fulfillment."},
+        {"kind": "see", "at": "08:16", "quote": "frame t00496.jpg: name box Q5, formula bar '190 - Fulfillment'; M5 shows 20-50"}
+      ]
+    },
+    {
+      "at": "08:25-08:54",
+      "screen": "'Buybox Training' index tab (Buybox presentation list), then Buybox tab columns W (Min AE) and X (Min SA)",
+      "action": "Goes to the index tab and selects cell C10 ('Minimum prices'), then goes to the Buybox tab and points at the two minimum columns.",
+      "says": "{one?} DRAM {and?} now I will explain to you the minimum prices. ... Here you can see that we put two columns minimum AE and minimum SA.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "08:43", "quote": "{one?} DRAM {and?} now I will explain to you the minimum prices."},
+        {"kind": "say", "at": "08:48", "quote": "Here you can see that we put two columns minimum AE and minimum SA."},
+        {"kind": "see", "at": "08:46", "quote": "frame t00524.jpg: index name box C10, 'Minimum prices' listed in row 10"},
+        {"kind": "see", "at": "08:46", "quote": "frame t00526.jpg: W:W selected, header 'Min AE'"}
+      ]
+    },
+    {
+      "at": "08:54-09:01",
+      "screen": "Buybox tab (Min AE, Min SA)",
+      "action": "Explains the purpose of minimum prices: the seller does not have to refresh prices every day or every two days.",
+      "says": "What you can do here is to set your minimum price in order not to be obliged to ... refresh your prices on {the?} daily basis or let's say every two days.",
+      "why": "so you are not obliged to refresh your prices on a daily basis or every two days",
+      "evidence": [
+        {"kind": "say", "at": "08:54", "quote": "What you can do here is to set your minimum price in order not to be obliged to"},
+        {"kind": "say", "at": "09:01", "quote": "refresh your prices on {the?} daily basis or let's say every two days."}
+      ]
+    },
+    {
+      "at": "09:07-09:47",
+      "screen": "Buybox tab, row 527 (iphone-11, 256 GB, Lime Green, Excellent): Price AE 892, Buybox AE 842, Price SA 1021, Buybox SA 1016",
+      "action": "Walks through the example: the seller is not winning on row 527. Enters 800 in W527 (Min AE) and 950 in X527 (Min SA).",
+      "says": "He has a price of 8.92, the lowest price being 8.42. ... let's say that here for instance it will define a price of 800",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "09:17", "quote": "He has a price of 8.92, the lowest price being 8.42."},
+        {"kind": "say", "at": "09:41", "quote": "800 {and?} let's say that here for instance in Saudi Arabia it will define a price of 950."},
+        {"kind": "see", "at": "09:47", "quote": "frame t00567.jpg: row 527 Price AE 892, Buybox AE 842, Price SA 1021, Buybox SA 1016, Wins AE and Wins SA FALSE"},
+        {"kind": "see", "at": "09:47", "quote": "frame t00587.jpg: W527 = 800, X527 = 950"}
+      ]
+    },
+    {
+      "at": "10:02-10:44",
+      "screen": "Buybox tab, row 527, after the minimum prices apply",
+      "action": "Explains the drop to the nearest 5: Price AE becomes 840 (8.40) and Price SA becomes 1015.",
+      "says": "{The?} minimum price will drop your price to the nearest 5 every time you're not winning. ... So the minimum price will drop your price here to 8.40.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "10:02", "quote": "{The?} minimum price will drop your price to the nearest 5 every time you're not winning."},
+        {"kind": "say", "at": "10:18", "quote": "So the minimum price will drop your price here to 8.40."},
+        {"kind": "see", "at": "10:35", "quote": "frame t00647.jpg: row 527 Price AE 840, Price SA 1015, W527 = 800, X527 = 950"}
+      ]
+    },
+    {
+      "at": "10:44-11:23",
+      "screen": "Buybox tab, row 527: competitor values Buybox AE 839 and Buybox SA 1014 appear; then Price AE 835 and Price SA 1010",
+      "action": "Simulates another seller changing prices; shows the minimum price keeps the seller's prices updating.",
+      "says": "will be written false but thanks to your minimum price your prices will keep updating ... the nearest 5 to 10.14 will be 10.10.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "11:00", "quote": "will be written false but thanks to your minimum price your prices will keep updating"},
+        {"kind": "say", "at": "11:15", "quote": "the nearest 5 to 10.14 will be 10.10."},
+        {"kind": "see", "at": "11:08", "quote": "frame t00667.jpg: Q527 = 839, R527 = 1014"},
+        {"kind": "see", "at": "11:27", "quote": "frame t00687.jpg: U527 = 835, V527 = 1010"}
+      ]
+    },
+    {
+      "at": "11:41-12:00",
+      "screen": "Buybox tab, Min AE / Min SA columns (W, X) filled for row 527",
+      "action": "Explains that the seller cannot go below the minimum prices, and that removing them restarts competing.",
+      "says": "You won't be able to go below these prices that you set there. ... If you want to start competing on this you just need to remove {your?} minimum prices.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "11:55", "quote": "You won't be able to go below these prices that you set there."},
+        {"kind": "say", "at": "12:00", "quote": "If you want to start competing on this you just need to remove {your?} minimum prices."},
+        {"kind": "see", "at": "11:29", "quote": "frame t00689.jpg and t00692.jpg: W527 = 800, X527 = 950 entered in the Min columns"}
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "type": "definition",
+      "statement": "TRUE in the Wins AE or Wins SA column means you are winning the orders in that country for that SKU. FALSE means you are not winning any order.",
+      "evidence": [
+        {"kind": "say", "at": "05:24", "quote": "basically, true means that you are winning the orders in this country for this SKU."},
+        {"kind": "say", "at": "05:31", "quote": "False is saying that you are not winning any order."},
+        {"kind": "see", "at": "05:21", "quote": "frame t00321.jpg: Wins AE and Wins SA columns show TRUE (green) or FALSE (red) per row"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Sellers enter their own prices in the Price AE column (U) and the Price SA column (V) of the Buybox tab.",
+      "evidence": [
+        {"kind": "say", "at": "05:38", "quote": "what you need to do is to put your prices here."},
+        {"kind": "say", "at": "05:46", "quote": "Here are the columns where you have to put your prices."},
+        {"kind": "see", "at": "05:45", "quote": "frame t00345.jpg: U:U (Price AE) selected, V (Price SA) beside it"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The trainer says that to win, the seller must put a price 1 dirham cheaper than the buy box price. The currency is not confirmed on screen (see unclear).",
+      "evidence": [
+        {"kind": "say", "at": "06:22", "quote": "When you want to win,"},
+        {"kind": "say", "at": "06:25", "quote": "you have to put a price 1 dirham cheaper than the buy box price."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The trainer says the Buybox data refreshes every hour, so a price change shows in the Wins column one hour later.",
+      "evidence": [
+        {"kind": "say", "at": "06:47", "quote": "every one hour his price will update and one hour later here it will be written 502"},
+        {"kind": "say", "at": "10:21", "quote": "Which means that one hour later, the data will refresh and here it will become true."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The trainer says the sheet data is sent to a file and refreshed every hour. The file name is unclear (see unclear).",
+      "evidence": [
+        {"kind": "say", "at": "05:52", "quote": "the data will be sent to the Centrof file every {1?} hour and will be refreshed every 1"},
+        {"kind": "say", "at": "05:58", "quote": "hour."}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "example",
+      "statement": "Example, row 195 (iPhone 8 Plus, 64 GB, Gold, Excellent): Price AE 592 equals Buybox AE 592 and Wins AE is TRUE. Price SA 532 is 1 less than Buybox SA 533 in sheet numbers. Wins SA is FALSE in frame t00347 and TRUE in frames t00535 to t00539, after the hourly refresh.",
+      "evidence": [
+        {"kind": "say", "at": "05:59", "quote": "When you have the lowest price, your price will then appear here and here it will be written"},
+        {"kind": "see", "at": "06:07", "quote": "frame t00367.jpg: row 195 Buybox AE 592, Buybox SA 533, Price SA 532, Wins AE TRUE"},
+        {"kind": "see", "at": "05:47", "quote": "frame t00347.jpg: row 195 Wins SA = FALSE"},
+        {"kind": "see", "at": "08:55", "quote": "frame t00539.jpg: row 195 Wins SA = TRUE"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "A 'No bid' value in Buybox AE or Buybox SA means that no seller has put a price on that SKU.",
+      "evidence": [
+        {"kind": "say", "at": "07:29", "quote": "here when it's written {no?} bid,"},
+        {"kind": "say", "at": "07:44", "quote": "price on this SKU, which means that basically if you decide to put a price you will be"},
+        {"kind": "see", "at": "07:29", "quote": "frame t00456.jpg: Q2 Buybox AE shows No bid"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "On a No bid SKU, a price the seller enters makes that seller the automatic new winner, per the trainer. Wins shows TRUE after the next hourly refresh.",
+      "evidence": [
+        {"kind": "say", "at": "07:50", "quote": "automatically the new winner."},
+        {"kind": "say", "at": "07:52", "quote": "{So?} one hour later, here as well, it will refresh and it will be mentioned true."},
+        {"kind": "see", "at": "07:56", "quote": "frame t00476.jpg: U2 = 300; Q2 Buybox AE shows 300; S2 Wins AE = TRUE in the same frame"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "A Buybox value written as '<price> - Fulfillment' (example: 190 - Fulfillment) means the SKU has been sent to fulfillment at that price. The trainer says a price entered on such a SKU will not win.",
+      "evidence": [
+        {"kind": "say", "at": "07:59", "quote": "For the fulfillment here, it means that this SKU has been sent to the fulfillment at a price"},
+        {"kind": "say", "at": "08:08", "quote": "So it means that if you put a price here, you won't be able to win because the"},
+        {"kind": "see", "at": "07:59", "quote": "frame t00496.jpg: Q5 shows 190 - Fulfillment"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "To sell a SKU that shows Fulfillment in the Buybox column, the seller must also send that SKU to fulfillment, per the trainer.",
+      "evidence": [
+        {"kind": "say", "at": "08:18", "quote": "So if you want to sell this SKU you have also to send it to the fulfillment."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Monthly Sales is an estimate of how many units you can sell over the next 30 days, across the countries UAE, South Africa and Saudi Arabia.",
+      "evidence": [
+        {"kind": "say", "at": "07:09", "quote": "Here we give you an estimate of how many units you can sell over the next 30 days"},
+        {"kind": "say", "at": "07:15", "quote": "across all the countries, UAE, South Africa and Saudi Arabia."},
+        {"kind": "see", "at": "07:06", "quote": "frame t00426.jpg: column M header 'Monthly Sales' with range values such as 0-1, 1-3, 3-5 and 20-50"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "To target the top-selling SKUs, the trainer says to filter the Monthly Sales column. The filter menu in the frame has 10-20 and 20-50 ticked. Whether the filter was applied is unclear (see unclear).",
+      "evidence": [
+        {"kind": "say", "at": "07:21", "quote": "Here you can filter in order to target the top selling SKUs, which are these ones."},
+        {"kind": "see", "at": "07:25", "quote": "frame t00445.jpg: 'Filtrer par valeurs' list with 10-20 and 20-50 ticked, 'Affichage de 8'"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Monthly Sales bands seen in the sheet include 0-1, 1-3, 3-5, 5-10, 10-20, 20-50 and 50+.",
+      "evidence": [
+        {"kind": "see", "at": "07:25", "quote": "frame t00445.jpg: filter values include 1-3, 3-5, 10-20 and 20-50 (0-1 partly visible)"},
+        {"kind": "see", "at": "05:21", "quote": "frame t00321.jpg: row 209 Monthly Sales shows 5-10"},
+        {"kind": "see", "at": "09:47", "quote": "frame t00567.jpg: row 559 Monthly Sales 10-20 and row 561 Monthly Sales 50+"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Min AE and Min SA (columns W and X) hold your minimum prices. The price will not go below the minimum you set.",
+      "evidence": [
+        {"kind": "say", "at": "08:48", "quote": "Here you can see that we put two columns minimum AE and minimum SA."},
+        {"kind": "say", "at": "11:55", "quote": "You won't be able to go below these prices that you set there."},
+        {"kind": "see", "at": "08:46", "quote": "frame t00526.jpg: W column header 'Min AE' selected"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "The trainer says that setting minimum prices means the seller does not have to refresh prices every day or every two days.",
+      "evidence": [
+        {"kind": "say", "at": "08:54", "quote": "What you can do here is to set your minimum price in order not to be obliged to"},
+        {"kind": "say", "at": "09:01", "quote": "refresh your prices on {the?} daily basis or let's say every two days."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The trainer says the minimum price drops the seller's price to the nearest 5 every time the seller is not winning.",
+      "evidence": [
+        {"kind": "say", "at": "10:02", "quote": "{The?} minimum price will drop your price to the nearest 5 every time you're not winning."},
+        {"kind": "say", "at": "10:18", "quote": "So the minimum price will drop your price here to 8.40."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "example",
+      "statement": "Examples of the nearest-5 drop from the trainer: the current 8.42 gives 8.40; the Saudi current 1016 with minimum 950 drops to 1015; competitor 8.39 gives 8.35; and 10.14 gives 10.10. On screen, row 527 shows Price AE 840 and Price SA 1015, then 835 and 1010.",
+      "evidence": [
+        {"kind": "say", "at": "10:11", "quote": "So basically, here you're not winning, the current price is 8.42, so the nearest 5 is 8"},
+        {"kind": "say", "at": "10:35", "quote": "drop your price to 1015 which will refresh also one hour later"},
+        {"kind": "say", "at": "11:08", "quote": "so the nearest five from 8.35 from 8.39 will"},
+        {"kind": "say", "at": "11:15", "quote": "the nearest 5 to 10.14 will be 10.10."},
+        {"kind": "see", "at": "11:27", "quote": "frame t00687.jpg: U527 = 835 and V527 = 1010 after the drop"}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "The trainer says that with a minimum price set, the seller's prices keep updating automatically as competitors change theirs, so the seller keeps winning orders.",
+      "evidence": [
+        {"kind": "say", "at": "11:00", "quote": "thanks to your minimum price your prices will keep updating"},
+        {"kind": "say", "at": "11:30", "quote": "keep winning orders."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "The trainer says that with prices in the minimum columns, the sheet updates automatically and drops the seller's price until it reaches the minimum, even when the Price columns are empty. The wording is garbled (see unclear).",
+      "evidence": [
+        {"kind": "say", "at": "11:41", "quote": "If you {no?} prices here but you have prices in the minimum columns {it?} will update automatically"},
+        {"kind": "say", "at": "11:48", "quote": "and here it will drop your prices until they reach the minimum."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "To start competing again on a SKU, remove your minimum prices.",
+      "evidence": [
+        {"kind": "say", "at": "12:00", "quote": "If you want to start competing on this you just need to remove {your?} minimum prices."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "example",
+      "statement": "Row 527 (iPhone 11, 256 GB, Lime Green, Excellent): the trainer's example seller has Price AE 892 against a Buybox AE of 842, and Price SA 1021 against a Buybox SA of 1016. The trainer reads these as 8.92 against 8.42 and 10.21 against 10.16. Both Wins cells are FALSE. Decimal reading is unclear (see unclear).",
+      "evidence": [
+        {"kind": "say", "at": "09:17", "quote": "He has a price of 8.92, the lowest price being 8.42."},
+        {"kind": "say", "at": "09:25", "quote": "And here as well he has a price in Saudi Arabia which is 10.21 and the lowest"},
+        {"kind": "see", "at": "09:47", "quote": "frame t00567.jpg: U527 892, Q527 842, V527 1021, R527 1016, S527 and T527 FALSE"}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "The buy box price is the current lowest price for the SKU in that country. It is shown in the Buybox AE and Buybox SA columns, and the trainer says a seller must price below it to win.",
+      "evidence": [
+        {"kind": "say", "at": "06:25", "quote": "you have to put a price 1 dirham cheaper than the buy box price."},
+        {"kind": "say", "at": "09:17", "quote": "He has a price of 8.92, the lowest price being 8.42."},
+        {"kind": "see", "at": "09:47", "quote": "frame t00567.jpg: row 527 Buybox AE = 842 and Buybox SA = 1016"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Implied: AE means UAE and SA means Saudi Arabia for the paired columns (Buybox AE/SA, Price AE/SA, Min AE/SA, Wins AE/SA).",
+      "evidence": [
+        {"kind": "say", "at": "06:05", "quote": "this seller here has the lowest price in UAE and is thus winning."},
+        {"kind": "say", "at": "06:12", "quote": "Here, he put a price 1 dirham cheaper in Saudi Arabia"}
+      ],
+      "confidence": "low",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Revibe ecosystem diagram: the Buybox box says 'Set prices for direct shipping' with three country flags. The Fulfillment App box says 'Set prices and quantities for fulfillment shipping' with an X icon and two flags. The Orders App box says 'Manage orders received'. The Claims App box says 'Manage warranties / returns'. The Performance & Score box says 'Improve performance'.",
+      "evidence": [
+        {"kind": "see", "at": "05:21", "quote": "frame t00504.jpg: diagram 'Buybox - Set prices for direct shipping'; 'Fulfillment App - Set prices and quantities for fulfillment shipping'; 'Orders App - Manage orders received'; 'Performance & Score - Improve performance'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    }
+  ],
+  "screens": [
+    {
+      "name": "Google Sheets workbook 'Buybox Training' (tabs: Buybox Training, Buybox, AE Tool, SA Tool)",
+      "shows": "Shared Google Sheet with an index tab and three data tabs. Buybox is the main SKU table. AE Tool and SA Tool are visible in the tab bar but not opened in this part.",
+      "at": "05:21",
+      "where": "Browser, docs.google.com spreadsheet"
+    },
+    {
+      "name": "Buybox Training index tab (Revibe ecosystem diagram)",
+      "shows": "Index: '1 Buybox presentation' lists Catalog organization, Neutral prices, Buybox prices, Lowest condition, How to win, Minimum prices. '2 Gamification' lists Small price drop and Big price drop. Later captures (frame t00721, 12:01) add UAE - Fulfillment proposition, KSA - Lock request, and '3 Lock expiry process' with Force competitors to unlock and Lock renewal.",
+      "at": "08:25",
+      "where": "Buybox Training tab, cell C7 to C14"
+    },
+    {
+      "name": "Revibe ecosystem diagram",
+      "shows": "Seller connects to Buybox ('Set prices for direct shipping', three country flags), Fulfillment App ('Set prices and quantities for fulfillment shipping', one X icon and two flags), Orders App ('Manage orders received', 'Interact with Revibe team', 'Invoices and payments'), Performance & Score ('Improve performance'), and Claims App ('Manage warranties / returns', 'Interact with Revibe team'). Labels: 'Score affecting prices' (top arrow to Buybox), 'Score > 0% > price increase' (bottom arrow to Fulfillment App), 'Get orders', 'On time and cancellation rate', 'Claims rate and days to solve'. The country names are not written on the diagram.",
+      "at": "08:25",
+      "where": "Buybox Training tab, diagram area"
+    },
+    {
+      "name": "Buybox tab, column headers",
+      "shows": "Columns B to X: Category, Model, CPU (Laptop) Connectivity (Tablet), RAM (laptop) Storage (phone), Storage (laptop) Color (phone), SKU_Long, Screen size (laptop), Series (Laptop), Condition (laptop), Keyboard (laptop) / Condition (phone) (L), Monthly Sales (M), Neutral Buybox AE (N), Neutral Buybox SA (O), Score (P), Buybox AE (Q), Buybox SA (R), Wins AE (S), Wins SA (T), Price AE (U), Price SA (V), Min AE (W), Min SA (X).",
+      "at": "05:21",
+      "where": "Buybox tab, row 1 headers"
+    },
+    {
+      "name": "Buybox tab, value patterns",
+      "shows": "Buybox AE/SA cells show a price, 'No bid', or '<price> - Fulfillment' (for example 190 - Fulfillment). Some Buybox SA and Neutral Buybox SA cells show '<price> - Locked' (for example 582 - Locked). Wins cells are TRUE (green) or FALSE (red). Score shows -4.00% on the visible rows.",
+      "at": "05:21",
+      "where": "Buybox tab, data rows"
+    },
+    {
+      "name": "Monthly Sales filter menu ('Filtrer par valeurs')",
+      "shows": "Sort options, Filter by colour, Filter by condition, and a value list with search. 10-20 and 20-50 are ticked, 'Affichage de 8', buttons Annuler and OK.",
+      "at": "07:25",
+      "where": "Buybox tab, filter dropdown on column M"
+    },
+    {
+      "name": "Status bar (Google Sheets)",
+      "shows": "Shows Nombre (count) or Somme (sum) for the selected range, for example Somme : 1,750.00 when W:X is selected.",
+      "at": "11:29",
+      "where": "Bottom right of the sheet"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Wins AE / Wins SA",
+      "meaning": "TRUE or FALSE flag per SKU and country: TRUE means you are winning the orders in that country for that SKU; FALSE means you are not winning any order.",
+      "at": "05:24"
+    },
+    {
+      "term": "Buy box price (Buybox AE / Buybox SA)",
+      "meaning": "The current lowest price for the SKU in a country, shown in the Buybox AE and Buybox SA columns. The trainer says a seller must price 1 dirham below it to win.",
+      "at": "06:25"
+    },
+    {
+      "term": "Price AE / Price SA",
+      "meaning": "Columns U and V, where the seller enters their own price for UAE and Saudi Arabia.",
+      "at": "05:46"
+    },
+    {
+      "term": "Min AE / Min SA (minimum prices)",
+      "meaning": "Columns W and X, where the seller sets a floor price. The price does not go below it, and the trainer says it drops to the nearest 5 while the seller is not winning.",
+      "at": "08:48"
+    },
+    {
+      "term": "Neutral prices / Neutral Buybox AE and SA",
+      "meaning": "Columns N and O. The trainer mentions 'neutral prices' as a separate topic but does not define them in this part.",
+      "at": "08:25"
+    },
+    {
+      "term": "Monthly Sales",
+      "meaning": "An estimate of the units the seller can sell over the next 30 days, across UAE, South Africa and Saudi Arabia. The sheet shows it in ranges (0-1 to 50+).",
+      "at": "07:09"
+    },
+    {
+      "term": "No bid",
+      "meaning": "No seller has put a price on this SKU. The trainer says a price entered by the seller becomes the automatic new winner.",
+      "at": "07:44"
+    },
+    {
+      "term": "Fulfillment (in Buybox cell, e.g. 190 - Fulfillment)",
+      "meaning": "The SKU has been sent to fulfillment, at the price shown. The trainer says a price entered on such a SKU will not win, and that the seller must also send the SKU to fulfillment to sell it.",
+      "at": "07:59"
+    },
+    {
+      "term": "Direct shipping (Buybox box)",
+      "meaning": "The Buybox box in the Revibe ecosystem diagram says 'Set prices for direct shipping'.",
+      "at": "08:25"
+    },
+    {
+      "term": "Fulfillment App",
+      "meaning": "The Revibe ecosystem diagram box where sellers set prices and quantities for fulfillment shipping.",
+      "at": "08:25"
+    },
+    {
+      "term": "Score (column P) / Score affecting prices",
+      "meaning": "Score is shown as -4.00% on the visible rows. The diagram has an arrow labelled 'Score affecting prices' into Buybox, and an arrow labelled 'Score > 0% > price increase' into the Fulfillment App. The trainer's statement about score and price is garbled (see unclear).",
+      "at": "08:25"
+    },
+    {
+      "term": "Lowest condition",
+      "meaning": "A topic in the index. The trainer's sentence about it is garbled, so it is not defined here.",
+      "at": "08:25"
+    },
+    {
+      "term": "AE / SA",
+      "meaning": "Implied: the country suffix for UAE (AE) and Saudi Arabia (SA) in the column names.",
+      "at": "06:05"
+    },
+    {
+      "term": "Locked (e.g. 582 - Locked)",
+      "meaning": "Appears in some Buybox SA and Neutral Buybox SA cells. The trainer does not explain it in this part.",
+      "at": "05:21"
+    },
+    {
+      "term": "Gamification / Lock expiry process (index sections)",
+      "meaning": "Index sections on the Buybox Training tab, not covered in this part of the video.",
+      "at": "12:01"
+    }
+  ],
+  "asr_fixes": [
+    {
+      "at": "07:29",
+      "heard": "{no?} bid",
+      "correct": "No bid",
+      "basis": "Screen: frame t00456.jpg shows the Buybox AE cell reading 'No bid'."
+    },
+    {
+      "at": "07:35",
+      "heard": "{dash?} fulfillment",
+      "correct": "- Fulfillment (as in '190 - Fulfillment')",
+      "basis": "Screen: frame t00496.jpg shows Q5 reading '190 - Fulfillment'."
+    },
+    {
+      "at": "10:11",
+      "heard": "8 .40.",
+      "correct": "8.40",
+      "basis": "Transcription fix only. The trainer says 'drop your price here to 8.40' at 10:18. The sheet shows 840 in U527 (frame t00647.jpg), so the decimal form is the trainer's reading, not the sheet's."
+    }
+  ],
+  "unclear": [
+    {
+      "at": "05:52",
+      "issue": "'the data will be sent to the Centrof file every {1?} hour'. The file name 'Centrof' is not shown on screen and the words are unreliable. The hourly refresh is stated repeatedly elsewhere, so only the file name is unclear."
+    },
+    {
+      "at": "06:12",
+      "issue": "Currency: the trainer says '1 dirham cheaper in Saudi Arabia' and '1 dirham cheaper than the buy box for Saudi Arabia'. The sheet shows no currency, so the Saudi unit is not confirmed."
+    },
+    {
+      "at": "06:31",
+      "issue": "Input cell: the trainer says he put 502 for the Saudi price of row 243, but the Saudi price is the Price SA column (V). In frame t00390.jpg the name box reads R243 (Buybox SA, a column with a formula-driven value) with formula bar 502. Which cell was typed into is not clear from the frames."
+    },
+    {
+      "at": "07:56",
+      "issue": "Timing: the trainer says Wins AE turns TRUE one hour after the entry (07:52), but frame t00476.jpg shows S2 Wins AE = TRUE in the same frame as the new price. It is unclear whether TRUE appeared immediately or after a refresh."
+    },
+    {
+      "at": "09:17",
+      "issue": "Price units: the trainer speaks in decimals (8.92, 8.42, 10.21, 10.16, 8.39, 10.14), but the sheet shows integers (892, 842, 1021, 1016, 839, 1014). The rule linking the two is not stated, and the trainer calls 503 to 502 '1 dirham' while the sheet difference is one unit. Confirm the unit before a KAM quotes a number."
+    },
+    {
+      "at": "08:25",
+      "issue": "Score rule: 'the lowest condition when the score does not impact the price and that the competition is made only on the price' is garbled. The diagram says 'Score affecting prices' (Performance & Score to Buybox) and 'Score > 0% > price increase' (to Fulfillment App). These conflict, so the score effect on price is not confirmed."
+    },
+    {
+      "at": "08:08",
+      "issue": "'which is a way in UAE to {the?} prices' is garbled. The meaning of the sentence after 'fulfillment' is not confirmed."
+    },
+    {
+      "at": "11:41",
+      "issue": "'If you {no?} prices here but you have prices in the minimum columns {it?} will update automatically'. The gist (minimum prices alone still update the price) is stated as medium confidence. The exact wording is not confirmed."
+    },
+    {
+      "at": "07:25",
+      "issue": "The filter dropdown shows 10-20 and 20-50 ticked and the OK button. In the frame after OK (t00449.jpg), rows with 0-1 and 3-5 are still visible. It is unclear whether the filter was applied in the sheet."
+    },
+    {
+      "at": "05:21",
+      "issue": "Fulfillment App tile: the first country icon is an X and the other two are flags. The meaning of the X (for example, fulfillment not offered there) is not stated by the trainer and cannot be confirmed from the icon."
+    },
+    {
+      "at": "05:21",
+      "issue": "The 'Locked' suffix on Buybox SA and Neutral cells (e.g. 582 - Locked) is not explained in this part."
+    }
+  ],
+  "outdated": [],
+  "privacy": [],
+  "audit": {
+    "checked": 73,
+    "removed": [
+      {
+        "statement": "asr_fixes: '{one?} DRAM' heard, correct '1 dirham' (at 08:43)",
+        "reason": "No screen support. The only basis was other speech, and the sentence itself is garbled, so the currency word is not confirmed."
+      },
+      {
+        "statement": "Fact: 'Here are the only two columns' reading, i.e. 'only two columns where sellers put prices'",
+        "reason": "Line 05:41 is garbled ('the only two columns with these ones'); only 'put your prices here' (05:38) and 'the columns where you have to put your prices' (05:46) are supported."
+      },
+      {
+        "statement": "Fact: 'in the three countries' for the Buybox diagram box, and 'Performance & Score shows the score'",
+        "reason": "The diagram says 'Improve performance' for Performance & Score. The country names are not written on the diagram, only three flags."
+      },
+      {
+        "statement": "Fact: 'at each hourly refresh' for the nearest-5 drop",
+        "reason": "Not stated by the trainer. He says the drop happens every time the seller is not winning."
+      }
+    ],
+    "corrected": [
+      {
+        "before": "Step 1: clicks the Price AE header (column U) and the Price SA header (column V).",
+        "after": "Step 1: selects the Price AE header (U) and moves toward the Price SA header (V).",
+        "reason": "Frames t00337 and t00345 show U selected and the cursor near V. No click on V is visible."
+      },
+      {
+        "before": "Step 3: 'Points at row 195, where the Saudi price is 1 dirham below the Saudi buy box price'.",
+        "after": "The trainer says the Saudi price is 1 dirham cheaper than the buy box price. Row 195 shows 533 (Buybox SA) and 532 (Price SA).",
+        "reason": "The 1 dirham comparison is the trainer's wording. The screen shows 533 and 532 (one unit apart, unit unconfirmed)."
+      },
+      {
+        "before": "Step 4: 'Types 502 into the Saudi price for row 243'.",
+        "after": "Enters 502 for row 243 (name box R243 in frame t00390), and the Price SA cell shows 502 by frame t00410. Which cell was typed into is in unclear.",
+        "reason": "Name box R243 is the Buybox SA column, not Price SA (V)."
+      },
+      {
+        "before": "Step 6 'says' merged several transcript lines into one sentence, with 'written no bid {it?} means' written as 'written no bid means'.",
+        "after": "Exact transcript wording including the {it?} marker.",
+        "reason": "Restores exact wording and the low-confidence marker."
+      },
+      {
+        "before": "Step 7 'says' omitted 'of 190.' (08:06).",
+        "after": "Restored 'of 190.' as its own evidence line.",
+        "reason": "Exact transcript wording."
+      },
+      {
+        "before": "Step 8 'says' began 'and now I will explain to you the minimum prices.'",
+        "after": "Begins with the exact transcript line '{one?} DRAM {and?} now I will explain to you the minimum prices.'",
+        "reason": "Exact wording with the low-confidence marks kept."
+      },
+      {
+        "before": "Fact: 'Example, row 195 ... Wins SA is TRUE' (cites t00367 and t00347 only).",
+        "after": "Wins SA is FALSE in frame t00347 and TRUE in frames t00535 to t00539 after the hourly refresh.",
+        "reason": "Frame t00347 shows FALSE for T195. Later frames show TRUE."
+      },
+      {
+        "before": "Fact: 'Fulfillment ... A price entered for direct shipping cannot win against it.'",
+        "after": "The trainer says a price entered on such a SKU will not win.",
+        "reason": "'Direct shipping' is not stated by the trainer at that point. The trainer says 'if you put a price here, you won't be able to win'."
+      },
+      {
+        "before": "Fact: Monthly Sales frame t00426 shows range values such as '10-20'.",
+        "after": "Frame t00426 shows 0-1, 1-3, 3-5 and 20-50. 10-20 is cited from t00445 and t00567.",
+        "reason": "10-20 is not visible in the rows shown in t00426."
+      },
+      {
+        "before": "Fact: 'Wins shows TRUE after the next hourly refresh' (cites t00476 only for the TRUE state).",
+        "after": "Adds the timing question in unclear (t00476 shows TRUE in the same frame).",
+        "reason": "Timing of TRUE is not confirmed by the frames."
+      },
+      {
+        "before": "Fact: 'Win status refreshes about once an hour.'",
+        "after": "The trainer says 'every one hour' and 'one hour later'.",
+        "reason": "Wording matches the trainer, not an approximation."
+      },
+      {
+        "before": "Fact: 'The sheet data is sent to a file and refreshed every 1 hour' typed as warning.",
+        "after": "Typed as rule. Trainer statement, file name unclear.",
+        "reason": "Not a warning. The file name is unreliable."
+      },
+      {
+        "before": "Fact: 'To win, put a price 1 dirham cheaper than the buy box price' (confidence high).",
+        "after": "The trainer says ... (confidence medium).",
+        "reason": "Currency and unit not confirmed on screen."
+      },
+      {
+        "before": "Fact: 'AE means UAE and SA means Saudi Arabia' (confidence medium).",
+        "after": "Confidence low.",
+        "reason": "The instruction is to set low confidence for implied facts. Trainer says UAE at 06:05 and Saudi Arabia at 06:12, which is not an explicit definition of the column names."
+      },
+      {
+        "before": "Fact: diagram 'Buybox ... in the three countries', 'Orders App shows orders received', 'Performance & Score shows the score'.",
+        "after": "Buybox box 'Set prices for direct shipping' with three flags. Orders App 'Manage orders received'. Performance & Score 'Improve performance'.",
+        "reason": "Exact labels on the diagram. Country names are not written."
+      },
+      {
+        "before": "Screen 'Revibe ecosystem diagram': flags 'for UAE, South Africa and Saudi Arabia'.",
+        "after": "Three country flags; country names are not on the diagram.",
+        "reason": "Not visible on screen. The UAE, South Africa and Saudi Arabia list comes from the trainer's Monthly Sales line (07:15)."
+      },
+      {
+        "before": "Screen 'Status bar' at 11:23.",
+        "after": "11:29, with 'Somme : 1,750.00' shown when W:X is selected.",
+        "reason": "The status bar with Somme 1,750.00 appears in frames t00689 and t00692 (11:29-11:32)."
+      },
+      {
+        "before": "Term 'Gamification / Lock expiry process' at 11:52.",
+        "after": "At 12:01.",
+        "reason": "The index with the Lock expiry section is in frame t00721 (12:01)."
+      },
+      {
+        "before": "Term 'Direct shipping (Buybox app)'.",
+        "after": "'Direct shipping (Buybox box)' in the diagram.",
+        "reason": "The diagram calls it a box. 'App' is not stated."
+      },
+      {
+        "before": "Term 'No bid ... A price entered by the seller becomes the automatic new winner.'",
+        "after": "The trainer says ... becomes the automatic new winner.",
+        "reason": "Attributes the claim to the trainer."
+      },
+      {
+        "before": "Unclear 09:17: '503 to 502 example and nearest 5 drop imply different units for one dirham'.",
+        "after": "The trainer calls 503 to 502 '1 dirham'; the sheet difference is one unit.",
+        "reason": "Removes the speculative inference about the nearest-5 drop."
+      },
+      {
+        "before": "Screen 'Buybox tab, value patterns': some SA cells show Locked.",
+        "after": "Some Buybox SA and Neutral Buybox SA cells show '<price> - Locked' (582 - Locked in R237, 640.25 - Locked in O211).",
+        "reason": "Neutral Buybox SA (column O) also shows Locked."
+      }
+    ],
+    "added": [
+      "Fact: row 195 Wins SA changes from FALSE (frame t00347) to TRUE (frame t00539) across the hourly refresh, so the example in the fact list is supported by two dated frames.",
+      "Unclear 06:31: the typed cell is the name box R243 (Buybox SA), not the Price SA cell V243.",
+      "Unclear 07:56: frame t00476 shows S2 Wins AE = TRUE in the same frame as the new price, while the trainer says the TRUE shows one hour later.",
+      "Screen 'Buybox Training index tab': the Lock expiry section and the UAE and KSA entries are visible in frame t00721 (12:01), not at 08:25."
+    ]
+  }
+}

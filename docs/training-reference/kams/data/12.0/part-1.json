@@ -1,0 +1,552 @@
+{
+  "summary": "Part 1 of 3 (00:00 to 02:20) of the '12.0 South Africa Bulk Shipments (Seller & KAMs)' training. Revibe's Dubai-to-South Africa route changes so that all of a seller's South Africa orders for the day go in one box that Quiqup (spelled QuickUp in the narration) collects once a day, instead of one DHL label per order. The trainer walks through the four daily steps: Ready for pickup in the Orders page of the Revibe seller panel, a barcode on every device printed from the Consolidation Panel, one big box sealed with red tape (shown on a slide only), and Mark ready for collection to hand over to Quiqup. Steps 1, 2 and 4 are done in the seller panel; step 3 is physical. Covers the Orders page, the Consolidation Panel (Open box tab, Print all barcodes, Barcode, Mark ready for collection, Remove), device barcode placement and handling rules. All 40 listed frames were opened. Part 2 of the video is not covered here.",
+  "steps": [
+    {
+      "at": "00:19-00:21",
+      "screen": "Route slides (frames t00019, t00020, t00025, t00029)",
+      "action": "Trainer lists the four steps of the seller day on a slide: 1 Ready for pickup, 2 A barcode on every device, 3 One big box, 4 Hand over to Quiqup. Cards appear one by one; the four-card slide is frame t00029.",
+      "evidence": [
+        {"kind": "say", "at": "00:19", "quote": "Your day has four steps."},
+        {"kind": "say", "at": "00:21", "quote": "Ready for pickup, a barcode on every device, one big box, and the handover to QuickUp."},
+        {"kind": "see", "at": "00:28", "frame": "t00029.jpg", "quote": "Four cards: 1 Ready for pickup (In the system, as today); 2 A barcode on every device (Printed from the panel); 3 One big box (Sealed with red tape); 4 Hand over to Quiqup (Mark ready for collection)."},
+        {"kind": "see", "at": "00:20", "frame": "t00025.jpg", "quote": "Only cards 1 and 2 visible; card 3 One big box faded in."}
+      ],
+      "says": "Your day has four steps.",
+      "why": ""
+    },
+    {
+      "at": "01:05",
+      "screen": "Revibe seller panel, Orders page, region South Africa (frames t00064, t00066, t00071)",
+      "action": "Step 1 of 4 (In the system): click the purple Ready for pickup button on an order row. The cursor is on the first row, ZA-85669-1 (samsung-galaxy-s21-fe-6gb).",
+      "evidence": [
+        {"kind": "say", "at": "01:05", "quote": "Step one happens in the system with the button you already know, ready for pickup."},
+        {"kind": "see", "at": "01:05", "frame": "t00071.jpg", "quote": "Orders table, Action column, purple Ready for pickup button on ZA-85669-1 with the mouse cursor on it; caption: Step one happens in the system, with the button you already know: Ready for pickup."}
+      ],
+      "says": "Step one happens in the system with the button you already know, ready for pickup.",
+      "why": ""
+    },
+    {
+      "at": "01:10",
+      "screen": "Orders page (frame t00073)",
+      "action": "Points out that no DHL label is produced any more for the order; the order goes into today's open box.",
+      "evidence": [
+        {"kind": "say", "at": "01:10", "quote": "The only difference, you don't get a DHL label anymore."},
+        {"kind": "say", "at": "01:14", "quote": "The order goes into today's open box."},
+        {"kind": "see", "at": "01:10", "frame": "t00073.jpg", "quote": "A yellow 'DHL label' callout is shown above the Orders table, with the caption: The only difference: you don't get a DHL label anymore. The order goes into today's open box."}
+      ],
+      "says": "The only difference, you don't get a DHL label anymore.",
+      "why": ""
+    },
+    {
+      "at": "01:14-01:16",
+      "screen": "Orders page header (frame t00077)",
+      "action": "After Ready for pickup, the Open box counter at top right goes from 0 to 1 and the order is no longer listed in the Orders table (ZA-85669-1 disappears).",
+      "evidence": [
+        {"kind": "see", "at": "01:16", "frame": "t00077.jpg", "quote": "Open box counter reads 1; Orders table now lists ZA-85723-1 iphone-17 and ZA-85654-1 iphone-15-pro-max only."},
+        {"kind": "say", "at": "01:14", "quote": "The order goes into today's open box."}
+      ],
+      "says": "The order goes into today's open box.",
+      "why": ""
+    },
+    {
+      "at": "01:16-01:20",
+      "screen": "Sidebar of the Revibe seller panel (frame t00080)",
+      "action": "Open Bulk Shipping (chevron) and click Consolidation Panel to see today's box.",
+      "evidence": [
+        {"kind": "see", "at": "01:20", "frame": "t00080.jpg", "quote": "Sidebar: Bulk Shipping ›, with a sub-item '• Consolidation Panel' under it; cursor on Consolidation Panel."},
+        {"kind": "say", "at": "01:16", "quote": "You can see the box under bulk shipping consolidation panel on the open box tab."}
+      ],
+      "says": "You can see the box under bulk shipping consolidation panel on the open box tab.",
+      "why": ""
+    },
+    {
+      "at": "01:22-01:35",
+      "screen": "Consolidation Panel, Box #1 (frames t00082, t00086, t00092, t00095)",
+      "action": "Trainer names the three buttons that matter: 1 Barcode and Print all barcodes, 2 Mark ready for collection, 3 Remove (per order row). Each is called out with a numbered badge in the zoomed frames.",
+      "evidence": [
+        {"kind": "say", "at": "01:23", "quote": "Three buttons matter here."},
+        {"kind": "say", "at": "01:25", "quote": "Number one, barcode and print all barcodes."},
+        {"kind": "say", "at": "01:30", "quote": "Number two, mark ready for collection."},
+        {"kind": "say", "at": "01:34", "quote": "And number three, remove."},
+        {"kind": "see", "at": "01:30", "frame": "t00092.jpg", "quote": "Badge 1 on the Print all barcodes (6) button and on the row Barcode button; badge 2 on the purple Mark ready for collection button. Caption: Number two: Mark ready for collection. That's step four."}
+      ],
+      "says": "Three buttons matter here.",
+      "why": ""
+    },
+    {
+      "at": "01:25-02:03",
+      "screen": "Consolidation Panel, Box #1 print-barcodes illustration (frame t00118)",
+      "action": "Use Barcode on a single device row to print that one device's barcode; use Print all barcodes to print the labels for the whole box.",
+      "evidence": [
+        {"kind": "say", "at": "02:00", "quote": "Barcode prints one."},
+        {"kind": "say", "at": "02:03", "quote": "Print the whole box."},
+        {"kind": "see", "at": "02:00", "frame": "t00118.jpg", "quote": "Box #1 card with 'Print all barcodes (6)' button and a single row ZA-85669-1 / RV-15-441625 with a Barcode button; caption: Then print its barcode. Barcode prints one. Print all barcodes prints the whole box."}
+      ],
+      "says": "Barcode prints one. Print all barcodes prints the whole box.",
+      "why": ""
+    },
+    {
+      "at": "01:35-01:37",
+      "screen": "Consolidation Panel, zoomed Remove callout (frame t00098)",
+      "action": "Click Remove on a row to take that order out of the box; it goes back to Order created. After a removal the header counter reads 1 removed.",
+      "evidence": [
+        {"kind": "say", "at": "01:37", "quote": "It takes an order out of the box and sends it back to order created."},
+        {"kind": "see", "at": "01:37", "frame": "t00098.jpg", "quote": "Badge 3 on the Remove button of the second row (RV-15-441946); caption: And number three: Remove. It takes an order out of the box, and sends it back to Order created. Header shows 1 removed."}
+      ],
+      "says": "It takes an order out of the box and sends it back to order created.",
+      "why": ""
+    },
+    {
+      "at": "01:40",
+      "screen": "Consolidation Panel, Box #1 full view (frame file not confirmed, see unclear)",
+      "action": "Orders can be added and removed until the box is marked ready for collection.",
+      "evidence": [
+        {"kind": "say", "at": "01:40", "quote": "You can add and remove orders freely until you mark the box ready for collection."},
+        {"kind": "see", "at": "01:40", "frame": "t00095.jpg", "quote": "Box #1 table with ZA-85666-1 iphone-15-pro-max (RV-15-441620) highlighted in green; caption: You can add and remove orders freely, until you mark the box ready for collection."}
+      ],
+      "says": "You can add and remove orders freely until you mark the box ready for collection.",
+      "why": ""
+    },
+    {
+      "at": "01:32-01:36",
+      "screen": "Consolidation Panel, Mark ready for collection (frame t00092)",
+      "action": "Mark ready for collection is the purple button at top right of Box #1; the trainer calls it number two and says it is step four.",
+      "evidence": [
+        {"kind": "say", "at": "01:33", "quote": "That's step four."},
+        {"kind": "see", "at": "01:32", "frame": "t00092.jpg", "quote": "Purple button 'Mark ready for collection' with badge 2; the caption reads: Number two: Mark ready for collection. That's step four."}
+      ],
+      "says": "Number two, mark ready for collection.",
+      "why": ""
+    },
+    {
+      "at": "01:47-01:55",
+      "screen": "Step 2 of 4, Each device (frames t00102, t00109, t00114)",
+      "action": "Pack each device for the customer exactly as you do today; nobody opens it on the way. Then print its barcode from the panel (step 2).",
+      "evidence": [
+        {"kind": "say", "at": "01:47", "quote": "Step two, every device gets a barcode."},
+        {"kind": "say", "at": "01:50", "quote": "First, pack the device for the customer exactly as you do today."},
+        {"kind": "say", "at": "01:55", "quote": "Nobody opens it on the way."},
+        {"kind": "see", "at": "01:50", "frame": "t00109.jpg", "quote": "Purple REVIBE device box; caption: First, pack the device for the customer, exactly as you do today. Nobody opens it on the way."}
+      ],
+      "says": "First, pack the device for the customer exactly as you do today.",
+      "why": ""
+    },
+    {
+      "at": "01:56-02:03",
+      "screen": "Barcode print step (frames t00116, t00118)",
+      "action": "Print the barcode for each device (single Barcode button or Print all barcodes for the box).",
+      "evidence": [
+        {"kind": "say", "at": "01:56", "quote": "Then print its barcode."},
+        {"kind": "see", "at": "01:57", "frame": "t00116.jpg", "quote": "Printer and Box #1 card with a Barcode button on row ZA-85669-1; caption: Then print its barcode. Barcode prints one. Print all barcodes prints the whole box."}
+      ],
+      "says": "Then print its barcode.",
+      "why": ""
+    },
+    {
+      "at": "02:08-02:12",
+      "screen": "Device barcode label and device box (frames t00130)",
+      "action": "Stick the printed barcode flat on the largest face of the device box.",
+      "evidence": [
+        {"kind": "say", "at": "02:12", "quote": "Stick it flat on the largest face of the device box."},
+        {"kind": "see", "at": "02:12", "frame": "t00130.jpg", "quote": "Label marked 'Flat, on the largest face' with a green tick, next to a photo of a purple box with the label flat on its large face."}
+      ],
+      "says": "Stick it flat on the largest face of the device box.",
+      "why": ""
+    },
+    {
+      "at": "02:15-02:18",
+      "screen": "Label handling (frames t00135, t00138)",
+      "action": "Do not cut the barcode, do not fold it over an edge, do not crumple it or cover it with another label.",
+      "evidence": [
+        {"kind": "say", "at": "02:16", "quote": "Never cut it."},
+        {"kind": "say", "at": "02:17", "quote": "Never fold it over an edge {and?} never crumple it or cover it with another label."},
+        {"kind": "see", "at": "02:17", "frame": "t00135.jpg", "quote": "Red-cross 'Don't cut it' example with a label split in two; grey 'Don't fold it over an edge' example; caption: Never cut it. Never fold it over an edge. And never crumple it, or cover it with another label."}
+      ],
+      "says": "Never cut it.",
+      "why": ""
+    }
+  ],
+  "facts": [
+    {
+      "type": "rule",
+      "statement": "All South Africa orders of the day travel together in one box instead of one DHL label per order.",
+      "evidence": [
+        {"kind": "say", "at": "00:06", "quote": "Instead of one DHL label per order, all your South Africa orders of the day travel together in"},
+        {"kind": "see", "at": "00:09", "frame": "t00009.jpg", "quote": "Six DHL boxes and the caption: Instead of one DHL label per order, all your South Africa orders of the day travel together in one box."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Quiqup (spelled QuickUp in the narration) collects the day's box once a day. Revibe takes care of the rest.",
+      "evidence": [
+        {"kind": "say", "at": "00:14", "quote": "QuickUp collects that box once a day, and Revibe takes care of the rest."},
+        {"kind": "see", "at": "00:14", "frame": "t00015.jpg", "quote": "Quiqup truck badge with caption: Quiqup collects that box once a day, and Revibe takes care of the rest."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "The day has four steps: 1 Ready for pickup (in the system, as today). 2 A barcode on every device (printed from the panel). 3 One big box (sealed with red tape). 4 Hand over to Quiqup (Mark ready for collection).",
+      "evidence": [
+        {"kind": "say", "at": "00:19", "quote": "Your day has four steps."},
+        {"kind": "see", "at": "00:28", "frame": "t00029.jpg", "quote": "Four cards titled Ready for pickup (In the system, as today), A barcode on every device (Printed from the panel), One big box (Sealed with red tape), Hand over to Quiqup (Mark ready for collection)."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Step 1: click Ready for pickup on the order in the Orders page of the Revibe seller panel. No DHL label is created; the order goes into today's open box.",
+      "evidence": [
+        {"kind": "say", "at": "01:05", "quote": "Step one happens in the system with the button you already know, ready for pickup."},
+        {"kind": "say", "at": "01:10", "quote": "The only difference, you don't get a DHL label anymore."},
+        {"kind": "say", "at": "01:14", "quote": "The order goes into today's open box."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "On the Orders page, each order row has a purple Ready for pickup button in the Action column.",
+      "evidence": [
+        {"kind": "see", "at": "01:05", "frame": "t00066.jpg", "quote": "Orders table with Action column; purple Ready for pickup button on each order row (ZA-85669-1, ZA-85723-1, ZA-85654-1), Open box counter 0."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "The Open box counter at the top right of the Orders page shows how many orders are in today's open box; it went from 0 to 1 after the first order was marked Ready for pickup.",
+      "evidence": [
+        {"kind": "see", "at": "01:14", "frame": "t00077.jpg", "quote": "Orders header: Open box with counter 1 (previously 0 in t00071)."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The day's box is seen in Bulk Shipping > Consolidation Panel, on the Open box tab.",
+      "evidence": [
+        {"kind": "say", "at": "01:16", "quote": "You can see the box under bulk shipping consolidation panel on the open box tab."},
+        {"kind": "see", "at": "01:20", "frame": "t00080.jpg", "quote": "Sidebar: Bulk Shipping › with sub-item Consolidation Panel."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "Mark ready for collection is the step that closes the box for pickup; orders can be added and removed freely until it is pressed.",
+      "evidence": [
+        {"kind": "say", "at": "01:40", "quote": "You can add and remove orders freely until you mark the box ready for collection."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Barcode (per device button) prints the barcode of one device. Print all barcodes prints the barcodes for the whole box.",
+      "evidence": [
+        {"kind": "say", "at": "02:00", "quote": "Barcode prints one."},
+        {"kind": "say", "at": "02:03", "quote": "Print the whole box."},
+        {"kind": "see", "at": "02:00", "frame": "t00118.jpg", "quote": "Print all barcodes (6) button on Box #1 card, and a single-row Barcode button; caption: Barcode prints one. Print all barcodes prints the whole box."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Remove takes an order out of the box and sends it back to Order created.",
+      "evidence": [
+        {"kind": "say", "at": "01:37", "quote": "It takes an order out of the box and sends it back to order created."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Step 2: every device must have its own barcode, printed from the Consolidation Panel and stuck on the device box.",
+      "evidence": [
+        {"kind": "say", "at": "01:47", "quote": "Step two, every device gets a barcode."},
+        {"kind": "see", "at": "01:52", "frame": "t00102.jpg", "quote": "Step 2 of 4 · Each device, A barcode on every device; label RV-15-441625 with ZA-85669-1 · Box 1."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Pack the device for the customer exactly as you do today, and nobody opens it on the way.",
+      "evidence": [
+        {"kind": "say", "at": "01:50", "quote": "First, pack the device for the customer exactly as you do today."},
+        {"kind": "say", "at": "01:55", "quote": "Nobody opens it on the way."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Stick the device barcode flat on the largest face of the device box.",
+      "evidence": [
+        {"kind": "say", "at": "02:12", "quote": "Stick it flat on the largest face of the device box."},
+        {"kind": "see", "at": "02:12", "frame": "t00130.jpg", "quote": "Green tick under a label: Flat, on the largest face."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "Never cut the barcode label, never fold it over an edge, never crumple it, and never cover it with another label.",
+      "evidence": [
+        {"kind": "say", "at": "02:16", "quote": "Never cut it."},
+        {"kind": "say", "at": "02:17", "quote": "Never fold it over an edge {and?} never crumple it or cover it with another label."},
+        {"kind": "see", "at": "02:17", "frame": "t00135.jpg", "quote": "Caption: Never cut it. Never fold it over an edge. And never crumple it, or cover it with another label."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The device barcode (for example RV-15-441625) carries the order number (for example ZA-85669-1) and the box number (for example Box 1). The screen annotates the order number as the field for Quiqup and the box number as the field for DHL; the Courier Guy has a connector but no field label.",
+      "evidence": [
+        {"kind": "say", "at": "02:04", "quote": "The barcode carries the order and the box number."},
+        {"kind": "see", "at": "02:10", "frame": "t00127.jpg", "quote": "Barcode label with ZA-85669-1 labelled Order and Box 1 labelled Box number; Quiqup under Order, DHL under Box number, The Courier Guy with no label."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Quiqup, DHL and The Courier Guy all track the device with the barcode.",
+      "evidence": [
+        {"kind": "say", "at": "02:08", "quote": "QuickUp DHL and the courier guy all track the device with it."},
+        {"kind": "see", "at": "02:08", "frame": "t00124.jpg", "quote": "Caption: The barcode carries the order and the box number. Quiqup, DHL and The Courier Guy all track the device with it."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Quiqup scans every device at its warehouse, and that scan is the moment the order turns Shipped.",
+      "evidence": [
+        {"kind": "say", "at": "00:42", "quote": "QuickUp scans every device at its warehouse."},
+        {"kind": "say", "at": "00:45", "quote": "That scan is the moment your order turns shipped."},
+        {"kind": "see", "at": "00:45", "frame": "t00044.jpg", "quote": "Scanner with three REVIBE barcode cards ticked; caption: Quiqup scans every device at its warehouse. That scan is the moment your order turns Shipped."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "DHL flies the boxes of all suppliers to South Africa.",
+      "evidence": [
+        {"kind": "say", "at": "00:48", "quote": "DHL then flies the boxes of all suppliers to South Africa."},
+        {"kind": "see", "at": "00:48", "frame": "t00051.jpg", "quote": "DHL plane on route with caption: DHL then flies the boxes of all suppliers to South Africa."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "The Courier Guy delivers each device to the customer's door.",
+      "evidence": [
+        {"kind": "say", "at": "00:53", "quote": "And the courier guy delivers each device to the customer's door."},
+        {"kind": "see", "at": "00:53", "frame": "t00055.jpg", "quote": "Route with The Courier Guy highlighted and caption: And The Courier Guy delivers each device to the customer's door."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Stated reason for bulk shipping: one shipment costs less than many, so prices in South Africa go down and you sell more.",
+      "evidence": [
+        {"kind": "say", "at": "00:58", "quote": "One shipment costs less than many, so prices in South Africa go down and you sell more."},
+        {"kind": "see", "at": "00:59", "frame": "t00059.jpg", "quote": "Many shipments vs One shipment illustration with a green down arrow and a price tag; caption: Why? One shipment costs less than many, so prices in South Africa go down, and you sell more."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "warning",
+      "statement": "Implied: once the box is marked ready for collection, orders can no longer be added or removed from it.",
+      "evidence": [
+        {"kind": "say", "at": "01:40", "quote": "You can add and remove orders freely until you mark the box ready for collection."}
+      ],
+      "confidence": "low",
+      "quiz": false
+    },
+    {
+      "type": "warning",
+      "statement": "Step 3 is one big box, sealed with red tape. The sealing detail appears only as a slide sub-label; the narration in part 1 does not explain it.",
+      "evidence": [
+        {"kind": "see", "at": "00:28", "frame": "t00029.jpg", "quote": "Card 3 One big box, sub-label Sealed with red tape."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The Consolidation Panel tabs are: Open box, With Quiqup, Scanned, With DHL, With TCG, Cancelled. The Open box tab shows the current box.",
+      "evidence": [
+        {"kind": "see", "at": "01:20", "frame": "t00082.jpg", "quote": "Tabs: Open box (1), With Quiqup (0), Scanned (0), With DHL (0), With TCG (0), Cancelled (0)."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Box #1 header on the Consolidation Panel shows status Open with the badge Open For Additions, the box reference REVIBE-CONSOL-26-15, Quiqup order number (blank before pickup), carrier Quiqup, and Pickup AWB label (available after ready for collection).",
+      "evidence": [
+        {"kind": "see", "at": "01:20", "frame": "t00082.jpg", "quote": "Box #1 header: Open, Open For Additions; OUR REFERENCE REVIBE-CONSOL-26-15; QUIQUP ORDER # —; CARRIER Quiqup; PICKUP AWB LABEL Available after ready for collection."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "The Box #1 counters show devices, scanned, pickup failed and removed; in the example: 6 devices, 0 scanned, 0 pickup failed, 1 removed.",
+      "evidence": [
+        {"kind": "see", "at": "01:20", "frame": "t00082.jpg", "quote": "6 devices 0 scanned 0 pickup failed 1 removed."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "The Scan status column of Box #1 shows the green badge Added on each device row.",
+      "evidence": [
+        {"kind": "see", "at": "01:20", "frame": "t00082.jpg", "quote": "Scan status column with green Added badges on each row."}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "example",
+      "statement": "The old process was one DHL label per order, with each order collected parcel by parcel.",
+      "evidence": [
+        {"kind": "say", "at": "00:30", "quote": "Until now, every order had its own DHL label and was collected parcel by parcel."},
+        {"kind": "see", "at": "00:32", "frame": "t00032.jpg", "quote": "Until now label above six DHL boxes."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    }
+  ],
+  "screens": [
+    {
+      "name": "Revibe seller panel, Orders page (South Africa)",
+      "shows": "Sidebar: Dashboard, Orders, Bulk Shipping ›, Claims, Statements. Open box counter at top right. Table columns: Order, Device, Status, Action. Rows show Status Order created and a purple Ready for pickup button. Sample rows: ZA-85669-1 samsung-galaxy-s21-fe-6gb, ZA-85723-1 iphone-17, ZA-85654-1 iphone-15-pro-max.",
+      "where": "Orders",
+      "at": "01:04-01:16 (t00064, t00066, t00071, t00073, t00077)"
+    },
+    {
+      "name": "Consolidation Panel (Bulk Shipping > Consolidation Panel)",
+      "shows": "Tabs: Open box (n), With Quiqup (0), Scanned (0), With DHL (0), With TCG (0), Cancelled (0). Box #1 card with status Open, badge Open For Additions, buttons Print all barcodes (6) and Mark ready for collection. Fields: OUR REFERENCE, QUIQUP ORDER #, CARRIER, PICKUP AWB LABEL. Counters: devices, scanned, pickup failed, removed. Table: Order Help, Device Name, Barcode, Scan status, Added At, Actions (Barcode and Remove per row).",
+      "where": "Bulk Shipping > Consolidation Panel",
+      "at": "01:20-01:40 (t00082, t00086, t00092, t00095, t00098)"
+    },
+    {
+      "name": "Consolidation Panel zoomed callouts",
+      "shows": "Numbered pink badges: 1 on Print all barcodes and the row Barcode button, 2 on Mark ready for collection, 3 on row Remove. Captions: Three buttons matter here; Number two: Mark ready for collection. That's step four.; And number three: Remove.",
+      "where": "Consolidation Panel, top-right of Box #1 and row actions",
+      "at": "01:23-01:37 (t00086, t00092, t00098)"
+    },
+    {
+      "name": "Device barcode label",
+      "shows": "Barcode RV-15-441625 with human-readable text ZA-85669-1 · Box 1; callouts Order (ZA-85669-1) and Box number (Box 1); Quiqup, DHL and The Courier Guy listed below, The Courier Guy without a field label.",
+      "where": "Printed device label",
+      "at": "01:49-02:17 (t00102, t00124, t00125, t00127)"
+    },
+    {
+      "name": "Print barcodes illustration",
+      "shows": "Box #1 card with Print all barcodes (6), one row ZA-85669-1 RV-15-441625 with Barcode button, printer and a stack of barcode labels.",
+      "where": "Consolidation Panel (illustration)",
+      "at": "01:58-02:03 (t00116, t00118)"
+    },
+    {
+      "name": "Label placement and handling",
+      "shows": "Purple REVIBE device box photo with label flat on largest face (Flat, on the largest face); Don't cut it and Don't fold it over an edge examples.",
+      "where": "Packing step illustration",
+      "at": "02:10-02:17 (t00130, t00135, t00138)"
+    },
+    {
+      "name": "Route slides: old route and new route",
+      "shows": "Five-step route: You (pack one box), Quiqup (collects & scans), DHL (flies it), The Courier Guy (delivers), Customer (in South Africa). Old route: six DHL boxes labelled Until now. New route: one box and Quiqup truck, labelled From now on. Route map Dubai to South Africa.",
+      "where": "Training video slides",
+      "at": "00:00-00:57 (t00000 to t00059)"
+    }
+  ],
+  "terms": [
+    {"term": "Bulk shipping (South Africa orders)", "meaning": "Shipping all of the day's South Africa orders together in one box instead of one DHL label per order.", "at": "00:02"},
+    {"term": "Open box", "meaning": "Today's box that orders are added to after Ready for pickup; shown as a counter on the Orders page and as the Open box tab of the Consolidation Panel.", "at": "01:14"},
+    {"term": "Consolidation Panel", "meaning": "Bulk Shipping sub-page where the open box, its devices and barcodes are managed.", "at": "01:16"},
+    {"term": "Ready for pickup", "meaning": "Order button that sends the order into today's open box (step 1).", "at": "01:05"},
+    {"term": "Order created", "meaning": "Order status. Remove sends an order back to this status.", "at": "01:37"},
+    {"term": "Mark ready for collection", "meaning": "Button at the top right of Box #1 that the trainer calls number two and step four; the slide card 4 reads Hand over to Quiqup (Mark ready for collection).", "at": "01:31"},
+    {"term": "Print all barcodes", "meaning": "Button that prints the barcodes for every device in the box.", "at": "01:25"},
+    {"term": "Barcode (button)", "meaning": "Button on a device row that prints that device's barcode only.", "at": "01:25"},
+    {"term": "Remove", "meaning": "Button on a row that takes an order out of the box and sends it back to Order created.", "at": "01:34"},
+    {"term": "Quiqup", "meaning": "Collection carrier that collects the box once a day and scans each device at its warehouse. Spelled QuickUp in the narration.", "at": "00:14"},
+    {"term": "DHL", "meaning": "Carrier that flies the boxes of all suppliers to South Africa.", "at": "00:48"},
+    {"term": "The Courier Guy (TCG)", "meaning": "Carrier that delivers each device to the customer's door in South Africa.", "at": "00:53"},
+    {"term": "Shipped", "meaning": "Order status that the order turns to when Quiqup scans the device at its warehouse.", "at": "00:45"},
+    {"term": "Open For Additions", "meaning": "Badge on Box #1 shown while the box is open and orders can still be added.", "at": "01:20"},
+    {"term": "Pickup AWB label", "meaning": "Pickup label field on the box; shown as available only after the box is marked ready for collection.", "at": "01:20"},
+    {"term": "Scan status", "meaning": "Column on the Consolidation Panel showing the device's scan state (for example Added).", "at": "01:20"},
+    {"term": "Box number", "meaning": "Box identifier printed on the device barcode (for example Box 1); the screen annotates it as the field for DHL.", "at": "02:08"}
+  ],
+  "asr_fixes": [
+    {"at": "00:14", "heard": "QuickUp", "correct": "Quiqup", "basis": "Screen: truck badge in frame t00015 and the Carrier field and With Quiqup tab in frames t00077 to t00082."},
+    {"at": "00:21", "heard": "hand-over to QuickUp", "correct": "hand-over to Quiqup", "basis": "Slide card 4 reads 'Hand over to Quiqup' in frame t00029."},
+    {"at": "00:45", "heard": "turns shipped", "correct": "turns Shipped", "basis": "Caption in frame t00044 capitalises the status name Shipped."},
+    {"at": "02:17", "heard": "{and?}", "correct": "And", "basis": "Caption in frame t00135 reads 'And never crumple it, or cover it with another label.'"},
+    {"at": "02:08", "heard": "QuickUp DHL and the courier guy", "correct": "Quiqup, DHL and The Courier Guy", "basis": "Caption in frame t00124 reads 'Quiqup, DHL and The Courier Guy all track the device with it.'"}
+  ],
+  "unclear": [
+    {"at": "02:08", "issue": "Narration says Quiqup, DHL and The Courier Guy all track the device with the barcode. The screen annotates only Order (Quiqup) and Box number (DHL); The Courier Guy has a connector line but no field label. Which barcode field The Courier Guy uses is not stated."},
+    {"at": "01:40", "issue": "The add-order action is never shown. The Box #1 view shows ZA-85666-1 added and ZA-85723-1 gone, but the narration does not explain how an order is added. The filename of the full Box #1 view with this caption was not confirmed (cited as t00095, to re-check)."},
+    {"at": "01:40", "issue": "Whether orders can still be changed after Mark ready for collection is not stated. Only the before state is said."},
+    {"at": "00:28", "issue": "Step 3 (One big box, sealed with red tape) appears only on a slide. The sealing procedure is not narrated in part 1 and is probably covered in part 2."},
+    {"at": "02:00", "issue": "Quiqup order number field on the box is shown as a dash before pickup. When it gets filled is not shown in part 1."}
+  ],
+  "outdated": [
+    {"at": "00:30", "signal": "'Until now, every order had its own DHL label, and was collected parcel by parcel.' Old process described in the past tense; shown on frame t00032 as 'Until now' with six DHL boxes."},
+    {"at": "01:10", "signal": "'The only difference: you don't get a DHL label anymore.' Describes the change away from per-order DHL labels; the DHL label callout is on frame t00073."}
+  ],
+  "privacy": [
+    {"at": "01:20-01:40", "frame": "t00082.jpg", "what": "Order IDs (ZA-85669-1, ZA-85723-1, ZA-85654-1, ZA-85719-1, ZA-85753-1, ZA-85666-1), device barcodes (RV-15-441625 etc.) and timestamps (19/10/2026 09:18) visible on the Consolidation Panel and Orders screens. No customer names, phone numbers, emails or addresses are visible on screen in part 1."}
+  ],
+  "frames_opened": 40,
+  "audit": {
+    "checked": 77,
+    "removed": [
+      {"statement": "Step 01:35: the removed device row shows as struck through and the header counter reads 1 removed.", "reason": "The struck-through row is not visible in the frames; only the 1 removed counter is visible. Kept only the counter, and the Remove callout."},
+      {"statement": "Step 01:47: pack each device, keep it closed, then print its barcode.", "reason": "Keep it closed is not said in the narration and is not clearly shown on frames t00109 or t00114. The narration only says nobody opens it on the way."}
+    ],
+    "corrected": [
+      {"before": "Summary: the trainer walks through the four daily steps in the Revibe seller panel.", "after": "Steps 1, 2 and 4 are done in the seller panel; step 3 (one big box sealed with red tape) is physical and shown on a slide only.", "reason": "Overgeneralised: step 3 is not in the panel."},
+      {"before": "Step at 00:19-00:21 cites frame t00029 for the four-card slide at 00:20.", "after": "Cards appear one by one: t00025 shows cards 1 and 2 with card 3 faded; t00029 shows all four cards. Caption 'Your day has four steps' is on t00019 and t00020.", "reason": "Frame citation and timestamp did not match the frame content."},
+      {"before": "Fact 'Revibe handles the rest of the shipping.'", "after": "On-screen text: 'Revibe takes care of the rest'; Quiqup collects that box once a day.", "reason": "Paraphrase added 'of the shipping', which is not said. Use the on-screen wording."},
+      {"before": "Fact 'Six DHL boxes' cited frame t00004.", "after": "Cited frame t00009 (six DHL boxes with the caption 'one box').", "reason": "Frame t00004 shows the Dubai map and the opening caption, not the six boxes."},
+      {"before": "Fact 'Step 1 ... ready for pickup' and the step at 01:05 cited frame t00064 for the Orders page.", "after": "Orders page is on frames t00066 (no cursor) and t00071 (cursor on ZA-85669-1). t00064 is the 'Why' slide.", "reason": "Wrong frame citation."},
+      {"before": "Sidebar step caption quoted as 'You can see the box under bulk shipping consolidation panel on the open box tab.'", "after": "Screen caption reads 'You can see the box under Bulk Shipping, Consolidation Panel, on the Open box tab.' The say-quote from the transcript is kept.", "reason": "Screen wording differs from the transcript; both recorded."},
+      {"before": "Step at 01:32 says Mark ready for collection 'finishes the box'.", "after": "Mark ready for collection is the purple button at top right of Box #1; the trainer calls it number two and step four.", "reason": "'Finishes the box' is an inference not stated in the narration."},
+      {"before": "Step at 01:47 says 'keep it closed' and cites a closed purple box.", "after": "Pack the device for the customer exactly as you do today; nobody opens it on the way (t00109, t00114).", "reason": "'Keep it closed' is not narrated and the closed state is not clearly visible."},
+      {"before": "Step at 01:56-02:03 cites frame t00109 for the RV-15-441625 label.", "after": "Print step is on t00116 (printer and Barcode button) and t00118 (labels). The RV-15-441625 label with 'Step 2 of 4' is on t00102.", "reason": "Wrong frame citation."},
+      {"before": "Fact 'Step 2: every device must have its own barcode' cites frame t00109 for the label.", "after": "Cite frame t00102.", "reason": "The label frame is t00102; t00109 is the purple device box."},
+      {"before": "Step at 01:35-01:37 cites frame t00095 for the Remove callout.", "after": "Cite frame t00098 for the Remove callout (badge 3 on RV-15-441946 row, header 1 removed).", "reason": "Frame t00098 shows the Remove zoom."},
+      {"before": "Fact 'Scan status Added appears on each device row of the box after it is added.'", "after": "The Scan status column shows the green badge Added on each device row of Box #1.", "reason": "'After it is added' is an inference; the screen shows the Added status."},
+      {"before": "Fact 'Quiqup reads the order number on the barcode, and DHL reads the box number'.", "after": "The screen annotates the order number as the Quiqup field and the box number as the DHL field; The Courier Guy has no field label.", "reason": "The screen only annotates; 'reads' is an inference."},
+      {"before": "Fact 'The only difference: you don't get a DHL label anymore' cited frame t00066.", "after": "Cite frame t00073 (DHL label callout above the Orders table).", "reason": "Frame content matches t00073."},
+      {"before": "Outdated entry (00:30) cites frame t00029.", "after": "Cite frame t00032 ('Until now' with six DHL boxes).", "reason": "Frame content matches t00032."},
+      {"before": "Screen 'Route slides' says 'New route: one box and Quiqup truck' and does not mention the labels.", "after": "Old route is labelled Until now (six DHL boxes); new route is labelled From now on (one box and Quiqup truck).", "reason": "Added the on-screen labels."},
+      {"before": "Summary and screen list cite frame t00138 as an extra image.", "after": "t00138 is a duplicate of t00135 (Don't cut / Don't fold slide).", "reason": "Accurate description of the frame."},
+      {"before": "Screen 'Consolidation Panel zoomed callouts' cites t00095.", "after": "Zoomed callouts are on t00086, t00092 and t00098; t00095 repeats the Mark ready (number two) zoom.", "reason": "Frame content check."}
+    ],
+    "added": [
+      "Fact: each order row on the Orders page has a purple Ready for pickup button in the Action column (frame t00066, cursor frame t00071).",
+      "Screen detail: the Barcode label for the device shows the human-readable text RV-15-441625 and the order and box text ZA-85669-1 · Box 1 (frame t00102).",
+      "Screen detail: the Consolidation Panel Remove callout shows the second device row RV-15-441946 with its Barcode and Remove buttons (frame t00098)."
+    ]
+  }
+}

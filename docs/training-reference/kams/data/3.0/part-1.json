@@ -1,0 +1,1475 @@
+{
+  "summary": "Part 1 (00:00-07:54) of the 3.0 Buybox (KAMs) video. The trainer (Pierre) walks through the Buybox tab of the 'Smart Cell x Revibe' Google Sheet: the Revibe-controlled catalogue and filters, Monthly Sales bands, the Neutral Buybox AE/SA columns (from frame t00194), the seller Score, the Price AE formula =N3*(1+P3), Buybox AE/SA and Wins AE/SA, and the red (AE) vs green (SA) shipping split. He then opens the Reporting bookmark, the Revibe Workspace and the Seller Performance page for Smart Cell (Score +2.7%), and shows the Buybox AI workbook (database score AE and database score SA tabs) for SKU 980105-000004. All 40 frames cited in pack-1 were opened, and the frames were checked against the cited transcript lines. Several frame citations pointed at the wrong frame and were corrected. Gaps remain: the Min AE/Min SA columns, 'No bid', '134 - Fulfillment', the Scored Price columns, the ranking rule and the currency glyph are not explained in this part.",
+  "frames_opened": 40,
+  "steps": [
+    {
+      "at": "00:00",
+      "screen": "Google Sheets 'Smart Cell x Revibe', Buybox tab (tab name partly hidden on screen)",
+      "action": "Trainer introduces the Buybox concept. No clicks are visible in these frames. Cell F7 stays selected and the sheet shows the columns Name to Min SA.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "00:09",
+          "quote": "First, the concept of the Buybox."
+        },
+        {
+          "kind": "see",
+          "at": "00:00",
+          "quote": "Smart Cell x Revibe sheet open, cell F7 selected (value Gold); header row shows Name, Category, Model, RAM, Storage, Colour, SKU_Long, Screen size, Series, Condition, Keyboard, Monthly Sales, Score, Buybox AE, Buybox SA, Wins AE, Wins SA, Price AE, Price SA, Min AE, Min SA; Score shows 2.70% in visible rows; Monthly Sales bands 0-1 to 50+",
+          "frame": "t00000.jpg"
+        }
+      ]
+    },
+    {
+      "at": "01:17",
+      "screen": "Buybox tab, column header row",
+      "action": "Trainer explains the layout: the catalogue columns on the left are set by Revibe, and the pricing columns are to the right.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "01:17",
+          "quote": "So in each seller sheet, you have this tab called buy box"
+        },
+        {
+          "kind": "say",
+          "at": "01:25",
+          "quote": "the catalog is already"
+        },
+        {
+          "kind": "say",
+          "at": "01:33",
+          "quote": "determined and organized by Revive the only thing sellers can do based on this catalog is to filter"
+        }
+      ]
+    },
+    {
+      "at": "01:42",
+      "screen": "Buybox tab, Category column (B1) header with filter arrows",
+      "action": "Trainer says sellers can filter the Buybox tab (for instance to laptops) but cannot sort or reorder the rows. No filter is applied on screen in this frame.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "01:42",
+          "quote": "they cannot sort it they cannot change the order of the rows they can just filter so if"
+        },
+        {
+          "kind": "say",
+          "at": "01:51",
+          "quote": "they want {They?} can go here and filter only on laptops,"
+        },
+        {
+          "kind": "say",
+          "at": "01:58",
+          "quote": "but they cannot sort it."
+        },
+        {
+          "kind": "see",
+          "at": "01:51",
+          "quote": "B1 'Category' header selected with the cursor on it; filter arrows visible on every header cell",
+          "frame": "t00111.jpg"
+        }
+      ]
+    },
+    {
+      "at": "02:09",
+      "screen": "Buybox tab, Monthly Sales column (M)",
+      "action": "Trainer selects the Monthly Sales column and explains the 30-day sales estimate.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "02:09",
+          "quote": "For each SKU, we give to the seller an estimated level of monthly sales they could do over"
+        },
+        {
+          "kind": "see",
+          "at": "02:19",
+          "quote": "Column M 'Monthly Sales' selected (M:M), status bar Count 16,824",
+          "frame": "t00139.jpg"
+        }
+      ]
+    },
+    {
+      "at": "02:27",
+      "screen": "Buybox tab, M3 (value 20-50) and SKUs with 0-1 in Monthly Sales",
+      "action": "Trainer points at the row 3 iPhone (20-50) and then at low-sales SKUs, saying low sales may come from a price that is not competitive.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "02:27",
+          "quote": "days across all countries which means that this {iPhone?} 7 32 GB black good excellent condition we sold"
+        },
+        {
+          "kind": "say",
+          "at": "02:54",
+          "quote": "the price were not competitive and as you can see here for instance the price is way higher"
+        },
+        {
+          "kind": "see",
+          "at": "02:39",
+          "quote": "M3 selected, formula bar 20-50, row 3 = iphone-732 GB, Black, Excellent",
+          "frame": "t00159.jpg"
+        }
+      ]
+    },
+    {
+      "at": "03:07",
+      "screen": "Buybox tab, pricing section after Monthly Sales",
+      "action": "Trainer moves to the pricing section and points at the Neutral Buybox AE and Neutral Buybox SA columns (N and O). These columns are not present in frame t00179 and first appear in frame t00194.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "03:07",
+          "quote": "this one where we have some sales as well after the monthly sales we can see {the?} neutral"
+        },
+        {
+          "kind": "say",
+          "at": "03:13",
+          "quote": "buy box and we go into the pricing section of the buy box as you can see you"
+        },
+        {
+          "kind": "see",
+          "at": "03:14",
+          "quote": "Neutral Buybox AE (N) and Neutral Buybox SA (O) columns present between Monthly Sales and Score; formula bar O3 shows 364.63, N3 shows 159.84; 'Saving...' status visible",
+          "frame": "t00194.jpg"
+        }
+      ]
+    },
+    {
+      "at": "03:20",
+      "screen": "Buybox tab, Buybox AE/SA, Neutral and Wins column headers",
+      "action": "Trainer points at the red and green colouring of the pricing columns and says red is for AE. On screen the Wins SA header is pink like Wins AE, not green.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "03:20",
+          "quote": "have some red sorry you have some red okay and also some green colors so the red it's"
+        },
+        {
+          "kind": "say",
+          "at": "03:31",
+          "quote": "mentioned always for AE, AE standing for United Arab Emirates"
+        },
+        {
+          "kind": "see",
+          "at": "03:18",
+          "quote": "Headers pink for Buybox AE, Neutral Buybox AE, Wins AE, Wins SA, Price AE; green for Buybox SA, Neutral Buybox SA and Price SA",
+          "frame": "t00198.jpg"
+        }
+      ]
+    },
+    {
+      "at": "04:02",
+      "screen": "No screen change (sheet on screen)",
+      "action": "Trainer explains the shipping responsibilities for red (AE and new shipping countries) and green (Saudi Arabia) countries.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "04:04",
+          "quote": "we are asking the sellers to have by themselves a contract with a courier company"
+        },
+        {
+          "kind": "say",
+          "at": "04:11",
+          "quote": "{this?} means that in the red countries sellers they don't have to pay for shipping fees we provide"
+        }
+      ]
+    },
+    {
+      "at": "04:54",
+      "screen": "Buybox tab, then Reporting bookmark, Revibe Workspace and Seller Performance pages",
+      "action": "Trainer explains the neutral price, then opens the Reporting bookmark (reporting.revibe.me), the Revibe Workspace (merchant.revibe.me/portal/) and the Seller Performance page (merchant.revibe.me/seller/), and chooses the seller Smart Cell to show Score +2.7%.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "04:54",
+          "quote": "So here, the neutral buy box is the price {the?} seller should compete with if he had a"
+        },
+        {
+          "kind": "say",
+          "at": "05:22",
+          "quote": "seller can go directly on his portal and can see his score here of plus 2.7 {percent?}"
+        },
+        {
+          "kind": "see",
+          "at": "05:16",
+          "quote": "Browser tab 'Nouvel onglet' loading reporting.revibe.me (Reporting bookmark cursor position)",
+          "frame": "t00316.jpg"
+        },
+        {
+          "kind": "see",
+          "at": "05:19",
+          "quote": "merchant.revibe.me/portal/ 'REVIBE' 'YOUR WORKSPACE' with cards Dashboard, Orders App, Warranties, Fulfillment, Payment requests, Starter pack, Training videos",
+          "frame": "t00319.jpg"
+        },
+        {
+          "kind": "see",
+          "at": "05:21",
+          "quote": "merchant.revibe.me/seller/ 'Seller Performance', 'Staff view - no seller selected', 'Choose a seller...'",
+          "frame": "t00321.jpg"
+        },
+        {
+          "kind": "see",
+          "at": "05:25",
+          "quote": "merchant.revibe.me/seller/?supplier=47: 'Smart Cell' badges Buybox open, Score : +2.7%",
+          "frame": "t00325.jpg"
+        }
+      ]
+    },
+    {
+      "at": "05:41",
+      "screen": "Smart Cell Buybox sheet, cell U3 (Price AE) formula bar",
+      "action": "Trainer reads the Price AE formula for row 3 as the Neutral price times one plus the score, and says the seller can compete at about 160 before giving the exact result.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "05:41",
+          "quote": "has a score of plus 2.70 percent {he?} can compete with this which is here look times"
+        },
+        {
+          "kind": "say",
+          "at": "05:51",
+          "quote": ".70 it gives exactly {one?} {point?} sixty four so because the seller has a better score he can"
+        },
+        {
+          "kind": "see",
+          "at": "05:51",
+          "quote": "Formula bar shows =N3*(1+P3) for U3 (Price AE); tooltip shows 164.15568",
+          "frame": "t00351.jpg"
+        }
+      ]
+    },
+    {
+      "at": "06:01",
+      "screen": "Buybox AE and Buybox SA columns, Wins AE and Wins SA columns",
+      "action": "Trainer points at the Buybox AE and SA columns (the prices to compete with) and at the Wins columns, reading FALSE as not winning and TRUE as winning.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "06:01",
+          "quote": "come he can compete at a higher price so buy box {AE?} and buy box SA are the"
+        },
+        {
+          "kind": "say",
+          "at": "06:09",
+          "quote": "columns the seller should compete with here you can see that this SKU is in fulfillment here you"
+        },
+        {
+          "kind": "say",
+          "at": "06:17",
+          "quote": "can see if the seller is winning or not mentioning false that he not winning and true he"
+        },
+        {
+          "kind": "see",
+          "at": "06:08",
+          "quote": "Buybox AE and Buybox SA columns selected (Q:R); Wins AE / Wins SA show FALSE in the visible rows",
+          "frame": "t00368.jpg"
+        },
+        {
+          "kind": "see",
+          "at": "06:10",
+          "quote": "Q4 selected (value 144); Wins AE and Wins SA FALSE in visible rows",
+          "frame": "t00370.jpg"
+        }
+      ]
+    },
+    {
+      "at": "06:33",
+      "screen": "Buybox tab, row 9736 (iPad, Excellent, Monthly 3-5)",
+      "action": "Trainer scrolls to a row where Wins AE and Wins SA are TRUE and says the seller has to go one dirham lower than the current price to win.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "06:29",
+          "quote": "moment so it's mentioning true but otherwise in order to win the seller has to go one"
+        },
+        {
+          "kind": "say",
+          "at": "06:36",
+          "quote": "dirham lower than the current price so if he"
+        },
+        {
+          "kind": "see",
+          "at": "06:22",
+          "quote": "Row 9736 (iPad, Excellent, Monthly 3-5, Silver): Buybox AE 224, Buybox SA 400, Wins AE TRUE, Wins SA TRUE, Price AE 224",
+          "frame": "t00382.jpg"
+        }
+      ]
+    },
+    {
+      "at": "06:56",
+      "screen": "Smart Cell Buybox tab, filtered to one row (H14529, SKU 980105-000004, Monthly 50+)",
+      "action": "Trainer filters to an SKU with many sales to show how the algorithm works, and reads the Price AE and Wins AE values for that row.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "07:02",
+          "quote": "and how the algorithm is working so {I?} took on purpose an SKU with a lot of sales"
+        },
+        {
+          "kind": "say",
+          "at": "07:08",
+          "quote": "so that we can see how this is working so you see {smart?} {sell?} put a price of"
+        },
+        {
+          "kind": "see",
+          "at": "06:56",
+          "quote": "Filtered to 1 of 16,823 rows: Usb-C-20-W-Power-Adapter, Accessories, New, Monthly 50+, Score 2.70%, Buybox AE 24, Buybox SA 79, Wins AE FALSE, Wins SA FALSE, Price AE 25",
+          "frame": "t00416.jpg"
+        }
+      ]
+    },
+    {
+      "at": "07:20",
+      "screen": "Buybox AI Google Sheet, tab database score AE (SKU filtered)",
+      "action": "Trainer opens the Buybox AI workbook, names its two database tabs, and reads the SCL row for the same SKU (price 25, not winning).",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "07:20",
+          "quote": "sheet called buybox {ai?} we have two tabs database core {ai?} and database core sa in database core"
+        },
+        {
+          "kind": "say",
+          "at": "07:27",
+          "quote": "ai we gather all the prices in the red column and in database core sa we gather all"
+        },
+        {
+          "kind": "see",
+          "at": "07:20",
+          "quote": "Tab database score AE active; filtered on SKU 980105-000004, 6 of 18,114 rows displayed",
+          "frame": "t00440.jpg"
+        },
+        {
+          "kind": "say",
+          "at": "07:41",
+          "quote": "can see I filter on the SKU you can see here is the acronym of our seller SCL"
+        },
+        {
+          "kind": "say",
+          "at": "07:48",
+          "quote": "{SmartSell?} and we can see his price of 25 right as you can see he is not winning"
+        },
+        {
+          "kind": "see",
+          "at": "07:41",
+          "quote": "SCL row 6154 selected: Price 25, Score 0.027, Scored Price 24.325; other rows CF 30, HB 50, ALM 49, SF 24, BAA 55",
+          "frame": "t00461.jpg"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "type": "definition",
+      "statement": "The Buy Box is one unique catalogue with several sellers bidding on the same SKUs; for one SKU, several sellers can try to win it.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "00:11",
+          "quote": "The concept of the Buybox is that we have one unique catalogue with multiple sellers bidding on several"
+        },
+        {
+          "kind": "say",
+          "at": "00:21",
+          "quote": "And for one SKU, sometimes multiple sellers are trying to bid and to win this SKU."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The Buy Box is the algorithm that selects the best seller who is able to sell a SKU.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "00:29",
+          "quote": "The buy box is the algorithm that we have that is able to select the best seller who"
+        },
+        {
+          "kind": "say",
+          "at": "00:37",
+          "quote": "is able to sell this SKU."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "If another seller drops his price, or a seller's score increases, that seller may also be in a position to win the SKU. The trainer hedges this with 'maybe'.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "00:50",
+          "quote": "But if seller C is dropping his price or if seller A is increasing his score, then {they?}"
+        },
+        {
+          "kind": "say",
+          "at": "00:58",
+          "quote": "will also be maybe in a position to win this SKU."
+        }
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "For direct shipping in all countries, sellers put in prices only, not quantities.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "01:02",
+          "quote": "Kind reminder, the concept of {buy?} box versus the fulfillment is that sellers can put price and prices"
+        },
+        {
+          "kind": "say",
+          "at": "01:11",
+          "quote": "only, not quantities,"
+        },
+        {
+          "kind": "say",
+          "at": "01:14",
+          "quote": "for direct shipping in all the countries."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The catalogue is set by Revibe. Sellers cannot sort the rows or change their order; the only thing they can do with the catalogue is filter.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "01:25",
+          "quote": "the catalog is already determined and organized by Revive the only thing sellers can do based on this catalog is to filter"
+        },
+        {
+          "kind": "say",
+          "at": "01:42",
+          "quote": "they cannot sort it they cannot change the order of the rows they can just filter so if"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Sellers can filter the Buybox tab by model, storage, condition, SKU and other columns.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "02:01",
+          "quote": "They can filter also by model, by storage, by condition, SKU, whatever."
+        },
+        {
+          "kind": "see",
+          "at": "01:51",
+          "quote": "Filter arrows visible on every header cell of the Buybox tab (B1 Category selected)",
+          "frame": "t00111.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Monthly Sales is an estimate of the monthly sales a seller could make over the next 30 days, based on the sales of the past 30 days across all countries.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "02:09",
+          "quote": "For each SKU, we give to the seller an estimated level of monthly sales they could do over"
+        },
+        {
+          "kind": "say",
+          "at": "02:19",
+          "quote": "the next 30 days."
+        },
+        {
+          "kind": "say",
+          "at": "02:20",
+          "quote": "{this?} means that and this this data is based on the sales we had over the past 30"
+        },
+        {
+          "kind": "say",
+          "at": "02:27",
+          "quote": "days across all countries which means that this {iPhone?} 7 32 GB black good excellent condition we sold"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The Monthly Sales column shows colour-coded bands: 0-1, 1-3, 3-5, 5-10, 10-20, 20-50 and 50+.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "00:00",
+          "quote": "Column M Monthly Sales values 0-1, 1-3, 3-5, 5-10, 10-20, 20-50, 50+ in colour-coded cells",
+          "frame": "t00000.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "tip",
+      "statement": "SKUs with 0 to 1 units sold in the past 30 days should not be ignored by sellers: the trainer says the low sales may be caused by a price that is not competitive.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "02:35",
+          "quote": "between 20 and 50 units over the past 30 days but the SKUs with between 0 and 1"
+        },
+        {
+          "kind": "say",
+          "at": "02:43",
+          "quote": "units sold over the past 30 days should not be ignored by the sellers because maybe the reason"
+        },
+        {
+          "kind": "say",
+          "at": "02:50",
+          "quote": "why so little was sold is because"
+        },
+        {
+          "kind": "say",
+          "at": "02:54",
+          "quote": "the price were not competitive and as you can see here for instance the price is way higher"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "example",
+      "statement": "Example from the sheet: the iphone-7 32 GB Black Excellent SKU (row 3) is in the 20-50 monthly sales band.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "00:00",
+          "quote": "Row 3: iphone-732 GB, iphone-7, 32 GB, Black, Excellent, Monthly Sales 20-50",
+          "frame": "t00000.jpg"
+        },
+        {
+          "kind": "say",
+          "at": "02:27",
+          "quote": "days across all countries which means that this {iPhone?} 7 32 GB black good excellent condition we sold"
+        }
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "The Neutral Buybox price is the price a seller should compete with if the seller had a score of 0% (a neutral score).",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "04:54",
+          "quote": "So here, the neutral buy box is the price {the?} seller should compete with if he had a"
+        },
+        {
+          "kind": "say",
+          "at": "05:04",
+          "quote": "score of 0%, meaning a neutral score {in?} reality here the seller has a score of 2.70"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "A seller's Score is shown as a percentage in the Score column (2.70% in the example) and can be seen directly in the seller portal.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "05:04",
+          "quote": "score of 0%, meaning a neutral score {in?} reality here the seller has a score of 2.70"
+        },
+        {
+          "kind": "say",
+          "at": "05:13",
+          "quote": "{percent?} which is something by the way that you can see directly in the seller portal so the"
+        },
+        {
+          "kind": "see",
+          "at": "05:25",
+          "quote": "Seller Performance page for Smart Cell: badge 'Score : +2.7%'",
+          "frame": "t00325.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The Price AE formula in the example is =N3*(1+P3), i.e. Neutral Buybox AE (column N) multiplied by (1 + the seller's Score, column P).",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "05:41",
+          "quote": "has a score of plus 2.70 percent {he?} can compete with this which is here look times"
+        },
+        {
+          "kind": "say",
+          "at": "05:47",
+          "quote": "{1?} plus 2"
+        },
+        {
+          "kind": "see",
+          "at": "05:51",
+          "quote": "Formula bar for U3 (Price AE): =N3*(1+P3); tooltip value 164.15568",
+          "frame": "t00351.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "example",
+      "statement": "In row 3, Neutral Buybox AE is 159.84 and the score is 2.70%. The Price AE formula gives 164.15568 (tooltip on U3). The trainer first says the seller could compete at 'the price of 160 let's say', then says the result is exactly 164.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "05:30",
+          "quote": "{so?} here you understand that {it?} could compete with the price of 160 let's say but because it"
+        },
+        {
+          "kind": "say",
+          "at": "05:51",
+          "quote": ".70 it gives exactly {one?} {point?} sixty four so because the seller has a better score he can"
+        },
+        {
+          "kind": "see",
+          "at": "05:51",
+          "quote": "Row 3: Neutral Buybox AE 159.84; U3 tooltip 164.15568",
+          "frame": "t00351.jpg"
+        }
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "A seller with a better score can compete at a higher price than a seller with a neutral score.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "05:51",
+          "quote": "so because the seller has a better score he can"
+        },
+        {
+          "kind": "say",
+          "at": "06:01",
+          "quote": "come he can compete at a higher price so buy box {AE?} and buy box SA are the"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Buybox AE and Buybox SA are the price columns the seller should compete with.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "06:01",
+          "quote": "come he can compete at a higher price so buy box {AE?} and buy box SA are the"
+        },
+        {
+          "kind": "say",
+          "at": "06:09",
+          "quote": "columns the seller should compete with here you can see that this SKU is in fulfillment here you"
+        },
+        {
+          "kind": "see",
+          "at": "06:08",
+          "quote": "Buybox AE (Q) and Buybox SA (R) columns highlighted",
+          "frame": "t00368.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Wins AE and Wins SA show TRUE when the seller is currently winning (the trainer says the price is the lowest) and FALSE when not winning.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "06:17",
+          "quote": "can see if the seller is winning or not mentioning false that he not winning and true he"
+        },
+        {
+          "kind": "say",
+          "at": "06:22",
+          "quote": "is winning so here you can see for instance he put true {his?} price is the lowest at"
+        },
+        {
+          "kind": "see",
+          "at": "06:22",
+          "quote": "Row 9736: Wins AE TRUE, Wins SA TRUE; most visible rows show FALSE",
+          "frame": "t00382.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "To win a SKU, the seller has to price one dirham lower than the current price.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "06:29",
+          "quote": "moment so it's mentioning true but otherwise in order to win the seller has to go one"
+        },
+        {
+          "kind": "say",
+          "at": "06:36",
+          "quote": "dirham lower than the current price so if he"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "The trainer says that after a seller enters a new price, the algorithm synchronises and the Wins column then shows TRUE. The example price 218 is spoken only and is not on screen. The one-hour timing is ambiguous (see unclear).",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "06:43",
+          "quote": "puts a price of 218 in one hour"
+        },
+        {
+          "kind": "say",
+          "at": "06:47",
+          "quote": "the prices will refresh {the?} algorithm will synchronize and here the price of 218 will be synchronized here"
+        },
+        {
+          "kind": "say",
+          "at": "06:55",
+          "quote": "and here it will be showing true so now let's see all how all the prices are gathered"
+        }
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Colour convention: AE columns are pink/red (Buybox AE, Neutral Buybox AE, Price AE) and the SA price columns are green (Buybox SA, Neutral Buybox SA, Price SA). The Wins AE and Wins SA headers are both pink. AE is the United Arab Emirates and SA is Saudi Arabia.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "03:31",
+          "quote": "mentioned always for AE, AE standing for United Arab Emirates {in?} reality the real split between this red"
+        },
+        {
+          "kind": "say",
+          "at": "03:56",
+          "quote": "the seller here it's only for Saudi Arabia because so far Saudi Arabia is the only country where"
+        },
+        {
+          "kind": "see",
+          "at": "03:18",
+          "quote": "Header row: AE columns pink/red; SA columns green; Wins AE and Wins SA both pink",
+          "frame": "t00198.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Red countries are the UAE, South Africa, and all the new countries where Revibe provides a shipping solution.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "03:41",
+          "quote": "section and the green section is the countries that are targeted {here?} in the red one we target"
+        },
+        {
+          "kind": "say",
+          "at": "03:47",
+          "quote": "the countries of UAE South Africa but also all the new countries where we provide shipping solution for"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "In the red countries, sellers do not pay shipping fees. Revibe pays the shipping fees and provides the airway bills, which sellers put on their box to ship.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "04:11",
+          "quote": "{this?} means that in the red countries sellers they don't have to pay for shipping fees we provide"
+        },
+        {
+          "kind": "say",
+          "at": "04:20",
+          "quote": "ourselves the solution of shipping {fee?} of shipping we pay for the shipping fees we provide ourselves the"
+        },
+        {
+          "kind": "say",
+          "at": "04:28",
+          "quote": "airway bills that then the sellers can put on their box and ship here in green it's only"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "In the green country (Saudi Arabia, the only one at the time of the video), the seller must have his own contract with a courier company, pay the shipping fees himself, ship DDP, and create the airway bill manually.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "04:04",
+          "quote": "we are asking the sellers to have by themselves a contract with a courier company"
+        },
+        {
+          "kind": "say",
+          "at": "04:35",
+          "quote": "for Saudi Arabia where the seller has to have an agreement with the courier company, pay himself for"
+        },
+        {
+          "kind": "say",
+          "at": "04:43",
+          "quote": "He must ship DDP, meaning that he has to pay all the fees according to the contract and"
+        },
+        {
+          "kind": "say",
+          "at": "04:50",
+          "quote": "he has to create himself manually the airway bill."
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Implied: ZA is South Africa.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "03:47",
+          "quote": "the countries of UAE South Africa but also all the new countries where we provide shipping solution for"
+        },
+        {
+          "kind": "see",
+          "at": "05:25",
+          "quote": "Chart legend on the Seller Performance page: SA, AE, ZA, Other",
+          "frame": "t00325.jpg"
+        }
+      ],
+      "confidence": "low",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Columns U to X are Price AE, Price SA, Min AE and Min SA. Part 1 does not explain the Min columns. Implied: Price AE is the column the trainer uses when he explains the score-based price.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "00:00",
+          "quote": "Column headers U Price AE, V Price SA, W Min AE, X Min SA; the price cells in row 3 are blank in this frame",
+          "frame": "t00000.jpg"
+        },
+        {
+          "kind": "say",
+          "at": "05:41",
+          "quote": "has a score of plus 2.70 percent {he?} can compete with this which is here look times"
+        }
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "A Buybox AE cell can show '134 - Fulfillment' instead of a price (row 5, Monthly Sales 50+). The trainer says 'this SKU is in fulfillment' while the Buybox columns are on screen, but he does not say which row he means. The meaning of the value is not explained in part 1.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "00:00",
+          "quote": "Row 5: Buybox AE shows 134 - Fulfillment; Buybox SA shows 285; Monthly Sales 50+",
+          "frame": "t00000.jpg"
+        },
+        {
+          "kind": "say",
+          "at": "06:09",
+          "quote": "columns the seller should compete with here you can see that this SKU is in fulfillment here you"
+        }
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The Buybox AI workbook has two database tabs: 'database score AE' holds the prices in the red column, and 'database score SA' holds the prices in the green column.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "07:20",
+          "quote": "sheet called buybox {ai?} we have two tabs database core {ai?} and database core sa in database core"
+        },
+        {
+          "kind": "say",
+          "at": "07:27",
+          "quote": "ai we gather all the prices in the red column and in database core sa we gather all"
+        },
+        {
+          "kind": "see",
+          "at": "07:20",
+          "quote": "Tab bar shows 'database score AE' (active) and 'database score SA'",
+          "frame": "t00440.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The database score AE tab columns are: Seller, SKU, Price, Score, Scored Price, Calculated Price, Calculated Scored Price.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "07:20",
+          "quote": "Header row: Seller | SKU | Price | Score | Scored Price | Calculated Price | Calculated Scored Price",
+          "frame": "t00440.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "example",
+      "statement": "For SKU 980105-000004 in database score AE, the SCL row has Price 25, Score 0.027, Scored Price 24.325, and the trainer says SCL is not winning at a price of 25.",
+      "evidence": [
+        {
+          "kind": "say",
+          "at": "07:14",
+          "quote": "25 for this one and {he?} is not winning so i took the sku and here in this"
+        },
+        {
+          "kind": "say",
+          "at": "07:48",
+          "quote": "{SmartSell?} and we can see his price of 25 right as you can see he is not winning"
+        },
+        {
+          "kind": "see",
+          "at": "07:41",
+          "quote": "Row 6154 SCL: Price 25, Score 0.027, Scored Price 24.325; other rows CF 30, HB 50, ALM 49, SF 24, BAA 55",
+          "frame": "t00461.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "example",
+      "statement": "Implied: the SCL row's Score (0.027) matches the 2.70% shown on the Smart Cell Buybox tab, so SCL is the Smart Cell seller in this example.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "07:41",
+          "quote": "Row 6154 SCL: Score 0.027",
+          "frame": "t00461.jpg"
+        },
+        {
+          "kind": "see",
+          "at": "06:56",
+          "quote": "Score column shows 2.70% in the visible rows of the Smart Cell Buybox tab (unfiltered rows 2-46)",
+          "frame": "t00000.jpg"
+        },
+        {
+          "kind": "say",
+          "at": "07:41",
+          "quote": "can see I filter on the SKU you can see here is the acronym of our seller SCL"
+        }
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "example",
+      "statement": "In the Smart Cell Buybox tab, SKU 980105-000004 (Usb-C-20-W-Power-Adapter, Accessories, New, Monthly 50+) shows Buybox AE 24, Buybox SA 79, Price AE 25, and Wins AE FALSE.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "06:56",
+          "quote": "Row 14529: Name Usb-C-20-W-Power-Adapter, SKU_Long 980105-000004, Monthly 50+, Score 2.70%, Buybox AE 24, Buybox SA 79, Wins AE FALSE, Wins SA FALSE, Price AE 25",
+          "frame": "t00416.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Seller Performance for Smart Cell on Sep 26 shows KPI cards: Orders 411, On time 94%, On time ship (excl. SA) 98%, On time del. (SA) 92%, Defect rate 5.1%, Days to solve 15.8d. These are a dated snapshot.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "05:25",
+          "quote": "Sep 26 KPIs: ORDERS 411, ON TIME 94%, ON TIME SHIP. (EXCL. SA) 98%, ON TIME DEL. (SA) 92%, DEFECT RATE 5.1%, DAYS TO SOLVE 15.8d",
+          "frame": "t00325.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "The Reporting bookmark opened reporting.revibe.me. The next pages shown are merchant.revibe.me/portal/ (Revibe Workspace) and merchant.revibe.me/seller/ (Seller Performance, Staff view 'Choose a seller...'). Choosing Smart Cell opens merchant.revibe.me/seller/?supplier=47. The link between these pages is not narrated.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "05:16",
+          "quote": "Browser loading reporting.revibe.me under the Reporting bookmark",
+          "frame": "t00316.jpg"
+        },
+        {
+          "kind": "see",
+          "at": "05:19",
+          "quote": "Revibe Your Workspace at merchant.revibe.me/portal/ with cards Dashboard, Orders App, Warranties, Fulfillment, Payment requests",
+          "frame": "t00319.jpg"
+        },
+        {
+          "kind": "see",
+          "at": "05:21",
+          "quote": "Seller Performance page at merchant.revibe.me/seller/ 'Staff view - no seller selected', 'Choose a seller...'",
+          "frame": "t00321.jpg"
+        },
+        {
+          "kind": "see",
+          "at": "05:25",
+          "quote": "merchant.revibe.me/seller/?supplier=47, Staff view 'Smart Cell'",
+          "frame": "t00325.jpg"
+        }
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The Smart Cell Seller Performance page shows the badges 'Buybox open', 'Score : +2.7%', 'Momen', WhatsApp and Meeting, and the tabs Performance, Score, Score analysis, Claims management, Price recommendations and Payment.",
+      "evidence": [
+        {
+          "kind": "see",
+          "at": "05:25",
+          "quote": "Header badges: Buybox open, Score : +2.7%, Momen, WhatsApp, Meeting; tabs Performance, Score, Score analysis, Claims management, Price recommendations, Payment",
+          "frame": "t00325.jpg"
+        }
+      ],
+      "confidence": "high",
+      "quiz": false
+    }
+  ],
+  "screens": [
+    {
+      "name": "Google Sheets 'Smart Cell x Revibe' (Buybox tab)",
+      "shows": "Seller sheet with one row per SKU and columns Name, Category, Model, RAM, Storage, Colour, SKU_Long, Screen size, Series, Condition, Keyboard, Monthly Sales, Score, Buybox AE/SA, Wins AE/SA, Price AE/SA, Min AE/SA. The Neutral Buybox AE and Neutral Buybox SA columns (N and O) are not present in frame t00179 and first appear in frame t00194. Bottom tabs visible: 'AE tool', 'SA tool', 'App New Claims', 'Payment tool', then dated tabs (12-10-26 ... 20-07-26). The Buybox tab name is partly hidden.",
+      "at": "00:00-05:00",
+      "frame": "t00000.jpg"
+    },
+    {
+      "name": "Google Sheets 'Buybox AI' workbook",
+      "shows": "Tabs: SIMU, Parameters, Legal, products, Scripts check, Buybox Control, Code Broken Logs, Commitments, Price based SKUs, database score AE, database score SA, Sales per SKU, Orders p/day. The database score AE tab has columns Seller, SKU, Price, Score, Scored Price, Calculated Price, Calculated Scored Price.",
+      "at": "07:20-07:48",
+      "frame": "t00440.jpg"
+    },
+    {
+      "name": "Revibe Workspace (merchant.revibe.me/portal/)",
+      "shows": "Cards: Dashboard (orders, delivery performance and defect rates, charted daily, weekly and monthly), Orders App (orders, returns, payments and invoices), Starter pack, Warranties, Training videos, Fulfillment (send products to Revibe's fulfillment center), Payment requests. Banner 'Returns refund policy - the new policy is live'.",
+      "at": "05:19",
+      "frame": "t00319.jpg"
+    },
+    {
+      "name": "Seller Performance (merchant.revibe.me/seller/)",
+      "shows": "Staff view selector 'Choose a seller...' with the message 'You are signed in as Revibe staff. Choose a seller above to see exactly what they see.'",
+      "at": "05:21",
+      "frame": "t00321.jpg"
+    },
+    {
+      "name": "Seller Performance for Smart Cell (merchant.revibe.me/seller/?supplier=47)",
+      "shows": "Badges Buybox open, Score : +2.7%, Momen, WhatsApp, Meeting; last-meeting note (21/09, 23 days ago, handover to Momen, target 500/600 orders monthly); KPI cards (Orders, GMV, On time, On time ship (excl. SA), On time del. (SA), Defect rate, Days to solve); country and category filters; orders and GMV charts with SA, AE, ZA, Other legend.",
+      "at": "05:25",
+      "frame": "t00325.jpg"
+    },
+    {
+      "name": "Browser tabs in the window",
+      "shows": "'Revibe - Fulfillment App', 'Fulfillment App - O&D', 'Videos | Library | Loom', 'Smart Cell x Revibe - Google Sheets', 'Buybox AI - Google Sheets' tabs are open. The Fulfillment and Loom tabs are not used in part 1.",
+      "at": "00:00",
+      "frame": "t00000.jpg"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Buy Box (Buybox)",
+      "meaning": "Algorithm that selects the best seller able to sell a SKU, where several sellers bid on one SKU from a unique Revibe catalogue.",
+      "at": "00:09"
+    },
+    {
+      "term": "Catalogue",
+      "meaning": "The unique product list determined and organised by Revibe; sellers can only filter it, not sort it.",
+      "at": "01:25"
+    },
+    {
+      "term": "SKU",
+      "meaning": "A product reference. Narration uses it for each row; the sheet shows SKU_Long values such as 980105-000004.",
+      "at": "00:21"
+    },
+    {
+      "term": "Direct shipping",
+      "meaning": "The Buy Box model in which sellers put in prices only (not quantities), for all countries, according to the trainer.",
+      "at": "01:02"
+    },
+    {
+      "term": "Fulfillment",
+      "meaning": "The contrasting model that the trainer mentions when comparing it with Buy Box; a Buybox cell can show '134 - Fulfillment'.",
+      "at": "01:02"
+    },
+    {
+      "term": "Monthly Sales band",
+      "meaning": "Estimated sales the seller could make over the next 30 days, based on the past 30 days across all countries. Shown as bands 0-1 to 50+.",
+      "at": "02:09"
+    },
+    {
+      "term": "Score",
+      "meaning": "The seller's score as a percentage. 0% is the neutral score; the example seller has +2.70%. Visible in the seller portal.",
+      "at": "05:04"
+    },
+    {
+      "term": "Neutral Buybox price",
+      "meaning": "The price a seller should compete with if the seller had a score of 0%.",
+      "at": "04:53"
+    },
+    {
+      "term": "Buybox AE / Buybox SA",
+      "meaning": "The prices the seller should compete with, for the AE (red) and SA (green) columns.",
+      "at": "06:01"
+    },
+    {
+      "term": "Wins AE / Wins SA",
+      "meaning": "TRUE when the seller is winning (the trainer says the price is the lowest), FALSE when not winning.",
+      "at": "06:17"
+    },
+    {
+      "term": "Price AE / Price SA",
+      "meaning": "Implied: the seller-side price columns. The Price AE cell in row 3 holds the formula =N3*(1+P3); the trainer reads this formula when he explains the score-based price.",
+      "at": "05:41"
+    },
+    {
+      "term": "AE",
+      "meaning": "United Arab Emirates (the red columns and countries).",
+      "at": "03:31"
+    },
+    {
+      "term": "SA",
+      "meaning": "Saudi Arabia (the green columns and country).",
+      "at": "03:56"
+    },
+    {
+      "term": "ZA",
+      "meaning": "Implied: South Africa (shown in the Seller Performance chart legend; narration says South Africa).",
+      "at": "03:47"
+    },
+    {
+      "term": "Dirham",
+      "meaning": "Currency unit the trainer uses for price steps (one dirham lower than the current price).",
+      "at": "06:36"
+    },
+    {
+      "term": "DDP",
+      "meaning": "Delivery terms the seller must use in Saudi Arabia; the trainer says the seller pays all fees according to the courier contract.",
+      "at": "04:43"
+    },
+    {
+      "term": "Airway bill",
+      "meaning": "Shipping document. In red countries Revibe provides it and the seller puts it on the box; in Saudi Arabia the seller creates it manually.",
+      "at": "04:28"
+    },
+    {
+      "term": "Courier company contract",
+      "meaning": "In Saudi Arabia (green) the seller must hold his own contract with a courier company.",
+      "at": "04:04"
+    },
+    {
+      "term": "database score AE / database score SA",
+      "meaning": "Tabs in the Buybox AI workbook that collect the red (AE) and green (SA) prices.",
+      "at": "07:20"
+    },
+    {
+      "term": "Staff view",
+      "meaning": "Seller Performance mode for Revibe staff, who choose a seller to see what that seller sees.",
+      "at": "05:21"
+    }
+  ],
+  "asr_fixes": [
+    {
+      "at": "01:33",
+      "heard": "Revive",
+      "correct": "Revibe",
+      "basis": "The brand is spelled Revibe on screen (tab 'Smart Cell x Revibe', 'Revibe - Fulfillment App')."
+    },
+    {
+      "at": "05:51",
+      "heard": "it gives exactly one point sixty four",
+      "correct": "it gives exactly 164 (the on-screen Price AE tooltip reads 164.15568; do not round it)",
+      "basis": "Formula =N3*(1+P3) with Neutral Buybox AE 159.84 and score 2.70% gives 164.15568 (frame t00351.jpg)."
+    },
+    {
+      "at": "06:01",
+      "heard": "buy box {AE?} and buy box SA",
+      "correct": "Buybox AE and Buybox SA",
+      "basis": "Column headers Buybox AE and Buybox SA on the Buybox tab (frame t00368.jpg)."
+    },
+    {
+      "at": "07:08",
+      "heard": "you see {smart?} {sell?} put a price of",
+      "correct": "Smart Cell put a price of",
+      "basis": "The sheet is 'Smart Cell x Revibe' and the seller page on the portal is 'Smart Cell' (frames t00000.jpg, t00325.jpg). The seller code in the database is SCL."
+    },
+    {
+      "at": "07:20",
+      "heard": "sheet called buybox {ai?}",
+      "correct": "Buybox AI",
+      "basis": "Browser tab title 'Buybox AI - Google Sheets' (frames t00000.jpg, t00440.jpg)."
+    },
+    {
+      "at": "07:20",
+      "heard": "we have two tabs database core {ai?} and database core sa",
+      "correct": "database score AE and database score SA",
+      "basis": "Tab bar in the Buybox AI workbook shows 'database score AE' and 'database score SA' (frame t00440.jpg)."
+    },
+    {
+      "at": "07:27",
+      "heard": "in database core sa we gather all",
+      "correct": "in database score SA we gather all",
+      "basis": "Tab name 'database score SA' visible on screen (frame t00440.jpg)."
+    }
+  ],
+  "unclear": [
+    {
+      "at": "06:43",
+      "issue": "'puts a price of 218 in one hour' is ambiguous: it is unclear whether 'in one hour' is a refresh delay after the seller enters a price or something else. The example price 218 does not appear in any frame."
+    },
+    {
+      "at": "06:47",
+      "issue": "The example price 218 is spoken only; no frame shows it. Treat it as an illustration, not sheet data."
+    },
+    {
+      "at": "07:48",
+      "issue": "The trainer says '{SmartSell?}' while the database shows the seller code SCL. The screen does not spell out that SCL is Smart Cell, although the trainer says SCL is the acronym of 'our seller' (07:41)."
+    },
+    {
+      "at": "05:25",
+      "issue": "Seller Performance GMV and daily figures show a currency glyph that looks like a Bitcoin-style symbol (GMV 465K, 11K/day). The trainer says dirham elsewhere, but the currency is not confirmed on screen."
+    },
+    {
+      "at": "00:00",
+      "issue": "'No bid' appears in many Buybox AE/SA and Neutral cells. Its meaning is not explained in part 1."
+    },
+    {
+      "at": "00:00",
+      "issue": "Min AE, Min SA, Price SA and the Scored Price and Calculated Scored Price columns are on screen but not explained in part 1. The rule that decides the winning seller in the database score tab is not stated here."
+    },
+    {
+      "at": "01:02",
+      "issue": "The sentence 'sellers can put price and prices only' repeats 'price'. Read as 'prices only', but the wording is unclear."
+    },
+    {
+      "at": "00:00",
+      "issue": "The Buybox tab name is partly hidden by the webcam overlay, so the exact tab name is not confirmed on screen."
+    },
+    {
+      "at": "05:51",
+      "issue": "The trainer's spoken calculation is partly garbled ('1 plus 2 .70', 'one point sixty four'). The formula on screen is the reliable source."
+    },
+    {
+      "at": "02:27",
+      "issue": "The trainer says 'good excellent condition' for the 20-50 row. The on-screen row 3 Condition is Excellent; 'good' is not shown on that row, so the spoken word is unconfirmed."
+    },
+    {
+      "at": "05:25",
+      "issue": "The 'Buybox open' badge on the Seller Performance page is not explained in part 1."
+    }
+  ],
+  "outdated": [
+    {
+      "at": "03:56",
+      "signal": "'so far Saudi Arabia is the only country where' is time-bound. The green-country rule may change when more countries are added."
+    },
+    {
+      "at": "05:25",
+      "signal": "Seller Performance snapshot is dated: KPIs labelled Sep 26, 'last meeting 21/09 (23 days ago)', 'target 500/600 orders monthly', and 'At today's buybox: 11 orders/day, AE + ZA 3.0, SA 8.4'. The figures are a snapshot from the video, not current data."
+    },
+    {
+      "at": "05:19",
+      "signal": "'Returns refund policy - the new policy is live' banner on the workspace page is a time-bound announcement."
+    }
+  ],
+  "privacy": [
+    {
+      "at": "05:25",
+      "what": "Staff first name 'Momen' appears as the account handover on the Smart Cell seller page ('handover to Momen', badge 'Momen'). It is an internal staff name, not seller data, but may be personal.",
+      "frame": "t00325.jpg"
+    },
+    {
+      "at": "05:25",
+      "what": "Internal supplier ID 'supplier=47' appears in the seller page URL.",
+      "frame": "t00325.jpg"
+    },
+    {
+      "at": "07:20",
+      "what": "Other sellers' codes (CF, HB, ALM, SF, BAA) with their prices and scores are visible in database score AE. These are competitor seller identifiers, not customer personal data, but they should be redacted before any of this material is shown to sellers.",
+      "frame": "t00440.jpg"
+    }
+  ],
+  "audit": {
+    "checked": 94,
+    "removed": [
+      {
+        "statement": "Privacy note that the trainer's webcam overlay appears in most frames and that no seller personal data is visible.",
+        "reason": "Not a privacy item for this purpose. The overlay shows the trainer, not seller or customer data, so it is removed from the privacy list."
+      }
+    ],
+    "corrected": [
+      {
+        "before": "Step 02:09 cites frame t00119 for Column M selected with Count 16,824.",
+        "after": "Column M (M:M) selected with Count 16,824 is in frame t00139. Frame t00119 shows the B1 Category header with the Saving status.",
+        "reason": "Frame content checked file by file."
+      },
+      {
+        "before": "Step 02:27 cites frame t00139 for M3 selected with value 20-50.",
+        "after": "M3 selected with formula bar 20-50 is in frame t00159.",
+        "reason": "Frame t00139 shows column M selected, not M3."
+      },
+      {
+        "before": "Step 01:42 cites frame t00098 for B1 Category header selected.",
+        "after": "B1 Category selected is in frame t00111; frame t00098 shows cell F8 selected.",
+        "reason": "Frame mismatch."
+      },
+      {
+        "before": "Step 01:42 says the trainer uses the Category filter (example: laptops).",
+        "after": "The trainer says sellers can filter (for instance to laptops) but cannot sort; no filter is applied on screen.",
+        "reason": "The transcript says they can go here and filter; the screen does not show a filter being applied."
+      },
+      {
+        "before": "Step 03:07 cites frame t00179 for Neutral Buybox AE/SA columns present with row 3 values 159.84 and 364.63.",
+        "after": "Neutral Buybox AE/SA (N and O) first appear in frame t00194. Frame t00179 has no Neutral columns (Score follows Monthly Sales).",
+        "reason": "Frame content checked; the screen-change claim is wrong for t00179."
+      },
+      {
+        "before": "Step 03:20 and the colour-convention rule say all green columns are SA and Wins SA is green.",
+        "after": "Wins AE and Wins SA headers are both pink. Only the SA price columns (Buybox SA, Neutral Buybox SA, Price SA) are green.",
+        "reason": "Frame t00198/t00218 shows Wins SA with pink header and FALSE cells."
+      },
+      {
+        "before": "Step 06:33 and fact 'Wins AE/Wins SA' cite frame t00393 for row 9736 (Buybox AE 224, Buybox SA 400, TRUE/TRUE).",
+        "after": "Row 9736 is in frame t00382. Frame t00393 shows Wins SA selected at the top of the sheet with all visible rows FALSE.",
+        "reason": "Frame mismatch."
+      },
+      {
+        "before": "Step 06:33 'Trainer scrolls to a row where Wins AE and Wins SA are TRUE and explains what a seller must do to win.'",
+        "after": "Trainer scrolls to a row where Wins AE and Wins SA are TRUE and says the seller must go one dirham lower to win.",
+        "reason": "Keeps the wording to what the transcript says."
+      },
+      {
+        "before": "Fact 00:50 rule: a seller who lowers price or whose score increases 'can come into a position to win' the SKU that another seller currently wins.",
+        "after": "If another seller drops his price, or a seller's score increases, that seller may also be in a position to win the SKU.",
+        "reason": "Trainer hedges with 'maybe' and does not say 'currently wins'."
+      },
+      {
+        "before": "Fact 05:30 example: the seller can compete at about 164.",
+        "after": "The trainer first says the seller could compete at '160 let's say', then says the result is exactly 164.",
+        "reason": "Overstatement of the spoken value."
+      },
+      {
+        "before": "Fact 06:43 'the timing is stated as one hour' and 'the example says the Wins column then shows TRUE'.",
+        "after": "Trainer says the algorithm will synchronise and the Wins column will then show TRUE; the one-hour timing is ambiguous and the example price 218 is spoken only.",
+        "reason": "The one-hour timing is not clear and the 218 example is not on screen."
+      },
+      {
+        "before": "Screen 'Columns to the right of Wins SA' quote includes the formula =N3*(1+P3) in frame t00000 and says Price AE and Price SA are the seller-facing price columns.",
+        "after": "Frame t00000 shows the headers only; the U3 price cell is blank there. The seller-facing wording is marked as implied.",
+        "reason": "The formula is not visible in t00000 (it appears in t00351)."
+      },
+      {
+        "before": "Definition '134 - Fulfillment': the trainer says the SKU in that example is in fulfillment.",
+        "after": "The trainer says 'this SKU is in fulfillment' but does not say which row; the value appears in row 5 and its meaning is not explained.",
+        "reason": "The row the trainer means is not stated."
+      },
+      {
+        "before": "Procedure path: the Reporting bookmark leads to the Revibe Workspace and then the Seller Performance page.",
+        "after": "The Reporting bookmark opened reporting.revibe.me; the next pages shown are merchant.revibe.me/portal/ and merchant.revibe.me/seller/. The link between these pages is not narrated.",
+        "reason": "The navigation between pages is not shown on screen."
+      },
+      {
+        "before": "Term 'Wins AE / Wins SA': TRUE if the seller holds the lowest price 'in that country group'.",
+        "after": "TRUE when the seller is winning (the trainer says the price is the lowest), FALSE when not winning.",
+        "reason": "'Country group' is not stated by the trainer."
+      },
+      {
+        "before": "Term 'Price AE / Price SA: Seller price columns.'",
+        "after": "Implied: the seller-side price columns; the trainer reads the Price AE formula.",
+        "reason": "Marked as implied because the trainer does not define the columns."
+      },
+      {
+        "before": "Screen description: Neutral Buybox AE/SA 'added during the walk-through'.",
+        "after": "Neutral Buybox AE/SA (N and O) first appear in frame t00194.",
+        "reason": "Inference about how the columns were added is not supported by the video."
+      },
+      {
+        "before": "asr_fix at 01:29 'Revive' -> 'Revibe'.",
+        "after": "asr_fix at 01:33.",
+        "reason": "The word is at 01:33 in the transcript."
+      },
+      {
+        "before": "asr_fix at 02:35 'good excellent condition' -> 'Excellent condition'.",
+        "after": "Moved to unclear at 02:27 (the spoken word 'good' is not on row 3).",
+        "reason": "Not a clear speech-recognition error; it is ambiguous."
+      },
+      {
+        "before": "asr_fix at 05:51 corrected to 'exactly 164'.",
+        "after": "'exactly 164 (the on-screen tooltip reads 164.15568; do not round it)'.",
+        "reason": "Copy numbers exactly; the on-screen value must not be rounded."
+      },
+      {
+        "before": "Unclear item at 06:36 for the one-hour refresh.",
+        "after": "Moved to 06:43 (the transcript line is 06:43).",
+        "reason": "Timestamp mismatch."
+      },
+      {
+        "before": "Frame cited as t00321 for the Seller Performance staff view (05:21) and as t00325 for the chosen seller page.",
+        "after": "Kept as is; both frames are correct.",
+        "reason": "Verified; listed for completeness."
+      },
+      {
+        "before": "Step 04:02 cites the courier contract line at 04:02.",
+        "after": "The line is at 04:04.",
+        "reason": "Timestamp mismatch."
+      },
+      {
+        "before": "Step 06:01 cites frame t00368 for the Buybox AE/SA highlight at 06:09.",
+        "after": "Frame t00368 is at 06:08 in the frame name; the highlight is visible there.",
+        "reason": "Minor timestamp alignment."
+      }
+    ],
+    "added": [
+      "Fact: the SCL row Score 0.027 in database score AE matches the 2.70% on the Smart Cell Buybox tab (implied, medium confidence).",
+      "Screen fact: Smart Cell Seller Performance Sep 26 KPI cards (Orders 411, On time 94%, On time ship (excl. SA) 98%, On time del. (SA) 92%, Defect rate 5.1%, Days to solve 15.8d) in frame t00325.",
+      "Unclear: the 'Buybox open' badge on the Seller Performance page is not explained in part 1.",
+      "Unclear: 'good excellent condition' (02:27) is not confirmed for row 3 (Condition Excellent).",
+      "Privacy: competitor seller codes CF, HB, ALM, SF, BAA with prices and scores in database score AE (frame t00440).",
+      "asr_fix at 07:08: 'you see smart sell put a price of' -> 'Smart Cell put a price of' (sheet title and portal seller name).",
+      "Coverage: all 40 frames cited in pack-1 were opened. Frame t00474 (07:54) belongs to part 2 and is not in scope. Transcript lines 07:57 onward are part 2."
+    ]
+  }
+}

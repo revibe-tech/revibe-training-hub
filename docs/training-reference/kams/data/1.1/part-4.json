@@ -1,0 +1,464 @@
+{
+  "summary": "Part 4 of the 1.1 Onboarding App (Seller) video (13:49 to 14:39). The trainer moves a seller from the Seller Onboarding App into the Fulfillment App. The accepted profile's 'Have you watched the Fulfillment App video ?' field is changed from 'Not yet' to Yes and saved, and the form then shows a Link to Fulfillment App. Opening that link shows the Fulfillment App SKU list. The Drive video page is still loading on screen and its content is not shown. The trainer then recaps the four onboarding stages on the slide deck and ends on slide 1. 11 frames opened. Key unclear point: the Drive video is titled '0. Revibe Ecosystem' while the form asks about the 'Fulfillment App video'.",
+  "frames_opened": 11,
+  "steps": [
+    {
+      "at": "13:49-13:53",
+      "screen": "Seller Onboarding App (AppSheet, Chrome) - profile detail panel",
+      "action": "Opens the accepted seller profile (Pierre). The Next steps box shows the Google Drive video link, and the 'Have you watched the Fulfillment App video ?' field reads 'Not yet'. The trainer tells the viewer to watch the video and then answer that question.",
+      "evidence": [
+        {"kind": "say", "at": "13:50", "quote": "You can take the video,", "frame": ""},
+        {"kind": "say", "at": "13:53", "quote": "watch it here, and once you have watched the video, have you watched the Fulfillment {app?} video, here", "frame": ""},
+        {"kind": "see", "at": "13:49", "frame": "t00829.jpg", "quote": "Approval: Accepted; Next steps: 'Congrats ! Your profile has been validated by our team ! You will get access to our fulfillment app'; 'Watch carefully this video to understand the process' with a drive.google.com link; 'Have you watched the Fulfillment App video ?' Not yet."}
+      ],
+      "says": "You can take the video, / watch it here, and once you have watched the video, have you watched the Fulfillment {app?} video, here",
+      "why": ""
+    },
+    {
+      "at": "13:55",
+      "screen": "Chrome tab '0. Revibe Ecosystem' (Google Drive video viewer)",
+      "action": "Opens the Drive video link in a new tab. The player is still loading in the frame, so the video content is not visible.",
+      "evidence": [
+        {"kind": "see", "at": "13:55", "frame": "t00835.jpg", "quote": "Google Drive tab titled '0. Revibe Ecosystem', URL drive.google.com/file/d/.../view, black video player with loading spinner."}
+      ],
+      "says": "",
+      "why": ""
+    },
+    {
+      "at": "13:56-14:01",
+      "screen": "Seller Onboarding App - profile detail panel",
+      "action": "Returns to the profile tab. The Google Drive link in Next steps is highlighted (selected). The trainer tells the viewer to edit the record and press Yes.",
+      "evidence": [
+        {"kind": "see", "at": "13:56", "frame": "t00836.jpg", "quote": "Profile detail, Google Drive URL in Next steps highlighted, 'Have you watched the Fulfillment App video ?' Not yet."},
+        {"kind": "say", "at": "14:01", "quote": "you can edit and press yes.", "frame": ""}
+      ],
+      "says": "you can edit and press yes.",
+      "why": ""
+    },
+    {
+      "at": "14:04-14:05",
+      "screen": "Seller Onboarding App - profile edit form (side panel with Cancel and Save)",
+      "action": "The edit form is open with 'Have you watched the Fulfillment App video?' showing Yes selected. The trainer then says to save the record, after which the link appears. The Edit click itself is not shown on screen.",
+      "evidence": [
+        {"kind": "see", "at": "14:04", "frame": "t00844.jpg", "quote": "Edit form with Cancel and Save buttons; 'Have you watched the Fulfillment App video ?*' with Yes selected (blue); Next steps greyed out."},
+        {"kind": "say", "at": "14:05", "quote": "You can save it and at At this moment, you will see here that you have a link", "frame": ""}
+      ],
+      "says": "You can save it and at At this moment, you will see here that you have a link",
+      "why": ""
+    },
+    {
+      "at": "14:07-14:11",
+      "screen": "Seller Onboarding App - profile detail panel, scrolled to the questionnaire answers",
+      "action": "Scrolls through the saved profile answers (sales channels, volumes, grades, technicians, shipping capacity). The trainer says the seller gets access to the Fulfillment App.",
+      "evidence": [
+        {"kind": "see", "at": "14:07", "frame": "t00847.jpg", "quote": "Profile detail scrolled to: Do you sell online? Yes; On which platforms? Amazon; monthly units; grades; Introduction; Seller agreement link; Quality guidelines description."},
+        {"kind": "say", "at": "14:11", "quote": "to get access to the Fulfillment app.", "frame": ""}
+      ],
+      "says": "to get access to the Fulfillment app.",
+      "why": ""
+    },
+    {
+      "at": "14:12-14:14",
+      "screen": "Seller Onboarding App - profile edit form, scrolled to documents and Next steps",
+      "action": "Scrolls back up in the edit form to the saved documents and Next steps. The trainer says to take the link as it is shown.",
+      "evidence": [
+        {"kind": "see", "at": "14:12", "frame": "t00852.jpg", "quote": "Edit form, documents (Tax registration, Emirates ID, Bank details) shown as uploaded PDFs; DHL: Yes; Application status: Application submitted; Approval: Accepted."},
+        {"kind": "say", "at": "14:14", "quote": "You can just take it like this,", "frame": ""}
+      ],
+      "says": "You can just take it like this,",
+      "why": ""
+    },
+    {
+      "at": "14:16",
+      "screen": "Seller Onboarding App - profile edit form, 'Link to Fulfillment App' field",
+      "action": "The URL in the 'Link to Fulfillment App' field is selected (highlighted). The trainer says to paste it into the browser. Implied: the URL is copied first, but the copy action is not shown on screen.",
+      "evidence": [
+        {"kind": "see", "at": "14:16", "frame": "t00856.jpg", "quote": "Field 'Link to Fulfillment App' at the bottom of the form shows an https://www.appsheet.com/start/... URL, highlighted (selected)."},
+        {"kind": "say", "at": "14:18", "quote": "paste it here, and get access to what we call the Fulfillment app.", "frame": ""}
+      ],
+      "says": "paste it here, and get access to what we call the Fulfillment app.",
+      "why": ""
+    },
+    {
+      "at": "14:20-14:24",
+      "screen": "New Chrome tab 'AppSheet' - Revibe-FulfillmentApp loading",
+      "action": "Opens the link in a new browser tab, which loads the Fulfillment App (page still loading in this frame). The trainer had said to paste the link.",
+      "evidence": [
+        {"kind": "see", "at": "14:20", "frame": "t00860.jpg", "quote": "New tab titled 'AppSheet'; address bar appsheet.com/start/05eeac03-.../ with appName=Revibe-FulfillmentApp; white page with loading spinner."},
+        {"kind": "say", "at": "14:24", "quote": "Here is the Fulfillment app.", "frame": ""}
+      ],
+      "says": "Here is the Fulfillment app.",
+      "why": ""
+    },
+    {
+      "at": "14:25-14:30",
+      "screen": "Revibe - Fulfillment App - 'SKUs available' list",
+      "action": "Shows the SKU list in the Fulfillment App. The trainer says the seller is now entering the second onboarding stage, quality screening.",
+      "evidence": [
+        {"kind": "see", "at": "14:25", "frame": "t00865.jpg", "quote": "Title 'Revibe - Fulfillment App'; heading 'SKUs available'; search box 'Search SKUs available'; 'Download' button; columns Category, Model, Product, Price, Quantities recomm... (truncated on screen), SKU."},
+        {"kind": "say", "at": "14:26", "quote": "At this stage, you {are?} now going into the second part of the onboarding process, which is the", "frame": ""},
+        {"kind": "say", "at": "14:30", "quote": "quality screening part.", "frame": ""}
+      ],
+      "says": "At this stage, you {are?} now going into the second part of the onboarding process, which is the / quality screening part.",
+      "why": ""
+    },
+    {
+      "at": "14:32-14:33",
+      "screen": "Slide 4 'Onboarding process' (Revibe deck)",
+      "action": "Shows the four-stage onboarding slide with stage 2 (Quality screening) highlighted while the trainer says the presentation was clear.",
+      "evidence": [
+        {"kind": "see", "at": "14:32", "frame": "t00872.jpg", "quote": "Slide 4 'Onboarding process': 1 Profile screening, 2 Quality screening (highlighted), 3 Trial period, 4 Full onboarding; flow to 'Shipment to warehouse for inspection' with check and cross."},
+        {"kind": "say", "at": "14:33", "quote": "I hope this presentation was clear for you and we are looking forward to working with you.", "frame": ""}
+      ],
+      "says": "I hope this presentation was clear for you and we are looking forward to working with you.",
+      "why": ""
+    },
+    {
+      "at": "14:38",
+      "screen": "Slide 1 'Welcome to REVIBE' (Revibe deck)",
+      "action": "Shows slide 1 'Welcome to REVIBE' while the trainer says 'Best of luck!'.",
+      "evidence": [
+        {"kind": "see", "at": "14:38", "frame": "t00878.jpg", "quote": "Title slide 'Welcome to REVIBE' with slide number 1."},
+        {"kind": "say", "at": "14:38", "quote": "Best of luck!", "frame": ""}
+      ],
+      "says": "Best of luck!",
+      "why": ""
+    }
+  ],
+  "facts": [
+    {
+      "type": "rule",
+      "statement": "After the Revibe team validates the seller profile (Approval 'Accepted'), the Next steps text says the seller will get access to the Fulfillment App.",
+      "evidence": [
+        {"kind": "see", "at": "13:49", "frame": "t00829.jpg", "quote": "Approval: Accepted; Next steps: 'Congrats ! Your profile has been validated by our team ! You will get access to our fulfillment app'"},
+        {"kind": "say", "at": "14:11", "quote": "to get access to the Fulfillment app.", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "In the Seller Onboarding App profile, setting 'Have you watched the Fulfillment App video ?' to Yes and saving the record makes the 'Link to Fulfillment App' field appear.",
+      "evidence": [
+        {"kind": "say", "at": "14:05", "quote": "You can save it and at At this moment, you will see here that you have a link", "frame": ""},
+        {"kind": "see", "at": "14:04", "frame": "t00844.jpg", "quote": "'Have you watched the Fulfillment App video ?*' with Yes selected (blue)"},
+        {"kind": "see", "at": "14:16", "frame": "t00856.jpg", "quote": "Field 'Link to Fulfillment App' at the bottom of the form shows an https://www.appsheet.com/start/... URL"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "The seller's link to the Fulfillment App is the URL in the 'Link to Fulfillment App' field of their profile. Paste it into a browser to open the Fulfillment App.",
+      "evidence": [
+        {"kind": "say", "at": "14:18", "quote": "paste it here, and get access to what we call the Fulfillment app.", "frame": ""},
+        {"kind": "see", "at": "14:20", "frame": "t00860.jpg", "quote": "New tab 'AppSheet' with address bar appsheet.com/start/05eeac03-... appName=Revibe-FulfillmentApp"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Implied: the seller copies the URL in the 'Link to Fulfillment App' field before pasting it into the browser. The copy action is not shown on screen.",
+      "evidence": [
+        {"kind": "say", "at": "14:14", "quote": "You can just take it like this,", "frame": ""},
+        {"kind": "see", "at": "14:16", "frame": "t00856.jpg", "quote": "URL in 'Link to Fulfillment App' field highlighted (selected)"}
+      ],
+      "confidence": "low",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "The Next steps text on the profile tells the seller to send Revibe a first batch of devices so Revibe can check the quality of the seller's products, and to watch the video to understand the process.",
+      "evidence": [
+        {"kind": "see", "at": "13:49", "frame": "t00829.jpg", "quote": "'You will send us a first batch of devices that will enable us to check the quality of your products' and 'Watch carefully this video to understand the process'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The onboarding process has four stages in this order: 1 Profile screening, 2 Quality screening, 3 Trial period, 4 Full onboarding.",
+      "evidence": [
+        {"kind": "see", "at": "14:32", "frame": "t00872.jpg", "quote": "1 Profile screening; 2 Quality screening; 3 Trial period; 4 Full onboarding"},
+        {"kind": "say", "at": "14:30", "quote": "quality screening part.", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Profile screening: fill in the form in the Seller Onboarding App, enter company information, input documents (TRN, trade license, Emirates ID), and get access to Revibe's main information (contract, quality guidelines, and more).",
+      "evidence": [
+        {"kind": "see", "at": "14:32", "frame": "t00872.jpg", "quote": "Fill the form in this app; Input information related to your company; Input documents (TRN, trade license, Emirates ID); Get access to Revibe's main information (contract, quality guidelines, ...)"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Quality screening: once the profile is validated the seller gets access to the Fulfillment App; the seller sends a 1st shipment of devices so Revibe can check quality; the seller creates a shipment, selects products, and sets quantities and prices.",
+      "evidence": [
+        {"kind": "see", "at": "14:32", "frame": "t00872.jpg", "quote": "Once your profile is validated, you will get access to the Fulfillment App; You will send us a 1st shipment of devices that will enable us to check your quality; Create a shipment, select products products, set quantities and prices"},
+        {"kind": "say", "at": "14:26", "quote": "At this stage, you {are?} now going into the second part of the onboarding process, which is the", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The first shipment goes to the warehouse for inspection. If it passes the check, the result is 'Sales + Onboarding'. If it does not pass, the result is 'Return + No-onboarding'.",
+      "evidence": [
+        {"kind": "see", "at": "14:32", "frame": "t00872.jpg", "quote": "Shipment to warehouse for inspection; check mark -> Sales + Onboarding; cross -> Return + No-onboarding"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Trial period: only Fulfillment by Revibe is allowed during the trial period. The seller gets access to all Revibe tools and online trainings, and the trial lets the seller reach a significant volume and get used to the Revibe environment.",
+      "evidence": [
+        {"kind": "see", "at": "14:32", "frame": "t00872.jpg", "quote": "Only Fulfillment by Revibe during trial period; You will get access to all Revibe tools and online trainings; It enables you to reach significant volume, get used to Revibe environment"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Full onboarding: after a significant volume of orders the seller is fully onboarded. This means direct shipping to customers is allowed, and there are no more limits.",
+      "evidence": [
+        {"kind": "see", "at": "14:32", "frame": "t00872.jpg", "quote": "Once you have reached significant volume of orders you will be fully onboarded; It means direct shipping to customers will be allowed; No more limits !"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The Seller Onboarding App profile list shows the columns Name, Email, Company name, Application status and Approval. The status of the selected profile is shown in the detail panel, where the trainer works.",
+      "evidence": [
+        {"kind": "see", "at": "13:49", "frame": "t00829.jpg", "quote": "Profile list columns: Name, Email, Company name, Application status, Approval; row 'Application submitted' / 'Accepted'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The 'SKUs available' page of the Revibe - Fulfillment App has a search box 'Search SKUs available', a 'Download' button, and the columns Category, Model, Product, Price, a truncated 'Quantities recomm...' column, and SKU.",
+      "evidence": [
+        {"kind": "see", "at": "14:25", "frame": "t00865.jpg", "quote": "Search box 'Search SKUs available'; 'Download' button; columns Category, Model, Product, Price, Quantities recomm... (truncated on screen), SKU"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The Fulfillment App is the app named 'Revibe - Fulfillment App' (appName Revibe-FulfillmentApp). The trainer calls it 'the Fulfillment app'.",
+      "evidence": [
+        {"kind": "see", "at": "14:25", "frame": "t00865.jpg", "quote": "Title 'Revibe - Fulfillment App'"},
+        {"kind": "say", "at": "14:24", "quote": "Here is the Fulfillment app.", "frame": ""}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The profile questionnaire asks 'Do you have a DHL account ?' and 'Please enter your account number to benefit from Revibe's preferential rates with DHL'.",
+      "evidence": [
+        {"kind": "see", "at": "13:49", "frame": "t00829.jpg", "quote": "'Do you have a DHL account ?' Yes; 'Please enter your account number to benefit from Revibe's preferential rates with DHL'"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "The seller agreement is provided as a Google Docs link in the profile. The seller downloads it, signs it, and uploads it in the section below.",
+      "evidence": [
+        {"kind": "see", "at": "14:07", "frame": "t00847.jpg", "quote": "'Seller agreement: Here is the seller agreement. It details all the terms and conditions we offer to our sellers. Download it, sign it and upload it in the section below'"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The profile intro says 'Welcome to Revibe ! Please fill the form below to start the onboarding process' and the 'Quality guidelines description' reads 'Here are our quality guidelines'.",
+      "evidence": [
+        {"kind": "see", "at": "14:07", "frame": "t00847.jpg", "quote": "Introduction: 'Welcome to Revibe !' 'Please fill the form below to start the onboarding process'; 'Quality guidelines description: Here are our quality guidelines'"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The profile questionnaire also asks 'Which grades do you sell ?' (answer shown: A+ , A , B , C) and 'Do you sell \"as is\" or you refurbish the devices ?' (answer shown: Both).",
+      "evidence": [
+        {"kind": "see", "at": "14:07", "frame": "t00847.jpg", "quote": "Which grades do you sell? A+ , A , B , C; Do you sell \"as is\" or you refurbish the devices? Both"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    }
+  ],
+  "screens": [
+    {
+      "name": "Seller Onboarding App (AppSheet, Chrome tab)",
+      "shows": "Profile list (Name, Email, Company name, Application status, Approval) and a profile detail panel with a trash icon and an Edit button. Detail fields: questionnaire answers, Application status, Approval, Next steps, 'Have you watched the Fulfillment App video ?', and 'Link to Fulfillment App'.",
+      "at": "13:49-14:20",
+      "where": "Browser tab 'Seller Onboarding App'"
+    },
+    {
+      "name": "Profile edit form (side panel)",
+      "shows": "Edit mode with Cancel and Save buttons. Yes/No toggles for DHL account and 'Have you watched the Fulfillment App video ?'. Uploaded PDFs for tax registration, Emirates ID and bank details. Application status and Approval are shown, and the Next steps text is greyed out.",
+      "at": "14:04-14:16",
+      "where": "Seller Onboarding App, Edit on a profile"
+    },
+    {
+      "name": "Google Drive video viewer '0. Revibe Ecosystem'",
+      "shows": "Video page titled '0. Revibe Ecosystem' with a loading player. The video content is not visible in the frame.",
+      "at": "13:55",
+      "where": "Browser tab opened from the Drive link in Next steps"
+    },
+    {
+      "name": "Revibe - Fulfillment App, SKUs available",
+      "shows": "Page title 'Revibe - Fulfillment App', heading 'SKUs available', search box 'Search SKUs available', 'Download' button, and a table with columns Category, Model, Product, Price, a truncated 'Quantities recomm...' column and SKU. Example first visible rows: iPhone / iphone-11 / iphone-1164 GBGoodPurple / 573 / 21 / 010109-060801; iPhone / iphone-xr / iphone-xr64 GBGoodBlack / 515 / 19 / 010106-060101. No currency is shown on screen.",
+      "at": "14:25-14:30",
+      "where": "Browser tab opened from the link in the profile"
+    },
+    {
+      "name": "Slide 4 'Onboarding process' (Revibe deck)",
+      "shows": "Four stage boxes (1 Profile screening, 2 Quality screening highlighted, 3 Trial period, 4 Full onboarding) with bullets, and the inspection flow: shipment to warehouse for inspection, check to Sales + Onboarding, cross to Return + No-onboarding.",
+      "at": "14:32-14:33",
+      "where": "Presentation shown by the trainer"
+    },
+    {
+      "name": "Slide 1 'Welcome to REVIBE' (Revibe deck)",
+      "shows": "Title slide 'Welcome to REVIBE' with slide number 1.",
+      "at": "14:38",
+      "where": "Presentation shown by the trainer"
+    },
+    {
+      "name": "Other Chrome tabs visible in the browser bar",
+      "shows": "'Ontario Tower - Google Maps', 'Revibe Seller Agreement - M...' (Google Docs icon, title truncated), 'Quality guidelines - Google D...' (Google Docs icon, title truncated). The trainer does not discuss them in this part.",
+      "at": "13:49",
+      "where": "Browser tab bar"
+    }
+  ],
+  "terms": [
+    {"term": "Seller Onboarding App", "meaning": "AppSheet app where the seller profile is filled in and checked (name shown on screen: SellerOnboardingApp).", "at": "13:49"},
+    {"term": "Fulfillment App", "meaning": "Revibe - Fulfillment App. Reached through the 'Link to Fulfillment App' in the profile after 'Have you watched the Fulfillment App video ?' is set to Yes and saved. The trainer calls it 'what we call the Fulfillment app'.", "at": "14:18"},
+    {"term": "Profile screening", "meaning": "Stage 1 of onboarding: fill the form, input company information and documents, and get access to Revibe's main information.", "at": "14:32"},
+    {"term": "Quality screening", "meaning": "Stage 2 of onboarding: the seller gets Fulfillment App access, sends a first shipment of devices, and that shipment is inspected for quality.", "at": "14:30"},
+    {"term": "Trial period", "meaning": "Stage 3: only Fulfillment by Revibe during the trial period.", "at": "14:32"},
+    {"term": "Full onboarding", "meaning": "Stage 4: reached after a significant volume of orders; direct shipping to customers is allowed.", "at": "14:32"},
+    {"term": "Shipment to warehouse for inspection", "meaning": "The first shipment, inspected at the warehouse. Pass leads to Sales + Onboarding, fail leads to Return + No-onboarding.", "at": "14:32"},
+    {"term": "Application status", "meaning": "Profile field on the Seller Onboarding App. Example value on screen: 'Application submitted'.", "at": "13:49"},
+    {"term": "Approval", "meaning": "Profile field on the Seller Onboarding App. Example value on screen: 'Accepted'.", "at": "13:49"},
+    {"term": "Next steps", "meaning": "Profile text that tells the seller what happens next (access to Fulfillment App, first batch of devices, watch the video).", "at": "13:49"},
+    {"term": "Link to Fulfillment App", "meaning": "Profile field that holds the appsheet.com start URL for the Fulfillment App. Appears after 'Have you watched the Fulfillment App video' is saved as Yes.", "at": "14:16"},
+    {"term": "SKUs available", "meaning": "Table of SKUs in the Fulfillment App with Price, a truncated 'Quantities recomm...' column and SKU columns.", "at": "14:25"},
+    {"term": "Quantities recomm... (column)", "meaning": "Column in the SKUs available table. The header is truncated on screen, so the full name is not confirmed, and its meaning is not explained in the video.", "at": "14:25"},
+    {"term": "TRN", "meaning": "Document the seller must input during profile screening (shown on the slide as 'TRN'). The expansion is not given on screen.", "at": "14:32"},
+    {"term": "DHL preferential rates", "meaning": "Revibe rates for sellers who enter a DHL account number in the profile.", "at": "13:49"}
+  ],
+  "asr_fixes": [
+    {
+      "at": "13:53",
+      "heard": "Fulfillment {app?} video",
+      "correct": "Fulfillment App video",
+      "basis": "Screen: the profile field reads 'Have you watched the Fulfillment App video ?' (t00829.jpg) and the app title reads 'Revibe - Fulfillment App' (t00865.jpg)."
+    }
+  ],
+  "unclear": [
+    {
+      "at": "13:53",
+      "issue": "The Drive video the seller is asked to watch is titled '0. Revibe Ecosystem' (t00835.jpg), but the profile question asks about the 'Fulfillment App video'. It is not confirmed that the linked video is the Fulfillment App video, and its content is not visible because the player was still loading."
+    },
+    {
+      "at": "14:25",
+      "issue": "The SKUs available table shows a Price column but no currency is displayed on screen or spoken. The currency of the Price values cannot be confirmed."
+    },
+    {
+      "at": "14:25",
+      "issue": "The 'Quantities recomm...' column header is cut off on screen, so the full column name cannot be confirmed. Its meaning is not explained in speech or on screen. It is unclear whether these are Revibe's recommended quantities for sellers."
+    },
+    {
+      "at": "14:16",
+      "issue": "The trainer says 'take it like this' and the URL is selected, but the copy action is not shown and the trainer does not say whether the seller copies or clicks the link. Only the paste step is clearly stated."
+    },
+    {
+      "at": "14:26",
+      "issue": "The word 'are' in 'you {are?} now going into the second part' is low-confidence speech. No screen shows the wording. Slide 4 (t00872.jpg) confirms that stage 2 'Quality screening' is the second stage, but not the exact word."
+    }
+  ],
+  "outdated": [
+    {
+      "at": "14:25",
+      "signal": "The SKUs available table (prices and recommended quantities) is a snapshot from the recording. The macOS menu bar shows 'Jeu. 7 août' (Thursday 7 August) with no year, so the values may have changed and should not be quoted as current."
+    },
+    {
+      "at": "13:49",
+      "signal": "The Seller Onboarding App screens show a recorded example profile with values that appear to be placeholders (DHL account number 123456 and trading license number 123456). They should not be used as reference data."
+    }
+  ],
+  "privacy": [
+    {
+      "at": "13:49",
+      "frame": "t00829.jpg",
+      "what": "Applicant's name ('Pierre Villa...' in the profile list and 'Pierre' in the detail header) and email fragment ('iam.pepemanagement') are visible."
+    },
+    {
+      "at": "13:49",
+      "frame": "t00829.jpg",
+      "what": "Seller identity documents and numbers are visible as file names and values: tax registration file name, trading license file name, trading license number 123456, Emirates ID file name, bank details file name, and DHL account number 123456."
+    },
+    {
+      "at": "14:04",
+      "frame": "t00844.jpg",
+      "what": "Bank details file name ('7ad1da51.Bank details.092449.pdf') and DHL account number are visible in the edit form."
+    },
+    {
+      "at": "14:07",
+      "frame": "t00847.jpg",
+      "what": "Seller business data is visible: business name given for an existing Revibe seller ('Device + LLC'), monthly unit volume '1,000 - 2,500', 3-5 technicians, and 10-20 orders shipped per day."
+    },
+    {
+      "at": "14:16",
+      "frame": "t00856.jpg",
+      "what": "The seller's personal Fulfillment App link (appsheet.com/start/05eeac03-dbeb-456e-9559-e54df98a6814) is visible and selected."
+    }
+  ],
+  "audit": {
+    "checked": 64,
+    "removed": [
+      {
+        "statement": "asr_fixes entry at 14:26: 'you {are?} now going into the second part' corrected to 'you are now going into the second part'",
+        "reason": "No screen shows the word 'are'. Slide 4 confirms only the stage order, not the spoken word. Moved to unclear as a low-confidence word."
+      }
+    ],
+    "corrected": [
+      {"before": "Summary: 'the seller watches the Fulfillment App video and answers Yes'; 'closes the video'", "after": "The trainer opens the Drive video (still loading, content not shown), sets the 'Have you watched' field to Yes and saves; the recap ends on slide 1", "reason": "No evidence the seller watched the video. The video content is never visible. 'Closes the video' is not shown; the segment ends on slide 1 with 'Best of luck!'."},
+      {"before": "Step 14:04: 'Clicks Edit. Sets ... to Yes'", "after": "The edit form is open with Yes selected; the Edit click is not shown", "reason": "The Edit click and the change to Yes are not visible in the frame; only the resulting edit-mode state is."},
+      {"before": "Step 14:07: 'The trainer says the link gives access to the Fulfillment App.'", "after": "The trainer says the seller gets access to the Fulfillment app.", "reason": "The spoken line at 14:11 does not mention the link."},
+      {"before": "Step 14:20: 'Pastes the copied link into a new browser tab'", "after": "Opens the link in a new browser tab; the trainer had said to paste it", "reason": "The paste action is not shown on screen; only the new tab is."},
+      {"before": "Step 14:32-14:33: 'then closes the presentation'", "after": "while the trainer says the presentation was clear", "reason": "The presentation is still visible at 14:38 (slide 1). Closing is not shown."},
+      {"before": "Step 14:38: 'Shows the closing title slide and ends the video.'", "after": "Shows slide 1 'Welcome to REVIBE' while the trainer says 'Best of luck!'.", "reason": "'Closing' and 'ends the video' are not shown on screen."},
+      {"before": "Screen SKUs and step 14:25: column 'Quantities recommended'", "after": "truncated 'Quantities recomm...' column", "reason": "The header is cut off on screen (t00865.jpg). The full name is not visible."},
+      {"before": "Term 'Fulfillment App': 'Accessed ... after the seller has watched the video'", "after": "Reached through the link after 'Have you watched the Fulfillment App video ?' is set to Yes and saved", "reason": "Watching the video is not confirmed."},
+      {"before": "Fact 1: 'The Fulfillment App is opened for a seller only after the Revibe team validates...'", "after": "After the Revibe team validates the seller profile..., the Next steps text says the seller will get access", "reason": "'Only' is not stated in the evidence."},
+      {"before": "Fact 2: 'must be set to Yes and the record saved. Only after saving does the Link field appear.'", "after": "Setting the field to Yes and saving makes the Link field appear.", "reason": "'Must' and 'only' are not in the speech; the trainer says the link appears at this moment after saving."},
+      {"before": "Fact 'Quality screening': 'the seller creates a shipment in the Fulfillment App'", "after": "the seller creates a shipment, selects products, and sets quantities and prices", "reason": "The slide says 'Create a shipment' but does not say where."},
+      {"before": "Fact 'seller agreement': evidence at 13:55 (t00847.jpg)", "after": "evidence at 14:07 (t00847.jpg)", "reason": "Wrong timestamp; t00847 is the 14:07 frame."},
+      {"before": "Screen 'Other Chrome tabs': 'Quality guidelines - Google Docs'", "after": "'Quality guidelines - Google D...' (title truncated)", "reason": "Tab title is cut off on screen; 'Docs' is inferred from the icon."},
+      {"before": "Screen 'Seller Onboarding App': 'Edit and Delete buttons'", "after": "a trash icon and an Edit button", "reason": "The word 'Delete' is not visible; the control is an icon."},
+      {"before": "Outdated 13:49: 'These are not real values'", "after": "appear to be placeholders", "reason": "The values 123456 suggest placeholders but are not confirmed as such."},
+      {"before": "Outdated 14:25: 'the screen clock shows Jeu. 7 août, so the values are probably out of date'", "after": "The macOS menu bar shows 'Jeu. 7 août' with no year, so the values may have changed", "reason": "The date shows the recording day, not that values are out of date."},
+      {"before": "Privacy 14:07: 'company referral Device + LLC'", "after": "business name given for an existing Revibe seller ('Device + LLC')", "reason": "The field label is 'Who ? Please mention the business name' under 'Do you know anyone who sells at Revibe ?'."},
+      {"before": "Privacy 14:16: '...It should not be shared outside the seller's own use.'", "after": "removed; sentence kept only as the visible-link fact", "reason": "Advice not supported by evidence."},
+      {"before": "Privacy 14:16 link: 'appsheet.com/start/05eeac03-...'", "after": "appsheet.com/start/05eeac03-dbeb-456e-9559-e54df98a6814", "reason": "The full ID is visible in the field and the new tab address bar."},
+      {"before": "SKUs screen: 'No currency' omitted", "after": "'No currency is shown on screen.' added to the screen description", "reason": "Confirms the unclear entry against the frame."}
+    ],
+    "added": [
+      "Fact (screen): the profile questionnaire asks 'Which grades do you sell ?' (A+ , A , B , C) and 'Do you sell as is or you refurbish the devices ?' (Both). Evidence t00847.jpg at 14:07.",
+      "Unclear (14:26): the word 'are' is low-confidence speech with no screen confirmation.",
+      "Screen 'Other Chrome tabs' title truncation noted for the Revibe Seller Agreement and Quality guidelines tabs."
+    ]
+  }
+}

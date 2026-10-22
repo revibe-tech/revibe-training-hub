@@ -1,0 +1,1487 @@
+{
+  "summary": "Part 4 of 5 of the Revibe training video '11.0 Dashboard (KAMs)' (19:39 to 25:19 of a 29:58 video). It walks the KAM tab (Invalid claims, Cancellation, Sellers connections), then one seller (M4U Mobile) on the Sellers tab's KAM view (orders, on time, stuck orders, quality, claims management, cancellation, meetings, legal), then introduces the Scores tab (four KPIs, score ladder, Expected DR). All 40 frames in the pack were opened. The Seller view is never shown on screen, and the right-hand columns of the Scores table are cut off in every Scores frame. The narration on the mekko chart contradicts the on-screen definition, and M4U Mobile's on-time and expected defect-rate figures differ between screens.",
+  "frames_opened": 40,
+  "steps": [
+    {
+      "at": "19:39-19:44",
+      "screen": "Supply dashboard, KAM tab, Claims management > Invalid claims (sidebar item highlighted), account-manager tab Sherin selected",
+      "action": "Stays on the KAM tab and shows the Invalid claims page. The page itself is not narrated; the 19:41 line about Sellers connections is spoken over this frame.",
+      "says": "",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "19:39", "frame": "t01179", "quote": "KAM tab selected; Sherin tab underlined; 716 Claims received, 91 Rejected by the seller, 88 Confirmed by a Revibe agent, 35 Confirmed by the Revibe lab; Invalid claims highlighted in the index"},
+        {"kind": "say", "at": "19:41", "frame": "t01179", "quote": "By anyone signed in under that seller, {revive?} staff excluded."}
+      ]
+    },
+    {
+      "at": "19:44",
+      "screen": "Supply dashboard, KAM tab, Cancellation in the index",
+      "action": "Clicks Cancellation in the KAM tab index; the % cancellation chart appears.",
+      "says": "",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "19:44", "frame": "t01184", "quote": "Caption: Cancellation shows the percentage of orders cancelled per period.; sidebar item Cancellation selected"}
+      ]
+    },
+    {
+      "at": "19:45-19:46",
+      "screen": "Supply dashboard, KAM tab, Sellers connections table (Portal activity as of Fri 16 Oct 06:15, Only flagged (22) button, 7d window selected)",
+      "action": "Shows the Sellers connections table and narrates that clicking a figure shows who opened it and when. The click itself is not shown.",
+      "says": "Click any figure to see who opened it and when.",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "19:45", "frame": "t01185", "quote": "Sellers connections table with Portal activity as of Fri 16 Oct 06:15, Only flagged (22) button, and 7d window selected"},
+        {"kind": "say", "at": "19:46", "frame": "t01185", "quote": "Click any figure to see who opened it and when."}
+      ]
+    },
+    {
+      "at": "19:50-19:51",
+      "screen": "Supply dashboard, KAM tab, Sellers connections table",
+      "action": "Points at the red rows, which are flagged sellers marked with a warning icon.",
+      "says": "Red {rows?} are sellers with less than one connection a day.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "19:50", "frame": "t01190", "quote": "Red {rows?} are sellers with less than one connection a day."},
+        {"kind": "see", "at": "19:50", "frame": "t01190", "quote": "Flagged seller rows in red with a warning icon: M4U Mobile 814 orders 30D, FSA Trading 283, ABS Cell 124"}
+      ]
+    },
+    {
+      "at": "19:53-20:01",
+      "screen": "Supply dashboard, KAM tab, Sellers connections: window buttons 2d / 7d / 14d (7d selected) and Only flagged (22)",
+      "action": "Narrates choosing the window (2d, 7d or 14d) and using Only flagged to list just the flagged sellers. In these frames the table still lists unflagged sellers (for example Noor Al Hadeya, 88 orders, in black text with no warning icon). Says that a seller who never opens the portal never sees its scores, claims or late orders, so the KAM should get it connected.",
+      "says": "Choose the window {2,?} 7 {or?} 14 days and use only flag to list just those {a?} seller",
+      "why": "A seller who never opens the portal never sees their scores, claims or late orders, so get them connected.",
+      "evidence": [
+        {"kind": "say", "at": "19:54", "frame": "t01193", "quote": "Choose the window {2,?} 7 {or?} 14 days and use only flag to list just those {a?} seller"},
+        {"kind": "say", "at": "20:01", "frame": "t01193", "quote": "who never opens the portal never sees their scores claims or late orders so get them connected"},
+        {"kind": "see", "at": "19:53", "frame": "t01193", "quote": "On-screen caption: Red rows are sellers with less than one connection a day. Choose the window, two, seven or fourteen days, and use Only flagged to list just those."}
+      ]
+    },
+    {
+      "at": "20:08-20:25",
+      "screen": "Supply dashboard, KAM tab overview (Sellers connections table visible)",
+      "action": "Implied: says the KAM tab shows the whole book on one page. The narration at 20:11 to 20:18 is garbled, so this is low confidence. Then moves on to the Sellers tab.",
+      "says": "meetings and legal are the same lists as in daily for your sellers only and that's the kam",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "20:11", "frame": "t01208", "quote": "meetings and legal are the same lists as in daily for your sellers only and that's the kam"},
+        {"kind": "say", "at": "20:25", "frame": "t01208", "quote": "seller at a time"}
+      ]
+    },
+    {
+      "at": "20:28-20:38",
+      "screen": "Supply dashboard, Sellers tab (labelled Sellers · KAM view), search box at the top",
+      "action": "Uses the search box at the top to pick M4U Mobile; the box shows M4U Mobile in these frames.",
+      "says": "Use the search box at the top to pick any seller. Here we chose M4U Mobile.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "20:35", "frame": "t01232", "quote": "Use the search box at the top to pick any seller."},
+        {"kind": "say", "at": "20:38", "frame": "t01232", "quote": "Here we chose M4U Mobile."},
+        {"kind": "see", "at": "20:32", "frame": "t01232", "quote": "Search box shows M4U Mobile; header tab Sellers · KAM view selected"}
+      ]
+    },
+    {
+      "at": "20:41-20:52",
+      "screen": "Sellers tab, M4U Mobile, five summary tiles and seller header",
+      "action": "Points at the five summary tiles, then at the seller header (name, account manager tag, status).",
+      "says": "The tiles at the top summarize the seller over the whole window, {orders,?} GMV with the seller's market",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "20:41", "frame": "t01244", "quote": "The tiles at the top summarize the seller over the whole window, {orders,?} GMV with the seller's market"},
+        {"kind": "say", "at": "20:52", "frame": "t01244", "quote": "Under them, the seller's name, its account manager and its status."},
+        {"kind": "see", "at": "20:48", "frame": "t01244", "quote": "Tiles: ORDERS 3,249; GMV (k AED) 4,181; ON TIME 85% (2,576 / 3,047 decided); % CLAIMS 4% (141 claims on 3,249 orders); CLAIMS COVERAGE 91% (302 of 332 closed). Header: M4U Mobile, Sherin, Active"}
+      ]
+    },
+    {
+      "at": "20:58-21:13",
+      "screen": "Sellers tab, M4U Mobile, tab row (Sellers · KAM view)",
+      "action": "Explains the two views. The KAM view has the same sections as the KAM tab, for one seller. Clicking the tab a second time switches to the seller view. Only the KAM view is shown; the seller view is not shown in any frame.",
+      "says": "Click the tab a second time to switch to the seller view, exactly the page the seller sees",
+      "why": "It's perfect when you're on a call with them.",
+      "evidence": [
+        {"kind": "say", "at": "20:58", "frame": "t01261", "quote": "Sellers has two views."},
+        {"kind": "say", "at": "21:00", "frame": "t01261", "quote": "This is the KAM view, the same sections as your KAM tab, for this seller only."},
+        {"kind": "say", "at": "21:07", "frame": "t01261", "quote": "Click the tab a second time to switch to the seller view, exactly the page the seller sees"},
+        {"kind": "say", "at": "21:13", "frame": "t01261", "quote": "It's perfect when you're on a call with them."}
+      ]
+    },
+    {
+      "at": "21:17-21:26",
+      "screen": "Sellers tab, M4U Mobile, index on the left (Orders selected)",
+      "action": "Says the sections are the same as on the KAM tab. Opens Orders: confirmed orders and GMV per month, split SA / ex-SA, Direct / FBR or By country.",
+      "says": "Orders, confirmed orders, and GMV per period {split?} Saudi Arabia against the rest, direct against fulfilled or by",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "21:17", "frame": "t01280", "quote": "The sections are the same as on the KAM tab, so we will focus on what is different"},
+        {"kind": "say", "at": "21:26", "frame": "t01292", "quote": "Orders, confirmed orders, and GMV per period {split?} Saudi Arabia against the rest, direct against fulfilled or by"},
+        {"kind": "see", "at": "21:20", "frame": "t01280", "quote": "Index sidebar with Orders, On time, Fulfillment, Quality, Claims management, Cancellation, Meetings, Legal; Orders selected"}
+      ]
+    },
+    {
+      "at": "21:39-21:47",
+      "screen": "Sellers tab, M4U Mobile, On time > Performance, then Backlog",
+      "action": "Shows On time % by country and the backlog chart. Narration says clicking a backlog column lists the exact orders to chase; that click is not shown in the frames.",
+      "says": "Click a backlog column to see the exact orders to chase.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "21:39", "frame": "t01303", "quote": "On time, the on time percentage by country, then the backlog chart, top late orders, and backlog for this seller."},
+        {"kind": "say", "at": "21:47", "frame": "t01305", "quote": "Click a backlog column to see the exact orders to chase."}
+      ]
+    },
+    {
+      "at": "21:52",
+      "screen": "Sellers tab, M4U Mobile, On time > Stuck orders",
+      "action": "Shows the Stuck orders table for this seller (35 shipped and not marked delivered, oldest first).",
+      "says": "Then stuck orders, delivery companies with the month timeline and manual update all for this seller.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "21:52", "frame": "t01305", "quote": "Then stuck orders, delivery companies with the month timeline and manual update all for this seller."},
+        {"kind": "see", "at": "21:52", "frame": "t01305", "quote": "Stuck orders: 35 shipped and not marked delivered, oldest first; SA 22, ZA 12, one more; columns ORDER, SELLER, ORDER DATE, SHIPPING DATE, DAYS SINCE SHIPPING, SLA, TRACKING COMPANY, TRACKING"}
+      ]
+    },
+    {
+      "at": "21:59-22:06",
+      "screen": "Sellers tab, M4U Mobile, Quality > Defect rate",
+      "action": "Shows the 30-day, 90-day and all-time stabilised claim rate chart and the monthly table.",
+      "says": "Defect rate shows the 30 and 90 {day?} stabilized claim rates for this seller.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "22:02", "frame": "t01319", "quote": "Quality has more detail here than on the KAM tab."},
+        {"kind": "say", "at": "22:06", "frame": "t01325", "quote": "Defect rate shows the 30 and 90 {day?} stabilized claim rates for this seller."}
+      ]
+    },
+    {
+      "at": "22:10-22:29",
+      "screen": "Sellers tab, M4U Mobile, Quality > Mix adjusted DR (tiles and country x category x condition table)",
+      "action": "Shows the Mix adjusted DR tiles (3,249 orders, 141 claims, 4.3% actual, -2.4pp vs expected, 6.7% expected) and the table with Worst vs peers and Best vs peers groups. Narration says the copy buttons copy the SKU list to share with the seller; no copy button is visible in these frames.",
+      "says": "The copy buttons copy the SKU list to share with the seller.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "22:15", "frame": "t01330", "quote": "Mix adjusted DR breaks the seller's claims down by country, category, and condition {down?} to the SKU."},
+        {"kind": "say", "at": "22:22", "frame": "t01338", "quote": "Each line shows orders, claims, and the claim rate so you can see exactly which products cause the"},
+        {"kind": "say", "at": "22:29", "frame": "t01343", "quote": "The copy buttons copy the SKU list to share with the seller."},
+        {"kind": "see", "at": "22:15", "frame": "t01343", "quote": "ORDERS 3,249 selected period; CLAIMS 141 all claims (P-rule); % CLAIMS (ACTUAL) 4.3% -2.4pp vs. expected; EXPECTED % (MIX-ADJ.) 6.7%"}
+      ]
+    },
+    {
+      "at": "22:37-23:00",
+      "screen": "Sellers tab, M4U Mobile, Quality > Claims by condition, Claims by category, Claims by issue",
+      "action": "Compares the seller with its peers in three tables: condition, category and issue. Each table shows the seller's claims rate, the peers average and the difference in points.",
+      "says": "A big positive difference tells you where this seller is worse than the market.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "22:37", "frame": "t01361", "quote": "Claims by condition, by category, and by issue compare the seller with its peers."},
+        {"kind": "say", "at": "22:42", "frame": "t01361", "quote": "Each table shows the seller's claim rate, the average of other sellers, and the difference in points."},
+        {"kind": "say", "at": "22:49", "frame": "t01366", "quote": "A big positive difference tells you where this seller is worse than the market."},
+        {"kind": "say", "at": "22:55", "frame": "t01366", "quote": "By category tells you, for example, whether the problem is iPhones or Samsungs."},
+        {"kind": "say", "at": "23:00", "frame": "t01366", "quote": "By issue tells you whether it is battery, screen, or devices not working."}
+      ]
+    },
+    {
+      "at": "23:04-23:16",
+      "screen": "Sellers tab, M4U Mobile, Quality > Claims mekko (Category x issue and Product x issue toggle)",
+      "action": "Explains the mekko chart. On screen, column WIDTH is the category's share of the claims shown and each cell's area is its claim count. The narration says width is the share of orders and height the share of claims, which contradicts the screen (see unclear).",
+      "says": "The width of each column is the share of orders, and the height of each block the share of claims, so the biggest blocks are the biggest problems.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "23:09", "frame": "t01384", "quote": "The Mecco chart puts both together."},
+        {"kind": "say", "at": "23:11", "frame": "t01394", "quote": "The width of each column is the share of orders, and the height of each block the share"},
+        {"kind": "say", "at": "23:16", "frame": "t01394", "quote": "of claims, so the biggest blocks are the biggest problems."},
+        {"kind": "see", "at": "23:04", "frame": "t01384", "quote": "Column WIDTH is that category's share of the claims shown; each column is stacked to 100% by issue, so every cell's area is its claim count. The 1 category here carry 141 of this seller's 141 claims (100.0%)."}
+      ]
+    },
+    {
+      "at": "23:19-23:39",
+      "screen": "Sellers tab, M4U Mobile, Claims management > Days to solve, Claims coverage, Refund policy",
+      "action": "Shows the days to solve chart (range 3.9 to 10), claims coverage bars, then Refund policy (ON THE CLOCK 5, MOVING 3, STOPPED 2, snapshot 2026-10-16). Narration says to go through the open returns one by one on a call; that walk-through is not shown.",
+      "says": "Refund policy here lists every open return of this seller on the clock {so?} you can go through them one by one on a call.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "23:24", "frame": "t01399", "quote": "Claims management, days to solve, claims coverage, the refund policy clock {and?} invalid claims, all for this seller."},
+        {"kind": "say", "at": "23:33", "frame": "t01409", "quote": "Refund policy here lists every open return of this seller on the clock {so?} you can go through"},
+        {"kind": "say", "at": "23:39", "frame": "t01414", "quote": "them one by one on a call."},
+        {"kind": "see", "at": "23:29", "frame": "t01409", "quote": "Refund policy - M4U Mobile; snapshot 2026-10-16; ON THE CLOCK 5; MOVING 3, 60% of the clock; STOPPED 2, 40% of the clock"}
+      ]
+    },
+    {
+      "at": "23:45-23:55",
+      "screen": "Sellers tab, M4U Mobile, Cancellation, Meetings, Legal",
+      "action": "Shows the cancellation chart, the Meetings table and the Legal panel for the seller.",
+      "says": "Then cancellation, the seller's meetings and its legal documents.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "23:45", "frame": "t01424", "quote": "Then cancellation, the seller's meetings and its legal documents."},
+        {"kind": "say", "at": "23:52", "frame": "t01431", "quote": "Before every seller call, open their page here."},
+        {"kind": "say", "at": "23:55", "frame": "t01431", "quote": "You'll know their late orders, stuck orders, claims and documents before you even dial."}
+      ]
+    },
+    {
+      "at": "24:00-24:20",
+      "screen": "Scores tab (top nav), All / Active / OUT / OFF filters, seller table",
+      "action": "Opens the Scores tab. Says the score decides whether a seller's buy box stays open, and that each seller is scored on four KPIs.",
+      "says": "The score decides whether a seller's buy box stays open, so this is the tab that turns all the analysis into real consequences.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "24:00", "frame": "t01436", "quote": "Next up, the Scores tab."},
+        {"kind": "say", "at": "24:10", "frame": "t01448", "quote": "The score decides whether a seller's buy box stays open, so this is the tab that turns all"},
+        {"kind": "say", "at": "24:20", "frame": "t01448", "quote": "Each seller is scored on four KPIs."}
+      ]
+    },
+    {
+      "at": "24:21-24:39",
+      "screen": "Scores tab, KPI column group and methodology link",
+      "action": "Names the four KPIs and says each lands on a rung of a ladder from minus 50% up to plus 5%.",
+      "says": "On time, defect rate, days to solve, and claims coverage.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "24:23", "frame": "t01461", "quote": "On time, defect rate, days to solve, and claims coverage."},
+        {"kind": "say", "at": "24:34", "frame": "t01461", "quote": "on a rung of a ladder that gives or takes score, from minus 50% up to plus"},
+        {"kind": "see", "at": "24:21", "frame": "t01461", "quote": "Caption: each KPI lands on a rung of a ladder ... from minus fifty percent up to plus five percent"}
+      ]
+    },
+    {
+      "at": "24:41-24:53",
+      "screen": "Scores tab, KPI and SCORE IMPACT groups for each seller (Certifydtek row highlighted from about 24:43)",
+      "action": "Reads one seller row: the four KPI values with their counts, then the score each KPI earns. Green earns score, red costs score.",
+      "says": "Green earned score, red cost score.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "24:41", "frame": "t01481", "quote": "For each seller, you see the four KPI values with the counts behind them, then the score each"},
+        {"kind": "say", "at": "24:49", "frame": "t01483", "quote": "Green earned score, red cost score."},
+        {"kind": "see", "at": "24:41", "frame": "t01481", "quote": "Certifydtek: ON TIME 44% (298 / 674), DEFECT RATE 7.5% (281 / 3,758), DAYS TO SOLVE 12.9d (1,703 / 132), CLAIMS COVERAGE 99% (400 / 404); score impact -50%, -3%, +1%, +5%"}
+      ]
+    },
+    {
+      "at": "24:53-25:11",
+      "screen": "Scores tab, MIX ADJ. DR block (EXPECTED D...) next to the score impact block",
+      "action": "Explains Expected DR: the defect rate the seller's own product mix should produce, priced at the market's rates. It is for information only and is not part of the score.",
+      "says": "Expected DR is the mix adjusted defect rate.",
+      "why": "It gives each seller a fair bar, because an iPhone in excellent condition does not claim at the same rate as an older phone in good condition.",
+      "evidence": [
+        {"kind": "say", "at": "24:53", "frame": "t01495", "quote": "Expected DR is the mix adjusted defect rate."},
+        {"kind": "say", "at": "24:57", "frame": "t01495", "quote": "The defect rate this seller's own product mix should produce, priced at the market's rates."},
+        {"kind": "say", "at": "25:11", "frame": "t01495", "quote": "It is for information and is not part of the score."}
+      ]
+    },
+    {
+      "at": "25:15-25:19",
+      "screen": "Scores tab, SCORE group (CURRENT, NEW, and columns cut off at the right edge)",
+      "action": "Introduces the current score, the new score calculated this week, the manual adjustment and code broken. On screen only CURRENT and NEW are visible; the MA column is cut off at the right edge. This part ends at 25:19; the video runs to 29:58.",
+      "says": "Then the current score, the new score calculated this week, the manual adjustment and code broken.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "25:16", "frame": "t01515", "quote": "Then the current score, the new score calculated this week, the manual adjustment and code broken."},
+        {"kind": "see", "at": "25:15", "frame": "t01515", "quote": "Score block headers CURRENT and NEW visible; MA... column cut off at the right edge"}
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "type": "procedure",
+      "statement": "On the Sellers connections table, red rows are sellers with less than one connection a day.",
+      "evidence": [
+        {"kind": "say", "at": "19:50", "quote": "Red {rows?} are sellers with less than one connection a day."},
+        {"kind": "see", "at": "19:53", "frame": "t01193", "quote": "Caption: Red rows are sellers with less than one connection a day."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "To find sellers with too few portal connections, choose a window of 2d, 7d or 14d and use the Only flagged button, which shows the count 22 on screen.",
+      "evidence": [
+        {"kind": "say", "at": "19:54", "quote": "Choose the window {2,?} 7 {or?} 14 days and use only flag to list just those {a?} seller"},
+        {"kind": "see", "at": "19:53", "frame": "t01193", "quote": "Window buttons 2d, 7d (selected), 14d; button labelled Only flagged (22)"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "warning",
+      "statement": "A seller who never opens the portal never sees its scores, claims or late orders, so the KAM should get that seller connected.",
+      "evidence": [
+        {"kind": "say", "at": "20:01", "quote": "who never opens the portal never sees their scores claims or late orders so get them connected"},
+        {"kind": "see", "at": "19:53", "frame": "t01193", "quote": "Caption: A seller who never opens the portal never sees their scores, claims or late orders, so get them connected!"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Sellers connections counts how many times each card of a seller's portal was opened, by anyone signed in under that seller, with Revibe staff excluded. Clicking a figure shows who opened it and when.",
+      "evidence": [
+        {"kind": "say", "at": "19:41", "quote": "By anyone signed in under that seller, {revive?} staff excluded."},
+        {"kind": "say", "at": "19:46", "quote": "Click any figure to see who opened it and when."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The Sellers connections table has the columns SELLER, ORDERS 30D, DASHBOARD, ORDERS APP, WARRANTIES, PAYMENTS, FULFILLMENT, STARTER PACK and VIDEOS. Its header reads Portal activity as of Fri 16 Oct 06:15.",
+      "evidence": [
+        {"kind": "see", "at": "19:50", "frame": "t01190", "quote": "Column headers SELLER, ORDERS 30D, DASHBOARD, ORDERS APP, WARRANTIES, PAYMENTS, FULFILLMENT, STARTER PACK, VIDEOS; Portal activity as of Fri 16 Oct 06:15"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "example",
+      "statement": "In the 7d window, M4U Mobile (flagged, 814 orders in 30 days) shows 0 in every connection column. Its indented sub-rows Sale Zone (460 orders, 42 dashboard opens) and 971 Fixing (350 orders, 5 dashboard opens) show their own counts.",
+      "evidence": [
+        {"kind": "see", "at": "19:50", "frame": "t01190", "quote": "M4U Mobile 814 with 0 in DASHBOARD, ORDERS APP, WARRANTIES, PAYMENTS, FULFILLMENT, STARTER PACK, VIDEOS; Sale Zone 460 with DASHBOARD 42; 971 Fixing 350 with DASHBOARD 5"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Implied: indented rows in Sellers connections (Sale Zone and 971 Fixing under M4U Mobile; Noor Al Hadeya and AI Nafees under AI Isra) belong to the seller above them.",
+      "evidence": [
+        {"kind": "see", "at": "19:50", "frame": "t01190", "quote": "Indented rows Sale Zone and 971 Fixing under M4U Mobile; Noor Al Hadeya and AI Nafees under AI Isra"}
+      ],
+      "confidence": "low",
+      "quiz": false
+    },
+    {
+      "type": "warning",
+      "statement": "In these frames the Only flagged filter is not visibly applied: the Sellers connections table still lists unflagged sellers such as Noor Al Hadeya (88 orders) and AI Nafees (62 orders), which are in black text with no warning icon, while the red flagged rows include M4U Mobile (814), FSA Trading (283), MMS Trading (216), ABS Cell (124), AI Isra (108) and Bab Al Afia (55).",
+      "evidence": [
+        {"kind": "see", "at": "19:53", "frame": "t01193", "quote": "Table lists M4U Mobile 814, Sale Zone 460, FSA Trading 283, MMS Trading 216, ABS Cell 124, AI Isra 108, Noor Al Hadeya 88 (no icon), AI Nafees 62 (no icon), Bab Al Afia 55, Mediana Trading 48"}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "The Cancellation page (KAM tab) shows the percentage of orders cancelled per period.",
+      "evidence": [
+        {"kind": "see", "at": "19:44", "frame": "t01184", "quote": "Caption: Cancellation shows the percentage of orders cancelled per period.; chart title % cancellation"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "number",
+      "statement": "KAM tab % cancellation labels, Sherin book: 0.0% for Oct, Nov, Dec, Jan 26 and Feb; 0.3% Mar; 2.2% Apr; 0.8% May; 1.0% Jun; 0.9% Jul; 0.2% Aug; 0.1% Sep; 0.0% Oct. The chart header reads 0% – 2%.",
+      "evidence": [
+        {"kind": "see", "at": "19:44", "frame": "t01184", "quote": "Data labels 0.0% (Oct to Feb), 0.3% Mar, 2.2% Apr, 0.8% May, 1.0% Jun, 0.9% Jul, 0.2% Aug, 0.1% Sep, 0.0% Oct; top-right label 0% – 2%; y-axis runs to 2.5%"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "number",
+      "statement": "Invalid claims funnel for the Sherin book (whole window; the timeframe picker does not apply): 716 claims received, 664 decided and 52 still pending; 91 rejected by the seller (13.7% of decided); 88 confirmed by a Revibe agent (96.7% of those); 35 confirmed by the Revibe lab (46.1% of 76 judged).",
+      "evidence": [
+        {"kind": "see", "at": "19:39", "frame": "t01179", "quote": "716 Claims received, 664 decided · 52 still pending; 91 Rejected by the seller, 13.7% of decided; 88 Confirmed by a Revibe agent, 96.7% of those; 35 Confirmed by the Revibe lab, 46.1% of 76 judged"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Invalid claims monthly bars (claims received per order month): Oct 25 to Oct 26 labels 1, 10, 7, 4, 12, 47, 69, 123, 120, 99, 109, 83, 32. They sum to 716, matching the funnel.",
+      "evidence": [
+        {"kind": "see", "at": "19:39", "frame": "t01179", "quote": "Bar labels 1 (Oct), 10 (Nov), 7 (Dec), 4 (Jan 26), 12 (Feb), 47 (Mar), 69 (Apr), 123 (May), 120 (Jun), 99 (Jul), 109 (Aug), 83 (Sep), 32 (Oct)"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Invalid claims has three verdicts in three different fields: the seller answers first, a Revibe agent confirms, and the Revibe lab is the last word. Repair partners are excluded from both ends and write their inspection into the seller's own field.",
+      "evidence": [
+        {"kind": "see", "at": "19:39", "frame": "t01179", "quote": "Three verdicts, three different fields (semantic layer §33.1): the seller answers first, a Revibe agent confirms, and the Revibe lab is the last word. Repair partners are excluded from both ends — they write their inspection into the seller's own field."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Invalid claims is not only a narrowing funnel: Revibe also rejects claims the seller passed (2 claims on this window), and every number on the page opens the claims behind it.",
+      "evidence": [
+        {"kind": "see", "at": "19:39", "frame": "t01179", "quote": "Not a funnel that only narrows: Revibe also rejects claims the seller passed — 2 claims on this window. Every number here opens the claims behind it"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Invalid claims applies to the defect rate's own claims over the whole window, ignores the timeframe picker, and follows the country, account-manager and seller filters.",
+      "evidence": [
+        {"kind": "see", "at": "19:39", "frame": "t01179", "quote": "The whole window; the timeframe picker does not apply. Follows the country, account-manager and seller filters."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Top offenders on Invalid claims lists sellers whose rejections the Revibe lab overturns, biggest pile first. A seller who rejects a great deal and is upheld every time is not on this list.",
+      "evidence": [
+        {"kind": "see", "at": "19:39", "frame": "t01179", "quote": "Top offenders — sellers whose rejections the lab overturns, biggest pile first. A seller who rejects a great deal and is upheld every time is not on this list"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The KAM tab has account-manager tabs with counts (All 149, Pepe 15, Yahia 61, Sherin 30, Momen 23, Samaa 11, Unassigned 9) and filters for timeframe (Monthly last 15M, Weekly last 10W, Daily last 30D), country, seller status (All, Active, OUT, OFF) and sellers.",
+      "evidence": [
+        {"kind": "see", "at": "19:39", "frame": "t01179", "quote": "Account-manager tabs All 149, Pepe 15, Yahia 61, Sherin 30, Momen 23, Samaa 11, Unassigned 9; TIMEFRAME Monthly · last 15M, Weekly · last 10W, Daily · last 30D; SELLER STATUS All, Active, OUT, OFF"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Top nav of the Supply dashboard: Daily, Periskope, Team, KAM, Sellers, Price recs, KPIs, Scores and Tools. Header buttons are Meeting notes, Data freshness and Home. A Chart / Table toggle sits at the top right.",
+      "evidence": [
+        {"kind": "see", "at": "19:39", "frame": "t01179", "quote": "Top nav: Daily, Periskope, Team, KAM, Sellers, Price recs, KPIs, Scores, Tools; buttons Meeting notes, Data freshness, Home; Chart / Table toggle"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "The Sellers tab zooms in on one seller at a time. Use the search box at the top to pick a seller.",
+      "evidence": [
+        {"kind": "say", "at": "20:29", "quote": "welcome to the sellers tab where you zoom in on one seller at a time."},
+        {"kind": "say", "at": "20:35", "quote": "Use the search box at the top to pick any seller."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "The Sellers tab has two views. The KAM view shows the same sections as the KAM tab, for one seller only. Clicking the tab a second time switches to the seller view, which the trainer describes as the page the seller sees in their own portal. The seller view is not shown in any frame.",
+      "evidence": [
+        {"kind": "say", "at": "21:00", "quote": "This is the KAM view, the same sections as your KAM tab, for this seller only."},
+        {"kind": "say", "at": "21:07", "quote": "Click the tab a second time to switch to the seller view, exactly the page the seller sees"},
+        {"kind": "say", "at": "21:13", "quote": "It's perfect when you're on a call with them."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The summary tiles for one seller cover the whole window: ORDERS, GMV (k AED) with market share, ON TIME, % CLAIMS and CLAIMS COVERAGE.",
+      "evidence": [
+        {"kind": "say", "at": "20:41", "quote": "The tiles at the top summarize the seller over the whole window, {orders,?} GMV with the seller's market"},
+        {"kind": "see", "at": "20:48", "frame": "t01244", "quote": "GMV (k AED) 4,181, 1% market share; ON TIME 85%, 2,576 / 3,047 decided; % CLAIMS 4%; CLAIMS COVERAGE 91%, 302 of 332 closed"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "M4U Mobile summary tiles over the window: orders 3,249; GMV 4,181 (k AED), 1% market share; on time 85% (2,576 / 3,047 decided); % claims 4% (141 claims on 3,249 orders); claims coverage 91% (302 of 332 closed).",
+      "evidence": [
+        {"kind": "see", "at": "20:48", "frame": "t01244", "quote": "ORDERS 3,249; GMV (k AED) 4,181; ON TIME 85% (2,576 / 3,047 decided); % CLAIMS 4% (141 claims on 3,249 orders); CLAIMS COVERAGE 91% (302 of 332 closed)"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "The seller header shows the seller name, its account manager tag and its status. For M4U Mobile the header reads Sherin and Active.",
+      "evidence": [
+        {"kind": "say", "at": "20:52", "quote": "Under them, the seller's name, its account manager and its status."},
+        {"kind": "see", "at": "20:52", "frame": "t01244", "quote": "Header: M4U Mobile, Sherin tag, Active tag"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Sellers > Orders (KAM view) shows confirmed orders and GMV per month. The view can be split into SA / ex-SA, Direct / FBR, or By country.",
+      "evidence": [
+        {"kind": "say", "at": "21:26", "quote": "Orders, confirmed orders, and GMV per period {split?} Saudi Arabia against the rest, direct against fulfilled or by"},
+        {"kind": "see", "at": "21:26", "frame": "t01292", "quote": "Toggle buttons SA / ex-SA, Direct / FBR, By country; legend Excl. SA (AE / ZA / other) and SA"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "M4U Mobile confirmed orders by month on screen: Apr 111, May 328, Jun 458, Jul 571, Aug 551, Sep 864, Oct 366. GMV (k AED) by month: May 442, Jun 595, Jul 701, Aug 697, Sep 1,110, Oct 486.",
+      "evidence": [
+        {"kind": "see", "at": "21:26", "frame": "t01292", "quote": "Confirmed orders bar labels 111, 328, 458, 571, 551, 864, 366; GMV bar labels 442, 595, 701, 697, 1,110, 486"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Revibe's on-time promise per market: delivery within 5 working days in SA, and shipment within 2 business days everywhere else. Both are measured over decided orders.",
+      "evidence": [
+        {"kind": "see", "at": "21:39", "frame": "t01303", "quote": "Revibe's promise per market: delivery within 5 working days in SA, shipment within 2 business days everywhere else — both over decided orders."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "The On time performance chart for M4U Mobile reads: 84% over the plotted periods (2,296 / 2,740), and 2 of the late side are shipments never marked delivered. Oct 26 is still running and is drawn past the divider as a to-date figure.",
+      "evidence": [
+        {"kind": "see", "at": "21:39", "frame": "t01303", "quote": "84% over the plotted periods (2,296 / 2,740) · 2 of the late side are shipments never marked delivered. Oct 26 is the month still running, drawn past the divider as a to-date figure"}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "On time, Backlog shows orders by where they stand now: Delivered, Shipped, Quality check and Order created, with a Refused & cancelled checkbox.",
+      "evidence": [
+        {"kind": "see", "at": "21:39", "frame": "t01303", "quote": "ON TIME · BACKLOG 'Orders received, by where they stand now'; checkbox REFUSED & CANCELLED; legend Delivered, Shipped, Quality check, Order created"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Stuck orders are orders shipped and not marked delivered, oldest first. For M4U Mobile the header says 35 shipped and not marked delivered, with flag counts SA 22, ZA 12 and one more.",
+      "evidence": [
+        {"kind": "see", "at": "21:52", "frame": "t01305", "quote": "Stuck orders: 35 shipped and not marked delivered, oldest first; flag counts 22, 12, 1"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The Stuck orders table columns are ORDER, SELLER, ORDER DATE, SHIPPING DATE, DAYS SINCE SHIPPING, SLA, TRACKING COMPANY and TRACKING. Every visible row shows an SLA of 5d or less, and the first row is SA-151303-1 (DHL, 16 days since shipping).",
+      "evidence": [
+        {"kind": "see", "at": "21:52", "frame": "t01305", "quote": "Columns ORDER, SELLER, ORDER DATE, SHIPPING DATE, DAYS SINCE SHIPPING, SLA (≤5d), TRACKING COMPANY, TRACKING; first row SA-151303-1 DHL 16 days"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Defect rate shows stabilised claim rates: for each order only claims filed within the first N days are counted, for the 30-day and 90-day windows. The all-time rate is also shown.",
+      "evidence": [
+        {"kind": "see", "at": "22:06", "frame": "t01325", "quote": "Stabilized % claims — 30-day & 90-day windows: For each order, only count claims filed within the first N days"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "The 30-day rate locks 30 days after the month ends and is the cleanest gauge of whether % claims is improving. The all-time rate keeps climbing for up to a year as warranty claims come in, so it cannot be compared month to month.",
+      "evidence": [
+        {"kind": "see", "at": "22:06", "frame": "t01325", "quote": "The 30-day rate locks in 30 days after the month ends ... The total ('all-time') rate keeps climbing for up to a year as warranty claims trickle in, so it can't be compared month-to-month."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "On the Defect rate table, a tick marks a window that is fully matured and a warning sign marks a window that is still partial. Partial windows should not be compared.",
+      "evidence": [
+        {"kind": "see", "at": "22:06", "frame": "t01325", "quote": "Monthly · last 15 months. ✓ = window fully matured, ⚠ = still partial (don't compare yet)."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Mix adjusted DR breaks the seller's claims down by country, category and condition, down to the Model grain (or Model + storage). Each row shows orders, claims, claims rate, peers average and Δ pp.",
+      "evidence": [
+        {"kind": "see", "at": "22:15", "frame": "t01343", "quote": "Table columns COUNTRY · CATEGORY · CONDITION, SKU, ORDERS, CLAIMS, CLAIMS RATE, PEERS AVERAGE, Δ PP; Product grain toggle Model / Model + storage"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "On Mix adjusted DR, peers average is the claims rate of every OTHER seller in the same country x category x condition over the same months, with this seller subtracted out. Δ pp is the seller's claims rate minus that average; positive means worse than the market for that exact mix.",
+      "evidence": [
+        {"kind": "see", "at": "22:15", "frame": "t01343", "quote": "Peers average is every OTHER seller in the same country × category × condition over the same months — this seller subtracted out ... Δ pp is claims rate minus peers average: positive is worse than the market"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "On Mix adjusted DR, a ⚠ on Orders means under 100 orders on one side, so the row is still ranked but its delta should be read as arithmetic rather than signal. Segments under 20 orders are left out unless they carry more than 5 claims.",
+      "evidence": [
+        {"kind": "see", "at": "22:18", "frame": "t01343", "quote": "A ⚠ on Orders means under 100 orders on one side — the row is still ranked, but read its delta as arithmetic rather than signal. Segments under 20 orders are left out entirely unless they carry more than 5 claims"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "On Mix adjusted DR, clicking a row shows up to 5 models driving its gap, ranked by excess claims. Clicking a model's SKU count shows the codes that carry its claims.",
+      "evidence": [
+        {"kind": "see", "at": "22:15", "frame": "t01343", "quote": "Click a row for the up-to-5 models driving its gap ... ranked by excess claims ... Click a model's SKU count for the codes that actually carry its claims, worst first"}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "Narration says the copy buttons on Mix adjusted DR copy the SKU list so it can be shared with the seller. No copy button is visible in the frames, so this is narration only.",
+      "evidence": [
+        {"kind": "say", "at": "22:29", "quote": "The copy buttons copy the SKU list to share with the seller."}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "number",
+      "statement": "M4U Mobile Mix adjusted DR (selected period): orders 3,249; claims 141; % claims (actual) 4.3%, which is -2.4pp vs expected; expected % (mix-adjusted, country x category x condition peers) 6.7%.",
+      "evidence": [
+        {"kind": "see", "at": "22:15", "frame": "t01343", "quote": "ORDERS 3,249 selected period; CLAIMS 141 all claims (P-rule); % CLAIMS (ACTUAL) 4.3% -2.4pp vs. expected; EXPECTED % (MIX-ADJ.) 6.7% country × category × condition peers"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "example",
+      "statement": "Mix adjusted DR worst vs peers, top 2: AE iPhone Good (207 orders, 17 claims, 8.2%, peers 7.0%, +1.2) and AE iPhone Very Good (62 orders with ⚠, 8 claims, 12.9%, peers 10.4%, +2.5). Best vs peers includes AE iPhone Excellent (243 orders, 23 claims, 9.5%, peers 14.5%, -5.0).",
+      "evidence": [
+        {"kind": "see", "at": "22:18", "frame": "t01343", "quote": "WORST VS PEERS · TOP 2: AE · iPhone · Good 207 17 8.2% 7.0% +1.2; AE · iPhone · Very Good 62 ⚠ 8 12.9% 10.4% +2.5; BEST VS PEERS · TOP 6: AE · iPhone · Excellent 243 23 9.5% 14.5% -5.0"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Claims by condition, category and issue each show the seller's claims rate, the peers average and Δ pp. A big positive Δ marks where the seller is worse than the market for the same mix.",
+      "evidence": [
+        {"kind": "say", "at": "22:42", "quote": "Each table shows the seller's claim rate, the average of other sellers, and the difference in points."},
+        {"kind": "say", "at": "22:49", "quote": "A big positive difference tells you where this seller is worse than the market."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "example",
+      "statement": "M4U Mobile claims by condition: Good 1,611 orders, 52 claims, 3.2% (peers 4.5%, -1.3); Excellent 1,209 orders, 70 claims, 5.8% (peers 9.1%, -3.3); Very Good 429 orders, 19 claims, 4.4% (peers 5.0%, -0.5).",
+      "evidence": [
+        {"kind": "see", "at": "22:37", "frame": "t01366", "quote": "CONDITION Good 1,611 52 3.2% 4.5% -1.3; Excellent 1,209 70 5.8% 9.1% -3.3; Very Good 429 19 4.4% 5.0% -0.5"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "example",
+      "statement": "M4U Mobile claims by category: one category, iPhone (3,249 orders, 141 claims, 4.3%, peers average 6.3%, Δ -1.9).",
+      "evidence": [
+        {"kind": "see", "at": "22:37", "frame": "t01366", "quote": "CATEGORY iPhone 3,249 141 4.3% 6.3% -1.9"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "example",
+      "statement": "M4U Mobile claims by issue (whole book, 3,249 orders): Not working/DOA 68 claims, 2.1% vs peers 3.0% (-0.9); Software 22, 0.7% vs 0.9% (-0.2); Screen/Display 18, 0.6% vs 0.6% (0.0); Battery 15, 0.5% vs 0.6% (-0.2); Camera 6, 0.2% vs 0.3% (-0.1); Physical/Condition 5, 0.2% vs 0.3% (-0.2); Other 3, 0.1% vs 0.0% (+0.1); Wrong item/specs 2, 0.1% vs 0.3% (-0.2); Speaker 1 and Button 1, 0.0%.",
+      "evidence": [
+        {"kind": "see", "at": "22:41", "frame": "t01361", "quote": "Claims by issue: Not working/DOA 3,249 68 2.1% 3.0% -0.9; Software 22 0.7% 0.9% -0.2; Screen/Display 18 0.6% 0.6% 0.0; Battery 15 0.5% 0.6% -0.2; Camera 6 0.2% 0.3% -0.1; Physical/Condition 5 0.2% 0.3% -0.2; Other 3 0.1% 0.0% +0.1; Wrong item/specs 2 0.1% 0.3% -0.2; Speaker 1 0.0% 0.1% 0.0; Button 1 0.0% 0.1% 0.0"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Claims by issue lists each issue's claims on the seller's whole book (Orders is the whole book on every row), so an issue's rate is claims per order sold. The highest share of this seller's claims is listed first.",
+      "evidence": [
+        {"kind": "see", "at": "22:41", "frame": "t01361", "quote": "Orders is the seller's whole book on every row, not a slice of it ... Highest share of this seller's claims first."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Claims by category tells whether the problem is a product category; the trainer's example is iPhones or Samsungs. Claims by issue tells whether the problem is battery, screen, or devices not working. Only iPhone rows appear for M4U Mobile, so no Samsung row is shown.",
+      "evidence": [
+        {"kind": "say", "at": "22:55", "quote": "By category tells you, for example, whether the problem is iPhones or Samsungs."},
+        {"kind": "say", "at": "23:00", "quote": "By issue tells you whether it is battery, screen, or devices not working."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "The Claims mekko chart puts category (or product) and issue together. On screen, column WIDTH is the category's share of the claims shown, each column is stacked to 100% by issue, and every cell's area is its claim count.",
+      "evidence": [
+        {"kind": "see", "at": "23:04", "frame": "t01384", "quote": "Column WIDTH is that category's share of the claims shown; each column is stacked to 100% by issue — so every cell's area is its claim count. Hover any band for its exact number."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Claims mekko legend for M4U Mobile (141 claims, one category, iPhone): Not working/DOA 68, Software 22, Screen/Display 18, Battery 15, Camera 6, Physical/Condition 5, Other 3, Other issues 4.",
+      "evidence": [
+        {"kind": "see", "at": "23:04", "frame": "t01384", "quote": "Legend: Not working/DOA 68 · Software 22 · Screen/Display 18 · Battery 15 · Camera 6 · Physical/Condition 5 · Other 3 · Other issues 4; iPhone 100.0%"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Days to solve shows the average days to solve claims per month, on a range of 3.9 to 10. For M4U Mobile the labels are 3.9 (May), 7.3 (Jun), 8.1 (Jul), 10.0 (Aug), 8.5 (Sep) and 6.2 (Oct).",
+      "evidence": [
+        {"kind": "see", "at": "23:24", "frame": "t01414", "quote": "Avg. days to solve chart: range 3.9 – 10; labels 3.9 (May), 7.3 (Jun), 8.1 (Jul), 10.0 (Aug), 8.5 (Sep), 6.2 (Oct)"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Claims coverage: each monthly bar is the claims raised that period, split into closed (green) and still open (red). The closed share is the coverage. Clicking a bar lists the claims behind it, still open first. The right-most month (Oct 26) is still running and is partial.",
+      "evidence": [
+        {"kind": "see", "at": "23:24", "frame": "t01414", "quote": "Click any bar for the claims behind it ... Each bar is the claims raised that period, split into closed (green) and still open (red). The closed share IS the coverage ... The right-most month (Oct 26) is still running and is partial."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Refund policy for M4U Mobile, snapshot 2026-10-16: ON THE CLOCK 5; MOVING 3 (60% of the clock, accruing weekday hours); STOPPED 2 (40% of the clock, banked, frozen until it restarts). AE: 1 moving, 2 stopped. SA: 2 moving, 0 stopped.",
+      "evidence": [
+        {"kind": "see", "at": "23:29", "frame": "t01409", "quote": "Refund policy — M4U Mobile · Open returns on the policy clock right now · snapshot 2026-10-16; ON THE CLOCK 5; MOVING 3, 60% of the clock, accruing weekday hours; STOPPED 2, 40% of the clock, banked, frozen until it restarts"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "A policy day is 24 weekday hours on the Dubai calendar day. Saturday and Sunday never accrue, in any market, so a full policy week is about 9 calendar days.",
+      "evidence": [
+        {"kind": "see", "at": "23:29", "frame": "t01409", "quote": "A policy day is 24 weekday hours, on the Dubai calendar day — Saturday and Sunday never accrue, in any market — so a full policy week is about 9 calendar days."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Each market's refund policy axis marks warning days (warning sign) and then the days past the action day, where policy is applied (red stop icon). For M4U Mobile, AE warning days are 6d and 7d and policy applies from 8d; SA warning days are 7d and 8d and policy applies from 9d.",
+      "evidence": [
+        {"kind": "see", "at": "23:29", "frame": "t01409", "quote": "AE axis: 6d ⚠, 7d ⚠, 8d (policy applied), >8d; SA axis: 7d ⚠, 8d ⚠, 9d (policy applied), >9d"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "A claim that stands on a policy-applied day is one Revibe can act on.",
+      "evidence": [
+        {"kind": "say", "at": "23:29", "quote": "a claim standing in one of those is one Revibe can act on."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "In Refund policy, each claim lands in one column only, by weekday hours on the clock. Solid blue means accruing; light blue means stopped, with hours banked and frozen until the timer restarts. The count for each column is written above the chart.",
+      "evidence": [
+        {"kind": "see", "at": "23:29", "frame": "t01409", "quote": "Each claim lands in one column only — 1d is over 0 and up to 24 weekday hours, 2d is 24 to 48 ... The solid blue block is accruing and the light blue one is stopped"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "Refund policy lists every open return of the seller that is on the policy clock, so the KAM can go through them one by one on a call with the seller.",
+      "evidence": [
+        {"kind": "say", "at": "23:33", "quote": "Refund policy here lists every open return of this seller on the clock {so?} you can go through"},
+        {"kind": "say", "at": "23:39", "quote": "them one by one on a call."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "The refund policy timers began on 03 Sep 2026 and nothing was backfilled, so the clock is only 31.2 policy days old. Columns past that are not reachable yet rather than genuinely empty.",
+      "evidence": [
+        {"kind": "see", "at": "23:44", "frame": "t01424", "quote": "The policy's timers began on 03 Sep 2026 and nothing was backfilled, so the clock is only 31.2 policy days old, the columns past that are not reachable yet rather than genuinely empty."}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "number",
+      "statement": "M4U Mobile % cancellation: 0.0% for Apr, May, Jun and Jul; 0.2% for Aug and Sep; 0.0% for Oct. The y-axis runs 0% to 0.3%.",
+      "evidence": [
+        {"kind": "see", "at": "23:45", "frame": "t01424", "quote": "% cancellation chart (M4U Mobile): labels 0.0% Apr, 0.0% May, 0.0% Jun, 0.0% Jul, 0.2% Aug, 0.2% Sep, 0.0% Oct; axis 0.0% to 0.3%"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "The Meetings table shows each month's meetings for the seller, with LAST SEEN, STATUS, BUYBOX and FREQUENCY. For M4U Mobile: last seen 7d, status Active, buybox Open, meetings May 5, Jun 6, Jul 4, Aug 1, Sep 3, Oct 2, frequency every 8d.",
+      "evidence": [
+        {"kind": "see", "at": "23:45", "frame": "t01431", "quote": "Meetings — M4U Mobile: LAST SEEN 7d, STATUS Active, BUYBOX Open, MAY 5, JUN 6, JUL 4, AUG 1, SEP 3, OCT 2, FREQUENCY every 8d"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "The Legal panel for the seller has a checkbox 'Show sellers marked OFF', which is unchecked in the frame. For M4U Mobile the page reads 'Nothing missing in this book.'",
+      "evidence": [
+        {"kind": "see", "at": "23:55", "frame": "t01431", "quote": "Legal — M4U Mobile; Show sellers marked OFF checkbox unchecked; Nothing missing in this book."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "Before every seller call, open the seller's page in the Sellers tab. You will know their late orders, stuck orders, claims and documents before you dial.",
+      "evidence": [
+        {"kind": "say", "at": "23:52", "quote": "Before every seller call, open their page here."},
+        {"kind": "say", "at": "23:55", "quote": "You'll know their late orders, stuck orders, claims and documents before you even dial."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The score decides whether a seller's buy box stays open, which makes the Scores tab the place where the analysis turns into consequences.",
+      "evidence": [
+        {"kind": "say", "at": "24:10", "quote": "The score decides whether a seller's buy box stays open, so this is the tab that turns all"},
+        {"kind": "see", "at": "24:10", "frame": "t01448", "quote": "Subtitle: The score decides whether a seller's buybox stays open, so this is the tab that turns all the analysis into real consequences."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Each seller is scored on four KPIs: on time, defect rate, days to solve and claims coverage. Each KPI is read over its own window, shown at the top of the methodology, and lands on a rung of a ladder that gives or takes score, from minus 50% up to plus 5%.",
+      "evidence": [
+        {"kind": "say", "at": "24:20", "quote": "Each seller is scored on four KPIs."},
+        {"kind": "say", "at": "24:28", "quote": "Each KPI is read over its own window, shown at the top of the methodology, and each lands"},
+        {"kind": "say", "at": "24:39", "quote": "5%."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "On the Scores tab, green score impact cells are points earned and red cells are points lost.",
+      "evidence": [
+        {"kind": "say", "at": "24:49", "quote": "Green earned score, red cost score."},
+        {"kind": "see", "at": "24:41", "frame": "t01481", "quote": "Score impact values -50%, -3% in red; +5%, +4%, +3% in green"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Each KPI cell on the Scores tab shows the value with its counts underneath (for example Certifydtek on time 44%, 298 / 674). The score impact for each KPI sits in the SCORE IMPACT group.",
+      "evidence": [
+        {"kind": "see", "at": "24:41", "frame": "t01481", "quote": "KPI group: ON TIME 44% (298 / 674), DEFECT RATE 7.5% (281 / 3,758), DAYS TO SOLVE 12.9d (1,703 / 132), CLAIMS COVERAGE 99% (400 / 404)"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Expected DR is the mix adjusted defect rate: the defect rate the seller's own product mix should produce, priced at the market's rates. It is shown for information and is not part of the score.",
+      "evidence": [
+        {"kind": "say", "at": "24:53", "quote": "Expected DR is the mix adjusted defect rate."},
+        {"kind": "say", "at": "24:57", "quote": "The defect rate this seller's own product mix should produce, priced at the market's rates."},
+        {"kind": "say", "at": "25:11", "quote": "It is for information and is not part of the score."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "tip",
+      "statement": "Expected DR gives each seller a fair bar, because an iPhone in excellent condition does not claim at the same rate as an older phone in good condition.",
+      "evidence": [
+        {"kind": "say", "at": "25:02", "quote": "It gives each seller a fair bar, because an iPhone in excellent condition does not claim at the"},
+        {"kind": "say", "at": "25:08", "quote": "same rate as an older phone in good condition."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "After the Expected DR column, the SCORE group shows CURRENT and NEW. The trainer also names a manual adjustment column and a code broken column; both are cut off on screen.",
+      "evidence": [
+        {"kind": "say", "at": "25:16", "quote": "Then the current score, the new score calculated this week, the manual adjustment and code broken."},
+        {"kind": "see", "at": "25:15", "frame": "t01515", "quote": "Score block headers CURRENT and NEW visible; MA... column cut off at the right edge"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Scores tab filters are All, Active, OUT and OFF, with Sellers: all. The checkbox 'Fulfillment orders count as on time and defect-free' is ticked. A collapsed Cost index simulation panel is labelled 'New scores and Code broken ticks, re-ranked on the live Buybox quotes'. Buttons: Copy, CSV, SQL, SQL updates.",
+      "evidence": [
+        {"kind": "see", "at": "24:04", "frame": "t01444", "quote": "Filters All / Active / OUT / OFF; Sellers: all; checkbox Fulfillment orders count as on time and defect-free (ticked); Cost index simulation: New scores and Code broken ticks, re-ranked on the live Buybox quotes; buttons Copy, CSV, SQL, SQL updates"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "number",
+      "statement": "Scores row for M4U Mobile: ON TIME 83% (138 / 167) with score impact -3%; DEFECT RATE 3.2% (35 / 1,107) with +5%; DAYS TO SOLVE 9.9d (327 / 33) with +3%; CLAIMS COVERAGE 98% (59 / 60) with +4%; expected DR 5.7% (-2.5pp vs now); CURRENT 2.3% (0pp vs new); NEW +2.3%.",
+      "evidence": [
+        {"kind": "see", "at": "24:41", "frame": "t01481", "quote": "M4U Mobile row: 83% 138 / 167, -3%; 3.2% 35 / 1,107, +5%; 9.9d 327 / 33, +3%; 98% 59 / 60, +4%; 5.7% -2.5pp vs now; 2.3% 0pp vs new; +2.3%"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "example",
+      "statement": "Scores row for Certifydtek (first row): ON TIME 44% (298 / 674), DEFECT RATE 7.5% (281 / 3,758), DAYS TO SOLVE 12.9d (1,703 / 132), CLAIMS COVERAGE 99% (400 / 404); expected DR 6.6% (+0.9pp vs now); CURRENT -5%; NEW -15.9%.",
+      "evidence": [
+        {"kind": "see", "at": "24:41", "frame": "t01481", "quote": "Certifydtek: 44% 298/674 red; 7.5% 281/3,758 red; 12.9d 1,703/132 red; 99% 400/404 green; expected 6.6% +0.9pp vs now; CURRENT -5%; NEW -15.9%"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Seller names shown in red on the Scores table include Certifydtek, Dealt, SteppingStone and FSA Trading; all are status Active with BB Open.",
+      "evidence": [
+        {"kind": "see", "at": "24:21", "frame": "t01461", "quote": "Red seller names Certifydtek, Dealt, SteppingStone, FSA Trading; STATUS Active; BB Open"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    }
+  ],
+  "screens": [
+    {
+      "name": "Supply dashboard, top navigation",
+      "shows": "Tabs Daily, Periskope, Team, KAM, Sellers, Price recs, KPIs, Scores, Tools; buttons Meeting notes, Data freshness, Home; Chart / Table toggle",
+      "at": "19:39",
+      "where": "Top of every page"
+    },
+    {
+      "name": "KAM tab, Invalid claims",
+      "shows": "Funnel of claims received, rejected by seller, confirmed by Revibe agent, confirmed by Revibe lab; monthly bar chart with rejections in red and a line for how often the lab agreed; Top offenders table",
+      "at": "19:39",
+      "where": "KAM tab > Claims management > Invalid claims"
+    },
+    {
+      "name": "KAM tab, Cancellation",
+      "shows": "% cancellation chart by month; y-axis 0% to 2.5%; top-right label 0% – 2%",
+      "at": "19:44",
+      "where": "KAM tab > Cancellation"
+    },
+    {
+      "name": "KAM tab, Sellers connections",
+      "shows": "Portal activity table with windows 2d / 7d / 14d (7d selected), Only flagged (22) button, red flagged rows with warning icons, column headers SELLER to VIDEOS, as of Fri 16 Oct 06:15",
+      "at": "19:45",
+      "where": "KAM tab > Sellers connections"
+    },
+    {
+      "name": "Sellers tab, KAM view (M4U Mobile)",
+      "shows": "Search box, five summary tiles, seller header (name, account manager tag Sherin, status Active), Timeframe and Country filters, index sidebar of sections. The tab label reads Sellers · KAM view.",
+      "at": "20:32",
+      "where": "Sellers tab (tab label Sellers · KAM view)"
+    },
+    {
+      "name": "Sellers tab, Seller view",
+      "shows": "Not shown in any frame. Described in narration as the page the seller sees in its own portal.",
+      "at": "21:07",
+      "where": "Second click on the Sellers tab"
+    },
+    {
+      "name": "Sellers tab, Orders",
+      "shows": "Confirmed orders and GMV (k AED) bar charts by month, split SA / ex-SA, Direct / FBR, By country",
+      "at": "21:26",
+      "where": "Sellers tab > Orders"
+    },
+    {
+      "name": "Sellers tab, On time",
+      "shows": "On time % by country chart with the 84% MTD figure; Backlog chart (Delivered, Shipped, Quality check, Order created; Refused & cancelled checkbox); Delivery companies heading below",
+      "at": "21:39",
+      "where": "Sellers tab > On time > Performance, Backlog"
+    },
+    {
+      "name": "Sellers tab, Stuck orders",
+      "shows": "Table of 35 shipped and not marked delivered orders, oldest first, with SLA and tracking columns",
+      "at": "21:52",
+      "where": "Sellers tab > On time > Stuck orders"
+    },
+    {
+      "name": "Sellers tab, Defect rate",
+      "shows": "Stabilized % claims chart (30-day, 90-day, all-time) and monthly table",
+      "at": "22:02",
+      "where": "Sellers tab > Quality > Defect rate"
+    },
+    {
+      "name": "Sellers tab, Mix adjusted DR",
+      "shows": "Tiles ORDERS, CLAIMS, % CLAIMS (ACTUAL), EXPECTED % (MIX-ADJ.); Segment toggles Country / Category / Condition; Product grain Model or Model + storage; table with Worst vs peers and Best vs peers groups; Δ PP column",
+      "at": "22:15",
+      "where": "Sellers tab > Quality > Mix adjusted DR"
+    },
+    {
+      "name": "Sellers tab, Claims by condition / category / issue",
+      "shows": "Three tables with ORDERS, CLAIMS, CLAIMS RATE, PEERS AVERAGE, Δ PP",
+      "at": "22:37",
+      "where": "Sellers tab > Quality > Claims by condition, Claims by category, Claims by issue"
+    },
+    {
+      "name": "Sellers tab, Claims mekko",
+      "shows": "Mekko chart with Category x issue and Product x issue toggle, legend of issue counts (141 claims); Days to solve chart below",
+      "at": "23:04",
+      "where": "Sellers tab > Quality > Claims mekko"
+    },
+    {
+      "name": "Sellers tab, Claims management",
+      "shows": "Avg. days to solve line chart (3.9 to 10) and Claims coverage monthly bars split closed (green) and still open (red)",
+      "at": "23:19",
+      "where": "Sellers tab > Claims management > Days to solve, Claims coverage"
+    },
+    {
+      "name": "Sellers tab, Refund policy",
+      "shows": "ON THE CLOCK, MOVING and STOPPED tiles; AE and SA column charts on the policy clock with warning and policy-applied markers; snapshot date 2026-10-16",
+      "at": "23:29",
+      "where": "Sellers tab > Claims management > Refund policy"
+    },
+    {
+      "name": "Sellers tab, Cancellation, Meetings, Legal",
+      "shows": "Cancellation chart (0.0% to 0.2%); Meetings table with months and frequency; Legal panel with Show sellers marked OFF checkbox",
+      "at": "23:45",
+      "where": "Sellers tab > Cancellation, Meetings, Legal"
+    },
+    {
+      "name": "Scores tab",
+      "shows": "Seller table with All / Active / OUT / OFF filters, Methodology, Cost index simulation, Copy / CSV / SQL / SQL updates; KPI, SCORE IMPACT, MIX ADJ. DR and SCORE column groups; right-hand SCORE columns cut off",
+      "at": "24:04",
+      "where": "Scores tab (top nav)"
+    }
+  ],
+  "terms": [
+    {
+      "term": "KAM",
+      "meaning": "Key account manager, the role the video is for. The KAM tab is where the KAM's sellers are listed; the narration on this point is garbled (see unclear).",
+      "at": "20:11"
+    },
+    {
+      "term": "Sellers connections",
+      "meaning": "Table of how often each seller's portal cards are opened, by anyone signed in under that seller, Revibe staff excluded.",
+      "at": "19:41"
+    },
+    {
+      "term": "Only flagged",
+      "meaning": "Button that is meant to list only the sellers flagged in Sellers connections (the count shown is 22). In these frames the table is not visibly filtered.",
+      "at": "19:54"
+    },
+    {
+      "term": "Red row",
+      "meaning": "Seller with less than one connection a day in Sellers connections, marked with a warning icon.",
+      "at": "19:50"
+    },
+    {
+      "term": "KAM view / seller view",
+      "meaning": "The two views of one seller on the Sellers tab. The KAM view has the KAM sections. The seller view is described as the page the seller sees in its own portal; it is not shown.",
+      "at": "21:00"
+    },
+    {
+      "term": "SA / ex-SA, Direct / FBR, By country",
+      "meaning": "Orders toggles: Saudi Arabia against the rest, direct against fulfilled, or by country.",
+      "at": "21:26"
+    },
+    {
+      "term": "Revibe promise (On time)",
+      "meaning": "Delivery within 5 working days in SA; shipment within 2 business days everywhere else; measured over decided orders.",
+      "at": "21:39"
+    },
+    {
+      "term": "Backlog",
+      "meaning": "Orders received, shown by where they stand now (Delivered, Shipped, Quality check, Order created; Refused & cancelled checkbox).",
+      "at": "21:39"
+    },
+    {
+      "term": "Stuck orders",
+      "meaning": "Orders shipped and not marked delivered, oldest first.",
+      "at": "21:52"
+    },
+    {
+      "term": "Stabilized claim rate (30-day, 90-day, all-time)",
+      "meaning": "Claim rate that counts only claims filed within the first N days of each order. The all-time rate keeps growing for up to a year.",
+      "at": "22:06"
+    },
+    {
+      "term": "Mix adjusted DR / Expected %",
+      "meaning": "Defect-rate view that compares the seller's claims with the peers' rate for the same country x category x condition mix. Expected % is the rate the mix should produce.",
+      "at": "22:15"
+    },
+    {
+      "term": "Peers average",
+      "meaning": "Claims rate of every other seller in the same country x category x condition book over the same months, with this seller removed.",
+      "at": "22:18"
+    },
+    {
+      "term": "Δ pp",
+      "meaning": "Seller's claims rate minus peers average, in percentage points. Positive means worse than the market for that mix.",
+      "at": "22:42"
+    },
+    {
+      "term": "SKU copy buttons",
+      "meaning": "Narration says these copy the SKU list to share with the seller. No copy button is visible in the frames.",
+      "at": "22:29"
+    },
+    {
+      "term": "Claims mekko",
+      "meaning": "Chart where column width is the category's share of the claims shown and each cell's area is its claim count (on-screen definition; the narration describes width as share of orders).",
+      "at": "23:04"
+    },
+    {
+      "term": "Claims coverage",
+      "meaning": "Share of a month's claims that are closed (green) versus still open (red).",
+      "at": "23:24"
+    },
+    {
+      "term": "Days to solve",
+      "meaning": "Average days to solve claims per month.",
+      "at": "23:24"
+    },
+    {
+      "term": "Refund policy clock",
+      "meaning": "Timer on each open return. Counts on the clock are split into moving (accruing weekday hours) and stopped (banked, frozen until it restarts).",
+      "at": "23:29"
+    },
+    {
+      "term": "Policy day",
+      "meaning": "24 weekday hours on the Dubai calendar day. Saturday and Sunday never accrue in any market.",
+      "at": "23:29"
+    },
+    {
+      "term": "Warning day / policy applied",
+      "meaning": "Warning days are marked with a warning sign on the refund policy axis. Policy-applied days are marked with a red stop icon, and a claim there is one Revibe can act on.",
+      "at": "23:29"
+    },
+    {
+      "term": "Invalid claims verdicts",
+      "meaning": "valid_claim (seller rejects), revibe_confirmation (Revibe agent confirms), lab_decision (Revibe lab, last word).",
+      "at": "19:39"
+    },
+    {
+      "term": "Top offenders (Invalid claims)",
+      "meaning": "Sellers whose rejections the Revibe lab overturns, biggest pile first.",
+      "at": "19:39"
+    },
+    {
+      "term": "Repair partners",
+      "meaning": "Excluded from both ends of the invalid claims verdicts; they write their inspection into the seller's own field.",
+      "at": "19:39"
+    },
+    {
+      "term": "Buybox",
+      "meaning": "The seller's buy box. The narration says the score decides whether it stays open; no threshold or closing rule is given.",
+      "at": "24:10"
+    },
+    {
+      "term": "KPI (Scores)",
+      "meaning": "The four measures a seller is scored on: on time, defect rate, days to solve, claims coverage.",
+      "at": "24:23"
+    },
+    {
+      "term": "Score impact / ladder",
+      "meaning": "Points a KPI earns or costs, on a ladder from minus 50% up to plus 5%. Green earns score; red costs score.",
+      "at": "24:34"
+    },
+    {
+      "term": "Expected DR",
+      "meaning": "Mix adjusted defect rate, shown for information only, not part of the score.",
+      "at": "24:53"
+    },
+    {
+      "term": "Current score / New score",
+      "meaning": "The current score, and the new score calculated this week.",
+      "at": "25:16"
+    },
+    {
+      "term": "Manual adjustment / Code broken",
+      "meaning": "Columns named by the trainer; they sit at the right of the SCORE group and are cut off on screen. 'Code broken ticks' is also the label of an option in the collapsed Cost index simulation.",
+      "at": "25:16"
+    },
+    {
+      "term": "Cost index simulation",
+      "meaning": "Collapsed panel on the Scores tab labelled New scores and Code broken ticks, re-ranked on the live Buybox quotes.",
+      "at": "24:04"
+    }
+  ],
+  "asr_fixes": [
+    {
+      "at": "19:41",
+      "heard": "{revive?} staff excluded",
+      "correct": "Revibe staff excluded",
+      "basis": "On-screen caption in the Sellers connections frames reads 'Revibe staff excluded'."
+    },
+    {
+      "at": "19:54",
+      "heard": "use only flag",
+      "correct": "use Only flagged",
+      "basis": "Button label on the Sellers connections table reads 'Only flagged (22)'."
+    },
+    {
+      "at": "19:54",
+      "heard": "{2,?} 7 {or?} 14 days",
+      "correct": "two, seven or fourteen days (window buttons 2d, 7d, 14d)",
+      "basis": "On-screen caption reads 'two, seven or fourteen days'; the window buttons are labelled 2d, 7d and 14d."
+    },
+    {
+      "at": "23:09",
+      "heard": "The Mecco chart",
+      "correct": "The mekko chart (Claims mekko)",
+      "basis": "Caption on frame t01384 reads 'The mekko chart puts both together'; page heading and tab read 'Claims mekko'."
+    },
+    {
+      "at": "24:10",
+      "heard": "buy box",
+      "correct": "buybox",
+      "basis": "Subtitle on frame t01448 reads 'buybox stays open'; the sidebar has a 'Buybox closed' section and the Scores column is labelled BB."
+    }
+  ],
+  "unclear": [
+    {
+      "at": "23:11",
+      "issue": "Audio and screen contradict. The narration says column width is the share of orders and block height the share of claims. The on-screen text on the Claims mekko page says column WIDTH is the category's share of the claims shown and each cell's area is its claim count. The fact is stated from the screen; the narration is unresolved."
+    },
+    {
+      "at": "20:11-20:18",
+      "issue": "Narration is garbled: 'meetings and legal are the same lists as in daily for your sellers only and that's the kam' followed by 'tab your bonus in your whole book all on one page'. It is unclear what the trainer says the KAM tab contains. Legal does not appear on the KAM tab sidebar in any frame."
+    },
+    {
+      "at": "19:54",
+      "issue": "The narration says Only flagged lists just the flagged sellers, but in the frames the Sellers connections table still lists unflagged sellers (Noor Al Hadeya, AI Nafees). The filter may not be applied in these frames."
+    },
+    {
+      "at": "21:07",
+      "issue": "The seller view is described in the narration but no frame shows it. Its contents are not known from the evidence."
+    },
+    {
+      "at": "21:39",
+      "issue": "Narration says clicking a backlog column lists the exact orders to chase. No click is shown in the frames, so the behaviour is not verified on screen."
+    },
+    {
+      "at": "22:29",
+      "issue": "Narration says the copy buttons copy the SKU list to share with the seller. No copy button is visible in any Mix adjusted DR frame."
+    },
+    {
+      "at": "24:41-25:16",
+      "issue": "The right-hand Scores columns (the manual adjustment and code broken columns) are cut off in every Scores frame, so their contents and the full SCORE block are not visible."
+    },
+    {
+      "at": "24:41",
+      "issue": "The sign convention of the small 'vs new' and 'vs now' figures on the Scores tab (for example -10.9pp vs new, +0.9pp vs now) is not explained on screen or in narration."
+    },
+    {
+      "at": "24:53",
+      "issue": "M4U Mobile expected defect rate differs between screens: the Mix adjusted DR tile shows EXPECTED % (MIX-ADJ.) 6.7% for the selected period, while the Scores tab shows 5.7% (-2.5pp vs now). The windows or basis may differ; the video does not say so."
+    },
+    {
+      "at": "24:41",
+      "issue": "On-time figures for M4U Mobile also differ: the Sellers tile shows 85% (2,576 / 3,047 decided), the Scores row shows 83% (138 / 167), and the On time chart shows 84% over plotted periods. The windows are not explained on screen."
+    },
+    {
+      "at": "24:04",
+      "issue": "Colour thresholds on the Scores KPI cells are not explained. For example Dealt's 59% on time is red while its 5.8% defect rate is yellow, and Mobipro's 97% is green."
+    },
+    {
+      "at": "24:04",
+      "issue": "Seller names shown in red on the Scores tab (Certifydtek, Dealt, SteppingStone, FSA Trading) are not explained."
+    },
+    {
+      "at": "24:04",
+      "issue": "The checkbox 'Fulfillment orders count as on time and defect-free' is ticked on the Scores tab. The trainer does not explain what it changes."
+    },
+    {
+      "at": "19:44",
+      "issue": "The KAM tab Cancellation header reads 0% – 2% while the y-axis runs to 2.5% and the labelled peak is 2.2% (April). The header range does not show the whole axis."
+    },
+    {
+      "at": "23:44",
+      "issue": "The timer start date and the 31.2 policy-day count are shown in a line that is faded behind a title card in the frame. Confirm the exact text on the live page before quoting it."
+    },
+    {
+      "at": "22:55",
+      "issue": "The narration example uses iPhones or Samsungs. Only iPhone rows appear for M4U Mobile, so no Samsung case is shown."
+    }
+  ],
+  "outdated": [
+    {
+      "at": "19:39",
+      "signal": "Snapshot values: Portal activity as of Fri 16 Oct 06:15 and Refund policy snapshot 2026-10-16. The numbers will have changed since recording."
+    },
+    {
+      "at": "23:24",
+      "signal": "The right-most month (Oct 26) is described as still running and partial on the claims coverage chart, and as to-date (84% MTD) on the On time chart."
+    },
+    {
+      "at": "25:16",
+      "signal": "The trainer describes the new score as calculated this week. The value is weekly and goes out of date each week."
+    },
+    {
+      "at": "23:29",
+      "signal": "The refund policy clock (5 on the clock; timers from 03 Sep 2026; 31.2 policy days) will change as the clock runs."
+    }
+  ],
+  "privacy": [
+    {
+      "at": "21:52",
+      "frame": "t01305",
+      "what": "Stuck orders table shows order IDs (for example SA-151303-1) and carrier tracking numbers for shipments to customers. No customer names, phone numbers, emails or addresses are visible. Redact tracking details before sharing with sellers."
+    },
+    {
+      "at": "20:52",
+      "frame": "t01244",
+      "what": "Account manager first name Sherin is shown on the seller header and on the KAM tab account-manager tabs. This is a staff name, not seller personal data."
+    },
+    {
+      "at": "19:50",
+      "frame": "t01190",
+      "what": "Seller names on the Sellers connections and Scores tables are business names (for example M4U Mobile, Noor Al Hadeya). No personal contact details are visible."
+    }
+  ],
+  "audit": {
+    "checked": 155,
+    "removed": [
+      {
+        "statement": "Unclear entry: the 21:39 line about shipments never marked delivered is partly hidden under the caption",
+        "reason": "On frame t01303 the line is fully legible ('2 of the late side are shipments never marked delivered'). Replaced by a fact carrying the exact text."
+      }
+    ],
+    "corrected": [
+      {
+        "before": "Step 19:39: 'No narration covers this page in this span.'",
+        "after": "The 19:41 narration line about Sellers connections is spoken over this frame; the Invalid claims page itself is not narrated.",
+        "reason": "The pack's transcript places the 19:41 line over frame t01179."
+      },
+      {
+        "before": "Step 19:54: 'turns on Only flagged to list only the flagged sellers'",
+        "after": "Narrates using Only flagged; the frames show the button but the table still lists unflagged sellers",
+        "reason": "Frame t01193 lists Noor Al Hadeya and AI Nafees in black text with no warning icon; the filter is not visibly on."
+      },
+      {
+        "before": "Step 20:08: 'Describes the KAM tab as the place for the whole book on one page'",
+        "after": "Implied, low confidence; the narration is garbled at 20:11-20:18",
+        "reason": "The sentence cannot be recovered reliably from the transcript."
+      },
+      {
+        "before": "Step 20:35: 'Types M4U Mobile into the search box'",
+        "after": "Uses the search box to pick M4U Mobile",
+        "reason": "Only the result (M4U Mobile in the box) is visible; the typing is not shown."
+      },
+      {
+        "before": "Step 21:39: 'Points at the on-time chart... Clicks a backlog column'",
+        "after": "Shows On time % by country and the backlog chart; the backlog click is narration only",
+        "reason": "No click is visible in the frames."
+      },
+      {
+        "before": "Step 22:10: 'Points at a line and at the copy buttons'",
+        "after": "Shows the Mix adjusted DR table; copy buttons are narration only",
+        "reason": "No copy button is visible in any frame."
+      },
+      {
+        "before": "Step 23:09 and fact 'mekko column width = share of orders, block height = share of claims'",
+        "after": "On-screen definition: column width = category's share of the claims shown; cell area = claim count; narration conflicts",
+        "reason": "Frame t01384 text contradicts the narration (see unclear)."
+      },
+      {
+        "before": "Step 23:19: 'goes through the open returns on the clock'",
+        "after": "Opens Refund policy; the one-by-one walk-through is narration only",
+        "reason": "The walk-through is not shown."
+      },
+      {
+        "before": "Step 24:41: 'Certifydtek row highlighted'",
+        "after": "Certifydtek row highlighted from about 24:43 (frame t01483); header highlighted at 24:41",
+        "reason": "The orange highlight is on the header in t01481 and on the Certifydtek row in t01483."
+      },
+      {
+        "before": "Step 25:19: 'The video ends at 25:19'",
+        "after": "This part ends at 25:19; the video runs to 29:58",
+        "reason": "The part boundary is not the end of the video."
+      },
+      {
+        "before": "Summary: 'the right-hand columns of the Scores table are cut off in every frame'",
+        "after": "...cut off in every Scores frame",
+        "reason": "Only Scores frames show those columns."
+      },
+      {
+        "before": "Screen 'Sellers tab, KAM view': 'timeframe, country and seller status filters'",
+        "after": "Timeframe and Country filters only",
+        "reason": "No seller status filter is shown on the Sellers tab frames."
+      },
+      {
+        "before": "Screen 'Sellers tab, On time': 'top late orders'",
+        "after": "On time % by country and Backlog chart; delivery companies heading below",
+        "reason": "The top late orders section is not visible; the narration names it."
+      },
+      {
+        "before": "Fact 'Cancellation (KAM tab) scale 0% to 2.5%'",
+        "after": "Y-axis runs 0% to 2.5%; the card label reads 0% – 2%",
+        "reason": "Two different scale labels appear in the frame."
+      },
+      {
+        "before": "Fact 'Refund policy timers ... about 31.2 policy days old ... for this market'",
+        "after": "Only 31.2 policy days old; 'for this market' removed",
+        "reason": "The on-screen text does not say which market; the figure is 'only 31.2'."
+      },
+      {
+        "before": "Fact 'Legal ... unchecked by default'",
+        "after": "Checkbox is unchecked in the frame",
+        "reason": "'By default' is an inference from one frame."
+      },
+      {
+        "before": "Fact 'Clicking a backlog column lists the exact orders to chase' stated as fact",
+        "after": "Narration only; confidence medium",
+        "reason": "The click is not shown."
+      },
+      {
+        "before": "Fact 'Copy buttons on Mix adjusted DR copy the SKU list' stated as fact",
+        "after": "Narration only; confidence medium",
+        "reason": "No copy button is visible."
+      },
+      {
+        "before": "Term 'Claims mekko: width = share of orders'",
+        "after": "Width = category's share of the claims shown; area = claim count",
+        "reason": "On-screen definition (frame t01384)."
+      },
+      {
+        "before": "Term 'Code broken is also a ticked option in Cost index simulation'",
+        "after": "'Code broken ticks' is the label of an option; its tick state is not visible",
+        "reason": "Only the Fulfillment checkbox is visibly ticked."
+      },
+      {
+        "before": "Term 'Only flagged ... (22 at recording)'",
+        "after": "Count shown on screen is 22; the table is not visibly filtered in these frames",
+        "reason": "'At recording' is an inference; the filter state is visible."
+      },
+      {
+        "before": "Unclear 24:04: colour thresholds 'orange 59% vs red 44%'",
+        "after": "Dealt's 59% on time is red; its 5.8% defect rate is yellow",
+        "reason": "Colour pairing on frame t01461 was misread in the earlier draft."
+      },
+      {
+        "before": "ASR fix 19:50 'Red {rows?}' and 19:54 'two, seven or fourteen days' sourced to frame t01208",
+        "after": "Sourced to frame t01193 captions",
+        "reason": "The caption with these words is on t01193."
+      },
+      {
+        "before": "Outdated 22:06: 'warning sign marks the most recent months'",
+        "after": "Removed as a separate item; the tick/warning rule is recorded as a fact",
+        "reason": "Duplicates the fact; no separate outdated signal."
+      }
+    ],
+    "added": [
+      "Fact: On time chart line '84% over the plotted periods (2,296 / 2,740) · 2 of the late side are shipments never marked delivered' (frame t01303), replacing the removed unclear entry",
+      "Fact: Invalid claims 'Revibe also rejects claims the seller passed (2 claims)' (frame t01179)",
+      "Fact: Invalid claims monthly bar labels sum to 716 (frame t01179)",
+      "Fact: KAM tab Cancellation labels for the Sherin book (frame t01184)",
+      "Fact: Sellers connections flagged rows and unflagged rows that are still listed (frame t01193)",
+      "Fact: Only flagged filter not visibly applied in these frames (frame t01193)",
+      "Fact: Claims mekko legend totals (frame t01384)",
+      "Fact: Claims by issue full list including Camera, Physical/Condition, Other, Wrong item/specs, Speaker and Button (frame t01361)",
+      "Fact: Mix adjusted DR worst and best rows (frame t01343)",
+      "Fact: Scores red seller names (frame t01461)",
+      "Fact: Certifydtek and M4U Mobile Scores rows (frames t01481, t01483)",
+      "Unclear: Cancellation header 0% – 2% against a 2.5% axis (frame t01184)",
+      "Unclear: Only flagged not visibly applied (frames t01193)",
+      "Unclear: on-time figures for M4U Mobile differ across screens (frames t01244, t01303, t01448)",
+      "Outdated: refund policy clock figures will change (frame t01409)"
+    ]
+  }
+}

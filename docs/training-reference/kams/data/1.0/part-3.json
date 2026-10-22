@@ -1,0 +1,853 @@
+{
+  "summary": "Part 3 of 4 (07:05-11:58) of the \"1.0 Onboarding App (KAM)\" video covers the admin side of the Revibe Seller Onboarding App (AppSheet), the Google Sheet 'Onboarding Plan' used for outbound recruiting, and the Leads list with the lead call process. The trainer sets the seller record 'Pierre' (email pierre@revibe.me) Approval to Incomplete and picks the missing elements as Rationale, explains the Application status groups in the Profile tab, walks through the Onboarding Plan columns and their if-yes/if-no logic, and shows how to work a lead: call, log the call in the Comment field, and set the Stage to Sent to app or Cancelled. On screen, Final review is still entered in Approval even though the narration says it is no longer chosen. Several pack frame citations were wrong (t00476, t00478, t00480, t00576, t00583, t00600) and have been corrected. All 40 listed frames were opened.",
+  "frames_opened": 40,
+  "steps": [
+    {
+      "at": "07:05-07:13",
+      "screen": "Revibe Seller Onboarding App > Profile > seller side panel 'Pierre'",
+      "action": "Has the side panel for seller 'Pierre' open and types 'Final review' into the Approval field.",
+      "says": "It can go under final review, which is honestly a stage that we don't choose anymore.",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "07:05", "frame": "t00425.jpg", "quote": "Side panel 'Pierre' open; Approval field empty with 'Search' placeholder; Application status 'Under review'."},
+        {"kind": "say", "at": "07:08", "quote": "It can go under final review, which is honestly a stage that we don't choose anymore."},
+        {"kind": "see", "at": "07:08", "frame": "t00428.jpg", "quote": "Approval field shows 'Final review' typed in; Application status 'Under review'."}
+      ]
+    },
+    {
+      "at": "07:13-07:16",
+      "screen": "Seller side panel, Approval dropdown",
+      "action": "Hovers the Approval dropdown 'Open' control and says the seller can be accepted, rejected or incomplete.",
+      "says": "So like the seller can be either accepted, rejected, or incomplete if something is missing from its application",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "07:13", "frame": "t00433.jpg", "quote": "Approval shows 'Final review'; cursor on the dropdown arrow with tooltip 'Open'."},
+        {"kind": "say", "at": "07:16", "quote": "So like the seller can be either accepted, rejected, or incomplete if something is missing from its application"}
+      ]
+    },
+    {
+      "at": "07:19-07:22",
+      "screen": "Seller side panel, Approval and Rationale",
+      "action": "Changes Approval to 'Incomplete'. Application status changes to 'Missing data' and a Rationale search field appears.",
+      "says": "{if?} anything is missing we can put the element that we are looking for a comment we can",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "07:19", "frame": "t00439.jpg", "quote": "Approval 'Incomplete'; Application status 'Missing data' (orange icon); Rationale field with '+' button appears."},
+        {"kind": "say", "at": "07:22", "quote": "{if?} anything is missing we can put the element that we are looking for a comment we can"}
+      ]
+    },
+    {
+      "at": "07:24",
+      "screen": "Seller side panel, Rationale dropdown",
+      "action": "Opens the Rationale list to show the selectable missing elements.",
+      "says": "",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "07:24", "frame": "t00444.jpg", "quote": "Rationale dropdown lists checkboxes: Select all; First / Last name; Email; Phone number; Company name; Country; 'Adress and location' (spelled this way on screen)."}
+      ]
+    },
+    {
+      "at": "07:28-07:36",
+      "screen": "Seller side panel, lower part of the form",
+      "action": "Points at Comment, Proof attachment and Internal comment fields, and explains the internal comment format.",
+      "says": "internal comment please first put the date then the month and then put your message",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "07:28", "frame": "t00448.jpg", "quote": "Rationale empty; Comment text box; Proof attachment upload box (PDF icon); Internal comment text box; Save button top right."},
+        {"kind": "say", "at": "07:29", "quote": "also put a proof and an internal command if needed whenever you need to put an income an"},
+        {"kind": "say", "at": "07:36", "quote": "internal comment please first put the date then the month and then put your message"}
+      ]
+    },
+    {
+      "at": "07:43",
+      "screen": "Revibe Seller Onboarding App > seller view of 'Pierre'",
+      "action": "Recaps the first two parts of the journey and shows the seller's own view of the application.",
+      "says": "So here we saw the first two parts, we saw the inbound and the seller view.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "07:43", "quote": "So here we saw the first two parts, we saw the inbound and the seller view."},
+        {"kind": "see", "at": "07:43", "frame": "t00463.jpg", "quote": "Seller view: Quality guidelines description, 'Have you read the quality guidelines? Yes', seller agreement upload, DHL account 'No', tax registration, trading license, ID, bank details; Documentation status 'Complete'; Uploads status 'Complete'; Application status 'Under review'."}
+      ]
+    },
+    {
+      "at": "07:52-07:55",
+      "screen": "Seller view (still shown); then Google Sheet 'Seller Onboarding App' tab 'Profile'",
+      "action": "Defines outbound, then moves from the seller view to the Google Sheet 'Seller Onboarding App' and its Profile tab.",
+      "says": "Outbound is when we try to reach out to sellers.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "07:52", "quote": "Outbound is when we try to reach out to sellers."},
+        {"kind": "see", "at": "07:47", "frame": "t00467.jpg", "quote": "Seller view of 'Pierre' still displayed."},
+        {"kind": "see", "at": "07:56", "frame": "t00476.jpg", "quote": "Seller view of 'Pierre' still shown; cursor is on the 'Seller Onboarding App' browser tab. No Google Sheet content is visible yet."},
+        {"kind": "say", "at": "07:55", "quote": "For this, we created this sheet onboarding plan where we listed more than 300 sellers across the UAE."},
+        {"kind": "see", "at": "07:58", "frame": "t00478.jpg", "quote": "Google Sheet 'Seller Onboarding App', tab 'Profile' (columns: ID, First name, Last name, Email, Phone, Company name, Country, Emirate, Address for pick ups, Google map location for pick ups, What kind of products you sell, Are you a wholesaler (B2B)). Tab bar: Dashboard, Profile, Welcome, Users, Video, Leads, Onboarding Dashboard, Onboarding Plan, Marwan mission, Sherin Onboarding, Momen Onboarding, Samaa Onboarding, claims handling, Ops Plan, Adding sellers, Leads external to (cut off). Cursor is on the 'Onboarding Plan' tab."}
+      ]
+    },
+    {
+      "at": "07:58-08:03",
+      "screen": "Google Sheet 'Seller Onboarding App', tab 'Onboarding Plan'",
+      "action": "Switches to the Onboarding Plan tab, which shows filter icons on the header row, and selects cell D7 'Tech Point Zone'.",
+      "says": "",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "08:00", "frame": "t00480.jpg", "quote": "Onboarding Plan tab active; filter icons visible on the header row; name box A1 (no cell selected)."},
+        {"kind": "see", "at": "08:03", "frame": "t00483.jpg", "quote": "Cell D7 selected showing 'Tech Point Zone'; Owner column coloured chips: Marwan, Yahia, Pepe."}
+      ]
+    },
+    {
+      "at": "08:07",
+      "screen": "Google Sheet 'Onboarding Plan', Owner column",
+      "action": "Points at the Owner column.",
+      "says": "For each of them, we have an account manager in charge of recruiting the seller.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "08:07", "quote": "For each of them, we have an account manager in charge of recruiting the seller."},
+        {"kind": "see", "at": "08:03", "frame": "t00483.jpg", "quote": "Owner column coloured chips: Marwan, Yahia, Pepe."}
+      ]
+    },
+    {
+      "at": "08:08-08:30",
+      "screen": "Google Sheet 'Onboarding Plan', contact and profile columns",
+      "action": "Walks through the information available per seller: marketplace, country, page link, email and phone, ratings, categories, notes.",
+      "says": "",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "08:15", "quote": "And we have plenty of information."},
+        {"kind": "say", "at": "08:17", "quote": "Is the seller present on a marketplace?"},
+        {"kind": "say", "at": "08:20", "quote": "What is the country?"},
+        {"kind": "say", "at": "08:21", "quote": "What is the link to his page?"},
+        {"kind": "see", "at": "08:15", "frame": "t00488.jpg", "quote": "Columns visible: Country (UAE, KSA), Location, URL, Email, Phone, Contact name, Rating, Number of Reviews, Customers, Categories."},
+        {"kind": "say", "at": "08:24", "quote": "Do we have an email, a phone?"},
+        {"kind": "see", "at": "08:23", "frame": "t00503.jpg", "quote": "Email and Phone columns visible with seller contact values."},
+        {"kind": "say", "at": "08:26", "quote": "We have some ratings."},
+        {"kind": "say", "at": "08:28", "quote": "What are the categories sold by the seller?"},
+        {"kind": "say", "at": "08:30", "quote": "We can put some notes."},
+        {"kind": "see", "at": "08:26", "frame": "t00506.jpg", "quote": "Rating and Number of Reviews columns, Categories chips (for example Macbook, Laptop, Tablet / iPads, Iphone, Smart watches), Notes column; Contacted / Answer columns at the far right."}
+      ]
+    },
+    {
+      "at": "08:31-08:38",
+      "screen": "Google Sheet 'Onboarding Plan', right-hand tracking columns",
+      "action": "Points at Contacted, Answer, To visit, then the Onboarding App and if-yes Stage columns.",
+      "says": "he got registered through the onboarding app {if?} yes what is his current stage this is automatic and",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "08:31", "quote": "We can also mention if we contacted him, if he answered, if we want to visit him {if?}"},
+        {"kind": "see", "at": "08:31", "frame": "t00511.jpg", "quote": "Column headers: Contacted, Answer, To visit, Onboarding App, if yes - Stage, if no - Rationale, Priority (stars), Comments & Notes, App Notes, Total. Contacted, Answer and To visit show Yes/No values."},
+        {"kind": "say", "at": "08:38", "quote": "he got registered through the onboarding app {if?} yes what is his current stage this is automatic and"}
+      ]
+    },
+    {
+      "at": "08:44-08:50",
+      "screen": "Google Sheet 'Onboarding Plan', 'if no - Rationale' dropdown",
+      "action": "Opens the if-no Rationale dropdown and lists the reasons.",
+      "says": "interest etc etc all of this you will get more training live with other camps",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "08:44", "quote": "if no what is the {rational?} because he's already a seller because has been rejected he has no"},
+        {"kind": "see", "at": "08:47", "frame": "t00527.jpg", "quote": "Rationale dropdown options: No interest, No answer, Pending, No contact, No documents, Already seller, Do not contact, Rejected."},
+        {"kind": "say", "at": "08:50", "quote": "interest etc etc all of this you will get more training live with other camps"}
+      ]
+    },
+    {
+      "at": "09:00-09:14",
+      "screen": "Google Sheet 'Onboarding Plan' (scrolled to Marketplace / Country / URL / Email columns)",
+      "action": "Explains what to do when a seller from the list is recruited: send the onboarding app link so they register.",
+      "says": "him the link of the onboarding app so that he can register properly as all the other ones",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "09:00", "quote": "{but?} just retain that if you manage from this list to recruit a seller {you?} can then send"},
+        {"kind": "say", "at": "09:07", "quote": "him the link of the onboarding app so that he can register properly as all the other ones"},
+        {"kind": "see", "at": "09:00", "frame": "t00540.jpg", "quote": "Onboarding Plan tab; columns Marketplace / Source, Country, URL, Email visible; cursor on URL column."}
+      ]
+    },
+    {
+      "at": "09:14-09:22",
+      "screen": "Google Sheet 'Onboarding Plan' (still open)",
+      "action": "Mentions marketplaces and says sellers can be reached directly. The narration here is garbled (see unclear list).",
+      "says": "and reach out by themselves to sellers and try to recruit them now let's go back {To?} the",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "09:14", "quote": "{CAMS?} can also buy their own decide to go on {noon?} or amazon or whatever other platform"},
+        {"kind": "say", "at": "09:22", "quote": "and reach out by themselves to sellers and try to recruit them now let's go back {To?} the"},
+        {"kind": "see", "at": "09:20", "frame": "t00560.jpg", "quote": "Onboarding Plan tab with Marketplace and URL columns visible."}
+      ]
+    },
+    {
+      "at": "09:27-09:33",
+      "screen": "PDF 'Sellers journey.pdf' (page 6 of 12), then the app",
+      "action": "Shows the slide listing the four journey steps, then moves to the admin view of the app.",
+      "says": "So this is the admin view in this view.",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "09:30", "quote": "onboarding app and let me present you the admin view"},
+        {"kind": "see", "at": "09:27", "frame": "t00567.jpg", "quote": "PDF title bar 'Sellers journey.pdf', 'Page 6 sur 12'. Slide 'Sellers' journey', 'Onboarding' section: 'Onboarding App' box with Legal clearance, Revibe terms and conditions, Quality guidelines; steps 1. Inbound, 2. Outbound, 3. Seller view, 4. Admin view."},
+        {"kind": "say", "at": "09:33", "quote": "So this is the admin view in this view."},
+        {"kind": "see", "at": "09:32", "frame": "t00572.jpg", "quote": "Same PDF slide still open ('Page 6 sur 12')."}
+      ]
+    },
+    {
+      "at": "09:36-09:40",
+      "screen": "Revibe Seller Onboarding App: left menu",
+      "action": "Shows the left menu, first collapsed to icons and then expanded, and points at the Video item.",
+      "says": "The video is the introduction video you have at the beginning In profile, you can see all the",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "09:36", "quote": "You can see all the different tabs So welcome to revive is just the message."},
+        {"kind": "see", "at": "09:36", "frame": "t00576.jpg", "quote": "Left menu collapsed to icons; cursor on the 'Toggle menu' button. Profile list column headers at the right edge: Application status, Approval, Rationale, Comment."},
+        {"kind": "see", "at": "09:40", "frame": "t00580.jpg", "quote": "Left menu expanded: Welcome to Revibe, Video, Profile, Open applications, Processed applications, Leads, About, App Gallery; cursor on 'Video'."},
+        {"kind": "say", "at": "09:40", "quote": "The video is the introduction video you have at the beginning In profile, you can see all the"}
+      ]
+    },
+    {
+      "at": "09:43-09:54",
+      "screen": "Revibe Seller Onboarding App > Profile",
+      "action": "Explains the Profile tab filter groups and what each one holds.",
+      "says": "the ones that have been either accepted or rejected at the stage of the onboarding app {missing?} data",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "09:46", "quote": "sellers that try to register or that are currently trying to register at revive {application?} closed are for"},
+        {"kind": "say", "at": "09:54", "quote": "the ones that have been either accepted or rejected at the stage of the onboarding app {missing?} data"},
+        {"kind": "see", "at": "09:43", "frame": "t00583.jpg", "quote": "Profile sidebar: All; Application closed 346; Missing data 52; Under review 25; Application incom... 3. List shows an 'Incomplete 52' group with Application status 'Missing data', Approval 'Incomplete', and Rationale values such as 'Adress and location', 'Tax registration certificate', 'Phone number, Adress and location' (Rationale column cut off at the right edge)."}
+      ]
+    },
+    {
+      "at": "10:00-10:02",
+      "screen": "Profile tab, Missing data group, then Under review group",
+      "action": "Shows the Missing data group and then the Under review group.",
+      "says": "for the ones missing data and the review for the ones that we need to treat and application",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "10:00", "frame": "t00600.jpg", "quote": "Faded transition after the Profile menu click; the list behind the fade is hard to read."},
+        {"kind": "say", "at": "10:02", "quote": "for the ones missing data and the review for the ones that we need to treat and application"},
+        {"kind": "see", "at": "10:02", "frame": "t00602.jpg", "quote": "Under review group 25: blank 3 rows, then 'Final review' 22 rows with Application status 'Under review'."}
+      ]
+    },
+    {
+      "at": "10:06-10:07",
+      "screen": "Profile tab, Application incomplete group",
+      "action": "Opens the Application incomplete group.",
+      "says": "incomplete for the ones who started onboarding but that did not go until the last stage let me",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "10:07", "quote": "incomplete for the ones who started onboarding but that did not go until the last stage let me"},
+        {"kind": "see", "at": "10:06", "frame": "t00606.jpg", "quote": "Application incomplete group: 3 rows, Application status 'Application incomplete', Approval 'Final review'."}
+      ]
+    },
+    {
+      "at": "10:16-10:33",
+      "screen": "Revibe Seller Onboarding App > Leads",
+      "action": "Introduces Leads and the Units Sold ranking idea.",
+      "says": "can spot them and we can rank them by number of monthly sales they pretend to have so",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "10:16", "quote": "also talk to you about the leads the leads are here to spot all the sellers that initially"},
+        {"kind": "say", "at": "10:24", "quote": "completed the form on the website but didn't complete anything on the onboarding app {in?} this case we"},
+        {"kind": "say", "at": "10:33", "quote": "can spot them and we can rank them by number of monthly sales they pretend to have so"},
+        {"kind": "see", "at": "10:17", "frame": "t00617.jpg", "quote": "Leads page: groups by country (Hong Kong 6, Philippines 2, Saudi Arabia 254, South Africa 202, United Arab Emirates 402); To call 524. Columns: Days since last update, First name, Last name, Email, Phone, Country, Business Name, Units Sold, Contact status, Stage, Not completed initially reason."}
+      ]
+    },
+    {
+      "at": "10:37-10:42",
+      "screen": "Leads, United Arab Emirates group expanded",
+      "action": "Expands the UAE group to show the Units Sold brackets, then expands the +10 000 bracket.",
+      "says": "all the ones that I'm that mentioned this for instance we can see them and the goal then",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "10:41", "quote": "all the ones that I'm that mentioned this for instance we can see them and the goal then"},
+        {"kind": "see", "at": "10:37", "frame": "t00637.jpg", "quote": "UAE sub-groups: 500 - 1 000 (95), 100 - 500 (150), 10 000+ (11), 5 000 - 10 000 (30), 2 500 - 5 000 (47), 1 000 - 2 500 (54), +10 000 (7), (empty) 8."},
+        {"kind": "see", "at": "10:42", "frame": "t00642.jpg", "quote": "'+10 000' expanded: 'Sent to app' 1, 'Cancelled' 6."}
+      ]
+    },
+    {
+      "at": "10:49-11:14",
+      "screen": "Leads list, +10 000 bracket (Sent to app and Cancelled leads)",
+      "action": "Describes the call script for a lead and the two outcomes depending on interest.",
+      "says": "cancelled {some?} will be sent to the app by just clicking on it like this {making?} a call",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "10:49", "quote": "is to call them and to tell them {hey?} I've seen you wanted to start registering on {the?}"},
+        {"kind": "say", "at": "10:56", "quote": "revive but you didn't go through the last stage of the application are you still interested yes let"},
+        {"kind": "see", "at": "11:02", "frame": "t00662.jpg", "quote": "Leads list: To call 2; Called (1) 1; Answered 4 (Contact status column). Stage column shows 'Cancelled' (red) and 'Sent to app' (green) values."},
+        {"kind": "say", "at": "11:03", "quote": "me send you a link to get onboarded with us and if they are not still interested let's"},
+        {"kind": "say", "at": "11:09", "quote": "try to understand why and let's try to convince them and then based on this some will be"},
+        {"kind": "say", "at": "11:14", "quote": "cancelled {some?} will be sent to the app by just clicking on it like this {making?} a call"}
+      ]
+    },
+    {
+      "at": "11:15-11:21",
+      "screen": "Leads, lead record side panel",
+      "action": "Opens a lead record and reads its comment history, which shows dated entries.",
+      "says": "every time you make a call you need to mention it and then just you can just edit",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "11:15", "frame": "t00675.jpg", "quote": "Leads list with UAE +10 000 sub-groups visible."},
+        {"kind": "see", "at": "11:18", "frame": "t00678.jpg", "quote": "Lead record panel 'ahmed': Contact status 'Answered'; Stage 'Sent to app'; Not completed initially reason 'Other'; Comment: '11/11 - Supplier filled the form', '06/11 - Cancelled / Sp has no VAT certificate', '05/11 - Called no answer / Send whatsapp reminder', '03/11 - Called / send form VIA WhatsApp / supplier will follow'; Updated by marwan.ahmed@revibe.me; Days since last update 331."},
+        {"kind": "say", "at": "11:21", "quote": "every time you make a call you need to mention it and then just you can just edit"}
+      ]
+    },
+    {
+      "at": "11:26-11:28",
+      "screen": "Lead record: Edit form",
+      "action": "Clicks Edit, then opens the Stage dropdown.",
+      "says": "and put the stage created will be the initial stage and then contacted is like when you try",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "11:26", "frame": "t00686.jpg", "quote": "Cursor on the 'Edit' button in the lead panel header."},
+        {"kind": "see", "at": "11:27", "frame": "t00687.jpg", "quote": "Stage dropdown open: Created (icon), Contacted (phone icon), Sent to app (green tick), Cancelled (red cross)."},
+        {"kind": "say", "at": "11:28", "quote": "and put the stage created will be the initial stage and then contacted is like when you try"}
+      ]
+    },
+    {
+      "at": "11:35-11:44",
+      "screen": "Lead record: Stage and Comment fields",
+      "action": "Explains that a lead ends as Cancelled or Sent to app, then cites an example record.",
+      "says": "canceled or sent to app {so?} for instance this one we can see that Marwan Ahmed on the",
+      "why": "",
+      "evidence": [
+        {"kind": "say", "at": "11:35", "quote": "to reach out to him and once you actually manage to reach out to the seller it's either"},
+        {"kind": "say", "at": "11:41", "quote": "canceled or sent to app {so?} for instance this one we can see that Marwan Ahmed on the"},
+        {"kind": "see", "at": "11:41", "frame": "t00701.jpg", "quote": "Stage 'Sent to app' in the lead form; Not completed initially reason 'Other'; cursor near the Close button."},
+        {"kind": "say", "at": "11:48", "quote": "11th of November had the guy on the phone he tried many days before you see like he"}
+      ]
+    },
+    {
+      "at": "11:44-11:48",
+      "screen": "Lead side panel, transition to the edit form",
+      "action": "Shows the lead panel mid-transition as it slides across the screen. No new content.",
+      "says": "",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "11:44", "frame": "t00704.jpg", "quote": "Lead panel 'ahmed' partly off-screen to the right, showing Email, ID, Contact status 'Answered', Stage 'Sent to app', Not completed initially reason 'Other' and Comment fields; no Cancel or Save visible in this frame."}
+      ]
+    },
+    {
+      "at": "11:51-11:56",
+      "screen": "Lead record: Edit form, Comment field",
+      "action": "Reads the example comment entries aloud.",
+      "says": "called no answer no answer supplier has no VRT certificate and on the 11th of November he called",
+      "why": "",
+      "evidence": [
+        {"kind": "see", "at": "11:51", "frame": "t00711.jpg", "quote": "Lead edit form: Email (required), ID (required, greyed), Contact status 'Answered', Stage 'Sent to app', Not completed initially reason 'Other', Comment box with the four dated entries; Cancel and Save buttons at top right."},
+        {"kind": "see", "at": "11:53", "frame": "t00713.jpg", "quote": "Same edit form; Comment box shows the four dated entries (11/11, 06/11, 05/11, 03/11)."},
+        {"kind": "say", "at": "11:56", "quote": "called no answer no answer supplier has no VRT certificate and on the 11th of November he called"}
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "type": "rule",
+      "statement": "According to the trainer, a seller's Approval can be accepted, rejected or incomplete when something is missing from the application. On screen in this segment, the Approval field shows only 'Final review' and 'Incomplete'.",
+      "evidence": [
+        {"kind": "say", "at": "07:16", "quote": "So like the seller can be either accepted, rejected, or incomplete if something is missing from its application"},
+        {"kind": "see", "at": "07:08", "frame": "t00428.jpg", "quote": "Approval field shows 'Final review' typed in."},
+        {"kind": "see", "at": "07:19", "frame": "t00439.jpg", "quote": "Approval dropdown shows 'Incomplete' selected."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "When Approval is set to Incomplete, the seller's Application status changes to 'Missing data' and a Rationale field appears where the missing element(s) are chosen.",
+      "evidence": [
+        {"kind": "see", "at": "07:19", "frame": "t00439.jpg", "quote": "Application status 'Missing data' with orange icon; Rationale field with '+' button under Approval 'Incomplete'."},
+        {"kind": "say", "at": "07:22", "quote": "{if?} anything is missing we can put the element that we are looking for a comment we can"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The Rationale options for a missing application element are: First / Last name, Email, Phone number, Company name, Country, and 'Adress and location' (the spelling shown in the app). Several can be selected, as the dropdown uses checkboxes.",
+      "evidence": [
+        {"kind": "see", "at": "07:24", "frame": "t00444.jpg", "quote": "Rationale dropdown list: Select all; First / Last name; Email; Phone number; Company name; Country; Adress and location, each with a checkbox."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The seller side panel offers a Comment field, a Proof attachment upload, and an Internal comment field for the incomplete case.",
+      "evidence": [
+        {"kind": "see", "at": "07:28", "frame": "t00448.jpg", "quote": "Comment text box, Proof attachment box with PDF icon, and Internal comment text box below Rationale."},
+        {"kind": "say", "at": "07:29", "quote": "also put a proof and an internal command if needed whenever you need to put an income an"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The trainer says internal comments start with the date, then the month, then the message. No example of this format is shown on the admin panel.",
+      "evidence": [
+        {"kind": "say", "at": "07:36", "quote": "internal comment please first put the date then the month and then put your message"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Inbound is step 1 of the sellers' journey and Outbound is step 2, when the team reaches out to sellers. The trainer says the first two parts covered in this segment were inbound and the seller view.",
+      "evidence": [
+        {"kind": "say", "at": "07:43", "quote": "So here we saw the first two parts, we saw the inbound and the seller view."},
+        {"kind": "say", "at": "07:52", "quote": "Outbound is when we try to reach out to sellers."},
+        {"kind": "see", "at": "09:27", "frame": "t00567.jpg", "quote": "PDF 'Sellers journey' page 6 of 12: 1. Inbound, 2. Outbound, 3. Seller view, 4. Admin view."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The sellers' journey slide lists four steps: 1. Inbound, 2. Outbound, 3. Seller view, 4. Admin view. The Onboarding App box lists Legal clearance, Revibe terms and conditions, and Quality guidelines.",
+      "evidence": [
+        {"kind": "see", "at": "09:27", "frame": "t00567.jpg", "quote": "Onboarding App box: Legal clearance, Revibe terms and conditions, Quality guidelines; numbered items 1. Inbound, 2. Outbound, 3. Seller view, 4. Admin view."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "The seller view shows the quality guidelines description: 'Here are our quality guidelines. It outlines the standards we expect for your first shipment to our warehouse, as well as for future shipments sent directly to customers.'",
+      "evidence": [
+        {"kind": "see", "at": "07:43", "frame": "t00463.jpg", "quote": "Quality guidelines description text: 'Here are our quality guidelines' / 'It outlines the standards we expect for your first shipment to our warehouse, as well as for future shipments sent directly to customers.'"}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The seller view lists these items: Have you read the quality guidelines (Yes), seller agreement upload, DHL account (Yes/No), tax registration certificate, trading license and number, ID, position in the company, bank details, Documentation status, Uploads status, and Application status.",
+      "evidence": [
+        {"kind": "see", "at": "07:43", "frame": "t00463.jpg", "quote": "Fields: Have you read the quality guidelines? Yes; Please upload here the seller agreement once signed; Do you have a DHL account? No; Tax registration certificate; Trading license; Trading license number 12345; ID; What is your position in the company?; Bank details; Documentation status Complete; Uploads status Complete; Application status Under review."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Application closed is the group of sellers who were either accepted or rejected at the onboarding app stage.",
+      "evidence": [
+        {"kind": "say", "at": "09:54", "quote": "the ones that have been either accepted or rejected at the stage of the onboarding app {missing?} data"},
+        {"kind": "see", "at": "09:43", "frame": "t00583.jpg", "quote": "Sidebar group 'Application closed' with count 346."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Missing data is the group of sellers whose application is missing data (Approval Incomplete).",
+      "evidence": [
+        {"kind": "say", "at": "10:02", "quote": "for the ones missing data and the review for the ones that we need to treat and application"},
+        {"kind": "see", "at": "09:43", "frame": "t00583.jpg", "quote": "Missing data group rows: Application status 'Missing data'; Approval 'Incomplete'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Under review is the group the trainer describes as the review for the sellers the KAM needs to treat. On screen it holds the blank rows plus the 'Final review' rows.",
+      "evidence": [
+        {"kind": "say", "at": "10:02", "quote": "the review for the ones that we need to treat and application"},
+        {"kind": "see", "at": "10:02", "frame": "t00602.jpg", "quote": "'Under review' group count 25: blank 3, 'Final review' 22."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Application incomplete is the group of sellers who started onboarding but did not get to the last stage.",
+      "evidence": [
+        {"kind": "say", "at": "10:07", "quote": "incomplete for the ones who started onboarding but that did not go until the last stage let me"},
+        {"kind": "see", "at": "10:06", "frame": "t00606.jpg", "quote": "'Application incomplete' group count 3; Application status 'Application incomplete'."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Counts visible in the Profile sidebar at recording time: Application closed 346, Missing data 52, Under review 25, Application incomplete 3, and blank 3 within Under review. These are a snapshot, not live figures.",
+      "evidence": [
+        {"kind": "see", "at": "09:43", "frame": "t00583.jpg", "quote": "Application closed 346; Missing data 52; Under review 25; Application incom... 3."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The Profile list columns are: Since last update, Name, Company name, Email, Phone, Country, Application status, Approval, Rationale, Comment.",
+      "evidence": [
+        {"kind": "see", "at": "09:36", "frame": "t00576.jpg", "quote": "Profile list column headers at the right edge: Application status, Approval, Rationale, Comment."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "The trainer says the Onboarding Plan sheet lists more than 300 sellers across the UAE. The Country column on screen shows KSA as well as UAE.",
+      "evidence": [
+        {"kind": "say", "at": "07:55", "quote": "For this, we created this sheet onboarding plan where we listed more than 300 sellers across the UAE."},
+        {"kind": "see", "at": "08:00", "frame": "t00480.jpg", "quote": "Country column values include UAE and KSA."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Each seller on the Onboarding Plan sheet has an account manager (Owner column) who is in charge of recruiting that seller. Owner values on screen include Marwan, Yahia and Pepe.",
+      "evidence": [
+        {"kind": "say", "at": "08:07", "quote": "For each of them, we have an account manager in charge of recruiting the seller."},
+        {"kind": "see", "at": "08:03", "frame": "t00483.jpg", "quote": "Owner column values: Marwan, Yahia, Pepe."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The Onboarding Plan sheet holds these seller data columns: Batch, Supplier, Owner, Revibe name, Legal name, Marketplace / Source (for example Noon, Amazon, Cartlow, Market), Country, Location, URL, Email, Phone, Contact name, Rating, Number of Reviews, Customers, Categories, Notes.",
+      "evidence": [
+        {"kind": "see", "at": "08:00", "frame": "t00480.jpg", "quote": "Column headers: Batch, Supplier, Owner, Revibe name, Legal name, Marketplace / Source, Country, Location, URL, Email, Phone, Contact name, Rating, Number of Reviews, Customers, Categories."},
+        {"kind": "see", "at": "08:26", "frame": "t00506.jpg", "quote": "Notes column present on the right of Categories."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The Onboarding Plan sheet tracks each seller with: Contacted, Answer, To visit (Yes/No values), Onboarding App (Yes/No), if yes - Stage, if no - Rationale, Priority (stars), Comments & Notes, App Notes, Total.",
+      "evidence": [
+        {"kind": "see", "at": "08:31", "frame": "t00511.jpg", "quote": "Headers: Contacted, Answer, To visit, Onboarding App, if yes - Stage, if no - Rationale, Priority, Comments & Notes, App Notes, Total."},
+        {"kind": "say", "at": "08:31", "quote": "We can also mention if we contacted him, if he answered, if we want to visit him {if?}"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The trainer says the if-yes Stage (Onboarding App = Yes) is automatic and reflects the seller's current stage in the onboarding app, so it is not typed by the KAM.",
+      "evidence": [
+        {"kind": "say", "at": "08:38", "quote": "he got registered through the onboarding app {if?} yes what is his current stage this is automatic and"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Values seen in the if-yes Stage column: Accepted - Onboarded, Accepted - Rejected, Pending, Rejected.",
+      "evidence": [
+        {"kind": "see", "at": "08:31", "frame": "t00511.jpg", "quote": "if yes - Stage values include 'Accepted - Onboarded', 'Accepted - Rejected', 'Pending' and 'Rejected'."}
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "When a seller is not on the onboarding app (if-no), the KAM picks a Rationale from: No interest, No answer, Pending, No contact, No documents, Already seller, Do not contact, Rejected.",
+      "evidence": [
+        {"kind": "see", "at": "08:47", "frame": "t00527.jpg", "quote": "Rationale dropdown: No interest, No answer, Pending, No contact, No documents, Already seller, Do not contact, Rejected."},
+        {"kind": "say", "at": "08:44", "quote": "if no what is the {rational?} because he's already a seller because has been rejected he has no"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Implied: a seller who is already a seller or who has been rejected is recorded with the if-no Rationale 'Already seller' or 'Rejected' respectively. The narration gives the reasons, not the labels.",
+      "evidence": [
+        {"kind": "say", "at": "08:44", "quote": "if no what is the {rational?} because he's already a seller because has been rejected he has no"},
+        {"kind": "see", "at": "08:47", "frame": "t00527.jpg", "quote": "Rationale dropdown options include 'Already seller' and 'Rejected'."}
+      ],
+      "confidence": "low",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "When a seller from the onboarding plan is recruited, send them the onboarding app link so they register properly, as all other sellers do.",
+      "evidence": [
+        {"kind": "say", "at": "09:00", "quote": "{but?} just retain that if you manage from this list to recruit a seller {you?} can then send"},
+        {"kind": "say", "at": "09:07", "quote": "him the link of the onboarding app so that he can register properly as all the other ones"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Leads are sellers who completed the form on the website but did not complete anything on the onboarding app.",
+      "evidence": [
+        {"kind": "say", "at": "10:24", "quote": "completed the form on the website but didn't complete anything on the onboarding app {in?} this case we"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "The trainer says leads can be ranked by the number of sales the seller claims. The Leads list has a 'Units Sold' column (the wording monthly versus units is unclear, see unclear list).",
+      "evidence": [
+        {"kind": "say", "at": "10:33", "quote": "can spot them and we can rank them by number of monthly sales they pretend to have so"},
+        {"kind": "see", "at": "10:17", "frame": "t00617.jpg", "quote": "Leads column header 'Units Sold'."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Units Sold brackets shown in the Leads groups: 100 - 500, 500 - 1 000, 1 000 - 2 500, 2 500 - 5 000, 5 000 - 10 000, 10 000+, +10 000, and (empty).",
+      "evidence": [
+        {"kind": "see", "at": "10:37", "frame": "t00637.jpg", "quote": "UAE sub-groups: 500 - 1 000 (95), 100 - 500 (150), 10 000+ (11), 5 000 - 10 000 (30), 2 500 - 5 000 (47), 1 000 - 2 500 (54), +10 000 (7), (empty) (8)."}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Leads list columns: Days since last update, First name, Last name, Email, Phone, Country, Business Name, Units Sold, Contact status, Stage, Not completed initially reason.",
+      "evidence": [
+        {"kind": "see", "at": "10:17", "frame": "t00617.jpg", "quote": "Column headers: Days since last update, First name, Last name, Email, Phone, Country, Business Name, Units Sold, Contact status, Stage, Not c..."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "Lead Stage values are: Created (initial stage), Contacted, Sent to app, Cancelled.",
+      "evidence": [
+        {"kind": "see", "at": "11:27", "frame": "t00687.jpg", "quote": "Stage dropdown: Created, Contacted, Sent to app, Cancelled."},
+        {"kind": "say", "at": "11:28", "quote": "and put the stage created will be the initial stage and then contacted is like when you try"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Contact status values seen on leads: To call, Called (1), Answered.",
+      "evidence": [
+        {"kind": "see", "at": "11:02", "frame": "t00662.jpg", "quote": "Group headers: To call 2; Called (1) 1; Answered 4. Contact status column shows 'To call', 'Called (1)', 'Answered'."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Lead stage flow: a new lead starts as Created; once the KAM manages to reach the seller it is set to Contacted; the lead then ends as Cancelled or Sent to app.",
+      "evidence": [
+        {"kind": "say", "at": "11:28", "quote": "and put the stage created will be the initial stage and then contacted is like when you try"},
+        {"kind": "say", "at": "11:35", "quote": "to reach out to him and once you actually manage to reach out to the seller it's either"},
+        {"kind": "say", "at": "11:41", "quote": "canceled or sent to app {so?} for instance this one we can see that Marwan Ahmed on the"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "Call script for a lead who did not finish: tell them they wanted to start registering but did not complete the last stage of the application, and ask whether they are still interested.",
+      "evidence": [
+        {"kind": "say", "at": "10:49", "quote": "is to call them and to tell them {hey?} I've seen you wanted to start registering on {the?}"},
+        {"kind": "say", "at": "10:56", "quote": "revive but you didn't go through the last stage of the application are you still interested yes let"}
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "If the lead is still interested, the KAM sends the onboarding app link and sets the stage to Sent to app. The trainer says that the others are cancelled or sent to the app by clicking on the stage. Implied: leads who stay uninterested are set to Cancelled.",
+      "evidence": [
+        {"kind": "say", "at": "11:03", "quote": "me send you a link to get onboarded with us and if they are not still interested let's"},
+        {"kind": "say", "at": "11:09", "quote": "try to understand why and let's try to convince them and then based on this some will be"},
+        {"kind": "say", "at": "11:14", "quote": "cancelled {some?} will be sent to the app by just clicking on it like this {making?} a call"}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The trainer says every call must be mentioned, but does not name the field. On screen, the lead Comment field holds dated entries such as '11/11 - Supplier filled the form', with the newest entry at the top.",
+      "evidence": [
+        {"kind": "say", "at": "11:21", "quote": "every time you make a call you need to mention it and then just you can just edit"},
+        {"kind": "see", "at": "11:18", "frame": "t00678.jpg", "quote": "Comment lines: 11/11 - Supplier filled the form; 06/11 - Cancelled / Sp has no VAT certificate; 05/11 - Called no answer / Send whatsapp reminder; 03/11 - Called / send form VIA WhatsApp / supplier will follow."}
+      ],
+      "confidence": "medium",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The lead edit form has Email (required), ID (required, read-only), Contact status, Stage, Not completed initially reason and Comment fields, with Cancel and Save buttons at the top right. Edit is opened from the Edit button in the lead panel header.",
+      "evidence": [
+        {"kind": "see", "at": "11:26", "frame": "t00686.jpg", "quote": "Edit button at the top of the lead panel."},
+        {"kind": "see", "at": "11:51", "frame": "t00711.jpg", "quote": "Edit form fields: Email*, ID*, Contact status, Stage, Not completed initially reason, Comment; Cancel and Save buttons at top right."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "warning",
+      "statement": "A lead's Not completed initially reason is shown as 'Other' in the example record; the list of reasons is not shown on screen.",
+      "evidence": [
+        {"kind": "see", "at": "11:18", "frame": "t00678.jpg", "quote": "Not completed initially reason: Other."}
+      ],
+      "confidence": "low",
+      "quiz": false
+    },
+    {
+      "type": "tip",
+      "statement": "Implied: KAMs may also find sellers themselves on marketplaces such as noon or Amazon and reach out directly to recruit them.",
+      "evidence": [
+        {"kind": "say", "at": "09:14", "quote": "{CAMS?} can also buy their own decide to go on {noon?} or amazon or whatever other platform"},
+        {"kind": "say", "at": "09:22", "quote": "and reach out by themselves to sellers and try to recruit them now let's go back {To?} the"}
+      ],
+      "confidence": "low",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "The Google Sheet tab bar lists: Dashboard, Profile, Welcome, Users, Video, Leads, Onboarding Dashboard, Onboarding Plan, Marwan mission, Sherin Onboarding, Momen Onboarding, Samaa Onboarding, claims handling, Ops Plan, Adding sellers, and Leads external to (cut off at the edge).",
+      "evidence": [
+        {"kind": "see", "at": "07:58", "frame": "t00478.jpg", "quote": "Bottom tab bar: Dashboard, Profile, Welcome, Users, Video, Leads, Onboarding Dashboard, Onboarding Plan, Marwan mission, Sherin Onboarding, Momen Onboarding, Samaa Onboarding, claims handling, Ops Plan, Adding sellers, Leads external to."}
+      ],
+      "confidence": "high",
+      "quiz": false
+    }
+  ],
+  "screens": [
+    {
+      "name": "Revibe Seller Onboarding App > Profile (admin view)",
+      "shows": "Side panel for 'Pierre' with Approval, Rationale, Comment, Proof attachment, Internal comment and Save. Left menu collapsed (t00576) and expanded (t00580: Welcome to Revibe, Video, Profile, Open applications, Processed applications, Leads, About, App Gallery). Profile sidebar groups with counts (Application closed 346, Missing data 52, Under review 25, Application incomplete 3). List columns: Since last update, Name, Company name, Email, Phone, Country, Application status, Approval, Rationale, Comment.",
+      "at": "07:05-07:28 (side panel); 09:36-10:07 (menu and Profile lists)",
+      "frames": ["t00425.jpg", "t00428.jpg", "t00433.jpg", "t00439.jpg", "t00444.jpg", "t00448.jpg", "t00576.jpg", "t00580.jpg", "t00583.jpg", "t00600.jpg", "t00602.jpg", "t00606.jpg"]
+    },
+    {
+      "name": "Seller view (seller's own submitted application)",
+      "shows": "Quality guidelines text, seller agreement upload, DHL account question, tax registration, trading license and number, ID, position in company, bank details, Documentation status, Uploads status, Application status.",
+      "at": "07:43-07:47",
+      "frames": ["t00463.jpg", "t00467.jpg"]
+    },
+    {
+      "name": "Google Sheet 'Seller Onboarding App' tab 'Profile'",
+      "shows": "Seller master list columns: ID, First name, Last name, Email, Phone, Company name, Country, Emirate, Address for pick ups, Google map location for pick ups, What kind of products you sell, Are you a wholesaler (B2B). Tab bar listed in the fact above.",
+      "at": "07:58",
+      "frames": ["t00478.jpg"]
+    },
+    {
+      "name": "Google Sheet 'Seller Onboarding App' tab 'Onboarding Plan'",
+      "shows": "Outbound recruiting list. Columns: Batch, Supplier, Owner, Revibe name, Legal name, Marketplace / Source, Country, Location, URL, Email, Phone, Contact name, Rating, Number of Reviews, Customers, Categories, Notes, Contacted, Answer, To visit, Onboarding App, if yes - Stage, if no - Rationale, Priority, Comments & Notes, App Notes, Total. Filter icons on the column headers.",
+      "at": "08:00-09:20",
+      "frames": ["t00480.jpg", "t00483.jpg", "t00488.jpg", "t00503.jpg", "t00506.jpg", "t00511.jpg", "t00527.jpg", "t00530.jpg", "t00540.jpg", "t00560.jpg"]
+    },
+    {
+      "name": "PDF 'Sellers journey.pdf' (page 6 of 12)",
+      "shows": "Four-step journey: 1. Inbound, 2. Outbound, 3. Seller view, 4. Admin view. Onboarding App box: Legal clearance, Revibe terms and conditions, Quality guidelines.",
+      "at": "09:27-09:33",
+      "frames": ["t00567.jpg", "t00572.jpg"]
+    },
+    {
+      "name": "Revibe Seller Onboarding App > Leads",
+      "shows": "Leads grouped by country (Hong Kong 6, Philippines 2, Saudi Arabia 254, South Africa 202, United Arab Emirates 402), then by Units Sold bracket. Columns: Days since last update, First name, Last name, Email, Phone, Country, Business Name, Units Sold, Contact status, Stage, Not completed initially reason.",
+      "at": "10:17-11:02",
+      "frames": ["t00617.jpg", "t00637.jpg", "t00642.jpg", "t00662.jpg", "t00675.jpg"]
+    },
+    {
+      "name": "Revibe Seller Onboarding App > Leads > lead side panel and edit form",
+      "shows": "Lead panel with Edit button; edit form with Email, ID, Contact status, Stage dropdown (Created, Contacted, Sent to app, Cancelled), Not completed initially reason, Comment box with dated entries, and Cancel and Save buttons at the top right.",
+      "at": "11:15-11:56",
+      "frames": ["t00678.jpg", "t00686.jpg", "t00687.jpg", "t00701.jpg", "t00704.jpg", "t00711.jpg", "t00713.jpg"]
+    }
+  ],
+  "terms": [
+    {"term": "Onboarding App", "meaning": "The Revibe Seller Onboarding App (appsheet.com) where sellers register and where the admin view tracks them. Screen title reads 'Revibe - Seller Onboarding App'.", "at": "09:30-09:36"},
+    {"term": "Inbound", "meaning": "Step 1 of the sellers' journey, as listed on the Sellers journey slide.", "at": "07:43"},
+    {"term": "Outbound", "meaning": "Step 2 of the sellers' journey: when the team tries to reach out to sellers.", "at": "07:52"},
+    {"term": "Seller view", "meaning": "Step 3: the seller's own view of the application (quality guidelines, documents, bank details).", "at": "07:43"},
+    {"term": "Admin view", "meaning": "Step 4 of the sellers' journey: the admin view of the app, which the trainer shows from 09:30 and which is used to process seller applications.", "at": "09:33"},
+    {"term": "Onboarding Plan", "meaning": "Google Sheet tab listing outbound sellers (more than 300 across the UAE per narration), with an Owner (account manager) per seller.", "at": "07:55-08:07"},
+    {"term": "Approval", "meaning": "Admin field for the decision on an application (screen shows Final review and Incomplete).", "at": "07:05-07:19"},
+    {"term": "Application status", "meaning": "Status of a seller's application, for example Under review, Missing data, Application incomplete.", "at": "07:05-07:19"},
+    {"term": "Rationale", "meaning": "Admin field listing the missing elements (when Approval is Incomplete) or, on the Onboarding Plan sheet, the if-no reason for a seller not on the onboarding app.", "at": "07:22-08:44"},
+    {"term": "Application closed", "meaning": "Sellers accepted or rejected at the onboarding app stage.", "at": "09:46-09:54"},
+    {"term": "Missing data", "meaning": "Sellers whose application is missing data (Approval Incomplete).", "at": "09:54-10:02"},
+    {"term": "Under review", "meaning": "Group the trainer describes as the sellers the KAM needs to treat; on screen it includes blank and Final review rows.", "at": "10:02"},
+    {"term": "Application incomplete", "meaning": "Sellers who started onboarding but did not get to the last stage.", "at": "10:07"},
+    {"term": "Leads", "meaning": "Sellers who completed the website form but did not complete anything on the onboarding app.", "at": "10:16-10:24"},
+    {"term": "Contact status", "meaning": "Lead field showing the call state (To call, Called (1), Answered).", "at": "11:02"},
+    {"term": "Stage (lead)", "meaning": "Lead field: Created (initial), Contacted, Sent to app, Cancelled.", "at": "11:28-11:41"},
+    {"term": "Sent to app", "meaning": "Lead stage meaning the lead was sent the onboarding app link (set by clicking the stage).", "at": "11:14"},
+    {"term": "Cancelled", "meaning": "Lead stage for leads that are not interested after the KAM's attempt to convince them.", "at": "11:14-11:41"},
+    {"term": "Units Sold", "meaning": "Lead column with brackets of units sold claimed by the seller; used to rank leads.", "at": "10:33"},
+    {"term": "Not completed initially reason", "meaning": "Lead field giving why the form was not completed (example value: Other).", "at": "11:18"},
+    {"term": "Owner (account manager)", "meaning": "Staff member in charge of recruiting a given seller on the Onboarding Plan (values: Marwan, Yahia, Pepe).", "at": "08:07"},
+    {"term": "Priority", "meaning": "Onboarding Plan column shown as star marks. Its meaning is not explained in the video.", "at": "08:31"},
+    {"term": "Proof attachment", "meaning": "Upload field on the admin side panel for proof when needed.", "at": "07:28-07:29"},
+    {"term": "Internal comment", "meaning": "Admin-only comment field; the trainer says it is written with the date first, then the month, then the message.", "at": "07:36"},
+    {"term": "Quality guidelines", "meaning": "Standards for the first shipment to the Revibe warehouse and future shipments sent directly to customers, linked from the seller view.", "at": "07:43"}
+  ],
+  "asr_fixes": [
+    {"at": "09:36", "heard": "revive", "correct": "Revibe", "basis": "Screen header 'Revibe - Seller Onboarding App' (t00576.jpg) and 'Welcome to Revibe' menu item (t00580.jpg)."},
+    {"at": "09:46", "heard": "revive", "correct": "Revibe", "basis": "Screen header 'Revibe - Seller Onboarding App' (t00583.jpg)."},
+    {"at": "10:56", "heard": "revive", "correct": "Revibe", "basis": "Screen header 'Revibe - Seller Onboarding App' and lead business name 'Revibe' (t00662.jpg)."},
+    {"at": "07:29", "heard": "internal command", "correct": "internal comment", "basis": "Screen field label 'Internal comment' (t00448.jpg)."},
+    {"at": "08:44", "heard": "rational?", "correct": "Rationale", "basis": "Column label 'if no - Rationale' (t00511.jpg) and the Rationale dropdown (t00527.jpg)."},
+    {"at": "09:46", "heard": "{application?} closed", "correct": "Application closed", "basis": "Sidebar group 'Application closed' 346 (t00583.jpg)."},
+    {"at": "09:54", "heard": "{missing?} data", "correct": "Missing data", "basis": "Sidebar group 'Missing data' 52 (t00583.jpg) and status 'Missing data' (t00439.jpg)."},
+    {"at": "11:56", "heard": "VRT certificate", "correct": "VAT certificate", "basis": "Lead comment on screen: '06/11 - Cancelled / Sp has no VAT certificate' (t00678.jpg, t00713.jpg)."}
+  ],
+  "unclear": [
+    {"at": "07:08", "issue": "The narration says Final review is a stage the KAM no longer chooses, but the screen shows the trainer entering 'Final review' in Approval at 07:05-07:13 (t00428.jpg, t00433.jpg). Do not state Final review as a usable choice without confirmation."},
+    {"at": "07:16", "issue": "The narration says Approval can be accepted, rejected or incomplete. On screen only Final review and Incomplete appear in Approval during this segment; accepted and rejected are not shown."},
+    {"at": "07:55", "issue": "Narration says the onboarding plan lists more than 300 sellers across the UAE, but the Onboarding Plan rows show Country values KSA as well as UAE (t00480.jpg, t00488.jpg). Scope unclear."},
+    {"at": "09:14", "issue": "'{CAMS?} can also buy their own decide to go on {noon?} or amazon' is not clear; the role name is probably KAMs but this is not confirmed, and nothing on screen supports 'buy their own'."},
+    {"at": "10:33", "issue": "Narration says 'monthly sales they pretend to have', but the column is labelled 'Units Sold'. The wording (monthly vs units) cannot be confirmed."},
+    {"at": "10:37", "issue": "Two Units Sold brackets look alike on screen: '10 000+' (11) and '+10 000' (7). Whether they are the same bracket is unclear."},
+    {"at": "07:36", "issue": "The internal comment format 'date then the month then the message' is not shown as an example on the admin panel. The dated format on screen (11/11 - ...) is from the lead Comment field, so applying it to internal comments is not confirmed."},
+    {"at": "11:21", "issue": "'every time you make a call you need to mention it' does not say which field to use. The screen shows the lead Comment field with dated entries, but the narration does not name it."},
+    {"at": "09:40-09:46", "issue": "Narration says the Profile holds all sellers who are registering; the Application incomplete and Under review rows show different Approval values. How the Application status values are set automatically is not explained."},
+    {"at": "08:44", "issue": "Narration gives 'already a seller' and 'has been rejected' as examples for the if-no reason, but the mapping to Already seller / Rejected is inferred from the dropdown values."},
+    {"at": "07:24", "issue": "The Rationale field is multi-select with checkboxes, but the video does not say whether every missing element must be selected."},
+    {"at": "11:41", "issue": "Narration names the lead 'Marwan Ahmed', but the lead record on screen shows first name 'ahmed' with no last name (t00678.jpg, t00701.jpg). 'Marwan' appears on screen only in 'Updated by marwan.ahmed@revibe.me' (t00678.jpg). The name in the narration cannot be confirmed as the lead's."}
+  ],
+  "outdated": [
+    {"at": "07:08", "signal": "Narration says Final review is 'a stage that we don't choose anymore', so the Approval step described at 07:05-07:13 is outdated for KAMs."},
+    {"at": "11:18", "signal": "Example lead record shows 'Days since last update 331' and 'Created at 11/2/2025' (t00678.jpg), and comment dates run from 03/11 to 11/11; this is old example data, not current status."},
+    {"at": "09:43", "signal": "Sidebar counts (Application closed 346, Missing data 52, Under review 25, Application incomplete 3) and Leads counts (UAE 402, Saudi Arabia 254, South Africa 202) are a snapshot from the recording and will change."}
+  ],
+  "privacy": [
+    {"at": "07:05-07:56", "frame": "t00425.jpg, t00428.jpg, t00463.jpg, t00467.jpg, t00476.jpg", "what": "Seller and staff data visible: the 'Pierre' record shows the email pierre@revibe.me, a phone number, company PEPE trading LLC and document filenames (for example 02f28922.Emirates ID.114645.html). The Profile list behind the panel (t00425) shows many sellers' names, company names, emails and phone numbers."},
+    {"at": "07:58-09:20", "frame": "t00478.jpg, t00480.jpg, t00483.jpg, t00488.jpg, t00503.jpg, t00506.jpg, t00540.jpg, t00560.jpg", "what": "Onboarding Plan shows supplier contact names (for example Zahid, Liu, Dasun), emails, phone numbers, business URLs, and Legal name and Location columns. The Profile tab (t00478) shows Address for pick ups and Google map locations."},
+    {"at": "09:43-10:07", "frame": "t00583.jpg, t00600.jpg, t00602.jpg, t00606.jpg", "what": "Profile list shows many sellers' full names, company names, email addresses and phone numbers, including sellers in Missing data and Application incomplete."},
+    {"at": "10:17-11:02", "frame": "t00617.jpg, t00637.jpg, t00642.jpg, t00662.jpg", "what": "Leads list shows lead names, email addresses, phone numbers and business names, including real leads with contact status and stage."},
+    {"at": "11:15-11:56", "frame": "t00678.jpg, t00686.jpg, t00701.jpg, t00711.jpg, t00713.jpg", "what": "A lead record shows a named person's email, phone number, business name and a trade license link, plus the comment history with supplier details. The 'Updated by' field shows the staff email marwan.ahmed@revibe.me."},
+    {"at": "10:42-11:02", "frame": "t00642.jpg, t00662.jpg", "what": "Two lead records under Pierre Villaceque: business 'Revibe' (email iam.pepemanagement) and business 'Revibe TEST' (email pierre.villaceque@gmail.com, phone 966544637092). These look internal or test, but the Gmail address and phone number are personal-looking data."}
+  ],
+  "audit": {
+    "checked": 123,
+    "removed": [
+      {"statement": "Step 07:58-08:03: 'filters the list'", "reason": "No filter is applied on screen; only filter icons are visible (t00480.jpg)."},
+      {"statement": "Missing data is the group of sellers ... which the KAM needs to follow up", "reason": "The narration at 10:02 does not say this; the phrase was removed."},
+      {"statement": "Inbound is ... covered by the seller view", "reason": "The narration only says the first two parts covered were inbound and the seller view."}
+    ],
+    "corrected": [
+      {"before": "Step 07:05: 'Opens the seller record and points at the Approval field, then selects Final review'", "after": "'Has the side panel for seller Pierre open and types Final review into the Approval field.'", "reason": "t00425 already shows the panel open; t00428 shows the text typed in, not a dropdown pick."},
+      {"before": "Step 07:52-07:55 cites t00476 for the Google Sheet Profile tab", "after": "t00476 shows the seller view with the cursor on the Google Sheet browser tab; the Profile tab is t00478.", "reason": "Frame t00476 has no Google Sheet content."},
+      {"before": "Step 07:58-08:03 cites t00478 as 'Onboarding Plan tab active' and t00480 as 'Cell D7 selected'", "after": "t00478 shows the Profile tab with the cursor on the Onboarding Plan tab; t00480 shows the Onboarding Plan tab active with no cell selected; cell D7 is selected in t00483.", "reason": "Frame mapping error."},
+      {"before": "Step 09:36-09:40 cites t00576 for the left menu labels Welcome to Revibe, Video, Profile, Open applications, Processed applications, Leads, About, App Gallery", "after": "t00576 shows the collapsed menu; the labels are in t00580.", "reason": "The labels are not legible in t00576."},
+      {"before": "Screen 'Profile (admin view)' and fact on Profile columns cite t00583 for the Comment column", "after": "The Comment column is visible at the right edge of t00576; t00583 is cut off after Rationale.", "reason": "Column citation moved to the frame that shows it."},
+      {"before": "Screen 'Google Sheet Profile tab' lists frame t00476", "after": "Frame t00478.", "reason": "t00476 shows the seller view."},
+      {"before": "Screen 'Onboarding Plan' lists frame t00478", "after": "t00478 removed from this screen; it shows the Profile tab.", "reason": "Wrong tab."},
+      {"before": "Step 10:00-10:02 says t00600 shows the Missing data list (rows with Rationale values)", "after": "t00600 is a faded transition frame; the readable Missing data rows and Rationale values are in t00583.", "reason": "t00600 is too faded to read the rows."},
+      {"before": "Fact 'Inbound ... is covered by the seller view'", "after": "Inbound is step 1, Outbound step 2, and the trainer says the first two parts covered were inbound and the seller view.", "reason": "The narration does not say inbound is covered by the seller view."},
+      {"before": "Fact 'A seller's Approval can be set to accepted, rejected or incomplete.'", "after": "According to the trainer, Approval can be accepted, rejected or incomplete; on screen only Final review and Incomplete appear.", "reason": "Accepted and rejected are narration only."},
+      {"before": "Fact 'leads who remain uninterested are set to Cancelled'", "after": "Implied: leads who stay uninterested are set to Cancelled.", "reason": "The narration does not say this directly."},
+      {"before": "Fact 'Every call must be logged in the lead's Comment field'", "after": "The trainer says every call must be mentioned, but does not name the field.", "reason": "The field is inferred from the screen."},
+      {"before": "Unclear 07:55 cites t00488.jpg and t00637.jpg context", "after": "t00480.jpg and t00488.jpg show the KSA and UAE country values; t00637 is the Leads list.", "reason": "Wrong frame."},
+      {"before": "Screen and step name the PDF 'Sellers.journey.pdf'", "after": "'Sellers journey.pdf' (title bar), 'Page 6 sur 12'.", "reason": "Exact title bar text."},
+      {"before": "Term 'Admin view' says the KAM handles approvals and statuses", "after": "The admin view of the app, which the trainer shows from 09:30 and uses to process seller applications.", "reason": "The narration does not say the KAM handles approvals."},
+      {"before": "Privacy: 'Legal name and Address for pick ups on the Profile tab'", "after": "Legal name is on the Onboarding Plan; Address for pick ups is on the Profile tab (t00478).", "reason": "Column location."},
+      {"before": "Privacy: 'Two Revibe TEST and Pierre records'", "after": "One 'Revibe' lead and one 'Revibe TEST' lead, both under Pierre Villaceque.", "reason": "Lead names on screen."},
+      {"before": "Summary: 'Pierre' as an internal test record", "after": "The 'Pierre' record with an email at revibe.me; the test status is inferred.", "reason": "No test label appears on the record itself."}
+    ],
+    "added": [
+      "Step 11:44-11:48: lead panel mid-transition (t00704.jpg), no new content.",
+      "Fact: Google Sheet tab bar list (t00478.jpg).",
+      "Fact: lead edit form has Cancel and Save buttons at the top right (t00711.jpg), merged into the lead edit form fact.",
+      "Screen: t00580.jpg added to the Profile admin screen frames for the menu labels.",
+      "Unclear 11:41: narration name 'Marwan Ahmed' vs lead first name 'ahmed' on screen.",
+      "Privacy: Profile list personal data in t00425.jpg; Pierre Villaceque lead rows in t00642.jpg and t00662.jpg.",
+      "t00530.jpg shows the same if-no Rationale dropdown as t00527.jpg; no new claim."
+    ]
+  }
+}

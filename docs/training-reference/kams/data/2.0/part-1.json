@@ -1,0 +1,617 @@
+{
+  "summary": "Part 1 of 4 (00:00-04:50) of the 2.0 Fulfillment App (Sellers) training. Pierre walks through the Revibe Fulfillment App web tool: the SKUs available list (eligible SKUs, quantities allowed, price, filter, sort, search, download, SKU detail), then Shipments (list of shipment groups, shipment detail) and how to create a new shipment with a Requests Supplier Form and Request products lines. All 40 frames in the pack were opened and checked against the narration.",
+  "frames_opened": 40,
+  "steps": [
+    {
+      "at": "00:00-01:20",
+      "screen": "Intro, then SKUs available list",
+      "action": "Narrator explains the Fulfillment principle and says the app has tabs; the SKUs available page is the first step to check. The app sidebar lists SKUs available, Shipments, Request products, Supplier inventory, Inventory exits, Box request, About, Feedback, App Gallery.",
+      "evidence": [
+        { "kind": "say", "at": "01:13", "quote": "you have a lot of tabs SKUs available shipments request products supplier inventory inventory exit", "frame": "" },
+        { "kind": "see", "at": "01:20", "quote": "Left sidebar lists: SKUs available, Shipments, Request products, Supplier inventory, Inventory exits, Box request, About, Feedback, App Gallery; main page titled SKUs available with a table", "frame": "t00060.jpg" }
+      ],
+      "says": "and box requests so the The first step is to have a look at the SKUs available.",
+      "why": ""
+    },
+    {
+      "at": "01:20-01:32",
+      "screen": "SKUs available",
+      "action": "Reads the table: all SKUs eligible to be sent to the warehouse, with category, model, product, quantities allowed, price and SKU.",
+      "evidence": [
+        { "kind": "say", "at": "01:25", "quote": "Here you can see all the SKUs that are eligible to be sent to the warehouse.", "frame": "" },
+        { "kind": "see", "at": "01:20", "quote": "Columns: Category, Model, Product, Quantities allowed, Price, SKU", "frame": "t00080.jpg" }
+      ],
+      "says": "Here you can see all the SKUs that are eligible to be sent to the warehouse.",
+      "why": ""
+    },
+    {
+      "at": "01:40",
+      "screen": "SKUs available, Filter panel",
+      "action": "Opens the filter panel (funnel icon, top right) and points out that filtering can be done the way the user wants.",
+      "evidence": [
+        { "kind": "say", "at": "01:40", "quote": "Here you can filter the way you want.", "frame": "" },
+        { "kind": "see", "at": "01:43", "quote": "Right-hand Filter panel with rows SKU, Category, Product, Model, SKU Status and buttons Clear and Done", "frame": "t00103.jpg" }
+      ],
+      "says": "Here you can filter the way you want.",
+      "why": ""
+    },
+    {
+      "at": "01:44-02:08",
+      "screen": "SKUs available, column header",
+      "action": "Sorts the list by clicking the Quantities allowed column header; the list then runs from the highest quantity down.",
+      "evidence": [
+        { "kind": "say", "at": "01:44", "quote": "You can sort also by quantities allowed.", "frame": "" },
+        { "kind": "see", "at": "02:08", "quote": "List ordered by quantities allowed: 34, 33, 16, 15, 14, 13, 10, 8, 7 (Lightning-To-Headphone-Jack-Adapter-3.5M row with quantity 8 and price -15)", "frame": "t00128.jpg" },
+        { "kind": "see", "at": "02:59", "quote": "Quantities allowed header shows a sort arrow; list ordered 34, 33, 16, 15, 14, 13, 10...", "frame": "t00179.jpg" }
+      ],
+      "says": "You can sort also by quantities allowed.",
+      "why": ""
+    },
+    {
+      "at": "01:47-01:53",
+      "screen": "SKUs available, search bar",
+      "action": "Types in the search bar (placeholder Search SKUs available) to filter the list. Types iphone, then iphone-12. Narrator says the list can be downloaded to work in a spreadsheet.",
+      "evidence": [
+        { "kind": "say", "at": "01:47", "quote": "and here you can use the research bar to type whatever you want and to filter on the", "frame": "" },
+        { "kind": "say", "at": "01:53", "quote": "products you're looking for {you?} can also download the list in order to {to?} work on a spreadsheet", "frame": "" },
+        { "kind": "see", "at": "01:49", "quote": "Search field shows iphone; list narrowed to iphone models", "frame": "t00109.jpg" },
+        { "kind": "see", "at": "01:51", "quote": "Search field shows iphone-12; results include iphone-12 mini, iphone-12 pro, iphone-12 pro max, iphone-12 (base) and two accessory SKUs (case-iphone-12-pro-max-black, screen-protector-for-iphone-12-pro-max)", "frame": "t00111.jpg" }
+      ],
+      "says": "and here you can use the research bar to type whatever you want and to filter on the",
+      "why": ""
+    },
+    {
+      "at": "01:59-02:04",
+      "screen": "SKUs available",
+      "action": "Narrator explains which SKUs appear in the list (see fact on quantities allowed).",
+      "evidence": [
+        { "kind": "say", "at": "01:59", "quote": "this list is based on the quantities allowed it means we will show on this list only the", "frame": "" },
+        { "kind": "say", "at": "02:04", "quote": "SKUs where the quantity allowed is superior to zero what you have to know is that the quantity", "frame": "" }
+      ],
+      "says": "SKUs where the quantity allowed is superior to zero what you have to know is that the quantity",
+      "why": ""
+    },
+    {
+      "at": "03:06-03:13",
+      "screen": "SKUs available, SKU detail panel",
+      "action": "Clicks the iphone-11 row (SKU 010109-060101, quantities allowed 34) to open its detail panel. Narrator says everything related to the SKU is visible there: SKU, supplier name, price.",
+      "evidence": [
+        { "kind": "say", "at": "03:06", "quote": "Here, when you enter a product, you can see everything related to this.", "frame": "" },
+        { "kind": "say", "at": "03:10", "quote": "So the SKU, the name of the supplier, {here,?} the price.", "frame": "" },
+        { "kind": "see", "at": "03:11", "quote": "Right panel titled 010109-060101 with SKU, Supplier SK World, Price, Product iphone-1164 GBBlackGood, Model iphone-11, SKU Status Free market, Quantities allowed 34", "frame": "t00191.jpg" }
+      ],
+      "says": "Here, when you enter a product, you can see everything related to this.",
+      "why": ""
+    },
+    {
+      "at": "03:16-03:28",
+      "screen": "SKUs available",
+      "action": "Selects the SKUs for the shipment either from this list or from the price sheet (price sheet covered in another video).",
+      "evidence": [
+        { "kind": "say", "at": "03:16", "quote": "Once you will have like a precise idea of like all the SKUs you want to get, you", "frame": "" },
+        { "kind": "say", "at": "03:23", "quote": "So the SKUs that you want to get, either you can select them looking at this, either you", "frame": "" },
+        { "kind": "say", "at": "03:28", "quote": "can select them based on your price sheet, which is also explained in another video.", "frame": "" }
+      ],
+      "says": "either you can select them looking at this, either you can select them based on your price sheet",
+      "why": ""
+    },
+    {
+      "at": "03:34-03:43",
+      "screen": "Sidebar: Shipments",
+      "action": "Goes to the Shipments tab, after the SKU list is ready.",
+      "evidence": [
+        { "kind": "say", "at": "03:39", "quote": "either {from?} here, either from your price sheet, you can go to shipments.", "frame": "" },
+        { "kind": "see", "at": "03:43", "quote": "Shipments page opens with groups Picked up, Warehouse received, Cancelled", "frame": "t00223.jpg" }
+      ],
+      "says": "either {from?} here, either from your price sheet, you can go to shipments.",
+      "why": ""
+    },
+    {
+      "at": "03:43-03:51",
+      "screen": "Shipments list",
+      "action": "Narrator describes the list: shipments received at the warehouse, cancelled, picked up.",
+      "evidence": [
+        { "kind": "say", "at": "03:43", "quote": "In shipments, you will be able to see all the shipments that have been received at the warehouse,", "frame": "" },
+        { "kind": "say", "at": "03:48", "quote": "the {ones?} that have been canceled, the ones that have been picked up, etc.", "frame": "" }
+      ],
+      "says": "In shipments, you will be able to see all the shipments that have been received at the warehouse,",
+      "why": ""
+    },
+    {
+      "at": "03:54-04:07",
+      "screen": "Shipments, shipment detail panel",
+      "action": "Clicks a shipment (Warehouse received row) to open its detail panel: related request products, supplier, payment method, tracking company, tracking ID, tracking link, created/updated by and at.",
+      "evidence": [
+        { "kind": "say", "at": "03:54", "quote": "So if you click on a shipment, you will be able to see the items you sent at", "frame": "" },
+        { "kind": "say", "at": "03:59", "quote": "what time has it been received by the warehouse, what was the payment method, the tracking ID, the", "frame": "" },
+        { "kind": "see", "at": "03:58", "quote": "Detail panel titled Warehouse received with Request Status, Related Request_products, Supplier SK World, Payment method 100% - After sales, Tracking company Quiqup, Tracking ID 18829191, Tracking link", "frame": "t00238.jpg" }
+      ],
+      "says": "So if you click on a shipment, you will be able to see the items you sent at",
+      "why": ""
+    },
+    {
+      "at": "04:11-04:17",
+      "screen": "Shipments, Add",
+      "action": "Clicks Add (top right of Shipments) to create a new shipment.",
+      "evidence": [
+        { "kind": "say", "at": "04:11", "quote": "So what you can do is that you can just click on {add?} and here, create a new", "frame": "" },
+        { "kind": "say", "at": "04:17", "quote": "shipment.", "frame": "" },
+        { "kind": "see", "at": "04:16", "quote": "Shipments page with blue + Add button at top right", "frame": "t00256.jpg" }
+      ],
+      "says": "So what you can do is that you can just click on {add?} and here, create a new",
+      "why": ""
+    },
+    {
+      "at": "04:18-04:23",
+      "screen": "Requests Supplier Form (new shipment)",
+      "action": "Notes the new shipment status is Requested. Narrator says the payment method at this moment is 100% - After sales; the Payment method field is empty when the form first opens and 100% - After sales is selected a few seconds later.",
+      "evidence": [
+        { "kind": "say", "at": "04:18", "quote": "Here, you can see that the shipment status is requested.", "frame": "" },
+        { "kind": "say", "at": "04:23", "quote": "The payment method at this moment, it's 100% after sales, which is a basic classic payment method.", "frame": "" },
+        { "kind": "see", "at": "04:22", "quote": "Requests Supplier Form: Request Status Requested, Supplier SK World, Payment method* dropdown empty", "frame": "t00262.jpg" },
+        { "kind": "see", "at": "04:28", "quote": "Requests Supplier Form: Payment method dropdown set to 100% - After sales", "frame": "t00265.jpg" }
+      ],
+      "says": "Here, you can see that the shipment status is requested.",
+      "why": ""
+    },
+    {
+      "at": "04:35-04:38",
+      "screen": "Requests Supplier Form",
+      "action": "Presses New (above the form fields) to add a request product line.",
+      "evidence": [
+        { "kind": "say", "at": "04:35", "quote": "Here you can see that you have nothing to do.", "frame": "" },
+        { "kind": "say", "at": "04:37", "quote": "So you can just press on new and here you will be able to request the product.", "frame": "" },
+        { "kind": "see", "at": "04:37", "quote": "Requests Supplier Form with New button above the Request Status field", "frame": "t00265.jpg" },
+        { "kind": "see", "at": "04:38", "quote": "Request products Form opens on the right with SKU* (empty), Supplier SK World, Quantity Sent 0, Price -1, Stage Open, Request Status Requested", "frame": "t00278.jpg" }
+      ],
+      "says": "So you can just press on new and here you will be able to request the product.",
+      "why": ""
+    },
+    {
+      "at": "04:41-04:47",
+      "screen": "Request products Form",
+      "action": "Selects the SKU to add. After the SKU is picked the form shows product, quantity allowed, supplier and buybox supplier, and the price changes from -1 to 607; the seller then sets Quantity Sent and Price.",
+      "evidence": [
+        { "kind": "say", "at": "04:41", "quote": "So here, basically you can just select the SKUs you want to add in the shipment {automatically,?} the", "frame": "" },
+        { "kind": "say", "at": "04:47", "quote": "name of the product, the quantity allowed, the current price and the quantity send and the price, you", "frame": "" },
+        { "kind": "see", "at": "04:47", "quote": "Request products Form: SKU 010109-060101 selected; Product iphone-1164 GBBlackGood; Quantity Allowed 34; Supplier SK World; Buybox supplier 608; Quantity Sent 0; Price 607", "frame": "t00283.jpg" }
+      ],
+      "says": "name of the product, the quantity allowed, the current price and the quantity send and the price, you",
+      "why": ""
+    }
+  ],
+  "facts": [
+    {
+      "type": "definition",
+      "statement": "The SKUs available page lists the SKUs that are eligible to be sent to the Revibe warehouse.",
+      "evidence": [
+        { "kind": "say", "at": "01:25", "quote": "Here you can see all the SKUs that are eligible to be sent to the warehouse.", "frame": "" },
+        { "kind": "see", "at": "00:00", "quote": "Page titled SKUs available, columns Category, Model, Product, Quantities allowed, Price, SKU", "frame": "t00000.jpg" }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Quantities allowed is calculated from two criteria: (1) the sales recorded over the last 15 days in UAE and South Africa for these products, and (2) the current quantity available in inventory.",
+      "evidence": [
+        { "kind": "say", "at": "02:09", "quote": "allowed to be sent to the fulfillment is calculated based on two criteria the first is the sales", "frame": "" },
+        { "kind": "say", "at": "02:14", "quote": "we recorded over the last 15 days in UAE and South Africa for {these?} products {and?} the second", "frame": "" },
+        { "kind": "say", "at": "02:21", "quote": "is the current {quantity?} available in the {inventor?} we on purpose limit the quantities allowed in order that", "frame": "" }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Quantities allowed are deliberately limited so the seller does not send too much stock to the warehouse, so that Revibe can sell the stock within 15 days.",
+      "evidence": [
+        { "kind": "say", "at": "02:21", "quote": "we on purpose limit the quantities allowed in order that", "frame": "" },
+        { "kind": "say", "at": "02:28", "quote": "you do not send too much stock to the warehouse so that we are sure that within a", "frame": "" },
+        { "kind": "say", "at": "02:32", "quote": "period of 15 days we will be able to sell your stock so that we can pay pay", "frame": "" }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The SKUs available list shows only SKUs whose quantities allowed is greater than zero.",
+      "evidence": [
+        { "kind": "say", "at": "02:04", "quote": "SKUs where the quantity allowed is superior to zero what you have to know is that the quantity", "frame": "" }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The price shown on the SKUs available list is the same as the buy box price.",
+      "evidence": [
+        { "kind": "say", "at": "02:42", "quote": "the price that you see here is the same that you can see on your buy", "frame": "" },
+        { "kind": "say", "at": "02:48", "quote": "box. It means that this price is exactly the same and depends also on your score, which is something", "frame": "" }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "The buy box price depends also on the seller score, which is explained in another video (not in this part).",
+      "evidence": [
+        { "kind": "say", "at": "02:48", "quote": "It means that this price is exactly the same and depends also on your score, which is something", "frame": "" },
+        { "kind": "say", "at": "02:55", "quote": "that I {explain?} in another video.", "frame": "" }
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "rule",
+      "statement": "To send items to the warehouse, the seller has to beat the buy box by at least one DRAM, as spoken (the unit is not shown on screen, see unclear).",
+      "evidence": [
+        { "kind": "say", "at": "03:00", "quote": "And if you want to send some items to the warehouse, you have to beat the buy box", "frame": "" },
+        { "kind": "say", "at": "03:04", "quote": "by at least one DRAM.", "frame": "" }
+      ],
+      "confidence": "medium",
+      "quiz": false
+    },
+    {
+      "type": "number",
+      "statement": "On the Request products form, SKU 010109-060101 shows Buybox supplier 608 and Price 607, one below 608; the Price field is labelled The lower you go, the more you sell.",
+      "evidence": [
+        { "kind": "see", "at": "04:47", "quote": "Buybox supplier 608; Price 607 (field labelled Price - The lower you go, the more you sell)", "frame": "t00283.jpg" }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "tip",
+      "statement": "On the SKUs available page, the filter panel can filter by SKU, Category, Product, Model and SKU Status; the Clear and Done buttons are at the bottom.",
+      "evidence": [
+        { "kind": "see", "at": "01:43", "quote": "Filter panel rows: SKU, Category, Product, Model, SKU Status; buttons Clear and Done", "frame": "t00103.jpg" }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "tip",
+      "statement": "Clicking the Quantities allowed column header sorts the SKUs available list by quantities allowed (highest first on screen).",
+      "evidence": [
+        { "kind": "say", "at": "01:44", "quote": "You can sort also by quantities allowed.", "frame": "" },
+        { "kind": "see", "at": "02:08", "quote": "List ordered by quantities allowed: 34, 33, 16, 15, 14, 13, 10, 8, 7", "frame": "t00128.jpg" },
+        { "kind": "see", "at": "02:59", "quote": "Quantities allowed header shows a sort arrow", "frame": "t00179.jpg" }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "tip",
+      "statement": "The search bar on SKUs available (placeholder Search SKUs available) filters the list by typed text; for example iphone-12 returns iphone-12 mini, pro and pro max SKUs, the iphone-12 base SKUs and two accessory SKUs.",
+      "evidence": [
+        { "kind": "say", "at": "01:47", "quote": "and here you can use the research bar to type whatever you want and to filter on the", "frame": "" },
+        { "kind": "see", "at": "01:51", "quote": "Search bar reads iphone-12; results list iphone-12 mini, iphone-12 pro, iphone-12 pro max, iphone-12 and two accessory SKUs", "frame": "t00111.jpg" }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "tip",
+      "statement": "The SKU list can be downloaded (Download button, top right) to work on a spreadsheet.",
+      "evidence": [
+        { "kind": "say", "at": "01:53", "quote": "products you're looking for {you?} can also download the list in order to {to?} work on a spreadsheet", "frame": "" },
+        { "kind": "see", "at": "01:47", "quote": "Download button at top right of SKUs available", "frame": "t00107.jpg" }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "screen",
+      "statement": "Clicking a SKU row opens a detail panel showing SKU, Supplier, Price, Product, Model, SKU Status and Quantities allowed.",
+      "evidence": [
+        { "kind": "see", "at": "03:11", "quote": "Panel for 010109-060101: Supplier, Price, Product iphone-1164 GBBlackGood, Model iphone-11, SKU Status Free market, Quantities allowed 34", "frame": "t00191.jpg" }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "SKU status Free market is shown for SKU 010109-060101 (iphone-11) in the SKU detail panel.",
+      "evidence": [
+        { "kind": "see", "at": "03:11", "quote": "SKU Status: Free market", "frame": "t00191.jpg" }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "procedure",
+      "statement": "To choose SKUs for a shipment, select them from the SKUs available list or from your price sheet (price sheet explained in another video), then go to Shipments.",
+      "evidence": [
+        { "kind": "say", "at": "03:23", "quote": "So the SKUs that you want to get, either you can select them looking at this, either you", "frame": "" },
+        { "kind": "say", "at": "03:39", "quote": "either {from?} here, either from your price sheet, you can go to shipments.", "frame": "" }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "The Shipments page groups shipments into Picked up (1), Warehouse received (14) and Cancelled (1).",
+      "evidence": [
+        { "kind": "see", "at": "03:43", "quote": "Group headers: Picked up 1; Warehouse received 14; Cancelled 1", "frame": "t00223.jpg" }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Shipments list columns: Supplier, Created by, Created at, Updated at, Request Status, Payment method, Tracking company, Tracking ID, Tracking Label link.",
+      "evidence": [
+        { "kind": "see", "at": "03:43", "quote": "Column headers: Supplier, Created by, Created at, Updated at, Request Status, Payment method, Tracking company, Tracking ID, Tracking Label link", "frame": "t00223.jpg" }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "Shipment request statuses visible on the Shipments page are Picked up, Warehouse received and Cancelled; a new shipment starts with Request Status Requested.",
+      "evidence": [
+        { "kind": "see", "at": "03:43", "quote": "Request Status column values: Picked up, Warehouse received, Cancelled", "frame": "t00223.jpg" },
+        { "kind": "see", "at": "04:22", "quote": "Request Status field shows Requested on the new Requests Supplier Form", "frame": "t00262.jpg" }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "A shipment detail shows the related request products, the supplier, the payment method, the tracking company, the tracking ID and the tracking link; the trainer also says it shows the time the warehouse received the items.",
+      "evidence": [
+        { "kind": "say", "at": "03:59", "quote": "what time has it been received by the warehouse, what was the payment method, the tracking ID, the", "frame": "" },
+        { "kind": "say", "at": "04:04", "quote": "tracking link, etc.", "frame": "" },
+        { "kind": "see", "at": "03:58", "quote": "Warehouse received detail: Related Request_products, Supplier SK World, Payment method 100% - After sales, Tracking company Quiqup, Tracking ID 18829191, Tracking link", "frame": "t00238.jpg" }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "definition",
+      "statement": "The payment method in use is 100% - After sales, which the trainer describes as the basic classic payment method.",
+      "evidence": [
+        { "kind": "say", "at": "04:23", "quote": "The payment method at this moment, it's 100% after sales, which is a basic classic payment method.", "frame": "" },
+        { "kind": "see", "at": "04:28", "quote": "Payment method field shows 100% - After sales", "frame": "t00265.jpg" }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "To create a new shipment, click Add on the Shipments page; the Requests Supplier Form opens with Request Status Requested.",
+      "evidence": [
+        { "kind": "say", "at": "04:11", "quote": "So what you can do is that you can just click on {add?} and here, create a new", "frame": "" },
+        { "kind": "see", "at": "04:22", "quote": "Requests Supplier Form: Request Status Requested, Supplier SK World, Tracking company placeholder Quiqup", "frame": "t00262.jpg" }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "rule",
+      "statement": "Payment method is a required field on the Requests Supplier Form (marked Payment method with an asterisk).",
+      "evidence": [
+        { "kind": "see", "at": "04:13", "quote": "Field label Payment method* with empty dropdown on the new Requests Supplier Form", "frame": "t00253.jpg" }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "To add products to a shipment, press New on the Requests Supplier Form; the Request products Form opens where the SKU is chosen.",
+      "evidence": [
+        { "kind": "say", "at": "04:37", "quote": "So you can just press on new and here you will be able to request the product.", "frame": "" },
+        { "kind": "see", "at": "04:37", "quote": "New button above Request Status on the Requests Supplier Form", "frame": "t00265.jpg" },
+        { "kind": "see", "at": "04:38", "quote": "Request products Form opens to the right with SKU field", "frame": "t00278.jpg" }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "screen",
+      "statement": "Request products Form fields seen before a SKU is chosen: SKU* (empty), Supplier, Quantity Sent (0), Price (-1; label The lower you go, the more you sell), Total price (0), Stage (Open), Request Status (Requested).",
+      "evidence": [
+        { "kind": "see", "at": "04:38", "quote": "Request products Form with SKU*, Supplier SK World, Quantity Sent 0, Price -1, Total price 0, Stage Open, Request Status Requested", "frame": "t00278.jpg" }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "procedure",
+      "statement": "After choosing a SKU in the Request products Form, the product, Quantity Allowed, Supplier and Buybox supplier are filled in; the price changes from -1 to 607 and the seller then sets Quantity Sent and Price.",
+      "evidence": [
+        { "kind": "see", "at": "04:47", "quote": "After SKU 010109-060101 selected: Product iphone-1164 GBBlackGood, Quantity Allowed 34, Supplier SK World, Buybox supplier 608, Quantity Sent 0, Price 607", "frame": "t00283.jpg" }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "number",
+      "statement": "Implied: Total price appears to equal Quantity Sent multiplied by Price on the Related_request_products rows (for example Quantity Sent 2, Price 884, Total price 1,768). One row shows Quantity Sent 3, Price 1,201 and Total price 2,402, which does not fit this pattern.",
+      "evidence": [
+        { "kind": "see", "at": "03:58", "quote": "Related Request_products rows: Buybox supplier 848, Quantity Sent 2, Price 884, Total price 1,768; Buybox supplier 1,124, Quantity Sent 3, Price 1,201, Total price 2,402", "frame": "t00234.jpg" }
+      ],
+      "confidence": "low",
+      "quiz": false
+    },
+    {
+      "type": "warning",
+      "statement": "The trainer says a new payment method, 95% payment at warehouse reception, will be implemented; it is not shown on screen, and the only method visible is 100% - After sales.",
+      "evidence": [
+        { "kind": "say", "at": "04:28", "quote": "And there is, we will implement a new one that will be 95% payment at warehouse reception.", "frame": "" },
+        { "kind": "see", "at": "04:28", "quote": "Payment method options visible: 100% - After sales only", "frame": "t00265.jpg" }
+      ],
+      "confidence": "high",
+      "quiz": false
+    },
+    {
+      "type": "definition",
+      "statement": "The Fulfillment principle: the seller checks the SKUs available, fixes prices and quantities, and sends them to the Revibe warehouse; Revibe then does another QC, packaging, and ships directly to the customers.",
+      "evidence": [
+        { "kind": "say", "at": "00:09", "quote": "You connect to the Fulfillment {app?} and you check all the SKUs available, you fix the prices and", "frame": "" },
+        { "kind": "say", "at": "00:14", "quote": "quantities, you send them to the Revibe warehouse and then for you, we will do another QC, do", "frame": "" },
+        { "kind": "say", "at": "00:19", "quote": "the packaging and ship it directly to the customers.", "frame": "" }
+      ],
+      "confidence": "high",
+      "quiz": true
+    },
+    {
+      "type": "policy",
+      "statement": "The trainer says the seller benefits include devices shown in a Revibe section on the website (section name unclear, see unclear) with top-priority sales, and no need to think about operations processes.",
+      "evidence": [
+        { "kind": "say", "at": "00:25", "quote": "First, your devices will be shown on Revibe {Express?} section {on?} the {web.?}", "frame": "" },
+        { "kind": "say", "at": "00:30", "quote": "website and will be sold on top priority.", "frame": "" },
+        { "kind": "say", "at": "00:33", "quote": "Second, no need to wonder about operations processes.", "frame": "" }
+      ],
+      "confidence": "medium",
+      "quiz": false
+    }
+  ],
+  "screens": [
+    {
+      "name": "Revibe - Fulfillment App (web, appsheet.com)",
+      "shows": "Left sidebar tabs: SKUs available, Shipments, Request products, Supplier inventory, Inventory exits, Box request, About, Feedback, App Gallery. Top bar: search box and profile icon.",
+      "at": "01:06",
+      "where": "Whole app, sidebar",
+      "frame": "t00060.jpg"
+    },
+    {
+      "name": "SKUs available",
+      "shows": "Table with columns Category, Model, Product, Quantities allowed, Price, SKU; top right Download button and filter icon; search field Search SKUs available. Rows include iphone-11 (SKU 010109-060101, qty 34, price 608), iphone-12-mini, Macbook, Laptop, Accessories rows.",
+      "at": "01:20",
+      "where": "Main page",
+      "frame": "t00000.jpg"
+    },
+    {
+      "name": "SKUs available filter panel",
+      "shows": "Right panel Filter with rows SKU, Category, Product, Model, SKU Status and buttons Clear and Done.",
+      "at": "01:43",
+      "where": "Right side of SKUs available",
+      "frame": "t00103.jpg"
+    },
+    {
+      "name": "SKUs available search",
+      "shows": "Search field filled with iphone (01:49, t00109) and then iphone-12 (01:51, t00111); the list narrows to matching models and accessories also match.",
+      "at": "01:47",
+      "where": "Top search bar",
+      "frame": "t00111.jpg"
+    },
+    {
+      "name": "SKU detail panel",
+      "shows": "Panel titled with the SKU number (010109-060101) showing SKU, Supplier (SK World), Price, Product (iphone-1164 GBBlackGood), Model (iphone-11), SKU Status (Free market), Quantities allowed (34). The row is highlighted but the panel is not yet open in t00187.",
+      "at": "03:11",
+      "where": "Right side panel",
+      "frame": "t00191.jpg"
+    },
+    {
+      "name": "Shipments list",
+      "shows": "Grouped table: Picked up (1), Warehouse received (14), Cancelled (1); columns Supplier, Created by, Created at, Updated at, Request Status, Payment method, Tracking company, Tracking ID, Tracking Label link; blue + Add button top right.",
+      "at": "03:43",
+      "where": "Shipments tab",
+      "frame": "t00223.jpg"
+    },
+    {
+      "name": "Shipment detail (Warehouse received)",
+      "shows": "Request Status, Related Request_products table (horizontally scrolled; columns seen across frames: SKU, Product, Quantity Allowed, Supplier, Buybox supplier in t00235 and t00250; Buybox supplier, Quantity Sent, Price, Total price in t00234; Price, Total price, Quantity received, Updated at, Updated by in t00238; Created at, Created by, Stage, Request Status in t00241), Supplier SK World, Payment method 100% - After sales, Tracking company Quiqup, Tracking ID 18829191, Tracking link, Created by/at, Updated by/at, Edit button.",
+      "at": "03:58",
+      "where": "Right side panel on Shipments",
+      "frame": "t00238.jpg"
+    },
+    {
+      "name": "Requests Supplier Form (new shipment)",
+      "shows": "Panel with New button, Request Status (Requested), Supplier (SK World), Payment method* (empty dropdown in t00262 and t00253; 100% - After sales selected in t00265), Tracking company (placeholder Quiqup), Tracking link (placeholder https://track-parcel.quiqup.com/), Created by, Created at, Updated by, Updated at; Cancel and Save buttons.",
+      "at": "04:18",
+      "where": "Right side panel on Shipments, opened by Add",
+      "frame": "t00262.jpg"
+    },
+    {
+      "name": "Request products Form",
+      "shows": "SKU* dropdown, Supplier, Quantity Sent (0), Price (-1 before SKU), Total price, Updated at/by, Created at/by, Stage (Open), Request Status (Requested); after selecting SKU: Product, Quantity Allowed 34, Buybox supplier 608, Price 607.",
+      "at": "04:47",
+      "where": "Right side panel, opened by New on the Requests Supplier Form",
+      "frame": "t00283.jpg"
+    }
+  ],
+  "terms": [
+    { "term": "Fulfillment App", "meaning": "The Revibe web app (titled Revibe - Fulfillment App) where sellers check SKUs, create shipments and follow them.", "at": "00:00" },
+    { "term": "SKUs available", "meaning": "The list of SKUs eligible to be sent to the Revibe warehouse, with quantities allowed and price.", "at": "01:25" },
+    { "term": "Quantities allowed", "meaning": "Quantity of a SKU the seller may send to the warehouse. The trainer says it is based on sales over the last 15 days in UAE and South Africa and on current inventory.", "at": "02:09" },
+    { "term": "Buy box", "meaning": "The winning price for a SKU. The trainer says the price on the SKUs list is the same as the buy box price, and that the seller must beat it to send items.", "at": "02:58" },
+    { "term": "Buybox supplier", "meaning": "Field on the Request products form (and on shipment request-product rows) labelled Buybox supplier; it shows 608 for SKU 010109-060101, the same value as the SKUs list price.", "at": "04:47" },
+    { "term": "Score", "meaning": "Seller score which the trainer says affects the buy box price; explained in another video.", "at": "02:55" },
+    { "term": "Price sheet", "meaning": "Seller price sheet from which SKUs can be selected; explained in another video.", "at": "03:28" },
+    { "term": "Shipment", "meaning": "A set of SKUs sent to the Revibe warehouse, shown on the Shipments tab.", "at": "03:16" },
+    { "term": "Request Status", "meaning": "Status of a shipment; values seen: Requested, Picked up, Warehouse received, Cancelled.", "at": "04:18" },
+    { "term": "Request products", "meaning": "Individual SKU lines inside a shipment (also a sidebar tab name).", "at": "04:37" },
+    { "term": "Stage", "meaning": "Field on a request product line; values seen: Open (new line, t00278) and Closed (on a Warehouse received line, t00241).", "at": "04:37" },
+    { "term": "Payment method (100% - After sales)", "meaning": "Current payment method: payment after sales. The trainer says a 95% payment at warehouse reception method will be implemented later.", "at": "04:23" },
+    { "term": "Quiqup", "meaning": "Tracking company shown on shipments.", "at": "03:58" },
+    { "term": "Free market", "meaning": "SKU Status shown for SKU 010109-060101.", "at": "03:11" },
+    { "term": "Warehouse received", "meaning": "Shipment status shown after the Revibe warehouse has received the shipment (as listed on the Shipments page).", "at": "03:43" }
+  ],
+  "asr_fixes": [
+    { "at": "00:00", "heard": "Fulfillment {App?}", "correct": "Fulfillment App", "basis": "Screen title reads Revibe - Fulfillment App (frame t00000.jpg)." },
+    { "at": "01:06", "heard": "sell on revive", "correct": "sell on Revibe", "basis": "Company name is spelled Revibe on the screen title (frame t00000.jpg) and in the transcript at 00:00 (Revibe)." },
+    { "at": "01:13", "heard": "inventory exit", "correct": "Inventory exits", "basis": "Sidebar item reads Inventory exits (frame t00060.jpg)." },
+    { "at": "01:20", "heard": "box requests", "correct": "Box request", "basis": "Sidebar item reads Box request (frame t00060.jpg)." },
+    { "at": "01:47", "heard": "research bar", "correct": "search bar", "basis": "Search field is labelled Search SKUs available (frame t00107.jpg)." },
+    { "at": "02:58", "heard": "{buy?} box", "correct": "buy box", "basis": "Request products form has a column Buybox supplier (frame t00283.jpg); transcript also says buy box at 03:00." },
+    { "at": "04:11", "heard": "{add?}", "correct": "Add", "basis": "Shipments page has a blue + Add button at top right (frame t00223.jpg)." }
+  ],
+  "unclear": [
+    { "at": "00:25", "issue": "Narration says Revibe {Express?} section on the website. The word Express is not shown on any frame, so this name cannot be confirmed." },
+    { "at": "03:04", "issue": "Narration says beat the buy box by at least one DRAM. The currency or unit is not shown on screen (prices such as 608 and 607 have no currency label), so the unit cannot be confirmed. It may be a currency name, but this is not in the evidence." },
+    { "at": "02:42", "issue": "Prices on the SKUs list and the Request products form have no currency shown on screen." },
+    { "at": "02:08", "issue": "On the SKUs available list (frame t00128.jpg), SKU 980104-000004 (Lightning-To-Headphone-Jack-Adapter-3.5M, quantities allowed 8) shows a Price of -15. The narration says the list shows only SKUs with quantities allowed above zero and that the price is the buy box price; the negative price is not explained." },
+    { "at": "04:37", "issue": "A new Request products form shows Price -1 before any SKU is chosen (frames t00278 and t00248), labelled The lower you go, the more you sell. The trainer does not say whether -1 is a default value or only a placeholder." },
+    { "at": "04:41", "issue": "Narration says the SKU is added in the shipment automatically (word marked {automatically,?}). The screen shows only the SKU selection in the form, so whether lines are added automatically is not confirmed." },
+    { "at": "03:58", "issue": "In the Related Request_products tables (frames t00234 and t00238) the table is scrolled horizontally and some columns are cut off. In t00234 one row shows Quantity Sent 3, Price 1,201 and Total price 2,402, which does not match Quantity Sent x Price, so the column mapping cannot be fully confirmed from the frames." },
+    { "at": "02:48", "issue": "Narration says the price depends on the seller score (explained in another video). How the score changes the price is not explained in this part of the video." }
+  ],
+  "outdated": [
+    { "at": "04:28", "signal": "Trainer says a new payment method, 95% payment at warehouse reception, will be implemented. It was not shown on screen and is not confirmed as live; the 100% - After sales method is the only one shown." }
+  ],
+  "privacy": [
+    { "at": "03:58", "what": "Seller login email suppskworldfzco@gmail.com appears in Created by and Updated by fields on the Shipments list and on the Warehouse received detail (SK World account).", "frame": "t00223.jpg" },
+    { "at": "03:58", "what": "Revibe staff email rendered as pierre.villacque@revibe.me (the spelling is hard to read at frame resolution; the earlier claim spelling villacaque was not what the frames show) appears in Created by and Updated by fields on shipment details and in the Requests Supplier Form and Request products Form.", "frame": "t00238.jpg" },
+    { "at": "03:58", "what": "Revibe email tech@revibe.me appears as Updated by on a Related Request_products row.", "frame": "t00238.jpg" },
+    { "at": "03:58", "what": "Shipment tracking IDs and tracking links (for example 18829191 and a track-parcel.quiqup.com link) are visible on screen; they are shipment identifiers and should not be shared externally without review.", "frame": "t00238.jpg" }
+  ],
+  "audit": {
+    "checked": 85,
+    "corrected": [
+      { "before": "Step 01:40 filter panel cited to t00100.jpg", "after": "Filter panel cited to t00103.jpg (01:43)", "reason": "t00100 shows the unfiltered SKUs list with no panel; the Filter panel with SKU, Category, Product, Model, SKU Status, Clear and Done is in t00103." },
+      { "before": "Step 01:44 sort cited to t00103.jpg with list ordered 34, 33, 16...", "after": "Sort cited to t00128.jpg (02:08) and t00179.jpg (02:59)", "reason": "t00103 is the filter panel. The sorted order and sort arrow appear in t00128 and t00179." },
+      { "before": "Step 01:47 search: types iphone, then iphone-12, then clears it; results listed as iphone-12 mini, pro and pro max plus two accessories", "after": "Types iphone (t00109), then iphone-12 (t00111); results also include the iphone-12 base SKUs", "reason": "No frame shows the search being cleared. t00111 also lists iphone-12 base SKUs (iphone-12 128GB and 64GB variants)." },
+      { "before": "Step 03:06 SKU detail panel cited to t00187.jpg", "after": "Panel cited to t00191.jpg (03:11) and t00193.jpg", "reason": "t00187 shows the iphone-11 row highlighted in the sorted list with no detail panel open. The panel first appears in t00191." },
+      { "before": "Step 04:18: Requests Supplier Form shows payment method 100% - After sales (cited t00262.jpg)", "after": "t00262 shows the Payment method* dropdown empty; 100% - After sales is selected in t00265.jpg", "reason": "The frame cited for the selected value does not show it. Narration at 04:23 supports the statement that the payment method is 100% - After sales." },
+      { "before": "Step 04:35 New: Request products form slides in (cited t00265.jpg)", "after": "New button cited to t00265.jpg; Request products form sliding in cited to t00278.jpg", "reason": "t00265 shows the Requests Supplier Form with New but no request products panel. The panel appears in t00278." },
+      { "before": "Step 04:41 price pre-filled (no before state)", "after": "States the price changes from -1 to 607 after the SKU is chosen", "reason": "t00278 shows Price -1 before a SKU is chosen and t00283 shows 607 after, which is the evidence for the pre-fill." },
+      { "before": "Facts/screens: Shipment detail Related Request_products columns listed as SKU, Product, Quantity Allowed, Supplier, Buybox supplier, Quantity Sent, Price, Total price, Quantity received, Updated at, Updated by, Stage in one frame (t00238)", "after": "Columns are split by frame: t00235 and t00250 show SKU, Product, Quantity Allowed, Supplier, Buybox supplier; t00234 shows Buybox supplier, Quantity Sent, Price, Total price; t00238 shows Price, Total price, Quantity received, Updated at, Updated by; t00241 shows Created at, Created by, Stage, Request Status", "reason": "The table is horizontally scrolled, so no single frame shows all those columns." },
+      { "before": "Implied total price fact cited t00241 with Price 960, Total price 3,840, Quantity Allowed 4", "after": "Low-confidence implied fact cited to t00234 with the rows that show the pattern; the one exception row is stated", "reason": "The 960 and 3,840 values are in t00238 and the quantity 4 is in t00235, not t00241. t00234 has more rows to check the pattern; one row (Quantity Sent 3, Price 1,201, Total 2,402) does not fit." },
+      { "before": "Fact: Stage Closed (received line) listed in terms", "after": "Closed is said to appear on a Warehouse received line (t00241)", "reason": "Only the Warehouse received line in t00241 shows Stage Closed." },
+      { "before": "Fact: payment method in the Requests Supplier Form cited to t00262.jpg", "after": "Field value cited to t00265.jpg; t00262 shows the empty field", "reason": "Frame correction, see the step at 04:18." },
+      { "before": "Fact warning: a 95% method is not available yet", "after": "The trainer says it will be implemented; it is not shown on screen", "reason": "The transcript says it will be implemented. 'Not available yet' is an inference that the evidence does not state." },
+      { "before": "Fact: beat the buy box by at least one DRAM stated as medium confidence, quiz true", "after": "Same statement, quiz false, with the unit left unconfirmed", "reason": "The unit cannot be confirmed from the screen or the transcript." },
+      { "before": "Fact search tip listed iphone-12 mini, pro and pro max plus two accessories", "after": "Adds the iphone-12 base SKUs and names the two accessories", "reason": "t00111 shows base iphone-12 rows." },
+      { "before": "Fact detail panel cited to t00187.jpg", "after": "Cited to t00191.jpg", "reason": "Frame correction, see the step at 03:06." },
+      { "before": "Screen search: Search field filled with iphone and iphone-12 (cited t00111.jpg)", "after": "iphone in t00109 and iphone-12 in t00111", "reason": "t00111 shows only iphone-12 in the field." },
+      { "before": "Unclear negative price row cited at 01:59", "after": "Cited at 02:08 (t00128.jpg)", "reason": "The row with price -15 appears in the sorted list at 02:08." },
+      { "before": "Term Closed (received line) as a value of Stage", "after": "Closed seen on a Warehouse received line (t00241)", "reason": "Scope of the observation." },
+      { "before": "Term Buybox supplier described as the column showing the buy box price", "after": "Field labelled Buybox supplier that shows 608, the same value as the SKUs list price", "reason": "The column name and the price relationship are both on screen; the label itself is not the price." },
+      { "before": "Privacy: Revibe staff email spelled pierre.villacaque@revibe.me", "after": "Rendered as pierre.villacque@revibe.me, spelling hard to read at frame resolution", "reason": "The frames do not clearly show the spelling in the claim." },
+      { "before": "Privacy: tech@revibe.me cited to t00241.jpg", "after": "Cited to t00238.jpg", "reason": "The Updated by value tech@revibe.me is in t00238." }
+    ],
+    "removed": [
+      { "statement": "Step 01:47: types iphone-12 then clears the search bar", "reason": "No frame shows the search being cleared." },
+      { "statement": "Fact: Total price equals Quantity Allowed 4 times Price 960 (Quantity Allowed 4 cited to t00241)", "reason": "The quantity 4 is not in t00241; it sits in t00235 for the same shipment, and the multiplication was restated as a low-confidence implied pattern." },
+      { "statement": "Screen claim that the shipment detail shows SKU, Product, Quantity Allowed, Supplier, Buybox supplier, Quantity Sent, Price, Total price, Quantity received, Updated at, Updated by and Stage in a single view", "reason": "Not visible in one frame; split across frames as corrected." }
+    ],
+    "added": [
+      "Fact (definition): the Fulfillment principle from the intro, 00:09-00:19 (say evidence), added as coverage of the opening narration.",
+      "Fact (claim, medium): the seller benefits stated at 00:25-00:33 (say evidence), with the section name left unclear.",
+      "Screen evidence: shipment detail for the 11/28/2024 4:20:29 PM shipment (frame t00235.jpg) shows Related Request_products row SKU 010111-060601, Product iphone-11-pro-max64, Quantity Allowed 4, Supplier SK World, Buybox supplier 990; uncited frames t00020, t00040, t00105, t00114, t00122, t00130, t00150, t00164, t00197, t00201 and t00225 were opened and contain no additional claims beyond the narration above."
+    ]
+  }
+}
