@@ -11,7 +11,7 @@ import {
 } from 'firebase/auth';
 import { doc, getDoc, setDoc } from 'firebase/firestore';
 import { auth, db } from '@/lib/firebase';
-import { ADMIN_EMAIL, SEES_ALL_TEAM, isRevibeEmail, resolveAudience, resolveAudiences } from '@/lib/audience';
+import { isAdminEmail, SEES_ALL_TEAM, isRevibeEmail, resolveAudience, resolveAudiences } from '@/lib/audience';
 
 const AuthContext = createContext({});
 
@@ -39,7 +39,7 @@ export function AuthProvider({ children }) {
         let currentGroups = [];
         let currentAck = null;
         const userType = isRevibeEmail(firebaseUser.email) ? 'revibe' : 'partner';
-        if (firebaseUser.email && firebaseUser.email.toLowerCase() === ADMIN_EMAIL) {
+        if (isAdminEmail(firebaseUser.email)) {
           currentRole = 'trainer';
         }
 
@@ -50,7 +50,7 @@ export function AuthProvider({ children }) {
 
           if (userDoc.exists()) {
             currentAck = userDoc.data().assistantAckAt || null;
-            if (firebaseUser.email?.toLowerCase() === ADMIN_EMAIL && userDoc.data().role !== 'trainer') {
+            if (isAdminEmail(firebaseUser.email) && userDoc.data().role !== 'trainer') {
               await setDoc(userRef, { role: 'trainer', lastLogin: new Date().toISOString() }, { merge: true });
             } else {
               currentRole = userDoc.data().role || currentRole;
@@ -204,8 +204,8 @@ export function AuthProvider({ children }) {
       audiences,
       // Revibe staff who aren't trainers; they pick a team once.
       isRevibeMember: !!user && role !== 'trainer' && isRevibeEmail(user.email),
-      // The hub's admin (ADMIN_EMAIL): the only one who reads everyone's conversations.
-      isAdmin: !!user && user.email?.toLowerCase() === ADMIN_EMAIL,
+      // Hub admins (ADMIN_EMAILS): the only ones who reads everyone's conversations.
+      isAdmin: !!user && isAdminEmail(user.email),
       // Revibe's management team: sees every material and the assistant's insides, read-only.
       isManagement: !!user && role !== 'trainer' && isRevibeEmail(user.email) && team === SEES_ALL_TEAM,
       assistantAckAt,

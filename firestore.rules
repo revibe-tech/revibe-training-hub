@@ -14,7 +14,7 @@ service cloud.firestore {
     
     function isTrainer() {
       return isSignedIn() &&
-             (request.auth.token.email == 'youssf.rehem@revibe.me' ||
+             (request.auth.token.email in ['youssf.rehem@revibe.me', 'mohamed.abdallah@revibe.me'] ||
               (exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
                get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'trainer'));
     }
@@ -76,7 +76,7 @@ service cloud.firestore {
                        !('team' in request.resource.data) &&
                        !('groups' in request.resource.data) &&
                        (request.resource.data.get('role', 'trainee') == 'trainee' ||
-                        request.auth.token.email == 'youssf.rehem@revibe.me') &&
+                        request.auth.token.email in ['youssf.rehem@revibe.me', 'mohamed.abdallah@revibe.me']) &&
                        request.resource.data.get('partnerType', 'seller') in ['seller', 'repair'];
       
       // Trainers can update any user's profile (including role/promotions).
