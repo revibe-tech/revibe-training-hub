@@ -54,7 +54,8 @@ service cloud.firestore {
     function canSeeAudiences(data) {
       return isTrainer() ||
              (isRevibe() && myTeam() == 'management') ||
-             (isRevibe() && ('revibe' in data.get('audiences', []) || data.get('audiences', []).size() == 0)) ||
+             (isRevibe() && myTeam() == 'kam' && 'kam' in data.get('audiences', [])) ||
+             (isRevibe() && myTeam() != 'kam' && ('revibe' in data.get('audiences', []) || data.get('audiences', []).size() == 0)) ||
              (isSignedIn() && !isRevibe() && myPartnerType() in data.get('audiences', [])) ||
              (isSignedIn() && ('user:' + request.auth.uid) in data.get('audiences', [])) ||
              (isSignedIn() && data.get('audiences', []).hasAny(myGroups()));
