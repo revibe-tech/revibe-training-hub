@@ -113,6 +113,11 @@ export default function Navbar({ title }) {
                     <i className="material-icons">workspace_premium</i> Badges & certificates
                   </Link>
                 )}
+                {!isTrainer && (isPartner || team !== 'management') && (
+                  <button className="nav-menu-item" role="menuitem" onClick={() => { setMenuOpen(false); window.dispatchEvent(new Event('open-role-picker')); }}>
+                    <i className="material-icons">badge</i> {isPartner ? 'Change role' : 'Change team'}
+                  </button>
+                )}
                 <button className="nav-menu-item danger" role="menuitem" onClick={handleSignOut}>
                   <i className="material-icons">logout</i> Sign out
                 </button>

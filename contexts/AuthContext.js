@@ -150,8 +150,8 @@ export function AuthProvider({ children }) {
     setPartnerType(type);
   };
 
-  // One-time pick for Revibe staff (not Management); afterwards only a trainer
-  // can change it (enforced by rules).
+  // Revibe staff pick (and may later change) their team; Management is
+  // trainer-assigned (enforced by rules).
   const chooseTeam = async (nextTeam) => {
     await setDoc(doc(db, 'users', user.uid), {
       team: nextTeam,

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useAuth } from '@/contexts/AuthContext';
 import { PARTNER_TYPES, SELF_SERVE_TEAMS } from '@/lib/categories';
 import { FormAlert, ModalShell } from '@/components/UploadZone';
@@ -12,18 +12,25 @@ const PARTNER_DESCRIPTIONS = {
 };
 
 /**
- * Shown once on sign-in until the person picks their role: partners choose
- * Seller / Repair partner, Revibe staff choose their team. The choice is
- * locked afterwards (a trainer can change it; Management is trainer-assigned).
+ * Shown on sign-in until the person picks their role: partners choose
+ * Seller / Repair partner, Revibe staff choose their team. Reopened from the
+ * profile menu to change it (Management is trainer-assigned).
  */
 export default function RolePicker() {
   const { user, isPartner, partnerType, choosePartnerType, isRevibeMember, team, chooseTeam } = useAuth();
   const [selected, setSelected] = useState(null);
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState('');
+  const [changing, setChanging] = useState(false);
 
-  const needsPartnerType = isPartner && !partnerType;
-  const needsTeam = isRevibeMember && !team;
+  useEffect(() => {
+    const open = () => { setSelected(null); setError(''); setChanging(true); };
+    window.addEventListener('open-role-picker', open);
+    return () => window.removeEventListener('open-role-picker', open);
+  }, []);
+
+  const needsPartnerType = isPartner && (!partnerType || changing);
+  const needsTeam = isRevibeMember && (!team || changing);
   if (!user || (!needsPartnerType && !needsTeam)) return null;
 
   const options = needsPartnerType
@@ -35,6 +42,8 @@ export default function RolePicker() {
     setError('');
     try {
       await (needsPartnerType ? choosePartnerType(selected) : chooseTeam(selected));
+      setChanging(false);
+      setSaving(false);
     } catch (err) {
       console.error('Failed to save role:', err);
       setError('Could not save your choice. Please try again.');
@@ -44,13 +53,13 @@ export default function RolePicker() {
 
   return (
     <ModalShell
-      title="Welcome to Revibe Training 👋"
+      title={changing ? 'Change your role' : 'Welcome to Revibe Training 👋'}
       subtitle={needsPartnerType
         ? 'Which of these describes you? We use it to show you the right training.'
         : 'Which team are you on? We use it to show you the right training.'}
       icon="waving_hand"
-      onClose={() => {}}
-      dismissible={false}
+      onClose={() => setChanging(false)}
+      dismissible={changing}
       className="partner-modal"
     >
       <div className="partner-options" role="radiogroup" aria-label={needsPartnerType ? 'Partner type' : 'Team'}>
@@ -72,7 +81,7 @@ export default function RolePicker() {
       </div>
 
       <p className="field-hint partner-hint">
-        You can only choose once. If you need to change it later{needsTeam ? ' or need Management access' : ''}, ask a trainer.
+        You can change this later from your profile menu.{needsTeam ? ' For Management access, ask a trainer.' : ''}
       </p>
       <FormAlert>{error}</FormAlert>
 
