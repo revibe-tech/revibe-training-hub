@@ -41,6 +41,17 @@ const STATUSES = [
   { value: 'completed', label: 'Completed' },
 ];
 
+// What a material is, so slides, videos and quizzes read differently at a glance.
+// Within a topic section they're listed in this order: learn, watch, then test.
+const TYPES = [
+  { id: 'slides', label: 'Slides', one: 'Slides', units: ['deck', 'decks'], icon: 'slideshow' },
+  { id: 'video', label: 'Videos', one: 'Video', units: ['video', 'videos'], icon: 'play_circle' },
+  { id: 'quiz', label: 'Quizzes', one: 'Quiz', units: ['quiz', 'quizzes'], icon: 'quiz' },
+];
+const typeOf = (m) => (isVideoMaterial(m) ? 'video' : isQuizMaterial(m) ? 'quiz' : 'slides');
+const typeInfo = (id) => TYPES.find((t) => t.id === id);
+const countLabel = (n, t) => `${n} ${t.units[n === 1 ? 0 : 1]}`;
+
 const isPptx = (m) => !!m?.fileName?.toLowerCase().endsWith('.pptx');
 // PowerPoints and videos get a drawn cover (title + category) instead of a page-1 render.
 const coverKind = (m) => (isVideoMaterial(m) ? 'video' : isQuizMaterial(m) ? 'quiz' : isPptx(m) ? 'pptx' : null);
@@ -88,6 +99,7 @@ function Library() {
 
   const [query, setQuery] = useState('');
   const [category, setCategory] = useState('All');
+  const [type, setType] = useState('all');
   const [sort, setSort] = useState('newest');
   const [status, setStatus] = useState('all');
 
@@ -315,19 +327,49 @@ function Library() {
     return [{ name: 'All', count: statusFiltered.length }, ...list];
   }, [statusFiltered, allCategories, category]);
 
+  const typeCounts = useMemo(() => {
+    const counts = { all: 0, slides: 0, video: 0, quiz: 0 };
+    statusFiltered.forEach(({ m }) => {
+      if (category !== 'All' && (m.category || 'General') !== category) return;
+      counts.all += 1;
+      counts[typeOf(m)] += 1;
+    });
+    return counts;
+  }, [statusFiltered, category]);
+
   const visible = useMemo(() => {
-    const list = category === 'All' ? statusFiltered : statusFiltered.filter(({ m }) => (m.category || 'General') === category);
+    const list = statusFiltered.filter(({ m }) =>
+      (category === 'All' || (m.category || 'General') === category) && (type === 'all' || typeOf(m) === type));
     const sorted = [...list];
     if (sort === 'az') sorted.sort((a, b) => (a.m.name || '').localeCompare(b.m.name || '', undefined, { numeric: true, sensitivity: 'base' }));
     else if (sort === 'oldest') sorted.sort((a, b) => toMillis(a.m.uploadedAt) - toMillis(b.m.uploadedAt));
     else sorted.sort((a, b) => toMillis(b.m.uploadedAt) - toMillis(a.m.uploadedAt));
     return sorted;
-  }, [statusFiltered, category, sort]);
+  }, [statusFiltered, category, type, sort]);
 
-  const filtersActive = !!query.trim() || category !== 'All' || activeStatus !== 'all';
+  // The library by topic (category), each split into slides, videos and quizzes.
+  const sections = useMemo(() => {
+    const byTopic = new Map();
+    visible.forEach((item) => {
+      const name = item.m.category || 'General';
+      if (!byTopic.has(name)) byTopic.set(name, []);
+      byTopic.get(name).push(item);
+    });
+    return [...byTopic.entries()]
+      .sort(([a], [b]) => (a === 'General') - (b === 'General') || a.localeCompare(b))
+      .map(([name, items]) => ({
+        name,
+        items,
+        done: items.filter(({ m }) => statusOf(m) === 'completed').length,
+        groups: TYPES.map((t) => ({ ...t, items: items.filter(({ m }) => typeOf(m) === t.id) })).filter((g) => g.items.length),
+      }));
+  }, [visible, statusOf]);
+
+  const filtersActive = !!query.trim() || category !== 'All' || type !== 'all' || activeStatus !== 'all';
   const clearFilters = () => {
     setQuery('');
     setCategory('All');
+    setType('all');
     setStatus('all');
   };
 
@@ -770,6 +812,21 @@ function Library() {
             </div>
           </div>
 
+          <div className="segmented lib-types" role="group" aria-label="Filter by type">
+            {[{ id: 'all', label: 'All types', icon: 'apps' }, ...TYPES].map((t) => (
+              <button
+                key={t.id}
+                type="button"
+                className={`${type === t.id ? 'active' : ''} ${t.id !== 'all' ? `is-${t.id}` : ''}`}
+                aria-pressed={type === t.id}
+                onClick={() => setType(t.id)}
+              >
+                <i className="material-icons" aria-hidden="true">{t.icon}</i>
+                {t.label}
+                <span className="count">{typeCounts[t.id]}</span>
+              </button>
+            ))}
+          </div>
           {categoryChips.length > 2 && (
             <div className="chip-row lib-chips" role="group" aria-label="Filter by category">
               {categoryChips.map((c) => (
@@ -846,8 +903,41 @@ function Library() {
               }
             />
           ) : (
-            <div className="lib-grid stagger">
-              {visible.map(({ m, matchPage }) => (
+            <div className="lib-sections">
+              {sections.map((sec) => (
+                <section key={sec.name} className="lib-topic" aria-labelledby={`topic-${sec.name}`}>
+                  <header className="lib-topic-head">
+                    <span className="lib-topic-icon" aria-hidden="true"><i className="material-icons">folder_open</i></span>
+                    <div className="lib-topic-text">
+                      <h2 id={`topic-${sec.name}`} className="lib-topic-title">{sec.name}</h2>
+                      <p className="lib-topic-sub">
+                        {sec.groups.map((g) => (
+                          <span key={g.id} className={`lib-topic-count is-${g.id}`}>
+                            <i className="material-icons" aria-hidden="true">{g.icon}</i>
+                            {countLabel(g.items.length, g)}
+                          </span>
+                        ))}
+                      </p>
+                    </div>
+                    {!isTrainer && (
+                      <span className="lib-topic-progress" title={`${sec.done} of ${sec.items.length} completed`}>
+                        <span className="lib-topic-progress-bar" aria-hidden="true">
+                          <span style={{ width: `${(sec.done / sec.items.length) * 100}%` }} />
+                        </span>
+                        {sec.done}/{sec.items.length} done
+                      </span>
+                    )}
+                  </header>
+                  <div className="lib-topic-body">
+                  {sec.groups.map((g) => (
+                    <div key={g.id} className={`lib-type-group is-${g.id}`} style={{ '--n': g.items.length }}>
+                      <h3 className="lib-type-label">
+                        <i className="material-icons" aria-hidden="true">{g.icon}</i>
+                        {g.label}
+                        <span className="count">{g.items.length}</span>
+                      </h3>
+                      <div className="lib-grid stagger">
+                        {g.items.map(({ m, matchPage }) => (
                 <MaterialCard
                   key={m.id}
                   material={m}
@@ -869,6 +959,12 @@ function Library() {
                   onOpenEditor={() => router.push(`/editor?id=${encodeURIComponent(m.id)}`)}
                   onDelete={() => handleDelete(m)}
                 />
+                        ))}
+                      </div>
+                    </div>
+                  ))}
+                  </div>
+                </section>
               ))}
             </div>
           )}
@@ -1104,21 +1200,10 @@ function MaterialCard({ material, progress, status, isNew, matchPage, isTrainer,
   const dateValue = updated ? material.updatedAt : material.uploadedAt;
 
   return (
-    <article className={`lib-card ${status === 'completed' ? 'is-complete' : ''} ${preview && !preview.sees ? 'is-preview-hidden' : ''}`}>
+    <article className={`lib-card is-${typeOf(material)} ${status === 'completed' ? 'is-complete' : ''} ${preview && !preview.sees ? 'is-preview-hidden' : ''}`}>
       <div className="lib-card-thumb">
         <Thumb material={material} />
-        <span className="lib-card-cat">{material.category || 'General'}</span>
-        {isVideoMaterial(material) ? (
-          <span className="lib-card-count">
-            <i className="material-icons" aria-hidden="true">play_circle</i>
-            Video
-          </span>
-        ) : isQuizMaterial(material) ? (
-          <span className="lib-card-count">
-            <i className="material-icons" aria-hidden="true">quiz</i>
-            Quiz
-          </span>
-        ) : count > 0 && (
+        {hasFile(material) && count > 0 && (
           <span className="lib-card-count">
             <i className="material-icons" aria-hidden="true">{isPptx(material) ? 'slideshow' : 'description'}</i>
             {count} {unitFor(material, count)}
@@ -1132,6 +1217,10 @@ function MaterialCard({ material, progress, status, isNew, matchPage, isTrainer,
       </div>
 
       <div className="lib-card-body">
+        <span className="lib-card-type">
+          <i className="material-icons" aria-hidden="true">{typeInfo(typeOf(material)).icon}</i>
+          {typeInfo(typeOf(material)).one}
+        </span>
         <h3 className="lib-card-title">
           <Link href={viewerHref(material.id)} className="lib-card-link" title={material.name}>
             {material.name}

@@ -154,6 +154,24 @@ export function createSeed(Timestamp) {
     };
   });
 
+  // A few videos and quizzes so the library shows every kind of material.
+  for (const [id, kind, name, category, daysAgo] of [
+    ['demo-video-grading', 'video', 'Grading a phone, step by step', 'Quality', 1],
+    ['demo-video-returns', 'video', 'Processing a return in the OMS', 'Operations', 3],
+    ['demo-quiz-grading', 'quiz', 'Grading standards check', 'Quality', 2],
+    ['demo-quiz-policies', 'quiz', 'Warranty & returns policy quiz', 'Policies', 4],
+  ]) {
+    materials[id] = {
+      id, kind, name, category,
+      audiences: ['revibe'],
+      pageCount: 0,
+      textContent: [],
+      thumbnailURL: thumbnail(name, category),
+      uploadedBy: 'sara.khan@revibe.me',
+      uploadedAt: new Timestamp(now - daysAgo * DAY),
+    };
+  }
+
   for (const [uid, idx, viewed, startedDaysAgo] of PROGRESS) {
     const m = DEMO_MATERIALS[idx];
     const total = m.slides.length;
