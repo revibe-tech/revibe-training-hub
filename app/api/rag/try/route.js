@@ -16,7 +16,7 @@ const clamp = (n, [lo, hi]) => Math.min(hi, Math.max(lo, n));
 /**
  * Trainers and management: run one question through the pipeline the way an
  * audience would, and return every step. Nothing is logged.
- * Body: { question, audience?: 'revibe' | 'seller' | 'repair' | 'group:<id>' (default: everything),
+ * Body: { question, audience?: 'revibe' | 'kam' | 'seller' | 'repair' | 'group:<id>' (default: everything),
  *         materialId?, instructions?, matchCount? (unsaved drafts to try) }
  */
 export async function POST(request) {
