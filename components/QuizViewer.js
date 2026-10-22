@@ -24,7 +24,7 @@ export default function QuizViewer({ materialId, title, category, audiences, isT
         {isTrainer && (
           <div className="segmented qz-tabs" role="group" aria-label="View">
             <button type="button" className={tab === 'results' ? 'active' : ''} aria-pressed={tab === 'results'} onClick={() => setTab('results')}>Results</button>
-            <button type="button" className={tab === 'take' ? 'active' : ''} aria-pressed={tab === 'take'} onClick={() => setTab('take')}>Preview</button>
+            <button type="button" className={tab === 'take' ? 'active' : ''} aria-pressed={tab === 'take'} onClick={() => setTab('take')}>Take quiz</button>
           </div>
         )}
       </ViewerTopBar>
@@ -61,11 +61,11 @@ function TakeQuiz({ quizId, title, isTrainer }) {
   const uid = user?.uid;
   const passed = !!quiz?.overall?.passed;
   useEffect(() => {
-    if (!uid || isTrainer || !passed) return;
+    if (!uid || !passed) return;
     isMaterialCompleted(uid, quizId)
       .then((done) => (done ? null : markMaterialCompleted(uid, quizId, 1, title || 'Quiz').then(() => checkForBadges(uid))))
       .catch((err) => console.warn('Could not mark the quiz complete:', err));
-  }, [uid, isTrainer, passed, quizId, title, checkForBadges]);
+  }, [uid, passed, quizId, title, checkForBadges]);
 
   const start = useCallback(async (topic) => {
     setError('');
@@ -89,7 +89,7 @@ function TakeQuiz({ quizId, title, isTrainer }) {
       setQuiz((q) => ({ ...q, results: out.results, overall: out.overall }));
       setMode({ kind: 'result', topic: run.topic.id });
       logActivity('quiz', { detail: { topic: run.topic.id, percent: out.result.percent } });
-      if (out.overall.passed && !wasPassed && !isTrainer) toast.success(`Quiz passed with ${out.overall.percent}%. Well done!`, { duration: 6000 });
+      if (out.overall.passed && !wasPassed) toast.success(`Quiz passed with ${out.overall.percent}%. Well done!`, { duration: 6000 });
     } catch (err) {
       setError(err.message);
     } finally {
@@ -146,7 +146,6 @@ function TakeQuiz({ quizId, title, isTrainer }) {
   const tone = overall.complete ? (overall.passed ? 'good' : 'bad') : 'brand';
   return (
     <div className="qz">
-      {isTrainer && <p className="qz-note"><i className="material-icons" aria-hidden="true">visibility</i>Preview: your tries are saved like anyone’s, so you can check the questions end to end.</p>}
       <section className="qz-card qz-score" aria-labelledby="qz-score-title">
         <div>
           <p id="qz-score-title" className="qz-eyebrow">Your score</p>
